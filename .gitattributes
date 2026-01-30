@@ -1,0 +1,2 @@
+ingested_documents.json filter=lfs diff=lfs merge=lfs -text
+ingested_documents.json !text !filter !merge !diff
