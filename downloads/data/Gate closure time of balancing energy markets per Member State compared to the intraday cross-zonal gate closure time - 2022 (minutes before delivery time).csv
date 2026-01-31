@@ -1,0 +1,26 @@
+Member State,Intraday cross-zonal Gate Closure Time,Balancing energy Gate Closure Time: aFRR,Balancing energy Gate Closure Time: mFRR,Balancing energy Gate Closure Time: RR
+AT,H-60 min,H-25 min,H-25 min,NAP
+BE,H-60 min,H-25 min,H-45 min,NAP
+BG,NA,NA,NA,NA
+CZ,H-60 min,H-25 min,H-25 min,H-55 min
+DE,H-60 min,H-60 min,H-60 min,NAP
+DK,H-60 min,NAP,H-45 min,NAP
+EE,H-30 min,NAP,H-60 min,NAP
+ES,H-60 min,NAP,H-25 min,NAP
+FI,H-30 min,H-more than 120 min,H-45 min,NAP
+FR,H-60 min,NA,H-55 min,H-55 min
+GR,H-60 min,H-15 min,H-15 min,NAP
+HR,NA,NA,NA,NAP
+HU,H-60 min,H-15 min,H-15 min,NAP
+IE,NA,NA,NA,NA
+IT,H-60 min,H-60 min,H-60 min,H-55 min
+LT,H-60 min,NAP,H-45 min,NAP
+LV,H-60 min,NAP,H-45 min,NAP
+NL,H-60 min,H-30 min,NAP,NAP
+NO,H-60 min,NAP,H-45 min,NAP
+PL,H-60 min,H-45 min,NAP,H-45 min
+PT,H-60 min,NA,H-25 min,H-55 min
+RO,H-60 min,H-50 min,H-50 min,H-50 min
+SE,H-60 min,H-more than 120 min,H-45 min,NAP
+SI,H-60 min,H-25 min,H-25 min,Until delivery time
+SK,H-60 min,H-60 min,H-60 min,NAP

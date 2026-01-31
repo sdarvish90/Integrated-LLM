@@ -1,0 +1,60 @@
+Country,Production type,Share of generated electricity (%)
+AT,Gas,8.70
+BE,Gas,16.00
+BE,Other fossil fuel,0.00
+BG,Coal,26.40
+BG,Gas,5.60
+CZ,Coal,34.50
+CZ,Gas,5.00
+CZ,Other fossil fuel,0.00
+DE,Coal,22.90
+DE,Gas,13.10
+DE,Other fossil fuel,0.70
+DK,Coal,9.70
+DK,Gas,5.40
+DK,Other fossil fuel,1.10
+EE,Coal,9.60
+EE,Gas,0.70
+EE,Other fossil fuel,34.80
+ES,Coal,1.20
+ES,Gas,16.80
+ES,Other fossil fuel,0.10
+FI,Coal,1.40
+FI,Gas,1.60
+FI,Other fossil fuel,2.40
+FR,Coal,0.10
+FR,Gas,3.30
+FR,Other fossil fuel,0.30
+GR,Coal,6.50
+GR,Gas,42.10
+HR,Coal,5.20
+HR,Gas,21.30
+HR,Other fossil fuel,0.00
+HU,Coal,8.10
+HU,Gas,19.80
+HU,Other fossil fuel,0.10
+IE,Coal,5.00
+IE,Gas,36.60
+IE,Other fossil fuel,8.90
+IT,Coal,3.60
+IT,Gas,40.20
+IT,Other fossil fuel,0.20
+LT,Gas,10.20
+LU,Gas,5.00
+LV,Gas,26.90
+NL,Coal,9.90
+NL,Gas,28.60
+NO,Gas,1.10
+PL,Coal,56.80
+PL,Gas,10.40
+PL,Other fossil fuel,1.30
+PT,Gas,10.50
+RO,Coal,13.70
+RO,Gas,19.90
+SE,Gas,0.00
+SI,Coal,20.70
+SI,Gas,3.10
+SI,Other fossil fuel,0.00
+SK,Coal,0.90
+SK,Gas,8.20
+SK,Other fossil fuel,1.20

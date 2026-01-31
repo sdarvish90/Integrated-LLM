@@ -1,0 +1,8 @@
+Type of Distributed energy resource,Total capacity prequalified (upward) (MW),Total capacity prequalified (downward) (MW),"Share of each type of distributed energy resource over the total capacity prequalified of distributed energy resources
+at EU level (Upward) (%)","Share of each type of distributed energy resource over the total capacity prequalified of distributed energy resources
+at EU level (Downward) (%)"
+Distributed generation,9890,-15967,0.48,0.60
+Batteries,1680,-1680,0.08,0.06
+"Storage excluding hydro, pumped-hydro, and batteries (upward)",18,-17,0.00,0.00
+Total demand response (upward),8994,-8825,0.44,0.33
+Total distributed energy resources,20582,-26489,,

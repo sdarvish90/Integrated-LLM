@@ -1,0 +1,109 @@
+Country,Cost component,Value [EUR/kg],Value [EUR/MWh]
+Greece,Total levelised cost of hydrogen,5.70,170.60
+Greece,Capital expenditure,3.60,108.10
+Greece,Electricity,1.20,34.80
+Greece,Other operating expenditure,0.90,27.60
+Cyprus,Total levelised cost of hydrogen,6.00,179.90
+Cyprus,Capital expenditure,3.60,107.20
+Cyprus,Electricity,1.50,45.30
+Cyprus,Other operating expenditure,0.90,27.30
+Portugal,Total levelised cost of hydrogen,6.00,179.90
+Portugal,Capital expenditure,3.60,107.20
+Portugal,Electricity,1.50,45.30
+Portugal,Other operating expenditure,0.90,27.30
+Spain,Total levelised cost of hydrogen,6.00,180.20
+Spain,Capital expenditure,3.50,106.00
+Spain,Electricity,1.60,47.10
+Spain,Other operating expenditure,0.90,27.00
+Malta,Total levelised cost of hydrogen,6.00,180.20
+Malta,Capital expenditure,3.60,107.50
+Malta,Electricity,1.50,45.30
+Malta,Other operating expenditure,0.90,27.30
+Italy,Total levelised cost of hydrogen,6.80,203.30
+Italy,Capital expenditure,4.00,119.80
+Italy,Electricity,1.80,52.90
+Italy,Other operating expenditure,1.00,30.60
+France,Total levelised cost of hydrogen,7.60,228.20
+France,Capital expenditure,4.10,123.70
+France,Electricity,2.40,73.00
+France,Other operating expenditure,1.10,31.50
+Croatia,Total levelised cost of hydrogen,8.10,241.70
+Croatia,Capital expenditure,4.80,144.10
+Croatia,Electricity,2.00,61.00
+Croatia,Other operating expenditure,1.20,36.60
+Bulgaria,Total levelised cost of hydrogen,8.10,244.40
+Bulgaria,Capital expenditure,4.90,145.60
+Bulgaria,Electricity,2.10,61.60
+Bulgaria,Other operating expenditure,1.20,37.20
+Romania,Total levelised cost of hydrogen,8.30,249.50
+Romania,Capital expenditure,5.00,148.90
+Romania,Electricity,2.10,62.80
+Romania,Other operating expenditure,1.30,37.80
+Hungary,Total levelised cost of hydrogen,8.70,261.00
+Hungary,Capital expenditure,5.20,155.60
+Hungary,Electricity,2.20,65.80
+Hungary,Other operating expenditure,1.30,39.60
+Slovenia,Total levelised cost of hydrogen,9.20,276.60
+Slovenia,Capital expenditure,5.50,164.90
+Slovenia,Electricity,2.30,69.70
+Slovenia,Other operating expenditure,1.40,42.00
+Austria,Total levelised cost of hydrogen,9.40,281.70
+Austria,Capital expenditure,5.60,167.90
+Austria,Electricity,2.40,70.90
+Austria,Other operating expenditure,1.40,42.90
+Germany,Total levelised cost of hydrogen,9.50,284.70
+Germany,Capital expenditure,6.00,179.00
+Germany,Electricity,2.00,60.10
+Germany,Other operating expenditure,1.50,45.60
+Slovakia,Total levelised cost of hydrogen,9.60,287.10
+Slovakia,Capital expenditure,5.70,171.20
+Slovakia,Electricity,2.40,72.40
+Slovakia,Other operating expenditure,1.50,43.50
+Netherlands,Total levelised cost of hydrogen,10.00,299.70
+Netherlands,Capital expenditure,6.20,186.20
+Netherlands,Electricity,2.20,66.10
+Netherlands,Other operating expenditure,1.60,47.40
+Finland,Total levelised cost of hydrogen,10.10,304.20
+Finland,Capital expenditure,6.00,181.40
+Finland,Electricity,2.60,76.60
+Finland,Other operating expenditure,1.50,46.20
+Denmark,Total levelised cost of hydrogen,10.30,310.20
+Denmark,Capital expenditure,6.20,185.00
+Denmark,Electricity,2.60,78.10
+Denmark,Other operating expenditure,1.60,47.10
+Belgium,Total levelised cost of hydrogen,10.50,314.70
+Belgium,Capital expenditure,6.30,187.70
+Belgium,Electricity,2.60,79.30
+Belgium,Other operating expenditure,1.60,47.70
+Sweden,Total levelised cost of hydrogen,10.60,316.80
+Sweden,Capital expenditure,6.30,188.90
+Sweden,Electricity,2.70,79.90
+Sweden,Other operating expenditure,1.60,48.00
+Czechia,Total levelised cost of hydrogen,10.60,319.20
+Czechia,Capital expenditure,6.30,190.10
+Czechia,Electricity,2.70,80.50
+Czechia,Other operating expenditure,1.60,48.60
+Poland,Total levelised cost of hydrogen,10.90,327.90
+Poland,Capital expenditure,6.30,190.10
+Poland,Electricity,3.00,89.20
+Poland,Other operating expenditure,1.60,48.60
+Luxembourg,Total levelised cost of hydrogen,11.10,333.00
+Luxembourg,Capital expenditure,6.60,198.50
+Luxembourg,Electricity,2.80,83.80
+Luxembourg,Other operating expenditure,1.70,50.80
+Latvia,Total levelised cost of hydrogen,11.40,343.20
+Latvia,Capital expenditure,6.80,204.50
+Latvia,Electricity,2.90,86.50
+Latvia,Other operating expenditure,1.70,52.30
+Estonia,Total levelised cost of hydrogen,11.50,345.60
+Estonia,Capital expenditure,6.90,206.00
+Estonia,Electricity,2.90,87.10
+Estonia,Other operating expenditure,1.80,52.60
+Lithuania,Total levelised cost of hydrogen,11.50,345.60
+Lithuania,Capital expenditure,6.90,206.00
+Lithuania,Electricity,2.90,87.10
+Lithuania,Other operating expenditure,1.80,52.60
+Ireland,Total levelised cost of hydrogen,12.10,362.20
+Ireland,Capital expenditure,7.20,215.90
+Ireland,Electricity,3.00,91.30
+Ireland,Other operating expenditure,1.80,55.00

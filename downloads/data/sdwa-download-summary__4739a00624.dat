@@ -1,0 +1,1696 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-L8ZB');</script>
+    <!-- End Google Tag Manager -->
+    <meta charset="utf-8" />
+<noscript><meta http-equiv="Refresh" content="0; URL=/big_pipe/no-js?destination=/tools/data-downloads/sdwa-download-summary" />
+</noscript><meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="/themes/custom/echo/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="canonical" href="https://echo.epa.gov/tools/data-downloads/sdwa-download-summary" />
+<link rel="shortlink" href="https://echo.epa.gov/node/422" />
+
+    <title>SDWA Data Download Summary and Data Element Dictionary | ECHO | US EPA</title>
+    <link rel="stylesheet" media="all" href="/assets/css/css_b2QtWEFnNeGY0Stq38WX62xWeRuz8N4cC08Jh_j588k.css?delta=0&amp;language=en&amp;theme=echo&amp;include=eJxdzEEOgCAMRNELqRzJFKhSLZbQEvX2JmpcuJu8TH6Qii7WVoAHWODoMCRxM4sH7tVOpm1-LIsnxnuP0Cy9pwfCipFM6ocFxqZ71H9KW8E6kSZHG1mnpxpm50HxAlQtNTM" />
+<link rel="stylesheet" media="all" href="/assets/css/css_1QydhEcwEbbgF_YMBykZ5-GxkhzNT6kkA5CItuzFSvg.css?delta=1&amp;language=en&amp;theme=echo&amp;include=eJxdzEEOgCAMRNELqRzJFKhSLZbQEvX2JmpcuJu8TH6Qii7WVoAHWODoMCRxM4sH7tVOpm1-LIsnxnuP0Cy9pwfCipFM6ocFxqZ71H9KW8E6kSZHG1mnpxpm50HxAlQtNTM" />
+<link rel="stylesheet" media="all" href="/assets/css/css_KR5R4D3d8koXL5dDtOkiYQfOhQ0-UHb5we7pIfkNFeQ.css?delta=2&amp;language=en&amp;theme=echo&amp;include=eJxdzEEOgCAMRNELqRzJFKhSLZbQEvX2JmpcuJu8TH6Qii7WVoAHWODoMCRxM4sH7tVOpm1-LIsnxnuP0Cy9pwfCipFM6ocFxqZ71H9KW8E6kSZHG1mnpxpm50HxAlQtNTM" />
+<link rel="stylesheet" media="all" href="/assets/css/css_nrkuDoW6I2wUHPHuTQFJiHr5B14uaqBGdLzh5A0cSVc.css?delta=3&amp;language=en&amp;theme=echo&amp;include=eJxdzEEOgCAMRNELqRzJFKhSLZbQEvX2JmpcuJu8TH6Qii7WVoAHWODoMCRxM4sH7tVOpm1-LIsnxnuP0Cy9pwfCipFM6ocFxqZ71H9KW8E6kSZHG1mnpxpm50HxAlQtNTM" />
+
+    
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-L8ZB"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+  
+
+<!-- EPA header -->
+
+<div class="banner-message epa-header">
+  
+</div>
+
+<div class="skiplinks epa-header" role="navigation" aria-labelledby="skip-to-main--echo">
+  <a id="skip-to-main--echo"
+     href="#main-content"
+     class="skiplinks__link visually-hidden focusable">Skip to main content</a>
+</div>
+<section class="usa-banner epa-header" aria-label="Official government website">
+  <div class="usa-accordion">
+    <header class="usa-banner__header">
+      <div class="usa-banner__inner">
+        <div class="grid-col-auto">
+          <img class="usa-banner__header-flag" src="https://www.epa.gov/themes/epa_theme/images/us_flag_small.png"
+               alt="U.S. flag" height="11px" width="16px">
+        </div>
+        <div class="grid-col-fill tablet:grid-col-auto">
+          <p class="usa-banner__header-text">An official website of the United States government</p>
+          <p class="usa-banner__header-action" aria-hidden="true">Here’s how you know</p></div>
+        <button class="usa-accordion__button usa-banner__button" aria-expanded="false" aria-controls="gov-banner">
+          <span class="usa-banner__button-text">Here’s how you know</span>
+        </button>
+      </div>
+    </header>
+    <div class="usa-banner__content usa-accordion__content" id="gov-banner" hidden="">
+      <div class="grid-row grid-gap-lg">
+        <div class="usa-banner__guidance tablet:grid-col-6">
+          <img class="usa-banner__icon usa-media-block__img"
+               src="https://www.epa.gov/themes/epa_theme/images/icon-dot-gov.svg" alt="Dot gov">
+          <div class="usa-media-block__body">
+            <p>
+              <strong>Official websites use .gov</strong>
+              <br> A <strong>.gov</strong> website belongs to an official government organization in the United States.
+            </p>
+          </div>
+        </div>
+        <div class="usa-banner__guidance tablet:grid-col-6">
+          <img class="usa-banner__icon usa-media-block__img"
+               src="https://www.epa.gov/themes/epa_theme/images/icon-https.svg" alt="HTTPS">
+          <div class="usa-media-block__body">
+            <p>
+              <strong>Secure .gov websites use HTTPS</strong>
+              <br> A <strong>lock</strong> (<span class="icon-lock"><svg xmlns="http://www.w3.org/2000/svg" width="52"
+                                                                         height="64" viewBox="0 0 52 64"
+                                                                         class="usa-banner__lock-image" role="img"
+                                                                         aria-labelledby="banner-lock-title banner-lock-description"><title
+                      id="banner-lock-title">Lock</title><desc id="banner-lock-description">A locked padlock</desc><path
+                      fill="#000000" fill-rule="evenodd"
+                      d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z"></path></svg></span>)
+              or <strong>https://</strong> means you’ve safely connected to the .gov website. Share sensitive
+              information only on official, secure websites.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<header
+  class="l-header js-header-search usa-header usa-header--extended"
+  data-once="header-search"
+>
+  <div class="usa-overlay"></div>
+  <div class="l-constrain">
+    <div class="l-header__navbar">
+      <div class="l-header__branding">
+                        <a class="site-logo" href="https://www.epa.gov" aria-label="Home" title="Home" rel="home">
+          <span class="site-logo__image">
+            <svg
+              class="site-logo__svg-main"
+              aria-hidden="true"
+              viewBox="0 0 454.1 154.7"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m112.8 61.2c-4.8 18.6-22.9 33.3-42.9 33.3-20.1 0-38-14.7-42.9-33.4h.2s9.8 10.3-.2 0c3.1 3.1 6.2 4.4 10.7 4.4s7.7-1.3 10.7-4.4c3.1 3.1 6.3 4.5 10.9 4.4 4.5 0 7.6-1.3 10.7-4.4 3.1 3.1 6.2 4.4 10.7 4.4s7.7-1.3 10.7-4.4c3.1 3.1 6.3 4.5 10.9 4.4 4.3 0 7.4-1.2 10.5-4.3z"
+              ></path>
+              <path
+                d="m113.2 51.2c0-24-19.4-43.5-43.3-43.5-24 0-43.5 19.5-43.5 43.5h39.1c-4.8-1.8-8.1-6.3-8.1-11.6 0-7 5.7-12.5 12.5-12.5 7 0 12.7 5.5 12.7 12.5 0 5.2-3.1 9.6-7.6 11.6z"
+              ></path>
+              <path
+                d="m72.6 147c.7-36.9 29.7-68.8 66.9-70 0 37.2-30 68-66.9 70z"
+              ></path>
+              <path
+                d="m67.1 147c-.7-36.9-29.7-68.8-67.1-70 0 37.2 30.2 68 67.1 70z"
+              ></path>
+              <path
+                d="m240 10.8h-87.9v133.1h87.9v-20.4h-60.3v-36h60.3v-21h-60.3v-35h60.3z"
+              ></path>
+              <path
+                d="m272.8 66.5h27.1c9.1 0 15.2-8.6 15.1-17.7-.1-9-6.1-17.3-15.1-17.3h-25.3v112.4h-27.8v-133.1h62.3c20.2 0 35 17.8 35.2 38 .2 20.4-14.8 38.7-35.2 38.7h-36.3z"
+              ></path>
+              <path
+                d="m315.9 143.9h29.7l12.9-35h54.2l-8.1-21.9h-38.4l18.9-50.7 39.2 107.6h29.7l-53.1-133.1h-33.7z"
+              ></path>
+            </svg>
+            <svg
+              class="site-logo__svg-text"
+              aria-hidden="true"
+              viewBox="0 0 595.4 154.7"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m9 8.5v22.4c0 1.9.2 3.3.5 4.3s.7 1.7 1 2.2c1.2 1.4 2.5 2.4 3.9 2.9 1.5.5 2.8.7 4.1.7 2.4 0 4.2-.4 5.5-1.3 1.3-.8 2.2-1.8 2.8-2.9s.9-2.3 1-3.4.1-2 .1-2.6v-22.3h4.7v22.3 1.7c0 .7-.1 1.5-.4 2.4-.3 1.8-1.2 3.6-2.5 5.4-1.8 2.1-3.8 3.5-6 4.2-2.2.6-4 .9-5.3.9-1.8 0-3.8-.3-6.2-1.1s-4.5-2.3-6.2-4.7c-.5-.8-1-1.8-1.4-3.2-.4-1.3-.6-3.3-.6-5.9v-22z"
+              ></path>
+              <path
+                d="m43.2 22.2v-2.9l4.6.1-.1 4.1c.2-.3.4-.7.8-1.2.3-.5.8-.9 1.4-1.4s1.4-.9 2.3-1.3c.9-.3 2.1-.5 3.4-.4.6 0 1.4.1 2.4.3.9.2 1.9.6 2.9 1.2s1.8 1.5 2.4 2.6c.6 1.2.9 2.8.9 4.7l-.4 17-4.6-.1.4-16c0-.9 0-1.7-.2-2.4-.1-.7-.5-1.3-1.1-1.9-1.2-1.2-2.6-1.8-4.3-1.8s-3.1.5-4.4 1.7-2 3.1-2.1 5.7l-.3 14.5-4.5-.1z"
+              ></path>
+              <path d="m72.9 8.6h5.5v5.1h-5.5zm.5 10.9h4.6v25.1h-4.6z"></path>
+              <path
+                d="m83.5 19.4h4.3v-5.3l4.5-1.5v6.8h5.4v3.4h-5.4v15.1c0 .3 0 .6.1 1 0 .4.1.7.4 1.1.2.4.5.6 1 .8.4.3 1 .4 1.8.4 1 0 1.7-.1 2.2-.2v3.7c-.9.2-2.1.3-3.8.3-2.1 0-3.6-.4-4.6-1.2s-1.5-2.2-1.5-4.2v-16.8h-4.3v-3.4z"
+              ></path>
+              <path
+                d="m106.6 32.9c-.1 2.6.5 4.8 1.7 6.5 1.1 1.7 2.9 2.6 5.3 2.6 1.5 0 2.8-.4 3.9-1.3 1-.8 1.6-2.2 1.8-4h4.6c0 .6-.2 1.4-.4 2.3-.3 1-.8 2-1.7 3-.2.3-.6.6-1 1-.5.4-1 .7-1.7 1.1s-1.5.6-2.4.8c-.9.3-2 .4-3.3.4-7.6-.2-11.3-4.5-11.3-12.9 0-2.5.3-4.8 1-6.8s2-3.7 3.8-5.1c1.2-.8 2.4-1.3 3.7-1.6 1.3-.2 2.2-.3 3-.3 2.7 0 4.8.6 6.3 1.6s2.5 2.3 3.1 3.9c.6 1.5 1 3.1 1.1 4.6.1 1.6.1 2.9 0 4h-17.5m12.9-3c0-.3 0-.7 0-1.1s0-.8-.1-1.2c-.1-.9-.4-1.7-.8-2.5s-1-1.5-1.8-2c-.9-.5-2-.8-3.4-.8-.8 0-1.5.1-2.3.3s-1.5.7-2.2 1.3-1.2 1.3-1.6 2.3-.7 2.2-.8 3.6h13z"
+              ></path>
+              <path
+                d="m148.6 8.6h4.6v32.1c0 1 .1 2.3.2 4h-4.6l-.1-4c-.2.3-.4.7-.7 1.2s-.8 1-1.4 1.5c-1 .7-2 1.2-3.1 1.4-.5.1-1 .2-1.5.3s-.9.1-1.4.1c-.4 0-.8 0-1.3-.1s-1.1-.2-1.7-.3c-1.1-.3-2.3-.9-3.4-1.8s-2.1-2.2-2.9-3.8c-.8-1.7-1.2-3.9-1.2-6.6.1-4.8 1.2-8.3 3.4-10.5 2.1-2.1 4.7-3.2 7.6-3.2 1.3 0 2.4.2 3.4.5.9.3 1.6.7 2.2 1.2.6.4 1 .9 1.3 1.4s.6.8.7 1.1zm.1 23.1c0-1.9-.2-3.3-.5-4.4-.4-1.1-.8-2-1.4-2.6-.5-.7-1.2-1.3-2-1.8-.9-.5-2-.7-3.3-.7-1.7 0-2.9.5-3.8 1.3s-1.6 1.9-2 3.1-.7 2.3-.7 3.4c-.1 1.1-.2 1.9-.1 2.4 0 1.1.1 2.2.3 3.4.2 1.1.5 2.2 1 3.1.5 1 1.2 1.7 2 2.3.9.6 2 .9 3.3.9 1.8 0 3.2-.5 4.2-1.4 1-.8 1.7-1.8 2.1-3s.7-2.4.8-3.4c.1-1.4.1-2.1.1-2.6z"
+              ></path>
+              <path
+                d="m179.6 34.1c0 .6.1 1.3.3 2.1.1.8.5 1.6 1 2.3.5.8 1.4 1.4 2.5 1.9s2.7.8 4.7.8c1.8 0 3.3-.3 4.4-.8s1.9-1.1 2.5-1.8 1-1.5 1.1-2.2.2-1.2.2-1.7c0-1-.2-1.9-.5-2.6-.4-.6-.9-1.2-1.6-1.6-1.4-.8-3.4-1.4-5.9-2-4.9-1.1-8.1-2.2-9.5-3.2s-2.3-2.2-2.9-3.5c-.6-1.2-.8-2.4-.8-3.6.1-3.7 1.5-6.4 4.2-8.1 2.6-1.7 5.7-2.5 9.1-2.5 1.3 0 2.9.2 4.8.5 1.9.4 3.6 1.4 5 3 .5.5.9 1.1 1.2 1.7.3.5.5 1.1.6 1.6.2 1.1.3 2.1.3 2.9h-5c-.2-2.2-1-3.7-2.4-4.5-1.5-.7-3.1-1.1-4.9-1.1-5.1.1-7.7 2-7.8 5.8 0 1.5.5 2.7 1.6 3.5 1 .8 2.6 1.4 4.7 1.9 4 1 6.7 1.8 8.1 2.2.8.2 1.4.5 1.8.7.5.2 1 .5 1.4.9.8.5 1.4 1.1 1.9 1.8s.8 1.4 1.1 2.1c.3 1.4.5 2.5.5 3.4 0 3.3-1.2 6-3.5 8-2.3 2.1-5.8 3.2-10.3 3.3-1.4 0-3.2-.3-5.4-.8-1-.3-2-.7-3-1.2-.9-.5-1.8-1.2-2.5-2.1-.9-1.4-1.5-2.7-1.7-4.1-.3-1.3-.4-2.4-.3-3.2h5z"
+              ></path>
+              <path
+                d="m205.7 19.4h4.3v-5.3l4.5-1.5v6.8h5.4v3.4h-5.4v15.1c0 .3 0 .6.1 1 0 .4.1.7.4 1.1.2.4.5.6 1 .8.4.3 1 .4 1.8.4 1 0 1.7-.1 2.2-.2v3.7c-.9.2-2.1.3-3.8.3-2.1 0-3.6-.4-4.6-1.2s-1.5-2.2-1.5-4.2v-16.8h-4.4z"
+              ></path>
+              <path
+                d="m241 44.6c-.3-1.2-.5-2.5-.4-3.7-.5 1-1.1 1.8-1.7 2.4-.7.6-1.4 1.1-2 1.4-1.4.5-2.7.8-3.7.8-2.8 0-4.9-.8-6.4-2.2s-2.2-3.1-2.2-5.2c0-1 .2-2.3.8-3.7s1.7-2.6 3.5-3.7c1.4-.7 2.9-1.2 4.5-1.5 1.6-.1 2.9-.2 3.9-.2s2.1 0 3.3.1c.1-2.9-.2-4.8-.9-5.6-.5-.6-1.1-1.1-1.9-1.3s-1.6-.4-2.3-.4c-1.1 0-2 .2-2.6.5-.7.3-1.2.7-1.5 1.2s-.5.9-.6 1.4-.2.9-.2 1.2h-4.6c.1-.7.2-1.4.4-2.3.2-.8.6-1.6 1.3-2.5.5-.6 1-1 1.7-1.3.6-.3 1.3-.6 2-.8 1.5-.4 2.8-.6 4.2-.6 1.8 0 3.6.3 5.2.9s2.8 1.6 3.4 2.9c.4.7.6 1.4.7 2s.1 1.2.1 1.8l-.2 12c0 1 .1 3.1.4 6.3h-4.2m-.5-12.1c-.7-.1-1.6-.1-2.6-.1-.5 0-1.2 0-2.1 0-1 .1-2 .3-3 .6s-1.9.8-2.6 1.5c-.8.7-1.2 1.7-1.2 3 0 .4.1.8.2 1.3s.4 1 .8 1.5.9.8 1.6 1.1 1.5.5 2.5.5c2.3 0 4.1-.9 5.2-2.7.5-.8.8-1.7 1-2.7.1-.9.2-2.2.2-4z"
+              ></path>
+              <path
+                d="m250.2 19.4h4.3v-5.3l4.5-1.5v6.8h5.4v3.4h-5.4v15.1c0 .3 0 .6.1 1 0 .4.1.7.4 1.1.2.4.5.6 1 .8.4.3 1 .4 1.8.4 1 0 1.7-.1 2.2-.2v3.7c-.9.2-2.1.3-3.8.3-2.1 0-3.6-.4-4.6-1.2s-1.5-2.2-1.5-4.2v-16.8h-4.3v-3.4z"
+              ></path>
+              <path
+                d="m273.3 32.9c-.1 2.6.5 4.8 1.7 6.5 1.1 1.7 2.9 2.6 5.3 2.6 1.5 0 2.8-.4 3.9-1.3 1-.8 1.6-2.2 1.8-4h4.6c0 .6-.2 1.4-.4 2.3-.3 1-.8 2-1.7 3-.2.3-.6.6-1 1-.5.4-1 .7-1.7 1.1s-1.5.6-2.4.8c-.9.3-2 .4-3.3.4-7.6-.2-11.3-4.5-11.3-12.9 0-2.5.3-4.8 1-6.8s2-3.7 3.8-5.1c1.2-.8 2.4-1.3 3.7-1.6 1.3-.2 2.2-.3 3-.3 2.7 0 4.8.6 6.3 1.6s2.5 2.3 3.1 3.9c.6 1.5 1 3.1 1.1 4.6.1 1.6.1 2.9 0 4h-17.5m12.9-3c0-.3 0-.7 0-1.1s0-.8-.1-1.2c-.1-.9-.4-1.7-.8-2.5s-1-1.5-1.8-2c-.9-.5-2-.8-3.4-.8-.8 0-1.5.1-2.3.3s-1.5.7-2.2 1.3-1.2 1.3-1.6 2.3-.7 2.2-.8 3.6h13z"
+              ></path>
+              <path
+                d="m301 37.2c0 .5.1 1 .2 1.4.1.5.4 1 .8 1.5s.9.8 1.6 1.1 1.6.5 2.7.5c1 0 1.8-.1 2.5-.3s1.3-.6 1.7-1.2c.5-.7.8-1.5.8-2.4 0-1.2-.4-2-1.3-2.5s-2.2-.9-4.1-1.2c-1.3-.3-2.4-.6-3.6-1-1.1-.3-2.1-.8-3-1.3s-1.5-1.2-2-2.1c-.5-.8-.8-1.9-.8-3.2 0-2.4.9-4.2 2.6-5.6 1.7-1.3 4-2 6.8-2.1 1.6 0 3.3.3 5 .8 1.7.6 2.9 1.6 3.7 3.1.4 1.4.6 2.6.6 3.7h-4.6c0-1.8-.6-3-1.7-3.5-1.1-.4-2.1-.6-3.1-.6-.2 0-.5 0-1 0s-1.1.2-1.7.4-1.1.5-1.5 1.1c-.5.5-.7 1.2-.7 2.1 0 1.1.5 1.9 1.3 2.3.7.4 1.5.7 2.1.9 3.3.7 5.6 1.3 6.9 1.8 1.3.4 2.2 1 2.8 1.7.7.7 1.1 1.4 1.4 2.2s.4 1.6.4 2.5c0 1.4-.3 2.7-.9 3.8s-1.4 2-2.4 2.6c-1.1.6-2.2 1-3.4 1.3s-2.5.4-3.8.4c-2.5 0-4.7-.6-6.6-1.8-1.8-1.2-2.8-3.3-2.9-6.3z"
+              ></path>
+              <path
+                d="m3.4 58.5h21.9v4.2h-17.1v11.3h16.3v4.2h-16.3v12.1h17.5v4.3h-22.3z"
+              ></path>
+              <path
+                d="m34.7 72.4-.1-2.9h4.6v4.1c.2-.3.4-.8.7-1.2.3-.5.8-1 1.3-1.5.6-.5 1.4-1 2.3-1.3s2-.5 3.4-.5c.6 0 1.4.1 2.4.2.9.2 1.9.5 2.9 1.1s1.8 1.4 2.5 2.5c.6 1.2 1 2.7 1 4.7v17.1h-4.6v-16c0-.9-.1-1.7-.2-2.4-.2-.7-.5-1.3-1.1-1.9-1.2-1.1-2.6-1.7-4.3-1.7s-3.1.6-4.3 1.8c-1.3 1.2-2 3.1-2 5.7v14.5h-4.5z"
+              ></path>
+              <path
+                d="m60.3 69.5h5.1l7.7 19.9 7.6-19.9h5l-10.6 25.1h-4.6z"
+              ></path>
+              <path d="m91.4 58.6h5.5v5.1h-5.5zm.5 10.9h4.6v25.1h-4.6z"></path>
+              <path
+                d="m106 74.7c0-1.8-.1-3.5-.3-5.1h4.6l.1 4.9c.5-1.8 1.4-3 2.5-3.7s2.2-1.2 3.3-1.3c1.4-.2 2.4-.2 3.1-.1v4.6c-.2-.1-.5-.2-.9-.2-.3 0-.8 0-1.3 0-1.3 0-2.4.2-3.3.5-.9.4-1.5.9-2 1.6-.9 1.4-1.4 3.2-1.3 5.4v13.3h-4.6v-19.9z"
+              ></path>
+              <path
+                d="m123.3 82.4c0-1.6.2-3.2.6-4.8s1.1-3 2-4.4c1-1.3 2.2-2.4 3.8-3.2s3.6-1.2 5.9-1.2c2.4 0 4.5.4 6.1 1.3 1.5.9 2.7 2 3.6 3.3s1.5 2.8 1.8 4.3c.2.8.3 1.5.4 2.2v2.2c0 3.7-1 6.9-3 9.5s-5.1 4-9.3 4c-4-.1-7-1.4-9-3.9-1.9-2.5-2.9-5.6-2.9-9.3m4.8-.3c0 2.7.6 5 1.8 6.9 1.2 2 3 3 5.6 3.1.9 0 1.8-.2 2.7-.5.8-.3 1.6-.9 2.3-1.7s1.3-1.9 1.8-3.2c.4-1.3.6-2.9.6-4.7-.1-6.4-2.5-9.6-7.1-9.6-.7 0-1.5.1-2.4.3-.8.3-1.7.8-2.5 1.6-.8.7-1.4 1.7-1.9 3-.6 1.1-.9 2.8-.9 4.8z"
+              ></path>
+              <path
+                d="m155.9 72.4-.1-2.9h4.6v4.1c.2-.3.4-.8.7-1.2.3-.5.8-1 1.3-1.5.6-.5 1.4-1 2.3-1.3s2-.5 3.4-.5c.6 0 1.4.1 2.4.2.9.2 1.9.5 2.9 1.1s1.8 1.4 2.5 2.5c.6 1.2 1 2.7 1 4.7v17.1h-4.6v-16c0-.9-.1-1.7-.2-2.4-.2-.7-.5-1.3-1.1-1.9-1.2-1.1-2.6-1.7-4.3-1.7s-3.1.6-4.3 1.8c-1.3 1.2-2 3.1-2 5.7v14.5h-4.6z"
+              ></path>
+              <path
+                d="m185.7 72.8-.1-3.3h4.6v3.6c1.2-1.9 2.6-3.2 4.1-3.7 1.5-.4 2.7-.6 3.8-.6 1.4 0 2.6.2 3.6.5.9.3 1.7.7 2.3 1.1 1.1 1 1.9 2 2.3 3.1.2-.4.5-.8 1-1.3.4-.5.9-1 1.5-1.6.6-.5 1.5-.9 2.5-1.3 1-.3 2.2-.5 3.5-.5.9 0 1.9.1 3 .3 1 .2 2 .7 3 1.3s1.7 1.5 2.3 2.7.9 2.7.9 4.6v16.9h-4.6v-16.2c0-1.1-.1-2-.2-2.5-.1-.6-.3-1-.6-1.3-.4-.6-1-1.2-1.8-1.6s-1.8-.6-3.1-.6c-1.5 0-2.7.4-3.6 1-.4.3-.8.5-1.1.9-.3.3-.6.6-.8.8-.5.8-.8 1.8-1 2.8-.1 1.1-.2 2-.1 2.6v14.1h-4.6v-16.7c0-1.6-.5-2.9-1.4-4-.9-1-2.3-1.5-4.2-1.5-1.6 0-2.9.4-3.8 1.1s-1.5 1.2-1.8 1.7c-.5.7-.8 1.5-.9 2.5-.1.9-.2 1.8-.2 2.6v14.3h-4.5z"
+              ></path>
+              <path
+                d="m236.2 82.9c-.1 2.6.5 4.8 1.7 6.5 1.1 1.7 2.9 2.6 5.3 2.6 1.5 0 2.8-.4 3.9-1.3 1-.8 1.6-2.2 1.8-4h4.6c0 .6-.2 1.4-.4 2.3-.3 1-.8 2-1.7 3-.2.3-.6.6-1 1-.5.4-1 .7-1.7 1.1s-1.5.6-2.4.8c-.9.3-2 .4-3.3.4-7.6-.2-11.3-4.5-11.3-12.9 0-2.5.3-4.8 1-6.8s2-3.7 3.8-5.1c1.2-.8 2.4-1.3 3.7-1.6 1.3-.2 2.2-.3 3-.3 2.7 0 4.8.6 6.3 1.6s2.5 2.3 3.1 3.9c.6 1.5 1 3.1 1.1 4.6.1 1.6.1 2.9 0 4h-17.5m12.8-3c0-.3 0-.7 0-1.1s0-.8-.1-1.2c-.1-.9-.4-1.7-.8-2.5s-1-1.5-1.8-2c-.9-.5-2-.8-3.4-.8-.8 0-1.5.1-2.3.3s-1.5.7-2.2 1.3-1.2 1.3-1.6 2.3-.7 2.2-.8 3.6z"
+              ></path>
+              <path
+                d="m261.4 72.4-.1-2.9h4.6v4.1c.2-.3.4-.8.7-1.2.3-.5.8-1 1.3-1.5.6-.5 1.4-1 2.3-1.3s2-.5 3.4-.5c.6 0 1.4.1 2.4.2.9.2 1.9.5 2.9 1.1s1.8 1.4 2.5 2.5c.6 1.2 1 2.7 1 4.7v17.1h-4.6v-16c0-.9-.1-1.7-.2-2.4-.2-.7-.5-1.3-1.1-1.9-1.2-1.1-2.6-1.7-4.3-1.7s-3.1.6-4.3 1.8c-1.3 1.2-2 3.1-2 5.7v14.5h-4.6z"
+              ></path>
+              <path
+                d="m288 69.4h4.3v-5.2l4.5-1.5v6.8h5.4v3.4h-5.4v15.1c0 .3 0 .6.1 1 0 .4.1.7.4 1.1.2.4.5.6 1 .8.4.3 1 .4 1.8.4 1 0 1.7-.1 2.2-.2v3.6c-.9.2-2.1.3-3.8.3-2.1 0-3.6-.4-4.6-1.2s-1.5-2.2-1.5-4.2v-16.8h-4.3v-3.4z"
+              ></path>
+              <path
+                d="m323.3 94.6c-.3-1.2-.5-2.5-.4-3.7-.5 1-1.1 1.8-1.7 2.4-.7.6-1.4 1.1-2 1.4-1.4.5-2.7.8-3.7.8-2.8 0-4.9-.8-6.4-2.2s-2.2-3.1-2.2-5.2c0-1 .2-2.3.8-3.7s1.7-2.6 3.5-3.7c1.4-.7 2.9-1.2 4.5-1.5 1.6-.1 2.9-.2 3.9-.2s2.1 0 3.3.1c.1-2.9-.2-4.8-.9-5.6-.5-.6-1.1-1.1-1.9-1.3s-1.6-.4-2.3-.4c-1.1 0-2 .2-2.6.5-.7.3-1.2.7-1.5 1.2s-.5.9-.6 1.4-.2.9-.2 1.2h-4.6c.1-.7.2-1.4.4-2.3.2-.8.6-1.6 1.3-2.5.5-.6 1-1 1.7-1.3.6-.3 1.3-.6 2-.8 1.5-.4 2.8-.6 4.2-.6 1.8 0 3.6.3 5.2.9s2.8 1.6 3.4 2.9c.4.7.6 1.4.7 2s.1 1.2.1 1.8l-.2 12c0 1 .1 3.1.4 6.3zm-.5-12.2c-.7-.1-1.6-.1-2.6-.1-.5 0-1.2 0-2.1 0-1 .1-2 .3-3 .6s-1.9.8-2.6 1.5c-.8.7-1.2 1.7-1.2 3 0 .4.1.8.2 1.3s.4 1 .8 1.5.9.8 1.6 1.1 1.5.5 2.5.5c2.3 0 4.1-.9 5.2-2.7.5-.8.8-1.7 1-2.7.1-.9.2-2.2.2-4z"
+              ></path>
+              <path d="m336.4 58.6h4.6v36.1h-4.6z"></path>
+              <path
+                d="m364.1 58.5h11.7c2.1 0 3.9.1 5.5.4.8.2 1.5.4 2.2.9.7.4 1.3.9 1.8 1.6 1.7 1.9 2.6 4.2 2.6 7 0 2.7-.9 5.1-2.8 7.1-.8.9-2 1.7-3.6 2.2-1.6.6-3.9.9-6.9.9h-5.7v16.1h-4.8zm4.8 15.9h5.8c.8 0 1.7-.1 2.6-.2s1.8-.3 2.6-.7 1.5-1 2-1.9c.5-.8.8-2 .8-3.4s-.2-2.5-.7-3.3-1.1-1.3-1.9-1.7c-1.6-.5-3.1-.8-4.5-.7h-6.8v11.9z"
+              ></path>
+              <path
+                d="m393.8 74.7c0-1.8-.1-3.5-.3-5.1h4.6l.1 4.9c.5-1.8 1.4-3 2.5-3.7s2.2-1.2 3.3-1.3c1.4-.2 2.4-.2 3.1-.1v4.6c-.2-.1-.5-.2-.9-.2-.3 0-.8 0-1.3 0-1.3 0-2.4.2-3.3.5-.9.4-1.5.9-2 1.6-.9 1.4-1.4 3.2-1.3 5.4v13.3h-4.6v-19.9z"
+              ></path>
+              <path
+                d="m411.2 82.4c0-1.6.2-3.2.6-4.8s1.1-3 2-4.4c1-1.3 2.2-2.4 3.8-3.2s3.6-1.2 5.9-1.2c2.4 0 4.5.4 6.1 1.3 1.5.9 2.7 2 3.6 3.3s1.5 2.8 1.8 4.3c.2.8.3 1.5.4 2.2v2.2c0 3.7-1 6.9-3 9.5s-5.1 4-9.3 4c-4-.1-7-1.4-9-3.9-1.9-2.5-2.9-5.6-2.9-9.3m4.8-.3c0 2.7.6 5 1.8 6.9 1.2 2 3 3 5.6 3.1.9 0 1.8-.2 2.7-.5.8-.3 1.6-.9 2.3-1.7s1.3-1.9 1.8-3.2c.4-1.3.6-2.9.6-4.7-.1-6.4-2.5-9.6-7.1-9.6-.7 0-1.5.1-2.4.3-.8.3-1.7.8-2.5 1.6-.8.7-1.4 1.7-1.9 3-.7 1.1-.9 2.8-.9 4.8z"
+              ></path>
+              <path
+                d="m439.8 69.4h4.3v-5.2l4.5-1.5v6.8h5.4v3.4h-5.4v15.1c0 .3 0 .6.1 1 0 .4.1.7.4 1.1.2.4.5.6 1 .8.4.3 1 .4 1.8.4 1 0 1.7-.1 2.2-.2v3.6c-.9.2-2.1.3-3.8.3-2.1 0-3.6-.4-4.6-1.2s-1.5-2.2-1.5-4.2v-16.8h-4.3v-3.4z"
+              ></path>
+              <path
+                d="m462.9 82.9c-.1 2.6.5 4.8 1.7 6.5 1.1 1.7 2.9 2.6 5.3 2.6 1.5 0 2.8-.4 3.9-1.3 1-.8 1.6-2.2 1.8-4h4.6c0 .6-.2 1.4-.4 2.3-.3 1-.8 2-1.7 3-.2.3-.6.6-1 1-.5.4-1 .7-1.7 1.1s-1.5.6-2.4.8c-.9.3-2 .4-3.3.4-7.6-.2-11.3-4.5-11.3-12.9 0-2.5.3-4.8 1-6.8s2-3.7 3.8-5.1c1.2-.8 2.4-1.3 3.7-1.6 1.3-.2 2.2-.3 3-.3 2.7 0 4.8.6 6.3 1.6s2.5 2.3 3.1 3.9c.6 1.5 1 3.1 1.1 4.6.1 1.6.1 2.9 0 4h-17.5m12.9-3c0-.3 0-.7 0-1.1s0-.8-.1-1.2c-.1-.9-.4-1.7-.8-2.5s-1-1.5-1.8-2c-.9-.5-2-.8-3.4-.8-.8 0-1.5.1-2.3.3s-1.5.7-2.2 1.3-1.2 1.3-1.6 2.3-.7 2.2-.8 3.6z"
+              ></path>
+              <path
+                d="m501.8 77.5c0-.3 0-.8-.1-1.4s-.3-1.1-.6-1.8c-.2-.6-.7-1.2-1.4-1.6s-1.6-.6-2.7-.6c-1.5 0-2.7.4-3.5 1.2-.9.8-1.5 1.7-1.9 2.8s-.6 2.2-.7 3.2c-.1 1.1-.2 1.8-.1 2.4 0 1.3.1 2.5.3 3.7s.5 2.3.9 3.3c.8 2 2.4 3 4.8 3.1 1.9 0 3.3-.7 4.1-1.9.8-1.1 1.2-2.3 1.2-3.6h4.6c-.2 2.5-1.1 4.6-2.7 6.3-1.7 1.8-4.1 2.7-7.1 2.7-.9 0-2.1-.2-3.6-.6-.7-.2-1.4-.6-2.2-1s-1.5-1-2.2-1.7c-.7-.9-1.4-2.1-2-3.6s-.9-3.5-.9-6.1.4-4.8 1.1-6.6c.7-1.7 1.6-3.1 2.7-4.2 1.1-1 2.3-1.8 3.6-2.2s2.5-.6 3.7-.6h1.6c.6.1 1.3.2 1.9.4.7.2 1.4.5 2.1 1 .7.4 1.3 1 1.8 1.7.9 1.1 1.4 2.1 1.7 3.1.2 1 .3 1.8.3 2.6z"
+              ></path>
+              <path
+                d="m509.3 69.4h4.3v-5.2l4.5-1.5v6.8h5.4v3.4h-5.4v15.1c0 .3 0 .6.1 1 0 .4.1.7.4 1.1.2.4.5.6 1 .8.4.3 1 .4 1.8.4 1 0 1.7-.1 2.2-.2v3.6c-.9.2-2.1.3-3.8.3-2.1 0-3.6-.4-4.6-1.2s-1.5-2.2-1.5-4.2v-16.8h-4.3v-3.4z"
+              ></path>
+              <path d="m529.2 58.6h5.5v5.1h-5.5zm.5 10.9h4.6v25.1h-4.6z"></path>
+              <path
+                d="m541.8 82.4c0-1.6.2-3.2.6-4.8s1.1-3 2-4.4c1-1.3 2.2-2.4 3.8-3.2s3.6-1.2 5.9-1.2c2.4 0 4.5.4 6.1 1.3 1.5.9 2.7 2 3.6 3.3s1.5 2.8 1.8 4.3c.2.8.3 1.5.4 2.2v2.2c0 3.7-1 6.9-3 9.5s-5.1 4-9.3 4c-4-.1-7-1.4-9-3.9-1.9-2.5-2.9-5.6-2.9-9.3m4.7-.3c0 2.7.6 5 1.8 6.9 1.2 2 3 3 5.6 3.1.9 0 1.8-.2 2.7-.5.8-.3 1.6-.9 2.3-1.7s1.3-1.9 1.8-3.2c.4-1.3.6-2.9.6-4.7-.1-6.4-2.5-9.6-7.1-9.6-.7 0-1.5.1-2.4.3-.8.3-1.7.8-2.5 1.6-.8.7-1.4 1.7-1.9 3-.6 1.1-.9 2.8-.9 4.8z"
+              ></path>
+              <path
+                d="m574.3 72.4-.1-2.9h4.6v4.1c.2-.3.4-.8.7-1.2.3-.5.8-1 1.3-1.5.6-.5 1.4-1 2.3-1.3s2-.5 3.4-.5c.6 0 1.4.1 2.4.2.9.2 1.9.5 2.9 1.1s1.8 1.4 2.5 2.5c.6 1.2 1 2.7 1 4.7v17.1h-4.6v-16c0-.9-.1-1.7-.2-2.4-.2-.7-.5-1.3-1.1-1.9-1.2-1.1-2.6-1.7-4.3-1.7s-3.1.6-4.3 1.8c-1.3 1.2-2 3.1-2 5.7v14.5h-4.6z"
+              ></path>
+              <path
+                d="m14.8 108.5h5.2l14.1 36.1h-5.3l-3.8-9.4h-16.2l-3.8 9.4h-5zm-4.4 22.7h13.3l-6.5-17.8z"
+              ></path>
+              <path
+                d="m44.4 146.5c.1.7.2 1.4.4 1.9.2.6.5 1.1.9 1.6.8.9 2.3 1.4 4.4 1.5 1.6 0 2.8-.3 3.7-.9s1.5-1.4 1.9-2.4c.4-1.1.6-2.3.7-3.7s.1-2.9.1-4.6c-.5.9-1.1 1.7-1.8 2.3s-1.5 1-2.3 1.3c-1.7.4-3 .6-3.9.6-1.2 0-2.4-.2-3.8-.6s-2.6-1.2-3.7-2.5c-1-1.3-1.7-2.8-2.1-4.4s-.6-3.2-.6-4.8c0-4.3 1.1-7.4 3.2-9.5 2-2.1 4.6-3.1 7.6-3.1 1.3 0 2.3.1 3.2.4s1.6.6 2.1 1c.6.4 1.1.8 1.5 1.2.3.4.6.8.9 1.2v-3.4h4.4l-.1 4.5v15.7c0 2.9-.1 5.2-.2 6.7-.2 1.6-.5 2.8-1 3.7-1.1 1.9-2.6 3.2-4.6 3.7-1.9.6-3.8.8-5.6.8-2.4 0-4.3-.3-5.6-.8-1.4-.5-2.4-1.2-3-2s-1-1.7-1.2-2.7c-.2-.9-.3-1.8-.4-2.7zm5.3-5.8c1.4 0 2.5-.2 3.3-.7s1.5-1.1 2-1.8c.5-.6.9-1.4 1.2-2.5.3-1 .4-2.6.4-4.8 0-1.6-.2-2.9-.4-3.9-.3-1-.8-1.8-1.4-2.4-1.3-1.4-3-2.2-5.2-2.2-1.4 0-2.5.3-3.4 1s-1.6 1.5-2 2.4c-.4 1-.7 2-.9 3s-.2 2-.2 2.8c0 1 .1 1.9.3 2.9.2 1.1.5 2.1 1 3s1.2 1.6 2 2.2c.8.7 1.9 1 3.3 1z"
+              ></path>
+              <path
+                d="m73.3 132.9c-.1 2.6.5 4.8 1.7 6.5 1.1 1.7 2.9 2.6 5.3 2.6 1.5 0 2.8-.4 3.9-1.3 1-.8 1.6-2.2 1.8-4h4.6c0 .6-.2 1.4-.4 2.3-.3 1-.8 2-1.7 3-.2.3-.6.6-1 1-.5.4-1 .7-1.7 1.1s-1.5.6-2.4.8c-.9.3-2 .4-3.3.4-7.6-.2-11.3-4.5-11.3-12.9 0-2.5.3-4.8 1-6.8s2-3.7 3.8-5.1c1.2-.8 2.4-1.3 3.7-1.6 1.3-.2 2.2-.3 3-.3 2.7 0 4.8.6 6.3 1.6s2.5 2.3 3.1 3.9c.6 1.5 1 3.1 1.1 4.6.1 1.6.1 2.9 0 4h-17.5m12.9-3c0-.3 0-.7 0-1.1s0-.8-.1-1.2c-.1-.9-.4-1.7-.8-2.5s-1-1.5-1.8-2.1c-.9-.5-2-.8-3.4-.8-.8 0-1.5.1-2.3.3s-1.5.7-2.2 1.3-1.2 1.3-1.6 2.3-.7 2.2-.8 3.7z"
+              ></path>
+              <path
+                d="m98.6 122.4-.1-2.9h4.6v4.1c.2-.3.4-.8.7-1.2.3-.5.8-1 1.3-1.5.6-.5 1.4-1 2.3-1.3s2-.5 3.4-.5c.6 0 1.4.1 2.4.2.9.2 1.9.5 2.9 1.1s1.8 1.4 2.5 2.5c.6 1.2 1 2.7 1 4.7v17.1h-4.6v-16c0-.9-.1-1.7-.2-2.4-.2-.7-.5-1.3-1.1-1.9-1.2-1.1-2.6-1.7-4.3-1.7s-3.1.6-4.3 1.8c-1.3 1.2-2 3.1-2 5.7v14.5h-4.6z"
+              ></path>
+              <path
+                d="m142.7 127.5c0-.3 0-.8-.1-1.4s-.3-1.1-.6-1.8c-.2-.6-.7-1.2-1.4-1.6s-1.6-.6-2.7-.6c-1.5 0-2.7.4-3.5 1.2-.9.8-1.5 1.7-1.9 2.8s-.6 2.2-.7 3.2c-.1 1.1-.2 1.8-.1 2.4 0 1.3.1 2.5.3 3.7s.5 2.3.9 3.3c.8 2 2.4 3 4.8 3.1 1.9 0 3.3-.7 4.1-1.9.8-1.1 1.2-2.3 1.2-3.6h4.6c-.2 2.5-1.1 4.6-2.7 6.3-1.7 1.8-4.1 2.7-7.1 2.7-.9 0-2.1-.2-3.6-.6-.7-.2-1.4-.6-2.2-1s-1.5-1-2.2-1.7c-.7-.9-1.4-2.1-2-3.6s-.9-3.5-.9-6.1.4-4.8 1.1-6.6c.7-1.7 1.6-3.1 2.7-4.2 1.1-1 2.3-1.8 3.6-2.2s2.5-.6 3.7-.6h1.6c.6.1 1.3.2 1.9.4.7.2 1.4.5 2.1 1 .7.4 1.3 1 1.8 1.7.9 1.1 1.4 2.1 1.7 3.1.2 1 .3 1.8.3 2.6z"
+              ></path>
+              <path
+                d="m164.8 144.8-3.4 9.3h-4.7l3.8-9.6-10.3-25h5.2l7.6 19.8 7.7-19.8h5z"
+              ></path>
+            </svg>
+          </span>
+        </a>
+                      </div>
+      <div class="l-header__search" id="header-search-drawer">
+        <form
+          class="usa-search usa-search--small usa-search--epa"
+          method="get"
+          action="https://search.epa.gov/epasearch"
+        >
+          <div role="search">
+            <label class="usa-search__label usa-sr-only" for="search-box"
+              >Search</label
+            >
+            <input
+              class="usa-input"
+              id="search-box"
+              type="search"
+              name="querytext"
+              placeholder="Search EPA.gov"
+            />
+            <button class="button" type="submit" aria-label="Search">
+              <svg class="icon usa-search__submit-icon" aria-hidden="true">
+                <use
+                  href="/themes/custom/epa_uswds/images/sprite.artifact.svg#magnifying-glass"
+                ></use>
+              </svg>
+              <span class="usa-search__submit-text">Search</span>
+            </button>
+            <input type="hidden" name="areaname" value="" />
+            <input type="hidden" name="areacontacts" value="" />
+            <input type="hidden" name="areasearchurl" value="" />
+            <input type="hidden" name="typeofsearch" value="epa" />
+            <input type="hidden" name="result_template" value="" />
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="l-header__nav">
+    <nav
+      class="usa-nav usa-nav--epa"
+      role="navigation"
+      aria-label="Primary navigation"
+    >
+      <div class="usa-nav__inner">
+        <button type="button" class="usa-nav__close" aria-label="Close">
+          <svg class="icon icon--nav-close" aria-hidden="true" role="img">
+            <title>Primary navigation</title>
+            <use
+              href="/themes/epa_theme/images/sprite.artifact.svg#xmark"
+            ></use>
+          </svg>
+        </button>
+        <div class="usa-nav__menu">
+          <ul class="menu menu--main menu--accordion usa-accordion">
+            <li class="menu__item">
+              <a
+                href="https://www.epa.gov/environmental-topics"
+                class="menu__link usa-nav__link"
+              >
+                Environmental Topics
+              </a>
+            </li>
+
+            <li class="menu__item">
+              <a
+                href="https://www.epa.gov/laws-regulations"
+                title="View links to regulatory information by topic and sector, and to top pages about environmental laws, regulations, policies, compliance, and enforcement"    
+                class="menu__link usa-nav__link"
+              >
+                Laws &amp; Regulations
+              </a>
+            </li>
+
+            <li class="menu__item">
+              <a
+                href="https://www.epa.gov/report-violation"
+                class="menu__link usa-nav__link"
+              >
+                Report a Violation
+              </a>
+            </li>
+
+            <li class="menu__item">
+              <a
+                class="menu__link usa-nav__link"
+                href="https://www.epa.gov/aboutepa"
+              >
+                About EPA
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
+
+
+<main id="main-content" class="main" role="main" tabindex="-1">
+  <div class="l-page padding-top-0">
+    <div class="l-constrain">
+      <article class=" article">
+        
+<header>
+  <span data-big-pipe-placeholder-id="callback=Drupal%5Cblock%5CBlockViewBuilder%3A%3AlazyBuilder&amp;args%5B0%5D=echo_site_branding&amp;args%5B1%5D=full&amp;args%5B2%5D&amp;token=9a0HfJL6Ki6au7tD0cANVA8jywXxiDONuQktCRIYS1k">
+</span><div id="block-mainmenu">
+  
+    
+      
+<ul id="superfish-main" class="menu sf-menu sf-main sf-horizontal sf-style-none" role="menu" aria-label="Menu">
+  
+
+            
+  <li id="main-menu-link-contenta737b389-e6c1-408a-a3cd-23cd330c3d8d" class="sf-depth-1 menuparent sf-first" role="none">
+    
+          <a href="/" title="" class="sf-depth-1 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Search Options</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+            
+  <li id="main-menu-link-content07d1512a-809b-455c-a3b4-23d06c0f319b" class="sf-depth-2 menuparent sf-first" role="none">
+    
+          <span class="sf-depth-2 menuparent nolink" role="menuitem" aria-haspopup="true" aria-expanded="false">Cross Program</span>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-contentf9e959f2-7fbd-44af-ac91-09a7c2dcb8aa" class="sf-depth-3 sf-no-children sf-first" role="none">
+    
+          <a href="/facilities/facility-search?mediaSelected=all" class="sf-depth-3" role="menuitem">All Media Programs Facility Search</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content36e95b02-1da3-4ea9-bcff-193663f29dc4" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/facilities/facility-search/results?mediaSelected=fac" class="sf-depth-3" role="menuitem">Map All Facilities</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content30396e9b-3280-4035-a7c2-4409bf63bbc1" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/facilities/compliance-screener" title="" class="sf-depth-3" role="menuitem">Corporate Compliance Screener</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content55742b8b-1650-46f5-a479-ebfe52742ab6" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/tools/echo-notify" title="" class="sf-depth-3" role="menuitem">ECHO Notify</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-content227bf9c5-20b7-476a-b2c2-7c779740b2d3" class="sf-depth-2 menuparent" role="none">
+    
+          <a href="/" title="" class="sf-depth-2 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Air</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content5996f5fc-f74c-4405-adc6-435ab4ea4f74" class="sf-depth-3 sf-no-children sf-first" role="none">
+    
+          <a href="/facilities/facility-search?mediaSelected=caa" class="sf-depth-3" role="menuitem">Air Facility Search</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentfd4c2717-fcc6-42da-9f2e-c7e7a45f1c37" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/facilities/facility-search/results?mediaSelected=caa" class="sf-depth-3" role="menuitem">Map Air Facilities</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content51b14d27-a025-4fb5-82b5-9a20abbc3e84" class="sf-depth-3 sf-no-children sf-last" role="none">
+    
+          <a href="/trends/air-monitoring-stations" class="sf-depth-3" role="menuitem">ECHO Clean Air Tracking Tool (ECATT)</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-content8d145819-0ed6-4f12-97b6-d2b398b57b87" class="sf-depth-2 menuparent" role="none">
+    
+          <span class="sf-depth-2 menuparent nolink" role="menuitem" aria-haspopup="true" aria-expanded="false">Wastewater/Stormwater/Biosolids (CWA)</span>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content16701670-d07a-4315-b58c-f34bef4c76af" class="sf-depth-3 sf-no-children sf-first" role="none">
+    
+          <a href="/facilities/facility-search?mediaSelected=cwa" class="sf-depth-3" role="menuitem">Wastewater/Stormwater/Biosolids Facility Search</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentc70c8939-03f7-4f6e-a434-511a669d8dca" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/facilities/facility-search?mediaSelected=bio" class="sf-depth-3" role="menuitem">Biosolids Facility Search</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content9f4187c9-c500-4a49-ac20-a4f9696b543e" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/facilities/facility-search?mediaSelected=bioAnnual" class="sf-depth-3" role="menuitem">Biosolids Annual Report Search</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contente8d5e984-cce5-4c31-a8b6-b310d8d62092" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/facilities/facility-search?mediaSelected=msgp" class="sf-depth-3" role="menuitem">Industrial Stormwater Facility Search</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content2c9c3638-d0cd-4987-a2fa-6a088f1517c3" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/facilities/facility-search/results?mediaSelected=cwa" class="sf-depth-3" role="menuitem">Map Water Facilities</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content78817e3a-2e00-48e7-9b23-b7938edd7b0c" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/trends/loading-tool/water-pollution-search" title="" class="sf-depth-3" role="menuitem">Water Pollutant Loading Tool</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content00f3572c-fb38-48d6-9312-3c7b0db421bb" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/trends/npdes-dmr-non-receipt-status" title="" class="sf-depth-3" role="menuitem">NPDES DMR Non-Receipt Status Search</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content6007e2d0-9d74-4363-be1c-332fac83920f" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/facilities/npdes-noncompliance-search" class="sf-depth-3" role="menuitem">Quarterly NPDES Noncompliance Report Search</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content682fd404-cd0f-4766-84ed-2cc7b117c59d" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/npdes-noncompliance-annual-report" class="sf-depth-3" role="menuitem">NPDES Noncompliance Annual Report</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-content5526fa51-6a7f-41c9-bd3d-5bed934c422d" class="sf-depth-2 menuparent" role="none">
+    
+          <a href="/" title="" class="sf-depth-2 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Hazardous Waste</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content8d1e68c4-5300-4d47-91da-0b597ced3874" class="sf-depth-3 sf-no-children sf-first" role="none">
+    
+          <a href="/facilities/facility-search?mediaSelected=rcra" class="sf-depth-3" role="menuitem">Hazardous Waste Facility Search</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentf75f1b03-54f1-47da-9c8e-212dc8399411" class="sf-depth-3 sf-no-children sf-last" role="none">
+    
+          <a href="/facilities/facility-search/results?mediaSelected=rcra" class="sf-depth-3" role="menuitem">Map Hazardous Waste Facilities</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-content900e0812-3d7d-4708-a38c-796ed591ef2b" class="sf-depth-2 menuparent sf-last" role="none">
+    
+          <a href="/" title="" class="sf-depth-2 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Drinking Water</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content80e91ff9-c51b-4d00-93b6-b79b5d4b4613" class="sf-depth-3 sf-no-children sf-first" role="none">
+    
+          <a href="/facilities/facility-search?mediaSelected=sdwa" class="sf-depth-3" role="menuitem">Drinking Water System Search</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-contentdee47242-ae82-41ac-a261-922d41cd2a00" class="sf-depth-1 menuparent" role="none">
+    
+          <a href="/" title="" class="sf-depth-1 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Analyze Trends</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+            
+  <li id="main-menu-link-contentdfe8f512-3072-4a5f-8844-eb2eeb195c63" class="sf-depth-2 menuparent sf-first" role="none">
+    
+          <a href="/" title="" class="sf-depth-2 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Track Performance</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content52187ada-aced-4804-9e63-a115197f9e1d" class="sf-depth-3 sf-no-children sf-first" role="none">
+    
+          <a href="/trends/comparative-maps-dashboards/state-air-dashboard" class="sf-depth-3" role="menuitem">EPA/State Dashboards (Air, Wastewater, Drinking Water, Hazardous Waste, Pesticides)</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentf21f9b42-6152-4235-916f-771e5e83e00d" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/trends/npdes-dmr-non-receipt-status" title="" class="sf-depth-3" role="menuitem">NPDES DMR Non-Receipt Status Search</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentd9faa247-308b-4e7a-85d5-30f2fa7fdc6e" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/oversight/state-review-framework/tracker-recommendations" title="" class="sf-depth-3" role="menuitem">State Review Framework Tracker Recommendations</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content3c58dbb2-2fd0-4603-b95d-19edde1b4ca6" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/archived-tools" title="" class="sf-depth-3" role="menuitem">Archived Tools</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-content66311933-e1aa-472d-8954-51e94f98146f" class="sf-depth-2 menuparent" role="none">
+    
+          <a href="/" class="sf-depth-2 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Data Visualization</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content014a6dfc-8ee0-4372-aad2-ec3a6d31343d" class="sf-depth-3 sf-no-children sf-first" role="none">
+    
+          <a href="/trends/data-viz" class="sf-depth-3" role="menuitem">Data Visualization Gallery</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contente0b5b82b-7fd6-4984-94c3-d66dcd2a0a59" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/trends/npdes-erule-dashboard-public" class="sf-depth-3" role="menuitem">NPDES eRule Readiness Dashboard</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content581933f1-4e95-4c03-a2d4-d15f27baf37f" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/trends/pfas-tools" class="sf-depth-3" role="menuitem">PFAS Analytic Tools</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content51cc7eeb-dbf2-4ee4-b238-3901d437c2b9" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/trends/data-viz?filters=erule" class="sf-depth-3" role="menuitem">NPDES eRule Dashboards</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentef529a3c-9e76-412d-bf72-7e0a30852299" class="sf-depth-3 sf-no-children sf-last" role="none">
+    
+          <a href="https://awsedap.epa.gov/public/extensions/Fenceline_Monitoring/Fenceline_Monitoring.html?sheet=facilitySnapshot" class="sf-depth-3 sf-external" role="menuitem">Benzene Fenceline Monitoring</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-content62389656-c4f1-4864-92c2-7bc4d5b6fccb" class="sf-depth-2 menuparent sf-last" role="none">
+    
+          <a href="/" class="sf-depth-2 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Pollution Analysis</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-contentece03193-99a4-4a4a-aaa2-b45c06a842d6" class="sf-depth-3 sf-no-children sf-first" role="none">
+    
+          <a href="/trends/loading-tool/water-pollution-search" title="" class="sf-depth-3" role="menuitem">Water Pollutant Loading Tool</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentdd0b0186-da49-4d48-a039-90b4c8a8c609" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/trends/air-monitoring-stations" class="sf-depth-3" role="menuitem">ECHO Clean Air Tracking Tool (ECATT)</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-contentd780676c-ecdd-4351-8dd2-124d0dbb7f10" class="sf-depth-1 menuparent" role="none">
+    
+          <a href="/" title="" class="sf-depth-1 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Find EPA Cases</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content4ac457b1-220a-4e93-98ad-bf167c6147a3" class="sf-depth-2 sf-no-children sf-first" role="none">
+    
+          <a href="/facilities/enforcement-case-search" title="" class="sf-depth-2" role="menuitem">EPA Enforcement Case Search</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentd052b460-8b70-470e-9698-ca2fd0c774db" class="sf-depth-2 sf-no-children sf-last" role="none">
+    
+          <a href="/facilities/enforcement-case-search?srch=adv" title="" class="sf-depth-2" role="menuitem">Advanced EPA Enforcement Case Search</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-contentbf4afe68-f7aa-4600-844f-18d7c489cbdb" class="sf-depth-1 menuparent" role="none">
+    
+          <a href="/" title="" class="sf-depth-1 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Data Services</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content67a01d27-b6f1-4e7d-935d-d67ab2b0bfa4" class="sf-depth-2 sf-no-children sf-first" role="none">
+    
+          <a href="/tools/data-downloads" title="" class="sf-depth-2" role="menuitem">National Data Sets</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content63ca6ee4-b4ae-4704-af23-1344859df968" class="sf-depth-2 sf-no-children" role="none">
+    
+          <a href="/tools/data-downloads#exporter" class="sf-depth-2" role="menuitem"> ECHO Exporter</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contente8373103-795b-4c6e-8475-bf918034bbb5" class="sf-depth-2 sf-no-children" role="none">
+    
+          <a href="/tools/web-services" title="" class="sf-depth-2" role="menuitem">ECHO Web Services</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contented8bf3fe-37d5-45be-a182-76adcff02bb7" class="sf-depth-2 sf-no-children" role="none">
+    
+          <a href="/tools/map-service" title="" class="sf-depth-2" role="menuitem">ECHO Map Services</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentbcb049e9-36ff-4c59-bcdb-4379267681fa" class="sf-depth-2 sf-no-children" role="none">
+    
+          <a href="/tools/quick-search-widget" class="sf-depth-2" role="menuitem">Quick Search Widget</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-contentc7efbc02-a9f8-4486-9db1-d830e71c8647" class="sf-depth-1 menuparent" role="none">
+    
+          <a href="/" title="" class="sf-depth-1 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Help</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content28850260-85c9-45e4-aef5-bd69b01d99d3" class="sf-depth-2 sf-no-children sf-first" role="none">
+    
+          <a href="/resources/echo-data/about-the-data" title="" class="sf-depth-2" role="menuitem">About the Data</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content64e0ee94-1100-4e6c-b60b-0ae76902f354" class="sf-depth-2 sf-no-children" role="none">
+    
+          <a href="/help/tutorials" title="ECHO Tutorials" class="sf-depth-2" role="menuitem">ECHO Video Tutorials</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contenta98cf620-e638-4c82-93d2-19b2043a681c" class="sf-depth-2 sf-no-children" role="none">
+    
+          <a href="/resources/general-info/learn-more-about-echo" title="" class="sf-depth-2" role="menuitem">Quick Start Guide</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content3c663a56-5c9d-49dc-bc1d-045478137b14" class="sf-depth-2 sf-no-children" role="none">
+    
+          <a href="/help/training" title="ECHO Training" class="sf-depth-2" role="menuitem">ECHO Training</a>
+    
+    
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-contentbeeb039f-202b-4f43-b2f3-b7792df2c847" class="sf-depth-2 menuparent" role="none">
+    
+          <a href="/" title="" class="sf-depth-2 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">How to ...</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content77f7b6f4-7578-458d-8c60-c265ec8c0ba5" class="sf-depth-3 sf-no-children sf-first" role="none">
+    
+          <a href="/help/how-to-report-error" title="Report a Data Error" class="sf-depth-3" role="menuitem">Report a Data Error</a>
+    
+    
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-contente3c48dfd-adac-43fb-9bcc-8f29f07a5163" class="sf-depth-3 menuparent" role="none">
+    
+          <a href="/" title="Facility Search" class="sf-depth-3 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Run Facility Searches</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content61eb2e2a-c669-4dbe-843e-bc8d79121f6d" class="sf-depth-4 sf-no-children sf-first" role="none">
+    
+          <a href="/help/facility-search/facility-search-help" title="Facility Search Help" class="sf-depth-4" role="menuitem">Facility Search Help</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content11991343-af0f-4854-926d-e8f95b69fe26" class="sf-depth-4 sf-no-children" role="none">
+    
+          <a href="/help/facility-search/search-criteria-help" title="Facility Search Criteria Help" class="sf-depth-4" role="menuitem">Facility Search Criteria Help</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentcb64039f-924b-4d43-b3a9-0b646b6558b0" class="sf-depth-4 sf-no-children" role="none">
+    
+          <a href="/help/facility-search/facility-search-results-help" title="Search Results Help" class="sf-depth-4" role="menuitem">Search Results Help</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content5abb9f52-e774-4a42-8937-fe437eaf6cf2" class="sf-depth-4 sf-no-children" role="none">
+    
+          <a href="/help/enforcement-case-search-help" title="Enforcement Case Search Help" class="sf-depth-4" role="menuitem">Enforcement Case Search Help</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content2a1f5d94-b460-4750-8ce1-12912a468424" class="sf-depth-4 sf-no-children sf-last" role="none">
+    
+          <a href="/help/corporate-compliance-screener/corporate-compliance-screener-help" title="" class="sf-depth-4" role="menuitem">Corporate Compliance Screener Help</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-content2df0856f-a839-4919-82b3-4ed82b28ad80" class="sf-depth-3 menuparent" role="none">
+    
+          <a href="/" title="Reports" class="sf-depth-3 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Use and Understand ECHO Reports</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content44b17cc4-9b75-40ab-8198-fb4edda4f7e5" class="sf-depth-4 sf-no-children sf-first" role="none">
+    
+          <a href="/help/reports/air-pollutant-report-help" title="Air Pollutant Report Help" class="sf-depth-4" role="menuitem">Air Pollutant Report Help</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content6585f150-46ad-4fa0-a7e5-33d1a05c4f2b" class="sf-depth-4 sf-no-children" role="none">
+    
+          <a href="/help/reports/ambient-monitoring-station-report-help" title="" class="sf-depth-4" role="menuitem">Air Monitoring Station Report Help</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentf5620209-8557-45b7-9969-21da9f16c458" class="sf-depth-4 sf-no-children" role="none">
+    
+          <a href="/help/reports/biosolids-facility-report-help" title="" class="sf-depth-4" role="menuitem">Biosolids Facility Report Help</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content2a944250-1ffb-4adb-b751-1e4e7b7715a5" class="sf-depth-4 sf-no-children" role="none">
+    
+          <a href="/help/reports/detailed-facility-report-help" title="Detailed Facility Report Help" class="sf-depth-4" role="menuitem">Detailed Facility Report Help</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentf8b14548-0e3e-430b-a675-bb9c2310ac4f" class="sf-depth-4 sf-no-children" role="none">
+    
+          <a href="/help/reports/enforcement-case-report-help" title="A description of the Enforcement Case Report" class="sf-depth-4" role="menuitem">Civil Enforcement Case Report Help</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content387c141d-766e-4dab-b08d-71758dc2db69" class="sf-depth-4 sf-no-children" role="none">
+    
+          <a href="/help/reports/criminal-case-report-help" title="" class="sf-depth-4" role="menuitem">Criminal Enforcement Case Report Help</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentd15bc9e3-5861-4f27-b888-788d235a31d0" class="sf-depth-4 sf-no-children sf-last" role="none">
+    
+          <a href="/help/reports/effluent-charts-help" title="" class="sf-depth-4" role="menuitem">Effluent Charts Help</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-content4bc4c087-b321-49c7-bfcc-ee92456486f6" class="sf-depth-3 menuparent sf-last" role="none">
+    
+          <a href="/" title="Dashboards Help" class="sf-depth-3 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Use ECHO EPA/State Dashboards</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content2154fcdd-4cc8-4248-8385-f8910b41a1db" class="sf-depth-4 sf-no-children sf-first" role="none">
+    
+          <a href="/help/air-dashboard-help" title="Air Dashboard Help" class="sf-depth-4" role="menuitem">Air Dashboard Help</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contente566b60d-af9c-4e98-baea-7841a12bf8ef" class="sf-depth-4 sf-no-children" role="none">
+    
+          <a href="/help/pesticide-dashboard-help" title="Pesticide Dashboard Help" class="sf-depth-4" role="menuitem">Pesticide Dashboard Help</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content0e0ae48d-20cc-4e44-8d64-e9ce9905976e" class="sf-depth-4 sf-no-children" role="none">
+    
+          <a href="/help/state-comparative-maps-help" title="State Comparative Maps Help" class="sf-depth-4" role="menuitem">State Comparative Maps Help</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-content5201296a-4f77-43b2-ab4f-a89f98a1c20d" class="sf-depth-2 menuparent" role="none">
+    
+          <a href="/" title="" class="sf-depth-2 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">General Information</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content4177439e-4543-4980-9860-770273a4f4bf" class="sf-depth-3 sf-no-children sf-first" role="none">
+    
+          <a href="/resources/general-info/whats-new" title="" class="sf-depth-3" role="menuitem">What&#039;s New</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content6c93dfde-d715-4a2d-913d-e47705efa3eb" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/resources/echo-data/known-data-problems" title="Known Data Problems" class="sf-depth-3" role="menuitem">Known Data Problems</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content6f398fa8-606b-410e-acb1-81ee7080c5f5" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/resources/general-info/tool-guide" title="" class="sf-depth-3" role="menuitem">ECHO Tool Guide</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content5033cf98-3b48-4f59-ad1c-1f3f647ed003" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/resources/general-info/echo-faq" title="Frequently Asked Questions" class="sf-depth-3" role="menuitem">Frequently Asked Questions</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content0f907c17-96c4-42ba-82a6-01f73e8250ae" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/resources/echo-site-map" title="ECHO Site Map" class="sf-depth-3" role="menuitem">ECHO Site Map</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentddd63b62-d717-47b2-b70e-75e5f7bfa35e" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/report-environmental-violations" title="Report Environmental Violations" class="sf-depth-3" role="menuitem">Report A Violation</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content96eded93-0fd9-444b-b388-125a58de3a77" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/resources/general-info/website-known-issues" title="Website Known Issues" class="sf-depth-3" role="menuitem">Website Known Issues</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentb45bc0b3-bf8b-4c61-85d8-6b3488883623" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/resources/general-info/listserv" title="" class="sf-depth-3" role="menuitem">Join the ECHO Listserv</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content73a57e1d-2ba5-4764-a565-7b380e1f0833" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/resources" title="" class="sf-depth-3" role="menuitem">Other Available Resources</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-content0c82aeec-8530-43ac-89fc-07306b51ec57" class="sf-depth-2 menuparent sf-last" role="none">
+    
+          <a href="/" title="" class="sf-depth-2 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Get Access</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content2ba57853-0396-4b76-bb10-b07ce5a6b8a6" class="sf-depth-3 sf-no-children sf-first" role="none">
+    
+          <a href="/help/login-and-access" title="" class="sf-depth-3" role="menuitem">Login and Access</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+</ul>
+
+  </div>
+<span data-big-pipe-placeholder-id="callback=Drupal%5Cblock%5CBlockViewBuilder%3A%3AlazyBuilder&amp;args%5B0%5D=echo_account_menu&amp;args%5B1%5D=full&amp;args%5B2%5D&amp;token=0aQiGtHfmcfMkZldF9umwp4ytpUXW1fy6B3sE6gnHoo">
+</span>
+</header>
+
+
+          <div>
+    <div id="block-echo-breadcrumbs">
+  
+    
+      
+  <nav class="usa-breadcrumb" role="navigation" aria-labelledby="system-breadcrumb">
+    <ol class="usa-breadcrumb__list" itemscope itemtype="http://schema.org/BreadcrumbList">
+              <li class="usa-breadcrumb__list-item " itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                      <a class="usa-breadcrumb__link" itemscope itemtype="http://schema.org/Thing" itemprop="item" href="/">
+              <span itemprop="name">Home</span>
+            </a>
+                    <meta itemprop="position" content="1" />
+        </li>
+              <li class="usa-breadcrumb__list-item " itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                      <a class="usa-breadcrumb__link" itemscope itemtype="http://schema.org/Thing" itemprop="item" href="/tools">
+              <span itemprop="name">Tools</span>
+            </a>
+                    <meta itemprop="position" content="2" />
+        </li>
+              <li class="usa-breadcrumb__list-item " itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                      <a class="usa-breadcrumb__link" itemscope itemtype="http://schema.org/Thing" itemprop="item" href="/tools/data-downloads">
+              <span itemprop="name">Data Downloads</span>
+            </a>
+                    <meta itemprop="position" content="3" />
+        </li>
+              <li class="usa-breadcrumb__list-item usa-current" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                      <span itemprop="name">SDWA Data Download Summary</span>
+                    <meta itemprop="position" content="4" />
+        </li>
+          </ol>
+  </nav>
+
+  </div>
+<div data-drupal-messages-fallback class="hidden"></div><span data-big-pipe-placeholder-id="callback=Drupal%5CCore%5CRender%5CElement%5CStatusMessages%3A%3ArenderMessages&amp;args%5B0%5D&amp;token=_HAdUpwWmet0TOTe2PSiJuMntExoshbm1kh2wQzzzAA">
+</span>
+
+  </div>
+
+          <div>
+    <div id="block-echo-page-title">
+  
+    
+      
+  <h1>
+<span property="schema:name">SDWA Data Download Summary and Data Element Dictionary</span>
+</h1>
+
+
+  </div>
+<div id="block-echo-echo-system-main">
+  
+    
+      <article data-history-node-id="422" about="/tools/data-downloads/sdwa-download-summary" typeof="schema:WebPage">
+
+  
+      <span property="schema:name" content="SDWA Data Download Summary and Data Element Dictionary" class="hidden"></span>
+
+
+  
+  <div>
+    
+            <div property="schema:text"><p>The Enforcement&nbsp;and Compliance History Online (ECHO) system incorporates Public Water Systems data from EPA's Safe Drinking Water Information System (SDWIS) database. These downloads provide national data for key <a href="https://echo.epa.gov/trends/comparative-maps-dashboards/drinking-water-dashboard" target="_blank">EPA/State Drinking Water Dashboard</a> metrics, which are some of the SDWIS data elements most commonly used in the enforcement and compliance program.</p><p>The <strong>SDWA Dataset</strong>&nbsp;files were published in July 2021 to reflect the latest SDWIS release and are refreshed quarterly, as described on <a href="https://echo.epa.gov/resources/echo-data/about-the-data" target="_blank">About the Data</a>. These files contain the most up-to-date data from SDWIS, and more information regarding facility evaluations, enforcements, and violations.</p><ul><li><a href="#sdwis">SDWIS Description</a></li><li><a href="#guidance">Guidance on SDWA Downloads</a></li><li><a href="#filestructure">File Structure</a><ul><li><a href="#events">Events and Milestones</a></li><li><a href="#facilities">Facilities</a></li><li><a href="#geographic-areas">Geographic Areas</a></li><li><a href="#LCR">Lead and Copper Rule</a></li><li><a href="#PN">Public Notice Violations</a></li><li><a href="#PWS">Public Water Systems</a></li><li><a href="#ANSI">ANSI</a></li><li><a href="#ref">Reference Codes</a></li><li><a href="#service-areas">Service Areas</a></li><li><a href="#site-visits">Site Visits</a></li><li><a href="#vio-enf">Violations and Enforcement</a></li></ul></li><li><a href="#dataelement">Data Element Dictionary</a></li></ul><hr><h2 id="sdwis">SDWIS Description</h2><p>The Safe Drinking Water Information System (SDWIS) contains information on public water systems from the Public Water System Supervision (PWSS) Program, including monitoring, enforcement, and violation data related to requirements established by the <a href="https://www.epa.gov/sdwa" target="_blank">Safe Drinking Water Act (SDWA)</a>.</p><hr><h2 id="guidance">Guidance on SDWA Downloads</h2><p>The ZIP file contains several comma-separated value (CSV) files. Each file contains one data table. <strong>Key fields</strong> for each table are listed in bold below. Key fields uniquely identify the records within each file, and may be used to join and relate data between files.</p><p>For example, in the SDWA_PUB_WATER_SYSTEMS.csv file, each row describes a public water system in a particular quarter, and is uniquely identified by the values of the key fields SUBMISSIONYEARQUARTER and PWSID. Site visits, violations, and so on for that same system and quarter are identified by the same values of SUBMISSIONYEARQUARTER and PWSID in the other files.</p><hr><h2 id="filestructure">File Structure</h2><h3 id="events">Events and Milestones (SDWA_EVENTS_MILESTONES.csv)</h3><table class="table"><thead><tr><th scope="col">Element</th><th scope="col">Data Type</th><th scope="col">Length</th><th scope="col">Element Definition</th></tr></thead><tbody><tr><td><strong>SUBMISSIONYEARQUARTER</strong></td><td>Char</td><td>7</td><td>Fiscal year and quarter of the quarterly snapshot of SDWIS.</td></tr><tr><td><strong>PWSID</strong></td><td>Char</td><td>9</td><td>Unique identifying code for a public water system in SDWIS. The PWSID consists of a two-letter state or region code, followed by seven digits.</td></tr><tr><td><strong>EVENT_SCHEDULE_ID</strong></td><td>Char</td><td>20</td><td>Identifier used to identify milestone events.</td></tr><tr><td>EVENT_END_DATE</td><td>Date</td><td>&nbsp;</td><td>Date on which the milestone event ended. Date format is MM/DD/YYYY.</td></tr><tr><td>EVENT_ACTUAL_DATE</td><td>Date</td><td>&nbsp;</td><td>Date on which the milestone was conducted or achieved. Date format is MM/DD/YYY.</td></tr><tr><td>EVENT_COMMENTS_TEXT</td><td>Char</td><td>2000</td><td>Description of the milestone event.</td></tr><tr><td>EVENT_MILESTONE_CODE</td><td>Char</td><td>4</td><td><p>A four-character code identifying the event milestone.</p><ul><li>DEEM - System deemed optimized without OCCT</li><li>DONE - System done with OCCT</li><li>LSLR - Lead service line replacement required</li><li>FICF - Fecal Indicator Contamination Action</li><li>SDFF - Significant Deficiency/Sanitary Defect Corrective Action</li><li>SDFI - Significant Deficiency/Sanitary Defect Interim Step</li><li>FICI - Fecal Indicator Interim Step</li><li>RTL1 - Revised Total Coliform Rule Level 1 Treatment Technique Trigger</li><li>RTL2 - Revised Total Coliform Rule Level 2 Treatment Technique Trigger</li></ul></td></tr><tr><td>EVENT_REASON_CODE</td><td>Char</td><td>4</td><td><p>Code identifying the reason for the milestone event.</p><ul><li>B1 - Serving fewer than 50,000</li><li>B3 - Serving greater than 50,000: met action levels</li><li>WQP - Water Quality parameters</li><li>GW - Ground Water Rule</li><li>SH - Subpart H (Interim Enhanced Surface Water Treatment Rule)</li><li>L2TA - Maximum Contaminant Level Treatment Technique Trigger</li><li>L2TB - Second Level 1 Treatment Technique Trigger</li><li>L1TC - Level 1 Coliform Positive Insufficient Repeat Treatment Technique Trigger</li><li>L1TD - Level 1 Multiple Total Coliform Positive Treatment Technique Trigger</li><li>RTCR - Revised Total Coliform Rule</li></ul></td></tr><tr><td>FIRST_REPORTED_DATE</td><td>Date</td><td>&nbsp;</td><td>First reported date for the milestone event. The date format is MM/DD/YYYY.</td></tr><tr><td>LAST_REPORTED_DATE</td><td>Date</td><td>&nbsp;</td><td>Last&nbsp;reported date for the milestone event. The date format is MM/DD/YYYY.</td></tr></tbody></table><h3 id="facilities">Facilities (SDWA_FACILITIES.csv)</h3><table class="table"><thead><tr><th scope="col">Element</th><th scope="col">Data Type</th><th scope="col">Length</th><th scope="col">Element Definition</th></tr></thead><tbody><tr><td><strong>SUBMISSIONYEARQUARTER</strong></td><td>Char</td><td>7</td><td>Fiscal year and quarter of the quarterly snapshot of SDWIS.</td></tr><tr><td><strong>PWSID</strong></td><td>Char</td><td>9</td><td>Unique identifying code for a public water system in SDWIS. The PWSID consists of a two-letter state or region code, followed by seven digits.</td></tr><tr><td><strong>FACILITY_ID</strong></td><td>Char</td><td>12</td><td>Facility&nbsp;ID that, when used with the PWSID, uniquely identifies a water system facility.</td></tr><tr><td>FACILITY_NAME</td><td>Char</td><td>100</td><td>Name of the water system facility.</td></tr><tr><td>STATE_FACILITY_ID</td><td>Char</td><td>40</td><td>ID that a state uses to identify in their own state system database.</td></tr><tr><td>FACILITY_ACTIVITY_CODE</td><td>Char</td><td>1</td><td><p>A single-character code identifying the current status of the facility.</p><ul><li>A - Active</li><li>I - Inactive</li><li>N - Changed from public to non-public</li><li>M - Merged with another system</li><li>P - Potential future system to be regulated</li></ul></td></tr><tr><td>FACILITY_DEACTIVATION_DATE</td><td>Date</td><td>&nbsp;</td><td>Date the facility was deactivated (no longer actively serving water) or removed from federal oversight because it no longer met SDWA criteria as a public water system (MM/DD/YYYY format).</td></tr><tr><td>FACILITY_TYPE_CODE</td><td>Char</td><td>4</td><td><p>Code identifying the type of facility.&nbsp;</p><ul><li>CC - Consecutive Connection</li><li>CH - Common Headers</li><li>CS - Cistern</li><li>CW - Clear Well</li><li>DS - Distribution System System/Zone</li><li>IG - Infiltration Gallery</li><li>IN - Intake</li><li>NN - Non-piped, Non-purchased</li><li>NP - Non-piped</li><li>OT - Other</li><li>PC - Pressure Control</li><li>PF - Pump Facility</li><li>RC - Roof Catchment</li><li>RS - Reservoir</li><li>SI - Surface Impoundment</li><li>SP - Spring</li><li>SS - Sampling Station</li><li>ST - Storage</li><li>TM - Transmission Main (Manifold)</li><li>TP - Treatment Plant</li><li>WH - Wellhead</li><li>WL - Well</li></ul></td></tr><tr><td>SUBMISSION_STATUS_CODE</td><td>Char</td><td>4</td><td><p>Code that indicates whether an active water system was reported, rejected, or not reported during the recent inventory submission. This field is not applicable to inactive water systems.</p><ul><li>Y - Reported and accepted</li><li>U - Unreported</li><li>R - Reported, but rejected</li></ul></td></tr><tr><td>IS_SOURCE_IND</td><td>Char</td><td>1</td><td>Indicates whether the water system facility is designated a source (either a Consecutive Connection (CC), Infiltration Gallery (IG), Intake (IN), Non-piped (NP), Roof Catchment (RC), Reservoir (RS), Spring (SP), Well (WL), or Non-piped non-purchased (NN)).</td></tr><tr><td>WATER_TYPE_CODE</td><td>Char</td><td>4</td><td>Character code identifying the type of water source. Ground water (GW), Surface water (SW), Ground water under the influence of surface water (GU). See the&nbsp;<a href="http://water.epa.gov/drink/resources/glossary.cfm" target="_blank">Water Topics</a>&nbsp;page on the EPA website for full definitions of these terms and more.</td></tr><tr><td>AVAILABILITY_CODE</td><td>Char</td><td>4</td><td><p>A single-character code for how the water source is utilized by a water system.</p><ul><li>E - Emergency</li><li>I - Interim</li><li>P - Permanent</li><li>O - Other</li><li>S - Seasonal</li><li>U - Unknown</li></ul></td></tr><tr><td>SELLER_TREATMENT_CODE</td><td>Char</td><td>4</td><td><p>Code that indicates the treatment status of the water. Applies only to source facilities.</p><ul><li>F - Filtered</li><li>G - Treated by seller including 4-log for the Ground Water Rule</li><li>Y - Partially treated by seller</li><li>N - Not treated</li><li>U - Unknown</li></ul></td></tr><tr><td>SELLER_PWSID</td><td>Char</td><td>9</td><td>PWSID of the water system that is selling water to this system through this interconnection. Is also the "upstream" water system to the parent of this facility.</td></tr><tr><td>SELLER_PWS_NAME</td><td>Char</td><td>100</td><td>Name of the water system that is selling water to this system through this interconnection. Is also the "upstream" water system to the parent of this facility.</td></tr><tr><td>FILTRATION_STATUS_CODE</td><td>Char</td><td>4</td><td><p>Code reported by the state to indicate whether a non-emergency surface water source or a non-emergency ground water under the influence of surface water source is required to install filtration by a certain date or is successfully avoiding filtration.</p><ul><li>MIF - Must install filtration</li><li>SAF - Successfully avoiding filtration</li><li>FIL - Filtration already in place</li></ul></td></tr><tr><td>IS_SOURCE_TREATED_IND</td><td>Char</td><td>1</td><td>Indicates whether the water system source water is being treated or not.</td></tr><tr><td>FIRST_REPORTED_DATE</td><td>Date</td><td>&nbsp;</td><td>First reported date for the milestone event. The date format is MM/DD/YYYY.</td></tr><tr><td>LAST_REPORTED_DATE</td><td>Date</td><td>&nbsp;</td><td>Last&nbsp;reported date for the milestone event. The date format is MM/DD/YYYY.</td></tr></tbody></table><h3 id="geographic-areas">Geographic Areas (SDWA_GEOGRAPHIC_AREAS.csv)</h3><table class="table"><thead><tr><th scope="col">Element</th><th scope="col">Data Type</th><th scope="col">Length</th><th scope="col">Element Definition</th></tr></thead><tbody><tr><td><strong>SUBMISSIONYEARQUARTER</strong></td><td>Char</td><td>7</td><td>Fiscal year and quarter of the quarterly snapshot of SDWIS.</td></tr><tr><td><strong>PWSID</strong></td><td>Char</td><td>9</td><td>Unique identifying code for a public water system in SDWIS. The PWSID consists of a two-letter state or region code, followed by seven digits.</td></tr><tr><td><strong>GEO_ID</strong></td><td>Char</td><td>20</td><td>System-generated ID that uniquely identifies a PWSID and Area Type record.</td></tr><tr><td>AREA_TYPE_CODE</td><td>Char</td><td>4</td><td><p>Code identifying the area type where the facility is located.</p><ul><li>TR - Tribal</li><li>CN - County</li><li>ZC - Zip Code</li><li>CT - City</li><li>IR - Indian Reservation</li><li>NULL - Unknown Area Type</li></ul></td></tr><tr><td>TRIBAL_CODE</td><td>Char</td><td>10</td><td>EPA code which represents the Indian reservation or Alaska Remote Village being served by a Water System. A full description of the codes can be accessed in the SDWA_REF_CODE_VALUES.csv.</td></tr><tr><td>STATE_SERVED</td><td>Char</td><td>4</td><td>State that the facility is serving.</td></tr><tr><td>ANSI_ENTITY_CODE</td><td>Char</td><td>4</td><td>American National Standards Institute (ANSI) code for the county, city, or legal statistical area. Taken with the ANSI state code, uniquely identifies a county (or other area) within the country. See the&nbsp;<a href="https://www.census.gov/library/reference/code-lists/ansi.html#:~:text=American%20National%20Standards%20Institute%20codes,through%20all%20federal%20government%20agencies" target="_blank">U.S. Census Bureau webpage</a>&nbsp;for more information about ANSI codes.</td></tr><tr><td>ZIP_CODE_SERVED</td><td>Char</td><td>5</td><td>5-digit postal zip code that the facility serves.</td></tr><tr><td>CITY_SERVED</td><td>Char</td><td>40</td><td>Name of the city that the facility serves.</td></tr><tr><td>COUNTY_SERVED</td><td>Char</td><td>40</td><td>Name of the county that the facility serves.</td></tr><tr><td>LAST_REPORTED_DATE</td><td>Date</td><td>&nbsp;</td><td>Last reported date for the milestone event. The date format is MM/DD/YYYY.</td></tr></tbody></table><h3 id="LCR">Lead and Copper Rule (SDWA_LCR_Samples.csv)</h3><table class="table"><thead><tr><th scope="col">Element</th><th scope="col">Data Type</th><th scope="col">Length</th><th scope="col">Element Definition</th></tr></thead><tbody><tr><td><strong>SUBMISSIONYEARQUARTER</strong></td><td>Char</td><td>7</td><td>Fiscal year and quarter of the quarterly snapshot of SDWIS.</td></tr><tr><td><strong>PWSID</strong></td><td>Char</td><td>9</td><td>Unique identifying code for a public water system in SDWIS. The PWSID consists of a two-letter state or region code, followed by seven digits.</td></tr><tr><td><strong>SAMPLE_ID</strong></td><td>Char</td><td>20</td><td>Identifier used to identify the sample.</td></tr><tr><td>SAMPLING_END_DATE</td><td>Date</td><td>&nbsp;</td><td>Date of the last day of the monitoring period in which 90th percentile data for lead or copper was acquired (MM/DD/YYYY format).</td></tr><tr><td>SAMPLING_START_DATE</td><td>Date</td><td>&nbsp;</td><td>Date of the first day of the monitoring period in which 90th percentile data for lead or copper was acquired (MM/DD/YYYY format).</td></tr><tr><td>RECONCILIATION_ID</td><td>Char</td><td>40</td><td>Identifier used for reconciliation with the state data system or LAB assigned identifiers.</td></tr><tr><td>SAMPLE_FIRST_REPORTED_DATE</td><td>Date</td><td>&nbsp;</td><td>First reported date of the sample analytical result (MM/DD/YYYY format).</td></tr><tr><td>SAMPLE_LAST_REPORTED_DATE</td><td>Date</td><td>&nbsp;</td><td>Last reported date of the sample analytical result (MM/DD/YYYY format).</td></tr><tr><td><strong>SAR_ID</strong></td><td>Num</td><td>9</td><td>System-generated number managed by the reporting jurisdiction that uniquely identifies each Sample Result record. As there are situations where there can be two sample results for a sample, the SAR_ID is used instead of the Contaminant code in the primary key of this table.</td></tr><tr><td>CONTAMINANT_CODE</td><td>Char</td><td>4</td><td>Code value that represents a contaminant for which a public water system has incurred a violation of a primary drinking water regulation. A full description of the codes can be accessed in the SDWA_REF_CODE_VALUES.csv.</td></tr><tr><td>RESULT_SIGN_CODE</td><td>Char</td><td>1</td><td><p>Indicates if the sample result was below the minimum detection limit or equal to the value reported.</p><ul><li>L - Less then, meaning below minimum detection limits</li><li>E - Equal to, meaning exactly equal to the value reported</li></ul></td></tr><tr><td>SAMPLE_MEASURE</td><td>Num</td><td>&nbsp;</td><td>Measured value of the contaminant as reported from the sampling analysis.</td></tr><tr><td>UNIT_OF_MEASURE</td><td>Char</td><td>4</td><td>Units of the value in SAMPLE_MEASURE.</td></tr><tr><td>SAR_FIRST_REPORTED_DATE</td><td>Date</td><td>&nbsp;</td><td>Date of the first reported sample analytical result (MM/DD/YYYY format).</td></tr><tr><td>SAR_LAST_REPORTED_DATE</td><td>Date</td><td>&nbsp;</td><td>Date of the last reported sample analytical result (MM/DD/YYYY format).</td></tr></tbody></table><h3 id="PN">Public Notice Violations (SDWA_PN_VIOLATION_ASSOC.csv)</h3><table class="table"><thead><tr><th scope="col">Element</th><th scope="col">Data Type</th><th scope="col">Length</th><th scope="col">Element Definition</th></tr></thead><tbody><tr><td><strong>SUBMISSIONYEARQUARTER</strong></td><td>Char</td><td>7</td><td>Fiscal year and quarter of the quarterly snapshot of SDWIS.</td></tr><tr><td><strong>PWSID</strong></td><td>Char</td><td>9</td><td>Unique identifying code for a public water system in SDWIS. The PWSID consists of a two-letter state or region code, followed by seven digits.</td></tr><tr><td><strong>PN_VIOLATION_ID</strong></td><td>Char</td><td>20</td><td>Unique identifier identifying the public notification.</td></tr><tr><td>RELATED_VIOLATION_ID</td><td>Char</td><td>20</td><td>A separate violation associated with the violation.</td></tr><tr><td>NON_COMPL_PER_BEGIN_DATE</td><td>Date</td><td>&nbsp;</td><td>Begin date of the noncompliance period during which a violation was identified.</td></tr><tr><td>NON_COMPL_PER_END_DATE</td><td>Date</td><td>&nbsp;</td><td>End date of the noncompliance period during which a violation was identified. Note that open-ended violations are listed using the later resolving action date, if the earlier resolving action is followed by certain types of enforcement actions that indicate continued enforcement activity. For unresolved violations, the NON_COMPL_PER_END_DATE is listed as null.</td></tr><tr><td>VIOLATION_CODE</td><td>Char</td><td>4</td><td>A full description of violation codes can be accessed in the SDWA_REF_CODE_VALUES (CSV) table.</td></tr><tr><td>CONTAMINATION_CODE</td><td>Char</td><td>4</td><td>Code value that represents a contaminant for which a public water system has incurred a violation of a primary drinking water regulation. A full description of the codes can be accessed in the SDWA_REF_CODE_VALUES.csv.</td></tr><tr><td>FIRST_REPORTED_DATE</td><td>Date</td><td>&nbsp;</td><td>First reported date for the milestone event. The date format is MM/DD/YYYY.</td></tr><tr><td>LAST_REPORTED_DATE</td><td>Date</td><td>&nbsp;</td><td>Last&nbsp;reported date for the milestone event. The date format is MM/DD/YYYY.</td></tr></tbody></table><h3 id="PWS">Public Water Systems (SDWA_PUB_WATER_SYSTEMS.csv)</h3><table class="table"><thead><tr><th scope="col">Element</th><th scope="col">Data Type</th><th scope="col">Length</th><th scope="col">Element Definition</th></tr></thead><tbody><tr><td><strong>SUBMISSIONYEARQUARTER</strong></td><td>Char</td><td>7</td><td>Fiscal year and quarter of the quarterly snapshot of SDWIS.</td></tr><tr><td><strong>PWSID</strong></td><td>Char</td><td>9</td><td>Unique identifying code for a public water system in SDWIS. The PWSID consists of a two-letter state or region code, followed by seven digits.</td></tr><tr><td>PWS_NAME</td><td>Char</td><td>100</td><td>Name of the public water system.</td></tr><tr><td>PRIMACY_AGENCY_CODE</td><td>Char</td><td>2</td><td>Primacy agency code is the two-character state code&nbsp;or EPA Region number.</td></tr><tr><td>EPA_REGION</td><td>Char</td><td>2</td><td>A two-character code identifying the EPA Region in which the system is located.</td></tr><tr><td>SEASON_BEGIN_DATE</td><td>Char</td><td>5</td><td>Opening month and day of the period of time when the water system serves water for those systems that operate seasonally (DD-MONTH format).</td></tr><tr><td>SEASON_END_DATE</td><td>Char</td><td>5</td><td>Ending month and day of the period of time when the water system serves water for those systems that operate seasonally (DD-MONTH format).</td></tr><tr><td>PWS_ACTIVITY_CODE</td><td>Char</td><td>1</td><td><p>A single-character code identifying the current activity status of the public water system.</p><ul><li>A - Active</li><li>I - Inactive</li><li>N - Changed from public to non-public</li><li>M - Merged with another system</li><li>P - Potential future system to be regulated</li></ul></td></tr><tr><td>PWS_DEACTIVATION_DATE</td><td>Date</td><td>7</td><td>Date on which the water system was reported as being closed/deactivated (MM/DD/YYYY format).</td></tr><tr><td>PWS_TYPE_CODE</td><td>Char</td><td>6</td><td><p>Indicates the type of public water system (PWS). A public water system is a system for the provision to the public of piped water for human consumption, which has at least 15 service connections or regularly serves an average of at least 25 individuals at least 60 days out of the year. PWS_TYPE_SHORT indicates whether a system is Community or Non-Community. Possible values for PWS_TYPE_CODE include:</p><ul><li>CWS (Community water system) - A PWS that serves at least fifteen service connections used by year-round residents or regularly serves at least 25 year-round residents (e.g., homes, apartments and condominiums that are occupied year-round as primary residences).</li><li>TNCWS (Transient non-community water system) - A non-community water system that does not regularly serve at least 25 of the same persons over six months per year&nbsp;&nbsp; A typical example is a campground or a highway rest stop that has its own water source, such as a drinking water well.</li><li>NTNCWS (Non-transient non-community water system) - A non-community PWS that regularly serves at least 25 of the same persons over six months per year. A typical example of a non-transient non-community water system is a school or an office building that has its own water source, such as a drinking water well.</li></ul></td></tr><tr><td>DBPR_SCHEDULE_CAT_CODE</td><td>Char</td><td>6</td><td><p>Stage 2 Disinfectant Byproducts Rule schedule category code.</p><ul><li>1 – System serving 100K or more people OR systems that are connected to a system serving 100K or more</li><li>2 - System serving 50K to 99,999 people OR belonging to a CDS in which the largest system serves 50K to</li><li>3 - System serving 10K to 49,999 people OR belonging to a CDS in which the largest system serves 10K to</li><li>4 - System serving fewer than 10,000 AND not connected to a larger system</li></ul></td></tr><tr><td>CDS_ID</td><td>Char</td><td>100</td><td>Combined distribution system identifier.</td></tr><tr><td>GW_SW_CODE</td><td>Char</td><td>2</td><td>Identifies whether a system’s water source is groundwater (GW) or surface water (SW) under SDWA. An empty cell indicates the system relied on another water source.</td></tr><tr><td>LT2_SCHEDULE_CAT_CODE</td><td>Char</td><td>6</td><td><p>Single-digit code to identify the category for Long Term 2 Enhanced Surface Water Treatment (LT2) schedule.</p><ul><li>1- Schedule 1</li><li>2- Schedule 2</li><li>3- Schedule 3</li><li>4- Schedule 4</li><li>5- Schedule 5</li></ul></td></tr><tr><td>OWNER_TYPE_CODE</td><td>Char</td><td>1</td><td><p>Single-character code identifying the ownership category of the water system.</p><ul><li>F – Federal government</li><li>L- Local government</li><li>M- Public/Private</li><li>N – Native American</li><li>P - Private</li><li>S – State government</li></ul></td></tr><tr><td>POPULATION_SERVED_COUNT</td><td>Num</td><td>&nbsp;</td><td>Estimated average daily population served by a system.</td></tr><tr><td>POP_CAT_2_CODE</td><td>Char</td><td>2</td><td><p>A single-digit code identifying the service population size.</p><ul><li>1 - &lt;10,000</li><li>2 – 10,000+</li></ul></td></tr><tr><td>POP_CAT_3_CODE</td><td>Char</td><td>2</td><td><p>A single-digit code identifying the service population size.</p><ul><li>1 - &lt;=3,300</li><li>2 – 3,301-50,000</li><li>3 - &gt;50,000</li></ul></td></tr><tr><td>POP_CAT_4_CODE</td><td>Char</td><td>2</td><td><p>A single-digit code identifying the service population size.</p><ul><li>1 -&lt;10K</li><li>2 – 10K-49,999</li><li>3 – 50K-99,999</li><li>4 – 100K+</li></ul></td></tr><tr><td>POP_CAT_5_CODE</td><td>Char</td><td>2</td><td><p>A single-digit code identifying the service population size.</p><ul><li>1 - &lt;=500</li><li>2 – 501-3,300</li><li>3 – 3301-10,000</li><li>4 – 10,001-100,000</li><li>5 - &gt;100,000</li></ul></td></tr><tr><td>POP_CAT_11_CODE</td><td>Char</td><td>2</td><td><p>A code identifying the service population size.</p><ul><li>1 - &lt;=100</li><li>2 – 101 – 500</li><li>3 – 501-1000</li><li>4 – 1,001- 3,300</li><li>5 – 3,301- 10,000</li><li>6 – 10,001 – 50,000</li><li>7 – 50,001-100,000</li><li>8 – 100,001 – 250,000</li><li>9 – 250,001-500,000</li><li>10 – 500,001-1,000,000</li><li>11 - &gt;1,000,000</li></ul></td></tr><tr><td>PRIMACY_TYPE</td><td>Char</td><td>20</td><td>Indicates whether the water system is regulated by a state, tribal, or territorial primacy program. Note that EPA direct implementation programs, except for Wyoming, are tribal primacy programs.</td></tr><tr><td>PRIMARY_SOURCE_CODE</td><td>Char</td><td>4</td><td><p>Primary water source code.</p><ul><li>GW - Ground water</li><li>GWP - Ground water purchased</li><li>SW - Surface water</li><li>SWP - Surface water purchased</li><li>GU - Groundwater under influence of surface water</li><li>GUP – Purchased ground water under influence of surface water source</li></ul></td></tr><tr><td>IS_GRANT_ELIGIBLE_IND</td><td>Char</td><td>1</td><td>Indicates whether the primacy agency has reported the minimum necessary data elements for this water system to include it in grant calculations.</td></tr><tr><td>IS_WHOLESALER_IND</td><td>Char</td><td>1</td><td>Indicates whether the system is a wholesaler of water.</td></tr><tr><td>IS_SCHOOL_OR_DAYCARE_IND</td><td>Char</td><td>1</td><td>Indicates if the water system’s primary service area is a school or daycare, as defined by EPA/OGWDW.</td></tr><tr><td>SERVICE_CONNECTIONS_COUNT</td><td>Num</td><td>&nbsp;</td><td>Number of service connections to the water system.</td></tr><tr><td>SUBMISSION_STATUS_CODE</td><td>Char</td><td>1</td><td><p>Code that indicates whether an active water system was reported, rejected, or not reported during the recent inventory submission. This field is not applicable to inactive water systems. Generated by ODS.</p><ul><li>Y - Reported and accepted</li><li>U - Unreported</li><li>R - Reported, but rejected</li></ul></td></tr><tr><td>ORG_NAME</td><td>Char</td><td>100</td><td>The organization to which the legal entity is associated.</td></tr><tr><td>ADMIN_NAME</td><td>Char</td><td>100</td><td>Name of the water system administrative contact – usually a person’s name.</td></tr><tr><td>EMAIL_ADDR</td><td>Char</td><td>100</td><td>Email address of the administrative contact.</td></tr><tr><td>PHONE_NUMBER</td><td>Char</td><td>15</td><td>Telephone number of a water system or the system’s primary contact. Format: (NNN) NNN-NNNN. Where multiple facilities exist for a water system at different physical locations, phone number identifies the telephone number which is applicable to the primary facility of, or the principal contact for, the system.</td></tr><tr><td>PHONE_EXT_NUMBER</td><td>Char</td><td>5</td><td>Telephone extension of the administrative contact.</td></tr><tr><td>FAX_NUMBER</td><td>Char</td><td>15</td><td>Administrative contact's fax number.</td></tr><tr><td>ALT_PHONE_NUMBER</td><td>Char</td><td>15</td><td>Administrative contact's alternative telephone number.</td></tr><tr><td>ADDRESS_LINE1</td><td>Char</td><td>200</td><td>First line of an address applicable to a legal entity.</td></tr><tr><td>ADDRESS_LINE2</td><td>Char</td><td>200</td><td>Second line of an address applicable to a legal entity. This field is the street address, rural route, etc.</td></tr><tr><td>CITY_NAME</td><td>Char</td><td>40</td><td>City in which a legal entity is located.</td></tr><tr><td>ZIP_CODE</td><td>Char</td><td>14</td><td>U.S. Postal Service (USPS) ZIP code in which a legal entity is located. Format: ZZZZZEEEE where ZZZZZ=the ZIP code and EEEE= the optional ZIP+4 extension.</td></tr><tr><td>COUNTRY_CODE</td><td>Char</td><td>2</td><td>Two-character abbreviation of the country code where the administrative contact is located.</td></tr><tr><td>FIRST_REPORTED_DATE</td><td>Date</td><td>7</td><td>First reported date for the system (format&nbsp; MM/DD/YYYY).</td></tr><tr><td>LAST_REPORTED_DATE</td><td>Date</td><td>7</td><td>Last&nbsp;reported date for the system (format MM/DD/YYYY).</td></tr><tr><td>STATE_CODE</td><td>Char</td><td>2</td><td>A coded value that represents the U.S. Postal Service (USPS) state abbreviation in which a legal entity is located. Must be one of the USPS Postal State Codes.</td></tr><tr><td>SOURCE_WATER_PROTECTION_CODE</td><td>Char</td><td>2</td><td>Indicates whether the water system has implemented source water protection according to state policy.</td></tr><tr><td>SOURCE_PROTECTION_BEGIN_DATE</td><td>Date</td><td>7</td><td>Date water system substantially implemented source water protection according to state policy (MM/DD/YYYY format).</td></tr><tr><td>OUTSTANDING_PERFORMER</td><td>Char</td><td>2</td><td>Indicates whether the system met the outstanding performer criteria according to state policy.</td></tr><tr><td>OUTSTANDING_PERFORM_BEGIN_DATE</td><td>Date</td><td>7</td><td>Date water system met the outstanding performer criteria according to state policy.</td></tr><tr><td>REDUCED_RTCR_MONITORING</td><td>Char</td><td>20</td><td>Frequency of Revised Total Coliform Rule (RTCR)&nbsp;monitoring, which could be annually, quarterly, or semi-annually.</td></tr><tr><td>REDUCED_MONITORING_BEGIN_DATE</td><td>Date</td><td>7</td><td>Initial date of reduced monitoring (MM/DD/YYYY format).</td></tr><tr><td>REDUCED_MONITORING_END_DATE</td><td>Date</td><td>7</td><td>Reduced monitoring end date (MM/DD/YYYY format).</td></tr><tr><td>SEASONAL_STARTUP_SYSTEM</td><td>Char</td><td>40</td><td>Indicates whether the system pressurized including during the offseason or whether the system was not pressurized all year. Only pertains to seasonal systems.</td></tr></tbody></table><h3 id="ANSI">ANSI (SDWA_REF_ANSI_AREAS.csv)</h3><table class="table"><thead><tr><th scope="col">Element</th><th scope="col">Data Type</th><th scope="col">Length</th><th scope="col">Element Definition</th></tr></thead><tbody><tr><td><strong>ANSI_STATE_CODE</strong></td><td>Char</td><td>2</td><td>Standardized facility location code as issued by the American National Standards Institute (ANSI). A full description of the codes can be accessed in the SDWA_REF_ANSI_AREAS.csv. See the&nbsp;<a href="https://www.census.gov/library/reference/code-lists/ansi.html#:~:text=American%20National%20Standards%20Institute%20codes,through%20all%20federal%20government%20agencies" target="_blank">U.S. Census Bureau webpage</a>&nbsp;for more information about ANSI codes.</td></tr><tr><td><strong>ANSI_ENTITY_CODE</strong></td><td>Char</td><td>3</td><td>American National Standards Institute (ANSI) code for the county, city, or legal statistical area. Taken with the ANSI state code, uniquely identifies a county (or other area) within the country. See the&nbsp;<a href="https://www.census.gov/library/reference/code-lists/ansi.html#:~:text=American%20National%20Standards%20Institute%20codes,through%20all%20federal%20government%20agencies" target="_blank">U.S. Census Bureau webpage</a>&nbsp;for more information about ANSI codes.</td></tr><tr><td>ANSI_NAME</td><td>Char</td><td>40</td><td>Name of the area associated with the ANSI entity and state code.</td></tr><tr><td>STATE_CODE</td><td>Char</td><td>2</td><td>A coded value that represents the U.S. Postal Service (USPS) state abbreviation in which a legal entity is located. Must be one of the USPS Postal State Codes.</td></tr></tbody></table><h3 id="ref">Reference Codes (SDWA_REF_CODE_VALUES.csv)</h3><table class="table"><thead><tr><th scope="col">Element</th><th scope="col">Data Type</th><th scope="col">Length</th><th scope="col">Element Definition</th></tr></thead><tbody><tr><td><strong>VALUE_TYPE</strong></td><td>Char</td><td>40</td><td>Column name associated with the value code as found in the other files.</td></tr><tr><td><strong>VALUE_CODE</strong></td><td>Char</td><td>40</td><td>Value associated with the column named in VALUE_TYPE.</td></tr><tr><td>VALUE_DESCRIPTION</td><td>Char</td><td>250</td><td>Description of the value in VALUE_CODE.</td></tr></tbody></table><h3 id="service-areas">Service Areas (SDWA_SERVICE_AREAS.csv)</h3><table class="table"><thead><tr><th scope="col">Element</th><th scope="col">Data Type</th><th scope="col">Length</th><th scope="col">Element Definition</th></tr></thead><tbody><tr><td><strong>SUBMISSIONYEARQUARTER</strong></td><td>Char</td><td>7</td><td>Fiscal year and quarter of the quarterly snapshot of SDWIS.</td></tr><tr><td><strong>PWSID</strong></td><td>Char</td><td>9</td><td>Unique identifying code for a public water system in SDWIS. The PWSID consists of a two-letter state or region code, followed by seven digits.</td></tr><tr><td>SERVICE_AREA_TYPE_CODE</td><td>Char</td><td>4</td><td>Service area type code. For a full list of visit codes and their descriptions see SDWA_REF_CODE_VALUES.csv under VALUE_TYPE=SERVICE_AREA_CODE.</td></tr><tr><td>IS_PRIMARY_SERVICE_AREA_CODE</td><td>Char</td><td>1</td><td>Indicates whether the area is the primary service area served by the water system.</td></tr><tr><td>FIRST_REPORTED_DATE</td><td>Date</td><td>&nbsp;</td><td>First reported date of the service area (format MM/DD/YYYY).</td></tr><tr><td>LAST_REPORTED_DATE</td><td>Date</td><td>&nbsp;</td><td>Last&nbsp;reported date of the service area (format MM/DD/YYYY).</td></tr></tbody></table><h3 id="site-visits">Site Visits (SDWA_SITE_VISITS.csv)</h3><table class="table"><thead><tr><th scope="col">Element</th><th scope="col">Data Type</th><th scope="col">Length</th><th scope="col">Element Definition</th></tr></thead><tbody><tr><td><strong>SUBMISSIONYEARQUARTER</strong></td><td>Char</td><td>7</td><td>Fiscal year and quarter of the quarterly snapshot of SDWIS.</td></tr><tr><td><strong>PWSID</strong></td><td>Char</td><td>9</td><td>Unique identifying code for a public water system in SDWIS. The PWSID consists of a two-letter state or region code, followed by seven digits.</td></tr><tr><td><strong>VISIT_ID</strong></td><td>Char</td><td>20</td><td>Identification number of the visit.</td></tr><tr><td>VISIT_DATE</td><td>Date</td><td>7</td><td>Date (MM/DD/YYYY) of the site visit.</td></tr><tr><td>AGENCY_TYPE_CODE</td><td>Char</td><td>2</td><td><p>Agency type that conducted the site visit.</p><ul><li>NULL- Unknown Agency Type</li><li>AR- Alaskan Remote Village</li><li>AT- Authority</li><li>BR- Borough</li><li>CM- Commission</li><li>CN- County</li><li>CT- City</li><li>DS- District</li><li>FD- Federal</li><li>MN- Municipality</li><li>NA- Native American Tribe</li><li>PR- Parish</li><li>RG- Region</li><li>SA- State Administrative District</li><li>SD- School District</li><li>SR- State Administrative Region</li><li>ST- State</li><li>TW- Town</li><li>WD- Water District</li><li>SC- State Contractor</li><li>TA- Non-State Provider Engineering/Technical Assistance Firm</li><li>WS- Water System</li></ul></td></tr><tr><td>VISIT_REASON_CODE</td><td>Char</td><td>4</td><td>Code to indicate the reason for the site visit. For a full list of visit codes and their descriptions see SDWA_REF_CODE_VALUES.csv under VALUE_TYPE = VISIT_REASON_CODE.</td></tr><tr><td>MANAGEMENT_OPS_EVAL_CODE</td><td>Char</td><td>1</td><td><p>Management operations evaluation results from site visit.</p><ul><li>M – Minor deficiencies</li><li>N – No deficiencies or recommendations</li><li>R – Recommendations made</li><li>S - Significant deficiencies</li><li>X – Not evaluated</li><li>Z – Not applicable</li><li>D - Sanitary defect</li></ul></td></tr><tr><td>SOURCE_WATER_EVAL_CODE</td><td>Char</td><td>1</td><td><p>Source water evaluation results from site visit.</p><ul><li>M – Minor deficiencies</li><li>N – No deficiencies or recommendations</li><li>R – Recommendations made</li><li>S - Significant deficiencies</li><li>X – Not evaluated</li><li>Z – Not applicable</li><li>D - Sanitary defect</li></ul></td></tr><tr><td>SECURITY_EVAL_CODE</td><td>Char</td><td>1</td><td><p>Security evaluation results from site visit.</p><ul><li>M – Minor deficiencies</li><li>N – No deficiencies or recommendations</li><li>R – Recommendations made</li><li>S - Significant deficiencies</li><li>X – Not evaluated</li><li>Z – Not applicable</li><li>D - Sanitary defect</li></ul></td></tr><tr><td>PUMPS_EVAL_CODE</td><td>Char</td><td>1</td><td><p>Pumps evaluation results from site visit.</p><ul><li>M – Minor deficiencies</li><li>N – No deficiencies or recommendations</li><li>R – Recommendations made</li><li>S - Significant deficiencies</li><li>X – Not evaluated</li><li>Z – Not applicable</li><li>D - Sanitary defect</li></ul></td></tr><tr><td>OTHER_EVAL_CODE</td><td>Char</td><td>1</td><td><p>Other facility equipment/management evaluation results from site visit.</p><ul><li>M – Minor deficiencies</li><li>N – No deficiencies or recommendations</li><li>R – Recommendations made</li><li>S - Significant deficiencies</li><li>X – Not evaluated</li><li>Z – Not applicable</li><li>D - Sanitary defect</li></ul></td></tr><tr><td>COMPLIANCE_EVAL_CODE</td><td>Char</td><td>1</td><td><p>Compliance evaluation results from site visit.</p><ul><li>M – Minor deficiencies</li><li>N – No deficiencies or recommendations</li><li>R – Recommendations made</li><li>S - Significant deficiencies</li><li>X – Not evaluated</li><li>Z – Not applicable</li><li>D - Sanitary defect</li></ul></td></tr><tr><td>DATA_VERIFICATION_EVAL_CODE</td><td>Char</td><td>1</td><td><p>Data verification evaluation results from site visit.</p><ul><li>M – Minor deficiencies</li><li>N – No deficiencies or recommendations</li><li>R – Recommendations made</li><li>S - Significant deficiencies</li><li>X – Not evaluated</li><li>Z – Not applicable</li><li>D - Sanitary defect</li></ul></td></tr><tr><td>TREATMENT_EVAL_CODE</td><td>Char</td><td>1</td><td><p>Treatment evaluation results from site visit.</p><ul><li>M – Minor deficiencies</li><li>N – No deficiencies or recommendations</li><li>R – Recommendations made</li><li>S - Significant deficiencies</li><li>X – Not evaluated</li><li>Z – Not applicable</li><li>D - Sanitary defect</li></ul></td></tr><tr><td>FINISHED_WATER_STOR_EVAL_CODE</td><td>Char</td><td>1</td><td><p>Water storage evaluation from site visit.</p><ul><li>M – Minor deficiencies</li><li>N – No deficiencies or recommendations</li><li>R – Recommendations made</li><li>S - Significant deficiencies</li><li>X – Not evaluated</li><li>Z – Not applicable</li><li>D - Sanitary defect</li></ul></td></tr><tr><td>DISTRIBUTION_EVAL_CODE</td><td>Char</td><td>1</td><td><p>Distribution system evaluation results from site visit.</p><ul><li>M – Minor deficiencies</li><li>N – No deficiencies or recommendations</li><li>R – Recommendations made</li><li>S – Significant deficiencies</li><li>X – Not evaluated</li><li>Z – Not applicable</li><li>D – Sanitary defect</li></ul></td></tr><tr><td>FINANCIAL_EVAL_CODE</td><td>Char</td><td>1</td><td><p>Financial evaluation results from site visit.</p><ul><li>M – Minor deficiencies</li><li>N – No deficiencies or recommendations</li><li>R – Recommendations made</li><li>S - Significant deficiencies</li><li>X – Not evaluated</li><li>Z – Not applicable</li><li>D - Sanitary defect</li></ul></td></tr><tr><td>VISIT_COMMENTS</td><td>Char</td><td>2000</td><td>Comments of site visit by the visitor.</td></tr><tr><td>FIRST_REPORTED_DATE</td><td>Date</td><td>7</td><td>First reported date of the site visit (format MM/DD/YYYY).</td></tr><tr><td>LAST_REPORTED_DATE</td><td>Date</td><td>7</td><td>Last&nbsp;reported date of the site visit (format MM/DD/YYYY).</td></tr></tbody></table><h3 id="vio-enf">Violations and Enforcement (SDWA_VIOLATIONS_ENFORCEMENT.csv)</h3><table class="table"><thead><tr><th scope="col">Element</th><th scope="col">Data Type</th><th scope="col">Length</th><th scope="col">Element Definition</th></tr></thead><tbody><tr><td><strong>SUBMISSIONYEARQUARTER</strong></td><td>Char</td><td>7</td><td>Fiscal year and quarter of the quarterly snapshot of SDWIS.</td></tr><tr><td><strong>PWSID</strong></td><td>Char</td><td>9</td><td>Unique identifying code for a public water system in SDWIS. The PWSID consists of a two-letter state or region code, followed by seven digits.</td></tr><tr><td><strong>VIOLATION_ID</strong></td><td>Char</td><td>20</td><td>System-generated identifier for a violation.</td></tr><tr><td>FACILITY_ID</td><td>Char</td><td>12</td><td>Facility&nbsp;ID that, when used with the PWSID, uniquely identifies a water system facility.</td></tr><tr><td>NON_COMPL_PER_BEGIN_DATE</td><td>Date</td><td>&nbsp;</td><td>Begin date of the noncompliance period during which a violation was identified.</td></tr><tr><td>NON_COMPL_PER_END_DATE</td><td>Date</td><td>&nbsp;</td><td>End date of the noncompliance period during which a violation was identified. Note that open-ended violations are listed using the later resolving action date, if the earlier resolving action is followed by certain types of enforcement actions that indicate continued enforcement activity. For unresolved violations, the NON_COMPL_PER_END_DATE is listed as null.</td></tr><tr><td>VIOLATION_CODE</td><td>Char</td><td>4</td><td>A full description of violation codes can be accessed in the SDWA_REF_CODE_VALUES (CSV) table.</td></tr><tr><td>VIOLATION_CATEGORY_CODE</td><td>Char</td><td>5</td><td><p>Category of the violation.</p><ul><li>TT- Treatment Technique Violation</li><li>MRDL- Maximum Residual Disinfectant Level</li><li>Other- Other Violation</li><li>MCL- Maximum Contaminant Level Violation</li><li>MR- Monitoring and Reporting</li><li>MON- Monitoring Violation</li><li>RPT- Reporting Violation</li></ul></td></tr><tr><td>IS_HEALTH_BASED_IND</td><td>Char</td><td>1</td><td><p>Indicates if this is a health based violation. Valid values are Y (yes) or N (no).</p><p>These violations fall into three categories:</p><ul><li>Exceedances of the maximum contaminant levels (MCLs), which specify the highest allowable contaminant concentrations in drinking water;</li><li>Exceedances of the maximum residual disinfectant levels (MRDLs), which specify the highest concentrations of disinfectants allowed in drinking water; and</li><li>Treatment technique requirements, which specify certain processes intended to reduce the level of a contaminant.</li></ul></td></tr><tr><td>CONTAMINANT_CODE</td><td>Char</td><td>4</td><td>Code value that represents a contaminant for which a public water system has incurred a violation of a primary drinking water regulation. A full description of the codes can be accessed in the SDWA_REF_CODE_VALUES.csv.</td></tr><tr><td>VIOL_MEASURE</td><td>Num</td><td>&nbsp;</td><td>Numeric value that represents the analytical result of a contaminant that exceeded the Maximum Contaminant Level (MCL) for that contaminant. For contaminants that can be monitored with a reliable degree of accuracy, an MCL is set. For those which cannot be monitored reliably, a treatment technique is set instead. Both standards are set at a level sufficient to protect the public's health.</td></tr><tr><td>UNIT_OF_MEASURE</td><td>Char</td><td>9</td><td>Units of value in SAMPLE_MEASURE.</td></tr><tr><td>FEDERAL_MCL</td><td>Char</td><td>31</td><td>Numeric value that represents the maximum contaminant level which was exceeded that led to the identification of an MCL violation for a public water system.</td></tr><tr><td>STATE_MCL</td><td>Num</td><td>&nbsp;</td><td>Numeric value that represents the maximum contaminant level which was exceeded that led to the identification of an MCL violation for a public water system.</td></tr><tr><td>IS_MAJOR_VIOL_IND</td><td>Char</td><td>1</td><td>Code value that indicates whether a Monitoring and Reporting (MR) violation is major or minor. The major versus minor designation does not apply to a sanitary survey MR violation.</td></tr><tr><td>SEVERITY_IND_CNT</td><td>Num</td><td>&nbsp;</td><td>Count indicating the severity of certain DBPR and IESWTR violations.</td></tr><tr><td>CALCULATED_RTC_DATE</td><td>Date</td><td>&nbsp;</td><td>Date the system returned to compliance.</td></tr><tr><td>VIOLATION_STATUS</td><td>Char</td><td>11</td><td><p>Current status of the violation.</p><ul><li><strong>Resolved&nbsp;</strong>-&nbsp;The violation has at least one&nbsp;<a href="https://echo.epa.gov/help/reports/dfr-data-dictionary#resolvingaction">resolving enforcement action</a>.&nbsp;In SDWIS, this indicates that either the system has returned to compliance from the violation, the rule that was violated was no longer applicable, or no further action was needed.</li><li><strong>Archived</strong>&nbsp;-&nbsp;The violation is not Resolved, but is more than five years past its noncompliance period end date. In keeping with the&nbsp;<a href="https://www.epa.gov/enforcement/enforcement-response-policy-public-water-system-supervision-pwss-program-under-safe" target="_blank">Enforcement Response Policy</a>, the violation no longer contributes to the public water system's overall compliance status. Unresolved violations are also marked as Archived when a system ceases operations (becomes inactive).</li><li><strong>Addressed</strong>&nbsp;-&nbsp;The violation is not Resolved or Archived, and is addressed by one or more&nbsp;<a href="https://echo.epa.gov/help/reports/dfr-data-dictionary#sdwa_fea">formal enforcement actions</a>.</li><li><strong>Unaddressed&nbsp;</strong>-&nbsp;The violation is not Resolved or Archived, and has not been addressed by formal enforcement.</li></ul></td></tr><tr><td>PUBLIC_NOTIFICATION_TIER</td><td>Num</td><td>&nbsp;</td><td>Numeric code for Public Notification Tier for the violation.</td></tr><tr><td>CALCULATED_PUB_NOTIF_TIER</td><td>Num</td><td>&nbsp;</td><td>Calculated numeric code for Public Notification Tier for the violation.</td></tr><tr><td>VIOL_ORIGINATOR_CODE</td><td>Char</td><td>4</td><td><p>Code that indicates who the violation was initiated by.</p><ul><li>F- ODSWEB</li><li>H- Headquarter</li><li>R- Region</li><li>S- State</li></ul></td></tr><tr><td>SAMPLE_RESULT_ID</td><td>Char</td><td>40</td><td>System-generated number managed by the reporting jurisdiction that uniquely identifies each sample result record.</td></tr><tr><td>CORRECTIVE_ACTION_ID</td><td>Char</td><td>40</td><td>Corrective action identifier</td></tr><tr><td>RULE_CODE</td><td>Char</td><td>3</td><td><p>Code for a National Drinking Water rule.</p><ul><li>110- Total Coliform Rule</li><li>121- Surface Water Treatment Rule</li><li>122- Long Term 1 Enhanced Surface Water Treatment Rule</li><li>123- Long Term 2 Enhanced Surface Water Treatment Rule</li><li>130- Filter Backwash Rule</li><li>140- Ground Water Rule</li><li>210- Stage 1 Disinfectants and Disinfection Byproducts Rule</li><li>220- Stage 2 Disinfectants and Disinfection Byproducts Rule</li><li>230- Total Trihalomethanes</li><li>310- Volatile Organic Chemicals</li><li>331- Nitrates</li><li>332- Arsenic</li><li>333- Inorganic Chemicals</li><li>320- Synthetic Organic Chemicals</li><li>340- Radionuclides</li><li>350- Lead and Copper Rule</li><li>410- Public Notice Rule</li><li>420- Consumer Confidence Rule</li><li>430- Miscellaneous</li><li>500- Not Regulated</li><li>111- Revised Total Coliform Rule</li></ul></td></tr><tr><td>RULE_GROUP_CODE</td><td>Char</td><td>3</td><td><p>Code that uniquely identifies a rule group.</p><ul><li>120- Surface Water Treatment Rules</li><li>130- Filter Backwash Rule</li><li>140- Groundwater Rule</li><li>210- Stage 1 Disinfectants and Disinfection Byproducts Rule</li><li>220- Stage 2 Disinfectants and Disinfection Byproducts Rule</li><li>230- Total Trihalomethanes</li><li>310- Volatile Organic Chemicals</li><li>320- Synthetic Organic Chemicals</li><li>330- Inorganic Chemicals</li><li>340- Radionuclides</li><li>350- Lead and Copper Rule</li><li>400- Other</li><li>500- Not Regulated</li><li>110- Total Coliform Rules</li><li>410- Public Notice Rule</li><li>420- Consumer Confidence Rule</li><li>430- Miscellaneous</li></ul></td></tr><tr><td>RULE_FAMILY_CODE</td><td>Char</td><td>3</td><td><p>Code for rule family.</p><ul><li>100- Microbials</li><li>200- Disinfectants and Disinfection Byproducts Rule</li><li>300- Chemicals</li><li>400- Other</li><li>500- Not Regulated</li></ul></td></tr><tr><td>VIOL_FIRST_REPORTED_DATE</td><td>Date</td><td>&nbsp;</td><td>Date when the violation was first reported&nbsp; (MM/DD/YYYY format).</td></tr><tr><td>VIOL_LAST_REPORTED_DATE</td><td>Date</td><td>&nbsp;</td><td>Date when the violation was last reported (MM/DD/YYYY format).</td></tr><tr><td><strong>ENFORCEMENT_ID</strong></td><td>Char</td><td>20</td><td>Number used to uniquely identify multiple occurrences of an enforcement action.</td></tr><tr><td>ENFORCEMENT_DATE</td><td>Date</td><td>&nbsp;</td><td>Date (MM/DD/YYYY) of the enforcement action.</td></tr><tr><td>ENFORCEMENT_ACTION_TYPE_CODE</td><td>Char</td><td>4</td><td>Code for the type of enforcement action. For a full list of enforcement action codes and their descriptions see SDWA_REF_CODE_VALUES.csv under VALUE_TYPE = ENFORCEMENT_ACTION_TYPE_CODE.</td></tr><tr><td>ENF_ACTION_CATEGORY</td><td>Char</td><td>4000</td><td><p>Category of the enforcement action against the violation.&nbsp;</p><ul><li>Formal&nbsp;– Formal enforcement</li><li>Informal&nbsp;– Informal enforcement</li><li>Resolving&nbsp;– A determination that the system has come back into compliance, no further action is needed, or the rule that was violated no longer applies</li></ul></td></tr><tr><td>ENF_ORIGINATOR_CODE</td><td>Char</td><td>4</td><td><p>Code that indicates who the enforcement action was initiated by.</p><ul><li>F- ODSWEB</li><li>H- Headquarter</li><li>R- Region</li><li>S- State</li></ul></td></tr><tr><td>ENF_FIRST_REPORTED_DATE</td><td>Date</td><td>&nbsp;</td><td>Date when the enforcement action was first reported (MM/DD/YYYY format).</td></tr><tr><td>ENF_LAST_REPORTED_DATE</td><td>Date</td><td>&nbsp;</td><td>Date when the enforcement action was last reported (MM/DD/YYYY format).</td></tr></tbody></table><p class="clear-both text-right margin-bottom-neg-2"><a class="top-of-page" href="#main-content"><span>Top of Page</span></a></p><hr><h2 id="dataelement">Data Element Dictionary</h2><p>The following is a list of the data elements and SDWIS-derived elements that appear in the ECHO SDWA download. The data elements are listed alphabetically by data element name.</p><p><strong>ADMIN_NAME </strong>- Name of the water system administrative contact – usually a person’s name.</p><p><strong>ADDRESS_LINE1 </strong>- The first line of an address applicable to a legal entity.</p><p><strong>ADDRESS_LINE2 </strong>- The second line of an address applicable to a legal entity. This field is the street address, rural route, etc.</p><p><strong>ALT_PHONE_NUMBER </strong>- Administrative contact's alternative telephone number.</p><p><strong>AREA_TYPE_CODE </strong>- Code identifying the area type where the facility is located.</p><ul><li>TR - Tribal</li><li>CN - County</li><li>ZC - Zip Code</li><li>CT - City</li><li>IR - Indian Reservation</li><li>NULL - Unknown Area Type</li></ul><p><strong>AVAILABILITY_CODE </strong>- A single-character code for how the water source is utilized by a water system.</p><ul><li>E - Emergency</li><li>I - Interim</li><li>P - Permanent</li><li>O - Other</li><li>S - Seasonal</li><li>U - Unknown</li></ul><p><strong>Address (Cities Served, State, State Name, and State Code)&nbsp;</strong>- City(ies) and state(s) where the system provides drinking water. In some cases, the address may indicate the mailing address of the system owner. For systems in Indian Country, the state is the state primarily served by the system, if EPA can determine that from available locational data, or else the mailing address state of the system owner. Note: Data on areas served may be incomplete and have not been quality assured.</p><p><strong>AGENCY </strong>- A code representing the agency responsible for issuing the enforcement action. Valid values are “E” (EPA), or “S” (State).</p><p><strong>AGENCY_TYPE_CODE </strong>- The agency type that conducted the site visit.</p><ul><li>NULL- Unknown Agency Type</li><li>AR- Alaskan Remote Village</li><li>AT- Authority</li><li>BR- Borough</li><li>CM- Commission</li><li>CN- County</li><li>CT- City</li><li>DS- District</li><li>FD- Federal</li><li>MN- Municipality</li><li>NA- Native American Tribe</li><li>PR- Parish</li><li>RG- Region</li><li>SA- State Administrative District</li><li>SD- School District</li><li>SR- State Administrative Region</li><li>ST- State</li><li>TW- Town</li><li>WD- Water District</li><li>SC- State Contractor</li><li>TA- Non-State Provider Engineering/Technical Assistance Firm</li><li>WS- Water System</li></ul><p><strong>ANSI_ENTITY_CODE </strong>- American National Standards Institute (ANSI) code for the county, city, or legal statistical area. Taken with the ANSI state code, uniquely identifies a county (or other area) within the country. See the <a href="https://www.census.gov/library/reference/code-lists/ansi.html#:~:text=American%20National%20Standards%20Institute%20codes,through%20all%20federal%20government%20agencies" target="_blank">U.S. Census Bureau webpage</a>&nbsp;<a class="exit-disclaimer" title="EPA's External Link Disclaimer" target="_blank" href="https://www.epa.gov/home/exit-epa">Exit</a>&nbsp;for more information about ANSI codes.</p><p><strong>ANSI_NAME </strong>- Name of the area associated with the ANSI entity and state code.</p><p><strong>ANSI_STATE_CODE </strong>- Standardized facility location code as issued by the American National Standards Institute (ANSI). A full description of the codes can be accessed in the SDWA_REF_ANSI_AREAS.csv. See the <a href="https://www.census.gov/library/reference/code-lists/ansi.html#:~:text=American%20National%20Standards%20Institute%20codes,through%20all%20federal%20government%20agencies" target="_blank">U.S. Census Bureau webpage</a> <a class="exit-disclaimer" href="https://www.epa.gov/home/exit-epa" title="EPA's External Link Disclaimer">Exit</a>&nbsp;for more information about ANSI codes.</p><p><strong>CALCULATED_PUB_NOTIFICATION_TIER </strong>- Numeric code for Public Notification Tier for the violation.</p><p><strong>CALCULATED_RTC_DATE </strong>- The date the system returned to compliance.</p><p><strong>CDS_ID </strong>- Combined distribution system identifier.</p><p><strong>CITY_NAME </strong>- The city in which a legal entity is located.</p><p><strong>CITY_SERVED </strong>- The name of the city that the facility serves.</p><p><strong>COMPLIANCE_EVAL_CODE </strong>- Compliance evaluation results from site visit.</p><ul><li>M – Minor deficiencies</li><li>N – No deficiencies or recommendations</li><li>R – Recommendations made</li><li>S - Significant deficiencies</li><li>X – Not evaluated</li><li>Z – Not applicable</li><li>D - Sanitary defect</li></ul><p><strong>NON_COMPL_PER_BEGIN_DATE </strong>- Beginning of the noncompliance period during which a violation was identified.</p><p><strong>NON_COMPL_PER_END_DATE </strong>- End of the noncompliance period during which a violation was identified. Note that open-ended violations are listed using the later resolving action date, if the earlier resolving action is followed by certain types of enforcement actions that indicate continued enforcement activity. Note that for unresolved violations, the NON_COMPL_PER_END_DATE is listed as null.</p><p><strong>CONTAMINANT_CODE (AKA CONTAMINATION_CODE) </strong>- A code value that represents a contaminant for which a public water system has incurred a violation of a primary drinking water regulation. A full description of the codes can be accessed in the SDWA_REF_CODE_VALUES.csv.</p><p><strong>CORRECTIVE_ACTION_ID </strong>- Corrective action identifier</p><p><strong>COUNTRY_CODE </strong>- Two-character abbreviation of the country code where the administrative contact is located.</p><p><strong>COUNTY_SERVED </strong>- The name of the county that the facility serves.</p><p><strong>DATA_VERIFICATION_EVAL_CODE </strong>- Data verification evaluation results from site visit.</p><ul><li>M – Minor deficiencies</li><li>N – No deficiencies or recommendations</li><li>R – Recommendations made</li><li>S - Significant deficiencies</li><li>X – Not evaluated</li><li>Z – Not applicable</li><li>D - Sanitary defect</li></ul><p><strong>DBPR_SCHEDULE_CAT_CODE </strong>- Stage 2 Disinfectant Byproducts Rule schedule category code.</p><ul><li>1 – System serving 100K or more people OR systems that are connected to a system serving 100K or more</li><li>2 - System serving 50K to 99,999 people OR belonging to a CDS in which the largest system serves 50K to</li><li>3 - System serving 10K to 49,999 people OR belonging to a CDS in which the largest system serves 10K to</li><li>4 - System serving fewer than 10,000 AND not connected to a larger system</li></ul><p><strong>DISTRIBUTION_EVAL_CODE </strong>- Distribution system evaluation results from site visit.</p><ul><li>M – Minor deficiencies</li><li>N – No deficiencies or recommendations</li><li>R – Recommendations made</li><li>S – Significant deficiencies</li><li>X – Not evaluated</li><li>Z – Not applicable</li><li>D – Sanitary defect</li></ul><p><strong>EMAIL_ADDR </strong>- Email address of the administrative contact.</p><p><strong>ENF_ACTION_CATEGORY </strong>- Category of the enforcement action against the violation.</p><ul><li>Formal&nbsp;– Formal enforcement</li><li>Informal&nbsp;– Informal enforcement</li><li>Resolving&nbsp;– A determination that the system has come back into compliance, no further action is needed, or the rule that was violated no longer applies</li></ul><p><strong>ENFORCEMENT_ACTION_TYPE_CODE</strong>&nbsp;-&nbsp;A designated attribute which indicates the coded type of enforcement follow up action was taken by a federal or state agency. It also indicates whether enforcement action was formal, informal, subcategory, or others. For a full list of enforcement action codes and their descriptions see SDWA_REF_CODE_VALUES.csv under VALUE_TYPE = ENFORCEMENT_ACTION_TYPE_CODE.</p><p><strong>ENFORCEMENT_DATE </strong>- A field that contains the date (MM/DD/YYYY) of the enforcement action.</p><p><strong>ENF_FIRST_REPORTED_DATE </strong>- Date of the first reported enforcement action against the violation (MM/DD/YYYY format).</p><p><strong>ENFORCEMENT_ID </strong>- A number used to uniquely identify multiple occurrences of an enforcement action.</p><p><strong>ENF_LAST_REPORTED_DATE </strong>- Date of the last reported enforcement action against the violation (MM/DD/YYYY format).</p><p><strong>ENF_ORIGINATOR_CODE </strong>- Code that indicates who the enforcement action was initiated by.</p><ul><li>F- ODSWEB</li><li>H- Headquarter</li><li>R- Region</li><li>S- State</li></ul><p><strong>EPA_REGION&nbsp;</strong>- A two-character code identifying the EPA Region in which the system is located.</p><p><strong>EVENT_ACTUAL_DATE</strong> - The date on which the milestone was conducted or achieved. Date format is MM/DD/YYY.</p><p><strong>EVENT_COMMENTS_TEXT</strong> - Description of the milestone event.</p><p><strong>EVENT_END_DATE</strong> - The date on which the milestone event ended. Date format is MM/DD/YYYY.</p><p><strong>EVENT_MILESTONE_CODE</strong> - A four-character code identifying the event milestone.</p><ul><li>DEEM - System deemed optimized without OCCT</li><li>DONE - System done with OCCT</li><li>LSLR - Lead service line replacement required</li><li>FICF - Fecal Indicator Contamination Action</li><li>SDFF - Significant Deficiency/Sanitary Defect Corrective Action</li><li>SDFI - Significant Deficiency/Sanitary Defect Interim Step</li><li>FICI - Fecal Indicator Interim Step</li><li>RTL1 - Revised Total Coliform Rule Level 1 Treatment Technique Trigger</li><li>RTL2 - Revised Total Coliform Rule Level 2 Treatment Technique Trigger</li></ul><p><strong>EVENT_REASON_CODE</strong> - Code identifying the reason for the milestone event.</p><ul><li>B1 - Serving fewer than 50,000</li><li>B3 - Serving greater than 50,000: met action levels</li><li>WQP - Water Quality parameters</li><li>GW - Ground Water Rule</li><li>SH - Subpart H (Interim Enhanced Surface Water Treatment Rule)</li><li>L2TA - Maximum Contaminant Level Treatment Technique Trigger</li><li>L2TB - Second Level 1 Treatment Technique Trigger</li><li>L1TC - Level 1 Coliform Positive Insufficient Repeat Treatment Technique Trigger</li><li>L1TD - Level 1 Multiple Total Coliform Positive Treatment Technique Trigger</li><li>RTCR - Revised Total Coliform Rule</li></ul><p><strong>EVENT_SCHEDULE_ID</strong> - Identifier used to identify milestone events.</p><p><strong>FACILITY_ACTIVITY_CODE</strong> - A single-character code identifying the current status of the facility.</p><ul><li>A - Active</li><li>I - Inactive</li><li>N - Changed from public to non-public</li><li>M - Merged with another system</li><li>P - Potential future system to be regulated</li></ul><p><strong>FACILITY_DEACTIVATION_DATE</strong> - The date the facility was deactivated (no longer actively serving water) or removed from federal oversight because it no longer met SDWA criteria as a public water system (MM/DD/YYYY format).</p><p><strong>FACILITY_ID</strong>- Facility&nbsp;ID that, when used with the PWSID, uniquely identifies a water system facility.</p><p><strong>FACILITY_NAME </strong>- The name of the water system facility.</p><p><strong>FACILITY_TYPE_CODE</strong> - Code identifying the type of facility.</p><ul><li>CC - Consecutive Connection</li><li>CH - Common Headers</li><li>CS - Cistern</li><li>CW - Clear Well</li><li>DS - Distribution System System/Zone</li><li>IG - Infiltration Gallery</li><li>IN - Intake</li><li>NN - Non-piped, Non-purchased</li><li>NP - Non-piped</li><li>OT - Other</li><li>PC - Pressure Control</li><li>PF - Pump Facility</li><li>RC - Roof Catchment</li><li>RS - Reservoir</li><li>SI - Surface Impoundment</li><li>SP - Spring</li><li>SS - Sampling Station</li><li>ST - Storage</li><li>TM - Transmission Main (Manifold)</li><li>TP - Treatment Plant</li><li>WH - Wellhead</li><li>WL - Well</li></ul><p><strong>FAX_NUMBER </strong>- Administrative contact's fax number.</p><p><strong>FEDERAL_MCL </strong>- A numeric value that represents the maximum contaminant level which was exceeded that led to the identification of an MCL violation for a public water system.</p><p><strong>FILTRATION_STATUS_CODE </strong>- A code reported by the state to indicate whether a non-emergency surface water source or a non-emergency ground water under the influence of surface water source is required to install filtration by a certain date or is successfully avoiding filtration.</p><ul><li>MIF - Must install filtration</li><li>SAF - Successfully avoiding filtration</li><li>FIL - Filtration already in place</li></ul><p><strong>FINANCIAL_EVAL_CODE </strong>- Financial evaluation results from site visit.</p><ul><li>M – Minor deficiencies</li><li>N – No deficiencies or recommendations</li><li>R – Recommendations made</li><li>S - Significant deficiencies</li><li>X – Not evaluated</li><li>Z – Not applicable</li><li>D - Sanitary defect</li></ul><p><strong>FINISHED_WATER_STOR_EVAL_CODE </strong>- Water storage evaluation from site visit.</p><ul><li>M – Minor deficiencies</li><li>N – No deficiencies or recommendations</li><li>R – Recommendations made</li><li>S - Significant deficiencies</li><li>X – Not evaluated</li><li>Z – Not applicable</li><li>D - Sanitary defect</li></ul><p><strong>FIRST_REPORTED_DATE </strong>- The first reported date for the milestone event. The date format is MM/DD/YYYY.</p><p><strong>GEO_ID </strong>- System generated ID that uniquely identifies PWSID and Area Type record.</p><p><strong>GW_SW_CODE </strong>- Identifies whether a system’s water source is groundwater (GW) or surface water (SW) under SDWA. An empty cell indicates the system relied on another water source.</p><p><strong>IS_GRANT_ELIGIBLE_IND</strong> - Indicates whether the primacy agency has reported the minimum necessary data elements for this water system to include it in grant calculations.</p><p><strong>IS_HEALTH_BASED_IND </strong>- Indicates if this is a health based violation. Valid values are Y (yes) or N (no).</p><p>These violations fall into three categories:</p><ul><li>Exceedances of the maximum contaminant levels (MCLs), which specify the highest allowable contaminant concentrations in drinking water;</li><li>Exceedances of the maximum residual disinfectant levels (MRDLs), which specify the highest concentrations of disinfectants allowed in drinking water; and</li><li>Treatment technique requirements, which specify certain processes intended to reduce the level of a contaminant.</li></ul><p><strong>IS_MAJOR_VIOL_IND </strong>- A code value that indicates whether a Monitoring and Reporting (MR) violation is major or minor. The major versus minor designation does not apply to a sanitary survey MR violation.</p><p><strong>IS_PRIMARY_SERVICE_AREA_CODE </strong>- Indicates whether the area is the primary service area served by the water system.</p><p><strong>IS_SCHOOL_OR_DAYCARE_IND </strong>- Indicates if the water system’s primary service area is a school or daycare, as defined by EPA/OGWDW.</p><p><strong>IS_SOURCE_IND</strong> - Indicates whether the water system facility is designated a source (either a Consecutive Connection (CC), Infiltration Gallery (IG), Intake (IN), Non-piped (NP), Roof Catchment (RC), Reservoir (RS), Spring (SP), Well (WL), or Non-piped non-purchased (NN)).</p><p><strong>IS_SOURCE_TREATED_IND </strong>- Indicates whether the water system source water is being treated or not.</p><p><strong>IS_WHOLESALER_IND </strong>- Indicates whether the system is a wholesaler of water.</p><p><strong>LAST_REPORTED_DATE </strong>- The last reported date for the milestone event. The date format is MM/DD/YYYY.</p><p><strong>LT2_SCHEDULE_CAT_CODE </strong>- Single-digit code to identify the category for Long Term 2 Enhanced Surface Water Treatment (LT2) schedule.</p><ul><li>1- Schedule 1</li><li>2- Schedule 2</li><li>3- Schedule 3</li><li>4- Schedule 4</li><li>5- Schedule 5</li></ul><p><strong>MANAGEMENT_OPS_EVAL_CODE </strong>- Management operations evaluation results from site visit.</p><ul><li>M – Minor deficiencies</li><li>N – No deficiencies or recommendations</li><li>R – Recommendations made</li><li>S - Significant deficiencies</li><li>X – Not evaluated</li><li>Z – Not applicable</li><li>D - Sanitary defect</li></ul><p><strong>ORG_NAME </strong>- The organization to which the legal entity is associated.</p><p><strong>OTHER_EVAL_CODE </strong>- Other facility equipment/management evaluation results from site visit.</p><ul><li>M – Minor deficiencies</li><li>N – No deficiencies or recommendations</li><li>R – Recommendations made</li><li>S - Significant deficiencies</li><li>X – Not evaluated</li><li>Z – Not applicable</li><li>D - Sanitary defect</li></ul><p><strong>OUTSTANDING_PERFORM_BEGIN_DATE </strong>- Date water system met the outstanding performer criteria according to state policy.</p><p><strong>OUTSTANDING_PERFORMER </strong>- Indicates whether the system met the outstanding performer criteria according to state policy.</p><p><strong>OWNER_TYPE_CODE </strong>- Single-character code identifying the ownership category of the water system.</p><ul><li>F – Federal government</li><li>L- Local government</li><li>M- Public/Private</li><li>N – Native American</li><li>P - Private</li><li>S – State government</li></ul><p><strong>PHONE_EXT_NUMBER </strong>- The telephone extension of the administrative contact.</p><p><strong>PHONE_NUMBER </strong>- The telephone number of a water system or the system’s primary contact. Format: (AAA)-EEE-NNNN where: AAA = the telephone area code, EEE = the telephone exchange, and NNNN = the telephone number. Where multiple facilities exist for a water system at different physical locations, phone number identifies the telephone number which is applicable to the primary facility of, or the principal contact for, the system.</p><p><strong>PN_VIOLATION_ID </strong>- Unique identifier identifying the public notification.</p><p><strong>POP_CAT_2_CODE </strong>- A single-digit code identifying the service population size.</p><ul><li>1 - &lt;10,000</li><li>2 – 10,000+</li></ul><p><strong>POP_CAT_3_CODE </strong>- A single-digit code identifying the service population size.</p><ul><li>1 - &lt;=3,300</li><li>2 – 3,301-50,000</li><li>3 - &gt;50,000</li></ul><p><strong>POP_CAT_4_CODE </strong>- A single-digit code identifying the service population size.</p><ul><li>1 -&lt;10K</li><li>2 – 10K-49,999</li><li>3 – 50K-99,999</li><li>4 – 100K+</li></ul><p><strong>POP_CAT_5_CODE </strong>- A single-digit code identifying the service population size.</p><ul><li>1 - &lt;=500</li><li>2 – 501-3,300</li><li>3 – 3301-10,000</li><li>4 – 10,001-100,000</li><li>5 - &gt;100,000</li></ul><p><strong>POP_CAT_11_CODE </strong>- A code identifying the service population size.</p><ul><li>1 - &lt;=100</li><li>2 – 101 – 500</li><li>3 – 501-1000</li><li>4 – 1,001- 3,300</li><li>5 – 3,301- 10,000</li><li>6 – 10,001 – 50,000</li><li>7 – 50,001-100,000</li><li>8 – 100,001 – 250,000</li><li>9 – 250,001-500,000</li><li>10 – 500,001-1,000,000</li><li>11 - &gt;1,000,000</li></ul><p><strong>POPULATION_SERVED_COUNT </strong>- The estimated average daily population served by a system.</p><p><strong>PRIMACY_AGENCY_CODE </strong>- The primary agency code is the two-character state code&nbsp;or EPA Region number.</p><p><strong>PRIMACY_TYPE </strong>- Indicates whether the water system is regulated by a state, tribal, or territorial primacy program. Note that EPA direct implementation programs, except for Wyoming, are tribal primacy programs.</p><p><strong>PRIMARY_SOURCE_CODE </strong>- Primary water source code.</p><ul><li>GW - Ground water</li><li>GWP - Ground water purchased</li><li>SW - Surface water</li><li>SWP - Surface water purchased</li><li>GU - Groundwater under influence of surface water</li><li>GUP – Purchased ground water under influence of surface water source</li></ul><p><strong>PUMPS_EVAL_CODE </strong>- Pumps evaluation results from site visit.</p><ul><li>M – Minor deficiencies</li><li>N – No deficiencies or recommendations</li><li>R – Recommendations made</li><li>S - Significant deficiencies</li><li>X – Not evaluated</li><li>Z – Not applicable</li><li>D - Sanitary defect</li></ul><p><strong>PWS_ACTIVITY_CODE </strong>- A single-character code identifying the current activity status of the public water system.</p><ul><li>A - Active</li><li>I - Inactive</li><li>N - Changed from public to non-public</li><li>M - Merged with another system</li><li>P - Potential future system to be regulated</li></ul><p><strong>PWS_DEACTIVATION_DATE </strong>- The date in which the water system was reported as being closed/deactivated (MM/DD/YYYY format).</p><p><strong>PWSID&nbsp;</strong>- A unique identifying code for a public water system in SDWIS. The PWSID consists of a two-letter state or region code, followed by seven digits.</p><p><strong>PWS_NAME&nbsp;</strong>- Name of the public water system.</p><p><strong>PWS_TYPE_CODE/PWS_TYPE_SHORT&nbsp;</strong>- Indicates the type of public water system (PWS). A public water system is a system for the provision to the public of piped water for human consumption, which has at least 15 service connections or regularly serves an average of at least 25 individuals at least 60 days out of the year. PWS_TYPE_SHORT indicates whether a system is Community or Non-Community. Possible values for PWS_TYPE_CODE include:</p><ul><li>Community water system (CWS)- A PWS that serves at least fifteen service connections used by year-round residents or regularly serves at least 25 year-round residents (e.g., homes, apartments and condominiums that are occupied year-round as primary residences).</li><li>Transient non-community water system (TNCWS)- A non-community water system that does not regularly serve at least 25 of the same persons over six months per year&nbsp;&nbsp; A typical example is a campground or a highway rest stop that has its own water source, such as a drinking water well.</li><li>Non-transient non-community water system (NTNCWS)- A non-community PWS that regularly serves at least 25 of the same persons over six months per year. A typical example of a non-transient non-community water system is a school or an office building that has its own water source, such as a drinking water well.</li></ul><p><strong>RECONCILIATION_ID </strong>- An identifier used for reconciliation with the state data system or LAB assigned identifiers.</p><p><strong>REDUCED_MONITORING_BEGIN_DATE </strong>- Initial date of reduced monitoring (MM/DD/YYYY format).</p><p><strong>REDUCED_MONITORING_END_DATE</strong>- Reduced monitoring end date (MM/DD/YYYY format)..</p><p><strong>REDUCED_RTCR_MONITORING </strong>- Frequency of Revised Total Coliform Rule (RTCR)&nbsp;monitoring, which could be annually, quarterly, or semi-annually.</p><p><strong>RESULT_SIGN_CODE </strong>- Indicates if the sample result was below the minimum detection limit or equal to the value reported.</p><ul><li>L - Less then, meaning below minimum detection limits</li><li>E - Equal to, meaning exactly equal to the value reported</li></ul><p><strong>RELATED_VIOLATION_CODE </strong>- A separate violation associated with the violation.</p><p><strong>RULE_CODE </strong>- Code for a National Drinking Water rule.</p><ul><li>110- Total Coliform Rule</li><li>121- Surface Water Treatment Rule</li><li>122- Long Term 1 Enhanced Surface Water Treatment Rule</li><li>123- Long Term 2 Enhanced Surface Water Treatment Rule</li><li>130- Filter Backwash Rule</li><li>140- Ground Water Rule</li><li>210- Stage 1 Disinfectants and Disinfection Byproducts Rule</li><li>220- Stage 2 Disinfectants and Disinfection Byproducts Rule</li><li>230- Total Trihalomethanes</li><li>310- Volatile Organic Chemicals</li><li>331- Nitrates</li><li>332- Arsenic</li><li>333- Inorganic Chemicals</li><li>320- Synthetic Organic Chemicals</li><li>340- Radionuclides</li><li>350- Lead and Copper Rule</li><li>410- Public Notice Rule</li><li>420- Consumer Confidence Rule</li><li>430- Miscellaneous</li><li>500- Not Regulated</li><li>111- Revised Total Coliform Rule</li></ul><p><strong>RULE_FAMILY_CODE </strong>- Code for rule family.</p><ul><li>100- Microbials</li><li>200- Disinfectants and Disinfection Byproducts Rule</li><li>300- Chemicals</li><li>400- Other</li><li>500- Not Regulated</li></ul><p><strong>RULE_GROUP_CODE </strong>- Code that uniquely identifies a rule group.</p><ul><li>120- Surface Water Treatment Rules</li><li>130- Filter Backwash Rule</li><li>140- Groundwater Rule</li><li>210- Stage 1 Disinfectants and Disinfection Byproducts Rule</li><li>220- Stage 2 Disinfectants and Disinfection Byproducts Rule</li><li>230- Total Trihalomethanes</li><li>310- Volatile Organic Chemicals</li><li>320- Synthetic Organic Chemicals</li><li>330- Inorganic Chemicals</li><li>340- Radionuclides</li><li>350- Lead and Copper Rule</li><li>400- Other</li><li>500- Not Regulated</li><li>110- Total Coliform Rules</li><li>410- Public Notice Rule</li><li>420- Consumer Confidence Rule</li><li>430- Miscellaneous</li></ul><p><strong>SAMPLE_FIRST_REPORTED_DATE </strong>- Date that the sample was first reported. The date format is MM/DD/YYYY.</p><p><strong>SAMPLE_ID </strong>- Identifier used to identify the sample.</p><p><strong>SAMPLE_LAST_REPORTED_DATE </strong>- The most recent date of reporting. The date of format is MM/DD/YYYY.</p><p><strong>SAMPLE_MEASURE </strong>- The measured value of the contaminant as reported from the sampling analysis.</p><p><strong>SAMPLE_RESULT_ID </strong>- A system-generated number managed by the reporting jurisdiction that uniquely identifies each sample result record.</p><p><strong>SAMPLING_END_DATE </strong>- Date of the last day of the monitoring period in which 90th percentile data for lead or copper was acquired (MM/DD/YYYY format).</p><p><strong>SAMPLING_START_DATE </strong>- Date of the first day of the monitoring period in which 90th percentile data for lead or copper was acquired (MM/DD/YYYY format).</p><p><strong>SAR_FIRST_REPORTED_DATE </strong>- The date of the first reported sample analytical result (MM/DD/YYYY format).</p><p><strong>SAR_ID </strong>- A system-generated number managed by the reporting jurisdiction that uniquely identifies each Sample Result record. As there are situations where there can be two sample results for a sample, the SAR_ID is used instead of the Contaminant code (as in ODS) in the primary key of this table.</p><p><strong>SAR_LAST_REPORTED_DATE </strong>- The most recent reported sample analytical result (MM/DD/YYYY format).</p><p><strong>SEASON_BEGIN_DATE </strong>- The opening month and day of the period of time when the water system serves water for those systems that operate seasonally (DD-MONTH format).</p><p><strong>SEASON_END_DATE </strong>- The ending month and day of the period of time when the water system serves water for those systems that operate seasonally (DD-MONTH format).</p><p><strong>SEASONAL_STARTUP_SYSTEM </strong>- Indicates whether the system pressurized including during the offseason or whether the system was not pressurized all year. Only pertains to seasonal systems.</p><p><strong>SECURITY_EVAL_CODE </strong>- Security evaluation results from site visit.</p><ul><li>M – Minor deficiencies</li><li>N – No deficiencies or recommendations</li><li>R – Recommendations made</li><li>S - Significant deficiencies</li><li>X – Not evaluated</li><li>Z – Not applicable</li><li>D - Sanitary defect</li></ul><p><strong>SELLER_PWSID </strong>- PWSID of the water system that is selling water to this system through this interconnection. Is also the "upstream" water system to the parent of this facility.</p><p><strong>SELLER_PWS_NAME </strong>- Name of the water system that is selling water to this system through this interconnection. Is also the "upstream" water system to the parent of this facility.</p><p><strong>SELLER_TREATMENT_CODE </strong>- Code that indicates the treatment status of the water. Applies only to source facilities</p><ul><li>F - Filtered</li><li>G - Treated by seller including 4-log for the Ground Water Rule</li><li>Y - Partially treated by seller</li><li>N - Not treated</li><li>U - Unkown</li></ul><p><strong>SERVICE_AREA_TYPE_CODE </strong>- Service area type code. For a full list of visit codes and their descriptions see SDWA_REF_CODE_VALUES.csv under VALUE_TYPE=SERVICE_AREA_CODE.</p><p><strong>SERVICE_CONNECTIONS_COUNT </strong>- Number of service connections to the water system.</p><p><strong>SEVERITY_IND_CNT </strong>- A count indicating the severity of certain DBPR and IESWTR violations.</p><p><strong>SOURCE_PROTECTION_BEGIN_DATE </strong>- Date water system substantially implemented source water protection according to state policy (MM/DD/YYYY format).</p><p><strong>SOURCE_WATER_EVAL_CODE </strong>- Source water evaluation results from site visit.</p><ul><li>M – Minor deficiencies</li><li>N – No deficiencies or recommendations</li><li>R – Recommendations made</li><li>S - Significant deficiencies</li><li>X – Not evaluated</li><li>Z – Not applicable</li><li>D - Sanitary defect</li></ul><p><strong>SOURCE_WATER_PROTECTION_CODE </strong>- Indicates whether the water system has implemented source water protection according to state policy.</p><p><strong>STATE_CODE </strong>- A coded value that represents the U.S. Postal Service (USPS) state abbreviation in which a legal entity is located. Must be one of the USPS Postal State Codes.</p><p><strong>STATE_FACILITY_ID</strong> - The ID that a state uses to identify in their own state system database.</p><p><strong>STATE_MCL </strong>- A numeric value that represents the maximum contaminant level which was exceeded that led to the identification of an MCL violation for a public water system.</p><p><strong>STATE_SERVED</strong> - The state that the facility is serving.</p><p><strong>SUBMISSION_STATUS_CODE</strong> - Code that indicates whether an active water system was reported, rejected, or not reported during the recent inventory submission. This field is not applicable to inactive water systems. Generated by ODS.</p><ul><li>Y - Reported and accepted</li><li>U - Unreported</li><li>R - Reported, but rejected</li></ul><p><strong>SUBMISSIONYEARQUARTER</strong> - The fiscal year and quarter when the event took place.</p><p><strong>TREATMENT_EVAL_CODE </strong>- Treatment evaluation results from site visit.</p><ul><li>M – Minor deficiencies</li><li>N – No deficiencies or recommendations</li><li>R – Recommendations made</li><li>S - Significant deficiencies</li><li>X – Not evaluated</li><li>Z – Not applicable</li><li>D - Sanitary defect</li></ul><p><strong>TRIBAL_CODE</strong> - EPA code which represents the Indian reservation or Alaska Remote Village being served by a Water System. A full discription of the codes can be accessed in the SDWA_REF_CODE_VALUES.csv.</p><p><em>Data Quality Caveat</em>: EPA makes no claims regarding the accuracy or precision of data concerning Indian country locations or tribal boundaries on the ECHO website. EPA has simply attempted to collect certain readily available information relating to Indian country locations. <span>The associated dataset contains information on the following tribal&nbsp;categories:&nbsp;</span><a class="external-link" href="https://tigerweb.geo.census.gov/tigerwebmain/TIGERweb_geography_details.html#ANVSA" target="_blank" rel="nofollow noopener">Alaska Native Villages</a><span>,&nbsp;</span><a class="external-link" href="https://tigerweb.geo.census.gov/tigerwebmain/TIGERweb_geography_details.html#AIANNHTLI" target="_blank" rel="nofollow noopener">American Indian Reservations</a><span>,&nbsp;</span><a class="external-link" href="https://tigerweb.geo.census.gov/tigerwebmain/TIGERweb_geography_details.html#AIANNHTLI" target="_blank" rel="nofollow noopener">American Indian Off-reservation Trust Lands</a><span>,&nbsp;</span><a class="external-link" href="https://tigerweb.geo.census.gov/tigerwebmain/TIGERweb_geography_details.html#OTSA" target="_blank" rel="nofollow noopener">Oklahoma Tribal Statistical Areas</a><span>, and&nbsp;</span><a class="external-link" href="https://epa.maps.arcgis.com/home/item.html?id=9df16bb660ed4f5cbf476ca24d62843a" target="_blank" rel="nofollow noopener">Virginia Federally Recognized Tribes</a><span>&nbsp;.</span>Questions concerning data should be referred to the originating program or Agency which can be referenced in EPA’s Shared Enterprise Geodata Services (SEGS) metadata files located on the <a href="https://www.epa.gov/geospatial/guidance-using-tribal-boundaries-areas-and-names-resources">Guidance for Using Tribal Boundaries, Areas and Names Resources page</a>. The Indian country and tribal boundary locations are suitable only for general spatial reference and do not necessarily reflect EPA's position on any Indian country locations or tribal boundaries or the land status of any specific location. The inclusion of Indian country information on the ECHO website does not represent any final EPA action addressing Indian country locations or boundaries. This information cannot be relied upon to create any rights, substantive or procedural, enforceable by any party in litigation with the United States or third parties. EPA reserves the right to change information on ECHO at any time without public notice.</p><p>Boundaries for both American Indian Reservations, American Indian Off-reservation Trust Lands, and Oklahoma Tribal Statistical Areas were collected from the U.S. Department of Commerce (USDOC), U.S. Bureau of the Census (Census Bureau). Originally reported by federally recognized tribal governments, these boundaries were updated&nbsp;by Census Bureau through the Boundary and Annexation Survey (BAS) on May 1, 2024 (American Indian Reservations) and April 15, 2024 (Alaska Native Villages, Off Reservation Trust Lands, and Oklahoma Tribal Statistical Areas) respectively.&nbsp;Virginia Federally Recognized Tribes contains point data for tribes geographically located in the state of Virginia, corresponding with the administrative boundaries of EPA Region 3.&nbsp;These tribes are federally recognized, but do not currently have land in federal satus. Locations are based on mailing addresses for each tribe provided by the EPA Region 3 Tribal Program Coordinator to the US EPA Office of Mission Support on May 5, 2021 and remain current as of April 15, 2025.</p><p>Of these tribal entities, Alaska Native Villages, Alaska Native Allotments, American Indian Reservations and American Indian Off-reservation Trust Lands represent&nbsp;legal entities. In context, “legal entities” does not speak to the legal status of feature class boundaries associated with these data. They do not constitute a determination of jurisdictional authority or rights of ownership or entitlement and are not legal land descriptions. These data may only be used for statistical collection and tabulation purposes. Oklahoma Tribal Statistical Areas are considered&nbsp;statistical entities, meaning that they are collected for statistical or tabulation purposes.&nbsp;Note that due to a recent Supreme Court decision, Oklahoma Indian country boundaries are in a state of flux. Changes will be incorporated in future dataset iterations.</p><p>&nbsp;</p><p><strong>UNIT_OF_MEASURE </strong>- Units for value in SAMPLE_MEASURE.</p><p><strong>VALUE_CODE </strong>- The values associated with the code in VALUE_TYPE.</p><p><strong>VALUE_DESCRIPTION </strong>-The full description of the code in VALUE_CODE.</p><p><strong>VALUE_TYPE </strong>- Column name associated with the value code as found in the other files.</p><p><strong>VIOL_FIRST_REPORTED_DATE </strong>- Date of the first reported violation (MM/DD/YYYY format).</p><p><strong>VIOL_LAST_REPORTED_DATE </strong>- Date of the last reported violation (MM/DD/YYYY format).</p><p><strong>VIOL_ORIGINATOR_CODE </strong>- Code that indicates who the violation was initiated by.</p><ul><li>F- ODSWEB</li><li>H- Headquarter</li><li>R- Region</li><li>S- State</li></ul><p><strong>VIOLATION_CATEGORY_CODE </strong>- The category of violation that is reported.</p><ul><li>TT- Treatment Technique Violation</li><li>MRDL- Maximum Residual Disinfectant Level</li><li>Other- Other Violation</li><li>MCL- Maximum Contaminant Level Violation</li><li>MR- Monitoring and Reporting</li><li>MON- Monitoring Violation</li><li>RPT- Reporting Violation</li></ul><p><strong>VIOLATION_CODE </strong>- A full description of violation codes can be accessed in the SDWA_REF_CODE_VALUES (CSV) table.</p><p><strong>VIOLATION_ID </strong>- System-generated identifier for a violation.</p><p><strong>VIOLATION_STATUS </strong>- Current status of the violation.</p><ul><li><strong>Resolved </strong>-&nbsp;The violation has at least one&nbsp;<a href="https://echo.epa.gov/help/reports/dfr-data-dictionary#resolvingaction">resolving enforcement action</a>.&nbsp;In SDWIS, this indicates that either the system has returned to compliance from the violation, the rule that was violated was no longer applicable, or no further action was needed.</li><li><strong>Archived</strong> -&nbsp;The violation is not Resolved, but is more than five years past its noncompliance period end date. In keeping with the&nbsp;<a href="https://www.epa.gov/enforcement/enforcement-response-policy-public-water-system-supervision-pwss-program-under-safe" target="_blank">Enforcement Response Policy</a>, the violation no longer contributes to the public water system's overall compliance status. Unresolved violations are also marked as Archived when a system ceases operations (becomes inactive).</li><li><strong>Addressed</strong> -&nbsp;The violation is not Resolved or Archived, and is addressed by one or more&nbsp;<a href="https://echo.epa.gov/help/reports/dfr-data-dictionary#sdwa_fea">formal enforcement actions</a>.</li><li><strong>Unaddressed </strong>-&nbsp;The violation is not Resolved or Archived, and has not been addressed by formal enforcement.</li></ul><p><strong>VIOL_MEASURE </strong>- A numeric value that represents the analytical result of a contaminant that exceeded the Maximum Contaminant Level (MCL) for that contaminant. For contaminants that can be monitored with a reliable degree of accuracy, an MCL is set. For those which cannot be monitored reliably, a treatment technique is set instead. Both standards are set at a level sufficient to protect the public's health.</p><p><strong>VISIT_COMMENTS </strong>- Comments of site visit by the visitor.</p><p><strong>VISIT_DATE </strong>- The date (MM/DD/YYYY) of the site visit.</p><p><strong>VISIT_ID </strong>- The identification number for each visit.</p><p><strong>VISIT_REASON_CODE </strong>- Code to indicate the reason for the site visit. For a full list of visit codes and their descriptions see SDWA_REF_CODE_VALUES.csv under VALUE_TYPE = VISIT_REASON_CODE.</p><p><strong>WATER_TYPE_CODE</strong> - Character code identifying the type of water source. Ground water (GW), Surface water (SW), Ground water under the influence of surface water (GU). See the&nbsp;<a href="http://water.epa.gov/drink/resources/glossary.cfm" target="_blank">Water Topics</a>&nbsp;page on the EPA website for full definitions of these terms and more.</p><p><strong>ZIP_CODE </strong>- The U.S. Postal Service (USPS) ZIP code in which a legal entity is located. Format: ZZZZZEEEE where ZZZZZ=the ZIP code and EEEE= the optional ZIP+4 extension.</p><p><strong>ZIP_CODE_SERVED</strong>- &nbsp;The 5-digit postal zip code that the facility serves.</p></div>
+      
+  </div>
+
+</article>
+
+  </div>
+
+  </div>
+
+
+        
+      </article>
+    </div>
+  </div>
+</main>
+
+<!-- EPA footer -->
+
+<div class="text-right padding-right-3 padding-bottom-1 epa-footer">
+  <a href="#" class="top-of-page" title="">
+    <svg role="img" aria-label="Top of page">
+      <use href="/themes/custom/epa_uswds/images/sprite.artifact.svg#angle"></use>
+    </svg>
+    <span>
+    Top of Page
+  </span>
+  </a>
+</div>
+<footer class="footer epa-footer" role="contentinfo">
+  <div class="l-constrain">
+    <img class="footer__epa-seal" src="https://www.epa.gov/themes/epa_theme/images/epa-seal.svg" alt="United States Environmental Protection Agency" height="100" width="100">
+    <div class="footer__content contextual-region">
+      <div class="footer__column">
+        <h2>Discover.</h2>
+        <ul class="menu menu--footer">
+          <li class="menu__item">
+            <a href="https://www.epa.gov/accessibility/epa-accessibility-statement" class="menu__link">Accessibility Statement</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/planandbudget" class="menu__link">Budget &amp; Performance</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/contracts" class="menu__link">Contracting</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/utilities/wwwepagov-snapshots" class="menu__link">EPA www Web Snapshot</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/grants" class="menu__link">Grants</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/ocr/no-fear-act-data" class="menu__link">No FEAR Act Data</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/web-policies-and-procedures/plain-writing" class="menu__link">Plain Writing</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/privacy/privacy-and-security-notice" class="menu__link">Privacy and Security Notice</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__column">
+        <h2>Connect.</h2>
+        <ul class="menu menu--footer">
+          <li class="menu__item">
+            <a href="https://www.epa.gov/data" class="menu__link">Data</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/office-inspector-general" class="menu__link">Inspector General</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/careers" class="menu__link">Jobs</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/newsroom" class="menu__link">Newsroom</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.regulations.gov/" class="menu__link" data-once="external-links protected-links">Regulations.gov<svg class="icon icon--exit is-spaced-before" role="img"><title>Exit EPA’s Website</title><use href="/themes/custom/epa_uswds/images/sprite.svg#launch"></use></svg></a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/newsroom/email-subscriptions-epa-news-releases" class="menu__link">Subscribe</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.usa.gov/" class="menu__link" data-once="external-links protected-links">USA.gov<svg class="icon icon--exit is-spaced-before" role="img"><title>Exit EPA’s Website</title><use href="/themes/custom/epa_uswds/images/sprite.svg#launch"></use></svg></a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.whitehouse.gov/" class="menu__link" data-once="external-links protected-links">White House<svg class="icon icon--exit is-spaced-before" role="img"><title>Exit EPA’s Website</title><use href="/themes/custom/epa_uswds/images/sprite.svg#launch"></use></svg></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__column">
+        <h2>Ask.</h2>
+        <ul class="menu menu--footer">
+          <li class="menu__item">
+            <a href="https://www.epa.gov/aboutepa/forms/contact-epa" class="menu__link">Contact EPA</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/web-policies-and-procedures/epa-disclaimers" class="menu__link">EPA Disclaimers</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/aboutepa/epa-hotlines" class="menu__link">Hotlines</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/foia" class="menu__link">FOIA Requests</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/aboutepa/frequent-questions-specific-epa-programstopics" class="menu__link">Frequent Questions</a>
+          </li>
+        </ul>
+        <h2>Follow.</h2>
+        <ul class="menu menu--social">
+          <li class="menu__item">
+            <a class="menu__link" aria-label="EPA’s Facebook" href="https://www.facebook.com/EPA">
+              <svg class="icon icon--social" aria-hidden="true"><use href="/themes/custom/epa_uswds/images/sprite.artifact.svg#facebook-square"></use></svg>    </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" aria-label="EPA’s Twitter / X" href="https://x.com/epa">
+              <svg class="icon icon--social" aria-hidden="true"><use href="/themes/custom/epa_uswds/images/sprite.artifact.svg#twitter-square"></use></svg>    </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" aria-label="EPA’s Youtube" href="https://www.youtube.com/user/USEPAgov">
+              <svg class="icon icon--social" aria-hidden="true"><use href="/themes/custom/epa_uswds/images/sprite.artifact.svg#youtube-square"></use></svg>    </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" aria-label="EPA’s Instagram" href="https://www.instagram.com/epagov">
+              <svg class="icon icon--social" aria-hidden="true"><use href="/themes/custom/epa_uswds/images/sprite.artifact.svg#instagram-square"></use></svg>    </a>
+          </li>
+        </ul>
+
+                  <p class="footer__last-updated">Last updated on December 9, 2025</p>
+        
+                  <p class="data-refresh-information"><a href="/resources/echo-data/about-the-data#sources">Data Refresh Information</a></p>
+              </div>
+    </div>
+  </div>
+</footer>
+
+  </div>
+
+    <div id="echo-survey-root"></div>
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/422","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"eJx1jtEKwyAMRX9ow08SYzMNUxNM3Ojfr6Ol0OHeDufeGwKUvJCggwNuGDO7VBhCuWvsJKZXZ2uhlnZXGajsGx-G5aO0i_jEhYz7KSX4oe9Ff0_pEOwP0uxOmjmf-YWdmmGzaa41lLL9jNjm-Zd0gP5LhZWMeFuvalgdBMUPZ0lzKw","theme":"echo","theme_token":null},"ajaxTrustedUrl":[],"bigPipePlaceholderIds":{"callback=Drupal%5CCore%5CRender%5CElement%5CStatusMessages%3A%3ArenderMessages\u0026args%5B0%5D\u0026token=_HAdUpwWmet0TOTe2PSiJuMntExoshbm1kh2wQzzzAA":true,"callback=Drupal%5Cblock%5CBlockViewBuilder%3A%3AlazyBuilder\u0026args%5B0%5D=echo_account_menu\u0026args%5B1%5D=full\u0026args%5B2%5D\u0026token=0aQiGtHfmcfMkZldF9umwp4ytpUXW1fy6B3sE6gnHoo":true,"callback=Drupal%5Cblock%5CBlockViewBuilder%3A%3AlazyBuilder\u0026args%5B0%5D=echo_site_branding\u0026args%5B1%5D=full\u0026args%5B2%5D\u0026token=9a0HfJL6Ki6au7tD0cANVA8jywXxiDONuQktCRIYS1k":true},"superfish":{"superfish-main":{"id":"superfish-main","sf":{"animation":{"opacity":"show","height":"show"},"speed":"fast","autoArrows":true,"dropShadows":true},"plugins":{"smallscreen":{"cloneParent":0,"mode":"window_width"},"supposition":true,"supersubs":{"maxWidth":18}}}},"echoAuth":{"loginUrl":"https:\/\/echo.epa.gov\/saml\/login","logoutUrl":"https:\/\/echo.epa.gov\/echoauth\/logout","redirectParm":"ReturnTo","passiveLoginParm":"IsPassive=true","sessionRenewalInterval":60,"inactivityTimeout":900,"inactivityWarningTime":60,"csrfToken":"QALLiMZMEk_Ic6ZhXbcfINCN5ieTJcT1lS3Q_n6sUtI"},"user":{"uid":0,"permissionsHash":"bfcf218e3995934b015518ade7dfe37259bfc57699bc30e9d320d09049fb5019"},"echo":{"environment":{"name":"prod","type":"prod","isLab":false,"useStagingServices":false},"settings":{"credentials":{"document_upload":{"host":"https:\/\/tvzzvni6f9.execute-api.us-east-1.amazonaws.com\/echo-docs\/"}}},"user":{"email":null,"hasEnforcementSensitiveRole":false,"hasEpaRole":false,"hasGovernmentRole":false},"path":{"theme":"\/themes\/custom\/echo"}}}</script>
+<script src="/assets/js/js_twWlyAKjWiuCoF7c8fzbR40Sl3jfqEB41mFvYOTuNiE.js?scope=footer&amp;delta=0&amp;language=en&amp;theme=echo&amp;include=eJx1zUsKwCAMRdENWVySqKQaSE0wsevvB-nIzi7vDF7CEgQFfJrhIFf2hThF2jR3FNN3C3FYneB0CPQdtfqvVluofELHZtBs6XpEovsFoK39KR1J_1RY0ZDbBRsyUI8"></script>
+
+  
+<script type="application/vnd.drupal-ajax" data-big-pipe-event="start"></script>
+<script type="application/vnd.drupal-ajax" data-big-pipe-replacement-for-placeholder-with-id="callback=Drupal%5Cblock%5CBlockViewBuilder%3A%3AlazyBuilder&amp;args%5B0%5D=echo_site_branding&amp;args%5B1%5D=full&amp;args%5B2%5D&amp;token=9a0HfJL6Ki6au7tD0cANVA8jywXxiDONuQktCRIYS1k">
+[{"command":"insert","method":"replaceWith","selector":"[data-big-pipe-placeholder-id=\u0022callback=Drupal%5Cblock%5CBlockViewBuilder%3A%3AlazyBuilder\u0026args%5B0%5D=echo_site_branding\u0026args%5B1%5D=full\u0026args%5B2%5D\u0026token=9a0HfJL6Ki6au7tD0cANVA8jywXxiDONuQktCRIYS1k\u0022]","data":"\n\n  \u003Ca class=\u0022echo-logo\u0022 href=\u0022https:\/\/echo.epa.gov\/\u0022\u003E\n    \u003Cimg src=\u0022\/themes\/custom\/echo\/images\/logo.png\u0022 alt=\u0022ECHO: \u0022 style=\u0022vertical-align:middle;\u0022\u003E\n  \u003C\/a\u003E\n\n","settings":null}]
+</script><script type="application/vnd.drupal-ajax" data-big-pipe-replacement-for-placeholder-with-id="callback=Drupal%5Cblock%5CBlockViewBuilder%3A%3AlazyBuilder&amp;args%5B0%5D=echo_account_menu&amp;args%5B1%5D=full&amp;args%5B2%5D&amp;token=0aQiGtHfmcfMkZldF9umwp4ytpUXW1fy6B3sE6gnHoo">
+[{"command":"insert","method":"replaceWith","selector":"[data-big-pipe-placeholder-id=\u0022callback=Drupal%5Cblock%5CBlockViewBuilder%3A%3AlazyBuilder\u0026args%5B0%5D=echo_account_menu\u0026args%5B1%5D=full\u0026args%5B2%5D\u0026token=0aQiGtHfmcfMkZldF9umwp4ytpUXW1fy6B3sE6gnHoo\u0022]","data":"\n\n  \u003C!-- User menu --\u003E\n  \u003Cdiv id=\u0022log\u0022\u003E\n          \u003Cspan\u003E\u0026nbsp;\u003C\/span\u003E\n      \u003C\/div\u003E\n\n  \n              \u003Cul id=\u0022mainLinks\u0022\u003E\n              \u003Cli\u003E\n        \u003Ca href=\u0022\/resources\/general-info\/contact-us\u0022 data-drupal-link-system-path=\u0022node\/550\u0022\u003EContact Us\u003C\/a\u003E\n              \u003C\/li\u003E\n          \u003Cli\u003E\n        \u003Ca href=\u0022https:\/\/echo.epa.gov\/saml\/login?ReturnTo=https%3A%2F%2Fecho.epa.gov%2Fnode%2F422%3Fcheck_logged_in%3D1\u0022 data-drupal-link-system-path=\u0022user\/login\u0022\u003ELogin\u003C\/a\u003E\n              \u003C\/li\u003E\n        \u003C\/ul\u003E\n  \n\n\n\n","settings":null}]
+</script><script type="application/vnd.drupal-ajax" data-big-pipe-replacement-for-placeholder-with-id="callback=Drupal%5CCore%5CRender%5CElement%5CStatusMessages%3A%3ArenderMessages&amp;args%5B0%5D&amp;token=_HAdUpwWmet0TOTe2PSiJuMntExoshbm1kh2wQzzzAA">
+[{"command":"insert","method":"replaceWith","selector":"[data-big-pipe-placeholder-id=\u0022callback=Drupal%5CCore%5CRender%5CElement%5CStatusMessages%3A%3ArenderMessages\u0026args%5B0%5D\u0026token=_HAdUpwWmet0TOTe2PSiJuMntExoshbm1kh2wQzzzAA\u0022]","data":"","settings":null}]
+</script>
+<script type="application/vnd.drupal-ajax" data-big-pipe-event="stop"></script>
+</body>
+</html>

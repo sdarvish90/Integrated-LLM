@@ -1,0 +1,9 @@
+Title: Technology Validation
+URL: https://www.nrel.gov/hydrogen/technology-validation
+Date: 2026-01-28
+======================================================================
+
+Fuel Cell and Hydrogen Technology Validation
+The NLR technology validation team works on validating hydrogen fuel cell electric vehicles; hydrogen fueling infrastructure; hydrogen system components; and fuel cell use in early market applications such as material handling, backup power, and prime-power applications. The team also analyzes the current status of state-of-the-art laboratory fuel cell technologies, with a focus on performance and durability.
+Technology validation is defined as confirmation that component and system technical targets have been met under realistic operating conditions. Technology validation projects involve gathering extensive data from the systems and components under real-world conditions, analyzing this detailed data, and then comparing results to technical targets. While the raw data is protected by NLR, analysis results are aggregated into public results called composite data products. These public results show the status and progress of the technology, but don't identify individual companies.
+Click on the application type to see project highlights, analysis results, and detailed reports and presentations from the hydrogen and fuel cell technology validation efforts underway at NLR.

@@ -1,0 +1,43 @@
+Member State,Year of delivery,Technology,Contracted capacity (GW)
+FR,2020,Demand response,3.05
+FR,2020,Storage,0.04
+FR,2021,Demand response,2.95
+FR,2021,Storage,0.12
+FR,2022,Demand response,3.34
+FR,2022,Storage,0.28
+FR,2023,Demand response,3.30
+FR,2023,Storage,0.44
+IE,2020,Demand response,0.42
+IE,2020,Storage,0.00
+IE,2021,Demand response,0.42
+IE,2021,Storage,0.01
+IE,2022,Demand response,0.47
+IE,2022,Storage,0.06
+IE,2023,Demand response,0.49
+IE,2023,Storage,0.20
+IE,2024,Demand response,0.52
+IE,2024,Storage,0.19
+IE,2025,Demand response,0.54
+IE,2025,Storage,0.38
+IE,2026,Demand response,0.47
+IE,2026,Storage,0.42
+IT,2022,Demand response,0.00
+IT,2022,Storage,0.00
+IT,2023,Demand response,0.00
+IT,2023,Storage,0.10
+IT,2024,Demand response,0.00
+IT,2024,Storage,1.22
+PL,2021,Demand response,0.56
+PL,2021,Storage,0.00
+PL,2022,Demand response,0.87
+PL,2022,Storage,0.00
+PL,2023,Demand response,1.09
+PL,2023,Storage,0.00
+PL,2024,Demand response,1.04
+PL,2024,Storage,0.00
+PL,2025,Demand response,0.96
+PL,2025,Storage,0.00
+PL,2026,Demand response,1.51
+PL,2026,Storage,0.00
+PL,2027,Demand response,1.54
+PL,2027,Storage,0.16

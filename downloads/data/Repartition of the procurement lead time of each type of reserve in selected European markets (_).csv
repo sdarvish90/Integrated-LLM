@@ -1,0 +1,25 @@
+Reserve label,Description,Repartition of procurement
+FCR,Year ahead,5%
+FCR,Month ahead,2%
+FCR,Week ahead,2%
+FCR,Day ahead,79%
+FCR,Intraday,0%
+FCR,Other,12%
+aFRR,Year ahead,11%
+aFRR,Month ahead,7%
+aFRR,Week ahead,8%
+aFRR,Day ahead,74%
+aFRR,Intraday,0%
+aFRR,Other,0%
+mFRR,Year ahead,33%
+mFRR,Month ahead,6%
+mFRR,Week ahead,5%
+mFRR,Day ahead,57%
+mFRR,Intraday,0%
+mFRR,Other,0%
+RR,Year ahead,10%
+RR,Month ahead,6%
+RR,Week ahead,3%
+RR,Day ahead,75%
+RR,Intraday,0%
+RR,Other,6%

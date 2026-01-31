@@ -1,0 +1,43 @@
+Year,Type of production,Capture price (EUR/MWh)
+2019,Coal,48.50
+2019,Gas,49.40
+2019,Hydro,44.00
+2019,Hydro Pumped Storage,51.60
+2019,Nuclear,41.60
+2019,Solar,41.80
+2019,Wind,39.50
+2020,Coal,41.40
+2020,Gas,39.30
+2020,Hydro,26.60
+2020,Hydro Pumped Storage,41.00
+2020,Nuclear,33.30
+2020,Solar,29.90
+2020,Wind,28.30
+2021,Coal,109.40
+2021,Gas,126.30
+2021,Hydro,89.50
+2021,Hydro Pumped Storage,122.70
+2021,Nuclear,107.10
+2021,Solar,90.60
+2021,Wind,91.00
+2022,Coal,237.10
+2022,Gas,264.90
+2022,Hydro,185.00
+2022,Hydro Pumped Storage,295.60
+2022,Nuclear,235.30
+2022,Solar,225.60
+2022,Wind,171.80
+2023,Coal,115.00
+2023,Gas,119.20
+2023,Hydro,83.50
+2023,Hydro Pumped Storage,122.00
+2023,Nuclear,93.40
+2023,Solar,81.70
+2023,Wind,79.80
+2024,Coal,98.80
+2024,Gas,103.90
+2024,Hydro,63.70
+2024,Hydro Pumped Storage,100.30
+2024,Nuclear,64.90
+2024,Solar,54.80
+2024,Wind,60.90

@@ -1,0 +1,1708 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-L8ZB');</script>
+    <!-- End Google Tag Manager -->
+    <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="/themes/custom/echo/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="canonical" href="https://echo.epa.gov/tools/data-downloads/icis-npdes-discharge-points-download-summary" />
+<link rel="shortlink" href="https://echo.epa.gov/node/461" />
+
+    <title>ICIS-NPDES Discharge Points Summary | ECHO | US EPA</title>
+    <link rel="stylesheet" media="all" href="/assets/css/css_b2QtWEFnNeGY0Stq38WX62xWeRuz8N4cC08Jh_j588k.css?delta=0&amp;language=en&amp;theme=echo&amp;include=eJxdzFsKwCAMRNENWVySaE01NBoxkeLuSx_0o3_DYbiwZraJOHhaRCdhTQYuKxyQ4N7OD83v6YF1h4jK_cPm3ZAjyj8lo0HfULLFimpkikKxwQucFnMu1Q" />
+<link rel="stylesheet" media="all" href="/assets/css/css_1QydhEcwEbbgF_YMBykZ5-GxkhzNT6kkA5CItuzFSvg.css?delta=1&amp;language=en&amp;theme=echo&amp;include=eJxdzFsKwCAMRNENWVySaE01NBoxkeLuSx_0o3_DYbiwZraJOHhaRCdhTQYuKxyQ4N7OD83v6YF1h4jK_cPm3ZAjyj8lo0HfULLFimpkikKxwQucFnMu1Q" />
+<link rel="stylesheet" media="all" href="/assets/css/css_eVAb0JsjIRGQ0luoXmM3rBphISNnmPYme94XpiwJK14.css?delta=2&amp;language=en&amp;theme=echo&amp;include=eJxdzFsKwCAMRNENWVySaE01NBoxkeLuSx_0o3_DYbiwZraJOHhaRCdhTQYuKxyQ4N7OD83v6YF1h4jK_cPm3ZAjyj8lo0HfULLFimpkikKxwQucFnMu1Q" />
+<link rel="stylesheet" media="all" href="/assets/css/css_nrkuDoW6I2wUHPHuTQFJiHr5B14uaqBGdLzh5A0cSVc.css?delta=3&amp;language=en&amp;theme=echo&amp;include=eJxdzFsKwCAMRNENWVySaE01NBoxkeLuSx_0o3_DYbiwZraJOHhaRCdhTQYuKxyQ4N7OD83v6YF1h4jK_cPm3ZAjyj8lo0HfULLFimpkikKxwQucFnMu1Q" />
+
+    
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-L8ZB"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+  
+
+<!-- EPA header -->
+
+<div class="banner-message epa-header">
+  
+</div>
+
+<div class="skiplinks epa-header" role="navigation" aria-labelledby="skip-to-main--echo">
+  <a id="skip-to-main--echo"
+     href="#main-content"
+     class="skiplinks__link visually-hidden focusable">Skip to main content</a>
+</div>
+<section class="usa-banner epa-header" aria-label="Official government website">
+  <div class="usa-accordion">
+    <header class="usa-banner__header">
+      <div class="usa-banner__inner">
+        <div class="grid-col-auto">
+          <img class="usa-banner__header-flag" src="https://www.epa.gov/themes/epa_theme/images/us_flag_small.png"
+               alt="U.S. flag" height="11px" width="16px">
+        </div>
+        <div class="grid-col-fill tablet:grid-col-auto">
+          <p class="usa-banner__header-text">An official website of the United States government</p>
+          <p class="usa-banner__header-action" aria-hidden="true">Here’s how you know</p></div>
+        <button class="usa-accordion__button usa-banner__button" aria-expanded="false" aria-controls="gov-banner">
+          <span class="usa-banner__button-text">Here’s how you know</span>
+        </button>
+      </div>
+    </header>
+    <div class="usa-banner__content usa-accordion__content" id="gov-banner" hidden="">
+      <div class="grid-row grid-gap-lg">
+        <div class="usa-banner__guidance tablet:grid-col-6">
+          <img class="usa-banner__icon usa-media-block__img"
+               src="https://www.epa.gov/themes/epa_theme/images/icon-dot-gov.svg" alt="Dot gov">
+          <div class="usa-media-block__body">
+            <p>
+              <strong>Official websites use .gov</strong>
+              <br> A <strong>.gov</strong> website belongs to an official government organization in the United States.
+            </p>
+          </div>
+        </div>
+        <div class="usa-banner__guidance tablet:grid-col-6">
+          <img class="usa-banner__icon usa-media-block__img"
+               src="https://www.epa.gov/themes/epa_theme/images/icon-https.svg" alt="HTTPS">
+          <div class="usa-media-block__body">
+            <p>
+              <strong>Secure .gov websites use HTTPS</strong>
+              <br> A <strong>lock</strong> (<span class="icon-lock"><svg xmlns="http://www.w3.org/2000/svg" width="52"
+                                                                         height="64" viewBox="0 0 52 64"
+                                                                         class="usa-banner__lock-image" role="img"
+                                                                         aria-labelledby="banner-lock-title banner-lock-description"><title
+                      id="banner-lock-title">Lock</title><desc id="banner-lock-description">A locked padlock</desc><path
+                      fill="#000000" fill-rule="evenodd"
+                      d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z"></path></svg></span>)
+              or <strong>https://</strong> means you’ve safely connected to the .gov website. Share sensitive
+              information only on official, secure websites.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<header
+  class="l-header js-header-search usa-header usa-header--extended"
+  data-once="header-search"
+>
+  <div class="usa-overlay"></div>
+  <div class="l-constrain">
+    <div class="l-header__navbar">
+      <div class="l-header__branding">
+                        <a class="site-logo" href="https://www.epa.gov" aria-label="Home" title="Home" rel="home">
+          <span class="site-logo__image">
+            <svg
+              class="site-logo__svg-main"
+              aria-hidden="true"
+              viewBox="0 0 454.1 154.7"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m112.8 61.2c-4.8 18.6-22.9 33.3-42.9 33.3-20.1 0-38-14.7-42.9-33.4h.2s9.8 10.3-.2 0c3.1 3.1 6.2 4.4 10.7 4.4s7.7-1.3 10.7-4.4c3.1 3.1 6.3 4.5 10.9 4.4 4.5 0 7.6-1.3 10.7-4.4 3.1 3.1 6.2 4.4 10.7 4.4s7.7-1.3 10.7-4.4c3.1 3.1 6.3 4.5 10.9 4.4 4.3 0 7.4-1.2 10.5-4.3z"
+              ></path>
+              <path
+                d="m113.2 51.2c0-24-19.4-43.5-43.3-43.5-24 0-43.5 19.5-43.5 43.5h39.1c-4.8-1.8-8.1-6.3-8.1-11.6 0-7 5.7-12.5 12.5-12.5 7 0 12.7 5.5 12.7 12.5 0 5.2-3.1 9.6-7.6 11.6z"
+              ></path>
+              <path
+                d="m72.6 147c.7-36.9 29.7-68.8 66.9-70 0 37.2-30 68-66.9 70z"
+              ></path>
+              <path
+                d="m67.1 147c-.7-36.9-29.7-68.8-67.1-70 0 37.2 30.2 68 67.1 70z"
+              ></path>
+              <path
+                d="m240 10.8h-87.9v133.1h87.9v-20.4h-60.3v-36h60.3v-21h-60.3v-35h60.3z"
+              ></path>
+              <path
+                d="m272.8 66.5h27.1c9.1 0 15.2-8.6 15.1-17.7-.1-9-6.1-17.3-15.1-17.3h-25.3v112.4h-27.8v-133.1h62.3c20.2 0 35 17.8 35.2 38 .2 20.4-14.8 38.7-35.2 38.7h-36.3z"
+              ></path>
+              <path
+                d="m315.9 143.9h29.7l12.9-35h54.2l-8.1-21.9h-38.4l18.9-50.7 39.2 107.6h29.7l-53.1-133.1h-33.7z"
+              ></path>
+            </svg>
+            <svg
+              class="site-logo__svg-text"
+              aria-hidden="true"
+              viewBox="0 0 595.4 154.7"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m9 8.5v22.4c0 1.9.2 3.3.5 4.3s.7 1.7 1 2.2c1.2 1.4 2.5 2.4 3.9 2.9 1.5.5 2.8.7 4.1.7 2.4 0 4.2-.4 5.5-1.3 1.3-.8 2.2-1.8 2.8-2.9s.9-2.3 1-3.4.1-2 .1-2.6v-22.3h4.7v22.3 1.7c0 .7-.1 1.5-.4 2.4-.3 1.8-1.2 3.6-2.5 5.4-1.8 2.1-3.8 3.5-6 4.2-2.2.6-4 .9-5.3.9-1.8 0-3.8-.3-6.2-1.1s-4.5-2.3-6.2-4.7c-.5-.8-1-1.8-1.4-3.2-.4-1.3-.6-3.3-.6-5.9v-22z"
+              ></path>
+              <path
+                d="m43.2 22.2v-2.9l4.6.1-.1 4.1c.2-.3.4-.7.8-1.2.3-.5.8-.9 1.4-1.4s1.4-.9 2.3-1.3c.9-.3 2.1-.5 3.4-.4.6 0 1.4.1 2.4.3.9.2 1.9.6 2.9 1.2s1.8 1.5 2.4 2.6c.6 1.2.9 2.8.9 4.7l-.4 17-4.6-.1.4-16c0-.9 0-1.7-.2-2.4-.1-.7-.5-1.3-1.1-1.9-1.2-1.2-2.6-1.8-4.3-1.8s-3.1.5-4.4 1.7-2 3.1-2.1 5.7l-.3 14.5-4.5-.1z"
+              ></path>
+              <path d="m72.9 8.6h5.5v5.1h-5.5zm.5 10.9h4.6v25.1h-4.6z"></path>
+              <path
+                d="m83.5 19.4h4.3v-5.3l4.5-1.5v6.8h5.4v3.4h-5.4v15.1c0 .3 0 .6.1 1 0 .4.1.7.4 1.1.2.4.5.6 1 .8.4.3 1 .4 1.8.4 1 0 1.7-.1 2.2-.2v3.7c-.9.2-2.1.3-3.8.3-2.1 0-3.6-.4-4.6-1.2s-1.5-2.2-1.5-4.2v-16.8h-4.3v-3.4z"
+              ></path>
+              <path
+                d="m106.6 32.9c-.1 2.6.5 4.8 1.7 6.5 1.1 1.7 2.9 2.6 5.3 2.6 1.5 0 2.8-.4 3.9-1.3 1-.8 1.6-2.2 1.8-4h4.6c0 .6-.2 1.4-.4 2.3-.3 1-.8 2-1.7 3-.2.3-.6.6-1 1-.5.4-1 .7-1.7 1.1s-1.5.6-2.4.8c-.9.3-2 .4-3.3.4-7.6-.2-11.3-4.5-11.3-12.9 0-2.5.3-4.8 1-6.8s2-3.7 3.8-5.1c1.2-.8 2.4-1.3 3.7-1.6 1.3-.2 2.2-.3 3-.3 2.7 0 4.8.6 6.3 1.6s2.5 2.3 3.1 3.9c.6 1.5 1 3.1 1.1 4.6.1 1.6.1 2.9 0 4h-17.5m12.9-3c0-.3 0-.7 0-1.1s0-.8-.1-1.2c-.1-.9-.4-1.7-.8-2.5s-1-1.5-1.8-2c-.9-.5-2-.8-3.4-.8-.8 0-1.5.1-2.3.3s-1.5.7-2.2 1.3-1.2 1.3-1.6 2.3-.7 2.2-.8 3.6h13z"
+              ></path>
+              <path
+                d="m148.6 8.6h4.6v32.1c0 1 .1 2.3.2 4h-4.6l-.1-4c-.2.3-.4.7-.7 1.2s-.8 1-1.4 1.5c-1 .7-2 1.2-3.1 1.4-.5.1-1 .2-1.5.3s-.9.1-1.4.1c-.4 0-.8 0-1.3-.1s-1.1-.2-1.7-.3c-1.1-.3-2.3-.9-3.4-1.8s-2.1-2.2-2.9-3.8c-.8-1.7-1.2-3.9-1.2-6.6.1-4.8 1.2-8.3 3.4-10.5 2.1-2.1 4.7-3.2 7.6-3.2 1.3 0 2.4.2 3.4.5.9.3 1.6.7 2.2 1.2.6.4 1 .9 1.3 1.4s.6.8.7 1.1zm.1 23.1c0-1.9-.2-3.3-.5-4.4-.4-1.1-.8-2-1.4-2.6-.5-.7-1.2-1.3-2-1.8-.9-.5-2-.7-3.3-.7-1.7 0-2.9.5-3.8 1.3s-1.6 1.9-2 3.1-.7 2.3-.7 3.4c-.1 1.1-.2 1.9-.1 2.4 0 1.1.1 2.2.3 3.4.2 1.1.5 2.2 1 3.1.5 1 1.2 1.7 2 2.3.9.6 2 .9 3.3.9 1.8 0 3.2-.5 4.2-1.4 1-.8 1.7-1.8 2.1-3s.7-2.4.8-3.4c.1-1.4.1-2.1.1-2.6z"
+              ></path>
+              <path
+                d="m179.6 34.1c0 .6.1 1.3.3 2.1.1.8.5 1.6 1 2.3.5.8 1.4 1.4 2.5 1.9s2.7.8 4.7.8c1.8 0 3.3-.3 4.4-.8s1.9-1.1 2.5-1.8 1-1.5 1.1-2.2.2-1.2.2-1.7c0-1-.2-1.9-.5-2.6-.4-.6-.9-1.2-1.6-1.6-1.4-.8-3.4-1.4-5.9-2-4.9-1.1-8.1-2.2-9.5-3.2s-2.3-2.2-2.9-3.5c-.6-1.2-.8-2.4-.8-3.6.1-3.7 1.5-6.4 4.2-8.1 2.6-1.7 5.7-2.5 9.1-2.5 1.3 0 2.9.2 4.8.5 1.9.4 3.6 1.4 5 3 .5.5.9 1.1 1.2 1.7.3.5.5 1.1.6 1.6.2 1.1.3 2.1.3 2.9h-5c-.2-2.2-1-3.7-2.4-4.5-1.5-.7-3.1-1.1-4.9-1.1-5.1.1-7.7 2-7.8 5.8 0 1.5.5 2.7 1.6 3.5 1 .8 2.6 1.4 4.7 1.9 4 1 6.7 1.8 8.1 2.2.8.2 1.4.5 1.8.7.5.2 1 .5 1.4.9.8.5 1.4 1.1 1.9 1.8s.8 1.4 1.1 2.1c.3 1.4.5 2.5.5 3.4 0 3.3-1.2 6-3.5 8-2.3 2.1-5.8 3.2-10.3 3.3-1.4 0-3.2-.3-5.4-.8-1-.3-2-.7-3-1.2-.9-.5-1.8-1.2-2.5-2.1-.9-1.4-1.5-2.7-1.7-4.1-.3-1.3-.4-2.4-.3-3.2h5z"
+              ></path>
+              <path
+                d="m205.7 19.4h4.3v-5.3l4.5-1.5v6.8h5.4v3.4h-5.4v15.1c0 .3 0 .6.1 1 0 .4.1.7.4 1.1.2.4.5.6 1 .8.4.3 1 .4 1.8.4 1 0 1.7-.1 2.2-.2v3.7c-.9.2-2.1.3-3.8.3-2.1 0-3.6-.4-4.6-1.2s-1.5-2.2-1.5-4.2v-16.8h-4.4z"
+              ></path>
+              <path
+                d="m241 44.6c-.3-1.2-.5-2.5-.4-3.7-.5 1-1.1 1.8-1.7 2.4-.7.6-1.4 1.1-2 1.4-1.4.5-2.7.8-3.7.8-2.8 0-4.9-.8-6.4-2.2s-2.2-3.1-2.2-5.2c0-1 .2-2.3.8-3.7s1.7-2.6 3.5-3.7c1.4-.7 2.9-1.2 4.5-1.5 1.6-.1 2.9-.2 3.9-.2s2.1 0 3.3.1c.1-2.9-.2-4.8-.9-5.6-.5-.6-1.1-1.1-1.9-1.3s-1.6-.4-2.3-.4c-1.1 0-2 .2-2.6.5-.7.3-1.2.7-1.5 1.2s-.5.9-.6 1.4-.2.9-.2 1.2h-4.6c.1-.7.2-1.4.4-2.3.2-.8.6-1.6 1.3-2.5.5-.6 1-1 1.7-1.3.6-.3 1.3-.6 2-.8 1.5-.4 2.8-.6 4.2-.6 1.8 0 3.6.3 5.2.9s2.8 1.6 3.4 2.9c.4.7.6 1.4.7 2s.1 1.2.1 1.8l-.2 12c0 1 .1 3.1.4 6.3h-4.2m-.5-12.1c-.7-.1-1.6-.1-2.6-.1-.5 0-1.2 0-2.1 0-1 .1-2 .3-3 .6s-1.9.8-2.6 1.5c-.8.7-1.2 1.7-1.2 3 0 .4.1.8.2 1.3s.4 1 .8 1.5.9.8 1.6 1.1 1.5.5 2.5.5c2.3 0 4.1-.9 5.2-2.7.5-.8.8-1.7 1-2.7.1-.9.2-2.2.2-4z"
+              ></path>
+              <path
+                d="m250.2 19.4h4.3v-5.3l4.5-1.5v6.8h5.4v3.4h-5.4v15.1c0 .3 0 .6.1 1 0 .4.1.7.4 1.1.2.4.5.6 1 .8.4.3 1 .4 1.8.4 1 0 1.7-.1 2.2-.2v3.7c-.9.2-2.1.3-3.8.3-2.1 0-3.6-.4-4.6-1.2s-1.5-2.2-1.5-4.2v-16.8h-4.3v-3.4z"
+              ></path>
+              <path
+                d="m273.3 32.9c-.1 2.6.5 4.8 1.7 6.5 1.1 1.7 2.9 2.6 5.3 2.6 1.5 0 2.8-.4 3.9-1.3 1-.8 1.6-2.2 1.8-4h4.6c0 .6-.2 1.4-.4 2.3-.3 1-.8 2-1.7 3-.2.3-.6.6-1 1-.5.4-1 .7-1.7 1.1s-1.5.6-2.4.8c-.9.3-2 .4-3.3.4-7.6-.2-11.3-4.5-11.3-12.9 0-2.5.3-4.8 1-6.8s2-3.7 3.8-5.1c1.2-.8 2.4-1.3 3.7-1.6 1.3-.2 2.2-.3 3-.3 2.7 0 4.8.6 6.3 1.6s2.5 2.3 3.1 3.9c.6 1.5 1 3.1 1.1 4.6.1 1.6.1 2.9 0 4h-17.5m12.9-3c0-.3 0-.7 0-1.1s0-.8-.1-1.2c-.1-.9-.4-1.7-.8-2.5s-1-1.5-1.8-2c-.9-.5-2-.8-3.4-.8-.8 0-1.5.1-2.3.3s-1.5.7-2.2 1.3-1.2 1.3-1.6 2.3-.7 2.2-.8 3.6h13z"
+              ></path>
+              <path
+                d="m301 37.2c0 .5.1 1 .2 1.4.1.5.4 1 .8 1.5s.9.8 1.6 1.1 1.6.5 2.7.5c1 0 1.8-.1 2.5-.3s1.3-.6 1.7-1.2c.5-.7.8-1.5.8-2.4 0-1.2-.4-2-1.3-2.5s-2.2-.9-4.1-1.2c-1.3-.3-2.4-.6-3.6-1-1.1-.3-2.1-.8-3-1.3s-1.5-1.2-2-2.1c-.5-.8-.8-1.9-.8-3.2 0-2.4.9-4.2 2.6-5.6 1.7-1.3 4-2 6.8-2.1 1.6 0 3.3.3 5 .8 1.7.6 2.9 1.6 3.7 3.1.4 1.4.6 2.6.6 3.7h-4.6c0-1.8-.6-3-1.7-3.5-1.1-.4-2.1-.6-3.1-.6-.2 0-.5 0-1 0s-1.1.2-1.7.4-1.1.5-1.5 1.1c-.5.5-.7 1.2-.7 2.1 0 1.1.5 1.9 1.3 2.3.7.4 1.5.7 2.1.9 3.3.7 5.6 1.3 6.9 1.8 1.3.4 2.2 1 2.8 1.7.7.7 1.1 1.4 1.4 2.2s.4 1.6.4 2.5c0 1.4-.3 2.7-.9 3.8s-1.4 2-2.4 2.6c-1.1.6-2.2 1-3.4 1.3s-2.5.4-3.8.4c-2.5 0-4.7-.6-6.6-1.8-1.8-1.2-2.8-3.3-2.9-6.3z"
+              ></path>
+              <path
+                d="m3.4 58.5h21.9v4.2h-17.1v11.3h16.3v4.2h-16.3v12.1h17.5v4.3h-22.3z"
+              ></path>
+              <path
+                d="m34.7 72.4-.1-2.9h4.6v4.1c.2-.3.4-.8.7-1.2.3-.5.8-1 1.3-1.5.6-.5 1.4-1 2.3-1.3s2-.5 3.4-.5c.6 0 1.4.1 2.4.2.9.2 1.9.5 2.9 1.1s1.8 1.4 2.5 2.5c.6 1.2 1 2.7 1 4.7v17.1h-4.6v-16c0-.9-.1-1.7-.2-2.4-.2-.7-.5-1.3-1.1-1.9-1.2-1.1-2.6-1.7-4.3-1.7s-3.1.6-4.3 1.8c-1.3 1.2-2 3.1-2 5.7v14.5h-4.5z"
+              ></path>
+              <path
+                d="m60.3 69.5h5.1l7.7 19.9 7.6-19.9h5l-10.6 25.1h-4.6z"
+              ></path>
+              <path d="m91.4 58.6h5.5v5.1h-5.5zm.5 10.9h4.6v25.1h-4.6z"></path>
+              <path
+                d="m106 74.7c0-1.8-.1-3.5-.3-5.1h4.6l.1 4.9c.5-1.8 1.4-3 2.5-3.7s2.2-1.2 3.3-1.3c1.4-.2 2.4-.2 3.1-.1v4.6c-.2-.1-.5-.2-.9-.2-.3 0-.8 0-1.3 0-1.3 0-2.4.2-3.3.5-.9.4-1.5.9-2 1.6-.9 1.4-1.4 3.2-1.3 5.4v13.3h-4.6v-19.9z"
+              ></path>
+              <path
+                d="m123.3 82.4c0-1.6.2-3.2.6-4.8s1.1-3 2-4.4c1-1.3 2.2-2.4 3.8-3.2s3.6-1.2 5.9-1.2c2.4 0 4.5.4 6.1 1.3 1.5.9 2.7 2 3.6 3.3s1.5 2.8 1.8 4.3c.2.8.3 1.5.4 2.2v2.2c0 3.7-1 6.9-3 9.5s-5.1 4-9.3 4c-4-.1-7-1.4-9-3.9-1.9-2.5-2.9-5.6-2.9-9.3m4.8-.3c0 2.7.6 5 1.8 6.9 1.2 2 3 3 5.6 3.1.9 0 1.8-.2 2.7-.5.8-.3 1.6-.9 2.3-1.7s1.3-1.9 1.8-3.2c.4-1.3.6-2.9.6-4.7-.1-6.4-2.5-9.6-7.1-9.6-.7 0-1.5.1-2.4.3-.8.3-1.7.8-2.5 1.6-.8.7-1.4 1.7-1.9 3-.6 1.1-.9 2.8-.9 4.8z"
+              ></path>
+              <path
+                d="m155.9 72.4-.1-2.9h4.6v4.1c.2-.3.4-.8.7-1.2.3-.5.8-1 1.3-1.5.6-.5 1.4-1 2.3-1.3s2-.5 3.4-.5c.6 0 1.4.1 2.4.2.9.2 1.9.5 2.9 1.1s1.8 1.4 2.5 2.5c.6 1.2 1 2.7 1 4.7v17.1h-4.6v-16c0-.9-.1-1.7-.2-2.4-.2-.7-.5-1.3-1.1-1.9-1.2-1.1-2.6-1.7-4.3-1.7s-3.1.6-4.3 1.8c-1.3 1.2-2 3.1-2 5.7v14.5h-4.6z"
+              ></path>
+              <path
+                d="m185.7 72.8-.1-3.3h4.6v3.6c1.2-1.9 2.6-3.2 4.1-3.7 1.5-.4 2.7-.6 3.8-.6 1.4 0 2.6.2 3.6.5.9.3 1.7.7 2.3 1.1 1.1 1 1.9 2 2.3 3.1.2-.4.5-.8 1-1.3.4-.5.9-1 1.5-1.6.6-.5 1.5-.9 2.5-1.3 1-.3 2.2-.5 3.5-.5.9 0 1.9.1 3 .3 1 .2 2 .7 3 1.3s1.7 1.5 2.3 2.7.9 2.7.9 4.6v16.9h-4.6v-16.2c0-1.1-.1-2-.2-2.5-.1-.6-.3-1-.6-1.3-.4-.6-1-1.2-1.8-1.6s-1.8-.6-3.1-.6c-1.5 0-2.7.4-3.6 1-.4.3-.8.5-1.1.9-.3.3-.6.6-.8.8-.5.8-.8 1.8-1 2.8-.1 1.1-.2 2-.1 2.6v14.1h-4.6v-16.7c0-1.6-.5-2.9-1.4-4-.9-1-2.3-1.5-4.2-1.5-1.6 0-2.9.4-3.8 1.1s-1.5 1.2-1.8 1.7c-.5.7-.8 1.5-.9 2.5-.1.9-.2 1.8-.2 2.6v14.3h-4.5z"
+              ></path>
+              <path
+                d="m236.2 82.9c-.1 2.6.5 4.8 1.7 6.5 1.1 1.7 2.9 2.6 5.3 2.6 1.5 0 2.8-.4 3.9-1.3 1-.8 1.6-2.2 1.8-4h4.6c0 .6-.2 1.4-.4 2.3-.3 1-.8 2-1.7 3-.2.3-.6.6-1 1-.5.4-1 .7-1.7 1.1s-1.5.6-2.4.8c-.9.3-2 .4-3.3.4-7.6-.2-11.3-4.5-11.3-12.9 0-2.5.3-4.8 1-6.8s2-3.7 3.8-5.1c1.2-.8 2.4-1.3 3.7-1.6 1.3-.2 2.2-.3 3-.3 2.7 0 4.8.6 6.3 1.6s2.5 2.3 3.1 3.9c.6 1.5 1 3.1 1.1 4.6.1 1.6.1 2.9 0 4h-17.5m12.8-3c0-.3 0-.7 0-1.1s0-.8-.1-1.2c-.1-.9-.4-1.7-.8-2.5s-1-1.5-1.8-2c-.9-.5-2-.8-3.4-.8-.8 0-1.5.1-2.3.3s-1.5.7-2.2 1.3-1.2 1.3-1.6 2.3-.7 2.2-.8 3.6z"
+              ></path>
+              <path
+                d="m261.4 72.4-.1-2.9h4.6v4.1c.2-.3.4-.8.7-1.2.3-.5.8-1 1.3-1.5.6-.5 1.4-1 2.3-1.3s2-.5 3.4-.5c.6 0 1.4.1 2.4.2.9.2 1.9.5 2.9 1.1s1.8 1.4 2.5 2.5c.6 1.2 1 2.7 1 4.7v17.1h-4.6v-16c0-.9-.1-1.7-.2-2.4-.2-.7-.5-1.3-1.1-1.9-1.2-1.1-2.6-1.7-4.3-1.7s-3.1.6-4.3 1.8c-1.3 1.2-2 3.1-2 5.7v14.5h-4.6z"
+              ></path>
+              <path
+                d="m288 69.4h4.3v-5.2l4.5-1.5v6.8h5.4v3.4h-5.4v15.1c0 .3 0 .6.1 1 0 .4.1.7.4 1.1.2.4.5.6 1 .8.4.3 1 .4 1.8.4 1 0 1.7-.1 2.2-.2v3.6c-.9.2-2.1.3-3.8.3-2.1 0-3.6-.4-4.6-1.2s-1.5-2.2-1.5-4.2v-16.8h-4.3v-3.4z"
+              ></path>
+              <path
+                d="m323.3 94.6c-.3-1.2-.5-2.5-.4-3.7-.5 1-1.1 1.8-1.7 2.4-.7.6-1.4 1.1-2 1.4-1.4.5-2.7.8-3.7.8-2.8 0-4.9-.8-6.4-2.2s-2.2-3.1-2.2-5.2c0-1 .2-2.3.8-3.7s1.7-2.6 3.5-3.7c1.4-.7 2.9-1.2 4.5-1.5 1.6-.1 2.9-.2 3.9-.2s2.1 0 3.3.1c.1-2.9-.2-4.8-.9-5.6-.5-.6-1.1-1.1-1.9-1.3s-1.6-.4-2.3-.4c-1.1 0-2 .2-2.6.5-.7.3-1.2.7-1.5 1.2s-.5.9-.6 1.4-.2.9-.2 1.2h-4.6c.1-.7.2-1.4.4-2.3.2-.8.6-1.6 1.3-2.5.5-.6 1-1 1.7-1.3.6-.3 1.3-.6 2-.8 1.5-.4 2.8-.6 4.2-.6 1.8 0 3.6.3 5.2.9s2.8 1.6 3.4 2.9c.4.7.6 1.4.7 2s.1 1.2.1 1.8l-.2 12c0 1 .1 3.1.4 6.3zm-.5-12.2c-.7-.1-1.6-.1-2.6-.1-.5 0-1.2 0-2.1 0-1 .1-2 .3-3 .6s-1.9.8-2.6 1.5c-.8.7-1.2 1.7-1.2 3 0 .4.1.8.2 1.3s.4 1 .8 1.5.9.8 1.6 1.1 1.5.5 2.5.5c2.3 0 4.1-.9 5.2-2.7.5-.8.8-1.7 1-2.7.1-.9.2-2.2.2-4z"
+              ></path>
+              <path d="m336.4 58.6h4.6v36.1h-4.6z"></path>
+              <path
+                d="m364.1 58.5h11.7c2.1 0 3.9.1 5.5.4.8.2 1.5.4 2.2.9.7.4 1.3.9 1.8 1.6 1.7 1.9 2.6 4.2 2.6 7 0 2.7-.9 5.1-2.8 7.1-.8.9-2 1.7-3.6 2.2-1.6.6-3.9.9-6.9.9h-5.7v16.1h-4.8zm4.8 15.9h5.8c.8 0 1.7-.1 2.6-.2s1.8-.3 2.6-.7 1.5-1 2-1.9c.5-.8.8-2 .8-3.4s-.2-2.5-.7-3.3-1.1-1.3-1.9-1.7c-1.6-.5-3.1-.8-4.5-.7h-6.8v11.9z"
+              ></path>
+              <path
+                d="m393.8 74.7c0-1.8-.1-3.5-.3-5.1h4.6l.1 4.9c.5-1.8 1.4-3 2.5-3.7s2.2-1.2 3.3-1.3c1.4-.2 2.4-.2 3.1-.1v4.6c-.2-.1-.5-.2-.9-.2-.3 0-.8 0-1.3 0-1.3 0-2.4.2-3.3.5-.9.4-1.5.9-2 1.6-.9 1.4-1.4 3.2-1.3 5.4v13.3h-4.6v-19.9z"
+              ></path>
+              <path
+                d="m411.2 82.4c0-1.6.2-3.2.6-4.8s1.1-3 2-4.4c1-1.3 2.2-2.4 3.8-3.2s3.6-1.2 5.9-1.2c2.4 0 4.5.4 6.1 1.3 1.5.9 2.7 2 3.6 3.3s1.5 2.8 1.8 4.3c.2.8.3 1.5.4 2.2v2.2c0 3.7-1 6.9-3 9.5s-5.1 4-9.3 4c-4-.1-7-1.4-9-3.9-1.9-2.5-2.9-5.6-2.9-9.3m4.8-.3c0 2.7.6 5 1.8 6.9 1.2 2 3 3 5.6 3.1.9 0 1.8-.2 2.7-.5.8-.3 1.6-.9 2.3-1.7s1.3-1.9 1.8-3.2c.4-1.3.6-2.9.6-4.7-.1-6.4-2.5-9.6-7.1-9.6-.7 0-1.5.1-2.4.3-.8.3-1.7.8-2.5 1.6-.8.7-1.4 1.7-1.9 3-.7 1.1-.9 2.8-.9 4.8z"
+              ></path>
+              <path
+                d="m439.8 69.4h4.3v-5.2l4.5-1.5v6.8h5.4v3.4h-5.4v15.1c0 .3 0 .6.1 1 0 .4.1.7.4 1.1.2.4.5.6 1 .8.4.3 1 .4 1.8.4 1 0 1.7-.1 2.2-.2v3.6c-.9.2-2.1.3-3.8.3-2.1 0-3.6-.4-4.6-1.2s-1.5-2.2-1.5-4.2v-16.8h-4.3v-3.4z"
+              ></path>
+              <path
+                d="m462.9 82.9c-.1 2.6.5 4.8 1.7 6.5 1.1 1.7 2.9 2.6 5.3 2.6 1.5 0 2.8-.4 3.9-1.3 1-.8 1.6-2.2 1.8-4h4.6c0 .6-.2 1.4-.4 2.3-.3 1-.8 2-1.7 3-.2.3-.6.6-1 1-.5.4-1 .7-1.7 1.1s-1.5.6-2.4.8c-.9.3-2 .4-3.3.4-7.6-.2-11.3-4.5-11.3-12.9 0-2.5.3-4.8 1-6.8s2-3.7 3.8-5.1c1.2-.8 2.4-1.3 3.7-1.6 1.3-.2 2.2-.3 3-.3 2.7 0 4.8.6 6.3 1.6s2.5 2.3 3.1 3.9c.6 1.5 1 3.1 1.1 4.6.1 1.6.1 2.9 0 4h-17.5m12.9-3c0-.3 0-.7 0-1.1s0-.8-.1-1.2c-.1-.9-.4-1.7-.8-2.5s-1-1.5-1.8-2c-.9-.5-2-.8-3.4-.8-.8 0-1.5.1-2.3.3s-1.5.7-2.2 1.3-1.2 1.3-1.6 2.3-.7 2.2-.8 3.6z"
+              ></path>
+              <path
+                d="m501.8 77.5c0-.3 0-.8-.1-1.4s-.3-1.1-.6-1.8c-.2-.6-.7-1.2-1.4-1.6s-1.6-.6-2.7-.6c-1.5 0-2.7.4-3.5 1.2-.9.8-1.5 1.7-1.9 2.8s-.6 2.2-.7 3.2c-.1 1.1-.2 1.8-.1 2.4 0 1.3.1 2.5.3 3.7s.5 2.3.9 3.3c.8 2 2.4 3 4.8 3.1 1.9 0 3.3-.7 4.1-1.9.8-1.1 1.2-2.3 1.2-3.6h4.6c-.2 2.5-1.1 4.6-2.7 6.3-1.7 1.8-4.1 2.7-7.1 2.7-.9 0-2.1-.2-3.6-.6-.7-.2-1.4-.6-2.2-1s-1.5-1-2.2-1.7c-.7-.9-1.4-2.1-2-3.6s-.9-3.5-.9-6.1.4-4.8 1.1-6.6c.7-1.7 1.6-3.1 2.7-4.2 1.1-1 2.3-1.8 3.6-2.2s2.5-.6 3.7-.6h1.6c.6.1 1.3.2 1.9.4.7.2 1.4.5 2.1 1 .7.4 1.3 1 1.8 1.7.9 1.1 1.4 2.1 1.7 3.1.2 1 .3 1.8.3 2.6z"
+              ></path>
+              <path
+                d="m509.3 69.4h4.3v-5.2l4.5-1.5v6.8h5.4v3.4h-5.4v15.1c0 .3 0 .6.1 1 0 .4.1.7.4 1.1.2.4.5.6 1 .8.4.3 1 .4 1.8.4 1 0 1.7-.1 2.2-.2v3.6c-.9.2-2.1.3-3.8.3-2.1 0-3.6-.4-4.6-1.2s-1.5-2.2-1.5-4.2v-16.8h-4.3v-3.4z"
+              ></path>
+              <path d="m529.2 58.6h5.5v5.1h-5.5zm.5 10.9h4.6v25.1h-4.6z"></path>
+              <path
+                d="m541.8 82.4c0-1.6.2-3.2.6-4.8s1.1-3 2-4.4c1-1.3 2.2-2.4 3.8-3.2s3.6-1.2 5.9-1.2c2.4 0 4.5.4 6.1 1.3 1.5.9 2.7 2 3.6 3.3s1.5 2.8 1.8 4.3c.2.8.3 1.5.4 2.2v2.2c0 3.7-1 6.9-3 9.5s-5.1 4-9.3 4c-4-.1-7-1.4-9-3.9-1.9-2.5-2.9-5.6-2.9-9.3m4.7-.3c0 2.7.6 5 1.8 6.9 1.2 2 3 3 5.6 3.1.9 0 1.8-.2 2.7-.5.8-.3 1.6-.9 2.3-1.7s1.3-1.9 1.8-3.2c.4-1.3.6-2.9.6-4.7-.1-6.4-2.5-9.6-7.1-9.6-.7 0-1.5.1-2.4.3-.8.3-1.7.8-2.5 1.6-.8.7-1.4 1.7-1.9 3-.6 1.1-.9 2.8-.9 4.8z"
+              ></path>
+              <path
+                d="m574.3 72.4-.1-2.9h4.6v4.1c.2-.3.4-.8.7-1.2.3-.5.8-1 1.3-1.5.6-.5 1.4-1 2.3-1.3s2-.5 3.4-.5c.6 0 1.4.1 2.4.2.9.2 1.9.5 2.9 1.1s1.8 1.4 2.5 2.5c.6 1.2 1 2.7 1 4.7v17.1h-4.6v-16c0-.9-.1-1.7-.2-2.4-.2-.7-.5-1.3-1.1-1.9-1.2-1.1-2.6-1.7-4.3-1.7s-3.1.6-4.3 1.8c-1.3 1.2-2 3.1-2 5.7v14.5h-4.6z"
+              ></path>
+              <path
+                d="m14.8 108.5h5.2l14.1 36.1h-5.3l-3.8-9.4h-16.2l-3.8 9.4h-5zm-4.4 22.7h13.3l-6.5-17.8z"
+              ></path>
+              <path
+                d="m44.4 146.5c.1.7.2 1.4.4 1.9.2.6.5 1.1.9 1.6.8.9 2.3 1.4 4.4 1.5 1.6 0 2.8-.3 3.7-.9s1.5-1.4 1.9-2.4c.4-1.1.6-2.3.7-3.7s.1-2.9.1-4.6c-.5.9-1.1 1.7-1.8 2.3s-1.5 1-2.3 1.3c-1.7.4-3 .6-3.9.6-1.2 0-2.4-.2-3.8-.6s-2.6-1.2-3.7-2.5c-1-1.3-1.7-2.8-2.1-4.4s-.6-3.2-.6-4.8c0-4.3 1.1-7.4 3.2-9.5 2-2.1 4.6-3.1 7.6-3.1 1.3 0 2.3.1 3.2.4s1.6.6 2.1 1c.6.4 1.1.8 1.5 1.2.3.4.6.8.9 1.2v-3.4h4.4l-.1 4.5v15.7c0 2.9-.1 5.2-.2 6.7-.2 1.6-.5 2.8-1 3.7-1.1 1.9-2.6 3.2-4.6 3.7-1.9.6-3.8.8-5.6.8-2.4 0-4.3-.3-5.6-.8-1.4-.5-2.4-1.2-3-2s-1-1.7-1.2-2.7c-.2-.9-.3-1.8-.4-2.7zm5.3-5.8c1.4 0 2.5-.2 3.3-.7s1.5-1.1 2-1.8c.5-.6.9-1.4 1.2-2.5.3-1 .4-2.6.4-4.8 0-1.6-.2-2.9-.4-3.9-.3-1-.8-1.8-1.4-2.4-1.3-1.4-3-2.2-5.2-2.2-1.4 0-2.5.3-3.4 1s-1.6 1.5-2 2.4c-.4 1-.7 2-.9 3s-.2 2-.2 2.8c0 1 .1 1.9.3 2.9.2 1.1.5 2.1 1 3s1.2 1.6 2 2.2c.8.7 1.9 1 3.3 1z"
+              ></path>
+              <path
+                d="m73.3 132.9c-.1 2.6.5 4.8 1.7 6.5 1.1 1.7 2.9 2.6 5.3 2.6 1.5 0 2.8-.4 3.9-1.3 1-.8 1.6-2.2 1.8-4h4.6c0 .6-.2 1.4-.4 2.3-.3 1-.8 2-1.7 3-.2.3-.6.6-1 1-.5.4-1 .7-1.7 1.1s-1.5.6-2.4.8c-.9.3-2 .4-3.3.4-7.6-.2-11.3-4.5-11.3-12.9 0-2.5.3-4.8 1-6.8s2-3.7 3.8-5.1c1.2-.8 2.4-1.3 3.7-1.6 1.3-.2 2.2-.3 3-.3 2.7 0 4.8.6 6.3 1.6s2.5 2.3 3.1 3.9c.6 1.5 1 3.1 1.1 4.6.1 1.6.1 2.9 0 4h-17.5m12.9-3c0-.3 0-.7 0-1.1s0-.8-.1-1.2c-.1-.9-.4-1.7-.8-2.5s-1-1.5-1.8-2.1c-.9-.5-2-.8-3.4-.8-.8 0-1.5.1-2.3.3s-1.5.7-2.2 1.3-1.2 1.3-1.6 2.3-.7 2.2-.8 3.7z"
+              ></path>
+              <path
+                d="m98.6 122.4-.1-2.9h4.6v4.1c.2-.3.4-.8.7-1.2.3-.5.8-1 1.3-1.5.6-.5 1.4-1 2.3-1.3s2-.5 3.4-.5c.6 0 1.4.1 2.4.2.9.2 1.9.5 2.9 1.1s1.8 1.4 2.5 2.5c.6 1.2 1 2.7 1 4.7v17.1h-4.6v-16c0-.9-.1-1.7-.2-2.4-.2-.7-.5-1.3-1.1-1.9-1.2-1.1-2.6-1.7-4.3-1.7s-3.1.6-4.3 1.8c-1.3 1.2-2 3.1-2 5.7v14.5h-4.6z"
+              ></path>
+              <path
+                d="m142.7 127.5c0-.3 0-.8-.1-1.4s-.3-1.1-.6-1.8c-.2-.6-.7-1.2-1.4-1.6s-1.6-.6-2.7-.6c-1.5 0-2.7.4-3.5 1.2-.9.8-1.5 1.7-1.9 2.8s-.6 2.2-.7 3.2c-.1 1.1-.2 1.8-.1 2.4 0 1.3.1 2.5.3 3.7s.5 2.3.9 3.3c.8 2 2.4 3 4.8 3.1 1.9 0 3.3-.7 4.1-1.9.8-1.1 1.2-2.3 1.2-3.6h4.6c-.2 2.5-1.1 4.6-2.7 6.3-1.7 1.8-4.1 2.7-7.1 2.7-.9 0-2.1-.2-3.6-.6-.7-.2-1.4-.6-2.2-1s-1.5-1-2.2-1.7c-.7-.9-1.4-2.1-2-3.6s-.9-3.5-.9-6.1.4-4.8 1.1-6.6c.7-1.7 1.6-3.1 2.7-4.2 1.1-1 2.3-1.8 3.6-2.2s2.5-.6 3.7-.6h1.6c.6.1 1.3.2 1.9.4.7.2 1.4.5 2.1 1 .7.4 1.3 1 1.8 1.7.9 1.1 1.4 2.1 1.7 3.1.2 1 .3 1.8.3 2.6z"
+              ></path>
+              <path
+                d="m164.8 144.8-3.4 9.3h-4.7l3.8-9.6-10.3-25h5.2l7.6 19.8 7.7-19.8h5z"
+              ></path>
+            </svg>
+          </span>
+        </a>
+                      </div>
+      <div class="l-header__search" id="header-search-drawer">
+        <form
+          class="usa-search usa-search--small usa-search--epa"
+          method="get"
+          action="https://search.epa.gov/epasearch"
+        >
+          <div role="search">
+            <label class="usa-search__label usa-sr-only" for="search-box"
+              >Search</label
+            >
+            <input
+              class="usa-input"
+              id="search-box"
+              type="search"
+              name="querytext"
+              placeholder="Search EPA.gov"
+            />
+            <button class="button" type="submit" aria-label="Search">
+              <svg class="icon usa-search__submit-icon" aria-hidden="true">
+                <use
+                  href="/themes/custom/epa_uswds/images/sprite.artifact.svg#magnifying-glass"
+                ></use>
+              </svg>
+              <span class="usa-search__submit-text">Search</span>
+            </button>
+            <input type="hidden" name="areaname" value="" />
+            <input type="hidden" name="areacontacts" value="" />
+            <input type="hidden" name="areasearchurl" value="" />
+            <input type="hidden" name="typeofsearch" value="epa" />
+            <input type="hidden" name="result_template" value="" />
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="l-header__nav">
+    <nav
+      class="usa-nav usa-nav--epa"
+      role="navigation"
+      aria-label="Primary navigation"
+    >
+      <div class="usa-nav__inner">
+        <button type="button" class="usa-nav__close" aria-label="Close">
+          <svg class="icon icon--nav-close" aria-hidden="true" role="img">
+            <title>Primary navigation</title>
+            <use
+              href="/themes/epa_theme/images/sprite.artifact.svg#xmark"
+            ></use>
+          </svg>
+        </button>
+        <div class="usa-nav__menu">
+          <ul class="menu menu--main menu--accordion usa-accordion">
+            <li class="menu__item">
+              <a
+                href="https://www.epa.gov/environmental-topics"
+                class="menu__link usa-nav__link"
+              >
+                Environmental Topics
+              </a>
+            </li>
+
+            <li class="menu__item">
+              <a
+                href="https://www.epa.gov/laws-regulations"
+                title="View links to regulatory information by topic and sector, and to top pages about environmental laws, regulations, policies, compliance, and enforcement"    
+                class="menu__link usa-nav__link"
+              >
+                Laws &amp; Regulations
+              </a>
+            </li>
+
+            <li class="menu__item">
+              <a
+                href="https://www.epa.gov/report-violation"
+                class="menu__link usa-nav__link"
+              >
+                Report a Violation
+              </a>
+            </li>
+
+            <li class="menu__item">
+              <a
+                class="menu__link usa-nav__link"
+                href="https://www.epa.gov/aboutepa"
+              >
+                About EPA
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
+
+
+<main id="main-content" class="main" role="main" tabindex="-1">
+  <div class="l-page padding-top-0">
+    <div class="l-constrain">
+      <article class=" article">
+        
+<header>
+  
+
+  <a class="echo-logo" href="https://echo.epa.gov/">
+    <img src="/themes/custom/echo/images/logo.png" alt="ECHO: " style="vertical-align:middle;">
+  </a>
+
+<div id="block-mainmenu">
+  
+    
+      
+<ul id="superfish-main" class="menu sf-menu sf-main sf-horizontal sf-style-none" role="menu" aria-label="Menu">
+  
+
+            
+  <li id="main-menu-link-contenta737b389-e6c1-408a-a3cd-23cd330c3d8d" class="sf-depth-1 menuparent sf-first" role="none">
+    
+          <a href="/" title="" class="sf-depth-1 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Search Options</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+            
+  <li id="main-menu-link-content07d1512a-809b-455c-a3b4-23d06c0f319b" class="sf-depth-2 menuparent sf-first" role="none">
+    
+          <span class="sf-depth-2 menuparent nolink" role="menuitem" aria-haspopup="true" aria-expanded="false">Cross Program</span>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-contentf9e959f2-7fbd-44af-ac91-09a7c2dcb8aa" class="sf-depth-3 sf-no-children sf-first" role="none">
+    
+          <a href="/facilities/facility-search?mediaSelected=all" class="sf-depth-3" role="menuitem">All Media Programs Facility Search</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content36e95b02-1da3-4ea9-bcff-193663f29dc4" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/facilities/facility-search/results?mediaSelected=fac" class="sf-depth-3" role="menuitem">Map All Facilities</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content30396e9b-3280-4035-a7c2-4409bf63bbc1" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/facilities/compliance-screener" title="" class="sf-depth-3" role="menuitem">Corporate Compliance Screener</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content55742b8b-1650-46f5-a479-ebfe52742ab6" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/tools/echo-notify" title="" class="sf-depth-3" role="menuitem">ECHO Notify</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-content227bf9c5-20b7-476a-b2c2-7c779740b2d3" class="sf-depth-2 menuparent" role="none">
+    
+          <a href="/" title="" class="sf-depth-2 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Air</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content5996f5fc-f74c-4405-adc6-435ab4ea4f74" class="sf-depth-3 sf-no-children sf-first" role="none">
+    
+          <a href="/facilities/facility-search?mediaSelected=caa" class="sf-depth-3" role="menuitem">Air Facility Search</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentfd4c2717-fcc6-42da-9f2e-c7e7a45f1c37" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/facilities/facility-search/results?mediaSelected=caa" class="sf-depth-3" role="menuitem">Map Air Facilities</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content51b14d27-a025-4fb5-82b5-9a20abbc3e84" class="sf-depth-3 sf-no-children sf-last" role="none">
+    
+          <a href="/trends/air-monitoring-stations" class="sf-depth-3" role="menuitem">ECHO Clean Air Tracking Tool (ECATT)</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-content8d145819-0ed6-4f12-97b6-d2b398b57b87" class="sf-depth-2 menuparent" role="none">
+    
+          <span class="sf-depth-2 menuparent nolink" role="menuitem" aria-haspopup="true" aria-expanded="false">Wastewater/Stormwater/Biosolids (CWA)</span>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content16701670-d07a-4315-b58c-f34bef4c76af" class="sf-depth-3 sf-no-children sf-first" role="none">
+    
+          <a href="/facilities/facility-search?mediaSelected=cwa" class="sf-depth-3" role="menuitem">Wastewater/Stormwater/Biosolids Facility Search</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentc70c8939-03f7-4f6e-a434-511a669d8dca" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/facilities/facility-search?mediaSelected=bio" class="sf-depth-3" role="menuitem">Biosolids Facility Search</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content9f4187c9-c500-4a49-ac20-a4f9696b543e" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/facilities/facility-search?mediaSelected=bioAnnual" class="sf-depth-3" role="menuitem">Biosolids Annual Report Search</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contente8d5e984-cce5-4c31-a8b6-b310d8d62092" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/facilities/facility-search?mediaSelected=msgp" class="sf-depth-3" role="menuitem">Industrial Stormwater Facility Search</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content2c9c3638-d0cd-4987-a2fa-6a088f1517c3" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/facilities/facility-search/results?mediaSelected=cwa" class="sf-depth-3" role="menuitem">Map Water Facilities</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content78817e3a-2e00-48e7-9b23-b7938edd7b0c" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/trends/loading-tool/water-pollution-search" title="" class="sf-depth-3" role="menuitem">Water Pollutant Loading Tool</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content00f3572c-fb38-48d6-9312-3c7b0db421bb" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/trends/npdes-dmr-non-receipt-status" title="" class="sf-depth-3" role="menuitem">NPDES DMR Non-Receipt Status Search</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content6007e2d0-9d74-4363-be1c-332fac83920f" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/facilities/npdes-noncompliance-search" class="sf-depth-3" role="menuitem">Quarterly NPDES Noncompliance Report Search</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content682fd404-cd0f-4766-84ed-2cc7b117c59d" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/npdes-noncompliance-annual-report" class="sf-depth-3" role="menuitem">NPDES Noncompliance Annual Report</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-content5526fa51-6a7f-41c9-bd3d-5bed934c422d" class="sf-depth-2 menuparent" role="none">
+    
+          <a href="/" title="" class="sf-depth-2 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Hazardous Waste</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content8d1e68c4-5300-4d47-91da-0b597ced3874" class="sf-depth-3 sf-no-children sf-first" role="none">
+    
+          <a href="/facilities/facility-search?mediaSelected=rcra" class="sf-depth-3" role="menuitem">Hazardous Waste Facility Search</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentf75f1b03-54f1-47da-9c8e-212dc8399411" class="sf-depth-3 sf-no-children sf-last" role="none">
+    
+          <a href="/facilities/facility-search/results?mediaSelected=rcra" class="sf-depth-3" role="menuitem">Map Hazardous Waste Facilities</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-content900e0812-3d7d-4708-a38c-796ed591ef2b" class="sf-depth-2 menuparent sf-last" role="none">
+    
+          <a href="/" title="" class="sf-depth-2 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Drinking Water</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content80e91ff9-c51b-4d00-93b6-b79b5d4b4613" class="sf-depth-3 sf-no-children sf-first" role="none">
+    
+          <a href="/facilities/facility-search?mediaSelected=sdwa" class="sf-depth-3" role="menuitem">Drinking Water System Search</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-contentdee47242-ae82-41ac-a261-922d41cd2a00" class="sf-depth-1 menuparent" role="none">
+    
+          <a href="/" title="" class="sf-depth-1 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Analyze Trends</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+            
+  <li id="main-menu-link-contentdfe8f512-3072-4a5f-8844-eb2eeb195c63" class="sf-depth-2 menuparent sf-first" role="none">
+    
+          <a href="/" title="" class="sf-depth-2 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Track Performance</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content52187ada-aced-4804-9e63-a115197f9e1d" class="sf-depth-3 sf-no-children sf-first" role="none">
+    
+          <a href="/trends/comparative-maps-dashboards/state-air-dashboard" class="sf-depth-3" role="menuitem">EPA/State Dashboards (Air, Wastewater, Drinking Water, Hazardous Waste, Pesticides)</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentf21f9b42-6152-4235-916f-771e5e83e00d" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/trends/npdes-dmr-non-receipt-status" title="" class="sf-depth-3" role="menuitem">NPDES DMR Non-Receipt Status Search</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentd9faa247-308b-4e7a-85d5-30f2fa7fdc6e" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/oversight/state-review-framework/tracker-recommendations" title="" class="sf-depth-3" role="menuitem">State Review Framework Tracker Recommendations</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content3c58dbb2-2fd0-4603-b95d-19edde1b4ca6" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/archived-tools" title="" class="sf-depth-3" role="menuitem">Archived Tools</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-content66311933-e1aa-472d-8954-51e94f98146f" class="sf-depth-2 menuparent" role="none">
+    
+          <a href="/" class="sf-depth-2 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Data Visualization</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content014a6dfc-8ee0-4372-aad2-ec3a6d31343d" class="sf-depth-3 sf-no-children sf-first" role="none">
+    
+          <a href="/trends/data-viz" class="sf-depth-3" role="menuitem">Data Visualization Gallery</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contente0b5b82b-7fd6-4984-94c3-d66dcd2a0a59" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/trends/npdes-erule-dashboard-public" class="sf-depth-3" role="menuitem">NPDES eRule Readiness Dashboard</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content581933f1-4e95-4c03-a2d4-d15f27baf37f" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/trends/pfas-tools" class="sf-depth-3" role="menuitem">PFAS Analytic Tools</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content51cc7eeb-dbf2-4ee4-b238-3901d437c2b9" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/trends/data-viz?filters=erule" class="sf-depth-3" role="menuitem">NPDES eRule Dashboards</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentef529a3c-9e76-412d-bf72-7e0a30852299" class="sf-depth-3 sf-no-children sf-last" role="none">
+    
+          <a href="https://awsedap.epa.gov/public/extensions/Fenceline_Monitoring/Fenceline_Monitoring.html?sheet=facilitySnapshot" class="sf-depth-3 sf-external" role="menuitem">Benzene Fenceline Monitoring</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-content62389656-c4f1-4864-92c2-7bc4d5b6fccb" class="sf-depth-2 menuparent sf-last" role="none">
+    
+          <a href="/" class="sf-depth-2 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Pollution Analysis</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-contentece03193-99a4-4a4a-aaa2-b45c06a842d6" class="sf-depth-3 sf-no-children sf-first" role="none">
+    
+          <a href="/trends/loading-tool/water-pollution-search" title="" class="sf-depth-3" role="menuitem">Water Pollutant Loading Tool</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentdd0b0186-da49-4d48-a039-90b4c8a8c609" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/trends/air-monitoring-stations" class="sf-depth-3" role="menuitem">ECHO Clean Air Tracking Tool (ECATT)</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-contentd780676c-ecdd-4351-8dd2-124d0dbb7f10" class="sf-depth-1 menuparent" role="none">
+    
+          <a href="/" title="" class="sf-depth-1 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Find EPA Cases</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content4ac457b1-220a-4e93-98ad-bf167c6147a3" class="sf-depth-2 sf-no-children sf-first" role="none">
+    
+          <a href="/facilities/enforcement-case-search" title="" class="sf-depth-2" role="menuitem">EPA Enforcement Case Search</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentd052b460-8b70-470e-9698-ca2fd0c774db" class="sf-depth-2 sf-no-children sf-last" role="none">
+    
+          <a href="/facilities/enforcement-case-search?srch=adv" title="" class="sf-depth-2" role="menuitem">Advanced EPA Enforcement Case Search</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-contentbf4afe68-f7aa-4600-844f-18d7c489cbdb" class="sf-depth-1 menuparent" role="none">
+    
+          <a href="/" title="" class="sf-depth-1 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Data Services</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content67a01d27-b6f1-4e7d-935d-d67ab2b0bfa4" class="sf-depth-2 sf-no-children sf-first" role="none">
+    
+          <a href="/tools/data-downloads" title="" class="sf-depth-2" role="menuitem">National Data Sets</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content63ca6ee4-b4ae-4704-af23-1344859df968" class="sf-depth-2 sf-no-children" role="none">
+    
+          <a href="/tools/data-downloads#exporter" class="sf-depth-2" role="menuitem"> ECHO Exporter</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contente8373103-795b-4c6e-8475-bf918034bbb5" class="sf-depth-2 sf-no-children" role="none">
+    
+          <a href="/tools/web-services" title="" class="sf-depth-2" role="menuitem">ECHO Web Services</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contented8bf3fe-37d5-45be-a182-76adcff02bb7" class="sf-depth-2 sf-no-children" role="none">
+    
+          <a href="/tools/map-service" title="" class="sf-depth-2" role="menuitem">ECHO Map Services</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentbcb049e9-36ff-4c59-bcdb-4379267681fa" class="sf-depth-2 sf-no-children" role="none">
+    
+          <a href="/tools/quick-search-widget" class="sf-depth-2" role="menuitem">Quick Search Widget</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-contentc7efbc02-a9f8-4486-9db1-d830e71c8647" class="sf-depth-1 menuparent" role="none">
+    
+          <a href="/" title="" class="sf-depth-1 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Help</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content28850260-85c9-45e4-aef5-bd69b01d99d3" class="sf-depth-2 sf-no-children sf-first" role="none">
+    
+          <a href="/resources/echo-data/about-the-data" title="" class="sf-depth-2" role="menuitem">About the Data</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content64e0ee94-1100-4e6c-b60b-0ae76902f354" class="sf-depth-2 sf-no-children" role="none">
+    
+          <a href="/help/tutorials" title="ECHO Tutorials" class="sf-depth-2" role="menuitem">ECHO Video Tutorials</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contenta98cf620-e638-4c82-93d2-19b2043a681c" class="sf-depth-2 sf-no-children" role="none">
+    
+          <a href="/resources/general-info/learn-more-about-echo" title="" class="sf-depth-2" role="menuitem">Quick Start Guide</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content3c663a56-5c9d-49dc-bc1d-045478137b14" class="sf-depth-2 sf-no-children" role="none">
+    
+          <a href="/help/training" title="ECHO Training" class="sf-depth-2" role="menuitem">ECHO Training</a>
+    
+    
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-contentbeeb039f-202b-4f43-b2f3-b7792df2c847" class="sf-depth-2 menuparent" role="none">
+    
+          <a href="/" title="" class="sf-depth-2 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">How to ...</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content77f7b6f4-7578-458d-8c60-c265ec8c0ba5" class="sf-depth-3 sf-no-children sf-first" role="none">
+    
+          <a href="/help/how-to-report-error" title="Report a Data Error" class="sf-depth-3" role="menuitem">Report a Data Error</a>
+    
+    
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-contente3c48dfd-adac-43fb-9bcc-8f29f07a5163" class="sf-depth-3 menuparent" role="none">
+    
+          <a href="/" title="Facility Search" class="sf-depth-3 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Run Facility Searches</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content61eb2e2a-c669-4dbe-843e-bc8d79121f6d" class="sf-depth-4 sf-no-children sf-first" role="none">
+    
+          <a href="/help/facility-search/facility-search-help" title="Facility Search Help" class="sf-depth-4" role="menuitem">Facility Search Help</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content11991343-af0f-4854-926d-e8f95b69fe26" class="sf-depth-4 sf-no-children" role="none">
+    
+          <a href="/help/facility-search/search-criteria-help" title="Facility Search Criteria Help" class="sf-depth-4" role="menuitem">Facility Search Criteria Help</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentcb64039f-924b-4d43-b3a9-0b646b6558b0" class="sf-depth-4 sf-no-children" role="none">
+    
+          <a href="/help/facility-search/facility-search-results-help" title="Search Results Help" class="sf-depth-4" role="menuitem">Search Results Help</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content5abb9f52-e774-4a42-8937-fe437eaf6cf2" class="sf-depth-4 sf-no-children" role="none">
+    
+          <a href="/help/enforcement-case-search-help" title="Enforcement Case Search Help" class="sf-depth-4" role="menuitem">Enforcement Case Search Help</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content2a1f5d94-b460-4750-8ce1-12912a468424" class="sf-depth-4 sf-no-children sf-last" role="none">
+    
+          <a href="/help/corporate-compliance-screener/corporate-compliance-screener-help" title="" class="sf-depth-4" role="menuitem">Corporate Compliance Screener Help</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-content2df0856f-a839-4919-82b3-4ed82b28ad80" class="sf-depth-3 menuparent" role="none">
+    
+          <a href="/" title="Reports" class="sf-depth-3 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Use and Understand ECHO Reports</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content44b17cc4-9b75-40ab-8198-fb4edda4f7e5" class="sf-depth-4 sf-no-children sf-first" role="none">
+    
+          <a href="/help/reports/air-pollutant-report-help" title="Air Pollutant Report Help" class="sf-depth-4" role="menuitem">Air Pollutant Report Help</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content6585f150-46ad-4fa0-a7e5-33d1a05c4f2b" class="sf-depth-4 sf-no-children" role="none">
+    
+          <a href="/help/reports/ambient-monitoring-station-report-help" title="" class="sf-depth-4" role="menuitem">Air Monitoring Station Report Help</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentf5620209-8557-45b7-9969-21da9f16c458" class="sf-depth-4 sf-no-children" role="none">
+    
+          <a href="/help/reports/biosolids-facility-report-help" title="" class="sf-depth-4" role="menuitem">Biosolids Facility Report Help</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content2a944250-1ffb-4adb-b751-1e4e7b7715a5" class="sf-depth-4 sf-no-children" role="none">
+    
+          <a href="/help/reports/detailed-facility-report-help" title="Detailed Facility Report Help" class="sf-depth-4" role="menuitem">Detailed Facility Report Help</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentf8b14548-0e3e-430b-a675-bb9c2310ac4f" class="sf-depth-4 sf-no-children" role="none">
+    
+          <a href="/help/reports/enforcement-case-report-help" title="A description of the Enforcement Case Report" class="sf-depth-4" role="menuitem">Civil Enforcement Case Report Help</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content387c141d-766e-4dab-b08d-71758dc2db69" class="sf-depth-4 sf-no-children" role="none">
+    
+          <a href="/help/reports/criminal-case-report-help" title="" class="sf-depth-4" role="menuitem">Criminal Enforcement Case Report Help</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentd15bc9e3-5861-4f27-b888-788d235a31d0" class="sf-depth-4 sf-no-children sf-last" role="none">
+    
+          <a href="/help/reports/effluent-charts-help" title="" class="sf-depth-4" role="menuitem">Effluent Charts Help</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-content4bc4c087-b321-49c7-bfcc-ee92456486f6" class="sf-depth-3 menuparent sf-last" role="none">
+    
+          <a href="/" title="Dashboards Help" class="sf-depth-3 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Use ECHO EPA/State Dashboards</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content2154fcdd-4cc8-4248-8385-f8910b41a1db" class="sf-depth-4 sf-no-children sf-first" role="none">
+    
+          <a href="/help/air-dashboard-help" title="Air Dashboard Help" class="sf-depth-4" role="menuitem">Air Dashboard Help</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contente566b60d-af9c-4e98-baea-7841a12bf8ef" class="sf-depth-4 sf-no-children" role="none">
+    
+          <a href="/help/pesticide-dashboard-help" title="Pesticide Dashboard Help" class="sf-depth-4" role="menuitem">Pesticide Dashboard Help</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content0e0ae48d-20cc-4e44-8d64-e9ce9905976e" class="sf-depth-4 sf-no-children" role="none">
+    
+          <a href="/help/state-comparative-maps-help" title="State Comparative Maps Help" class="sf-depth-4" role="menuitem">State Comparative Maps Help</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-content5201296a-4f77-43b2-ab4f-a89f98a1c20d" class="sf-depth-2 menuparent" role="none">
+    
+          <a href="/" title="" class="sf-depth-2 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">General Information</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content4177439e-4543-4980-9860-770273a4f4bf" class="sf-depth-3 sf-no-children sf-first" role="none">
+    
+          <a href="/resources/general-info/whats-new" title="" class="sf-depth-3" role="menuitem">What&#039;s New</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content6c93dfde-d715-4a2d-913d-e47705efa3eb" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/resources/echo-data/known-data-problems" title="Known Data Problems" class="sf-depth-3" role="menuitem">Known Data Problems</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content6f398fa8-606b-410e-acb1-81ee7080c5f5" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/resources/general-info/tool-guide" title="" class="sf-depth-3" role="menuitem">ECHO Tool Guide</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content5033cf98-3b48-4f59-ad1c-1f3f647ed003" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/resources/general-info/echo-faq" title="Frequently Asked Questions" class="sf-depth-3" role="menuitem">Frequently Asked Questions</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content0f907c17-96c4-42ba-82a6-01f73e8250ae" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/resources/echo-site-map" title="ECHO Site Map" class="sf-depth-3" role="menuitem">ECHO Site Map</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentddd63b62-d717-47b2-b70e-75e5f7bfa35e" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/report-environmental-violations" title="Report Environmental Violations" class="sf-depth-3" role="menuitem">Report A Violation</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content96eded93-0fd9-444b-b388-125a58de3a77" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/resources/general-info/website-known-issues" title="Website Known Issues" class="sf-depth-3" role="menuitem">Website Known Issues</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentb45bc0b3-bf8b-4c61-85d8-6b3488883623" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/resources/general-info/listserv" title="" class="sf-depth-3" role="menuitem">Join the ECHO Listserv</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content73a57e1d-2ba5-4764-a565-7b380e1f0833" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/resources" title="" class="sf-depth-3" role="menuitem">Other Available Resources</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-content0c82aeec-8530-43ac-89fc-07306b51ec57" class="sf-depth-2 menuparent sf-last" role="none">
+    
+          <a href="/" title="" class="sf-depth-2 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Get Access</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content2ba57853-0396-4b76-bb10-b07ce5a6b8a6" class="sf-depth-3 sf-no-children sf-first" role="none">
+    
+          <a href="/help/login-and-access" title="" class="sf-depth-3" role="menuitem">Login and Access</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+</ul>
+
+  </div>
+
+
+  <!-- User menu -->
+  <div id="log">
+          <span>&nbsp;</span>
+      </div>
+
+  
+              <ul id="mainLinks">
+              <li>
+        <a href="/resources/general-info/contact-us" data-drupal-link-system-path="node/550">Contact Us</a>
+              </li>
+          <li>
+        <a href="https://echo.epa.gov/saml/login?ReturnTo=https%3A%2F%2Fecho.epa.gov%2Fnode%2F461%3Fcheck_logged_in%3D1" data-drupal-link-system-path="user/login">Login</a>
+              </li>
+        </ul>
+  
+
+
+
+
+</header>
+
+
+          <div>
+    <div id="block-echo-breadcrumbs">
+  
+    
+      
+  <nav class="usa-breadcrumb" role="navigation" aria-labelledby="system-breadcrumb">
+    <ol class="usa-breadcrumb__list" itemscope itemtype="http://schema.org/BreadcrumbList">
+              <li class="usa-breadcrumb__list-item " itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                      <a class="usa-breadcrumb__link" itemscope itemtype="http://schema.org/Thing" itemprop="item" href="/">
+              <span itemprop="name">Home</span>
+            </a>
+                    <meta itemprop="position" content="1" />
+        </li>
+              <li class="usa-breadcrumb__list-item " itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                      <a class="usa-breadcrumb__link" itemscope itemtype="http://schema.org/Thing" itemprop="item" href="/tools">
+              <span itemprop="name">Tools</span>
+            </a>
+                    <meta itemprop="position" content="2" />
+        </li>
+              <li class="usa-breadcrumb__list-item " itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                      <a class="usa-breadcrumb__link" itemscope itemtype="http://schema.org/Thing" itemprop="item" href="/tools/data-downloads">
+              <span itemprop="name">Data Downloads</span>
+            </a>
+                    <meta itemprop="position" content="3" />
+        </li>
+              <li class="usa-breadcrumb__list-item usa-current" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                      <span itemprop="name">ICIS-NPDES Discharge Points Summary</span>
+                    <meta itemprop="position" content="4" />
+        </li>
+          </ol>
+  </nav>
+
+  </div>
+<div data-drupal-messages-fallback class="hidden"></div>
+
+  </div>
+
+          <div>
+    <div id="block-echo-page-title">
+  
+    
+      
+  <h1>
+<span property="schema:name">ICIS-NPDES Discharge Points Summary</span>
+</h1>
+
+
+  </div>
+<div id="block-echo-echo-system-main">
+  
+    
+      <article data-history-node-id="461" about="/tools/data-downloads/icis-npdes-discharge-points-download-summary" typeof="schema:WebPage">
+
+  
+      <span property="schema:name" content="ICIS-NPDES Discharge Points Summary" class="hidden"></span>
+
+
+  
+  <div>
+    
+            <div property="schema:text"><p>On this page:</p><ul><li><a href="#desc">Description</a></li><li><a href="#data">Data Elements by Table</a></li><li><a href="#definitions">Data Element Definitions</a></li></ul><hr><h2>Description<a name="desc">&nbsp;</a></h2><p>The Enforcement and Compliance History Online (ECHO) system incorporates data from the Integrated Compliance Information System National Pollutant Discharge Elimination System (ICIS-NPDES). ICIS-NPDES is an information management system maintained by the Office of Compliance to track permit compliance and enforcement status of facilities regulated by the <a href="https://www.epa.gov/npdes" target="_blank">National Pollutant Discharge Elimination System (NPDES) permit program</a> under the Clean Water Act (CWA).</p><p>This dataset provides the location of facilities and permitted features (e.g., discharge points or outfalls) in ICIS-NPDES, with select facility, permit, and compliance data. Permitted feature coordinates in ICIS are updated&nbsp;frequently and provide additional&nbsp;information to&nbsp;facility locations. The permitted feature coordinates are provided, where available, for each NPDES ID. If permitted feature coordinates are unavailable, the facility location coordinates are provided.</p><p>The zip file contains one CSV file, named NPDES_OUTFALLS_LAYER.csv. The file is updated each week, according to the&nbsp;<a href="https://echo.epa.gov/resources/echo-data/about-the-data#sources" target="_blank">ECHO refresh schedule</a>.</p><hr><h2>Data Elements by Table<a name="data">&nbsp;</a></h2><h3>Discharge Points (NPDES_OUTFALLS_LAYER.csv)</h3><table class="table"><thead><tr><th scope="col">Element Name</th><th scope="col">Data Type</th><th scope="col">Length</th></tr></thead><tbody><tr><td>EXTERNAL_PERMIT_NMBR</td><td>Varchar</td><td>9</td></tr><tr><td>FACILITY_NAME</td><td>Varchar</td><td>80</td></tr><tr><td>LOCATION_ADDRESS</td><td>Varchar</td><td>50</td></tr><tr><td>CITY</td><td>Varchar</td><td>60</td></tr><tr><td>STATE_CODE</td><td>Varchar</td><td>2</td></tr><tr><td>ZIP</td><td>Varchar</td><td>14</td></tr><tr><td>FAC_COUNTY_NAME</td><td>Varchar</td><td>100</td></tr><tr><td>PERMIT_NAME</td><td>Varchar</td><td>120</td></tr><tr><td>FACILITY_TYPE_CODE</td><td>Varchar</td><td>3</td></tr><tr><td>FACILITY_TYPE_DESC</td><td>Varchar</td><td>100</td></tr><tr><td>PERMIT_TYPE_CODE</td><td>Varchar</td><td>3</td></tr><tr><td>PERMIT_STATUS_CODE</td><td>Varchar</td><td>3</td></tr><tr><td>PERMIT_TYPE_DESC</td><td>Varchar</td><td>120</td></tr><tr><td>PERMIT_STATUS_DESC</td><td>Varchar</td><td>20</td></tr><tr><td>SIC_CODES</td><td>Varchar</td><td>4000</td></tr><tr><td>SIC_DESCRIPTIONS</td><td>Varchar</td><td>4000</td></tr><tr><td>TOTAL_DESIGN_FLOW_NMBR</td><td>Num</td><td>&nbsp;</td></tr><tr><td>NAICS_CODES</td><td>Varchar</td><td>4000</td></tr><tr><td>FAC_FEDERAL_AGENCY_NAME</td><td>Varchar</td><td>150</td></tr><tr><td>CWP_CURRENT_SNC_STATUS</td><td>Varchar</td><td>50</td></tr><tr><td>CWP_CURRENT_VIOL</td><td>Varchar</td><td>3</td></tr><tr><td>CWA_CURRENT_STATUS</td><td>Varchar</td><td>100</td></tr><tr><td>CWP_DATE_LAST_INSPECTION</td><td>Date</td><td>&nbsp;</td></tr><tr><td>DATE_LAST_FORMAL_EA</td><td>Date</td><td>&nbsp;</td></tr><tr><td>DMR_POUNDS</td><td>Num</td><td>&nbsp;</td></tr><tr><td>LIM_POLLUTANT</td><td>Varchar</td><td>4000</td></tr><tr><td>FAC_INDIAN_SPATIAL_FLG</td><td>Char</td><td>1</td></tr><tr><td>FAC_DERIVED_TRIBES</td><td>Varchar</td><td>4000</td></tr><tr><td>PERMIT_EFFECTIVE_DATE</td><td>Date</td><td>&nbsp;</td></tr><tr><td>PERMIT_EXPIRATION_DATE</td><td>Date</td><td>&nbsp;</td></tr><tr><td>PERMIT_TERMINATION_DATE</td><td>Date</td><td>&nbsp;</td></tr><tr><td>PERMIT_COMPONENTS</td><td>Varchar</td><td>1000</td></tr><tr><td>PERM_FEATURE_NMBR</td><td>Varchar</td><td>30</td></tr><tr><td>MAJOR_MINOR_FLAG</td><td>Char</td><td>5</td></tr><tr><td>STATE_WATER_BODY_NAME</td><td>Varchar</td><td>4000</td></tr><tr><td>LATITUDE83</td><td>Num</td><td>9, 6</td></tr><tr><td>LONGITUDE83</td><td>Num</td><td>10, 6</td></tr><tr><td>SUB_TYPE_DESC</td><td>Varchar</td><td>50</td></tr><tr><td>LATLONG_TYPE</td><td>Varchar</td><td>17</td></tr></tbody></table><hr><h2>Data Element Definitions<a name="definitions">&nbsp;</a></h2><p>The following is a list of the data elements that appear in the ECHO ICIS-NPDES discharge points&nbsp;download. All data elements are from ICIS-NPDES, unless otherwise indicated.</p><dl><dt><p><strong>CITY</strong></p></dt><dd><p>A 60-character field that contains the name of the city in which the facility is located.</p></dd><dt><p><strong>CWA_CURRENT_STATUS</strong></p></dt><dd><p>Indicates the status of the permit, based on the most recent data refresh in ECHO. ICIS-NPDES designates a permit as Effective, Administratively Continued, Expired, Not Needed, Pending, Retired, or Terminated.</p></dd><dt><p><strong>CWP_CURRENT_SNC_STATUS</strong></p></dt><dd><p>When a major source is in significant noncompliance (SNC) or a non-major source has a Category I violation, the specific type of SNC/Category I violation.</p><ul><li>Effluent Violations<ul><li>Effluent - Monthly Average Limit</li><li>Effluent - Non-monthly Average Limit</li></ul></li><li>Violations of a Compliance Schedule<ul><li>Compliance/Permit Schedule Violations</li><li>Compliance/Permit Schedule Reporting</li></ul></li><li>Failure to Report<ul><li>Failure to Report DMR - Not Received&nbsp;</li></ul></li></ul></dd><dt><p><strong>CWP_CURRENT_VIOL</strong></p></dt><dd><p>Displays "Yes" if the facility is currently in any violation under the Clean Water Act, either in Noncompliance or Significant Noncompliance. Note: This field considers the most current data available, including effluent exceedances reported after the last Quarterly Noncompliance Report (QNCR) was issued; post-QNCR data are considered draft and have not been fully quality assured. If the official data show the facility is in violation and the post-QNCR data show the facility is not in violation or unknown, the status is based on the official QNCR data. Otherwise, the status is based on post-QNCR.</p></dd><dt><p><strong>CWP_DATE_LAST_INSPECTION</strong></p></dt><dd><p>The date on which the most recent inspection of the facility took place.</p></dd><dt><p><strong>DATE_LAST_FORMAL_EA</strong></p></dt><dd><p>Indicates the effective date of the most recent listed enforcement action taken against the facility, within the last five years.</p></dd><dt><p><strong>DMR_POUNDS</strong></p></dt><dd><p>The total pounds of pollutants discharged by the NPDES&nbsp;ID during the last complete calendar year.</p></dd><dt><p><strong>EXTERNAL_PERMIT_NMBR</strong></p></dt><dd><p>The unique identifier for a permit, also known as the NPDES ID.</p></dd><dt><p><strong>FAC_COUNTY_NAME&nbsp;</strong></p></dt><dd><p>The U.S. county in which the facility&nbsp;is&nbsp;located, derived based on the facility coordinates.</p></dd><dt><p><strong>FAC_DERIVED_TRIBES</strong></p></dt><dd><p>The tribes or tribal territories located within 25 miles of the facility's location. EPA compares the facility location in its Facility Registry Service to the U.S. Census Bureau tribal boundary layer data for tribes in the lower 48 states and Bureau of Land Management Alaska State Office data for tribes in Alaska. The tribal boundary locations identified are suitable only for general spatial reference and do not necessarily reflect EPA's position on any Indian country locations or boundaries, or the land status of any specific location. <a href="#dataquality">Data Quality Caveat</a>.</p></dd><dt><p><strong>FAC_FEDERAL_AGENCY_NAME</strong></p></dt><dd><p>Indicates the name of the federal agency, as classified in FRS. Federal agencies are installations that are owned and operated by the U.S. government.</p></dd><dt><p><strong>FACILITY_NAME</strong></p></dt><dd><p>&nbsp;The name of the facility.</p></dd><dt><p><strong>FACILITY_TYPE_CODE&nbsp;</strong></p></dt><dd><p>A 3-character code indicating ownership type of the facility.&nbsp;</p></dd><dt><p><strong>FACILITY_TYPE_DESC</strong></p></dt><dd><p>The facility owner/operator type and description of FACILITY_TYPE_CODE. A facility type may include:</p><ul><li>Corporation</li><li>County Government</li><li>District</li><li>Federal Facility (U.S. Government)</li><li>Government Owned/Contractor Operated</li><li>Individual</li><li>Mixed Ownership (e.g., Public/Private)</li><li>Municipal or Water District</li><li>Municipality NON - Non-Government</li><li>Privately Owned Facility</li><li>School District</li><li>State Government</li><li>Tribal Government</li><li>Unknown</li></ul></dd><dt><p><strong>FAC_INDIAN_SPATIAL_FLG</strong></p></dt><dd><p>Displays “Y” if a facility is located within 25 miles of a tribal spatial boundary, as defined by the U.S. Census Bureau tribal boundary layer data for tribes in the lower 48 states and Bureau of Land Management Alaska State Office data for tribes in Alaska. Displays “N” if a facility is not located on or near a tribal spatial boundary. <a href="#dataquality">Data Quality Caveat</a>.</p></dd><dt><p><strong>LATITUDE83</strong></p></dt><dd><p>Latitude of the facility or outfall location expressed in decimal degrees, representing the degrees, minutes, and seconds of latitude, in the NAD83 coordinate system.</p></dd><dt><p><strong>LATLONG_TYPE</strong></p></dt><dd><p>Indicates whether the location refers to a&nbsp;facility or a permitted feature (e.g., discharge point).</p></dd><dt><p><strong>LIM_POLLUTANT</strong></p></dt><dd><p>The list of pollutants with enforceable (i.e., numeric limits or monitoring only) and/or benchmark thresholds in the current version of the&nbsp;NPDES permit. An active set limit must exist for the parameter.</p></dd><dt><p><strong>LOCATION_ADDRESS</strong></p></dt><dd><p>The street address of the facility.</p></dd><dt><p><strong>LONGITUDE83</strong></p></dt><dd><p>Longitude of the facility or outfall location expressed in decimal degrees, representing the degrees, minutes, and seconds of longitude, in the NAD83 coordinate system.</p></dd><dt><p><strong>MAJOR_MINOR_FLAG</strong></p></dt><dd><p>A facility is designated by the permitting authority as a major discharger (Major) or non-major discharger (Minor).</p></dd><dt><p><strong>NAICS_CODES</strong></p></dt><dd><p>Indicates the facility’s or permit's North American Industry Classification System (NAICS) Code(s) in ICIS-NPDES. The NAICS Code has replaced the U.S. Standard Industrial Classification (SIC) system. The system was developed to give special attention to developing production-oriented classifications for (a) new and emerging industries, (b) service industries in general, and (c) industries engaged in the production of advanced technologies. NAICS industries are identified by a 6-digit code. The first two digits represent the Industry sector, in which there exist 20 broad sectors. The third digit represents industry subsector, the fourth digit represents industry group, the fifth digit represents industry, and the sixth digit is U.S., Canadian, or Mexican National specific.</p></dd><dt><p><strong>PERMIT_COMPONENTS</strong></p></dt><dd><p>The permit component(s) associated with the <a href="https://www.epa.gov/npdes/all-npdes-program-areas" target="_blank">NPDES Permit Program Area</a>.</p></dd><dt><p><strong>PERMIT_EFFECTIVE_DATE</strong></p></dt><dd><p>Date (MM/DD/YYYY) that the permit became effective.</p></dd><dt><p><strong>PERMIT_EXPIRATION_DATE</strong></p></dt><dd><p>Date (MM/DD/YYYY) that the permit expires.</p></dd><dt><p><strong>PERM_FEATURE_NMBR</strong></p></dt><dd><p>The&nbsp;code representing the permitted outfall or pipe of interest in ICIS-NPDES (e.g., 001). This is the identifier assigned for each location at which permit conditions are being applied.</p></dd><dt><p><strong>PERMIT_NAME</strong></p></dt><dd><p>The name of the facility having the NPDES permit to discharge pollutants in the waters of the U.S</p></dd><dt><p><strong>PERMIT_STATUS_CODE</strong></p></dt><dd><p>ICIS-NPDES designates a permit as Effective (EFF), Administratively Continued (ADC), Expired (EXP), Not Needed (NON), Pending (PND), Retired (RET), or Terminated (TRM). Active facilities are those currently in operation (indicated by any status code except NON, PND, RET, or TRM).</p></dd><dt><p><strong>PERMIT_STATUS_DESC</strong></p></dt><dd><p>The description of PERMIT_STATUS_CODE.</p></dd><dt><p><strong>PERMIT_TERMINATION_DATE</strong></p></dt><dd><p>Date (MM/DD/YYYY) that the permit was terminated.</p></dd><dt><p><strong>PERMIT_TYPE_CODE</strong></p></dt><dd><p>The unique code identifying the type of permit.</p></dd><dt><p><strong>PERMIT_TYPE_DESC</strong></p></dt><dd><p>The description for PERMIT_TYPE_CODE. Valid values&nbsp;are below:</p><table class="table"><thead><tr><th scope="col">Code</th><th scope="col">Description</th></tr></thead><tbody><tr><td>NPD</td><td>NPDES Individual Permit</td></tr><tr><td>NGP</td><td>NPDES Master General Permit</td></tr><tr><td>GPC</td><td>General Permit Covered Facility</td></tr><tr><td>SNN</td><td>State Issued Master General Permit (Non-NPDES)</td></tr><tr><td>IIU</td><td>Individual IU Permit (Non-NPDES)</td></tr><tr><td>SIN</td><td>Individual State Issued Permit (Non-NPDES)</td></tr><tr><td>APR</td><td>Associated Permit Record</td></tr><tr><td>UFT</td><td>Unpermitted Facility</td></tr></tbody></table></dd><dt><p><strong>SIC_CODES</strong></p></dt><dd><p>The four-character Standard Industrial Classification (SIC) code that classifies the main product produced or service performed at the plant.</p></dd><dt><p><strong>SIC_DESCRIPTIONS</strong></p></dt><dd><p>The description of SIC_CODES.</p></dd><dt><p><strong>STATE_CODE</strong></p></dt><dd><p>A two-character field that contains the state postal abbreviation for the state in which the facility is located.</p></dd><dt><p><strong>STATE_WATER_BODY_NAME</strong></p></dt><dd><p>The state’s name for the water body into which the effluent is discharged for a permitted feature.</p></dd><dt><p><strong>SUB_TYPE_DESC</strong></p></dt><dd><p>Indicates the type of permitted feature. This field does not apply to facility coordinates. Valid values are:</p><ul><li>Receiving Water (Ambient)</li><li>Co-disposal Site</li><li>Discharge to Offsite Facility</li><li>External Outfall</li><li>Incinerator</li><li>Influent Structure</li><li>Internal Outfall</li><li>Intake Structure</li><li>Land Application Site</li><li>MODU</li><li>Other</li><li>Platform</li><li>Surface Disposal Site</li><li>Subsea</li><li>Sum</li><li>Monitoring Well</li></ul></dd><dt><p><strong>TOTAL_DESIGN_FLOW_NMBR</strong></p></dt><dd><p>This is the flow that a permitted facility was designed to accommodate, expressed as millions of gallons per day (MGD).</p></dd><dt><p><strong>ZIP</strong></p></dt><dd><p>A 9-character field that contains the U.S. Postal Zone Improvement Plan (ZIP) code for the area in which the facility is located.</p></dd></dl><p><a name="dataquality"><em>&nbsp;</em></a><em>Data Quality Caveat</em>: EPA makes no claims regarding the accuracy or precision of data concerning Indian country locations or tribal boundaries on the ECHO website. EPA has simply attempted to collect certain readily available information relating to Indian country locations. <span>The associated dataset contains information on the following tribal&nbsp;categories:&nbsp;</span><a class="external-link" href="https://tigerweb.geo.census.gov/tigerwebmain/TIGERweb_geography_details.html#ANVSA" target="_blank" rel="nofollow noopener">Alaska Native Villages</a><span>,&nbsp;</span><a class="external-link" href="https://tigerweb.geo.census.gov/tigerwebmain/TIGERweb_geography_details.html#AIANNHTLI" target="_blank" rel="nofollow noopener">American Indian Reservations</a><span>,&nbsp;</span><a class="external-link" href="https://tigerweb.geo.census.gov/tigerwebmain/TIGERweb_geography_details.html#AIANNHTLI" target="_blank" rel="nofollow noopener">American Indian Off-reservation Trust Lands</a><span>,&nbsp;</span><a class="external-link" href="https://tigerweb.geo.census.gov/tigerwebmain/TIGERweb_geography_details.html#OTSA" target="_blank" rel="nofollow noopener">Oklahoma Tribal Statistical Areas</a><span>, and&nbsp;</span><a class="external-link" href="https://epa.maps.arcgis.com/home/item.html?id=9df16bb660ed4f5cbf476ca24d62843a" target="_blank" rel="nofollow noopener">Virginia Federally Recognized Tribes</a><span>&nbsp;.</span>Questions concerning data should be referred to the originating program or Agency which can be referenced in EPA’s Shared Enterprise Geodata Services (SEGS) metadata files located on the <a href="https://www.epa.gov/geospatial/guidance-using-tribal-boundaries-areas-and-names-resources">Guidance for Using Tribal Boundaries, Areas and Names Resources page</a>. The Indian country and tribal boundary locations are suitable only for general spatial reference and do not necessarily reflect EPA's position on any Indian country locations or tribal boundaries or the land status of any specific location. The inclusion of Indian country information on the ECHO website does not represent any final EPA action addressing Indian country locations or boundaries. This information cannot be relied upon to create any rights, substantive or procedural, enforceable by any party in litigation with the United States or third parties. EPA reserves the right to change information on ECHO at any time without public notice.</p><p>Boundaries for both American Indian Reservations, American Indian Off-reservation Trust Lands, and Oklahoma Tribal Statistical Areas were collected from the U.S. Department of Commerce (USDOC), U.S. Bureau of the Census (Census Bureau). Originally reported by federally recognized tribal governments, these boundaries were updated&nbsp;by Census Bureau through the Boundary and Annexation Survey (BAS) on May 1, 2024 (American Indian Reservations) and April 15, 2024 (Alaska Native Villages, Off Reservation Trust Lands, and Oklahoma Tribal Statistical Areas) respectively.&nbsp;Virginia Federally Recognized Tribes contains point data for tribes geographically located in the state of Virginia, corresponding with the administrative boundaries of EPA Region 3.&nbsp;These tribes are federally recognized, but do not currently have land in federal satus. Locations are based on mailing addresses for each tribe provided by the EPA Region 3 Tribal Program Coordinator to the US EPA Office of Mission Support on May 5, 2021 and remain current as of April 15, 2025.</p><p>Of these tribal entities, Alaska Native Villages, Alaska Native Allotments, American Indian Reservations and American Indian Off-reservation Trust Lands represent&nbsp;legal entities. In context, “legal entities” does not speak to the legal status of feature class boundaries associated with these data. They do not constitute a determination of jurisdictional authority or rights of ownership or entitlement and are not legal land descriptions. These data may only be used for statistical collection and tabulation purposes. Oklahoma Tribal Statistical Areas are considered&nbsp;statistical entities, meaning that they are collected for statistical or tabulation purposes.&nbsp;Note that due to a recent Supreme Court decision, Oklahoma Indian country boundaries are in a state of flux. Changes will be incorporated in future dataset iterations.</p></div>
+      
+  </div>
+
+</article>
+
+  </div>
+
+  </div>
+
+
+        
+      </article>
+    </div>
+  </div>
+</main>
+
+<!-- EPA footer -->
+
+<div class="text-right padding-right-3 padding-bottom-1 epa-footer">
+  <a href="#" class="top-of-page" title="">
+    <svg role="img" aria-label="Top of page">
+      <use href="/themes/custom/epa_uswds/images/sprite.artifact.svg#angle"></use>
+    </svg>
+    <span>
+    Top of Page
+  </span>
+  </a>
+</div>
+<footer class="footer epa-footer" role="contentinfo">
+  <div class="l-constrain">
+    <img class="footer__epa-seal" src="https://www.epa.gov/themes/epa_theme/images/epa-seal.svg" alt="United States Environmental Protection Agency" height="100" width="100">
+    <div class="footer__content contextual-region">
+      <div class="footer__column">
+        <h2>Discover.</h2>
+        <ul class="menu menu--footer">
+          <li class="menu__item">
+            <a href="https://www.epa.gov/accessibility/epa-accessibility-statement" class="menu__link">Accessibility Statement</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/planandbudget" class="menu__link">Budget &amp; Performance</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/contracts" class="menu__link">Contracting</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/utilities/wwwepagov-snapshots" class="menu__link">EPA www Web Snapshot</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/grants" class="menu__link">Grants</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/ocr/no-fear-act-data" class="menu__link">No FEAR Act Data</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/web-policies-and-procedures/plain-writing" class="menu__link">Plain Writing</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/privacy/privacy-and-security-notice" class="menu__link">Privacy and Security Notice</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__column">
+        <h2>Connect.</h2>
+        <ul class="menu menu--footer">
+          <li class="menu__item">
+            <a href="https://www.epa.gov/data" class="menu__link">Data</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/office-inspector-general" class="menu__link">Inspector General</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/careers" class="menu__link">Jobs</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/newsroom" class="menu__link">Newsroom</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.regulations.gov/" class="menu__link" data-once="external-links protected-links">Regulations.gov<svg class="icon icon--exit is-spaced-before" role="img"><title>Exit EPA’s Website</title><use href="/themes/custom/epa_uswds/images/sprite.svg#launch"></use></svg></a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/newsroom/email-subscriptions-epa-news-releases" class="menu__link">Subscribe</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.usa.gov/" class="menu__link" data-once="external-links protected-links">USA.gov<svg class="icon icon--exit is-spaced-before" role="img"><title>Exit EPA’s Website</title><use href="/themes/custom/epa_uswds/images/sprite.svg#launch"></use></svg></a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.whitehouse.gov/" class="menu__link" data-once="external-links protected-links">White House<svg class="icon icon--exit is-spaced-before" role="img"><title>Exit EPA’s Website</title><use href="/themes/custom/epa_uswds/images/sprite.svg#launch"></use></svg></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__column">
+        <h2>Ask.</h2>
+        <ul class="menu menu--footer">
+          <li class="menu__item">
+            <a href="https://www.epa.gov/aboutepa/forms/contact-epa" class="menu__link">Contact EPA</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/web-policies-and-procedures/epa-disclaimers" class="menu__link">EPA Disclaimers</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/aboutepa/epa-hotlines" class="menu__link">Hotlines</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/foia" class="menu__link">FOIA Requests</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/aboutepa/frequent-questions-specific-epa-programstopics" class="menu__link">Frequent Questions</a>
+          </li>
+        </ul>
+        <h2>Follow.</h2>
+        <ul class="menu menu--social">
+          <li class="menu__item">
+            <a class="menu__link" aria-label="EPA’s Facebook" href="https://www.facebook.com/EPA">
+              <svg class="icon icon--social" aria-hidden="true"><use href="/themes/custom/epa_uswds/images/sprite.artifact.svg#facebook-square"></use></svg>    </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" aria-label="EPA’s Twitter / X" href="https://x.com/epa">
+              <svg class="icon icon--social" aria-hidden="true"><use href="/themes/custom/epa_uswds/images/sprite.artifact.svg#twitter-square"></use></svg>    </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" aria-label="EPA’s Youtube" href="https://www.youtube.com/user/USEPAgov">
+              <svg class="icon icon--social" aria-hidden="true"><use href="/themes/custom/epa_uswds/images/sprite.artifact.svg#youtube-square"></use></svg>    </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" aria-label="EPA’s Instagram" href="https://www.instagram.com/epagov">
+              <svg class="icon icon--social" aria-hidden="true"><use href="/themes/custom/epa_uswds/images/sprite.artifact.svg#instagram-square"></use></svg>    </a>
+          </li>
+        </ul>
+
+                  <p class="footer__last-updated">Last updated on August 7, 2025</p>
+        
+                  <p class="data-refresh-information"><a href="/resources/echo-data/about-the-data#sources">Data Refresh Information</a></p>
+              </div>
+    </div>
+  </div>
+</footer>
+
+  </div>
+
+    <div id="echo-survey-root"></div>
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/461","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"superfish":{"superfish-main":{"id":"superfish-main","sf":{"animation":{"opacity":"show","height":"show"},"speed":"fast","autoArrows":true,"dropShadows":true},"plugins":{"smallscreen":{"cloneParent":0,"mode":"window_width"},"supposition":true,"supersubs":{"maxWidth":18}}}},"echoAuth":{"loginUrl":"https:\/\/echo.epa.gov\/saml\/login","logoutUrl":"https:\/\/echo.epa.gov\/echoauth\/logout","redirectParm":"ReturnTo","passiveLoginParm":"IsPassive=true","sessionRenewalInterval":60,"inactivityTimeout":900,"inactivityWarningTime":60,"csrfToken":"Dvd1FuQ8zBHG5aZOS-w4qEvlr7At59tvDSG5wTxFbGM"},"user":{"uid":0,"permissionsHash":"bfcf218e3995934b015518ade7dfe37259bfc57699bc30e9d320d09049fb5019"},"echo":{"environment":{"name":"prod","type":"prod","isLab":false,"useStagingServices":false},"settings":{"credentials":{"document_upload":{"host":"https:\/\/tvzzvni6f9.execute-api.us-east-1.amazonaws.com\/echo-docs\/"}}},"user":{"email":null,"hasEnforcementSensitiveRole":false,"hasEpaRole":false,"hasGovernmentRole":false},"path":{"theme":"\/themes\/custom\/echo"}}}</script>
+<script src="/assets/js/js_bBeSn1ZucFnAOtlAZMkj82oYGY1HHZKGjPwIZEeenu8.js?scope=footer&amp;delta=0&amp;language=en&amp;theme=echo&amp;include=eJx1zUEOgCAMRNELYTgSAVJtk9oSWjy_mBhXuPuZtxioqPFgLZk3q52aW4C5pTwcXwg2GvSdDONXqy2hXtBJHMSXbmdmni8AsvanbBT706ZGTio3-eFJtg"></script>
+
+  </body>
+</html>

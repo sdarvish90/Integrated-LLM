@@ -1,0 +1,13 @@
+,Hidrógeno,Gas Natural,Propano,Vapor Gasolina,Comentario
+Densidad relativa Respecto al aire,0.07,0.55,1.52,4,El hidrógeno es 14 veces más ligero que el aire
+Temperatura de Auto ignición,1.085ºC,1.003ºC,914ºC,450ºC,El hidrógeno y el gas natural tienen Tº de auto ignición similares y es 2 veces más alto que el vapor de la gasolina
+Rango de Inflamabilidad,75%,15%,10.10%,7.6%,"El rango de inflamabilidad del Hidrógeno es muy amplio, especialmente cuando el ratio hidrogeno-aire es 29%"
+Energía mínima de ignición,"0,02 mJ","0,29 mJ","0,26 mJ","0,24 mJ","En condiciones óptimas de combustión, el hidrógeno puede encenderse con mínima energía (Ej. Una pequeña chispa)"
+"Incoloro, inodoro, insípido",Imposible de detectar por un humano,Sensores de detección
+"Baja viscosidad, átomo muy pequeño (Puede ser absorbido en materiales)","Fugas, debilitamiento de ciertos materiales que podrían resultar en fallas estructurales","Sistema de detección de fugas, ventilación y selección adecuada de materiales"
+Baja densidad energética volumétrica,Almacenamiento a altas presiones,"Diseño adecuado de contenedores de almacenamiento, dispositivos de alivio de presión"
+No respirable (sin oxígeno),Peligro por acumulación en espacios confinados (como cualquier has que no tiene oxígeno),"Sistema de detección de fugas, ventilación"
+Amplio rango de inflamabilidad,"Se puede encender en un amplio rengo de concentración, por lo tanto las fugas de cualquier magnitud son de cuidado",Sistema de detección de fugas
+Energía mínima de ignición muy baja,Una pequeña chispa lo puede encender,"Ventilación, tomas de tierra, sistemas de eliminación de posibles fuentes de ignición"
+Baja temperatura de licuefacción,Quemaduras criogénicas y daño pulmonar,"Sistema de detección de fugas, equipos de protección personal"
+Rápido cambio de fase de líquido a gas,Explosiones de presión,"Dispositivos de alivio de presión, sistemas de detección de fugas"

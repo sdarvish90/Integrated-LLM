@@ -1,0 +1,1069 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="description" content="ACER CHEST Application"/>
+    <meta name="author" content=""/>
+    <link rel="icon" href="/chest/chest-favicon.ico">
+
+    
+    <title>Data item details</title>
+    <!-- CSS -->
+    
+    <link rel="stylesheet" href="/chest/css/bootstrap-a4c2c9c846cde185ed3dc5e535f565d7.css"/>
+    <link rel="stylesheet" href="/chest/css/dataTables.bootstrap4-ab9238b1528653eda9f0c3996a4f802f.css"/>
+    <link rel="stylesheet" href="/chest/css/gijgo.min-d115f04113c66cd080f0a183ec45e031.css"/>
+    <link rel="stylesheet" href="/chest/css/bootstrap-datepicker3-150ed8b0767b4fa06cf827e2e15baaa9.css"/>
+    <link rel="stylesheet" href="/chest/css/fixedsticky-31b80e377b0eb381362ef7c352e21cff.css"/>
+    <link rel="stylesheet" href="/chest/css/daterangepicker-85523b7dfefe616085476adf971e1fa3.css"/>
+    <link rel="stylesheet" href="/chest/css/select2-475b9ecdf92d2f48642665a34c563048.css"/>
+    <link rel="stylesheet" href="/chest/css/chest-custom-1e9f8047103af3148b5170ff552314fd.css"/>
+    <link rel="stylesheet" href="/chest/css/jquery-ui.min-7fb76b154ab5ee1f043a6cce2d1719b6.css"/>
+
+    <!-- JavaScript -->
+    
+    <script type="text/javascript" src="/chest/c1f60bbc647f4d23d95022b6109e5bb2c92c5a4a/js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="/chest/c1f60bbc647f4d23d95022b6109e5bb2c92c5a4a/js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="/chest/c1f60bbc647f4d23d95022b6109e5bb2c92c5a4a/js/tether.min.js"></script>
+    <script type="text/javascript" src="/chest/c1f60bbc647f4d23d95022b6109e5bb2c92c5a4a/js/popper.js"></script>
+    <script type="text/javascript" src="/chest/c1f60bbc647f4d23d95022b6109e5bb2c92c5a4a/js/tooltip.js"></script>
+    <script type="text/javascript" src="/chest/c1f60bbc647f4d23d95022b6109e5bb2c92c5a4a/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/chest/c1f60bbc647f4d23d95022b6109e5bb2c92c5a4a/js/jquery.dataTables.js"></script>
+    <script type="text/javascript" src="/chest/c1f60bbc647f4d23d95022b6109e5bb2c92c5a4a/js/dataTables.bootstrap4.js"></script>
+    <script type="text/javascript" src="/chest/c1f60bbc647f4d23d95022b6109e5bb2c92c5a4a/js/fixedsticky.js"></script>
+    <script type="text/javascript" src="/chest/c1f60bbc647f4d23d95022b6109e5bb2c92c5a4a/js/moment.min.js"></script>
+    <script type="text/javascript" src="/chest/c1f60bbc647f4d23d95022b6109e5bb2c92c5a4a/js/daterangepicker.js"></script>
+    <script type="text/javascript" src="/chest/c1f60bbc647f4d23d95022b6109e5bb2c92c5a4a/js/gijgo.min.js"></script>
+    <script type="text/javascript" src="/chest/c1f60bbc647f4d23d95022b6109e5bb2c92c5a4a/js/bootstrap-datepicker.min.js"></script>
+    <script type="text/javascript" src="/chest/c1f60bbc647f4d23d95022b6109e5bb2c92c5a4a/js/select2.js"></script>
+
+    
+
+  </head>
+
+  <body>
+
+    <script>
+      var contextPath = "\/chest\/";
+      var i18nMessages = {};
+    </script>
+
+    <!-- Header -->
+    <div>
+
+      
+
+      <nav class="navbar navbar-toggleable-md  navbar-inverse nav-bg-color">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <span style="margin-left:18px"><a href="http://aegis.acer.europa.eu"><img class="logo" src="/chest/img/logo-with-text-5d575261f1d04b308a1c8fbfd41611ff.png" alt="Acer logo"></a></span>
+
+        <span class="badge app-badge">CHEST APPLICATION</span>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            
+             
+            
+            
+            <li class="nav-item">
+              <form id="dataItemSearchForm" action="/chest/dataitemsearch/search" method="POST"><input type="hidden" name="_csrf" value="giaLzMI_AzqdZalFEZWgC-tqYg-86y3GCQ-fLlYpphD3kPNK4xa7rfYKNFiwAcsgdLiUbd8IT26L2hTrbW6sSGQakCbPpMt9"/>
+                <input id="dataItemSearchInput" name="identifier" class="form-control" placeholder="Search by data item identifier" required
+                       style="font-size: 0.8rem; min-width: 30ch;"/>
+              </form>
+            </li>
+          </ul>
+          
+          <div class="text-nowrap" style="color:#fff; float: right">
+            <a class="nav-link text-nowrap d-inline-block" href="/chest/login" >Login<i class="fa fa-sign-in pl-1" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </nav>
+      
+    </div>
+
+    <!-- Content -->
+    <div>
+    <div class="container-fluid">
+        <div class="col-md-12 block block-bg-gray">
+            <div class="text-nowrap text-right">
+                <p>
+                    <a class="btn btn-success btn-sm" role="button"
+                       href="/chest/category/38/tree" data-toggle="tooltip"
+                       title="Back to treeview" data-placement="bottom"><i
+                            class="fa fa-sitemap pr-1" aria-hidden="true"></i></a>
+
+                    <button class="btn btn-outline-success btn-sm" role="button" disabled="disabled"><i
+                            class="fa fa-folder-o pr-1" aria-hidden="true"></i></button>
+
+                </p>
+            </div>
+            <div class="text-nowrap">
+                <p>
+                    <a class="btn btn-primary btn-sm" role="button"
+                       href="/chest/category/38/list"><i
+                            class="fa fa-arrow-left pr-1" aria-hidden="true"></i>Back</a>
+                    
+                </p>
+            </div>
+            <div class="d-flex justify-content-start">
+                <div class="mr-auto"><h2>Data item details</h2></div>
+            </div>
+
+
+            
+            
+
+            
+            <br/>
+            <form id="dataItemForm" method="post" action="/chest/dataitems/export"
+                  class="form-horizontal" novalidate enctype="multipart/form-data" target="_blank"><input type="hidden" name="_csrf" value="giaLzMI_AzqdZalFEZWgC-tqYg-86y3GCQ-fLlYpphD3kPNK4xa7rfYKNFiwAcsgdLiUbd8IT26L2hTrbW6sSGQakCbPpMt9"/>
+                <input type="hidden" id="id" name="id" value="524"/>
+                <input type="hidden" name="userInfoJson" id="txtUserInfo"/>
+
+                <input type="hidden" id="txtSelectedDataSetId" name="selectedDataSetId"
+                       value=""/>
+                <dl class="row">
+                    <dt class="col-md-1 col-sm-12">Name</dt>
+                    <dd class="col-md-5 col-sm-12 font-weight-bold">Global LNG export infrastructure utilisation (%) - 2010 - 2023</dd>
+                </dl>
+                <dl class="row">
+                    <dt class="col-md-1 col-sm-12">Source</dt>
+                    <dd class="col-md-5 col-sm-12">ACER based on Platts</dd>
+                </dl>
+                <dl class="row">
+                    <dt class="col-md-1 col-sm-12">Identifier</dt>
+                    <dd class="col-md-5 col-sm-12"></dd>
+                </dl>
+                <dl class="row">
+                    <dt class="col-md-1 col-sm-12">Reference</dt>
+                    <dd class="col-md-5 col-sm-12">Figure 04</dd>
+                </dl>
+                <dl class="row">
+                    <dt class="col-md-1 col-sm-12">Comment</dt>
+                    <dd class="col-md-5 col-sm-12">
+                        
+    <span>
+        <span></span>
+        
+    </span>
+  
+                    </dd>
+                </dl>
+                
+                
+                <div class="alert alert-info mt-3">
+                    <br/>
+                    <i class="fa fa-info-circle pr-2" aria-hidden="true"></i>
+                    Data item data can be filtered and exported as an Excel file.<br/>
+                    The reason for exporting is asked during export once per session.<br/>
+                    <br/>
+                </div>
+                <br/>
+                <ul class="nav nav-tabs" role="tablist">
+                    <li class="nav-item"
+                        id="dataSetLink918">
+                        <a class="nav-link active" data-toggle="tab" role="tab"
+                           href="#dataset918" data-dataset="918">Figure 4 Global LNG export infr</a>
+                    </li>
+                </ul>
+
+                <div class="tab-content">
+                    <div id="dataset918" class="tab-pane active"
+                         role="tabpanel">
+                        <input type="hidden" id="dataSets0.id" name="dataSets[0].id" value="918"/>
+                        
+
+                        <!-- FILTER START -->
+                        <div id="accordion918">
+
+                            <div class="row mb-2">
+                                <div class="col px-4">
+                                    <label class="font-weight-bold">Last updated:</label>
+                                    <span>2024-05-15 14:53</span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col small px-4">
+                                    <div class="d-flex justify-content-start">
+                                        <label class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input" name="exportFileType"
+                                                   value="CSV" checked="checked">
+                                            <span class="custom-control-indicator"></span>
+                                            <span class="custom-control-description">Download as CSV</span>
+                                            
+                                        </label><label class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input" name="exportFileType"
+                                                   value="EXCEL">
+                                            <span class="custom-control-indicator"></span>
+                                            <span class="custom-control-description">Download as Excel</span>
+                                            
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="d-flex justify-content-start">
+                                        <span class="mr-2" data-toggle="tooltip"
+                                              title="Downloads an Excel file containing data currently visible in the table">
+                                            <button id="openModalBtn918"
+                                                    class="btn btn-primary btn-lg btn-warning submit-btn btn-open-modal"
+                                                    name="export" data-dataset="918" type="button" data-toggle="modal" data-target="#exportDataModal">Download filtered data</button>
+                                        </span>
+                                        <span class="mr-2" data-toggle="tooltip"
+                                              title="Downloads an Excel file containing all columns of the data set">
+                                            <button id="openModalBtnFull918"
+                                                    data-fullexport="true"
+                                                    class="btn btn-primary btn-lg btn-success submit-btn btn-open-modal"
+                                                    name="full" data-dataset="918" type="button" data-toggle="modal" data-target="#exportDataModal">Download whole data</button>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 col-sm-12">
+                                    <hr/>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-11 col-sm-12">
+                                    <br/>
+                                    <span class="mr-2">
+                                        <button class="btn btn-outline-primary btn-sm btn-clear" value="filter"
+                                                name="clear" type="button"><i class="fa fa-times pr-1"
+                                                                              aria-hidden="true"></i>Clear filters</button>
+                                    </span>
+                                    <p/>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-3 col-sm-12">
+                                    <div class="form-group" data-dataset="918">
+                                        <label class="label">Year</label>
+                                        <input type="hidden" name="_dataSets[0].filter.keyValues[col1_year]" value="1"/><select class="filterSelect" multiple="multiple"
+                                                data-position="0" id="dataSets0.filter.keyValuescol1_year" name="dataSets[0].filter.keyValues[col1_year]">
+                                            <option value="2010">2010</option>
+                                            <option value="2011">2011</option>
+                                            <option value="2012">2012</option>
+                                            <option value="2013">2013</option>
+                                            <option value="2014">2014</option>
+                                            <option value="2015">2015</option>
+                                            <option value="2016">2016</option>
+                                            <option value="2017">2017</option>
+                                            <option value="2018">2018</option>
+                                            <option value="2019">2019</option>
+                                            <option value="2020">2020</option>
+                                            <option value="2021">2021</option>
+                                            <option value="2022">2022</option>
+                                            <option value="2023">2023</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group" data-dataset="918">
+                                        <label class="label">Month</label>
+                                        <input type="hidden" name="_dataSets[0].filter.keyValues[col2_month]" value="1"/><select class="filterSelect" multiple="multiple"
+                                                data-position="1" id="dataSets0.filter.keyValuescol2_month" name="dataSets[0].filter.keyValues[col2_month]">
+                                            <option value="April">April</option>
+                                            <option value="August">August</option>
+                                            <option value="December">December</option>
+                                            <option value="February">February</option>
+                                            <option value="January">January</option>
+                                            <option value="July">July</option>
+                                            <option value="June">June</option>
+                                            <option value="March">March</option>
+                                            <option value="May">May</option>
+                                            <option value="November">November</option>
+                                            <option value="October">October</option>
+                                            <option value="September">September</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group" data-dataset="918">
+                                        <label class="label">Liquefaction utilisation rate</label>
+                                        <input type="hidden" name="_dataSets[0].filter.keyValues[col3_liquefaction_utilisation_]" value="1"/><select class="filterSelect" multiple="multiple"
+                                                data-position="2" id="dataSets0.filter.keyValuescol3_liquefaction_utilisation_" name="dataSets[0].filter.keyValues[col3_liquefaction_utilisation_]">
+                                            <option value="0.7826">78%</option>
+                                            <option value="0.7992">80%</option>
+                                            <option value="0.8002">80%</option>
+                                            <option value="0.8024">80%</option>
+                                            <option value="0.805">80%</option>
+                                            <option value="0.812">81%</option>
+                                            <option value="0.8242">82%</option>
+                                            <option value="0.8364">84%</option>
+                                            <option value="0.8391">84%</option>
+                                            <option value="0.8439">84%</option>
+                                            <option value="0.8467">85%</option>
+                                            <option value="0.8477">85%</option>
+                                            <option value="0.8486">85%</option>
+                                            <option value="0.8536">85%</option>
+                                            <option value="0.8564">86%</option>
+                                            <option value="0.8565">86%</option>
+                                            <option value="0.8597">86%</option>
+                                            <option value="0.86">86%</option>
+                                            <option value="0.8615">86%</option>
+                                            <option value="0.8626">86%</option>
+                                            <option value="0.8629">86%</option>
+                                            <option value="0.863">86%</option>
+                                            <option value="0.867">87%</option>
+                                            <option value="0.8699">87%</option>
+                                            <option value="0.8729">87%</option>
+                                            <option value="0.8737">87%</option>
+                                            <option value="0.8748">87%</option>
+                                            <option value="0.8765">88%</option>
+                                            <option value="0.8783">88%</option>
+                                            <option value="0.8797">88%</option>
+                                            <option value="0.8798">88%</option>
+                                            <option value="0.8805">88%</option>
+                                            <option value="0.8836">88%</option>
+                                            <option value="0.8839">88%</option>
+                                            <option value="0.8842">88%</option>
+                                            <option value="0.8883">89%</option>
+                                            <option value="0.8891">89%</option>
+                                            <option value="0.8927">89%</option>
+                                            <option value="0.8933">89%</option>
+                                            <option value="0.8937">89%</option>
+                                            <option value="0.8938">89%</option>
+                                            <option value="0.8947">89%</option>
+                                            <option value="0.8948">89%</option>
+                                            <option value="0.895">90%</option>
+                                            <option value="0.8953">90%</option>
+                                            <option value="0.8965">90%</option>
+                                            <option value="0.8974">90%</option>
+                                            <option value="0.8979">90%</option>
+                                            <option value="0.8984">90%</option>
+                                            <option value="0.8986">90%</option>
+                                            <option value="0.8987">90%</option>
+                                            <option value="0.9001">90%</option>
+                                            <option value="0.9003">90%</option>
+                                            <option value="0.9014">90%</option>
+                                            <option value="0.9017">90%</option>
+                                            <option value="0.902">90%</option>
+                                            <option value="0.9024">90%</option>
+                                            <option value="0.9026">90%</option>
+                                            <option value="0.9032">90%</option>
+                                            <option value="0.9035">90%</option>
+                                            <option value="0.9045">90%</option>
+                                            <option value="0.906">91%</option>
+                                            <option value="0.9064">91%</option>
+                                            <option value="0.9068">91%</option>
+                                            <option value="0.9071">91%</option>
+                                            <option value="0.9073">91%</option>
+                                            <option value="0.9087">91%</option>
+                                            <option value="0.9091">91%</option>
+                                            <option value="0.9105">91%</option>
+                                            <option value="0.9107">91%</option>
+                                            <option value="0.9108">91%</option>
+                                            <option value="0.9151">92%</option>
+                                            <option value="0.9172">92%</option>
+                                            <option value="0.9176">92%</option>
+                                            <option value="0.9179">92%</option>
+                                            <option value="0.9186">92%</option>
+                                            <option value="0.9193">92%</option>
+                                            <option value="0.9196">92%</option>
+                                            <option value="0.92">92%</option>
+                                            <option value="0.9212">92%</option>
+                                            <option value="0.9213">92%</option>
+                                            <option value="0.9217">92%</option>
+                                            <option value="0.9218">92%</option>
+                                            <option value="0.9227">92%</option>
+                                            <option value="0.9245">92%</option>
+                                            <option value="0.9246">92%</option>
+                                            <option value="0.925">92%</option>
+                                            <option value="0.9259">93%</option>
+                                            <option value="0.926">93%</option>
+                                            <option value="0.9262">93%</option>
+                                            <option value="0.9266">93%</option>
+                                            <option value="0.9281">93%</option>
+                                            <option value="0.9282">93%</option>
+                                            <option value="0.9283">93%</option>
+                                            <option value="0.9285">93%</option>
+                                            <option value="0.9286">93%</option>
+                                            <option value="0.931">93%</option>
+                                            <option value="0.932">93%</option>
+                                            <option value="0.9324">93%</option>
+                                            <option value="0.9331">93%</option>
+                                            <option value="0.9338">93%</option>
+                                            <option value="0.9348">93%</option>
+                                            <option value="0.9356">94%</option>
+                                            <option value="0.936">94%</option>
+                                            <option value="0.9366">94%</option>
+                                            <option value="0.9393">94%</option>
+                                            <option value="0.9417">94%</option>
+                                            <option value="0.9419">94%</option>
+                                            <option value="0.9431">94%</option>
+                                            <option value="0.9432">94%</option>
+                                            <option value="0.9449">94%</option>
+                                            <option value="0.945">94%</option>
+                                            <option value="0.9478">95%</option>
+                                            <option value="0.9504">95%</option>
+                                            <option value="0.951">95%</option>
+                                            <option value="0.9519">95%</option>
+                                            <option value="0.9527">95%</option>
+                                            <option value="0.954">95%</option>
+                                            <option value="0.955">96%</option>
+                                            <option value="0.9553">96%</option>
+                                            <option value="0.9559">96%</option>
+                                            <option value="0.9615">96%</option>
+                                            <option value="0.9636">96%</option>
+                                            <option value="0.9642">96%</option>
+                                            <option value="0.9689">97%</option>
+                                            <option value="0.9691">97%</option>
+                                            <option value="0.9694">97%</option>
+                                            <option value="0.9697">97%</option>
+                                            <option value="0.9702">97%</option>
+                                            <option value="0.971">97%</option>
+                                            <option value="0.9713">97%</option>
+                                            <option value="0.9715">97%</option>
+                                            <option value="0.9731">97%</option>
+                                            <option value="0.9732">97%</option>
+                                            <option value="0.9734">97%</option>
+                                            <option value="0.9774">98%</option>
+                                            <option value="0.979">98%</option>
+                                            <option value="0.9803">98%</option>
+                                            <option value="0.9808">98%</option>
+                                            <option value="0.9831">98%</option>
+                                            <option value="0.9834">98%</option>
+                                            <option value="0.9879">99%</option>
+                                            <option value="0.9908">99%</option>
+                                            <option value="0.9918">99%</option>
+                                            <option value="0.9929">99%</option>
+                                            <option value="0.9937">99%</option>
+                                            <option value="0.9991">100%</option>
+                                            <option value="1.0002">100%</option>
+                                            <option value="1.0014">100%</option>
+                                            <option value="1.0047">100%</option>
+                                            <option value="1.0142">101%</option>
+                                            <option value="1.0218">102%</option>
+                                            <option value="1.022">102%</option>
+                                            <option value="1.0286">103%</option>
+                                            <option value="1.0355">104%</option>
+                                            <option value="1.0522">105%</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-2 col-sm-12"></div>
+                                <div class="col-md-6 col-sm-12">
+                                    <fieldset class="form-group">
+                                        <legend class="label">Fields to export</legend>
+                                        
+                                    </fieldset>
+                                </div>
+                                <div class="col-md-1 col-sm-12 mt-3">
+                                </div>
+                            </div>
+                            <hr class="mt-0">
+                        </div>
+                        <!-- FILTER END -->
+
+                        
+
+                        <table id="datasetTable918" class="table table-striped dataset-table mt-3">
+                            <thead class="thead-default">
+                            <tr>
+                                <th style="text-align:right">Year</th>
+                                <th style="text-align:left">Month</th>
+                                <th style="text-align:right">Liquefaction utilisation rate</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td data-order="2010" style="text-align:right">2010</td><td data-order="January" style="text-align:left">January</td><td data-order="0.9694" style="text-align:right">97%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2010" style="text-align:right">2010</td><td data-order="February" style="text-align:left">February</td><td data-order="0.8626" style="text-align:right">86%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2010" style="text-align:right">2010</td><td data-order="March" style="text-align:left">March</td><td data-order="0.9702" style="text-align:right">97%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2010" style="text-align:right">2010</td><td data-order="April" style="text-align:left">April</td><td data-order="0.8242" style="text-align:right">82%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2010" style="text-align:right">2010</td><td data-order="May" style="text-align:left">May</td><td data-order="0.805" style="text-align:right">80%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2010" style="text-align:right">2010</td><td data-order="June" style="text-align:left">June</td><td data-order="0.812" style="text-align:right">81%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2010" style="text-align:right">2010</td><td data-order="July" style="text-align:left">July</td><td data-order="0.8984" style="text-align:right">90%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2010" style="text-align:right">2010</td><td data-order="August" style="text-align:left">August</td><td data-order="0.945" style="text-align:right">94%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2010" style="text-align:right">2010</td><td data-order="September" style="text-align:left">September</td><td data-order="0.8439" style="text-align:right">84%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2010" style="text-align:right">2010</td><td data-order="October" style="text-align:left">October</td><td data-order="0.906" style="text-align:right">91%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2010" style="text-align:right">2010</td><td data-order="November" style="text-align:left">November</td><td data-order="0.9193" style="text-align:right">92%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2010" style="text-align:right">2010</td><td data-order="December" style="text-align:left">December</td><td data-order="0.979" style="text-align:right">98%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2011" style="text-align:right">2011</td><td data-order="January" style="text-align:left">January</td><td data-order="1.0002" style="text-align:right">100%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2011" style="text-align:right">2011</td><td data-order="February" style="text-align:left">February</td><td data-order="0.8565" style="text-align:right">86%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2011" style="text-align:right">2011</td><td data-order="March" style="text-align:left">March</td><td data-order="0.971" style="text-align:right">97%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2011" style="text-align:right">2011</td><td data-order="April" style="text-align:left">April</td><td data-order="0.9068" style="text-align:right">91%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2011" style="text-align:right">2011</td><td data-order="May" style="text-align:left">May</td><td data-order="0.8986" style="text-align:right">90%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2011" style="text-align:right">2011</td><td data-order="June" style="text-align:left">June</td><td data-order="0.8797" style="text-align:right">88%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2011" style="text-align:right">2011</td><td data-order="July" style="text-align:left">July</td><td data-order="0.9045" style="text-align:right">90%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2011" style="text-align:right">2011</td><td data-order="August" style="text-align:left">August</td><td data-order="0.9064" style="text-align:right">91%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2011" style="text-align:right">2011</td><td data-order="September" style="text-align:left">September</td><td data-order="0.8798" style="text-align:right">88%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2011" style="text-align:right">2011</td><td data-order="October" style="text-align:left">October</td><td data-order="0.9091" style="text-align:right">91%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2011" style="text-align:right">2011</td><td data-order="November" style="text-align:left">November</td><td data-order="0.9024" style="text-align:right">90%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2011" style="text-align:right">2011</td><td data-order="December" style="text-align:left">December</td><td data-order="0.9715" style="text-align:right">97%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2012" style="text-align:right">2012</td><td data-order="January" style="text-align:left">January</td><td data-order="0.9559" style="text-align:right">96%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2012" style="text-align:right">2012</td><td data-order="February" style="text-align:left">February</td><td data-order="0.9731" style="text-align:right">97%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2012" style="text-align:right">2012</td><td data-order="March" style="text-align:left">March</td><td data-order="0.9478" style="text-align:right">95%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2012" style="text-align:right">2012</td><td data-order="April" style="text-align:left">April</td><td data-order="0.8839" style="text-align:right">88%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2012" style="text-align:right">2012</td><td data-order="May" style="text-align:left">May</td><td data-order="0.8486" style="text-align:right">85%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2012" style="text-align:right">2012</td><td data-order="June" style="text-align:left">June</td><td data-order="0.8805" style="text-align:right">88%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2012" style="text-align:right">2012</td><td data-order="July" style="text-align:left">July</td><td data-order="0.8765" style="text-align:right">88%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2012" style="text-align:right">2012</td><td data-order="August" style="text-align:left">August</td><td data-order="0.9196" style="text-align:right">92%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2012" style="text-align:right">2012</td><td data-order="September" style="text-align:left">September</td><td data-order="0.8467" style="text-align:right">85%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2012" style="text-align:right">2012</td><td data-order="October" style="text-align:left">October</td><td data-order="0.8699" style="text-align:right">87%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2012" style="text-align:right">2012</td><td data-order="November" style="text-align:left">November</td><td data-order="0.8974" style="text-align:right">90%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2012" style="text-align:right">2012</td><td data-order="December" style="text-align:left">December</td><td data-order="0.9713" style="text-align:right">97%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2013" style="text-align:right">2013</td><td data-order="January" style="text-align:left">January</td><td data-order="0.9879" style="text-align:right">99%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2013" style="text-align:right">2013</td><td data-order="February" style="text-align:left">February</td><td data-order="0.9245" style="text-align:right">92%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2013" style="text-align:right">2013</td><td data-order="March" style="text-align:left">March</td><td data-order="0.9432" style="text-align:right">94%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2013" style="text-align:right">2013</td><td data-order="April" style="text-align:left">April</td><td data-order="0.8965" style="text-align:right">90%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2013" style="text-align:right">2013</td><td data-order="May" style="text-align:left">May</td><td data-order="0.9366" style="text-align:right">94%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2013" style="text-align:right">2013</td><td data-order="June" style="text-align:left">June</td><td data-order="0.9246" style="text-align:right">92%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2013" style="text-align:right">2013</td><td data-order="July" style="text-align:left">July</td><td data-order="0.9431" style="text-align:right">94%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2013" style="text-align:right">2013</td><td data-order="August" style="text-align:left">August</td><td data-order="0.9734" style="text-align:right">97%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2013" style="text-align:right">2013</td><td data-order="September" style="text-align:left">September</td><td data-order="0.9105" style="text-align:right">91%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2013" style="text-align:right">2013</td><td data-order="October" style="text-align:left">October</td><td data-order="0.9213" style="text-align:right">92%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2013" style="text-align:right">2013</td><td data-order="November" style="text-align:left">November</td><td data-order="0.9032" style="text-align:right">90%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2013" style="text-align:right">2013</td><td data-order="December" style="text-align:left">December</td><td data-order="1.022" style="text-align:right">102%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2014" style="text-align:right">2014</td><td data-order="January" style="text-align:left">January</td><td data-order="0.9991" style="text-align:right">100%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2014" style="text-align:right">2014</td><td data-order="February" style="text-align:left">February</td><td data-order="0.8748" style="text-align:right">87%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2014" style="text-align:right">2014</td><td data-order="March" style="text-align:left">March</td><td data-order="0.9803" style="text-align:right">98%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2014" style="text-align:right">2014</td><td data-order="April" style="text-align:left">April</td><td data-order="0.9186" style="text-align:right">92%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2014" style="text-align:right">2014</td><td data-order="May" style="text-align:left">May</td><td data-order="0.8938" style="text-align:right">89%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2014" style="text-align:right">2014</td><td data-order="June" style="text-align:left">June</td><td data-order="0.9324" style="text-align:right">93%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2014" style="text-align:right">2014</td><td data-order="July" style="text-align:left">July</td><td data-order="0.9172" style="text-align:right">92%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2014" style="text-align:right">2014</td><td data-order="August" style="text-align:left">August</td><td data-order="0.926" style="text-align:right">93%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2014" style="text-align:right">2014</td><td data-order="September" style="text-align:left">September</td><td data-order="0.867" style="text-align:right">87%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2014" style="text-align:right">2014</td><td data-order="October" style="text-align:left">October</td><td data-order="0.9108" style="text-align:right">91%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2014" style="text-align:right">2014</td><td data-order="November" style="text-align:left">November</td><td data-order="0.9348" style="text-align:right">93%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2014" style="text-align:right">2014</td><td data-order="December" style="text-align:left">December</td><td data-order="0.9808" style="text-align:right">98%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2015" style="text-align:right">2015</td><td data-order="January" style="text-align:left">January</td><td data-order="0.9937" style="text-align:right">99%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2015" style="text-align:right">2015</td><td data-order="February" style="text-align:left">February</td><td data-order="0.8842" style="text-align:right">88%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2015" style="text-align:right">2015</td><td data-order="March" style="text-align:left">March</td><td data-order="0.9026" style="text-align:right">90%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2015" style="text-align:right">2015</td><td data-order="April" style="text-align:left">April</td><td data-order="0.932" style="text-align:right">93%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2015" style="text-align:right">2015</td><td data-order="May" style="text-align:left">May</td><td data-order="0.8797" style="text-align:right">88%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2015" style="text-align:right">2015</td><td data-order="June" style="text-align:left">June</td><td data-order="0.8927" style="text-align:right">89%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2015" style="text-align:right">2015</td><td data-order="July" style="text-align:left">July</td><td data-order="0.9642" style="text-align:right">96%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2015" style="text-align:right">2015</td><td data-order="August" style="text-align:left">August</td><td data-order="0.9217" style="text-align:right">92%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2015" style="text-align:right">2015</td><td data-order="September" style="text-align:left">September</td><td data-order="0.9262" style="text-align:right">93%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2015" style="text-align:right">2015</td><td data-order="October" style="text-align:left">October</td><td data-order="0.9107" style="text-align:right">91%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2015" style="text-align:right">2015</td><td data-order="November" style="text-align:left">November</td><td data-order="0.9338" style="text-align:right">93%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2015" style="text-align:right">2015</td><td data-order="December" style="text-align:left">December</td><td data-order="0.9908" style="text-align:right">99%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2016" style="text-align:right">2016</td><td data-order="January" style="text-align:left">January</td><td data-order="0.9929" style="text-align:right">99%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2016" style="text-align:right">2016</td><td data-order="February" style="text-align:left">February</td><td data-order="0.8836" style="text-align:right">88%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2016" style="text-align:right">2016</td><td data-order="March" style="text-align:left">March</td><td data-order="0.9527" style="text-align:right">95%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2016" style="text-align:right">2016</td><td data-order="April" style="text-align:left">April</td><td data-order="0.902" style="text-align:right">90%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2016" style="text-align:right">2016</td><td data-order="May" style="text-align:left">May</td><td data-order="0.9003" style="text-align:right">90%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2016" style="text-align:right">2016</td><td data-order="June" style="text-align:left">June</td><td data-order="0.9259" style="text-align:right">93%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2016" style="text-align:right">2016</td><td data-order="July" style="text-align:left">July</td><td data-order="0.9732" style="text-align:right">97%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2016" style="text-align:right">2016</td><td data-order="August" style="text-align:left">August</td><td data-order="0.9151" style="text-align:right">92%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2016" style="text-align:right">2016</td><td data-order="September" style="text-align:left">September</td><td data-order="0.8883" style="text-align:right">89%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2016" style="text-align:right">2016</td><td data-order="October" style="text-align:left">October</td><td data-order="0.9281" style="text-align:right">93%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2016" style="text-align:right">2016</td><td data-order="November" style="text-align:left">November</td><td data-order="0.9283" style="text-align:right">93%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2016" style="text-align:right">2016</td><td data-order="December" style="text-align:left">December</td><td data-order="0.9636" style="text-align:right">96%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2017" style="text-align:right">2017</td><td data-order="January" style="text-align:left">January</td><td data-order="0.9615" style="text-align:right">96%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2017" style="text-align:right">2017</td><td data-order="February" style="text-align:left">February</td><td data-order="0.8783" style="text-align:right">88%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2017" style="text-align:right">2017</td><td data-order="March" style="text-align:left">March</td><td data-order="0.9227" style="text-align:right">92%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2017" style="text-align:right">2017</td><td data-order="April" style="text-align:left">April</td><td data-order="0.8737" style="text-align:right">87%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2017" style="text-align:right">2017</td><td data-order="May" style="text-align:left">May</td><td data-order="0.8947" style="text-align:right">89%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2017" style="text-align:right">2017</td><td data-order="June" style="text-align:left">June</td><td data-order="0.9014" style="text-align:right">90%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2017" style="text-align:right">2017</td><td data-order="July" style="text-align:left">July</td><td data-order="0.9212" style="text-align:right">92%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2017" style="text-align:right">2017</td><td data-order="August" style="text-align:left">August</td><td data-order="0.9285" style="text-align:right">93%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2017" style="text-align:right">2017</td><td data-order="September" style="text-align:left">September</td><td data-order="0.8391" style="text-align:right">84%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2017" style="text-align:right">2017</td><td data-order="October" style="text-align:left">October</td><td data-order="0.9553" style="text-align:right">96%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2017" style="text-align:right">2017</td><td data-order="November" style="text-align:left">November</td><td data-order="0.9331" style="text-align:right">93%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2017" style="text-align:right">2017</td><td data-order="December" style="text-align:left">December</td><td data-order="0.9918" style="text-align:right">99%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2018" style="text-align:right">2018</td><td data-order="January" style="text-align:left">January</td><td data-order="1.0355" style="text-align:right">104%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2018" style="text-align:right">2018</td><td data-order="February" style="text-align:left">February</td><td data-order="0.9193" style="text-align:right">92%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2018" style="text-align:right">2018</td><td data-order="March" style="text-align:left">March</td><td data-order="0.8953" style="text-align:right">90%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2018" style="text-align:right">2018</td><td data-order="April" style="text-align:left">April</td><td data-order="0.86" style="text-align:right">86%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2018" style="text-align:right">2018</td><td data-order="May" style="text-align:left">May</td><td data-order="0.9017" style="text-align:right">90%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2018" style="text-align:right">2018</td><td data-order="June" style="text-align:left">June</td><td data-order="0.8748" style="text-align:right">87%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2018" style="text-align:right">2018</td><td data-order="July" style="text-align:left">July</td><td data-order="0.931" style="text-align:right">93%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2018" style="text-align:right">2018</td><td data-order="August" style="text-align:left">August</td><td data-order="0.9449" style="text-align:right">94%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2018" style="text-align:right">2018</td><td data-order="September" style="text-align:left">September</td><td data-order="0.895" style="text-align:right">90%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2018" style="text-align:right">2018</td><td data-order="October" style="text-align:left">October</td><td data-order="0.9393" style="text-align:right">94%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2018" style="text-align:right">2018</td><td data-order="November" style="text-align:left">November</td><td data-order="0.9831" style="text-align:right">98%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2018" style="text-align:right">2018</td><td data-order="December" style="text-align:left">December</td><td data-order="1.0522" style="text-align:right">105%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2019" style="text-align:right">2019</td><td data-order="January" style="text-align:left">January</td><td data-order="1.0014" style="text-align:right">100%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2019" style="text-align:right">2019</td><td data-order="February" style="text-align:left">February</td><td data-order="0.8933" style="text-align:right">89%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2019" style="text-align:right">2019</td><td data-order="March" style="text-align:left">March</td><td data-order="0.951" style="text-align:right">95%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2019" style="text-align:right">2019</td><td data-order="April" style="text-align:left">April</td><td data-order="0.9218" style="text-align:right">92%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2019" style="text-align:right">2019</td><td data-order="May" style="text-align:left">May</td><td data-order="0.9213" style="text-align:right">92%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2019" style="text-align:right">2019</td><td data-order="June" style="text-align:left">June</td><td data-order="0.9151" style="text-align:right">92%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2019" style="text-align:right">2019</td><td data-order="July" style="text-align:left">July</td><td data-order="0.9691" style="text-align:right">97%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2019" style="text-align:right">2019</td><td data-order="August" style="text-align:left">August</td><td data-order="0.9519" style="text-align:right">95%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2019" style="text-align:right">2019</td><td data-order="September" style="text-align:left">September</td><td data-order="0.8891" style="text-align:right">89%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2019" style="text-align:right">2019</td><td data-order="October" style="text-align:left">October</td><td data-order="0.9356" style="text-align:right">94%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2019" style="text-align:right">2019</td><td data-order="November" style="text-align:left">November</td><td data-order="0.9282" style="text-align:right">93%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2019" style="text-align:right">2019</td><td data-order="December" style="text-align:left">December</td><td data-order="1.0142" style="text-align:right">101%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2020" style="text-align:right">2020</td><td data-order="January" style="text-align:left">January</td><td data-order="1.0286" style="text-align:right">103%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2020" style="text-align:right">2020</td><td data-order="February" style="text-align:left">February</td><td data-order="0.925" style="text-align:right">92%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2020" style="text-align:right">2020</td><td data-order="March" style="text-align:left">March</td><td data-order="0.9356" style="text-align:right">94%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2020" style="text-align:right">2020</td><td data-order="April" style="text-align:left">April</td><td data-order="0.8948" style="text-align:right">89%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2020" style="text-align:right">2020</td><td data-order="May" style="text-align:left">May</td><td data-order="0.8615" style="text-align:right">86%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2020" style="text-align:right">2020</td><td data-order="June" style="text-align:left">June</td><td data-order="0.7826" style="text-align:right">78%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2020" style="text-align:right">2020</td><td data-order="July" style="text-align:left">July</td><td data-order="0.7992" style="text-align:right">80%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2020" style="text-align:right">2020</td><td data-order="August" style="text-align:left">August</td><td data-order="0.8024" style="text-align:right">80%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2020" style="text-align:right">2020</td><td data-order="September" style="text-align:left">September</td><td data-order="0.8002" style="text-align:right">80%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2020" style="text-align:right">2020</td><td data-order="October" style="text-align:left">October</td><td data-order="0.863" style="text-align:right">86%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2020" style="text-align:right">2020</td><td data-order="November" style="text-align:left">November</td><td data-order="0.9071" style="text-align:right">91%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2020" style="text-align:right">2020</td><td data-order="December" style="text-align:left">December</td><td data-order="0.9419" style="text-align:right">94%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2021" style="text-align:right">2021</td><td data-order="January" style="text-align:left">January</td><td data-order="0.971" style="text-align:right">97%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2021" style="text-align:right">2021</td><td data-order="February" style="text-align:left">February</td><td data-order="0.8477" style="text-align:right">85%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2021" style="text-align:right">2021</td><td data-order="March" style="text-align:left">March</td><td data-order="0.9504" style="text-align:right">95%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2021" style="text-align:right">2021</td><td data-order="April" style="text-align:left">April</td><td data-order="0.9073" style="text-align:right">91%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2021" style="text-align:right">2021</td><td data-order="May" style="text-align:left">May</td><td data-order="0.9017" style="text-align:right">90%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2021" style="text-align:right">2021</td><td data-order="June" style="text-align:left">June</td><td data-order="0.8364" style="text-align:right">84%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2021" style="text-align:right">2021</td><td data-order="July" style="text-align:left">July</td><td data-order="0.8564" style="text-align:right">86%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2021" style="text-align:right">2021</td><td data-order="August" style="text-align:left">August</td><td data-order="0.8729" style="text-align:right">87%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2021" style="text-align:right">2021</td><td data-order="September" style="text-align:left">September</td><td data-order="0.8629" style="text-align:right">86%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2021" style="text-align:right">2021</td><td data-order="October" style="text-align:left">October</td><td data-order="0.9286" style="text-align:right">93%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2021" style="text-align:right">2021</td><td data-order="November" style="text-align:left">November</td><td data-order="0.9176" style="text-align:right">92%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2021" style="text-align:right">2021</td><td data-order="December" style="text-align:left">December</td><td data-order="1.0047" style="text-align:right">100%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2022" style="text-align:right">2022</td><td data-order="January" style="text-align:left">January</td><td data-order="0.9774" style="text-align:right">98%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2022" style="text-align:right">2022</td><td data-order="February" style="text-align:left">February</td><td data-order="0.8536" style="text-align:right">85%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2022" style="text-align:right">2022</td><td data-order="March" style="text-align:left">March</td><td data-order="0.9432" style="text-align:right">94%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2022" style="text-align:right">2022</td><td data-order="April" style="text-align:left">April</td><td data-order="0.955" style="text-align:right">96%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2022" style="text-align:right">2022</td><td data-order="May" style="text-align:left">May</td><td data-order="0.9212" style="text-align:right">92%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2022" style="text-align:right">2022</td><td data-order="June" style="text-align:left">June</td><td data-order="0.8987" style="text-align:right">90%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2022" style="text-align:right">2022</td><td data-order="July" style="text-align:left">July</td><td data-order="0.8937" style="text-align:right">89%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2022" style="text-align:right">2022</td><td data-order="August" style="text-align:left">August</td><td data-order="0.8979" style="text-align:right">90%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2022" style="text-align:right">2022</td><td data-order="September" style="text-align:left">September</td><td data-order="0.9001" style="text-align:right">90%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2022" style="text-align:right">2022</td><td data-order="October" style="text-align:left">October</td><td data-order="0.9266" style="text-align:right">93%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2022" style="text-align:right">2022</td><td data-order="November" style="text-align:left">November</td><td data-order="0.9179" style="text-align:right">92%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2022" style="text-align:right">2022</td><td data-order="December" style="text-align:left">December</td><td data-order="0.9689" style="text-align:right">97%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2023" style="text-align:right">2023</td><td data-order="January" style="text-align:left">January</td><td data-order="0.9697" style="text-align:right">97%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2023" style="text-align:right">2023</td><td data-order="February" style="text-align:left">February</td><td data-order="0.92" style="text-align:right">92%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2023" style="text-align:right">2023</td><td data-order="March" style="text-align:left">March</td><td data-order="0.9834" style="text-align:right">98%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2023" style="text-align:right">2023</td><td data-order="April" style="text-align:left">April</td><td data-order="0.954" style="text-align:right">95%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2023" style="text-align:right">2023</td><td data-order="May" style="text-align:left">May</td><td data-order="0.9087" style="text-align:right">91%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2023" style="text-align:right">2023</td><td data-order="June" style="text-align:left">June</td><td data-order="0.8597" style="text-align:right">86%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2023" style="text-align:right">2023</td><td data-order="July" style="text-align:left">July</td><td data-order="0.9035" style="text-align:right">90%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2023" style="text-align:right">2023</td><td data-order="August" style="text-align:left">August</td><td data-order="0.8986" style="text-align:right">90%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2023" style="text-align:right">2023</td><td data-order="September" style="text-align:left">September</td><td data-order="0.9003" style="text-align:right">90%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2023" style="text-align:right">2023</td><td data-order="October" style="text-align:left">October</td><td data-order="0.9417" style="text-align:right">94%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2023" style="text-align:right">2023</td><td data-order="November" style="text-align:left">November</td><td data-order="0.936" style="text-align:right">94%</td>
+                            </tr>
+                            <tr>
+                                <td data-order="2023" style="text-align:right">2023</td><td data-order="December" style="text-align:left">December</td><td data-order="1.0218" style="text-align:right">102%</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </div>
+    <div>
+    <div id="exportDataModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-md">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">What is the purpose of your download?</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="alert alert-info mt-3">
+                        <i class="fa fa-info-circle pr-2" aria-hidden="true"></i><small>Please specify your reason for exporting data.</small>
+                    </div>
+
+                    <form id="frmAnonymousUser">
+                        <input class="modalInput" id="modalDataSetId" type="hidden">
+                        <input class="modalInput" id="fullExport" type="hidden">
+                        <div class="form-group row">
+                            <div class="col-sm-12 col-md-5">
+                                <label for="cboDownloadReasonCode" class="col-form-label required">Download reason</label>
+                            </div>
+                            <div class="col-sm-12 col-md-7" >
+                                <select class="form-control" id="cboDownloadReasonCode" name="downloadReasonCode">
+                                    
+                                        <option  value="RESEARCH">Research</option>
+                                    
+                                        <option  value="COMMERCIAL">Commercial</option>
+                                    
+                                        <option  value="CURIOSITY">Curiosity</option>
+                                    
+                                        <option  value="DATA_ANALYSIS">Data analysis</option>
+                                    
+                                        <option  value="STUDY">Study</option>
+                                    
+                                        
+                                    
+                                        <option  value="OTHER">Other</option>
+                                    
+                                </select>
+                            </div>
+                        </div>
+                        <div id="reasonSpecDiv" class="form-group row" style="display: none">
+                            <div class="col-sm-12 col-md-5">
+                                <label for="txtDownloadReason" class="col-form-label required">Please specify</label>
+                            </div>
+                            <div class="col-sm-12 col-md-7">
+                                <input type="text" class="form-control" id="txtDownloadReason" name="downloadReason"/>
+                            </div>
+                        </div>
+                        <button type="button" id="submitModalForm" class="btn btn-primary btn-sm btn-success submit-btn">OK</button>
+                        <button type="button" class="btn btn-outline-primary btn-sm" data-dismiss="modal"><i class="fa fa-times pr-1" aria-hidden="true"></i>Cancel</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <div>
+        <footer>
+    <div class="container-fluid footer-anonymous" style="position: fixed; bottom: 0; width: 100%">
+        <div class="row">
+            <div class="p-md-5 pt-sm-4 pb-1 col-md col-sm-12">© <a href="https://www.acer.europa.eu/" target="_blank" style="text-decoration:underline; color:#ffffff">ACER</a> 2025</div>
+        </div>
+    </div>
+</footer>
+    </div>
+</div>
+
+    <!-- Footer -->
+    <div></div>
+
+    <!-- CHEST app common JavaScript -->
+    
+    <script type="text/javascript" src="/chest/c1f60bbc647f4d23d95022b6109e5bb2c92c5a4a/js/chest-common.js"></script>
+    <script type="text/javascript" src="/chest/c1f60bbc647f4d23d95022b6109e5bb2c92c5a4a/js/chest-app.js"></script>
+
+
+    <!-- CHEST app Page specific JavaScript -->
+    
+    <script type="text/javascript" src="/chest/c1f60bbc647f4d23d95022b6109e5bb2c92c5a4a/js/chest-dataset.js"></script>
+
+
+  </body>
+</html>

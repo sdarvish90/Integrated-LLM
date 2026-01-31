@@ -1,0 +1,1567 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="pt-BR" xmlns:og="http://opengraphprotocol.org/schema/"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="pt-BR" xmlns:og="http://opengraphprotocol.org/schema/"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="pt-BR" xmlns:og="http://opengraphprotocol.org/schema/"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="pt-BR" xmlns:og="http://opengraphprotocol.org/schema/"> <!--<![endif]-->
+    <head>
+                <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="google-site-verification" content="0QbdeAl4Fx3hYA9ynZ7RIppu7NbgJJ8Nfik5CQt_IuI" />
+        
+        <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+        
+        <meta charset="UTF-8" />
+<script type="text/javascript">
+/* <![CDATA[ */
+ var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function(){gform.scriptsLoaded=!0}),window.addEventListener("DOMContentLoaded",function(){gform.domLoaded=!0}),gform={domLoaded:!1,scriptsLoaded:!1,initializeOnLoaded:function(o){gform.domLoaded&&gform.scriptsLoaded?o():!gform.domLoaded&&gform.scriptsLoaded?window.addEventListener("DOMContentLoaded",o):document.addEventListener("gform_main_scripts_loaded",o)},hooks:{action:{},filter:{}},addAction:function(o,n,r,t){gform.addHook("action",o,n,r,t)},addFilter:function(o,n,r,t){gform.addHook("filter",o,n,r,t)},doAction:function(o){gform.doHook("action",o,arguments)},applyFilters:function(o){return gform.doHook("filter",o,arguments)},removeAction:function(o,n){gform.removeHook("action",o,n)},removeFilter:function(o,n,r){gform.removeHook("filter",o,n,r)},addHook:function(o,n,r,t,i){null==gform.hooks[o][n]&&(gform.hooks[o][n]=[]);var e=gform.hooks[o][n];null==i&&(i=n+"_"+e.length),gform.hooks[o][n].push({tag:i,callable:r,priority:t=null==t?10:t})},doHook:function(n,o,r){var t;if(r=Array.prototype.slice.call(r,1),null!=gform.hooks[n][o]&&((o=gform.hooks[n][o]).sort(function(o,n){return o.priority-n.priority}),o.forEach(function(o){"function"!=typeof(t=o.callable)&&(t=window[t]),"action"==n?t.apply(null,r):r[0]=t.apply(null,r)})),"filter"==n)return r[0]},removeHook:function(o,n,t,i){var r;null!=gform.hooks[o][n]&&(r=(r=gform.hooks[o][n]).filter(function(o,n,r){return!!(null!=i&&i!=o.tag||null!=t&&t!=o.priority)}),gform.hooks[o][n]=r)}}); 
+/* ]]> */
+</script>
+
+<title>Edição para Intersolar Summit Brasil Nordeste 2025 &#8211; pv magazine Brasil</title>
+<meta name='robots' content='max-image-preview:large' />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="generator" content="pv magazine 1.0" />
+<link rel='dns-prefetch' href='//code.jquery.com' />
+<link rel='dns-prefetch' href='//stats.wp.com' />
+<link rel='dns-prefetch' href='//v0.wordpress.com' />
+<link rel="alternate" type="application/rss+xml" title="Feed para pv magazine Brasil &raquo;" href="https://www.pv-magazine-brasil.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Feed de comentários para pv magazine Brasil &raquo;" href="https://www.pv-magazine-brasil.com/comments/feed/" />
+<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.pv-magazine-brasil.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.6.4"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83d\udc26\u200d\u2b1b","\ud83d\udc26\u200b\u2b1b")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<link rel='stylesheet' id='gravity_forms_theme_reset-css' href='https://www.pv-magazine-brasil.com/wp-content/plugins/gravityforms/assets/css/dist/gravity-forms-theme-reset.min.css?ver=2.7.10' type='text/css' media='all' />
+<link rel='stylesheet' id='gravity_forms_theme_foundation-css' href='https://www.pv-magazine-brasil.com/wp-content/plugins/gravityforms/assets/css/dist/gravity-forms-theme-foundation.min.css?ver=2.7.10' type='text/css' media='all' />
+<link rel='stylesheet' id='gravity_forms_theme_framework-css' href='https://www.pv-magazine-brasil.com/wp-content/plugins/gravityforms/assets/css/dist/gravity-forms-theme-framework.min.css?ver=2.7.10' type='text/css' media='all' />
+<link rel='stylesheet' id='gravity_forms_orbital_theme-css' href='https://www.pv-magazine-brasil.com/wp-content/plugins/gravityforms/assets/css/dist/gravity-forms-orbital-theme.min.css?ver=2.7.10' type='text/css' media='all' />
+<link rel='stylesheet' id='uaio-front-style-css' href='https://www.pv-magazine-brasil.com/wp-content/plugins/upme-all-in-one/css/uaio-front.css?ver=6.6.4' type='text/css' media='all' />
+<link rel='stylesheet' id='upme_font_awesome-css' href='https://www.pv-magazine-brasil.com/wp-content/plugins/upme/css/font-awesome.min.css?ver=6.6.4' type='text/css' media='all' />
+<link rel='stylesheet' id='upme_css-css' href='https://www.pv-magazine-brasil.com/wp-content/plugins/upme/css/upme.css?ver=6.6.4' type='text/css' media='all' />
+<link rel='stylesheet' id='upme_responsive-css' href='https://www.pv-magazine-brasil.com/wp-content/plugins/upme/css/upme-responsive.css?ver=6.6.4' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css' href='https://www.pv-magazine-brasil.com/wp-includes/css/dist/block-library/style.min.css?ver=6.6.4' type='text/css' media='all' />
+<link rel='stylesheet' id='mediaelement-css' href='https://www.pv-magazine-brasil.com/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.17' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-mediaelement-css' href='https://www.pv-magazine-brasil.com/wp-includes/js/mediaelement/wp-mediaelement.min.css?ver=6.6.4' type='text/css' media='all' />
+<style id='jetpack-sharing-buttons-style-inline-css' type='text/css'>
+.jetpack-sharing-buttons__services-list{display:flex;flex-direction:row;flex-wrap:wrap;gap:0;list-style-type:none;margin:5px;padding:0}.jetpack-sharing-buttons__services-list.has-small-icon-size{font-size:12px}.jetpack-sharing-buttons__services-list.has-normal-icon-size{font-size:16px}.jetpack-sharing-buttons__services-list.has-large-icon-size{font-size:24px}.jetpack-sharing-buttons__services-list.has-huge-icon-size{font-size:36px}@media print{.jetpack-sharing-buttons__services-list{display:none!important}}.editor-styles-wrapper .wp-block-jetpack-sharing-buttons{gap:0;padding-inline-start:0}ul.jetpack-sharing-buttons__services-list.has-background{padding:1.25em 2.375em}
+</style>
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='wordpress-popular-posts-css-css' href='https://www.pv-magazine-brasil.com/wp-content/plugins/wordpress-popular-posts/assets/css/wpp.css?ver=6.3.4' type='text/css' media='all' />
+<link rel='stylesheet' id='pv-mag-brazil-css' href='https://www.pv-magazine-brasil.com/wp-content/themes/pvmagazine/_/css/style-brazil.css?ver=6.6.4' type='text/css' media='all' />
+<link rel='stylesheet' id='pv-mag-fonts-css' href='https://www.pv-magazine-brasil.com/wp-content/themes/pvmagazine/_/css/fonts.css?ver=6.6.4' type='text/css' media='all' />
+<link rel='stylesheet' id='fancybox-css' href='https://www.pv-magazine-brasil.com/wp-content/plugins/easy-fancybox/fancybox/1.5.4/jquery.fancybox.min.css?ver=6.6.4' type='text/css' media='screen' />
+<link rel='stylesheet' id='tablepress-default-css' href='https://www.pv-magazine-brasil.com/wp-content/plugins/tablepress/css/build/default.css?ver=2.1.5' type='text/css' media='all' />
+<link rel='stylesheet' id='tablepress-responsive-tables-css' href='https://www.pv-magazine-brasil.com/wp-content/plugins/tablepress-responsive-tables/css/tablepress-responsive.min.css?ver=1.8' type='text/css' media='all' />
+<link rel='stylesheet' id='gform_basic-css' href='https://www.pv-magazine-brasil.com/wp-content/plugins/gravityforms/assets/css/dist/basic.min.css?ver=2.7.10' type='text/css' media='all' />
+<link rel='stylesheet' id='gform_theme_components-css' href='https://www.pv-magazine-brasil.com/wp-content/plugins/gravityforms/assets/css/dist/theme-components.min.css?ver=2.7.10' type='text/css' media='all' />
+<link rel='stylesheet' id='gform_theme_ie11-css' href='https://www.pv-magazine-brasil.com/wp-content/plugins/gravityforms/assets/css/dist/theme-ie11.min.css?ver=2.7.10' type='text/css' media='all' />
+<link rel='stylesheet' id='gform_theme-css' href='https://www.pv-magazine-brasil.com/wp-content/plugins/gravityforms/assets/css/dist/theme.min.css?ver=2.7.10' type='text/css' media='all' />
+<link rel='stylesheet' id='__EPYT__style-css' href='https://www.pv-magazine-brasil.com/wp-content/plugins/youtube-embed-plus/styles/ytprefs.min.css?ver=14.1.6.3' type='text/css' media='all' />
+<style id='__EPYT__style-inline-css' type='text/css'>
+
+                .epyt-gallery-thumb {
+                        width: 33.333%;
+                }
+                
+</style>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js?ver=2.2.4" id="jquery-js"></script>
+<script type="text/javascript" id="uaio-front-js-extra">
+/* <![CDATA[ */
+var UAIOFront = {"Messages":{"Processing":"Processing.","ClickToUnsubscribe":"Click to Unsubscribe.","ClickToSubscribe":"Click to Subscribe."},"AdminAjax":"https:\/\/www.pv-magazine-brasil.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.pv-magazine-brasil.com/wp-content/plugins/upme-all-in-one/js/uaio-front.js?ver=6.6.4" id="uaio-front-js"></script>
+<script type="text/javascript" src="https://www.pv-magazine-brasil.com/wp-content/plugins/upme/js/upme-fitvids.js?ver=6.6.4" id="upme_fitvids_js-js"></script>
+<script type="text/javascript" id="upme_tmce-js-extra">
+/* <![CDATA[ */
+var UPMETmce = {"InsertUPMEShortcode":"Insert UPME Shortcode","LoginRegistrationForms":"Login \/ Registration Forms","FrontRegistrationForm":"Front-end Registration Form","RegFormCustomRedirect":"Registration Form with Custom Redirect","RegFormCaptcha":"Registration Form with Captcha","RegFormNoCaptcha":"Registration Form without Captcha","FrontLoginForm":"Front-end Login Form","SidebarLoginWidget":"Sidebar Login Widget (use in text widget)","LoginFormCustomRedirect":"Login Form with Custom Redirect","LogoutButton":"Logout Button","LogoutButtonCustomRedirect":"Logout Button with Custom Redirect","SingleProfile":"Single Profile","LoggedUserProfile":"Logged in User Profile","LoggedUserProfileUserID":"Logged in User Profile showing User ID","LoggedUserProfileHideStats":"Logged in User Profile without Stats","LoggedUserProfileUserRole":"Logged in User Profile showing User Role","LoggedUserProfileStatus":"Logged in User Profile showing Profile Status","LoggedUserProfileLogoutRedirect":"Logged in User Profile with Logout Redirect","PostAuthorProfile":"Post Author Profile","SpecificUserProfile":"Specific User Profile","MultipleProfilesMemberList":"Multiple Profiles \/ Member List","GroupSpecificUsers":"Group of Specific Users","AllUsers":"All Users","AllUsersCompactView":"All Users in Compact View","AllUsersCompactViewHalfWidth":"All Users in Compact View, Half Width","AllUsersModalWindow":"All Users in Modal Windows","AllUsersNewWindow":"All Users in New Windows","UsersBasedUserRole":"Users Based on User Role","AdministratorUsersOnly":"Administrator Users Only","AllUsersOrderedDisplayName":"All Users Ordered by Display Name","AllUsersOrderedPostCount":"All Users Ordered by Post Count","AllUsersOrderedRegistrationDate":"All Users Ordered by Registration Date","AllUsersOrderedCustomField":"All Users Ordered by Custom Field","AllUsersUserID":"All Users showing User ID","GroupUsersCustomField":"Group Users by Custom Field Values","HideUsersUntilSearch":"Hide All Users until Search","SearchProfile":"Search Profiles","SearchCustomFieldFilters":"Search with Custom Field Filters","PrivateContentLoginRequired":"Private Content (Login Required)","ShortcodeOptionExamples":"Shortcode Option Examples","HideUserStatistics":"Hide User Statistics","HideUserSocialBar":"Hide User Social Bar","HalfWidthProfileView":"1\/2 Width Profile View","CompactViewNoExtraFields":"Compact View (No extra fields)","CustomizedProfileFields":"Customized Profile Fields","ShowUserIDProfiles":"Show User ID on Profiles","LimitResultsMemberList":"Limit Results on Member List","ShowResultCountMemberList":"Show Result Count on Member List"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.pv-magazine-brasil.com/wp-content/plugins/upme/admin/js/tinymce_language_strings.js?ver=6.6.4" id="upme_tmce-js"></script>
+<script type="application/json" id="wpp-json">
+
+{"sampling_active":0,"sampling_rate":100,"ajax_url":"https:\/\/www.pv-magazine-brasil.com\/wp-json\/wordpress-popular-posts\/v1\/popular-posts","api_url":"https:\/\/www.pv-magazine-brasil.com\/wp-json\/wordpress-popular-posts","ID":55830,"token":"e08c4b5809","lang":0,"debug":0}
+
+</script>
+<script type="text/javascript" src="https://www.pv-magazine-brasil.com/wp-content/plugins/wordpress-popular-posts/assets/js/wpp.min.js?ver=6.3.4" id="wpp-js-js"></script>
+<script type="text/javascript" src="https://www.pv-magazine-brasil.com/wp-content/themes/pvmagazine/_/js/datatables.js?ver=1.13.4" id="datatables-js"></script>
+<script type="text/javascript" defer='defer' src="https://www.pv-magazine-brasil.com/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=2.7.10" id="gform_json-js"></script>
+<script type="text/javascript" id="gform_gravityforms-js-extra">
+/* <![CDATA[ */
+var gf_global = {"gf_currency_config":{"name":"D\u00f3lar americano","symbol_left":"$","symbol_right":"","symbol_padding":"","thousand_separator":",","decimal_separator":".","decimals":2,"code":"USD"},"base_url":"https:\/\/www.pv-magazine-brasil.com\/wp-content\/plugins\/gravityforms","number_formats":[],"spinnerUrl":"https:\/\/www.pv-magazine-brasil.com\/wp-content\/plugins\/gravityforms\/images\/spinner.svg","version_hash":"30f055154e8316773617e5aac4996341","strings":{"newRowAdded":"Nova linha adicionada.","rowRemoved":"Linha removida","formSaved":"O formul\u00e1rio foi salvo. O conte\u00fado cont\u00e9m o link para retornar e preencher o formul\u00e1rio."}};
+var gform_i18n = {"datepicker":{"days":{"monday":"Seg","tuesday":"Ter","wednesday":"Qua","thursday":"Qui","friday":"Sex","saturday":"S\u00e1b","sunday":"Dom"},"months":{"january":"janeiro","february":"fevereiro","march":"mar\u00e7o","april":"abril","may":"maio","june":"junho","july":"julho","august":"agosto","september":"setembro","october":"outubro","november":"novembro","december":"dezembro"},"firstDay":1,"iconText":"Selecione uma data"}};
+var gf_legacy_multi = {"7":""};
+var gform_gravityforms = {"strings":{"invalid_file_extension":"Este tipo de arquivo n\u00e3o \u00e9 permitido. Deve ser um dos seguintes:","delete_file":"Excluir este arquivo","in_progress":"em progresso","file_exceeds_limit":"O arquivo excede o limite de tamanho.","illegal_extension":"Este tipo de arquivo n\u00e3o \u00e9 permitido.","max_reached":"O n\u00famero m\u00e1ximo arquivos permitidos foi atingido.","unknown_error":"Ocorreu um erro ao salvar o arquivo no servidor","currently_uploading":"Aguarde o envio ser completado","cancel":"Cancelar","cancel_upload":"Cancelar este envio","cancelled":"Cancelado"},"vars":{"images_url":"https:\/\/www.pv-magazine-brasil.com\/wp-content\/plugins\/gravityforms\/images"}};
+/* ]]> */
+</script>
+<script type="text/javascript" id="gform_gravityforms-js-before">
+/* <![CDATA[ */
+
+/* ]]> */
+</script>
+<script type="text/javascript" defer='defer' src="https://www.pv-magazine-brasil.com/wp-content/plugins/gravityforms/js/gravityforms.min.js?ver=2.7.10" id="gform_gravityforms-js"></script>
+<script type="text/javascript" defer='defer' src="https://www.pv-magazine-brasil.com/wp-content/plugins/gravityforms/assets/js/dist/utils.min.js?ver=1329f9a0886f2ff3fb51c6f17277eb75" id="gform_gravityforms_utils-js"></script>
+<script type="text/javascript" id="__ytprefs__-js-extra">
+/* <![CDATA[ */
+var _EPYT_ = {"ajaxurl":"https:\/\/www.pv-magazine-brasil.com\/wp-admin\/admin-ajax.php","security":"2b20db63a3","gallery_scrolloffset":"20","eppathtoscripts":"https:\/\/www.pv-magazine-brasil.com\/wp-content\/plugins\/youtube-embed-plus\/scripts\/","eppath":"https:\/\/www.pv-magazine-brasil.com\/wp-content\/plugins\/youtube-embed-plus\/","epresponsiveselector":"[\"iframe.__youtube_prefs_widget__\"]","epdovol":"1","version":"14.1.6.3","evselector":"iframe.__youtube_prefs__[src], iframe[src*=\"youtube.com\/embed\/\"], iframe[src*=\"youtube-nocookie.com\/embed\/\"]","ajax_compat":"","maxres_facade":"eager","ytapi_load":"light","pause_others":"","stopMobileBuffer":"1","facade_mode":"","not_live_on_channel":"","vi_active":"","vi_js_posttypes":[]};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.pv-magazine-brasil.com/wp-content/plugins/youtube-embed-plus/scripts/ytprefs.min.js?ver=14.1.6.3" id="__ytprefs__-js"></script>
+<link rel="https://api.w.org/" href="https://www.pv-magazine-brasil.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://www.pv-magazine-brasil.com/wp-json/wp/v2/pages/55830" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.pv-magazine-brasil.com/xmlrpc.php?rsd" />
+<link rel="canonical" href="https://www.pv-magazine-brasil.com/edicao-para-intersolar-summit-brasil-nordeste-2025/" />
+<link rel='shortlink' href='https://wp.me/Pg6FgU-ewu' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.pv-magazine-brasil.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.pv-magazine-brasil.com%2Fedicao-para-intersolar-summit-brasil-nordeste-2025%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.pv-magazine-brasil.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.pv-magazine-brasil.com%2Fedicao-para-intersolar-summit-brasil-nordeste-2025%2F&#038;format=xml" />
+<!-- Stream WordPress user activity plugin v3.9.3 -->
+	<style>img#wpstats{display:none}</style>
+		            <style id="wpp-loading-animation-styles">@-webkit-keyframes bgslide{from{background-position-x:0}to{background-position-x:-200%}}@keyframes bgslide{from{background-position-x:0}to{background-position-x:-200%}}.wpp-widget-placeholder,.wpp-widget-block-placeholder,.wpp-shortcode-placeholder{margin:0 auto;width:60px;height:3px;background:#dd3737;background:linear-gradient(90deg,#dd3737 0%,#571313 10%,#dd3737 100%);background-size:200% auto;border-radius:3px;-webkit-animation:bgslide 1s infinite linear;animation:bgslide 1s infinite linear}</style>
+            <script>
+/*! modernizr 3.3.1 (Custom Build) | MIT *
+* https://modernizr.com/download/?-cssscrollbar-setclasses !*/
+!function(e,n,s){function t(e,n){return typeof e===n}function o(){var e,n,s,o,a,i,r;for(var l in d)if(d.hasOwnProperty(l)){if(e=[],n=d[l],n.name&&(e.push(n.name.toLowerCase()),n.options&&n.options.aliases&&n.options.aliases.length))for(s=0;s<n.options.aliases.length;s++)e.push(n.options.aliases[s].toLowerCase());for(o=t(n.fn,"function")?n.fn():n.fn,a=0;a<e.length;a++)i=e[a],r=i.split("."),1===r.length?Modernizr[r[0]]=o:(!Modernizr[r[0]]||Modernizr[r[0]]instanceof Boolean||(Modernizr[r[0]]=new Boolean(Modernizr[r[0]])),Modernizr[r[0]][r[1]]=o),f.push((o?"":"no-")+r.join("-"))}}function a(e){var n=p.className,s=Modernizr._config.classPrefix||"";if(u&&(n=n.baseVal),Modernizr._config.enableJSClass){var t=new RegExp("(^|\\s)"+s+"no-js(\\s|$)");n=n.replace(t,"$1"+s+"js$2")}Modernizr._config.enableClasses&&(n+=" "+s+e.join(" "+s),u?p.className.baseVal=n:p.className=n)}function i(){return"function"!=typeof n.createElement?n.createElement(arguments[0]):u?n.createElementNS.call(n,"http://www.w3.org/2000/svg",arguments[0]):n.createElement.apply(n,arguments)}function r(){var e=n.body;return e||(e=i(u?"svg":"body"),e.fake=!0),e}function l(e,s,t,o){var a,l,f,d,c="modernizr",u=i("div"),h=r();if(parseInt(t,10))for(;t--;)f=i("div"),f.id=o?o[t]:c+(t+1),u.appendChild(f);return a=i("style"),a.type="text/css",a.id="s"+c,(h.fake?h:u).appendChild(a),h.appendChild(u),a.styleSheet?a.styleSheet.cssText=e:a.appendChild(n.createTextNode(e)),u.id=c,h.fake&&(h.style.background="",h.style.overflow="hidden",d=p.style.overflow,p.style.overflow="hidden",p.appendChild(h)),l=s(u,e),h.fake?(h.parentNode.removeChild(h),p.style.overflow=d,p.offsetHeight):u.parentNode.removeChild(u),!!l}var f=[],d=[],c={_version:"3.3.1",_config:{classPrefix:"",enableClasses:!0,enableJSClass:!0,usePrefixes:!0},_q:[],on:function(e,n){var s=this;setTimeout(function(){n(s[e])},0)},addTest:function(e,n,s){d.push({name:e,fn:n,options:s})},addAsyncTest:function(e){d.push({name:null,fn:e})}},Modernizr=function(){};Modernizr.prototype=c,Modernizr=new Modernizr;var p=n.documentElement,u="svg"===p.nodeName.toLowerCase(),h=c._config.usePrefixes?" -webkit- -moz- -o- -ms- ".split(" "):["",""];c._prefixes=h;var m=c.testStyles=l;m("#modernizr{overflow: scroll; width: 40px; height: 40px; }#"+h.join("scrollbar{width:0px} #modernizr::").split("#").slice(1).join("#")+"scrollbar{width:0px}",function(e){Modernizr.addTest("cssscrollbar",40==e.scrollWidth)}),o(),a(f),delete c.addTest,delete c.addAsyncTest;for(var v=0;v<Modernizr._q.length;v++)Modernizr._q[v]();e.Modernizr=Modernizr;}(window,document);
+</script>
+<script>pvAjax = {};pvAjax.ajaxurl = 'https://www.pv-magazine-brasil.com/wp-admin/admin-ajax.php';pvAjax.adNonce = 'c35dbb7ef0';pvAjax.eventNonce = '6d339e5f83';</script>        <script>
+            console.log("I'm an inline script tag added to the header.");
+        </script>
+    <!-- Desktop Browsers --><link rel="shortcut icon" type="image/x-icon" href="https://www.pv-magazine-brasil.com/wp-content/themes/pvmagazine-brazil/_/appicons/favicon.ico" /><!-- Android: Chrome M39 and up--><!-- Android: Chrome M31 and up, ignored if manifest is present--><meta name="mobile-web-app-capable" content="yes"><!-- iOS --><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="pv magazine Brasil"><link rel="apple-touch-icon" sizes="180x180" href="https://www.pv-magazine-brasil.com/wp-content/themes/pvmagazine-brazil/_/appicons/apple-touch-icon-180x180-precomposed.png"><link href="https://www.pv-magazine-brasil.com/wp-content/themes/pvmagazine-brazil/_/appicons/apple-touch-icon-152x152-precomposed.png" sizes="152x152" rel="apple-touch-icon"><link href="https://www.pv-magazine-brasil.com/wp-content/themes/pvmagazine-brazil/_/appicons/apple-touch-icon-144x144-precomposed.png" sizes="144x144" rel="apple-touch-icon"><link href="https://www.pv-magazine-brasil.com/wp-content/themes/pvmagazine-brazil/_/appicons/apple-touch-icon-120x120-precomposed.png" sizes="120x120" rel="apple-touch-icon"><link href="https://www.pv-magazine-brasil.com/wp-content/themes/pvmagazine-brazil/_/appicons/apple-touch-icon-114x114-precomposed.png" sizes="114x114" rel="apple-touch-icon"><link href="https://www.pv-magazine-brasil.com/wp-content/themes/pvmagazine-brazil/_/appicons/apple-touch-icon-76x76-precomposed.png" sizes="76x76" rel="apple-touch-icon"><link href="https://www.pv-magazine-brasil.com/wp-content/themes/pvmagazine-brazil/_/appicons/apple-touch-icon-72x72-precomposed.png" sizes="72x72" rel="apple-touch-icon"><link href="https://www.pv-magazine-brasil.com/wp-content/themes/pvmagazine-brazil/_/appicons/apple-touch-icon-60x60-precomposed.png" sizes="60x60" rel="apple-touch-icon"><link href="https://www.pv-magazine-brasil.com/wp-content/themes/pvmagazine-brazil/_/appicons/apple-touch-icon-57x57-precomposed.png" sizes="57x57" rel="apple-touch-icon"><link href="https://www.pv-magazine-brasil.com/wp-content/themes/pvmagazine-brazil/_/appicons/apple-touch-icon-precomposed.png" rel="apple-touch-icon"><!-- Windows 8 and IE 11 --><meta name="msapplication-config" content="https://www.pv-magazine-brasil.com/wp-content/themes/pvmagazine-brazil/_/appicons/browserconfig.xml" /><!-- Windows --><meta name="application-name" content="pv magazine Brasil" /><meta name="msapplication-tooltip" content="Mercados e tecnologia de energia solar" /><meta name="msapplication-window" content="width=1024;height=768" /><meta name="msapplication-navbutton-color" content="#98d2cf" /><meta name="msapplication-starturl" content="./" /><meta property="og:title" content="Edição para Intersolar Summit Brasil Nordeste 2025" />
+<meta property="og:type" content="article" />
+<meta property="og:image" content="https://www.pv-magazine-brasil.com/wp-content/themes/pvmagazine/_/img/pv-magazine-logo.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:url" content="https://www.pv-magazine-brasil.com/edicao-para-intersolar-summit-brasil-nordeste-2025/" />
+<meta property="og:site_name" content="pv magazine Brasil" />
+<meta property="og:description" content="Por ocasião da Intersolar Summit Brasil Nordeste 2025, o pv magazine publica uma edição especial sobre os últimos avanços no mercado fotovoltaico brasileiro. Prévia 2025: Uma restrição, diversas soluções Abril 2025 &#8211; Edición en portugués Tópicos: BESS as a Service: mais empresas oferecem sistemas de armazenamento como um serviço para consumidores comerciais e industriais, aposta &lt;a href=&quot;https://www.pv-magazine-brasil.com/edicao-para-intersolar-summit-brasil-nordeste-2025/&quot; class=&quot;more-link&quot;&gt;[&hellip;]&lt;/a&gt;" />
+<meta name="description" content="Por ocasião da Intersolar Summit Brasil Nordeste 2025, o pv magazine publica uma edição especial sobre os últimos avanços no mercado fotovoltaico brasileiro. Prévia 2025: Uma restrição, diversas soluções Abril 2025 &#8211; Edición en portugués Tópicos: BESS as a Service: mais empresas oferecem sistemas de armazenamento como um serviço para consumidores comerciais e industriais, aposta &lt;a href=&quot;https://www.pv-magazine-brasil.com/edicao-para-intersolar-summit-brasil-nordeste-2025/&quot; class=&quot;more-link&quot;&gt;[&hellip;]&lt;/a&gt;"><meta name="author" content="pv magazine" /><meta property="article:publisher" content="https://www.facebook.com/pvmagazine/"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Edição para Intersolar Summit Brasil Nordeste 2025"><meta name="twitter:description" content="Por ocasião da Intersolar Summit Brasil Nordeste 2025, o pv magazine publica uma edição especial sobre os últimos avanços no mercado fotovoltaico brasileiro. Prévia 2025: Uma restrição, diversas soluções Abril 2025 &#8211; Edición en portugués Tópicos: BESS as a Service: mais empresas oferecem sistemas de armazenamento como um serviço para consumidores comerciais e industriais, aposta &lt;a href=&quot;https://www.pv-magazine-brasil.com/edicao-para-intersolar-summit-brasil-nordeste-2025/&quot; class=&quot;more-link&quot;&gt;[&hellip;]&lt;/a&gt;"><meta name="twitter:image" content="https://www.pv-magazine-brasil.com/wp-content/themes/pvmagazine/_/img/pv-magazine-logo-twitter.png"><style>
+	span.oe_textdirection { unicode-bidi: bidi-override; direction: rtl; }
+	span.oe_displaynone { display: none; }
+</style>
+
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Edição para Intersolar Summit Brasil Nordeste 2025" />
+<meta property="og:url" content="https://www.pv-magazine-brasil.com/edicao-para-intersolar-summit-brasil-nordeste-2025/" />
+<meta property="og:description" content="Por ocasião da Intersolar Summit Brasil Nordeste 2025, o pv magazine publica uma edição especial sobre os últimos avanços no mercado fotovoltaico brasileiro. Prévia 2025: Uma restrição, diversas so…" />
+<meta property="article:published_time" content="2025-04-23T04:00:28+00:00" />
+<meta property="article:modified_time" content="2025-04-24T08:32:59+00:00" />
+<meta property="og:site_name" content="pv magazine Brasil" />
+<meta property="og:image" content="https://www.pv-magazine-brasil.com/wp-content/uploads/sites/13/2025/04/SE-ISBrazil2025-Title_h1697px_72dpi-566x800.png" />
+<meta property="og:image:width" content="229" />
+<meta property="og:image:height" content="324" />
+<meta property="og:image:alt" content="Special Edition Intersolar Nordeste 2025" />
+<meta property="og:locale" content="pt_BR" />
+<meta name="twitter:text:title" content="Edição para Intersolar Summit Brasil Nordeste 2025" />
+<meta name="twitter:image" content="https://www.pv-magazine-brasil.com/wp-content/uploads/sites/13/2025/04/SE-ISBrazil2025-Title_h1697px_72dpi-566x800.png?w=144" />
+<meta name="twitter:image:alt" content="Special Edition Intersolar Nordeste 2025" />
+<meta name="twitter:card" content="summary" />
+
+<!-- End Jetpack Open Graph Tags -->
+ 
+        
+
+    </head>
+    <body class="wordpress ltr pt pt-br child-theme multisite blog-13 y2026 m01 d28 h21 wednesday logged-out singular singular-page singular-page-55830 page-template-default" dir="ltr" itemscope="itemscope" itemtype="http://schema.org/WebPage">
+        <div id="outer-wrap" class="pvmagazine-brazil">
+            <div id="inner-wrap" class="clearfix">
+                <div class="">
+                    <a href="#content" class="screen-reader-text">Skip to content</a>
+                </div><!-- .skip-nav -->
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        <div class="container container-main">
+            <div class="ad ad-leaderboard ad-leaderboard-google ad-leaderboard-google-top-1">
+	<div id="leaderboard_top_1">
+	</div> 
+</div>
+
+                        
+        </div>
+        <!--  navbar -->
+        <div class="container container-main">
+            <div class="ad ad-sky ad-sky-left">
+	<div id="sky_left_1">
+	</div>
+</div>
+<div class="ad ad-sky ad-sky-left ad-sky-left-additional">
+	<div id="sky_left_2">
+	</div>
+</div>
+<div class="ad ad-sky ad-sky-left ad-sky-left-additional-2">
+	<div id="sky_left_3">
+	</div>
+</div>
+<div class="ad ad-sky ad-sky-right">
+	<div id="sky_right_1">
+	</div>
+</div>
+<div class="ad ad-sky ad-sky-right ad-sky-right-additional">
+	<div id="sky_right_2">
+	</div>
+</div>
+<div class="ad ad-sky ad-sky-right ad-sky-right-additional-2">
+	<div id="sky_right_3">
+	</div>
+</div>
+            <div class="edition-select-desktop hidden-md-down">
+                <nav class="edition-select-top">
+    <div class="container">
+        <ul>
+            <li><a class="ess" target="_blank" href="https://www.ess-news.com/"><span>ESS News</span></a></li>
+            <li><a class="global" target="_blank" href="https://www.pv-magazine.com/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>Global</span></a></li>
+            <li><a class="germany" target="_blank" href="https://www.pv-magazine.de/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>Alemanha</span></a></li>
+            <li><a class="spain" target="_blank" href="https://www.pv-magazine.es/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>Espanha</span></a></li>
+            <li><a class="france" target="_blank" href="https://www.pv-magazine.fr/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>França</span></a></li>
+            <li><a class="italy" target="_blank" href="https://www.pv-magazine.it/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>Itália</span></a></li>
+            <li><a class="usa" target="_blank" href="https://pv-magazine-usa.com/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>Estados Unidos</span></a></li>
+            <li><a class="mexico" target="_blank" href="https://www.pv-magazine-mexico.com/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>México</span></a></li>
+            <li><a class="brazil" target="_blank" href="https://www.pv-magazine-brasil.com/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>Brasil</span></a></li>
+            <li><a class="latam" target="_blank" href="https://www.pv-magazine-latam.com/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>América latina</span></a></li>
+            <li><a class="australia" target="_blank" href="https://www.pv-magazine-australia.com/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>Austrália</span></a></li>
+            <li><a class="india" target="_blank" href="https://www.pv-magazine-india.com/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>Índia</span></a></li>
+            <li><a class="china" target="_blank" href="https://www.pv-magazine-china.com/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>China</span></a></li>
+        </ul>
+    </div>
+
+</nav>            </div>
+            
+            <nav class="navbar navbar-dark navbar-general">
+                <div class="container">
+                    <button class="navbar-toggler hidden-md-up pull-xs-left" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">
+                        &#9776;
+                    </button>
+
+                    <a class="navbar-brand" href="https://www.pv-magazine-brasil.com" title="pv magazine - Mercados e tecnologia de energia solar">
+		<img class="main-logo" src="https://www.pv-magazine-brasil.com/wp-content/themes/pvmagazine-brazil/_/img/logo.png" alt="pv magazine - Mercados e tecnologia de energia solar" title="Mercados e tecnologia de energia solar">
+</a>
+                    <div class="pull-xs-right">
+                        
+                        <div class="navbar-social pull-xs-left hidden-md-down">
+    <a href="https://twitter.com/pvmagbrasil" target="_blank" class="twitter-link"><i class="icon icon-twitter"></i></a>
+    <a href="https://www.facebook.com/pvmagazinebrasil/" target="_blank" class="facebook-link"><i class="icon icon-facebook"></i></a>
+    <a href="https://www.linkedin.com/company/pv-magazine-brasil/" target="_blank" class="linkedin-link"><i class="icon icon-linkedin"></i></a>
+</div>                        
+                        <a href="https://shop.pv-magazine.com/en/" class="btn btn-secondary btn-sm hidden-xs-down ">Subscrições</a>
+                        
+                                                    <a href="https://shop.pv-magazine.com/en//profile/" class="login btn btn-nav  "><i class="material-icons">&#xE7FD;</i></a>
+                        
+                                                <div id="search-toggle" class="search btn btn-nav hidden-sm-down">
+                            <div class="navbar-search">
+                                <div class="search">
+
+	<form method="get" class="search-form" action="https://www.pv-magazine-brasil.com/">
+	<div>
+		<input class="search-text" type="text" name="s" value="" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;" />
+		<input class="search-submit button" type="submit" value="Busca" />
+	</div>
+	</form><!-- .search-form -->
+
+</div><!-- .search -->                            </div>
+                            <i class="material-icons">&#xE8B6;</i>
+
+                        </div>
+                        
+                        <!--<div class="dropdown select-edition hidden-sm-down">
+    <a class="btn btn-nav dropdown-toggle" id="select-edition" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Edição Brasil
+    </a>
+    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="select-edition">
+        <a target="_blank" href="https://www.pv-magazine-latam.com/" class="dropdown-item">Edição América latina</a>
+        <a target="_blank" href="https://www.pv-magazine.es/" class="dropdown-item">Edição Espanha</a>
+        <a target="_blank" href="https://www.pv-magazine.com/" class="dropdown-item">Edição Global</a>
+        <a target="_blank" href="https://www.pv-magazine.de/" class="dropdown-item">Edição Alemanha</a>
+        <a target="_blank" href="https://www.pv-magazine-usa.com/" class="dropdown-item">Edição Estados Unidos</a>
+        <a target="_blank" href="https://www.pv-magazine-mexico.com/" class="dropdown-item">Edição México</a>
+        <a target="_blank" href="https://www.pv-magazine-china.com/" class="dropdown-item">Edição China</a>
+        <a target="_blank" href="https://www.pv-magazine-india.com/" class="dropdown-item">Edição Índia</a>
+        <a target="_blank" href="https://www.pv-magazine-australia.com/" class="dropdown-item">Edição Austrália</a>
+        <a target="_blank" href="https://www.pv-magazine.fr/" class="dropdown-item">Edição França</a>
+    </div>
+</div>-->
+                        
+                    </div>  
+                </div>
+            </nav>
+            <div class="edition-select-tablet hidden-sm-down hidden-lg-up">
+                <nav class="edition-select-top">
+    <div class="container">
+        <ul>
+            <li><a class="ess" target="_blank" href="https://www.ess-news.com/"><span>ESS News</span></a></li>
+            <li><a class="global" target="_blank" href="https://www.pv-magazine.com/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>Global</span></a></li>
+            <li><a class="germany" target="_blank" href="https://www.pv-magazine.de/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>Alemanha</span></a></li>
+            <li><a class="spain" target="_blank" href="https://www.pv-magazine.es/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>Espanha</span></a></li>
+            <li><a class="france" target="_blank" href="https://www.pv-magazine.fr/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>França</span></a></li>
+            <li><a class="italy" target="_blank" href="https://www.pv-magazine.it/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>Itália</span></a></li>
+            <li><a class="usa" target="_blank" href="https://pv-magazine-usa.com/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>Estados Unidos</span></a></li>
+            <li><a class="mexico" target="_blank" href="https://www.pv-magazine-mexico.com/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>México</span></a></li>
+            <li><a class="brazil" target="_blank" href="https://www.pv-magazine-brasil.com/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>Brasil</span></a></li>
+            <li><a class="latam" target="_blank" href="https://www.pv-magazine-latam.com/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>América latina</span></a></li>
+            <li><a class="australia" target="_blank" href="https://www.pv-magazine-australia.com/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>Austrália</span></a></li>
+            <li><a class="india" target="_blank" href="https://www.pv-magazine-india.com/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>Índia</span></a></li>
+            <li><a class="china" target="_blank" href="https://www.pv-magazine-china.com/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>China</span></a></li>
+        </ul>
+    </div>
+
+</nav>            </div>
+
+            <nav class="navbar navbar-dark navbar-main-menu collapse navbar-toggleable-sm" id="exCollapsingNavbar2">
+                <div class="container">
+                    <div class="nav-wrap clearfix" >
+                        <div class="hidden-md-up navbar-mobile-search">
+                            <div class="search">
+
+	<form method="get" class="search-form" action="https://www.pv-magazine-brasil.com/">
+	<div>
+		<input class="search-text" type="text" name="s" value="" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;" />
+		<input class="search-submit button" type="submit" value="Busca" />
+	</div>
+	</form><!-- .search-form -->
+
+</div><!-- .search -->                            <i class="material-icons" id="mobile-search-submit">&#xE8B6;</i>
+                        </div>
+                        <div class="edition-select-mobile hidden-md-up">
+                            <nav class="edition-select-top">
+    <div class="container">
+        <ul>
+            <li><a class="ess" target="_blank" href="https://www.ess-news.com/"><span>ESS News</span></a></li>
+            <li><a class="global" target="_blank" href="https://www.pv-magazine.com/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>Global</span></a></li>
+            <li><a class="germany" target="_blank" href="https://www.pv-magazine.de/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>Alemanha</span></a></li>
+            <li><a class="spain" target="_blank" href="https://www.pv-magazine.es/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>Espanha</span></a></li>
+            <li><a class="france" target="_blank" href="https://www.pv-magazine.fr/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>França</span></a></li>
+            <li><a class="italy" target="_blank" href="https://www.pv-magazine.it/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>Itália</span></a></li>
+            <li><a class="usa" target="_blank" href="https://pv-magazine-usa.com/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>Estados Unidos</span></a></li>
+            <li><a class="mexico" target="_blank" href="https://www.pv-magazine-mexico.com/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>México</span></a></li>
+            <li><a class="brazil" target="_blank" href="https://www.pv-magazine-brasil.com/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>Brasil</span></a></li>
+            <li><a class="latam" target="_blank" href="https://www.pv-magazine-latam.com/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>América latina</span></a></li>
+            <li><a class="australia" target="_blank" href="https://www.pv-magazine-australia.com/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>Austrália</span></a></li>
+            <li><a class="india" target="_blank" href="https://www.pv-magazine-india.com/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>Índia</span></a></li>
+            <li><a class="china" target="_blank" href="https://www.pv-magazine-china.com/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>China</span></a></li>
+        </ul>
+    </div>
+
+</nav>                        </div>
+                        
+		<ul id="menu-primary-items" class="nav navbar-nav"><li id="menu-item-117" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-117"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Notícias</a>
+<ul class="dropdown-menu">
+	<li id="menu-item-111" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-111 dropdown-item"><a href="https://www.pv-magazine-brasil.com/noticias/">Todas as notícias</a></li>
+	<li id="menu-item-37633" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-37633 dropdown-item"><a href="https://www.pv-magazine-brasil.com/category/armazenamento-de-energia/">Armazenamento de Energia</a></li>
+	<li id="menu-item-119" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-119 dropdown-item"><a href="/comunicados/">Comunicados de imprensa</a></li>
+	<li id="menu-item-37624" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children dropdown menu-item-37624 dropdown-item dropdown-submenu"><a href="https://www.pv-magazine-brasil.com/category/fabricacao/" class="dropdown-toggle" data-toggle="dropdown">Fabricação</a>
+	<ul class="dropdown-menu">
+		<li id="menu-item-37625" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-37625 dropdown-item"><a href="https://www.pv-magazine-brasil.com/category/fabricacao/equilibrio-de-sistemas/">Equilíbrio de Sistemas</a></li>
+		<li id="menu-item-37626" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-37626 dropdown-item"><a href="https://www.pv-magazine-brasil.com/category/fabricacao/inversores/">Inversores</a></li>
+		<li id="menu-item-37627" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-37627 dropdown-item"><a href="https://www.pv-magazine-brasil.com/category/fabricacao/modulos-e-fabricacao-upstream-fabricacao/">Módulos e fabricação upstream</a></li>
+	</ul>
+</li>
+	<li id="menu-item-37635" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-37635 dropdown-item"><a href="https://www.pv-magazine-brasil.com/category/hidrogenio/">Hidrogênio</a></li>
+	<li id="menu-item-37631" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children dropdown menu-item-37631 dropdown-item dropdown-submenu"><a href="https://www.pv-magazine-brasil.com/category/instalacoes/" class="dropdown-toggle" data-toggle="dropdown">Instalações</a>
+	<ul class="dropdown-menu">
+		<li id="menu-item-37629" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-37629 dropdown-item"><a href="https://www.pv-magazine-brasil.com/category/instalacoes/geracao-centralizada/">Geração centralizada</a></li>
+		<li id="menu-item-37630" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-37630 dropdown-item"><a href="https://www.pv-magazine-brasil.com/category/instalacoes/geracao-distribuida/">Geração distribuida</a></li>
+	</ul>
+</li>
+	<li id="menu-item-37632" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children dropdown menu-item-37632 dropdown-item dropdown-submenu"><a href="https://www.pv-magazine-brasil.com/category/mercados-politicas/" class="dropdown-toggle" data-toggle="dropdown">Mercados &amp; Políticas</a>
+	<ul class="dropdown-menu">
+		<li id="menu-item-37634" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-37634 dropdown-item"><a href="https://www.pv-magazine-brasil.com/category/mercados-politicas/financas/">Finanças</a></li>
+		<li id="menu-item-37636" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-37636 dropdown-item"><a href="https://www.pv-magazine-brasil.com/category/mercados-politicas/juridico/">Jurídico</a></li>
+	</ul>
+</li>
+	<li id="menu-item-37637" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-37637 dropdown-item"><a href="https://www.pv-magazine-brasil.com/category/opinion/">Opinião</a></li>
+	<li id="menu-item-37642" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-37642 dropdown-item"><a href="https://www.pv-magazine-brasil.com/category/tecnologia-pd/">Tecnologia P&amp;D</a></li>
+</ul>
+</li>
+<li id="menu-item-20688" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-20688"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Eventos</a>
+<ul class="dropdown-menu">
+	<li id="menu-item-49105" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-49105 dropdown-item"><a href="https://www.pv-magazine.com/event-series/pv-mag-events/">pv magazine Events</a></li>
+	<li id="menu-item-33235" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-33235 dropdown-item"><a href="https://www.pv-magazine.com/pv-magazine-events/sse24/">Solar + Storage España</a></li>
+	<li id="menu-item-20689" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20689 dropdown-item"><a href="https://www.pv-magazine.com/event-series/pv-mag-events/">pv magazine Roundtables</a></li>
+	<li id="menu-item-20690" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20690 dropdown-item"><a href="https://www.pv-magazine.com/webinars/">pv magazine Webinars</a></li>
+</ul>
+</li>
+<li id="menu-item-122" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-122"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Sobre nós</a>
+<ul class="dropdown-menu">
+	<li id="menu-item-108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-108 dropdown-item"><a href="https://www.pv-magazine-brasil.com/a-equipe/">A equipe</a></li>
+	<li id="menu-item-114" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-114 dropdown-item"><a href="https://www.pv-magazine-brasil.com/contacto/">Contato</a></li>
+	<li id="menu-item-110" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-110 dropdown-item"><a href="https://www.pv-magazine-brasil.com/newsletter/">Assine o Newsletter</a></li>
+	<li id="menu-item-123" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-123 dropdown-item"><a href="http://shop.pv-magazine.com/">Assine a pv magazine</a></li>
+	<li id="menu-item-37638" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37638 dropdown-item"><a href="https://www.pv-magazine-brasil.com/normas-comunitarias/">Normas comunitárias</a></li>
+</ul>
+</li>
+<li id="menu-item-42348" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-42348"><a href="https://www.pv-magazine-brasil.com/revistas/">Revistas</a></li>
+<li id="menu-item-115" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-115"><a href="https://www.pv-magazine-brasil.com/publicidade/">Publicidade</a></li>
+</ul>
+                        
+                        
+                    </div><!--/.nav-collapse -->
+                </div>
+            </nav>
+                        <div class="container">
+                <div class="row">
+                    <div class="ad ad-leaderboard ad-leaderboard-google">
+	<div id="leaderboard_top_2">
+	</div> 
+</div>
+
+                                    </div>
+            </div>
+      
+
+       
+
+        <div class="singular-wrap singular-wrap-one-column">
+
+            <div class="">
+            
+               
+                    <div class="singular-inner">
+
+                    
+                        
+                            <div id="content" class="content" role="main" itemprop="mainContentOfPage">
+
+                                <h1 class="entry-title" itemprop="headline">Edição para Intersolar Summit Brasil Nordeste 2025</h1>
+
+                                <div class="entry-content">
+                                                                        <p>Por ocasião da Intersolar Summit Brasil Nordeste 2025, o <strong>pv magazine</strong> publica uma edição especial sobre os últimos avanços no mercado fotovoltaico brasileiro.</p>
+<p><a href="https://player.flipsnack.com/?hash=NTg4QTVBREVGQjUremszeWt0MTZyaA==" target="_blank" rel="noopener">Prévia</a></p>
+<p><img fetchpriority="high" decoding="async" class="wp-image-55831 alignleft" src="https://www.pv-magazine-brasil.com/wp-content/uploads/sites/13/2025/04/SE-ISBrazil2025-Title_h1697px_72dpi-566x800.png" alt="Special Edition Intersolar Nordeste 2025" width="229" height="324" srcset="https://www.pv-magazine-brasil.com/wp-content/uploads/sites/13/2025/04/SE-ISBrazil2025-Title_h1697px_72dpi-566x800.png 566w, https://www.pv-magazine-brasil.com/wp-content/uploads/sites/13/2025/04/SE-ISBrazil2025-Title_h1697px_72dpi-724x1024.png 724w, https://www.pv-magazine-brasil.com/wp-content/uploads/sites/13/2025/04/SE-ISBrazil2025-Title_h1697px_72dpi-768x1086.png 768w, https://www.pv-magazine-brasil.com/wp-content/uploads/sites/13/2025/04/SE-ISBrazil2025-Title_h1697px_72dpi-1086x1536.png 1086w, https://www.pv-magazine-brasil.com/wp-content/uploads/sites/13/2025/04/SE-ISBrazil2025-Title_h1697px_72dpi.png 1200w" sizes="(max-width: 229px) 100vw, 229px" /></p>
+<h2>2025: Uma restrição, diversas soluções</h2>
+<p>Abril 2025 &#8211; Edición en portugués</p>
+<p>Tópicos:</p>
+<ul>
+<li><strong>BESS as a Service:</strong> <span class="TextRun SCXW258927926 BCX2" lang="PT-BR" xml:lang="PT-BR" data-contrast="none"><span class="NormalTextRun SCXW258927926 BCX2">mais empresas oferecem sistemas de armazenamento como um serviço para consumidores comerciais e industriais, aposta que elimina a necessidade de investimento inicial do cliente. </span></span></li>
+<li data-leveltext="" data-font="Symbol" data-listid="2" data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}" aria-setsize="-1" data-aria-posinset="2" data-aria-level="1"><b><span data-contrast="none">O futuro da energia solar no agro: </span></b><span data-contrast="none">como arranjos agrovoltaicos podem ampliar o atendimento ao agronegócio e as iniciativas brasileiras. </span><span data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;201341983&quot;:0,&quot;335551550&quot;:1,&quot;335551620&quot;:1,&quot;335559685&quot;:720,&quot;335559737&quot;:0,&quot;335559738&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:279,&quot;335559991&quot;:360}"> </span></li>
+<li data-leveltext="" data-font="Symbol" data-listid="2" data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}" aria-setsize="-1" data-aria-posinset="3" data-aria-level="1"><b><span data-contrast="none">Como e quando hibridizar sistemas fotovoltaicos: </span></b><span data-contrast="none">especialistas dão dicas de como avaliar a oportunidade de investimentos em solar e bateria</span><span data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;201341983&quot;:0,&quot;335551550&quot;:1,&quot;335551620&quot;:1,&quot;335559685&quot;:720,&quot;335559737&quot;:0,&quot;335559738&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:279,&quot;335559991&quot;:360}"> </span></li>
+<li data-leveltext="" data-font="Symbol" data-listid="2" data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}" aria-setsize="-1" data-aria-posinset="4" data-aria-level="1"><b><span data-contrast="none">Leilões para baterias: </span></b><span data-contrast="none">as expectativas em torno das concorrências que podem destravar projetos na escala dos GW</span><span data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;201341983&quot;:0,&quot;335551550&quot;:1,&quot;335551620&quot;:1,&quot;335559685&quot;:720,&quot;335559737&quot;:0,&quot;335559738&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:279,&quot;335559991&quot;:360}"> </span></li>
+<li data-leveltext="" data-font="Symbol" data-listid="2" data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}" aria-setsize="-1" data-aria-posinset="5" data-aria-level="1"><b><span data-contrast="none">E mais!</span></b><span data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;201341983&quot;:0,&quot;335551550&quot;:1,&quot;335551620&quot;:1,&quot;335559685&quot;:720,&quot;335559737&quot;:0,&quot;335559738&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:279,&quot;335559991&quot;:360}"> </span></li>
+</ul>
+<p style="text-align: center;">
+<p>&nbsp;</p>
+
+                <div class='gf_browser_chrome gform_wrapper gravity-theme gform-theme--no-framework' data-form-theme='gravity-theme' data-form-index='0' id='gform_wrapper_7' >
+                        <div class='gform_heading'>
+                            <h2 class="gform_title">Faça o download da nossa última Edição especial 2025</h2>
+                            <p class='gform_description'></p>
+                        </div><form method='post' enctype='multipart/form-data'  id='gform_7'  action='/edicao-para-intersolar-summit-brasil-nordeste-2025/' data-formid='7' >
+                        <div class='gform-body gform_body'><div id='gform_fields_7' class='gform_fields top_label form_sublabel_above description_above'><fieldset id="field_7_1"  class="gfield gfield--type-name gfield_contains_required field_sublabel_above gfield--no-description field_description_above gfield_visibility_visible"  data-js-reload="field_7_1"><legend class='gfield_label gform-field-label gfield_label_before_complex'  >Nome<span class="gfield_required"><span class="gfield_required gfield_required_text">(obrigatório)</span></span></legend><div class='ginput_complex ginput_container ginput_container--name no_prefix has_first_name no_middle_name has_last_name no_suffix gf_name_has_2 ginput_container_name gform-grid-row' id='input_7_1'>
+                            
+                            <span id='input_7_1_3_container' class='name_first gform-grid-col gform-grid-col--size-auto' >
+                                                    <label for='input_7_1_3' class='gform-field-label gform-field-label--type-sub '>Primeiro nome</label>
+                                                    <input type='text' name='input_1.3' id='input_7_1_3' value=''   aria-required='true'    autocomplete="given-name" />
+                                                </span>
+                            
+                            <span id='input_7_1_6_container' class='name_last gform-grid-col gform-grid-col--size-auto' >
+                                                            <label for='input_7_1_6' class='gform-field-label gform-field-label--type-sub '>Sobrenome</label>
+                                                            <input type='text' name='input_1.6' id='input_7_1_6' value=''   aria-required='true'    autocomplete="family-name" />
+                                                        </span>
+                            
+                        </div></fieldset><div id="field_7_9"  class="gfield gfield--type-email gfield--width-full gfield_contains_required field_sublabel_above gfield--no-description field_description_above gfield_visibility_visible"  data-js-reload="field_7_9"><label class='gfield_label gform-field-label' for='input_7_9' >Email<span class="gfield_required"><span class="gfield_required gfield_required_text">(obrigatório)</span></span></label><div class='ginput_container ginput_container_email'>
+                            <input name='input_9' id='input_7_9' type='text' value='' class='large'    aria-required="true" aria-invalid="false"  />
+                        </div></div><div id="field_7_11"  class="gfield gfield--type-text gfield--width-full gfield_contains_required field_sublabel_above gfield--no-description field_description_above gfield_visibility_visible"  data-js-reload="field_7_11"><label class='gfield_label gform-field-label' for='input_7_11' >Empresa<span class="gfield_required"><span class="gfield_required gfield_required_text">(obrigatório)</span></span></label><div class='ginput_container ginput_container_text'><input name='input_11' id='input_7_11' type='text' value='' class='large'     aria-required="true" aria-invalid="false"   /> </div></div><div id="field_7_7"  class="gfield gfield--type-select gfield--width-full gfield_contains_required field_sublabel_above gfield--no-description field_description_above gfield_visibility_visible"  data-js-reload="field_7_7"><label class='gfield_label gform-field-label' for='input_7_7' >País<span class="gfield_required"><span class="gfield_required gfield_required_text">(obrigatório)</span></span></label><div class='ginput_container ginput_container_select'><select name='input_7' id='input_7_7' class='large gfield_select'    aria-required="true" aria-invalid="false" ><option value='' selected='selected' class='gf_placeholder'>Selecione o país</option><option value='Afghanistan' >Afghanistan</option><option value='Albania' >Albania</option><option value='Algeria' >Algeria</option><option value='American Samoa' >American Samoa</option><option value='Andorra' >Andorra</option><option value='Angola' >Angola</option><option value='Anguilla' >Anguilla</option><option value='Antarctica' >Antarctica</option><option value='Antigua and Barbuda' >Antigua and Barbuda</option><option value='Argentina' >Argentina</option><option value='Armenia' >Armenia</option><option value='Aruba' >Aruba</option><option value='Australia' >Australia</option><option value='Austria' >Austria</option><option value='Azerbaijan' >Azerbaijan</option><option value='Bahamas' >Bahamas</option><option value='Bahrain' >Bahrain</option><option value='Bangladesh' >Bangladesh</option><option value='Barbados' >Barbados</option><option value='Belarus' >Belarus</option><option value='Belgium' >Belgium</option><option value='Belize' >Belize</option><option value='Benin' >Benin</option><option value='Bermuda' >Bermuda</option><option value='Bhutan' >Bhutan</option><option value='Bolivia' >Bolivia</option><option value='Bonaire, Sint Eustatius and Saba' >Bonaire, Sint Eustatius and Saba</option><option value='Bosnia and Herzegovina' >Bosnia and Herzegovina</option><option value='Botswana' >Botswana</option><option value='Bouvet Island' >Bouvet Island</option><option value='Brazil' >Brazil</option><option value='British Indian Ocean Territory' >British Indian Ocean Territory</option><option value='Brunei Darussalam' >Brunei Darussalam</option><option value='Bulgaria' >Bulgaria</option><option value='Burkina Faso' >Burkina Faso</option><option value='Burundi' >Burundi</option><option value='Cabo Verde' >Cabo Verde</option><option value='Cambodia' >Cambodia</option><option value='Cameroon' >Cameroon</option><option value='Canada' >Canada</option><option value='Cayman Islands' >Cayman Islands</option><option value='Central African Republic' >Central African Republic</option><option value='Chad' >Chad</option><option value='Chile' >Chile</option><option value='China' >China</option><option value='Christmas Island' >Christmas Island</option><option value='Cocos Islands' >Cocos Islands</option><option value='Colombia' >Colombia</option><option value='Comoros' >Comoros</option><option value='Congo' >Congo</option><option value='Congo, Democratic Republic of the' >Congo, Democratic Republic of the</option><option value='Cook Islands' >Cook Islands</option><option value='Costa Rica' >Costa Rica</option><option value='Croatia' >Croatia</option><option value='Cuba' >Cuba</option><option value='Curaçao' >Curaçao</option><option value='Cyprus' >Cyprus</option><option value='Czechia' >Czechia</option><option value='Côte d&#039;Ivoire' >Côte d&#039;Ivoire</option><option value='Denmark' >Denmark</option><option value='Djibouti' >Djibouti</option><option value='Dominica' >Dominica</option><option value='Dominican Republic' >Dominican Republic</option><option value='Ecuador' >Ecuador</option><option value='Egypt' >Egypt</option><option value='El Salvador' >El Salvador</option><option value='Equatorial Guinea' >Equatorial Guinea</option><option value='Eritrea' >Eritrea</option><option value='Estonia' >Estonia</option><option value='Eswatini' >Eswatini</option><option value='Ethiopia' >Ethiopia</option><option value='Falkland Islands' >Falkland Islands</option><option value='Faroe Islands' >Faroe Islands</option><option value='Fiji' >Fiji</option><option value='Finland' >Finland</option><option value='France' >France</option><option value='French Guiana' >French Guiana</option><option value='French Polynesia' >French Polynesia</option><option value='French Southern Territories' >French Southern Territories</option><option value='Gabon' >Gabon</option><option value='Gambia' >Gambia</option><option value='Georgia' >Georgia</option><option value='Germany' >Germany</option><option value='Ghana' >Ghana</option><option value='Gibraltar' >Gibraltar</option><option value='Greece' >Greece</option><option value='Greenland' >Greenland</option><option value='Grenada' >Grenada</option><option value='Guadeloupe' >Guadeloupe</option><option value='Guam' >Guam</option><option value='Guatemala' >Guatemala</option><option value='Guernsey' >Guernsey</option><option value='Guinea' >Guinea</option><option value='Guinea-Bissau' >Guinea-Bissau</option><option value='Guyana' >Guyana</option><option value='Haiti' >Haiti</option><option value='Heard Island and McDonald Islands' >Heard Island and McDonald Islands</option><option value='Holy See' >Holy See</option><option value='Honduras' >Honduras</option><option value='Hong Kong' >Hong Kong</option><option value='Hungary' >Hungary</option><option value='Iceland' >Iceland</option><option value='India' >India</option><option value='Indonesia' >Indonesia</option><option value='Iran' >Iran</option><option value='Iraq' >Iraq</option><option value='Ireland' >Ireland</option><option value='Isle of Man' >Isle of Man</option><option value='Israel' >Israel</option><option value='Italy' >Italy</option><option value='Jamaica' >Jamaica</option><option value='Japan' >Japan</option><option value='Jersey' >Jersey</option><option value='Jordan' >Jordan</option><option value='Kazakhstan' >Kazakhstan</option><option value='Kenya' >Kenya</option><option value='Kiribati' >Kiribati</option><option value='Korea, Democratic People&#039;s Republic of' >Korea, Democratic People&#039;s Republic of</option><option value='Korea, Republic of' >Korea, Republic of</option><option value='Kuwait' >Kuwait</option><option value='Kyrgyzstan' >Kyrgyzstan</option><option value='Lao People&#039;s Democratic Republic' >Lao People&#039;s Democratic Republic</option><option value='Latvia' >Latvia</option><option value='Lebanon' >Lebanon</option><option value='Lesotho' >Lesotho</option><option value='Liberia' >Liberia</option><option value='Libya' >Libya</option><option value='Liechtenstein' >Liechtenstein</option><option value='Lithuania' >Lithuania</option><option value='Luxembourg' >Luxembourg</option><option value='Macao' >Macao</option><option value='Madagascar' >Madagascar</option><option value='Malawi' >Malawi</option><option value='Malaysia' >Malaysia</option><option value='Maldives' >Maldives</option><option value='Mali' >Mali</option><option value='Malta' >Malta</option><option value='Marshall Islands' >Marshall Islands</option><option value='Martinique' >Martinique</option><option value='Mauritania' >Mauritania</option><option value='Mauritius' >Mauritius</option><option value='Mayotte' >Mayotte</option><option value='Mexico' >Mexico</option><option value='Micronesia' >Micronesia</option><option value='Moldova' >Moldova</option><option value='Monaco' >Monaco</option><option value='Mongolia' >Mongolia</option><option value='Montenegro' >Montenegro</option><option value='Montserrat' >Montserrat</option><option value='Morocco' >Morocco</option><option value='Mozambique' >Mozambique</option><option value='Myanmar' >Myanmar</option><option value='Namibia' >Namibia</option><option value='Nauru' >Nauru</option><option value='Nepal' >Nepal</option><option value='Netherlands' >Netherlands</option><option value='New Caledonia' >New Caledonia</option><option value='New Zealand' >New Zealand</option><option value='Nicaragua' >Nicaragua</option><option value='Niger' >Niger</option><option value='Nigeria' >Nigeria</option><option value='Niue' >Niue</option><option value='Norfolk Island' >Norfolk Island</option><option value='North Macedonia' >North Macedonia</option><option value='Northern Mariana Islands' >Northern Mariana Islands</option><option value='Norway' >Norway</option><option value='Oman' >Oman</option><option value='Pakistan' >Pakistan</option><option value='Palau' >Palau</option><option value='Palestine, State of' >Palestine, State of</option><option value='Panama' >Panama</option><option value='Papua New Guinea' >Papua New Guinea</option><option value='Paraguay' >Paraguay</option><option value='Peru' >Peru</option><option value='Philippines' >Philippines</option><option value='Pitcairn' >Pitcairn</option><option value='Poland' >Poland</option><option value='Portugal' >Portugal</option><option value='Puerto Rico' >Puerto Rico</option><option value='Qatar' >Qatar</option><option value='Romania' >Romania</option><option value='Russian Federation' >Russian Federation</option><option value='Rwanda' >Rwanda</option><option value='Réunion' >Réunion</option><option value='Saint Barthélemy' >Saint Barthélemy</option><option value='Saint Helena, Ascension and Tristan da Cunha' >Saint Helena, Ascension and Tristan da Cunha</option><option value='Saint Kitts and Nevis' >Saint Kitts and Nevis</option><option value='Saint Lucia' >Saint Lucia</option><option value='Saint Martin' >Saint Martin</option><option value='Saint Pierre and Miquelon' >Saint Pierre and Miquelon</option><option value='Saint Vincent and the Grenadines' >Saint Vincent and the Grenadines</option><option value='Samoa' >Samoa</option><option value='San Marino' >San Marino</option><option value='Sao Tome and Principe' >Sao Tome and Principe</option><option value='Saudi Arabia' >Saudi Arabia</option><option value='Senegal' >Senegal</option><option value='Serbia' >Serbia</option><option value='Seychelles' >Seychelles</option><option value='Sierra Leone' >Sierra Leone</option><option value='Singapore' >Singapore</option><option value='Sint Maarten' >Sint Maarten</option><option value='Slovakia' >Slovakia</option><option value='Slovenia' >Slovenia</option><option value='Solomon Islands' >Solomon Islands</option><option value='Somalia' >Somalia</option><option value='South Africa' >South Africa</option><option value='South Georgia and the South Sandwich Islands' >South Georgia and the South Sandwich Islands</option><option value='South Sudan' >South Sudan</option><option value='Spain' >Spain</option><option value='Sri Lanka' >Sri Lanka</option><option value='Sudan' >Sudan</option><option value='Suriname' >Suriname</option><option value='Svalbard and Jan Mayen' >Svalbard and Jan Mayen</option><option value='Sweden' >Sweden</option><option value='Switzerland' >Switzerland</option><option value='Syria Arab Republic' >Syria Arab Republic</option><option value='Taiwan' >Taiwan</option><option value='Tajikistan' >Tajikistan</option><option value='Tanzania, the United Republic of' >Tanzania, the United Republic of</option><option value='Thailand' >Thailand</option><option value='Timor-Leste' >Timor-Leste</option><option value='Togo' >Togo</option><option value='Tokelau' >Tokelau</option><option value='Tonga' >Tonga</option><option value='Trinidad and Tobago' >Trinidad and Tobago</option><option value='Tunisia' >Tunisia</option><option value='Turkmenistan' >Turkmenistan</option><option value='Turks and Caicos Islands' >Turks and Caicos Islands</option><option value='Tuvalu' >Tuvalu</option><option value='Türkiye' >Türkiye</option><option value='US Minor Outlying Islands' >US Minor Outlying Islands</option><option value='Uganda' >Uganda</option><option value='Ukraine' >Ukraine</option><option value='United Arab Emirates' >United Arab Emirates</option><option value='United Kingdom' >United Kingdom</option><option value='United States' >United States</option><option value='Uruguay' >Uruguay</option><option value='Uzbekistan' >Uzbekistan</option><option value='Vanuatu' >Vanuatu</option><option value='Venezuela' >Venezuela</option><option value='Viet Nam' >Viet Nam</option><option value='Virgin Islands, British' >Virgin Islands, British</option><option value='Virgin Islands, U.S.' >Virgin Islands, U.S.</option><option value='Wallis and Futuna' >Wallis and Futuna</option><option value='Western Sahara' >Western Sahara</option><option value='Yemen' >Yemen</option><option value='Zambia' >Zambia</option><option value='Zimbabwe' >Zimbabwe</option><option value='Åland Islands' >Åland Islands</option></select></div></div><fieldset id="field_7_10"  class="gfield gfield--type-consent gfield--type-choice gfield--input-type-consent gfield--width-full gfield_contains_required field_sublabel_above gfield--has-description field_description_below gfield_visibility_visible"  data-js-reload="field_7_10"><legend class='gfield_label gform-field-label gfield_label_before_complex'  >Autorização<span class="gfield_required"><span class="gfield_required gfield_required_text">(obrigatório)</span></span></legend><div class='ginput_container ginput_container_consent'><input name='input_10.1' id='input_7_10_1' type='checkbox' value='1'  aria-describedby="gfield_consent_description_7_10" aria-required="true" aria-invalid="false"   /> <label class="gform-field-label gform-field-label--type-inline gfield_consent_label" for='input_7_10_1' >Eu concordo em receber a newsletter e confirmo que li as políticas de privacidade abaixo.</label><input type='hidden' name='input_10.2' value='Eu concordo em receber a newsletter e confirmo que li as políticas de privacidade abaixo.' class='gform_hidden' /><input type='hidden' name='input_10.3' value='3' class='gform_hidden' /></div><div class='gfield_description gfield_consent_description' id='gfield_consent_description_7_10'>Com este registro, você receberá a nossa última edição especial. Além da edição especial gratuita, você também receberá um boletim informativo regular com notícias do setor, bem como eventos e webinars organizados pela pv magazine. O download só é possível com o registro gratuito na newsletter, mas você pode cancelar a assinatura a qualquer momento. Mais informações sobre o processamento e armazenamento de dados podem ser encontradas em nossa política de privacidade no link abaixo. Você pode retirar o seu consentimento para o envio da newsletter a qualquer momento e cancelar a assinatura da newsletter entrando em contato com &#x73;&#x75;&#x70;&#x70;&#x6f;&#x72;&#x74;&#x40;&#x70;&#x76;&#x2d;&#x6d;&#x61;&#x67;&#x61;&#x7a;&#x69;&#x6e;&#x65;&#x2e;&#x64;&#x65;. Além disso, você pode declarar a desistência clicando no link fornecido em cada e-mail da newsletter.<br />
+<br />
+Você também confirma que tomou conhecimento da política de privacidade e concorda com o armazenamento e processamento de seus dados pessoais aqui fornecidos pela pv magazine group GmbH &amp; Co.</div></fieldset></div></div>
+        <div class='gform_footer top_label'> <input type='submit' id='gform_submit_button_7' class='gform_button button' value='Download gratuito'  onclick='if(window["gf_submitting_7"]){return false;}  window["gf_submitting_7"]=true;  ' onkeypress='if( event.keyCode == 13 ){ if(window["gf_submitting_7"]){return false;} window["gf_submitting_7"]=true;  jQuery("#gform_7").trigger("submit",[true]); }' /> 
+            <input type='hidden' class='gform_hidden' name='is_submit_7' value='1' />
+            <input type='hidden' class='gform_hidden' name='gform_submit' value='7' />
+            
+            <input type='hidden' class='gform_hidden' name='gform_unique_id' value='' />
+            <input type='hidden' class='gform_hidden' name='state_7' value='WyJ7XCI3XCI6W1wiNjlmNjZmMmUxNTM4OGY5NWI4MWQ2M2Y1ZGY3YjJjNzhcIixcIjhhMTg4YjkyNGNmYTFmMjUzZDNkYjAxZDQxODIyN2RkXCIsXCJhMDE4YWZkMTc3YTBiYWZiY2NjYjdhMTg1OWIwN2QwYlwiLFwiMzgzOTY0Nzk4NGRmYjJjMThjZDk0YjdkYmE4NzdmYWVcIixcImEwYTQ0YjQ2MWM0OWZkYTBkMTlmYWJiNWQ4OWMyOTgwXCIsXCJlMWIwYzBmYzEwZGZjZThmYWFmOTVhODQ2YmMwOTA1OFwiLFwiNzMyZjE1MDViZDNhYjRkNjBhN2QwOTg3MzRkOWE4ZjRcIixcIjQzYjBlZDYxMmQyYWU2Mzk3ZWMzZWQyNmUyYzRhMDQxXCIsXCJkMzE3OTg2MjUxYTc0ZDFlNjYwNzYzN2I3NzVkZTA5MVwiLFwiOTJmMDcxYzY2YTc1MzFjYzc1Y2MzNDE4N2Q2YzAxZmZcIixcIjJkZjg4YjA5MTA2NGMzNmQzMTg1YmE5MTk3ZTk4MzJkXCIsXCI0ZDc4NjVhMjg5M2FmY2YyMjg3YzJkMGJmOGU1NmRiNFwiLFwiYzNiNTE3MmVmOThkOTk5OTIxZTE5MzA3MmM3M2RiNzVcIixcIjkwMDZhOGNiODk2NTM1NTY2YzgwNGQ4NjAwODM1NjBjXCIsXCJmNGRiNDBmM2NlMjE3MmJlMzFmNTkzZWIwMTYzYmI2MVwiLFwiMDkzN2RmNTM5Y2ExZTY0NWJiMDMxZTljOTFmMmY4ZThcIixcIjhjNzY3MzczYzk3NzgxMDg3MzVkYzJkZjhlYTQ0Yzg2XCIsXCI5NDUwODI0Yzc0ZTc5YjQ1M2JmZDRhNDYxNWM4Zjk2ZVwiLFwiYzY4ZDJhMmQwMzA0MzY1ODNkNzhmMjhkZGIwMjFhMjFcIixcImJiZTIwYTY3ZmE3ZDU0ODMwNGJkMTFjNWNjNGU4ZDRlXCIsXCJkYmE5OWVhZjYzM2IxMGFiMDMzYWVhMzdmNWM1ZmFiZVwiLFwiZjNlY2I3MDA0NWQ0MTE5MGY5NmZlYTI1NjU0YzNiNTFcIixcIjE3ODI4MTc4YjZmM2EyMTRiMWJlYWM2YmMxZGViYTE2XCIsXCJhZWZlYTEwYzBiYzQ5YjI2MjZjMTVjNzZmMDM2MjcwN1wiLFwiOWNmMjMyYjEzMTIxMmQ3NWVhMjA5NDVhN2MwMjliMjRcIixcImRmZGVkMDg2OGUyZjRkMDI0Nzk0ZTU5OThhNDIwNTlhXCIsXCJmOGMxZmUyZTEyYzU4NGZhZmYyNzkwYmMxYjNmMzFkN1wiLFwiMTA1NzFiYjYwNDI5YmMzNTRkMThiZTRlNTVkZjY4NzJcIixcIjc5NzZiN2UzZTY2M2RhMzkxMzU4NWI1NjFiYWE2MWI0XCIsXCJlYjY0OTk3ODZlYzExODRjMDE2MWEyYzZmMWRiYWI0M1wiLFwiYmI1M2ZkMjM2NzkyMDUwNzBmMDk2MmI1NjQyN2VhY2ZcIixcIjZmMDFiZTY4ZTMwYjE2MGQxNGE2ZTY2NjFkNWUwMGM0XCIsXCIyZmQxMDFiZWQ3NWI2NTM5ZWM0NmU5MGIwZGY0NDVkMFwiLFwiNTdlYjUwYzY5MDU3ZTg0NTUzNWY0NDM4YmQxYTA3YjFcIixcIjFjMzNhNjlkMGViYzI4ZGZkMjI4MDFhMzAzNjcyYzJhXCIsXCIyM2U4Y2RiZTliOWU0OWJmYmYwODQ5ODdjMDRiZDc1YVwiLFwiMjFlYWUwYzU1MDc3YjVlNTI4MzczY2I2NzNhODY1OGJcIixcIjM1ZGU4NGIyOGFlZDQ0MGFlOWFmZmY1NTUyMDczM2Y3XCIsXCI2OTQzNTMwZWM1MWYyNWM0MWNjZjAwOWMzMDgzMjNhYlwiLFwiYmE3MjNkNTc3NGZmOTNlOTY0YjBlYjZjZDg2YWE4ZTFcIixcImMxYjAwMTZmNTY5MWVmNDFjNmVjMzNhMmFkYTgxYTA2XCIsXCI0ZGM2N2VlZTBlZDE2NTYwMmRiZmE4ZWE4MDc3Yzk0MlwiLFwiODNkZjg5Njk1MjQ2YjQ2YmIzYzk1NTgyYmY5NTg0ZGRcIixcImFmZjMyYzc1MmI3YzUyM2IxNzhkMjMzNWZhMzQ0OGJjXCIsXCIxNmI3ODVjNzMwNGUyOGJjNzkzM2ZhNGY2MjM2MjkxMlwiLFwiNjdmMDZkZTM3NWYwNWQxODc2OGU1YTNjYTQ3ZTQxYjJcIixcIjFkNzg5NDA5MjAzYWI4ZDQzMTFhNTI3YjIwYmIxZjY0XCIsXCIwMDkxN2FlNDBiN2UwYzUxZjlkYWIwZTczZGE4Y2FkOFwiLFwiMmRjMzE2ZTM0ZDI4MDkwMTE0NDkzYWE0Y2VjZWFmZGZcIixcImRlZDMxZDk4ZmYzOWQwMjJlNzgxYjNkNTQ3NDA5Y2Y1XCIsXCI1MWMzZjllOTYxY2ZiNzhiNDcwMWE0ZWU0MmZmOGNmZFwiLFwiZmU2NmM0MWM3NWE3NGMxZmI0MTYzNmY2YWIzYjI5MmFcIixcIjgyYjcxMGNiZjE3NDI0MWFjNDIwYWQ5Mzc0ZGQyZDFjXCIsXCIzMGE1N2Y5NWNhYWYyOWI2NWQ3MTZhYTk1NGNmMTNjZFwiLFwiOGIyOTIzMTYwNDY3MGVlMjVhZDU0OGNiYjJmMzlmZWVcIixcIjI2MWYxYTRkODMzMjM2ZDgyZDZiMWY1YmZhZWJmYTA4XCIsXCJjYjg1NWQ2MzFhOGZkY2M1YzJhMTkyNjgxNjI0ZTZjZVwiLFwiOTRlZjAxNTc4MzA5Yjc5YzUwN2YzNDdkYmVhNTcyNDdcIixcImM4MDkyMmEwNGRlY2ZlMjk2YjM4MWY5NjExMmMwNjkxXCIsXCI2NjAyMTQxMzJmNmE0NGExYTJiNmRiMTY5ZDY4NWE5MlwiLFwiZGY0NjI3ZmIyODhmMzIzYjRjZjU5YTBlZGUzNzZlNThcIixcImIwNWNmODg3YzBmYThlNzBhNDAzMDBkODAwMDk5NjVmXCIsXCI4NTBkMWE0ZWRjMGI5MWY0NTM1ZTQyYzMwMjc1MzkyZVwiLFwiZDk5NWI1ODNiZDAxMGUzY2FiYWFkZjlhNjI4ODAyNzZcIixcImExYWI1MTA1M2IwMzQ1M2ViYjczMTBiOTNiY2RlYWMzXCIsXCIxZGUzYmM0ZTI5ZDE5MjFmMjhhODQyN2Q4Mzg3MWZjYlwiLFwiOTQzYjYzYjEwY2VhNDcwNGUzNzAzMTM5MTFhN2ZkYmJcIixcIjNmYzZiNGM0MjFhMTg2MTM5NTVlMGRjZTNmYWFmYWU5XCIsXCJiOGFlNDU1Y2NmMTlmYjU0NDBmNmI3NmUzOGY1Y2Q3ZlwiLFwiZTc3MGVkY2NiZTk4NjRjNjE3Zjk2OTkyM2Y0NmZhOWRcIixcIjdlM2UyYjRkYTc4NTM5OGMwMGI0MzRjZjI5ODA2YWM3XCIsXCI4N2Q1ZjU0MDNhMTRjYTlmZmJkNTExMzIxYmYzOWJiY1wiLFwiNGIyYTc2ZGVjOTRjZDllMWNkMmM2MWRiMmRjMmUxMDZcIixcImY5NTA1MGQ0MjY0MjI1NGMzZTUzM2MxMzRiNTAwNTVmXCIsXCIxMGZjOWJkNjNjZThhYzNhZjY0YjAyYzZkMGZhYzhiMVwiLFwiMGUyMjQyYWVhMzI4ODBiY2RhZjZmNWE5ZDU4ODkzMjJcIixcIjYxNjE0YmQzZDliM2E5ZjA2MzY5Y2NmZDcxZWYyODc5XCIsXCJhODljOWFjMDdlMDJlZWM3ZWQ4YTc2OWJmNzlhNWVlYVwiLFwiNzZiYmI2NzlmYjVhM2QxNTcwNjZlMTE1ZGVhOWVhNTlcIixcIjFiMjZhY2M1ODQyYzcxMjcwODJhMWJlOTExMjg3MThkXCIsXCIyYjE5NTY2MWU1ZTg1OWQ0NTNlZGNhNTNiMjMxNTFiOVwiLFwiMzUyYmFmODQ1NGFkNDhiZTAzOGU4ZGIzYTQ4YzAwZDFcIixcIjcyMDBmNjFjNTI2ZGUxMDFiYzFjYmM2ZjdjNzllMTI0XCIsXCJjZTZjNTA5MjFmYmM2MzUwYzFlOTRiZjZlMWYwNDg2NFwiLFwiYjJkMzMxZGE4NzM5NzhiNmFhMDVhNDJjZjhhYjUyNjVcIixcImZjZjRiMTIwNGRlZGRhYTcwY2RmNmE0N2M3NjQ2ZTVmXCIsXCI0ZmEyZjYwNDM1NDNlNmI5YTA4YTFjZWZkNTQ3N2JiMlwiLFwiOGEwMDk5ZDQ5NWNjOTUxMmVjZGU1NTA3Y2UxMGI2ZjFcIixcIjI4MDcwMzZjZWRhYjI1N2M5OTMyNGUyY2MzMDMxNzIxXCIsXCJjZmQ5MWFiMzIwM2ZkZmY0NTYyM2QyYmQ0MjhiYzA1YlwiLFwiYTA4Yjg4ZDg1NWE4NTM3NzBiODQzNTZlZTRhYTJhNWFcIixcIjE3MDMzNDQ2OGI5NzUxMDllZThhNTZkOTMwYmM1MTU4XCIsXCIxNjRiZTJiMmVjNDRmYjhmZGFhYmMxMDM5OWQzOWMwYVwiLFwiMDU1YzAxNmFiYWQ2OGQzOGU1ZTJkMGFlN2QwMzQ2MjNcIixcIjI4ZWZiZDYzNzkxZjhiOGQ3MDg5NDM0OGM3MGM2YzJmXCIsXCI1ZDVjMDliYTkxZjAwZGE2YWVlMWRjYzA3ZjY1ODVkMFwiLFwiYTU3ODIwMmIzNDUyZDRjZTk2Yzg5YjAzZThmMThiYmNcIixcImI4MTc2ODQ2YzA0MTJhMmQ5MjVmMzAzZTIyYzlmZjc1XCIsXCI1MGNmMTUxYWQxZWRjMjliNGM0NjE3ZjU4NzI0MmRhZlwiLFwiOTRhM2M1NWMxMTc2OTdjOGE5YmQ4ODY3MDZiNzJkOGJcIixcIjI4ZjYzZTM4ZjRmNWM5OGRhOGE1NGMyMjZkOWFlNzgwXCIsXCI2YmIwZjg3ZGFjNTQ1YjIwNTllNTg5N2EzODQ4NGNlOVwiLFwiYTc4NDY4OTVmYWUwMTcxMTI0ZTZiYjA3OGVlZTZkNjlcIixcImE1ZmEzZjI3NDUxZmQxZGE5MzJkMDY1MzM0ODM1NjU0XCIsXCIwMjY0MTkzYzQ0MTFkZmUzZTA4OTBmYjdmZDc4YzQ2ZVwiLFwiMzM2YzdmMmY0ZjIwM2JmYjYzODc3ZDI4M2RmYTNhODJcIixcIjQ0NmQ3ZjQ0ODNiZGU4ZjVkY2EwMDBlYWFkNjNkMGQxXCIsXCJhNWZlNDYwNDk3ZjhjNGE5ZTBmMWRmYzAxZWVmMmUxY1wiLFwiOWU1NGE4MzY4N2JhZWU1OTlmNjBkNTAwYzk0NjYzZjZcIixcIjU1Y2VjZGE5MDA0ZjdjZDk2YzIyNTEyYzc1YzU3NGRiXCIsXCJkOWE1ZTNiZjBjZWM2NDQwMjBmNDRkZmY2NmZmNWFhZVwiLFwiOWJiNjc5YjBiZmNjZTE3YjY5NzllZThmYjM3OGNlZDFcIixcIjM4YzExODkwODVkNGMxZjBhNjZkMzU4MTMwNTY1YjhlXCIsXCJiNzhkOTBjMjgyY2M0NmU2NTgyYThhMTc2NzQyMDBjY1wiLFwiNWIyNTMwZDhlNWE4MTQ0MzJhNjNmMmQ0MjljMWQ0NWRcIixcImM4NDk4MzYwNDhhZGYyYjEzOWNmZWNjZDc5Y2M1YzYxXCIsXCI1NDFiNTI1OTI5MGY2NDZkZWE0ODM0MTU3NzVlZjc4OVwiLFwiMDMyNGY3NDFkMmYzNmQ1M2E2NGFhMjU4OTlkM2I5MjBcIixcIjEyZDFmZjI2YTc2NTg5MDhkNjg1ZjQzNjVhZjU4ZTZlXCIsXCJjMDMyN2Y3NzMwZDI0Y2Y2YTI4MTIyNzdkZDk5ZjYwYVwiLFwiNDk3OTg1OGRkODUyZDk1YjBkYzE4YTVhOTc5NmIxZmZcIixcImY1ZjFhNmU5MWUzYTI3ZmYyYjRhZGM4ZjBlYzJmNzFjXCIsXCIwYzMzZTM2ZmVlYTFmNGNkODc2ZmZmMzc3OTk0MTJkNlwiLFwiMWJmZjQwZWMwYWU2NTcyZDEwMGM0OGMyZmJmNjUzZDFcIixcIjFlZjMzMjg1ZTc3ZDcyZmU0MmUzYTBhY2E3YjhkODMxXCIsXCI5ZjFmYTZiZmMwNDFhZjI0Y2I2ODU5ZDM1MWY2ZTJkMlwiLFwiZDMyYzlhMDAwOTY0ZmU4NGVmMzQ3NGJhMjAyNzZmYjJcIixcIjg4ZTgwZTM2YTYyYzI2NjMzN2I0MWVhZDIyMmIzMGFjXCIsXCJkZDI1ZTBmMDQ4YTU3Y2QwYWRkZDQ4ZjBkYWQ3NzgxNVwiLFwiY2VjNjY4ZmNmMmMzMzI3ZDVhMDdlYjEwYjY3MjNjZWZcIixcIjhkMmY4ZWZjZWZiM2UzZGE4M2U0MWVmZWIxYzQzNzExXCIsXCJhZjk5Mzc3ZjBkZTkxZjZlYjg3MjI0NDViZjIyZmYwYVwiLFwiNWEyZTQzMDYwZWZkZjk5YTg3MDNhODAwYzJkYjg1MWVcIixcImZhMDQ0NWNlZGM5OWRhMDdkYWY3ZjJiOGIzMjhhMzU0XCIsXCI5NjcyNWRiYzAzMDM5ZjcxZmJjYWRjMTUxZmRhM2FkZVwiLFwiNmQyNmQxMmNlMGIwYmZjZDFkYzZjZDRkZmRmMzkwOTFcIixcIjFkZGYzNWQ0ZDBmNDc5NTg2Yzk2ZjI3MWU5NGExN2JlXCIsXCI3ZTMwY2JkMGMxMzcxMTY4NTIyN2MxNTZkY2ZkZWIwNlwiLFwiNTZjOTE1MjMxMDU1Y2MyMzVlN2FiMzBjM2VlYzVhMGJcIixcIjkyNWJhMGZlZWM5NGQ2NjgyZmE3NGIxZmUxMWIyNjJiXCIsXCJjNDBjNzFmOTk4ZmMzYWNmODZkZjk5MDZkMjZlNzFiMVwiLFwiOTgwYTQwMTdmODlhMDIxZDFkYTM0NDYyOTJjNjJiMjFcIixcImZhZmZkM2NkZDVjOWJhYTBkNjU1YmViMWY4MjNlZTkyXCIsXCIxOGQ0OTJjZmU0ODA3NjU0ZThkNDE0NTZmZjk1Nzc4OVwiLFwiYTM1ZTlkMzk4NzA4ZGRmZmYyMWYxZTAwOGY2NzJjYTNcIixcImM4NzhjZGRjZmY0NmQ2N2VmZDE3ZmQzYzlkMjRjMDMzXCIsXCIyMGQ0NTBiYmQ0ODNiNzE4ODMyMzU5ZmU5YjExNGU1MFwiLFwiMWRhZDI2MmNjZDBkYzUwNjgzYjJjNTQxMDc4ZTA4ZGJcIixcIjNhM2UzMTM1M2QzZmYzNGU4NmNkMTVkYWRiNjg2OTJhXCIsXCIyYWJmNzQ5NzRiYTZmNmZlNWZkYzAzNDBjMmVlMzFkNFwiLFwiMzk3ZWVhZGI3YjA5Zjg2MDkwZTlhNGFjNDIwNDcwOGFcIixcIjI2MDExNWMzMjFkZmE0ZTZmM2UzYTFlOGI1NTg0ZTdjXCIsXCI2NDA3NjM2YzE1MzkxZjJhYjZiN2U4YzQzMzIyZGZmMFwiLFwiMzI5OTNjZDIzOWRmZGZjZmJkYWNmNmY5NjU1YjNlZWZcIixcIjhlM2U3NTUyYzhkMjg2MjNmOGFkNDEwOTY0NThlOWRhXCIsXCIxOTNjYTYzZWNkZTY5MmJhZDk4NjkwMTNiY2FhNDQ1MlwiLFwiMTRmNjY0Yjk4ODA3NTNmMGUxYjA0NjEwNGRjNDZlYmVcIixcIjliZDk5ZmRiNzc5NDM5YjMxZGExYTQxMmMwZjNlZjZhXCIsXCJiODU2OGNmN2E1OGQ5YWMwZjExNmY3ZWI2MDMyZTk5OVwiLFwiMmUwYTRmMjM4N2M2MmE5ODU3OTlmZWQ3YzE2NDFkZGVcIixcIjljYTJlODMxYWU4NDBjNjBjMDhmYTczZDNhZmRmYTgyXCIsXCIyMmM1YzY1MTFjZGRkN2E3Njg0ZGY3ZDJhOGQ4NDc4MVwiLFwiMmQ2ZjU1ODhkOTkwNmYwNjAzODM2MGQ0ZmNiY2IyNTNcIixcIjA1NWZiNmRkODcxNmNjYjY1YWZmMmNjZTVhY2Y3YzgxXCIsXCIzMDE1YzYzMWE2NzRhOGNkNjRlMDJmNmE4YTZmODhhOFwiLFwiZmM1ZTc4ZjI1NWMwN2VlMTRjMDQ1MDc0M2JiYmEwMmFcIixcImUzMGYzMmIyYzU2OWJlNzI3MmI3ODA0MjA1NmQ0N2FhXCIsXCJkMjQwZDJjOGJhMTA4Y2EzYjZjNjM5NWRkYTQ2ZjIwYVwiLFwiZjY0MzY0MGY5MjQyNWZmMDJiODhlZDdhM2I4MWM2ZDJcIixcIjEzMTIyY2E1MGQ0MWYyNzFiOGMwMzRkYjFiODc0NzgwXCIsXCI2OGVjOGI3NGIyMDU2NzdjOTU1ZGExZTNjNDU1ZjEwMlwiLFwiZTAyZTk0NWNkNzIyMTAyYzM2Njk3ZWEwMDlkYWNhZjFcIixcIjQ0NTVjODJkZTNjZGI5ZWY4NTY2MmY4MGEyYTI5MDkwXCIsXCJjZWEyZGQyMDU3MmU1MzY5MTdkYjAxZDdlYTRmYmE4ZlwiLFwiZTM3ZWNmOGI2ZTEzZDRiMTExOWY0ZDJiODFjZjhjNDhcIixcImQ5NjA5MDdmODVjZDg5MDEwZWExMDY3MmFmOWEzNTY2XCIsXCJkN2Q5MjQwMjdjNDUxNDkwYzg1YWUwMzM1ODI1OGFkN1wiLFwiNDE5NjQ0NjdkZmQ4YWRlOWY2N2RiNjEzM2Y2NmJkMTFcIixcImNjNWJhMzc5NzYyNWMxYjdiNGE0OTgyN2NkNDJiMDQ1XCIsXCI4MTQyYzkwMjVlZWM2MDI0MzM5YzM2ZTg1ZmMzOGQxY1wiLFwiODQzMTYyZDFlNTdlNDRlNTM1YWNhNWI3OTZjZDE4ZDhcIixcImYwYTNmNGRhMmQ0ZmNkNDA2YjZhN2U0ZjVhNWExYjE1XCIsXCI3OTUyMGYwOWE0MThlZmNkZTlhMzA4ZDU3ZmYyMjM4YlwiLFwiNmExN2I3NThiMzkzOWJiYmMxZTQxY2MyYjQzYTc3YmZcIixcImM0NjNhNGZiMjA0ZGRlZjY1ZGZhMDk5MmUwMDdiOTFiXCIsXCIxMzMwMTMyMDM1OTA5ZGRiODc3MWU4MjVlZWFlMTkxNVwiLFwiYjdlODI3NTNmZTU3MzVkN2U0ZDhlMmU5ZTUyNmRhZjBcIixcIjQwOTg2NjI3Yzc4NDQ3YmJhMzY1YWUwYWJmYzA0MzNmXCIsXCIxZDIxYzhlNDYyMDczYjY0YzY3MTg4Njc0NWNiYTA5NVwiLFwiM2QzNTU3NDUzNDEyODc5ZjViZDFhMjEyNzAzMTU4NWNcIixcIjI0MjIzZTNiODc2M2M3M2Y4ZmRmMThkZTEwYTUxZDdjXCIsXCIzNWQzYzhhMjYwNTUzOTViMTQ4YmM5OWVhZDkzNDVlNFwiLFwiYWMzYTY3YzI0OTA5MjNmMTNjMTIzZmI4MDVlYTljYTZcIixcIjVjZTRjZDQ2ZDQ5NDJmNGUwYjBjODgxY2ViMjRhNDI1XCIsXCI1NTU1YTg0Njk5ZGRmMjQ2NTU1ZDUzODMzMjRkYWQ0MVwiLFwiZGI1MjQ2ODI4NTRjNDZiMzQ5YjE3NjJjY2JiZjM3MmZcIixcIjk2YTcwMTMxMDNkNjQ1MmFlOTExMTVkOWViZDIxMGY3XCIsXCI3ZGNiMzY2Yjc2ZWNjYzExNmYxNDgzMjIyZmJiZTNhN1wiLFwiOGQ0MTM2YjgyY2EwZWEzNzBkYmMxZDU2NzI0NGMxY2NcIixcIjIzMDRmZmU2ZjIyNzkwMjg4OTMyYTNkM2E1YWNmODQ5XCIsXCIzOWQ2ZjhhZWUwYTQ2ZmY3MTY5ZDhhZjcwZjM1YzMyNlwiLFwiMjJkOWViNTA5ZGZjNGVmNDdkMzkyNDA3OGE1ZGFjYmFcIixcImY5MjFkOGI4NGRiY2UyZTRlOWIxOWJkMmY0MWI4ZTUxXCIsXCJlZWJjMjc2MzZhM2JmMGIxYzgzNDBhYjU2MmM4MTYzOFwiLFwiMTg5MjEwODk4NjcxZWFiYzY1NDc0ZjM1NWExNzBkZWRcIixcIjQzNTI1MDUwODBjNDIzYTcyYTQxMTJiZGFhY2U0MjEwXCIsXCJmMTQ5M2JjZGI1ZGYyZjMyYzQzZTllYmNjYjdhOWVjOFwiLFwiNDYyMDdkZTYyMDM3MWQ2Y2RhN2NjYTA3MTA0Y2E1ZDFcIixcImRkYWI0NDRkNjM2YzY5NmNkZmY3ZjMyODU0MjFhNDhmXCIsXCIwNWIxOWIxYTQ4YzkwODNhMzUzZDc2NzYxYzE1OGQxN1wiLFwiMzQ5ODgzYmNkOTgyNjVkYmI5NmNjNmYzNjFmMjBjMzJcIixcIjRjMzhmZTk3MGJhYTg5NmJmY2VlYzRhNTJkOWZlOGY1XCIsXCI3YzIwNTYzY2Y2NzljMjU3YzQyZjliMWVlZjgwZGI3N1wiLFwiMTFkMmY1NThiY2RiYWY3MjdmZDA3Mzg4ZmMwMjU4MjNcIixcIjJjY2M0YmFlNmU2ZWZkZjQ2MTE0MjYzMmEwNTNkOTIwXCIsXCJkMmY5MzQwZTJlN2IxNzAxMDUwZjFhN2IyYjRlOGJmOFwiLFwiNmQ0ZGI1OGYwMzA5YTdlNjkyYzg1M2ZiOTQ0OThlNjZcIixcIjIxZWRkMjdiNWMyNjBhYzMwYTZkNGM4YmYxZjEyNzFhXCIsXCJhMDg3MmE3MmE2MzE4MTdlNGQ1ODUzNjZkYmYzZTlhZlwiLFwiNzcwNTM4NDFmODBmNjIwNjliZjFmNjNmMjVjZGE3ODhcIixcImNjNzg0NGU1ZmNhM2E3YzU3NzJhZmE0ZmIyYjBmNWZmXCIsXCI3ZTlhYTNmNDVkYWQ2ZDJkNWQ2OWVmM2M1YzYwOGUyOVwiLFwiMDFkODg3NjRkNjRjMGJmYTE3NWE2YWRiYjY4NDE3Y2VcIixcIjI4YzIzYjhjYWEzODZiNzFjNTAwZDFhNjQyYzRlNzc3XCIsXCJkM2I2MzVhYjU5OTRkYTM4OTUyYzY2NWJhZjBjYTU2OVwiLFwiZDc2OTZlZTg3YTk1NGU1ODU0NDM3OGI0NTgyMDkwNzFcIixcIjQ5MTczZjlhNDU0YTdkZDAzZTA0ZDdiYzY5NzAwYjQ0XCIsXCJkYmQxZDg4ZjllNWZlZDY1MDY3NjZlOWNjNzY0NGMyOVwiLFwiMWEyN2IzNDI3Yjk2MWQ5ZTAwYmVhYzdjNDU2MTAyZjZcIixcImVjODBhMjE0MWExZTY3NjVjM2IyMmQ0ZDNhOWI2MTk3XCIsXCI2M2ZhMDBjNmM5NTdmZDBiMGE2MjhkMWU5ODZjNzU3YVwiLFwiM2Y5ODRiMjI4OGI5YjFjNDFiMDFiNTdiNWM0MDZlYzhcIixcIjkyOGJkOTEyMmIyOGY5ZDA5YzdmMGQzODRiMjk0ZTRiXCIsXCJjNWIzYjhkMGQxZjJmMzVkMzVlMjlmNjE0YmQ3Mjg3N1wiLFwiYmJlYWFjM2MzZjQ2YjJkZTk1YmQ4ZjEzMjZjMTg0MmNcIixcIjU0MzJhZWY3Y2RjMTc3NWEyZmVlOWI5ZGY3MTM3YWVhXCIsXCI0MDQ3OGMyMmZkNDljZmI2Y2JkNjlhMDJhYTkxNzNiNlwiLFwiYzQ0MjVjMGViYjY4NmQ0MTYwNTRjYTRlMDZhOGNjMmFcIixcIjA4ZDc5Nzk4NjI5ZjY0ZjcyMDgwMjk1Y2RhMTgwZDZiXCIsXCI5OGQ0NjVjNmViZmMxMjFjZWZhYjkzM2ZmZjdiY2QxZFwiLFwiMTNhNDg5YTBmOGJhOWEzYTJjZDYxODVlYzYzZGY5NDZcIixcImY1MjAxNmI1ODIxZDMyMDU3ZDQ2MzQ4Mzc4MGQ1OGI0XCIsXCIxNWJiNDYyMjk0YmUyMTMyNjE3NDY0OGUwZmRmODZmM1wiLFwiYWNmZjI3ZmIwMTA2MmM5YTY5OTQxOGY4Y2E2YjAzM2ZcIixcImJmMTA5ZTI1N2I2Njk1MmIzMDEzMTQxYmExOTRmNDBlXCIsXCJlZWFhMWIxZGI0NzliNmY4NmNhMGZmZmNmMDlmNTBlOVwiLFwiNmE2ZTYyOTcwNThlYzM2Mjg2MjM5NTViYmI0NGYyYTJcIixcIjYyZmEwNWZlNTZhMWU5MTUzZGMxYzViMDBiM2Y5YWZjXCIsXCI0YmM0YTRiZGYzNTRhNzUxYWExNzFlZTA1NDQxOTdhM1wiXSxcIjEwLjFcIjpcIjgzYzZhODdiOTNlYTk3ODllNzc5NzAwMzgwY2M0YjdhXCIsXCIxMC4yXCI6XCIyNDdlNTI5NjE1NmM5ZjVhZjU4YTk0NDVmMzBhYjlmYVwiLFwiMTAuM1wiOlwiMDUyMzQzZGRmYzNkMWE3YmQ4M2QzMGFhNWVkMjc2MGVcIn0iLCIwN2M1ZDgyZTliMzE0MDA1ZGM0ZWU0ODg3NjExYjgxMiJd' />
+            <input type='hidden' class='gform_hidden' name='gform_target_page_number_7' id='gform_target_page_number_7' value='0' />
+            <input type='hidden' class='gform_hidden' name='gform_source_page_number_7' id='gform_source_page_number_7' value='1' />
+            <input type='hidden' name='gform_field_values' value='' />
+            
+        </div>
+                        <p style="display: none !important;"><label>&#916;<textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_1" name="ak_js" value="124"/><script>document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() );</script></p></form>
+                        </div><script type="text/javascript">
+/* <![CDATA[ */
+ gform.initializeOnLoaded( function() {gformInitSpinner( 7, 'https://www.pv-magazine-brasil.com/wp-content/plugins/gravityforms/images/spinner.svg', true );jQuery('#gform_ajax_frame_7').on('load',function(){var contents = jQuery(this).contents().find('*').html();var is_postback = contents.indexOf('GF_AJAX_POSTBACK') >= 0;if(!is_postback){return;}var form_content = jQuery(this).contents().find('#gform_wrapper_7');var is_confirmation = jQuery(this).contents().find('#gform_confirmation_wrapper_7').length > 0;var is_redirect = contents.indexOf('gformRedirect(){') >= 0;var is_form = form_content.length > 0 && ! is_redirect && ! is_confirmation;var mt = parseInt(jQuery('html').css('margin-top'), 10) + parseInt(jQuery('body').css('margin-top'), 10) + 100;if(is_form){jQuery('#gform_wrapper_7').html(form_content.html());if(form_content.hasClass('gform_validation_error')){jQuery('#gform_wrapper_7').addClass('gform_validation_error');} else {jQuery('#gform_wrapper_7').removeClass('gform_validation_error');}setTimeout( function() { /* delay the scroll by 50 milliseconds to fix a bug in chrome */  }, 50 );if(window['gformInitDatepicker']) {gformInitDatepicker();}if(window['gformInitPriceFields']) {gformInitPriceFields();}var current_page = jQuery('#gform_source_page_number_7').val();gformInitSpinner( 7, 'https://www.pv-magazine-brasil.com/wp-content/plugins/gravityforms/images/spinner.svg', true );jQuery(document).trigger('gform_page_loaded', [7, current_page]);window['gf_submitting_7'] = false;}else if(!is_redirect){var confirmation_content = jQuery(this).contents().find('.GF_AJAX_POSTBACK').html();if(!confirmation_content){confirmation_content = contents;}setTimeout(function(){jQuery('#gform_wrapper_7').replaceWith(confirmation_content);jQuery(document).trigger('gform_confirmation_loaded', [7]);window['gf_submitting_7'] = false;wp.a11y.speak(jQuery('#gform_confirmation_message_7').text());}, 50);}else{jQuery('#gform_7').append(contents);if(window['gformRedirect']) {gformRedirect();}}jQuery(document).trigger('gform_post_render', [7, current_page]);gform.utils.trigger({ event: 'gform/postRender', native: false, data: { formId: 7, currentPage: current_page } });} );} ); 
+/* ]]&gt; */
+</script>                                    
+                                    <p>
+
+                                        <em>
+                                            This page was last updated on abril 24, 2025.                                             
+                                         </em>
+
+                                       
+                                    </p>
+
+                                </div><!-- .entry-content -->
+
+                                <footer class="entry-footer">
+                                                                                                        </footer><!-- .entry-footer -->
+                            </div>
+
+                        
+                    
+                </div> <!--col-->
+        
+            </div><!-- /row -->
+        </div> <!-- /container -->
+    </div> <!--.container-main-->
+        </div> <!--#innerwrap-->
+            </div> <!--#outerwrap-->
+            <footer id="footer">
+                <div class="container">
+                    
+<p class="copyright credits"><a href="/imprimir/">Imprimir</a>
+    <a href="https://www.pv-magazine.com/terms-conditions/">Termos e Condições</a>
+    <a target="_blank" href="https://www.pv-magazine.com/privacy-policy/">Política de Privacidade</a>
+    &copy; pv magazine 2026</p>
+                </div>
+            </footer>  
+            
+            <div id="newsletter-modal" class="modal fade" tabindex="-1" role="dialog">
+              <div class="modal-dialog " role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h2>Fique por dentro!</h2>
+                  </div>
+                  <div class="modal-body">
+                    <div class="article-lead-text">A newsletter da pv magazine Brasil oferece atualizações diárias sobre notícias da fotovoltaica.</div>
+                                    
+                <div class='gf_browser_chrome gform_wrapper gform_legacy_markup_wrapper gform-theme--no-framework' data-form-theme='legacy' data-form-index='0' id='gform_wrapper_3' ><div id='gf_3' class='gform_anchor' tabindex='-1'></div><form method='post' enctype='multipart/form-data' target='gform_ajax_frame_3' id='gform_3'  action='/edicao-para-intersolar-summit-brasil-nordeste-2025/#gf_3' data-formid='3' >
+                        <div class='gform-body gform_body'><ul id='gform_fields_3' class='gform_fields top_label form_sublabel_below description_below'><li id="field_3_2"  class="gfield gfield--type-email gfield_contains_required field_sublabel_below gfield--no-description field_description_below gfield_visibility_visible"  data-js-reload="field_3_2"><label class='gfield_label gform-field-label' for='input_3_2' >Email<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='ginput_container ginput_container_email'>
+                            <input name='input_2' id='input_3_2' type='text' value='' class='large'    aria-required="true" aria-invalid="false"  />
+                        </div></li><li id="field_3_1"  class="gfield gfield--type-multiselect gfield_contains_required field_sublabel_below gfield--has-description field_description_above gfield_visibility_visible"  data-js-reload="field_3_1"><label class='gfield_label gform-field-label' for='input_3_1' >Newsletters que deseja receber<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='gfield_description' id='gfield_description_3_1'><div class="hidden-sm-down">Pressione Ctrl ou Cmd para selecionar mais de uma opção.</div>
+<div class="hidden-md-up">Toque para selecionar mais de uma opção.</div></div><div class='ginput_container ginput_container_multiselect'><select multiple='multiple'  size='7' name='input_1[]' id='input_3_1' class='large gfield_select'   aria-invalid="false" aria-required="true" aria-describedby="gfield_description_3_1"><option value='México (espanhol, diariamente)' selected='selected'>México (espanhol, diariamente)</option><option value='América Latina (espanhol, diariamente)' >América Latina (espanhol, diariamente)</option><option value='Espanha (espanhol, diariamente)' >Espanha (espanhol, diariamente)</option><option value='Global (inglês, diariamente)' >Global (inglês, diariamente)</option><option value='Alemanha (alemão, diariamente)' >Alemanha (alemão, diariamente)</option><option value='EUA (inglês, diariamente)' >EUA (inglês, diariamente)</option><option value='Austrália (inglês, diariamente)' >Austrália (inglês, diariamente)</option><option value='China (chinês, semanalmente)' >China (chinês, semanalmente)</option><option value='Índia (inglês, diariamente)' >Índia (inglês, diariamente)</option><option value='Brasil (português, diariamente)' >Brasil (português, diariamente)</option><option value='França (francês, diariamente)' >França (francês, diariamente)</option><option value='Itália (italiano, diariamente)' >Itália (italiano, diariamente)</option></select></div></li><li id="field_3_3"  class="gfield gfield--type-html gfield_html gfield_html_formatted field_sublabel_below gfield--no-description field_description_below gfield_visibility_visible"  data-js-reload="field_3_3"><div class="form-privacy-notice">Consulte nossa <a href="https://www.pv-magazine.com/privacy-policy/" target="_blank">Política de proteção de dados</a>. </div></li></ul></div>
+        <div class='gform_footer top_label'> <input type='submit' id='gform_submit_button_3' class='gform_button button' value='Enviar'  onclick='if(window["gf_submitting_3"]){return false;}  window["gf_submitting_3"]=true;  ' onkeypress='if( event.keyCode == 13 ){ if(window["gf_submitting_3"]){return false;} window["gf_submitting_3"]=true;  jQuery("#gform_3").trigger("submit",[true]); }' /> <input type='hidden' name='gform_ajax' value='form_id=3&amp;title=&amp;description=&amp;tabindex=0' />
+            <input type='hidden' class='gform_hidden' name='is_submit_3' value='1' />
+            <input type='hidden' class='gform_hidden' name='gform_submit' value='3' />
+            
+            <input type='hidden' class='gform_hidden' name='gform_unique_id' value='' />
+            <input type='hidden' class='gform_hidden' name='state_3' value='WyJbXSIsIjQ1ZTc5YTMzYWI1OGZlNDkyYzFkZTU3ZWEwZDRmNWRlIl0=' />
+            <input type='hidden' class='gform_hidden' name='gform_target_page_number_3' id='gform_target_page_number_3' value='0' />
+            <input type='hidden' class='gform_hidden' name='gform_source_page_number_3' id='gform_source_page_number_3' value='1' />
+            <input type='hidden' name='gform_field_values' value='' />
+            
+        </div>
+                        <p style="display: none !important;"><label>&#916;<textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_2" name="ak_js" value="30"/><script>document.getElementById( "ak_js_2" ).setAttribute( "value", ( new Date() ).getTime() );</script></p></form>
+                        </div>
+		                <iframe style='display:none;width:0px;height:0px;' src='about:blank' name='gform_ajax_frame_3' id='gform_ajax_frame_3' title='Este iframe contém a lógica necessária para manusear os formulários Gravity Forms movidos a AJAX.'></iframe>
+		                <script type="text/javascript">
+/* <![CDATA[ */
+ gform.initializeOnLoaded( function() {gformInitSpinner( 3, 'https://www.pv-magazine-brasil.com/wp-content/plugins/gravityforms/images/spinner.svg', true );jQuery('#gform_ajax_frame_3').on('load',function(){var contents = jQuery(this).contents().find('*').html();var is_postback = contents.indexOf('GF_AJAX_POSTBACK') >= 0;if(!is_postback){return;}var form_content = jQuery(this).contents().find('#gform_wrapper_3');var is_confirmation = jQuery(this).contents().find('#gform_confirmation_wrapper_3').length > 0;var is_redirect = contents.indexOf('gformRedirect(){') >= 0;var is_form = form_content.length > 0 && ! is_redirect && ! is_confirmation;var mt = parseInt(jQuery('html').css('margin-top'), 10) + parseInt(jQuery('body').css('margin-top'), 10) + 100;if(is_form){jQuery('#gform_wrapper_3').html(form_content.html());if(form_content.hasClass('gform_validation_error')){jQuery('#gform_wrapper_3').addClass('gform_validation_error');} else {jQuery('#gform_wrapper_3').removeClass('gform_validation_error');}setTimeout( function() { /* delay the scroll by 50 milliseconds to fix a bug in chrome */ jQuery(document).scrollTop(jQuery('#gform_wrapper_3').offset().top - mt); }, 50 );if(window['gformInitDatepicker']) {gformInitDatepicker();}if(window['gformInitPriceFields']) {gformInitPriceFields();}var current_page = jQuery('#gform_source_page_number_3').val();gformInitSpinner( 3, 'https://www.pv-magazine-brasil.com/wp-content/plugins/gravityforms/images/spinner.svg', true );jQuery(document).trigger('gform_page_loaded', [3, current_page]);window['gf_submitting_3'] = false;}else if(!is_redirect){var confirmation_content = jQuery(this).contents().find('.GF_AJAX_POSTBACK').html();if(!confirmation_content){confirmation_content = contents;}setTimeout(function(){jQuery('#gform_wrapper_3').replaceWith(confirmation_content);jQuery(document).scrollTop(jQuery('#gf_3').offset().top - mt);jQuery(document).trigger('gform_confirmation_loaded', [3]);window['gf_submitting_3'] = false;wp.a11y.speak(jQuery('#gform_confirmation_message_3').text());}, 50);}else{jQuery('#gform_3').append(contents);if(window['gformRedirect']) {gformRedirect();}}jQuery(document).trigger('gform_post_render', [3, current_page]);gform.utils.trigger({ event: 'gform/postRender', native: false, data: { formId: 3, currentPage: current_page } });} );} ); 
+/* ]]> */
+</script>
+                </div>
+                
+              </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+          </div><!-- /.modal -->
+          
+        <link rel='stylesheet' id='basecss-css' href='https://www.pv-magazine-brasil.com/wp-content/plugins/eu-cookie-law/css/style.css?ver=6.6.4' type='text/css' media='all' />
+<link rel='stylesheet' id='gforms_reset_css-css' href='https://www.pv-magazine-brasil.com/wp-content/plugins/gravityforms/legacy/css/formreset.min.css?ver=2.7.10' type='text/css' media='all' />
+<link rel='stylesheet' id='gforms_formsmain_css-css' href='https://www.pv-magazine-brasil.com/wp-content/plugins/gravityforms/legacy/css/formsmain.min.css?ver=2.7.10' type='text/css' media='all' />
+<link rel='stylesheet' id='gforms_ready_class_css-css' href='https://www.pv-magazine-brasil.com/wp-content/plugins/gravityforms/legacy/css/readyclass.min.css?ver=2.7.10' type='text/css' media='all' />
+<link rel='stylesheet' id='gforms_browsers_css-css' href='https://www.pv-magazine-brasil.com/wp-content/plugins/gravityforms/legacy/css/browsers.min.css?ver=2.7.10' type='text/css' media='all' />
+<script type="text/javascript" src="https://www.pv-magazine-brasil.com/wp-includes/js/underscore.min.js?ver=1.13.4" id="underscore-js"></script>
+<script type="text/javascript" src="https://www.pv-magazine-brasil.com/wp-content/themes/pvmagazine/_/js/main.min.js?ver=918209592" id="main-js"></script>
+<script type="text/javascript" src="https://www.pv-magazine-brasil.com/wp-content/plugins/easy-fancybox/fancybox/1.5.4/jquery.fancybox.min.js?ver=6.6.4" id="jquery-fancybox-js"></script>
+<script type="text/javascript" id="jquery-fancybox-js-after">
+/* <![CDATA[ */
+var fb_timeout, fb_opts={'overlayShow':true,'hideOnOverlayClick':true,'showCloseButton':true,'margin':20,'enableEscapeButton':true,'autoScale':true };
+if(typeof easy_fancybox_handler==='undefined'){
+var easy_fancybox_handler=function(){
+jQuery([".nolightbox","a.wp-block-fileesc_html__button","a.pin-it-button","a[href*='pinterest.com\/pin\/create']","a[href*='facebook.com\/share']","a[href*='twitter.com\/share']"].join(',')).addClass('nofancybox');
+jQuery('a.fancybox-close').on('click',function(e){e.preventDefault();jQuery.fancybox.close()});
+/* IMG */
+var fb_IMG_select=jQuery('a[href*=".jpg" i]:not(.nofancybox,li.nofancybox>a),area[href*=".jpg" i]:not(.nofancybox),a[href*=".jpeg" i]:not(.nofancybox,li.nofancybox>a),area[href*=".jpeg" i]:not(.nofancybox),a[href*=".png" i]:not(.nofancybox,li.nofancybox>a),area[href*=".png" i]:not(.nofancybox)');
+fb_IMG_select.addClass('fancybox image');
+var fb_IMG_sections=jQuery('.gallery,.wp-block-gallery,.tiled-gallery,.wp-block-jetpack-tiled-gallery');
+fb_IMG_sections.each(function(){jQuery(this).find(fb_IMG_select).attr('rel','gallery-'+fb_IMG_sections.index(this));});
+jQuery('a.fancybox,area.fancybox,.fancybox>a').each(function(){jQuery(this).fancybox(jQuery.extend(true,{},fb_opts,{'transitionIn':'none','easingIn':'linear','transitionOut':'none','easingOut':'linear','opacity':false,'hideOnContentClick':false,'titleShow':true,'titlePosition':'over','titleFromAlt':true,'showNavArrows':true,'enableKeyboardNav':true,'cyclic':false}))});
+};};
+var easy_fancybox_auto=function(){setTimeout(function(){jQuery('a#fancybox-auto,#fancybox-auto>a').first().trigger('click')},1000);};
+jQuery(easy_fancybox_handler);jQuery(document).on('post-load',easy_fancybox_handler);
+jQuery(easy_fancybox_auto);
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.pv-magazine-brasil.com/wp-content/plugins/easy-fancybox/vendor/jquery.mousewheel.min.js?ver=3.1.13" id="jquery-mousewheel-js"></script>
+<script type="text/javascript" src="https://www.pv-magazine-brasil.com/wp-includes/js/dist/dom-ready.min.js?ver=f77871ff7694fffea381" id="wp-dom-ready-js"></script>
+<script type="text/javascript" src="https://www.pv-magazine-brasil.com/wp-includes/js/dist/hooks.min.js?ver=2810c76e705dd1a53b18" id="wp-hooks-js"></script>
+<script type="text/javascript" src="https://www.pv-magazine-brasil.com/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
+<script type="text/javascript" id="wp-i18n-js-after">
+/* <![CDATA[ */
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+/* ]]> */
+</script>
+<script type="text/javascript" id="wp-a11y-js-translations">
+/* <![CDATA[ */
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "default", {"translation-revision-date":"2024-05-28 12:52:40+0000","generator":"GlotPress\/4.0.1","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n > 1;","lang":"pt_BR"},"Notifications":["Notifica\u00e7\u00f5es"]}},"comment":{"reference":"wp-includes\/js\/dist\/a11y.js"}} );
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.pv-magazine-brasil.com/wp-includes/js/dist/a11y.min.js?ver=d90eebea464f6c09bfd5" id="wp-a11y-js"></script>
+<script type="text/javascript" defer='defer' src="https://www.pv-magazine-brasil.com/wp-content/plugins/gravityforms/js/placeholders.jquery.min.js?ver=2.7.10" id="gform_placeholder-js"></script>
+<script type="text/javascript" defer='defer' src="https://www.pv-magazine-brasil.com/wp-content/plugins/gravityforms/assets/js/dist/vendor-theme.min.js?ver=4ef53fe41c14a48b294541d9fc37387e" id="gform_gravityforms_theme_vendors-js"></script>
+<script type="text/javascript" id="gform_gravityforms_theme-js-extra">
+/* <![CDATA[ */
+var gform_theme_config = {"common":{"form":{"honeypot":{"version_hash":"30f055154e8316773617e5aac4996341"}}},"hmr_dev":"","public_path":"https:\/\/www.pv-magazine-brasil.com\/wp-content\/plugins\/gravityforms\/assets\/js\/dist\/"};
+/* ]]> */
+</script>
+<script type="text/javascript" defer='defer' src="https://www.pv-magazine-brasil.com/wp-content/plugins/gravityforms/assets/js/dist/scripts-theme.min.js?ver=443293948084ca0fe29518ebcd01dc6b" id="gform_gravityforms_theme-js"></script>
+<script type="text/javascript" src="https://www.pv-magazine-brasil.com/wp-content/plugins/youtube-embed-plus/scripts/fitvids.min.js?ver=14.1.6.3" id="__ytprefsfitvids__-js"></script>
+<script type="text/javascript" src="https://stats.wp.com/e-202605.js" id="jetpack-stats-js" data-wp-strategy="defer"></script>
+<script type="text/javascript" id="jetpack-stats-js-after">
+/* <![CDATA[ */
+_stq = window._stq || [];
+_stq.push([ "view", JSON.parse("{\"v\":\"ext\",\"blog\":\"238009996\",\"post\":\"55830\",\"tz\":\"-3\",\"srv\":\"www.pv-magazine-brasil.com\",\"j\":\"1:13.9.1\"}") ]);
+_stq.push([ "clickTrackerInit", "238009996", "55830" ]);
+/* ]]> */
+</script>
+<script type="text/javascript" id="eucookielaw-scripts-js-extra">
+/* <![CDATA[ */
+var eucookielaw_data = {"euCookieSet":"","autoBlock":"0","expireTimer":"360","scrollConsent":"0","networkShareURL":"","isCookiePage":"","isRefererWebsite":""};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.pv-magazine-brasil.com/wp-content/plugins/eu-cookie-law/js/scripts.js?ver=3.1.6" id="eucookielaw-scripts-js"></script>
+<script defer type="text/javascript" src="https://www.pv-magazine-brasil.com/wp-content/plugins/akismet/_inc/akismet-frontend.js?ver=1732419172" id="akismet-frontend-js"></script>
+<script type="text/javascript" id="upme_custom-js-extra">
+/* <![CDATA[ */
+var UPMECustom = {"ViewProfile":"View Profile","EditProfile":"Edit Profile","UPMEUrl":"https:\/\/www.pv-magazine-brasil.com\/wp-content\/plugins\/upme\/","ForgotPass":"Forgot Password","Login":"Login","Messages":{"EnterDetails":"Please enter your username or email to reset password.","EnterEmail":"Please enter your email address.","ValidEmail":"Please enter valid username or email address.","NotAllowed":"Password changes are not allowed for this user.","EmailError":"We are unable to deliver email to your email address. Please contact site admin.","PasswordSent":"We have sent a password reset link to your email address.","WentWrong":"Something went wrong, please try again","RegExistEmail":"Email is already registered.","RegValidEmail":"Email is available","RegInvalidEmail":"Invalid email.","RegEmptyEmail":"Email is empty.","RegExistUsername":"Username is already registered.","RegValidUsername":"Username is available.","RegEmptyUsername":"Username is empty.","RegInValidUsername":"Invalid username.","DelPromptMessage":"Are you sure you want to delete this image?","processing":"Processing"},"AdminAjax":"https:\/\/www.pv-magazine-brasil.com\/wp-admin\/admin-ajax.php","RegFormTitleUsername":"1","confirmDeleteProfile":"Do you want to delete the profile"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.pv-magazine-brasil.com/wp-content/plugins/upme/js/upme-custom.js?ver=6.6.4" id="upme_custom-js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+ gform.initializeOnLoaded( function() { jQuery(document).on('gform_post_render', function(event, formId, currentPage){if(formId == 7) {if(typeof Placeholders != 'undefined'){
+                        Placeholders.enable();
+                    }} } );jQuery(document).bind('gform_post_conditional_logic', function(event, formId, fields, isInit){} ) } ); 
+/* ]]> */
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+ gform.initializeOnLoaded( function() {jQuery(document).trigger('gform_post_render', [7, 1]);gform.utils.trigger({ event: 'gform/postRender', native: false, data: { formId: 7, currentPage: 1 } });} ); 
+/* ]]> */
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+ gform.initializeOnLoaded( function() { jQuery(document).on('gform_post_render', function(event, formId, currentPage){if(formId == 3) {} } );jQuery(document).bind('gform_post_conditional_logic', function(event, formId, fields, isInit){} ) } ); 
+/* ]]> */
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+ gform.initializeOnLoaded( function() {jQuery(document).trigger('gform_post_render', [3, 1]);gform.utils.trigger({ event: 'gform/postRender', native: false, data: { formId: 3, currentPage: 1 } });} ); 
+/* ]]> */
+</script>
+<!-- Eu Cookie Law 3.1.6 --><div class="pea_cook_wrapper pea_cook_bottomcenter" style="color:#FFFFFF;background:rgb(0,0,0);background: rgba(0,0,0,0.85);"><p>Este site usa cookies para contar anonimamente o número de visitantes. <a style="color:#FFFFFF;" href="https://www.pv-magazine.com/privacy-policy/" target="_blank" id="fom">Para mais informações, consulte a nossa Política de Proteção de Dados.</a> <button id="pea_cook_btn" class="pea_cook_btn">×</button></p></div><div class="pea_cook_more_info_popover"><div class="pea_cook_more_info_popover_inner" style="color:#FFFFFF;background-color: rgba(0,0,0,0.9);"><p>The cookie settings on this website are set to "allow cookies" to give you the best browsing experience possible. If you continue to use this website without changing your cookie settings or you click "Accept" below then you are consenting to this.</p><p><a style="color:#FFFFFF;" href="#" id="pea_close">Close</a></p></div></div> 
+        
+        <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-908D1CQ7BK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-908D1CQ7BK');
+</script>                
+        
+        
+<script>
+  window.pvSkyLeftAds = [0,0, 0]; // left 1, left 2, left 3
+  window.pvSkyRightAds = [0,0,0]; // right 1, right 2, right 3
+
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+
+  function pvDefineAds() {
+
+  	// GPT slots
+ var gptAdSlots = [];
+
+ googletag.cmd.push(function() {
+
+  	console.log('pvDefineAds');
+
+	// define size mappings
+
+	var leaderboardMapping = googletag.sizeMapping().
+	  addSize([1420, 300], [1092, 135]).
+	  addSize([1220, 300], [728, 90]).
+	  addSize([1023, 300], [728, 90]).
+	  addSize([768, 300], [728, 90]).
+	  addSize([500, 300], [468, 60]).
+	  addSize([0, 0], [320, 50]).
+	  // Fits browsers of any size smaller than 640 x 480
+	  build();
+
+	// This mapping will only display ads when user is on desktop sized viewport
+	var skyMapping = googletag.sizeMapping().
+	  addSize([0, 0], []).
+	  addSize([1023, 300], [120, 600]). // Desktop
+	  build();
+
+	var bannerHomeMapping = googletag.sizeMapping().
+	  addSize([1420, 300], [468, 60]).
+	  addSize([1220, 300], [320, 50]).
+	  addSize([1023, 300], [320, 50]).
+	  addSize([768, 300], [320, 50]).
+	  addSize([500, 300], [468, 60]).
+	  addSize([0, 0], [320, 50]).
+	  // Fits browsers of any size smaller than 640 x 480
+	  build();
+
+	var rectangleHomeMapping = googletag.sizeMapping().
+	  addSize([767, 300], [300, 250]).
+	  addSize([0, 0], [200, 250]).
+	  build();
+
+	var bannerIndexMapping = googletag.sizeMapping().
+	  addSize([1420, 300], [468, 60]).
+	  addSize([1220, 300], [468, 60]).
+	  addSize([1023, 300], [468, 60]).
+	  addSize([768, 300], [468, 60]).
+	  addSize([500, 300], [320, 50]).
+	  addSize([0, 0], [320, 50]).
+	  // Fits browsers of any size smaller than 640 x 480
+	  build();
+
+	var buttonSidebarMapping = googletag.sizeMapping().
+	  addSize([0, 0], []).
+	  addSize([1220, 300], [120, 60]). // Desktop
+	  build();
+
+	var bannerSingleMapping = googletag.sizeMapping().
+	  addSize([1420, 300], [468, 60]).
+	  addSize([1220, 300], [468, 60]).
+	  addSize([1023, 300], [468, 60]).
+	  addSize([768, 300], [468, 60]).
+	  addSize([500, 300], [320, 50]).
+	  addSize([0, 0], [320, 50]).
+	  // Fits browsers of any size smaller than 640 x 480
+	  build();
+
+	var rectangleSidebarMapping = googletag.sizeMapping().
+	  addSize([0, 0], []).
+	  addSize([1220, 300], [300, 250]). // Desktop
+	  build();
+
+	var rectangleFooterMapping = googletag.sizeMapping().
+	  addSize([0, 0], [200,250]).
+    addSize([400, 300], [300,250]).
+    addSize([543, 300], [200, 250]).
+    addSize([767, 300], [300, 250]).
+    addSize([1220, 300], [200, 250]). // Desktop
+    addSize([1420, 300], [300, 250]).
+	  build();
+
+	var buttonMapping = googletag.sizeMapping().
+	  addSize([0, 0], [120,60]).
+	  build();
+
+	var rectanglePressMapping = googletag.sizeMapping().
+	  addSize([1220, 300], [200, 250]).
+	  addSize([370, 300], [300, 250]).
+	  addSize([0, 0], [200, 250]).
+	  // Fits browsers of any size smaller than 640 x 480
+	  build();
+
+	var rectangleHomeTopMapping = googletag.sizeMapping().
+	  addSize([1420, 300], [505, 400]).
+	  addSize([1220, 300], [405, 350]).
+	  addSize([767, 300], [300, 250]).
+    addSize([543, 300], [200, 250]).
+	  addSize([0, 0], [300, 250]).
+	  // Fits browsers of any size smaller than 640 x 480
+	  build();
+	var rectangleHomeTopTwoMapping = googletag.sizeMapping().
+	  addSize([1420, 300], [505, 400]).
+	  addSize([1220, 300], [405, 350]).
+	  addSize([767, 300], [300, 250]).
+	  addSize([520, 300], [405, 350]).
+	  addSize([0, 0], [300, 250]).
+	  // Fits browsers of any size smaller than 640 x 480
+	  build();
+
+
+
+ gptAdSlots[0] = googletag.defineSlot('/21725784866/pv_magazine_brazil/br_leaderboard_top_1', [320, 50], 'leaderboard_top_1').
+  defineSizeMapping(leaderboardMapping).
+  setCollapseEmptyDiv(true).
+  addService(googletag.pubads());
+
+  gptAdSlots[1] = googletag.defineSlot('/21725784866/pv_magazine_brazil/br_leaderboard_top_2', [320, 50], 'leaderboard_top_2').
+  defineSizeMapping(leaderboardMapping).
+  setCollapseEmptyDiv(true).
+  addService(googletag.pubads());
+
+ gptAdSlots[2] = googletag.defineSlot('/21725784866/pv_magazine_brazil/br_sky_left_1', [120, 600], 'sky_left_1').
+  defineSizeMapping(skyMapping).
+  setCollapseEmptyDiv(true).
+  addService(googletag.pubads());
+
+  gptAdSlots[3] = googletag.defineSlot('/21725784866/pv_magazine_brazil/br_sky_left_2', [120, 600], 'sky_left_2').
+  defineSizeMapping(skyMapping).
+  setCollapseEmptyDiv(true).
+  addService(googletag.pubads());
+
+   gptAdSlots[4] = googletag.defineSlot('/21725784866/pv_magazine_brazil/br_sky_left_3', [120, 600], 'sky_left_3').
+  defineSizeMapping(skyMapping).
+  setCollapseEmptyDiv(true).
+  addService(googletag.pubads());
+
+  gptAdSlots[5] = googletag.defineSlot('/21725784866/pv_magazine_brazil/br_sky_right_1', [120, 600], 'sky_right_1').
+  defineSizeMapping(skyMapping).
+  setCollapseEmptyDiv(true).
+  addService(googletag.pubads());
+
+  gptAdSlots[6] = googletag.defineSlot('/21725784866/pv_magazine_brazil/br_sky_right_2', [120, 600], 'sky_right_2').
+  defineSizeMapping(skyMapping).
+  setCollapseEmptyDiv(true).
+  addService(googletag.pubads());
+
+  gptAdSlots[7] = googletag.defineSlot('/21725784866/pv_magazine_brazil/br_sky_right_3', [120, 600], 'sky_right_3').
+  defineSizeMapping(skyMapping).
+  setCollapseEmptyDiv(true).
+  addService(googletag.pubads());
+
+
+  gptAdSlots[8] = googletag.defineSlot('/21725784866/pv_magazine_brazil/br_banner_home_top_1', [320, 50], 'banner_home_top_1').
+  defineSizeMapping(bannerHomeMapping).
+  setCollapseEmptyDiv(false).
+  addService(googletag.pubads());
+
+  gptAdSlots[9] = googletag.defineSlot('/21725784866/pv_magazine_brazil/br_banner_home_top_2', [320, 50], 'banner_home_top_2').
+  defineSizeMapping(bannerHomeMapping).
+  setCollapseEmptyDiv(false).
+  addService(googletag.pubads());
+
+  gptAdSlots[10] = googletag.defineSlot('/21725784866/pv_magazine_brazil/br_banner_home_top_3', [320, 50], 'banner_home_top_3').
+  defineSizeMapping(bannerHomeMapping).
+  setCollapseEmptyDiv(false).
+  addService(googletag.pubads());
+
+  gptAdSlots[11] = googletag.defineSlot('/21725784866/pv_magazine_brazil/br_button_sidebar', [120, 60], 'button_sidebar').
+  defineSizeMapping(buttonMapping).
+  setCollapseEmptyDiv(true).
+  addService(googletag.pubads());
+
+  gptAdSlots[12] = googletag.defineSlot('/21725784866/pv_magazine_brazil/br_banner_single_article_top', [320, 50], 'banner_single_article_top').
+  defineSizeMapping(bannerSingleMapping).
+  setCollapseEmptyDiv(true).
+  addService(googletag.pubads());
+
+   gptAdSlots[13] = googletag.defineSlot('/21725784866/pv_magazine_brazil/br_banner_single_article_mid_content', [320, 50], 'banner_single_article_mid_content').
+  defineSizeMapping(bannerSingleMapping).
+  setCollapseEmptyDiv(true).
+  addService(googletag.pubads());
+
+   gptAdSlots[14] = googletag.defineSlot('/21725784866/pv_magazine_brazil/br_banner_single_article_bottom', [320, 50], 'banner_single_article_bottom').
+  defineSizeMapping(bannerSingleMapping).
+  setCollapseEmptyDiv(true).
+  addService(googletag.pubads());
+
+   gptAdSlots[15] = googletag.defineSlot('/21725784866/pv_magazine_brazil/br_banner_single_article_footer', [320, 50], 'banner_single_article_footer').
+  defineSizeMapping(bannerSingleMapping).
+  setCollapseEmptyDiv(true).
+  addService(googletag.pubads());
+
+  gptAdSlots[16] = googletag.defineSlot('/21725784866/pv_magazine_brazil/br_mobile_rectangle_single_article_footer', [300, 250], 'mobile_rectangle_single_article_footer').
+  defineSizeMapping(rectangleFooterMapping).
+  setCollapseEmptyDiv(true).
+  addService(googletag.pubads());
+
+  gptAdSlots[17] = googletag.defineSlot('/21725784866/pv_magazine_brazil/br_rectangle_sidebar', [300, 250], 'rectangle_sidebar').
+  defineSizeMapping(rectangleSidebarMapping).
+  setCollapseEmptyDiv(true).
+  addService(googletag.pubads());
+
+  gptAdSlots[18] = googletag.defineSlot('/21725784866/pv_magazine_brazil/br_rectangle_press_releases', [200, 250], 'rectangle_press_releases').
+  defineSizeMapping(rectanglePressMapping).
+  setCollapseEmptyDiv(true).
+  addService(googletag.pubads());
+
+  gptAdSlots[19] = googletag.defineSlot('/21725784866/pv_magazine_brazil/br_rectangle_home_top', [200, 250], 'rectangle_home_top').
+  defineSizeMapping(rectangleHomeTopMapping).
+  setCollapseEmptyDiv(true).
+  addService(googletag.pubads());
+
+  gptAdSlots[20] = googletag.defineSlot('/21725784866/pv_magazine_brazil/br_rectangle_home_top_2', [200, 250], 'rectangle_home_top_2').
+  defineSizeMapping(rectangleHomeTopTwoMapping).
+  setCollapseEmptyDiv(true).
+  addService(googletag.pubads());
+
+  gptAdSlots[21] = googletag.defineSlot('/21725784866/pv_magazine_brazil/br_rectangle_home_top_3', [200, 250], 'rectangle_home_top_3').
+  defineSizeMapping(rectangleHomeTopTwoMapping).
+  setCollapseEmptyDiv(true).
+  addService(googletag.pubads());
+
+  gptAdSlots[22] = googletag.defineSlot('/21725784866/pv_magazine_brazil/br_rectangle_sidebar_2', [300, 250], 'rectangle_sidebar_2').
+  defineSizeMapping(rectangleSidebarMapping).
+  setCollapseEmptyDiv(true).
+  addService(googletag.pubads());
+
+
+  
+  
+  
+  
+  
+
+  
+
+      googletag.pubads().setTargeting("page_id","55830");
+  
+  var breakpoints = [500, 768,1023,1220,1420]; 
+      
+  var newWidth = jQuery(window).width();
+  var screenWidth = 0;
+  for (var i = 0; i < breakpoints.length; i++) {
+    if (newWidth > breakpoints[i]) {
+      screenWidth = breakpoints[i];
+    }
+  }
+
+  
+  console.log("screenWidth: " + screenWidth);
+
+  googletag.pubads().setTargeting("screen_width",screenWidth.toString());
+
+  
+  // keep track of how many sky and home rect ads are loaded for layout purposes
+  window.pvSkySlotCount = 0;
+  window.pvRectHomeTopSlotCount = 0;
+
+  jQuery(window).on('resize',function() {
+    window.pvRectHomeTopSlotCount = 0;
+    setTimeout(pvRectHomeTopAds,100);
+  });
+
+  // add event to sign the slot as rendered or not
+  googletag.pubads().addEventListener('slotRenderEnded', function(event) {
+
+    window.pvAdSlotCount++;
+    // console.log(event.slot.getSlotElementId());
+    
+
+    if (event.slot.getSlotElementId() === "rectangle_home_top" || event.slot.getSlotElementId() === "rectangle_home_top_2" || event.slot.getSlotElementId() === "rectangle_home_top_3") {
+        window.pvRectHomeTopSlotCount++;
+    }
+    
+    
+    if (event.slot.getSlotElementId() === "rectangle_home_top"  && event.isEmpty) {
+   	//if (event.slot.getSlotElementId() === "rectangle_home_top" && Math.random() < 0.5) {
+		  // no ad
+		
+		  jQuery('#home-top-rectangle-wrap-1').css('display','none');
+		
+     } else if ( event.slot.getSlotElementId() === "rectangle_home_top"  && !event.isEmpty   ) {
+      	
+    	jQuery('#rhome-top-rectangle-wrap-1').css('display','block');
+
+    }
+
+
+    if (event.slot.getSlotElementId() === "rectangle_home_top_2"  && event.isEmpty) {
+    	// no ad
+    	
+    	jQuery('#home-top-rectangle-wrap-2').css('display','none');
+
+    	
+    
+    } else if (event.slot.getSlotElementId() === "rectangle_home_top_2"  && !event.isEmpty) {
+    	// yes ad
+
+    	jQuery('#home-top-rectangle-wrap-2').css('display','block');
+    	
+    	
+    }
+
+    if (event.slot.getSlotElementId() === "rectangle_home_top_3"  && event.isEmpty) {
+      // no ad      
+      jQuery('#home-top-rectangle-wrap-3').css('display','none');
+
+      
+    
+    } else if (event.slot.getSlotElementId() === "rectangle_home_top_3"  && !event.isEmpty) {
+      // yes ad
+
+      jQuery('#home-top-rectangle-wrap-3').css('display','block');
+      
+      
+    } 
+
+    if (event.slot.getSlotElementId() === "button_sidebar"  && !event.isEmpty) {
+      // do something related to the slot
+      jQuery('#button-sidebar-widget').css('display','block');
+
+    } else if ( event.slot.getSlotElementId()=== "button_sidebar"  && event.isEmpty   ) {
+    	jQuery('#button-sidebar-widget').css('display','none');
+    }
+
+    /* Press release rectangle on home page */
+
+    if (event.slot.getSlotElementId() === "rectangle_press_releases"  && !event.isEmpty) {
+      // do something related to the slot
+      jQuery('.content-block-press-releases .press-release').eq(3).css('display','none');
+
+    } else if ( event.slot.getSlotElementId()=== "rectangle_press_releases"  && event.isEmpty   ) {
+    	jQuery('.content-block-press-releases .press-release').eq(3).css('display','block');
+    }
+
+    if (event.slot.getSlotElementId() == "sky_left_1") {
+      window.pvSkySlotCount++;
+      if (!event.isEmpty) {
+        window.pvSkyLeftAds[0] = 1;
+      } else {
+        jQuery('.ad-sky-left').not('.ad-sky-left-additional').css('display','none');
+        jQuery('.ad-sky-left-additional').css('margin-top',0);
+      }
+      
+    }
+
+    if (event.slot.getSlotElementId() == "sky_left_2") {
+      window.pvSkySlotCount++;
+      if (!event.isEmpty) {
+        window.pvSkyLeftAds[1] = 1;
+      } else {
+        jQuery('.ad-sky-left-additional').css('display','none');
+      }
+    }
+
+    if (event.slot.getSlotElementId() == "sky_left_3") {
+      window.pvSkySlotCount++;
+      if (!event.isEmpty) {
+        window.pvSkyLeftAds[2] = 1;
+      } else {
+        jQuery('.ad-sky-left-additional-2').css('display','none');
+      }
+    }
+
+    if (event.slot.getSlotElementId() == "sky_right_1") {
+      window.pvSkySlotCount++;
+      if (!event.isEmpty) {
+        window.pvSkyRightAds[0] = 1;
+      } else {
+        jQuery('.ad-sky-right').not('.ad-sky-right-additional').css('display','none');
+      }
+    }
+
+    if (event.slot.getSlotElementId() == "sky_right_2") {
+      window.pvSkySlotCount++;
+      if (!event.isEmpty) {
+        window.pvSkyRightAds[1] = 1;
+      } else {
+        jQuery('.ad-sky-right-additional').css('display','none');
+      }
+    }
+
+    if (event.slot.getSlotElementId() == "sky_right_3") {
+      window.pvSkySlotCount++;
+      if (!event.isEmpty) {
+        window.pvSkyRightAds[2] = 1;
+      } else {
+        jQuery('.ad-sky-right-additional-2').css('display','none');
+      }
+    }
+
+
+    if (event.slot.getSlotElementId() == "leaderboard_top_1") {
+      googletag.cmd.push(function() {
+        googletag.display('sky_right_1');
+       // googletag.pubads().refresh([slots['sky_right_1']]);
+      });
+      
+    }
+  });
+
+
+
+
+  // googletag.pubads().enableSingleRequest();
+  googletag.enableServices();
+
+});
+
+
+}
+
+
+function pvDisplayAds() {
+
+	
+      googletag.cmd.push(function() {
+        googletag.display('leaderboard_top_1');
+
+      });
+
+    
+
+		
+
+	
+      googletag.cmd.push(function() {
+        googletag.display('leaderboard_top_2');
+
+      });
+
+    
+
+		
+
+	
+      googletag.cmd.push(function() {
+        googletag.display('sky_left_1');
+
+      });
+
+    
+
+		
+
+	
+      googletag.cmd.push(function() {
+        googletag.display('sky_left_2');
+
+      });
+
+    
+
+		
+
+	
+      googletag.cmd.push(function() {
+        googletag.display('sky_left_3');
+
+      });
+
+    
+
+		
+
+	
+
+		
+
+	
+      googletag.cmd.push(function() {
+        googletag.display('sky_right_2');
+
+      });
+
+    
+
+		
+
+	
+      googletag.cmd.push(function() {
+        googletag.display('sky_right_3');
+
+      });
+
+    
+
+		
+
+	
+      googletag.cmd.push(function() {
+        googletag.display('banner_home_top_1');
+
+      });
+
+    
+
+		
+
+	
+      googletag.cmd.push(function() {
+        googletag.display('banner_home_top_2');
+
+      });
+
+    
+
+		
+
+	
+      googletag.cmd.push(function() {
+        googletag.display('banner_home_top_3');
+
+      });
+
+    
+
+		
+
+	
+      googletag.cmd.push(function() {
+        googletag.display('banner_single_article_top');
+
+      });
+
+    
+
+		
+
+	
+      googletag.cmd.push(function() {
+        googletag.display('banner_single_article_mid_content');
+
+      });
+
+    
+
+		
+
+	
+      googletag.cmd.push(function() {
+        googletag.display('banner_single_article_bottom');
+
+      });
+
+    
+
+		
+
+	
+      googletag.cmd.push(function() {
+        googletag.display('banner_single_article_footer');
+
+      });
+
+    
+
+		
+
+	
+      googletag.cmd.push(function() {
+        googletag.display('mobile_rectangle_single_article_footer');
+
+      });
+
+    
+
+		
+
+	
+      googletag.cmd.push(function() {
+        googletag.display('rectangle_sidebar');
+
+      });
+
+    
+
+		
+
+	
+      googletag.cmd.push(function() {
+        googletag.display('button_sidebar');
+
+      });
+
+    
+
+		
+
+	
+      googletag.cmd.push(function() {
+        googletag.display('rectangle_press_releases');
+
+      });
+
+    
+
+		
+
+	
+      googletag.cmd.push(function() {
+        googletag.display('rectangle_home_top');
+
+      });
+
+    
+
+		
+
+	
+      googletag.cmd.push(function() {
+        googletag.display('rectangle_home_top_2');
+
+      });
+
+    
+
+		
+
+	
+      googletag.cmd.push(function() {
+        googletag.display('rectangle_home_top_3');
+
+      });
+
+    
+
+		
+
+	
+      googletag.cmd.push(function() {
+        googletag.display('rectangle_sidebar_2');
+
+      });
+
+    
+
+		
+
+		
+    
+    
+    
+    
+    
+
+    
+}
+
+
+function pvSkyAds() {
+  
+
+  if (window.pvSkySlotCount >= 6) {
+
+
+    // body at least as tall as sky ads
+
+    var skyLeft = 0;
+    jQuery('.ad-sky-left').each(function() {
+      skyLeft += jQuery(this).height();
+    });
+    var skyRight = 0;
+    jQuery('.ad-sky-right').each(function() {
+      skyRight += jQuery(this).height();
+    });
+    var minHeight = Math.max(skyLeft,skyRight) + 400;
+    jQuery('#inner-wrap').css('min-height', minHeight + 'px');
+
+
+    // left side
+    var numLeftAds = window.pvSkyLeftAds[0] + window.pvSkyLeftAds[1] + window.pvSkyLeftAds[2];
+    if (numLeftAds === 1  && jQuery('body').height()>=700) {
+      var doLeftScroll = true;
+    }
+
+    // right side
+    var numRightAds = window.pvSkyRightAds[0] + window.pvSkyRightAds[1] + window.pvSkyRightAds[2];
+    if (numRightAds === 1  && jQuery('body').height()>=700) {
+      var doRightScroll = true;
+    }
+
+    // wallpaper ads - switch off scroll with
+    if (window.location.hostname == 'www.pv-magazine.es' || window.location.hostname == 'www.pv-magazine.de' || window.location.hostname == 'www.pv-magazine-australia.com' || window.location.hostname == 'www.pv-magazine-mexico.com' || window.location.hostname == 'www.pv-magazine-latam.com' ) {
+      doLeftScroll = doRightScroll = false;
+    }
+
+    if ((doLeftScroll || doRightScroll)) {
+      var leaderHeight = jQuery('.container-main').eq(0).outerHeight();
+
+      var maxOffset = jQuery('#footer').offset().top - 600 - leaderHeight;
+      var bodyOffset = jQuery(document).scrollTop() - leaderHeight;
+      var minOffset = 0;
+
+      if (doLeftScroll) {
+        if (bodyOffset >= maxOffset) {
+          jQuery('.ad-sky-left').css('top', maxOffset + 'px');
+        } else if  (bodyOffset <= minOffset){
+          jQuery('.ad-sky-left').css('top', minOffset + 'px');
+        } else {
+          jQuery('.ad-sky-left').css('top', bodyOffset + 'px');
+        } 
+      } else {
+        jQuery('.ad-sky-left').css('top', 0 + 'px');
+      }
+
+      if (doRightScroll) {
+        if (bodyOffset >= maxOffset) {
+          jQuery('.ad-sky-right').css('top', maxOffset + 'px');
+        } else if  (bodyOffset <= minOffset){
+          jQuery('.ad-sky-right').css('top', minOffset + 'px');
+        } else {
+          jQuery('.ad-sky-right').css('top', bodyOffset + 'px');
+        } 
+      } else {
+        jQuery('.ad-sky-right').css('top', 0 + 'px');
+      }
+
+      jQuery(document).on('scroll',function(e) {
+        if (doLeftScroll) {
+          bodyOffset = jQuery(document).scrollTop() - leaderHeight;
+          if (bodyOffset >= maxOffset) {
+            jQuery('.ad-sky-left').css('top', maxOffset + 'px');
+          } else if  (bodyOffset <= minOffset ){
+            jQuery('.ad-sky-left').css('top', minOffset + 'px');
+          }else {
+            jQuery('.ad-sky-left').css('top', bodyOffset + 'px');
+          }
+        }
+        if (doRightScroll) {
+          bodyOffset = jQuery(document).scrollTop() - leaderHeight;
+          if (bodyOffset >= maxOffset) {
+            jQuery('.ad-sky-right').css('top', maxOffset + 'px');
+          } else if  (bodyOffset <= minOffset ){
+            jQuery('.ad-sky-right').css('top', minOffset + 'px');
+          }else {
+            jQuery('.ad-sky-right').css('top', bodyOffset + 'px');
+          }
+        }
+      });
+
+      jQuery(window).on('resize',function() {
+        maxOffset = jQuery('#footer').offset().top - 600 - leaderHeight;
+        if (jQuery('body').height()<700 ) {
+          doLeftScroll = false;
+          doRightScroll = false;
+          jQuery('.ad-sky-left, .ad-sky-right').css('top','0px');
+        } else {
+          doLeftScroll = true;
+          doRightScroll = true;
+        }
+      });
+    }
+
+
+  } else {
+    setTimeout(pvSkyAds,100);
+  }
+}
+
+setTimeout(pvSkyAds,100);
+
+
+
+function pvRectHomeTopAds() {
+  
+
+  if (window.pvRectHomeTopSlotCount >= 3) {
+
+    // not working
+
+    if(jQuery('.third-home-section-block').filter(':visible').length % 2 == 0 && jQuery(window).width() > 767){
+      // even number visible, make final block half width
+      jQuery('.third-home-section-block').last().addClass('col-md-6').removeClass('col-md-12');
+      jQuery('.third-home-section-block-inner').addClass('col-sm-12').removeClass('col-sm-4');
+      jQuery('.third-home-section-block-inner .content-block').css('min-height','none');
+    } else {
+      // odd number visible, make final block full width
+      jQuery('.third-home-section-block').last().removeClass('col-md-6').addClass('col-md-12');
+      jQuery('.third-home-section-block-inner').addClass('col-sm-4').removeClass('col-sm-12');
+      window.pvSetMatchingHeights('.third-home-section-block-inner .content-block',  100000, 767);
+    }
+
+    jQuery(window).trigger('resize');
+
+
+
+
+  } else {
+    setTimeout(pvRectHomeTopAds,100);
+  }
+}
+
+setTimeout(pvRectHomeTopAds,100);
+
+
+
+
+window.pvWindowSizeForAds = 0;
+
+
+function pvAdsWhenReady() { // hide widget surround sidebar ad if no ad
+	if (window.googletag && googletag.apiReady) {
+		pvDefineAds();
+		pvDisplayAds();
+		window.pvWindowSizeForAds = jQuery(window).width();
+		//setTimeout(pvSetAdLayout, 500);
+		
+		jQuery(window).on('resize',function() {
+			var breakpoints = [500, 768,1023,1220,1420]; // only bother to check if breakpoint crossed
+			var oldWidth = window.pvWindowSizeForAds;
+			var newWidth = jQuery(window).width();
+      var screenWidth = 0;
+      for (var i = 0; i < breakpoints.length; i++) {
+        if (newWidth > breakpoints[i]) {
+          screenWidth = breakpoints[i];
+        }
+      }
+			
+			for (var i = 0; i < breakpoints.length; i++) {
+				bp = breakpoints[i];
+				if ((oldWidth >= bp && newWidth < bp)||(oldWidth < bp && newWidth >= bp)) {
+					pvUnsetAdLayout();
+          // set new screen width size
+          //console.log("screenWidth: " + screenWidth);
+          googletag.pubads().setTargeting("screen_width",screenWidth.toString());
+					googletag.pubads().refresh();
+					break;
+				}
+			}
+			window.pvWindowSizeForAds = newWidth;
+			//setTimeout(pvSetAdLayout, 500);
+		});
+		
+	} else {
+		setTimeout(pvAdsWhenReady,20);
+	}
+}
+
+
+setTimeout(pvAdsWhenReady,20);
+
+
+
+
+/*
+
+Disabled the following to use the slotRender callback instead
+But leaving here because the event that comes back from Google seems undocumented and might break
+Problem with below was it didn't run on first load
+
+*/
+
+function pvSetAdLayout() {
+
+  /* Sidebar widget */
+  if (!jQuery('#button_sidebar:visible').length) {
+    jQuery('#button-sidebar-widget').css('display','none');
+  } else {
+    jQuery('#button-sidebar-widget').css('display','block');
+  }
+  
+
+  /* Home top rectangle   */
+  // see above for popular posts layout stuff
+  
+
+}
+
+function pvUnsetAdLayout() {
+  
+  jQuery('#button-sidebar-widget').css('display','block');
+  jQuery('#home-top-rectangle-wrap-2').css('display','block');
+  // see above for popular posts layout stuff
+
+  jQuery('.ad-sky-left-additional, .ad-sky-right-additional, .ad-sky-right-additional-2').removeAttr("style");
+      
+  
+}
+
+</script>
+
+    </body>
+</html>

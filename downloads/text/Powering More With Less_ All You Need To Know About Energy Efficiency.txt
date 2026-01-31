@@ -1,0 +1,114 @@
+Title: Powering More With Less: All You Need To Know About Energy Efficiency
+URL: https://www.worldbank.org/en/news/podcast/2025/09/04/energy-efficiency-development-podcast
+Date: 2026-01-28
+======================================================================
+
+How can energy-efficient light bulbs, bricks, and buildings cut costs and improve energy security?
+In this episode of
+The Development Podcast
+, we discover that energy efficiency doesn’t just save money—it also drives growth and creates jobs. In 2022 alone, energy efficiency became the largest employer in the energy sector—supporting nearly 11 million jobs—from manufacturing and construction to installation and training.
+So, what needs to happen for the world to reap the rewards of
+becoming more energy efficient?
+Join us as we hear from:
+Jas Singh
+, Lead Energy Specialist, World Bank Group
+Melanie Slade
+, Senior Programme Manager, Energy Efficiency in Emerging Economies at the International Energy Agency (IEA)
+Nitik Arya
+, Sauga Bricks Pvt Ltd, India
+Tell us what you think
+of our podcast
+here >>>
+. We would love to hear from you!
+Transcript
+[00:00]
+Toni Karasanyi: Hello, and welcome to The
+Development Podcast
+. If you're joining us for the first time, a special hello. Stay tuned for insights, analysis, and stories from the front lines of the developing world on issues that affect all of us. I'm Toni Karasanyi, and I'm your host. In this episode, we'll be talking a lot of hot air. Yeah, really. But also cold air, light bulbs, fridges, and heat pumps. In short, we're talking energy efficiency. And rest assured, it is actually quite exciting.
+Saving energy is good for economies, creating businesses and jobs, and it's also good for the planet. Surprisingly, 2/3 of energy is wasted globally. That amounts to 5% of global GDP. At the same time, demand for energy continues to soar, so we need to go from loss to opportunity.
+Nitik Arya: The kind of requirement we have here in energy efficiency is very huge.
+Melanie Slade: The intensity of energy efficiency improvement is only about 1% a year, and we need it to be up to 4%.
+Jas Singh: If the world achieved that, it would add $2 trillion, that's with a T, $2 trillion to the global economy.
+Toni Karasanyi:
+So let's get into it.
+You know when you buy an appliance like a fridge, it comes with certain standards and ratings which tell you how energy-efficient it is. That's pretty common in most parts of the world. But if you're like me, you probably haven't paid much attention to it. So if we gave the entire globe an energy efficiency rating, what would that be? It would probably be could do better. Energy efficiency really matters because we're actually saving energy. Poor energy efficiency is not just wasteful, it's expensive. And demand for energy is growing fast in many economies.So how can the world do better? Bring on Power More with Less. That's not just a motto, that's the title of a new report from the World Bank Group. Power More with Less: Scaling Up Energy Efficiency for Growth and Energy Security.
+This report gives us an amazing big-picture view, and we'll be talking to the report's lead author in a few minutes.
+[02:27]
+Toni Karasanyi: But first, let's head to India, a country with a rapidly growing demand for energy. A lot of that coming from cooling systems like air conditioning units.
+Here, the World Bank Group has financed a number of projects. One guarantees the loans of businesses with energy efficiency at their core. Our producer, Sarah, found out more.
+Sarah Treanor: The sound of a bustling street in New Delhi, India's sprawling and vibrant capital. This megacity is home to over 16 million people, and it can be hot, very hot.
+Nitik Arya: Sometimes it goes up to 45 degrees Celsius. In the summer season, it is roughly around 35 to 40 degrees Celsius.
+Sarah Treanor: And that level of heat is only getting worse. Heat waves have become increasingly common, and as the city swelters, residents can struggle with daily tasks.
+Nitik Arya: Most of the buildings, they are constructed in a very traditional and old way, so the energy efficiency measures were not taken into consideration while constructing those buildings at that time. The kind of requirement we have here in energy efficiency is very huge.
+Sarah Treanor: That's Nitik Arya, an entrepreneur with an interesting solution to help mitigate some of these intensifying issues.
+Nitik Arya: I run a brick manufacturing company, and my company's name is Sauga Bricks.
+Sarah Treanor: And these bricks are special. You can hear the sounds of the factory where the bricks are being produced.
+Nitik Arya: And we make bricks from the clay only. And the clay is the most suitable material to make the buildings here in India, or especially in North India, because it is an insulating material. If we make buildings with the concrete, the concrete generally pass on the heat from outside to inside of the houses very easily. But if we use the clay material, it itself is an insulating material, it helps to reduce the inner heat, but in addition to that, we are making hollow clay bricks.
+Sarah Treanor: It's this hollow quality that makes the bricks energy-efficient.
+Nitik Arya: It traps the air between the bricks, so the air, it does not allow the heat to go inside the building. The thing is, if we use the normal clay, which is available here locally, we also reduce the carbon footprints in transportation. And the hollowness of the bricks, it provides additional insulation. And the insulation is so good in the hollow bricks that it can maintain around seven to eight degrees Celsius temperature lower than the outer temperatures in peak hot seasons.
+Sarah Treanor: The company is only two months old, but it already has a list of clients. Schools have been particularly keen to explore the idea of the bricks. Children need to sit in classrooms all day and stay at a steady temperature no matter the weather.
+Nitik Arya: We are dealing with both kind of situations in India. In winters it is very cold and in summers it is way too hot to handle. That's why we chose to have some product which can be locally made and which can be a cheaper alternative to the expensive insulation layers in the walls.
+Sarah Treanor: Nitik is also creating jobs. Sauga Bricks is now an employer.
+Nitik Arya: We are having around 60 to 70 people on board with us directly, and more than 200 people are employed in my factory indirectly.
+Sarah Treanor: I asked him about the role that the World Bank has played in his journey.
+Nitik Arya: Well, that's a very crucial question, and I would answer it very honestly. If there was no support from the World Bank, then probably this business could not be started in India. My company's bank loan was covered with the support of World Bank, and if that coverage was not there, I could not imagine this project to be successfully installed in India.
+Toni Karasanyi: Thanks, Sarah. And of course, as Nitik had mentioned, energy efficiency does generate jobs. In 2-0-2-2, energy efficiency was the biggest source of jobs across the energy sector, employing nearly 11 million people worldwide, ranging from manufacturing and construction to installation and support services. In fact, scaling energy efficiency can yield $3 to $5 in benefits for every dollar invested. What needs to be done at a policy level to reap the rewards?
+[07:23]
+Toni Karasanyi: I'm here with Jas Singh from the World Bank Group, who's the lead author of Power More with Less: Scaling Up Energy Efficiency for Growth and Energy Security.
+Joining us on the line from Europe is Melanie Slade from the International Energy Agency. The IEA, for short, works with governments and industry to shape a secure and sustainable future for all. Jas and Mel, welcome to The Development Podcast. So when I think of energy efficiency, I think of my wife following me around the house, turning off lights. But I'm curious, how would you very simply explain energy efficiency at the most practical level for your friends and family?
+Jas Singh: Sure. Energy efficiency is basically using less energy to provide the same level of service. And I often explain it with a simple light bulb.
+We've had one light bulb for the last 100 years, this incandescent light bulb. It used typically about 100 watts to deliver a certain amount of light. And today you can buy an LED, which looks very similar. It uses about 10 to 12 watts. So we can get the same light for about 1/10 of what we could before, and if you just expand this to cars and to appliances and to machinery and everything else, how much more we can do with much less energy than we're using today.
+Toni Karasanyi: Great example. And Mel, the next obvious question is how is the world currently doing in terms of energy efficiency?
+Melanie Slade: So this is the difficult one. Unfortunately, we're not doing as well as we'd like to be. The intensity of energy efficiency improvements only about 1% a year at the moment, and we need it to be up to 4%. But the good news is that we do have all the technologies we need to be able to do this. We don't have to wait for anything. And we've taken a look back at how countries have performed. We note that many, many countries, big economies have improved at a rate of 4% a year in the past, and some have done it persistently.
+So the good news is that it's doable, but we do need to make sure that we have the right policy environment in place to demand more efficiency, to drive more efficiency, but also to drive investment in efficiency as well.
+Toni Karasanyi: So Jas, why aren't we making better use of what we have?
+Jas Singh: I think consumers and businesses find it very hard to be more efficient because they're not always sure what to do and they don't always have the means to do it. Consumers may not have the financing that they need to pay for efficient appliances and equipment that may cost more than regular equipment. They may be faced with a wide variety of options to choose from, and it's not always easy to decide which one is going to provide the best efficiency. There may be other information that's lacking. They don't know how much energy it's going to save. They're not sure if the cost of the investment's going to pay back over time.
+So economists call these market failures, and the job of the government and World Bank and others is to help overcome those barriers by providing information to consumers, by providing affordable and accessible financing to make it easier for consumers to make the right decisions that are best for them.
+Toni Karasanyi: Thank you, Jas.
+[10:48]
+Toni Karasanyi: So air cooling. This is one energy efficiency issue that IEA has prioritized. Why is air cooling so important?
+Melanie Slade: It's the strongest driver of increased energy demand in buildings, and it's up to about 9% of global electricity demand now, and this is increasing rapidly.
+In many parts of the world, this quite rapid growth is causing stress on grids and it's driving peak demand. And peak demand is the most expensive electricity to provide.
+So especially during heat waves, we're seeing this growth in cooling actually making grids less reliable because it's straining them and making the whole system cost more, so it's really a problem. There are many angles to this, but one of the most important to us is equity. So if you take a country like India, only about 10% of households in India will own an air conditioner, but that is growing rapidly. And in 2-0-2-4 there was a record 14 million units sold. And if that were to continue, then that could drive an increase in energy demand to about three-fold, so this is clearly, clearly a big issue. But it's not a luxury, it does save lives. And one of the issues with equity is that it's richer people that could afford cooling. Good policy can help cooling access to less well-off households.
+Of course, as Jas said, the most efficient appliances use much less energy, but there's a perception that they are more expensive, and they can be more expensive, but we'd say they don't have to be. We've done analysis in Southeast Asia, in Latin America, in Sub-Saharan Africa, and we found that you can find energy-efficient units at the same prices BER efficient units.
+So if you were in Southeast Asia and you had $500 to go and buy an air conditioner, you could get one which performs at three watts per watt or six watts per watt at the same price. And of course the more efficient one costs a great deal less to run. We challenge the sense that governments say they can't necessarily introduce more ambitious policy, because they want to make sure that their populations have access to energy services. And we'd say the evidence doesn't necessarily bear that out. You can be more ambitious with policy whilst providing access to services at reasonable cost.
+Toni Karasanyi: You're making me realize that I have no idea how efficient or inefficient my own air-conditioned system is.
+[13:32]
+Toni Karasanyi: Jas, the World Bank's report, Power More with Less, calls energy efficiency the invisible powerhouse, including for economic growth. How easy is it to quantify the importance of energy efficiency?
+Jas Singh: When I talk to energy and finance ministers, I often say, "How much money are you spending right now importing energy from your neighboring countries? And how much would you save if you could stop importing it by using a domestic resource, which you have, which is energy efficiency?"
+Now, if you think, as Mel said, we're trying to get to 4% gains by 2-0-3-0. If the world achieved that, that's a big if, it would add $2 trillion, that's with a T, $2 trillion to the global economy. Study after study shows that $1 that the government invests in energy efficiency will yield $3 to $5 in benefits in terms of job growth, in terms of economic growth, in terms of reduced expenditures, reduced imports, so the benefits are literally there waiting to be tapped. And through this report, we're really calling on governments and businesses and everyone to just take that next step and tap into that savings that's there and waiting, ready to be had.
+Toni Karasanyi: Thank you, Jas. Mel, what are some of the benefits to raising our game on energy efficiency?
+Melanie Slade: Energy efficiency does many things for us. It improves energy security, which is really important to governments. It's incredibly important at the moment in this troubled world that we're living in. We like to point out, as Jas said, that energy efficiency is the one fuel that every country has in abundance. It's a homegrown fuel. It makes energy bills more affordable for people so that we have less unrest, perhaps. It makes businesses more competitive, so they keep on adding value, they keep on protecting jobs.
+Energy efficient jobs are often really long-term local jobs as well, which is obviously very important to governments. And there's really good evidence to say that more comfortable workplaces make people more productive, more comfortable learning environments make students more successful. And in some countries there's even good evidence to show that insulating people's houses and draft-proofing, weather-proofing houses reduces medical bills. There's a whole raft of these things.
+What we try to do is whenever we talk to a government is where are they at at this moment in time? What's really driving them? And then provide the evidence for those particular benefits.
+Toni Karasanyi: Thank you, Mel. Those are great insights. And you also helped me with my next question, which was the World Bank Group has prioritized job creation and identified energy as one of the five sectors with the greatest potential for job creation.
+We've also seen a strong focus on Mission 300 which aims to provide electricity to 300 million people across Africa by 2-0-3-0. So Jas, how can we continue to build coalitions to leverage energy efficiency, this powerhouse as you put it, to fuel economic growth to create jobs?
+Jas Singh: Well, I think this is a collective call to action. Everyone sees benefits of energy efficiency. As I mentioned before, there are barriers, there are market failures, there are challenges. People are used to doing things the way they've always done them. We call that behavioral inertia. People are reluctant to try new things. And the World Bank is but one of many players in this, so it's really important that we forge partnerships.
+What will it take to change every air conditioner in a country? What will it take to renovate every factory so that it is producing the same or more for less energy? And that requires a sea change in how financing is provided, how information is provided, how we organize the market. It means we need a lot more manufacturers and suppliers, we need a lot more competition. We need more energy experts that are providing advice to everyone and to build this entire ecosystem, but not build it for 50 or 100 buildings, but really build it at scale.
+If I'm selling hundreds of millions of light bulbs in a country, every supplier in the world is going to want to be a part of this marketplace. And as prices come down, it makes them more affordable. And as Mel said, we don't want to leave the poor behind. The poor spend a much higher share of their income on energy. And anything we can do to ease that burden will have ripple effects in the economy.
+Now, we've seen countries like India, like China, like Mexico undertake major programs, national programs, at scale, and have seen and reaped the benefits that these programs provide.
+Toni Karasanyi: Thank you, Jas. Mel, you've spoken a little bit already about the importance of having the right policies in place. So in your view, what needs to happen, what are other examples that you can share of good policies, and maybe also how IEA is supporting those policy initiatives?
+Melanie Slade: Jas and I used to work together in China.
+Toni Karasanyi: Right. That was back in the '90s.
+Melanie Slade: And you'd go to China and you find there were four or five people in a country of that size who were really, really at the heart of the energy efficiency policy. And that's just not enough. They have great expertise, but they're just overwhelmed with the pressures of the work.
+So one of the things that we decided to do 10 years ago now was start developing a training course for energy efficiency policymakers, which just didn't exist. And the most important element of that training program is that sharing experience.
+[19:40]
+Toni Karasanyi: Thank you, Mel. What gives you hope in terms of technological developments or even discussions that you've had that there can and will be a sea change in the world's approach to energy efficiency? And maybe I'll start with you, Mel.
+Melanie Slade: So COP28 in Dubai in 2-0-2-3 saw all countries committing to work together to double the rate of energy efficiency improvement. And we've never seen that level of public commitment before. It was a monumental agreement. Now, as a response, we are seeing some countries, some big regions actually taking energy efficiency much more seriously now. The European Union, I would like to say, is standing out there and showing what can be done with political will. And major economies, Jas has mentioned them, but China and India, they're also making really good progress. We have all the ingredients we need, we just need to get on with it.
+Jas Singh: Every time a new challenge presents itself, the speed of the innovation is staggering. One of the things we note in the report is there's many new drivers of energy demand. Mel mentioned cooling, but there's also data centers. Data centers are huge users of energy. But what we're starting to see already is green data centers, data centers that are going up that are efficient and use as much solar energy or renewable energy as they can. You see in heating and cooling, heat pump technology has done really, really well. Governments and the private sector are also innovating with new types of business models, new financing schemes. So although there's a lot of challenges ahead of us, the innovation that the world has to solve these problems continues to be really, really, really a source of optimism.
+Toni Karasanyi: Well, thank you both so much. I've certainly learned a lot about energy efficiency and enjoyed this conversation.
+Thanks again to Mel and Jas, and thank you, the listener. I learned a lot from them both, and I hope you did too. I'll definitely be doing more with less.
+We'll be back soon. And in the meantime, please like and subscribe wherever you get your podcasts.
+ABOUT THE DEVELOPMENT PODCAST
+This international development podcast brings together the data, research—and solutions—that can pave the way to a sustainable future. Through conversations focused on revealing the latest data, the best research, and cutting-edge solutions, let us introduce you to the folks working to make the world a better place. Don't miss an episode!
+Listen and subscribe for free
+on your favorite platform. And rate our show! ;)
+Tell us
+what you think
+of our podcast
+here >>>
+. We would love to hear from you!
+ABOUT THE WORLD BANK
+The
+World Bank
+is one of the world’s largest sources of funding and knowledge for low-income countries. Its five institutions share a commitment to reducing poverty, increasing shared prosperity, and promoting sustainable development on a livable planet.

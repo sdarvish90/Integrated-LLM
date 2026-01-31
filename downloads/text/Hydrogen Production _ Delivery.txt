@@ -1,0 +1,76 @@
+Title: Hydrogen Production & Delivery
+URL: https://www.nrel.gov/hydrogen/hydrogen-production-delivery
+Date: 2026-01-28
+======================================================================
+
+Hydrogen Production and Delivery
+Researchers at NLR are developing advanced technologies to lower the cost of hydrogen production via electrolysis, photoelectrochemical conversion, solar thermochemical conversion, and biological conversion.
+Electrolysis
+Renewable energy sources such as photovoltaics, wind, biomass, hydro, and geothermal can provide  electricity for our nation. However, renewable energy sources are naturally variable, requiring energy storage or a hybrid system to accommodate daily and seasonal changes. One solution is to produce hydrogen through the electrolysis—splitting with an electric current—of water and to use that hydrogen in a fuel cell to produce electricity during times of low power production or peak demand, or to use the hydrogen in fuel cell vehicles.
+Researchers at NLR's
+Energy Systems Integration Facility
+and
+Hydrogen Infrastructure Testing and Research Facility
+are examining the issues related to using renewable energy sources for producing hydrogen via the electrolysis of water. NLR tests integrated electrolysis systems and investigates design options to lower capital costs and enhance performance.
+Learn more about NLR's
+renewable electrolysis research
+.
+Contact:
+Bryan Pivovar
+Photoelectrochemical Water Splitting
+The cleanest way to produce hydrogen is by using sunlight to directly split water into hydrogen and oxygen. Multijunction cell technology developed by the photovoltaic industry is being used for photoelectrochemical (PEC) light harvesting systems that generate sufficient voltage to split water and are stable in a water/electrolyte environment. The NLR-developed PEC system produces hydrogen from sunlight without the expense and complication of electrolyzers, at a solar-to-hydrogen conversion efficiency of 12.4% lower heating value using captured light. Research is underway to identify more efficient, lower cost materials and systems that are durable and stable against corrosion in an aqueous environment.
+Contact:
+Todd Deutsch
+Solar Thermal Water Splitting
+NLR researchers use the
+High-Flux Solar Furnace
+reactor to concentrate solar energy and generate temperatures between 1,000 and 2,000 degrees Celsius. Ultra-high temperatures are required for thermochemical reaction cycles to produce hydrogen. Such high-temperature, high-flux, solar-driven thermochemical processes offer a novel approach for the environmentally benign production of hydrogen. Very high reaction rates at these elevated temperatures give rise to very fast reaction rates, which significantly enhance production rates and more than compensate for the intermittent nature of the solar resource.
+Contact:
+Judy Netter
+Biological Hydrogen
+NLR scientists are developing pretreatment technologies to convert lignocellulosic biomass into sugar-rich feedstocks that can be directly fermented to produce hydrogen, ethanol, and high-value chemicals. Researchers are also working to identify a consortium of Clostridium that can directly ferment hemicellulose to hydrogen. Other research areas involve bio-prospecting efficient cellulolytic microbes, such as Clostridium thermocellum, that can ferment crystalline cellulose directly to hydrogen to lower feedstock costs. Once a model cellulolytic bacterium is identified, its potential for genetic manipulations, including sensitivity to antibiotics and ease of genetic transformation, will be determined. NLR's future fermentation projects will focus on developing strategies to generate mutants that are blocked selectively from producing waste acids and solvents to maximize hydrogen yield.
+Contact:
+Katherine Chou
+Hydrogen Dispenser Hose Reliability
+With a focus on reducing costs and increasing reliability and safety, NLR performs accelerated testing and cycling of 700 bar hydrogen dispensing hoses at the
+Energy Systems Integration Facility
+using automated robotics to simulate field conditions. View the
+video
+of the robot, which mimics the repetitive stress of a person bending and twisting a hose to dispense hydrogen into a fuel cell vehicle's onboard storage tank. Researchers perform mechanical, thermal, and pressure stress tests on new and used hydrogen dispensing hoses. The hose material is analyzed to identify hydrogen infiltration, embrittlement, and crack initiation/propagation.
+Contact:
+Kevin Harrison
+Hydrogen Production and Delivery Pathway Analysis
+NLR performs systems-level analyses on a variety of  hydrogen production and delivery pathways. These efforts focus on determining status improvements resulting from technology advancements, cost as a function of production volume, and the potential for cost reductions. Results help identify barriers to the success of these pathways, primary cost drivers, and remaining R&D challenges. NLR-developed
+hydrogen analysis case studies
+provide transparent projections of current and future hydrogen production costs. Learn more about NLR's
+systems analysis
+work.
+Contact:
+Genevieve Saur
+Research Consortia
+HydroGEN Energy Materials Network
+NLR serves as the lead laboratory for the
+HydroGEN Energy Materials Network consortium
+, which addresses water-splitting materials challenges for photoelectrochemical, solar thermochemical, and advanced electrolytic hydrogen production.
+Hydrogen From Next-generation Electrolyzers of Water
+NLR co-leads the
+Hydrogen From Next-generation Electrolyzers of Water (H2NEW) consortium
+, which is focused on making large-scale electrolyzers more durable, efficient, and affordable.
+Publications
+Catalyst Layer Resistance and Utilization in PEM Electrolysis
+,
+Journal of The Electrochemical Society
+(2023)
+Defect Graph Neural Networks for Materials Discovery in High-Temperature Clean-Energy Applications
+,
+Nature Computational Science
+(2023)
+Best Practices in PEC Water Splitting: How to Reliably Measure Solar-to-Hydrogen Efficiency of Photoelectrodes
+,
+Frontiers in Energy Research
+(2022)
+Synchrotron-Based Techniques for Characterizing STCH Water-Splitting Materials
+,
+Frontiers in Energy Research
+(2022)
+Contact

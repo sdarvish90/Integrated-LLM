@@ -1,0 +1,730 @@
+<!doctype html><!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en" > <![endif]--><!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en" >        <![endif]--><!--[if IE 8]>    <html class="no-js lt-ie9" lang="en" >               <![endif]--><!--[if gt IE 8]><!--><html class="no-js" lang="en"><!--<![endif]--><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="author" content="InvestChile">
+    <meta name="description" content="A complete guide about Chile's opportunities in Green Hydrogen. A key green energy source for a zero-emission planet.">
+    <meta name="generator" content="HubSpot">
+    <title>Green Hydrogen in Chile</title>
+    <link rel="shortcut icon" href="https://tools.investchile.gob.cl/hubfs/favicon_invest-2.png">
+    
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <meta property="og:description" content="A complete guide about Chile's opportunities in Green Hydrogen. A key green energy source for a zero-emission planet.">
+    <meta property="og:title" content="Green Hydrogen in Chile">
+    <meta name="twitter:description" content="A complete guide about Chile's opportunities in Green Hydrogen. A key green energy source for a zero-emission planet.">
+    <meta name="twitter:title" content="Green Hydrogen in Chile">
+
+    
+
+    
+    <style>
+a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}
+</style>
+
+
+
+<!-- Include Font Awesome -->
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" media="all">
+<!-- Include Bootstrap -->
+<link href="https://tools.investchile.gob.cl/hubfs/hub_generated/template_assets/1/30030482099/1743414303710/template_bootstrap.min.min.css" rel="stylesheet" media="all">
+<!-- Include jQuery -->
+<script src="https://tools.investchile.gob.cl/hubfs/hub_generated/template_assets/1/30028426422/1743414299332/template_jquery-3.4.1.min.min.js"></script>
+
+<link rel="stylesheet" href="https://tools.investchile.gob.cl/hubfs/hub_generated/module_assets/1/164260948340/1743594489482/module_language_switcher_foro_derecha.min.css">
+<link rel="stylesheet" href="/hs/hsstatic/cos-LanguageSwitcher/static-1.336/sass/LanguageSwitcher.css">
+<link rel="stylesheet" href="https://tools.investchile.gob.cl/hubfs/hub_generated/module_assets/1/167061677334/1743594491337/module_Nivel_1_EM_version_estrecha.min.css">
+
+		<style type="text/css">
+			.widget_1715713782348 {
+				position: relative;
+				overflow: hidden;
+				background: #000;
+			}
+			
+				 .widget_1715713782348 .sr-cover-image {
+				 	
+					
+						
+		
+		
+		background-image: url(); 
+		background-image: -webkit-image-set(url() 1x, url() 2x);
+		background-image: -moz-image-set(url() 1x, url() 2x);
+		background-image: -o-image-set(url() 1x, url() 2x);
+		background-image: -ms-image-set(url() 1x, url() 2x);
+
+					
+					width: 100%;
+					
+					height: 100%;
+					top: 0%;
+					background-position: center;
+					
+					position: absolute;
+					background-size: cover;
+				}
+				@media (min-width: 768px) {
+					.widget_1715713782348 .sr-cover-image {
+						
+							
+		
+		
+		background-image: url(); 
+		background-image: -webkit-image-set(url() 1x, url() 2x);
+		background-image: -moz-image-set(url() 1x, url() 2x);
+		background-image: -o-image-set(url() 1x, url() 2x);
+		background-image: -ms-image-set(url() 1x, url() 2x);
+
+						
+					}
+				}
+				.widget_1715713782348 .sr-cover-image:before {
+					content: "";
+					width: 100%;
+					height: 100%;
+					position: absolute;
+					top: 0;
+					left: 0;
+					background: rgba(238, 238, 238, 100);
+				}
+			
+			.widget_1715713782348 .sr-cover-inner {
+				margin: 0 auto;
+			}
+			.widget_1715713782348 .cta-wrapper {
+				display: -webkit-box;
+				display: -ms-flexbox;
+				display: flex;
+				 
+				-webkit-box-pack: center;
+				-ms-flex-pack: center;
+				justify-content: center;
+				
+				
+			}
+			.widget_1715713782348 .btn-wrapper {
+				padding: 0 .25rem;
+			}
+			@media (max-width: 768px) { 
+				.widget_1715713782348 br {
+					display: none;
+				}
+			}
+			.widget_1715713782348 .height-auto     { min-height: 0vh; }
+			.widget_1715713782348 .height-small    { padding: 8rem 0; }
+			.widget_1715713782348 .height-medium   { padding: 14rem 0; }
+			.widget_1715713782348 .height-large    { padding: 20rem 0; }
+			.widget_1715713782348 .height-full     { min-height: 100vh; }
+			
+			.widget_1715713782348 .description p:last-child {
+				margin-bottom: 0;
+			}
+		</style>
+	
+<!-- Editor Styles -->
+<style id="hs_editor_style" type="text/css">
+#hs_cos_wrapper_widget_164472640821  { background-color: #e6e6e6 !important; background-image: none !important; display: block !important; padding-bottom: 1px !important; padding-left: 40px !important; padding-right: 40px !important; padding-top: 5px !important }
+#hs_cos_wrapper_widget_164472640821 input[type="submit"] { background-color: #eb6751 !important; background-image: none !important; border-radius: 7px !important; font-size: 12px !important; margin-bottom: 40px !important; margin-top: 20px !important; padding-bottom: 11px !important; padding-left: 56px !important; padding-right: 56px !important; padding-top: 11px !important }
+#hs_cos_wrapper_widget_164472640821 .hs-button { background-color: #eb6751 !important; background-image: none !important; border-radius: 7px !important; font-size: 12px !important; margin-bottom: 40px !important; margin-top: 20px !important; padding-bottom: 11px !important; padding-left: 56px !important; padding-right: 56px !important; padding-top: 11px !important }
+#hs_cos_wrapper_widget_164472640821 input[type="text"] { background-color: #f5f8fa !important; background-image: none !important; border-color: #cccccc !important; border-radius: 2px !important; color: #33475b !important; font-family: Arial, sans-serif !important; font-size: 15px !important; line-height: 10px !important; margin-bottom: 15px !important; margin-top: 8px !important; padding-bottom: 9px !important; padding-left: 5px !important; padding-right: 0px !important; padding-top: 9px !important }
+#hs_cos_wrapper_widget_164472640821 input[type="email"] { background-color: #f5f8fa !important; background-image: none !important; border-color: #cccccc !important; border-radius: 2px !important; color: #33475b !important; font-family: Arial, sans-serif !important; font-size: 15px !important; line-height: 10px !important; margin-bottom: 15px !important; margin-top: 8px !important; padding-bottom: 9px !important; padding-left: 5px !important; padding-right: 0px !important; padding-top: 9px !important }
+#hs_cos_wrapper_widget_164472640821 textarea { background-color: #f5f8fa !important; background-image: none !important; border-color: #cccccc !important; border-radius: 2px !important; color: #33475b !important; font-family: Arial, sans-serif !important; font-size: 15px !important; line-height: 10px !important; margin-bottom: 15px !important; margin-top: 8px !important; padding-bottom: 9px !important; padding-left: 5px !important; padding-right: 0px !important; padding-top: 9px !important }
+#hs_cos_wrapper_widget_164472640821 input[type="number"] { background-color: #f5f8fa !important; background-image: none !important; border-color: #cccccc !important; border-radius: 2px !important; color: #33475b !important; font-family: Arial, sans-serif !important; font-size: 15px !important; line-height: 10px !important; margin-bottom: 15px !important; margin-top: 8px !important; padding-bottom: 9px !important; padding-left: 5px !important; padding-right: 0px !important; padding-top: 9px !important }
+#hs_cos_wrapper_widget_164472640821 select { background-color: #f5f8fa !important; background-image: none !important; border-color: #cccccc !important; border-radius: 2px !important; color: #33475b !important; font-family: Arial, sans-serif !important; font-size: 15px !important; line-height: 10px !important; margin-bottom: 15px !important; margin-top: 8px !important; padding-bottom: 9px !important; padding-left: 5px !important; padding-right: 0px !important; padding-top: 9px !important }
+#hs_cos_wrapper_widget_164472640821 input[type="file"] { background-color: #f5f8fa !important; background-image: none !important; border-color: #cccccc !important; border-radius: 2px !important; color: #33475b !important; font-family: Arial, sans-serif !important; font-size: 15px !important; line-height: 10px !important; margin-bottom: 15px !important; margin-top: 8px !important; padding-bottom: 9px !important; padding-left: 5px !important; padding-right: 0px !important; padding-top: 9px !important }
+#hs_cos_wrapper_widget_164472640821 input[type="tel"] { background-color: #f5f8fa !important; background-image: none !important; border-color: #cccccc !important; border-radius: 2px !important; color: #33475b !important; font-family: Arial, sans-serif !important; font-size: 15px !important; line-height: 10px !important; margin-bottom: 15px !important; margin-top: 8px !important; padding-bottom: 9px !important; padding-left: 5px !important; padding-right: 0px !important; padding-top: 9px !important }
+#hs_cos_wrapper_widget_164472640821 input[type="date"] { background-color: #f5f8fa !important; background-image: none !important; border-color: #cccccc !important; border-radius: 2px !important; color: #33475b !important; font-family: Arial, sans-serif !important; font-size: 15px !important; line-height: 10px !important; margin-bottom: 15px !important; margin-top: 8px !important; padding-bottom: 9px !important; padding-left: 5px !important; padding-right: 0px !important; padding-top: 9px !important }
+#hs_cos_wrapper_widget_164472640821 .hs-error-msg { color: #ff0201 !important; font-family: Arial, sans-serif !important; font-size: 13px !important; line-height: 0px !important }
+#hs_cos_wrapper_widget_164472640821 .hs_error_rollup .hs-error-msgs .hs-main-font-element { color: #ff0201 !important; font-family: Arial, sans-serif !important; font-size: 13px !important; line-height: 0px !important }
+#hs_cos_wrapper_widget_164472640821 .hsfc-ErrorAlert { color: #ff0201 !important; font-family: Arial, sans-serif !important; font-size: 13px !important; line-height: 0px !important }
+#hs_cos_wrapper_widget_164472640821 label:not(.hs-error-msg) { color: #33475b !important; font-family: Arial, sans-serif !important; font-size: 13px !important; line-height: 17px !important }
+#hs_cos_wrapper_widget_164472640821 label:not(.hs-error-msg) p , #hs_cos_wrapper_widget_164472640821 label:not(.hs-error-msg) li , #hs_cos_wrapper_widget_164472640821 label:not(.hs-error-msg) span , #hs_cos_wrapper_widget_164472640821 label:not(.hs-error-msg) label , #hs_cos_wrapper_widget_164472640821 label:not(.hs-error-msg) h1 , #hs_cos_wrapper_widget_164472640821 label:not(.hs-error-msg) h2 , #hs_cos_wrapper_widget_164472640821 label:not(.hs-error-msg) h3 , #hs_cos_wrapper_widget_164472640821 label:not(.hs-error-msg) h4 , #hs_cos_wrapper_widget_164472640821 label:not(.hs-error-msg) h5 , #hs_cos_wrapper_widget_164472640821 label:not(.hs-error-msg) h6  { color: #33475b !important; font-family: Arial, sans-serif !important; font-size: 13px !important; line-height: 17px !important }
+#hs_cos_wrapper_widget_164472640821 .hs-richtext { color: #33475b !important; font-family: Arial, sans-serif !important; font-size: 10px !important; line-height: 12.2857px !important }
+#hs_cos_wrapper_widget_164472640821 .hs-richtext p { color: #33475b !important; font-family: Arial, sans-serif !important; font-size: 10px !important; line-height: 12.2857px !important }
+#hs_cos_wrapper_widget_164472640821 .form-title { color: #33475b !important; font-family: Arial, sans-serif !important; font-size: 10px !important; line-height: 12.2857px !important }
+#hs_cos_wrapper_widget_164472640821 .submitted-message { color: #33475b !important; font-family: Arial, sans-serif !important; font-size: 10px !important; line-height: 12.2857px !important }
+#hs_cos_wrapper_module_105682329  { display: block !important; margin-bottom: 18px !important }
+</style>
+    
+
+    
+    <link rel="canonical" href="https://tools.investchile.gob.cl/en/green-hydrogen-in-chile">
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PFJD2JN');</script>
+<!-- End Google Tag Manager -->
+<meta property="og:url" content="https://tools.investchile.gob.cl/en/green-hydrogen-in-chile">
+<meta name="twitter:card" content="summary">
+<meta http-equiv="content-language" content="en">
+<link rel="alternate" hreflang="en" href="https://tools.investchile.gob.cl/en/green-hydrogen-in-chile">
+<link rel="alternate" hreflang="es" href="https://tools.investchile.gob.cl/es/hidrogeno-verde-en-chile">
+<link rel="stylesheet" href="//7052064.fs1.hubspotusercontent-na1.net/hubfs/7052064/hub_generated/template_assets/DEFAULT_ASSET/1767118704405/template_layout.min.css">
+
+
+<link rel="stylesheet" href="https://tools.investchile.gob.cl/hubfs/hub_generated/template_assets/1/5539138700/1743414259601/template_classic.css">
+<link rel="stylesheet" href="https://tools.investchile.gob.cl/hubfs/hub_generated/template_assets/1/5484072765/1743414254639/template_Invest_Chile_December2017-style.css">
+<link rel="stylesheet" href="https://tools.investchile.gob.cl/hubfs/hub_generated/template_assets/1/33084170010/1743414304438/template_webinar.min.css">
+<link rel="stylesheet" href="https://tools.investchile.gob.cl/hubfs/hub_generated/template_assets/1/140632270931/1743414389211/template_Estilos_Idioma.min.css">
+<link rel="stylesheet" href="https://tools.investchile.gob.cl/hubfs/hub_generated/template_assets/1/168707431473/1743414400153/template_borrar_linea.min.css">
+
+    
+    
+
+</head>
+<body class="   hs-content-id-166509980762 hs-landing-page hs-page " style="">
+    <div class="header-container-wrapper">
+    <div class="header-container container-fluid">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-1 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell header_desktop" style="padding: 0px 0px 13px 0px; " data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-2 ">
+<div class="row-fluid ">
+<div class="span4 widget-span widget-type-custom_widget espaciado_mobile" style="" data-widget-type="custom_widget" data-x="0" data-w="4">
+<div id="hs_cos_wrapper_module_1712930567188102" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-space" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><span class="hs-horizontal-spacer"></span></div>
+
+</div><!--end widget-span -->
+<div class="span4 widget-span widget-type-cell logo_invest" style="padding-top: 7px;" data-widget-type="cell" data-x="4" data-w="4">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-3 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget " style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_module_1712930575898103" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><span id="hs_cos_wrapper_module_1712930575898103_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><div><img src="https://tools.investchile.gob.cl/hs-fs/hubfs/logo%20invMesa%20de%20trabajo%201.png?width=120&amp;height=60&amp;name=logo%20invMesa%20de%20trabajo%201.png" width="120" height="60" loading="lazy" alt="logo invMesa de trabajo 1" style="height: auto; max-width: 100%; width: 120px; margin-left: auto; margin-right: auto; display: block;" srcset="https://tools.investchile.gob.cl/hs-fs/hubfs/logo%20invMesa%20de%20trabajo%201.png?width=60&amp;height=30&amp;name=logo%20invMesa%20de%20trabajo%201.png 60w, https://tools.investchile.gob.cl/hs-fs/hubfs/logo%20invMesa%20de%20trabajo%201.png?width=120&amp;height=60&amp;name=logo%20invMesa%20de%20trabajo%201.png 120w, https://tools.investchile.gob.cl/hs-fs/hubfs/logo%20invMesa%20de%20trabajo%201.png?width=180&amp;height=90&amp;name=logo%20invMesa%20de%20trabajo%201.png 180w, https://tools.investchile.gob.cl/hs-fs/hubfs/logo%20invMesa%20de%20trabajo%201.png?width=240&amp;height=120&amp;name=logo%20invMesa%20de%20trabajo%201.png 240w, https://tools.investchile.gob.cl/hs-fs/hubfs/logo%20invMesa%20de%20trabajo%201.png?width=300&amp;height=150&amp;name=logo%20invMesa%20de%20trabajo%201.png 300w, https://tools.investchile.gob.cl/hs-fs/hubfs/logo%20invMesa%20de%20trabajo%201.png?width=360&amp;height=180&amp;name=logo%20invMesa%20de%20trabajo%201.png 360w" sizes="(max-width: 120px) 100vw, 120px"></div></span></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+<div class="span4 widget-span widget-type-custom_widget " style="padding-top: 15px; " data-widget-type="custom_widget" data-x="8" data-w="4">
+<div id="hs_cos_wrapper_module_1713299290016181" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-language_switcher" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><span id="hs_cos_wrapper_module_1713299290016181_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_language_switcher" style="" data-hs-cos-general-type="widget" data-hs-cos-type="language_switcher"><div class="lang_switcher_class">
+   <div class="globe_class" onclick="">
+       <ul class="lang_list_class">
+           <li>
+               <a class="lang_switcher_link" data-language="en" lang="en" href="https://tools.investchile.gob.cl/en/green-hydrogen-in-chile">English</a>
+           </li>
+           <li>
+               <a class="lang_switcher_link" data-language="es" lang="es" href="https://tools.investchile.gob.cl/es/hidrogeno-verde-en-chile">Español</a>
+           </li>
+       </ul>
+   </div>
+</div></span>
+
+&nbsp; <strong class="idioma hsg-nav__link">English</strong>  
+</div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-4 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell header_mobile" style="display: none; padding: 0px" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-5 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget " style="padding-top: 15px !important;  text-align: right !important; padding-right: 5px; " data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_module_1713201656738147" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-language_switcher" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><span id="hs_cos_wrapper_module_1713201656738147_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_language_switcher" style="" data-hs-cos-general-type="widget" data-hs-cos-type="language_switcher"><div class="lang_switcher_class">
+   <div class="globe_class" onclick="">
+       <ul class="lang_list_class">
+           <li>
+               <a class="lang_switcher_link" data-language="en" lang="en" href="https://tools.investchile.gob.cl/en/green-hydrogen-in-chile">English</a>
+           </li>
+           <li>
+               <a class="lang_switcher_link" data-language="es" lang="es" href="https://tools.investchile.gob.cl/es/hidrogeno-verde-en-chile">Español</a>
+           </li>
+       </ul>
+   </div>
+</div></span>
+
+&nbsp; <strong class="idioma hsg-nav__link">English</strong>  
+</div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-6 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget " style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_module_1713201656738146" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><span id="hs_cos_wrapper_module_1713201656738146_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><h2><img src="https://tools.investchile.gob.cl/hs-fs/hubfs/InvestChile-logo-1.webp?width=116&amp;height=39&amp;name=InvestChile-logo-1.webp" width="116" height="39" loading="lazy" alt="InvestChile-logo-1" style="height: auto; max-width: 100%; width: 116px; margin: 10px auto; display: block;" srcset="https://tools.investchile.gob.cl/hs-fs/hubfs/InvestChile-logo-1.webp?width=58&amp;height=20&amp;name=InvestChile-logo-1.webp 58w, https://tools.investchile.gob.cl/hs-fs/hubfs/InvestChile-logo-1.webp?width=116&amp;height=39&amp;name=InvestChile-logo-1.webp 116w, https://tools.investchile.gob.cl/hs-fs/hubfs/InvestChile-logo-1.webp?width=174&amp;height=59&amp;name=InvestChile-logo-1.webp 174w, https://tools.investchile.gob.cl/hs-fs/hubfs/InvestChile-logo-1.webp?width=232&amp;height=78&amp;name=InvestChile-logo-1.webp 232w, https://tools.investchile.gob.cl/hs-fs/hubfs/InvestChile-logo-1.webp?width=290&amp;height=98&amp;name=InvestChile-logo-1.webp 290w, https://tools.investchile.gob.cl/hs-fs/hubfs/InvestChile-logo-1.webp?width=348&amp;height=117&amp;name=InvestChile-logo-1.webp 348w" sizes="(max-width: 116px) 100vw, 116px"></h2></span></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+    </div><!--end header -->
+</div><!--end header wrapper -->
+
+<div class="body-container-wrapper">
+    <div class="body-container container-fluid">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-1 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell nivel2_desktop" style="background-image: url('https://tools.investchile.gob.cl/hubfs/FONDO-HIGHLIGHTS%20%283%29.png;%20%20display:%20none;" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-2 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell " style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-3 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-widget_container " style="" data-widget-type="widget_container" data-x="0" data-w="12">
+<span id="hs_cos_wrapper_module_1698338825899136" class="hs_cos_wrapper hs_cos_wrapper_widget_container hs_cos_wrapper_type_widget_container" style="" data-hs-cos-general-type="widget_container" data-hs-cos-type="widget_container"><div id="hs_cos_wrapper_widget_1715713782348" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+	
+	
+	
+		
+	
+
+	<!-- Label For Modules Data Page -->
+	
+	
+	<div class="widget_1715713782348 sr-hero-01 sr-cover-parallax  prototype-no-background  ">
+		
+		
+		<div class="sr-cover-image overlay-"></div>
+		
+
+		<div class="container-fluid">
+			
+					<div class="col-12">
+						<div class="sr-cover d-flex align-items-center  text-center sr-spacer-100">
+							<div class="sr-cover-inner text-white">
+								
+								
+								
+								
+                                    <div class="description">
+                                        <div class="col-sm-12 col-md-6 texto-izquierdo"><br><br>
+<p style="margin: 5px 0; font-size: 12px; font-weight: 900; font-family: LatoWeb; text-align: left;"><span style="margin: 0px 0; color: #54575a;">AN OPPORTUNITY FOR THE WORLD</span></p>
+<h1 style="margin: -2px 0; font-weight: 900; font-family: LatoWeb; line-height: 1.15; font-size: 30px !important; text-align: left;"><span style="color: #0f9cbb;"><strong><span>GREEN HYDROGEN IN CHILE</span></strong></span></h1>
+<p style="text-align: left; font-size: 12px; color: #304251;"><strong>Download our ebook on Green Hydrogen in Chile: </strong></p>
+<ul style="color: #304251; padding-left: 30px; line-height: 1.25; padding-top: 10px;">
+<li style="text-align: left; font-size: 12px;">A comprehensive overview with <strong>key information</strong> about green hydrogen production in Chile. <br><br></li>
+<li style="text-align: left; font-size: 12px;">The first publication bringing together the <strong>main actors, projects</strong>, and incentives of an industry that is rapidly developing in the country. <br><br></li>
+<li style="text-align: left; font-size: 12px;"><span>Read the details and join a pioneering sector, <strong>rapidly developing and forward-thinking</strong>, operating in a mature market and sharing the stage with key industry players globally. </span></li>
+</ul>
+<h6 style="font-size: 10px;">&nbsp;</h6>
+<div class="boton_download_now" style="text-align: left;"><a style="text-decoration: none !important;" href="#formulario_guia">
+<p class="roll_azul" style="background-color: #eb6751; color: #ffffff; font-family: LatoWeb; font-size: 12px; text-align: center; padding: 11px 12px; border-radius: 7px; margin-right: 56%;">DOWNLOAD</p>
+</a></div>
+<h4>&nbsp;</h4> </div>
+                                        <div class="col-sm-12 col-md-6 imagen-derecha"> 
+<img src="https://tools.investchile.gob.cl/hubfs/240702_Invest_Ebook_Img2_Hidrogeno%20Verde.png" alt="240702_Invest_Ebook_Img2_Hidrogeno Verde" style="width: 300px; margin-top: 30px; float: right;"> 
+</div>
+
+                                        
+                                    </div>
+                                
+
+								
+									<div class="sr-spacer-top-25 cta-wrapper">
+										
+										<div class="btn-wrapper btn-primary-wrapper">
+											
+												<a href="#" class="cta_button"></a>
+											
+										</div>
+										
+
+										
+										<div class="btn-wrapper btn-outline-white-wrapper">
+											
+												<a href="#" class="cta_button"></a>
+											
+										</div>
+										
+									</div>
+								
+							</div>
+						</div>
+					</div>
+			
+		</div>
+	</div>
+
+	
+</div></span>
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-4 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget nivel2_mobile" style="display: none; " data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_module_169833731128533" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><span id="hs_cos_wrapper_module_169833731128533_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><div style="background-image: url('https://tools.investchile.gob.cl/hubfs/FONDO-HIGHLIGHTS%20%283%29.png');">
+<div style="margin: 0 25px;">
+<p style="margin: 5px 0; font-size: 12px; font-weight: 900; font-family: LatoWeb; text-align: left;">&nbsp;</p>
+<p style="margin: 5px 0; font-size: 12px; font-weight: 900; font-family: LatoWeb; text-align: left;"><span style="margin: 0px 0; color: #54575a;">AN OPPORTUNITY FOR THE WORLD</span></p>
+<h1 style="margin: -2px 0; font-weight: 900; font-family: LatoWeb; line-height: 1.15; font-size: 30px !important; text-align: left;"><span style="color: #0f9cbb;"><strong><span>GREEN HYDROGEN IN CHILE</span></strong></span></h1>
+<img src="https://tools.investchile.gob.cl/hs-fs/hubfs/hydrogen.png?width=228&amp;height=250&amp;name=hydrogen.png" width="228" height="250" loading="lazy" alt="guia-1" style="height: auto; max-width: 100%; width: 228px; margin-left: auto; margin-right: auto; display: block;" srcset="https://tools.investchile.gob.cl/hs-fs/hubfs/hydrogen.png?width=114&amp;height=125&amp;name=hydrogen.png 114w, https://tools.investchile.gob.cl/hs-fs/hubfs/hydrogen.png?width=228&amp;height=250&amp;name=hydrogen.png 228w, https://tools.investchile.gob.cl/hs-fs/hubfs/hydrogen.png?width=342&amp;height=375&amp;name=hydrogen.png 342w, https://tools.investchile.gob.cl/hs-fs/hubfs/hydrogen.png?width=456&amp;height=500&amp;name=hydrogen.png 456w, https://tools.investchile.gob.cl/hs-fs/hubfs/hydrogen.png?width=570&amp;height=625&amp;name=hydrogen.png 570w, https://tools.investchile.gob.cl/hs-fs/hubfs/hydrogen.png?width=684&amp;height=750&amp;name=hydrogen.png 684w" sizes="(max-width: 228px) 100vw, 228px">
+<p style="text-align: left; font-size: 12px; color: #304251;"><strong>Download our ebook on Green Hydrogen in Chile: </strong></p>
+<ul style="color: #304251; padding-left: 15px; line-height: 1.25;">
+<li style="text-align: left; font-size: 12px;">A comprehensive overview with <strong>key information </strong>about green hydrogen production in Chile. <br><br></li>
+<li style="text-align: left; font-size: 12px;">The first publication bringing together the main actors, projects, and incentives of an industry that is<strong> rapidly developing in the country.</strong> <br><br></li>
+<li style="text-align: left; font-size: 12px;"><span>Read the details and join a pioneering sector, <strong>rapidly developing and forward-thinking</strong>, operating in a mature market and sharing the stage with key industry players globally. </span></li>
+</ul>
+<br>
+<div class="boton_download_now" style="text-align: center;"><a style="text-decoration: none !important; margin-bottom: 50px;" href="#formulario_guia">
+<p class="roll_azul" style="background-color: #eb6751; color: #ffffff; font-family: LatoWeb; font-size: 12px; text-align: center; padding: 11px 5px; border-radius: 7px; margin-left: 23%; margin-right: 23%;"><span style="text-decoration: underline #d8705700;">DOWNLOAD</span></p>
+</a>
+<p>&nbsp;</p>
+</div>
+</div>
+</div></span></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-5 ">
+<div class="row-fluid ">
+<div id="formulario_guia" class="span12 widget-span widget-type-cell formulario" style="background-color: #e6e6e6;" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-6 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell " style="background-color: #e6e6e6;" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-7 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell " style="background-color: #e6e6e6;" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-8 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell " style="background-color: #e6e6e6;" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-2 row-number-1 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-widget_container form_body" style="padding: 0 22%;  width: 800px important; " data-widget-type="widget_container" data-x="0" data-w="12">
+<span id="hs_cos_wrapper_module_1580328603052754" class="hs_cos_wrapper hs_cos_wrapper_widget_container hs_cos_wrapper_type_widget_container" style="" data-hs-cos-general-type="widget_container" data-hs-cos-type="widget_container"><div id="hs_cos_wrapper_widget_164472640820" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><span id="hs_cos_wrapper_widget_164472640820_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><div style="padding: 10px; background-color: #e6e6e6;">
+<p class="form_title" style="font-family: LatoWeb; font-size: 22px; text-align: center; font-weight: 900; line-height: normal; color: #54575a;">Free Download <br>"BROCHURE CHILE, GREEN HYDROGEN"</p>
+<p class=" " style="font-family: LatoWeb; font-size: 22px; text-align: center; font-weight: 900; line-height: normal; color: #54575a;">&nbsp;</p>
+</div></span></div>
+<div id="hs_cos_wrapper_widget_164472640821" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+
+	
+
+
+
+	<span id="hs_cos_wrapper_widget_164472640821_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_form" style="" data-hs-cos-general-type="widget" data-hs-cos-type="form">
+<div id="hs_form_target_widget_164472640821"></div>
+
+
+
+
+
+
+
+
+</span>
+</div></span>
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-1 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-global_group " style="" data-widget-type="global_group" data-x="0" data-w="12">
+<div class="" data-global-widget-path="generated_global_groups/139650607907.html"><div class="row-fluid-wrapper row-depth-1 row-number-1 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget " style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_module_1696517644964108" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><span id="hs_cos_wrapper_module_1696517644964108_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><div class="about_sinfondo" style="font-family: LatoWeb; background-color: #0093b2; font-size: 14px; padding: 3rem 21%;">
+<div class="texto_about_em">
+<h2 style="color: #eeeeee; font-size: 30px; font-weight: 500; font-height: 1.1;">About InvestChile</h2>
+<span style="color: #eeeeee;">We are the government agency responsible for promoting Chile’s reputation in the global market as a key destination for FDI and as the Latin American hub for global business.<br><br>We are the bridge between your interests and the business opportunities our country offers, providing individually focused assistance and free-of-charge specialized services at every stage of your investment project, facilitating your landing and expansion.<br></span></div>
+</div></span></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+</div>
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-2 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-global_group " style="" data-widget-type="global_group" data-x="0" data-w="12">
+<div class="" data-global-widget-path="generated_global_groups/124565071154.html"><div class="row-fluid-wrapper row-depth-1 row-number-1 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell " style="background-color:  #303039; " data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-2 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget " style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_module_871847333" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-space" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><div style="height:40px"></div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-3 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell " style="height: 2%; " data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-4 ">
+<div class="row-fluid ">
+<div class="span4 widget-span widget-type-custom_widget " style="" data-widget-type="custom_widget" data-x="0" data-w="4">
+<div id="hs_cos_wrapper_module_87250550" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-space" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><span style="max-width:100px" class="hs-horizontal-spacer"></span></div>
+
+</div><!--end widget-span -->
+<div class="span4 widget-span widget-type-custom_widget " style="text-align: center; padding-right: 10px;" data-widget-type="custom_widget" data-x="4" data-w="4">
+<div id="hs_cos_wrapper_module_131141687" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-linked_image" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+    
+
+
+
+
+
+
+  
+
+
+
+<span id="hs_cos_wrapper_module_131141687_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_linked_image" style="" data-hs-cos-general-type="widget" data-hs-cos-type="linked_image"><img src="https://tools.investchile.gob.cl/hs-fs/hubfs/footer_ingles-2.png?width=324&amp;height=80&amp;name=footer_ingles-2.png" class="hs-image-widget " width="324" height="80" style="max-width: 100%; height: auto;" alt="footer_ingles-2" title="footer_ingles-2" srcset="https://tools.investchile.gob.cl/hs-fs/hubfs/footer_ingles-2.png?width=162&amp;height=40&amp;name=footer_ingles-2.png 162w, https://tools.investchile.gob.cl/hs-fs/hubfs/footer_ingles-2.png?width=324&amp;height=80&amp;name=footer_ingles-2.png 324w, https://tools.investchile.gob.cl/hs-fs/hubfs/footer_ingles-2.png?width=486&amp;height=120&amp;name=footer_ingles-2.png 486w, https://tools.investchile.gob.cl/hs-fs/hubfs/footer_ingles-2.png?width=648&amp;height=160&amp;name=footer_ingles-2.png 648w, https://tools.investchile.gob.cl/hs-fs/hubfs/footer_ingles-2.png?width=810&amp;height=200&amp;name=footer_ingles-2.png 810w, https://tools.investchile.gob.cl/hs-fs/hubfs/footer_ingles-2.png?width=972&amp;height=240&amp;name=footer_ingles-2.png 972w" sizes="(max-width: 324px) 100vw, 324px"></span></div>
+
+</div><!--end widget-span -->
+<div class="span4 widget-span widget-type-custom_widget " style="" data-widget-type="custom_widget" data-x="8" data-w="4">
+<div id="hs_cos_wrapper_module_743426047" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-space" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><span style="max-width:100px" class="hs-horizontal-spacer"></span></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-5 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell " style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-6 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell " style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-7 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget " style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_module_105682329" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><span id="hs_cos_wrapper_module_105682329_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><h5 style="font-size: 13px; text-align: center; padding-top: 16px; padding-bottom: 15px; color: #faf9f9 !important;"><span style="font-family: LatoWeb; color: #cccccc;"><a href="https://www.investchile.gob.cl/aboutus/" style="color: #cccccc;">About us</a>&nbsp; &nbsp; &nbsp; &nbsp; <a href="https://www.investchile.gob.cl/es/politica-de-privacidad/" style="color: #cccccc;" rel="noopener">Privacy policy</a>&nbsp; &nbsp; &nbsp; &nbsp;<a href="https://www.investchile.gob.cl/investors-toolkit/" style="color: #cccccc;">Investor's Toolkit</a></span></h5></span></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+</div>
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+    </div><!--end body -->
+</div><!--end body wrapper -->
+
+<div class="footer-container-wrapper">
+    <div class="footer-container container-fluid">
+
+
+    </div><!--end footer -->
+</div><!--end footer wrapper -->
+
+    
+<!-- HubSpot performance collection script -->
+<script defer src="/hs/hsstatic/content-cwv-embed/static-1.1293/embed.js"></script>
+<script>
+var hsVars = hsVars || {}; hsVars['language'] = 'en';
+</script>
+
+<script src="/hs/hsstatic/cos-i18n/static-1.53/bundles/project.js"></script>
+<script src="https://tools.investchile.gob.cl/hubfs/hub_generated/template_assets/1/30028534227/1743414302606/template_gsap.min.js"></script>
+<script src="https://tools.investchile.gob.cl/hubfs/hub_generated/template_assets/1/30028426412/1743414298912/template_ScrollMagic.min.min.js"></script>
+<script src="https://tools.investchile.gob.cl/hubfs/hub_generated/template_assets/1/30028429622/1743414299910/template_animation.gsap.min.min.js"></script>
+
+    <!--[if lte IE 8]>
+    <script charset="utf-8" src="https://js.hsforms.net/forms/v2-legacy.js"></script>
+    <![endif]-->
+
+<script data-hs-allowed="true" src="/_hcms/forms/v2.js"></script>
+
+    <script data-hs-allowed="true">
+        var options = {
+            portalId: '3222615',
+            formId: 'c8bc50a8-edd6-4e3e-aea5-1954001271fb',
+            formInstanceId: '2145',
+            
+            pageId: '166509980762',
+            
+            region: 'na1',
+            
+            
+            
+            notificationRecipients: 'p2ANqtz-904HcZPuOrVWZ-JU2MBnUHi_blmXPMymNdVwBh81leoRd3RSAJiNY1rTr_z-d9TaWrjm-VvOP3U1PAPsxIPKvfLIqivbtQ0vt6jQtt2vhL6LCVakWkgHjpEsD8Cj0_bpUWrj7A',
+            
+            
+            pageName: "Green Hydrogen in Chile",
+            
+            
+            redirectUrl: "https:\/\/tools.investchile.gob.cl\/thank-you-for-downloading-green-hidrogen",
+            
+            
+            
+            
+            
+            css: '',
+            target: '#hs_form_target_widget_164472640821',
+            
+            
+            
+            
+            
+            
+            
+            contentType: "landing-page",
+            
+            
+            
+            formsBaseUrl: '/_hcms/forms/',
+            
+            
+            
+            formData: {
+                cssClass: 'hs-form stacked hs-custom-form'
+            }
+        };
+
+        options.getExtraMetaDataBeforeSubmit = function() {
+            var metadata = {};
+            
+
+            if (hbspt.targetedContentMetadata) {
+                var count = hbspt.targetedContentMetadata.length;
+                var targetedContentData = [];
+                for (var i = 0; i < count; i++) {
+                    var tc = hbspt.targetedContentMetadata[i];
+                     if ( tc.length !== 3) {
+                        continue;
+                     }
+                     targetedContentData.push({
+                        definitionId: tc[0],
+                        criterionId: tc[1],
+                        smartTypeId: tc[2]
+                     });
+                }
+                metadata["targetedContentMetadata"] = JSON.stringify(targetedContentData);
+            }
+
+            return metadata;
+        };
+
+        hbspt.forms.create(options);
+    </script>
+
+
+<!-- Start of HubSpot Analytics Code -->
+<script type="text/javascript">
+var _hsq = _hsq || [];
+_hsq.push(["setContentType", "landing-page"]);
+_hsq.push(["setCanonicalUrl", "https:\/\/tools.investchile.gob.cl\/en\/green-hydrogen-in-chile"]);
+_hsq.push(["setPageId", "166509980762"]);
+_hsq.push(["setContentMetadata", {
+    "contentPageId": 166509980762,
+    "legacyPageId": "166509980762",
+    "contentFolderId": 170794266659,
+    "contentGroupId": null,
+    "abTestId": null,
+    "languageVariantId": 166509980762,
+    "languageCode": "en",
+    
+    
+}]);
+</script>
+
+<script type="text/javascript" id="hs-script-loader" async defer src="/hs/scriptloader/3222615.js"></script>
+<!-- End of HubSpot Analytics Code -->
+
+
+<script type="text/javascript">
+var hsVars = {
+    render_id: "8c2f5269-cd3d-46e8-b615-2682a8dfa2bd",
+    ticks: 1767433472707,
+    page_id: 166509980762,
+    
+    content_group_id: 0,
+    portal_id: 3222615,
+    app_hs_base_url: "https://app.hubspot.com",
+    cp_hs_base_url: "https://cp.hubspot.com",
+    language: "en",
+    analytics_page_type: "landing-page",
+    scp_content_type: "",
+    
+    analytics_page_id: "166509980762",
+    category_id: 1,
+    folder_id: 170794266659,
+    is_hubspot_user: false
+}
+</script>
+
+
+<script defer src="/hs/hsstatic/HubspotToolsMenu/static-1.432/js/index.js"></script>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PFJD2JN" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+    
+
+    <!-- Generated by the HubSpot Template Builder - template version 1.03 -->
+
+</body></html>

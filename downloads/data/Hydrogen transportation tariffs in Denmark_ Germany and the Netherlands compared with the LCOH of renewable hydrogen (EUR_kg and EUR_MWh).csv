@@ -1,0 +1,7 @@
+Category,Cost [EUR/kg],Cost [EUR/MWh]
+Average production cost of RFNBO hydrogen,8.05,241.74
+Network user costs in Denmark based on tariffs,0.30,9.00
+Network user costs in Netherlands based on tariffs,0.28,8.45
+Network user costs in Germany based on tariffs,0.33,10.00
+Transportation cost range (min),0.08,2.40
+Transportation cost range (max),1.80,54.05

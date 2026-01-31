@@ -1,0 +1,100 @@
+{
+  "warnings": [
+    {
+      "warning": "incomplete return",
+      "description": "The API can only return 5000 rows in JSON format.  Please consider constraining your request with facet, start, or end, or using offset to paginate results."
+    }
+  ],
+  "response": {
+    "total": "3584",
+    "dateFormat": "YYYY-MM",
+    "frequency": "monthly",
+    "data": [
+      {
+        "period": "2025-10",
+        "duoarea": "NUS-Z00",
+        "area-name": "NA",
+        "product": "EPC20B",
+        "product-name": "Crude Gravity 20.0 percent or less",
+        "process": "INL",
+        "process-name": "Landed Costs",
+        "series": "I000000208",
+        "series-description": "U.S. Landed Costs of Crude with API Gravity 20.0 degrees or less (Dollars per Barrel)",
+        "value": "55.01",
+        "units": "$/BBL"
+      },
+      {
+        "period": "2025-10",
+        "duoarea": "NUS-Z00",
+        "area-name": "NA",
+        "product": "EPC45B",
+        "product-name": "Crude Gravity 40.1 to 45.0 percent",
+        "process": "INL",
+        "process-name": "Landed Costs",
+        "series": "I000000458",
+        "series-description": "U.S. Landed Costs of Crude with API Gravity 40.1 to 45.0 degrees (Dollars per Barrel)",
+        "value": "68.56",
+        "units": "$/BBL"
+      },
+      {
+        "period": "2025-10",
+        "duoarea": "NUS-Z00",
+        "area-name": "NA",
+        "product": "EPC35B",
+        "product-name": "Crude Gravity 30.1 to 35.0 percent",
+        "process": "INL",
+        "process-name": "Landed Costs",
+        "series": "I000000358",
+        "series-description": "U.S. Landed Costs of Crude with API Gravity 30.1 to 35.0 degrees (Dollars per Barrel)",
+        "value": "63.68",
+        "units": "$/BBL"
+      },
+      {
+        "period": "2025-10",
+        "duoarea": "NUS-Z00",
+        "area-name": "NA",
+        "product": "EPC40B",
+        "product-name": "Crude Gravity 35.1 to 40.0 percent",
+        "process": "INL",
+        "process-name": "Landed Costs",
+        "series": "I000000408",
+        "series-description": "U.S. Landed Costs of Crude with API Gravity 35.1 to 40.0 degrees (Dollars per Barrel)",
+        "value": "59.03",
+        "units": "$/BBL"
+      },
+      {
+        "period": "2025-10",
+        "duoarea": "NUS-Z00",
+        "area-name": "NA",
+        "product": "EPC30B",
+        "product-name": "Crude Gravity 25.1 to 30.0 percent",
+        "process": "INL",
+        "process-name": "Landed Costs",
+        "series": "I000000308",
+        "series-description": "U.S. Landed Costs of Crude with API Gravity 25.1 to 30.0 degrees (Dollars per Barrel)",
+        "value": "62.63",
+        "units": "$/BBL"
+      }
+    ]
+  },
+  "request": {
+    "command": "/v2/petroleum/move/land3/data/",
+    "params": {
+      "api_key": "o5nQ7H9b6Bf9Kh3D0cCeC8ydP24drGTiFGaCQrKN",
+      "frequency": "monthly",
+      "data": [
+        "value"
+      ],
+      "sort": [
+        {
+          "column": "period",
+          "direction": "desc"
+        }
+      ],
+      "length": "5",
+      "offset": "0"
+    }
+  },
+  "apiVersion": "2.1.10",
+  "ExcelAddInVersion": "2.1.0"
+}

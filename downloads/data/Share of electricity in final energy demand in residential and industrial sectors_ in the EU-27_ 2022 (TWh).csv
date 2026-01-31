@@ -1,0 +1,5 @@
+Sector type,Energy demand,Percentage,TWh
+Residential,Electricity,0.25,2800
+Residential,Other,0.75,2800
+Industry,Electricity,0.33,2500
+Industry,Other,0.67,2500

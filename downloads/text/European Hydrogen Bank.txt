@@ -1,0 +1,113 @@
+Title: European Hydrogen Bank
+URL: https://energy.ec.europa.eu/topics/eus-energy-system/hydrogen/european-hydrogen-bank_en
+Date: 2026-01-28
+======================================================================
+
+In 2022, the Commission launched the European Hydrogen Bank to create investment security and business opportunities for European and global renewable hydrogen production. It is not designed to be a physical institution, but is a
+financing instrument
+, run internally by European Commission services.
+Objective
+©European Union, 2025
+The main objective of the facility is to unlock private investments in hydrogen value chains, both within the EU and globally, by connecting renewable energy supply to EU demand and addressing the initial investment challenges.
+The European Hydrogen Bank will establish an initial market for renewable hydrogen, offering new growth opportunities and jobs.
+4 pillars of action
+The
+Communication on the European Hydrogen Bank
+(COM/2023/156), published on 16 March 2023, describes the concept, tasks and structure of the financing instrument in detail. It is based on 4 pillars of action at EU level.
+1. Domestic pillar
+The domestic pillar’s goal is to support the scale-up of the hydrogen production market within the European Economic Area (EEA) and connect the renewable hydrogen supply with demand. Funding is awarded as a fixed premium in €/kg of verified and certified renewable fuel of non-biological origin (RFNBO) hydrogen produced.
+European Hydrogen Bank auctions
+A
+third European Hydrogen Bank auction
+is planned for end 2025
+with a budget of up to €1 billion.
+The second domestic auction for the production of renewable hydrogen via the Innovation Fund closed on 20 February 2025. It
+selected 15 renewable hydrogen production projects
+across 5 countries within the European Economic Area (EEA) to receive €992 million in EU funding. These projects, expected to produce nearly 2.2 million tonnes of renewable hydrogen over 10 years will help avoid more than 15 million tonnes of CO
+2
+emissions and contribute to the further creation of a European market for renewable hydrogen.
+A total of
+61 bids were submitted
+to the auction and evaluated by the European Climate, Infrastructure and Environment Executive Agency (CINEA) on the qualification criteria outlined in the call text and all passing bids were ranked according to their bid price. The successful applicants are invited to prepare corresponding grant agreements, which are expected to be signed by September/October 2025. Signed projects are required to reach financial close within a maximum of 2 and a half years after signature and to start producing renewable hydrogen within a period of 5 years.
+On 18 November 2024, Spain, Lithuania and Austria announced
+over €700 million in national funds
+, through their participation in the ‘auction-as-a-service’ scheme as part of the second European Hydrogen Bank auction, to support renewable hydrogen production projects located in their countries. In April 2025, the Commission approved a
+€400 million Spanish State aid scheme
+to fund their support for renewable hydrogen production under the 'auctions-as-a-service' scheme.
+First hydrogen bank auction (November 2023 – February 2024)
+The first hydrogen bank auction was launched in November 2023 and closed in February 2024, awarding nearly
+€720 million to 7 renewable hydrogen projects
+across Europe, from a total of 132 bids submitted to the auction. 6 of 7 projects
+signed their respective grant agreements
+in October 2024.
+The projects must start producing renewable hydrogen within 5 years. Together, they have the potential to produce 1.52 million tonnes of renewable hydrogen in their first 10 years of operation,
+avoiding more than 10 million
+tonnes of CO
+2
+emissions
+.
+2. International pillar
+The Commission is developing the design of the international part of the European Hydrogen Bank that would attract imports of renewable hydrogen into the EU market.
+Following the
+joint announcement
+of Commissioner for Energy Kadri Simson and German Federal Minister for Economic Affairs and Climate Action Robert Habeck on 31 May 2023, the Commission is developing
+the concept of joint European auctions
+. The aim is to bring together EU countries’ financial resources and potentially use
+H2Global
+as a vehicle for the international auctions, to make a visible contribution to international hydrogen imports.
+The design and implementation of a scheme to import renewable hydrogen and its derivatives from non-EU countries into the EU requires thorough analysis and preparation in the near term. To this end, the Commission contracted a study to provide an overview of hydrogen market developments, draw lessons from existing schemes, and define suitable auction models for renewable-based hydrogen (RFNBO) import auctions at the EU level. The
+results of the study were published in August 2025
+and will serve as an essential input for further preparatory work.
+3. Transparency and coordination
+The European Hydrogen Bank will ensure transparency and coordination of information supporting market and infrastructure development.
+The Commission launched a
+Hydrogen mechanism
+in July 2025, designed to support the market development of renewable and low-carbon hydrogen and its derivatives (ammonia, methanol, electro-sustainable aviation fuel ‘eSAF’). In practice, it will collect, process, and make available information on demand and supply for renewable and low-carbon hydrogen submitted by market players. This will further increase transparency on the market and enable European buyers to match with both European and international suppliers. The first round of matching demand and supply is planned for October 2025.
+More about the Hydrogen Mechanism
+4. Coordination of support instruments
+It will improve coordination of the existing EU and EU countries’ support instruments, including technical assistance and investment support inside and outside the EU.
+The Commission's
+Funding and Tenders Portal
+, the
+STEP portal
+and the
+Innovation Fund
+website provide a good overview of hydrogen funding possibilities.
+Promoting renewable hydrogen import
+Clean hydrogen partnerships will facilitate the promotion of the import of renewable hydrogen from non-EU countries and contribute to incentivising decarbonisation.
+Together, the European Hydrogen Bank and the clean hydrogen partnerships aim at delivering a framework to ensure that partnerships established by the EU countries and the industry provide a level-playing field between EU production and non-EU country imports.
+Related links
+Press material
+Nearly €1 billion awarded to boost development of renewable hydrogen
+(20/05/2025)
+Commission approves a €400 million Spanish State aid scheme to support renewable hydrogen production
+(15/04/2025)
+Over-subscribed European Hydrogen Bank auction receives 61 bids for Innovation Fund support, including 8 maritime projects
+(10/03/2025)
+Commission earmarks €4.6 billion to boost net-zero technologies, electric vehicle battery cell manufacturing and renewable hydrogen under the Innovation Fund
+(03/12/2024)
+Joint press release by the Commission, Spain, Lithuania and Austria on the European Hydrogen Bank's ‘Auctions-as-a-Service' scheme, increasing the funding for clean investments
+(18/11/2024)
+Commission kick-starts work on a new pilot mechanism to boost the hydrogen market
+(03/06/2024)
+European Hydrogen Bank auction provides €720 million for renewable hydrogen production in Europe
+(30/04/2024)
+Commission approves €350 million German State aid scheme to support renewable hydrogen production
+(05/04/2024)
+Germany's participation in the European Hydrogen Bank
+(20/12/2023)
+Joint statement by Commissioner Simson and German Minister Habeck on energy issues
+(31/05/2023)
+Commission outlines European Hydrogen Bank to boost renewable hydrogen
+(16/03/2023)
+Factsheet: ‘
+Boosting hydrogen through a European Hydrogen Bank
+’ (16/03/2023)
+Communication on the European Hydrogen Bank
+(
+COM/2023/156)
+EU Funding & Tenders Portal
+Gateway to EU funding opportunities for strategic technologies
+Innovation Fund - Portfolio of signed projects
+Competitive bidding under the Innovation Fund (DG Climate Action)
+H2Global Foundation

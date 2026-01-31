@@ -1,0 +1,40 @@
+Year,Country,Bidding zone code,Bidding zone,Days with negative price occurence,% of time with negative price,Days with low price occurence,% of time with low price
+2024,AT,AT,Austria,61,3.40,98,6.20
+2024,BE,BE,Belgium,85,4.60,119,8.30
+2024,BG,BG,Bulgaria,16,0.60,67,3.80
+2024,CZ,CZ,Czech Republic,63,3.60,86,6.00
+2024,DE,DE_LU,Germany_Luxemburg,91,5.20,122,8.50
+2024,DK,DK1,Denmark DK1,78,4.30,123,8.40
+2024,DK,DK2,Denmark DK2,52,3.10,121,8.60
+2024,EE,EE,Estonia,42,2.10,123,8.10
+2024,ES,ES,Spain,46,2.80,157,18.70
+2024,FI,FI,Finland,120,8.30,203,24.80
+2024,FR,FR,France,70,4.00,144,11.50
+2024,GR,GR,Greece,4,0.10,58,3.00
+2024,HR,HR,Croatia,42,2.20,75,4.70
+2024,HU,HU,Hungary,57,3.00,85,5.40
+2024,IT,IT_CALA,Italy Calabria,0,0.00,14,0.50
+2024,IT,IT_CENTRE_NORTH,Italy Centre-North,0,0.00,8,0.10
+2024,IT,IT_CENTRE_SOUTH,Italy Centre-South,0,0.00,10,0.30
+2024,IT,IT_NORTH,Italy North,0,0.00,8,0.10
+2024,IT,IT_SARDINIA,Italy Sardinia,0,0.00,64,3.40
+2024,IT,IT_SICILY,Italy Sicily,0,0.00,17,0.60
+2024,IT,IT_SOUTH,Italy South,0,0.00,14,0.50
+2024,LT,LT,Lithuania,42,2.10,117,7.80
+2024,LV,LV,Latvia,42,2.10,117,7.70
+2024,NL,NL,Netherlands,98,5.20,134,8.80
+2024,NO,NO1,Norway NO1,49,2.60,99,9.10
+2024,NO,NO2,Norway NO2,44,2.30,81,5.40
+2024,NO,NO3,Norway NO3,25,2.00,120,14.80
+2024,NO,NO4,Norway NO4,27,1.70,120,15.00
+2024,NO,NO5,Norway NO5,31,1.60,72,7.40
+2024,PL,PL,Poland,53,2.20,74,4.00
+2024,PT,PT,Portugal,38,2.20,146,17.90
+2024,RO,RO,Romania,24,1.00,70,4.00
+2024,SE,SE1,Sweden SE1,103,7.10,202,26.50
+2024,SE,SE2,Sweden SE2,110,8.20,211,29.60
+2024,SE,SE3,Sweden SE3,105,7.40,187,21.90
+2024,SE,SE4,Sweden SE4,104,7.20,178,19.00
+2024,IE,SEM,Ireland and Northern Ireland,7,0.50,24,1.50
+2024,SI,SI,Slovenia,47,2.50,78,4.90
+2024,SK,SK,Slovakia,57,3.30,84,5.90

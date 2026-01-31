@@ -1,0 +1,13 @@
+Member State,Point in time,Direction,Average Price [EUR/MWh]
+BE,Before connection,Positive balancing energy price,188
+BE,After connection,Positive balancing energy price,166
+BE,Before connection,Negative balancing energy price,-198
+BE,After connection,Negative balancing energy price,42
+FR,Before connection,Positive balancing energy price,156
+FR,After connection,Positive balancing energy price,81
+FR,Before connection,Negative balancing energy price,28
+FR,After connection,Negative balancing energy price,49
+NL,Before connection,Positive balancing energy price,145
+NL,After connection,Positive balancing energy price,141
+NL,Before connection,Negative balancing energy price,28
+NL,After connection,Negative balancing energy price,49

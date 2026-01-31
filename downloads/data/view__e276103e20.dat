@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="description" content="ACER CHEST Application"/>
+    <meta name="author" content=""/>
+    <link rel="icon" href="/chest/chest-favicon.ico">
+
+    
+    <title>Data item details</title>
+    <!-- CSS -->
+    
+    <link rel="stylesheet" href="/chest/css/bootstrap-a4c2c9c846cde185ed3dc5e535f565d7.css"/>
+    <link rel="stylesheet" href="/chest/css/dataTables.bootstrap4-ab9238b1528653eda9f0c3996a4f802f.css"/>
+    <link rel="stylesheet" href="/chest/css/gijgo.min-d115f04113c66cd080f0a183ec45e031.css"/>
+    <link rel="stylesheet" href="/chest/css/bootstrap-datepicker3-150ed8b0767b4fa06cf827e2e15baaa9.css"/>
+    <link rel="stylesheet" href="/chest/css/fixedsticky-31b80e377b0eb381362ef7c352e21cff.css"/>
+    <link rel="stylesheet" href="/chest/css/daterangepicker-85523b7dfefe616085476adf971e1fa3.css"/>
+    <link rel="stylesheet" href="/chest/css/select2-475b9ecdf92d2f48642665a34c563048.css"/>
+    <link rel="stylesheet" href="/chest/css/chest-custom-1e9f8047103af3148b5170ff552314fd.css"/>
+    <link rel="stylesheet" href="/chest/css/jquery-ui.min-7fb76b154ab5ee1f043a6cce2d1719b6.css"/>
+
+    <!-- JavaScript -->
+    
+    <script type="text/javascript" src="/chest/c1f60bbc647f4d23d95022b6109e5bb2c92c5a4a/js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="/chest/c1f60bbc647f4d23d95022b6109e5bb2c92c5a4a/js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="/chest/c1f60bbc647f4d23d95022b6109e5bb2c92c5a4a/js/tether.min.js"></script>
+    <script type="text/javascript" src="/chest/c1f60bbc647f4d23d95022b6109e5bb2c92c5a4a/js/popper.js"></script>
+    <script type="text/javascript" src="/chest/c1f60bbc647f4d23d95022b6109e5bb2c92c5a4a/js/tooltip.js"></script>
+    <script type="text/javascript" src="/chest/c1f60bbc647f4d23d95022b6109e5bb2c92c5a4a/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/chest/c1f60bbc647f4d23d95022b6109e5bb2c92c5a4a/js/jquery.dataTables.js"></script>
+    <script type="text/javascript" src="/chest/c1f60bbc647f4d23d95022b6109e5bb2c92c5a4a/js/dataTables.bootstrap4.js"></script>
+    <script type="text/javascript" src="/chest/c1f60bbc647f4d23d95022b6109e5bb2c92c5a4a/js/fixedsticky.js"></script>
+    <script type="text/javascript" src="/chest/c1f60bbc647f4d23d95022b6109e5bb2c92c5a4a/js/moment.min.js"></script>
+    <script type="text/javascript" src="/chest/c1f60bbc647f4d23d95022b6109e5bb2c92c5a4a/js/daterangepicker.js"></script>
+    <script type="text/javascript" src="/chest/c1f60bbc647f4d23d95022b6109e5bb2c92c5a4a/js/gijgo.min.js"></script>
+    <script type="text/javascript" src="/chest/c1f60bbc647f4d23d95022b6109e5bb2c92c5a4a/js/bootstrap-datepicker.min.js"></script>
+    <script type="text/javascript" src="/chest/c1f60bbc647f4d23d95022b6109e5bb2c92c5a4a/js/select2.js"></script>
+
+    
+
+  </head>
+
+  <body>
+
+    <script>
+      var contextPath = "\/chest\/";
+      var i18nMessages = {};
+    </script>
+
+    <!-- Header -->
+    <div>
+
+      
+
+      <nav class="navbar navbar-toggleable-md  navbar-inverse nav-bg-color">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <span style="margin-left:18px"><a href="http://aegis.acer.europa.eu"><img class="logo" src="/chest/img/logo-with-text-5d575261f1d04b308a1c8fbfd41611ff.png" alt="Acer logo"></a></span>
+
+        <span class="badge app-badge">CHEST APPLICATION</span>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            
+             
+            
+            
+            <li class="nav-item">
+              <form id="dataItemSearchForm" action="/chest/dataitemsearch/search" method="POST"><input type="hidden" name="_csrf" value="sA47-oD50KovrQA9VoZC8RtxhHDT3AQDHGzn1F_nA4Q_mLYb0ToOnLbL5ckCz2YNYKt2yHlFqUnq7mIuKgrX5maBN-YMqYYt"/>
+                <input id="dataItemSearchInput" name="identifier" class="form-control" placeholder="Search by data item identifier" required
+                       style="font-size: 0.8rem; min-width: 30ch;"/>
+              </form>
+            </li>
+          </ul>
+          
+          <div class="text-nowrap" style="color:#fff; float: right">
+            <a class="nav-link text-nowrap d-inline-block" href="/chest/login" >Login<i class="fa fa-sign-in pl-1" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </nav>
+      
+    </div>
+
+    <!-- Content -->
+    <div>
+    <div class="container-fluid">
+        <div class="col-md-12 block block-bg-gray">
+            <div class="text-nowrap text-right">
+                <p>
+                    <a class="btn btn-success btn-sm" role="button"
+                       href="/chest/category/52/tree" data-toggle="tooltip"
+                       title="Back to treeview" data-placement="bottom"><i
+                            class="fa fa-sitemap pr-1" aria-hidden="true"></i></a>
+
+                    <button class="btn btn-outline-success btn-sm" role="button" disabled="disabled"><i
+                            class="fa fa-folder-o pr-1" aria-hidden="true"></i></button>
+
+                </p>
+            </div>
+            <div class="text-nowrap">
+                <p>
+                    <a class="btn btn-primary btn-sm" role="button"
+                       href="/chest/category/52/list"><i
+                            class="fa fa-arrow-left pr-1" aria-hidden="true"></i>Back</a>
+                    
+                </p>
+            </div>
+            <div class="d-flex justify-content-start">
+                <div class="mr-auto"><h2>Data item details</h2></div>
+            </div>
+
+
+            
+            
+
+            
+            <br/>
+            <form id="dataItemForm" method="post" action="/chest/dataitems/export"
+                  class="form-horizontal" novalidate enctype="multipart/form-data" target="_blank"><input type="hidden" name="_csrf" value="sA47-oD50KovrQA9VoZC8RtxhHDT3AQDHGzn1F_nA4Q_mLYb0ToOnLbL5ckCz2YNYKt2yHlFqUnq7mIuKgrX5maBN-YMqYYt"/>
+                <input type="hidden" id="id" name="id" value="729"/>
+                <input type="hidden" name="userInfoJson" id="txtUserInfo"/>
+
+                <input type="hidden" id="txtSelectedDataSetId" name="selectedDataSetId"
+                       value=""/>
+                <dl class="row">
+                    <dt class="col-md-1 col-sm-12">Name</dt>
+                    <dd class="col-md-5 col-sm-12 font-weight-bold">EU-27/EEA(Norway) net electricity export (TWh), 2019-2024</dd>
+                </dl>
+                <dl class="row">
+                    <dt class="col-md-1 col-sm-12">Source</dt>
+                    <dd class="col-md-5 col-sm-12">ACER calculations based on ENTSO-E data.</dd>
+                </dl>
+                <dl class="row">
+                    <dt class="col-md-1 col-sm-12">Identifier</dt>
+                    <dd class="col-md-5 col-sm-12"></dd>
+                </dl>
+                <dl class="row">
+                    <dt class="col-md-1 col-sm-12">Reference</dt>
+                    <dd class="col-md-5 col-sm-12">Slide 18 (right)</dd>
+                </dl>
+                <dl class="row">
+                    <dt class="col-md-1 col-sm-12">Comment</dt>
+                    <dd class="col-md-5 col-sm-12">
+                        
+    <span>
+        <span></span>
+        
+    </span>
+  
+                    </dd>
+                </dl>
+                
+                
+                <div class="alert alert-info mt-3">
+                    <br/>
+                    <i class="fa fa-info-circle pr-2" aria-hidden="true"></i>
+                    Data item data can be filtered and exported as an Excel file.<br/>
+                    The reason for exporting is asked during export once per session.<br/>
+                    <br/>
+                </div>
+                <br/>
+                <ul class="nav nav-tabs" role="tablist">
+                    <li class="nav-item"
+                        id="dataSetLink1217">
+                        <a class="nav-link active" data-toggle="tab" role="tab"
+                           href="#dataset1217" data-dataset="1217">Export_EU27No</a>
+                    </li>
+                </ul>
+
+                <div class="tab-content">
+                    <div id="dataset1217" class="tab-pane active"
+                         role="tabpanel">
+                        <input type="hidden" id="dataSets0.id" name="dataSets[0].id" value="1217"/>
+                        
+
+                        <!-- FILTER START -->
+                        <div id="accordion1217">
+
+                            <div class="row mb-2">
+                                <div class="col px-4">
+                                    <label class="font-weight-bold">Last updated:</label>
+                                    <span>2025-03-13 21:11</span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col small px-4">
+                                    <div class="d-flex justify-content-start">
+                                        <label class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input" name="exportFileType"
+                                                   value="CSV" checked="checked">
+                                            <span class="custom-control-indicator"></span>
+                                            <span class="custom-control-description">Download as CSV</span>
+                                            
+                                        </label><label class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input" name="exportFileType"
+                                                   value="EXCEL">
+                                            <span class="custom-control-indicator"></span>
+                                            <span class="custom-control-description">Download as Excel</span>
+                                            
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="d-flex justify-content-start">
+                                        <span class="mr-2" data-toggle="tooltip"
+                                              title="Downloads an Excel file containing data currently visible in the table">
+                                            <button id="openModalBtn1217"
+                                                    class="btn btn-primary btn-lg btn-warning submit-btn btn-open-modal"
+                                                    name="export" data-dataset="1217" type="button" data-toggle="modal" data-target="#exportDataModal">Download filtered data</button>
+                                        </span>
+                                        <span class="mr-2" data-toggle="tooltip"
+                                              title="Downloads an Excel file containing all columns of the data set">
+                                            <button id="openModalBtnFull1217"
+                                                    data-fullexport="true"
+                                                    class="btn btn-primary btn-lg btn-success submit-btn btn-open-modal"
+                                                    name="full" data-dataset="1217" type="button" data-toggle="modal" data-target="#exportDataModal">Download whole data</button>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 col-sm-12">
+                                    <hr/>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-11 col-sm-12">
+                                    <br/>
+                                    <span class="mr-2">
+                                        <button class="btn btn-outline-primary btn-sm btn-clear" value="filter"
+                                                name="clear" type="button"><i class="fa fa-times pr-1"
+                                                                              aria-hidden="true"></i>Clear filters</button>
+                                    </span>
+                                    <p/>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-3 col-sm-12">
+                                    <div class="form-group" data-dataset="1217">
+                                        <label class="label">Country</label>
+                                        <input type="hidden" name="_dataSets[0].filter.keyValues[col1_country]" value="1"/><select class="filterSelect" multiple="multiple"
+                                                data-position="0" id="dataSets0.filter.keyValuescol1_country" name="dataSets[0].filter.keyValues[col1_country]">
+                                            <option value="AL">AL</option>
+                                            <option value="BA">BA</option>
+                                            <option value="BY">BY</option>
+                                            <option value="CH">CH</option>
+                                            <option value="ME">ME</option>
+                                            <option value="NMK">NMK</option>
+                                            <option value="RS">RS</option>
+                                            <option value="RU">RU</option>
+                                            <option value="Total">Total</option>
+                                            <option value="TR">TR</option>
+                                            <option value="UA">UA</option>
+                                            <option value="UK">UK</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-2 col-sm-12"></div>
+                                <div class="col-md-6 col-sm-12">
+                                    <fieldset class="form-group">
+                                        <legend class="label">Fields to export</legend>
+                                        <span class="check-area" data-dataset="1217">
+                                                    <input class="chkCol" type="checkbox"
+                                                           value="col2"
+                                                           data-position="1" id="dataSets0.filter.fields1" name="dataSets[0].filter.fields" checked="checked"/><input type="hidden" name="_dataSets[0].filter.fields" value="on"/>
+                                                    <label for="dataSets0.filter.fields1">2019</label>
+                                                </span><span class="check-area" data-dataset="1217">
+                                                    <input class="chkCol" type="checkbox"
+                                                           value="col3"
+                                                           data-position="2" id="dataSets0.filter.fields2" name="dataSets[0].filter.fields" checked="checked"/><input type="hidden" name="_dataSets[0].filter.fields" value="on"/>
+                                                    <label for="dataSets0.filter.fields2">2020</label>
+                                                </span><span class="check-area" data-dataset="1217">
+                                                    <input class="chkCol" type="checkbox"
+                                                           value="col4"
+                                                           data-position="3" id="dataSets0.filter.fields3" name="dataSets[0].filter.fields" checked="checked"/><input type="hidden" name="_dataSets[0].filter.fields" value="on"/>
+                                                    <label for="dataSets0.filter.fields3">2021</label>
+                                                </span><span class="check-area" data-dataset="1217">
+                                                    <input class="chkCol" type="checkbox"
+                                                           value="col5"
+                                                           data-position="4" id="dataSets0.filter.fields4" name="dataSets[0].filter.fields" checked="checked"/><input type="hidden" name="_dataSets[0].filter.fields" value="on"/>
+                                                    <label for="dataSets0.filter.fields4">2022</label>
+                                                </span><span class="check-area" data-dataset="1217">
+                                                    <input class="chkCol" type="checkbox"
+                                                           value="col6"
+                                                           data-position="5" id="dataSets0.filter.fields5" name="dataSets[0].filter.fields" checked="checked"/><input type="hidden" name="_dataSets[0].filter.fields" value="on"/>
+                                                    <label for="dataSets0.filter.fields5">2023</label>
+                                                </span><span class="check-area" data-dataset="1217">
+                                                    <input class="chkCol" type="checkbox"
+                                                           value="col7"
+                                                           data-position="6" id="dataSets0.filter.fields6" name="dataSets[0].filter.fields" checked="checked"/><input type="hidden" name="_dataSets[0].filter.fields" value="on"/>
+                                                    <label for="dataSets0.filter.fields6">2024</label>
+                                                </span>
+                                    </fieldset>
+                                </div>
+                                <div class="col-md-1 col-sm-12 mt-3">
+                                </div>
+                            </div>
+                            <hr class="mt-0">
+                        </div>
+                        <!-- FILTER END -->
+
+                        
+
+                        <table id="datasetTable1217" class="table table-striped dataset-table mt-3">
+                            <thead class="thead-default">
+                            <tr>
+                                <th style="text-align:left">Country</th>
+                                <th style="text-align:right">2019</th>
+                                <th style="text-align:right">2020</th>
+                                <th style="text-align:right">2021</th>
+                                <th style="text-align:right">2022</th>
+                                <th style="text-align:right">2023</th>
+                                <th style="text-align:right">2024</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td data-order="AL" style="text-align:left">AL</td><td data-order="-1.101064" style="text-align:right">−1.10</td><td data-order="-1.071" style="text-align:right">−1.07</td><td data-order="-0.520062" style="text-align:right">−.52</td><td data-order="-0.205705" style="text-align:right">−.21</td><td data-order="-1.491667" style="text-align:right">−1.49</td><td data-order="-0.212437" style="text-align:right">−.21</td>
+                            </tr>
+                            <tr>
+                                <td data-order="BA" style="text-align:left">BA</td><td data-order="-0.715995" style="text-align:right">−.72</td><td data-order="0.17045" style="text-align:right">0.17</td><td data-order="-2.037075" style="text-align:right">−2.04</td><td data-order="-0.961064" style="text-align:right">−.96</td><td data-order="-0.481077" style="text-align:right">−.48</td><td data-order="1.93068" style="text-align:right">1.93</td>
+                            </tr>
+                            <tr>
+                                <td data-order="BY" style="text-align:left">BY</td><td data-order="-1.4997188" style="text-align:right">−1.50</td><td data-order="-0.4936951" style="text-align:right">−.49</td><td data-order="0.0" style="text-align:right">0.00</td><td data-order="0.0" style="text-align:right">0.00</td><td data-order="0.0" style="text-align:right">0.00</td><td data-order="0.0" style="text-align:right">0.00</td>
+                            </tr>
+                            <tr>
+                                <td data-order="CH" style="text-align:left">CH</td><td data-order="-4.27112102" style="text-align:right">−4.27</td><td data-order="-4.17066072" style="text-align:right">−4.17</td><td data-order="2.48651529" style="text-align:right">2.49</td><td data-order="0.04893061" style="text-align:right">0.05</td><td data-order="-5.30075391" style="text-align:right">−5.30</td><td data-order="-14.39627641" style="text-align:right">−14.40</td>
+                            </tr>
+                            <tr>
+                                <td data-order="ME" style="text-align:left">ME</td><td data-order="0.011534" style="text-align:right">0.01</td><td data-order="0.354003" style="text-align:right">0.35</td><td data-order="2.547158" style="text-align:right">2.55</td><td data-order="1.83512" style="text-align:right">1.84</td><td data-order="-3.427672" style="text-align:right">−3.43</td><td data-order="-2.34082" style="text-align:right">−2.34</td>
+                            </tr>
+                            <tr>
+                                <td data-order="NMK" style="text-align:left">NMK</td><td data-order="-0.103668" style="text-align:right">−.10</td><td data-order="-0.055576" style="text-align:right">−.06</td><td data-order="1.794548" style="text-align:right">1.79</td><td data-order="1.651201" style="text-align:right">1.65</td><td data-order="-0.358514" style="text-align:right">−.36</td><td data-order="0.163215" style="text-align:right">0.16</td>
+                            </tr>
+                            <tr>
+                                <td data-order="RS" style="text-align:left">RS</td><td data-order="2.915456" style="text-align:right">2.92</td><td data-order="1.212209" style="text-align:right">1.21</td><td data-order="2.105909" style="text-align:right">2.11</td><td data-order="4.279805" style="text-align:right">4.28</td><td data-order="-0.507198" style="text-align:right">−.51</td><td data-order="0.6123" style="text-align:right">0.61</td>
+                            </tr>
+                            <tr>
+                                <td data-order="RU" style="text-align:left">RU</td><td data-order="-6.2750665" style="text-align:right">−6.28</td><td data-order="-3.4523844" style="text-align:right">−3.45</td><td data-order="-4.6710236" style="text-align:right">−4.67</td><td data-order="-1.0980524" style="text-align:right">−1.10</td><td data-order="0.0" style="text-align:right">0.00</td><td data-order="0.0" style="text-align:right">0.00</td>
+                            </tr>
+                            <tr>
+                                <td data-order="TR" style="text-align:left">TR</td><td data-order="-0.826756" style="text-align:right">−.83</td><td data-order="-0.434787" style="text-align:right">−.43</td><td data-order="-1.988497" style="text-align:right">−1.99</td><td data-order="-0.676862" style="text-align:right">−.68</td><td data-order="-0.066205" style="text-align:right">−.07</td><td data-order="-0.891769" style="text-align:right">−.89</td>
+                            </tr>
+                            <tr>
+                                <td data-order="UA" style="text-align:left">UA</td><td data-order="0.716918" style="text-align:right">0.72</td><td data-order="-1.585392" style="text-align:right">−1.59</td><td data-order="-2.928582" style="text-align:right">−2.93</td><td data-order="-1.660415" style="text-align:right">−1.66</td><td data-order="0.514427" style="text-align:right">0.51</td><td data-order="3.886963" style="text-align:right">3.89</td>
+                            </tr>
+                            <tr>
+                                <td data-order="UK" style="text-align:left">UK</td><td data-order="17.57018943" style="text-align:right">17.57</td><td data-order="17.93025334" style="text-align:right">17.93</td><td data-order="25.68872664" style="text-align:right">25.69</td><td data-order="-1.93707062" style="text-align:right">−1.94</td><td data-order="24.1966987" style="text-align:right">24.20</td><td data-order="34.27797243" style="text-align:right">34.28</td>
+                            </tr>
+                            <tr>
+                                <td data-order="Total" style="text-align:left">Total</td><td data-order="6.42070811" style="text-align:right">6.42</td><td data-order="8.40342012" style="text-align:right">8.40</td><td data-order="22.47761733" style="text-align:right">22.48</td><td data-order="1.27588759" style="text-align:right">1.28</td><td data-order="13.07803879" style="text-align:right">13.08</td><td data-order="23.02982803" style="text-align:right">23.03</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </div>
+    <div>
+    <div id="exportDataModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-md">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">What is the purpose of your download?</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="alert alert-info mt-3">
+                        <i class="fa fa-info-circle pr-2" aria-hidden="true"></i><small>Please specify your reason for exporting data.</small>
+                    </div>
+
+                    <form id="frmAnonymousUser">
+                        <input class="modalInput" id="modalDataSetId" type="hidden">
+                        <input class="modalInput" id="fullExport" type="hidden">
+                        <div class="form-group row">
+                            <div class="col-sm-12 col-md-5">
+                                <label for="cboDownloadReasonCode" class="col-form-label required">Download reason</label>
+                            </div>
+                            <div class="col-sm-12 col-md-7" >
+                                <select class="form-control" id="cboDownloadReasonCode" name="downloadReasonCode">
+                                    
+                                        <option  value="RESEARCH">Research</option>
+                                    
+                                        <option  value="COMMERCIAL">Commercial</option>
+                                    
+                                        <option  value="CURIOSITY">Curiosity</option>
+                                    
+                                        <option  value="DATA_ANALYSIS">Data analysis</option>
+                                    
+                                        <option  value="STUDY">Study</option>
+                                    
+                                        
+                                    
+                                        <option  value="OTHER">Other</option>
+                                    
+                                </select>
+                            </div>
+                        </div>
+                        <div id="reasonSpecDiv" class="form-group row" style="display: none">
+                            <div class="col-sm-12 col-md-5">
+                                <label for="txtDownloadReason" class="col-form-label required">Please specify</label>
+                            </div>
+                            <div class="col-sm-12 col-md-7">
+                                <input type="text" class="form-control" id="txtDownloadReason" name="downloadReason"/>
+                            </div>
+                        </div>
+                        <button type="button" id="submitModalForm" class="btn btn-primary btn-sm btn-success submit-btn">OK</button>
+                        <button type="button" class="btn btn-outline-primary btn-sm" data-dismiss="modal"><i class="fa fa-times pr-1" aria-hidden="true"></i>Cancel</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <div>
+        <footer>
+    <div class="container-fluid footer-anonymous" style="position: fixed; bottom: 0; width: 100%">
+        <div class="row">
+            <div class="p-md-5 pt-sm-4 pb-1 col-md col-sm-12">© <a href="https://www.acer.europa.eu/" target="_blank" style="text-decoration:underline; color:#ffffff">ACER</a> 2025</div>
+        </div>
+    </div>
+</footer>
+    </div>
+</div>
+
+    <!-- Footer -->
+    <div></div>
+
+    <!-- CHEST app common JavaScript -->
+    
+    <script type="text/javascript" src="/chest/c1f60bbc647f4d23d95022b6109e5bb2c92c5a4a/js/chest-common.js"></script>
+    <script type="text/javascript" src="/chest/c1f60bbc647f4d23d95022b6109e5bb2c92c5a4a/js/chest-app.js"></script>
+
+
+    <!-- CHEST app Page specific JavaScript -->
+    
+    <script type="text/javascript" src="/chest/c1f60bbc647f4d23d95022b6109e5bb2c92c5a4a/js/chest-dataset.js"></script>
+
+
+  </body>
+</html>

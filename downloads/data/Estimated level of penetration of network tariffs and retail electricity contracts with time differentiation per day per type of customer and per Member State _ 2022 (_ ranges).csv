@@ -1,0 +1,64 @@
+Member State,Time differentiation_Network tariffs,Time differentiation_Network tariffs,' % households with time differentiation per day in network tariffs,' % households with time differentiation per day in retail electricity price contracts,' % non-households with time differentiation per day in network tariffs,' % non-households with time differentiation per day in retail electricity price contracts,Member State,Suppliers are allowed to offer fixed electricity price contracts to customers with ToU network tariffs
+AT,Full time differentiation in network tariffs,2 time periods/day,'100,' NA,'100,' NA,AT,NA
+ES,Full time differentiation in network tariffs,More than 2 time periods/day,'100,' NA,'100,' NA,ES,YES
+NO,Full time differentiation in network tariffs,2 time periods/day,'100,' NA,'100,' NA,NO,YES
+BE,Partial time differentiation in network tariffs,No time differentiation,' 60%-80%,' NA,' 60%-80%,' NA,BE,NA
+BE,Partial time differentiation in network tariffs,2 time periods/day,' 20%-40%,' NA,' 20%-40%,' NA,CZ,YES
+BE,Partial time differentiation in network tariffs,More than 2 time periods/day,' 0%-20%,' NA,' 0%-20%,' NA,FR,YES
+CZ,Partial time differentiation in network tariffs,No time differentiation,' 60%-80%,' 80%-100%,' 60%-80%,' 80%-100%,GR,NA
+CZ,Partial time differentiation in network tariffs,2 time periods/day,' 20%-40%,' 0%-20%,' 20%-40%,' 0%-20%,HR,NA
+CZ,Partial time differentiation in network tariffs,More than 2 time periods/day,' 0,' 0,' 0,' 0,LT,YES
+FR,Partial time differentiation in network tariffs,No time differentiation,' 0%-20%,' 40%-60%,' 20%-40%,' 40%-60%,LV,NO
+FR,Partial time differentiation in network tariffs,2 time periods/day,' 80%-100%,' 40%-60%,' 60%-80%,' 40%-60%,MT,YES
+FR,Partial time differentiation in network tariffs,More than 2 time periods/day,' 0,' 0%-20%,' NA,' 0%-20%,PL,NA
+GR,Partial time differentiation in network tariffs,No time differentiation,' NA,' 40%-60%,' NA,' 40%-60%,PT,YES
+GR,Partial time differentiation in network tariffs,2 time periods/day,' NA,' NA,' NA,' NA,SI,YES
+GR,Partial time differentiation in network tariffs,More than 2 time periods/day,' NA,' NA,' NA,' NA,SK,NA
+HR,Partial time differentiation in network tariffs,No time differentiation,' 20%-40%,' NA,' 20%-40%,' NA,,
+HR,Partial time differentiation in network tariffs,2 time periods/day,' 60%-80%,' NA,' 60%-80%,' NA,,
+HR,Partial time differentiation in network tariffs,More than 2 time periods/day,' 0,' NA,' 0,' NA,,
+LT,Partial time differentiation in network tariffs,No time differentiation,' 60%-80%,' NA,' 60%-80%,' NA,,
+LT,Partial time differentiation in network tariffs,2 time periods/day,' 20%-40%,' NA,' 20%-40%,' NA,,
+LT,Partial time differentiation in network tariffs,More than 2 time periods/day,' 0,' NA,' 0%-20%,' NA,,
+LV,Partial time differentiation in network tariffs,No time differentiation,' 60%-80%,' 60%-80%,' 40%-60%,' 40%-60%,,
+LV,Partial time differentiation in network tariffs,2 time periods/day,' 0%-20%,' 0%-20%,' 40%-60%,' 40%-60%,,
+LV,Partial time differentiation in network tariffs,More than 2 time periods/day,' 0,' 0,' 0,' 0,,
+MT,Partial time differentiation in network tariffs,No time differentiation,' NA,' 80%-100%,' NA,' 80%-100%,,
+MT,Partial time differentiation in network tariffs,2 time periods/day,' NA,' 0%-20%,' NA,' 0%-20%,,
+MT,Partial time differentiation in network tariffs,More than 2 time periods/day,' NA,' NA,' NA,' NA,,
+PL,Partial time differentiation in network tariffs,No time differentiation,' 80%-100%,' NA,' 40%-60%,' NA,,
+PL,Partial time differentiation in network tariffs,2 time periods/day,' 0%-20%,' NA,' 20%-40%,' NA,,
+PL,Partial time differentiation in network tariffs,More than 2 time periods/day,' 0%-20%,' NA,' 0%-20%,' NA,,
+PT,Partial time differentiation in network tariffs,No time differentiation,' 80%-100%,' 80%-100%,' 0,' 0,,
+PT,Partial time differentiation in network tariffs,2 time periods/day,' 0%-20%,' 0%-20%,' 0,' 0,,
+PT,Partial time differentiation in network tariffs,More than 2 time periods/day,' 0%-20%,' 0%-20%,'100,'100,,
+SI,Partial time differentiation in network tariffs,No time differentiation,' 20%-40%,' 20%-40%,' 0,' 20%-40%,,
+SI,Partial time differentiation in network tariffs,2 time periods/day,' 60%-80%,' 60%-80%,' 80%-100%,' 60%-80%,,
+SI,Partial time differentiation in network tariffs,More than 2 time periods/day,' 0,' 0,' 0%-20%,' 0%-20%,,
+SK,Partial time differentiation in network tariffs,No time differentiation,' 80%-100%,' NA,' 80%-100%,' NA,,
+SK,Partial time differentiation in network tariffs,2 time periods/day,' 0%-20%,' NA,' 0%-20%,' NA,,
+SK,Partial time differentiation in network tariffs,More than 2 time periods/day,' 0,' NA,' 0,' NA,,
+BG,No time differentiation in network tariffs,No time differentiation,'100,' NA,'100,' NA,,
+BG,No time differentiation in network tariffs,2 time periods/day,' 0,' NA,' 0,' NA,,
+BG,No time differentiation in network tariffs,More than 2 time periods/day,' 0,' NA,' 0,' NA,,
+CY,No time differentiation in network tariffs,No time differentiation,'100,' NA,'100,' NA,,
+CY,No time differentiation in network tariffs,2 time periods/day,' 0,' NA,' 0,' NA,,
+CY,No time differentiation in network tariffs,More than 2 time periods/day,' 0,' NA,' 0,' NA,,
+DE,No time differentiation in network tariffs,No time differentiation,'100,' NA,'100,' NA,,
+DE,No time differentiation in network tariffs,2 time periods/day,' 0,' NA,' 0,' NA,,
+DE,No time differentiation in network tariffs,More than 2 time periods/day,' 0,' NA,' 0,' NA,,
+HU,No time differentiation in network tariffs,No time differentiation,'100,' NA,'100,' NA,,
+HU,No time differentiation in network tariffs,2 time periods/day,' 0,' 0%-20%,' 0,' 0%-20%,,
+HU,No time differentiation in network tariffs,More than 2 time periods/day,' 0,' NA,' 0,' NA,,
+IT,No time differentiation in network tariffs,No time differentiation,'100,' NA,'100,' NA,,
+IT,No time differentiation in network tariffs,2 time periods/day,' 0,' NA,' 0,' NA,,
+IT,No time differentiation in network tariffs,More than 2 time periods/day,' 0,' NA,' 0,' NA,,
+LU,No time differentiation in network tariffs,No time differentiation,'100,' 80%-100%,'100,' 80%-100%,,
+LU,No time differentiation in network tariffs,2 time periods/day,' 0,' 0%-20%,' 0,' 0%-20%,,
+LU,No time differentiation in network tariffs,More than 2 time periods/day,' 0,' NA,' 0,' NA,,
+NL,No time differentiation in network tariffs,No time differentiation,'100,' NA,'100,' NA,,
+NL,No time differentiation in network tariffs,2 time periods/day,' 0,' NA,' 0,' NA,,
+NL,No time differentiation in network tariffs,More than 2 time periods/day,' 0,' NA,' 0,' NA,,
+RO,No time differentiation in network tariffs,No time differentiation,'100,' NA,'100,' NA,,
+RO,No time differentiation in network tariffs,2 time periods/day,' 0,' NA,' 0,' NA,,
+RO,No time differentiation in network tariffs,More than 2 time periods/day,' 0,' NA,' 0,' NA,,

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet href="/rss/rss.xsl" type="text/xsl" media="screen"?>
+<rss version="2.0">
+
+<channel>
+      <title>EIA: Heating Oil and Propane Update</title>
+      <link>http://www.eia.gov/petroleum/heatingoilpropane/</link>
+      <description>U.S. Heating Oil and Propane Retail Prices and Supply Nationally and by Region.</description>
+      <language>en-us</language>
+ <image> <title>EIA logo</title> <url>http://www.eia.gov/global/images/logos/eia_logo_250.png</url>
+         <link>http://www.eia.gov/</link>
+         <description>US Energy Information Administration</description>
+      </image>
+ <item> <title>Released 1/28/2026</title>
+         <link>http://www.eia.gov/petroleum/heatingoilpropane/</link>
+         <pubDate>Wed, 28 Jan 2026 10:37:35 EST</pubDate>
+ 	<description><![CDATA[
+ 	 							<br/>		
+Summary Excerpt:			 	<br/>
+ 	 							<br/>
+U.S. Heating Oil and Propane Prices	<br/>
+ (Dollars per Gallon) 1/26/2026  	<br/>
+								        <br/>	
+Heating Oil	Residential					<br/>
+3.841  .. U.S.  		        <br/>
+3.866  .. East Coast 			<br/>
+3.307 .. Midwest  			<br/>
+Heating Oil Wholesale					<br/>
+2.624  .. U.S.  		        <br/>
+2.625  .. East Coast			<br/>
+2.337  .. Midwest			    <br/>
+Propane	Residential 					<br/>
+2.595  .. U.S.  		        <br/>
+3.467  .. East Coast			<br/>
+2.115  .. Midwest			    <br/>
+2.917  .. Gulf Coast 			<br/>
+2.255  .. Rocky Mountain 	    <br/>
+Propane	Wholesale						<br/>
+0.956  .. U.S.  		        <br/>
+1.069  .. East Coast			<br/>
+0.915  .. Midwest			    <br/>
+0.859  .. Gulf Coast 			<br/>
+0.892  .. Rocky Mountain 	    <br/>
+								    <br/>	
+U.S. Distillate and Propane/Propylene Stocks	<br/>
+(Millions of Barrels) 1/23/2026	<br/>
+								<br/>			
+132.9 ... Distillate Stocks <br/>
+88.952 .. Propane/Propylene Stocks	   <br/>
+ 								<br/>
+U.S. Distillate and Propane/Propylene Production and Demand <br/>							
+(Millions of Barrels per Day) 1/23/2026	<br/>
+								<br/>			
+Distillate						<br/>
+4.819 ..Production 	<br/>
+4.069  ..Demand  		<br/>
+Propane/Propylene						<br/>
+2.770  ..Production 	<br/>
+1.500  ..Demand  		<br/>
+ 								<br/>
+								
+														
+	]]></description>	   
+      </item> 
+   </channel>
+</rss>

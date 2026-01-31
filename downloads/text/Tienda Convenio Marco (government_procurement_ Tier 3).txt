@@ -1,0 +1,43 @@
+Title: Tienda Convenio Marco (government_procurement, Tier 3)
+URL: http://www.mercadopublico.cl/TiendaHome/
+Date: 2026-01-28
+======================================================================
+
+TIENDA CONVENIO MARCO
+Selecciona el Convenio Marco que necesitas
+Suministro de Combustibles
+ID 2239-3-LR24
+Insumos y Dispositivos Médicos
+ID 2239-21-LR23
+Seguros de Vida
+ID 2239-12-LR23
+Productos y Servicios de Ferretería
+ID 2239-9-LR23
+Emergencias y Prevención
+ID 2239-8-LR24
+Artículos de Aseo e Higiene
+ID 2239-8-LR25
+Mobiliario General
+ID 2239-4-LR25
+CM de Venta y Arriendo de Computadoras y Accesorios
+ID 2239-5-LR25
+Licencia de Ofimática
+ID 2239-11-LR24
+CM Artículos de Escritorio y Papelería
+ID 2239-16-LR24
+Gas Licuado de Petróleo
+ID 2239-1-LR25
+Administración y entrega de beneficios
+ID 2239-13-LR23
+Adquisición Vehículos y Maquinaria
+ID 2239-8-LR23
+Desarrollo, mantención de Software e IAAS
+ID 2239-19-LR23
+Alimentos
+ID 2239-9-LR24
+Nueva Tienda de Convenios Marco
+Para lograr mayor eficiencia en las compras públicas definimos un nuevo
+                                    modelo de convenio marco y la renovación gradual de nuestra tienda
+                                    electrónica de manera de convertirla en una nueva plataforma de
+                                    e-commerce para el estado.
+Saber más

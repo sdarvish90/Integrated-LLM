@@ -1,0 +1,81 @@
+Title: Document
+URL: https://www.nrel.gov/news/program/2024/nrel-to-lead-new-lab-consortium-to-enable-high-volume-manufacturing-of-electrolyzers-and-fuel-cells.html
+Date: 2026-01-28
+======================================================================
+
+NREL To Lead New Lab Consortium To Enable High-Volume Manufacturing of Electrolyzers and Fuel Cells
+Roll-to-Roll Consortium Aims To Accelerate Domestic Manufacturing and Reduce Cost
+                  of Durable, High-Performance Systems
+March 25, 2024 | By Sara Havig | Contact
+media relations
+Share
+NREL’s roll-to-roll web line is used for research of in-line quality control monitoring
+                        techniques for battery, electrolyzer, and fuel cell materials.
+Photo by Werner Slocum, NREL
+The Roll-to-Roll (R2R) Consortium is a new national laboratory consortium with a mission
+                  to advance efficient, high-throughput, and high-quality manufacturing methods and
+                  processes to accelerate domestic manufacturing and reduce the cost of durable, high-performance
+                  proton exchange membrane fuel cell and electrolyzer systems.
+The R2R Consortium is led by the National Renewable Energy Laboratory (NREL) and includes
+                  Argonne National Laboratory (ANL), Oak Ridge National Laboratory (ORNL), Lawrence
+                  Berkeley National Laboratory, and Sandia National Laboratories.
+High-throughput manufacturing of fuel cells and water electrolyzers is critical for
+                  achieving widespread deployment of low-cost, clean hydrogen technologies. Roll-to-roll
+                  manufacturing of materials can increase efficiency, reduce material waste, and improve
+                  cost, but there are challenges related to materials synthesis, coating, drying, and
+                  quality control that need to be addressed to scale up these processes for industry
+                  adoption.
+"Our overarching goal is to de-risk and accelerate U.S. manufacturing of high-performance,
+                  durable, and low-cost fuel cells and electrolyzers," said Scott Mauger, R2R Consortium
+                  director and senior scientist at NREL. "The consortium's activities will focus on
+                  understanding the science of the manufacturing processes themselves to achieve target
+                  rates, yields, and product quality."
+The R2R Consortium is funded by the U.S. Department of Energy (DOE) Office of Energy
+                  Efficiency and Renewable Energy
+Hydrogen and Fuel Cell Technologies Office
+(HFTO) through two provisions in the Bipartisan Infrastructure Law—the Clean Hydrogen
+                  Electrolysis Program and the Clean Hydrogen Manufacturing and Recycling Program.
+Mauger, along with deputy directors Yuepeng Zhang of ANL and Alexey Serov of ORNL,
+                  will direct the consortium's activities. The core labs in the R2R Consortium will
+                  conduct research, development, and demonstration activities in six topic areas, each
+                  led by a lab with existing capabilities and expertise focused in that area. The first
+                  three topics address manufacturing challenges that are critical for the growth of
+                  the hydrogen industry, and the second three are cross-cutting activities that will
+                  integrate with the research on manufacturing challenges:
+Materials scale-up science
+Fabrication process science
+Quality control
+Characterization
+Advanced computing
+Techno-economic analysis.
+NREL researchers Peter Rupnowski and Alex Badgett will lead research activities under
+                  the quality control and techno-economic analysis topics. This work includes developing
+                  monitoring tools to help manufacturers identify and remove defective parts and improve
+                  fabrication processes; understanding how manufacturing defects impact device performance
+                  and durability; and developing analysis models to optimize process development and
+                  examine energy use and emissions.
+The consortium also plans to support industry efforts through cooperative research
+                  and development agreement projects, with more details to be announced in the coming
+                  months.
+"The R2R labs have the facilities to investigate, validate, and develop new manufacturing
+                  techniques and pathways to de-risk and accelerate their implementation," Mauger said.
+                  "The R2R Consortium can help industry partners address challenges and develop scalable,
+                  affordable manufacturing processes."
+An industrial advisory board will also provide guidance on the consortium's research
+                  objectives and topics and foster engagement between the broader R2R industry and fuel
+                  cell and electrolyzer manufacturers and materials suppliers.
+R2R activities will complement the work of other HFTO consortia,
+Hydrogen from Next-generation Electrolyzers of Water
+(H2NEW) and
+Million Mile Fuel Cell Truck
+(M2FCT). The R2R Consortium will develop processes and pathways to scale up materials
+                  and components developed by H2NEW and M2FCT and will work closely with both consortia
+                  to ensure relevant metrics, methods, and protocols are used.
+Together, these efforts will help advance DOE's
+H2@Scale
+vision and Hydrogen Shot goal of reducing the cost of clean hydrogen to $1 per kilogram by 2031.
+Learn more about NREL's research in
+hydrogen and fuel cells
+and
+materials science
+.

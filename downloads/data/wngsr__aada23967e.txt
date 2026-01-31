@@ -1,0 +1,9 @@
+﻿EIA Natural Gas Storage Data
+Total (01/16/26): 3,065 Bcf 
+Total (01/09/26): 3,185 Bcf 
+Net change: -120 Bcf 
+Implied flow: -120 Bcf 
+Year ago stocks: 2,924 Bcf
+% change from year ago: 4.8 % 
+5-year avg stocks: 2,888 Bcf
+% change from 5-year avg: 6.1 % 

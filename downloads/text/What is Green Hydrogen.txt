@@ -1,0 +1,6 @@
+Title: What is Green Hydrogen
+URL: https://gh2.org/what-green-hydrogen
+Date: 2026-01-28
+======================================================================
+
+Green hydrogen is defined as hydrogen produced by splitting water into hydrogen and oxygen using renewable electricity through a process called electrolysis. This results in very low or zero carbon emissions. Emerging green hydrogen strategies and policies differ widely on the definition of “renewable energy”, the boundaries of the carbon accounting system, the emission thresholds at which hydrogen is considered green, and the feedstocks and production technologies deployed. This lack of standardisation is undermining efforts to accelerate the use of green hydrogen.

@@ -1,0 +1,100 @@
+{
+  "warnings": [
+    {
+      "warning": "incomplete return",
+      "description": "The API can only return 5000 rows in JSON format.  Please consider constraining your request with facet, start, or end, or using offset to paginate results."
+    }
+  ],
+  "response": {
+    "total": "5672",
+    "dateFormat": "YYYY-MM",
+    "frequency": "monthly",
+    "data": [
+      {
+        "period": "2025-10",
+        "duoarea": "NUS-Z00",
+        "area-name": "NA",
+        "product": "EPC0",
+        "product-name": "Crude Oil",
+        "process": "INF",
+        "process-name": "FOB Costs",
+        "series": "I000000004",
+        "series-description": "U.S. FOB Costs of Crude Oil (Dollars per Barrel)",
+        "value": "54.27",
+        "units": "$/BBL"
+      },
+      {
+        "period": "2025-10",
+        "duoarea": "NUS-ME0",
+        "area-name": "NA",
+        "product": "EPC0",
+        "product-name": "Crude Oil",
+        "process": "INF",
+        "process-name": "FOB Costs",
+        "series": "I060000004",
+        "series-description": "U.S. FOB Costs of OPEC Countries Crude Oil (Dollars per Barrel)",
+        "value": "59.08",
+        "units": "$/BBL"
+      },
+      {
+        "period": "2025-10",
+        "duoarea": "NUS-MN0",
+        "area-name": "NA",
+        "product": "EPC0",
+        "product-name": "Crude Oil",
+        "process": "INF",
+        "process-name": "FOB Costs",
+        "series": "I070000004",
+        "series-description": "U.S. FOB Costs of Non-OPEC Countries Crude Oil (Dollars per Barrel)",
+        "value": "54.04",
+        "units": "$/BBL"
+      },
+      {
+        "period": "2025-10",
+        "duoarea": "NUS-NVE",
+        "area-name": "VEN",
+        "product": "EPC0",
+        "product-name": "Crude Oil",
+        "process": "INF",
+        "process-name": "FOB Costs",
+        "series": "IVE0000004",
+        "series-description": "U.S. FOB Costs of Venezuela Crude Oil (Dollars per Barrel)",
+        "value": null,
+        "units": "$/BBL"
+      },
+      {
+        "period": "2025-10",
+        "duoarea": "NUS-MP0",
+        "area-name": "NA",
+        "product": "EPC0",
+        "product-name": "Crude Oil",
+        "process": "INF",
+        "process-name": "FOB Costs",
+        "series": "I040000004",
+        "series-description": "U.S. FOB Costs of Persian Gulf Countries Crude Oil (Dollars per Barrel)",
+        "value": null,
+        "units": "$/BBL"
+      }
+    ]
+  },
+  "request": {
+    "command": "/v2/petroleum/move/imc1/data/",
+    "params": {
+      "api_key": "o5nQ7H9b6Bf9Kh3D0cCeC8ydP24drGTiFGaCQrKN",
+      "frequency": "monthly",
+      "data": [
+        "value"
+      ],
+      "sort": [
+        {
+          "column": "period",
+          "direction": "desc"
+        }
+      ],
+      "length": "5",
+      "offset": "0"
+    }
+  },
+  "apiVersion": "2.1.10",
+  "ExcelAddInVersion": "2.1.0"
+}

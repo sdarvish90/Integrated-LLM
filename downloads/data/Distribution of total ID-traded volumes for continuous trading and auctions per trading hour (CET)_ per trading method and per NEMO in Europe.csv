@@ -1,0 +1,364 @@
+Trading day,Hour when trade occurred (CET),Trading Type,NEMO,ID Volumes (TWh)
+D-1,'15:00',Auctions,BSP,0.00
+D-1,'15:00',Auctions,EPEX,5.22
+D-1,'15:00',Auctions,GME,11.50
+D-1,'15:00',Auctions,OMIE,0.00
+D-1,'15:00',Continuous trading,BSP,0.00
+D-1,'15:00',Continuous trading,CROPEX,0.01
+D-1,'15:00',Continuous trading,EPEX,0.04
+D-1,'15:00',Continuous trading,NordPool,0.08
+D-1,'15:00',Continuous trading,OKTE,0.00
+D-1,'15:00',Continuous trading,OPCOM,0.00
+D-1,'15:00',Continuous trading,OTE,0.00
+D-1,'16:00',Auctions,BSP,0.21
+D-1,'16:00',Auctions,EPEX,0.00
+D-1,'16:00',Auctions,GME,4.49
+D-1,'16:00',Auctions,OMIE,0.00
+D-1,'16:00',Continuous trading,BSP,0.00
+D-1,'16:00',Continuous trading,CROPEX,0.02
+D-1,'16:00',Continuous trading,EPEX,0.10
+D-1,'16:00',Continuous trading,NordPool,0.09
+D-1,'16:00',Continuous trading,OKTE,0.00
+D-1,'16:00',Continuous trading,OPCOM,0.00
+D-1,'16:00',Continuous trading,OTE,0.00
+D-1,'17:00',Auctions,BSP,0.00
+D-1,'17:00',Auctions,EPEX,0.00
+D-1,'17:00',Auctions,GME,0.00
+D-1,'17:00',Auctions,OMIE,0.00
+D-1,'17:00',Continuous trading,BSP,0.00
+D-1,'17:00',Continuous trading,CROPEX,0.01
+D-1,'17:00',Continuous trading,EPEX,0.23
+D-1,'17:00',Continuous trading,NordPool,0.07
+D-1,'17:00',Continuous trading,OKTE,0.00
+D-1,'17:00',Continuous trading,OPCOM,0.00
+D-1,'17:00',Continuous trading,OTE,0.00
+D-1,'18:00',Auctions,BSP,0.00
+D-1,'18:00',Auctions,EPEX,0.00
+D-1,'18:00',Auctions,GME,0.00
+D-1,'18:00',Auctions,OMIE,0.00
+D-1,'18:00',Continuous trading,BSP,0.00
+D-1,'18:00',Continuous trading,CROPEX,0.00
+D-1,'18:00',Continuous trading,EPEX,0.26
+D-1,'18:00',Continuous trading,NordPool,0.06
+D-1,'18:00',Continuous trading,OKTE,0.00
+D-1,'18:00',Continuous trading,OPCOM,0.06
+D-1,'18:00',Continuous trading,OTE,0.00
+D-1,'19:00',Auctions,BSP,0.00
+D-1,'19:00',Auctions,EPEX,0.00
+D-1,'19:00',Auctions,GME,0.00
+D-1,'19:00',Auctions,OMIE,19.58
+D-1,'19:00',Continuous trading,BSP,0.00
+D-1,'19:00',Continuous trading,CROPEX,0.00
+D-1,'19:00',Continuous trading,EPEX,0.34
+D-1,'19:00',Continuous trading,NordPool,0.05
+D-1,'19:00',Continuous trading,OKTE,0.00
+D-1,'19:00',Continuous trading,OPCOM,0.01
+D-1,'19:00',Continuous trading,OTE,0.00
+D-1,'20:00',Auctions,BSP,0.00
+D-1,'20:00',Auctions,EPEX,0.00
+D-1,'20:00',Auctions,GME,0.00
+D-1,'20:00',Auctions,OMIE,0.00
+D-1,'20:00',Continuous trading,BSP,0.01
+D-1,'20:00',Continuous trading,CROPEX,0.00
+D-1,'20:00',Continuous trading,EPEX,0.46
+D-1,'20:00',Continuous trading,NordPool,0.05
+D-1,'20:00',Continuous trading,OKTE,0.00
+D-1,'20:00',Continuous trading,OPCOM,0.00
+D-1,'20:00',Continuous trading,OTE,0.00
+D-1,'21:00',Auctions,BSP,0.00
+D-1,'21:00',Auctions,EPEX,0.00
+D-1,'21:00',Auctions,GME,0.00
+D-1,'21:00',Auctions,OMIE,0.00
+D-1,'21:00',Continuous trading,BSP,0.01
+D-1,'21:00',Continuous trading,CROPEX,0.00
+D-1,'21:00',Continuous trading,EPEX,1.00
+D-1,'21:00',Continuous trading,NordPool,0.09
+D-1,'21:00',Continuous trading,OKTE,0.00
+D-1,'21:00',Continuous trading,OPCOM,0.00
+D-1,'21:00',Continuous trading,OTE,0.01
+D-1,'22:00',Auctions,BSP,0.00
+D-1,'22:00',Auctions,EPEX,0.00
+D-1,'22:00',Auctions,GME,0.00
+D-1,'22:00',Auctions,OMIE,5.38
+D-1,'22:00',Continuous trading,BSP,0.01
+D-1,'22:00',Continuous trading,CROPEX,0.00
+D-1,'22:00',Continuous trading,EPEX,1.10
+D-1,'22:00',Continuous trading,NordPool,0.08
+D-1,'22:00',Continuous trading,OKTE,0.00
+D-1,'22:00',Continuous trading,OPCOM,0.00
+D-1,'22:00',Continuous trading,OTE,0.01
+D-1,'23:00',Auctions,BSP,0.00
+D-1,'23:00',Auctions,EPEX,0.00
+D-1,'23:00',Auctions,GME,2.10
+D-1,'23:00',Auctions,OMIE,0.00
+D-1,'23:00',Continuous trading,BSP,0.01
+D-1,'23:00',Continuous trading,CROPEX,0.00
+D-1,'23:00',Continuous trading,EPEX,1.16
+D-1,'23:00',Continuous trading,NordPool,0.13
+D-1,'23:00',Continuous trading,OKTE,0.00
+D-1,'23:00',Continuous trading,OPCOM,0.00
+D-1,'23:00',Continuous trading,OTE,0.01
+D,'0:00',Auctions,BSP,0.00
+D,'0:00',Auctions,EPEX,0.00
+D,'0:00',Auctions,GME,0.00
+D,'0:00',Auctions,OMIE,0.00
+D,'0:00',Continuous trading,BSP,0.00
+D,'0:00',Continuous trading,CROPEX,0.00
+D,'0:00',Continuous trading,EPEX,1.96
+D,'0:00',Continuous trading,NordPool,0.19
+D,'0:00',Continuous trading,OKTE,0.00
+D,'0:00',Continuous trading,OPCOM,0.00
+D,'0:00',Continuous trading,OTE,0.02
+D,'1:00',Auctions,BSP,0.00
+D,'1:00',Auctions,EPEX,0.00
+D,'1:00',Auctions,GME,0.00
+D,'1:00',Auctions,OMIE,0.00
+D,'1:00',Continuous trading,BSP,0.00
+D,'1:00',Continuous trading,CROPEX,0.00
+D,'1:00',Continuous trading,EPEX,1.91
+D,'1:00',Continuous trading,NordPool,0.17
+D,'1:00',Continuous trading,OKTE,0.00
+D,'1:00',Continuous trading,OPCOM,0.00
+D,'1:00',Continuous trading,OTE,0.02
+D,'2:00',Auctions,BSP,0.00
+D,'2:00',Auctions,EPEX,0.00
+D,'2:00',Auctions,GME,0.00
+D,'2:00',Auctions,OMIE,3.27
+D,'2:00',Continuous trading,BSP,0.00
+D,'2:00',Continuous trading,CROPEX,0.00
+D,'2:00',Continuous trading,EPEX,1.80
+D,'2:00',Continuous trading,NordPool,0.15
+D,'2:00',Continuous trading,OKTE,0.00
+D,'2:00',Continuous trading,OPCOM,0.00
+D,'2:00',Continuous trading,OTE,0.01
+D,'3:00',Auctions,BSP,0.00
+D,'3:00',Auctions,EPEX,0.00
+D,'3:00',Auctions,GME,0.69
+D,'3:00',Auctions,OMIE,0.00
+D,'3:00',Continuous trading,BSP,0.00
+D,'3:00',Continuous trading,CROPEX,0.00
+D,'3:00',Continuous trading,EPEX,1.60
+D,'3:00',Continuous trading,NordPool,0.14
+D,'3:00',Continuous trading,OKTE,0.00
+D,'3:00',Continuous trading,OPCOM,0.00
+D,'3:00',Continuous trading,OTE,0.01
+D,'4:00',Auctions,BSP,0.00
+D,'4:00',Auctions,EPEX,0.00
+D,'4:00',Auctions,GME,0.00
+D,'4:00',Auctions,OMIE,0.00
+D,'4:00',Continuous trading,BSP,0.00
+D,'4:00',Continuous trading,CROPEX,0.00
+D,'4:00',Continuous trading,EPEX,1.73
+D,'4:00',Continuous trading,NordPool,0.15
+D,'4:00',Continuous trading,OKTE,0.00
+D,'4:00',Continuous trading,OPCOM,0.00
+D,'4:00',Continuous trading,OTE,0.01
+D,'5:00',Auctions,BSP,0.00
+D,'5:00',Auctions,EPEX,0.00
+D,'5:00',Auctions,GME,0.00
+D,'5:00',Auctions,OMIE,1.94
+D,'5:00',Continuous trading,BSP,0.00
+D,'5:00',Continuous trading,CROPEX,0.00
+D,'5:00',Continuous trading,EPEX,1.99
+D,'5:00',Continuous trading,NordPool,0.15
+D,'5:00',Continuous trading,OKTE,0.01
+D,'5:00',Continuous trading,OPCOM,0.00
+D,'5:00',Continuous trading,OTE,0.02
+D,'6:00',Auctions,BSP,0.00
+D,'6:00',Auctions,EPEX,0.00
+D,'6:00',Auctions,GME,0.00
+D,'6:00',Auctions,OMIE,0.00
+D,'6:00',Continuous trading,BSP,0.00
+D,'6:00',Continuous trading,CROPEX,0.00
+D,'6:00',Continuous trading,EPEX,2.51
+D,'6:00',Continuous trading,NordPool,0.25
+D,'6:00',Continuous trading,OKTE,0.00
+D,'6:00',Continuous trading,OPCOM,0.00
+D,'6:00',Continuous trading,OTE,0.02
+D,'7:00',Auctions,BSP,0.00
+D,'7:00',Auctions,EPEX,0.00
+D,'7:00',Auctions,GME,0.93
+D,'7:00',Auctions,OMIE,0.00
+D,'7:00',Continuous trading,BSP,0.01
+D,'7:00',Continuous trading,CROPEX,0.00
+D,'7:00',Continuous trading,EPEX,3.05
+D,'7:00',Continuous trading,NordPool,0.36
+D,'7:00',Continuous trading,OKTE,0.01
+D,'7:00',Continuous trading,OPCOM,0.00
+D,'7:00',Continuous trading,OTE,0.03
+D,'8:00',Auctions,BSP,0.00
+D,'8:00',Auctions,EPEX,0.00
+D,'8:00',Auctions,GME,0.00
+D,'8:00',Auctions,OMIE,0.00
+D,'8:00',Continuous trading,BSP,0.01
+D,'8:00',Continuous trading,CROPEX,0.00
+D,'8:00',Continuous trading,EPEX,3.60
+D,'8:00',Continuous trading,NordPool,0.43
+D,'8:00',Continuous trading,OKTE,0.02
+D,'8:00',Continuous trading,OPCOM,0.01
+D,'8:00',Continuous trading,OTE,0.04
+D,'9:00',Auctions,BSP,0.00
+D,'9:00',Auctions,EPEX,0.00
+D,'9:00',Auctions,GME,0.00
+D,'9:00',Auctions,OMIE,2.42
+D,'9:00',Continuous trading,BSP,0.01
+D,'9:00',Continuous trading,CROPEX,0.00
+D,'9:00',Continuous trading,EPEX,3.81
+D,'9:00',Continuous trading,NordPool,0.40
+D,'9:00',Continuous trading,OKTE,0.01
+D,'9:00',Continuous trading,OPCOM,0.01
+D,'9:00',Continuous trading,OTE,0.05
+D,'10:00',Auctions,BSP,0.00
+D,'10:00',Auctions,EPEX,0.00
+D,'10:00',Auctions,GME,0.00
+D,'10:00',Auctions,OMIE,0.00
+D,'10:00',Continuous trading,BSP,0.01
+D,'10:00',Continuous trading,CROPEX,0.00
+D,'10:00',Continuous trading,EPEX,3.96
+D,'10:00',Continuous trading,NordPool,0.36
+D,'10:00',Continuous trading,OKTE,0.01
+D,'10:00',Continuous trading,OPCOM,0.01
+D,'10:00',Continuous trading,OTE,0.04
+D,'11:00',Auctions,BSP,0.05
+D,'11:00',Auctions,EPEX,0.00
+D,'11:00',Auctions,GME,1.44
+D,'11:00',Auctions,OMIE,0.00
+D,'11:00',Continuous trading,BSP,0.00
+D,'11:00',Continuous trading,CROPEX,0.00
+D,'11:00',Continuous trading,EPEX,3.53
+D,'11:00',Continuous trading,NordPool,0.34
+D,'11:00',Continuous trading,OKTE,0.01
+D,'11:00',Continuous trading,OPCOM,0.01
+D,'11:00',Continuous trading,OTE,0.04
+D,'12:00',Auctions,BSP,0.00
+D,'12:00',Auctions,EPEX,0.00
+D,'12:00',Auctions,GME,0.00
+D,'12:00',Auctions,OMIE,0.00
+D,'12:00',Continuous trading,BSP,0.00
+D,'12:00',Continuous trading,CROPEX,0.00
+D,'12:00',Continuous trading,EPEX,3.40
+D,'12:00',Continuous trading,NordPool,0.32
+D,'12:00',Continuous trading,OKTE,0.01
+D,'12:00',Continuous trading,OPCOM,0.01
+D,'12:00',Continuous trading,OTE,0.04
+D,'13:00',Auctions,BSP,0.00
+D,'13:00',Auctions,EPEX,0.00
+D,'13:00',Auctions,GME,0.00
+D,'13:00',Auctions,OMIE,2.47
+D,'13:00',Continuous trading,BSP,0.00
+D,'13:00',Continuous trading,CROPEX,0.00
+D,'13:00',Continuous trading,EPEX,3.28
+D,'13:00',Continuous trading,NordPool,0.41
+D,'13:00',Continuous trading,OKTE,0.01
+D,'13:00',Continuous trading,OPCOM,0.01
+D,'13:00',Continuous trading,OTE,0.04
+D,'14:00',Auctions,BSP,0.00
+D,'14:00',Auctions,EPEX,0.00
+D,'14:00',Auctions,GME,0.00
+D,'14:00',Auctions,OMIE,0.00
+D,'14:00',Continuous trading,BSP,0.01
+D,'14:00',Continuous trading,CROPEX,0.00
+D,'14:00',Continuous trading,EPEX,3.49
+D,'14:00',Continuous trading,NordPool,0.35
+D,'14:00',Continuous trading,OKTE,0.01
+D,'14:00',Continuous trading,OPCOM,0.00
+D,'14:00',Continuous trading,OTE,0.03
+D,'15:00',Auctions,BSP,0.00
+D,'15:00',Auctions,EPEX,0.00
+D,'15:00',Auctions,GME,1.34
+D,'15:00',Auctions,OMIE,0.00
+D,'15:00',Continuous trading,BSP,0.01
+D,'15:00',Continuous trading,CROPEX,0.00
+D,'15:00',Continuous trading,EPEX,3.18
+D,'15:00',Continuous trading,NordPool,0.31
+D,'15:00',Continuous trading,OKTE,0.01
+D,'15:00',Continuous trading,OPCOM,0.00
+D,'15:00',Continuous trading,OTE,0.02
+D,'16:00',Auctions,BSP,0.01
+D,'16:00',Auctions,EPEX,0.00
+D,'16:00',Auctions,GME,0.00
+D,'16:00',Auctions,OMIE,0.00
+D,'16:00',Continuous trading,BSP,0.00
+D,'16:00',Continuous trading,CROPEX,0.00
+D,'16:00',Continuous trading,EPEX,3.12
+D,'16:00',Continuous trading,NordPool,0.28
+D,'16:00',Continuous trading,OKTE,0.01
+D,'16:00',Continuous trading,OPCOM,0.00
+D,'16:00',Continuous trading,OTE,0.02
+D,'17:00',Auctions,BSP,0.00
+D,'17:00',Auctions,EPEX,0.00
+D,'17:00',Auctions,GME,0.00
+D,'17:00',Auctions,OMIE,0.00
+D,'17:00',Continuous trading,BSP,0.00
+D,'17:00',Continuous trading,CROPEX,0.00
+D,'17:00',Continuous trading,EPEX,2.86
+D,'17:00',Continuous trading,NordPool,0.22
+D,'17:00',Continuous trading,OKTE,0.01
+D,'17:00',Continuous trading,OPCOM,0.00
+D,'17:00',Continuous trading,OTE,0.02
+D,'18:00',Auctions,BSP,0.00
+D,'18:00',Auctions,EPEX,0.00
+D,'18:00',Auctions,GME,0.00
+D,'18:00',Auctions,OMIE,0.00
+D,'18:00',Continuous trading,BSP,0.00
+D,'18:00',Continuous trading,CROPEX,0.00
+D,'18:00',Continuous trading,EPEX,2.65
+D,'18:00',Continuous trading,NordPool,0.21
+D,'18:00',Continuous trading,OKTE,0.00
+D,'18:00',Continuous trading,OPCOM,0.01
+D,'18:00',Continuous trading,OTE,0.01
+D,'19:00',Auctions,BSP,0.00
+D,'19:00',Auctions,EPEX,0.00
+D,'19:00',Auctions,GME,0.00
+D,'19:00',Auctions,OMIE,0.99
+D,'19:00',Continuous trading,BSP,0.01
+D,'19:00',Continuous trading,CROPEX,0.00
+D,'19:00',Continuous trading,EPEX,2.11
+D,'19:00',Continuous trading,NordPool,0.18
+D,'19:00',Continuous trading,OKTE,0.00
+D,'19:00',Continuous trading,OPCOM,0.00
+D,'19:00',Continuous trading,OTE,0.01
+D,'20:00',Auctions,BSP,0.00
+D,'20:00',Auctions,EPEX,0.00
+D,'20:00',Auctions,GME,0.00
+D,'20:00',Auctions,OMIE,0.00
+D,'20:00',Continuous trading,BSP,0.01
+D,'20:00',Continuous trading,CROPEX,0.00
+D,'20:00',Continuous trading,EPEX,1.74
+D,'20:00',Continuous trading,NordPool,0.16
+D,'20:00',Continuous trading,OKTE,0.00
+D,'20:00',Continuous trading,OPCOM,0.00
+D,'20:00',Continuous trading,OTE,0.01
+D,'21:00',Auctions,BSP,0.00
+D,'21:00',Auctions,EPEX,0.00
+D,'21:00',Auctions,GME,0.00
+D,'21:00',Auctions,OMIE,0.00
+D,'21:00',Continuous trading,BSP,0.01
+D,'21:00',Continuous trading,CROPEX,0.00
+D,'21:00',Continuous trading,EPEX,1.50
+D,'21:00',Continuous trading,NordPool,0.13
+D,'21:00',Continuous trading,OKTE,0.00
+D,'21:00',Continuous trading,OPCOM,0.00
+D,'21:00',Continuous trading,OTE,0.01
+D,'22:00',Auctions,BSP,0.00
+D,'22:00',Auctions,EPEX,0.00
+D,'22:00',Auctions,GME,0.00
+D,'22:00',Auctions,OMIE,0.00
+D,'22:00',Continuous trading,BSP,0.00
+D,'22:00',Continuous trading,CROPEX,0.00
+D,'22:00',Continuous trading,EPEX,1.34
+D,'22:00',Continuous trading,NordPool,0.11
+D,'22:00',Continuous trading,OKTE,0.00
+D,'22:00',Continuous trading,OPCOM,0.00
+D,'22:00',Continuous trading,OTE,0.00
+D,'23:00',Auctions,BSP,0.00
+D,'23:00',Auctions,EPEX,0.00
+D,'23:00',Auctions,GME,0.00
+D,'23:00',Auctions,OMIE,0.00
+D,'23:00',Continuous trading,BSP,0.00
+D,'23:00',Continuous trading,CROPEX,0.00
+D,'23:00',Continuous trading,EPEX,0.79
+D,'23:00',Continuous trading,NordPool,0.06
+D,'23:00',Continuous trading,OKTE,0.00
+D,'23:00',Continuous trading,OPCOM,0.00
+D,'23:00',Continuous trading,OTE,0.00

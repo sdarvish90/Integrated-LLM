@@ -1,0 +1,100 @@
+{
+  "warnings": [
+    {
+      "warning": "incomplete return",
+      "description": "The API can only return 5000 rows in JSON format.  Please consider constraining your request with facet, start, or end, or using offset to paginate results."
+    }
+  ],
+  "response": {
+    "total": "55868",
+    "dateFormat": "YYYY-MM",
+    "frequency": "monthly",
+    "data": [
+      {
+        "period": "2025-10",
+        "duoarea": "R10-Z00",
+        "area-name": "PADD 1",
+        "product": "EPPR",
+        "product-name": "Residual Fuel Oil",
+        "process": "IM0",
+        "process-name": "Imports",
+        "series": "MREIMP12",
+        "series-description": "East Coast (PADD 1) Imports of Residual Fuel Oil (Thousand Barrels per Day)",
+        "value": "69",
+        "units": "MBBL/D"
+      },
+      {
+        "period": "2025-10",
+        "duoarea": "SLA-Z00",
+        "area-name": "USA-LA",
+        "product": "EPPR",
+        "product-name": "Residual Fuel Oil",
+        "process": "IM0",
+        "process-name": "Imports",
+        "series": "MREIMLA2",
+        "series-description": "Louisiana Imports of Residual Fuel Oil (Thousand Barrels per Day)",
+        "value": "4",
+        "units": "MBBL/D"
+      },
+      {
+        "period": "2025-10",
+        "duoarea": "SLA-Z00",
+        "area-name": "USA-LA",
+        "product": "EPPR",
+        "product-name": "Residual Fuel Oil",
+        "process": "IM0",
+        "process-name": "Imports",
+        "series": "MREIMLA1",
+        "series-description": "Louisiana Imports of Residual Fuel Oil (Thousand Barrels)",
+        "value": "130",
+        "units": "MBBL"
+      },
+      {
+        "period": "2025-10",
+        "duoarea": "SPA-Z00",
+        "area-name": "USA-PA",
+        "product": "EPPR",
+        "product-name": "Residual Fuel Oil",
+        "process": "IM0",
+        "process-name": "Imports",
+        "series": "MREIMPA2",
+        "series-description": "Pennsylvania Imports of Residual Fuel Oil (Thousand Barrels per Day)",
+        "value": "3",
+        "units": "MBBL/D"
+      },
+      {
+        "period": "2025-10",
+        "duoarea": "SPA-Z00",
+        "area-name": "USA-PA",
+        "product": "EPPR",
+        "product-name": "Residual Fuel Oil",
+        "process": "IM0",
+        "process-name": "Imports",
+        "series": "MREIMPA1",
+        "series-description": "Pennsylvania Imports of Residual Fuel Oil (Thousand Barrels)",
+        "value": "93",
+        "units": "MBBL"
+      }
+    ]
+  },
+  "request": {
+    "command": "/v2/petroleum/move/res/data/",
+    "params": {
+      "api_key": "o5nQ7H9b6Bf9Kh3D0cCeC8ydP24drGTiFGaCQrKN",
+      "frequency": "monthly",
+      "data": [
+        "value"
+      ],
+      "sort": [
+        {
+          "column": "period",
+          "direction": "desc"
+        }
+      ],
+      "length": "5",
+      "offset": "0"
+    }
+  },
+  "apiVersion": "2.1.10",
+  "ExcelAddInVersion": "2.1.0"
+}

@@ -1,0 +1,28 @@
+Border direction,Flow direction,Unscheduled Allocated Flows [MW]
+AT > CH,Same direction as physical flow,22
+CZ > AT,Same direction as physical flow,681
+DE > AT,Same direction as physical flow,218
+AT > HU,Same direction as physical flow,115
+IT > AT,Opposite physical flow,64
+SI > AT,Opposite physical flow,142
+FR > BE,Same direction as physical flow,397
+BE > NL,Opposite physical flow,390
+GR > BG,Opposite physical flow,211
+BG > RO,Opposite physical flow,42
+DE > CH,Same direction as physical flow,889
+CH > FR,Opposite physical flow,614
+CH > IT,Same direction as physical flow,296
+DE > CZ,Same direction as physical flow,97
+PL > CZ,Same direction as physical flow,308
+SK > CZ,Opposite physical flow,278
+FR > DE,Same direction as physical flow,676
+NL > DE,Opposite physical flow,209
+DE > PL,Same direction as physical flow,553
+ES > FR,Opposite physical flow,15
+ES > PT,Same direction as physical flow,6
+IT > FR,Opposite physical flow,184
+HU > HR,Same direction as physical flow,30
+HU > RO,Same direction as physical flow,13
+HU > SK,Opposite physical flow,189
+IT > SI,Opposite physical flow,14
+PL > SK,Same direction as physical flow,411

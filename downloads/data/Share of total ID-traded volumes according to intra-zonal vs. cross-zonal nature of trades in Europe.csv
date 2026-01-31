@@ -1,0 +1,6 @@
+Trading method,Nature of trade,Volume (TWh),Percentage
+Auction,Cross-zonal,14543423,23%
+Auction,intra-zonal,49699214,77%
+Continuous,intra-zonal,57141063,78%
+Continuous,Cross-zonal (between adjucent bidding zones),3753926,5%
+Continuous,Cross-zonal (non adjucent bidding zones),12723156,17%

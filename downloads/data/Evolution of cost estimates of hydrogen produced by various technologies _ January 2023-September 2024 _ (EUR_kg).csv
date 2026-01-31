@@ -1,0 +1,169 @@
+Year,Month,Type of technology,Cost estimates (EUR/kg)
+2023,January,Alkaline,9.10
+2023,January,PEM,10.99
+2023,January,SMR with CCS,4.22
+2023,January,SMR without CCS,3.24
+2023,January,RFNBOAlkaline - min,0.00
+2023,January,RFNBOAlkaline - max,0.00
+2023,January,RFNBOAlkaline - average,0.00
+2023,January,RFNBO,9.10
+2023,February,Alkaline,7.86
+2023,February,PEM,9.56
+2023,February,SMR with CCS,3.75
+2023,February,SMR without CCS,2.87
+2023,February,RFNBOAlkaline - min,0.00
+2023,February,RFNBOAlkaline - max,0.00
+2023,February,RFNBOAlkaline - average,0.00
+2023,February,RFNBO,8.91
+2023,March,Alkaline,6.65
+2023,March,PEM,8.17
+2023,March,SMR with CCS,3.26
+2023,March,SMR without CCS,2.48
+2023,March,RFNBOAlkaline - min,0.00
+2023,March,RFNBOAlkaline - max,0.00
+2023,March,RFNBOAlkaline - average,0.00
+2023,March,RFNBO,9.74
+2023,April,Alkaline,6.00
+2023,April,PEM,7.41
+2023,April,SMR with CCS,3.10
+2023,April,SMR without CCS,2.38
+2023,April,RFNBOAlkaline - min,0.00
+2023,April,RFNBOAlkaline - max,0.00
+2023,April,RFNBOAlkaline - average,0.00
+2023,April,RFNBO,9.19
+2023,May,Alkaline,5.27
+2023,May,PEM,6.41
+2023,May,SMR with CCS,2.61
+2023,May,SMR without CCS,1.95
+2023,May,RFNBOAlkaline - min,0.00
+2023,May,RFNBOAlkaline - max,0.00
+2023,May,RFNBOAlkaline - average,0.00
+2023,May,RFNBO,9.98
+2023,June,Alkaline,5.73
+2023,June,PEM,6.76
+2023,June,SMR with CCS,2.75
+2023,June,SMR without CCS,2.05
+2023,June,RFNBOAlkaline - min,0.00
+2023,June,RFNBOAlkaline - max,0.00
+2023,June,RFNBOAlkaline - average,0.00
+2023,June,RFNBO,9.64
+2023,July,Alkaline,5.24
+2023,July,PEM,6.21
+2023,July,SMR with CCS,2.54
+2023,July,SMR without CCS,1.89
+2023,July,RFNBOAlkaline - min,0.00
+2023,July,RFNBOAlkaline - max,0.00
+2023,July,RFNBOAlkaline - average,0.00
+2023,July,RFNBO,7.70
+2023,August,Alkaline,5.94
+2023,August,PEM,6.98
+2023,August,SMR with CCS,2.87
+2023,August,SMR without CCS,2.14
+2023,August,RFNBOAlkaline - min,0.00
+2023,August,RFNBOAlkaline - max,0.00
+2023,August,RFNBOAlkaline - average,0.00
+2023,August,RFNBO,7.91
+2023,September,Alkaline,6.13
+2023,September,PEM,7.21
+2023,September,SMR with CCS,3.00
+2023,September,SMR without CCS,2.25
+2023,September,RFNBOAlkaline - min,0.00
+2023,September,RFNBOAlkaline - max,0.00
+2023,September,RFNBOAlkaline - average,0.00
+2023,September,RFNBO,8.66
+2023,October,Alkaline,7.14
+2023,October,PEM,8.32
+2023,October,SMR with CCS,3.56
+2023,October,SMR without CCS,2.71
+2023,October,RFNBOAlkaline - min,0.00
+2023,October,RFNBOAlkaline - max,0.00
+2023,October,RFNBOAlkaline - average,0.00
+2023,October,RFNBO,8.70
+2023,November,Alkaline,6.64
+2023,November,PEM,7.76
+2023,November,SMR with CCS,3.46
+2023,November,SMR without CCS,2.64
+2023,November,RFNBOAlkaline - min,0.00
+2023,November,RFNBOAlkaline - max,0.00
+2023,November,RFNBOAlkaline - average,0.00
+2023,November,RFNBO,9.18
+2023,December,Alkaline,6.18
+2023,December,PEM,7.25
+2023,December,SMR with CCS,2.96
+2023,December,SMR without CCS,2.21
+2023,December,RFNBOAlkaline - min,0.00
+2023,December,RFNBOAlkaline - max,0.00
+2023,December,RFNBOAlkaline - average,0.00
+2023,December,RFNBO,8.93
+2024,January,Alkaline,5.34
+2024,January,PEM,6.33
+2024,January,SMR with CCS,2.60
+2024,January,SMR without CCS,1.93
+2024,January,RFNBOAlkaline - min,0.00
+2024,January,RFNBOAlkaline - max,0.00
+2024,January,RFNBOAlkaline - average,0.00
+2024,January,RFNBO,6.04
+2024,February,Alkaline,4.23
+2024,February,PEM,5.11
+2024,February,SMR with CCS,2.34
+2024,February,SMR without CCS,1.74
+2024,February,RFNBOAlkaline - min,0.00
+2024,February,RFNBOAlkaline - max,0.00
+2024,February,RFNBOAlkaline - average,0.00
+2024,February,RFNBO,6.94
+2024,March,Alkaline,4.51
+2024,March,PEM,4.94
+2024,March,SMR with CCS,2.24
+2024,March,SMR without CCS,1.71
+2024,March,RFNBOAlkaline - min,0.00
+2024,March,RFNBOAlkaline - max,0.00
+2024,March,RFNBOAlkaline - average,0.00
+2024,March,RFNBO,7.25
+2024,April,Alkaline,4.09
+2024,April,PEM,4.46
+2024,April,SMR with CCS,2.20
+2024,April,SMR without CCS,1.73
+2024,April,RFNBOAlkaline - min,6.04
+2024,April,RFNBOAlkaline - max,9.10
+2024,April,RFNBOAlkaline - average,7.70
+2024,April,RFNBO,7.67
+2024,May,Alkaline,4.69
+2024,May,PEM,5.03
+2024,May,SMR with CCS,2.37
+2024,May,SMR without CCS,1.85
+2024,May,RFNBOAlkaline - min,6.94
+2024,May,RFNBOAlkaline - max,8.91
+2024,May,RFNBOAlkaline - average,7.91
+2024,May,RFNBO,7.87
+2024,June,Alkaline,4.87
+2024,June,PEM,5.21
+2024,June,SMR with CCS,2.51
+2024,June,SMR without CCS,1.97
+2024,June,RFNBOAlkaline - min,7.25
+2024,June,RFNBOAlkaline - max,9.74
+2024,June,RFNBOAlkaline - average,8.66
+2024,June,RFNBO,7.85
+2024,July,Alkaline,4.96
+2024,July,PEM,5.28
+2024,July,SMR with CCS,2.41
+2024,July,SMR without CCS,1.88
+2024,July,RFNBOAlkaline - min,7.67
+2024,July,RFNBOAlkaline - max,9.19
+2024,July,RFNBOAlkaline - average,8.70
+2024,July,RFNBO,0.00
+2024,August,Alkaline,6.18
+2024,August,PEM,6.44
+2024,August,SMR with CCS,2.76
+2024,August,SMR without CCS,2.15
+2024,August,RFNBOAlkaline - min,7.87
+2024,August,RFNBOAlkaline - max,9.98
+2024,August,RFNBOAlkaline - average,9.18
+2024,August,RFNBO,0.00
+2024,September,Alkaline,5.93
+2024,September,PEM,6.20
+2024,September,SMR with CCS,2.64
+2024,September,SMR without CCS,2.05
+2024,September,RFNBOAlkaline - min,7.85
+2024,September,RFNBOAlkaline - max,9.64
+2024,September,RFNBOAlkaline - average,8.93
+2024,September,RFNBO,0.00

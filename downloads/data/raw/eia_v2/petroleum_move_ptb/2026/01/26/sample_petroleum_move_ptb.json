@@ -1,0 +1,100 @@
+{
+  "warnings": [
+    {
+      "warning": "incomplete return",
+      "description": "The API can only return 5000 rows in JSON format.  Please consider constraining your request with facet, start, or end, or using offset to paginate results."
+    }
+  ],
+  "response": {
+    "total": "154233",
+    "dateFormat": "YYYY-MM",
+    "frequency": "monthly",
+    "data": [
+      {
+        "period": "2025-10",
+        "duoarea": "R40-R50",
+        "area-name": "PADD 5",
+        "product": "EPL0",
+        "product-name": "Natural Gas Liquids and Liquid Refinery Gases",
+        "process": "TNR",
+        "process-name": "Receipts by Pipeline, Tanker, Barge and Rail",
+        "series": "M_EPL0_TNR_R40-R50_MBBL",
+        "series-description": "Rocky Mountain (PADD 4) Receipts by Pipeline, Tanker, Barge and Rail from West Coast (PADD 5) of Hydrocarbon Gas Liquids (Thousand Barrels)",
+        "value": "0",
+        "units": "MBBL"
+      },
+      {
+        "period": "2025-10",
+        "duoarea": "R50-R30",
+        "area-name": "PADD 3",
+        "product": "EPLLBAI",
+        "product-name": "Isobutane",
+        "process": "TNR",
+        "process-name": "Receipts by Pipeline, Tanker, Barge and Rail",
+        "series": "M_EPLLBAI_TNR_R50-R30_1",
+        "series-description": "West Coast (PADD 5) Receipts by Pipeline, Tanker, Barge and Rail from Gulf Coast (PADD 3) of Isobutane (Thousand Barrels)",
+        "value": "118",
+        "units": "MBBL"
+      },
+      {
+        "period": "2025-10",
+        "duoarea": "R30-R20",
+        "area-name": "PADD 2",
+        "product": "EPL2",
+        "product-name": "Natural Gas Plant Liquids",
+        "process": "TNR",
+        "process-name": "Receipts by Pipeline, Tanker, Barge and Rail",
+        "series": "M_EPL2_TNR_R30-R20_MBBL",
+        "series-description": "Gulf Coast (PADD 3)  Receipts by Pipeline, Tanker, Barge and Rail From Midwest (PADD 2) of Natural Gas Liquids (Thousand Barrels)",
+        "value": "42479",
+        "units": "MBBL"
+      },
+      {
+        "period": "2025-10",
+        "duoarea": "R20-R50",
+        "area-name": "PADD 5",
+        "product": "EPL0",
+        "product-name": "Natural Gas Liquids and Liquid Refinery Gases",
+        "process": "TNR",
+        "process-name": "Receipts by Pipeline, Tanker, Barge and Rail",
+        "series": "M_EPL0_TNR_R20-R50_MBBL",
+        "series-description": "Midwest (PADD 2) Receipts by Pipeline, Tanker, Barge and Rail from West Coast (PADD 5) of Hydrocarbon Gas Liquids (Thousand Barrels)",
+        "value": "0",
+        "units": "MBBL"
+      },
+      {
+        "period": "2025-10",
+        "duoarea": "R20-R40",
+        "area-name": "PADD 4",
+        "product": "EPL2",
+        "product-name": "Natural Gas Plant Liquids",
+        "process": "TNR",
+        "process-name": "Receipts by Pipeline, Tanker, Barge and Rail",
+        "series": "M_EPL2_TNR_R20-R40_MBBL",
+        "series-description": "Midwest (PADD 2)  Receipts by Pipeline, Tanker, Barge and Rail From Rocky Mountain (PADD 4) of Natural Gas Liquids (Thousand Barrels)",
+        "value": "25217",
+        "units": "MBBL"
+      }
+    ]
+  },
+  "request": {
+    "command": "/v2/petroleum/move/ptb/data/",
+    "params": {
+      "api_key": "o5nQ7H9b6Bf9Kh3D0cCeC8ydP24drGTiFGaCQrKN",
+      "frequency": "monthly",
+      "data": [
+        "value"
+      ],
+      "sort": [
+        {
+          "column": "period",
+          "direction": "desc"
+        }
+      ],
+      "length": "5",
+      "offset": "0"
+    }
+  },
+  "apiVersion": "2.1.10",
+  "ExcelAddInVersion": "2.1.0"
+}

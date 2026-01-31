@@ -1,0 +1,17 @@
+Technology,Country,Cost component,Value [EUR/kg],Value [EUR/MWh]
+PV,Spain,Total levelised cost of hydrogen,6.00,180.20
+PV,Spain,Capital expenditure,3.50,106.00
+PV,Spain,Electricity,1.60,47.10
+PV,Spain,Other operating expenditure,0.90,27.00
+Wind-onshore,Denmark,Total levelised cost of hydrogen,5.80,175.40
+Wind-onshore,Denmark,Capital expenditure,2.60,78.40
+Wind-onshore,Denmark,Electricity,2.40,71.20
+Wind-onshore,Denmark,Other operating expenditure,0.90,25.80
+Wind-offshore,Germany,Total levelised cost of hydrogen,7.70,229.70
+Wind-offshore,Germany,Capital expenditure,2.50,73.60
+Wind-offshore,Germany,Electricity,4.40,131.80
+Wind-offshore,Germany,Other operating expenditure,0.80,24.30
+Grid,Germany,Total levelised cost of hydrogen,7.20,216.20
+Grid,Germany,Capital expenditure,2.50,74.20
+Grid,Germany,Electricity,3.90,117.40
+Grid,Germany,Other operating expenditure,0.80,24.60

@@ -1,0 +1,43 @@
+Technology,Report,Reported year,Aggregation method,Hydrogen production cost [EUR2024/kg],Hydrogen production cost [EUR2024/MWh]
+Natural gas without CCUS,IEA Global Hydrogen Review 2025,2024,Minimum,0.74,22.20
+Natural gas without CCUS,IEA Global Hydrogen Review 2025,2024,Maximum,4.07,122.07
+Natural gas without CCUS,IEA Global Hydrogen Review 2025,2030,Minimum,0.65,19.42
+Natural gas without CCUS,IEA Global Hydrogen Review 2025,2030,Maximum,3.42,102.65
+Natural gas without CCUS,IEA Global Hydrogen Review 2024,2030,Minimum,0.53,15.82
+Natural gas without CCUS,IEA Global Hydrogen Review 2024,2030,Maximum,3.52,105.68
+Natural gas with CCUS,IEA Global Hydrogen Review 2025,2024,Minimum,1.39,41.62
+Natural gas with CCUS,IEA Global Hydrogen Review 2025,2024,Maximum,4.62,138.72
+Natural gas with CCUS,IEA Global Hydrogen Review 2025,2030,Minimum,1.20,36.07
+Natural gas with CCUS,IEA Global Hydrogen Review 2025,2030,Maximum,4.25,127.62
+Natural gas with CCUS,IEA Global Hydrogen Review 2024,2030,Minimum,1.05,31.51
+Natural gas with CCUS,IEA Global Hydrogen Review 2024,2030,Maximum,3.80,114.24
+Coal without CCUS,IEA Global Hydrogen Review 2025,2024,Minimum,1.29,38.84
+Coal without CCUS,IEA Global Hydrogen Review 2025,2024,Maximum,4.07,122.07
+Coal without CCUS,IEA Global Hydrogen Review 2025,2030,Minimum,1.20,36.07
+Coal without CCUS,IEA Global Hydrogen Review 2025,2030,Maximum,4.43,133.17
+Coal without CCUS,IEA Global Hydrogen Review 2024,2030,Minimum,1.76,52.91
+Coal without CCUS,IEA Global Hydrogen Review 2024,2030,Maximum,5.13,154.18
+Coal with CCUS,IEA Global Hydrogen Review 2025,2024,Minimum,1.66,49.94
+Coal with CCUS,IEA Global Hydrogen Review 2025,2024,Maximum,4.43,133.17
+Coal with CCUS,IEA Global Hydrogen Review 2025,2030,Minimum,1.48,44.39
+Coal with CCUS,IEA Global Hydrogen Review 2025,2030,Maximum,3.60,108.20
+Coal with CCUS,IEA Global Hydrogen Review 2024,2030,Minimum,1.29,38.64
+Coal with CCUS,IEA Global Hydrogen Review 2024,2030,Maximum,3.85,115.67
+Wind onshore,IEA Global Hydrogen Review 2025,2024,Minimum,3.42,102.65
+Wind onshore,IEA Global Hydrogen Review 2025,2024,Maximum,24.85,746.31
+Wind onshore,IEA Global Hydrogen Review 2025,2030,Minimum,2.59,77.68
+Wind onshore,IEA Global Hydrogen Review 2025,2030,Maximum,18.02,541.01
+Wind onshore,IEA Global Hydrogen Review 2024,2030,Minimum,2.24,67.17
+Wind onshore,IEA Global Hydrogen Review 2024,2030,Maximum,8.41,252.60
+Wind offshore,IEA Global Hydrogen Review 2025,2024,Minimum,4.62,138.72
+Wind offshore,IEA Global Hydrogen Review 2025,2024,Maximum,18.75,563.20
+Wind offshore,IEA Global Hydrogen Review 2025,2030,Minimum,3.14,94.33
+Wind offshore,IEA Global Hydrogen Review 2025,2030,Maximum,12.29,368.99
+Wind offshore,IEA Global Hydrogen Review 2024,2030,Minimum,2.81,84.29
+Wind offshore,IEA Global Hydrogen Review 2024,2030,Maximum,8.32,249.75
+Solar PV,IEA Global Hydrogen Review 2025,2024,Minimum,3.14,94.33
+Solar PV,IEA Global Hydrogen Review 2025,2024,Maximum,24.30,729.67
+Solar PV,IEA Global Hydrogen Review 2025,2030,Minimum,2.12,63.81
+Solar PV,IEA Global Hydrogen Review 2025,2030,Maximum,16.81,504.94
+Solar PV,IEA Global Hydrogen Review 2024,2030,Minimum,1.86,55.76
+Solar PV,IEA Global Hydrogen Review 2024,2030,Maximum,10.07,302.53

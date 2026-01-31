@@ -1,0 +1,17 @@
+country,technology,"capacity, MW","emissions, g CO2/kWh"
+PL,"Coal, oil and other fossil fuels",16841.72,1007
+FR,"Coal, oil and other fossil fuels",3306.20,820
+IE,Natural gas,5751.46,414
+IE,Demand response and storage,650.13,481
+PL,Natural gas,2925.76,482
+FR,Natural gas,8951.10,350
+PL,Demand response and storage,1314.13,77
+PL,RES,46.30,1
+FR,Demand response and storage,4279.10,0
+FR,Hydro,16861.70,0
+FR,Nuclear,46899.60,0
+FR,RES,5580.20,0
+IE,"Coal, oil and other fossil fuels",609.03,924
+IE,Hydro,414.23,0
+PL,Hydro,1254.43,0
+IE,RES,54.25,0

@@ -1,0 +1,33 @@
+ABB Power Grids Germany,ABB Ability e-mesh Control and PowerStore,yes,yes,yes,no,yes,no
+ABB Power Grids Germany,ABB Ability e-mesh Control and PowerStore,yes,yes,yes,no,yes,no
+Ageto,Ageto Renewable Controller (ARC),yes,yes,yes,no,no,yes
+Al-Bahar / Caterpillar,Caterpillar,yes,yes,yes,yes,yes,no
+Bachmann electronic,Smart Powerplant Controller,yes,yes,yes,yes,no,no
+DHybrid Power Systems,Universal Power Platform (UPP),yes,yes,yes,yes,yes,no
+elgris,elgris EMS,yes,yes,yes,yes,yes,yes
+Elum Energy,ePowercontrol HFS,yes,yes,yes,no,no,yes
+Elum Energy,ePowercontrol MC,yes,yes,yes,no,no,yes
+Elum Energy,ePowercontrol PPC,yes,yes,yes,no,no,yes
+Elum Energy,ePowercontrol SD,yes,yes,yes,no,no,yes
+Energytion Power Systems,Microgrid EMS,yes,yes,yes,no,yes,yes
+Engie EPS,PROPHET EMS Microgrid,no,yes,yes,yes,yes,no
+Fenecon,FEMS (FENECON Energy Management System),no,yes,yes,no,no,yes
+Ferntech,UMC (Universal Monitoring & Control),no,yes,yes,no,no,yes
+GreenCom Networks,energy information brokerage platform (eibp),yes,yes,yes,no,yes,no
+gridX,Microgrids,yes,yes,yes,yes,yes,no
+Inaccess,UNITY H-PPC,yes,yes,yes,no,no,yes
+Microgrid Encorp,Goldbox,yes,yes,yes,yes,yes,no
+Microgrid Encorp,Egility Control Platform,yes,yes,yes,yes,yes,no
+OpenEMS Asscociation,OpenEMS,no,yes,no,no,no,no
+Phoenix Contact,PLCnext Hybrid Control,yes,yes,yes,no,no,yes
+Qantic GmbH,Q-System,no,yes,,no,no,no
+S&C Electric Company,GridMaster,yes,yes,yes,yes,yes,yes
+Siemens,Microgrid Control - a SICAM application,yes,yes,yes,yes,no,yes
+Siemens,Spectrum Power MGMS,no,yes,yes,yes,no,yes
+Siemens Energy,Omnivise Hybrid Control,yes,yes,yes,yes,yes,no
+SMA Solar,SMA Sunny Island MultiCluster 6/12/36 + Data Manager M powered by ennexOS,yes,yes,yes,yes,no,no
+SMA Solar,SMA Hybrid Controller + Sunny Central Storage (UP) Small / Medium / Large / X-Large,yes,yes,yes,yes,no,no
+SwitchDin,SwitchDin Stormcloud / Droplet for Microgrid,yes,yes,yes,no,no,no
+Trina Energy Storage Solutions,Trina Micro Grid,yes,yes,yes,yes,yes,no
+Vensys Elektrotechnik,HYCON Hybrid Converter,yes,yes,yes,no,no,no
+Wendeware,"Amperix EMS, myPowerGrid Plattform",no,yes,yes,no,no,yes

@@ -1,0 +1,20 @@
+Capacity Calculation Region,Year,Directional Border,total ntc,total ntc previous year,difference,difference in %
+Baltic,2017,PL --> LT,268,149,120,81%
+Core (excl. CWE),2017,DE-AT-LU --> CZ,1777,806,971,120%
+Core (excl. CWE),2017,PL --> CZ,837,710,127,18%
+Core (excl. CWE),2017,PL --> DE+CZ+SK,775,635,140,22%
+Core (excl. CWE),2017,CZ+DE+SK --> PL,218,52,166,318%
+Hansa,2017,DK1 --> DE-AT-LU,525,194,331,171%
+IU,2017,GB --> IE(SEM),974,654,320,49%
+IU,2017,IE(SEM) --> GB,759,551,207,38%
+Nordic,2017,DK1 --> SE3,529,641,-112,−18%
+Nordic,2017,DK2 --> SE4,1210,1525,-315,−21%
+Norwegian borders,2017,DK1 --> NO2,1223,1475,-251,−17%
+Norwegian borders,2017,NO1 --> SE3,1247,1446,-198,−14%
+Norwegian borders,2017,NO2 --> DK1,1223,1397,-175,−13%
+Norwegian borders,2017,SE3 --> NO1,1308,1809,-501,−28%
+SWE,2017,ES --> FR,2294,1941,353,18%
+SWE,2017,FR --> ES,2559,2426,133,5%
+SWE,2017,PT --> ES,2978,2382,596,25%
+Swiss borders,2017,CH --> DE-AT-LU,5027,5151,-123,−2%
+Swiss borders,2017,CH --> IT-North,2840,2992,-152,−5%

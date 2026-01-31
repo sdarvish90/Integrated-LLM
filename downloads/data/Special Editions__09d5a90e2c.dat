@@ -1,0 +1,1528 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="fr-FR" xmlns:og="http://opengraphprotocol.org/schema/"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="fr-FR" xmlns:og="http://opengraphprotocol.org/schema/"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="fr-FR" xmlns:og="http://opengraphprotocol.org/schema/"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="fr-FR" xmlns:og="http://opengraphprotocol.org/schema/"> <!--<![endif]-->
+    <head>
+                <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="google-site-verification" content="0QbdeAl4Fx3hYA9ynZ7RIppu7NbgJJ8Nfik5CQt_IuI" />
+        
+        <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+        
+        <meta charset="UTF-8" />
+<script type="text/javascript">
+/* <![CDATA[ */
+ var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function(){gform.scriptsLoaded=!0}),window.addEventListener("DOMContentLoaded",function(){gform.domLoaded=!0}),gform={domLoaded:!1,scriptsLoaded:!1,initializeOnLoaded:function(o){gform.domLoaded&&gform.scriptsLoaded?o():!gform.domLoaded&&gform.scriptsLoaded?window.addEventListener("DOMContentLoaded",o):document.addEventListener("gform_main_scripts_loaded",o)},hooks:{action:{},filter:{}},addAction:function(o,n,r,t){gform.addHook("action",o,n,r,t)},addFilter:function(o,n,r,t){gform.addHook("filter",o,n,r,t)},doAction:function(o){gform.doHook("action",o,arguments)},applyFilters:function(o){return gform.doHook("filter",o,arguments)},removeAction:function(o,n){gform.removeHook("action",o,n)},removeFilter:function(o,n,r){gform.removeHook("filter",o,n,r)},addHook:function(o,n,r,t,i){null==gform.hooks[o][n]&&(gform.hooks[o][n]=[]);var e=gform.hooks[o][n];null==i&&(i=n+"_"+e.length),gform.hooks[o][n].push({tag:i,callable:r,priority:t=null==t?10:t})},doHook:function(n,o,r){var t;if(r=Array.prototype.slice.call(r,1),null!=gform.hooks[n][o]&&((o=gform.hooks[n][o]).sort(function(o,n){return o.priority-n.priority}),o.forEach(function(o){"function"!=typeof(t=o.callable)&&(t=window[t]),"action"==n?t.apply(null,r):r[0]=t.apply(null,r)})),"filter"==n)return r[0]},removeHook:function(o,n,t,i){var r;null!=gform.hooks[o][n]&&(r=(r=gform.hooks[o][n]).filter(function(o,n,r){return!!(null!=i&&i!=o.tag||null!=t&&t!=o.priority)}),gform.hooks[o][n]=r)}}); 
+/* ]]> */
+</script>
+
+<title>Édition Spéciale Energaia 2025 &#8211; pv magazine France</title>
+<meta name='robots' content='max-image-preview:large' />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="generator" content="pv magazine 1.0" />
+<link rel='dns-prefetch' href='//code.jquery.com' />
+<link rel='dns-prefetch' href='//v0.wordpress.com' />
+<link rel="alternate" type="application/rss+xml" title="pv magazine France &raquo; Flux" href="https://www.pv-magazine.fr/feed/" />
+<link rel="alternate" type="application/rss+xml" title="pv magazine France &raquo; Flux des commentaires" href="https://www.pv-magazine.fr/comments/feed/" />
+<link rel="pingback" href="https://www.pv-magazine.fr/xmlrpc.php" />
+<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.pv-magazine.fr\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.6.4"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83d\udc26\u200d\u2b1b","\ud83d\udc26\u200b\u2b1b")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<link rel='stylesheet' id='gravity_forms_theme_reset-css' href='https://www.pv-magazine.fr/wp-content/plugins/gravityforms/assets/css/dist/gravity-forms-theme-reset.min.css?ver=2.7.10' type='text/css' media='all' />
+<link rel='stylesheet' id='gravity_forms_theme_foundation-css' href='https://www.pv-magazine.fr/wp-content/plugins/gravityforms/assets/css/dist/gravity-forms-theme-foundation.min.css?ver=2.7.10' type='text/css' media='all' />
+<link rel='stylesheet' id='gravity_forms_theme_framework-css' href='https://www.pv-magazine.fr/wp-content/plugins/gravityforms/assets/css/dist/gravity-forms-theme-framework.min.css?ver=2.7.10' type='text/css' media='all' />
+<link rel='stylesheet' id='gravity_forms_orbital_theme-css' href='https://www.pv-magazine.fr/wp-content/plugins/gravityforms/assets/css/dist/gravity-forms-orbital-theme.min.css?ver=2.7.10' type='text/css' media='all' />
+<link rel='stylesheet' id='uaio-front-style-css' href='https://www.pv-magazine.fr/wp-content/plugins/upme-all-in-one/css/uaio-front.css?ver=6.6.4' type='text/css' media='all' />
+<link rel='stylesheet' id='upme_font_awesome-css' href='https://www.pv-magazine.fr/wp-content/plugins/upme/css/font-awesome.min.css?ver=6.6.4' type='text/css' media='all' />
+<link rel='stylesheet' id='upme_css-css' href='https://www.pv-magazine.fr/wp-content/plugins/upme/css/upme.css?ver=6.6.4' type='text/css' media='all' />
+<link rel='stylesheet' id='upme_style-css' href='https://www.pv-magazine.fr/wp-content/plugins/upme/styles/default.css?ver=6.6.4' type='text/css' media='all' />
+<link rel='stylesheet' id='upme_responsive-css' href='https://www.pv-magazine.fr/wp-content/plugins/upme/css/upme-responsive.css?ver=6.6.4' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css' href='https://www.pv-magazine.fr/wp-includes/css/dist/block-library/style.min.css?ver=6.6.4' type='text/css' media='all' />
+<link rel='stylesheet' id='mediaelement-css' href='https://www.pv-magazine.fr/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.17' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-mediaelement-css' href='https://www.pv-magazine.fr/wp-includes/js/mediaelement/wp-mediaelement.min.css?ver=6.6.4' type='text/css' media='all' />
+<style id='jetpack-sharing-buttons-style-inline-css' type='text/css'>
+.jetpack-sharing-buttons__services-list{display:flex;flex-direction:row;flex-wrap:wrap;gap:0;list-style-type:none;margin:5px;padding:0}.jetpack-sharing-buttons__services-list.has-small-icon-size{font-size:12px}.jetpack-sharing-buttons__services-list.has-normal-icon-size{font-size:16px}.jetpack-sharing-buttons__services-list.has-large-icon-size{font-size:24px}.jetpack-sharing-buttons__services-list.has-huge-icon-size{font-size:36px}@media print{.jetpack-sharing-buttons__services-list{display:none!important}}.editor-styles-wrapper .wp-block-jetpack-sharing-buttons{gap:0;padding-inline-start:0}ul.jetpack-sharing-buttons__services-list.has-background{padding:1.25em 2.375em}
+</style>
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='wordpress-popular-posts-css-css' href='https://www.pv-magazine.fr/wp-content/plugins/wordpress-popular-posts/assets/css/wpp.css?ver=6.3.4' type='text/css' media='all' />
+<link rel='stylesheet' id='pv-mag-france-css' href='https://www.pv-magazine.fr/wp-content/themes/pvmagazine/_/css/style-france.css?ver=6.6.4' type='text/css' media='all' />
+<link rel='stylesheet' id='pv-mag-fonts-css' href='https://www.pv-magazine.fr/wp-content/themes/pvmagazine/_/css/fonts.css?ver=6.6.4' type='text/css' media='all' />
+<link rel='stylesheet' id='tablepress-default-css' href='https://www.pv-magazine.fr/wp-content/plugins/tablepress/css/build/default.css?ver=2.1.5' type='text/css' media='all' />
+<link rel='stylesheet' id='tablepress-responsive-tables-css' href='https://www.pv-magazine.fr/wp-content/plugins/tablepress-responsive-tables/css/tablepress-responsive.min.css?ver=1.8' type='text/css' media='all' />
+<link rel='stylesheet' id='gform_basic-css' href='https://www.pv-magazine.fr/wp-content/plugins/gravityforms/assets/css/dist/basic.min.css?ver=2.7.10' type='text/css' media='all' />
+<link rel='stylesheet' id='gform_theme_components-css' href='https://www.pv-magazine.fr/wp-content/plugins/gravityforms/assets/css/dist/theme-components.min.css?ver=2.7.10' type='text/css' media='all' />
+<link rel='stylesheet' id='gform_theme_ie11-css' href='https://www.pv-magazine.fr/wp-content/plugins/gravityforms/assets/css/dist/theme-ie11.min.css?ver=2.7.10' type='text/css' media='all' />
+<link rel='stylesheet' id='gform_theme-css' href='https://www.pv-magazine.fr/wp-content/plugins/gravityforms/assets/css/dist/theme.min.css?ver=2.7.10' type='text/css' media='all' />
+<link rel='stylesheet' id='__EPYT__style-css' href='https://www.pv-magazine.fr/wp-content/plugins/youtube-embed-plus/styles/ytprefs.min.css?ver=14.1.6.3' type='text/css' media='all' />
+<style id='__EPYT__style-inline-css' type='text/css'>
+
+                .epyt-gallery-thumb {
+                        width: 33.333%;
+                }
+                
+</style>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js?ver=2.2.4" id="jquery-js"></script>
+<script type="text/javascript" id="uaio-front-js-extra">
+/* <![CDATA[ */
+var UAIOFront = {"Messages":{"Processing":"Processing.","ClickToUnsubscribe":"Click to Unsubscribe.","ClickToSubscribe":"Click to Subscribe."},"AdminAjax":"https:\/\/www.pv-magazine.fr\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.pv-magazine.fr/wp-content/plugins/upme-all-in-one/js/uaio-front.js?ver=6.6.4" id="uaio-front-js"></script>
+<script type="text/javascript" src="https://www.pv-magazine.fr/wp-content/plugins/upme/js/upme-fitvids.js?ver=6.6.4" id="upme_fitvids_js-js"></script>
+<script type="text/javascript" id="upme_tmce-js-extra">
+/* <![CDATA[ */
+var UPMETmce = {"InsertUPMEShortcode":"Insert UPME Shortcode","LoginRegistrationForms":"Login \/ Registration Forms","FrontRegistrationForm":"Front-end Registration Form","RegFormCustomRedirect":"Registration Form with Custom Redirect","RegFormCaptcha":"Registration Form with Captcha","RegFormNoCaptcha":"Registration Form without Captcha","FrontLoginForm":"Front-end Login Form","SidebarLoginWidget":"Sidebar Login Widget (use in text widget)","LoginFormCustomRedirect":"Login Form with Custom Redirect","LogoutButton":"Logout Button","LogoutButtonCustomRedirect":"Logout Button with Custom Redirect","SingleProfile":"Single Profile","LoggedUserProfile":"Logged in User Profile","LoggedUserProfileUserID":"Logged in User Profile showing User ID","LoggedUserProfileHideStats":"Logged in User Profile without Stats","LoggedUserProfileUserRole":"Logged in User Profile showing User Role","LoggedUserProfileStatus":"Logged in User Profile showing Profile Status","LoggedUserProfileLogoutRedirect":"Logged in User Profile with Logout Redirect","PostAuthorProfile":"Post Author Profile","SpecificUserProfile":"Specific User Profile","MultipleProfilesMemberList":"Multiple Profiles \/ Member List","GroupSpecificUsers":"Group of Specific Users","AllUsers":"All Users","AllUsersCompactView":"All Users in Compact View","AllUsersCompactViewHalfWidth":"All Users in Compact View, Half Width","AllUsersModalWindow":"All Users in Modal Windows","AllUsersNewWindow":"All Users in New Windows","UsersBasedUserRole":"Users Based on User Role","AdministratorUsersOnly":"Administrator Users Only","AllUsersOrderedDisplayName":"All Users Ordered by Display Name","AllUsersOrderedPostCount":"All Users Ordered by Post Count","AllUsersOrderedRegistrationDate":"All Users Ordered by Registration Date","AllUsersOrderedCustomField":"All Users Ordered by Custom Field","AllUsersUserID":"All Users showing User ID","GroupUsersCustomField":"Group Users by Custom Field Values","HideUsersUntilSearch":"Hide All Users until Search","SearchProfile":"Search Profiles","SearchCustomFieldFilters":"Search with Custom Field Filters","PrivateContentLoginRequired":"Private Content (Login Required)","ShortcodeOptionExamples":"Shortcode Option Examples","HideUserStatistics":"Hide User Statistics","HideUserSocialBar":"Hide User Social Bar","HalfWidthProfileView":"1\/2 Width Profile View","CompactViewNoExtraFields":"Compact View (No extra fields)","CustomizedProfileFields":"Customized Profile Fields","ShowUserIDProfiles":"Show User ID on Profiles","LimitResultsMemberList":"Limit Results on Member List","ShowResultCountMemberList":"Show Result Count on Member List"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.pv-magazine.fr/wp-content/plugins/upme/admin/js/tinymce_language_strings.js?ver=6.6.4" id="upme_tmce-js"></script>
+<script type="application/json" id="wpp-json">
+
+{"sampling_active":0,"sampling_rate":100,"ajax_url":"https:\/\/www.pv-magazine.fr\/wp-json\/wordpress-popular-posts\/v1\/popular-posts","api_url":"https:\/\/www.pv-magazine.fr\/wp-json\/wordpress-popular-posts","ID":97655,"token":"e08c4b5809","lang":0,"debug":0}
+
+</script>
+<script type="text/javascript" src="https://www.pv-magazine.fr/wp-content/plugins/wordpress-popular-posts/assets/js/wpp.min.js?ver=6.3.4" id="wpp-js-js"></script>
+<script type="text/javascript" src="https://www.pv-magazine.fr/wp-content/themes/pvmagazine/_/js/datatables.js?ver=1.13.4" id="datatables-js"></script>
+<script type="text/javascript" defer='defer' src="https://www.pv-magazine.fr/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=2.7.10" id="gform_json-js"></script>
+<script type="text/javascript" id="gform_gravityforms-js-extra">
+/* <![CDATA[ */
+var gf_global = {"gf_currency_config":{"name":"Euro","symbol_left":"","symbol_right":"&#8364;","symbol_padding":" ","thousand_separator":".","decimal_separator":",","decimals":2,"code":"EUR"},"base_url":"https:\/\/www.pv-magazine.fr\/wp-content\/plugins\/gravityforms","number_formats":[],"spinnerUrl":"https:\/\/www.pv-magazine.fr\/wp-content\/plugins\/gravityforms\/images\/spinner.svg","version_hash":"30f055154e8316773617e5aac4996341","strings":{"newRowAdded":"Nouvelle ligne ajout\u00e9e.","rowRemoved":"Rang\u00e9e supprim\u00e9e","formSaved":"Le formulaire a \u00e9t\u00e9 enregistr\u00e9. Le contenu contient le lien pour retourner et terminer le formulaire."}};
+var gform_i18n = {"datepicker":{"days":{"monday":"Lun","tuesday":"Mar","wednesday":"Mer","thursday":"Jeu","friday":"Ven","saturday":"Sam","sunday":"Dim"},"months":{"january":"Janvier","february":"F\u00e9vrier","march":"Mars","april":"Avril","may":"May","june":"Juin","july":"Juillet","august":"Ao\u00fbt","september":"Septembre","october":"Octobre","november":"Novembre","december":"D\u00e9cembre"},"firstDay":1,"iconText":"S\u00e9lectionner une date"}};
+var gf_legacy_multi = {"7":""};
+var gform_gravityforms = {"strings":{"invalid_file_extension":"Ce type de fichier n\u2019est pas autoris\u00e9. Seuls les formats suivants sont autoris\u00e9s\u00a0:","delete_file":"Supprimer ce fichier","in_progress":"en cours","file_exceeds_limit":"Le fichier d\u00e9passe la taille autoris\u00e9e.","illegal_extension":"Ce type de fichier n\u2019est pas autoris\u00e9.","max_reached":"Nombre de fichiers maximal atteint","unknown_error":"Une erreur s\u2019est produite lors de la sauvegarde du fichier sur le serveur","currently_uploading":"Veuillez attendre la fin de l\u2019envoi","cancel":"Annuler","cancel_upload":"Annuler cet envoi","cancelled":"Annul\u00e9"},"vars":{"images_url":"https:\/\/www.pv-magazine.fr\/wp-content\/plugins\/gravityforms\/images"}};
+/* ]]> */
+</script>
+<script type="text/javascript" id="gform_gravityforms-js-before">
+/* <![CDATA[ */
+
+/* ]]> */
+</script>
+<script type="text/javascript" defer='defer' src="https://www.pv-magazine.fr/wp-content/plugins/gravityforms/js/gravityforms.min.js?ver=2.7.10" id="gform_gravityforms-js"></script>
+<script type="text/javascript" defer='defer' src="https://www.pv-magazine.fr/wp-content/plugins/gravityforms/assets/js/dist/utils.min.js?ver=1329f9a0886f2ff3fb51c6f17277eb75" id="gform_gravityforms_utils-js"></script>
+<script type="text/javascript" id="__ytprefs__-js-extra">
+/* <![CDATA[ */
+var _EPYT_ = {"ajaxurl":"https:\/\/www.pv-magazine.fr\/wp-admin\/admin-ajax.php","security":"2b20db63a3","gallery_scrolloffset":"20","eppathtoscripts":"https:\/\/www.pv-magazine.fr\/wp-content\/plugins\/youtube-embed-plus\/scripts\/","eppath":"https:\/\/www.pv-magazine.fr\/wp-content\/plugins\/youtube-embed-plus\/","epresponsiveselector":"[\"iframe.__youtube_prefs_widget__\"]","epdovol":"1","version":"14.1.6.3","evselector":"iframe.__youtube_prefs__[src], iframe[src*=\"youtube.com\/embed\/\"], iframe[src*=\"youtube-nocookie.com\/embed\/\"]","ajax_compat":"","maxres_facade":"eager","ytapi_load":"light","pause_others":"","stopMobileBuffer":"1","facade_mode":"","not_live_on_channel":"","vi_active":"","vi_js_posttypes":[]};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.pv-magazine.fr/wp-content/plugins/youtube-embed-plus/scripts/ytprefs.min.js?ver=14.1.6.3" id="__ytprefs__-js"></script>
+<link rel="https://api.w.org/" href="https://www.pv-magazine.fr/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://www.pv-magazine.fr/wp-json/wp/v2/pages/97655" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.pv-magazine.fr/xmlrpc.php?rsd" />
+<link rel="canonical" href="https://www.pv-magazine.fr/edition-speciale-energaia-2025/" />
+<link rel='shortlink' href='https://www.pv-magazine.fr/?p=97655' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.pv-magazine.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.pv-magazine.fr%2Fedition-speciale-energaia-2025%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.pv-magazine.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.pv-magazine.fr%2Fedition-speciale-energaia-2025%2F&#038;format=xml" />
+<!-- Stream WordPress user activity plugin v3.9.3 -->
+            <style id="wpp-loading-animation-styles">@-webkit-keyframes bgslide{from{background-position-x:0}to{background-position-x:-200%}}@keyframes bgslide{from{background-position-x:0}to{background-position-x:-200%}}.wpp-widget-placeholder,.wpp-widget-block-placeholder,.wpp-shortcode-placeholder{margin:0 auto;width:60px;height:3px;background:#dd3737;background:linear-gradient(90deg,#dd3737 0%,#571313 10%,#dd3737 100%);background-size:200% auto;border-radius:3px;-webkit-animation:bgslide 1s infinite linear;animation:bgslide 1s infinite linear}</style>
+            <script>
+/*! modernizr 3.3.1 (Custom Build) | MIT *
+* https://modernizr.com/download/?-cssscrollbar-setclasses !*/
+!function(e,n,s){function t(e,n){return typeof e===n}function o(){var e,n,s,o,a,i,r;for(var l in d)if(d.hasOwnProperty(l)){if(e=[],n=d[l],n.name&&(e.push(n.name.toLowerCase()),n.options&&n.options.aliases&&n.options.aliases.length))for(s=0;s<n.options.aliases.length;s++)e.push(n.options.aliases[s].toLowerCase());for(o=t(n.fn,"function")?n.fn():n.fn,a=0;a<e.length;a++)i=e[a],r=i.split("."),1===r.length?Modernizr[r[0]]=o:(!Modernizr[r[0]]||Modernizr[r[0]]instanceof Boolean||(Modernizr[r[0]]=new Boolean(Modernizr[r[0]])),Modernizr[r[0]][r[1]]=o),f.push((o?"":"no-")+r.join("-"))}}function a(e){var n=p.className,s=Modernizr._config.classPrefix||"";if(u&&(n=n.baseVal),Modernizr._config.enableJSClass){var t=new RegExp("(^|\\s)"+s+"no-js(\\s|$)");n=n.replace(t,"$1"+s+"js$2")}Modernizr._config.enableClasses&&(n+=" "+s+e.join(" "+s),u?p.className.baseVal=n:p.className=n)}function i(){return"function"!=typeof n.createElement?n.createElement(arguments[0]):u?n.createElementNS.call(n,"http://www.w3.org/2000/svg",arguments[0]):n.createElement.apply(n,arguments)}function r(){var e=n.body;return e||(e=i(u?"svg":"body"),e.fake=!0),e}function l(e,s,t,o){var a,l,f,d,c="modernizr",u=i("div"),h=r();if(parseInt(t,10))for(;t--;)f=i("div"),f.id=o?o[t]:c+(t+1),u.appendChild(f);return a=i("style"),a.type="text/css",a.id="s"+c,(h.fake?h:u).appendChild(a),h.appendChild(u),a.styleSheet?a.styleSheet.cssText=e:a.appendChild(n.createTextNode(e)),u.id=c,h.fake&&(h.style.background="",h.style.overflow="hidden",d=p.style.overflow,p.style.overflow="hidden",p.appendChild(h)),l=s(u,e),h.fake?(h.parentNode.removeChild(h),p.style.overflow=d,p.offsetHeight):u.parentNode.removeChild(u),!!l}var f=[],d=[],c={_version:"3.3.1",_config:{classPrefix:"",enableClasses:!0,enableJSClass:!0,usePrefixes:!0},_q:[],on:function(e,n){var s=this;setTimeout(function(){n(s[e])},0)},addTest:function(e,n,s){d.push({name:e,fn:n,options:s})},addAsyncTest:function(e){d.push({name:null,fn:e})}},Modernizr=function(){};Modernizr.prototype=c,Modernizr=new Modernizr;var p=n.documentElement,u="svg"===p.nodeName.toLowerCase(),h=c._config.usePrefixes?" -webkit- -moz- -o- -ms- ".split(" "):["",""];c._prefixes=h;var m=c.testStyles=l;m("#modernizr{overflow: scroll; width: 40px; height: 40px; }#"+h.join("scrollbar{width:0px} #modernizr::").split("#").slice(1).join("#")+"scrollbar{width:0px}",function(e){Modernizr.addTest("cssscrollbar",40==e.scrollWidth)}),o(),a(f),delete c.addTest,delete c.addAsyncTest;for(var v=0;v<Modernizr._q.length;v++)Modernizr._q[v]();e.Modernizr=Modernizr;}(window,document);
+</script>
+<script>pvAjax = {};pvAjax.ajaxurl = 'https://www.pv-magazine.fr/wp-admin/admin-ajax.php';pvAjax.adNonce = 'c35dbb7ef0';pvAjax.eventNonce = '6d339e5f83';</script>        <script>
+            console.log("I'm an inline script tag added to the header.");
+        </script>
+    <!-- Desktop Browsers --><link rel="shortcut icon" type="image/x-icon" href="https://www.pv-magazine.fr/wp-content/themes/pvmagazine-france/_/appicons/favicon.ico" /><!-- Android: Chrome M39 and up--><!-- Android: Chrome M31 and up, ignored if manifest is present--><meta name="mobile-web-app-capable" content="yes"><!-- iOS --><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="pv magazine France"><link rel="apple-touch-icon" sizes="180x180" href="https://www.pv-magazine.fr/wp-content/themes/pvmagazine-france/_/appicons/apple-touch-icon-180x180-precomposed.png"><link href="https://www.pv-magazine.fr/wp-content/themes/pvmagazine-france/_/appicons/apple-touch-icon-152x152-precomposed.png" sizes="152x152" rel="apple-touch-icon"><link href="https://www.pv-magazine.fr/wp-content/themes/pvmagazine-france/_/appicons/apple-touch-icon-144x144-precomposed.png" sizes="144x144" rel="apple-touch-icon"><link href="https://www.pv-magazine.fr/wp-content/themes/pvmagazine-france/_/appicons/apple-touch-icon-120x120-precomposed.png" sizes="120x120" rel="apple-touch-icon"><link href="https://www.pv-magazine.fr/wp-content/themes/pvmagazine-france/_/appicons/apple-touch-icon-114x114-precomposed.png" sizes="114x114" rel="apple-touch-icon"><link href="https://www.pv-magazine.fr/wp-content/themes/pvmagazine-france/_/appicons/apple-touch-icon-76x76-precomposed.png" sizes="76x76" rel="apple-touch-icon"><link href="https://www.pv-magazine.fr/wp-content/themes/pvmagazine-france/_/appicons/apple-touch-icon-72x72-precomposed.png" sizes="72x72" rel="apple-touch-icon"><link href="https://www.pv-magazine.fr/wp-content/themes/pvmagazine-france/_/appicons/apple-touch-icon-60x60-precomposed.png" sizes="60x60" rel="apple-touch-icon"><link href="https://www.pv-magazine.fr/wp-content/themes/pvmagazine-france/_/appicons/apple-touch-icon-57x57-precomposed.png" sizes="57x57" rel="apple-touch-icon"><link href="https://www.pv-magazine.fr/wp-content/themes/pvmagazine-france/_/appicons/apple-touch-icon-precomposed.png" rel="apple-touch-icon"><!-- Windows 8 and IE 11 --><meta name="msapplication-config" content="https://www.pv-magazine.fr/wp-content/themes/pvmagazine-france/_/appicons/browserconfig.xml" /><!-- Windows --><meta name="application-name" content="pv magazine France" /><meta name="msapplication-tooltip" content="Photovoltaic Markets and Technology" /><meta name="msapplication-window" content="width=1024;height=768" /><meta name="msapplication-navbutton-color" content="#98d2cf" /><meta name="msapplication-starturl" content="./" /><meta property="og:title" content="Édition Spéciale Energaia 2025" />
+<meta property="og:type" content="article" />
+<meta property="og:image" content="https://www.pv-magazine.fr/wp-content/themes/pvmagazine/_/img/pv-magazine-logo.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:url" content="https://www.pv-magazine.fr/edition-speciale-energaia-2025/" />
+<meta property="og:site_name" content="pv magazine France" />
+<meta property="og:description" content="A l’occasion du salon Energaïa 2025 à Montpellier, pv magazine France publie son troisième Hors-série pour explorer en profondeur les dernières tendances du secteur du photovoltaïque en France et dans le monde. Thème du dossier : L’agrivoltaïsme à l’épreuve du temps Preview C’est un fait : l’agrivoltaïsme divise. Plutôt que de balayer les critiques et d’adopter une &lt;a href=&quot;https://www.pv-magazine.fr/edition-speciale-energaia-2025/&quot; class=&quot;more-link&quot;&gt;[&hellip;]&lt;/a&gt;" />
+<meta name="description" content="A l’occasion du salon Energaïa 2025 à Montpellier, pv magazine France publie son troisième Hors-série pour explorer en profondeur les dernières tendances du secteur du photovoltaïque en France et dans le monde. Thème du dossier : L’agrivoltaïsme à l’épreuve du temps Preview C’est un fait : l’agrivoltaïsme divise. Plutôt que de balayer les critiques et d’adopter une &lt;a href=&quot;https://www.pv-magazine.fr/edition-speciale-energaia-2025/&quot; class=&quot;more-link&quot;&gt;[&hellip;]&lt;/a&gt;"><meta name="author" content="pv magazine" /><meta property="article:publisher" content="https://www.facebook.com/pvmagazine/"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Édition Spéciale Energaia 2025"><meta name="twitter:description" content="A l’occasion du salon Energaïa 2025 à Montpellier, pv magazine France publie son troisième Hors-série pour explorer en profondeur les dernières tendances du secteur du photovoltaïque en France et dans le monde. Thème du dossier : L’agrivoltaïsme à l’épreuve du temps Preview C’est un fait : l’agrivoltaïsme divise. Plutôt que de balayer les critiques et d’adopter une &lt;a href=&quot;https://www.pv-magazine.fr/edition-speciale-energaia-2025/&quot; class=&quot;more-link&quot;&gt;[&hellip;]&lt;/a&gt;"><meta name="twitter:image" content="https://www.pv-magazine.fr/wp-content/themes/pvmagazine/_/img/pv-magazine-logo-twitter.png"><style>
+	span.oe_textdirection { unicode-bidi: bidi-override; direction: rtl; }
+	span.oe_displaynone { display: none; }
+</style>
+ 
+        
+
+    </head>
+    <body class="wordpress ltr fr fr-fr child-theme multisite blog-12 y2026 m01 d29 h01 thursday logged-out singular singular-page singular-page-97655 page-template-default" dir="ltr" itemscope="itemscope" itemtype="http://schema.org/WebPage">
+        <div id="outer-wrap" class="pvmagazine-france">
+            <div id="inner-wrap" class="clearfix">
+                <div class="">
+                    <a href="#content" class="screen-reader-text">Skip to content</a>
+                </div><!-- .skip-nav -->
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        <div class="container container-main">
+            <div class="ad ad-leaderboard ad-leaderboard-google ad-leaderboard-google-top-1">
+	<div id="leaderboard_top_1">
+	</div> 
+</div>
+
+                        
+        </div>
+        <!--  navbar -->
+        <div class="container container-main">
+            <div class="ad ad-sky ad-sky-left">
+	<div id="sky_left_1">
+	</div>
+</div>
+<div class="ad ad-sky ad-sky-left ad-sky-left-additional">
+	<div id="sky_left_2">
+	</div>
+</div>
+<div class="ad ad-sky ad-sky-left ad-sky-left-additional-2">
+	<div id="sky_left_3">
+	</div>
+</div>
+<div class="ad ad-sky ad-sky-right">
+	<div id="sky_right_1">
+	</div>
+</div>
+<div class="ad ad-sky ad-sky-right ad-sky-right-additional">
+	<div id="sky_right_2">
+	</div>
+</div>
+<div class="ad ad-sky ad-sky-right ad-sky-right-additional-2">
+	<div id="sky_right_3">
+	</div>
+</div>
+            <div class="edition-select-desktop hidden-md-down">
+                <nav class="edition-select-top">
+    <div class="container">
+        <ul>
+            <li><a class="ess" target="_blank" href="https://www.ess-news.com/"><span>ESS News</span></a></li>
+            <li><a class="global" target="_blank" href="https://www.pv-magazine.com/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>Global</span></a></li>
+            <li><a class="germany" target="_blank" href="https://www.pv-magazine.de/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>Allemagne</span></a></li>
+            <li><a class="spain" target="_blank" href="https://www.pv-magazine.es/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>Espagne</span></a></li>
+            <li><a class="france" target="_blank" href="https://www.pv-magazine.fr/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>France</span></a></li>
+            <li><a class="italy" target="_blank" href="https://www.pv-magazine.it/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>Italie</span></a></li>
+            <li><a class="usa" target="_blank" href="https://pv-magazine-usa.com/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>Etats-Unis</span></a></li>
+            <li><a class="mexico" target="_blank" href="https://www.pv-magazine-mexico.com/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>Mexique</span></a></li>
+            <li><a class="latam" target="_blank" href="https://www.pv-magazine-latam.com/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>Amérique latine</span></a></li>
+            <li><a class="brazil" target="_blank" href="https://www.pv-magazine-brasil.com/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>Brésil</span></a></li>
+            <li><a class="australia" target="_blank" href="https://www.pv-magazine-australia.com/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>Australie</span></a></li>
+            <li><a class="india" target="_blank" href="https://www.pv-magazine-india.com/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>Inde</span></a></li>
+            <li><a class="china" target="_blank" href="https://www.pv-magazine-china.com/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>Chine</span></a></li>
+        </ul>
+    </div>
+
+</nav>            </div>
+            
+            <nav class="navbar navbar-dark navbar-general">
+                <div class="container">
+                    <button class="navbar-toggler hidden-md-up pull-xs-left" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">
+                        &#9776;
+                    </button>
+
+                    <a class="navbar-brand" href="https://www.pv-magazine.fr" title="pv magazine - Marchés et Technologies Photovoltaïques">
+		<img class="main-logo" src="https://www.pv-magazine.fr/wp-content/themes/pvmagazine-france/_/img/logo.png" alt="pv magazine - Marchés et Technologies Photovoltaïques" title="pv magazine - Marchés et Technologies Photovoltaïques">
+</a>
+                    <div class="pull-xs-right">
+                        
+                        <div class="navbar-social pull-xs-left hidden-md-down">
+    <a href="https://twitter.com/pvmagfrance" target="_blank" class="twitter-link"><i class="icon icon-twitter"></i></a>
+    <a href="https://www.facebook.com/pvmagazinefrance/" target="_blank" class="facebook-link"><i class="icon icon-facebook"></i></a>
+    <a href="https://www.linkedin.com/company/pv-magazine-france" target="_blank" class="linkedin-link"><i class="icon icon-linkedin"></i></a>
+</div>                        
+                        <a href="https://shop.pv-magazine.com/en/" class="btn btn-secondary btn-sm hidden-xs-down ">Abonnements</a>
+                        
+                                                    <a href="https://shop.pv-magazine.com/en//profile/" class="login btn btn-nav  "><i class="material-icons">&#xE7FD;</i></a>
+                        
+                                                <div id="search-toggle" class="search btn btn-nav hidden-sm-down">
+                            <div class="navbar-search">
+                                <div class="search">
+
+	<form method="get" class="search-form" action="https://www.pv-magazine.fr/">
+	<div>
+		<input class="search-text" type="text" name="s" value="" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;" />
+		<input class="search-submit button" type="submit" value="Recherche" />
+	</div>
+	</form><!-- .search-form -->
+
+</div><!-- .search -->                            </div>
+                            <i class="material-icons">&#xE8B6;</i>
+
+                        </div>
+                        
+                        <!--<div class="dropdown select-edition hidden-sm-down">
+    <a class="btn btn-nav dropdown-toggle" id="select-edition" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Version Française
+    </a>
+    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="select-edition">
+        <a target="_blank" href="https://www.pv-magazine.com/" class="dropdown-item">Version Globale</a>
+        <a target="_blank" href="https://www.pv-magazine.de/" class="dropdown-item">Version Allemande</a>
+        <a target="_blank" href="https://www.pv-magazine-usa.com/" class="dropdown-item">Version Américaine</a>
+        <a target="_blank" href="https://www.pv-magazine-latam.com/" class="dropdown-item">Version d'Amérique latine</a>
+        <a target="_blank" href="https://www.pv-magazine-brasil.com/" class="dropdown-item">Version Brésilienne</a>
+        <a target="_blank" href="https://www.pv-magazine.es/" class="dropdown-item">Version Espagnole</a>
+        <a target="_blank" href="https://www.pv-magazine-china.com/" class="dropdown-item">Version Chinoise</a>
+        <a target="_blank" href="https://www.pv-magazine-india.com/" class="dropdown-item">Version Indienne</a>
+        <a target="_blank" href="https://www.pv-magazine-australia.com/" class="dropdown-item">Version Australienne</a>
+        <a target="_blank" href="https://www.pv-magazine-mexico.com/" class="dropdown-item">Version Mexicaine</a>
+    </div>
+</div>-->
+                        
+                    </div>  
+                </div>
+            </nav>
+            <div class="edition-select-tablet hidden-sm-down hidden-lg-up">
+                <nav class="edition-select-top">
+    <div class="container">
+        <ul>
+            <li><a class="ess" target="_blank" href="https://www.ess-news.com/"><span>ESS News</span></a></li>
+            <li><a class="global" target="_blank" href="https://www.pv-magazine.com/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>Global</span></a></li>
+            <li><a class="germany" target="_blank" href="https://www.pv-magazine.de/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>Allemagne</span></a></li>
+            <li><a class="spain" target="_blank" href="https://www.pv-magazine.es/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>Espagne</span></a></li>
+            <li><a class="france" target="_blank" href="https://www.pv-magazine.fr/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>France</span></a></li>
+            <li><a class="italy" target="_blank" href="https://www.pv-magazine.it/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>Italie</span></a></li>
+            <li><a class="usa" target="_blank" href="https://pv-magazine-usa.com/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>Etats-Unis</span></a></li>
+            <li><a class="mexico" target="_blank" href="https://www.pv-magazine-mexico.com/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>Mexique</span></a></li>
+            <li><a class="latam" target="_blank" href="https://www.pv-magazine-latam.com/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>Amérique latine</span></a></li>
+            <li><a class="brazil" target="_blank" href="https://www.pv-magazine-brasil.com/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>Brésil</span></a></li>
+            <li><a class="australia" target="_blank" href="https://www.pv-magazine-australia.com/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>Australie</span></a></li>
+            <li><a class="india" target="_blank" href="https://www.pv-magazine-india.com/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>Inde</span></a></li>
+            <li><a class="china" target="_blank" href="https://www.pv-magazine-china.com/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>Chine</span></a></li>
+        </ul>
+    </div>
+
+</nav>            </div>
+
+            <nav class="navbar navbar-dark navbar-main-menu collapse navbar-toggleable-sm" id="exCollapsingNavbar2">
+                <div class="container">
+                    <div class="nav-wrap clearfix" >
+                        <div class="hidden-md-up navbar-mobile-search">
+                            <div class="search">
+
+	<form method="get" class="search-form" action="https://www.pv-magazine.fr/">
+	<div>
+		<input class="search-text" type="text" name="s" value="" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;" />
+		<input class="search-submit button" type="submit" value="Recherche" />
+	</div>
+	</form><!-- .search-form -->
+
+</div><!-- .search -->                            <i class="material-icons" id="mobile-search-submit">&#xE8B6;</i>
+                        </div>
+                        <div class="edition-select-mobile hidden-md-up">
+                            <nav class="edition-select-top">
+    <div class="container">
+        <ul>
+            <li><a class="ess" target="_blank" href="https://www.ess-news.com/"><span>ESS News</span></a></li>
+            <li><a class="global" target="_blank" href="https://www.pv-magazine.com/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>Global</span></a></li>
+            <li><a class="germany" target="_blank" href="https://www.pv-magazine.de/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>Allemagne</span></a></li>
+            <li><a class="spain" target="_blank" href="https://www.pv-magazine.es/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>Espagne</span></a></li>
+            <li><a class="france" target="_blank" href="https://www.pv-magazine.fr/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>France</span></a></li>
+            <li><a class="italy" target="_blank" href="https://www.pv-magazine.it/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>Italie</span></a></li>
+            <li><a class="usa" target="_blank" href="https://pv-magazine-usa.com/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>Etats-Unis</span></a></li>
+            <li><a class="mexico" target="_blank" href="https://www.pv-magazine-mexico.com/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>Mexique</span></a></li>
+            <li><a class="latam" target="_blank" href="https://www.pv-magazine-latam.com/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>Amérique latine</span></a></li>
+            <li><a class="brazil" target="_blank" href="https://www.pv-magazine-brasil.com/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>Brésil</span></a></li>
+            <li><a class="australia" target="_blank" href="https://www.pv-magazine-australia.com/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>Australie</span></a></li>
+            <li><a class="india" target="_blank" href="https://www.pv-magazine-india.com/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>Inde</span></a></li>
+            <li><a class="china" target="_blank" href="https://www.pv-magazine-china.com/?utm_source=crossdomain&utm_medium=referral&utm_campaign=tabs"><span>Chine</span></a></li>
+        </ul>
+    </div>
+
+</nav>                        </div>
+                        
+		<ul id="menu-primary-items" class="nav navbar-nav"><li id="menu-item-1508" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-1508"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Actualités</a>
+<ul class="dropdown-menu">
+	<li id="menu-item-1509" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1509 dropdown-item"><a href="https://www.pv-magazine.fr/actualites/">Toutes les actualités</a></li>
+	<li id="menu-item-46097" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-46097 dropdown-item"><a href="https://www.pv-magazine.fr/category/developpement-durable/">Développement durable</a></li>
+	<li id="menu-item-50809" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-50809 dropdown-item"><a href="https://www.pv-magazine.fr/category/indice-de-prix/">Indice de prix</a></li>
+	<li id="menu-item-51226" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-51226 dropdown-item dropdown-submenu"><a href="https://www.pv-magazine.fr/installations" class="dropdown-toggle" data-toggle="dropdown">Installations</a>
+	<ul class="dropdown-menu">
+		<li id="menu-item-1527" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1527 dropdown-item"><a href="https://www.pv-magazine.fr/category/installations/pv-a-echelle-industrielle/">PV à grande échelle</a></li>
+		<li id="menu-item-1525" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1525 dropdown-item"><a href="https://www.pv-magazine.fr/category/installations/pv-commercial-et-industriel/">PV commercial &#038; industriel</a></li>
+		<li id="menu-item-1526" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1526 dropdown-item"><a href="https://www.pv-magazine.fr/category/installations/pv-residentiel/">PV résidentiel</a></li>
+		<li id="menu-item-1534" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1534 dropdown-item"><a href="https://www.pv-magazine.fr/category/technology/grids-integration/">Réseaux &#038; intégration</a></li>
+	</ul>
+</li>
+	<li id="menu-item-57923" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-57923 dropdown-item"><a href="https://www.pv-magazine.fr/category/hydrogen/">Hydrogène</a></li>
+	<li id="menu-item-51225" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-51225 dropdown-item dropdown-submenu"><a href="https://www.pv-magazine.fr/marchés-stratégies" class="dropdown-toggle" data-toggle="dropdown">Marchés et stratégies</a>
+	<ul class="dropdown-menu">
+		<li id="menu-item-1531" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1531 dropdown-item"><a href="https://www.pv-magazine.fr/category/marches-et-strategies/finance/">Finance</a></li>
+		<li id="menu-item-1532" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1532 dropdown-item"><a href="https://www.pv-magazine.fr/category/marches-et-strategies/marches/">Marchés</a></li>
+		<li id="menu-item-1533" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1533 dropdown-item"><a href="https://www.pv-magazine.fr/category/marches-et-strategies/strategies/">Politique</a></li>
+	</ul>
+</li>
+	<li id="menu-item-51227" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-51227 dropdown-item dropdown-submenu"><a href="https://www.pv-magazine.fr/production" class="dropdown-toggle" data-toggle="dropdown">Production</a>
+	<ul class="dropdown-menu">
+		<li id="menu-item-1528" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1528 dropdown-item"><a href="https://www.pv-magazine.fr/category/production/equilibrage-de-systemes/">Balance du système (BOS)</a></li>
+		<li id="menu-item-1529" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1529 dropdown-item"><a href="https://www.pv-magazine.fr/category/production/modules-et-production-en-amont/">Modules &#038; production en amont</a></li>
+	</ul>
+</li>
+	<li id="menu-item-51785" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-51785 dropdown-item"><a href="https://www.pv-magazine.fr/category/start-up/">Start-up</a></li>
+	<li id="menu-item-1535" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1535 dropdown-item"><a href="https://www.pv-magazine.fr/category/technology/technology-and-r-d/">Technologie et R&amp;D</a></li>
+</ul>
+</li>
+<li id="menu-item-51083" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-51083"><a href="https://www.pv-magazine.fr/category/opinion/">Opinion et analyse</a></li>
+<li id="menu-item-58060" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-58060"><a href="https://www.pv-magazine.fr/articles-de-fond" class="dropdown-toggle" data-toggle="dropdown">Articles de fond</a>
+<ul class="dropdown-menu">
+	<li id="menu-item-58061" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-58061 dropdown-item"><a href="https://www.pv-magazine.com/features/pv-magazine-up-initiative/">pv magazine UP Initiative</a></li>
+	<li id="menu-item-58059" class="menu-item menu-item-type-post_type menu-item-object-features menu-item-58059 dropdown-item"><a href="https://www.pv-magazine.fr/articles-de-fond/pv-magazine-hub-hydrogene/">pv magazine Hub hydrogène</a></li>
+</ul>
+</li>
+<li id="menu-item-51207" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-51207"><a href="https://www.pv-magazine.com/event-series/events-2020/" class="dropdown-toggle" data-toggle="dropdown">Evénements</a>
+<ul class="dropdown-menu">
+	<li id="menu-item-84867" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-84867 dropdown-item"><a href="https://www.pv-magazine.com/event-series/pv-mag-events/">pv magazine Events</a></li>
+	<li id="menu-item-50293" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-50293 dropdown-item"><a href="https://www.pv-magazine.com/pv-magazine-events/pv-magazine-week-europe-2025/">pv magazine Week Europe</a></li>
+	<li id="menu-item-51208" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-51208 dropdown-item"><a href="https://www.pv-magazine.com/webinars/">pv magazine Webinars</a></li>
+</ul>
+</li>
+<li id="menu-item-1520" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-1520"><a href="#" class="dropdown-toggle" data-toggle="dropdown">À propos</a>
+<ul class="dropdown-menu">
+	<li id="menu-item-1511" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1511 dropdown-item"><a href="https://www.pv-magazine.fr/about-us/">À propos de nous</a></li>
+	<li id="menu-item-1510" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1510 dropdown-item"><a href="https://www.pv-magazine.fr/the-team/">L’équipe</a></li>
+	<li id="menu-item-1514" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1514 dropdown-item"><a href="https://www.pv-magazine.fr/contact-us/">Contact</a></li>
+	<li id="menu-item-1513" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1513 dropdown-item"><a href="https://www.pv-magazine.fr/newsletter/">Newsletter abonnement</a></li>
+	<li id="menu-item-1521" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1521 dropdown-item"><a href="http://shop.pv-magazine.com/">Abonnement à notre magazine</a></li>
+	<li id="menu-item-42514" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-42514 dropdown-item"><a href="https://www.pv-magazine.com/community-standards/">Normes communautaires</a></li>
+</ul>
+</li>
+<li id="menu-item-89583" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-89583"><a href="https://www.pv-magazine.fr/edition-speciale/">Magazine</a></li>
+<li id="menu-item-1512" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1512"><a href="https://www.pv-magazine.fr/advertise/">Publicité</a></li>
+</ul>
+                        
+                        
+                    </div><!--/.nav-collapse -->
+                </div>
+            </nav>
+                        <div class="container">
+                <div class="row">
+                    <div class="ad ad-leaderboard ad-leaderboard-google">
+	<div id="leaderboard_top_2">
+	</div> 
+</div>
+
+                                    </div>
+            </div>
+      
+
+       
+
+        <div class="singular-wrap singular-wrap-one-column">
+
+            <div class="">
+            
+               
+                    <div class="singular-inner">
+
+                    
+                        
+                            <div id="content" class="content" role="main" itemprop="mainContentOfPage">
+
+                                <h1 class="entry-title" itemprop="headline">Édition Spéciale Energaia 2025</h1>
+
+                                <div class="entry-content">
+                                                                        <div class="elementToProof">
+<p>A l’occasion du salon <strong>Energaïa 2025 à Montpellier</strong>, <strong>pv magazine France</strong> publie son troisième Hors-série pour explorer en profondeur les dernières tendances du secteur du photovoltaïque en France et dans le monde.</p>
+<p><img fetchpriority="high" decoding="async" class="alignleft wp-image-97657" src="https://www.pv-magazine.fr/wp-content/uploads/sites/12/2025/11/Special-Edition-Energaia-2025_Cover-566x800.png" alt="Special Edition Energaia 2025 Cover" width="256" height="362" srcset="https://www.pv-magazine.fr/wp-content/uploads/sites/12/2025/11/Special-Edition-Energaia-2025_Cover-566x800.png 566w, https://www.pv-magazine.fr/wp-content/uploads/sites/12/2025/11/Special-Edition-Energaia-2025_Cover-849x1200.png 849w, https://www.pv-magazine.fr/wp-content/uploads/sites/12/2025/11/Special-Edition-Energaia-2025_Cover-768x1086.png 768w, https://www.pv-magazine.fr/wp-content/uploads/sites/12/2025/11/Special-Edition-Energaia-2025_Cover.png 1000w" sizes="(max-width: 256px) 100vw, 256px" /></p>
+<p><strong>Thème du dossier : L’agrivoltaïsme à l’épreuve du temps</strong></p>
+<p><a href="https://www.flipsnack.com/pvmagazinegroup/pv-magazine-france-special-edition-energaia-2025_preview" target="_blank" rel="noopener">Preview</a></p>
+<p>C’est un fait : <strong>l’agrivoltaïsme divise</strong>. Plutôt que de balayer les critiques et d’adopter une position dogmatique, l’équipe de journalistes de pv magazine France a voulu se poser les bonnes questions – <strong>même celles qui fâchent</strong>. Car il est primordial, pour les acteurs du photovoltaïque, de bien poser les bases de ce modèle, pour le pérenniser.</p>
+<ul>
+<li>Quels sont les <strong>arguments</strong> des agriculteurs opposés à l’agrivoltaïsme ?</li>
+<li>Comment faire <strong>cohabiter équilibre économique et réalités biologiques</strong>?</li>
+<li>Passage en revue d’initiatives innovantes de <strong>partage de la valeur</strong>, qui ne déstabilisent pas le marché foncier.</li>
+<li>Un projet trop loin d’un poste de raccordement ? Ces développeurs agrivoltaïques qui passent à <strong>l’autoconsommation collective</strong>.</li>
+</ul>
+<p><strong>Et aussi : </strong></p>
+<ul>
+<li>Les <strong>installateurs</strong> tentent de garder le cap, entre la baisse des aides publiques et les nouvelles conditions dans le petit résidentiel</li>
+<li>Chez Ecosun Innovations, le <strong>secteur militaire</strong>, nouvelle branche d’activité dynamique</li>
+<li><strong>Municipales 2026</strong> : le rôle central des maires dans la planification des EnR</li>
+<li>Qualité des modules PV : attention aux verres plus fins, plus grands et à <strong>l’augmentation des cas de casse spontanée</strong></li>
+</ul>
+</div>
+
+                <div class='gf_browser_chrome gform_wrapper gravity-theme gform-theme--no-framework' data-form-theme='gravity-theme' data-form-index='0' id='gform_wrapper_7' >
+                        <div class='gform_heading'>
+                            <h2 class="gform_title">Téléchargez l'Édition Spéciale d'Energaia 2025</h2>
+                            <p class='gform_description'></p>
+                        </div><form method='post' enctype='multipart/form-data'  id='gform_7'  action='/edition-speciale-energaia-2025/' data-formid='7' >
+                        <div class='gform-body gform_body'><div id='gform_fields_7' class='gform_fields top_label form_sublabel_above description_below'><fieldset id="field_7_1"  class="gfield gfield--type-name gfield_contains_required field_sublabel_above gfield--no-description field_description_below gfield_visibility_visible"  data-js-reload="field_7_1"><legend class='gfield_label gform-field-label gfield_label_before_complex'  >Nom<span class="gfield_required"><span class="gfield_required gfield_required_text">(Nécessaire)</span></span></legend><div class='ginput_complex ginput_container ginput_container--name no_prefix has_first_name no_middle_name has_last_name no_suffix gf_name_has_2 ginput_container_name gform-grid-row' id='input_7_1'>
+                            
+                            <span id='input_7_1_3_container' class='name_first gform-grid-col gform-grid-col--size-auto' >
+                                                    <label for='input_7_1_3' class='gform-field-label gform-field-label--type-sub '>Prénom</label>
+                                                    <input type='text' name='input_1.3' id='input_7_1_3' value=''   aria-required='true'    autocomplete="given-name" />
+                                                </span>
+                            
+                            <span id='input_7_1_6_container' class='name_last gform-grid-col gform-grid-col--size-auto' >
+                                                            <label for='input_7_1_6' class='gform-field-label gform-field-label--type-sub '>Nom</label>
+                                                            <input type='text' name='input_1.6' id='input_7_1_6' value=''   aria-required='true'    autocomplete="family-name" />
+                                                        </span>
+                            
+                        </div></fieldset><div id="field_7_16"  class="gfield gfield--type-email gfield--width-full gfield_contains_required field_sublabel_above gfield--no-description field_description_below gfield_visibility_visible"  data-js-reload="field_7_16"><label class='gfield_label gform-field-label' for='input_7_16' >E-Mail<span class="gfield_required"><span class="gfield_required gfield_required_text">(Nécessaire)</span></span></label><div class='ginput_container ginput_container_email'>
+                            <input name='input_16' id='input_7_16' type='text' value='' class='large'    aria-required="true" aria-invalid="false"  />
+                        </div></div><div id="field_7_18"  class="gfield gfield--type-text gfield--width-full gfield_contains_required field_sublabel_above gfield--no-description field_description_below gfield_visibility_visible"  data-js-reload="field_7_18"><label class='gfield_label gform-field-label' for='input_7_18' >Nom de l&#039;entreprise<span class="gfield_required"><span class="gfield_required gfield_required_text">(Nécessaire)</span></span></label><div class='ginput_container ginput_container_text'><input name='input_18' id='input_7_18' type='text' value='' class='large'     aria-required="true" aria-invalid="false"   /> </div></div><div id="field_7_19"  class="gfield gfield--type-select gfield--width-full gfield_contains_required field_sublabel_above gfield--no-description field_description_below gfield_visibility_visible"  data-js-reload="field_7_19"><label class='gfield_label gform-field-label' for='input_7_19' >Secteur<span class="gfield_required"><span class="gfield_required gfield_required_text">(Nécessaire)</span></span></label><div class='ginput_container ginput_container_select'><select name='input_19' id='input_7_19' class='large gfield_select'    aria-required="true" aria-invalid="false" ><option value='Choose Sector' >Choose Sector</option><option value='Asset manager/operator' >Asset manager/operator</option><option value='Consultant/inspector/analyst' >Consultant/inspector/analyst</option><option value='Consumer' >Consumer</option><option value='Energy supplier/utility/IPP' >Energy supplier/utility/IPP</option><option value='EPC (engineering, procurement and construction services provider)' >EPC (engineering, procurement and construction services provider)</option><option value='Finance/insurance' >Finance/insurance</option><option value='Grid operator' >Grid operator</option><option value='Installer' >Installer</option><option value='Investor' >Investor</option><option value='Manufacturer/supply chain member' >Manufacturer/supply chain member</option><option value='Marketing/Media' >Marketing/Media</option><option value='Non-Profit/NGO' >Non-Profit/NGO</option><option value='Operations &amp; maintenance (O&amp;M) provider' >Operations &amp; maintenance (O&amp;M) provider</option><option value='Politics/government' >Politics/government</option><option value='Project developer' >Project developer</option><option value='Real estate/construction design' >Real estate/construction design</option><option value='Student/in training' >Student/in training</option><option value='University/research institute' >University/research institute</option><option value='Wholesaler' >Wholesaler</option><option value='Other' >Other</option></select></div></div><div id="field_7_20"  class="gfield gfield--type-text gfield--width-full gfield_contains_required field_sublabel_above gfield--no-description field_description_below gfield_visibility_visible"  data-js-reload="field_7_20"><label class='gfield_label gform-field-label' for='input_7_20' >Pays<span class="gfield_required"><span class="gfield_required gfield_required_text">(Nécessaire)</span></span></label><div class='ginput_container ginput_container_text'><input name='input_20' id='input_7_20' type='text' value='' class='large'     aria-required="true" aria-invalid="false"   /> </div></div><fieldset id="field_7_21"  class="gfield gfield--type-consent gfield--type-choice gfield--input-type-consent gfield--width-full gfield_contains_required field_sublabel_above gfield--has-description field_description_below gfield_visibility_visible"  data-js-reload="field_7_21"><legend class='gfield_label gform-field-label gfield_label_before_complex'  >Consentement<span class="gfield_required"><span class="gfield_required gfield_required_text">(Nécessaire)</span></span></legend><div class='ginput_container ginput_container_consent'><input name='input_21.1' id='input_7_21_1' type='checkbox' value='1'  aria-describedby="gfield_consent_description_7_21" aria-required="true" aria-invalid="false"   /> <label class="gform-field-label gform-field-label--type-inline gfield_consent_label" for='input_7_21_1' >Je consens à m'abonner à la newsletter et confirme avoir pris connaissance de la politique de confidentialité ci-dessous.</label><input type='hidden' name='input_21.2' value='Je consens à m&#039;abonner à la newsletter et confirme avoir pris connaissance de la politique de confidentialité ci-dessous.' class='gform_hidden' /><input type='hidden' name='input_21.3' value='5' class='gform_hidden' /></div><div class='gfield_description gfield_consent_description' id='gfield_consent_description_7_21'>Avec cette inscription, nous vous enverrons notre dernière édition spéciale. En contrepartie de cette édition spéciale gratuite, vous recevrez également une newsletter régulière sur les actualités de notre secteur, ainsi que des événements et webinaires organisés par pv magazine. Le téléchargement n’est pas possible sans inscription à la newsletter. Vous pouvez bien sûr vous désabonner de la newsletter à tout moment. Plus d’informations sur le traitement et le stockage des données sont disponibles dans notre politique de confidentialité, accessible via le lien ci-dessous. Vous pouvez retirer votre consentement à l'envoi de la newsletter à tout moment et vous désabonner en contactant &#x73;&#x75;&#x70;&#x70;&#x6f;&#x72;&#x74;&#x40;&#x70;&#x76;&#x2d;&#x6d;&#x61;&#x67;&#x61;&#x7a;&#x69;&#x6e;&#x65;&#x2e;&#x64;&#x65;. De plus, vous pouvez déclarer votre retrait en cliquant sur le lien fourni dans chaque e-mail de la newsletter. <br />
+<br />
+Vous confirmez également avoir pris connaissance de la politique de confidentialité et acceptez le stockage et le traitement de mes données personnelles par pv magazine group et pv trade media LLC.</div></fieldset></div></div>
+        <div class='gform_footer top_label'> <input type='submit' id='gform_submit_button_7' class='gform_button button' value='Télécharger maintenant'  onclick='if(window["gf_submitting_7"]){return false;}  window["gf_submitting_7"]=true;  ' onkeypress='if( event.keyCode == 13 ){ if(window["gf_submitting_7"]){return false;} window["gf_submitting_7"]=true;  jQuery("#gform_7").trigger("submit",[true]); }' /> 
+            <input type='hidden' class='gform_hidden' name='is_submit_7' value='1' />
+            <input type='hidden' class='gform_hidden' name='gform_submit' value='7' />
+            
+            <input type='hidden' class='gform_hidden' name='gform_unique_id' value='' />
+            <input type='hidden' class='gform_hidden' name='state_7' value='WyJ7XCIxOVwiOltcIjZkYzEwMjg2Zjg4NWNjZDZiMWFjOTc1MjY3M2M2MDliXCIsXCJjN2NmMDEwMGQ3NzkzZTA5ZmJmZDI0NTUxNWE2NTVhNVwiLFwiYWE5NTcwOGUzNTUwMWE1YTMyOTE1OTNhMjQ4OGM1OWVcIixcIjMyZDFmZjViMDY4Y2YyZGMyYWM5ZmM5ZGVhNDdmYmU4XCIsXCJlYzQ1MDVjY2NkNTkzMTgzOGE1N2NjMWRmODc0N2VkOVwiLFwiZmU3Y2ZjYjZiODQ2YjE5MmJiNmVkMTBiNjY5NzkzODBcIixcIjhlMDkyY2U0MTkxNjUzNDY4ZWZmMzY2Yjg3YjdhYTliXCIsXCJlNGQ1NjY0MWY4NjliZWY5NjIxYWU0ZDE2ZTgxNjEyMVwiLFwiZGFkZjYwNGNlMmIyZDI5ZDViM2I2MGU2MDA5YTcyZDFcIixcIjE1MmU5NmY2N2VjMTAzYTM0Zjc2NjcyMjQ0ZTBmZTVjXCIsXCJkNmI5YTcxZGU0MDViOTY4ZTNlNTYzMmY3OTgxMDFkNlwiLFwiNmZjZDFiOTFjYzliYTZjYzg4OGQ4ZWFjODdhOTJjMDBcIixcImM1MWYwZWYxNGM0MzdkOGU1NzIyNjlmNmE5OWEzOWRhXCIsXCIxNGYzNGYzZDgzMDEzOTlhYWRmMTVkYjBiNzRmYTA2ZFwiLFwiYWFmZDFmMDg3NWNhYzgxZTc5NTgwYTU5ODYwOTMzYzVcIixcIjIxNTE5ZTVkMTgxNTQwNDUwZTZhN2VlOWQ2MjYzYzA4XCIsXCI2Mzc1N2M1M2U0MzRiNWJlOTkwODA4MzI0ZmY3MDU2NlwiLFwiNWNjOTY0Yzk2ODQwN2ZlNGJlZTliM2U1MDdmMTdiZjBcIixcImY3NGU0MWQzNjMwZDUyYjZmYjI1MmRjZjJjZDM5YjQ0XCIsXCIwMjU4ZjJlYWJjOTcwZDE4NDRhNWUzMDYyYzhjMjU3ZVwiLFwiODY4M2I0NWIwMjk0ZDMyNTQ0NDVmOGFkZTE1ZmQ0NmZcIl0sXCIyMS4xXCI6XCI4M2M2YTg3YjkzZWE5Nzg5ZTc3OTcwMDM4MGNjNGI3YVwiLFwiMjEuMlwiOlwiODk0YzllNjMxZjc5ZDc1MDhiY2JkYjI4OGE4ZTVhMTFcIixcIjIxLjNcIjpcIjE5NTZiODkzMGIyM2FjZTFmYjMyYTFiMjJmNzIyNmRmXCJ9IiwiMWM3NGQwMGI1MzFiNDc0YTNmNTg5NjYxMjA2NDczNTkiXQ==' />
+            <input type='hidden' class='gform_hidden' name='gform_target_page_number_7' id='gform_target_page_number_7' value='0' />
+            <input type='hidden' class='gform_hidden' name='gform_source_page_number_7' id='gform_source_page_number_7' value='1' />
+            <input type='hidden' name='gform_field_values' value='' />
+            
+        </div>
+                        <p style="display: none !important;"><label>&#916;<textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_1" name="ak_js" value="8"/><script>document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() );</script></p></form>
+                        </div><script type="text/javascript">
+/* <![CDATA[ */
+ gform.initializeOnLoaded( function() {gformInitSpinner( 7, 'https://www.pv-magazine.fr/wp-content/plugins/gravityforms/images/spinner.svg', true );jQuery('#gform_ajax_frame_7').on('load',function(){var contents = jQuery(this).contents().find('*').html();var is_postback = contents.indexOf('GF_AJAX_POSTBACK') >= 0;if(!is_postback){return;}var form_content = jQuery(this).contents().find('#gform_wrapper_7');var is_confirmation = jQuery(this).contents().find('#gform_confirmation_wrapper_7').length > 0;var is_redirect = contents.indexOf('gformRedirect(){') >= 0;var is_form = form_content.length > 0 && ! is_redirect && ! is_confirmation;var mt = parseInt(jQuery('html').css('margin-top'), 10) + parseInt(jQuery('body').css('margin-top'), 10) + 100;if(is_form){jQuery('#gform_wrapper_7').html(form_content.html());if(form_content.hasClass('gform_validation_error')){jQuery('#gform_wrapper_7').addClass('gform_validation_error');} else {jQuery('#gform_wrapper_7').removeClass('gform_validation_error');}setTimeout( function() { /* delay the scroll by 50 milliseconds to fix a bug in chrome */  }, 50 );if(window['gformInitDatepicker']) {gformInitDatepicker();}if(window['gformInitPriceFields']) {gformInitPriceFields();}var current_page = jQuery('#gform_source_page_number_7').val();gformInitSpinner( 7, 'https://www.pv-magazine.fr/wp-content/plugins/gravityforms/images/spinner.svg', true );jQuery(document).trigger('gform_page_loaded', [7, current_page]);window['gf_submitting_7'] = false;}else if(!is_redirect){var confirmation_content = jQuery(this).contents().find('.GF_AJAX_POSTBACK').html();if(!confirmation_content){confirmation_content = contents;}setTimeout(function(){jQuery('#gform_wrapper_7').replaceWith(confirmation_content);jQuery(document).trigger('gform_confirmation_loaded', [7]);window['gf_submitting_7'] = false;wp.a11y.speak(jQuery('#gform_confirmation_message_7').text());}, 50);}else{jQuery('#gform_7').append(contents);if(window['gformRedirect']) {gformRedirect();}}jQuery(document).trigger('gform_post_render', [7, current_page]);gform.utils.trigger({ event: 'gform/postRender', native: false, data: { formId: 7, currentPage: current_page } });} );} ); 
+/* ]]&gt; */
+</script>                                    
+                                    <p>
+
+                                        <em>
+                                            This page was last updated on décembre 9, 2025.                                             
+                                         </em>
+
+                                       
+                                    </p>
+
+                                </div><!-- .entry-content -->
+
+                                <footer class="entry-footer">
+                                                                                                        </footer><!-- .entry-footer -->
+                            </div>
+
+                        
+                    
+                </div> <!--col-->
+        
+            </div><!-- /row -->
+        </div> <!-- /container -->
+    </div> <!--.container-main-->
+        </div> <!--#innerwrap-->
+            </div> <!--#outerwrap-->
+            <footer id="footer">
+                <div class="container">
+                    
+<p class="copyright credits"><a href="https://www.pv-magazine.com/legal-notice/">Mention légale</a>
+    <a href="https://www.pv-magazine.com/terms-conditions/">Conditions générales</a>
+    <a target="_blank" href="https://www.pv-magazine.com/privacy-policy/">Politique de confidentialité</a>
+    &copy; pv magazine 2026</p>
+                </div>
+            </footer>  
+            
+            <div id="newsletter-modal" class="modal fade" tabindex="-1" role="dialog">
+              <div class="modal-dialog " role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h2>Restez à jour</h2>
+                  </div>
+                  <div class="modal-body">
+                    <div class="article-lead-text">pv magazine France vous offre des mises à jour quotidiennes des toutes dernières actualités du secteur photovoltaïque. Nous offrons également une couverture exhaustive globale des plus importants marchés solaires mondiaux. Sélectionnez une ou plusieurs versions pour obtenir des informations ciblées et à jour directement dans votre boîte de réception.</div>
+                                    
+                <div class='gf_browser_chrome gform_wrapper gform_legacy_markup_wrapper gform-theme--no-framework' data-form-theme='legacy' data-form-index='0' id='gform_wrapper_4' ><div id='gf_4' class='gform_anchor' tabindex='-1'></div><form method='post' enctype='multipart/form-data' target='gform_ajax_frame_4' id='gform_4'  action='/edition-speciale-energaia-2025/#gf_4' data-formid='4' >
+                        <div class='gform-body gform_body'><ul id='gform_fields_4' class='gform_fields top_label form_sublabel_below description_below'><li id="field_4_2"  class="gfield gfield--type-email gfield_contains_required field_sublabel_below gfield--no-description field_description_below gfield_visibility_visible"  data-js-reload="field_4_2"><label class='gfield_label gform-field-label' for='input_4_2' >Email<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='ginput_container ginput_container_email'>
+                            <input name='input_2' id='input_4_2' type='text' value='' class='large'    aria-required="true" aria-invalid="false"  />
+                        </div></li><li id="field_4_1"  class="gfield gfield--type-multiselect gfield_contains_required field_sublabel_below gfield--has-description field_description_above gfield_visibility_visible"  data-js-reload="field_4_1"><label class='gfield_label gform-field-label' for='input_4_1' >Sélectionnez la (les) version(s)<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='gfield_description' id='gfield_description_4_1'><div class="hidden-sm-down">Maintenez la touche Ctrl ou Cmd pour sélectionner plusieurs versions.</div>
+<div class="hidden-md-up">Appuyez pour sélectionner plusieurs versions.</div></div><div class='ginput_container ginput_container_multiselect'><select multiple='multiple'  size='7' name='input_1[]' id='input_4_1' class='large gfield_select'   aria-invalid="false" aria-required="true" aria-describedby="gfield_description_4_1"><option value='France (français, quotidien)' selected='selected'>France (français, quotidien)</option><option value='International (anglais, quotidien)' >International (anglais, quotidien)</option><option value='Allemagne (allemand, quotidien)' >Allemagne (allemand, quotidien)</option><option value='USA (anglais, quotidien)' >USA (anglais, quotidien)</option><option value='Inde (anglais, quotidien)' >Inde (anglais, quotidien)</option><option value='Australie (anglais, quotidien)' >Australie (anglais, quotidien)</option><option value='Chine (chinois, hebdomadaire)' >Chine (chinois, hebdomadaire)</option><option value='Espagne (espagnol, quotidien)' >Espagne (espagnol, quotidien)</option><option value='Amérique latine (espagnol, quotidien)' >Amérique latine (espagnol, quotidien)</option><option value='Brésil (portugais, quotidien)' >Brésil (portugais, quotidien)</option><option value='Mexique (espagnol, quotidien)' >Mexique (espagnol, quotidien)</option><option value='Italie (italien, quotidien)' >Italie (italien, quotidien)</option></select></div></li><li id="field_4_3"  class="gfield gfield--type-html gfield_html gfield_html_formatted field_sublabel_below gfield--no-description field_description_below gfield_visibility_visible"  data-js-reload="field_4_3"><div class="newsletter-privacy-notice">Consulter notre <a href="https://www.pv-magazine.com/privacy-policy/" target="_blank">politique de protection des données.</a></div></li></ul></div>
+        <div class='gform_footer top_label'> <input type='submit' id='gform_submit_button_4' class='gform_button button' value='Envoyer'  onclick='if(window["gf_submitting_4"]){return false;}  window["gf_submitting_4"]=true;  ' onkeypress='if( event.keyCode == 13 ){ if(window["gf_submitting_4"]){return false;} window["gf_submitting_4"]=true;  jQuery("#gform_4").trigger("submit",[true]); }' /> <input type='hidden' name='gform_ajax' value='form_id=4&amp;title=&amp;description=&amp;tabindex=0' />
+            <input type='hidden' class='gform_hidden' name='is_submit_4' value='1' />
+            <input type='hidden' class='gform_hidden' name='gform_submit' value='4' />
+            
+            <input type='hidden' class='gform_hidden' name='gform_unique_id' value='' />
+            <input type='hidden' class='gform_hidden' name='state_4' value='WyJbXSIsIjQ1ZTc5YTMzYWI1OGZlNDkyYzFkZTU3ZWEwZDRmNWRlIl0=' />
+            <input type='hidden' class='gform_hidden' name='gform_target_page_number_4' id='gform_target_page_number_4' value='0' />
+            <input type='hidden' class='gform_hidden' name='gform_source_page_number_4' id='gform_source_page_number_4' value='1' />
+            <input type='hidden' name='gform_field_values' value='' />
+            
+        </div>
+                        <p style="display: none !important;"><label>&#916;<textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_2" name="ak_js" value="167"/><script>document.getElementById( "ak_js_2" ).setAttribute( "value", ( new Date() ).getTime() );</script></p></form>
+                        </div>
+		                <iframe style='display:none;width:0px;height:0px;' src='about:blank' name='gform_ajax_frame_4' id='gform_ajax_frame_4' title='Cette iframe contient la logique nécessaire pour manipuler Gravity Forms avec Ajax.'></iframe>
+		                <script type="text/javascript">
+/* <![CDATA[ */
+ gform.initializeOnLoaded( function() {gformInitSpinner( 4, 'https://www.pv-magazine.fr/wp-content/plugins/gravityforms/images/spinner.svg', true );jQuery('#gform_ajax_frame_4').on('load',function(){var contents = jQuery(this).contents().find('*').html();var is_postback = contents.indexOf('GF_AJAX_POSTBACK') >= 0;if(!is_postback){return;}var form_content = jQuery(this).contents().find('#gform_wrapper_4');var is_confirmation = jQuery(this).contents().find('#gform_confirmation_wrapper_4').length > 0;var is_redirect = contents.indexOf('gformRedirect(){') >= 0;var is_form = form_content.length > 0 && ! is_redirect && ! is_confirmation;var mt = parseInt(jQuery('html').css('margin-top'), 10) + parseInt(jQuery('body').css('margin-top'), 10) + 100;if(is_form){jQuery('#gform_wrapper_4').html(form_content.html());if(form_content.hasClass('gform_validation_error')){jQuery('#gform_wrapper_4').addClass('gform_validation_error');} else {jQuery('#gform_wrapper_4').removeClass('gform_validation_error');}setTimeout( function() { /* delay the scroll by 50 milliseconds to fix a bug in chrome */ jQuery(document).scrollTop(jQuery('#gform_wrapper_4').offset().top - mt); }, 50 );if(window['gformInitDatepicker']) {gformInitDatepicker();}if(window['gformInitPriceFields']) {gformInitPriceFields();}var current_page = jQuery('#gform_source_page_number_4').val();gformInitSpinner( 4, 'https://www.pv-magazine.fr/wp-content/plugins/gravityforms/images/spinner.svg', true );jQuery(document).trigger('gform_page_loaded', [4, current_page]);window['gf_submitting_4'] = false;}else if(!is_redirect){var confirmation_content = jQuery(this).contents().find('.GF_AJAX_POSTBACK').html();if(!confirmation_content){confirmation_content = contents;}setTimeout(function(){jQuery('#gform_wrapper_4').replaceWith(confirmation_content);jQuery(document).scrollTop(jQuery('#gf_4').offset().top - mt);jQuery(document).trigger('gform_confirmation_loaded', [4]);window['gf_submitting_4'] = false;wp.a11y.speak(jQuery('#gform_confirmation_message_4').text());}, 50);}else{jQuery('#gform_4').append(contents);if(window['gformRedirect']) {gformRedirect();}}jQuery(document).trigger('gform_post_render', [4, current_page]);gform.utils.trigger({ event: 'gform/postRender', native: false, data: { formId: 4, currentPage: current_page } });} );} ); 
+/* ]]> */
+</script>
+                </div>
+                
+              </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+          </div><!-- /.modal -->
+          
+        <link rel='stylesheet' id='basecss-css' href='https://www.pv-magazine.fr/wp-content/plugins/eu-cookie-law/css/style.css?ver=6.6.4' type='text/css' media='all' />
+<link rel='stylesheet' id='gforms_reset_css-css' href='https://www.pv-magazine.fr/wp-content/plugins/gravityforms/legacy/css/formreset.min.css?ver=2.7.10' type='text/css' media='all' />
+<link rel='stylesheet' id='gforms_formsmain_css-css' href='https://www.pv-magazine.fr/wp-content/plugins/gravityforms/legacy/css/formsmain.min.css?ver=2.7.10' type='text/css' media='all' />
+<link rel='stylesheet' id='gforms_ready_class_css-css' href='https://www.pv-magazine.fr/wp-content/plugins/gravityforms/legacy/css/readyclass.min.css?ver=2.7.10' type='text/css' media='all' />
+<link rel='stylesheet' id='gforms_browsers_css-css' href='https://www.pv-magazine.fr/wp-content/plugins/gravityforms/legacy/css/browsers.min.css?ver=2.7.10' type='text/css' media='all' />
+<script type="text/javascript" src="https://www.pv-magazine.fr/wp-includes/js/underscore.min.js?ver=1.13.4" id="underscore-js"></script>
+<script type="text/javascript" src="https://www.pv-magazine.fr/wp-content/themes/pvmagazine/_/js/main.min.js?ver=2045396121" id="main-js"></script>
+<script type="text/javascript" src="https://www.pv-magazine.fr/wp-includes/js/dist/dom-ready.min.js?ver=f77871ff7694fffea381" id="wp-dom-ready-js"></script>
+<script type="text/javascript" src="https://www.pv-magazine.fr/wp-includes/js/dist/hooks.min.js?ver=2810c76e705dd1a53b18" id="wp-hooks-js"></script>
+<script type="text/javascript" src="https://www.pv-magazine.fr/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
+<script type="text/javascript" id="wp-i18n-js-after">
+/* <![CDATA[ */
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+/* ]]> */
+</script>
+<script type="text/javascript" id="wp-a11y-js-translations">
+/* <![CDATA[ */
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "default", {"translation-revision-date":"2024-06-26 14:52:21+0000","generator":"GlotPress\/4.0.1","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n > 1;","lang":"fr"},"Notifications":["Notifications"]}},"comment":{"reference":"wp-includes\/js\/dist\/a11y.js"}} );
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.pv-magazine.fr/wp-includes/js/dist/a11y.min.js?ver=d90eebea464f6c09bfd5" id="wp-a11y-js"></script>
+<script type="text/javascript" defer='defer' src="https://www.pv-magazine.fr/wp-content/plugins/gravityforms/assets/js/dist/vendor-theme.min.js?ver=4ef53fe41c14a48b294541d9fc37387e" id="gform_gravityforms_theme_vendors-js"></script>
+<script type="text/javascript" id="gform_gravityforms_theme-js-extra">
+/* <![CDATA[ */
+var gform_theme_config = {"common":{"form":{"honeypot":{"version_hash":"30f055154e8316773617e5aac4996341"}}},"hmr_dev":"","public_path":"https:\/\/www.pv-magazine.fr\/wp-content\/plugins\/gravityforms\/assets\/js\/dist\/"};
+/* ]]> */
+</script>
+<script type="text/javascript" defer='defer' src="https://www.pv-magazine.fr/wp-content/plugins/gravityforms/assets/js/dist/scripts-theme.min.js?ver=443293948084ca0fe29518ebcd01dc6b" id="gform_gravityforms_theme-js"></script>
+<script type="text/javascript" src="https://www.pv-magazine.fr/wp-content/plugins/youtube-embed-plus/scripts/fitvids.min.js?ver=14.1.6.3" id="__ytprefsfitvids__-js"></script>
+<script type="text/javascript" id="eucookielaw-scripts-js-extra">
+/* <![CDATA[ */
+var eucookielaw_data = {"euCookieSet":"","autoBlock":"0","expireTimer":"360","scrollConsent":"0","networkShareURL":"","isCookiePage":"","isRefererWebsite":""};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.pv-magazine.fr/wp-content/plugins/eu-cookie-law/js/scripts.js?ver=3.1.6" id="eucookielaw-scripts-js"></script>
+<script defer type="text/javascript" src="https://www.pv-magazine.fr/wp-content/plugins/akismet/_inc/akismet-frontend.js?ver=1732419172" id="akismet-frontend-js"></script>
+<script type="text/javascript" id="upme_custom-js-extra">
+/* <![CDATA[ */
+var UPMECustom = {"ViewProfile":"Voir le profil","EditProfile":"Modifier le profil","UPMEUrl":"https:\/\/www.pv-magazine.fr\/wp-content\/plugins\/upme\/","ForgotPass":"Mot de passe oubli\u00e9","Login":"Nom d'utilisateur","Messages":{"EnterDetails":"Merci d'entrer votre nom d'utilisateur ou votre e-mail pour r\u00e9initialiser votre mot de passe.","EnterEmail":"Merci d'indiquer votre adresse e-mail.","ValidEmail":"Merci d'indiquer un nom d'utilisateur ou une adresse e-mail valide.","NotAllowed":"Le changement de mot de passe n'est pas autoris\u00e9 pour cet utilisateur.","EmailError":"Nous ne sommes pas en mesure d'envoyer des messages \u00e0 votre adresse e-mail. Merci de contacter le responsable du site.","PasswordSent":"Un lien de r\u00e9initialisation du mot de passe a \u00e9t\u00e9 envoy\u00e9 \u00e0 votre adresse e-mail.","WentWrong":"Une erreur est apparue, merci de r\u00e9essayer.","RegExistEmail":"Email is already registered.","RegValidEmail":"Email is available","RegInvalidEmail":"Invalid email.","RegEmptyEmail":"Email is empty.","RegExistUsername":"Username is already registered.","RegValidUsername":"Username is available.","RegEmptyUsername":"Username is empty.","RegInValidUsername":"Invalid username.","DelPromptMessage":"Are you sure you want to delete this image?","processing":"Processing"},"AdminAjax":"https:\/\/www.pv-magazine.fr\/wp-admin\/admin-ajax.php","RegFormTitleUsername":"1","confirmDeleteProfile":"Do you want to delete the profile"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.pv-magazine.fr/wp-content/plugins/upme/js/upme-custom.js?ver=6.6.4" id="upme_custom-js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+ gform.initializeOnLoaded( function() { jQuery(document).on('gform_post_render', function(event, formId, currentPage){if(formId == 7) {} } );jQuery(document).bind('gform_post_conditional_logic', function(event, formId, fields, isInit){} ) } ); 
+/* ]]> */
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+ gform.initializeOnLoaded( function() {jQuery(document).trigger('gform_post_render', [7, 1]);gform.utils.trigger({ event: 'gform/postRender', native: false, data: { formId: 7, currentPage: 1 } });} ); 
+/* ]]> */
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+ gform.initializeOnLoaded( function() { jQuery(document).on('gform_post_render', function(event, formId, currentPage){if(formId == 4) {} } );jQuery(document).bind('gform_post_conditional_logic', function(event, formId, fields, isInit){} ) } ); 
+/* ]]> */
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+ gform.initializeOnLoaded( function() {jQuery(document).trigger('gform_post_render', [4, 1]);gform.utils.trigger({ event: 'gform/postRender', native: false, data: { formId: 4, currentPage: 1 } });} ); 
+/* ]]> */
+</script>
+<!-- Eu Cookie Law 3.1.6 --><div class="pea_cook_wrapper pea_cook_bottomcenter" style="color:#FFFFFF;background:rgb(0,0,0);background: rgba(0,0,0,0.85);"><p>This website uses cookies to anonymously count visitor numbers.  <a style="color:#FFFFFF;" href="https://www.pv-magazine.com/privacy-policy/" target="_blank" id="fom">To find out more, please see our Data Protection Policy.</a> <button id="pea_cook_btn" class="pea_cook_btn">×</button></p></div><div class="pea_cook_more_info_popover"><div class="pea_cook_more_info_popover_inner" style="color:#FFFFFF;background-color: rgba(0,0,0,0.9);"><p>The cookie settings on this website are set to "allow cookies" to give you the best browsing experience possible. If you continue to use this website without changing your cookie settings or you click "Accept" below then you are consenting to this.</p><p><a style="color:#FFFFFF;" href="#" id="pea_close">Close</a></p></div></div> 
+        
+        <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZMV4LD9P2N"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ZMV4LD9P2N');
+</script>                
+        
+        
+<script>
+  window.pvSkyLeftAds = [0,0, 0]; // left 1, left 2, left 3
+  window.pvSkyRightAds = [0,0,0]; // right 1, right 2, right 3
+
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+
+  function pvDefineAds() {
+
+  	// GPT slots
+ var gptAdSlots = [];
+
+ googletag.cmd.push(function() {
+
+  	console.log('pvDefineAds');
+
+	// define size mappings
+
+	var leaderboardMapping = googletag.sizeMapping().
+	  addSize([1420, 300], [1092, 135]).
+	  addSize([1220, 300], [728, 90]).
+	  addSize([1023, 300], [728, 90]).
+	  addSize([768, 300], [728, 90]).
+	  addSize([500, 300], [468, 60]).
+	  addSize([0, 0], [320, 50]).
+	  // Fits browsers of any size smaller than 640 x 480
+	  build();
+
+	// This mapping will only display ads when user is on desktop sized viewport
+	var skyMapping = googletag.sizeMapping().
+	  addSize([0, 0], []).
+	  addSize([1023, 300], [120, 600]). // Desktop
+	  build();
+
+	var bannerHomeMapping = googletag.sizeMapping().
+	  addSize([1420, 300], [468, 60]).
+	  addSize([1220, 300], [320, 50]).
+	  addSize([1023, 300], [320, 50]).
+	  addSize([768, 300], [320, 50]).
+	  addSize([500, 300], [468, 60]).
+	  addSize([0, 0], [320, 50]).
+	  // Fits browsers of any size smaller than 640 x 480
+	  build();
+
+	var rectangleHomeMapping = googletag.sizeMapping().
+	  addSize([767, 300], [300, 250]).
+	  addSize([0, 0], [200, 250]).
+	  build();
+
+	var bannerIndexMapping = googletag.sizeMapping().
+	  addSize([1420, 300], [468, 60]).
+	  addSize([1220, 300], [468, 60]).
+	  addSize([1023, 300], [468, 60]).
+	  addSize([768, 300], [468, 60]).
+	  addSize([500, 300], [320, 50]).
+	  addSize([0, 0], [320, 50]).
+	  // Fits browsers of any size smaller than 640 x 480
+	  build();
+
+	var buttonSidebarMapping = googletag.sizeMapping().
+	  addSize([0, 0], []).
+	  addSize([1220, 300], [120, 60]). // Desktop
+	  build();
+
+	var bannerSingleMapping = googletag.sizeMapping().
+	  addSize([1420, 300], [468, 60]).
+	  addSize([1220, 300], [468, 60]).
+	  addSize([1023, 300], [468, 60]).
+	  addSize([768, 300], [468, 60]).
+	  addSize([500, 300], [320, 50]).
+	  addSize([0, 0], [320, 50]).
+	  // Fits browsers of any size smaller than 640 x 480
+	  build();
+
+	var rectangleSidebarMapping = googletag.sizeMapping().
+	  addSize([0, 0], []).
+	  addSize([1220, 300], [300, 250]). // Desktop
+	  build();
+
+	var rectangleFooterMapping = googletag.sizeMapping().
+	  addSize([0, 0], [200,250]).
+    addSize([400, 300], [300,250]).
+    addSize([543, 300], [200, 250]).
+    addSize([767, 300], [300, 250]).
+    addSize([1220, 300], [200, 250]). // Desktop
+    addSize([1420, 300], [300, 250]).
+	  build();
+
+	var buttonMapping = googletag.sizeMapping().
+	  addSize([0, 0], [120,60]).
+	  build();
+
+	var rectanglePressMapping = googletag.sizeMapping().
+	  addSize([1220, 300], [200, 250]).
+	  addSize([370, 300], [300, 250]).
+	  addSize([0, 0], [200, 250]).
+	  // Fits browsers of any size smaller than 640 x 480
+	  build();
+
+	var rectangleHomeTopMapping = googletag.sizeMapping().
+	  addSize([1420, 300], [505, 400]).
+	  addSize([1220, 300], [405, 350]).
+	  addSize([767, 300], [300, 250]).
+    addSize([543, 300], [200, 250]).
+	  addSize([0, 0], [300, 250]).
+	  // Fits browsers of any size smaller than 640 x 480
+	  build();
+	var rectangleHomeTopTwoMapping = googletag.sizeMapping().
+	  addSize([1420, 300], [505, 400]).
+	  addSize([1220, 300], [405, 350]).
+	  addSize([767, 300], [300, 250]).
+	  addSize([520, 300], [405, 350]).
+	  addSize([0, 0], [300, 250]).
+	  // Fits browsers of any size smaller than 640 x 480
+	  build();
+
+
+
+ gptAdSlots[0] = googletag.defineSlot('/21725784866/pv_magazine_france/fr_leaderboard_top_1', [320, 50], 'leaderboard_top_1').
+  defineSizeMapping(leaderboardMapping).
+  setCollapseEmptyDiv(true).
+  addService(googletag.pubads());
+
+  gptAdSlots[1] = googletag.defineSlot('/21725784866/pv_magazine_france/fr_leaderboard_top_2', [320, 50], 'leaderboard_top_2').
+  defineSizeMapping(leaderboardMapping).
+  setCollapseEmptyDiv(true).
+  addService(googletag.pubads());
+
+ gptAdSlots[2] = googletag.defineSlot('/21725784866/pv_magazine_france/fr_sky_left_1', [120, 600], 'sky_left_1').
+  defineSizeMapping(skyMapping).
+  setCollapseEmptyDiv(true).
+  addService(googletag.pubads());
+
+  gptAdSlots[3] = googletag.defineSlot('/21725784866/pv_magazine_france/fr_sky_left_2', [120, 600], 'sky_left_2').
+  defineSizeMapping(skyMapping).
+  setCollapseEmptyDiv(true).
+  addService(googletag.pubads());
+
+   gptAdSlots[4] = googletag.defineSlot('/21725784866/pv_magazine_france/fr_sky_left_3', [120, 600], 'sky_left_3').
+  defineSizeMapping(skyMapping).
+  setCollapseEmptyDiv(true).
+  addService(googletag.pubads());
+
+  gptAdSlots[5] = googletag.defineSlot('/21725784866/pv_magazine_france/fr_sky_right_1', [120, 600], 'sky_right_1').
+  defineSizeMapping(skyMapping).
+  setCollapseEmptyDiv(true).
+  addService(googletag.pubads());
+
+  gptAdSlots[6] = googletag.defineSlot('/21725784866/pv_magazine_france/fr_sky_right_2', [120, 600], 'sky_right_2').
+  defineSizeMapping(skyMapping).
+  setCollapseEmptyDiv(true).
+  addService(googletag.pubads());
+
+  gptAdSlots[7] = googletag.defineSlot('/21725784866/pv_magazine_france/fr_sky_right_3', [120, 600], 'sky_right_3').
+  defineSizeMapping(skyMapping).
+  setCollapseEmptyDiv(true).
+  addService(googletag.pubads());
+
+
+  gptAdSlots[8] = googletag.defineSlot('/21725784866/pv_magazine_france/fr_banner_home_top_1', [320, 50], 'banner_home_top_1').
+  defineSizeMapping(bannerHomeMapping).
+  setCollapseEmptyDiv(false).
+  addService(googletag.pubads());
+
+  gptAdSlots[9] = googletag.defineSlot('/21725784866/pv_magazine_france/fr_banner_home_top_2', [320, 50], 'banner_home_top_2').
+  defineSizeMapping(bannerHomeMapping).
+  setCollapseEmptyDiv(false).
+  addService(googletag.pubads());
+
+  gptAdSlots[10] = googletag.defineSlot('/21725784866/pv_magazine_france/fr_banner_home_top_3', [320, 50], 'banner_home_top_3').
+  defineSizeMapping(bannerHomeMapping).
+  setCollapseEmptyDiv(false).
+  addService(googletag.pubads());
+
+  gptAdSlots[11] = googletag.defineSlot('/21725784866/pv_magazine_france/fr_button_sidebar', [120, 60], 'button_sidebar').
+  defineSizeMapping(buttonMapping).
+  setCollapseEmptyDiv(true).
+  addService(googletag.pubads());
+
+  gptAdSlots[12] = googletag.defineSlot('/21725784866/pv_magazine_france/fr_banner_single_article_top', [320, 50], 'banner_single_article_top').
+  defineSizeMapping(bannerSingleMapping).
+  setCollapseEmptyDiv(true).
+  addService(googletag.pubads());
+
+   gptAdSlots[13] = googletag.defineSlot('/21725784866/pv_magazine_france/fr_banner_single_article_mid_content', [320, 50], 'banner_single_article_mid_content').
+  defineSizeMapping(bannerSingleMapping).
+  setCollapseEmptyDiv(true).
+  addService(googletag.pubads());
+
+   gptAdSlots[14] = googletag.defineSlot('/21725784866/pv_magazine_france/fr_banner_single_article_bottom', [320, 50], 'banner_single_article_bottom').
+  defineSizeMapping(bannerSingleMapping).
+  setCollapseEmptyDiv(true).
+  addService(googletag.pubads());
+
+   gptAdSlots[15] = googletag.defineSlot('/21725784866/pv_magazine_france/fr_banner_single_article_footer', [320, 50], 'banner_single_article_footer').
+  defineSizeMapping(bannerSingleMapping).
+  setCollapseEmptyDiv(true).
+  addService(googletag.pubads());
+
+  gptAdSlots[16] = googletag.defineSlot('/21725784866/pv_magazine_france/fr_mobile_rectangle_single_article_footer', [300, 250], 'mobile_rectangle_single_article_footer').
+  defineSizeMapping(rectangleFooterMapping).
+  setCollapseEmptyDiv(true).
+  addService(googletag.pubads());
+
+  gptAdSlots[17] = googletag.defineSlot('/21725784866/pv_magazine_france/fr_rectangle_sidebar', [300, 250], 'rectangle_sidebar').
+  defineSizeMapping(rectangleSidebarMapping).
+  setCollapseEmptyDiv(true).
+  addService(googletag.pubads());
+
+  gptAdSlots[18] = googletag.defineSlot('/21725784866/pv_magazine_france/fr_rectangle_press_releases', [200, 250], 'rectangle_press_releases').
+  defineSizeMapping(rectanglePressMapping).
+  setCollapseEmptyDiv(true).
+  addService(googletag.pubads());
+
+  gptAdSlots[19] = googletag.defineSlot('/21725784866/pv_magazine_france/fr_rectangle_home_top', [200, 250], 'rectangle_home_top').
+  defineSizeMapping(rectangleHomeTopMapping).
+  setCollapseEmptyDiv(true).
+  addService(googletag.pubads());
+
+  gptAdSlots[20] = googletag.defineSlot('/21725784866/pv_magazine_france/fr_rectangle_home_top_2', [200, 250], 'rectangle_home_top_2').
+  defineSizeMapping(rectangleHomeTopTwoMapping).
+  setCollapseEmptyDiv(true).
+  addService(googletag.pubads());
+
+  gptAdSlots[21] = googletag.defineSlot('/21725784866/pv_magazine_france/fr_rectangle_home_top_3', [200, 250], 'rectangle_home_top_3').
+  defineSizeMapping(rectangleHomeTopTwoMapping).
+  setCollapseEmptyDiv(true).
+  addService(googletag.pubads());
+
+  gptAdSlots[22] = googletag.defineSlot('/21725784866/pv_magazine_france/fr_rectangle_sidebar_2', [300, 250], 'rectangle_sidebar_2').
+  defineSizeMapping(rectangleSidebarMapping).
+  setCollapseEmptyDiv(true).
+  addService(googletag.pubads());
+
+
+  
+  
+  
+  
+  
+
+  
+
+      googletag.pubads().setTargeting("page_id","97655");
+  
+  var breakpoints = [500, 768,1023,1220,1420]; 
+      
+  var newWidth = jQuery(window).width();
+  var screenWidth = 0;
+  for (var i = 0; i < breakpoints.length; i++) {
+    if (newWidth > breakpoints[i]) {
+      screenWidth = breakpoints[i];
+    }
+  }
+
+  
+  console.log("screenWidth: " + screenWidth);
+
+  googletag.pubads().setTargeting("screen_width",screenWidth.toString());
+
+  
+  // keep track of how many sky and home rect ads are loaded for layout purposes
+  window.pvSkySlotCount = 0;
+  window.pvRectHomeTopSlotCount = 0;
+
+  jQuery(window).on('resize',function() {
+    window.pvRectHomeTopSlotCount = 0;
+    setTimeout(pvRectHomeTopAds,100);
+  });
+
+  // add event to sign the slot as rendered or not
+  googletag.pubads().addEventListener('slotRenderEnded', function(event) {
+
+    window.pvAdSlotCount++;
+    // console.log(event.slot.getSlotElementId());
+    
+
+    if (event.slot.getSlotElementId() === "rectangle_home_top" || event.slot.getSlotElementId() === "rectangle_home_top_2" || event.slot.getSlotElementId() === "rectangle_home_top_3") {
+        window.pvRectHomeTopSlotCount++;
+    }
+    
+    
+    if (event.slot.getSlotElementId() === "rectangle_home_top"  && event.isEmpty) {
+   	//if (event.slot.getSlotElementId() === "rectangle_home_top" && Math.random() < 0.5) {
+		  // no ad
+		
+		  jQuery('#home-top-rectangle-wrap-1').css('display','none');
+		
+     } else if ( event.slot.getSlotElementId() === "rectangle_home_top"  && !event.isEmpty   ) {
+      	
+    	jQuery('#rhome-top-rectangle-wrap-1').css('display','block');
+
+    }
+
+
+    if (event.slot.getSlotElementId() === "rectangle_home_top_2"  && event.isEmpty) {
+    	// no ad
+    	
+    	jQuery('#home-top-rectangle-wrap-2').css('display','none');
+
+    	
+    
+    } else if (event.slot.getSlotElementId() === "rectangle_home_top_2"  && !event.isEmpty) {
+    	// yes ad
+
+    	jQuery('#home-top-rectangle-wrap-2').css('display','block');
+    	
+    	
+    }
+
+    if (event.slot.getSlotElementId() === "rectangle_home_top_3"  && event.isEmpty) {
+      // no ad      
+      jQuery('#home-top-rectangle-wrap-3').css('display','none');
+
+      
+    
+    } else if (event.slot.getSlotElementId() === "rectangle_home_top_3"  && !event.isEmpty) {
+      // yes ad
+
+      jQuery('#home-top-rectangle-wrap-3').css('display','block');
+      
+      
+    } 
+
+    if (event.slot.getSlotElementId() === "button_sidebar"  && !event.isEmpty) {
+      // do something related to the slot
+      jQuery('#button-sidebar-widget').css('display','block');
+
+    } else if ( event.slot.getSlotElementId()=== "button_sidebar"  && event.isEmpty   ) {
+    	jQuery('#button-sidebar-widget').css('display','none');
+    }
+
+    /* Press release rectangle on home page */
+
+    if (event.slot.getSlotElementId() === "rectangle_press_releases"  && !event.isEmpty) {
+      // do something related to the slot
+      jQuery('.content-block-press-releases .press-release').eq(3).css('display','none');
+
+    } else if ( event.slot.getSlotElementId()=== "rectangle_press_releases"  && event.isEmpty   ) {
+    	jQuery('.content-block-press-releases .press-release').eq(3).css('display','block');
+    }
+
+    if (event.slot.getSlotElementId() == "sky_left_1") {
+      window.pvSkySlotCount++;
+      if (!event.isEmpty) {
+        window.pvSkyLeftAds[0] = 1;
+      } else {
+        jQuery('.ad-sky-left').not('.ad-sky-left-additional').css('display','none');
+        jQuery('.ad-sky-left-additional').css('margin-top',0);
+      }
+      
+    }
+
+    if (event.slot.getSlotElementId() == "sky_left_2") {
+      window.pvSkySlotCount++;
+      if (!event.isEmpty) {
+        window.pvSkyLeftAds[1] = 1;
+      } else {
+        jQuery('.ad-sky-left-additional').css('display','none');
+      }
+    }
+
+    if (event.slot.getSlotElementId() == "sky_left_3") {
+      window.pvSkySlotCount++;
+      if (!event.isEmpty) {
+        window.pvSkyLeftAds[2] = 1;
+      } else {
+        jQuery('.ad-sky-left-additional-2').css('display','none');
+      }
+    }
+
+    if (event.slot.getSlotElementId() == "sky_right_1") {
+      window.pvSkySlotCount++;
+      if (!event.isEmpty) {
+        window.pvSkyRightAds[0] = 1;
+      } else {
+        jQuery('.ad-sky-right').not('.ad-sky-right-additional').css('display','none');
+      }
+    }
+
+    if (event.slot.getSlotElementId() == "sky_right_2") {
+      window.pvSkySlotCount++;
+      if (!event.isEmpty) {
+        window.pvSkyRightAds[1] = 1;
+      } else {
+        jQuery('.ad-sky-right-additional').css('display','none');
+      }
+    }
+
+    if (event.slot.getSlotElementId() == "sky_right_3") {
+      window.pvSkySlotCount++;
+      if (!event.isEmpty) {
+        window.pvSkyRightAds[2] = 1;
+      } else {
+        jQuery('.ad-sky-right-additional-2').css('display','none');
+      }
+    }
+
+
+    if (event.slot.getSlotElementId() == "leaderboard_top_1") {
+      googletag.cmd.push(function() {
+        googletag.display('sky_right_1');
+       // googletag.pubads().refresh([slots['sky_right_1']]);
+      });
+      
+    }
+  });
+
+
+
+
+  // googletag.pubads().enableSingleRequest();
+  googletag.enableServices();
+
+});
+
+
+}
+
+
+function pvDisplayAds() {
+
+	
+      googletag.cmd.push(function() {
+        googletag.display('leaderboard_top_1');
+
+      });
+
+    
+
+		
+
+	
+      googletag.cmd.push(function() {
+        googletag.display('leaderboard_top_2');
+
+      });
+
+    
+
+		
+
+	
+      googletag.cmd.push(function() {
+        googletag.display('sky_left_1');
+
+      });
+
+    
+
+		
+
+	
+      googletag.cmd.push(function() {
+        googletag.display('sky_left_2');
+
+      });
+
+    
+
+		
+
+	
+      googletag.cmd.push(function() {
+        googletag.display('sky_left_3');
+
+      });
+
+    
+
+		
+
+	
+
+		
+
+	
+      googletag.cmd.push(function() {
+        googletag.display('sky_right_2');
+
+      });
+
+    
+
+		
+
+	
+      googletag.cmd.push(function() {
+        googletag.display('sky_right_3');
+
+      });
+
+    
+
+		
+
+	
+      googletag.cmd.push(function() {
+        googletag.display('banner_home_top_1');
+
+      });
+
+    
+
+		
+
+	
+      googletag.cmd.push(function() {
+        googletag.display('banner_home_top_2');
+
+      });
+
+    
+
+		
+
+	
+      googletag.cmd.push(function() {
+        googletag.display('banner_home_top_3');
+
+      });
+
+    
+
+		
+
+	
+      googletag.cmd.push(function() {
+        googletag.display('banner_single_article_top');
+
+      });
+
+    
+
+		
+
+	
+      googletag.cmd.push(function() {
+        googletag.display('banner_single_article_mid_content');
+
+      });
+
+    
+
+		
+
+	
+      googletag.cmd.push(function() {
+        googletag.display('banner_single_article_bottom');
+
+      });
+
+    
+
+		
+
+	
+      googletag.cmd.push(function() {
+        googletag.display('banner_single_article_footer');
+
+      });
+
+    
+
+		
+
+	
+      googletag.cmd.push(function() {
+        googletag.display('mobile_rectangle_single_article_footer');
+
+      });
+
+    
+
+		
+
+	
+      googletag.cmd.push(function() {
+        googletag.display('rectangle_sidebar');
+
+      });
+
+    
+
+		
+
+	
+      googletag.cmd.push(function() {
+        googletag.display('button_sidebar');
+
+      });
+
+    
+
+		
+
+	
+      googletag.cmd.push(function() {
+        googletag.display('rectangle_press_releases');
+
+      });
+
+    
+
+		
+
+	
+      googletag.cmd.push(function() {
+        googletag.display('rectangle_home_top');
+
+      });
+
+    
+
+		
+
+	
+      googletag.cmd.push(function() {
+        googletag.display('rectangle_home_top_2');
+
+      });
+
+    
+
+		
+
+	
+      googletag.cmd.push(function() {
+        googletag.display('rectangle_home_top_3');
+
+      });
+
+    
+
+		
+
+	
+      googletag.cmd.push(function() {
+        googletag.display('rectangle_sidebar_2');
+
+      });
+
+    
+
+		
+
+		
+    
+    
+    
+    
+    
+
+    
+}
+
+
+function pvSkyAds() {
+  
+
+  if (window.pvSkySlotCount >= 6) {
+
+
+    // body at least as tall as sky ads
+
+    var skyLeft = 0;
+    jQuery('.ad-sky-left').each(function() {
+      skyLeft += jQuery(this).height();
+    });
+    var skyRight = 0;
+    jQuery('.ad-sky-right').each(function() {
+      skyRight += jQuery(this).height();
+    });
+    var minHeight = Math.max(skyLeft,skyRight) + 400;
+    jQuery('#inner-wrap').css('min-height', minHeight + 'px');
+
+
+    // left side
+    var numLeftAds = window.pvSkyLeftAds[0] + window.pvSkyLeftAds[1] + window.pvSkyLeftAds[2];
+    if (numLeftAds === 1  && jQuery('body').height()>=700) {
+      var doLeftScroll = true;
+    }
+
+    // right side
+    var numRightAds = window.pvSkyRightAds[0] + window.pvSkyRightAds[1] + window.pvSkyRightAds[2];
+    if (numRightAds === 1  && jQuery('body').height()>=700) {
+      var doRightScroll = true;
+    }
+
+    // wallpaper ads - switch off scroll with
+    if (window.location.hostname == 'www.pv-magazine.es' || window.location.hostname == 'www.pv-magazine.de' || window.location.hostname == 'www.pv-magazine-australia.com' || window.location.hostname == 'www.pv-magazine-mexico.com' || window.location.hostname == 'www.pv-magazine-latam.com' ) {
+      doLeftScroll = doRightScroll = false;
+    }
+
+    if ((doLeftScroll || doRightScroll)) {
+      var leaderHeight = jQuery('.container-main').eq(0).outerHeight();
+
+      var maxOffset = jQuery('#footer').offset().top - 600 - leaderHeight;
+      var bodyOffset = jQuery(document).scrollTop() - leaderHeight;
+      var minOffset = 0;
+
+      if (doLeftScroll) {
+        if (bodyOffset >= maxOffset) {
+          jQuery('.ad-sky-left').css('top', maxOffset + 'px');
+        } else if  (bodyOffset <= minOffset){
+          jQuery('.ad-sky-left').css('top', minOffset + 'px');
+        } else {
+          jQuery('.ad-sky-left').css('top', bodyOffset + 'px');
+        } 
+      } else {
+        jQuery('.ad-sky-left').css('top', 0 + 'px');
+      }
+
+      if (doRightScroll) {
+        if (bodyOffset >= maxOffset) {
+          jQuery('.ad-sky-right').css('top', maxOffset + 'px');
+        } else if  (bodyOffset <= minOffset){
+          jQuery('.ad-sky-right').css('top', minOffset + 'px');
+        } else {
+          jQuery('.ad-sky-right').css('top', bodyOffset + 'px');
+        } 
+      } else {
+        jQuery('.ad-sky-right').css('top', 0 + 'px');
+      }
+
+      jQuery(document).on('scroll',function(e) {
+        if (doLeftScroll) {
+          bodyOffset = jQuery(document).scrollTop() - leaderHeight;
+          if (bodyOffset >= maxOffset) {
+            jQuery('.ad-sky-left').css('top', maxOffset + 'px');
+          } else if  (bodyOffset <= minOffset ){
+            jQuery('.ad-sky-left').css('top', minOffset + 'px');
+          }else {
+            jQuery('.ad-sky-left').css('top', bodyOffset + 'px');
+          }
+        }
+        if (doRightScroll) {
+          bodyOffset = jQuery(document).scrollTop() - leaderHeight;
+          if (bodyOffset >= maxOffset) {
+            jQuery('.ad-sky-right').css('top', maxOffset + 'px');
+          } else if  (bodyOffset <= minOffset ){
+            jQuery('.ad-sky-right').css('top', minOffset + 'px');
+          }else {
+            jQuery('.ad-sky-right').css('top', bodyOffset + 'px');
+          }
+        }
+      });
+
+      jQuery(window).on('resize',function() {
+        maxOffset = jQuery('#footer').offset().top - 600 - leaderHeight;
+        if (jQuery('body').height()<700 ) {
+          doLeftScroll = false;
+          doRightScroll = false;
+          jQuery('.ad-sky-left, .ad-sky-right').css('top','0px');
+        } else {
+          doLeftScroll = true;
+          doRightScroll = true;
+        }
+      });
+    }
+
+
+  } else {
+    setTimeout(pvSkyAds,100);
+  }
+}
+
+setTimeout(pvSkyAds,100);
+
+
+
+function pvRectHomeTopAds() {
+  
+
+  if (window.pvRectHomeTopSlotCount >= 3) {
+
+    // not working
+
+    if(jQuery('.third-home-section-block').filter(':visible').length % 2 == 0 && jQuery(window).width() > 767){
+      // even number visible, make final block half width
+      jQuery('.third-home-section-block').last().addClass('col-md-6').removeClass('col-md-12');
+      jQuery('.third-home-section-block-inner').addClass('col-sm-12').removeClass('col-sm-4');
+      jQuery('.third-home-section-block-inner .content-block').css('min-height','none');
+    } else {
+      // odd number visible, make final block full width
+      jQuery('.third-home-section-block').last().removeClass('col-md-6').addClass('col-md-12');
+      jQuery('.third-home-section-block-inner').addClass('col-sm-4').removeClass('col-sm-12');
+      window.pvSetMatchingHeights('.third-home-section-block-inner .content-block',  100000, 767);
+    }
+
+    jQuery(window).trigger('resize');
+
+
+
+
+  } else {
+    setTimeout(pvRectHomeTopAds,100);
+  }
+}
+
+setTimeout(pvRectHomeTopAds,100);
+
+
+
+
+window.pvWindowSizeForAds = 0;
+
+
+function pvAdsWhenReady() { // hide widget surround sidebar ad if no ad
+	if (window.googletag && googletag.apiReady) {
+		pvDefineAds();
+		pvDisplayAds();
+		window.pvWindowSizeForAds = jQuery(window).width();
+		//setTimeout(pvSetAdLayout, 500);
+		
+		jQuery(window).on('resize',function() {
+			var breakpoints = [500, 768,1023,1220,1420]; // only bother to check if breakpoint crossed
+			var oldWidth = window.pvWindowSizeForAds;
+			var newWidth = jQuery(window).width();
+      var screenWidth = 0;
+      for (var i = 0; i < breakpoints.length; i++) {
+        if (newWidth > breakpoints[i]) {
+          screenWidth = breakpoints[i];
+        }
+      }
+			
+			for (var i = 0; i < breakpoints.length; i++) {
+				bp = breakpoints[i];
+				if ((oldWidth >= bp && newWidth < bp)||(oldWidth < bp && newWidth >= bp)) {
+					pvUnsetAdLayout();
+          // set new screen width size
+          //console.log("screenWidth: " + screenWidth);
+          googletag.pubads().setTargeting("screen_width",screenWidth.toString());
+					googletag.pubads().refresh();
+					break;
+				}
+			}
+			window.pvWindowSizeForAds = newWidth;
+			//setTimeout(pvSetAdLayout, 500);
+		});
+		
+	} else {
+		setTimeout(pvAdsWhenReady,20);
+	}
+}
+
+
+setTimeout(pvAdsWhenReady,20);
+
+
+
+
+/*
+
+Disabled the following to use the slotRender callback instead
+But leaving here because the event that comes back from Google seems undocumented and might break
+Problem with below was it didn't run on first load
+
+*/
+
+function pvSetAdLayout() {
+
+  /* Sidebar widget */
+  if (!jQuery('#button_sidebar:visible').length) {
+    jQuery('#button-sidebar-widget').css('display','none');
+  } else {
+    jQuery('#button-sidebar-widget').css('display','block');
+  }
+  
+
+  /* Home top rectangle   */
+  // see above for popular posts layout stuff
+  
+
+}
+
+function pvUnsetAdLayout() {
+  
+  jQuery('#button-sidebar-widget').css('display','block');
+  jQuery('#home-top-rectangle-wrap-2').css('display','block');
+  // see above for popular posts layout stuff
+
+  jQuery('.ad-sky-left-additional, .ad-sky-right-additional, .ad-sky-right-additional-2').removeAttr("style");
+      
+  
+}
+
+</script>
+
+    </body>
+</html>

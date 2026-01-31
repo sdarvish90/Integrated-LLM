@@ -1,0 +1,1797 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-L8ZB');</script>
+    <!-- End Google Tag Manager -->
+    <meta charset="utf-8" />
+<noscript><meta http-equiv="Refresh" content="0; URL=/big_pipe/no-js?destination=/trends/pfas-tools" />
+</noscript><meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="/themes/custom/echo/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="canonical" href="https://echo.epa.gov/trends/pfas-tools" />
+<link rel="shortlink" href="https://echo.epa.gov/node/557" />
+
+    <title>PFAS Analytic Tools | ECHO | US EPA</title>
+    <link rel="stylesheet" media="all" href="/assets/css/css_b2QtWEFnNeGY0Stq38WX62xWeRuz8N4cC08Jh_j588k.css?delta=0&amp;language=en&amp;theme=echo&amp;include=eJxVzVEKhDAMRdENqV2SpG20caIpScqMuxdUCvP3ODy4SRRD1laBJ9jgN2AqElaWCDyan0zH-tgukRjvPUPz8p4eSB_M5KJ_mMFKFNBsnSvMzb4desFaRV3ISqCDfLDTHPcQwfACf_8-GA" />
+<link rel="stylesheet" media="all" href="/assets/css/css_1QydhEcwEbbgF_YMBykZ5-GxkhzNT6kkA5CItuzFSvg.css?delta=1&amp;language=en&amp;theme=echo&amp;include=eJxVzVEKhDAMRdENqV2SpG20caIpScqMuxdUCvP3ODy4SRRD1laBJ9jgN2AqElaWCDyan0zH-tgukRjvPUPz8p4eSB_M5KJ_mMFKFNBsnSvMzb4desFaRV3ISqCDfLDTHPcQwfACf_8-GA" />
+<link rel="stylesheet" media="all" href="/assets/css/css_S6msjajB7X0Ud4F-Ap7-at9RhlQ9ibJPhzh1BpLyNmY.css?delta=2&amp;language=en&amp;theme=echo&amp;include=eJxVzVEKhDAMRdENqV2SpG20caIpScqMuxdUCvP3ODy4SRRD1laBJ9jgN2AqElaWCDyan0zH-tgukRjvPUPz8p4eSB_M5KJ_mMFKFNBsnSvMzb4desFaRV3ISqCDfLDTHPcQwfACf_8-GA" />
+<link rel="stylesheet" media="all" href="/assets/css/css_JkODm0T52QUwiBk25zMPfUrUuiUh87KFFfNPfghYzCo.css?delta=3&amp;language=en&amp;theme=echo&amp;include=eJxVzVEKhDAMRdENqV2SpG20caIpScqMuxdUCvP3ODy4SRRD1laBJ9jgN2AqElaWCDyan0zH-tgukRjvPUPz8p4eSB_M5KJ_mMFKFNBsnSvMzb4desFaRV3ISqCDfLDTHPcQwfACf_8-GA" />
+
+    
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-L8ZB"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+  
+
+<!-- EPA header -->
+
+<div class="banner-message epa-header">
+  
+</div>
+
+<div class="skiplinks epa-header" role="navigation" aria-labelledby="skip-to-main--echo">
+  <a id="skip-to-main--echo"
+     href="#main-content"
+     class="skiplinks__link visually-hidden focusable">Skip to main content</a>
+</div>
+<section class="usa-banner epa-header" aria-label="Official government website">
+  <div class="usa-accordion">
+    <header class="usa-banner__header">
+      <div class="usa-banner__inner">
+        <div class="grid-col-auto">
+          <img class="usa-banner__header-flag" src="https://www.epa.gov/themes/epa_theme/images/us_flag_small.png"
+               alt="U.S. flag" height="11px" width="16px">
+        </div>
+        <div class="grid-col-fill tablet:grid-col-auto">
+          <p class="usa-banner__header-text">An official website of the United States government</p>
+          <p class="usa-banner__header-action" aria-hidden="true">Here’s how you know</p></div>
+        <button class="usa-accordion__button usa-banner__button" aria-expanded="false" aria-controls="gov-banner">
+          <span class="usa-banner__button-text">Here’s how you know</span>
+        </button>
+      </div>
+    </header>
+    <div class="usa-banner__content usa-accordion__content" id="gov-banner" hidden="">
+      <div class="grid-row grid-gap-lg">
+        <div class="usa-banner__guidance tablet:grid-col-6">
+          <img class="usa-banner__icon usa-media-block__img"
+               src="https://www.epa.gov/themes/epa_theme/images/icon-dot-gov.svg" alt="Dot gov">
+          <div class="usa-media-block__body">
+            <p>
+              <strong>Official websites use .gov</strong>
+              <br> A <strong>.gov</strong> website belongs to an official government organization in the United States.
+            </p>
+          </div>
+        </div>
+        <div class="usa-banner__guidance tablet:grid-col-6">
+          <img class="usa-banner__icon usa-media-block__img"
+               src="https://www.epa.gov/themes/epa_theme/images/icon-https.svg" alt="HTTPS">
+          <div class="usa-media-block__body">
+            <p>
+              <strong>Secure .gov websites use HTTPS</strong>
+              <br> A <strong>lock</strong> (<span class="icon-lock"><svg xmlns="http://www.w3.org/2000/svg" width="52"
+                                                                         height="64" viewBox="0 0 52 64"
+                                                                         class="usa-banner__lock-image" role="img"
+                                                                         aria-labelledby="banner-lock-title banner-lock-description"><title
+                      id="banner-lock-title">Lock</title><desc id="banner-lock-description">A locked padlock</desc><path
+                      fill="#000000" fill-rule="evenodd"
+                      d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z"></path></svg></span>)
+              or <strong>https://</strong> means you’ve safely connected to the .gov website. Share sensitive
+              information only on official, secure websites.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<header
+  class="l-header js-header-search usa-header usa-header--extended"
+  data-once="header-search"
+>
+  <div class="usa-overlay"></div>
+  <div class="l-constrain">
+    <div class="l-header__navbar">
+      <div class="l-header__branding">
+                        <a class="site-logo" href="https://www.epa.gov" aria-label="Home" title="Home" rel="home">
+          <span class="site-logo__image">
+            <svg
+              class="site-logo__svg-main"
+              aria-hidden="true"
+              viewBox="0 0 454.1 154.7"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m112.8 61.2c-4.8 18.6-22.9 33.3-42.9 33.3-20.1 0-38-14.7-42.9-33.4h.2s9.8 10.3-.2 0c3.1 3.1 6.2 4.4 10.7 4.4s7.7-1.3 10.7-4.4c3.1 3.1 6.3 4.5 10.9 4.4 4.5 0 7.6-1.3 10.7-4.4 3.1 3.1 6.2 4.4 10.7 4.4s7.7-1.3 10.7-4.4c3.1 3.1 6.3 4.5 10.9 4.4 4.3 0 7.4-1.2 10.5-4.3z"
+              ></path>
+              <path
+                d="m113.2 51.2c0-24-19.4-43.5-43.3-43.5-24 0-43.5 19.5-43.5 43.5h39.1c-4.8-1.8-8.1-6.3-8.1-11.6 0-7 5.7-12.5 12.5-12.5 7 0 12.7 5.5 12.7 12.5 0 5.2-3.1 9.6-7.6 11.6z"
+              ></path>
+              <path
+                d="m72.6 147c.7-36.9 29.7-68.8 66.9-70 0 37.2-30 68-66.9 70z"
+              ></path>
+              <path
+                d="m67.1 147c-.7-36.9-29.7-68.8-67.1-70 0 37.2 30.2 68 67.1 70z"
+              ></path>
+              <path
+                d="m240 10.8h-87.9v133.1h87.9v-20.4h-60.3v-36h60.3v-21h-60.3v-35h60.3z"
+              ></path>
+              <path
+                d="m272.8 66.5h27.1c9.1 0 15.2-8.6 15.1-17.7-.1-9-6.1-17.3-15.1-17.3h-25.3v112.4h-27.8v-133.1h62.3c20.2 0 35 17.8 35.2 38 .2 20.4-14.8 38.7-35.2 38.7h-36.3z"
+              ></path>
+              <path
+                d="m315.9 143.9h29.7l12.9-35h54.2l-8.1-21.9h-38.4l18.9-50.7 39.2 107.6h29.7l-53.1-133.1h-33.7z"
+              ></path>
+            </svg>
+            <svg
+              class="site-logo__svg-text"
+              aria-hidden="true"
+              viewBox="0 0 595.4 154.7"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m9 8.5v22.4c0 1.9.2 3.3.5 4.3s.7 1.7 1 2.2c1.2 1.4 2.5 2.4 3.9 2.9 1.5.5 2.8.7 4.1.7 2.4 0 4.2-.4 5.5-1.3 1.3-.8 2.2-1.8 2.8-2.9s.9-2.3 1-3.4.1-2 .1-2.6v-22.3h4.7v22.3 1.7c0 .7-.1 1.5-.4 2.4-.3 1.8-1.2 3.6-2.5 5.4-1.8 2.1-3.8 3.5-6 4.2-2.2.6-4 .9-5.3.9-1.8 0-3.8-.3-6.2-1.1s-4.5-2.3-6.2-4.7c-.5-.8-1-1.8-1.4-3.2-.4-1.3-.6-3.3-.6-5.9v-22z"
+              ></path>
+              <path
+                d="m43.2 22.2v-2.9l4.6.1-.1 4.1c.2-.3.4-.7.8-1.2.3-.5.8-.9 1.4-1.4s1.4-.9 2.3-1.3c.9-.3 2.1-.5 3.4-.4.6 0 1.4.1 2.4.3.9.2 1.9.6 2.9 1.2s1.8 1.5 2.4 2.6c.6 1.2.9 2.8.9 4.7l-.4 17-4.6-.1.4-16c0-.9 0-1.7-.2-2.4-.1-.7-.5-1.3-1.1-1.9-1.2-1.2-2.6-1.8-4.3-1.8s-3.1.5-4.4 1.7-2 3.1-2.1 5.7l-.3 14.5-4.5-.1z"
+              ></path>
+              <path d="m72.9 8.6h5.5v5.1h-5.5zm.5 10.9h4.6v25.1h-4.6z"></path>
+              <path
+                d="m83.5 19.4h4.3v-5.3l4.5-1.5v6.8h5.4v3.4h-5.4v15.1c0 .3 0 .6.1 1 0 .4.1.7.4 1.1.2.4.5.6 1 .8.4.3 1 .4 1.8.4 1 0 1.7-.1 2.2-.2v3.7c-.9.2-2.1.3-3.8.3-2.1 0-3.6-.4-4.6-1.2s-1.5-2.2-1.5-4.2v-16.8h-4.3v-3.4z"
+              ></path>
+              <path
+                d="m106.6 32.9c-.1 2.6.5 4.8 1.7 6.5 1.1 1.7 2.9 2.6 5.3 2.6 1.5 0 2.8-.4 3.9-1.3 1-.8 1.6-2.2 1.8-4h4.6c0 .6-.2 1.4-.4 2.3-.3 1-.8 2-1.7 3-.2.3-.6.6-1 1-.5.4-1 .7-1.7 1.1s-1.5.6-2.4.8c-.9.3-2 .4-3.3.4-7.6-.2-11.3-4.5-11.3-12.9 0-2.5.3-4.8 1-6.8s2-3.7 3.8-5.1c1.2-.8 2.4-1.3 3.7-1.6 1.3-.2 2.2-.3 3-.3 2.7 0 4.8.6 6.3 1.6s2.5 2.3 3.1 3.9c.6 1.5 1 3.1 1.1 4.6.1 1.6.1 2.9 0 4h-17.5m12.9-3c0-.3 0-.7 0-1.1s0-.8-.1-1.2c-.1-.9-.4-1.7-.8-2.5s-1-1.5-1.8-2c-.9-.5-2-.8-3.4-.8-.8 0-1.5.1-2.3.3s-1.5.7-2.2 1.3-1.2 1.3-1.6 2.3-.7 2.2-.8 3.6h13z"
+              ></path>
+              <path
+                d="m148.6 8.6h4.6v32.1c0 1 .1 2.3.2 4h-4.6l-.1-4c-.2.3-.4.7-.7 1.2s-.8 1-1.4 1.5c-1 .7-2 1.2-3.1 1.4-.5.1-1 .2-1.5.3s-.9.1-1.4.1c-.4 0-.8 0-1.3-.1s-1.1-.2-1.7-.3c-1.1-.3-2.3-.9-3.4-1.8s-2.1-2.2-2.9-3.8c-.8-1.7-1.2-3.9-1.2-6.6.1-4.8 1.2-8.3 3.4-10.5 2.1-2.1 4.7-3.2 7.6-3.2 1.3 0 2.4.2 3.4.5.9.3 1.6.7 2.2 1.2.6.4 1 .9 1.3 1.4s.6.8.7 1.1zm.1 23.1c0-1.9-.2-3.3-.5-4.4-.4-1.1-.8-2-1.4-2.6-.5-.7-1.2-1.3-2-1.8-.9-.5-2-.7-3.3-.7-1.7 0-2.9.5-3.8 1.3s-1.6 1.9-2 3.1-.7 2.3-.7 3.4c-.1 1.1-.2 1.9-.1 2.4 0 1.1.1 2.2.3 3.4.2 1.1.5 2.2 1 3.1.5 1 1.2 1.7 2 2.3.9.6 2 .9 3.3.9 1.8 0 3.2-.5 4.2-1.4 1-.8 1.7-1.8 2.1-3s.7-2.4.8-3.4c.1-1.4.1-2.1.1-2.6z"
+              ></path>
+              <path
+                d="m179.6 34.1c0 .6.1 1.3.3 2.1.1.8.5 1.6 1 2.3.5.8 1.4 1.4 2.5 1.9s2.7.8 4.7.8c1.8 0 3.3-.3 4.4-.8s1.9-1.1 2.5-1.8 1-1.5 1.1-2.2.2-1.2.2-1.7c0-1-.2-1.9-.5-2.6-.4-.6-.9-1.2-1.6-1.6-1.4-.8-3.4-1.4-5.9-2-4.9-1.1-8.1-2.2-9.5-3.2s-2.3-2.2-2.9-3.5c-.6-1.2-.8-2.4-.8-3.6.1-3.7 1.5-6.4 4.2-8.1 2.6-1.7 5.7-2.5 9.1-2.5 1.3 0 2.9.2 4.8.5 1.9.4 3.6 1.4 5 3 .5.5.9 1.1 1.2 1.7.3.5.5 1.1.6 1.6.2 1.1.3 2.1.3 2.9h-5c-.2-2.2-1-3.7-2.4-4.5-1.5-.7-3.1-1.1-4.9-1.1-5.1.1-7.7 2-7.8 5.8 0 1.5.5 2.7 1.6 3.5 1 .8 2.6 1.4 4.7 1.9 4 1 6.7 1.8 8.1 2.2.8.2 1.4.5 1.8.7.5.2 1 .5 1.4.9.8.5 1.4 1.1 1.9 1.8s.8 1.4 1.1 2.1c.3 1.4.5 2.5.5 3.4 0 3.3-1.2 6-3.5 8-2.3 2.1-5.8 3.2-10.3 3.3-1.4 0-3.2-.3-5.4-.8-1-.3-2-.7-3-1.2-.9-.5-1.8-1.2-2.5-2.1-.9-1.4-1.5-2.7-1.7-4.1-.3-1.3-.4-2.4-.3-3.2h5z"
+              ></path>
+              <path
+                d="m205.7 19.4h4.3v-5.3l4.5-1.5v6.8h5.4v3.4h-5.4v15.1c0 .3 0 .6.1 1 0 .4.1.7.4 1.1.2.4.5.6 1 .8.4.3 1 .4 1.8.4 1 0 1.7-.1 2.2-.2v3.7c-.9.2-2.1.3-3.8.3-2.1 0-3.6-.4-4.6-1.2s-1.5-2.2-1.5-4.2v-16.8h-4.4z"
+              ></path>
+              <path
+                d="m241 44.6c-.3-1.2-.5-2.5-.4-3.7-.5 1-1.1 1.8-1.7 2.4-.7.6-1.4 1.1-2 1.4-1.4.5-2.7.8-3.7.8-2.8 0-4.9-.8-6.4-2.2s-2.2-3.1-2.2-5.2c0-1 .2-2.3.8-3.7s1.7-2.6 3.5-3.7c1.4-.7 2.9-1.2 4.5-1.5 1.6-.1 2.9-.2 3.9-.2s2.1 0 3.3.1c.1-2.9-.2-4.8-.9-5.6-.5-.6-1.1-1.1-1.9-1.3s-1.6-.4-2.3-.4c-1.1 0-2 .2-2.6.5-.7.3-1.2.7-1.5 1.2s-.5.9-.6 1.4-.2.9-.2 1.2h-4.6c.1-.7.2-1.4.4-2.3.2-.8.6-1.6 1.3-2.5.5-.6 1-1 1.7-1.3.6-.3 1.3-.6 2-.8 1.5-.4 2.8-.6 4.2-.6 1.8 0 3.6.3 5.2.9s2.8 1.6 3.4 2.9c.4.7.6 1.4.7 2s.1 1.2.1 1.8l-.2 12c0 1 .1 3.1.4 6.3h-4.2m-.5-12.1c-.7-.1-1.6-.1-2.6-.1-.5 0-1.2 0-2.1 0-1 .1-2 .3-3 .6s-1.9.8-2.6 1.5c-.8.7-1.2 1.7-1.2 3 0 .4.1.8.2 1.3s.4 1 .8 1.5.9.8 1.6 1.1 1.5.5 2.5.5c2.3 0 4.1-.9 5.2-2.7.5-.8.8-1.7 1-2.7.1-.9.2-2.2.2-4z"
+              ></path>
+              <path
+                d="m250.2 19.4h4.3v-5.3l4.5-1.5v6.8h5.4v3.4h-5.4v15.1c0 .3 0 .6.1 1 0 .4.1.7.4 1.1.2.4.5.6 1 .8.4.3 1 .4 1.8.4 1 0 1.7-.1 2.2-.2v3.7c-.9.2-2.1.3-3.8.3-2.1 0-3.6-.4-4.6-1.2s-1.5-2.2-1.5-4.2v-16.8h-4.3v-3.4z"
+              ></path>
+              <path
+                d="m273.3 32.9c-.1 2.6.5 4.8 1.7 6.5 1.1 1.7 2.9 2.6 5.3 2.6 1.5 0 2.8-.4 3.9-1.3 1-.8 1.6-2.2 1.8-4h4.6c0 .6-.2 1.4-.4 2.3-.3 1-.8 2-1.7 3-.2.3-.6.6-1 1-.5.4-1 .7-1.7 1.1s-1.5.6-2.4.8c-.9.3-2 .4-3.3.4-7.6-.2-11.3-4.5-11.3-12.9 0-2.5.3-4.8 1-6.8s2-3.7 3.8-5.1c1.2-.8 2.4-1.3 3.7-1.6 1.3-.2 2.2-.3 3-.3 2.7 0 4.8.6 6.3 1.6s2.5 2.3 3.1 3.9c.6 1.5 1 3.1 1.1 4.6.1 1.6.1 2.9 0 4h-17.5m12.9-3c0-.3 0-.7 0-1.1s0-.8-.1-1.2c-.1-.9-.4-1.7-.8-2.5s-1-1.5-1.8-2c-.9-.5-2-.8-3.4-.8-.8 0-1.5.1-2.3.3s-1.5.7-2.2 1.3-1.2 1.3-1.6 2.3-.7 2.2-.8 3.6h13z"
+              ></path>
+              <path
+                d="m301 37.2c0 .5.1 1 .2 1.4.1.5.4 1 .8 1.5s.9.8 1.6 1.1 1.6.5 2.7.5c1 0 1.8-.1 2.5-.3s1.3-.6 1.7-1.2c.5-.7.8-1.5.8-2.4 0-1.2-.4-2-1.3-2.5s-2.2-.9-4.1-1.2c-1.3-.3-2.4-.6-3.6-1-1.1-.3-2.1-.8-3-1.3s-1.5-1.2-2-2.1c-.5-.8-.8-1.9-.8-3.2 0-2.4.9-4.2 2.6-5.6 1.7-1.3 4-2 6.8-2.1 1.6 0 3.3.3 5 .8 1.7.6 2.9 1.6 3.7 3.1.4 1.4.6 2.6.6 3.7h-4.6c0-1.8-.6-3-1.7-3.5-1.1-.4-2.1-.6-3.1-.6-.2 0-.5 0-1 0s-1.1.2-1.7.4-1.1.5-1.5 1.1c-.5.5-.7 1.2-.7 2.1 0 1.1.5 1.9 1.3 2.3.7.4 1.5.7 2.1.9 3.3.7 5.6 1.3 6.9 1.8 1.3.4 2.2 1 2.8 1.7.7.7 1.1 1.4 1.4 2.2s.4 1.6.4 2.5c0 1.4-.3 2.7-.9 3.8s-1.4 2-2.4 2.6c-1.1.6-2.2 1-3.4 1.3s-2.5.4-3.8.4c-2.5 0-4.7-.6-6.6-1.8-1.8-1.2-2.8-3.3-2.9-6.3z"
+              ></path>
+              <path
+                d="m3.4 58.5h21.9v4.2h-17.1v11.3h16.3v4.2h-16.3v12.1h17.5v4.3h-22.3z"
+              ></path>
+              <path
+                d="m34.7 72.4-.1-2.9h4.6v4.1c.2-.3.4-.8.7-1.2.3-.5.8-1 1.3-1.5.6-.5 1.4-1 2.3-1.3s2-.5 3.4-.5c.6 0 1.4.1 2.4.2.9.2 1.9.5 2.9 1.1s1.8 1.4 2.5 2.5c.6 1.2 1 2.7 1 4.7v17.1h-4.6v-16c0-.9-.1-1.7-.2-2.4-.2-.7-.5-1.3-1.1-1.9-1.2-1.1-2.6-1.7-4.3-1.7s-3.1.6-4.3 1.8c-1.3 1.2-2 3.1-2 5.7v14.5h-4.5z"
+              ></path>
+              <path
+                d="m60.3 69.5h5.1l7.7 19.9 7.6-19.9h5l-10.6 25.1h-4.6z"
+              ></path>
+              <path d="m91.4 58.6h5.5v5.1h-5.5zm.5 10.9h4.6v25.1h-4.6z"></path>
+              <path
+                d="m106 74.7c0-1.8-.1-3.5-.3-5.1h4.6l.1 4.9c.5-1.8 1.4-3 2.5-3.7s2.2-1.2 3.3-1.3c1.4-.2 2.4-.2 3.1-.1v4.6c-.2-.1-.5-.2-.9-.2-.3 0-.8 0-1.3 0-1.3 0-2.4.2-3.3.5-.9.4-1.5.9-2 1.6-.9 1.4-1.4 3.2-1.3 5.4v13.3h-4.6v-19.9z"
+              ></path>
+              <path
+                d="m123.3 82.4c0-1.6.2-3.2.6-4.8s1.1-3 2-4.4c1-1.3 2.2-2.4 3.8-3.2s3.6-1.2 5.9-1.2c2.4 0 4.5.4 6.1 1.3 1.5.9 2.7 2 3.6 3.3s1.5 2.8 1.8 4.3c.2.8.3 1.5.4 2.2v2.2c0 3.7-1 6.9-3 9.5s-5.1 4-9.3 4c-4-.1-7-1.4-9-3.9-1.9-2.5-2.9-5.6-2.9-9.3m4.8-.3c0 2.7.6 5 1.8 6.9 1.2 2 3 3 5.6 3.1.9 0 1.8-.2 2.7-.5.8-.3 1.6-.9 2.3-1.7s1.3-1.9 1.8-3.2c.4-1.3.6-2.9.6-4.7-.1-6.4-2.5-9.6-7.1-9.6-.7 0-1.5.1-2.4.3-.8.3-1.7.8-2.5 1.6-.8.7-1.4 1.7-1.9 3-.6 1.1-.9 2.8-.9 4.8z"
+              ></path>
+              <path
+                d="m155.9 72.4-.1-2.9h4.6v4.1c.2-.3.4-.8.7-1.2.3-.5.8-1 1.3-1.5.6-.5 1.4-1 2.3-1.3s2-.5 3.4-.5c.6 0 1.4.1 2.4.2.9.2 1.9.5 2.9 1.1s1.8 1.4 2.5 2.5c.6 1.2 1 2.7 1 4.7v17.1h-4.6v-16c0-.9-.1-1.7-.2-2.4-.2-.7-.5-1.3-1.1-1.9-1.2-1.1-2.6-1.7-4.3-1.7s-3.1.6-4.3 1.8c-1.3 1.2-2 3.1-2 5.7v14.5h-4.6z"
+              ></path>
+              <path
+                d="m185.7 72.8-.1-3.3h4.6v3.6c1.2-1.9 2.6-3.2 4.1-3.7 1.5-.4 2.7-.6 3.8-.6 1.4 0 2.6.2 3.6.5.9.3 1.7.7 2.3 1.1 1.1 1 1.9 2 2.3 3.1.2-.4.5-.8 1-1.3.4-.5.9-1 1.5-1.6.6-.5 1.5-.9 2.5-1.3 1-.3 2.2-.5 3.5-.5.9 0 1.9.1 3 .3 1 .2 2 .7 3 1.3s1.7 1.5 2.3 2.7.9 2.7.9 4.6v16.9h-4.6v-16.2c0-1.1-.1-2-.2-2.5-.1-.6-.3-1-.6-1.3-.4-.6-1-1.2-1.8-1.6s-1.8-.6-3.1-.6c-1.5 0-2.7.4-3.6 1-.4.3-.8.5-1.1.9-.3.3-.6.6-.8.8-.5.8-.8 1.8-1 2.8-.1 1.1-.2 2-.1 2.6v14.1h-4.6v-16.7c0-1.6-.5-2.9-1.4-4-.9-1-2.3-1.5-4.2-1.5-1.6 0-2.9.4-3.8 1.1s-1.5 1.2-1.8 1.7c-.5.7-.8 1.5-.9 2.5-.1.9-.2 1.8-.2 2.6v14.3h-4.5z"
+              ></path>
+              <path
+                d="m236.2 82.9c-.1 2.6.5 4.8 1.7 6.5 1.1 1.7 2.9 2.6 5.3 2.6 1.5 0 2.8-.4 3.9-1.3 1-.8 1.6-2.2 1.8-4h4.6c0 .6-.2 1.4-.4 2.3-.3 1-.8 2-1.7 3-.2.3-.6.6-1 1-.5.4-1 .7-1.7 1.1s-1.5.6-2.4.8c-.9.3-2 .4-3.3.4-7.6-.2-11.3-4.5-11.3-12.9 0-2.5.3-4.8 1-6.8s2-3.7 3.8-5.1c1.2-.8 2.4-1.3 3.7-1.6 1.3-.2 2.2-.3 3-.3 2.7 0 4.8.6 6.3 1.6s2.5 2.3 3.1 3.9c.6 1.5 1 3.1 1.1 4.6.1 1.6.1 2.9 0 4h-17.5m12.8-3c0-.3 0-.7 0-1.1s0-.8-.1-1.2c-.1-.9-.4-1.7-.8-2.5s-1-1.5-1.8-2c-.9-.5-2-.8-3.4-.8-.8 0-1.5.1-2.3.3s-1.5.7-2.2 1.3-1.2 1.3-1.6 2.3-.7 2.2-.8 3.6z"
+              ></path>
+              <path
+                d="m261.4 72.4-.1-2.9h4.6v4.1c.2-.3.4-.8.7-1.2.3-.5.8-1 1.3-1.5.6-.5 1.4-1 2.3-1.3s2-.5 3.4-.5c.6 0 1.4.1 2.4.2.9.2 1.9.5 2.9 1.1s1.8 1.4 2.5 2.5c.6 1.2 1 2.7 1 4.7v17.1h-4.6v-16c0-.9-.1-1.7-.2-2.4-.2-.7-.5-1.3-1.1-1.9-1.2-1.1-2.6-1.7-4.3-1.7s-3.1.6-4.3 1.8c-1.3 1.2-2 3.1-2 5.7v14.5h-4.6z"
+              ></path>
+              <path
+                d="m288 69.4h4.3v-5.2l4.5-1.5v6.8h5.4v3.4h-5.4v15.1c0 .3 0 .6.1 1 0 .4.1.7.4 1.1.2.4.5.6 1 .8.4.3 1 .4 1.8.4 1 0 1.7-.1 2.2-.2v3.6c-.9.2-2.1.3-3.8.3-2.1 0-3.6-.4-4.6-1.2s-1.5-2.2-1.5-4.2v-16.8h-4.3v-3.4z"
+              ></path>
+              <path
+                d="m323.3 94.6c-.3-1.2-.5-2.5-.4-3.7-.5 1-1.1 1.8-1.7 2.4-.7.6-1.4 1.1-2 1.4-1.4.5-2.7.8-3.7.8-2.8 0-4.9-.8-6.4-2.2s-2.2-3.1-2.2-5.2c0-1 .2-2.3.8-3.7s1.7-2.6 3.5-3.7c1.4-.7 2.9-1.2 4.5-1.5 1.6-.1 2.9-.2 3.9-.2s2.1 0 3.3.1c.1-2.9-.2-4.8-.9-5.6-.5-.6-1.1-1.1-1.9-1.3s-1.6-.4-2.3-.4c-1.1 0-2 .2-2.6.5-.7.3-1.2.7-1.5 1.2s-.5.9-.6 1.4-.2.9-.2 1.2h-4.6c.1-.7.2-1.4.4-2.3.2-.8.6-1.6 1.3-2.5.5-.6 1-1 1.7-1.3.6-.3 1.3-.6 2-.8 1.5-.4 2.8-.6 4.2-.6 1.8 0 3.6.3 5.2.9s2.8 1.6 3.4 2.9c.4.7.6 1.4.7 2s.1 1.2.1 1.8l-.2 12c0 1 .1 3.1.4 6.3zm-.5-12.2c-.7-.1-1.6-.1-2.6-.1-.5 0-1.2 0-2.1 0-1 .1-2 .3-3 .6s-1.9.8-2.6 1.5c-.8.7-1.2 1.7-1.2 3 0 .4.1.8.2 1.3s.4 1 .8 1.5.9.8 1.6 1.1 1.5.5 2.5.5c2.3 0 4.1-.9 5.2-2.7.5-.8.8-1.7 1-2.7.1-.9.2-2.2.2-4z"
+              ></path>
+              <path d="m336.4 58.6h4.6v36.1h-4.6z"></path>
+              <path
+                d="m364.1 58.5h11.7c2.1 0 3.9.1 5.5.4.8.2 1.5.4 2.2.9.7.4 1.3.9 1.8 1.6 1.7 1.9 2.6 4.2 2.6 7 0 2.7-.9 5.1-2.8 7.1-.8.9-2 1.7-3.6 2.2-1.6.6-3.9.9-6.9.9h-5.7v16.1h-4.8zm4.8 15.9h5.8c.8 0 1.7-.1 2.6-.2s1.8-.3 2.6-.7 1.5-1 2-1.9c.5-.8.8-2 .8-3.4s-.2-2.5-.7-3.3-1.1-1.3-1.9-1.7c-1.6-.5-3.1-.8-4.5-.7h-6.8v11.9z"
+              ></path>
+              <path
+                d="m393.8 74.7c0-1.8-.1-3.5-.3-5.1h4.6l.1 4.9c.5-1.8 1.4-3 2.5-3.7s2.2-1.2 3.3-1.3c1.4-.2 2.4-.2 3.1-.1v4.6c-.2-.1-.5-.2-.9-.2-.3 0-.8 0-1.3 0-1.3 0-2.4.2-3.3.5-.9.4-1.5.9-2 1.6-.9 1.4-1.4 3.2-1.3 5.4v13.3h-4.6v-19.9z"
+              ></path>
+              <path
+                d="m411.2 82.4c0-1.6.2-3.2.6-4.8s1.1-3 2-4.4c1-1.3 2.2-2.4 3.8-3.2s3.6-1.2 5.9-1.2c2.4 0 4.5.4 6.1 1.3 1.5.9 2.7 2 3.6 3.3s1.5 2.8 1.8 4.3c.2.8.3 1.5.4 2.2v2.2c0 3.7-1 6.9-3 9.5s-5.1 4-9.3 4c-4-.1-7-1.4-9-3.9-1.9-2.5-2.9-5.6-2.9-9.3m4.8-.3c0 2.7.6 5 1.8 6.9 1.2 2 3 3 5.6 3.1.9 0 1.8-.2 2.7-.5.8-.3 1.6-.9 2.3-1.7s1.3-1.9 1.8-3.2c.4-1.3.6-2.9.6-4.7-.1-6.4-2.5-9.6-7.1-9.6-.7 0-1.5.1-2.4.3-.8.3-1.7.8-2.5 1.6-.8.7-1.4 1.7-1.9 3-.7 1.1-.9 2.8-.9 4.8z"
+              ></path>
+              <path
+                d="m439.8 69.4h4.3v-5.2l4.5-1.5v6.8h5.4v3.4h-5.4v15.1c0 .3 0 .6.1 1 0 .4.1.7.4 1.1.2.4.5.6 1 .8.4.3 1 .4 1.8.4 1 0 1.7-.1 2.2-.2v3.6c-.9.2-2.1.3-3.8.3-2.1 0-3.6-.4-4.6-1.2s-1.5-2.2-1.5-4.2v-16.8h-4.3v-3.4z"
+              ></path>
+              <path
+                d="m462.9 82.9c-.1 2.6.5 4.8 1.7 6.5 1.1 1.7 2.9 2.6 5.3 2.6 1.5 0 2.8-.4 3.9-1.3 1-.8 1.6-2.2 1.8-4h4.6c0 .6-.2 1.4-.4 2.3-.3 1-.8 2-1.7 3-.2.3-.6.6-1 1-.5.4-1 .7-1.7 1.1s-1.5.6-2.4.8c-.9.3-2 .4-3.3.4-7.6-.2-11.3-4.5-11.3-12.9 0-2.5.3-4.8 1-6.8s2-3.7 3.8-5.1c1.2-.8 2.4-1.3 3.7-1.6 1.3-.2 2.2-.3 3-.3 2.7 0 4.8.6 6.3 1.6s2.5 2.3 3.1 3.9c.6 1.5 1 3.1 1.1 4.6.1 1.6.1 2.9 0 4h-17.5m12.9-3c0-.3 0-.7 0-1.1s0-.8-.1-1.2c-.1-.9-.4-1.7-.8-2.5s-1-1.5-1.8-2c-.9-.5-2-.8-3.4-.8-.8 0-1.5.1-2.3.3s-1.5.7-2.2 1.3-1.2 1.3-1.6 2.3-.7 2.2-.8 3.6z"
+              ></path>
+              <path
+                d="m501.8 77.5c0-.3 0-.8-.1-1.4s-.3-1.1-.6-1.8c-.2-.6-.7-1.2-1.4-1.6s-1.6-.6-2.7-.6c-1.5 0-2.7.4-3.5 1.2-.9.8-1.5 1.7-1.9 2.8s-.6 2.2-.7 3.2c-.1 1.1-.2 1.8-.1 2.4 0 1.3.1 2.5.3 3.7s.5 2.3.9 3.3c.8 2 2.4 3 4.8 3.1 1.9 0 3.3-.7 4.1-1.9.8-1.1 1.2-2.3 1.2-3.6h4.6c-.2 2.5-1.1 4.6-2.7 6.3-1.7 1.8-4.1 2.7-7.1 2.7-.9 0-2.1-.2-3.6-.6-.7-.2-1.4-.6-2.2-1s-1.5-1-2.2-1.7c-.7-.9-1.4-2.1-2-3.6s-.9-3.5-.9-6.1.4-4.8 1.1-6.6c.7-1.7 1.6-3.1 2.7-4.2 1.1-1 2.3-1.8 3.6-2.2s2.5-.6 3.7-.6h1.6c.6.1 1.3.2 1.9.4.7.2 1.4.5 2.1 1 .7.4 1.3 1 1.8 1.7.9 1.1 1.4 2.1 1.7 3.1.2 1 .3 1.8.3 2.6z"
+              ></path>
+              <path
+                d="m509.3 69.4h4.3v-5.2l4.5-1.5v6.8h5.4v3.4h-5.4v15.1c0 .3 0 .6.1 1 0 .4.1.7.4 1.1.2.4.5.6 1 .8.4.3 1 .4 1.8.4 1 0 1.7-.1 2.2-.2v3.6c-.9.2-2.1.3-3.8.3-2.1 0-3.6-.4-4.6-1.2s-1.5-2.2-1.5-4.2v-16.8h-4.3v-3.4z"
+              ></path>
+              <path d="m529.2 58.6h5.5v5.1h-5.5zm.5 10.9h4.6v25.1h-4.6z"></path>
+              <path
+                d="m541.8 82.4c0-1.6.2-3.2.6-4.8s1.1-3 2-4.4c1-1.3 2.2-2.4 3.8-3.2s3.6-1.2 5.9-1.2c2.4 0 4.5.4 6.1 1.3 1.5.9 2.7 2 3.6 3.3s1.5 2.8 1.8 4.3c.2.8.3 1.5.4 2.2v2.2c0 3.7-1 6.9-3 9.5s-5.1 4-9.3 4c-4-.1-7-1.4-9-3.9-1.9-2.5-2.9-5.6-2.9-9.3m4.7-.3c0 2.7.6 5 1.8 6.9 1.2 2 3 3 5.6 3.1.9 0 1.8-.2 2.7-.5.8-.3 1.6-.9 2.3-1.7s1.3-1.9 1.8-3.2c.4-1.3.6-2.9.6-4.7-.1-6.4-2.5-9.6-7.1-9.6-.7 0-1.5.1-2.4.3-.8.3-1.7.8-2.5 1.6-.8.7-1.4 1.7-1.9 3-.6 1.1-.9 2.8-.9 4.8z"
+              ></path>
+              <path
+                d="m574.3 72.4-.1-2.9h4.6v4.1c.2-.3.4-.8.7-1.2.3-.5.8-1 1.3-1.5.6-.5 1.4-1 2.3-1.3s2-.5 3.4-.5c.6 0 1.4.1 2.4.2.9.2 1.9.5 2.9 1.1s1.8 1.4 2.5 2.5c.6 1.2 1 2.7 1 4.7v17.1h-4.6v-16c0-.9-.1-1.7-.2-2.4-.2-.7-.5-1.3-1.1-1.9-1.2-1.1-2.6-1.7-4.3-1.7s-3.1.6-4.3 1.8c-1.3 1.2-2 3.1-2 5.7v14.5h-4.6z"
+              ></path>
+              <path
+                d="m14.8 108.5h5.2l14.1 36.1h-5.3l-3.8-9.4h-16.2l-3.8 9.4h-5zm-4.4 22.7h13.3l-6.5-17.8z"
+              ></path>
+              <path
+                d="m44.4 146.5c.1.7.2 1.4.4 1.9.2.6.5 1.1.9 1.6.8.9 2.3 1.4 4.4 1.5 1.6 0 2.8-.3 3.7-.9s1.5-1.4 1.9-2.4c.4-1.1.6-2.3.7-3.7s.1-2.9.1-4.6c-.5.9-1.1 1.7-1.8 2.3s-1.5 1-2.3 1.3c-1.7.4-3 .6-3.9.6-1.2 0-2.4-.2-3.8-.6s-2.6-1.2-3.7-2.5c-1-1.3-1.7-2.8-2.1-4.4s-.6-3.2-.6-4.8c0-4.3 1.1-7.4 3.2-9.5 2-2.1 4.6-3.1 7.6-3.1 1.3 0 2.3.1 3.2.4s1.6.6 2.1 1c.6.4 1.1.8 1.5 1.2.3.4.6.8.9 1.2v-3.4h4.4l-.1 4.5v15.7c0 2.9-.1 5.2-.2 6.7-.2 1.6-.5 2.8-1 3.7-1.1 1.9-2.6 3.2-4.6 3.7-1.9.6-3.8.8-5.6.8-2.4 0-4.3-.3-5.6-.8-1.4-.5-2.4-1.2-3-2s-1-1.7-1.2-2.7c-.2-.9-.3-1.8-.4-2.7zm5.3-5.8c1.4 0 2.5-.2 3.3-.7s1.5-1.1 2-1.8c.5-.6.9-1.4 1.2-2.5.3-1 .4-2.6.4-4.8 0-1.6-.2-2.9-.4-3.9-.3-1-.8-1.8-1.4-2.4-1.3-1.4-3-2.2-5.2-2.2-1.4 0-2.5.3-3.4 1s-1.6 1.5-2 2.4c-.4 1-.7 2-.9 3s-.2 2-.2 2.8c0 1 .1 1.9.3 2.9.2 1.1.5 2.1 1 3s1.2 1.6 2 2.2c.8.7 1.9 1 3.3 1z"
+              ></path>
+              <path
+                d="m73.3 132.9c-.1 2.6.5 4.8 1.7 6.5 1.1 1.7 2.9 2.6 5.3 2.6 1.5 0 2.8-.4 3.9-1.3 1-.8 1.6-2.2 1.8-4h4.6c0 .6-.2 1.4-.4 2.3-.3 1-.8 2-1.7 3-.2.3-.6.6-1 1-.5.4-1 .7-1.7 1.1s-1.5.6-2.4.8c-.9.3-2 .4-3.3.4-7.6-.2-11.3-4.5-11.3-12.9 0-2.5.3-4.8 1-6.8s2-3.7 3.8-5.1c1.2-.8 2.4-1.3 3.7-1.6 1.3-.2 2.2-.3 3-.3 2.7 0 4.8.6 6.3 1.6s2.5 2.3 3.1 3.9c.6 1.5 1 3.1 1.1 4.6.1 1.6.1 2.9 0 4h-17.5m12.9-3c0-.3 0-.7 0-1.1s0-.8-.1-1.2c-.1-.9-.4-1.7-.8-2.5s-1-1.5-1.8-2.1c-.9-.5-2-.8-3.4-.8-.8 0-1.5.1-2.3.3s-1.5.7-2.2 1.3-1.2 1.3-1.6 2.3-.7 2.2-.8 3.7z"
+              ></path>
+              <path
+                d="m98.6 122.4-.1-2.9h4.6v4.1c.2-.3.4-.8.7-1.2.3-.5.8-1 1.3-1.5.6-.5 1.4-1 2.3-1.3s2-.5 3.4-.5c.6 0 1.4.1 2.4.2.9.2 1.9.5 2.9 1.1s1.8 1.4 2.5 2.5c.6 1.2 1 2.7 1 4.7v17.1h-4.6v-16c0-.9-.1-1.7-.2-2.4-.2-.7-.5-1.3-1.1-1.9-1.2-1.1-2.6-1.7-4.3-1.7s-3.1.6-4.3 1.8c-1.3 1.2-2 3.1-2 5.7v14.5h-4.6z"
+              ></path>
+              <path
+                d="m142.7 127.5c0-.3 0-.8-.1-1.4s-.3-1.1-.6-1.8c-.2-.6-.7-1.2-1.4-1.6s-1.6-.6-2.7-.6c-1.5 0-2.7.4-3.5 1.2-.9.8-1.5 1.7-1.9 2.8s-.6 2.2-.7 3.2c-.1 1.1-.2 1.8-.1 2.4 0 1.3.1 2.5.3 3.7s.5 2.3.9 3.3c.8 2 2.4 3 4.8 3.1 1.9 0 3.3-.7 4.1-1.9.8-1.1 1.2-2.3 1.2-3.6h4.6c-.2 2.5-1.1 4.6-2.7 6.3-1.7 1.8-4.1 2.7-7.1 2.7-.9 0-2.1-.2-3.6-.6-.7-.2-1.4-.6-2.2-1s-1.5-1-2.2-1.7c-.7-.9-1.4-2.1-2-3.6s-.9-3.5-.9-6.1.4-4.8 1.1-6.6c.7-1.7 1.6-3.1 2.7-4.2 1.1-1 2.3-1.8 3.6-2.2s2.5-.6 3.7-.6h1.6c.6.1 1.3.2 1.9.4.7.2 1.4.5 2.1 1 .7.4 1.3 1 1.8 1.7.9 1.1 1.4 2.1 1.7 3.1.2 1 .3 1.8.3 2.6z"
+              ></path>
+              <path
+                d="m164.8 144.8-3.4 9.3h-4.7l3.8-9.6-10.3-25h5.2l7.6 19.8 7.7-19.8h5z"
+              ></path>
+            </svg>
+          </span>
+        </a>
+                      </div>
+      <div class="l-header__search" id="header-search-drawer">
+        <form
+          class="usa-search usa-search--small usa-search--epa"
+          method="get"
+          action="https://search.epa.gov/epasearch"
+        >
+          <div role="search">
+            <label class="usa-search__label usa-sr-only" for="search-box"
+              >Search</label
+            >
+            <input
+              class="usa-input"
+              id="search-box"
+              type="search"
+              name="querytext"
+              placeholder="Search EPA.gov"
+            />
+            <button class="button" type="submit" aria-label="Search">
+              <svg class="icon usa-search__submit-icon" aria-hidden="true">
+                <use
+                  href="/themes/custom/epa_uswds/images/sprite.artifact.svg#magnifying-glass"
+                ></use>
+              </svg>
+              <span class="usa-search__submit-text">Search</span>
+            </button>
+            <input type="hidden" name="areaname" value="" />
+            <input type="hidden" name="areacontacts" value="" />
+            <input type="hidden" name="areasearchurl" value="" />
+            <input type="hidden" name="typeofsearch" value="epa" />
+            <input type="hidden" name="result_template" value="" />
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="l-header__nav">
+    <nav
+      class="usa-nav usa-nav--epa"
+      role="navigation"
+      aria-label="Primary navigation"
+    >
+      <div class="usa-nav__inner">
+        <button type="button" class="usa-nav__close" aria-label="Close">
+          <svg class="icon icon--nav-close" aria-hidden="true" role="img">
+            <title>Primary navigation</title>
+            <use
+              href="/themes/epa_theme/images/sprite.artifact.svg#xmark"
+            ></use>
+          </svg>
+        </button>
+        <div class="usa-nav__menu">
+          <ul class="menu menu--main menu--accordion usa-accordion">
+            <li class="menu__item">
+              <a
+                href="https://www.epa.gov/environmental-topics"
+                class="menu__link usa-nav__link"
+              >
+                Environmental Topics
+              </a>
+            </li>
+
+            <li class="menu__item">
+              <a
+                href="https://www.epa.gov/laws-regulations"
+                title="View links to regulatory information by topic and sector, and to top pages about environmental laws, regulations, policies, compliance, and enforcement"    
+                class="menu__link usa-nav__link"
+              >
+                Laws &amp; Regulations
+              </a>
+            </li>
+
+            <li class="menu__item">
+              <a
+                href="https://www.epa.gov/report-violation"
+                class="menu__link usa-nav__link"
+              >
+                Report a Violation
+              </a>
+            </li>
+
+            <li class="menu__item">
+              <a
+                class="menu__link usa-nav__link"
+                href="https://www.epa.gov/aboutepa"
+              >
+                About EPA
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
+
+
+<main id="main-content" class="main" role="main" tabindex="-1">
+  <div class="l-page padding-top-0">
+    <div class="padding-left-2 padding-right-2">
+      <article class=" article">
+        
+<header>
+  <span data-big-pipe-placeholder-id="callback=Drupal%5Cblock%5CBlockViewBuilder%3A%3AlazyBuilder&amp;args%5B0%5D=echo_site_branding&amp;args%5B1%5D=full&amp;args%5B2%5D&amp;token=9a0HfJL6Ki6au7tD0cANVA8jywXxiDONuQktCRIYS1k">
+</span><div id="block-mainmenu">
+  
+    
+      
+<ul id="superfish-main" class="menu sf-menu sf-main sf-horizontal sf-style-none" role="menu" aria-label="Menu">
+  
+
+            
+  <li id="main-menu-link-contenta737b389-e6c1-408a-a3cd-23cd330c3d8d" class="sf-depth-1 menuparent sf-first" role="none">
+    
+          <a href="/" title="" class="sf-depth-1 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Search Options</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+            
+  <li id="main-menu-link-content07d1512a-809b-455c-a3b4-23d06c0f319b" class="sf-depth-2 menuparent sf-first" role="none">
+    
+          <span class="sf-depth-2 menuparent nolink" role="menuitem" aria-haspopup="true" aria-expanded="false">Cross Program</span>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-contentf9e959f2-7fbd-44af-ac91-09a7c2dcb8aa" class="sf-depth-3 sf-no-children sf-first" role="none">
+    
+          <a href="/facilities/facility-search?mediaSelected=all" class="sf-depth-3" role="menuitem">All Media Programs Facility Search</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content36e95b02-1da3-4ea9-bcff-193663f29dc4" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/facilities/facility-search/results?mediaSelected=fac" class="sf-depth-3" role="menuitem">Map All Facilities</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content30396e9b-3280-4035-a7c2-4409bf63bbc1" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/facilities/compliance-screener" title="" class="sf-depth-3" role="menuitem">Corporate Compliance Screener</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content55742b8b-1650-46f5-a479-ebfe52742ab6" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/tools/echo-notify" title="" class="sf-depth-3" role="menuitem">ECHO Notify</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-content227bf9c5-20b7-476a-b2c2-7c779740b2d3" class="sf-depth-2 menuparent" role="none">
+    
+          <a href="/" title="" class="sf-depth-2 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Air</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content5996f5fc-f74c-4405-adc6-435ab4ea4f74" class="sf-depth-3 sf-no-children sf-first" role="none">
+    
+          <a href="/facilities/facility-search?mediaSelected=caa" class="sf-depth-3" role="menuitem">Air Facility Search</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentfd4c2717-fcc6-42da-9f2e-c7e7a45f1c37" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/facilities/facility-search/results?mediaSelected=caa" class="sf-depth-3" role="menuitem">Map Air Facilities</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content51b14d27-a025-4fb5-82b5-9a20abbc3e84" class="sf-depth-3 sf-no-children sf-last" role="none">
+    
+          <a href="/trends/air-monitoring-stations" class="sf-depth-3" role="menuitem">ECHO Clean Air Tracking Tool (ECATT)</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-content8d145819-0ed6-4f12-97b6-d2b398b57b87" class="sf-depth-2 menuparent" role="none">
+    
+          <span class="sf-depth-2 menuparent nolink" role="menuitem" aria-haspopup="true" aria-expanded="false">Wastewater/Stormwater/Biosolids (CWA)</span>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content16701670-d07a-4315-b58c-f34bef4c76af" class="sf-depth-3 sf-no-children sf-first" role="none">
+    
+          <a href="/facilities/facility-search?mediaSelected=cwa" class="sf-depth-3" role="menuitem">Wastewater/Stormwater/Biosolids Facility Search</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentc70c8939-03f7-4f6e-a434-511a669d8dca" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/facilities/facility-search?mediaSelected=bio" class="sf-depth-3" role="menuitem">Biosolids Facility Search</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content9f4187c9-c500-4a49-ac20-a4f9696b543e" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/facilities/facility-search?mediaSelected=bioAnnual" class="sf-depth-3" role="menuitem">Biosolids Annual Report Search</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contente8d5e984-cce5-4c31-a8b6-b310d8d62092" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/facilities/facility-search?mediaSelected=msgp" class="sf-depth-3" role="menuitem">Industrial Stormwater Facility Search</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content2c9c3638-d0cd-4987-a2fa-6a088f1517c3" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/facilities/facility-search/results?mediaSelected=cwa" class="sf-depth-3" role="menuitem">Map Water Facilities</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content78817e3a-2e00-48e7-9b23-b7938edd7b0c" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/trends/loading-tool/water-pollution-search" title="" class="sf-depth-3" role="menuitem">Water Pollutant Loading Tool</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content00f3572c-fb38-48d6-9312-3c7b0db421bb" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/trends/npdes-dmr-non-receipt-status" title="" class="sf-depth-3" role="menuitem">NPDES DMR Non-Receipt Status Search</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content6007e2d0-9d74-4363-be1c-332fac83920f" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/facilities/npdes-noncompliance-search" class="sf-depth-3" role="menuitem">Quarterly NPDES Noncompliance Report Search</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content682fd404-cd0f-4766-84ed-2cc7b117c59d" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/npdes-noncompliance-annual-report" class="sf-depth-3" role="menuitem">NPDES Noncompliance Annual Report</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-content5526fa51-6a7f-41c9-bd3d-5bed934c422d" class="sf-depth-2 menuparent" role="none">
+    
+          <a href="/" title="" class="sf-depth-2 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Hazardous Waste</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content8d1e68c4-5300-4d47-91da-0b597ced3874" class="sf-depth-3 sf-no-children sf-first" role="none">
+    
+          <a href="/facilities/facility-search?mediaSelected=rcra" class="sf-depth-3" role="menuitem">Hazardous Waste Facility Search</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentf75f1b03-54f1-47da-9c8e-212dc8399411" class="sf-depth-3 sf-no-children sf-last" role="none">
+    
+          <a href="/facilities/facility-search/results?mediaSelected=rcra" class="sf-depth-3" role="menuitem">Map Hazardous Waste Facilities</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-content900e0812-3d7d-4708-a38c-796ed591ef2b" class="sf-depth-2 menuparent sf-last" role="none">
+    
+          <a href="/" title="" class="sf-depth-2 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Drinking Water</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content80e91ff9-c51b-4d00-93b6-b79b5d4b4613" class="sf-depth-3 sf-no-children sf-first" role="none">
+    
+          <a href="/facilities/facility-search?mediaSelected=sdwa" class="sf-depth-3" role="menuitem">Drinking Water System Search</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-contentdee47242-ae82-41ac-a261-922d41cd2a00" class="active-trail sf-depth-1 menuparent" role="none">
+    
+          <a href="/" title="" class="sf-depth-1 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Analyze Trends</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+            
+  <li id="main-menu-link-contentdfe8f512-3072-4a5f-8844-eb2eeb195c63" class="sf-depth-2 menuparent sf-first" role="none">
+    
+          <a href="/" title="" class="sf-depth-2 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Track Performance</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content52187ada-aced-4804-9e63-a115197f9e1d" class="sf-depth-3 sf-no-children sf-first" role="none">
+    
+          <a href="/trends/comparative-maps-dashboards/state-air-dashboard" class="sf-depth-3" role="menuitem">EPA/State Dashboards (Air, Wastewater, Drinking Water, Hazardous Waste, Pesticides)</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentf21f9b42-6152-4235-916f-771e5e83e00d" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/trends/npdes-dmr-non-receipt-status" title="" class="sf-depth-3" role="menuitem">NPDES DMR Non-Receipt Status Search</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentd9faa247-308b-4e7a-85d5-30f2fa7fdc6e" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/oversight/state-review-framework/tracker-recommendations" title="" class="sf-depth-3" role="menuitem">State Review Framework Tracker Recommendations</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content3c58dbb2-2fd0-4603-b95d-19edde1b4ca6" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/archived-tools" title="" class="sf-depth-3" role="menuitem">Archived Tools</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-content66311933-e1aa-472d-8954-51e94f98146f" class="active-trail sf-depth-2 menuparent" role="none">
+    
+          <a href="/" class="sf-depth-2 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Data Visualization</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content014a6dfc-8ee0-4372-aad2-ec3a6d31343d" class="sf-depth-3 sf-no-children sf-first" role="none">
+    
+          <a href="/trends/data-viz" class="sf-depth-3" role="menuitem">Data Visualization Gallery</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contente0b5b82b-7fd6-4984-94c3-d66dcd2a0a59" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/trends/npdes-erule-dashboard-public" class="sf-depth-3" role="menuitem">NPDES eRule Readiness Dashboard</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content581933f1-4e95-4c03-a2d4-d15f27baf37f" class="active-trail sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/trends/pfas-tools" class="is-active sf-depth-3" role="menuitem">PFAS Analytic Tools</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content51cc7eeb-dbf2-4ee4-b238-3901d437c2b9" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/trends/data-viz?filters=erule" class="sf-depth-3" role="menuitem">NPDES eRule Dashboards</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentef529a3c-9e76-412d-bf72-7e0a30852299" class="sf-depth-3 sf-no-children sf-last" role="none">
+    
+          <a href="https://awsedap.epa.gov/public/extensions/Fenceline_Monitoring/Fenceline_Monitoring.html?sheet=facilitySnapshot" class="sf-depth-3 sf-external" role="menuitem">Benzene Fenceline Monitoring</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-content62389656-c4f1-4864-92c2-7bc4d5b6fccb" class="sf-depth-2 menuparent sf-last" role="none">
+    
+          <a href="/" class="sf-depth-2 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Pollution Analysis</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-contentece03193-99a4-4a4a-aaa2-b45c06a842d6" class="sf-depth-3 sf-no-children sf-first" role="none">
+    
+          <a href="/trends/loading-tool/water-pollution-search" title="" class="sf-depth-3" role="menuitem">Water Pollutant Loading Tool</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentdd0b0186-da49-4d48-a039-90b4c8a8c609" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/trends/air-monitoring-stations" class="sf-depth-3" role="menuitem">ECHO Clean Air Tracking Tool (ECATT)</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-contentd780676c-ecdd-4351-8dd2-124d0dbb7f10" class="sf-depth-1 menuparent" role="none">
+    
+          <a href="/" title="" class="sf-depth-1 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Find EPA Cases</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content4ac457b1-220a-4e93-98ad-bf167c6147a3" class="sf-depth-2 sf-no-children sf-first" role="none">
+    
+          <a href="/facilities/enforcement-case-search" title="" class="sf-depth-2" role="menuitem">EPA Enforcement Case Search</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentd052b460-8b70-470e-9698-ca2fd0c774db" class="sf-depth-2 sf-no-children sf-last" role="none">
+    
+          <a href="/facilities/enforcement-case-search?srch=adv" title="" class="sf-depth-2" role="menuitem">Advanced EPA Enforcement Case Search</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-contentbf4afe68-f7aa-4600-844f-18d7c489cbdb" class="sf-depth-1 menuparent" role="none">
+    
+          <a href="/" title="" class="sf-depth-1 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Data Services</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content67a01d27-b6f1-4e7d-935d-d67ab2b0bfa4" class="sf-depth-2 sf-no-children sf-first" role="none">
+    
+          <a href="/tools/data-downloads" title="" class="sf-depth-2" role="menuitem">National Data Sets</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content63ca6ee4-b4ae-4704-af23-1344859df968" class="sf-depth-2 sf-no-children" role="none">
+    
+          <a href="/tools/data-downloads#exporter" class="sf-depth-2" role="menuitem"> ECHO Exporter</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contente8373103-795b-4c6e-8475-bf918034bbb5" class="sf-depth-2 sf-no-children" role="none">
+    
+          <a href="/tools/web-services" title="" class="sf-depth-2" role="menuitem">ECHO Web Services</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contented8bf3fe-37d5-45be-a182-76adcff02bb7" class="sf-depth-2 sf-no-children" role="none">
+    
+          <a href="/tools/map-service" title="" class="sf-depth-2" role="menuitem">ECHO Map Services</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentbcb049e9-36ff-4c59-bcdb-4379267681fa" class="sf-depth-2 sf-no-children" role="none">
+    
+          <a href="/tools/quick-search-widget" class="sf-depth-2" role="menuitem">Quick Search Widget</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-contentc7efbc02-a9f8-4486-9db1-d830e71c8647" class="sf-depth-1 menuparent" role="none">
+    
+          <a href="/" title="" class="sf-depth-1 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Help</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content28850260-85c9-45e4-aef5-bd69b01d99d3" class="sf-depth-2 sf-no-children sf-first" role="none">
+    
+          <a href="/resources/echo-data/about-the-data" title="" class="sf-depth-2" role="menuitem">About the Data</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content64e0ee94-1100-4e6c-b60b-0ae76902f354" class="sf-depth-2 sf-no-children" role="none">
+    
+          <a href="/help/tutorials" title="ECHO Tutorials" class="sf-depth-2" role="menuitem">ECHO Video Tutorials</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contenta98cf620-e638-4c82-93d2-19b2043a681c" class="sf-depth-2 sf-no-children" role="none">
+    
+          <a href="/resources/general-info/learn-more-about-echo" title="" class="sf-depth-2" role="menuitem">Quick Start Guide</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content3c663a56-5c9d-49dc-bc1d-045478137b14" class="sf-depth-2 sf-no-children" role="none">
+    
+          <a href="/help/training" title="ECHO Training" class="sf-depth-2" role="menuitem">ECHO Training</a>
+    
+    
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-contentbeeb039f-202b-4f43-b2f3-b7792df2c847" class="sf-depth-2 menuparent" role="none">
+    
+          <a href="/" title="" class="sf-depth-2 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">How to ...</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content77f7b6f4-7578-458d-8c60-c265ec8c0ba5" class="sf-depth-3 sf-no-children sf-first" role="none">
+    
+          <a href="/help/how-to-report-error" title="Report a Data Error" class="sf-depth-3" role="menuitem">Report a Data Error</a>
+    
+    
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-contente3c48dfd-adac-43fb-9bcc-8f29f07a5163" class="sf-depth-3 menuparent" role="none">
+    
+          <a href="/" title="Facility Search" class="sf-depth-3 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Run Facility Searches</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content61eb2e2a-c669-4dbe-843e-bc8d79121f6d" class="sf-depth-4 sf-no-children sf-first" role="none">
+    
+          <a href="/help/facility-search/facility-search-help" title="Facility Search Help" class="sf-depth-4" role="menuitem">Facility Search Help</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content11991343-af0f-4854-926d-e8f95b69fe26" class="sf-depth-4 sf-no-children" role="none">
+    
+          <a href="/help/facility-search/search-criteria-help" title="Facility Search Criteria Help" class="sf-depth-4" role="menuitem">Facility Search Criteria Help</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentcb64039f-924b-4d43-b3a9-0b646b6558b0" class="sf-depth-4 sf-no-children" role="none">
+    
+          <a href="/help/facility-search/facility-search-results-help" title="Search Results Help" class="sf-depth-4" role="menuitem">Search Results Help</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content5abb9f52-e774-4a42-8937-fe437eaf6cf2" class="sf-depth-4 sf-no-children" role="none">
+    
+          <a href="/help/enforcement-case-search-help" title="Enforcement Case Search Help" class="sf-depth-4" role="menuitem">Enforcement Case Search Help</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content2a1f5d94-b460-4750-8ce1-12912a468424" class="sf-depth-4 sf-no-children sf-last" role="none">
+    
+          <a href="/help/corporate-compliance-screener/corporate-compliance-screener-help" title="" class="sf-depth-4" role="menuitem">Corporate Compliance Screener Help</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-content2df0856f-a839-4919-82b3-4ed82b28ad80" class="sf-depth-3 menuparent" role="none">
+    
+          <a href="/" title="Reports" class="sf-depth-3 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Use and Understand ECHO Reports</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content44b17cc4-9b75-40ab-8198-fb4edda4f7e5" class="sf-depth-4 sf-no-children sf-first" role="none">
+    
+          <a href="/help/reports/air-pollutant-report-help" title="Air Pollutant Report Help" class="sf-depth-4" role="menuitem">Air Pollutant Report Help</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content6585f150-46ad-4fa0-a7e5-33d1a05c4f2b" class="sf-depth-4 sf-no-children" role="none">
+    
+          <a href="/help/reports/ambient-monitoring-station-report-help" title="" class="sf-depth-4" role="menuitem">Air Monitoring Station Report Help</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentf5620209-8557-45b7-9969-21da9f16c458" class="sf-depth-4 sf-no-children" role="none">
+    
+          <a href="/help/reports/biosolids-facility-report-help" title="" class="sf-depth-4" role="menuitem">Biosolids Facility Report Help</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content2a944250-1ffb-4adb-b751-1e4e7b7715a5" class="sf-depth-4 sf-no-children" role="none">
+    
+          <a href="/help/reports/detailed-facility-report-help" title="Detailed Facility Report Help" class="sf-depth-4" role="menuitem">Detailed Facility Report Help</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentf8b14548-0e3e-430b-a675-bb9c2310ac4f" class="sf-depth-4 sf-no-children" role="none">
+    
+          <a href="/help/reports/enforcement-case-report-help" title="A description of the Enforcement Case Report" class="sf-depth-4" role="menuitem">Civil Enforcement Case Report Help</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content387c141d-766e-4dab-b08d-71758dc2db69" class="sf-depth-4 sf-no-children" role="none">
+    
+          <a href="/help/reports/criminal-case-report-help" title="" class="sf-depth-4" role="menuitem">Criminal Enforcement Case Report Help</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentd15bc9e3-5861-4f27-b888-788d235a31d0" class="sf-depth-4 sf-no-children sf-last" role="none">
+    
+          <a href="/help/reports/effluent-charts-help" title="" class="sf-depth-4" role="menuitem">Effluent Charts Help</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-content4bc4c087-b321-49c7-bfcc-ee92456486f6" class="sf-depth-3 menuparent sf-last" role="none">
+    
+          <a href="/" title="Dashboards Help" class="sf-depth-3 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Use ECHO EPA/State Dashboards</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content2154fcdd-4cc8-4248-8385-f8910b41a1db" class="sf-depth-4 sf-no-children sf-first" role="none">
+    
+          <a href="/help/air-dashboard-help" title="Air Dashboard Help" class="sf-depth-4" role="menuitem">Air Dashboard Help</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contente566b60d-af9c-4e98-baea-7841a12bf8ef" class="sf-depth-4 sf-no-children" role="none">
+    
+          <a href="/help/pesticide-dashboard-help" title="Pesticide Dashboard Help" class="sf-depth-4" role="menuitem">Pesticide Dashboard Help</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content0e0ae48d-20cc-4e44-8d64-e9ce9905976e" class="sf-depth-4 sf-no-children" role="none">
+    
+          <a href="/help/state-comparative-maps-help" title="State Comparative Maps Help" class="sf-depth-4" role="menuitem">State Comparative Maps Help</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-content5201296a-4f77-43b2-ab4f-a89f98a1c20d" class="sf-depth-2 menuparent" role="none">
+    
+          <a href="/" title="" class="sf-depth-2 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">General Information</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content4177439e-4543-4980-9860-770273a4f4bf" class="sf-depth-3 sf-no-children sf-first" role="none">
+    
+          <a href="/resources/general-info/whats-new" title="" class="sf-depth-3" role="menuitem">What&#039;s New</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content6c93dfde-d715-4a2d-913d-e47705efa3eb" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/resources/echo-data/known-data-problems" title="Known Data Problems" class="sf-depth-3" role="menuitem">Known Data Problems</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content6f398fa8-606b-410e-acb1-81ee7080c5f5" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/resources/general-info/tool-guide" title="" class="sf-depth-3" role="menuitem">ECHO Tool Guide</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content5033cf98-3b48-4f59-ad1c-1f3f647ed003" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/resources/general-info/echo-faq" title="Frequently Asked Questions" class="sf-depth-3" role="menuitem">Frequently Asked Questions</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content0f907c17-96c4-42ba-82a6-01f73e8250ae" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/resources/echo-site-map" title="ECHO Site Map" class="sf-depth-3" role="menuitem">ECHO Site Map</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentddd63b62-d717-47b2-b70e-75e5f7bfa35e" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/report-environmental-violations" title="Report Environmental Violations" class="sf-depth-3" role="menuitem">Report A Violation</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content96eded93-0fd9-444b-b388-125a58de3a77" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/resources/general-info/website-known-issues" title="Website Known Issues" class="sf-depth-3" role="menuitem">Website Known Issues</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentb45bc0b3-bf8b-4c61-85d8-6b3488883623" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/resources/general-info/listserv" title="" class="sf-depth-3" role="menuitem">Join the ECHO Listserv</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content73a57e1d-2ba5-4764-a565-7b380e1f0833" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/resources" title="" class="sf-depth-3" role="menuitem">Other Available Resources</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-content0c82aeec-8530-43ac-89fc-07306b51ec57" class="sf-depth-2 menuparent sf-last" role="none">
+    
+          <a href="/" title="" class="sf-depth-2 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Get Access</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content2ba57853-0396-4b76-bb10-b07ce5a6b8a6" class="sf-depth-3 sf-no-children sf-first" role="none">
+    
+          <a href="/help/login-and-access" title="" class="sf-depth-3" role="menuitem">Login and Access</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+</ul>
+
+  </div>
+<span data-big-pipe-placeholder-id="callback=Drupal%5Cblock%5CBlockViewBuilder%3A%3AlazyBuilder&amp;args%5B0%5D=echo_account_menu&amp;args%5B1%5D=full&amp;args%5B2%5D&amp;token=0aQiGtHfmcfMkZldF9umwp4ytpUXW1fy6B3sE6gnHoo">
+</span>
+</header>
+
+
+          <div>
+    <div id="block-echo-breadcrumbs">
+  
+    
+      
+  <nav class="usa-breadcrumb" role="navigation" aria-labelledby="system-breadcrumb">
+    <ol class="usa-breadcrumb__list" itemscope itemtype="http://schema.org/BreadcrumbList">
+              <li class="usa-breadcrumb__list-item " itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                      <a class="usa-breadcrumb__link" itemscope itemtype="http://schema.org/Thing" itemprop="item" href="/">
+              <span itemprop="name">Home</span>
+            </a>
+                    <meta itemprop="position" content="1" />
+        </li>
+              <li class="usa-breadcrumb__list-item " itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                      <a class="usa-breadcrumb__link" itemscope itemtype="http://schema.org/Thing" itemprop="item" href="/trends">
+              <span itemprop="name">Trends</span>
+            </a>
+                    <meta itemprop="position" content="2" />
+        </li>
+              <li class="usa-breadcrumb__list-item usa-current" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                      <span itemprop="name">PFAS Analytic Tools</span>
+                    <meta itemprop="position" content="3" />
+        </li>
+          </ol>
+  </nav>
+
+  </div>
+<div data-drupal-messages-fallback class="hidden"></div><span data-big-pipe-placeholder-id="callback=Drupal%5CCore%5CRender%5CElement%5CStatusMessages%3A%3ArenderMessages&amp;args%5B0%5D&amp;token=_HAdUpwWmet0TOTe2PSiJuMntExoshbm1kh2wQzzzAA">
+</span>
+
+  </div>
+
+          <div>
+    <div id="block-echo-page-title">
+  
+    
+      
+  <h1>
+<span>PFAS Analytic Tools</span>
+</h1>
+
+
+  </div>
+<div id="block-echo-echo-system-main">
+  
+    
+      <article data-history-node-id="557" about="/trends/pfas-tools">
+
+  
+    
+
+  
+  <div>
+    
+            <div><h3><a href="https://echo.epa.gov/help/training#PAT-01-11" target="_blank">Watch the recently recorded webinar</a> on the PFAS Analytic Tools</h3><p>This page contains location-specific information related to PFAS manufacture, release, and occurrence in the environment as well as facilities potentially handling PFAS:</p><div class="box box--related-info u-align-right clear-right"><h2 class="box__title">Related Info</h2><div class="box__content"><ul><li><a href="https://echo.epa.gov/trends/pfas-tools-faqs" target="_blank">PFAS Analytic Tools Frequently Asked Questions</a></li><li><a href="https://www.epa.gov/pfas/pfas-explained" target="_blank">Learn More About PFAS</a></li><li><a href="https://www.epa.gov/pfas/pfas-strategic-roadmap-epas-commitments-action-2021-2024" target="_blank">EPA PFAS Strategic Roadmap</a></li><li><a href="https://www.epa.gov/pfas/pfas-resources-data-and-tools" target="_blank">PFAS Resources</a></li></ul></div></div><ul><li><a href="#background">PFAS Analytic Tools - Background</a></li><li><a href="#using">Using the PFAS Analytic Tools</a></li><li><a href="#connect">How the PFAS Analytic Tools Connect to PFAS Data</a></li><li><a href="#identified">How are PFAS Identified in the PFAS Analytic Tools</a></li><li><a href="#data">Data Sources Included</a></li><li><a href="#datarefresh">Data Refresh Dates</a></li><li><a href="#new">What's New</a></li><li><a href="#resources">Additional Resources</a><br>&nbsp;</li></ul><div class="row cols-2"><div class="text-align-center col"><p><a href="https://awsedap.epa.gov/public/extensions/PFAS_Tools/PFAS_Tools.html" target="_blank"><strong>Open PFAS Analytic Tools</strong></a></p><p class="text-align-center"><a href="https://awsedap.epa.gov/public/extensions/PFAS_Tools/PFAS_Tools.html"><img class="media-element-file-teaser" src="https://echo.epa.gov/system/files/pfasimageteaser.png" data-entity-uuid data-entity-type alt="Image of PFAS Analytic Tools Dashboard" width="849" height="377" title="Select to access PFAS Analytic Tools" loading="lazy">&nbsp;</a></p></div><div class="text-align-center col"><p></p></div></div><div class="clear-left"><hr><h2>PFAS Analytic Tools - Background<a id="background" name="background">&nbsp;</a></h2><p>To support EPA’s PFAS Strategic Roadmap - the Agency's bold, strategic whole-of-EPA strategy to protect public health and the environment from the impacts of PFAS-, the Agency is compiling and integrating a collection of data that can be used to evaluate what is known about per- and poly-fluoroalkyl substances&nbsp;(PFAS) manufacture, release, and occurrence in communities. As part of this effort, EPA is integrating data available nationally with other information from states, Tribes, and&nbsp;localities that are testing for PFAS pursuant to their own regulatory or voluntary data collection initiatives. The data&nbsp;included in the&nbsp;PFAS Analytic Tools have a wide range of location-specific data and, in general, are based on national scope, and readily accessible, public information repositories.&nbsp;</p><p>Because much of the data included here are not required to be reported nationally, users should not make conclusions regarding the relative level of PFAS occurrence between different cities, counties,&nbsp;states, territories, Tribal lands, or other areas of jurisdiction. Areas that are more widely testing and reporting occurrences of PFAS will generally&nbsp;have more data than areas collecting or reporting to a lesser extent (or in some cases, not at all). Users should also be aware that many datasets include entries where sampling has been conducted yet&nbsp;no PFAS have&nbsp;been detected – which allows a better understanding of where sampling has taken place.</p><p>Most of the resources referenced on this page have been downloaded or transferred from public information repositories. Where useful information is not readily accessible from identified information sources, static files and hyperlinked references may be presented so that users can retrieve, review, and possibly incorporate this information. As EPA, states, and Tribes accelerate efforts to collect and share PFAS data, the amount of information within these files will continue to increase – leading to a more complete picture of PFAS occurrence.</p><p>Please visit our PFAS Analytic Tools&nbsp;<a href="https://echo.epa.gov/trends/pfas-tools-faqs" target="_blank">frequently asked questions page</a> to learn more.</p><p>Site users are invited to suggest additions and edits to this webpage and/or the EPA-maintained tools by emailing <a href="mailto:spalt.nicholas@epa.gov">spalt.nicholas@epa.gov</a>.</p></div><hr><h2>Using the PFAS Analytic Tools<a id="using" name="using">&nbsp;</a></h2><p>The PFAS Analytic Tools can be accessed at the hyperlink below:</p><h3><a href="https://awsedap.epa.gov/public/extensions/PFAS_Tools/PFAS_Tools.html" target="_blank">PFAS Analytic Tools</a></h3><h3></h3><p>Details on how to use the tool can be found in the <a href="https://echo.epa.gov/system/files/PFAS%20Analytic%20Tools%20User%20Guide%20SEPTEMBER2023%20508.pdf" target="_blank">PFAS Analytic Tools User Guide (PDF)</a>&nbsp;(8 p, 628 KB)</p><p></p><p><a href="https://echo.epa.gov/resources/general-info/contact-us" target="_blank">Contact us</a> to ask a question, provide feedback, or report a problem.</p><hr><h2>How the PFAS Analytic Tools Connect to PFAS Data<a id="connect" name="connect">&nbsp;</a></h2><p>“Data flow” describes the movement of information from initial data generation through processing and storage and subsequent retrieval for secondary uses. Promoting the flow of PFAS data from widely distributed, local storage towards centralized and accessible repositories is important for the retrieval of data by analytic tools and for analysts seeking to access the widest range of relevant PFAS information. Some PFAS data, such as wastewater release monitoring (if called for by an individual NPDES permit) or quadrennial reporting of chemical production, are&nbsp;required by statutory programs to be submitted directly to EPA or to be submitted by state regulatory agencies to central data systems, from which records are generally retrievable. Through this project, EPA is also tapping into national data portals that allow for, but do not&nbsp;necessarily require, data to be submitted.</p><p>As illustrated in the following diagram, the PFAS Analytic Tools’ data connections are designed to extract PFAS data from central data repositories. This design is efficient, and it is expected that much of the currently dispersed PFAS data can be submitted to these systems. The white boxes with black text indicate data flows that EPA is working to connect the PFAS Analytic Tools. The gray boxes below indicate data flows of interest to users that do not yet have a connection to the PFAS Analytic Tools. EPA is interested in piloting efforts in these areas with interested states.</p><p class="text-align-center"><img src="https://echo.epa.gov/system/files/Data_Model_2023-09-12.png" data-entity-uuid data-entity-type alt="PFAS Data Model." width="50.53%" height="50.53%" loading="lazy"></p><hr><h2>How are PFAS Identified in the PFAS Analytic Tools?<a id="identified" name="identified">&nbsp;</a></h2><p>PFAS are identified using EPA's <a href="https://comptox.epa.gov/dashboard/" target="_blank">CompTox Chemicals Dashboard</a>, which contains a list of PFAS with explicit chemical structures and a list of PFAS without explicit chemical structures. Together, these two lists contain greater than 14,000 substances and were last updated in August 2022. View the list of <a href="https://comptox.epa.gov/dashboard/chemical_lists/PFASSTRUCT" target="_blank">PFAS with explicit structures</a> and the list of <a href="https://comptox.epa.gov/dashboard/chemical_lists/PFASDEV1" target="_blank">PFAS without explicit structures</a> for more information on how the lists were assembled.</p><p>Visit the <a href="https://comptox.epa.gov/dashboard" target="_blank">CompTox Chemicals Dashboard</a> to view other&nbsp;PFAS lists and sources for PFAS inventories. In curating datasets for inclusion in the PFAS Analytic Tools, EPA has attempted to include the widest definitions of PFAS so users can have the largest possible dataset to review. Note that the definitions used for this dashboard may not be identical to the definition used for a particular reporting resource included in this webpage.</p><hr><h2>Data Sources Included&nbsp;<a id="data" name="data">&nbsp;</a></h2><dl><dt><p><strong>Detailed Metadata and Important Considerations when using the PFAS Analytic Tools</strong></p></dt><dd><p>The metadata and data dictionaries for the data sources of each of the files below can be found in the complete <a href="https://echo.epa.gov/system/files/PFAS_Analytic_Tools_Metadata_2024-06-10.pdf" target="_blank">metadata document (PDF)</a>&nbsp;(876 KB) (current as of June 2024). It is important to note that for some of the data collections provided, EPA does not have requirements for the information to be reported on a national level, so in those cases, the data may be skewed toward states that are choosing to report more information than is required. Also, the data files below were created or compiled on different dates and show the occurrence of PFAS at a facility, public drinking water system, or site as of that date; this may not reflect the current situation.</p></dd></dl><dl><dt><p><strong>Drinking Water Testing (UCMR)</strong></p></dt><dd><p>The Safe Drinking Water Act requires that once every five years EPA issue a list of no more than 30 unregulated contaminants to be monitored by <a href="https://www.epa.gov/dwreginfo/information-about-public-water-systems" target="_blank" rel="noreferrer noopener">public water systems (PWSs)</a>. EPA uses the <a href="https://www.epa.gov/dwucmr" target="_blank" rel="noreferrer noopener">Unregulated Contaminant Monitoring Rule (UCMR)</a> to gather information on contaminants that are suspected to be present in drinking water and do not have regulatory standards set under SDWA. UCMR data are publicly available in the <a href="https://www.epa.gov/dwucmr/occurrence-data-unregulated-contaminant-monitoring-rule" target="_blank" rel="noreferrer noopener">UCMR Data Finders</a>.</p></dd><dd><p>For UCMR 3, PWSs serving more than 10,000 people and a representative sample of PWSs serving 10,000 or fewer people were required to monitor for six PFAS between 2013 and 2015. For UCMR 5, PWSs serving more than 10,000 people, PWSs serving between 3,300 and 10,000 people, and a representative sample of PWSs serving fewer than 3,300 are required to monitor. UCMR 5 requires sampling for 29 PFAS (the six PFAS in UCMR 3 and an additional 23 PFAS) between 2023 and 2025.</p></dd><dd><p><strong>Caveats and Limitations: Data in the PFAS Analytic Tools are not real-time. After reporting, many water providers take action to reduce PFAS presence in finished drinking water. The data therefore do not show current drinking water exposures, but rather highlight areas where people might want to look further for the latest information, starting with their local drinking water provider. Additionally, ZIP Codes Served information in this file does not necessarily correlate to exposure to PFAS, as these ZIP Codes are not the definitive service areas (i.e., a PWS may only serve a small portion of a ZIP Code it has listed as serving). UCMR 5 data will be updated quarterly until completion of data reporting in 2026. Data may be added, removed, or updated over the course of the reporting cycle following further review by analytical laboratories, PWSs, states, and EPA. For answers to common questions regarding accessing and understanding the UCMR 5 data, as well as information on PFAS and lithium in drinking water, please review the </strong><a href="https://www.epa.gov/dwucmr/fifth-unregulated-contaminant-monitoring-rule" target="_blank" rel="noreferrer noopener"><strong>UCMR 5 website</strong></a><strong>. In April 2024, EPA announced the final National Primary Drinking Water Regulation (</strong><a href="https://www.epa.gov/sdwa/and-polyfluoroalkyl-substances-pfas" target="_blank" rel="noreferrer noopener"><strong>NPDWR</strong></a><strong>) for six PFAS; those six are among the 29 PFAS being monitored in UCMR 5. UCMR 5 results do not indicate compliance or noncompliance with the PFAS NPDWR Maximum Contaminant Levels (MCLs). Comparison of UCMR 5 data to the MCLs is for technical assistance only and does not supersede the NPDWR requirements in 40 CFR 141 and 40 CFR 142. PWSs may work with their state to submit their UCMR 5 monitoring data to meet some or all of the PFAS NPDWR's initial monitoring requirements. In May 2025, EPA announced its intent to rescind the regulations and reconsider the regulatory determinations for HFPO-DA (commonly knows as GenX), PFHxS, PFNA, and the Hazard Index (HI) mixture of these three plus PFBS. For more information, please review the </strong><a href="https://www.epa.gov/sdwa/and-polyfluoroalkyl-substances-pfas" target="_blank" rel="noreferrer noopener"><strong>PFAS NPDWR website</strong></a><strong>.</strong></p></dd><dd><p>Data Refresh Interval: UCMR 5 results will be updated in NCOD and subsequently in the PFAS Analytic Tools on a quarterly basis until completion of data reporting in 2026.</p></dd><dt><p><strong>Drinking Water Testing (State)</strong></p></dt><dd><p>A number of states and individual public water systems have been testing source water and finished water for PFAS, but these records are not maintained by EPA in a national repository. EPA has provided states that are regulating and/or testing PFAS with a mechanism to store/report PFAS data that is associated with state-specific PFAS regulations. Because this is not a standardized national reporting stream, it is important to recognize that some states report no data, and states that do report have varying requirements relating to which chemicals are tested, which test methods are used, which water supplies need to report, and how often samples are taken.</p></dd><dd><p>As of August 2022, EPA was able to compile data for a select number of states that have used EPA’s reporting module (SDWIS-State). The information is retrieved on a semi-annual basis – primarily from state web pages where the information is published. For another set of states, PFAS testing information was retrieved from static files published by individual states (retrieved July 28, 2022). This initial effort was restricted to states reporting similar occurrence information. For inclusion in the PFAS Analytic Tools, EPA standardized data field names from each state file to create a single dataset. It is important to note that some data gaps exist within this data set as some States have reported more data elements related to their sampling efforts than others (e.g., Sample Location ID). Additionally, outside of UCMR testing, EPA is conducting a limited, voluntary program to better understand PFAS in tribal public drinking water systems. That data, available from EPA's <a href="https://sdwis.epa.gov/ords/sfdw_pub/f?p=SDWIS_FED_REPORTS_PUBLIC:TRIBAL_PFAS" target="_blank">Tribal PFAS Monitoring Results</a>, is also retrieved via automated web scraping on a semi-annual basis and is included here.</p></dd><dd><p></p></dd><dd><p><strong>Caveats and Limitations: This data file includes aggregated data from multiple state sampling initiatives. These initiatives vary in sampling/targeting methods (e.g., non-targeted analysis vs. targeted analysis), scope (e.g.,&nbsp;percentage and type of&nbsp;public&nbsp;water&nbsp;system), detection limits, sample location, reporting limits, quantification methods, what data elements are reported, and even what&nbsp;data&nbsp;are&nbsp;reported (e.g.,&nbsp;some states choosing only to report detections while other states report all test results). Because of these significant differences in how states are collecting data, the information in this file should not be compared across state boundaries. EPA intends to continue adding data from more states that make it available (you may notify EPA at <a href="mailto:spalt.nicholas@epa.gov">spalt.nicholas@epa.gov</a> if you are aware of published state data that could be included in future versions)</strong>.</p></dd><dd><p>Data Refresh Interval: Intermittent</p></dd><dt><p><strong>PFAS Manufacture and Imports</strong></p></dt><dd><p>EPA issued the Chemical Data Reporting (CDR) Rule under the Toxic Substances Control Act (TSCA) and requires chemical manufacturers and facilities that manufacture or import chemical substances&nbsp;to report data to EPA. EPA publishes non-confidential business information (non-CBI)and includes descriptive information about each site, corporate parent, production volume, other manufacturing information, and processing and use information.</p></dd><dd><p>Facilities submit their CDR reporting directly to EPA, with no state role in this data flow. The most recent round of reporting was submitted to EPA in 2020 and required chemical substance reporting for years 2016-2019. While there are a variety of reporting thresholds, sites manufacturing or importing 25,000 pounds or more of a chemical substance in a given year are required to report to CDR. Data from the 2012, 2016, and 2020&nbsp;CDR and 1998, 2002, and 2006 Inventory Update Reporting (IUR) Rule are included in the PFAS Analytic Tools. Additional details regarding CDR are available on the&nbsp;<a href="https://www.epa.gov/chemical-data-reporting" target="_blank">Chemical Data Reporting</a> page.</p></dd><dd><p><strong>Caveats and Limitations: This data file includes production and importation data for chemicals identified in&nbsp;EPA’s&nbsp;</strong><a href="https://comptox.epa.gov/dashboard/" target="_blank" rel="noreferrer noopener"><strong>CompTox&nbsp;Chemicals Dashboard</strong>&nbsp;</a><strong>&nbsp;list of </strong><a href="https://comptox.epa.gov/dashboard/chemical_lists/PFASDEV1" target="_blank" rel="noreferrer noopener"><strong>PFAS without explicit structures</strong>&nbsp;</a><strong> and list&nbsp;of </strong><a href="http://comptox.epa.gov/dashboard/chemical_lists/PFASSTRUCT" target="_blank" rel="noreferrer noopener"><strong>PFAS structures in&nbsp;DSSTox</strong>&nbsp;</a><strong>. &nbsp;Note that some regulations have specific chemical structure requirements that define PFAS differently than the lists in EPA’s&nbsp;CompTox&nbsp;Chemicals Dashboard. Reporting information on manufactured or imported chemical substance amounts should not be compared between facilities,as some companies claim Chemical Data Reporting Rule data fields for PFAS information as Confidential Business Information.</strong></p></dd><dd><p>Data Refresh Interval: Every four years.</p></dd><dt><p><strong>Ambient Environmental Sampling for PFAS</strong></p></dt><dd><p>The Water Quality Portal (WQP) is a part of a modernized repository storing ambient sampling data for all environmental media and tissue samples. A wide range of federal, state, tribal and local governments, academic and non-governmental organizations, and individuals submit project details and sampling results to this public repository. The information is commonly used for research and assessments of environmental quality. As of early 2022, the WQP contained the results and metadata associated with over 70,000 PFAS samples of water, soil, sediment, and biota (e.g., tissue).</p></dd><dd><p>To submit ambient sampling data to the Water Quality Exchange (the system receiving sampling data that is published via the Water Quality Portal), an organization or individual must first have or set up user accounts with both EPA’s Central Data Exchange (CDX) and the Water Quality Exchange. Before setting up new accounts, check with your colleagues as many state agencies and environmental research organizations have accounts as well as staff with experience with the data exchange processes. Users can submit project and sampling data via WQX web interface or custom XML data uploads. The commercial EQUIS platform, used for storing data from contaminated sites and field investigations, has an export template designed for upload to WQX. Detailed instructions can be found at <a href="https://www.epa.gov/waterdata/water-quality-data-wqx" target="_blank">Water Quality Data (WQX)</a>. If your organization has ambient water measurement, soil testing, sediment testing, air testing, or biota testing, that data will appear in the <em>Environmental Media</em> tab in the PFAS Analytic Tools if your organization submits data through the Water Quality Exchange/Portal.</p></dd><dd><p><strong>Caveats and Limitations: EPA did not carry out the sampling or testing of a majority of the data in the Water Quality Portal PFAS dataset. EPA can only speak to the accuracy and completeness of the data from projects like the National Aquatic Resource Surveys for which EPA is the data owner/organization. Data may exist within the file on Quality Assurance Project Plans (QAPPs) and the approving agency of the QAPP, if a QAPP is entered.</strong></p></dd><dd><p>Data Refresh Interval: Weekly</p></dd><dt><p><strong>Clean Water Act Discharge Monitoring&nbsp;</strong></p></dt><dd><p>Any discharger of pollutants to waters of the United States from a point source must have a National Pollutant Discharge Elimination System (NPDES) permit. The process for obtaining limits involves the regulated entity (permittee) disclosing releases in a NPDES permit application and the permitting authority (typically the state but sometimes EPA) deciding whether to require monitoring or monitoring with limits. If monitoring (and/or limits) are required in the permit, monitored flow and concentrations are regularly reported to the state or EPA and stored in the Integrated Compliance Information System (ICIS)-NPDES, the data system of record. EPA’s&nbsp;<a href="https://echo.epa.gov/trends/loading-tool/water-pollution-search" target="_blank">Water Pollutant Loading Tool</a>&nbsp;derives annual pollutant loadings from the permit and DMR data in ICIS-NPDES.&nbsp;&nbsp;&nbsp;<br><br><strong>Caveats and Limitations: Less than half of states have required PFAS&nbsp;monitoring for at least one of their permittees and&nbsp;fewer&nbsp;states&nbsp;have established&nbsp;PFAS&nbsp;effluent limits&nbsp;for&nbsp;permittees. In April 2022, EPA issued a memo recommending more comprehensive monitoring information on potential sources of PFAS in Clean Water Act programs EPA oversees; In December 2022&nbsp;EPA issued a subsequent memo that provides guidance to state permitting authorities. New rulemakings have been initiated that may increase the number of facilities monitoring for PFAS in the future (Read More: </strong><a href="https://www.epa.gov/eg/preliminary-effluent-guidelines-program-plan" target="_blank"><strong>Preliminary Effluent Guidelines Program Plan</strong>&nbsp;</a><strong>).&nbsp;For states that may have required monitoring, there may exist some reporting and data transfer issues on a state-by-state basis. More details on those issues and additional caveat information can be found in ECHO’s</strong><a href="https://echo.epa.gov/resources/echo-data/known-data-problems" target="_blank"><strong> Known Data Problems</strong>&nbsp;</a><strong> and the </strong><a href="https://echo.epa.gov/trends/loading-tool/resources/about-the-data" target="_blank"><strong>Loading Tool Documentation</strong>&nbsp;</a><strong>.&nbsp;</strong></p></dd><dd><p>Data Refresh Interval: Weekly</p></dd><dt><p><strong>Superfund Sites with PFAS Detections</strong></p></dt><dd><p>EPA's Office of Land and Emergency Management and EPA Regional Offices maintain data describing what is known about site investigations, contamination, and remedial actions under the Comprehensive Environmental Response, Compensation, and Liability Act (CERCLA) where PFAS is present in the environment. EPA programs and Regional Offices update the data quarterly.</p></dd><dd><p></p></dd><dd><p><strong>Caveats and Limitations: Detections of PFAS at National Priorities List sites do not mean that people are at risk from PFAS, are being exposed to PFAS,&nbsp;or that the site is the source of the PFAS.</strong></p></dd><dd><p><strong>For Federal Facilities data, the other Federal agencies (OFA) are the lead agency for their data and provided them to EPA.</strong></p></dd><dd><p>Data Refresh Interval: Quarterly</p></dd><dt><p><strong>Federal Sites</strong></p></dt><dd><p>Several federal entities, such as the federal Superfund program, Department of Defense, National Aeronautics and Space Administration, Department of Transportation, and Department of Energy provided information for sites with known or suspected detections at federal facilities.</p></dd><dd><p>In response to Section 335 of the National Defense Authorization Act (NDAA) for FY2021, DoD also publishes an <a href="https://www.acq.osd.mil/eie/eer/ecc/pfas/tf/reports.html" target="_blank">annual report listing of notifications to agricultural operations</a>&nbsp;<a class="exit-disclaimer" href="https://www.epa.gov/home/exit-epa" title="EPA's External Link Disclaimer">Exit</a>&nbsp;located within one mile of military installations or National Guard facilities where PFAS has been detected in the groundwater from a known or suspected PFAS release at the DoD site.</p></dd><dd><p></p></dd><dd><p><strong>Caveats and Limitations:&nbsp;The sites on this list do not necessarily reflect the source(s) of PFAS contamination and detections do not indicate level of risk or human exposure at the site. The dataset on agricultural notifications only includes Department of Defense sites (data are not available for other Federal agency sites). EPA is aware that the list included here is not comprehensive of all Federal agencies but is working to continue developing the dataset.</strong></p></dd><dd><p>Data Refresh Interval: Intermittent</p></dd><dt><p><strong>Facilities in Industries that May be Handling PFAS</strong></p></dt><dd><p>Regulators and the public have expressed interest in knowing which regulated entities may be using PFAS. EPA has developed a dataset from various sources that show which industries may be handling PFAS. Approximately 120,000 facilities subject to federal environmental programs have operated or currently operate in industry sectors with processes that may involve handling and/or release of PFAS. The datasets that feed EPA’s Enforcement and Compliance History Online (ECHO) integrates records from a range of federal regulatory programs (e.g., Clean Water Act, Clean Air Act, and Resource Conservation and Recovery Act) at the facility level. ECHO records are restricted to potential PFAS-handling industry sectors identified from literature reviews and field investigations by several EPA offices. The current list of industry sectors potentially handling or releasing PFAS can be found in the <a href="https://echo.epa.gov/system/files/PFASHandlingIndustrySectors-Apr2023-Pub.xlsx">PFAS Handling Industry Sectors (XLSX)</a>&nbsp;(20 K) document. Note that inclusion of a facility in the ECHO PFAS Industry Sectors dataset <strong>does not indicate</strong> that PFAS are actually being manufactured, processed, used, or released by the facility. The Industry Sectors dataset was supplemented with two additional data sources outside of Industry Sector Code lookups - Fire Training Sites and 14 CFR Part 139 Airports, described below.</p></dd><dd><p><em>Fire Training Sites</em></p></dd><dd><p>A list of fire training sites was added to the Industry Sectors dataset using a keyword search on the permitted facility's name to identify sites where fire-fighting foam may have been used in training exercises. Additionally, you may view an <a href="https://echo.epa.gov/files/ECHO_Fire_Training_Industry3_0_0.xlsx" target="_blank">example spreadsheet of the subset of fire training facility data (XLSX)</a> (47 K) (current as of January 2021), as well as the keywords used in selecting or deselecting a facility for the subset. These keywords were tested to maximize accuracy in selecting facilities that may use fire-fighting foam in training exercises, however, due to the lack of a required reporting field in the data systems for designating fire training sites, this methodology may not identify all fire training sites or may potentially misidentify them.</p></dd><dd><p><em>14 CFR Part 139 Airports</em></p></dd><dd><p>Since July 1, 2006, all certified part 139 airports are required to have fire-fighting foam onsite that meet military specifications (MIL-F-24385) (14 CFR 139.317). To date, these military specification fire-fighting foams are fluorinated and have been historically used for training and extinguishing. The 2018 FAA Reauthorization Act has a provision stating that no later than October 2021, FAA shall not require the use of fluorinated AFFF. This provision does not prohibit the use of fluorinated AFFF at Part 139 civilian airports; it only prohibits FAA from mandating its use. The Federal Aviation Administration’s document AC 150/5210-6D - Aircraft Fire Extinguishing Agents provides guidance on Aircraft Fire Extinguishing Agents, which includes Aqueous Film Forming Foam (AFFF). This subset of data, compiled from historic and current records from the <a href="https://adip.faa.gov/agis/public/#/airportSearch/advanced" target="_blank">FAA Airport Data and Information Portal</a>&nbsp;(October 2022), was added to the Industry Sectors dataset to show airports historically required to have these fluorinated foams onsite.</p><p></p></dd><dd><p><strong>Caveats and Limitations: Inclusion of a facility in the Industry Sectors dataset does not indicate that PFAS&nbsp;are&nbsp;being manufactured, processed, used, or released by the facility. If referring to this file, it is important to note that&nbsp;listed&nbsp;facilities&nbsp;</strong><em><strong>potentially&nbsp;</strong></em><strong>handle&nbsp;PFAS based on their industrial profile. EPA has not confirmed whether each individual facility on the list&nbsp;actually handles&nbsp;PFAS. Keyword searches in ECHO for Fire Training sites may misidentify some facilities and should not be considered to be an exhaustive list of fire training facilities in the United States.</strong></p></dd><dd><p>Data Refresh Interval: Weekly</p></dd><dt><p><strong>Transfers</strong></p></dt><dd><p>Every shipment of hazardous waste in the U.S. must be accompanied by a shipment manifest, which is a critical component of the cradle-to-grave tracking of wastes mandated by the Resource Conservation and Recovery Act (RCRA). The <a href="https://www.epa.gov/e-manifest/learn-about-hazardous-waste-electronic-manifest-system-e-manifest" target="_blank">RCRA e-Manifest system</a>&nbsp;launched in mid-2018 and now receives virtually all digital and coded paper manifests. While manifests may be submitted soon after the shipment is complete, e-manifest records in the e-Manifest system are considered complete 90 days after being received by the designated facility.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br>An individual manifest contains RCRA waste codes that describe the constituents of the waste. These codes typically refer to industrial processes (e.g., petroleum refinery wastewater treatment sludges), a category of waste (e.g., spent solvents), or characteristics of the waste (e.g., ignitability). When multiple RCRA waste codes are used to describe a waste, it can only be presumed that waste code is present, as only the total amount of the shipment is reported; however, the amount of waste associated with each waste code cannot be determined. Also, the total amount of waste reported includes other commingled materials that may or may not be hazardous. Currently no Federal Waste Code exists for any PFAS compounds. Only one state, Vermont, is using state-specific waste codes (VT21 &amp; VT22) that specify PFAS containing wastes. To work around the lack of PFAS waste codes in the RCRA database, EPA developed the PFAS Transfers dataset by mining e-Manifest records containing at least one of these common PFAS keywords: • PFAS • PFOA • PFOS • PERFL • AFFF • GENX • GEN-X (plus the VT waste codes). These keywords were searched for in the following text fields: • Manifest handling instructions (MANIFEST_HANDLING_INSTR) • Non-hazardous waste description (NON_HAZ_WASTE_DESCRIPTION) • DOT printed information (DOT_PRINTED_INFORMATION) • Waste line handling instructions (WASTE_LINE_HANDLING_INSTR) • Waste residue comments (WASTE_RESIDUE_COMMENTS).</p></dd><dd><p><strong>Caveats and Limitations: Amount or concentration of PFAS being transferred cannot be determined from the manifest information. Keyword searches may misidentify some manifest records that do not contain PFAS. This dataset should also not be considered to be exhaustive of all PFAS waste transfers.</strong></p></dd><dd><p>Data Refresh Interval: Weekly</p></dd><dt><p><strong>Spills</strong></p></dt><dd><p>The&nbsp;<a href="https://nrc.uscg.mil" target="_blank">National Response Center (NRC)</a>&nbsp;serves as an emergency call center that fields initial reports for pollution and railroad incidents and forwards that information to appropriate federal/state agencies for response. The spreadsheets posted to the NRC website contain initial incident data that has not been validated or investigated by a federal/state response agency. Response center calls from 1990 to the most recent complete calendar year where there was indication of Aqueous Film Forming Foam (AFFF) usage are included in this dataset. NRC calls may reference AFFF usage in the “Material Involved” or “Incident Description” fields.</p></dd><dd><p><strong>Caveats and Limitations: The data from the National&nbsp;Response Center&nbsp;website contain&nbsp;initial&nbsp;incident data that has not been validated or investigated by a federal/state response agency. Keyword searches may misidentify some incident reports that do not contain PFAS. This dataset should also not&nbsp;be considered to be&nbsp;exhaustive of all PFAS spills/release incidents.</strong></p></dd><dd><p>Data Refresh Interval: Weekly</p></dd><dt><p><strong>Toxics Release Inventory</strong></p></dt><dd><p>The Toxics Release Inventory (TRI) tracks the management of certain chemicals that may be harmful to human health or the environment by more than 21,000 facilities throughout the United States and its territories. Annual reporting is required to provide information to the public on environmental releases and other waste management activities of TRI-listed chemicals in their communities. The TRI provides EPA with data and information for prioritization purposes and to assist the Agency in determining the need for future regulations. U.S. facilities in covered industry sectors, as well as federal facilities must report annually the quantities of each TRI-reportable chemical they released to the environment and/or managed as waste through recycling, energy recovery, treatment, or have transferred offsite for such purposes. A "release" of a chemical means that it is emitted to air or water, or disposed of to land on-site or off-site. Learn more about the&nbsp;<a href="https://www.epa.gov/toxics-release-inventory-tri-program/what-toxics-release-inventory" target="_blank">TRI Program</a>.</p></dd><dd><p>The TRI data gathered and presented in this tool are restricted to the PFAS added to the TRI chemical list per the <a href="https://www.epa.gov/toxics-release-inventory-tri-program/addition-certain-pfas-tri-national-defense-authorization-act" target="_blank">National Defense Authorization Act (NDAA)</a> and to other TRI-listed organic chemicals that contain fluorine atoms and are also found on EPA’s CompTox Chemicals Dashboard lists of <a href="https://comptox.epa.gov/dashboard/chemical_lists/PFASSTRUCT" target="_blank">PFAS structures in DSSTox</a>&nbsp;and <a href="https://comptox.epa.gov/dashboard/chemical_lists/PFASDEV1" target="_blank">PFAS&nbsp;without explicit structures</a>.</p></dd><dd><p>Reporting on the NDAA TRI PFAS additions was implemented for calendar year 2020. The NDAA provided a framework that enables additional PFAS to be added to the TRI chemical list in future calendar years and may be subsequently added and reflected in future iterations of these files.</p></dd><dd><p><strong>Caveats and Limitations: This data file includes releases and waste management data for chemicals identified&nbsp;in&nbsp;EPA’s&nbsp;</strong><a href="https://comptox.epa.gov/dashboard/" target="_blank" rel="noreferrer noopener"><strong>CompTox&nbsp;Chemicals Dashboard</strong>&nbsp;</a><strong>&nbsp;list of </strong><a href="https://comptox.epa.gov/dashboard/chemical_lists/PFASDEV1" target="_blank" rel="noreferrer noopener"><strong>PFAS without explicit structures</strong>&nbsp;</a><strong> and list&nbsp;of </strong><a href="https://comptox.epa.gov/dashboard/chemical_lists/PFASSTRUCT" target="_blank" rel="noreferrer noopener"><strong>PFAS structures in&nbsp;DSSTox</strong>&nbsp;</a><strong>.  Note that what specific chemicals are considered to be PFAS for a given regulatory program may differ from what is listed in EPA’s&nbsp;CompTox&nbsp;Chemicals Dashboard. It is strongly recommended to consult the </strong><a href="https://www.epa.gov/toxics-release-inventory-tri-program/find-understand-and-use-tri" target="_blank"><strong>TRI program website</strong>&nbsp;</a><strong> to review TRI reporting requirements for PFAS.</strong></p></dd><dd><p>Data Refresh Interval: Twice a Year. Refresh occurs in the Fall of each Calendar Year and the Spring of the following year.</p></dd><dt><p><strong>Greenhouse Gas</strong></p></dt><dd><p>EPA's <a href="https://www.epa.gov/ghgreporting" target="_blank" rel="noreferrer noopener">Greenhouse Gas Reporting Program (GHGRP)</a> collects Greenhouse Gas (GHG) data from large emitting facilities (25,000 metric tons of carbon dioxide equivalent (CO2e) per year), and suppliers of fossil fuels and industrial gases that results in GHG emissions when used. PFAS Analytic Tools includes Greenhouse Gas (GHG) emissions data for facilities that emit chemicals identified in EPA's <a href="https://comptox.epa.gov/dashboard/">CompTox Chemicals Dashboard</a> list of <a href="https://comptox.epa.gov/dashboard/chemical-lists/PFASDEV1">PFAS without explicit structures</a> and list of <a href="https://comptox.epa.gov/dashboard/chemical-lists/PFASSTRUCT">PFAS structures by DSSTox</a>. By definition, PFAS are also <a href="https://www.epa.gov/ghgreporting/fluorinated-greenhouse-gas-emissions-and-supplies-reported-ghgrp" target="_blank" rel="noreferrer noopener">fluorinated greenhouse gases (F-GHGs)</a> which, in general, are the most potent and longest lasting greenhouse gases. EPA has developed a number of <a href="https://www.epa.gov/ghgreporting/help-center-ghg-reporting" target="_blank" rel="noreferrer noopener">tools and documents</a> to assist in understanding and complying with the Greenhouse Gas Reporting Program (GHGRP).</p><p>The PFAS Analytic Tools Present PFAS emissions data reported to the GHGRP for the time period between 2010 and the most recent reporting year. PFAS emissions data has been identified for facilities engaged in the following industrial processes: Aluminum Production (GHGRP Subpart F), HCFC-22 Production and HFC-23 Destruction (Subpart O), Electronics Manufacturing (Subpart I), Fluorinated Gas Production (Subpart L), Magnesium Production (Subpart T), Electrical Transmission and Distribution Equipment Use (Subpart DD), and Manufacture of Electric Transmission and Distribution Equipment (Subpart SS). Over time, other industrial processes with required GHGRP reporting may include PFAS emissions data and the list of reportable gases may change over time. The PFAS Analytic Tools will be updated to reflect changes to the GHGRP.</p></dd><dd><p><strong>Caveats and Limitations: This data includes greenhouse gas (GHG) emissions data from facilities that emit 25,000 metric tons of carbon dioxide equivalent (CO2e) per year and emit chemicals identified in EPA's CompTox Chemicals Dashboard lists of PFAS.&nbsp;</strong></p><p><strong>Note that some regulatory programs have specified chemical structure requirements that define PFAS differently than the lists in EPA's CompTox Chemicals Dashboard.&nbsp;</strong></p><p><strong>EPA has developed a number of </strong><a href="https://www.epa.gov/ghgreporting/help-center-ghg-reporting"><strong>tools and documents</strong></a><strong> to assist in understanding and complying with the Greenhouse Gas Reporting Program (GHGRP).</strong></p></dd><dd><p>Data Refresh Interval: Weekly from <a href="https://www.epa.gov/enviro/greenhouse-gas-restful-data-service">Envirofacts</a> (source data is reported annually).</p></dd></dl><hr><h2>Data Refresh Dates<a id="datarefresh" name="datarefresh">&nbsp;</a></h2></div>
+      
+
+
+
+<div class="tools nonSearch clearfix">
+  <h3 id="pesticidesTitle" style="font-size:16px;float:left;"></h3>
+  <a id="helpLink" href="" class="help" target="_blank">Help</a>
+  <a id="relatedToolsLink" href="related-tools?tab=air" class="relatedTools infobox">Related Tools</a>
+</div>
+
+<div class="iframe_holder" style="margin-left:0px;margin-top:20px;">
+  <div id="graphs" class="graphs" style="position:relative;overflow:hidden;height:1100px;clear:both">  
+    <iframe id="dashboardIframe" title="Echo Dashboard" src="" style="width:100%;height:1100px;" scrolling="yes" frameborder="0"></iframe>
+  </div>
+  <div id="pestgraphs" class="graphs" style="position:relative;overflow:hidden;height:875px;width:95%;clear:both">
+    <div id="criteria">
+      <span id="dropdowns">
+        <label for="state_select_dropdown">State</label>
+        <select id="state_select_dropdown">
+          <option value=""></option>
+        </select>
+        <label for="tribe_select_dropdown">Tribe</label>        
+        <select id="tribe_select_dropdown">
+          <option value=""></option>        
+        </select>
+
+        <span id="eparegion_criteria">
+          <label for="eparegion_select_dropdown">EPA Region</label>
+          <select id="eparegion_select_dropdown">
+            <option value=""></option>
+            <option value="Region 01">Region 01</option>
+            <option value="Region 02">Region 02</option>
+            <option value="Region 03">Region 03</option>
+            <option value="Region 04">Region 04</option>
+            <option value="Region 05">Region 05</option>
+            <option value="Region 06">Region 06</option>
+            <option value="Region 07">Region 07</option>
+            <option value="Region 08">Region 08</option>
+            <option value="Region 09">Region 09</option>
+            <option value="Region 10">Region 10</option>
+          </select>
+        </span>
+        
+        <label for="view_select_dropdown">Dashboard View</label>
+        <select id="view_select_dropdown">
+          <option value="establishments">Establishments Dashboard</option>
+          <option value="wps">WPS Dashboard</option>
+        </select>
+      </span>
+      <span id="download">
+        <a id="downloadLink"  href=""><img id="downloadImage" alt="Download Data" src="" />Download Data</a>
+      </span>
+    </div>
+
+    <div id='outer-est'>
+      <div class='chartbox'>
+        <h2 class='chartTitle'>Establishments Regulated</h2>
+        <div class='chartIn'  id='containerest1'></div>
+      </div>
+      <div class='chartbox'>
+        <h2 class='chartTitle'>Inspections</h2>
+        <div  class='chartIn' id='containerest2'></div>
+      </div>
+      <div class='chartbox'>
+        <h2 class='chartTitle '>Violations</h2>
+        <div  class='chartIn' id='containerest3'></div>
+      </div>
+      <div class='chartbox'>
+        <h2 class='chartTitle blues'>Enforcement Actions</h2>
+        <div  class='chartIn' id='containerest4'></div>
+      </div>
+      <div class='chartbox'>
+        <!-- Uncomment this to add a bar to the bottom middle container
+        <h2 class='chartTitle blues'>Fines</h2> -->
+        <div class='chartIn' id='containerest6'  style='text-align:center'></div><!--note: remove style when new chart added-->
+      </div>
+      <div class='chartbox'>
+        <h2 class='chartTitle blues'>Penalties</h2>
+        <div  class='chartIn' id='containerest5'></div>
+       </div>
+    </div>
+    <div id='outer-wps'>
+      <div class='chartbox'>
+        <h2 class='chartTitle blues'>Inspections</h2>
+        <div  class='chartIn' id='containerwps3'></div>
+      </div>
+      <div class='chartbox'>
+        <h2 class='chartTitle blues'>Violations</h2>
+        <div  class='chartIn' id='containerwps4'></div>
+      </div>
+      <div class='chartbox'>
+        <h2 class='chartTitle blues'>Violation Types</h2>
+        <div class='chartIn' id='containerwps5'></div>
+      </div>
+      <div class='chartbox'>
+        <h2 class='chartTitle blues'>Enforcement Actions</h2>
+        <div  class='chartIn' id='containerwps6'></div>
+      </div>
+    </div>    
+
+    <div style="clear:both"></div>    
+  </div>
+</div>
+
+
+
+
+            <div><hr><h2>What's New&nbsp;<a id="new" name="new">&nbsp;</a></h2><p>September 18, 2023 - EPA adds new drinking water monitoring data from the <a href="https://www.epa.gov/dwucmr/fifth-unregulated-contaminant-monitoring-rule">Unregulated Contaminant Monitoring Rule (UCMR) 5.</a> Sampling collection under the UCMR 5 will be from January 2023 through December 2025, and occurrence data will be made available quarterly over the course of the reporting cycle.</p><p>PFAS Analytic Tools includes a new data layer, Greenhouse Gas (GHG) emissions data collected under EPA's <a href="https://www.epa.gov/ghgreporting/fluorinated-greenhouse-gas-emissions-and-supplies-reported-ghgrp">Greenhouse Gas Reporting Program (GHGRP)</a>. The PFAS Analytic Tools present PFAS emissions data reported to the GHGRP for the time period between 2010 and the most recent reporting year. GHGRP data are reported annually and will be refreshed from <a href="https://www.epa.gov/enviro/greenhouse-gas-restful-data-service">Envirofacts</a> weekly.</p><p>Tens of thousands of ambient surface water and fish tissue samples have been loaded into the PFAS Analytic Tools since the January release, including studies from EPA and the USGS (e.g., 2018-2019 National Rivers and Streams Assessment).&nbsp;</p><p>January 10, 2023 - EPA conducts a training on the PFAS Analytics. <a href="https://echo.epa.gov/help/training#PAT-01-11" target="_blank">Learn more and watch the recording of the training.</a></p><p>January 5, 2023 - PFAS Analytic Tools public launch. Updates to data sources (e.g. new data fields) or inclusion of additional datasets will be published in this section in the future.</p><hr><p></p><h2>Additional Resources<a id="resources" name="resources">&nbsp;</a></h2><ul><li>EPA Resources<ul><li><a href="https://www.epa.gov/pfas" target="_blank">EPA’s hub presenting wide-ranging activities regarding PFAS</a></li><li><a href="https://www.epa.gov/chemical-research/research-and-polyfluoroalkyl-substances-pfas" target="_blank">EPA PFAS Research</a></li><li><a href="https://www.epa.gov/wqc/aquatic-life-criteria-perfluorooctanoic-acid-pfoa" target="_blank">Draft aquatic life criteria for PFOA</a></li><li><a href="https://www.epa.gov/wqc/aquatic-life-criteria-perfluorooctane-sulfonate-pfos" target="_blank">Draft aquatic life criteria for PFOS</a></li><li>EPA’s Center for Computational Toxicology and Exposure (CCTE)’s COMPTOX platform includes <a href="https://comptox.epa.gov/dashboard/chemical_lists" target="_blank">lists of defined structure PFASs and undefined structure PFASs</a>.</li><li><a href="https://www.epa.gov/assessing-and-managing-chemicals-under-tsca/fact-sheet-20102015-pfoa-stewardship-program" target="_blank">2010/2015 PFOA Stewardship Program</a></li></ul></li><li><a href="https://www.atsdr.cdc.gov/pfas/" target="_blank">Information from the Agency for Toxic Substances and Disease Registry</a>&nbsp;<a class="exit-disclaimer" href="https://www.epa.gov/home/exit-epa" title="EPA's External Link Disclaimer">Exit</a></li><li><a href="https://www.epa.gov/node/198723" target="_blank">State Resources about PFAS</a></li></ul></div>
+      
+  </div>
+
+</article>
+
+  </div>
+
+  </div>
+
+
+        
+      </article>
+    </div>
+  </div>
+</main>
+
+<!-- EPA footer -->
+
+<div class="text-right padding-right-3 padding-bottom-1 epa-footer">
+  <a href="#" class="top-of-page" title="">
+    <svg role="img" aria-label="Top of page">
+      <use href="/themes/custom/epa_uswds/images/sprite.artifact.svg#angle"></use>
+    </svg>
+    <span>
+    Top of Page
+  </span>
+  </a>
+</div>
+<footer class="footer epa-footer" role="contentinfo">
+  <div class="l-constrain">
+    <img class="footer__epa-seal" src="https://www.epa.gov/themes/epa_theme/images/epa-seal.svg" alt="United States Environmental Protection Agency" height="100" width="100">
+    <div class="footer__content contextual-region">
+      <div class="footer__column">
+        <h2>Discover.</h2>
+        <ul class="menu menu--footer">
+          <li class="menu__item">
+            <a href="https://www.epa.gov/accessibility/epa-accessibility-statement" class="menu__link">Accessibility Statement</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/planandbudget" class="menu__link">Budget &amp; Performance</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/contracts" class="menu__link">Contracting</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/utilities/wwwepagov-snapshots" class="menu__link">EPA www Web Snapshot</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/grants" class="menu__link">Grants</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/ocr/no-fear-act-data" class="menu__link">No FEAR Act Data</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/web-policies-and-procedures/plain-writing" class="menu__link">Plain Writing</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/privacy/privacy-and-security-notice" class="menu__link">Privacy and Security Notice</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__column">
+        <h2>Connect.</h2>
+        <ul class="menu menu--footer">
+          <li class="menu__item">
+            <a href="https://www.epa.gov/data" class="menu__link">Data</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/office-inspector-general" class="menu__link">Inspector General</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/careers" class="menu__link">Jobs</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/newsroom" class="menu__link">Newsroom</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.regulations.gov/" class="menu__link" data-once="external-links protected-links">Regulations.gov<svg class="icon icon--exit is-spaced-before" role="img"><title>Exit EPA’s Website</title><use href="/themes/custom/epa_uswds/images/sprite.svg#launch"></use></svg></a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/newsroom/email-subscriptions-epa-news-releases" class="menu__link">Subscribe</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.usa.gov/" class="menu__link" data-once="external-links protected-links">USA.gov<svg class="icon icon--exit is-spaced-before" role="img"><title>Exit EPA’s Website</title><use href="/themes/custom/epa_uswds/images/sprite.svg#launch"></use></svg></a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.whitehouse.gov/" class="menu__link" data-once="external-links protected-links">White House<svg class="icon icon--exit is-spaced-before" role="img"><title>Exit EPA’s Website</title><use href="/themes/custom/epa_uswds/images/sprite.svg#launch"></use></svg></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__column">
+        <h2>Ask.</h2>
+        <ul class="menu menu--footer">
+          <li class="menu__item">
+            <a href="https://www.epa.gov/aboutepa/forms/contact-epa" class="menu__link">Contact EPA</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/web-policies-and-procedures/epa-disclaimers" class="menu__link">EPA Disclaimers</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/aboutepa/epa-hotlines" class="menu__link">Hotlines</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/foia" class="menu__link">FOIA Requests</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/aboutepa/frequent-questions-specific-epa-programstopics" class="menu__link">Frequent Questions</a>
+          </li>
+        </ul>
+        <h2>Follow.</h2>
+        <ul class="menu menu--social">
+          <li class="menu__item">
+            <a class="menu__link" aria-label="EPA’s Facebook" href="https://www.facebook.com/EPA">
+              <svg class="icon icon--social" aria-hidden="true"><use href="/themes/custom/epa_uswds/images/sprite.artifact.svg#facebook-square"></use></svg>    </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" aria-label="EPA’s Twitter / X" href="https://x.com/epa">
+              <svg class="icon icon--social" aria-hidden="true"><use href="/themes/custom/epa_uswds/images/sprite.artifact.svg#twitter-square"></use></svg>    </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" aria-label="EPA’s Youtube" href="https://www.youtube.com/user/USEPAgov">
+              <svg class="icon icon--social" aria-hidden="true"><use href="/themes/custom/epa_uswds/images/sprite.artifact.svg#youtube-square"></use></svg>    </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" aria-label="EPA’s Instagram" href="https://www.instagram.com/epagov">
+              <svg class="icon icon--social" aria-hidden="true"><use href="/themes/custom/epa_uswds/images/sprite.artifact.svg#instagram-square"></use></svg>    </a>
+          </li>
+        </ul>
+
+                  <p class="footer__last-updated">Last updated on August 29, 2025</p>
+        
+                  <p class="data-refresh-information"><a href="/resources/echo-data/about-the-data#sources">Data Refresh Information</a></p>
+              </div>
+    </div>
+  </div>
+</footer>
+
+  </div>
+
+    <div id="echo-survey-root"></div>
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/557","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"eJx1z2EKwzAIBeALbeRIQVvXyNIY8sxGb7-OjkCh-_f4niKyLrFqlcC_cJMpWViyMeU7pqbVcTbfspblsNVY87ETqXv6DR0wPWVWt3bCmZDYqM0YXCl2vAeMC-hV2kORwkhXFpO9pGlxKX7ZY6Wc91dEynX_TeiMf201qKvt2xtc1sAE-QDbAnwQ","theme":"echo","theme_token":null},"ajaxTrustedUrl":[],"bigPipePlaceholderIds":{"callback=Drupal%5CCore%5CRender%5CElement%5CStatusMessages%3A%3ArenderMessages\u0026args%5B0%5D\u0026token=_HAdUpwWmet0TOTe2PSiJuMntExoshbm1kh2wQzzzAA":true,"callback=Drupal%5Cblock%5CBlockViewBuilder%3A%3AlazyBuilder\u0026args%5B0%5D=echo_account_menu\u0026args%5B1%5D=full\u0026args%5B2%5D\u0026token=0aQiGtHfmcfMkZldF9umwp4ytpUXW1fy6B3sE6gnHoo":true,"callback=Drupal%5Cblock%5CBlockViewBuilder%3A%3AlazyBuilder\u0026args%5B0%5D=echo_site_branding\u0026args%5B1%5D=full\u0026args%5B2%5D\u0026token=9a0HfJL6Ki6au7tD0cANVA8jywXxiDONuQktCRIYS1k":true},"echoDashboards":{"helpLink":"n\/a","dashboardAbbr":"pfasdatasets","iframeDevUrl":"https:\/\/awsedap.epa.gov\/public\/extensions\/PFAS_Metadata\/PFAS_Metadata.html","iframeProdUrl":"https:\/\/awsedap.epa.gov\/public\/extensions\/PFAS_Metadata\/PFAS_Metadata.html"},"superfish":{"superfish-main":{"id":"superfish-main","sf":{"animation":{"opacity":"show","height":"show"},"speed":"fast","autoArrows":true,"dropShadows":true},"plugins":{"smallscreen":{"cloneParent":0,"mode":"window_width"},"supposition":true,"supersubs":{"maxWidth":18}}}},"echoAuth":{"loginUrl":"https:\/\/echo.epa.gov\/saml\/login","logoutUrl":"https:\/\/echo.epa.gov\/echoauth\/logout","redirectParm":"ReturnTo","passiveLoginParm":"IsPassive=true","sessionRenewalInterval":60,"inactivityTimeout":900,"inactivityWarningTime":60,"csrfToken":"dXzjFYrm_CZPu1V4fACe0jauJz4v3b2ZdOAihoia42g"},"user":{"uid":0,"permissionsHash":"bfcf218e3995934b015518ade7dfe37259bfc57699bc30e9d320d09049fb5019"},"echo":{"environment":{"name":"prod","type":"prod","isLab":false,"useStagingServices":false},"settings":{"credentials":{"document_upload":{"host":"https:\/\/tvzzvni6f9.execute-api.us-east-1.amazonaws.com\/echo-docs\/"}}},"user":{"email":null,"hasEnforcementSensitiveRole":false,"hasEpaRole":false,"hasGovernmentRole":false},"path":{"theme":"\/themes\/custom\/echo"}}}</script>
+<script src="/assets/js/js_x1b_M5BvMQ6KhdIEiMcdi3k5wNZvptcpcQj0o1fS-Ok.js?scope=footer&amp;delta=0&amp;language=en&amp;theme=echo&amp;include=eJx1jUsOwyAMBS-UiiMhO3GDJYItnun5-0u7IrvRzGJY9-zqkviERdZiaa_GVG9Yu3rg4zKNKGf4io1Q2Khv-GkMl35XlPSnmcvFHtK1hbSYdhxU62su0ub9TRiMq-oGDbX2BHUQWXQ"></script>
+
+  
+<script type="application/vnd.drupal-ajax" data-big-pipe-event="start"></script>
+<script type="application/vnd.drupal-ajax" data-big-pipe-replacement-for-placeholder-with-id="callback=Drupal%5Cblock%5CBlockViewBuilder%3A%3AlazyBuilder&amp;args%5B0%5D=echo_site_branding&amp;args%5B1%5D=full&amp;args%5B2%5D&amp;token=9a0HfJL6Ki6au7tD0cANVA8jywXxiDONuQktCRIYS1k">
+[{"command":"insert","method":"replaceWith","selector":"[data-big-pipe-placeholder-id=\u0022callback=Drupal%5Cblock%5CBlockViewBuilder%3A%3AlazyBuilder\u0026args%5B0%5D=echo_site_branding\u0026args%5B1%5D=full\u0026args%5B2%5D\u0026token=9a0HfJL6Ki6au7tD0cANVA8jywXxiDONuQktCRIYS1k\u0022]","data":"\n\n  \u003Ca class=\u0022echo-logo\u0022 href=\u0022https:\/\/echo.epa.gov\/\u0022\u003E\n    \u003Cimg src=\u0022\/themes\/custom\/echo\/images\/logo.png\u0022 alt=\u0022ECHO: \u0022 style=\u0022vertical-align:middle;\u0022\u003E\n  \u003C\/a\u003E\n\n","settings":null}]
+</script><script type="application/vnd.drupal-ajax" data-big-pipe-replacement-for-placeholder-with-id="callback=Drupal%5Cblock%5CBlockViewBuilder%3A%3AlazyBuilder&amp;args%5B0%5D=echo_account_menu&amp;args%5B1%5D=full&amp;args%5B2%5D&amp;token=0aQiGtHfmcfMkZldF9umwp4ytpUXW1fy6B3sE6gnHoo">
+[{"command":"insert","method":"replaceWith","selector":"[data-big-pipe-placeholder-id=\u0022callback=Drupal%5Cblock%5CBlockViewBuilder%3A%3AlazyBuilder\u0026args%5B0%5D=echo_account_menu\u0026args%5B1%5D=full\u0026args%5B2%5D\u0026token=0aQiGtHfmcfMkZldF9umwp4ytpUXW1fy6B3sE6gnHoo\u0022]","data":"\n\n  \u003C!-- User menu --\u003E\n  \u003Cdiv id=\u0022log\u0022\u003E\n          \u003Cspan\u003E\u0026nbsp;\u003C\/span\u003E\n      \u003C\/div\u003E\n\n  \n              \u003Cul id=\u0022mainLinks\u0022\u003E\n              \u003Cli\u003E\n        \u003Ca href=\u0022\/resources\/general-info\/contact-us\u0022 data-drupal-link-system-path=\u0022node\/550\u0022\u003EContact Us\u003C\/a\u003E\n              \u003C\/li\u003E\n          \u003Cli\u003E\n        \u003Ca href=\u0022https:\/\/echo.epa.gov\/saml\/login?ReturnTo=https%3A%2F%2Fecho.epa.gov%2Fnode%2F557%3Fcheck_logged_in%3D1\u0022 data-drupal-link-system-path=\u0022user\/login\u0022\u003ELogin\u003C\/a\u003E\n              \u003C\/li\u003E\n        \u003C\/ul\u003E\n  \n\n\n\n","settings":null}]
+</script><script type="application/vnd.drupal-ajax" data-big-pipe-replacement-for-placeholder-with-id="callback=Drupal%5CCore%5CRender%5CElement%5CStatusMessages%3A%3ArenderMessages&amp;args%5B0%5D&amp;token=_HAdUpwWmet0TOTe2PSiJuMntExoshbm1kh2wQzzzAA">
+[{"command":"insert","method":"replaceWith","selector":"[data-big-pipe-placeholder-id=\u0022callback=Drupal%5CCore%5CRender%5CElement%5CStatusMessages%3A%3ArenderMessages\u0026args%5B0%5D\u0026token=_HAdUpwWmet0TOTe2PSiJuMntExoshbm1kh2wQzzzAA\u0022]","data":"","settings":null}]
+</script>
+<script type="application/vnd.drupal-ajax" data-big-pipe-event="stop"></script>
+</body>
+</html>

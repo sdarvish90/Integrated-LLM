@@ -1,0 +1,100 @@
+{
+  "warnings": [
+    {
+      "warning": "incomplete return",
+      "description": "The API can only return 5000 rows in JSON format.  Please consider constraining your request with facet, start, or end, or using offset to paginate results."
+    }
+  ],
+  "response": {
+    "total": "188442",
+    "dateFormat": "YYYY-MM",
+    "frequency": "monthly",
+    "data": [
+      {
+        "period": "2025-10",
+        "duoarea": "R20-Z00",
+        "area-name": "PADD 2",
+        "product": "EP00",
+        "product-name": "Crude Oil and Petroleum Products",
+        "process": "EEX",
+        "process-name": "Exports",
+        "series": "MTTEXP22",
+        "series-description": "Midwest (PADD 2) Exports of Crude Oil and Petroleum Products (Thousand Barrels per Day)",
+        "value": "432",
+        "units": "MBBL/D"
+      },
+      {
+        "period": "2025-10",
+        "duoarea": "NUS-Z00",
+        "area-name": "U.S.",
+        "product": "EPD0",
+        "product-name": "Distillate Fuel Oil",
+        "process": "EEX",
+        "process-name": "Exports",
+        "series": "MDIEXUS1",
+        "series-description": "U.S. Exports of Distillate Fuel Oil (Thousand Barrels)",
+        "value": "37449",
+        "units": "MBBL"
+      },
+      {
+        "period": "2025-10",
+        "duoarea": "R30-Z00",
+        "area-name": "PADD 3",
+        "product": "EPC0",
+        "product-name": "Crude Oil",
+        "process": "EEX",
+        "process-name": "Exports",
+        "series": "MCREXP32",
+        "series-description": "Gulf Coast (PADD 3) Exports of Crude Oil (Thousand Barrels per Day)",
+        "value": "4079",
+        "units": "MBBL/D"
+      },
+      {
+        "period": "2025-10",
+        "duoarea": "R30-Z00",
+        "area-name": "PADD 3",
+        "product": "EP00",
+        "product-name": "Crude Oil and Petroleum Products",
+        "process": "EEX",
+        "process-name": "Exports",
+        "series": "MTTEXP31",
+        "series-description": "Gulf Coast (PADD 3) Exports of Crude Oil and Petroleum Products (Thousand Barrels)",
+        "value": "295791",
+        "units": "MBBL"
+      },
+      {
+        "period": "2025-10",
+        "duoarea": "R50-Z00",
+        "area-name": "PADD 5",
+        "product": "EP00",
+        "product-name": "Crude Oil and Petroleum Products",
+        "process": "EEX",
+        "process-name": "Exports",
+        "series": "MTTEXP52",
+        "series-description": "West Coast (PADD 5) Exports of Crude Oil and Petroleum Products (Thousand Barrels per Day)",
+        "value": "369",
+        "units": "MBBL/D"
+      }
+    ]
+  },
+  "request": {
+    "command": "/v2/petroleum/move/exp/data/",
+    "params": {
+      "api_key": "o5nQ7H9b6Bf9Kh3D0cCeC8ydP24drGTiFGaCQrKN",
+      "frequency": "monthly",
+      "data": [
+        "value"
+      ],
+      "sort": [
+        {
+          "column": "period",
+          "direction": "desc"
+        }
+      ],
+      "length": "5",
+      "offset": "0"
+    }
+  },
+  "apiVersion": "2.1.10",
+  "ExcelAddInVersion": "2.1.0"
+}

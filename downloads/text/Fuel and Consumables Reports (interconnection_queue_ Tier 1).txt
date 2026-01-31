@@ -1,0 +1,41 @@
+Title: Fuel and Consumables Reports (interconnection_queue, Tier 1)
+URL: https://www.misoenergy.org/markets-and-operations/reliability-information/fuel-consumables-reports/
+Date: 2026-01-28
+======================================================================
+
+Fuel and Consumables Reports
+The
+Fuel
+and
+Consumable
+Reports
+contain
+aggregated
+data
+that
+is
+reported
+every Monday
+by
+Market
+Participants
+for the week prior
+.
+Report
+frequency
+may
+decrease
+depending
+on
+the
+system
+conditions
+and
+reported
+inventory
+levels
+and
+restrictions
+.
+Documents
+error with doc nav!

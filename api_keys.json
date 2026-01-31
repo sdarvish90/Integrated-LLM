@@ -1,0 +1,7 @@
+{
+  "EIA_API_KEY": "o5nQ7H9b6Bf9Kh3D0cCeC8ydP24drGTiFGaCQrKN",
+  "NREL_API_KEY": "Q53Bjax0RHfiReKLeEWlMrKblncwalaOC4aAlgXm",
+  "_comment": "Get free API keys from:",
+  "_eia_signup": "https://www.eia.gov/opendata/register.php",
+  "_nrel_signup": "https://developer.nrel.gov/signup/"
+}

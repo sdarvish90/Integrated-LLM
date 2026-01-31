@@ -1,0 +1,28 @@
+Border direction,Flow direction,Loop Flows MW
+AT > CH,Same direction as physical flow,10
+CZ > AT,Same direction as physical flow,288
+AT > DE,Opposite physical flow,90
+AT > HU,Same direction as physical flow,68
+AT > IT,Same direction as physical flow,37
+AT > SI,Same direction as physical flow,138
+BE > FR,Opposite physical flow,260
+NL > BE,Same direction as physical flow,268
+BG > GR,Same direction as physical flow,64
+RO > BG,Same direction as physical flow,205
+CH > DE,Opposite physical flow,172
+CH > FR,Opposite physical flow,370
+IT > CH,Opposite physical flow,532
+DE > CZ,Same direction as physical flow,145
+PL > CZ,Same direction as physical flow,281
+CZ > SK,Same direction as physical flow,147
+FR > DE,Same direction as physical flow,639
+DE > NL,Same direction as physical flow,274
+DE > PL,Same direction as physical flow,397
+FR > ES,Same direction as physical flow,13
+ES > PT,Same direction as physical flow,1
+IT > FR,Opposite physical flow,54
+HU > HR,Same direction as physical flow,309
+HU > RO,Same direction as physical flow,97
+SK > HU,Same direction as physical flow,228
+SI > IT,Same direction as physical flow,419
+PL > SK,Same direction as physical flow,127

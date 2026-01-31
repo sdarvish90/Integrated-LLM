@@ -1,0 +1,153 @@
+Title: Hydrogen
+URL: https://www.energy.gov/topics/hydrogen
+Date: 2026-01-28
+======================================================================
+
+Hydrogen is the most abundant element in the universe; it is also the simplest and the lightest. Unlike traditional energy resources, which are typically geographically constrained, hydrogen can be produced virtually anywhere, using a wide range of energy resources—including nuclear, fossil energy, and renewables. Hydrogen has been described as the “Swiss army knife” of energy because it plays a key role in several sectors where there are limited or no viable alternatives (including in applications where electrification is particularly challenging or costly). These include key drivers of our economy that are essential to American prosperity and a modern quality of life, such as medium- and heavy-duty transportation (trucks, buses, trains, ships, aircraft, and off-road equipment) and industrial and chemical processes, like cement production and steelmaking, as well as the production of fertilizers and liquid fuels.
+Highlights
+Learn More about Hydrogen
+In collaboration with other federal agencies, DOE is developing plain-language information resources written for the general public. These concise and handy resources aim to expand understanding of hydrogen and its potential role in an affordable and secure energy future.
+Learn More
+about
+Learn More about Hydrogen
+November 14, 2024
+U.S. National Hydrogen Strategy and Roadmap
+This groundbreaking strategy document explores opportunities for hydrogen to contribute to national goals across multiple sectors of the economy and provides a snapshot of hydrogen production, transport, storage, and end use today with a strategic framework for achieving large-scale production and use of hydrogen.
+Learn More
+about
+	U.S. National Hydrogen Strategy and Roadmap
+June 5, 2023
+Pathways to Commercial Liftoff: Hydrogen
+This report aims to establish a common fact base and ongoing dialogue with the private sector around the path to commercial liftoff for hydrogen—and to catalyze more rapid and coordinated action across the full hydrogen value chain. It is part of a series of reports that represent a department-wide initiative to strengthen engagement between the public and private sectors to accelerate key energy technologies. The reports provide the private sector and other industry partners a valuable, engagement-driven resource on how and when certain technologies—beginning with hydrogen, advanced nuclear, and long duration energy storage—can reach full scale deployment.
+Learn More
+about
+	Pathways to Commercial Liftoff: Hydrogen
+November 14, 2024
+Hydrogen – A Versatile Tool for Our Energy Future
+Why Hydrogen?
+Hydrogen is an important part of a strategy to
+make energy more affordable, abundant, secure, and flexible for American businesses and families
+. Hydrogen is currently used in several essential industrial processes—including a more than 100-year-long history of use in petroleum refining—and it can play a growing role in all kinds of domestic energy production, including fossil, nuclear, and renewables. Hydrogen’s diverse uses—which include chemical processes, high-heat applications, and for producing electricity (via fuel cells or combustion turbines)—will enable it to provide value in multiple sectors of the economy, from industrial processes to heavy transportation, to long-duration energy storage.
+The key advantages of hydrogen are:
+Versatility of sources.
+Unlike traditional energy resources, which are typically geographically constrained, hydrogen can be produced virtually anywhere, using all domestic energy resources.
+Versatility of uses.
+Hydrogen has been described as the “Swiss army knife” of energy because it can be used across many sectors of the economy, including critical applications that are essential to prosperity and a modern standard of living, such as petroleum refining, steelmaking, and fertilizer production. In addition to its important industrial uses, hydrogen can also be used in fuel cells to produce electricity at high efficiencies across a wide range of stationary-power applications (including data centers, energy storage, and backup power) and transportation applications (such as buses and heavy-duty trucks).
+Local pollution reduction.
+Hydrogen can be used in many applications with no local air pollution or  emissions. For example, when hydrogen is converted to electricity in a fuel cell, only water vapor is emitted.
+What Is  Hydrogen and Where Does It Come From?
+Hydrogen is the most abundant element in the universe; it is also the simplest and the lightest. Although hydrogen constitutes nearly 75% of all the universe’s matter, only a small fraction of the hydrogen accessible on Earth exists in a pure state (not bonded to other elements). Producing hydrogen typically involves extracting it from other materials—such as fossil fuels, biomass, or water—using an external source of energy. In addition, geologic (or natural) hydrogen—which forms underground through geologic processes—is receiving growing interest, with its potential for extraction and use being examined by industry and governments all over the world.
+What Is the U.S. Government Doing to Support the Use of  Hydrogen?
+The government and the private sector are committing resources and attention to developing the hydrogen economy for the benefit of all Americans. Funding from the Infrastructure Investment and Jobs Act (IIJA) and the Inflation Reduction Act (IRA) build on long-standing research, development, demonstration, and deployment efforts funded through annual appropriations.
+Historic Federal Funding—the Infrastructure Investment and Jobs Act
+Provisions in the IIJA include $9.5 billion for hydrogen—with
+$8 billion for regional hydrogen hubs (H2Hubs), $1 billion for electrolysis research, development and demonstration (RD&D), and $500 million for hydrogen technology manufacturing and recycling research and development (R&D)
+. These funds work in concert with and supplement long-standing RD&D programs across the federal government, funded through annual appropriations.
+Industry-Boosting Incentives—the Inflation Reduction Act
+The IRA offers financial incentives to spur deployment and use of hydrogen technologies, including a
+hydrogen production tax credit
+that provides a credit of up to $3 per kilogram of hydrogen (this incentive varies based on the carbon intensity of the hydrogen production pathway) and an
+investment tax credit
+of up to 30% for new hydrogen-production facilities.
+Coordinated Federal Action—the
+Hydrogen Interagency Task Force
+The Hydrogen Interagency Task Force is a collaboration among U.S. federal agencies to further advance a whole-of-government approach to executing the
+national hydrogen strategy
+. Member agencies are working to coordinate activities across the full spectrum of research, development, demonstration, and deployment (RDD&D) and many related enabling factors. This includes funding in RDD&D across multiple federal agencies, through annual appropriations—including more than $430 million in DOE funding (in Fiscal Year 2023).
+The U.S. Department of Energy’s Hydrogen Initiatives and Programs
+Flagship Initiatives
+The
+H2Hubs Program
+is establishing hydrogen hubs in different regions across America, which will form the foundation of a national hydrogen network. Funded through the IIJA, the H2Hubs aim to accelerate the commercial-scale deployment of hydrogen, helping to generate dispatchable power, create a new form of energy storage, and provide additional energy options for heavy industry and transportation. Together, the H2Hubs would kickstart a national network of hydrogen producers, consumers, and connective infrastructure while supporting the production, storage, delivery, and end-use of hydrogen. To support this network and ensure its long-term viability, DOE is also funding an innovative “demand-side initiative,” and has selected a consortium of leading private-sector experts to design and implement demand-side support mechanisms to unlock the market potential of the H2Hubs.
+The
+Hydrogen Energy Shot
+™
+is the first of eight
+DOE Energy Earthshots™ Initiatives
+. It aims to reduce the cost of hydrogen to $1 per 1 kilogram within a decade. The cost reductions targeted by the Hydrogen Shot would make hydrogen affordable, thereby expanding existing markets, and creating new markets for hydrogen, including for iron and steel production, ammonia, heavy-duty trucking, and for energy storage.
+H2@Scale
+is a DOE initiative that provides an overarching vision for how hydrogen can enable energy pathways across applications and sectors in an increasingly interconnected energy system. The H2@Scale concept is based on hydrogen’s potential to meet existing and emerging market demands across multiple sectors. It envisions how innovations to produce, store, transport, and utilize hydrogen can help realize that potential and achieve scale to drive revenue opportunities, reduce costs, and improve efficiency.
+The DOE Hydrogen Program: Coordinated Research, Development, Demonstration, and Deployment of Hydrogen Technologies
+This program includes activities across multiple DOE offices—including Energy Efficiency and Renewable Energy, Fossil Energy and Carbon Management, Nuclear Energy, Electricity, the Office of Clean Energy Demonstrations, Manufacturing and Energy Supply Chains, the Loan Programs Office, the Office of Science, and the Advanced Research Program Agency – Energy. From basic research that answers foundational questions in chemistry to collaborating with private companies to accelerate innovative technologies, these efforts comprise a comprehensive portfolio, which aims to overcome challenges across the following areas.
+Hydrogen Production
+DOE is pursuing a broad portfolio of hydrogen production pathways, including splitting water, tapping into fossil resources with carbon capture; and extracting hydrogen from biomass and waste-stream resources.
+Hydrogen Delivery
+To support a wide range of applications, DOE is advancing technologies to enable delivery of hydrogen as a gas in pipelines and high-pressure tube trailers, as a liquid via tanker trucks, and using chemical hydrogen carriers.
+Hydrogen Storage
+DOE is advancing technologies and systems for storing hydrogen using physical processes—as a compressed gas or cryogenic liquid and using material-based processes that incorporate hydrogen in chemical compounds.
+Hydrogen Conversion
+DOE conducts a broad portfolio of RD&D to improve conversion of hydrogen into electricity and heat—both through combustion using turbines or reciprocating engines, and through an electrochemical process using fuel cells.
+Hydrogen Applications
+To enable use of hydrogen across multiple sectors, DOE supports the development and demonstration of technologies for using hydrogen in transportation, chemical and industrial processes, stationary power generation applications, and integrated hybrid energy systems.
+Manufacturing
+By developing processes and technologies specifically tailored to high-volume manufacturing, DOE is helping to achieve economies-of-scale in manufacturing. These efforts can also lead to additional technology and systems-integration improvements, resulting in even greater cost reductions.
+Safety, Codes, and Standards
+DOE supports the development and revision of necessary codes and standards to enable safe and economical deployment of hydrogen technologies. These efforts include research to improve understanding of the physical and chemical properties of hydrogen, close coordination and collaboration with code and standard development organizations, and global collaboration to harmonize international standards.
+Commercial Scale Demonstration and Deployment Support
+DOE also supports large-scale demonstrations and deployments. Including cost-shared funding in the H2Hubs and loan guarantees for commercial hydrogen installations.
+Press Releases
+Hydrogen
+Energy Department Removes Barriers for American Energy Producers, Unleashing Investment in Domestic Hydrogen
+May 22, 2025
+Hydrogen
+Hydrogen Production
+April H2IQ Hour Webinar: Geologic Hydrogen
+April 16, 2025
+Hydrogen
+Fuel Cell Technologies
+Fuel Cell Technologies
+Fuel Cell Technologies
+Fuel Cell Technologies
+DOE Unveils Updated Hydrogen Program Plan
+December 20, 2024
+Hydrogen
+Fuel Cell Technologies
+Hydrogen-Powered Heavy-Duty Truck Establishes New Threshold by Traveling 1,800 Miles on a Single Fill
+December 17, 2024
+View More
+From Our Blogs
+Nuclear Energy
+Space Exploration and the Universe
+Space Exploration and the Universe
+Space Exploration and the Universe
+Space Exploration and the Universe
+6 Things You Should Know About Nuclear Thermal Propulsion
+July 23, 2025
+Hydrogen
+@H2Spotlight: Fall 2024
+December 11, 2024
+Hydrocarbons
+Hydrogen
+Hydrogen
+Sector Spotlight: Advanced Fossil
+October 25, 2024
+Hydrogen
+Renewable Transportation
+Renewable Transportation
+Renewable Transportation
+Renewable Transportation
+Fuel, Eagles, Fuel
+October 24, 2024
+View More
+Supporting Offices
+Office of Critical Minerals and Energy Innovation
+January 23, 2026
+Hydrocarbons and Geothermal Energy Office
+January 20, 2026
+Office of Nuclear Energy
+October 29, 2025
+Energy Storage
+Electricity
+Electric Grids
+Office of Electricity
+January 6, 2026
+Office of Science
+January 16, 2026
+Loan Programs Office
+November 17, 2025
+Office of Manufacturing and Energy Supply Chains
+October 16, 2025
+Office of Clean Energy Demonstrations
+June 30, 2025
+ARPA-E
+May 17, 2023

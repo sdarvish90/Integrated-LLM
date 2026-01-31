@@ -1,0 +1,50 @@
+Delivery Year,Technology,Capacity (GW),Total Cost (Million euros)
+2030,Demand response,0.10,1104.40
+2033,"Other storage, excluding hydro and hydro pumped storage",0.10,1002.00
+2029,Demand response,0.10,1104.50
+2028,Demand response,0.10,1125.56
+2026,Demand response,0.20,1215.00
+2027,Demand response,0.20,1191.39
+2031,"Hydro, excluding pumped storage",0.20,1082.90
+2032,"Hydro, excluding pumped storage",0.20,1071.10
+2029,"Other storage, excluding hydro and hydro pumped storage",0.30,1104.50
+2028,"Hydro, excluding pumped storage",0.30,1125.56
+2029,"Hydro, excluding pumped storage",0.30,1104.50
+2030,"Hydro, excluding pumped storage",0.30,1104.40
+2030,"Other storage, excluding hydro and hydro pumped storage",0.30,1104.40
+2026,"Hydro, excluding pumped storage",0.40,1215.00
+2026,"Other storage, excluding hydro and hydro pumped storage",0.40,1215.00
+2027,"Hydro, excluding pumped storage",0.40,1191.39
+2027,"Other storage, excluding hydro and hydro pumped storage",0.40,1191.39
+2028,"Other storage, excluding hydro and hydro pumped storage",0.40,1125.56
+2031,"Other storage, excluding hydro and hydro pumped storage",0.50,1082.90
+2032,"Other storage, excluding hydro and hydro pumped storage",0.70,1071.10
+2030,"Hydro, pumped storage",0.90,1104.40
+2026,"Hydro, pumped storage",0.90,1215.00
+2027,"Hydro, pumped storage",0.90,1191.39
+2028,"Hydro, pumped storage",0.90,1125.56
+2029,"Hydro, pumped storage",0.90,1104.50
+2031,"Hydro, pumped storage",0.90,1082.90
+2032,"Hydro, pumped storage",0.90,1071.10
+2033,"Hydro, pumped storage",0.90,1002.00
+2034,"Hydro, pumped storage",0.90,947.10
+2031,Coal/Lignite,3.70,1082.90
+2032,Coal/Lignite,3.70,1071.10
+2033,Coal/Lignite,3.70,1002.00
+2034,Coal/Lignite,3.70,947.10
+2035,Coal/Lignite,3.70,921.20
+2028,Coal/Lignite,4.10,1125.56
+2029,Coal/Lignite,4.10,1104.50
+2030,Coal/Lignite,4.10,1104.40
+2026,Coal/Lignite,4.20,1215.00
+2027,Coal/Lignite,4.20,1191.39
+2035,Natural gas,10.40,921.20
+2034,Natural gas,10.60,947.10
+2033,Natural gas,11.10,1002.00
+2032,Natural gas,11.90,1071.10
+2030,Natural gas,12.10,1104.40
+2029,Natural gas,12.10,1104.50
+2031,Natural gas,12.10,1082.90
+2028,Natural gas,15.10,1125.56
+2026,Natural gas,15.90,1215.00
+2027,Natural gas,15.90,1191.39

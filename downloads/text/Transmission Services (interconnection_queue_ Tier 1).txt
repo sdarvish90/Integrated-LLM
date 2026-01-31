@@ -1,0 +1,57 @@
+Title: Transmission Services (interconnection_queue, Tier 1)
+URL: https://www.spp.org/engineering/transmission-services/
+Date: 2026-01-28
+======================================================================
+
+Transmission Services
+Quick Links
+Impact Studies
+The Transmission Services department evaluates long-term requests for Network Integration and Point-To-Point transmission service through various processes, including the Aggregate Transmission Service Study (ATSS) process under Attachment Z1 of the SPP Open-Access Transmission Tariff (OATT).
+To receive email updates from Transmission Services, sign up for the
+SPP Aggregate Studies Exploder
+.
+For questions or study requests, please contact
+TS@spp.org
+.
+ENGINEERING
+›
+Compliance and Advanced Studies
+NERC Reliability Standards
+Economic Planning
+Generator Interconnection
+Interregional Relations
+›
+Modeling
+Model Development Advisory Group
+Request an SPP Transmission Map/Model
+SPP Maps Frequently Asked Questions
+Project Tracking & NTCs
+Research & Development
+Reliability Planning
+Resource Adequacy
+SPP-MISO JTIQ
+Tariff Studies
+TCR Markets
+›
+Transmission Owner Selection Process
+Transmission Owner Selection Process: Qualified RFP Participants (QRPs)
+Transmission Owner Selection Process: Industry Expert Panel (IEP)
+Transmission Owner Selection Process: Request for Proposals (RFPs)
+›
+Transmission Planning
+Balanced Portfolio
+Detailed Project Proposals
+Frequently Asked Questions
+Integrated Transmission Planning
+High Priority Studies
+Priority Projects
+Transmission Services
+Value of Transmission
+Consolidated Planning Process
+HVDC Interconnection
+RELATED DOCUMENT GROUPS
+ATSS Backlog Clearing Process (BCP) Documents
+ATSS Documents
+Attachment AR Screening Studies
+Attachment J Wind Allocation Study
+New Aggregate Study Process

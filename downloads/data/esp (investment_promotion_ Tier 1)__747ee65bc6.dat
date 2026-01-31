@@ -1,0 +1,2548 @@
+ <!DOCTYPE html> <html lang="es"> <head> <title>
+	ProChile Home
+</title> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> <meta name="viewport" content="width=device-width,initial-scale=1"> <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous"
+        async> <link rel="stylesheet" href="/ResourcePackages/Prochile/assets/dist/css/bundle-libs.min.css" type="text/css"> <!-- <link rel="stylesheet" href="/ResourcePackages/Prochile/assets/dist/css/jquery.fancybox.min.css" type="text/css">  --> <!-- <link rel="stylesheet" href="/ResourcePackages/Prochile/assets/dist/css/bootstrap-grid.min.css" type="text/css">
+<link rel="stylesheet" href="/ResourcePackages/Prochile/assets/dist/css/tiny-slider.css" type="text/css">
+<link rel="stylesheet" href="/ResourcePackages/Prochile/assets/dist/css/animate.css" type="text/css">
+<link rel="stylesheet" href="/ResourcePackages/Prochile/assets/dist/css/normalize.css" type="text/css"> --> <link href="/ResourcePackages/Prochile/assets/dist/css/fullcalendar.min.css" media="all" rel="stylesheet" type="text/css"> <link rel="stylesheet" href="/ResourcePackages/Prochile/assets/dist/css/estilos.min.css" type="text/css"> <link rel="stylesheet" href="/ResourcePackages/Prochile/assets/dist/css/implementacion_prochile.css?v=02" type="text/css"> <!-- Global site tag (gtag.js) - Google Analytics --> <script async src="https://www.googletagmanager.com/gtag/js?id=UA-37664304-10"></script> <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-37664304-10');
+</script> <!-- Google Tag Manager --> <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KX4NTWS');</script> <!-- End Google Tag Manager -->  <script src="/resourcepackages/prochile/assets/dist/js/jquery-3.4.1.min.js"></script> <!-- <script src="/resourcepackages/prochile/assets/dist/js/jquery-3.5.1.min.js" defer></script> --> <script src="/resourcepackages/prochile/assets/dist/js/js.cookie.min.js" defer></script> <script src="/resourcepackages/prochile/assets/dist/js/funcion-cookie-prochile.js" defer></script> <meta property="og:title" content="ProChile Home" /><meta property="og:description" content="Somos la instituci&#243;n del Ministerio de Relaciones Exteriores que promueve la oferta de bienes y servicios chilenos en el mundo." /><meta property="og:url" content="https://www.prochile.gob.cl" /><meta property="og:type" content="website" /><meta property="og:site_name" content="Prochile" /><style type="text/css" media="all">@media (max-width: 767px) {
+  .carousel-caption{
+    display:flex;
+    justify-content: center !important;
+    right:0px!important;
+    left:0px!important;
+  }
+ .slide-home .texto a{
+   margin-right:0px!important;
+   font-size: 14px!important;
+   width:auto!important;
+  }
+  .w-100b{
+   width:200px!important;
+   margin-left:0px!important;
+  }
+}</style><link href="/App_Themes/nacional/Global/slide2.css" media="all" rel="stylesheet" type="text/css" /><link href="/App_Themes/nacional/Global/tarjetas.css" media="all" rel="stylesheet" type="text/css" /><link href="/App_Themes/nacional/Global/base.css" media="all" rel="stylesheet" type="text/css" /><style type="text/css" media="all">.col-lg-12-m{
+background-color:#fffaf0 !important;
+}</style><style type="text/css" media="all">.tns-outer {
+    touch-action: pan-y;
+}</style><script type="text/javascript">
+document.addEventListener('DOMContentLoaded', function() {
+    // Definimos los selectores de todos tus sliders
+    const sliderSelectors = ['.slide-home', '.c-logos'];
+
+    // Esperamos un momento para que los sliders se inicialicen
+    setTimeout(function() {
+        
+        // Iteramos sobre cada tipo de selector
+        sliderSelectors.forEach(function(selector) {
+            
+            // Buscamos todos los sliders que coincidan con el selector
+            const sliderContainers = document.querySelectorAll(selector);
+
+            // Aplicamos la solución a cada uno de ellos
+            sliderContainers.forEach(function(sliderContainer) {
+                sliderContainer.style.touchAction = ''; // Limpiamos estilos en línea
+                
+                // Adjuntamos nuestro listener para "interceptar" el toque
+                sliderContainer.addEventListener('touchstart', function(e) {
+                    e.stopPropagation(); 
+                }, true); // El 'true' es crucial para que se ejecute primero
+            });
+        });
+
+    }, 1500); // Puedes ajustar este tiempo si es necesario
+});
+</script><link href="/App_Themes/nacional/Global/header.css" media="all" rel="stylesheet" type="text/css" /><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" media="all" rel="stylesheet" type="text/css" /><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script><link href="/App_Themes/nacional/Global/footer-sellos.css" media="all" rel="stylesheet" type="text/css" /><script type="text/javascript" src="https://www.prochile.gob.cl/ResourcePackages/Prochile/assets/dist/js/moment.min.js"></script><script type="text/javascript" src="/resourcepackages/prochile/assets/dist/js/bundler.libs.min.js?v=1.0.0"></script><script type="text/javascript" src="/resourcepackages/prochile/assets/dist/js/funciones.min.js?v=1.0.0"></script><script type="text/javascript" src="/resourcepackages/prochile/assets/dist/js/funciones-widget.min.js?v=1.0.0"></script><script type="text/javascript" src="/resourcepackages/prochile/assets/dist/js/implementacion_prochile.js?v=1.0.0"></script><script type="text/javascript">
+window.onload = function() {
+
+
+// Obtener el contenedor del logo por su clase 'logo'
+        // getElementsByClassName devuelve una colección HTML, por lo que tomamos el primer elemento [0]
+        const logoContainer = document.getElementsByClassName('logo')[0];
+        // Referencia al div principal de tu pre-header por su clase 'pre-header'
+        // querySelector devuelve el primer elemento que coincide con el selector
+        const mainHeader = document.querySelector('.pre-header');
+        // Definir el umbral de scroll en píxeles
+        const scrollThreshold = 100;
+        // Definir el breakpoint para desktop (ej. 768px para Tailwind md)
+        const desktopBreakpoint = 768;
+
+        // Función que se ejecuta al hacer scroll
+        function handleScroll() {
+            // Solo aplicar la lógica si la pantalla es desktop
+            if (window.innerWidth >= desktopBreakpoint) {
+                // Comprobar la posición vertical del scroll
+                if (window.scrollY > scrollThreshold) {
+                    // Si el scroll supera el umbral, mostrar el logo
+                    logoContainer.classList.remove('logo-hidden');
+                    logoContainer.classList.add('logo-visible');
+                } else {
+                    // Si el scroll está por encima o en el umbral, ocultar el logo
+                    logoContainer.classList.remove('logo-visible');
+                    logoContainer.classList.add('logo-hidden');
+                }
+            } else {
+                // Si NO es desktop, asegúrate de que el logo esté oculto
+                logoContainer.classList.remove('logo-visible');
+                logoContainer.classList.add('logo-hidden');
+            }
+        }
+
+        // Añadir el event listener para el evento 'scroll' de la ventana
+        window.addEventListener('scroll', handleScroll);
+
+        // También escuchar el evento 'resize' para ajustar la visibilidad si el usuario cambia el tamaño de la ventana
+        window.addEventListener('resize', handleScroll);
+
+        // Llamar la función una vez al cargar la página para establecer el estado inicial
+        window.onload = handleScroll;
+
+}
+</script><script type="text/javascript" src="//js.hs-scripts.com/5322157.js"></script><link href="/App_Themes/nacional/Global/modal-bienvenida.css" media="all" rel="stylesheet" type="text/css" /><meta name="Generator" content="Sitefinity 15.1.8324.0 DX" /><link rel="canonical" href="https://www.prochile.gob.cl" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><script type="text/javascript">
+	(function() {var _rdDeviceWidth = (window.innerWidth > 0) ? window.innerWidth : screen.width;var _rdDeviceHeight = (window.innerHeight > 0) ? window.innerHeight : screen.height;var _rdOrientation = (window.width > window.height) ? 'landscape' : 'portrait';})();
+</script><meta name="description" content="Somos la institución del Ministerio de Relaciones Exteriores que promueve la oferta de bienes y servicios chilenos en el mundo." /></head> <body class="modooscuro"> <!-- Google Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KX4NTWS"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> <!-- End Google Tag Manager (noscript) -->  <div class="pre-header shadow-sm  fixed-md-top d-flex flex-column flex-md-row justify-content-end align-items-center"> 
+
+<div class='me-auto logo-hidden logo'>
+ <a target="_self" href="/home"><img src="/images/default-source/web/logo-prochile-azul.png?sfvrsn=36657437_6" alt="Prochile" class="h-10" /></a> 
+</div>
+
+<div class="dropdown mx-4"><button class="btn text-white dropdown-toggle border-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">Herramientas
+ </button><ul class="dropdown-menu border-0 p-2"><li><a class="fs-8 text-decoration-none" href="/herramientas">Conoce nuestras herramientas</a></li><li><a class="fs-8 text-decoration-none" href="/herramientas/ia-centro-digital-del-conocimiento"><strong>IAsistente ProChile</strong></a></li><li><a class="fs-8 text-decoration-none" href="/herramientas/itc-2025"><strong>Mapa de Potencial Exportador</strong></a></li><li><a class="fs-8 text-decoration-none" href="/herramientas/concursos">Concursos</a></li><li><a class="fs-8 text-decoration-none" href="/herramientas/ferias-internacionales-2025">Ferias Internacionales</a></li><li><a class="fs-8 text-decoration-none" href="/herramientas/capacitacion-y-formacion-exportadora">Capacitaci&oacute;n y Formaci&oacute;n Exportadora</a></li><li><a class="fs-8 text-decoration-none" href="/herramientas/marcas-sectoriales/nuestras-marcas">Marcas Sectoriales</a></li><li><a class="fs-8 text-decoration-none" href="/soluciones-globales-2024">Soluciones Globales</a></li><li><a class="fs-8 text-decoration-none" href="/herramientas/enexpro">Enexpro</a></li><li><a class="fs-8 text-decoration-none" href="/goglobal/que-es-goglobal">GoGlobal</a></li><!--<li><a class="fs-8 text-decoration-none" href="/herramientas/prochile-ecommerce" sfref="[f669d9a7-009d-4d83-ddaa-000000000002%7Clng%3Aes]EB89F333-0296-4014-B23C-B8E95FA1EF4F" data-sf-ec-immutable="">E-commerce Exporta</a></li>-->
+ <li><a class="fs-8 text-decoration-none" href="/herramientas/global-x">Global X</a></li><li><a class="fs-8 text-decoration-none" href="https://cdc.prochile.cl/" data-sf-ec-immutable="">El Centro Digital del Conocimiento</a></li><li><a class="fs-8 text-decoration-none" href="/beneficios">Beneficios</a></li></ul></div>
+<div class='d-none d-md-block'>
+ <div class="d-flex mx-4"><div><div class="figure position-relative"><a href="/sostenibilidad" title="Sostenibilidad" alt="Sostenibilidad" class="rollover"></a></div></div><div class="figure position-relative"><a href="https://centrodeayuda.prochile.gob.cl/hc/es-419" class="rollover-2" alt="Centro de Ayuda" title="Centro de Ayuda" data-sf-ec-immutable=""></a></div><div class="figure position-relative"><a href="https://portalusuario.prochile.cl/" alt="Acceso" title="Acceso ProChile Portals" class="rollover-3" data-sf-ec-immutable=""></a></div></div> 
+</div>
+<div class="row ms-3" data-sf-element="Row">
+    <div id="ContentplaceholderWidgetPreHeader_TC37D4659018_Col00" class="sf_colsIn col-6" data-sf-element="Column 1" data-placeholder-label="Column 1">
+<div class="mx-0 mx-md-4 d-flex rounded bg-white  align-items-center p-1 justify-content-center"><div class="d-flex justify-content-center"><a class="d-flex justify-content-center hover-overlay" href="javascript:;" id="btnLetra"><img src="/images/default-source/web/letra.png?sfvrsn=b905a721_0" style="width:50%;" title="Agrandar letra de texto" data-displaymode="Original" alt="Agrandar letra de texto" /></a></div><div class="d-flex justify-content-center"><img src="/images/default-source/web/separador.png?sfvrsn=af4f84d8_3" style="width:50%;" title="separador" data-displaymode="Original" alt="separador" /></div><div class="d-flex justify-content-center"><a class="contraste hover-overlay d-flex justify-content-center" href="javascript:;"><img src="/images/default-source/web/sol.png?sfvrsn=369fd9eb_0" style="width:50%;" title="Cambiar a escala de grises" data-displaymode="Original" alt="Cambiar a escala de grises" /></a></div></div>
+    </div>
+    <div id="ContentplaceholderWidgetPreHeader_TC37D4659018_Col01" class="sf_colsIn col-6" data-sf-element="Column 2" data-placeholder-label="Column 2">
+<div class="mx-0 mx-md-2 mr-0 sf-lang-selector">
+    <label>
+            <select class="form-select form-select-sm" onChange="openLink(value)">
+
+
+                <option value="en" >English</option>
+                <option value="es" selected=selected>espa&#241;ol</option>
+        </select>
+    </label>
+	
+</div>
+
+ 
+    </div>
+</div>
+
+
+
+ </div> <header class="modooscuro"> <div class="head-top mt-0 mt-md-5" id="head-top"> <div class="izq"> 
+
+<!--<a href="/home"><img src="/images/default-source/web/logo-prochile-azul.png?sfvrsn=36657437_6" alt="logo prochile azul" title="logo prochile azul" data-displaymode="Original" class="w-50" style="margin-top:10px;width:36%!important;" sfref="[images|OpenAccessDataProvider]25901a95-df03-426d-8c6f-b622acc8c944" /></a>-->
+<a href="/home"><img src="/images/default-source/innovacion-2025/logo-prochile-innovacion.png?sfvrsn=19f9f1ab_1" style="margin-top:10px;width:76%!important;" title="logo prochile azul" class="w-50" data-displaymode="Original" alt="logo prochile azul" /></a> </div> <div class="der changecolorText"> 
+
+<div class='d-none d-md-block'>
+ <div class="buscador"><input id="text_search" type="text" placeholder="Buscar en ProChile..." /><button id="btn_search" aria-label="Buscar"><em class="fas fa-search"></em></button></div> 
+</div>
+ </div> </div> <div class="head-bottom"> 
+
+<div class="btn-menu"><em class="fas fa-bars"></em></div><div class="der d-flex justify-content-center w-100"><nav class="w-100 d-none d-md-block"><ul class="changecolorText d-flex justify-content-end w-100 align-items-end"><li class="mx-1 mx-xxl-3"><a href="/quienes-somos">&iquest;Quienes Somos?</a></li><!-- <li class="mx-1 mx-xxl-3"><a target="_blank" href="/made-by-chileans" sfref="[f669d9a7-009d-4d83-ddaa-000000000002%7Clng%3Aes]FB497343-B9C0-48D8-9F04-68B7D8C81552" data-sf-ec-immutable="">Made by Chileans</a></li>-->
+ <li class="mx-1 mx-xxl-3"><a href="/actividades-planificadas">Planificaci&oacute;n 2026</a></li><li class="mx-1 mx-xxl-3"><a href="/preadmisibilidad">Pre admisibilidad</a></li><!--<li class="mx-1 mx-xxl-3"><a href="/soluciones-globales-2024" sfref="[f669d9a7-009d-4d83-ddaa-000000000002%7Clng%3Aes]0D7315EA-967E-42C1-B37D-CE16D234CC85" data-sf-ec-immutable="">Soluciones Globales</a></li>-->
+ <li><a href="/certificacion-de-origen/que-es-certificación-de-origen">Certificaci&oacute;n de Origen</a></li><!--<li class="mx-1 mx-xxl-3 desplegable"><a href="/beneficios" sfref="[f669d9a7-009d-4d83-ddaa-000000000002%7Clng%3Aes]0A690BBB-2879-4E22-99DE-EBE38E390DB2" data-sf-ec-immutable="">Beneficios</a>
+                <ul class="desplegable-content">
+                    <li><a href="/beneficios/convenios" sfref="[f669d9a7-009d-4d83-ddaa-000000000002%7Clng%3Aes]8D8A174D-6955-45F5-B15E-F7D0A39EBBB2" data-sf-ec-immutable="">Convenios</a></li>
+                </ul>
+            </li>-->
+ <li class="mx-1 mx-xxl-3 desplegable"><a href="#;" data-sf-ec-immutable="">Innovaci&oacute;n y Competitividad</a>
+ <ul class="desplegable-content"><li><a href="/innovacion-y-competitividad/mujer-exporta">Mujer Exporta</a></li><li><a href="/innovacion-y-competitividad/sostenibilidad/prochile-y-sostenibilidad">ProChile y la sostenibilidad</a></li><li><a href="/innovacion-y-competitividad/innovacion/prochile-y-la-innovacion">Innovaci&oacute;n</a></li><li><a href="/innovacion-y-competitividad/pueblos-originarios/prochile-y-pueblos-originarios">Pueblos Originarios</a></li></ul></li><li class="mx-1 mx-xxl-3"><a href="/sectores-exportadores/agro-y-alimentos">Sectores Exportadores</a></li><li class="mx-1 mx-xxl-3 desplegable"><a href="/noticias">Noticias</a>
+ <ul class="desplegable-content"><li><a href="mailto:prensa.prochile@prochile.gob.cl?subject=Contacto Prensa Sitio Web ProChile" data-sf-ec-immutable="">Contacto Prensa</a></li></ul></li><li class="mx-1 mx-xxl-3"><a href="/convocatorias">Actividades</a>
+ </li><li class="mx-1 mx-xxl-3 desplegable"><a style="cursor:default;" data-sf-ec-immutable="">Oficinas ProChile</a>
+ <ul class="desplegable-content"><li><a href="/prochile-en-tu-region-y-en-el-mundo/prochile-en-tu-region">ProChile en tu Regi&oacute;n</a></li><li><a href="/prochile-en-tu-region-y-en-el-mundo/prochile-en-el-mundo">ProChile en el Mundo</a>&nbsp;</li></ul></li><!--<li class="mx-1 mx-xxl-3"><a href="https://cdc.prochile.cl/ " data-sf-ec-immutable="">Centro Digital del Conocimiento</a>
+	</li>-->
+ </ul></nav><!--<a class="btn-exportadores d-none d-md-block" href="/internacional/home" sfref="[b314639e-bc34-4a40-aa79-e5e3355f4a76%7Clng%3Aes]97289372-8774-4386-80EF-17C55B927EC7" data-sf-ec-immutable="">Compradores Internacionales</a>-->
+</div> </div> </header> 
+
+<div class="menu-mobile"><div class="w-menu"><div class="cerrar-menu"><em class="fas fa-times"></em></div><div class="d-flex mx-1 mt-5 mb-2 justify-content-between"><div><img src="/images/default-source/web/eco.png?sfvrsn=7d8ed613_3" style="width:62%;" title="eco" data-displaymode="Original" alt="eco" /></div><div><img src="/images/default-source/web/ayuda.png?sfvrsn=e78f1975_5" style="width:62%;" title="ayuda" data-displaymode="Original" alt="ayuda" /></div><div><img src="/images/default-source/web/acceso.png?sfvrsn=2aee3ce0_3" style="width:62%;" title="acceso" data-displaymode="Original" alt="acceso" /></div></div><div class="buscador"><input type="hidden" name="indexCatalogue" value="ProChile" /><input type="hidden" name="wordsMode" value="AllWords" /><input name="searchQuery" id="searchQuery" type="text" placeholder="Buscar en ProChile..." /><button id="btn_search"><em class="fas fa-search"></em></button></div><ul class="pt-3"><li><a href="/beneficios">Beneficios</a></li><!--<li class="dropdown"><a href="/herramientas" sfref="[f669d9a7-009d-4d83-ddaa-000000000002%7Clng%3Aes]4B3FCB96-0C70-42DD-9054-3A0BA2BF32AD" data-sf-ec-immutable="">Herramientas</a>
+                <span>
+                    <em class="fas fa-chevron-down ic-close"></em><em class="fas fa-chevron-up ic-open"></em></span>
+                <ul class="submenu">
+                    <li><a href="/herramientas/concursos/acerca-de" sfref="[f669d9a7-009d-4d83-ddaa-000000000002%7Clng%3Aes]B1EFCCEE-CBC7-4949-8513-E23A51AC0F70" data-sf-ec-immutable="">Concursos</a></li>
+                    <li><a href="Item ID is not a valid Guid: 7213A112-7D7B-4050-B22D-9864C0E675CC2D-9864C0E675CC&-9864C0E675CC2D-9864C0E675CC&" sfref="[f669d9a7-009d-4d83-ddaa-000000000002%7Clng%3Aes]7213A112-7D7B-4050-B22D-9864C0E675CC2D-9864C0E675CC&-9864C0E675CC2D-9864C0E675CC&" data-sf-ec-immutable="">Ferias Internacionales</a></li>
+                    <li><a href="/herramientas/formacion-exportadora" data-sf-ec-immutable="">Formaci&oacute;n Exportadora</a></li>
+                    <li><a href="/herramientas/marcas-sectoriales/nuestras-marcas" sfref="[f669d9a7-009d-4d83-ddaa-000000000002%7Clng%3Aes]C011D4B8-FCD4-4D70-B3DA-FB6D9BA53172" data-sf-ec-immutable="">Marcas Sectoriales</a></li>
+                    <li><a href="/herramientas/enexpro" sfref="[f669d9a7-009d-4d83-ddaa-000000000002%7Clng%3Aes]45D5ABCF-7DF6-403F-ABB1-A3B227836D1F" data-sf-ec-immutable="">Enexpro</a></li>
+                    <li><a href="/goglobal/que-es-goglobal" sfref="[f669d9a7-009d-4d83-ddaa-000000000002%7Clng%3Aes]A2ECC7E5-58C3-4955-A002-AC3A0A999698" data-sf-ec-immutable="">GoGlobal</a></li>
+                    <li><a href="/herramientas/prochile-a-tu-medida" sfref="[f669d9a7-009d-4d83-ddaa-000000000002%7Clng%3Aes]8BFFBFDF-2C56-4796-99CB-2BEC5B67821C" data-sf-ec-immutable="">ProChile a tu Medida</a></li>
+                    <li><a href="/herramientas/e-exporta/" data-sf-ec-immutable="">e-Exporta</a></li>
+                    <li><a href="/herramientas/global-x" sfref="[f669d9a7-009d-4d83-ddaa-000000000002%7Clng%3Aes]36387991-1254-4731-87C3-F799C7BC9445" data-sf-ec-immutable="">Global X</a></li>
+                    <li><a href="https://cdc.prochile.cl/" data-sf-ec-immutable="">El Centro Digital del Conocimiento</a></li>
+                </ul>
+            </li>-->
+ <!--<li><a href="/beneficios" sfref="[f669d9a7-009d-4d83-ddaa-000000000002%7Clng%3Aes]0A690BBB-2879-4E22-99DE-EBE38E390DB2" data-sf-ec-immutable="">Beneficios</a>
+            </li>-->
+ <li><a href="/herramientas">Herramientas</a>
+ </li><li><a href="/sectores-exportadores">Sectores Exportadores</a>
+ </li><li class="dropdown"><a href="/innovacion-y-competitividad">Innovaci&oacute;n y Competitividad</a>
+ <span>
+ <em class="fas fa-chevron-down ic-close"></em><em class="fas fa-chevron-up ic-open"></em></span>
+ <ul class="submenu"><li><a href="/innovacion-y-competitividad/mujer-exporta/prochile-y-genero">Mujer Exporta</a></li><li><a href="/innovacion-y-competitividad/sostenibilidad/prochile-y-sostenibilidad">Sostenibilidad</a>
+ </li><li><a href="/innovacion-y-competitividad/innovacion/prochile-y-la-innovacion">Innovaci&oacute;n</a>
+ </li><li><a href="/innovacion-y-competitividad/pueblos-originarios/prochile-y-pueblos-originarios">Pueblos
+ Originarios</a></li></ul></li><li class="dropdown"><a href="/prochile-en-tu-region-y-en-el-mundo/prochile-en-tu-region" target="_blank">Oficinas ProChile
+                </a>
+ <span>
+ <em class="fas fa-chevron-down ic-close"></em><em class="fas fa-chevron-up ic-open"></em></span>
+ <ul class="submenu"><li><a href="/prochile-en-tu-region-y-en-el-mundo/prochile-en-tu-region">ProChile en tu
+                            Regi&oacute;n</a></li><li><a href="/prochile-en-tu-region-y-en-el-mundo/prochile-en-el-mundo">ProChile en el Mundo</a>
+ </li></ul></li><li><a href="https://cdc.prochile.cl/ " target="_blank" data-sf-ec-immutable="">Centro Digital de Conocimiento</a>
+ </li><li><a href="/noticias">Noticias</a>
+ </li><li><a href="/convocatorias">Actividades</a>
+ </li><li><a href="/quienes-somos">Qui&eacute;nes somos</a>
+ </li><li><a href="/preadmisibilidad">Pre admisibilidad</a>
+ </li><li><a href="/sostenibilidad">Sostenibilidad</a>
+ </li><li><a href="https://centrodeayuda.prochile.gob.cl/hc/es-419" target="_blank" data-sf-ec-immutable="">Centro de ayuda</a>
+ </li><li><a href="/certificacion-de-origen">Certificaci&oacute;n de origen</a>
+ </li></ul></div></div> 
+
+ 
+
+<section class="slide-home">
+  <div class="carrusel slide">
+    <div class="c-1">
+
+         <div class="item">
+              <picture>
+                <source class="img-slide lazyload" media="(max-width: 799px)" src='https://www.prochile.gob.cl/images/default-source/home/slide-principal/iasistente-prochile/banner-mobile.jpg?sfvrsn=3ec2316d_1' srcset='https://www.prochile.gob.cl/images/default-source/home/slide-principal/iasistente-prochile/banner-mobile.jpg?sfvrsn=3ec2316d_1' alt='' title='banner mobile'/>
+                <img class="img-slide" src='https://www.prochile.gob.cl/images/default-source/home/slide-principal/iasistente-prochile/banner-web.jpg?sfvrsn=2dea2e5d_1' alt='' title='banner web' />
+              </picture>
+              <div class="texto">
+                <div class="carousel-caption ">
+                <div class="logos wow fadeInUp2">
+                </div>
+
+                <div class="row text-white">
+                </div>
+		<div class="d-flex Izquierda">
+                
+                  <div class=""><a href="https://www.prochile.gob.cl/herramientas/ia-centro-digital-del-conocimiento" class="rounded-pill btn btn rounded-pill wow fadeInUp2  me-5 animated w-100" data-wow-delay=".8s" target="_blank">M&#193;S INFORMACI&#211;N</a></div>
+                                  </div>
+                </div>
+
+              </div>
+            </div>
+         <div class="item">
+              <picture>
+                <source class="img-slide lazyload" media="(max-width: 799px)" src='https://www.prochile.gob.cl/images/default-source/home/slide-principal/itc/banner-herramienta-itx-_-mobile.jpg?sfvrsn=3f95a644_1' srcset='https://www.prochile.gob.cl/images/default-source/home/slide-principal/itc/banner-herramienta-itx-_-mobile.jpg?sfvrsn=3f95a644_1' alt='' title='banner herramienta ITX _ mobile'/>
+                <img class="img-slide lazyload" data-src='https://www.prochile.gob.cl/images/default-source/home/slide-principal/itc/banner-herramienta-itc-_desktop.jpg?sfvrsn=e17c0789_1' alt='' title='banner herramienta ITC _desktop' />
+              </picture>
+              <div class="texto">
+                <div class="carousel-caption ">
+                <div class="logos wow fadeInUp2">
+                </div>
+
+                <div class="row text-white">
+                </div>
+		<div class="d-flex Izquierda">
+                
+                  <div class=""><a href="https://www.prochile.gob.cl/en/herramientas/itc-2025" class="rounded-pill btn btn rounded-pill wow fadeInUp2  me-5 animated w-100" data-wow-delay=".8s" target="_blank">M&#193;S INFORMACI&#211;N</a></div>
+                                  </div>
+                </div>
+
+              </div>
+            </div>
+         <div class="item">
+              <picture>
+                <source class="img-slide lazyload" media="(max-width: 799px)" src='https://www.prochile.gob.cl/images/default-source/home/slide-principal/consulta-ciudadana-25---aula-virtual/consulta-ciudadana-banner_v3_1280x720.png?sfvrsn=873104c5_1' srcset='https://www.prochile.gob.cl/images/default-source/home/slide-principal/consulta-ciudadana-25---aula-virtual/consulta-ciudadana-banner_v3_1280x720.png?sfvrsn=873104c5_1' alt='' title='Consulta Ciudadana-BANNER_v3_1280x720'/>
+                <img class="img-slide lazyload" data-src='https://www.prochile.gob.cl/images/default-source/home/slide-principal/consulta-ciudadana-25---aula-virtual/consulta-ciudadana-banner_v3.png?sfvrsn=c35c726c_1' alt='' title='Consulta Ciudadana-BANNER_v3' />
+              </picture>
+              <div class="texto">
+                <div class="carousel-caption ">
+                <div class="logos wow fadeInUp2">
+<style type="text/css">.top {
+        position: absolute !important;
+        bottom: 90px;
+        }
+
+    .w-100c {
+        width: 262px !important;
+        margin-left: 100px;
+        position: relative;
+        top: -52px;
+}
+
+</style>                </div>
+
+                <div class="row text-white">
+                </div>
+		<div class="d-flex Centro">
+                
+                  <div class=""><a href="https://www.prochile.gob.cl/participacion-ciudadana/consultas-ciudadanas/consulta-ciudadana-cursos-aula-virtual-version-2026" class="rounded-pill btn btn rounded-pill wow fadeInUp2  me-5 animated w-100c" data-wow-delay=".8s" target="_self">QUIERO PARTICIPAR</a></div>
+                                  </div>
+                </div>
+
+              </div>
+            </div>
+         <div class="item">
+              <picture>
+                <source class="img-slide lazyload" media="(max-width: 799px)" src='https://www.prochile.gob.cl/images/default-source/home/slide-principal/concurso-2026/resultado-concursos-2026-banner_mobile.png?sfvrsn=c9b2093d_1' srcset='https://www.prochile.gob.cl/images/default-source/home/slide-principal/concurso-2026/resultado-concursos-2026-banner_mobile.png?sfvrsn=c9b2093d_1' alt='' title='resultado concursos 2026 banner_mobile'/>
+                <img class="img-slide lazyload" data-src='https://www.prochile.gob.cl/images/default-source/home/slide-principal/concurso-2026/resultado-concursos-2026-banner_desktop.png?sfvrsn=cd6ee498_1' alt='' title='resultado concursos 2026 banner_desktop' />
+              </picture>
+              <div class="texto">
+                <div class="carousel-caption ">
+                <div class="logos wow fadeInUp2">
+                </div>
+
+                <div class="row text-white">
+                </div>
+		<div class="d-flex Centro">
+                
+                  <div class=""><a href="https://concursos.prochile.cl/" class="rounded-pill btn btn-transparent  wow fadeInUp2   w-100b3 animated" data-wow-delay=".8s" target="_self">VER RESULTADOS</a></div>
+                                  </div>
+                </div>
+
+              </div>
+            </div>
+         <div class="item">
+              <picture>
+                <source class="img-slide lazyload" media="(max-width: 799px)" src='https://www.prochile.gob.cl/images/default-source/home/slide-principal/embajadores-prochile/banner_embajadores_mobile_2.jpg?sfvrsn=64344c06_1' srcset='https://www.prochile.gob.cl/images/default-source/home/slide-principal/embajadores-prochile/banner_embajadores_mobile_2.jpg?sfvrsn=64344c06_1' alt='' title='Banner_embajadores_mobile_2'/>
+                <img class="img-slide lazyload" data-src='https://www.prochile.gob.cl/images/default-source/home/slide-principal/embajadores-prochile/banner_embajadores_desktop_2.jpg?sfvrsn=75532ef0_1' alt='' title='Banner_embajadores_desktop_2' />
+              </picture>
+              <div class="texto">
+                <div class="carousel-caption ">
+                <div class="logos wow fadeInUp2">
+                </div>
+
+                <div class="row text-white">
+                </div>
+		<div class="d-flex Izquierda">
+                
+                  <div class=""><a href="https://www.prochile.gob.cl/embajadores" class="rounded-pill btn btn rounded-pill wow fadeInUp2  me-5 animated w-100" data-wow-delay=".8s" target="_self">&#161;Haz clic aqu&#237; y conoce sus historias!</a></div>
+                                  </div>
+                </div>
+
+              </div>
+            </div>
+         <div class="item">
+              <picture>
+                <source class="img-slide lazyload" media="(max-width: 799px)" src='https://www.prochile.gob.cl/images/default-source/home/slide-principal/cdc/mobile_banner_cdc_2025.png?sfvrsn=dc432e3_1' srcset='https://www.prochile.gob.cl/images/default-source/home/slide-principal/cdc/mobile_banner_cdc_2025.png?sfvrsn=dc432e3_1' alt='' title='mobile_banner_CDC_2025'/>
+                <img class="img-slide lazyload" data-src='https://www.prochile.gob.cl/images/default-source/home/slide-principal/cdc/desktop_banner_cdc_2025.png?sfvrsn=78d359e7_1' alt='' title='desktop_banner_CDC_2025' />
+              </picture>
+              <div class="texto">
+                <div class="carousel-caption ">
+                <div class="logos wow fadeInUp2">
+                </div>
+
+                <div class="row text-white">
+                </div>
+		<div class="d-flex Centro">
+                
+                  <div class=""><a href="https://cdc.prochile.cl/" class="rounded-pill btn btn rounded-pill wow fadeInUp2 animated me-5" data-wow-delay=".8s" target="_self">M&#225;s informaci&#243;n</a></div>
+                                  </div>
+                </div>
+
+              </div>
+            </div>
+         <div class="item">
+              <picture>
+                <source class="img-slide lazyload" media="(max-width: 799px)" src='https://www.prochile.gob.cl/images/default-source/home/slide-principal/film-commission/mobile_es.jpg?sfvrsn=170734c3_1' srcset='https://www.prochile.gob.cl/images/default-source/home/slide-principal/film-commission/mobile_es.jpg?sfvrsn=170734c3_1' alt='' title='mobile_es'/>
+                <img class="img-slide lazyload" data-src='https://www.prochile.gob.cl/images/default-source/home/slide-principal/film-commission/desktop_es.jpg?sfvrsn=b4332c1c_1' alt='' title='desktop_es' />
+              </picture>
+              <div class="texto">
+                <div class="carousel-caption ">
+                <div class="logos wow fadeInUp2">
+                </div>
+
+                <div class="row text-white">
+                </div>
+		<div class="d-flex Centro">
+                
+                  <div class=""><a href="https://www.prochile.gob.cl/herramientas/film-commission-en-prochile" class="rounded-pill btn btn-transparent  wow fadeInUp2   w-100b  animated" data-wow-delay=".8s" target="_self">M&#193;S INFORMACI&#211;N</a></div>
+                                  </div>
+                </div>
+
+              </div>
+            </div>
+         <div class="item">
+              <picture>
+                <source class="img-slide lazyload" media="(max-width: 799px)" src='https://www.prochile.gob.cl/images/default-source/home/slide-principal/expo-osaka-2024/mobile_web_osaka-nov-copia.png?sfvrsn=a226523e_3' srcset='https://www.prochile.gob.cl/images/default-source/home/slide-principal/expo-osaka-2024/mobile_web_osaka-nov-copia.png?sfvrsn=a226523e_3' alt='' title='mobile_web_osaka nov copia'/>
+                <img class="img-slide lazyload" data-src='https://www.prochile.gob.cl/images/default-source/home/slide-principal/expo-osaka-2024/desktop_osaka-nov.png?sfvrsn=568fe420_3' alt='' title='desktop_osaka nov' />
+              </picture>
+              <div class="texto">
+                <div class="carousel-caption ">
+                <div class="logos wow fadeInUp2">
+<style type="text/css">.w-100b {
+        width: 262px !important;
+        margin-left: 100px;
+        position: relative;
+        top: 13px;
+    }
+
+    .btn2 {
+        background: #fff !important;
+        color: #e40d2c !important;
+        border: solid 2px #F20639 !important;
+        box-shadow: 3px 1px 10px #00000070 !important;
+        padding: 20px 10px !important;
+    }
+</style>                </div>
+
+                <div class="row text-white">
+                </div>
+		<div class="d-flex Centro">
+                
+                  <div class=""><a href="https://expo-osaka.prochile.gob.cl/" class="rounded-pill btn2  wow fadeInUp2  animated w-100b" data-wow-delay=".8s" target="_self">Saber m&#225;s</a></div>
+                                  </div>
+                </div>
+
+              </div>
+            </div>
+         <div class="item">
+              <picture>
+                <source class="img-slide lazyload" media="(max-width: 799px)" src='https://www.prochile.gob.cl/images/default-source/home/slide-principal/portal-usuario/portal-usuario_mobile.jpg?sfvrsn=a10346a6_3' srcset='https://www.prochile.gob.cl/images/default-source/home/slide-principal/portal-usuario/portal-usuario_mobile.jpg?sfvrsn=a10346a6_3' alt='' title='Portal usuario_mobile'/>
+                <img class="img-slide lazyload" data-src='https://www.prochile.gob.cl/images/default-source/home/slide-principal/portal-usuario/portal-usuario_desktop.jpg?sfvrsn=eb95f881_3' alt='' title='Portal usuario_desktop' />
+              </picture>
+              <div class="texto">
+                <div class="carousel-caption ">
+                <div class="logos wow fadeInUp2">
+                </div>
+
+                <div class="row text-white">
+                </div>
+		<div class="d-flex Centro">
+                
+                  <div class=""><a href="https://portalusuario.prochile.cl/" class="rounded-pill btn rounded-pill wow fadeInUp2  w-100 animated" data-wow-delay=".8s" target="_blank">M&#225;s Informaci&#243;n</a></div>
+                                  </div>
+                </div>
+
+              </div>
+            </div>
+
+    </div>
+  </div>
+</section><div id="ContentplaceholderMain_C114_Col00" class="sf_colsIn container" data-sf-element="Container" data-placeholder-label="Container">
+</div>
+<div class="row  bg-light align-item-center seccion-herramientas" data-sf-element="Row">
+    <div id="ContentplaceholderMain_C076_Col00" class="sf_colsIn d-flex align-item-center col-lg-4 p-20 texto-herramientas" data-sf-element="Column 1" data-placeholder-label="Column 1">
+<div class='col-herramientas align-item-center'>
+ <h1 style="text-align:center;font-size:30px;">&iquest;Sab&iacute;as que las empresas usuarias de <strong>ProChile alcanzan en promedio 7&nbsp;</strong>mercados mientras quienes no lo son, solo a 2?</h1><p class="fs-6 txt-herramientas" style="text-align:center;">Y que en promedio exportan 5 productos/servicios mientras quienes no lo son, solo 4?</p><p class="fs-6 txt-herramientas" style="text-align:center;"><strong>Reg&iacute;strate como usuario y haz m&aacute;s negocios con el mundo.</strong></p><center><a class="btn btn-outline-secondary" href="https://portalusuario.prochile.cl/" target="_blank" style="background:#0091B3;box-shadow:0px 0px 10px rgba(0, 0, 0, 0.25);border-radius:13px;color:#ffffff;width:60%;" data-sf-ec-immutable="">QUIERO REGISTRARME </a></center> 
+</div>
+
+    </div>
+    <div id="ContentplaceholderMain_C076_Col01" class="sf_colsIn col-lg-8" data-sf-element="Column 2" data-placeholder-label="Column 2">
+<style>
+  .bg-light{background: #EEF2F5;}
+  
+</style>
+<section class="c-logos" style="margin-top: 2rem;">
+                                    <div class="wrap">
+                                      <div class="carrusel">
+                                        <div id="c-herramientas" class="c-herramientas">
+                                		<div class="item col-convenios" style="background: #FFFFFF;border-radius: 30px;">
+                                                    <div class="">
+                                                      <div class="w-100" style="background-size: cover;height:200px;border-radius: 27px; background-image:url('https://www.prochile.gob.cl/images/default-source/actividades/card6688a057-d906-4383-a5e7-147e7d4509c7.png?sfvrsn=2eaf8805_1')" alt='' title='card'>
+                                                      </div>
+                                                        <div class="texto mb-2">
+                                                            <h3 class="mt-3">IAsistente ProChile</h3>
+                                                            <p class="fs-6 p-2 mb-5">El IAsistente ProChile es una herramienta de inteligencia artificial que te entrega información clara y rápida sobre el proceso exportador y los servicios disponibles para apoyar a tu empresa.</p>
+                                                            
+                                                            
+                                                        </div>
+                                                     <a href='https://www.prochile.gob.cl/herramientas/ia-centro-digital-del-conocimiento' class="btn btn-outline-secondary">VER M&#193;S</a>
+                                                     
+                                                        
+                                                    </div>
+                                                </div>
+                                		<div class="item col-convenios" style="background: #FFFFFF;border-radius: 30px;">
+                                                    <div class="">
+                                                      <div class="w-100" style="background-size: cover;height:200px;border-radius: 27px; background-image:url('https://www.prochile.gob.cl/images/default-source/actividades/card731aaf91-7b92-4371-958d-dce5054f8a4b.png?sfvrsn=d275a59e_1')" alt='' title='card'>
+                                                      </div>
+                                                        <div class="texto mb-2">
+                                                            <h3 class="mt-3">Mapa de Potencial Exportador</h3>
+                                                            <p class="fs-6 p-2 mb-5">El Mapa de Potencial Exportador es una herramienta desarrollada por <br> el International Trade Centre (ITC) que, <br>en alianza con ProChile, se pone a disposición de las empresas y usuarios nacionales.</p>
+                                                            
+                                                            
+                                                        </div>
+                                                     <a href='https://www.prochile.gob.cl/herramientas/itc-2025' class="btn btn-outline-secondary">VER M&#193;S</a>
+                                                     
+                                                        
+                                                    </div>
+                                                </div>
+                                		<div class="item col-convenios" style="background: #FFFFFF;border-radius: 30px;">
+                                                    <div class="">
+                                                      <div class="w-100" style="background-size: cover;height:200px;border-radius: 27px; background-image:url('https://www.prochile.gob.cl/images/default-source/herramientas/herramientas-home-2024/centroconocimiento.jpg?sfvrsn=c55402f4_4')" alt='centroConocimiento' title='centroConocimiento'>
+                                                      </div>
+                                                        <div class="texto mb-2">
+                                                            <h3 class="mt-3">El Centro Digital del Conocimiento</h3>
+                                                            <p class="fs-6 p-2 mb-5">Accede a una vasta colección de documentos y recursos diseñados para ayudarte en tu proceso de internacionalización.<br> <b> ¡Conéctate con el conocimiento hoy mismo!</b></p>
+                                                            
+                                                            
+                                                        </div>
+                                                     <a href='https://cdc.prochile.cl/' class="btn btn-outline-secondary">CONOCER M&#193;S</a>
+                                                     
+                                                        
+                                                    </div>
+                                                </div>
+                                		<div class="item col-convenios" style="background: #FFFFFF;border-radius: 30px;">
+                                                    <div class="">
+                                                      <div class="w-100" style="background-size: cover;height:200px;border-radius: 27px; background-image:url('https://www.prochile.gob.cl/images/default-source/herramientas/herramientas-home-2024/capacitiacionexportadora.png?sfvrsn=120d0f59_4')" alt='capacitiacionExportadora' title='capacitiacionExportadora'>
+                                                      </div>
+                                                        <div class="texto mb-2">
+                                                            <h3 class="mt-3">Capacitaci&#243;n y Formaci&#243;n Exportadora</h3>
+                                                            <p class="fs-6 p-2 mb-5">Aprende, desarrolla y potencia tus competencias en <b>gestión comercial internacional a través de nuestras capacitaciones.</b> Explora nuestra oferta de programas.</p>
+                                                            
+                                                            
+                                                        </div>
+                                                     <a href='/herramientas/capacitacion-y-formacion-exportadora/' class="btn btn-outline-secondary">F&#211;RMATE</a>
+                                                     
+                                                        
+                                                    </div>
+                                                </div>
+                                		<div class="item col-convenios" style="background: #FFFFFF;border-radius: 30px;">
+                                                    <div class="">
+                                                      <div class="w-100" style="background-size: cover;height:200px;border-radius: 27px; background-image:url('https://www.prochile.gob.cl/images/default-source/herramientas/ruedanegocios.png?sfvrsn=d89b0f83_5')" alt='ruedaNegocios' title='ruedaNegocios'>
+                                                      </div>
+                                                        <div class="texto mb-2">
+                                                            <h3 class="mt-3">Ruedas de Negocios</h3>
+                                                            <p class="fs-6 p-2 mb-5">Reuniones planificadas, en formato presencial o virtual, que pueden desarrollarse<b> en Chile o el extranjero. Únete a nuestras ruedas de negocios y haz negocios con el mundo.</b></p>
+                                                            
+                                                            
+                                                        </div>
+                                                     <a href='#' class="btn btn-outline-secondary">VER M&#193;S</a>
+                                                     
+                                                        
+                                                    </div>
+                                                </div>
+                                		<div class="item col-convenios" style="background: #FFFFFF;border-radius: 30px;">
+                                                    <div class="">
+                                                      <div class="w-100" style="background-size: cover;height:200px;border-radius: 27px; background-image:url('https://www.prochile.gob.cl/images/default-source/default-album/necesitasayuda.png?sfvrsn=fc783a64_0')" alt='necesitasAyuda' title='necesitasAyuda'>
+                                                      </div>
+                                                        <div class="texto mb-2">
+                                                            <h3 class="mt-3">&#191;Necesitas ayuda?</h3>
+                                                            <p class="fs-6 p-2 mb-5">Accede a asesoría personalizada, ¡No esperes más!<b> contacta con nuestro Centro de Ayuda y lleva tu empresa al mundo</b>, estamos para ayudarte.</p>
+                                                            
+                                                            
+                                                        </div>
+                                                     <a href='https://centrodeayuda.prochile.gob.cl/' class="btn btn-outline-secondary">CONT&#193;CTANOS</a>
+                                                     
+                                                        
+                                                    </div>
+                                                </div>
+                                        
+                                  </div>
+    </div>
+  </div>
+</section>
+<script type="text/javascript" src="/ResourcePackages/Prochile/assets/dist/js/moment.min.js"></script>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+
+    </div>
+</div>
+<section class="cifras">
+  <div id="ContentplaceholderMain_C030_Col00" class="sf_colsIn wrap" data-sf-element="Contenido cifras" data-placeholder-label="Contenido cifras">
+<div class="item-cifra"><h3><span class="counter">67</span> <span style="width:auto;margin-left:-5px;text-align:left;">%</span></h3><p>Representa el comercio <br />exterior del PIB</p></div>
+<div class="item-cifra"><h3><span class="counter" data-thousand-delimiter=".">1263</span><span style="width:auto;margin-left:30px;text-align:left;">mil</span></h3><p>empresas y personas naturales <br />participan del comercio exterior</p></div>
+<div class="item-cifra"><h3><span class="counter" data-decimals="1" data-decimal-delimiter=",">3.4&nbsp;&nbsp;</span><span style="width:auto;margin-left:5px;text-align:left;">millones</span></h3><p>de empleos est&aacute;n relacionadas<br />con el comercio exterior
+    </p></div>
+    
+  </div>
+</section><div id="app-view" class="" data-sf-element="Row">
+    <div id="ContentplaceholderMain_C094_Col00" class="sf_colsIn col-lg-12" data-sf-element="Column 1" data-placeholder-label="Contenedor para app Vue">
+<!--<div class="row">
+    <div class="col-12">
+        <div class="magenta title-principales text-center mt-5 mb-2"><span class="fw-bold">Ferias</span> internacionales
+        </div>
+    </div>
+</div>-->
+<div class='row'>
+ <!--<div class="convocatorias-vermas col-12 d-flex justify-content-center mb-5"><a class="text-decoration-none" target="_blank" href="/herramientas/ferias-internacionales-2024" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]6e86e827-f2c2-43ad-ad10-26b4087b2ca1" data-sf-ec-immutable=""><button class="btn-card d-flex">ver todas las Ferias Internacionales</button></a>
+</div>--> 
+</div>
+
+<script type="text/javascript">
+
+var event = new Date();
+var options = { month: 'long' };
+console.log(event.toLocaleDateString('es-ES', options));
+var mesActual = event.toLocaleDateString('es-ES', options);
+function filtrarplanificacion(mes){
+	$(".mes-planificado").hide();
+	mesActual = mes;
+  	$("#select_macrosector").val('');
+   $("#select_tipoactividad").val('');
+  $("#select_areageografica").val('');
+  $("#select_subsector").val('');
+  	$(`.${mes}`).show();
+}
+
+function searchformdata(){
+  console.log('searchform ')
+	var macrosector = $("#select_macrosector").val();
+	var sector = $("#select_subsector").val();
+	var tipoactividad = $("#select_tipoactividad").val();
+	var areageografica = $("#select_areageografica").val();
+	var frase = $("#frase").val().toLowerCase();
+	//$(".mes-planificado").hide();
+  	//$(`.${mesActual}`).show();
+	//var elements = $(`.${mesActual}`);
+
+	$(".mes-planificado").hide();
+  	$(".mes-planificado").show();
+  	$(".tab").removeClass("active");
+	var elements = $('.mes-planificado');
+
+	elements.show();
+	 
+	 if(frase!='') {
+		console.log('frase ' + frase);
+		$("#select_macrosector").val('');
+		$("#select_tipoactividad").val('');
+		$("#select_areageografica").val('');
+		$("#select_subsector").val('');
+		$(".mes-planificado").hide();
+		$(`[data-title*="${frase}"]`).show();
+		return;
+		/*
+		$(elements).filter(`[data-title!="${frase}"]`).hide();
+		console.log('prev' + JSON.stringify(elements));
+		elements = elements.filter(`[data-title*="${frase}"]`);
+		console.log('prev' + JSON.stringify(elements));
+		elements.show();*/
+  }
+  
+ 	if(macrosector!=''){
+		$("#select_macrosector option").each(function(item)
+			{
+				console.log('item ' + jQuery(this).val() + ' ** ' + macrosector);
+			$(`[data-macrosector~="${jQuery(this).val()}"]`).hide();
+			});
+			
+			var elements = $(`[data-macrosector~="${macrosector}"]`).filter('.mes-planificado');
+			//var elements = $(`[data-macrosector~="${macrosector}"]`).filter(`.${mesActual}`);
+			elements.show();
+	}
+	if(tipoactividad!=''){
+		$("#select_tipoactividad option").each(function(item)
+			{
+				console.log('tipoactividad ' + jQuery(this).val() + ' ** ' + tipoactividad);
+				$(elements).filter(`[data-tipoactividad~="${jQuery(this).val()}"]`).hide();
+			});
+			
+			elements = elements.filter(`[data-tipoactividad~="${tipoactividad}"]`);
+			elements.show();
+	}
+	if(areageografica!=''){
+		$("#select_areageografica option").each(function(item)
+			{
+				console.log('areageografica ' + jQuery(this).val() + ' ** ' + areageografica);
+				
+				$(elements).filter(`[data-areageografica~="${jQuery(this).val()}"]`).hide();
+			});
+			
+			elements = elements.filter(`[data-areageografica~="${areageografica}"]`);
+			elements.show();
+	}
+	if(sector!=''){
+		$("#select_subsector option").each(function(item)
+			{
+				console.log('sector ' + jQuery(this).val() + ' ** ' + sector);
+				
+				$(elements).filter(`[data-sector~="${jQuery(this).val()}"]`).hide();
+			});
+			
+			elements = elements.filter(`[data-sector~="${sector}"]`);
+			elements.show();
+	}/*
+	if(frase!='') {
+		console.log('frase ' + frase);
+		$("#select_macrosector").val('');
+		$("#select_tipoactividad").val('');
+		$("#select_areageografica").val('');
+		$("#select_subsector").val('');
+		$(".mes-planificado").hide();
+		$(`[data-title*="${frase}"]`).show();*/
+		/*
+		$(elements).filter(`[data-title!="${frase}"]`).hide();
+		console.log('prev' + JSON.stringify(elements));
+		elements = elements.filter(`[data-title*="${frase}"]`);
+		console.log('prev' + JSON.stringify(elements));
+		elements.show();
+  }
+	  */
+}
+
+filtrarplanificacion(mesActual);
+$( document ).ready(function() {
+$(`#tab-${mesActual}`).click();
+  });
+</script>
+<div class="row" data-sf-element="Row">
+    <div id="ContentplaceholderMain_C141_Col00" class="sf_colsIn col-lg-12-m" data-sf-element="Column 1" data-placeholder-label="Column 1">
+<!--<section class="container-fluid">
+    <div class="row">
+        <div class="col-12 preadmisibilidad-banner-imgBg">
+            <div class="row">
+                <div class="banner-imgBg d-flex align-items-center justify-content-center col-12 col-md-6 col-lg-6" style="background-image:url(/images/default-source/preadmisibilidad/image01banner.png?sfvrsn=e22dbf87_2);">
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <h2 class="mt-4 text-white" h2="">Actualiza tu<br /><strong class="text-white">PRE ADMISIBILIDAD</strong></h2>
+                        <p style="color:#ffffff;">Recuerda actualizar la Pre admisibilidad en caso que alguna informaci&oacute;n de tu empresa haya cambiado, como, por ejemplo; la declaraci&oacute;n de exportaci&oacute;n de servicios (2024 y/o 2025), empresa liderada por mujer u otra.</p><a href=" https://portalusuario.prochile.cl/listpreadm/" target="_blank" class="btn-pre" style="background-color:#F0AF07;padding:10px;border-radius:15px;color:#fff;font-weight:700;" data-sf-ec-immutable="">Actualiza tu Pre Admisibilidad</a>
+                    </div>
+                </div>
+                <div class="banner-imgBg concurso-container-imagen col-12 col-md-6 col-lg-6 d-none d-md-block" style="background-image:url(/images/default-source/preadmisibilidad/image02banner75cfe0a772b946a582a2c1ebf9d9f991.jpeg?sfvrsn=c676a693_2);"></div>
+            </div>
+        </div>
+    </div>
+</section>-->
+<!--<style type="text/css">
+    a.btn-pre:hover {
+        /* background: #d59a06 !important; */
+        transition: all 0.3s ease-in-out !important;
+        box-shadow: 2px 3px 10px #00000052 !important;
+    }
+</style>-->
+
+
+<div style="padding:30px;background-color:#FFFAF0;" class="container mt-5"><div class="row align-items-center"><!-- Primera Columna -->
+ <div class="col-md-6"><div class="d-flex "><img src="/images/default-source/madebychile/logo-made-by-chileans@2x.png?Status=Master&amp;sfvrsn=dc0f161_3" style="width:100%;max-width:440px;" class="mb-3" width="400" alt="madebychileans" /></div><h2 style="text-transform:capitalize;font-weight:bold;margin:40px 0px;color:#ea0a2a;">+3.000 historias que llevan Chile <br />al mundo <span class="underline1"></span></h2><p>M&aacute;s de <strong>3.000 empresas</strong> ya usan la Marca Chile y desde las
+                <strong>16 regiones exportan a m&aacute;s de 100 pa&iacute;ses.</strong><br />S&eacute; parte de la Imagen de Chile haciendo uso de la Marca pa&iacute;s
+                como sello de origen de tus productos y servicios.
+            </p><a href="/made-by-chileans" style="background-color:#ea0a2a;padding:10px;border-radius:15px;color:#fff;font-weight:700;" class="btn-pre" target="_blank">Conocer m&aacute;s</a>
+ </div><!-- Segunda Columna -->
+ <div class="col-md-6 text-center"><video class="w-100" autoplay="" loop="" muted=""><source src="https://www.prochile.gob.cl/videos/default-source/made-by-chileans/marcachile01-(no-videos)_color-(1).mp4?Status=Master&amp;sfvrsn=9859f0_3" type="video/mp4"></source>Tu navegador no soporta la etiqueta de video.
+            </video>
+ </div></div></div><style type="text/css">a .btn-pre {
+        background-color: rgb(234, 10, 42);
+        padding: 10px;
+        border-radius: 15px;
+        color: rgb(255, 255, 255);
+        font-weight: 700;
+
+    }
+
+    a .btn-pre:hover {
+        background: #ea0a2a !important;
+        transition: all 0.3s ease-in-out !important;
+        box-shadow: 2px 3px 10px #00000052 !important;
+    }
+</style>
+    </div>
+</div>
+<div id="ContentplaceholderMain_C085_Col00" class="sf_colsIn container-fluid  bg-template" data-sf-element="Container" data-placeholder-label="Container"><div id="ContentplaceholderMain_C105_Col00" class="sf_colsIn container-fluid" data-sf-element="Container" data-placeholder-label="Container"><div class="row" data-sf-element="Row">
+    <div id="ContentplaceholderMain_C129_Col00" class="sf_colsIn col-lg-9" data-sf-element="Column 1" data-placeholder-label="Column 1">
+<div class="row">
+	<div class="col-12 col-md-12 col-lg-12">
+		<div class="row">
+			<div class="title-principales margin-convocatorias magenta">
+				<span class="fw-bold">Convocatorias</span> Recientes
+			</div>
+		</div>
+		
+		<div id="carouselExampleIndicators" class="row carousel slide">
+			<div class="carousel-indicators">
+					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" 
+						class="active" aria-current="true" aria-label="Slide 1"></button>
+					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" 
+						class="" aria-current="true" aria-label="Slide 1"></button>
+					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" 
+						class="" aria-current="true" aria-label="Slide 1"></button>
+					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" 
+						class="" aria-current="true" aria-label="Slide 1"></button>
+			</div>
+			<div class="carousel-inner">
+				<div class="carousel-item bg-transparent active">
+					<div class="row">
+						<div class="col-12 col-md-6 col mb-3">  
+							<div class="card convocatorias-recientes-card">
+								<div class="convocatorias-interior d-flex">
+									<div class="imgBg-convocatorias col-12 col-md-12 col-lg-5 d-none d-xl-block"
+												style="background-image: url('https://www.prochile.gob.cl/images/default-source/actividades/foto-home-copiaf1692f08-ce9e-4fd0-8c54-b7ad222aea6b.png?sfvrsn=a067c264_1');">
+									</div>
+								
+									<div class="col-12 col-md-12 col-lg-12 col-xl-7">
+										<div class="card-body p-2 py-4">
+											<div class="d-flex align-items-baseline">										
+													  <div class="convocatorias-recientes-tag-Modalidad text-center w-auto px-2"> Presencial</div>  
+												
+												
+													  <div class="convocatorias-recientes-tag-TipoEvento text-center w-auto px-2"> Misi&#243;n Comercial</div>  
+													
+											</div>
+											<div class="convocatorias-card-titulo fw-bold lh-1 mt-3">
+												Misi&#243;n Comercial FIM GDL 2026
+											</div>
+												
+											<div class="convocatorias-card-fecha mt-3 d-flex flex-row">
+												<img class="mr-1" src="https://www.prochile.gob.cl/images/librariesprovider4/actividades/design.svg?Status=Master&sfvrsn=64186006_3">
+                                                                                          <span>
+                                                                                            22 feb. 2026
+												
+                                                                                          	</span>
+											</div>
+                                                                                  	
+																								<a href="https://www.prochile.gob.cl/convocatorias/detalle/misi&#243;n-comercial-fim-gdl-2026" class="d-table btn-card btn-sm mt-3">
+															Convocatoria Abierta 
+													</a>
+																								<div class="convocatorias-card-postulacion mt-3 d-flex flex-row align-items-center">
+															<img class="mr-2" src="/images/default-source/web/time.svg?Status=Master&sfvrsn=4c63e3ca_3">
+															<span>Postula hasta el 4 feb. 2026</span>
+													</div>
+												
+																					
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-md-6 col mb-3">  
+							<div class="card convocatorias-recientes-card">
+								<div class="convocatorias-interior d-flex">
+									<div class="imgBg-convocatorias col-12 col-md-12 col-lg-5 d-none d-xl-block"
+												style="background-image: url('https://www.prochile.gob.cl/images/default-source/actividades/tarjeta-express-copiac4a755db-8a72-4e2b-b22d-c1af8960f2e4.jpg?sfvrsn=aa707221_3');">
+									</div>
+								
+									<div class="col-12 col-md-12 col-lg-12 col-xl-7">
+										<div class="card-body p-2 py-4">
+											<div class="d-flex align-items-baseline">										
+													  <div class="convocatorias-recientes-tag-Modalidad text-center w-auto px-2"> Presencial</div>  
+												
+												
+													  <div class="convocatorias-recientes-tag-TipoEvento text-center w-auto px-2"> Convocatoria FRPD/FIC/FNDR</div>  
+													
+											</div>
+											<div class="convocatorias-card-titulo fw-bold lh-1 mt-3">
+												Global GAP y HACCP para empresas de Arica y Parinacota 2026
+											</div>
+												
+											<div class="convocatorias-card-fecha mt-3 d-flex flex-row">
+												<img class="mr-1" src="https://www.prochile.gob.cl/images/librariesprovider4/actividades/design.svg?Status=Master&sfvrsn=64186006_3">
+                                                                                          <span>
+                                                                                            16 feb. 2026
+												
+                                                                                          	</span>
+											</div>
+                                                                                  	
+																								<a href="https://www.prochile.gob.cl/convocatorias/detalle/global-gap-y-haccp-para-empresas-de-arica-y-parinacota-2026" class="d-table btn-card btn-sm mt-3">
+															Convocatoria Abierta 
+													</a>
+																								<div class="convocatorias-card-postulacion mt-3 d-flex flex-row align-items-center">
+															<img class="mr-2" src="/images/default-source/web/time.svg?Status=Master&sfvrsn=4c63e3ca_3">
+															<span>Postula hasta el 5 feb. 2026</span>
+													</div>
+												
+																					
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-md-6 col mb-3">  
+							<div class="card convocatorias-recientes-card">
+								<div class="convocatorias-interior d-flex">
+									<div class="imgBg-convocatorias col-12 col-md-12 col-lg-5 d-none d-xl-block"
+												style="background-image: url('https://www.prochile.gob.cl/images/default-source/actividades/foto-home-copia767cdff7-33cc-439d-8a9c-f87834ba807f.png?sfvrsn=b747aa66_1');">
+									</div>
+								
+									<div class="col-12 col-md-12 col-lg-12 col-xl-7">
+										<div class="card-body p-2 py-4">
+											<div class="d-flex align-items-baseline">										
+													  <div class="convocatorias-recientes-tag-Modalidad text-center w-auto px-2"> Presencial</div>  
+												
+												
+													  <div class="convocatorias-recientes-tag-TipoEvento text-center w-auto px-2"> Misi&#243;n Comercial</div>  
+													
+											</div>
+											<div class="convocatorias-card-titulo fw-bold lh-1 mt-3">
+												Misi&#243;n Comercial en el marco de GDC
+											</div>
+												
+											<div class="convocatorias-card-fecha mt-3 d-flex flex-row">
+												<img class="mr-1" src="https://www.prochile.gob.cl/images/librariesprovider4/actividades/design.svg?Status=Master&sfvrsn=64186006_3">
+                                                                                          <span>
+                                                                                            9 mar. 2026
+												
+                                                                                          	</span>
+											</div>
+                                                                                  	
+													<a href="https://www.prochile.gob.cl/convocatorias/detalle/misi&#243;n-comercial-en-el-marco-de-gdc" class="d-table btn-card btn-card-cerrada btn-sm mt-3">
+													Convocatoria cerrada 
+													</a>
+																																		
+																					
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-md-6 col mb-3">  
+							<div class="card convocatorias-recientes-card">
+								<div class="convocatorias-interior d-flex">
+									<div class="imgBg-convocatorias col-12 col-md-12 col-lg-5 d-none d-xl-block"
+												style="background-image: url('https://www.prochile.gob.cl/images/default-source/actividades/foto9c543afc-584c-4556-bce5-d4b7f481fd58.jpg?sfvrsn=18da794e_1');">
+									</div>
+								
+									<div class="col-12 col-md-12 col-lg-12 col-xl-7">
+										<div class="card-body p-2 py-4">
+											<div class="d-flex align-items-baseline">										
+													  <div class="convocatorias-recientes-tag-Modalidad text-center w-auto px-2"> Presencial</div>  
+												
+												
+													  <div class="convocatorias-recientes-tag-TipoEvento text-center w-auto px-2"> Encuentro de Negocios</div>  
+													
+											</div>
+											<div class="convocatorias-card-titulo fw-bold lh-1 mt-3">
+												2&#176; ENCUENTRO DE NEGOCIOS CHILE - ASEAN 2026
+											</div>
+												
+											<div class="convocatorias-card-fecha mt-3 d-flex flex-row">
+												<img class="mr-1" src="https://www.prochile.gob.cl/images/librariesprovider4/actividades/design.svg?Status=Master&sfvrsn=64186006_3">
+                                                                                          <span>
+                                                                                            26 may. 2026
+												
+                                                                                          	</span>
+											</div>
+                                                                                  	
+																								<a href="https://www.prochile.gob.cl/convocatorias/detalle/encuentro-asean-2026" class="d-table btn-card btn-sm mt-3">
+															Convocatoria Abierta 
+													</a>
+																								<div class="convocatorias-card-postulacion mt-3 d-flex flex-row align-items-center">
+															<img class="mr-2" src="/images/default-source/web/time.svg?Status=Master&sfvrsn=4c63e3ca_3">
+															<span>Postula hasta el 9 feb. 2026</span>
+													</div>
+												
+																					
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+                </div>
+				<div class="carousel-item bg-transparent ">
+					<div class="row">
+						<div class="col-12 col-md-6 col mb-3">  
+							<div class="card convocatorias-recientes-card">
+								<div class="convocatorias-interior d-flex">
+									<div class="imgBg-convocatorias col-12 col-md-12 col-lg-5 d-none d-xl-block"
+												style="background-image: url('https://www.prochile.gob.cl/images/default-source/actividades/foto-home-copiae235ee6a-e30d-48c1-9438-29ff3bbf65d0.png?sfvrsn=2f7c1947_1');">
+									</div>
+								
+									<div class="col-12 col-md-12 col-lg-12 col-xl-7">
+										<div class="card-body p-2 py-4">
+											<div class="d-flex align-items-baseline">										
+													  <div class="convocatorias-recientes-tag-Modalidad text-center w-auto px-2"> Presencial</div>  
+												
+												
+													  <div class="convocatorias-recientes-tag-TipoEvento text-center w-auto px-2"> Misi&#243;n Comercial</div>  
+													
+											</div>
+											<div class="convocatorias-card-titulo fw-bold lh-1 mt-3">
+												RUTA DE FRUTOS SECOS TURQU&#205;A - POLONIA Y MARRUECOS
+											</div>
+												
+											<div class="convocatorias-card-fecha mt-3 d-flex flex-row">
+												<img class="mr-1" src="https://www.prochile.gob.cl/images/librariesprovider4/actividades/design.svg?Status=Master&sfvrsn=64186006_3">
+                                                                                          <span>
+                                                                                            4 may. 2026
+												
+                                                                                          	</span>
+											</div>
+                                                                                  	
+																								<a href="https://www.prochile.gob.cl/convocatorias/detalle/ruta-de-frutos-secos-turqu&#237;a---polonia-y-marruecos" class="d-table btn-card btn-sm mt-3">
+															Convocatoria Abierta 
+													</a>
+																								<div class="convocatorias-card-postulacion mt-3 d-flex flex-row align-items-center">
+															<img class="mr-2" src="/images/default-source/web/time.svg?Status=Master&sfvrsn=4c63e3ca_3">
+															<span>Postula hasta el 4 feb. 2026</span>
+													</div>
+												
+																					
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-md-6 col mb-3">  
+							<div class="card convocatorias-recientes-card">
+								<div class="convocatorias-interior d-flex">
+									<div class="imgBg-convocatorias col-12 col-md-12 col-lg-5 d-none d-xl-block"
+												style="background-image: url('https://www.prochile.gob.cl/images/default-source/actividades/foto-home-copia3160e966-1b2e-4277-a1b0-09b21dd48fef.png?sfvrsn=2b87e3e2_1');">
+									</div>
+								
+									<div class="col-12 col-md-12 col-lg-12 col-xl-7">
+										<div class="card-body p-2 py-4">
+											<div class="d-flex align-items-baseline">										
+													  <div class="convocatorias-recientes-tag-Modalidad text-center w-auto px-2"> Presencial</div>  
+												
+												
+													  <div class="convocatorias-recientes-tag-TipoEvento text-center w-auto px-2"> Encuentro de Negocios</div>  
+													
+											</div>
+											<div class="convocatorias-card-titulo fw-bold lh-1 mt-3">
+												Punta Tech 2026
+											</div>
+												
+											<div class="convocatorias-card-fecha mt-3 d-flex flex-row">
+												<img class="mr-1" src="https://www.prochile.gob.cl/images/librariesprovider4/actividades/design.svg?Status=Master&sfvrsn=64186006_3">
+                                                                                          <span>
+                                                                                            12 ene. 2026
+												
+                                                                                          	</span>
+											</div>
+                                                                                  	
+													<a href="https://www.prochile.gob.cl/convocatorias/detalle/punta-tech-2026" class="d-table btn-card btn-card-cerrada btn-sm mt-3">
+													Convocatoria cerrada 
+													</a>
+																																		
+																					
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-md-6 col mb-3">  
+							<div class="card convocatorias-recientes-card">
+								<div class="convocatorias-interior d-flex">
+									<div class="imgBg-convocatorias col-12 col-md-12 col-lg-5 d-none d-xl-block"
+												style="background-image: url('https://www.prochile.gob.cl/images/default-source/actividades/foto-home-copia69d1cccd-c1f9-492f-abb8-82d2a69942f1.png?sfvrsn=45fa9d62_1');">
+									</div>
+								
+									<div class="col-12 col-md-12 col-lg-12 col-xl-7">
+										<div class="card-body p-2 py-4">
+											<div class="d-flex align-items-baseline">										
+													  <div class="convocatorias-recientes-tag-Modalidad text-center w-auto px-2"> Presencial</div>  
+												
+												
+													  <div class="convocatorias-recientes-tag-TipoEvento text-center w-auto px-2"> Feria Internacional</div>  
+													
+											</div>
+											<div class="convocatorias-card-titulo fw-bold lh-1 mt-3">
+												StartCo 2026
+											</div>
+												
+											<div class="convocatorias-card-fecha mt-3 d-flex flex-row">
+												<img class="mr-1" src="https://www.prochile.gob.cl/images/librariesprovider4/actividades/design.svg?Status=Master&sfvrsn=64186006_3">
+                                                                                          <span>
+                                                                                            15 abr. 2026
+												
+                                                                                          	</span>
+											</div>
+                                                                                  	
+													<a href="https://www.prochile.gob.cl/convocatorias/detalle/startco-2026" class="d-table btn-card btn-card-cerrada btn-sm mt-3">
+													Convocatoria cerrada 
+													</a>
+																																		
+																					
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-md-6 col mb-3">  
+							<div class="card convocatorias-recientes-card">
+								<div class="convocatorias-interior d-flex">
+									<div class="imgBg-convocatorias col-12 col-md-12 col-lg-5 d-none d-xl-block"
+												style="background-image: url('https://www.prochile.gob.cl/images/default-source/actividades/foto-home-copia0af287f2-b608-48e5-bc22-e59e5f458497.png?sfvrsn=40f313ee_1');">
+									</div>
+								
+									<div class="col-12 col-md-12 col-lg-12 col-xl-7">
+										<div class="card-body p-2 py-4">
+											<div class="d-flex align-items-baseline">										
+													  <div class="convocatorias-recientes-tag-Modalidad text-center w-auto px-2"> Presencial</div>  
+												
+												
+													  <div class="convocatorias-recientes-tag-TipoEvento text-center w-auto px-2"> Feria Internacional</div>  
+													
+											</div>
+											<div class="convocatorias-card-titulo fw-bold lh-1 mt-3">
+												Feria Apas Show 2026
+											</div>
+												
+											<div class="convocatorias-card-fecha mt-3 d-flex flex-row">
+												<img class="mr-1" src="https://www.prochile.gob.cl/images/librariesprovider4/actividades/design.svg?Status=Master&sfvrsn=64186006_3">
+                                                                                          <span>
+                                                                                            18 may. 2026
+												
+                                                                                          	</span>
+											</div>
+                                                                                  	
+													<a href="https://www.prochile.gob.cl/convocatorias/detalle/feria-apas-show-2026" class="d-table btn-card btn-card-cerrada btn-sm mt-3">
+													Convocatoria cerrada 
+													</a>
+																																		
+																					
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+                </div>
+				<div class="carousel-item bg-transparent ">
+					<div class="row">
+						<div class="col-12 col-md-6 col mb-3">  
+							<div class="card convocatorias-recientes-card">
+								<div class="convocatorias-interior d-flex">
+									<div class="imgBg-convocatorias col-12 col-md-12 col-lg-5 d-none d-xl-block"
+												style="background-image: url('https://www.prochile.gob.cl/images/default-source/actividades/foto-home-copia26e759c3-e2d0-4a38-81c0-27950088030b.png?sfvrsn=46c86381_1');">
+									</div>
+								
+									<div class="col-12 col-md-12 col-lg-12 col-xl-7">
+										<div class="card-body p-2 py-4">
+											<div class="d-flex align-items-baseline">										
+													  <div class="convocatorias-recientes-tag-Modalidad text-center w-auto px-2"> Virtual</div>  
+												
+												
+													  <div class="convocatorias-recientes-tag-TipoEvento text-center w-auto px-2"> Ciclo de Talleres</div>  
+													
+											</div>
+											<div class="convocatorias-card-titulo fw-bold lh-1 mt-3">
+												Estrategias de Internacionalizaci&#243;n
+											</div>
+												
+											<div class="convocatorias-card-fecha mt-3 d-flex flex-row">
+												<img class="mr-1" src="https://www.prochile.gob.cl/images/librariesprovider4/actividades/design.svg?Status=Master&sfvrsn=64186006_3">
+                                                                                          <span>
+                                                                                            2 dic. 2025
+												
+                                                                                          	</span>
+											</div>
+                                                                                  	
+													<a href="https://www.prochile.gob.cl/convocatorias/detalle/estrategias-de-internacionalizaci&#243;n" class="d-table btn-card btn-card-cerrada btn-sm mt-3">
+													Convocatoria cerrada 
+													</a>
+																																		
+																					
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-md-6 col mb-3">  
+							<div class="card convocatorias-recientes-card">
+								<div class="convocatorias-interior d-flex">
+									<div class="imgBg-convocatorias col-12 col-md-12 col-lg-5 d-none d-xl-block"
+												style="background-image: url('https://www.prochile.gob.cl/images/default-source/actividades/foto-home-copia5501fff8-555f-4cf0-9268-7daea5e3d237.png?sfvrsn=b69b9101_1');">
+									</div>
+								
+									<div class="col-12 col-md-12 col-lg-12 col-xl-7">
+										<div class="card-body p-2 py-4">
+											<div class="d-flex align-items-baseline">										
+													  <div class="convocatorias-recientes-tag-Modalidad text-center w-auto px-2"> Presencial</div>  
+												
+												
+													  <div class="convocatorias-recientes-tag-TipoEvento text-center w-auto px-2"> Feria Internacional</div>  
+													
+											</div>
+											<div class="convocatorias-card-titulo fw-bold lh-1 mt-3">
+												SIAL PARIS 2026
+											</div>
+												
+											<div class="convocatorias-card-fecha mt-3 d-flex flex-row">
+												<img class="mr-1" src="https://www.prochile.gob.cl/images/librariesprovider4/actividades/design.svg?Status=Master&sfvrsn=64186006_3">
+                                                                                          <span>
+                                                                                            17 oct. 2026
+												
+                                                                                          	</span>
+											</div>
+                                                                                  	
+													<a href="https://www.prochile.gob.cl/convocatorias/detalle/sial-paris-2026" class="d-table btn-card btn-card-cerrada btn-sm mt-3">
+													Convocatoria cerrada 
+													</a>
+																																		
+																					
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-md-6 col mb-3">  
+							<div class="card convocatorias-recientes-card">
+								<div class="convocatorias-interior d-flex">
+									<div class="imgBg-convocatorias col-12 col-md-12 col-lg-5 d-none d-xl-block"
+												style="background-image: url('https://www.prochile.gob.cl/images/default-source/actividades/foto-home-copiada224d34-e7a9-495d-8c99-19e251ea7c44.png?sfvrsn=1aa77f66_1');">
+									</div>
+								
+									<div class="col-12 col-md-12 col-lg-12 col-xl-7">
+										<div class="card-body p-2 py-4">
+											<div class="d-flex align-items-baseline">										
+													  <div class="convocatorias-recientes-tag-Modalidad text-center w-auto px-2"> Presencial</div>  
+												
+												
+													  <div class="convocatorias-recientes-tag-TipoEvento text-center w-auto px-2"> Feria Internacional</div>  
+													
+											</div>
+											<div class="convocatorias-card-titulo fw-bold lh-1 mt-3">
+												2DA. Convocatoria Seafood Expo North America Express 2026
+											</div>
+												
+											<div class="convocatorias-card-fecha mt-3 d-flex flex-row">
+												<img class="mr-1" src="https://www.prochile.gob.cl/images/librariesprovider4/actividades/design.svg?Status=Master&sfvrsn=64186006_3">
+                                                                                          <span>
+                                                                                            15 mar. 2026
+												
+                                                                                          	</span>
+											</div>
+                                                                                  	
+													<a href="https://www.prochile.gob.cl/convocatorias/detalle/2da.-convocatoria-seafood-expo-north-america-express-2026" class="d-table btn-card btn-card-cerrada btn-sm mt-3">
+													Convocatoria cerrada 
+													</a>
+																																		
+																					
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-md-6 col mb-3">  
+							<div class="card convocatorias-recientes-card">
+								<div class="convocatorias-interior d-flex">
+									<div class="imgBg-convocatorias col-12 col-md-12 col-lg-5 d-none d-xl-block"
+												style="background-image: url('https://www.prochile.gob.cl/images/default-source/actividades/foto-home-copia65ca2b9b-934f-4519-9f4c-a7da793af070.png?sfvrsn=640ce5d7_1');">
+									</div>
+								
+									<div class="col-12 col-md-12 col-lg-12 col-xl-7">
+										<div class="card-body p-2 py-4">
+											<div class="d-flex align-items-baseline">										
+													  <div class="convocatorias-recientes-tag-Modalidad text-center w-auto px-2"> Presencial</div>  
+												
+												
+													  <div class="convocatorias-recientes-tag-TipoEvento text-center w-auto px-2"> Congreso</div>  
+													
+											</div>
+											<div class="convocatorias-card-titulo fw-bold lh-1 mt-3">
+												Congreso Internacional de Turismo Ind&#237;gena 2026
+											</div>
+												
+											<div class="convocatorias-card-fecha mt-3 d-flex flex-row">
+												<img class="mr-1" src="https://www.prochile.gob.cl/images/librariesprovider4/actividades/design.svg?Status=Master&sfvrsn=64186006_3">
+                                                                                          <span>
+                                                                                            17 feb. 2026
+												
+                                                                                          	</span>
+											</div>
+                                                                                  	
+													<a href="https://www.prochile.gob.cl/convocatorias/detalle/congreso-internacional-de-turismo-ind&#237;gena-2026" class="d-table btn-card btn-card-cerrada btn-sm mt-3">
+													Convocatoria cerrada 
+													</a>
+																																		
+																					
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+                </div>
+				<div class="carousel-item bg-transparent ">
+					<div class="row">
+						<div class="col-12 col-md-6 col mb-3">  
+							<div class="card convocatorias-recientes-card">
+								<div class="convocatorias-interior d-flex">
+									<div class="imgBg-convocatorias col-12 col-md-12 col-lg-5 d-none d-xl-block"
+												style="background-image: url('https://www.prochile.gob.cl/images/default-source/actividades/foto-home-copia788793ca-71a2-4519-8fef-ea199f50c239.png?sfvrsn=ab3e3c54_1');">
+									</div>
+								
+									<div class="col-12 col-md-12 col-lg-12 col-xl-7">
+										<div class="card-body p-2 py-4">
+											<div class="d-flex align-items-baseline">										
+													  <div class="convocatorias-recientes-tag-Modalidad text-center w-auto px-2"> Presencial</div>  
+												
+												
+													  <div class="convocatorias-recientes-tag-TipoEvento text-center w-auto px-2"> Feria Internacional</div>  
+													
+											</div>
+											<div class="convocatorias-card-titulo fw-bold lh-1 mt-3">
+												Seafood Expo Global 2026
+											</div>
+												
+											<div class="convocatorias-card-fecha mt-3 d-flex flex-row">
+												<img class="mr-1" src="https://www.prochile.gob.cl/images/librariesprovider4/actividades/design.svg?Status=Master&sfvrsn=64186006_3">
+                                                                                          <span>
+                                                                                            21 abr. 2026
+												
+                                                                                          	</span>
+											</div>
+                                                                                  	
+													<a href="https://www.prochile.gob.cl/convocatorias/detalle/seafood-expo-global-2026" class="d-table btn-card btn-card-cerrada btn-sm mt-3">
+													Convocatoria cerrada 
+													</a>
+																																		
+																					
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-md-6 col mb-3">  
+							<div class="card convocatorias-recientes-card">
+								<div class="convocatorias-interior d-flex">
+									<div class="imgBg-convocatorias col-12 col-md-12 col-lg-5 d-none d-xl-block"
+												style="background-image: url('https://www.prochile.gob.cl/images/default-source/actividades/agrotech_3.png?sfvrsn=c72d8121_1');">
+									</div>
+								
+									<div class="col-12 col-md-12 col-lg-12 col-xl-7">
+										<div class="card-body p-2 py-4">
+											<div class="d-flex align-items-baseline">										
+													  <div class="convocatorias-recientes-tag-Modalidad text-center w-auto px-2"> Presencial</div>  
+												
+												
+													  <div class="convocatorias-recientes-tag-TipoEvento text-center w-auto px-2"> Convocatoria FRPD/FIC/FNDR</div>  
+													
+											</div>
+											<div class="convocatorias-card-titulo fw-bold lh-1 mt-3">
+												Global GAP y HACCP para empresas de Arica y Parinacota
+											</div>
+												
+											<div class="convocatorias-card-fecha mt-3 d-flex flex-row">
+												<img class="mr-1" src="https://www.prochile.gob.cl/images/librariesprovider4/actividades/design.svg?Status=Master&sfvrsn=64186006_3">
+                                                                                          <span>
+                                                                                            24 nov. 2025
+												
+                                                                                          	</span>
+											</div>
+                                                                                  	
+													<a href="https://www.prochile.gob.cl/convocatorias/detalle/global-gap-y-haccp-para-empresas-de-arica-y-parinacota" class="d-table btn-card btn-card-cerrada btn-sm mt-3">
+													Convocatoria cerrada 
+													</a>
+																																		
+																					
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-md-6 col mb-3">  
+							<div class="card convocatorias-recientes-card">
+								<div class="convocatorias-interior d-flex">
+									<div class="imgBg-convocatorias col-12 col-md-12 col-lg-5 d-none d-xl-block"
+												style="background-image: url('https://www.prochile.gob.cl/images/default-source/actividades/foto-home-copia18c5d931-9135-44c5-b09d-d32e368028de.png?sfvrsn=35832962_1');">
+									</div>
+								
+									<div class="col-12 col-md-12 col-lg-12 col-xl-7">
+										<div class="card-body p-2 py-4">
+											<div class="d-flex align-items-baseline">										
+												
+												
+													
+											</div>
+											<div class="convocatorias-card-titulo fw-bold lh-1 mt-3">
+												Plan de Negocios Internacional
+											</div>
+												
+											<div class="convocatorias-card-fecha mt-3 d-flex flex-row">
+												<img class="mr-1" src="https://www.prochile.gob.cl/images/librariesprovider4/actividades/design.svg?Status=Master&sfvrsn=64186006_3">
+                                                                                          <span>
+                                                                                            20 nov. 2025
+												
+                                                                                          	</span>
+											</div>
+                                                                                  	
+													<a href="https://www.prochile.gob.cl/convocatorias/detalle/plan-de-negocios-internacional" class="d-table btn-card btn-card-cerrada btn-sm mt-3">
+													Convocatoria cerrada 
+													</a>
+																																		
+																					
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-md-6 col mb-3">  
+							<div class="card convocatorias-recientes-card">
+								<div class="convocatorias-interior d-flex">
+									<div class="imgBg-convocatorias col-12 col-md-12 col-lg-5 d-none d-xl-block"
+												style="background-image: url('https://www.prochile.gob.cl/images/default-source/actividades/capacitacion_-inteligencia-banner.png?sfvrsn=e753ef4_1');">
+									</div>
+								
+									<div class="col-12 col-md-12 col-lg-12 col-xl-7">
+										<div class="card-body p-2 py-4">
+											<div class="d-flex align-items-baseline">										
+													  <div class="convocatorias-recientes-tag-Modalidad text-center w-auto px-2"> Virtual</div>  
+												
+												
+													  <div class="convocatorias-recientes-tag-TipoEvento text-center w-auto px-2"> Ciclo de Talleres</div>  
+													
+											</div>
+											<div class="convocatorias-card-titulo fw-bold lh-1 mt-3">
+												Capacitaci&#243;n: inteligencia comercial de mercados para la internacionalizaci&#243;n
+											</div>
+												
+											<div class="convocatorias-card-fecha mt-3 d-flex flex-row">
+												<img class="mr-1" src="https://www.prochile.gob.cl/images/librariesprovider4/actividades/design.svg?Status=Master&sfvrsn=64186006_3">
+                                                                                          <span>
+                                                                                            10 nov. 2025
+												
+                                                                                          	</span>
+											</div>
+                                                                                  	
+													<a href="https://www.prochile.gob.cl/convocatorias/detalle/capacitaci&#243;n--inteligencia-comercial-de-mercados-para-la-internacionalizaci&#243;n" class="d-table btn-card btn-card-cerrada btn-sm mt-3">
+													Convocatoria cerrada 
+													</a>
+																																		
+																					
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+                </div>
+
+			</div>
+		</div>
+   
+
+	</div>
+</div>
+
+    </div>
+    <div id="ContentplaceholderMain_C129_Col01" class="sf_colsIn col-lg-3" data-sf-element="Column 2" data-placeholder-label="Column 2">
+<div class="row">
+	<div class="col-12 col-md-12 col-lg-12">
+		<div class="row">
+			<div class="title-principales margin-convocatorias magenta">
+				<span class="fw-bold">Lo m&#225;s visto</span>
+			</div>
+		</div>
+		
+		<div id="carouselExampleIndicators2" class="carousel slide">
+			<div class="carousel-indicators">
+					<button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" 
+						class="active" aria-current="true" aria-label="Slide 1"></button>
+					<button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1" 
+						class="" aria-current="true" aria-label="Slide 1"></button>
+			</div>
+                  <div class="carousel-inner bg-white">
+				<div class="carousel-item  active">
+							<div class="convocatorias-mas-vistas card">
+								
+                                                          <div class="lo-mas-visto-card w-auto">
+												<span> Nacional</span>  
+                                                            </div>
+								
+								<div class="card-header">
+									<div class="imgBg-MasVistos col-12"
+												style="background-image: url('https://www.prochile.gob.cl/images/default-source/actividades/taller_ecommerce_v2.png?sfvrsn=992b2225_1');">
+									</div>
+										<div class="card-body py-4">
+											<div class="d-flex align-items-baseline">										
+													  <div class="convocatorias-recientes-tag-Modalidad text-center w-auto px-2"> Virtual</div>  
+												
+												
+													  <div class="convocatorias-recientes-tag-TipoEvento text-center w-auto px-2"> Convocatoria Proveedores</div>  
+													
+											</div>
+											<div class="convocatorias-card-titulo fw-bold lh-1 mt-3">
+												E-commerce para la Internacionalizaci&#243;n: Estrategia y Marketing Digital
+											</div>
+												
+											<div class="convocatorias-card-fecha mt-3 d-flex flex-row">
+												<img class="mr-1" src="https://www.prochile.gob.cl/images/librariesprovider4/actividades/design.svg?Status=Master&sfvrsn=64186006_3">
+                                                                                          <span>
+                                                                                            3 nov. 2025
+												
+                                                                                          	</span>
+											</div>
+                                                                                  	
+													<a href="https://www.prochile.gob.cl/convocatorias/detalle/e-commerce-para-la-internacionalizaci&#243;n--estrategia-y-marketing-digital" class="d-table btn-card btn-card-cerrada btn-sm mt-3">
+													Convocatoria cerrada 
+													</a>
+																																		
+																					
+										</div>
+								</div>
+							</div>
+					</div>
+				<div class="carousel-item  ">
+							<div class="convocatorias-mas-vistas card">
+								
+                                                          <div class="lo-mas-visto-card w-auto">
+												<span> Regi&#243;n del &#209;uble</span>  
+                                                            </div>
+								
+								<div class="card-header">
+									<div class="imgBg-MasVistos col-12"
+												style="background-image: url('https://www.prochile.gob.cl/images/default-source/actividades/nuble-banner-desktop80034990-d839-4d9a-b8de-e7dd854fa845.png?sfvrsn=154590cf_1');">
+									</div>
+										<div class="card-body py-4">
+											<div class="d-flex align-items-baseline">										
+													  <div class="convocatorias-recientes-tag-Modalidad text-center w-auto px-2"> Presencial</div>  
+												
+												
+													  <div class="convocatorias-recientes-tag-TipoEvento text-center w-auto px-2"> CRE</div>  
+													
+											</div>
+											<div class="convocatorias-card-titulo fw-bold lh-1 mt-3">
+												Consejo Regional Exportador 2025 de la Regi&#243;n del &#209;uble
+											</div>
+												
+											<div class="convocatorias-card-fecha mt-3 d-flex flex-row">
+												<img class="mr-1" src="https://www.prochile.gob.cl/images/librariesprovider4/actividades/design.svg?Status=Master&sfvrsn=64186006_3">
+                                                                                          <span>
+                                                                                            8 oct. 2025
+												
+                                                                                          	</span>
+											</div>
+                                                                                  	
+													<a href="https://www.prochile.gob.cl/convocatorias/detalle/consejo-regional-exportador-2025-de-la-regi&#243;n-del-&#241;uble" class="d-table btn-card btn-card-cerrada btn-sm mt-3">
+													Convocatoria cerrada 
+													</a>
+																																		
+																					
+										</div>
+								</div>
+							</div>
+					</div>
+
+			</div>
+		</div>
+   
+
+	</div>
+</div>
+
+    </div>
+</div>
+
+<div class='row'>
+ <div class="convocatorias-vermas col-12 d-flex justify-content-center my-5"><a class="text-decoration-none" href="/convocatorias"><button class="btn-card d-flex">ver todas las convocatorias</button></a>
+
+</div> 
+</div>
+
+</div>
+
+</div>
+
+    </div>
+</div>
+
+<script type="text/javascript">
+vueinstance = new Vue({
+    el: '#app-view',
+    data: function () {
+        return {
+            loading: true,
+            convocatorias:[],
+			grupoconvocatorias:[],
+			destacadas:[],
+			ferias:[],
+            mercados:[],
+            macrosectores:[],
+            tiposeventos:[],
+            modalidades:[],
+            estados:[],
+            regiones:[],
+            total:0,
+            totalPages:0,
+			currentPage:1,
+			maxVisibleButtons:8,
+		   buscador:{evento:'3b64cd32-41a7-44c0-b12f-3b703b09cc6d',
+                    modalidad:'00000000-0000-0000-0000-000000000000',
+                   macrosector:'00000000-0000-0000-0000-000000000000',
+                   tipoevento:'00000000-0000-0000-0000-000000000000',
+                   region:'00000000-0000-0000-0000-000000000000',
+                   estado:'00000000-0000-0000-0000-000000000000',
+                   buscar:'',
+				   fecha:'octubre'}
+        }
+    },
+    computed: {
+
+    },
+    filters: {
+        currencydecimal: function (value) {
+            return value.toFixed(2)
+        }
+    },
+    mounted: function () {
+		this.cargarFiltros();
+        this.buscarConvocatorias(1);
+		this.buscarFerias(1);
+    },
+    watch: {
+      
+    },
+	computed: {
+          	
+	  },
+    methods: {
+		url:function(item){
+			if(item.LinkDetalleAlternativo)
+				return item.LinkDetalleAlternativo;
+  			return `/actividades/detalle-actividades${item.ItemDefaultUrl}`;
+		},
+		urlConvocatoria:function(item){
+			if(item.LinkDetalleAlternativo)
+				return item.LinkDetalleAlternativo;
+  			return `/convocatorias-2023/detalle${item.ItemDefaultUrl}`;
+		},
+        thumbnail:function(item){
+			return item.ImagenCard[0].ThumbnailUrl.toString().replace('tmb-', 'tmb-news');
+		},
+		buscarConvocatorias:function(page){
+            this.loading = true;
+            this.currentPage = page;
+            page--;
+            page = page * 12;
+			const empty = '00000000-0000-0000-0000-000000000000';
+			let url = `/api/actividades/actividads?$filter=contains(Title,%27${this.buscador.buscar}%27)%20`;
+			if(this.buscador.tipoevento!=empty)
+				url+=`and%20tipodeevento/any(x:x%20eq%20${this.buscador.tipoevento})%20`;
+			if(this.buscador.modalidad!=empty)
+				url+=`and%20modalidad/any(x:x%20eq%20${this.buscador.modalidad})%20`;
+			if(this.buscador.macrosector!=empty)
+				url+=`and%20macrosector/any(x:x%20eq%20${this.buscador.macrosector})%20`;
+			/*if(this.buscador.mercado!=empty)
+				url+=`and%20mercado/any(x:x%20eq%20${this.buscador.mercado})%20`;
+			if(this.buscador.region!=empty)
+				url+=`and%20region/any(x:x%20eq%20${this.buscador.region})%20`;
+			if(this.buscador.estado!=empty)
+				url+=`and%20estadoconvocatoriaactividad/any(x:x%20eq%20${this.buscador.estado})%20`;*/
+			url+=`&$select=Id,UrlName,Title,Bajada,macrosector,ImagenCard,mercado,FechaInicioEvento,FechaFinEvento,PublicationDate,FechaCierrePostulaciones,tipodeevento,tiposdeevento,modalidad,modalidades,LinkDetalleAlternativo,ItemDefaultUrl,region&$expand=ImagenCard,tiposdeevento,modalidades,region&$orderby=PublicationDate%20desc&$skip=${page}&$top=30&$count=true`;
+			
+				fetch(url).then((response) => {
+					if (response.ok) {
+					  return response.json();
+					} else {
+										 console.log('error');
+					  throw new Error('Something went wrong');
+					}
+				  })
+				.then((responseJson) => {
+					this.loading = false;
+					this.total = responseJson['@@odata.count'];
+					this.convocatorias = responseJson.value.slice(2);
+					this.grupoconvocatorias = this.splitToNChunks([...this.convocatorias], Math.ceil(this.convocatorias.length/4));
+					this.destacadas = responseJson.value.slice(0,2);
+					let pages = parseInt(this.total / 12);
+					this.totalPages = (this.total % 12) == 0 ? pages : pages + 1
+                              
+			});
+		},
+		
+		buscarFerias:function(page){
+            this.loading = true;
+            this.currentPage = page;
+            page--;
+            page = page * 12;
+			const empty = '00000000-0000-0000-0000-000000000000';
+			let url = `/api/ferias/ferias?$filter=contains(TextoFecha,%27${this.buscador.fecha}%27)%20`;
+			/*if(this.buscador.evento!=empty)
+				url+=`and%20tipodeevento/any(x:x%20eq%20${this.buscador.evento})%20`;
+			if(this.buscador.modalidad!=empty)
+				url+=`and%20modalidad/any(x:x%20eq%20${this.buscador.modalidad})%20`;
+			if(this.buscador.macrosector!=empty)
+				url+=`and%20macrosector/any(x:x%20eq%20${this.buscador.macrosector})%20`;
+			if(this.buscador.mercado!=empty)
+				url+=`and%20mercado/any(x:x%20eq%20${this.buscador.mercado})%20`;
+			if(this.buscador.region!=empty)
+				url+=`and%20region/any(x:x%20eq%20${this.buscador.region})%20`;
+			if(this.buscador.estado!=empty)
+				url+=`and%20estadoconvocatoriaactividad/any(x:x%20eq%20${this.buscador.estado})%20`;*/
+			url+=`&$select=Id,UrlName,Title,FechaInicio,FechaTermino,TextoFecha,PublicationDate,paises,ciudades&$expand=ImagenCarrusel,paises,ciudades&$orderby=PublicationDate%20desc&$skip=${page}&$top=5&$count=true`;
+			
+				fetch(url).then((response) => {
+					if (response.ok) {
+					  return response.json();
+					} else {
+										 console.log('error');
+					  throw new Error('Something went wrong');
+					}
+				  })
+				.then((responseJson) => {
+				  this.loading = false;
+  				this.total = responseJson['@@odata.count'];
+				this.ferias = responseJson.value;
+      			let pages = parseInt(this.total / 12);
+                    this.totalPages = (this.total % 12) == 0 ? pages : pages + 1
+                              
+			});
+		},
+		
+		cargarFiltros:function(){
+            this.loading = true;
+			const url_mercado = '/api/news/flat-taxa?$filter=TaxonomyId eq cf25787b-7a54-44f3-8383-485061fe1fab&$select=Title,Id&$orderby=Title%20asc';
+			const url_macrosector = '/api/news/flat-taxa?$filter=TaxonomyId eq 543861ac-2fcc-4abc-9105-ebf7fd9b6e0e&$select=Title,Id&$orderby=Title%20asc';
+			const url_tipoevento = '/api/news/flat-taxa?$filter=TaxonomyId eq 951b740f-12ae-4688-a6ce-2eb1ed3b7bbb&$select=Title,Id&$orderby=Title%20asc';
+			const url_modalidad = '/api/news/flat-taxa?$filter=TaxonomyId eq 34b2b1b9-9406-4d0d-ac86-ed8ac5a9fe57&$select=Title,Id&$orderby=Title%20asc';
+			const url_estado = '/api/news/flat-taxa?$filter=TaxonomyId eq 4ca00e50-15c4-4abb-aedd-2717ef060945&$select=Title,Id&$orderby=Title%20asc';
+			const url_region = '/api/news/flat-taxa?$filter=TaxonomyId eq 783ebdad-395e-46b5-bd1a-711a66e485d0&$select=Title,Id&$orderby=Title%20asc';
+			fetch(url_mercado).then((response) => {
+				return response.json();
+			  })
+			.then((responseJson) => {
+				this.loading = false;
+				this.mercados = responseJson.value;                            
+			});
+			fetch(url_macrosector).then((response) => {
+				return response.json();
+			  })
+			.then((responseJson) => {
+				this.loading = false;
+				this.macrosectores = responseJson.value;                            
+			});
+			fetch(url_tipoevento).then((response) => {
+				return response.json();
+			  })
+			.then((responseJson) => {
+				this.loading = false;
+				this.tiposeventos = responseJson.value;                            
+			});
+			fetch(url_modalidad).then((response) => {
+				return response.json();
+			  })
+			.then((responseJson) => {
+				this.loading = false;
+				this.modalidades = responseJson.value;                            
+			});
+			fetch(url_estado).then((response) => {
+				return response.json();
+			  })
+			.then((responseJson) => {
+				this.loading = false;
+				this.estados = responseJson.value;                            
+			});
+			fetch(url_region).then((response) => {
+				return response.json();
+			  })
+			.then((responseJson) => {
+				this.loading = false;
+				this.regiones = responseJson.value;                            
+			});
+		},
+		filtrarferias: function (mes) {
+			this.buscador.fecha = mes;
+			this.buscarFerias(1);
+        },
+        searchform: function (event) {
+
+            var dateobj = new Date();
+            var hoy = dateobj.toISOString();
+			this.buscarConvocatorias(1);
+        },
+		splitToNChunks:function (array, n) {
+			let result = [];
+			for (let i = n; i > 0; i--) {
+				result.push(array.splice(0, Math.ceil(array.length / i)));
+			}
+			return result;
+		}
+
+    }
+});
+
+</script>
+
+<script type="text/javascript">
+const tabsBox = document.querySelector(".tabs-box"),
+allTabs = tabsBox.querySelectorAll(".tab"),
+arrowIcons = document.querySelectorAll(".icon i");
+
+let isDragging = false;
+
+const handleIcons = (scrollVal) => {
+    let maxScrollableWidth = tabsBox.scrollWidth - tabsBox.clientWidth;
+    arrowIcons[0].parentElement.style.display = scrollVal <= 0 ? "none" : "flex";
+    arrowIcons[1].parentElement.style.display = maxScrollableWidth - scrollVal <= 1 ? "none" : "flex";
+}
+
+arrowIcons.forEach(icon => {
+    icon.addEventListener("click", () => {
+        // if clicked icon is left, reduce 350 from tabsBox scrollLeft else add
+        let scrollWidth = tabsBox.scrollLeft += icon.id === "left" ? -340 : 340;
+        handleIcons(scrollWidth);
+    });
+});
+
+allTabs.forEach(tab => {
+    tab.addEventListener("click", () => {
+        tabsBox.querySelector(".active").classList.remove("active");
+        tab.classList.add("active");
+    });
+});
+
+const dragging = (e) => {
+    if(!isDragging) return;
+    tabsBox.classList.add("dragging");
+    tabsBox.scrollLeft -= e.movementX;
+    handleIcons(tabsBox.scrollLeft)
+}
+
+const dragStop = () => {
+    isDragging = false;
+    tabsBox.classList.remove("dragging");
+}
+
+tabsBox.addEventListener("mousedown", () => isDragging = true);
+tabsBox.addEventListener("mousemove", dragging);
+document.addEventListener("mouseup", dragStop);
+
+// var slideIndex = 1;
+// showSlides(slideIndex);
+
+// function plusSlides(n) {
+//   showSlides(slideIndex += n);
+// }
+
+// function currentSlide(n) {
+//   showSlides(slideIndex = n);
+// }
+
+// function showSlides(n) {
+//   var i;
+//   var slides = document.getElementsByClassName("mySlides");
+//   var dots = document.getElementsByClassName("dot");
+//   if (n > slides.length) {slideIndex = 1}
+//     if (n < 1) {slideIndex = slides.length}
+//     for (i = 0; i < slides.length; i++) {
+//       slides[i].style.display = "none";
+//     }
+//     for (i = 0; i < dots.length; i++) {
+//       dots[i].className = dots[i].className.replace(" active", "");
+//     }
+//   slides[slideIndex-1].style.display = "block";
+//   dots[slideIndex-1].className += " active";
+// }
+</script>
+<div id="ContentplaceholderMain_C087_Col00" class="sf_colsIn container-fluid m-auto  bg-quaternary" data-sf-element="Container" data-placeholder-label="Container"><div class="row container m-auto" data-sf-element="Row">
+    <div id="ContentplaceholderMain_C086_Col00" class="sf_colsIn col-12 col-md-12 col-lg-7" data-sf-element="Column 1" data-placeholder-label="Column 1">
+<div class="title-principales margin-title magenta"><span>&Uacute;ltimas</span><span class="fw-bold"> noticias</span>
+</div>
+
+<div class="br-30 card card-noticias bg-terciary">
+    <div class="row">
+        <div class="lo-mas-visto-card w-auto"><span class="text-white fw-bold">28/01/2026 </span></div>
+        <div class="col-12">
+            <div class="imgBg-noticias col-12" style="background-image: url('https://www.prochile.gob.cl/images/default-source/actividades/sello-carolina-records.jpeg?sfvrsn=6497c33c_1');">
+            </div>
+            <div class="card-body card-noticia-principal">
+                <div class="row d-flex justify-content-center">
+                    <div class="btn-Noticias text-center w-auto">
+                      	<span>Desarrollo Exportador</span>
+                    </div>
+                </div>
+                <div class="title-noticias fw-bold lh-1 text-center"
+                    style="margin-top: 27px; margin-bottom: 27px;">
+                    “Carolina Records” sello discogr&#225;fico arique&#241;o que desarrolla m&#250;sica a medida en mercados de M&#233;xico y Bolivia
+                </div>
+                <div class="mt-3">
+                    <p class="text-gris text-general">
+                        Apoyo de ProChile ha sido clave para el desarrollo de servicios especializados en el &#225;mbito musical y que ha logrado llevar al sello Carolina Records a festivales y ferias mundiales.</p>
+                </div>
+                <div class="col-12 d-flex justify-content-center">
+                    <a href="https://www.prochile.gob.cl/noticias/detalle-noticia/2026/01/28/carolina-records--sello-discogr&#225;fico-arique&#241;o-que-desarrolla-m&#250;sica-a-medida-en-mercados-de-m&#233;xico-y-bolivia" class="btn-card w-auto">Leer m&#225;s</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    </div>
+    <div id="ContentplaceholderMain_C086_Col01" class="sf_colsIn col-12 col-md-12 col-lg-5" data-sf-element="Column 2" data-placeholder-label="Column 2">
+<div class="title-principales margin-title magenta"><span>Noticias</span><span class="fw-bold"> relacionadas</span>
+</div>
+
+    <div class="br-30 card card-noticias bg-terciary mx-auto">
+        <div class="row">
+            <div class="lo-mas-visto-card w-auto"><span class="text-white fw-bold">28/01/2026</span></div>
+            <div class="col-12">
+                <div class="imgBg-noticias-secundarias col-12"
+                    style="background-image: url('https://www.prochile.gob.cl/images/default-source/actividades/manual-de-exportaci&#243;n-de-servicios.png?sfvrsn=37d35981_1');">
+                </div>
+                <div class="card-body p-4">
+                    <div class="row d-flex justify-content-center"> 
+                        <div class="btn-Noticias text-center mb-3 w-auto">
+                           
+                              <span>Desarrollo Exportador</span>
+                              
+                        </div>                    </div>
+                    <div
+                        class="title-relacionadas fw-bold text-center mb-3 title-noticias-secundarias">
+                        ProChile y la C&#225;mara de Comercio de Santiago presentan un nuevo Manual de Exportaci&#243;n de Servicios
+                    </div>
+                    <div class="col-12 d-flex justify-content-center">
+                        <a href="https://www.prochile.gob.cl/noticias/detalle-noticia/2026/01/28/prochile-c&#225;mara-de-comercio-de-santiago-manual-de-exportaci&#243;n-de-servicios" class="btn-card w-50">Leer m&#225;s</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="br-30 card card-noticias bg-terciary mx-auto">
+        <div class="row">
+            <div class="lo-mas-visto-card w-auto"><span class="text-white fw-bold">27/01/2026</span></div>
+            <div class="col-12">
+                <div class="imgBg-noticias-secundarias col-12"
+                    style="background-image: url('https://www.prochile.gob.cl/images/default-source/actividades/diapositiva1-(28).png?sfvrsn=d483afed_1');">
+                </div>
+                <div class="card-body p-4">
+                    <div class="row d-flex justify-content-center"> 
+                        <div class="btn-Noticias text-center mb-3 w-auto">
+                           
+                              <span>Destacado en Prensa</span>
+                              
+                        </div>                    </div>
+                    <div
+                        class="title-relacionadas fw-bold text-center mb-3 title-noticias-secundarias">
+                        Destacado en Prensa: La Estrella de Iquique &quot;Exportaciones en Tarapac&#225; tienen crecimiento de un 18,2%&quot;
+                    </div>
+                    <div class="col-12 d-flex justify-content-center">
+                        <a href="https://www.prochile.gob.cl/noticias/detalle-noticia/2026/01/27/destacado-en-prensa--la-estrella-de-iquique--exportaciones-en-tarapac&#225;-tienen-crecimiento-de-un-18-2" class="btn-card w-50">Leer m&#225;s</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+</div>
+
+<div class="convocatorias-vermas col-12 d-flex justify-content-center py-3"><a class="text-decoration-none" href="/noticias"><button class="btn-card d-flex">ver todas las Noticias</button></a>
+
+</div>
+</div>
+<div id="ContentplaceholderMain_C108_Col00" class="sf_colsIn container" data-sf-element="Container" data-placeholder-label="Container">
+<div class="row"><div class="col-12"><div class="magenta title-principales text-center mt-5 mb-2 titu"><span class="fw-bold">Eventos</span> &Iacute;cono ProChile 2026
+        </div></div></div><style type="text/css">@media (max-width: 700px) {
+        .titu {
+            display: none;
+            /* Oculta toda la secci&amp;amp;amp;amp;amp;oacute;n */
+        }
+    }
+</style>
+<section class="ps-timeline-sec">
+    <div class="container">
+        <ol class="ps-timeline">
+            <li>
+                <div class="img-handler-top"><img src="/images/default-source/home/enexpro.png?sfvrsn=91cc4611_1"  data-sf-ec-immutable="" /></div>
+ <div class="ps-top text-cerulio f-icono text-uppercase text-center"><strong>Enexpro<br>Soluciones Globales<br/></strong>Abril</div><span class="ps-sp-top"></span>
+            </li>
+            <li>
+                <div class="img-handler-bot"><img src="/images/default-source/actividades-timeline/2025/asean--8.png?sfvrsn=5cd6933d_1"  data-sf-ec-immutable="" /></div>
+                <div class="ps-bot text-cerulio f-icono bw-bold text-uppercase text-center"><strong>Encuentro ASEAN</strong><br />Mayo <br /><p class="bajada-date">Agro & Alimentos, vinos</p></div><span class="ps-sp-bot"></span>
+            </li>
+            <li>
+                <div class="img-handler-top"><img src="https://www.prochile.gob.cl/images/default-source/actividades-timeline/2025/hola-india.png?sfvrsn=6720edb4_1"  data-sf-ec-immutable="" /></div>
+                <div class="ps-top text-cerulio f-icono bw-bold text-uppercase text-center"><strong>Encuentro de negocios India</strong><br />Junio<br><p class="bajada-date">Agro & Alimentos, innovación y economía creativa</p></div><span class="ps-sp-top"></span>
+            </li>
+            <li>
+                <div class="img-handler-bot"><img src="/images/default-source/actividades-timeline/2025/chile-week-china-2025.png?sfvrsn=67583f41_3"  data-sf-ec-immutable="" /></div>
+                <div class="ps-bot text-cerulio f-icono bw-bold text-uppercase text-center"><strong>Chile week China <br /></strong>Octubre
+                </div><span class="ps-sp-bot"></span>
+            </li>
+            <!--<li>
+                <div class="img-handler-top"><img src="https://www.prochile.gob.cl/images/default-source/actividades-timeline/2025/asean--8.png?sfvrsn=5cd6933d_1"  data-sf-ec-immutable="" /></div>
+                <div class="ps-top text-cerulio f-icono bw-bold text-uppercase text-center"><strong>Encuentro ASEAN</strong> <br />8 al 10 de Septiembre  <p>&nbsp;</p>
+                </div><span class="ps-sp-top"></span>
+            </li>-->
+           <!-- <li>
+  <div class="img-handler-bot">
+     <img src="https://www.prochile.gob.cl/images/default-source/actividades-timeline/2025/chtt--8.png?sfvrsn=1be536f7_1"  data-sf-ec-immutable="" />
+</div>
+  <div class="ps-bot text-cerulio f-icono bw-bold text-uppercase text-center"><strong>Chile Tech Tour<br /></strong>6 al 10 de Octubre</div><span class="ps-sp-bot"></span>
+            </li>-->
+            <li>
+                <div class="img-handler-top"><img src="https://www.prochile.gob.cl/images/default-source/home/chile-week-eeuu.png?sfvrsn=e79c0f22_1"  data-sf-ec-immutable="" /></div>
+                <div class="ps-top text-cerulio f-icono bw-bold text-uppercase text-center"><strong>Chile week <br> EE.UU </strong><br />Octubre - noviembre </div><span class="ps-sp-top"></span>
+            </li>
+            <li>
+                <div class="img-handler-bot"><img src="/images/default-source/home/enexpro-tech.png?sfvrsn=c99d0075_1"  data-sf-ec-immutable="" /></div>
+                <div class="ps-bot text-cerulio f-icono bw-bold text-uppercase text-center"><strong>Enexpro tech</strong><br />Noviembre<br> <p class="bajada-date">Innovación y emprendimiento</p></div><span class="ps-sp-bot"></span>
+            </li>
+            <!--<li>
+                <div class="img-handler-top"><img src="https://www.prochile.gob.cl/images/default-source/actividades-timeline/2025/guatemala.png?sfvrsn=61c8b304_1"  data-sf-ec-immutable="" /></div>
+                <div class="ps-top text-cerulio f-icono bw-bold text-uppercase text-center"><strong>Chile week EE.UU</strong><br />Octubre - Noviembre</div><span class="ps-sp-top"></span>
+            </li>-->
+            
+        </ol>
+    </div>
+</section>
+<style type="text/css">
+  p.bajada-date {
+    font-size: 12px !important;
+    font-weight: normal !important;
+}
+   
+    .ps-timeline-sec .container ol.ps-timeline li {
+        width: 16% !important;
+    }
+
+.ps-timeline-sec .container ol.ps-timeline li .img-handler-top img, .ps-timeline-sec .container ol.ps-timeline li .img-handler-bot img{
+  width:60%;
+}
+
+    .ps-timeline-sec .container ol.ps-timeline li .img-handler-bot img:hover {
+        transform: scale(1.1);
+        transition: all 1s ease;
+    }
+
+    .ps-timeline-sec .container ol.ps-timeline li .img-handler-top img:hover {
+        transform: scale(1.1);
+        transition: all 1s ease;
+    }
+
+    .f-icono {
+        font-size: 13px !important;
+    }
+
+    .ps-timeline-sec .container ol.ps-timeline li span {
+        /*left: 96px !important;*/
+      left: 125px!important;
+    }
+
+    @media (max-width: 767px) {
+
+        .ps-timeline-sec .container ol.ps-timeline li {
+            width: 100% !important;
+        }
+
+        .ps-timeline-sec .container ol.ps-timeline li span {
+            left: 16px !important;
+        }
+
+        .ps-timeline-sec .container ol.ps-timeline li .ps-bot,
+        .ps-timeline-sec .container ol.ps-timeline li .ps-top {
+            text-align: left !important;
+            width: 58% !important;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 820px) {
+        .ps-timeline-sec .container ol.ps-timeline li {
+            width: 12.5% !important;
+            padding-top: 37px;
+        }
+
+        .ps-timeline-sec .container ol.ps-timeline li .img-handler-top {
+            margin-bottom: 251px !important;
+        }
+
+        .ps-timeline-sec .container ol.ps-timeline li .img-handler-bot {
+            margin-top: 209px !important;
+        }
+
+        .ps-timeline-sec .container ol.ps-timeline li span {
+            left: 61px !important;
+        }
+    }
+
+    
+</style>
+
+<!--<section class="ps-timeline-sec">
+    <div class="container">
+        <ol class="ps-timeline">
+            <li>
+                <div class="img-handler-top"><img src="/images/default-source/actividades-timeline/2025/hola-india.png?sfvrsn=6720edb4_1" sfref="[images%7COpenAccessDataProvider]f103a592-0f23-4871-b205-9987bf53b557" data-sf-ec-immutable="" /></div>
+                <div class="ps-top text-cerulio f-icono text-uppercase text-center"><strong>India<br /></strong>31 de marzo al 6 de abril</div><span class="ps-sp-top"></span>
+            </li>
+            <li>
+                <div class="img-handler-bot"><img src="/images/default-source/actividades-timeline/2025/expo-osaka-2025.png?sfvrsn=c5ce5fb3_3" sfref="[images%7COpenAccessDataProvider]e9cf1a6e-0301-4505-be7e-2fe8088aaed8" data-sf-ec-immutable="" /></div>
+                <div class="ps-bot text-cerulio f-icono bw-bold text-uppercase text-center"><strong>Expo Osaka</strong><br />Abril a Octubre <br />12 de mayo d&iacute;a de Chile</div><span class="ps-sp-bot"></span>
+            </li>
+            <li>
+                <div class="img-handler-top"><img src="/images/default-source/actividades-timeline/2025/enexpro-soluciones-globales_2025.png?sfvrsn=aa8195d6_2" sfref="[images%7COpenAccessDataProvider]f727d5e0-f9a6-407b-aa01-a47c9e9c3f4d" data-sf-ec-immutable="" /></div>
+                <div class="ps-top text-cerulio f-icono bw-bold text-uppercase text-center"><strong>Enexpro Soluciones Globales <br /></strong>26 al 29 Mayo
+                </div><span class="ps-sp-top"></span>
+            </li>
+            <li>
+                <div class="img-handler-bot"><img src="/images/default-source/actividades-timeline/2025/enexpro-agroalimentos-2025.png?sfvrsn=becd3797_4" sfref="[images%7COpenAccessDataProvider]4d737cc1-6dbe-4bdc-ab3c-9e6aa288c58a" data-sf-ec-immutable="" /></div>
+                <div class="ps-bot text-cerulio f-icono bw-bold text-uppercase text-center"><strong>Enexpro Agro &amp; Alimentos</strong> <br />23 al 27 junio <p>&nbsp;</p>
+                </div><span class="ps-sp-bot"></span>
+            </li>
+            <li>
+                <div class="img-handler-top"><img src="/images/default-source/actividades-timeline/2025/encuentro-asean-2025.png?sfvrsn=363f80db_3" sfref="[images%7COpenAccessDataProvider]520bc91f-d434-49b3-9814-b0d38a72c977" data-sf-ec-immutable="" /></div>
+                <div class="ps-top text-cerulio f-icono bw-bold text-uppercase text-center"><strong>Encuentro ASEAN <br /></strong>8 al 10 de Septiembre</div><span class="ps-sp-top"></span>
+            </li>
+            <li>
+                <div class="img-handler-bot"><img src="/images/default-source/actividades-timeline/2025/chile-summit-eeuu-2025.png?sfvrsn=5048ca23_4" sfref="[images%7COpenAccessDataProvider]1cc18a5e-0289-401e-a3db-4eaa4d9ba463" data-sf-ec-immutable="" /></div>
+                <div class="ps-bot text-cerulio f-icono bw-bold text-uppercase text-center"><strong>Chile Summit EE.UU </strong><br />6 al 10 de Octubre </div><span class="ps-sp-bot"></span>
+            </li>
+            <li>
+                <div class="img-handler-top"><img src="/images/default-source/actividades-timeline/2025/chile-week-china-2025.png?sfvrsn=67583f41_3" sfref="[images%7COpenAccessDataProvider]d6447cf8-f51c-4343-a86d-4499c9cb7efa" data-sf-ec-immutable="" /></div>
+                <div class="ps-top text-cerulio f-icono bw-bold text-uppercase text-center"><strong>Chile Week China 2025</strong><br />22 al 26 de octubre</div><span class="ps-sp-top"></span>
+            </li>
+            <li>
+                <div class="img-handler-bot"><img src="/images/default-source/actividades-timeline/2025/chile-summit-eau-2025.png?sfvrsn=7ec024d3_3" sfref="[images%7COpenAccessDataProvider]99c06fe5-3900-4b70-84b8-deb21fe8fb46" data-sf-ec-immutable="" /></div>
+                <div class="ps-bot text-cerulio f-icono bw-bold text-uppercase text-center"><strong>Chile Summit EAU 2025</strong> <br />Diciembre</div><span class="ps-sp-bot"></span>
+            </li>
+        </ol>
+    </div>
+</section>
+<style type="text/css">
+    .ps-timeline-sec .container ol.ps-timeline li {
+        width: 11% !important;
+    }
+
+    .ps-timeline-sec .container ol.ps-timeline li .img-handler-bot img:hover {
+        transform: scale(1.1);
+        transition: all 1s ease;
+    }
+
+    .ps-timeline-sec .container ol.ps-timeline li .img-handler-top img:hover {
+        transform: scale(1.1);
+        transition: all 1s ease;
+    }
+
+    .f-icono {
+        font-size: 13px !important;
+    }
+
+    .ps-timeline-sec .container ol.ps-timeline li span {
+        left: 96px !important;
+    }
+
+    @media (max-width: 767px) {
+
+        .ps-timeline-sec .container ol.ps-timeline li {
+            width: 100% !important;
+        }
+
+        .ps-timeline-sec .container ol.ps-timeline li span {
+            left: 16px !important;
+        }
+
+        .ps-timeline-sec .container ol.ps-timeline li .ps-bot,
+        .ps-timeline-sec .container ol.ps-timeline li .ps-top {
+            text-align: left !important;
+            width: 58% !important;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 820px) {
+        .ps-timeline-sec .container ol.ps-timeline li {
+            width: 12.5% !important;
+            padding-top: 37px;
+        }
+
+        .ps-timeline-sec .container ol.ps-timeline li .img-handler-top {
+            margin-bottom: 251px !important;
+        }
+
+        .ps-timeline-sec .container ol.ps-timeline li .img-handler-bot {
+            margin-top: 209px !important;
+        }
+
+        .ps-timeline-sec .container ol.ps-timeline li span {
+            left: 61px !important;
+        }
+    }
+
+    .
+</style>-->
+<!--<section class="ps-timeline-sec">
+    <div class="container">
+        <ol class="ps-timeline">
+            <li>
+                <div class="img-handler-top"><img src="/images/default-source/actividades-timeline/prochil-enexpro.png?sfvrsn=77e1a56c_3" alt="" sfref="[images%7COpenAccessDataProvider]8d93e193-8e72-447a-995f-74b725b64885" data-sf-ec-immutable="" /></div>
+                <div class="ps-top text-cerulio fs-16 bw-bold text-uppercase">
+                    <p>8 al 12</p>
+                    <p>de enero</p>
+                </div><span class="ps-sp-top"></span>
+            </li>
+            <li>
+                <div class="img-handler-bot"><img src="/images/default-source/actividades-timeline/enexpro-solucionesglobales.png?sfvrsn=5d196694_3" alt="" sfref="[images%7COpenAccessDataProvider]f1132746-d90a-41d3-9495-7530a63aaa01" data-sf-ec-immutable="" /></div>
+                <div class="ps-bot text-cerulio fs-16 bw-bold text-uppercase">
+                    <p>6 al 9</p>
+                    <p>Mayo</p>
+                </div><span class="ps-sp-bot"></span>
+            </li>
+            <li>
+                <div class="img-handler-top"><img src="/images/default-source/actividades-timeline/cincuenta-latam.png?sfvrsn=c264a813_3" sfref="[images%7COpenAccessDataProvider]2b18ec3a-107c-4465-8e55-f91e9577364c" data-sf-ec-immutable="" /></div>
+                <div class="ps-top text-cerulio fs-16 bw-bold text-uppercase">
+                    <p>24 al 27</p>
+                    <p>Junio</p>
+                </div><span class="ps-sp-top"></span>
+            </li>
+            <li>
+                <div class="img-handler-bot"><img src="/images/default-source/actividades-timeline/imagen-1.png?sfvrsn=be5f1bf0_3" sfref="[images%7COpenAccessDataProvider]fd5f508a-4d00-4b09-afaa-0eea70c65673" data-sf-ec-immutable="" /></div>
+                <div class="ps-bot text-cerulio fs-16 bw-bold text-uppercase">
+                    <p>2 al 4</p>
+                    <p>Julio</p>
+                </div><span class="ps-sp-bot"></span>
+            </li>
+            <li>
+                <div class="img-handler-top"><img src="/images/default-source/actividades-timeline/semana-industria.png?sfvrsn=2d943ac1_3" alt="" sfref="[images%7COpenAccessDataProvider]40377918-d6a3-43ed-8512-bb4d5e5afc34" data-sf-ec-immutable="" /></div>
+                <div class="ps-top text-cerulio fs-16 bw-bold text-uppercase">
+                    <p>22 al 24</p>
+                    <p>Julio</p>
+                </div><span class="ps-sp-top"></span>
+            </li>
+            <li>
+                <div class="img-handler-bot"><img src="/images/default-source/actividades-timeline/chile-summit-india-8.png?Status=Master&amp;sfvrsn=9aa66c8e_3" sfref="[images%7COpenAccessDataProvider]7c6e27c6-22c8-4b18-b942-c45032778f50" data-sf-ec-immutable="" /></div>
+                <div class="ps-bot text-cerulio fs-16 bw-bold text-uppercase">
+                    <p>27 al 30 </p>
+                    <p>Agosto</p>
+                </div><span class="ps-sp-bot"></span>
+            </li>
+            <li>
+                <div class="img-handler-top"><img src="/images/default-source/actividades-timeline/enexpro-servicios.png?sfvrsn=c2afef96_3" alt="" sfref="[images%7COpenAccessDataProvider]0be9a6b4-0846-4939-a0fe-c15929f2d81b" data-sf-ec-immutable="" /></div>
+                <div class="ps-top text-cerulio fs-16 bw-bold text-uppercase">
+                    <p>14 al 16</p>
+                    <p>Octubre</p>
+                </div><span class="ps-sp-top"></span>
+            </li>
+            <li>
+                <div class="img-handler-bot"><img src="/images/default-source/actividades-timeline/chile-weekbrasil.png?sfvrsn=df59d771_3" alt="" sfref="[images%7COpenAccessDataProvider]b78d9d91-68d4-4a9c-8af8-001f81103b7c" data-sf-ec-immutable="" /></div>
+                <div class="ps-bot text-cerulio fs-16 bw-bold text-uppercase">
+                    <p>30 sep. al 04</p>
+                    <p>Octubre</p>
+                </div><span class="ps-sp-bot"></span>
+            </li>
+            <li>
+                <div class="img-handler-top"><img src="/images/default-source/actividades-timeline/prochile-cincuenta.png?sfvrsn=4551b163_3" alt="" sfref="[images%7COpenAccessDataProvider]aac9f945-0898-480f-9da1-e70b733fc429" data-sf-ec-immutable="" /></div>
+                <div class="ps-top text-cerulio fs-16 bw-bold text-uppercase">
+                    <p>28</p>
+                    <p>Noviembre</p>
+                </div><span class="ps-sp-top"></span>
+            </li>
+            <li>
+                <div class="img-handler-bot"><img src="/images/default-source/actividades-timeline/enexpro-productomar.png?sfvrsn=23f4ea98_3" alt="" sfref="[images%7COpenAccessDataProvider]525ba20a-4daf-48ac-bd98-3cce12c9243e" data-sf-ec-immutable="" /></div>
+                <div class="ps-bot text-cerulio fs-16 bw-bold text-uppercase">
+                    <p>25 al 27</p>
+                    <p>Noviembre</p>
+                </div><span class="ps-sp-bot"></span>
+            </li>
+            <li>
+                <div class="img-handler-top"><img src="/images/default-source/actividades-timeline/chile-weekchina.png?sfvrsn=346f7068_3" alt="" sfref="[images%7COpenAccessDataProvider]ee393e52-e756-4e63-981a-3ddc4ba04f59" data-sf-ec-immutable="" /></div>
+                <div class="ps-top text-cerulio fs-16 bw-bold text-uppercase">
+                    <p>1 al 7</p>
+                    <p>Diciembre</p>
+                </div><span class="ps-sp-top"></span>
+            </li>
+            <li>
+                <div class="img-handler-bot"><img src="/images/default-source/actividades-timeline/encuentro-binacional.png?sfvrsn=6005d1fb_3" alt="" sfref="[images%7COpenAccessDataProvider]2e8c9790-e089-46ef-95f7-ae146ea6c184" data-sf-ec-immutable="" /></div>
+                <div class="ps-bot text-cerulio fs-16 bw-bold text-uppercase">
+                    <p>5</p>
+                    <p>Diciembre</p>
+                </div><span class="ps-sp-bot"></span>
+            </li>
+        </ol>
+    </div>
+</section>-->
+</div>
+<div id="ContentplaceholderMain_C089_Col00" class="sf_colsIn container-fluid" data-sf-element="Container" data-placeholder-label="Container">
+<!--<div class="convocatorias-vermas col-12 d-flex justify-content-center py-3"><a class="text-decoration-none" href="/actividades-2024/" sfref="[f669d9a7-009d-4d83-ddaa-000000000002%7Clng%3Aes]335FB158-40E5-4E72-ACCC-6149E4246FCE" data-sf-ec-immutable=""><button class="btn-card d-flex">ver todas las
+            Actividades</button></a>
+
+</div><a name="casos" data-sf-ec-immutable=""></a>-->
+</div>
+
+
+
+<div id="modalSocio" class="modal">
+<div class="w-modal modal-bienvenido">
+<div class="cerrar-modal">
+<em class="fas fa-times"></em>
+</div>
+<div class="logo">
+<img alt="" src="/resourcepackages/prochile/assets/dist/images/logo.svg" />
+</div>
+<div class="texto-bienvenido">
+<h3>Bienvenida y bienvenido a ProChile, </h3>
+<br />
+<span>Si ya eres socia(o) ProChile ingresa con tus datos de siempre</span>
+<p>&nbsp;</p>
+</div>
+<div class="boxes-modal">
+<div class="box-modal">
+<h3><a href="https://acceso.prochile.cl/iniciar-sesion/">Ingresa Aqu&iacute;</a></h3>
+<a href="https://acceso.prochile.cl/iniciar-sesion/" target="_blank"><span>Login Here</span></a></div>
+</div>
+</div>
+</div>
+
+
+<script type="text/javascript">
+$('.dropdown').on('show.bs.dropdown', function(e){
+  $(this).find('.dropdown-menu').first().stop(true, true).slideDown(300);
+});
+
+$('.dropdown').on('hide.bs.dropdown', function(e){
+  $(this).find('.dropdown-menu').first().stop(true, true).slideUp(200);
+});
+
+var images = new Array()
+			function preload() {
+				for (i = 0; i < preload.arguments.length; i++) {
+					images[i] = new Image()
+					images[i].src = preload.arguments[i]
+				}
+			}
+			preload(
+				"/images/librariesprovider3/web/eco-hover.png?Status=Master&sfvrsn=745d41ba_3",
+				"/images/default-source/web/callcenterhover.png?sfvrsn=e17bf759_2",
+				"/images/librariesprovider3/web/acceso-hover.png?Status=Master&amp;sfvrsn=2600c244_3"
+			)
+</script>
+ 
+
+<center><div class="wrapper1">Informaci&oacute;n importante sobre Plataforma Ley del Lobby
+        <div class="tooltip">Sras./es. Usuarias/os de la Plataforma del Lobby, considere que dicho sistema ha presentado interrupciones generalizadas que afectan a todos los organismos p&uacute;blicos, lo que ha ocasionado que las respuestas a las solicitudes de audiencia dirigidas a los sujetos pasivos de ProChile podr&aacute;n presentar retrasos. Agradecemos su comprensi&oacute;n y tan pronto se restablezca el servicio, se responder&aacute;n aquellas solicitudes que se encuentren en estado pendiente.</div></div></center><style type="text/css">.wrapper1 {
+        border-radius: 26px;
+        margin: 20px;
+        background: #ececec;
+        color: #555;
+        cursor: help;
+        font-size: 12px;
+        padding: 15px 20px;
+        position: relative;
+        text-align: center;
+        width: 100%;
+        min-width: 300px;
+        max-width: 800px;
+        -webkit-transform: translateZ(0);
+        /* webkit flicker fix */
+        -webkit-font-smoothing: antialiased;
+        /* webkit text rendering fix */
+    }
+
+    .wrapper1 .tooltip {
+        border-radius: 5px;
+        background: #1496bb;
+        bottom: 100%;
+        color: #fff;
+        display: block;
+        left: -20px;
+        margin-bottom: 15px;
+        opacity: 0;
+        padding: 20px;
+        pointer-events: none;
+        position: absolute;
+        width: 100%;
+        -webkit-transform: translateY(10px);
+        -moz-transform: translateY(10px);
+        -ms-transform: translateY(10px);
+        -o-transform: translateY(10px);
+        transform: translateY(10px);
+        -webkit-transition: all .25s ease-out;
+        -moz-transition: all .25s ease-out;
+        -ms-transition: all .25s ease-out;
+        -o-transition: all .25s ease-out;
+        transition: all .25s ease-out;
+        -webkit-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+        -moz-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+        -ms-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+        -o-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+        box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+    }
+
+    /* This bridges the gap so you can mouse into the tooltip without it disappearing */
+
+    .wrapper1 .tooltip:before {
+        bottom: -20px;
+        content: " ";
+        display: block;
+        height: 20px;
+        left: 0;
+        position: absolute;
+        width: 100%;
+    }
+
+    /* CSS Triangles - see Trevor's post */
+
+    .wrapper .tooltip:after {
+        border-left: solid transparent 10px;
+        border-right: solid transparent 10px;
+        border-top: solid #1496bb 10px;
+        bottom: -10px;
+        content: " ";
+        height: 0;
+        left: 50%;
+        margin-left: -13px;
+        position: absolute;
+        width: 0;
+    }
+
+    .wrapper1:hover .tooltip {
+        opacity: 1;
+        pointer-events: auto;
+        -webkit-transform: translateY(0px);
+        -moz-transform: translateY(0px);
+        -ms-transform: translateY(0px);
+        -o-transform: translateY(0px);
+        transform: translateY(0px);
+    }
+
+    /* IE can just show/hide with no transition */
+
+    .lte8 .wrapper1 .tooltip {
+        display: none;
+    }
+
+    .lte8 .wrapper1:hover .tooltip {
+        display: block;
+    }
+</style>
+
+<section class="c-logos" style="margin-top: 2rem;">
+  <div class="wrap">
+    <div class="carrusel gris">
+      <div class="c-5">
+            <div class="item">
+          <a href="/estado-verde" target="_self">
+            <img class="lazyload" data-src='https://www.prochile.gob.cl/images/default-source/actividades/estado_verde_footer-copia-3@2x.png?sfvrsn=a47ae742_4' alt='' title='Estado_verde_footer copia 3@2x' />
+          </a>
+        </div>
+            <div class="item">
+          <a href="https://www.prochile.gob.cl/noticias/detalle-noticia/2022/05/10/prochile-obtiene-sello-iguala-conciliaci%C3%B3n-del-ministerio-de-la-mujer-y-la-equidad-de-g%C3%A9nero" target="_blank">
+            <img class="lazyload" data-src='https://www.prochile.gob.cl/images/default-source/default-album/sello-iguala-banner.png?sfvrsn=b54de32d_15' alt='' title='Sello iguala banner' />
+          </a>
+        </div>
+            <div class="item">
+          <a href="https://transparencia.prochile.cl/proactiva/transparencia-proactiva-prochile.html" target="_blank">
+            <img class="lazyload" data-src='https://www.prochile.gob.cl/images/default-source/default-album/banner_transparecia_activa.png?sfvrsn=2cd3785e_5' alt='' title='banner_transparecia_activa' />
+          </a>
+        </div>
+            <div class="item">
+          <a href="https://www.subrei.gob.cl/ejes-de-trabajo/cer/convencion-anticohecho" target="_blank">
+            <img class="lazyload" data-src='https://www.prochile.gob.cl/images/default-source/ley-transparencia/registro-de-organizacionesconsejo-sociedad-civil-1.png?sfvrsn=9890e_6' alt='' title='registro-de-organizacionesconsejo-sociedad-civil-1' />
+          </a>
+        </div>
+            <div class="item">
+          <a href="/atencion-ciudadana" target="_self">
+            <img class="lazyload" data-src='https://www.prochile.gob.cl/images/default-source/ley-transparencia/atenci&#243;n-ciudadana.png?sfvrsn=e09a2b3a_6' alt='' title='atenci&#243;n-ciudadana' />
+          </a>
+        </div>
+            <div class="item">
+          <a href="https://www.empleospublicos.cl/" target="_self">
+            <img class="lazyload" data-src='https://www.prochile.gob.cl/images/default-source/ley-transparencia/empleos-p&#250;blicos.png?sfvrsn=8bdfa9f0_6' alt='' title='empleos-p&#250;blicos' />
+          </a>
+        </div>
+            <div class="item">
+          <a href="https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=AC006" target="_self">
+            <img class="lazyload" data-src='https://www.prochile.gob.cl/images/default-source/ley-transparencia/transparencia-activa-ley-de-transparencia.png?sfvrsn=806627c4_6' alt='' title='transparencia-activa-ley-de-transparencia' />
+          </a>
+        </div>
+            <div class="item">
+          <a href="/Informe-de-Ejecucion-Presupuestaria-Trimestral" target="_self">
+            <img class="lazyload" data-src='https://www.prochile.gob.cl/images/default-source/ley-transparencia/informe-de-ejecucioon.png?sfvrsn=43f4f6a8_6' alt='' title='informe-de-ejecucioon' />
+          </a>
+        </div>
+            <div class="item">
+          <a href="https://www.mercadopublico.cl/Home" target="_self">
+            <img class="lazyload" data-src='https://www.prochile.gob.cl/images/default-source/ley-transparencia/portal-compras-publicas.png?sfvrsn=dfac5c0d_6' alt='' title='portal-compras-publicas' />
+          </a>
+        </div>
+            <div class="item">
+          <a href="/compromisos-institucionales" target="_self">
+            <img class="lazyload" data-src='https://www.prochile.gob.cl/images/default-source/ley-transparencia/compromisos-institucionales.png?sfvrsn=c0933eb4_6' alt='' title='compromisos-institucionales' />
+          </a>
+        </div>
+            <div class="item">
+          <a href="/participacion-ciudadana/acceso-a-informacion-relevante" target="_self">
+            <img class="lazyload" data-src='https://www.prochile.gob.cl/images/default-source/ley-transparencia/parti-ciudadana.png?sfvrsn=88bc84ce_9' alt='' title='parti-ciudadana' />
+          </a>
+        </div>
+            <div class="item">
+          <a href="http://ivaexportadores.economia.cl/default.aspx" target="_blank">
+            <img class="lazyload" data-src='https://www.prochile.gob.cl/images/default-source/ley-transparencia/registro-de-organizacionesconsejo-sociedad-civil-2.png?sfvrsn=70c72e90_6' alt='' title='registro-de-organizacionesconsejo-sociedad-civil-2' />
+          </a>
+        </div>
+            <div class="item">
+          <a href="https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=AC002" target="_self">
+            <img class="lazyload" data-src='https://www.prochile.gob.cl/images/default-source/ley-transparencia/gobierno-transparente-hist&#243;rico-direcon.png?sfvrsn=aaea51f1_6' alt='' title='gobierno-transparente-hist&#243;rico-direcon' />
+          </a>
+        </div>
+            <div class="item">
+          <a href="https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=AC006" target="_blank">
+            <img class="lazyload" data-src='https://www.prochile.gob.cl/images/default-source/ley-transparencia/solicitud-de-informaci&#243;n-ley-de-transparencia.png?sfvrsn=f33feb3a_6' alt='' title='solicitud-de-informaci&#243;n-ley-de-transparencia' />
+          </a>
+        </div>
+            <div class="item">
+          <a href="/tramites-digitales" target="_self">
+            <img class="lazyload" data-src='https://www.prochile.gob.cl/images/default-source/ley-transparencia/tr&#225;mites-digitales.png?sfvrsn=4140ac57_6' alt='' title='tr&#225;mites-digitales' />
+          </a>
+        </div>
+            <div class="item">
+          <a href="/compromisos-institucionales-por-transferencias-a-terceros" target="_self">
+            <img class="lazyload" data-src='https://www.prochile.gob.cl/images/default-source/ley-transparencia/compromisos.png?sfvrsn=ba57528a_6' alt='' title='compromisos' />
+          </a>
+        </div>
+            <div class="item">
+          <a href="https://www.leylobby.gob.cl/instituciones/AC006" target="_blank">
+            <img class="lazyload" data-src='https://www.prochile.gob.cl/images/default-source/ley-transparencia/plataforma-ley-lobby-de-prochile.png?sfvrsn=548859a9_6' alt='' title='plataforma-ley-lobby-de-prochile' />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> <footer class="nacional"> <div class="wrap"> <div class="footer-top"> <div class="row"> <div class="izq col-md-6 col-xs-12"> 
+
+<div class="logo"><a href="/" data-sf-ec-immutable=""><img width="300" src="https://www.prochile.gob.cl/resourcepackages/prochile/assets/dist/images/logo-footer.svg" data-sf-ec-immutable="" /></a></div><p style="color:#fff;font-size:13px;margin-top:10px;"><strong>Direcci&oacute;n General de Promoci&oacute;n <br />de Exportaciones de la Canciller&iacute;a de Chile</strong></p><ul><li><a class="footer" href="/quienes-somos">&iquest;Qui&eacute;nes somos?</a></li><li><a class="footer" href="https://centrodeayuda.prochile.gob.cl/hc/es-419" target="_blank" data-sf-ec-immutable="">Centro de ayuda</a></li><li><a target="_blank" href="/tramites-digitales">Tr&aacute;mites Digitales</a>
+ </li><li><a class="trabajaconnosotros" href="/trabaja-con-nosotros">Trabaja con Nosotros</a></li><li><a class="politicas" href="/politicas-de-privacidad">Pol&iacute;ticas de privacidad</a></li><li><a class="politicas" href="/clausulas-de-confidencialidad-y-copyright">ProChile &copy;2025</a></li></ul> </div> <div class="der enlaces col-md-3 col-xs-12"> 
+
+<h4>Enlaces de inter&eacute;s</h4><div class="item-c"><em class="fas fa-external-link-alt"></em><a href="https://investchile.gob.cl/es/" target="_blank">InvestChile</a>
+</div><div class="item-c"><em class="fas fa-external-link-alt"></em><a href="https://marcachile.cl/" target="_blank">Fundaci&oacute;n Imagen de Chile</a>
+</div><div class="item-c"><em class="fas fa-external-link-alt"></em><a href="https://www.chile.travel/" target="_blank">Chile Travel</a>
+</div> </div> <div class="der col-md-3 col-xs-12"> 
+
+<h4>Contacto</h4>
+<!--<div class="item-c"><img alt="" src="/resourcepackages/prochile/assets/dist/images/ic-phone.svg" class="ic-phone" />
+<p>Of central&nbsp;</p>
+</div>-->
+<div class="item-c"><img alt="" src="/resourcepackages/prochile/assets/dist/images/ic-map.svg" class="ic-map" />
+<p>Teatinos 180, Santiago, Chile.</p>
+</div>
+<div class="item-c"><img alt="" src="/resourcepackages/prochile/assets/dist/images/flecha-der.svg" class="flecha-der" />
+<p>Contacta a nuestras Of. Regionales <a href="/prochile-en-tu-region-y-en-el-mundo/prochile-en-tu-region">aqu&iacute;</a></p>
+</div>
+<div class="item-c"><img alt="" src="/resourcepackages/prochile/assets/dist/images/flecha-der.svg" class="flecha-der" />
+<p>Contacta a nuestras Of. Comerciales en el mundo <a href="/prochile-en-tu-region-y-en-el-mundo/prochile-en-el-mundo">aqu&iacute;</a></p>
+</div> </div> </div> </div> <div class="footer-bottom"> <div class="izq"> 
+
+<a href="https://direconchile.sharepoint.com/sites/extranet/SitePages/Home.aspx" target="_blank"><img alt="" src="/resourcepackages/prochile/assets/dist/images/ic-intranet.svg" class="ic-intranet" />Intranet
+ </a>
+<!-- <a href="http://webmail365.direcon.cl/" target="_blank">
+<img alt="" src="/resourcepackages/prochile/assets/dist/images/ic-mail.svg" class="ic-mail" /></a> -->
+<!--<a href="https://webmail.prochile.cl/"><em class="far fa-envelope mr-2"></em>Webmail
+</a>-->
+<a href="https://outlook.office.com/mail/"><em class="far fa-envelope mr-2"></em>Webmail 365</a>
+<div id="gtx-trans" style="position:absolute;left:33px;top:1.5px;"><div class="gtx-trans-icon">&nbsp;</div></div> </div> <div class="der"> 
+
+<a target="_blank" href="https://www.facebook.com/ProChile"><em class="fab fa-facebook-f"></em></a>
+<a target="_blank" href="https://twitter.com/ProChile"><em class="fab fa-twitter"></em></a>
+<a target="_blank" href="https://www.instagram.com/prochilecl/"><em class="fab fa-instagram"></em></a>
+<a target="_blank" href="https://www.linkedin.com/company/prochile/"><em class="fab fa-linkedin-in"></em></a>
+<a target="_blank" href="https://www.flickr.com/photos/prochile/albums/"><em class="fab fa-flickr"></em></a>
+<a target="_blank" href="https://www.youtube.com/channel/UCLiT8pU5ZwQiZRQUpS-iJcw"><em class="fab fa-youtube"></em></a> </div> </div> </div> <div class="wrap footer-sellos"> 
+<div class="row" data-sf-element="Row">
+    <div id="ContentplaceholderFooterBottomSellos_TC37D4659013_Col00" class="sf_colsIn col-lg-6" data-sf-element="Column 1" data-placeholder-label="Column 1">
+    </div>
+    <div id="ContentplaceholderFooterBottomSellos_TC37D4659013_Col01" class="sf_colsIn col-lg-6 d-flex justify-content-end align-items-center" data-sf-element="Column 2" data-placeholder-label="Column 2">
+<p>Nuestro compromiso digital&nbsp;</p><img data-method="ResizeFitToAreaArguments" data-customsizemethodproperties="{'MaxWidth':185,'MaxHeight':70,'Width':null,'Height':null,'ScaleUp':false,'Quality':'High','Method':'ResizeFitToAreaArguments'}" width="185" height="70" src="/images/default-source/web/3sellos_gris.svg?sfvrsn=8a974aae_5&amp;MaxWidth=185&amp;MaxHeight=70&amp;ScaleUp=false&amp;Quality=High&amp;Method=ResizeFitToAreaArguments&amp;Signature=C353DA90D8777167A48866D9B3BDFB0E09BA110B" alt="Sellos de cumplimiento Ley de Transformación Digital periodo 2019-2022" title="Sellos de cumplimiento Ley de Transformación Digital periodo 2019-2022" data-displaymode="Custom" />
+    </div>
+</div>
+ </div> </footer>  <script src="/Frontend-Assembly/Telerik.Sitefinity.Frontend.Navigation/Mvc/Scripts/LanguageSelector/language-selector.min.js?package=Prochile&amp;v=LTMyNDk4MTA4" type="text/javascript"></script> <!-- <script type="text/javascript" src="/resourcepackages/prochile/assets/dist/js/bundler.libs.min.js" defer></script> --> <!-- <script type="text/javascript" src="/resourcepackages/prochile/assets/dist/js/accordion.js" defer></script> --> <!-- <script type="text/javascript" src="/resourcepackages/prochile/assets/dist/js/countimator.js" defer></script> --> <!-- <script src="/resourcepackages/prochile/assets/dist/js/jquery-ui.js" defer></script> --> <!-- <script src="/resourcepackages/prochile/assets/dist/js/jquery.fancybox.min.js" defer></script> --> <!-- <script src="/resourcepackages/prochile/assets/dist/js/isotope.pkgd.js" defer></script> --> <!-- <script src="/resourcepackages/prochile/assets/dist/js/wow.js" defer></script> --> <!-- <script src="/resourcepackages/prochile/assets/dist/js/tiny-slider.js" defer></script> --> <!-- <script type="text/javascript" src="/resourcepackages/prochile/assets/dist/js/funciones.js" defer></script> --> <!-- <script type="text/javascript" src="/resourcepackages/prochile/assets/dist/js/funciones-widget.js" defer></script> --> <!-- <script type="text/javascript" src="/resourcepackages/prochile/assets/dist/js/implementacion_prochile.js" defer></script> --> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<input data-sf-role='en' type='hidden' value='https://www.prochile.gob.cl/en/home'><input data-sf-role='es' type='hidden' value='https://www.prochile.gob.cl/home'><script type="text/javascript">
+/*(function(h,o,t,j,a,r){ h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)}; h._hjSettings={hjid:3279898,hjsv:6}; a=o.getElementsByTagName('head')[0]; r=o.createElement('script');r.async=1; r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv; a.appendChild(r); })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+*/
+</script> </body> </html>

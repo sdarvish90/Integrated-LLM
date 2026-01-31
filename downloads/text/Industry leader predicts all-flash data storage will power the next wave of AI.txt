@@ -1,0 +1,46 @@
+Title: Industry leader predicts all-flash data storage will power the next wave of AI
+URL: https://www.energymonitor.ai/sponsored/industry-leader-predicts-all-flash-data-storage-will-power-the-next-wave-of-ai/
+Date: 2026-01-28
+======================================================================
+
+Yuan Yuan, President of Huawei Scale-Out Storage Domain. Credit: Huawei
+As the world’s appetite for data continues to grow, data centres now do far more than simply store information; from managed storage and backup to infrastructure outsourcing, and AI training. According to GlobalData forecasts, the global enterprise data centre and hosting market was worth US$112.4 billion in 2024 and is forecast to grow to $188.2 billion by 2029, a CAGR of 10.9%
+[i]
+.Despite this growth, most data centres still struggle with limited space and power, and often face performance bottlenecks, particularly when handling demanding AI workloads.
+How can we address CPU performance bottlenecks?
+Yuan Yuan is President of Huawei Scale-Out Storage Domain and recently spoke at a restricted round table discussion hosted at Huawei CONNECT 2025 in Shanghai. A leading voice in the industry, Yuan discussed how advances in storage technology are shaping the future of data management and offered valuable insights into the challenges and opportunities facing data centres today.
+“CPU card utilisation rate is currently only around 50%,” says Yuan. “This means half of the time it is not visited (used). CPU cards are very expensive… but the CPU card is sitting there waiting for the data. That’s a storage issue.” Managing different types of data can add even more complexity, Yuan added. “The performance of traditional HDDs can no longer meet the demands of AI, big data, and high-concurrency applications for low latency and high IOPS [Input/Output Operations Per Second].”
+This is where all-flash data storage comes in: it’s fast, efficient and compact in size. “Huawei uses all-flash storage solutions to break through bottlenecks and enhance business efficiency,” explained Yuan. “The release of the Huawei OceanStor Pacific 9928/9926 [all-flash scale-out storage] targets high-performance, large-capacity scenarios, enabling intelligent tiering. This addresses the key issues of traditional HDDs occupying cabinet space, utilising high power consumption, and yet providing low performance.”
+Huawei also recently launched the OceanDisk 1800 intelligent disk enclosure, transitioning from JBOD (Just a Bunch of Disks) to diskless enclosures, decoupling storage and computing resources, achieving flexible expansion and efficient management of storage resources. “Moving forward, we will continue to develop GPU+NPU native disk enclosures,” says Yuan.
+The advantages of using all-flash data storage over hard disk drives (HDD)
+Flash storage (solid state drive – SSD) offers several important advantages over traditional hard disk drives. In short, flash storage is much faster, uses less power, and takes up less room than hard drives and the performance difference between HDDs and SSDs is significant. As Yuan explains: “The throughput can reach to 15 gigabytes per second (for SSDs) compared to just 100 megabytes per second for HDDs – making SSDs roughly 15 times faster.” This means SSDs can handle larger amounts of data much more quickly than traditional hard drives. Flash storage is also more efficient: “Power consumption, space and weight are roughly 10 times less.”
+The sticking point right now, says Yuan, is the price: “It’s currently about three times more expensive than hard drives but things are changing quickly. AI needs huge amounts of data, and we now have better ways to manage and use that data. As AI becomes more common, customers need more storage and better performance. For example, with hard drives you might store 10 petabytes, but with flash storage you could store 100 petabytes for AI. That’s why we’re working on new features like power saving and data compression to help lower costs and make it easier for customers to switch to flash storage.”
+Traditionally, flash storage was not as robust as HDDs, but that is changing, says Yuan. “Five years ago, I might have agreed that SSDs didn’t last as long, since all semiconductor equipment – like CPUs, memory, and SSDs – can fail. But now, thanks to new technology in SSD controllers and memory, they’re much more reliable and can last five to 10 years without any issues. In fact, SSDs now have a similar lifespan to hard drives, which are rated to last about two million hours.”
+Powering AI with Huawei’s AI Data Lake Solution
+Huawei’s all-flash strategy could contribute significantly to the development of AI. Huawei’s
+AI Data Lake Solution
+is designed to accelerate AI adoption across industries. The solution delivers a high-quality AI corpus and speeds up model training and inference. Able to store massive amounts of unstructured data, AI Data Lake is enabling centralised and unified data management, as well as breaking down data silos and empowering data-driven business innovation.
+Yuan emphasises that AI is driving an exponential increase in data demand: “AI consumes data heavily and to make AI models smarter, they need more data.” Huawei has been investing heavily in new features and architectures to meet these needs, and Yuan notes that technical innovations, such as unified cache and vector databases, are essential for supporting AI’s performance and efficiency:
+“For AI inference, we’ve added two key features. First, we use a unified cache manager (UCM) to store important data, so the system doesn’t have to recalculate information every time; instead, it can quickly access what it needs. Secondly, because not all information is available from outside sources, we help customers build local databases to keep their data up-to-date and improve the performance of their AI models.”
+Is all-flash data storage better for the environment?
+Data centres are highly energy intensive and take up a lot of space. Indeed, the International Energy Agency (IEA)
+[ii]
+estimates that globally, data centres accounted for approximately 1.5% of the world’s electricity consumption in 2024 (415 TWh) and is expected to more than double to around 945 TWh by 2030, representing nearly 3% of total global electricity consumption.
+However, Huawei’s OceanStor Pacific all-flash scale-out storage has been certified by ENERGY STAR® for energy efficiency
+[iii]
+.
+“We were one of the first companies in Asia to have our storage equipment certified for energy efficiency with the ENERGY STAR label,” says Yuan. “This means our products meet strict standards for saving energy. For example, our all-flash storage uses just 0.25 watts per terabyte, which is the lowest in the industry and much lower than the usual 0.5 to 1 watt per terabyte for standard storage. We also design our systems with features to save even more power, like automatically lowering CPU speed when the workload is light.”
+This not only helps customers reduce their power consumption and operating costs, but having ENERGY STAR certification gives customers confidence that they are choosing products that are both high quality and energy efficient, says Yuan.
+Next steps for data storage
+When it comes to the future, Yuan was cautious about divulging Huawei’s next steps, but he did confirm that AI wasn’t going to plateau any time soon: “Data demand isn’t slowing down – it’s actually growing faster than ever. AI uses huge amounts of data and as AI models get smarter and new technologies appear, the need for data keeps increasing. This is happening in many areas, from science and robotics to new types of AI.”
+Yuan concludes: “Our approach means our customers can double their storage capacity every two years without needing more power or extra space. This lets them keep up with growing data needs without major changes to their infrastructure.
+“Data is the future. AI needs data, and storage is the foundation that will drive new productivity.”
+[i]
+GlobalData: Strategic Intelligence Technology: Data Centers, September 2025
+[ii]
+https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai
+[iii]
+https://www.energystar.gov/productfinder/product/certified-data-center-storage/details/3999750
+Sign up for our daily news round-up!
+Give your business an edge with our leading industry insights.
+Sign up

@@ -1,0 +1,136 @@
+Category,Energy product,Value (GWh)
+Primary production,Total,4598227
+Primary production,Solid fossil fuels,915090
+Primary production,Natural gas,341442
+Primary production,Oil and petroleum products,219148
+Primary production,Renewables and biofuels,2959160
+Primary production,Non-renewable waste,154990
+Primary production,Nuclear heat,0
+Primary production,Electricity,0
+Primary production,Heat,8398
+Net imports,Total,10926228
+Net imports,Solid fossil fuels,596507
+Net imports,Natural gas,2856920
+Net imports,Oil and petroleum products,5557258
+Net imports,Renewables and biofuels,71874
+Net imports,Non-renewable waste,7094
+Net imports,Nuclear heat,1836966
+Net imports,Electricity,-445
+Net imports,Heat,54
+Transformation input - electricity and heat generation - energy use,Total,5826035
+Transformation input - electricity and heat generation - energy use,Solid fossil fuels,989160
+Transformation input - electricity and heat generation - energy use,Natural gas,986324
+Transformation input - electricity and heat generation - energy use,Oil and petroleum products,142689
+Transformation input - electricity and heat generation - energy use,Renewables and biofuels,1702005
+Transformation input - electricity and heat generation - energy use,Non-renewable waste,105298
+Transformation input - electricity and heat generation - energy use,Nuclear heat,1836966
+Transformation input - electricity and heat generation - energy use,Electricity,50707
+Transformation input - electricity and heat generation - energy use,Heat,12887
+Transformation input - other - energy use,Total,8435915
+Transformation input - other - energy use,Solid fossil fuels,658338
+Transformation input - other - energy use,Natural gas,16746
+Transformation input - other - energy use,Oil and petroleum products,7519307
+Transformation input - other - energy use,Renewables and biofuels,241524
+Transformation input - other - energy use,Non-renewable waste,0
+Transformation input - other - energy use,Nuclear heat,0
+Transformation input - other - energy use,Electricity,0
+Transformation input - other - energy use,Heat,0
+Transformation output,Total,11497182
+Transformation output,Solid fossil fuels,433892
+Transformation output,Natural gas,33087
+Transformation output,Oil and petroleum products,7508393
+Transformation output,Renewables and biofuels,205810
+Transformation output,Non-renewable waste,0
+Transformation output,Nuclear heat,0
+Transformation output,Electricity,2748579
+Transformation output,Heat,567420
+Energy sector - energy use,Total,691008
+Energy sector - energy use,Solid fossil fuels,61081
+Energy sector - energy use,Natural gas,93065
+Energy sector - energy use,Oil and petroleum products,308987
+Energy sector - energy use,Renewables and biofuels,7752
+Energy sector - energy use,Non-renewable waste,831
+Energy sector - energy use,Nuclear heat,0
+Energy sector - energy use,Electricity,186311
+Energy sector - energy use,Heat,32981
+Distribution losses,Total,256183
+Distribution losses,Solid fossil fuels,4794
+Distribution losses,Natural gas,13124
+Distribution losses,Oil and petroleum products,80
+Distribution losses,Renewables and biofuels,816
+Distribution losses,Non-renewable waste,3
+Distribution losses,Nuclear heat,0
+Distribution losses,Electricity,174970
+Distribution losses,Heat,62397
+Available for final consumption,Total,10988705
+Available for final consumption,Solid fossil fuels,219392
+Available for final consumption,Natural gas,2094201
+Available for final consumption,Oil and petroleum products,4529308
+Available for final consumption,Renewables and biofuels,1286040
+Available for final consumption,Non-renewable waste,56011
+Available for final consumption,Nuclear heat,0
+Available for final consumption,Electricity,2336145
+Available for final consumption,Heat,467608
+Final consumption - non-energy use,Total,836058
+Final consumption - non-energy use,Solid fossil fuels,17013
+Final consumption - non-energy use,Natural gas,108920
+Final consumption - non-energy use,Oil and petroleum products,710125
+Final consumption - non-energy use,Renewables and biofuels,0
+Final consumption - non-energy use,Non-renewable waste,0
+Final consumption - non-energy use,Nuclear heat,0
+Final consumption - non-energy use,Electricity,0
+Final consumption - non-energy use,Heat,0
+Final consumption - energy use,Total,10171628
+Final consumption - energy use,Solid fossil fuels,221950
+Final consumption - energy use,Natural gas,2004768
+Final consumption - energy use,Oil and petroleum products,3803917
+Final consumption - energy use,Renewables and biofuels,1286628
+Final consumption - energy use,Non-renewable waste,56043
+Final consumption - energy use,Nuclear heat,0
+Final consumption - energy use,Electricity,2330977
+Final consumption - energy use,Heat,467345
+Final consumption - industry sector - energy use,Total,2501331
+Final consumption - industry sector - energy use,Solid fossil fuels,149190
+Final consumption - industry sector - energy use,Natural gas,786602
+Final consumption - industry sector - energy use,Oil and petroleum products,282435
+Final consumption - industry sector - energy use,Renewables and biofuels,280911
+Final consumption - industry sector - energy use,Non-renewable waste,52728
+Final consumption - industry sector - energy use,Nuclear heat,0
+Final consumption - industry sector - energy use,Electricity,818054
+Final consumption - industry sector - energy use,Heat,131411
+Final consumption - transport sector - energy use,Total,3252349
+Final consumption - transport sector - energy use,Solid fossil fuels,4
+Final consumption - transport sector - energy use,Natural gas,36737
+Final consumption - transport sector - energy use,Oil and petroleum products,2939757
+Final consumption - transport sector - energy use,Renewables and biofuels,206598
+Final consumption - transport sector - energy use,Non-renewable waste,0
+Final consumption - transport sector - energy use,Nuclear heat,0
+Final consumption - transport sector - energy use,Electricity,70533
+Final consumption - transport sector - energy use,Heat,0
+Final consumption - other sectors - commercial and public services - energy use,Total,1372502
+Final consumption - other sectors - commercial and public services - energy use,Solid fossil fuels,4760
+Final consumption - other sectors - commercial and public services - energy use,Natural gas,356017
+Final consumption - other sectors - commercial and public services - energy use,Oil and petroleum products,85509
+Final consumption - other sectors - commercial and public services - energy use,Renewables and biofuels,114658
+Final consumption - other sectors - commercial and public services - energy use,Non-renewable waste,3314
+Final consumption - other sectors - commercial and public services - energy use,Nuclear heat,0
+Final consumption - other sectors - commercial and public services - energy use,Electricity,704218
+Final consumption - other sectors - commercial and public services - energy use,Heat,104026
+Final consumption - other sectors - households - energy use,Total,2667907
+Final consumption - other sectors - households - energy use,Solid fossil fuels,61257
+Final consumption - other sectors - households - energy use,Natural gas,786705
+Final consumption - other sectors - households - energy use,Oil and petroleum products,278116
+Final consumption - other sectors - households - energy use,Renewables and biofuels,629104
+Final consumption - other sectors - households - energy use,Non-renewable waste,0
+Final consumption - other sectors - households - energy use,Nuclear heat,0
+Final consumption - other sectors - households - energy use,Electricity,688744
+Final consumption - other sectors - households - energy use,Heat,223982
+Final consumption - other sectors - not elsewhere specified - energy use,Total,377538
+Final consumption - other sectors - not elsewhere specified - energy use,Solid fossil fuels,6739
+Final consumption - other sectors - not elsewhere specified - energy use,Natural gas,38707
+Final consumption - other sectors - not elsewhere specified - energy use,Oil and petroleum products,218100
+Final consumption - other sectors - not elsewhere specified - energy use,Renewables and biofuels,56637
+Final consumption - other sectors - not elsewhere specified - energy use,Non-renewable waste,1
+Final consumption - other sectors - not elsewhere specified - energy use,Nuclear heat,0
+Final consumption - other sectors - not elsewhere specified - energy use,Electricity,49428
+Final consumption - other sectors - not elsewhere specified - energy use,Heat,7926

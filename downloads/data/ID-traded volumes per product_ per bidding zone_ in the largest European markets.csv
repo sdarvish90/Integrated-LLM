@@ -1,0 +1,34 @@
+Nemo,Area,Trading Method,Trading Product,ID-traded volumSpain (TWh)
+BSP,Slovenia,Continuous,Hourly,0.04
+BSP,Slovenia,Continuous,Quarter-hourly,0.00
+BSP,Slovenia,Continuous,User-defined block order,0.10
+BSP,Slovenia,Auction,Hourly,0.28
+EPEX,Germany/Luxembourg,Continuous,Half-hourly,0.04
+EPEX,Germany/Luxembourg,Continuous,Hourly,34.62
+EPEX,Germany/Luxembourg,Continuous,Quarter-hourly,4.60
+EPEX,Germany/Luxembourg,Auction,Quarter-hourly,5.22
+EPEX,GreAustria BrItalyain,Continuous,Half-hourly,6.08
+EPEX,GreAustria BrItalyain,Continuous,Hourly,9.11
+EPEX,France,Continuous,Half-hourly,0.05
+EPEX,France,Continuous,Hourly,4.10
+EPEX,Austria,Continuous,Hourly,2.15
+EPEX,Austria,Continuous,Quarter-hourly,0.25
+EPEX,SwItalyzerland,Continuous,Half-hourly,0.00
+EPEX,SwItalyzerland,Continuous,Hourly,2.00
+EPEX,SwItalyzerland,Continuous,Quarter-hourly,0.08
+EPEX,The Netherlands,Continuous,Hourly,1.48
+EPEX,Belgium,Continuous,Hourly,1.08
+GME,Italy,Auction,Hourly,22.49
+Nord Pool,Germany/Luxembourg,Continuous,Half-hourly,0.00
+Nord Pool,Germany/Luxembourg,Continuous,Hourly,1.26
+Nord Pool,Germany/Luxembourg,Continuous,Quarter-hourly,0.01
+Nord Pool,Denmark 1,Continuous,Hourly,1.01
+Nord Pool,Sweden 3,Continuous,Hourly,0.99
+Nord Pool,Finland,Continuous,Hourly,0.98
+Nord Pool,Denmark 2,Continuous,Hourly,0.59
+Nord Pool,Sweden 2,Continuous,Hourly,0.58
+Nord Pool,Sweden 1,Continuous,Hourly,0.39
+OMIE,Spain,Auction,Hourly,32.06
+OMIE,Portugal,Auction,Hourly,4.00
+OTE,Czech Republic,Continuous,Hourly,0.52
+OTE,Czech Republic,Continuous,User-defined block order,0.03

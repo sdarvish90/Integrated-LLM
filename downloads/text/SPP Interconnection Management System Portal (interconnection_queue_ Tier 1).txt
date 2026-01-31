@@ -1,0 +1,25 @@
+Title: SPP Interconnection Management System Portal (interconnection_queue, Tier 1)
+URL: https://sims.spp.org
+Date: 2026-01-28
+======================================================================
+
+Continue
+If you are having problems logging into GRIP,
+        please reset your password by clicking on
+Forgot password?
+when prompted for your password.
+Starting October 10/14/25,
+        users with unverified email addresses
+        will no longer be able to log in until
+        the validation step is complete.
+        If you are unable to login, 
+        please check your inbox for the verification email
+        and click the link.
+        Once verified, you will be able to log in normally.
+Username or Email address
+*
+Email address or username is required
+Enter a valid email address or username
+Continue
+Don't have an account?
+Sign up

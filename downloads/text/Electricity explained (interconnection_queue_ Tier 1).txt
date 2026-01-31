@@ -1,0 +1,29 @@
+Title: Electricity explained (interconnection_queue, Tier 1)
+URL: https://www.neso.energy/energy-101/electricity-explained
+Date: 2026-01-28
+======================================================================
+
+Image
+Electricity explained
+We're the experts in electricity – how much we use, where it comes from, and how it travels into homes and businesses. Understanding how much electricity we consume, and which devices are most power-hungry is no easy task.
+Add to favourites
+Close tooltip
+Sign in to add this page to your favourites
+Sign in or register
+Great Britain has one of the world's oldest, most complex electricity systems. Every year, we move 300 Terawatt hours (TWh) of electricity around our system, which is like four trillion kettles boiling at the same time. Our world-class engineers are working to create a zero-carbon energy system of the future.
+Discover how we’re balancing energy supply to meet demand, including information on power cuts, electricity pricing and how you can reduce your usage.
+What is electricity?
+Electricity is a form of energy. Its power measures in kilowatts and megawatts – it can be produced in many ways to power things to work and move.
+At National Energy System Operator (NESO), we manage the flow, making sure the right amount of electricity reaches the places and people who need it – balancing supply and demand 24/7.
+We don't generate electricity. Instead, we get the supply from various sources, which make up
+Great Britain’s generation mix
+. Once generated, it flows through the transmission network.
+Think of it like a network of roads and motorways. High-voltage electricity travels up and down the UK on the transmission networks (motorways). At the same time, Distribution Network Operators (DNOs) provide the local cables (A roads) to take the electricity to our homes and businesses.
+How is electricity priced?
+The electricity market in Great Britain is a complex intersection of engineering and economics. Generators supply the electricity that consumers demand.
+How do we balance the grid?
+The role of NESO is to ensure electricity supply meets demand second by second, which is what we mean by ‘balancing’ the grid.
+How does electricity move around?
+Have you ever wondered how electricity travels into your home, around Great Britain and worldwide? Find out how we balance the supply of electricity to meet demand 24/7.
+How is electricity generated?
+As we head towards a greener future, how we generate electricity is changing. We also lift the lid on electricity storage and its critical role in this energy transition.

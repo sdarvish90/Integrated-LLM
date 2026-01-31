@@ -1,0 +1,24 @@
+Area,Border,NTC difference,Percentage difference
+Baltic,LT - PL,100,27%
+Channel,FR - GB,117,7%
+Channel,GB - FR,117,7%
+Core (excl. CWE),CZ - DE_LU,104,4%
+Core (excl. CWE),CZ+DE+SK - PL,147,67%
+Core (excl. CWE),DE 50HZT - CZ+PL,398,66%
+Core (excl. CWE),DE_LU - CZ,683,59%
+Core (excl. CWE),HU - SK,174,22%
+Core (excl. CWE),PL - CZ+DE+SK,-128,−17%
+Core (excl. CWE),SK - HU,149,13%
+Hansa,DK1 - DE_LU,503,96%
+Italy North,FR - IT_NORTH,-119,−5%
+Nordic,DK2 - SE4,-202,−17%
+Norwegian borders,NL - NO2,-107,−15%
+Norwegian borders,NO1 - SE3,546,44%
+Norwegian borders,SE3 - NO1,289,22%
+SWE,ES - FR,-110,−5%
+SWE,ES - PT,242,12%
+Swiss borders,AT - CH,110,14%
+Swiss borders,CH - DE_LU,-115,−3%
+Swiss borders,CH - IT_NORTH,-310,−11%
+Swiss borders,DE_LU - CH,-106,−7%
+Swiss borders,FR - CH,-236,−8%

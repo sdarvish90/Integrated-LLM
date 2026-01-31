@@ -1,0 +1,1704 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-L8ZB');</script>
+    <!-- End Google Tag Manager -->
+    <meta charset="utf-8" />
+<noscript><meta http-equiv="Refresh" content="0; URL=/big_pipe/no-js?destination=/tools/data-downloads/sewer-overflow-download-summary" />
+</noscript><meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="/themes/custom/echo/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="canonical" href="https://echo.epa.gov/tools/data-downloads/sewer-overflow-download-summary" />
+<link rel="shortlink" href="https://echo.epa.gov/node/673" />
+
+    <title>NPDES Sewer Overflow and Bypass Event Download Summary | ECHO | US EPA</title>
+    <link rel="stylesheet" media="all" href="/assets/css/css_b2QtWEFnNeGY0Stq38WX62xWeRuz8N4cC08Jh_j588k.css?delta=0&amp;language=en&amp;theme=echo&amp;include=eJxdzNEOwiAMheEXwvFIS4Fu1BVK2hLd22uc8cK7ky9_ThbFWHQO4AXu8AyYq8SdJQHfzE-mvl_WJBHjZ68wvX6jC_KBhVz0hwPWaY9i_1ft3UHciB11yTCcpAebA3Ujq5E6ebDTHFtMYPgCAOM9MA" />
+<link rel="stylesheet" media="all" href="/assets/css/css_1QydhEcwEbbgF_YMBykZ5-GxkhzNT6kkA5CItuzFSvg.css?delta=1&amp;language=en&amp;theme=echo&amp;include=eJxdzNEOwiAMheEXwvFIS4Fu1BVK2hLd22uc8cK7ky9_ThbFWHQO4AXu8AyYq8SdJQHfzE-mvl_WJBHjZ68wvX6jC_KBhVz0hwPWaY9i_1ft3UHciB11yTCcpAebA3Ujq5E6ebDTHFtMYPgCAOM9MA" />
+<link rel="stylesheet" media="all" href="/assets/css/css_L0RjJfE9g3oiseLtTmtAGxOzzUbzT7CPZjGxNh_S0CM.css?delta=2&amp;language=en&amp;theme=echo&amp;include=eJxdzNEOwiAMheEXwvFIS4Fu1BVK2hLd22uc8cK7ky9_ThbFWHQO4AXu8AyYq8SdJQHfzE-mvl_WJBHjZ68wvX6jC_KBhVz0hwPWaY9i_1ft3UHciB11yTCcpAebA3Ujq5E6ebDTHFtMYPgCAOM9MA" />
+<link rel="stylesheet" media="all" href="/assets/css/css_nrkuDoW6I2wUHPHuTQFJiHr5B14uaqBGdLzh5A0cSVc.css?delta=3&amp;language=en&amp;theme=echo&amp;include=eJxdzNEOwiAMheEXwvFIS4Fu1BVK2hLd22uc8cK7ky9_ThbFWHQO4AXu8AyYq8SdJQHfzE-mvl_WJBHjZ68wvX6jC_KBhVz0hwPWaY9i_1ft3UHciB11yTCcpAebA3Ujq5E6ebDTHFtMYPgCAOM9MA" />
+
+    
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-L8ZB"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+  
+
+<!-- EPA header -->
+
+<div class="banner-message epa-header">
+  
+</div>
+
+<div class="skiplinks epa-header" role="navigation" aria-labelledby="skip-to-main--echo">
+  <a id="skip-to-main--echo"
+     href="#main-content"
+     class="skiplinks__link visually-hidden focusable">Skip to main content</a>
+</div>
+<section class="usa-banner epa-header" aria-label="Official government website">
+  <div class="usa-accordion">
+    <header class="usa-banner__header">
+      <div class="usa-banner__inner">
+        <div class="grid-col-auto">
+          <img class="usa-banner__header-flag" src="https://www.epa.gov/themes/epa_theme/images/us_flag_small.png"
+               alt="U.S. flag" height="11px" width="16px">
+        </div>
+        <div class="grid-col-fill tablet:grid-col-auto">
+          <p class="usa-banner__header-text">An official website of the United States government</p>
+          <p class="usa-banner__header-action" aria-hidden="true">Here’s how you know</p></div>
+        <button class="usa-accordion__button usa-banner__button" aria-expanded="false" aria-controls="gov-banner">
+          <span class="usa-banner__button-text">Here’s how you know</span>
+        </button>
+      </div>
+    </header>
+    <div class="usa-banner__content usa-accordion__content" id="gov-banner" hidden="">
+      <div class="grid-row grid-gap-lg">
+        <div class="usa-banner__guidance tablet:grid-col-6">
+          <img class="usa-banner__icon usa-media-block__img"
+               src="https://www.epa.gov/themes/epa_theme/images/icon-dot-gov.svg" alt="Dot gov">
+          <div class="usa-media-block__body">
+            <p>
+              <strong>Official websites use .gov</strong>
+              <br> A <strong>.gov</strong> website belongs to an official government organization in the United States.
+            </p>
+          </div>
+        </div>
+        <div class="usa-banner__guidance tablet:grid-col-6">
+          <img class="usa-banner__icon usa-media-block__img"
+               src="https://www.epa.gov/themes/epa_theme/images/icon-https.svg" alt="HTTPS">
+          <div class="usa-media-block__body">
+            <p>
+              <strong>Secure .gov websites use HTTPS</strong>
+              <br> A <strong>lock</strong> (<span class="icon-lock"><svg xmlns="http://www.w3.org/2000/svg" width="52"
+                                                                         height="64" viewBox="0 0 52 64"
+                                                                         class="usa-banner__lock-image" role="img"
+                                                                         aria-labelledby="banner-lock-title banner-lock-description"><title
+                      id="banner-lock-title">Lock</title><desc id="banner-lock-description">A locked padlock</desc><path
+                      fill="#000000" fill-rule="evenodd"
+                      d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z"></path></svg></span>)
+              or <strong>https://</strong> means you’ve safely connected to the .gov website. Share sensitive
+              information only on official, secure websites.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<header
+  class="l-header js-header-search usa-header usa-header--extended"
+  data-once="header-search"
+>
+  <div class="usa-overlay"></div>
+  <div class="l-constrain">
+    <div class="l-header__navbar">
+      <div class="l-header__branding">
+                        <a class="site-logo" href="https://www.epa.gov" aria-label="Home" title="Home" rel="home">
+          <span class="site-logo__image">
+            <svg
+              class="site-logo__svg-main"
+              aria-hidden="true"
+              viewBox="0 0 454.1 154.7"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m112.8 61.2c-4.8 18.6-22.9 33.3-42.9 33.3-20.1 0-38-14.7-42.9-33.4h.2s9.8 10.3-.2 0c3.1 3.1 6.2 4.4 10.7 4.4s7.7-1.3 10.7-4.4c3.1 3.1 6.3 4.5 10.9 4.4 4.5 0 7.6-1.3 10.7-4.4 3.1 3.1 6.2 4.4 10.7 4.4s7.7-1.3 10.7-4.4c3.1 3.1 6.3 4.5 10.9 4.4 4.3 0 7.4-1.2 10.5-4.3z"
+              ></path>
+              <path
+                d="m113.2 51.2c0-24-19.4-43.5-43.3-43.5-24 0-43.5 19.5-43.5 43.5h39.1c-4.8-1.8-8.1-6.3-8.1-11.6 0-7 5.7-12.5 12.5-12.5 7 0 12.7 5.5 12.7 12.5 0 5.2-3.1 9.6-7.6 11.6z"
+              ></path>
+              <path
+                d="m72.6 147c.7-36.9 29.7-68.8 66.9-70 0 37.2-30 68-66.9 70z"
+              ></path>
+              <path
+                d="m67.1 147c-.7-36.9-29.7-68.8-67.1-70 0 37.2 30.2 68 67.1 70z"
+              ></path>
+              <path
+                d="m240 10.8h-87.9v133.1h87.9v-20.4h-60.3v-36h60.3v-21h-60.3v-35h60.3z"
+              ></path>
+              <path
+                d="m272.8 66.5h27.1c9.1 0 15.2-8.6 15.1-17.7-.1-9-6.1-17.3-15.1-17.3h-25.3v112.4h-27.8v-133.1h62.3c20.2 0 35 17.8 35.2 38 .2 20.4-14.8 38.7-35.2 38.7h-36.3z"
+              ></path>
+              <path
+                d="m315.9 143.9h29.7l12.9-35h54.2l-8.1-21.9h-38.4l18.9-50.7 39.2 107.6h29.7l-53.1-133.1h-33.7z"
+              ></path>
+            </svg>
+            <svg
+              class="site-logo__svg-text"
+              aria-hidden="true"
+              viewBox="0 0 595.4 154.7"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m9 8.5v22.4c0 1.9.2 3.3.5 4.3s.7 1.7 1 2.2c1.2 1.4 2.5 2.4 3.9 2.9 1.5.5 2.8.7 4.1.7 2.4 0 4.2-.4 5.5-1.3 1.3-.8 2.2-1.8 2.8-2.9s.9-2.3 1-3.4.1-2 .1-2.6v-22.3h4.7v22.3 1.7c0 .7-.1 1.5-.4 2.4-.3 1.8-1.2 3.6-2.5 5.4-1.8 2.1-3.8 3.5-6 4.2-2.2.6-4 .9-5.3.9-1.8 0-3.8-.3-6.2-1.1s-4.5-2.3-6.2-4.7c-.5-.8-1-1.8-1.4-3.2-.4-1.3-.6-3.3-.6-5.9v-22z"
+              ></path>
+              <path
+                d="m43.2 22.2v-2.9l4.6.1-.1 4.1c.2-.3.4-.7.8-1.2.3-.5.8-.9 1.4-1.4s1.4-.9 2.3-1.3c.9-.3 2.1-.5 3.4-.4.6 0 1.4.1 2.4.3.9.2 1.9.6 2.9 1.2s1.8 1.5 2.4 2.6c.6 1.2.9 2.8.9 4.7l-.4 17-4.6-.1.4-16c0-.9 0-1.7-.2-2.4-.1-.7-.5-1.3-1.1-1.9-1.2-1.2-2.6-1.8-4.3-1.8s-3.1.5-4.4 1.7-2 3.1-2.1 5.7l-.3 14.5-4.5-.1z"
+              ></path>
+              <path d="m72.9 8.6h5.5v5.1h-5.5zm.5 10.9h4.6v25.1h-4.6z"></path>
+              <path
+                d="m83.5 19.4h4.3v-5.3l4.5-1.5v6.8h5.4v3.4h-5.4v15.1c0 .3 0 .6.1 1 0 .4.1.7.4 1.1.2.4.5.6 1 .8.4.3 1 .4 1.8.4 1 0 1.7-.1 2.2-.2v3.7c-.9.2-2.1.3-3.8.3-2.1 0-3.6-.4-4.6-1.2s-1.5-2.2-1.5-4.2v-16.8h-4.3v-3.4z"
+              ></path>
+              <path
+                d="m106.6 32.9c-.1 2.6.5 4.8 1.7 6.5 1.1 1.7 2.9 2.6 5.3 2.6 1.5 0 2.8-.4 3.9-1.3 1-.8 1.6-2.2 1.8-4h4.6c0 .6-.2 1.4-.4 2.3-.3 1-.8 2-1.7 3-.2.3-.6.6-1 1-.5.4-1 .7-1.7 1.1s-1.5.6-2.4.8c-.9.3-2 .4-3.3.4-7.6-.2-11.3-4.5-11.3-12.9 0-2.5.3-4.8 1-6.8s2-3.7 3.8-5.1c1.2-.8 2.4-1.3 3.7-1.6 1.3-.2 2.2-.3 3-.3 2.7 0 4.8.6 6.3 1.6s2.5 2.3 3.1 3.9c.6 1.5 1 3.1 1.1 4.6.1 1.6.1 2.9 0 4h-17.5m12.9-3c0-.3 0-.7 0-1.1s0-.8-.1-1.2c-.1-.9-.4-1.7-.8-2.5s-1-1.5-1.8-2c-.9-.5-2-.8-3.4-.8-.8 0-1.5.1-2.3.3s-1.5.7-2.2 1.3-1.2 1.3-1.6 2.3-.7 2.2-.8 3.6h13z"
+              ></path>
+              <path
+                d="m148.6 8.6h4.6v32.1c0 1 .1 2.3.2 4h-4.6l-.1-4c-.2.3-.4.7-.7 1.2s-.8 1-1.4 1.5c-1 .7-2 1.2-3.1 1.4-.5.1-1 .2-1.5.3s-.9.1-1.4.1c-.4 0-.8 0-1.3-.1s-1.1-.2-1.7-.3c-1.1-.3-2.3-.9-3.4-1.8s-2.1-2.2-2.9-3.8c-.8-1.7-1.2-3.9-1.2-6.6.1-4.8 1.2-8.3 3.4-10.5 2.1-2.1 4.7-3.2 7.6-3.2 1.3 0 2.4.2 3.4.5.9.3 1.6.7 2.2 1.2.6.4 1 .9 1.3 1.4s.6.8.7 1.1zm.1 23.1c0-1.9-.2-3.3-.5-4.4-.4-1.1-.8-2-1.4-2.6-.5-.7-1.2-1.3-2-1.8-.9-.5-2-.7-3.3-.7-1.7 0-2.9.5-3.8 1.3s-1.6 1.9-2 3.1-.7 2.3-.7 3.4c-.1 1.1-.2 1.9-.1 2.4 0 1.1.1 2.2.3 3.4.2 1.1.5 2.2 1 3.1.5 1 1.2 1.7 2 2.3.9.6 2 .9 3.3.9 1.8 0 3.2-.5 4.2-1.4 1-.8 1.7-1.8 2.1-3s.7-2.4.8-3.4c.1-1.4.1-2.1.1-2.6z"
+              ></path>
+              <path
+                d="m179.6 34.1c0 .6.1 1.3.3 2.1.1.8.5 1.6 1 2.3.5.8 1.4 1.4 2.5 1.9s2.7.8 4.7.8c1.8 0 3.3-.3 4.4-.8s1.9-1.1 2.5-1.8 1-1.5 1.1-2.2.2-1.2.2-1.7c0-1-.2-1.9-.5-2.6-.4-.6-.9-1.2-1.6-1.6-1.4-.8-3.4-1.4-5.9-2-4.9-1.1-8.1-2.2-9.5-3.2s-2.3-2.2-2.9-3.5c-.6-1.2-.8-2.4-.8-3.6.1-3.7 1.5-6.4 4.2-8.1 2.6-1.7 5.7-2.5 9.1-2.5 1.3 0 2.9.2 4.8.5 1.9.4 3.6 1.4 5 3 .5.5.9 1.1 1.2 1.7.3.5.5 1.1.6 1.6.2 1.1.3 2.1.3 2.9h-5c-.2-2.2-1-3.7-2.4-4.5-1.5-.7-3.1-1.1-4.9-1.1-5.1.1-7.7 2-7.8 5.8 0 1.5.5 2.7 1.6 3.5 1 .8 2.6 1.4 4.7 1.9 4 1 6.7 1.8 8.1 2.2.8.2 1.4.5 1.8.7.5.2 1 .5 1.4.9.8.5 1.4 1.1 1.9 1.8s.8 1.4 1.1 2.1c.3 1.4.5 2.5.5 3.4 0 3.3-1.2 6-3.5 8-2.3 2.1-5.8 3.2-10.3 3.3-1.4 0-3.2-.3-5.4-.8-1-.3-2-.7-3-1.2-.9-.5-1.8-1.2-2.5-2.1-.9-1.4-1.5-2.7-1.7-4.1-.3-1.3-.4-2.4-.3-3.2h5z"
+              ></path>
+              <path
+                d="m205.7 19.4h4.3v-5.3l4.5-1.5v6.8h5.4v3.4h-5.4v15.1c0 .3 0 .6.1 1 0 .4.1.7.4 1.1.2.4.5.6 1 .8.4.3 1 .4 1.8.4 1 0 1.7-.1 2.2-.2v3.7c-.9.2-2.1.3-3.8.3-2.1 0-3.6-.4-4.6-1.2s-1.5-2.2-1.5-4.2v-16.8h-4.4z"
+              ></path>
+              <path
+                d="m241 44.6c-.3-1.2-.5-2.5-.4-3.7-.5 1-1.1 1.8-1.7 2.4-.7.6-1.4 1.1-2 1.4-1.4.5-2.7.8-3.7.8-2.8 0-4.9-.8-6.4-2.2s-2.2-3.1-2.2-5.2c0-1 .2-2.3.8-3.7s1.7-2.6 3.5-3.7c1.4-.7 2.9-1.2 4.5-1.5 1.6-.1 2.9-.2 3.9-.2s2.1 0 3.3.1c.1-2.9-.2-4.8-.9-5.6-.5-.6-1.1-1.1-1.9-1.3s-1.6-.4-2.3-.4c-1.1 0-2 .2-2.6.5-.7.3-1.2.7-1.5 1.2s-.5.9-.6 1.4-.2.9-.2 1.2h-4.6c.1-.7.2-1.4.4-2.3.2-.8.6-1.6 1.3-2.5.5-.6 1-1 1.7-1.3.6-.3 1.3-.6 2-.8 1.5-.4 2.8-.6 4.2-.6 1.8 0 3.6.3 5.2.9s2.8 1.6 3.4 2.9c.4.7.6 1.4.7 2s.1 1.2.1 1.8l-.2 12c0 1 .1 3.1.4 6.3h-4.2m-.5-12.1c-.7-.1-1.6-.1-2.6-.1-.5 0-1.2 0-2.1 0-1 .1-2 .3-3 .6s-1.9.8-2.6 1.5c-.8.7-1.2 1.7-1.2 3 0 .4.1.8.2 1.3s.4 1 .8 1.5.9.8 1.6 1.1 1.5.5 2.5.5c2.3 0 4.1-.9 5.2-2.7.5-.8.8-1.7 1-2.7.1-.9.2-2.2.2-4z"
+              ></path>
+              <path
+                d="m250.2 19.4h4.3v-5.3l4.5-1.5v6.8h5.4v3.4h-5.4v15.1c0 .3 0 .6.1 1 0 .4.1.7.4 1.1.2.4.5.6 1 .8.4.3 1 .4 1.8.4 1 0 1.7-.1 2.2-.2v3.7c-.9.2-2.1.3-3.8.3-2.1 0-3.6-.4-4.6-1.2s-1.5-2.2-1.5-4.2v-16.8h-4.3v-3.4z"
+              ></path>
+              <path
+                d="m273.3 32.9c-.1 2.6.5 4.8 1.7 6.5 1.1 1.7 2.9 2.6 5.3 2.6 1.5 0 2.8-.4 3.9-1.3 1-.8 1.6-2.2 1.8-4h4.6c0 .6-.2 1.4-.4 2.3-.3 1-.8 2-1.7 3-.2.3-.6.6-1 1-.5.4-1 .7-1.7 1.1s-1.5.6-2.4.8c-.9.3-2 .4-3.3.4-7.6-.2-11.3-4.5-11.3-12.9 0-2.5.3-4.8 1-6.8s2-3.7 3.8-5.1c1.2-.8 2.4-1.3 3.7-1.6 1.3-.2 2.2-.3 3-.3 2.7 0 4.8.6 6.3 1.6s2.5 2.3 3.1 3.9c.6 1.5 1 3.1 1.1 4.6.1 1.6.1 2.9 0 4h-17.5m12.9-3c0-.3 0-.7 0-1.1s0-.8-.1-1.2c-.1-.9-.4-1.7-.8-2.5s-1-1.5-1.8-2c-.9-.5-2-.8-3.4-.8-.8 0-1.5.1-2.3.3s-1.5.7-2.2 1.3-1.2 1.3-1.6 2.3-.7 2.2-.8 3.6h13z"
+              ></path>
+              <path
+                d="m301 37.2c0 .5.1 1 .2 1.4.1.5.4 1 .8 1.5s.9.8 1.6 1.1 1.6.5 2.7.5c1 0 1.8-.1 2.5-.3s1.3-.6 1.7-1.2c.5-.7.8-1.5.8-2.4 0-1.2-.4-2-1.3-2.5s-2.2-.9-4.1-1.2c-1.3-.3-2.4-.6-3.6-1-1.1-.3-2.1-.8-3-1.3s-1.5-1.2-2-2.1c-.5-.8-.8-1.9-.8-3.2 0-2.4.9-4.2 2.6-5.6 1.7-1.3 4-2 6.8-2.1 1.6 0 3.3.3 5 .8 1.7.6 2.9 1.6 3.7 3.1.4 1.4.6 2.6.6 3.7h-4.6c0-1.8-.6-3-1.7-3.5-1.1-.4-2.1-.6-3.1-.6-.2 0-.5 0-1 0s-1.1.2-1.7.4-1.1.5-1.5 1.1c-.5.5-.7 1.2-.7 2.1 0 1.1.5 1.9 1.3 2.3.7.4 1.5.7 2.1.9 3.3.7 5.6 1.3 6.9 1.8 1.3.4 2.2 1 2.8 1.7.7.7 1.1 1.4 1.4 2.2s.4 1.6.4 2.5c0 1.4-.3 2.7-.9 3.8s-1.4 2-2.4 2.6c-1.1.6-2.2 1-3.4 1.3s-2.5.4-3.8.4c-2.5 0-4.7-.6-6.6-1.8-1.8-1.2-2.8-3.3-2.9-6.3z"
+              ></path>
+              <path
+                d="m3.4 58.5h21.9v4.2h-17.1v11.3h16.3v4.2h-16.3v12.1h17.5v4.3h-22.3z"
+              ></path>
+              <path
+                d="m34.7 72.4-.1-2.9h4.6v4.1c.2-.3.4-.8.7-1.2.3-.5.8-1 1.3-1.5.6-.5 1.4-1 2.3-1.3s2-.5 3.4-.5c.6 0 1.4.1 2.4.2.9.2 1.9.5 2.9 1.1s1.8 1.4 2.5 2.5c.6 1.2 1 2.7 1 4.7v17.1h-4.6v-16c0-.9-.1-1.7-.2-2.4-.2-.7-.5-1.3-1.1-1.9-1.2-1.1-2.6-1.7-4.3-1.7s-3.1.6-4.3 1.8c-1.3 1.2-2 3.1-2 5.7v14.5h-4.5z"
+              ></path>
+              <path
+                d="m60.3 69.5h5.1l7.7 19.9 7.6-19.9h5l-10.6 25.1h-4.6z"
+              ></path>
+              <path d="m91.4 58.6h5.5v5.1h-5.5zm.5 10.9h4.6v25.1h-4.6z"></path>
+              <path
+                d="m106 74.7c0-1.8-.1-3.5-.3-5.1h4.6l.1 4.9c.5-1.8 1.4-3 2.5-3.7s2.2-1.2 3.3-1.3c1.4-.2 2.4-.2 3.1-.1v4.6c-.2-.1-.5-.2-.9-.2-.3 0-.8 0-1.3 0-1.3 0-2.4.2-3.3.5-.9.4-1.5.9-2 1.6-.9 1.4-1.4 3.2-1.3 5.4v13.3h-4.6v-19.9z"
+              ></path>
+              <path
+                d="m123.3 82.4c0-1.6.2-3.2.6-4.8s1.1-3 2-4.4c1-1.3 2.2-2.4 3.8-3.2s3.6-1.2 5.9-1.2c2.4 0 4.5.4 6.1 1.3 1.5.9 2.7 2 3.6 3.3s1.5 2.8 1.8 4.3c.2.8.3 1.5.4 2.2v2.2c0 3.7-1 6.9-3 9.5s-5.1 4-9.3 4c-4-.1-7-1.4-9-3.9-1.9-2.5-2.9-5.6-2.9-9.3m4.8-.3c0 2.7.6 5 1.8 6.9 1.2 2 3 3 5.6 3.1.9 0 1.8-.2 2.7-.5.8-.3 1.6-.9 2.3-1.7s1.3-1.9 1.8-3.2c.4-1.3.6-2.9.6-4.7-.1-6.4-2.5-9.6-7.1-9.6-.7 0-1.5.1-2.4.3-.8.3-1.7.8-2.5 1.6-.8.7-1.4 1.7-1.9 3-.6 1.1-.9 2.8-.9 4.8z"
+              ></path>
+              <path
+                d="m155.9 72.4-.1-2.9h4.6v4.1c.2-.3.4-.8.7-1.2.3-.5.8-1 1.3-1.5.6-.5 1.4-1 2.3-1.3s2-.5 3.4-.5c.6 0 1.4.1 2.4.2.9.2 1.9.5 2.9 1.1s1.8 1.4 2.5 2.5c.6 1.2 1 2.7 1 4.7v17.1h-4.6v-16c0-.9-.1-1.7-.2-2.4-.2-.7-.5-1.3-1.1-1.9-1.2-1.1-2.6-1.7-4.3-1.7s-3.1.6-4.3 1.8c-1.3 1.2-2 3.1-2 5.7v14.5h-4.6z"
+              ></path>
+              <path
+                d="m185.7 72.8-.1-3.3h4.6v3.6c1.2-1.9 2.6-3.2 4.1-3.7 1.5-.4 2.7-.6 3.8-.6 1.4 0 2.6.2 3.6.5.9.3 1.7.7 2.3 1.1 1.1 1 1.9 2 2.3 3.1.2-.4.5-.8 1-1.3.4-.5.9-1 1.5-1.6.6-.5 1.5-.9 2.5-1.3 1-.3 2.2-.5 3.5-.5.9 0 1.9.1 3 .3 1 .2 2 .7 3 1.3s1.7 1.5 2.3 2.7.9 2.7.9 4.6v16.9h-4.6v-16.2c0-1.1-.1-2-.2-2.5-.1-.6-.3-1-.6-1.3-.4-.6-1-1.2-1.8-1.6s-1.8-.6-3.1-.6c-1.5 0-2.7.4-3.6 1-.4.3-.8.5-1.1.9-.3.3-.6.6-.8.8-.5.8-.8 1.8-1 2.8-.1 1.1-.2 2-.1 2.6v14.1h-4.6v-16.7c0-1.6-.5-2.9-1.4-4-.9-1-2.3-1.5-4.2-1.5-1.6 0-2.9.4-3.8 1.1s-1.5 1.2-1.8 1.7c-.5.7-.8 1.5-.9 2.5-.1.9-.2 1.8-.2 2.6v14.3h-4.5z"
+              ></path>
+              <path
+                d="m236.2 82.9c-.1 2.6.5 4.8 1.7 6.5 1.1 1.7 2.9 2.6 5.3 2.6 1.5 0 2.8-.4 3.9-1.3 1-.8 1.6-2.2 1.8-4h4.6c0 .6-.2 1.4-.4 2.3-.3 1-.8 2-1.7 3-.2.3-.6.6-1 1-.5.4-1 .7-1.7 1.1s-1.5.6-2.4.8c-.9.3-2 .4-3.3.4-7.6-.2-11.3-4.5-11.3-12.9 0-2.5.3-4.8 1-6.8s2-3.7 3.8-5.1c1.2-.8 2.4-1.3 3.7-1.6 1.3-.2 2.2-.3 3-.3 2.7 0 4.8.6 6.3 1.6s2.5 2.3 3.1 3.9c.6 1.5 1 3.1 1.1 4.6.1 1.6.1 2.9 0 4h-17.5m12.8-3c0-.3 0-.7 0-1.1s0-.8-.1-1.2c-.1-.9-.4-1.7-.8-2.5s-1-1.5-1.8-2c-.9-.5-2-.8-3.4-.8-.8 0-1.5.1-2.3.3s-1.5.7-2.2 1.3-1.2 1.3-1.6 2.3-.7 2.2-.8 3.6z"
+              ></path>
+              <path
+                d="m261.4 72.4-.1-2.9h4.6v4.1c.2-.3.4-.8.7-1.2.3-.5.8-1 1.3-1.5.6-.5 1.4-1 2.3-1.3s2-.5 3.4-.5c.6 0 1.4.1 2.4.2.9.2 1.9.5 2.9 1.1s1.8 1.4 2.5 2.5c.6 1.2 1 2.7 1 4.7v17.1h-4.6v-16c0-.9-.1-1.7-.2-2.4-.2-.7-.5-1.3-1.1-1.9-1.2-1.1-2.6-1.7-4.3-1.7s-3.1.6-4.3 1.8c-1.3 1.2-2 3.1-2 5.7v14.5h-4.6z"
+              ></path>
+              <path
+                d="m288 69.4h4.3v-5.2l4.5-1.5v6.8h5.4v3.4h-5.4v15.1c0 .3 0 .6.1 1 0 .4.1.7.4 1.1.2.4.5.6 1 .8.4.3 1 .4 1.8.4 1 0 1.7-.1 2.2-.2v3.6c-.9.2-2.1.3-3.8.3-2.1 0-3.6-.4-4.6-1.2s-1.5-2.2-1.5-4.2v-16.8h-4.3v-3.4z"
+              ></path>
+              <path
+                d="m323.3 94.6c-.3-1.2-.5-2.5-.4-3.7-.5 1-1.1 1.8-1.7 2.4-.7.6-1.4 1.1-2 1.4-1.4.5-2.7.8-3.7.8-2.8 0-4.9-.8-6.4-2.2s-2.2-3.1-2.2-5.2c0-1 .2-2.3.8-3.7s1.7-2.6 3.5-3.7c1.4-.7 2.9-1.2 4.5-1.5 1.6-.1 2.9-.2 3.9-.2s2.1 0 3.3.1c.1-2.9-.2-4.8-.9-5.6-.5-.6-1.1-1.1-1.9-1.3s-1.6-.4-2.3-.4c-1.1 0-2 .2-2.6.5-.7.3-1.2.7-1.5 1.2s-.5.9-.6 1.4-.2.9-.2 1.2h-4.6c.1-.7.2-1.4.4-2.3.2-.8.6-1.6 1.3-2.5.5-.6 1-1 1.7-1.3.6-.3 1.3-.6 2-.8 1.5-.4 2.8-.6 4.2-.6 1.8 0 3.6.3 5.2.9s2.8 1.6 3.4 2.9c.4.7.6 1.4.7 2s.1 1.2.1 1.8l-.2 12c0 1 .1 3.1.4 6.3zm-.5-12.2c-.7-.1-1.6-.1-2.6-.1-.5 0-1.2 0-2.1 0-1 .1-2 .3-3 .6s-1.9.8-2.6 1.5c-.8.7-1.2 1.7-1.2 3 0 .4.1.8.2 1.3s.4 1 .8 1.5.9.8 1.6 1.1 1.5.5 2.5.5c2.3 0 4.1-.9 5.2-2.7.5-.8.8-1.7 1-2.7.1-.9.2-2.2.2-4z"
+              ></path>
+              <path d="m336.4 58.6h4.6v36.1h-4.6z"></path>
+              <path
+                d="m364.1 58.5h11.7c2.1 0 3.9.1 5.5.4.8.2 1.5.4 2.2.9.7.4 1.3.9 1.8 1.6 1.7 1.9 2.6 4.2 2.6 7 0 2.7-.9 5.1-2.8 7.1-.8.9-2 1.7-3.6 2.2-1.6.6-3.9.9-6.9.9h-5.7v16.1h-4.8zm4.8 15.9h5.8c.8 0 1.7-.1 2.6-.2s1.8-.3 2.6-.7 1.5-1 2-1.9c.5-.8.8-2 .8-3.4s-.2-2.5-.7-3.3-1.1-1.3-1.9-1.7c-1.6-.5-3.1-.8-4.5-.7h-6.8v11.9z"
+              ></path>
+              <path
+                d="m393.8 74.7c0-1.8-.1-3.5-.3-5.1h4.6l.1 4.9c.5-1.8 1.4-3 2.5-3.7s2.2-1.2 3.3-1.3c1.4-.2 2.4-.2 3.1-.1v4.6c-.2-.1-.5-.2-.9-.2-.3 0-.8 0-1.3 0-1.3 0-2.4.2-3.3.5-.9.4-1.5.9-2 1.6-.9 1.4-1.4 3.2-1.3 5.4v13.3h-4.6v-19.9z"
+              ></path>
+              <path
+                d="m411.2 82.4c0-1.6.2-3.2.6-4.8s1.1-3 2-4.4c1-1.3 2.2-2.4 3.8-3.2s3.6-1.2 5.9-1.2c2.4 0 4.5.4 6.1 1.3 1.5.9 2.7 2 3.6 3.3s1.5 2.8 1.8 4.3c.2.8.3 1.5.4 2.2v2.2c0 3.7-1 6.9-3 9.5s-5.1 4-9.3 4c-4-.1-7-1.4-9-3.9-1.9-2.5-2.9-5.6-2.9-9.3m4.8-.3c0 2.7.6 5 1.8 6.9 1.2 2 3 3 5.6 3.1.9 0 1.8-.2 2.7-.5.8-.3 1.6-.9 2.3-1.7s1.3-1.9 1.8-3.2c.4-1.3.6-2.9.6-4.7-.1-6.4-2.5-9.6-7.1-9.6-.7 0-1.5.1-2.4.3-.8.3-1.7.8-2.5 1.6-.8.7-1.4 1.7-1.9 3-.7 1.1-.9 2.8-.9 4.8z"
+              ></path>
+              <path
+                d="m439.8 69.4h4.3v-5.2l4.5-1.5v6.8h5.4v3.4h-5.4v15.1c0 .3 0 .6.1 1 0 .4.1.7.4 1.1.2.4.5.6 1 .8.4.3 1 .4 1.8.4 1 0 1.7-.1 2.2-.2v3.6c-.9.2-2.1.3-3.8.3-2.1 0-3.6-.4-4.6-1.2s-1.5-2.2-1.5-4.2v-16.8h-4.3v-3.4z"
+              ></path>
+              <path
+                d="m462.9 82.9c-.1 2.6.5 4.8 1.7 6.5 1.1 1.7 2.9 2.6 5.3 2.6 1.5 0 2.8-.4 3.9-1.3 1-.8 1.6-2.2 1.8-4h4.6c0 .6-.2 1.4-.4 2.3-.3 1-.8 2-1.7 3-.2.3-.6.6-1 1-.5.4-1 .7-1.7 1.1s-1.5.6-2.4.8c-.9.3-2 .4-3.3.4-7.6-.2-11.3-4.5-11.3-12.9 0-2.5.3-4.8 1-6.8s2-3.7 3.8-5.1c1.2-.8 2.4-1.3 3.7-1.6 1.3-.2 2.2-.3 3-.3 2.7 0 4.8.6 6.3 1.6s2.5 2.3 3.1 3.9c.6 1.5 1 3.1 1.1 4.6.1 1.6.1 2.9 0 4h-17.5m12.9-3c0-.3 0-.7 0-1.1s0-.8-.1-1.2c-.1-.9-.4-1.7-.8-2.5s-1-1.5-1.8-2c-.9-.5-2-.8-3.4-.8-.8 0-1.5.1-2.3.3s-1.5.7-2.2 1.3-1.2 1.3-1.6 2.3-.7 2.2-.8 3.6z"
+              ></path>
+              <path
+                d="m501.8 77.5c0-.3 0-.8-.1-1.4s-.3-1.1-.6-1.8c-.2-.6-.7-1.2-1.4-1.6s-1.6-.6-2.7-.6c-1.5 0-2.7.4-3.5 1.2-.9.8-1.5 1.7-1.9 2.8s-.6 2.2-.7 3.2c-.1 1.1-.2 1.8-.1 2.4 0 1.3.1 2.5.3 3.7s.5 2.3.9 3.3c.8 2 2.4 3 4.8 3.1 1.9 0 3.3-.7 4.1-1.9.8-1.1 1.2-2.3 1.2-3.6h4.6c-.2 2.5-1.1 4.6-2.7 6.3-1.7 1.8-4.1 2.7-7.1 2.7-.9 0-2.1-.2-3.6-.6-.7-.2-1.4-.6-2.2-1s-1.5-1-2.2-1.7c-.7-.9-1.4-2.1-2-3.6s-.9-3.5-.9-6.1.4-4.8 1.1-6.6c.7-1.7 1.6-3.1 2.7-4.2 1.1-1 2.3-1.8 3.6-2.2s2.5-.6 3.7-.6h1.6c.6.1 1.3.2 1.9.4.7.2 1.4.5 2.1 1 .7.4 1.3 1 1.8 1.7.9 1.1 1.4 2.1 1.7 3.1.2 1 .3 1.8.3 2.6z"
+              ></path>
+              <path
+                d="m509.3 69.4h4.3v-5.2l4.5-1.5v6.8h5.4v3.4h-5.4v15.1c0 .3 0 .6.1 1 0 .4.1.7.4 1.1.2.4.5.6 1 .8.4.3 1 .4 1.8.4 1 0 1.7-.1 2.2-.2v3.6c-.9.2-2.1.3-3.8.3-2.1 0-3.6-.4-4.6-1.2s-1.5-2.2-1.5-4.2v-16.8h-4.3v-3.4z"
+              ></path>
+              <path d="m529.2 58.6h5.5v5.1h-5.5zm.5 10.9h4.6v25.1h-4.6z"></path>
+              <path
+                d="m541.8 82.4c0-1.6.2-3.2.6-4.8s1.1-3 2-4.4c1-1.3 2.2-2.4 3.8-3.2s3.6-1.2 5.9-1.2c2.4 0 4.5.4 6.1 1.3 1.5.9 2.7 2 3.6 3.3s1.5 2.8 1.8 4.3c.2.8.3 1.5.4 2.2v2.2c0 3.7-1 6.9-3 9.5s-5.1 4-9.3 4c-4-.1-7-1.4-9-3.9-1.9-2.5-2.9-5.6-2.9-9.3m4.7-.3c0 2.7.6 5 1.8 6.9 1.2 2 3 3 5.6 3.1.9 0 1.8-.2 2.7-.5.8-.3 1.6-.9 2.3-1.7s1.3-1.9 1.8-3.2c.4-1.3.6-2.9.6-4.7-.1-6.4-2.5-9.6-7.1-9.6-.7 0-1.5.1-2.4.3-.8.3-1.7.8-2.5 1.6-.8.7-1.4 1.7-1.9 3-.6 1.1-.9 2.8-.9 4.8z"
+              ></path>
+              <path
+                d="m574.3 72.4-.1-2.9h4.6v4.1c.2-.3.4-.8.7-1.2.3-.5.8-1 1.3-1.5.6-.5 1.4-1 2.3-1.3s2-.5 3.4-.5c.6 0 1.4.1 2.4.2.9.2 1.9.5 2.9 1.1s1.8 1.4 2.5 2.5c.6 1.2 1 2.7 1 4.7v17.1h-4.6v-16c0-.9-.1-1.7-.2-2.4-.2-.7-.5-1.3-1.1-1.9-1.2-1.1-2.6-1.7-4.3-1.7s-3.1.6-4.3 1.8c-1.3 1.2-2 3.1-2 5.7v14.5h-4.6z"
+              ></path>
+              <path
+                d="m14.8 108.5h5.2l14.1 36.1h-5.3l-3.8-9.4h-16.2l-3.8 9.4h-5zm-4.4 22.7h13.3l-6.5-17.8z"
+              ></path>
+              <path
+                d="m44.4 146.5c.1.7.2 1.4.4 1.9.2.6.5 1.1.9 1.6.8.9 2.3 1.4 4.4 1.5 1.6 0 2.8-.3 3.7-.9s1.5-1.4 1.9-2.4c.4-1.1.6-2.3.7-3.7s.1-2.9.1-4.6c-.5.9-1.1 1.7-1.8 2.3s-1.5 1-2.3 1.3c-1.7.4-3 .6-3.9.6-1.2 0-2.4-.2-3.8-.6s-2.6-1.2-3.7-2.5c-1-1.3-1.7-2.8-2.1-4.4s-.6-3.2-.6-4.8c0-4.3 1.1-7.4 3.2-9.5 2-2.1 4.6-3.1 7.6-3.1 1.3 0 2.3.1 3.2.4s1.6.6 2.1 1c.6.4 1.1.8 1.5 1.2.3.4.6.8.9 1.2v-3.4h4.4l-.1 4.5v15.7c0 2.9-.1 5.2-.2 6.7-.2 1.6-.5 2.8-1 3.7-1.1 1.9-2.6 3.2-4.6 3.7-1.9.6-3.8.8-5.6.8-2.4 0-4.3-.3-5.6-.8-1.4-.5-2.4-1.2-3-2s-1-1.7-1.2-2.7c-.2-.9-.3-1.8-.4-2.7zm5.3-5.8c1.4 0 2.5-.2 3.3-.7s1.5-1.1 2-1.8c.5-.6.9-1.4 1.2-2.5.3-1 .4-2.6.4-4.8 0-1.6-.2-2.9-.4-3.9-.3-1-.8-1.8-1.4-2.4-1.3-1.4-3-2.2-5.2-2.2-1.4 0-2.5.3-3.4 1s-1.6 1.5-2 2.4c-.4 1-.7 2-.9 3s-.2 2-.2 2.8c0 1 .1 1.9.3 2.9.2 1.1.5 2.1 1 3s1.2 1.6 2 2.2c.8.7 1.9 1 3.3 1z"
+              ></path>
+              <path
+                d="m73.3 132.9c-.1 2.6.5 4.8 1.7 6.5 1.1 1.7 2.9 2.6 5.3 2.6 1.5 0 2.8-.4 3.9-1.3 1-.8 1.6-2.2 1.8-4h4.6c0 .6-.2 1.4-.4 2.3-.3 1-.8 2-1.7 3-.2.3-.6.6-1 1-.5.4-1 .7-1.7 1.1s-1.5.6-2.4.8c-.9.3-2 .4-3.3.4-7.6-.2-11.3-4.5-11.3-12.9 0-2.5.3-4.8 1-6.8s2-3.7 3.8-5.1c1.2-.8 2.4-1.3 3.7-1.6 1.3-.2 2.2-.3 3-.3 2.7 0 4.8.6 6.3 1.6s2.5 2.3 3.1 3.9c.6 1.5 1 3.1 1.1 4.6.1 1.6.1 2.9 0 4h-17.5m12.9-3c0-.3 0-.7 0-1.1s0-.8-.1-1.2c-.1-.9-.4-1.7-.8-2.5s-1-1.5-1.8-2.1c-.9-.5-2-.8-3.4-.8-.8 0-1.5.1-2.3.3s-1.5.7-2.2 1.3-1.2 1.3-1.6 2.3-.7 2.2-.8 3.7z"
+              ></path>
+              <path
+                d="m98.6 122.4-.1-2.9h4.6v4.1c.2-.3.4-.8.7-1.2.3-.5.8-1 1.3-1.5.6-.5 1.4-1 2.3-1.3s2-.5 3.4-.5c.6 0 1.4.1 2.4.2.9.2 1.9.5 2.9 1.1s1.8 1.4 2.5 2.5c.6 1.2 1 2.7 1 4.7v17.1h-4.6v-16c0-.9-.1-1.7-.2-2.4-.2-.7-.5-1.3-1.1-1.9-1.2-1.1-2.6-1.7-4.3-1.7s-3.1.6-4.3 1.8c-1.3 1.2-2 3.1-2 5.7v14.5h-4.6z"
+              ></path>
+              <path
+                d="m142.7 127.5c0-.3 0-.8-.1-1.4s-.3-1.1-.6-1.8c-.2-.6-.7-1.2-1.4-1.6s-1.6-.6-2.7-.6c-1.5 0-2.7.4-3.5 1.2-.9.8-1.5 1.7-1.9 2.8s-.6 2.2-.7 3.2c-.1 1.1-.2 1.8-.1 2.4 0 1.3.1 2.5.3 3.7s.5 2.3.9 3.3c.8 2 2.4 3 4.8 3.1 1.9 0 3.3-.7 4.1-1.9.8-1.1 1.2-2.3 1.2-3.6h4.6c-.2 2.5-1.1 4.6-2.7 6.3-1.7 1.8-4.1 2.7-7.1 2.7-.9 0-2.1-.2-3.6-.6-.7-.2-1.4-.6-2.2-1s-1.5-1-2.2-1.7c-.7-.9-1.4-2.1-2-3.6s-.9-3.5-.9-6.1.4-4.8 1.1-6.6c.7-1.7 1.6-3.1 2.7-4.2 1.1-1 2.3-1.8 3.6-2.2s2.5-.6 3.7-.6h1.6c.6.1 1.3.2 1.9.4.7.2 1.4.5 2.1 1 .7.4 1.3 1 1.8 1.7.9 1.1 1.4 2.1 1.7 3.1.2 1 .3 1.8.3 2.6z"
+              ></path>
+              <path
+                d="m164.8 144.8-3.4 9.3h-4.7l3.8-9.6-10.3-25h5.2l7.6 19.8 7.7-19.8h5z"
+              ></path>
+            </svg>
+          </span>
+        </a>
+                      </div>
+      <div class="l-header__search" id="header-search-drawer">
+        <form
+          class="usa-search usa-search--small usa-search--epa"
+          method="get"
+          action="https://search.epa.gov/epasearch"
+        >
+          <div role="search">
+            <label class="usa-search__label usa-sr-only" for="search-box"
+              >Search</label
+            >
+            <input
+              class="usa-input"
+              id="search-box"
+              type="search"
+              name="querytext"
+              placeholder="Search EPA.gov"
+            />
+            <button class="button" type="submit" aria-label="Search">
+              <svg class="icon usa-search__submit-icon" aria-hidden="true">
+                <use
+                  href="/themes/custom/epa_uswds/images/sprite.artifact.svg#magnifying-glass"
+                ></use>
+              </svg>
+              <span class="usa-search__submit-text">Search</span>
+            </button>
+            <input type="hidden" name="areaname" value="" />
+            <input type="hidden" name="areacontacts" value="" />
+            <input type="hidden" name="areasearchurl" value="" />
+            <input type="hidden" name="typeofsearch" value="epa" />
+            <input type="hidden" name="result_template" value="" />
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="l-header__nav">
+    <nav
+      class="usa-nav usa-nav--epa"
+      role="navigation"
+      aria-label="Primary navigation"
+    >
+      <div class="usa-nav__inner">
+        <button type="button" class="usa-nav__close" aria-label="Close">
+          <svg class="icon icon--nav-close" aria-hidden="true" role="img">
+            <title>Primary navigation</title>
+            <use
+              href="/themes/epa_theme/images/sprite.artifact.svg#xmark"
+            ></use>
+          </svg>
+        </button>
+        <div class="usa-nav__menu">
+          <ul class="menu menu--main menu--accordion usa-accordion">
+            <li class="menu__item">
+              <a
+                href="https://www.epa.gov/environmental-topics"
+                class="menu__link usa-nav__link"
+              >
+                Environmental Topics
+              </a>
+            </li>
+
+            <li class="menu__item">
+              <a
+                href="https://www.epa.gov/laws-regulations"
+                title="View links to regulatory information by topic and sector, and to top pages about environmental laws, regulations, policies, compliance, and enforcement"    
+                class="menu__link usa-nav__link"
+              >
+                Laws &amp; Regulations
+              </a>
+            </li>
+
+            <li class="menu__item">
+              <a
+                href="https://www.epa.gov/report-violation"
+                class="menu__link usa-nav__link"
+              >
+                Report a Violation
+              </a>
+            </li>
+
+            <li class="menu__item">
+              <a
+                class="menu__link usa-nav__link"
+                href="https://www.epa.gov/aboutepa"
+              >
+                About EPA
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
+
+
+<main id="main-content" class="main" role="main" tabindex="-1">
+  <div class="l-page padding-top-0">
+    <div class="l-constrain">
+      <article class=" article">
+        
+<header>
+  <span data-big-pipe-placeholder-id="callback=Drupal%5Cblock%5CBlockViewBuilder%3A%3AlazyBuilder&amp;args%5B0%5D=echo_site_branding&amp;args%5B1%5D=full&amp;args%5B2%5D&amp;token=9a0HfJL6Ki6au7tD0cANVA8jywXxiDONuQktCRIYS1k">
+</span><div id="block-mainmenu">
+  
+    
+      
+<ul id="superfish-main" class="menu sf-menu sf-main sf-horizontal sf-style-none" role="menu" aria-label="Menu">
+  
+
+            
+  <li id="main-menu-link-contenta737b389-e6c1-408a-a3cd-23cd330c3d8d" class="sf-depth-1 menuparent sf-first" role="none">
+    
+          <a href="/" title="" class="sf-depth-1 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Search Options</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+            
+  <li id="main-menu-link-content07d1512a-809b-455c-a3b4-23d06c0f319b" class="sf-depth-2 menuparent sf-first" role="none">
+    
+          <span class="sf-depth-2 menuparent nolink" role="menuitem" aria-haspopup="true" aria-expanded="false">Cross Program</span>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-contentf9e959f2-7fbd-44af-ac91-09a7c2dcb8aa" class="sf-depth-3 sf-no-children sf-first" role="none">
+    
+          <a href="/facilities/facility-search?mediaSelected=all" class="sf-depth-3" role="menuitem">All Media Programs Facility Search</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content36e95b02-1da3-4ea9-bcff-193663f29dc4" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/facilities/facility-search/results?mediaSelected=fac" class="sf-depth-3" role="menuitem">Map All Facilities</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content30396e9b-3280-4035-a7c2-4409bf63bbc1" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/facilities/compliance-screener" title="" class="sf-depth-3" role="menuitem">Corporate Compliance Screener</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content55742b8b-1650-46f5-a479-ebfe52742ab6" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/tools/echo-notify" title="" class="sf-depth-3" role="menuitem">ECHO Notify</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-content227bf9c5-20b7-476a-b2c2-7c779740b2d3" class="sf-depth-2 menuparent" role="none">
+    
+          <a href="/" title="" class="sf-depth-2 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Air</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content5996f5fc-f74c-4405-adc6-435ab4ea4f74" class="sf-depth-3 sf-no-children sf-first" role="none">
+    
+          <a href="/facilities/facility-search?mediaSelected=caa" class="sf-depth-3" role="menuitem">Air Facility Search</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentfd4c2717-fcc6-42da-9f2e-c7e7a45f1c37" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/facilities/facility-search/results?mediaSelected=caa" class="sf-depth-3" role="menuitem">Map Air Facilities</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content51b14d27-a025-4fb5-82b5-9a20abbc3e84" class="sf-depth-3 sf-no-children sf-last" role="none">
+    
+          <a href="/trends/air-monitoring-stations" class="sf-depth-3" role="menuitem">ECHO Clean Air Tracking Tool (ECATT)</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-content8d145819-0ed6-4f12-97b6-d2b398b57b87" class="sf-depth-2 menuparent" role="none">
+    
+          <span class="sf-depth-2 menuparent nolink" role="menuitem" aria-haspopup="true" aria-expanded="false">Wastewater/Stormwater/Biosolids (CWA)</span>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content16701670-d07a-4315-b58c-f34bef4c76af" class="sf-depth-3 sf-no-children sf-first" role="none">
+    
+          <a href="/facilities/facility-search?mediaSelected=cwa" class="sf-depth-3" role="menuitem">Wastewater/Stormwater/Biosolids Facility Search</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentc70c8939-03f7-4f6e-a434-511a669d8dca" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/facilities/facility-search?mediaSelected=bio" class="sf-depth-3" role="menuitem">Biosolids Facility Search</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content9f4187c9-c500-4a49-ac20-a4f9696b543e" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/facilities/facility-search?mediaSelected=bioAnnual" class="sf-depth-3" role="menuitem">Biosolids Annual Report Search</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contente8d5e984-cce5-4c31-a8b6-b310d8d62092" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/facilities/facility-search?mediaSelected=msgp" class="sf-depth-3" role="menuitem">Industrial Stormwater Facility Search</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content2c9c3638-d0cd-4987-a2fa-6a088f1517c3" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/facilities/facility-search/results?mediaSelected=cwa" class="sf-depth-3" role="menuitem">Map Water Facilities</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content78817e3a-2e00-48e7-9b23-b7938edd7b0c" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/trends/loading-tool/water-pollution-search" title="" class="sf-depth-3" role="menuitem">Water Pollutant Loading Tool</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content00f3572c-fb38-48d6-9312-3c7b0db421bb" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/trends/npdes-dmr-non-receipt-status" title="" class="sf-depth-3" role="menuitem">NPDES DMR Non-Receipt Status Search</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content6007e2d0-9d74-4363-be1c-332fac83920f" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/facilities/npdes-noncompliance-search" class="sf-depth-3" role="menuitem">Quarterly NPDES Noncompliance Report Search</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content682fd404-cd0f-4766-84ed-2cc7b117c59d" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/npdes-noncompliance-annual-report" class="sf-depth-3" role="menuitem">NPDES Noncompliance Annual Report</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-content5526fa51-6a7f-41c9-bd3d-5bed934c422d" class="sf-depth-2 menuparent" role="none">
+    
+          <a href="/" title="" class="sf-depth-2 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Hazardous Waste</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content8d1e68c4-5300-4d47-91da-0b597ced3874" class="sf-depth-3 sf-no-children sf-first" role="none">
+    
+          <a href="/facilities/facility-search?mediaSelected=rcra" class="sf-depth-3" role="menuitem">Hazardous Waste Facility Search</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentf75f1b03-54f1-47da-9c8e-212dc8399411" class="sf-depth-3 sf-no-children sf-last" role="none">
+    
+          <a href="/facilities/facility-search/results?mediaSelected=rcra" class="sf-depth-3" role="menuitem">Map Hazardous Waste Facilities</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-content900e0812-3d7d-4708-a38c-796ed591ef2b" class="sf-depth-2 menuparent sf-last" role="none">
+    
+          <a href="/" title="" class="sf-depth-2 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Drinking Water</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content80e91ff9-c51b-4d00-93b6-b79b5d4b4613" class="sf-depth-3 sf-no-children sf-first" role="none">
+    
+          <a href="/facilities/facility-search?mediaSelected=sdwa" class="sf-depth-3" role="menuitem">Drinking Water System Search</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-contentdee47242-ae82-41ac-a261-922d41cd2a00" class="sf-depth-1 menuparent" role="none">
+    
+          <a href="/" title="" class="sf-depth-1 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Analyze Trends</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+            
+  <li id="main-menu-link-contentdfe8f512-3072-4a5f-8844-eb2eeb195c63" class="sf-depth-2 menuparent sf-first" role="none">
+    
+          <a href="/" title="" class="sf-depth-2 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Track Performance</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content52187ada-aced-4804-9e63-a115197f9e1d" class="sf-depth-3 sf-no-children sf-first" role="none">
+    
+          <a href="/trends/comparative-maps-dashboards/state-air-dashboard" class="sf-depth-3" role="menuitem">EPA/State Dashboards (Air, Wastewater, Drinking Water, Hazardous Waste, Pesticides)</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentf21f9b42-6152-4235-916f-771e5e83e00d" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/trends/npdes-dmr-non-receipt-status" title="" class="sf-depth-3" role="menuitem">NPDES DMR Non-Receipt Status Search</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentd9faa247-308b-4e7a-85d5-30f2fa7fdc6e" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/oversight/state-review-framework/tracker-recommendations" title="" class="sf-depth-3" role="menuitem">State Review Framework Tracker Recommendations</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content3c58dbb2-2fd0-4603-b95d-19edde1b4ca6" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/archived-tools" title="" class="sf-depth-3" role="menuitem">Archived Tools</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-content66311933-e1aa-472d-8954-51e94f98146f" class="sf-depth-2 menuparent" role="none">
+    
+          <a href="/" class="sf-depth-2 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Data Visualization</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content014a6dfc-8ee0-4372-aad2-ec3a6d31343d" class="sf-depth-3 sf-no-children sf-first" role="none">
+    
+          <a href="/trends/data-viz" class="sf-depth-3" role="menuitem">Data Visualization Gallery</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contente0b5b82b-7fd6-4984-94c3-d66dcd2a0a59" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/trends/npdes-erule-dashboard-public" class="sf-depth-3" role="menuitem">NPDES eRule Readiness Dashboard</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content581933f1-4e95-4c03-a2d4-d15f27baf37f" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/trends/pfas-tools" class="sf-depth-3" role="menuitem">PFAS Analytic Tools</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content51cc7eeb-dbf2-4ee4-b238-3901d437c2b9" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/trends/data-viz?filters=erule" class="sf-depth-3" role="menuitem">NPDES eRule Dashboards</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentef529a3c-9e76-412d-bf72-7e0a30852299" class="sf-depth-3 sf-no-children sf-last" role="none">
+    
+          <a href="https://awsedap.epa.gov/public/extensions/Fenceline_Monitoring/Fenceline_Monitoring.html?sheet=facilitySnapshot" class="sf-depth-3 sf-external" role="menuitem">Benzene Fenceline Monitoring</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-content62389656-c4f1-4864-92c2-7bc4d5b6fccb" class="sf-depth-2 menuparent sf-last" role="none">
+    
+          <a href="/" class="sf-depth-2 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Pollution Analysis</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-contentece03193-99a4-4a4a-aaa2-b45c06a842d6" class="sf-depth-3 sf-no-children sf-first" role="none">
+    
+          <a href="/trends/loading-tool/water-pollution-search" title="" class="sf-depth-3" role="menuitem">Water Pollutant Loading Tool</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentdd0b0186-da49-4d48-a039-90b4c8a8c609" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/trends/air-monitoring-stations" class="sf-depth-3" role="menuitem">ECHO Clean Air Tracking Tool (ECATT)</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-contentd780676c-ecdd-4351-8dd2-124d0dbb7f10" class="sf-depth-1 menuparent" role="none">
+    
+          <a href="/" title="" class="sf-depth-1 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Find EPA Cases</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content4ac457b1-220a-4e93-98ad-bf167c6147a3" class="sf-depth-2 sf-no-children sf-first" role="none">
+    
+          <a href="/facilities/enforcement-case-search" title="" class="sf-depth-2" role="menuitem">EPA Enforcement Case Search</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentd052b460-8b70-470e-9698-ca2fd0c774db" class="sf-depth-2 sf-no-children sf-last" role="none">
+    
+          <a href="/facilities/enforcement-case-search?srch=adv" title="" class="sf-depth-2" role="menuitem">Advanced EPA Enforcement Case Search</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-contentbf4afe68-f7aa-4600-844f-18d7c489cbdb" class="sf-depth-1 menuparent" role="none">
+    
+          <a href="/" title="" class="sf-depth-1 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Data Services</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content67a01d27-b6f1-4e7d-935d-d67ab2b0bfa4" class="sf-depth-2 sf-no-children sf-first" role="none">
+    
+          <a href="/tools/data-downloads" title="" class="sf-depth-2" role="menuitem">National Data Sets</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content63ca6ee4-b4ae-4704-af23-1344859df968" class="sf-depth-2 sf-no-children" role="none">
+    
+          <a href="/tools/data-downloads#exporter" class="sf-depth-2" role="menuitem"> ECHO Exporter</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contente8373103-795b-4c6e-8475-bf918034bbb5" class="sf-depth-2 sf-no-children" role="none">
+    
+          <a href="/tools/web-services" title="" class="sf-depth-2" role="menuitem">ECHO Web Services</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contented8bf3fe-37d5-45be-a182-76adcff02bb7" class="sf-depth-2 sf-no-children" role="none">
+    
+          <a href="/tools/map-service" title="" class="sf-depth-2" role="menuitem">ECHO Map Services</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentbcb049e9-36ff-4c59-bcdb-4379267681fa" class="sf-depth-2 sf-no-children" role="none">
+    
+          <a href="/tools/quick-search-widget" class="sf-depth-2" role="menuitem">Quick Search Widget</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-contentc7efbc02-a9f8-4486-9db1-d830e71c8647" class="sf-depth-1 menuparent" role="none">
+    
+          <a href="/" title="" class="sf-depth-1 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Help</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content28850260-85c9-45e4-aef5-bd69b01d99d3" class="sf-depth-2 sf-no-children sf-first" role="none">
+    
+          <a href="/resources/echo-data/about-the-data" title="" class="sf-depth-2" role="menuitem">About the Data</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content64e0ee94-1100-4e6c-b60b-0ae76902f354" class="sf-depth-2 sf-no-children" role="none">
+    
+          <a href="/help/tutorials" title="ECHO Tutorials" class="sf-depth-2" role="menuitem">ECHO Video Tutorials</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contenta98cf620-e638-4c82-93d2-19b2043a681c" class="sf-depth-2 sf-no-children" role="none">
+    
+          <a href="/resources/general-info/learn-more-about-echo" title="" class="sf-depth-2" role="menuitem">Quick Start Guide</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content3c663a56-5c9d-49dc-bc1d-045478137b14" class="sf-depth-2 sf-no-children" role="none">
+    
+          <a href="/help/training" title="ECHO Training" class="sf-depth-2" role="menuitem">ECHO Training</a>
+    
+    
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-contentbeeb039f-202b-4f43-b2f3-b7792df2c847" class="sf-depth-2 menuparent" role="none">
+    
+          <a href="/" title="" class="sf-depth-2 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">How to ...</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content77f7b6f4-7578-458d-8c60-c265ec8c0ba5" class="sf-depth-3 sf-no-children sf-first" role="none">
+    
+          <a href="/help/how-to-report-error" title="Report a Data Error" class="sf-depth-3" role="menuitem">Report a Data Error</a>
+    
+    
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-contente3c48dfd-adac-43fb-9bcc-8f29f07a5163" class="sf-depth-3 menuparent" role="none">
+    
+          <a href="/" title="Facility Search" class="sf-depth-3 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Run Facility Searches</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content61eb2e2a-c669-4dbe-843e-bc8d79121f6d" class="sf-depth-4 sf-no-children sf-first" role="none">
+    
+          <a href="/help/facility-search/facility-search-help" title="Facility Search Help" class="sf-depth-4" role="menuitem">Facility Search Help</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content11991343-af0f-4854-926d-e8f95b69fe26" class="sf-depth-4 sf-no-children" role="none">
+    
+          <a href="/help/facility-search/search-criteria-help" title="Facility Search Criteria Help" class="sf-depth-4" role="menuitem">Facility Search Criteria Help</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentcb64039f-924b-4d43-b3a9-0b646b6558b0" class="sf-depth-4 sf-no-children" role="none">
+    
+          <a href="/help/facility-search/facility-search-results-help" title="Search Results Help" class="sf-depth-4" role="menuitem">Search Results Help</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content5abb9f52-e774-4a42-8937-fe437eaf6cf2" class="sf-depth-4 sf-no-children" role="none">
+    
+          <a href="/help/enforcement-case-search-help" title="Enforcement Case Search Help" class="sf-depth-4" role="menuitem">Enforcement Case Search Help</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content2a1f5d94-b460-4750-8ce1-12912a468424" class="sf-depth-4 sf-no-children sf-last" role="none">
+    
+          <a href="/help/corporate-compliance-screener/corporate-compliance-screener-help" title="" class="sf-depth-4" role="menuitem">Corporate Compliance Screener Help</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-content2df0856f-a839-4919-82b3-4ed82b28ad80" class="sf-depth-3 menuparent" role="none">
+    
+          <a href="/" title="Reports" class="sf-depth-3 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Use and Understand ECHO Reports</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content44b17cc4-9b75-40ab-8198-fb4edda4f7e5" class="sf-depth-4 sf-no-children sf-first" role="none">
+    
+          <a href="/help/reports/air-pollutant-report-help" title="Air Pollutant Report Help" class="sf-depth-4" role="menuitem">Air Pollutant Report Help</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content6585f150-46ad-4fa0-a7e5-33d1a05c4f2b" class="sf-depth-4 sf-no-children" role="none">
+    
+          <a href="/help/reports/ambient-monitoring-station-report-help" title="" class="sf-depth-4" role="menuitem">Air Monitoring Station Report Help</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentf5620209-8557-45b7-9969-21da9f16c458" class="sf-depth-4 sf-no-children" role="none">
+    
+          <a href="/help/reports/biosolids-facility-report-help" title="" class="sf-depth-4" role="menuitem">Biosolids Facility Report Help</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content2a944250-1ffb-4adb-b751-1e4e7b7715a5" class="sf-depth-4 sf-no-children" role="none">
+    
+          <a href="/help/reports/detailed-facility-report-help" title="Detailed Facility Report Help" class="sf-depth-4" role="menuitem">Detailed Facility Report Help</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentf8b14548-0e3e-430b-a675-bb9c2310ac4f" class="sf-depth-4 sf-no-children" role="none">
+    
+          <a href="/help/reports/enforcement-case-report-help" title="A description of the Enforcement Case Report" class="sf-depth-4" role="menuitem">Civil Enforcement Case Report Help</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content387c141d-766e-4dab-b08d-71758dc2db69" class="sf-depth-4 sf-no-children" role="none">
+    
+          <a href="/help/reports/criminal-case-report-help" title="" class="sf-depth-4" role="menuitem">Criminal Enforcement Case Report Help</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentd15bc9e3-5861-4f27-b888-788d235a31d0" class="sf-depth-4 sf-no-children sf-last" role="none">
+    
+          <a href="/help/reports/effluent-charts-help" title="" class="sf-depth-4" role="menuitem">Effluent Charts Help</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-content4bc4c087-b321-49c7-bfcc-ee92456486f6" class="sf-depth-3 menuparent sf-last" role="none">
+    
+          <a href="/" title="Dashboards Help" class="sf-depth-3 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Use ECHO EPA/State Dashboards</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content2154fcdd-4cc8-4248-8385-f8910b41a1db" class="sf-depth-4 sf-no-children sf-first" role="none">
+    
+          <a href="/help/air-dashboard-help" title="Air Dashboard Help" class="sf-depth-4" role="menuitem">Air Dashboard Help</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contente566b60d-af9c-4e98-baea-7841a12bf8ef" class="sf-depth-4 sf-no-children" role="none">
+    
+          <a href="/help/pesticide-dashboard-help" title="Pesticide Dashboard Help" class="sf-depth-4" role="menuitem">Pesticide Dashboard Help</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content0e0ae48d-20cc-4e44-8d64-e9ce9905976e" class="sf-depth-4 sf-no-children" role="none">
+    
+          <a href="/help/state-comparative-maps-help" title="State Comparative Maps Help" class="sf-depth-4" role="menuitem">State Comparative Maps Help</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-content5201296a-4f77-43b2-ab4f-a89f98a1c20d" class="sf-depth-2 menuparent" role="none">
+    
+          <a href="/" title="" class="sf-depth-2 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">General Information</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content4177439e-4543-4980-9860-770273a4f4bf" class="sf-depth-3 sf-no-children sf-first" role="none">
+    
+          <a href="/resources/general-info/whats-new" title="" class="sf-depth-3" role="menuitem">What&#039;s New</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content6c93dfde-d715-4a2d-913d-e47705efa3eb" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/resources/echo-data/known-data-problems" title="Known Data Problems" class="sf-depth-3" role="menuitem">Known Data Problems</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content6f398fa8-606b-410e-acb1-81ee7080c5f5" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/resources/general-info/tool-guide" title="" class="sf-depth-3" role="menuitem">ECHO Tool Guide</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content5033cf98-3b48-4f59-ad1c-1f3f647ed003" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/resources/general-info/echo-faq" title="Frequently Asked Questions" class="sf-depth-3" role="menuitem">Frequently Asked Questions</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content0f907c17-96c4-42ba-82a6-01f73e8250ae" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/resources/echo-site-map" title="ECHO Site Map" class="sf-depth-3" role="menuitem">ECHO Site Map</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentddd63b62-d717-47b2-b70e-75e5f7bfa35e" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/report-environmental-violations" title="Report Environmental Violations" class="sf-depth-3" role="menuitem">Report A Violation</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content96eded93-0fd9-444b-b388-125a58de3a77" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/resources/general-info/website-known-issues" title="Website Known Issues" class="sf-depth-3" role="menuitem">Website Known Issues</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentb45bc0b3-bf8b-4c61-85d8-6b3488883623" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/resources/general-info/listserv" title="" class="sf-depth-3" role="menuitem">Join the ECHO Listserv</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content73a57e1d-2ba5-4764-a565-7b380e1f0833" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/resources" title="" class="sf-depth-3" role="menuitem">Other Available Resources</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-content0c82aeec-8530-43ac-89fc-07306b51ec57" class="sf-depth-2 menuparent sf-last" role="none">
+    
+          <a href="/" title="" class="sf-depth-2 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Get Access</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content2ba57853-0396-4b76-bb10-b07ce5a6b8a6" class="sf-depth-3 sf-no-children sf-first" role="none">
+    
+          <a href="/help/login-and-access" title="" class="sf-depth-3" role="menuitem">Login and Access</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+</ul>
+
+  </div>
+<span data-big-pipe-placeholder-id="callback=Drupal%5Cblock%5CBlockViewBuilder%3A%3AlazyBuilder&amp;args%5B0%5D=echo_account_menu&amp;args%5B1%5D=full&amp;args%5B2%5D&amp;token=0aQiGtHfmcfMkZldF9umwp4ytpUXW1fy6B3sE6gnHoo">
+</span>
+</header>
+
+
+          <div>
+    <div id="block-echo-breadcrumbs">
+  
+    
+      
+  <nav class="usa-breadcrumb" role="navigation" aria-labelledby="system-breadcrumb">
+    <ol class="usa-breadcrumb__list" itemscope itemtype="http://schema.org/BreadcrumbList">
+              <li class="usa-breadcrumb__list-item " itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                      <a class="usa-breadcrumb__link" itemscope itemtype="http://schema.org/Thing" itemprop="item" href="/">
+              <span itemprop="name">Home</span>
+            </a>
+                    <meta itemprop="position" content="1" />
+        </li>
+              <li class="usa-breadcrumb__list-item " itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                      <a class="usa-breadcrumb__link" itemscope itemtype="http://schema.org/Thing" itemprop="item" href="/tools">
+              <span itemprop="name">Tools</span>
+            </a>
+                    <meta itemprop="position" content="2" />
+        </li>
+              <li class="usa-breadcrumb__list-item " itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                      <a class="usa-breadcrumb__link" itemscope itemtype="http://schema.org/Thing" itemprop="item" href="/tools/data-downloads">
+              <span itemprop="name">Data Downloads</span>
+            </a>
+                    <meta itemprop="position" content="3" />
+        </li>
+              <li class="usa-breadcrumb__list-item usa-current" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                      <span itemprop="name">NPDES Sewer Overflow and Bypass Download Summary</span>
+                    <meta itemprop="position" content="4" />
+        </li>
+          </ol>
+  </nav>
+
+  </div>
+<div data-drupal-messages-fallback class="hidden"></div><span data-big-pipe-placeholder-id="callback=Drupal%5CCore%5CRender%5CElement%5CStatusMessages%3A%3ArenderMessages&amp;args%5B0%5D&amp;token=_HAdUpwWmet0TOTe2PSiJuMntExoshbm1kh2wQzzzAA">
+</span>
+
+  </div>
+
+          <div>
+    <div id="block-echo-page-title">
+  
+    
+      
+  <h1>
+<span property="schema:name">NPDES Sewer Overflow and Bypass Event Download Summary</span>
+</h1>
+
+
+  </div>
+<div id="block-echo-echo-system-main">
+  
+    
+      <article data-history-node-id="673" about="/tools/data-downloads/sewer-overflow-download-summary" typeof="schema:WebPage">
+
+  
+      <span property="schema:name" content="NPDES Sewer Overflow and Bypass Event Download Summary" class="hidden"></span>
+
+
+  
+  <div>
+    
+            <div property="schema:text"><p>EPA collects data on sewer and bypass events and makes the data available through ECHO.</p><ul><li><a href="#Description">NPDES Sewer Overflow and Bypass Overview</a></li><li><a href="#Guidance">Dataset Description</a></li><li><a href="#DataElements">Data Elements by Table</a></li><li><a href="#Definitions">Data Element Definitions and Reference Codes</a></li></ul><hr><h2 id="Description">NPDES Sewer Overflow and Bypasses Overview</h2><h3>Background</h3><p>Sewage collection systems collect and transport domestic, commercial, and industrial wastewater and varying amounts of stormwater and infiltrated ground water to treatment facilities for appropriate treatment. The first sewage collection systems in the United States were built in the 19th century as combined sewers (carrying both storm water and sewerage) and were designed to overflow during periods of high rainfall. Releases from these systems are called combined sewer overflows (CSOs).</p><p>Starting in the 20th century most cities designed and built separate sewerage systems to only collect domestic, commercial, and industrial wastewater. Occasionally, these separate collection systems release raw sewage. These types of releases are called sanitary sewer overflows (SSOs). A number of factors can cause or contribute to an SSO, including high levels of inflow and infiltration, blockages caused by roots, grease, sediment, or other materials, and structural, mechanical, or electrical failures.</p><p>EPA’s NPDES regulations define “bypass” as the “intentional diversion of waste streams from any portion of a treatment facility.” See <a href="https://www.ecfr.gov/current/title-40/part-122/section-122.41#p-122.41(m)(1)(i)" target="_blank">40 CFR 122.41(m)(1)(i)</a>. EPA regulations require permittees to submit a report detailing these bypass events within 5-days of an unanticipated bypass events and to submit a notice 10-days before any anticipated bypass events.</p><p>CSOs and SSOs (“sewer overflows”) and bypasses can release raw sewage into drinking water supplies, basements, parks, recreational streams, beaches, on city streets and backyards, and other areas where people are in close contact with the overflow. Sewer overflows and bypasses are of special concern to public health because they may expose citizens to bacteria, viruses, intestinal parasites, and other microorganisms that can cause serious illness such as gastroenteritis, hepatitis, cryptosporidiosis, and giardiasis. Sensitive populations, children, the elderly, and those with weakened immune systems, can be at a higher risk of illness from exposure to sewage from sewer overflows and bypasses. The threat to public health and the environment posed by sewer overflows and bypasses is not necessarily limited to large volume or extended-duration overflows.</p><h3>Regulatory Requirements on Sewer Overflows and Bypasses</h3><p>EPA’s NPDES regulations require the permittee to “properly operate and maintain all facilities and systems of treatment and control (and related appurtenances) which are installed or used by the permittee to achieve compliance with the conditions of this permit.” See <a href="https://www.ecfr.gov/current/title-40/part-122/section-122.41#p-122.41(e)" target="_blank">40 CFR 122.41(e)</a>. The proper operation and maintenance of collection systems and treatment plants is critical to minimizing the frequency and volume of sewer overflows and bypass events. Another standard permit condition regarding the duty to mitigate states that “the permittee shall take all reasonable steps to minimize or prevent any discharge... in violation of [the] permit which has a reasonable likelihood of adversely affecting human health or the environment” [see <a href="https://www.ecfr.gov/current/title-40/part-122/section-122.41#p-122.41(d)" target="_blank">40 CFR 122.41(d)</a>]. Noncompliant sewer overflows include:</p><ul><li>wet-weather CSO discharges that are not compliant with permit requirements.</li><li>dry-weather discharges from combined sewer systems (prohibited under the <a href="https://www.epa.gov/npdes/combined-sewer-overflow-control-policy" target="_blank">CSO Control Policy</a> - see 19 April 1994; 59 FR 18689),</li><li>SSOs that discharge to waters of the United States, and</li><li>SSOs that result from noncompliance with the standard NPDES permit requirements in <a href="https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.41" target="_blank">40 CFR 122.41</a>.<a href="#fn1" id="ref1"><sup>1</sup></a></li></ul><p>EPA’s NPDES regulations prohibit bypasses unless all of the following three conditions are met [see <a href="https://www.ecfr.gov/current/title-40/part-122/section-122.41#p-122.41(m)(4)" target="_blank">40 CFR 122.41(m)(4)</a>]:</p><ul><li>The bypass was unavoidable to prevent loss of life, personal injury, or severe property damage.</li><li>There were no feasible alternatives to the bypass, such as the use of auxiliary treatment facilities, retention of untreated wastes, or maintenance during normal periods of equipment downtime. This condition is not satisfied if adequate back-up equipment should have been installed in the exercise of reasonable engineering judgment to prevent a bypass which occurred during normal periods of equipment downtime or preventive maintenance.</li><li>The permittee submitted a notice providing information on the bypass to the NPDES permitting authority.</li></ul><p>EPA regulations require reporting on sewer overflows and bypass events. In particular, reporting requirements for sewer overflows and bypass events are specified in the “Conditions applicable to all permits” section in EPA’s NPDES regulations (see <a href="https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.41" target="_blank">40 CFR 122.41</a>). The requirements provided in §122.41 apply to all types and categories of NPDES permits and must be included in all permits (see <a href="https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-123/subpart-B/section-123.25" target="_blank">40 CFR 123.25</a> for applicability to state NPDES permits).<a href="#fn2" id="ref2"><sup>2</sup></a> Historically, sewer overflow and bypass information were most often reported on paper or in non-standard formats. This non-standard reporting limited the availability and utility of these data.&nbsp;</p><p>To address this concern, EPA developed the NPDES Electronic Reporting rule (<a href="https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-127?toc=1" target="_blank">40 CFR part 127</a>) ("NPDES eRule"), which requires permittees to electronically submit their sewer overflow and bypass event reports. These reports cover the following events:</p><ul><li>anticipated and unanticipated bypasses,</li><li>wet-weather CSOs that “endanger health or the environment,”</li><li>dry-weather discharges from combined sewer systems,</li><li>SSOs that discharge to waters of the United States, and</li><li>SSOs that are not in compliance with the standard NPDES permit requirements in <a href="https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-122/subpart-C/section-122.41" target="_blank">40 CFR 122.41</a>.</li></ul><p>The <a href="https://edap.epa.gov/public/extensions/eRule_Phase2/eRule_Phase2.html" target="_blank">NPDES eRule Phase 2 Implementation Dashboard</a> identifies how states are collecting these sewer overflow and bypass event reports (i.e., by using EPA's electronic reporting tool, called "NeT-SewerOverflow", or by state-built tools).</p><p><sup>1</sup><a id="fn1"></a> SSOs that result in discharges to waters of the United States or result from noncompliance with standard conditions including failure to properly operate and maintain the collection system constitute noncompliance (see 1 June 2010; 75 FR 30395, 30398, and NPDES Compliance Inspection Manual, EPA305-K-17-001, Page 299, Interim Revised Version, January 2017).<a href="#ref1" title="Jump back to footnote 1 in the text.">↩</a>&nbsp;<br><sup>2</sup><a id="fn2"></a> U.S. EPA, 2010. NPDES Permit Writers’ Manual, EPA-833-K-10-001, Page 1-1, September.<a href="#ref2" title="Jump back to footnote 2 in the text.">↩</a>&nbsp;</p><h3>Data Caveat</h3><p>This national data set is currently in development and does not represent all sewer overflow and bypass events covered by the NPDES eRule. EPA is working collaboratively with states to implement Phase 2 of the NPDES eRule (see compliance deadlines at <a href="https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-127/subpart-B/section-127.16" target="_blank">40 CFR 127.16</a> and <a href="https://www.epa.gov/compliance/approved-alternate-phase-2-compliance-deadlines" target="_blank">alternative Phase 2 compliance deadlines</a>). More sewer overflow and bypass event data will be available for download on this page as more states start collecting and sharing these data with EPA. Please see the <a href="https://www.epa.gov/compliance/approved-alternate-phase-2-compliance-deadlines" target="_blank">alternative Phase 2 compliance webpage</a> for how states that elect to build their own electronic reporting tools can share these data with EPA.</p><hr><h2 id="Guidance">Dataset Description</h2><p><span>This Zipped collection of CSV files represents the Sewer Overflow and Bypass data that has been submitted to EPA in this standardized electronic format.&nbsp; It’s comprised of 7 of the 8 data files (the center table and the 6 to the left of the center) depicted in the Entity Relationship File shown in the Entity Relationship Diagram, below.&nbsp;These data represents the latest version of each “Report” submitted of a Sewer Overflow or Bypass Event.</span></p><p>EPA has organized the data into the following tables:</p><ul><li><a href="#collection">collection_system_permits</a>: Contains relevant information regarding the EPA or State NPDES Permitted facility that submitted the "Sewer Overflow or Bypass Event Report".</li><li><a href="#reportevents">sewer_overflow_bypass_report_events:</a> The central "parent" table for all of the following "sewer_overflow_bypass..." tables.</li><li><a href="#causes">sewer_overflow_bypass_causes:</a> Identifies the causes of the Sewer Overflow or Sewer Bypass Event.</li><li><a href="#correctiveactions">sewer_overflow_bypass_corrective_actions:</a> Identifies short term and long term corrective action taken for the Sewer Overflow or Bypass Event.</li><li><a href="#impacts">sewer_overflow_bypass_impacts:</a> Details the human health and environmental impacts of the Sewer Overflow or Bypass Event.</li><li><a href="#receivingwaters">sewer_overflow_bypass_receiving_waters:</a> Identifies waterbodies (streams, creeks, rivers, lakes, etc.) affected by the event.</li><li><a href="#types">sewer_overflow_bypass_types:</a> Identifies the type(s) of the event - Combined Sewer Overflow (CSO), Sanitary Sewer Overflow (SSO), or Bypass (BYP).</li><li><a href="#treatmentcodes">sewer_overflow_treatment_codes:</a> Identifies the treatment plant equipment bypassed for Bypass Events or Identifies the treatments that the facility will take to address the Sewer Overflow Events.</li></ul><h3>Unique Primary Keys for Each Table</h3><p>Key field columns are present in all files and may be used to join and relate data between files. The permit_identifier column, contained in all tables, represents the unique Federal "NPDES_ID" assigned to the regulated facility entity which is used by EPA and the States in their reporting to EPA. Each table has column(s) which comprise a unique primary key for the table, shown below:</p><ul><li><a href="#collection">collection_system_permits</a>: permit_identifier, collection_system_identifier</li><li><a href="#reportevents">sewer_overflow_bypass_report_events:</a> sewer_overflow_bypass_event_key</li><li><a href="#causes">sewer_overflow_bypass_causes:</a> sewer_overflow_bypass_event_key, sewer_overflow_bypass_cause_id</li><li><a href="#correctiveactions">sewer_overflow_bypass_corrective_actions:</a> sewer_overflow_bypass_event_key, sewer_overflow_bypass_corrective_action_id</li><li><a href="#impacts">sewer_overflow_bypass_impacts:</a> sewer_overflow_bypass_event_key, sewer_overflow_bypass_impact_id</li><li><a href="#receivingwaters">sewer_overflow_bypass_receiving_waters:</a> sewer_overflow_bypass_event_key, sewer_overflow_bypass_receiving_water_id</li><li><a href="#types">sewer_overflow_bypass_types:</a> sewer_overflow_bypass_event_key, sewer_overflow_bypass_type_code_id</li><li><a href="#treatmentcodes">sewer_overflow_treatment_codes:</a> sewer_overflow_bypass_event_key, sewer_overflow_bypass_treatment_id</li></ul><p>Each table contains three columns: "permit_identifier", "program_report_form_set_id", and "program_report_form_id". The combination of these columns represent a unique "event report' and can also be used to link the central "sewer_overflow_bypass_report_events" table to the other "sewer_overflow_bypass..." tables. EPA generated a "sewer_overflow_bypass_event_key", as the column in order to link the "sewer_overflow_bypass..." tables.</p><h3><span>Entity Relationship Diagram</span></h3><p>The primary key columns are bolded in the linked diagram.</p><div>
+  
+  
+            <div><span class="file file--mime-application-pdf file--application-pdf"><a href="https://echo.epa.gov/system/files/sewer_overflow_events_data_diagram.pdf">sewer_overflow_events_data_diagram.pdf</a></span>
+  <span>(335.37 KB)</span>
+</div>
+      
+</div>
+<hr><h2 id="DataElements">Data Elements by Table</h2><p>The primary key columns are bolded in each table.</p><h3><a name="collection">&nbsp;</a>Permits (COLLECTION_SYSTEM_PERMITS.csv)</h3><table><thead><tr><th scope="col">Element Name</th><th scope="col">Data Type</th><th scope="col">Required</th></tr></thead><tbody><tr><td><strong>PERMIT_IDENTIFIER</strong></td><td>VarChar</td><td>Yes</td></tr><tr><td><strong>COLLECTION_SYSTEM_IDENTIFIER</strong></td><td>VarChar</td><td>Yes (Only for CSO/SSO)</td></tr><tr><td>COLLECTION_SYSTEM_NAME</td><td>VarChar</td><td>Yes</td></tr><tr><td>COLLECTION_SYSTEM_OWNER_TYPE_CODE</td><td>VarChar</td><td>Yes</td></tr><tr><td>COLLECTION_SYSTEM_OWNER_TYPE_DESC</td><td>VarChar</td><td>Yes</td></tr><tr><td>COLLECTION_SYSTEM_POPULATION</td><td>VarChar</td><td>Yes</td></tr><tr><td>PERCENT_COLLECTION_SYSTEM_CSS</td><td>VarChar</td><td>Yes</td></tr><tr><td>PAYLOAD_ID</td><td>Num</td><td>Yes</td></tr><tr><td>RECEIVED_DATE</td><td>Date</td><td>Yes</td></tr><tr><td>TRANSACTION_TYPE</td><td>VarChar</td><td>Yes</td></tr></tbody></table><h3><a name="reportevents">&nbsp;</a>Sewer Overflow Events (SEWER_OVERFLOW_BYPASS_REPORT_EVENTS.csv)</h3><table><thead><tr><th scope="col">Element Name</th><th scope="col">Data Type</th><th scope="col">Required</th></tr></thead><tbody><tr><td>SEWER_OVERFLOW_BYPASS_EVENT_KEY</td><td>Num</td><td>&nbsp;</td></tr><tr><td><strong>PERMIT_IDENTIFIER</strong></td><td>VarChar</td><td>Yes</td></tr><tr><td><strong>PROGRAM_REPORT_FORM_SET_ID</strong></td><td>VarChar</td><td>Yes</td></tr><tr><td><strong>PROGRAM_REPORT_FORM_ID</strong></td><td>Num</td><td>Yes</td></tr><tr><td>SEWER_OVERFLOW_BYPASS_EVENT_ID_EXT</td><td>Num</td><td>&nbsp;</td></tr><tr><td>PROGRAM_REPORT_RECEIVED_DATE</td><td>Date</td><td>Yes</td></tr><tr><td>PROGRAM_REPORT_START_DATE</td><td>Date</td><td>Yes</td></tr><tr><td>PROGRAM_REPORT_END_DATE</td><td>Date</td><td>Yes</td></tr><tr><td>ELECTRONIC_SUBMISSION_TYPE_CODE</td><td>VarChar</td><td>&nbsp;</td></tr><tr><td>ELECTR_SUBMISSION_TYPE_DESC</td><td>VarChar</td><td>Yes</td></tr><tr><td>PROGRAM_REPORT_NPDES_DATA_GROUP_NUMBER_CODE</td><td>VarChar</td><td>Yes</td></tr><tr><td>PAYLOAD_ID</td><td>Num</td><td>Yes</td></tr><tr><td>TRANSACTION_TYPE</td><td>VarChar</td><td>Yes</td></tr><tr><td>SEWER_OVERFLOW_BYPASS_DESCRIPTION_TEXT</td><td>VarChar</td><td>&nbsp;</td></tr><tr><td>SEWER_OVERFLOW_BYPASS_REPORTING_REQUIREMENT_CODE</td><td>Num</td><td>Yes</td></tr><tr><td>SEWER_OVERFLOW_BYPASS_REPORTING_REQUIREMENT_DESC</td><td>VarChar</td><td>&nbsp;</td></tr><tr><td>WET_WEATHER_OCCURANCE_INDICATOR</td><td>VarChar</td><td>Yes</td></tr><tr><td>SEWER_OVERFLOW_STRUCTURE_TYPE_CODE</td><td>VarChar</td><td>&nbsp;</td></tr><tr><td>SEWER_OVERFLOW_STRUCTURE_TYPE_DESC</td><td>VarChar</td><td>&nbsp;</td></tr><tr><td>SEWER_OVERFLOW_STRUCTURE_TYPE_CODE_OTHER_TEXT</td><td>VarChar</td><td>Yes (Only when SEWER_OVERFLOW_STRUCTURE_TYPE_DESC = "Other")</td></tr><tr><td>COLLECTION_SYSTEM_TYPE_ID</td><td>VarChar</td><td>Yes (Only for CSO/SSO)</td></tr><tr><td>PERMITTED_FEATURE_ID</td><td>VarChar</td><td>Yes (Only for CSO that are Permitted Feature)</td></tr><tr><td>LATITUDE_MEASURE</td><td>Num</td><td>Yes (Only for CSO/SSO that are not a Permitted Feature)</td></tr><tr><td>LONGITUDE_MEASURE</td><td>Num</td><td>Yes (Only for CSO/SSO that are not a Permitted Feature)</td></tr><tr><td>SEWER_OVERFLOW_BYPASS_DURATION_HOURS</td><td>Num</td><td>Yes (Required when start and end date/times not provided)</td></tr><tr><td>SEWER_OVERFLOW_BYPASS_START_DATETIME</td><td>Date</td><td>Yes (Required when duration hours not provided)</td></tr><tr><td>SEWER_OVERFLOW_BYPASS_END_DATETIME</td><td>Date</td><td>Yes (Required when duration hours not provided)</td></tr><tr><td>DISCHARGE_QUALIFICATION_METHOD_CODE</td><td>VarChar</td><td>&nbsp;</td></tr><tr><td>DISCHARGE_QUALIFICATION_METHOD_DESC</td><td>VarChar</td><td>&nbsp;</td></tr><tr><td>SEWER_OVERFLOW_BYPASS_DISCHARGE_VOLUME_GALLONS</td><td>Num</td><td>Yes (Required when discharge rate not provided)</td></tr><tr><td>SEWER_OVERFLOW_BYPASS_DISCHARGE_RATE_GPH</td><td>Num</td><td>Yes (Required when discharge volume not provided)</td></tr><tr><td>ANTICIPATED_BYPASS_TEXT</td><td>VarChar</td><td>&nbsp;</td></tr><tr><td>ANTICIPATED_BYPASS_EXPECT_LIMIT_VIOLATION</td><td>VarChar</td><td>&nbsp;</td></tr><tr><td>ANTICIPATED_BYPASS_EXPECT_LIMIT_VIOLATION_TEXT</td><td>VarChar</td><td>&nbsp;</td></tr><tr><td>EVENT_TRANSACTION_TYPE</td><td>VarChar</td><td>Yes</td></tr><tr><td>COLLECTION_SYSTEM_OWNER_TYPE_CODE</td><td>VarChar</td><td>Yes</td></tr><tr><td>COLLECTION_SYSTEM_OWNER_TYPE_DESC</td><td>VarChar</td><td>Yes</td></tr><tr><td>COLLECTION_SYSTEM_POPULATION</td><td>VarChar</td><td>Yes</td></tr></tbody></table><h3><a name="causes">&nbsp;</a>Causes (SEWER_OVERFLOW_BYPASS_CAUSES.csv)</h3><table><thead><tr><th scope="col">Element Name</th><th scope="col">Data Type</th><th scope="col">Required</th></tr></thead><tbody><tr><td>SEWER_OVERFLOW_BYPASS_EVENT_KEY</td><td>Num</td><td>&nbsp;</td></tr><tr><td><strong>PERMIT_IDENTIFIER</strong></td><td>VarChar</td><td>Yes</td></tr><tr><td><strong>PROGRAM_REPORT_FORM_SET_ID</strong></td><td>VarChar</td><td>Yes</td></tr><tr><td><strong>PROGRAM_REPORT_FORM_ID</strong></td><td>Num</td><td>Yes</td></tr><tr><td>SEWER_OVERFLOW_BYPASS_EVENT_ID_EXT</td><td>Num</td><td>&nbsp;</td></tr><tr><td><strong>SEWER_OVERFLOW_BYPASS_CAUSE_ID</strong></td><td>Num</td><td>&nbsp;</td></tr><tr><td>SEWER_OVERFLOW_BYPASS_CAUSE_CODE</td><td>VarChar</td><td>Yes</td></tr><tr><td>SEWER_OVERFLOW_BYPASS_CAUSE_DESC</td><td>VarChar</td><td>Yes</td></tr><tr><td>SEWER_OVERFLOW_BYPASS_CAUSE_OTHER_TEXT</td><td>VarChar</td><td>Yes (Only when SEWER_OVERFLOW_BYPASS_CAUSE_DESC = "Other")</td></tr></tbody></table><h3><a name="correctiveactions">&nbsp;</a>Corrective Actions (SEWER_OVERFLOW_BYPASS_CORRECTIVE_ACTIONS.csv)</h3><table><thead><tr><th scope="col">Element Name</th><th scope="col">Data Type</th><th scope="col">Required</th></tr></thead><tbody><tr><td>SEWER_OVERFLOW_BYPASS_EVENT_KEY</td><td>Num</td><td>&nbsp;</td></tr><tr><td><strong>PERMIT_IDENTIFIER</strong></td><td>VarChar</td><td>Yes</td></tr><tr><td><strong>PROGRAM_REPORT_FORM_SET_ID</strong></td><td>VarChar</td><td>Yes</td></tr><tr><td><strong>PROGRAM_REPORT_FORM_ID</strong></td><td>Num</td><td>Yes</td></tr><tr><td>SEWER_OVERFLOW_BYPASS_EVENT_ID_EXT</td><td>Num</td><td>&nbsp;</td></tr><tr><td><strong>SEWER_OVERFLOW_BYPASS_CORRECTIVE_ACTION_ID</strong></td><td>Num</td><td>&nbsp;</td></tr><tr><td>SEWER_OVERFLOW_BYPASS_CORRECTIVE_ACTION_CODE</td><td>VarChar</td><td>Yes</td></tr><tr><td>SEWER_OVERFLOW_BYPASS_CORRECTIVE_ACTION_DESC</td><td>VarChar</td><td>Yes</td></tr><tr><td>SEWER_OVERFLOW_BYPASS_CORRECTIVE_ACTION_OTHER_TEXT</td><td>VarChar</td><td>Yes (Only when SEWER_OVERFLOW_BYPASS_CORRECTIVE_ACTION_DESC = "Other")&nbsp;</td></tr></tbody></table><h3><a name="impacts">&nbsp;</a>Impacts (SEWER_OVERFLOW_BYPASS_IMPACTS.csv)</h3><table><thead><tr><th scope="col">Element Name</th><th scope="col">Data Type</th><th scope="col">Required</th></tr></thead><tbody><tr><td>SEWER_OVERFLOW_BYPASS_EVENT_KEY</td><td>Num</td><td>&nbsp;</td></tr><tr><td><strong>PERMIT_IDENTIFIER</strong></td><td>VarChar</td><td>Yes</td></tr><tr><td><strong>PROGRAM_REPORT_FORM_SET_ID</strong></td><td>VarChar</td><td>Yes</td></tr><tr><td><strong>PROGRAM_REPORT_FORM_ID</strong></td><td>Num</td><td>Yes</td></tr><tr><td>SEWER_OVERFLOW_BYPASS_EVENT_ID_EXT</td><td>Num</td><td>&nbsp;</td></tr><tr><td><strong>SEWER_OVERFLOW_BYPASS_IMPACT_ID</strong></td><td>Num</td><td>&nbsp;</td></tr><tr><td>SEWER_OVERFLOW_BYPASS_IMPACT_CODE</td><td>VarChar</td><td>Yes</td></tr><tr><td>SEWER_OVERFLOW_BYPASS_IMPACT_DESC</td><td>VarChar</td><td>Yes</td></tr><tr><td>SEWER_OVERFLOW_BYPASS_IMPACT_OTHER_TEXT</td><td>VarChar</td><td>Yes (Only when SEWER_OVERFLOW_BYPASS_IMPACT_DESC = "Other")</td></tr></tbody></table><h3><a name="receivingwaters">&nbsp;</a>Receiving Waters (SEWER_OVERFLOW_BYPASS_RECEIVING_WATERS.csv)</h3><table><thead><tr><th scope="col">Element Name</th><th scope="col">Data Type</th><th scope="col">Required</th></tr></thead><tbody><tr><td>SEWER_OVERFLOW_BYPASS_EVENT_KEY</td><td>Num</td><td>&nbsp;</td></tr><tr><td><strong>PERMIT_IDENTIFIER</strong></td><td>VarChar</td><td>Yes</td></tr><tr><td><strong>PROGRAM_REPORT_FORM_SET_ID</strong></td><td>VarChar</td><td>Yes</td></tr><tr><td><strong>PROGRAM_REPORT_FORM_ID</strong></td><td>Num</td><td>Yes</td></tr><tr><td>SEWER_OVERFLOW_BYPASS_EVENT_ID_EXT</td><td>Num</td><td>&nbsp;</td></tr><tr><td><strong>SEWER_OVERFLOW_BYPASS_RECEIVING_WATER_ID</strong></td><td>Num</td><td>&nbsp;</td></tr><tr><td>NAME_RECEIVING_WATER</td><td>VarChar</td><td>&nbsp;</td></tr></tbody></table><h3><a name="types">&nbsp;</a>Types (SEWER_OVERFLOW_BYPASS_TYPES.csv)</h3><table><thead><tr><th scope="col">Element Name</th><th scope="col">Data Type</th><th scope="col">Required</th></tr></thead><tbody><tr><td>SEWER_OVERFLOW_BYPASS_EVENT_KEY</td><td>Num</td><td>&nbsp;</td></tr><tr><td><strong>PERMIT_IDENTIFIER</strong></td><td>VarChar</td><td>Yes</td></tr><tr><td><strong>PROGRAM_REPORT_FORM_SET_ID</strong></td><td>VarChar</td><td>Yes</td></tr><tr><td><strong>PROGRAM_REPORT_FORM_ID</strong></td><td>Num</td><td>Yes</td></tr><tr><td>SEWER_OVERFLOW_BYPASS_EVENT_ID_EXT</td><td>Num</td><td>&nbsp;</td></tr><tr><td><strong>SEWER_OVERFLOW_BYPASS_TYPE_CODE_ID</strong></td><td>Num</td><td>&nbsp;</td></tr><tr><td>SEWER_OVERFLOW_BYPASS_TYPE_CODE</td><td>VarChar</td><td>Yes</td></tr><tr><td>SEWER_OVERFLOW_BYPASS_TYPE_DESC</td><td>VarChar</td><td>Yes</td></tr><tr><td>SEWER_OVERFLOW_BYPASS_TYPE_CODE_SEQUENCE</td><td>Num</td><td>&nbsp;</td></tr></tbody></table><h3><a name="treatmentcodes">&nbsp;</a>Treatment Codes (SEWER_OVERFLOW_TREATMENT_CODES.csv)</h3><table><thead><tr><th scope="col">Element Name</th><th scope="col">Data Type</th><th scope="col">Required</th></tr></thead><tbody><tr><td>SEWER_OVERFLOW_BYPASS_EVENT_KEY</td><td>Num</td><td>&nbsp;</td></tr><tr><td><strong>PERMIT_IDENTIFIER</strong></td><td>VarChar</td><td>Yes</td></tr><tr><td><strong>PROGRAM_REPORT_FORM_SET_ID</strong></td><td>VarChar</td><td>Yes</td></tr><tr><td><strong>PROGRAM_REPORT_FORM_ID</strong></td><td>Num</td><td>Yes</td></tr><tr><td>SEWER_OVERFLOW_BYPASS_EVENT_ID_EXT</td><td>Num</td><td>&nbsp;</td></tr><tr><td><strong>SEWER_OVERFLOW_BYPASS_TREATMENT_ID</strong></td><td>Num</td><td>&nbsp;</td></tr><tr><td>SEWER_OVERFLOW_BYPASS_TREATMENT_CODE</td><td>VarChar</td><td>&nbsp;</td></tr><tr><td>SEWER_OVERFLOW_BYPASS_TREATMENT_DESC</td><td>VarChar</td><td>&nbsp;</td></tr><tr><td>BYPASS_TREATMENT_PLANT_EQUIPMENT_CODE</td><td>VarChar</td><td>Yes (Only for Bypass events)</td></tr><tr><td>BYPASS_TREATMENT_PLANT_EQUIPMENT_DESC</td><td>VarChar</td><td>Yes (Only for Bypass events)</td></tr></tbody></table><hr><h2 id="Definitions">Data Element Definitions and Reference Codes</h2><p>The <a href="https://echo.epa.gov/files/echodownloads/sewer_overflow_bypass_columns_metadata.csv">NPDES Sewer Overflow and Bypass Event Metadata (CSV)</a> (60 KB) provides definitions of each data element. This file is also included with the data in the ZIP file.</p><p>Reference codes used for describing sewer overflow and bypass events (e.g., "Corrective Action" codes) are provided on the following <a href="https://usepa.servicenowservices.com/oeca_icis/en/information-related-to-sewer-overflow-and-potw-payloads?sys_kb_id=aa2f11961b346a1c9ee5404fe54bcbd6&amp;id=kb_article_view&amp;sysparm_rank=1&amp;sysparm_tsqueryId=ac7463d6475dea50b2285ff2e16d43b9" target="_blank">EPA webpage regarding sewer overflow and POTW payloads</a>.</p></div>
+      
+  </div>
+
+</article>
+
+  </div>
+
+  </div>
+
+
+        
+      </article>
+    </div>
+  </div>
+</main>
+
+<!-- EPA footer -->
+
+<div class="text-right padding-right-3 padding-bottom-1 epa-footer">
+  <a href="#" class="top-of-page" title="">
+    <svg role="img" aria-label="Top of page">
+      <use href="/themes/custom/epa_uswds/images/sprite.artifact.svg#angle"></use>
+    </svg>
+    <span>
+    Top of Page
+  </span>
+  </a>
+</div>
+<footer class="footer epa-footer" role="contentinfo">
+  <div class="l-constrain">
+    <img class="footer__epa-seal" src="https://www.epa.gov/themes/epa_theme/images/epa-seal.svg" alt="United States Environmental Protection Agency" height="100" width="100">
+    <div class="footer__content contextual-region">
+      <div class="footer__column">
+        <h2>Discover.</h2>
+        <ul class="menu menu--footer">
+          <li class="menu__item">
+            <a href="https://www.epa.gov/accessibility/epa-accessibility-statement" class="menu__link">Accessibility Statement</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/planandbudget" class="menu__link">Budget &amp; Performance</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/contracts" class="menu__link">Contracting</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/utilities/wwwepagov-snapshots" class="menu__link">EPA www Web Snapshot</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/grants" class="menu__link">Grants</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/ocr/no-fear-act-data" class="menu__link">No FEAR Act Data</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/web-policies-and-procedures/plain-writing" class="menu__link">Plain Writing</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/privacy/privacy-and-security-notice" class="menu__link">Privacy and Security Notice</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__column">
+        <h2>Connect.</h2>
+        <ul class="menu menu--footer">
+          <li class="menu__item">
+            <a href="https://www.epa.gov/data" class="menu__link">Data</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/office-inspector-general" class="menu__link">Inspector General</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/careers" class="menu__link">Jobs</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/newsroom" class="menu__link">Newsroom</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.regulations.gov/" class="menu__link" data-once="external-links protected-links">Regulations.gov<svg class="icon icon--exit is-spaced-before" role="img"><title>Exit EPA’s Website</title><use href="/themes/custom/epa_uswds/images/sprite.svg#launch"></use></svg></a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/newsroom/email-subscriptions-epa-news-releases" class="menu__link">Subscribe</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.usa.gov/" class="menu__link" data-once="external-links protected-links">USA.gov<svg class="icon icon--exit is-spaced-before" role="img"><title>Exit EPA’s Website</title><use href="/themes/custom/epa_uswds/images/sprite.svg#launch"></use></svg></a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.whitehouse.gov/" class="menu__link" data-once="external-links protected-links">White House<svg class="icon icon--exit is-spaced-before" role="img"><title>Exit EPA’s Website</title><use href="/themes/custom/epa_uswds/images/sprite.svg#launch"></use></svg></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__column">
+        <h2>Ask.</h2>
+        <ul class="menu menu--footer">
+          <li class="menu__item">
+            <a href="https://www.epa.gov/aboutepa/forms/contact-epa" class="menu__link">Contact EPA</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/web-policies-and-procedures/epa-disclaimers" class="menu__link">EPA Disclaimers</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/aboutepa/epa-hotlines" class="menu__link">Hotlines</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/foia" class="menu__link">FOIA Requests</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/aboutepa/frequent-questions-specific-epa-programstopics" class="menu__link">Frequent Questions</a>
+          </li>
+        </ul>
+        <h2>Follow.</h2>
+        <ul class="menu menu--social">
+          <li class="menu__item">
+            <a class="menu__link" aria-label="EPA’s Facebook" href="https://www.facebook.com/EPA">
+              <svg class="icon icon--social" aria-hidden="true"><use href="/themes/custom/epa_uswds/images/sprite.artifact.svg#facebook-square"></use></svg>    </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" aria-label="EPA’s Twitter / X" href="https://x.com/epa">
+              <svg class="icon icon--social" aria-hidden="true"><use href="/themes/custom/epa_uswds/images/sprite.artifact.svg#twitter-square"></use></svg>    </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" aria-label="EPA’s Youtube" href="https://www.youtube.com/user/USEPAgov">
+              <svg class="icon icon--social" aria-hidden="true"><use href="/themes/custom/epa_uswds/images/sprite.artifact.svg#youtube-square"></use></svg>    </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" aria-label="EPA’s Instagram" href="https://www.instagram.com/epagov">
+              <svg class="icon icon--social" aria-hidden="true"><use href="/themes/custom/epa_uswds/images/sprite.artifact.svg#instagram-square"></use></svg>    </a>
+          </li>
+        </ul>
+
+                  <p class="footer__last-updated">Last updated on June 25, 2025</p>
+        
+                  <p class="data-refresh-information"><a href="/resources/echo-data/about-the-data#sources">Data Refresh Information</a></p>
+              </div>
+    </div>
+  </div>
+</footer>
+
+  </div>
+
+    <div id="echo-survey-root"></div>
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/673","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"eJx1j-EKwyAMhF-om48k0aY1TE0wcaNvvzJLYaP7d3x3OXKBVi8k6MIhJoyJ3Zo5QL5pbCSm38y2THUdrHCgPG48dEtHaID4wJmM2wkFfNfXrL9VZc-BWygbtnsEMeI6aRdsC2lyp7piPvETG1XDape-Fsh5H4J42ek_SnvQf66w0vhoU8PiAii-AdTpeyg","theme":"echo","theme_token":null},"ajaxTrustedUrl":[],"bigPipePlaceholderIds":{"callback=Drupal%5CCore%5CRender%5CElement%5CStatusMessages%3A%3ArenderMessages\u0026args%5B0%5D\u0026token=_HAdUpwWmet0TOTe2PSiJuMntExoshbm1kh2wQzzzAA":true,"callback=Drupal%5Cblock%5CBlockViewBuilder%3A%3AlazyBuilder\u0026args%5B0%5D=echo_account_menu\u0026args%5B1%5D=full\u0026args%5B2%5D\u0026token=0aQiGtHfmcfMkZldF9umwp4ytpUXW1fy6B3sE6gnHoo":true,"callback=Drupal%5Cblock%5CBlockViewBuilder%3A%3AlazyBuilder\u0026args%5B0%5D=echo_site_branding\u0026args%5B1%5D=full\u0026args%5B2%5D\u0026token=9a0HfJL6Ki6au7tD0cANVA8jywXxiDONuQktCRIYS1k":true},"superfish":{"superfish-main":{"id":"superfish-main","sf":{"animation":{"opacity":"show","height":"show"},"speed":"fast","autoArrows":true,"dropShadows":true},"plugins":{"smallscreen":{"cloneParent":0,"mode":"window_width"},"supposition":true,"supersubs":{"maxWidth":18}}}},"echoAuth":{"loginUrl":"https:\/\/echo.epa.gov\/saml\/login","logoutUrl":"https:\/\/echo.epa.gov\/echoauth\/logout","redirectParm":"ReturnTo","passiveLoginParm":"IsPassive=true","sessionRenewalInterval":60,"inactivityTimeout":900,"inactivityWarningTime":60,"csrfToken":"W5tPB3S5fZ25jdjNh7qdcFGa6mnu4i1t4F9PmcwPxWI"},"user":{"uid":0,"permissionsHash":"bfcf218e3995934b015518ade7dfe37259bfc57699bc30e9d320d09049fb5019"},"echo":{"environment":{"name":"prod","type":"prod","isLab":false,"useStagingServices":false},"settings":{"credentials":{"document_upload":{"host":"https:\/\/tvzzvni6f9.execute-api.us-east-1.amazonaws.com\/echo-docs\/"}}},"user":{"email":null,"hasEnforcementSensitiveRole":false,"hasEpaRole":false,"hasGovernmentRole":false},"path":{"theme":"\/themes\/custom\/echo"}}}</script>
+<script src="/assets/js/js_twWlyAKjWiuCoF7c8fzbR40Sl3jfqEB41mFvYOTuNiE.js?scope=footer&amp;delta=0&amp;language=en&amp;theme=echo&amp;include=eJx1zUsKwCAMRdENWVySqKQaSE0wsevvB-nIzi7vDF7CEgQFfJrhIFf2hThF2jR3FNN3C3FYneB0CPQdtfqvVluofELHZtBs6XpEovsFoK39KR1J_1RY0ZDbBRsyUI8"></script>
+
+  
+<script type="application/vnd.drupal-ajax" data-big-pipe-event="start"></script>
+<script type="application/vnd.drupal-ajax" data-big-pipe-replacement-for-placeholder-with-id="callback=Drupal%5Cblock%5CBlockViewBuilder%3A%3AlazyBuilder&amp;args%5B0%5D=echo_site_branding&amp;args%5B1%5D=full&amp;args%5B2%5D&amp;token=9a0HfJL6Ki6au7tD0cANVA8jywXxiDONuQktCRIYS1k">
+[{"command":"insert","method":"replaceWith","selector":"[data-big-pipe-placeholder-id=\u0022callback=Drupal%5Cblock%5CBlockViewBuilder%3A%3AlazyBuilder\u0026args%5B0%5D=echo_site_branding\u0026args%5B1%5D=full\u0026args%5B2%5D\u0026token=9a0HfJL6Ki6au7tD0cANVA8jywXxiDONuQktCRIYS1k\u0022]","data":"\n\n  \u003Ca class=\u0022echo-logo\u0022 href=\u0022https:\/\/echo.epa.gov\/\u0022\u003E\n    \u003Cimg src=\u0022\/themes\/custom\/echo\/images\/logo.png\u0022 alt=\u0022ECHO: \u0022 style=\u0022vertical-align:middle;\u0022\u003E\n  \u003C\/a\u003E\n\n","settings":null}]
+</script><script type="application/vnd.drupal-ajax" data-big-pipe-replacement-for-placeholder-with-id="callback=Drupal%5Cblock%5CBlockViewBuilder%3A%3AlazyBuilder&amp;args%5B0%5D=echo_account_menu&amp;args%5B1%5D=full&amp;args%5B2%5D&amp;token=0aQiGtHfmcfMkZldF9umwp4ytpUXW1fy6B3sE6gnHoo">
+[{"command":"insert","method":"replaceWith","selector":"[data-big-pipe-placeholder-id=\u0022callback=Drupal%5Cblock%5CBlockViewBuilder%3A%3AlazyBuilder\u0026args%5B0%5D=echo_account_menu\u0026args%5B1%5D=full\u0026args%5B2%5D\u0026token=0aQiGtHfmcfMkZldF9umwp4ytpUXW1fy6B3sE6gnHoo\u0022]","data":"\n\n  \u003C!-- User menu --\u003E\n  \u003Cdiv id=\u0022log\u0022\u003E\n          \u003Cspan\u003E\u0026nbsp;\u003C\/span\u003E\n      \u003C\/div\u003E\n\n  \n              \u003Cul id=\u0022mainLinks\u0022\u003E\n              \u003Cli\u003E\n        \u003Ca href=\u0022\/resources\/general-info\/contact-us\u0022 data-drupal-link-system-path=\u0022node\/550\u0022\u003EContact Us\u003C\/a\u003E\n              \u003C\/li\u003E\n          \u003Cli\u003E\n        \u003Ca href=\u0022https:\/\/echo.epa.gov\/saml\/login?ReturnTo=https%3A%2F%2Fecho.epa.gov%2Fnode%2F673%3Fcheck_logged_in%3D1\u0022 data-drupal-link-system-path=\u0022user\/login\u0022\u003ELogin\u003C\/a\u003E\n              \u003C\/li\u003E\n        \u003C\/ul\u003E\n  \n\n\n\n","settings":null}]
+</script><script type="application/vnd.drupal-ajax" data-big-pipe-replacement-for-placeholder-with-id="callback=Drupal%5CCore%5CRender%5CElement%5CStatusMessages%3A%3ArenderMessages&amp;args%5B0%5D&amp;token=_HAdUpwWmet0TOTe2PSiJuMntExoshbm1kh2wQzzzAA">
+[{"command":"insert","method":"replaceWith","selector":"[data-big-pipe-placeholder-id=\u0022callback=Drupal%5CCore%5CRender%5CElement%5CStatusMessages%3A%3ArenderMessages\u0026args%5B0%5D\u0026token=_HAdUpwWmet0TOTe2PSiJuMntExoshbm1kh2wQzzzAA\u0022]","data":"","settings":null}]
+</script>
+<script type="application/vnd.drupal-ajax" data-big-pipe-event="stop"></script>
+</body>
+</html>

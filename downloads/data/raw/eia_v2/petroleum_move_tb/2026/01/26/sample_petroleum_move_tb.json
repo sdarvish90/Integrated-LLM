@@ -1,0 +1,100 @@
+{
+  "warnings": [
+    {
+      "warning": "incomplete return",
+      "description": "The API can only return 5000 rows in JSON format.  Please consider constraining your request with facet, start, or end, or using offset to paginate results."
+    }
+  ],
+  "response": {
+    "total": "98944",
+    "dateFormat": "YYYY-MM",
+    "frequency": "monthly",
+    "data": [
+      {
+        "period": "2025-10",
+        "duoarea": "R1Z-R30",
+        "area-name": "PADD 3",
+        "product": "EP00",
+        "product-name": "Crude Oil and Petroleum Products",
+        "process": "BMV",
+        "process-name": "Movements by Tanker and Barge",
+        "series": "MTTMT1ZP31",
+        "series-description": "Lower Atlantic (PADD 1C) Receipts by Tanker and Barge from Gulf Coast (PADD 3) of Crude Oil and Petroleum Products (Thousand Barrels)",
+        "value": "26285",
+        "units": "MBBL"
+      },
+      {
+        "period": "2025-10",
+        "duoarea": "R20-R30",
+        "area-name": "PADD 3",
+        "product": "EPPP0",
+        "product-name": "Petrochemical Feedstocks",
+        "process": "BMV",
+        "process-name": "Movements by Tanker and Barge",
+        "series": "MPCMTP2P31",
+        "series-description": "Midwest (PADD 2) Receipts by Tanker and Barge from Gulf Coast (PADD 3) of Petrochemical Feedstocks (Thousand Barrels)",
+        "value": "0",
+        "units": "MBBL"
+      },
+      {
+        "period": "2025-10",
+        "duoarea": "R1Y-R30",
+        "area-name": "PADD 3",
+        "product": "EPC0",
+        "product-name": "Crude Oil",
+        "process": "BMV",
+        "process-name": "Movements by Tanker and Barge",
+        "series": "MCRMT1YP31",
+        "series-description": "Central Atlantic (PADD 1B) Receipts by Tanker and Barge from Gulf Coast (PADD 3) of Crude Oil (Thousand Barrels)",
+        "value": "2383",
+        "units": "MBBL"
+      },
+      {
+        "period": "2025-10",
+        "duoarea": "R30-R10",
+        "area-name": "PADD 1",
+        "product": "EPC0",
+        "product-name": "Crude Oil",
+        "process": "BMV",
+        "process-name": "Movements by Tanker and Barge",
+        "series": "MCRMTP3P11",
+        "series-description": "Gulf Coast (PADD 3) Receipts by Tanker and Barge from East Coast (PADD 1) of Crude Oil (Thousand Barrels)",
+        "value": "0",
+        "units": "MBBL"
+      },
+      {
+        "period": "2025-10",
+        "duoarea": "R10-R20",
+        "area-name": "PADD 2",
+        "product": "EPC0",
+        "product-name": "Crude Oil",
+        "process": "BMV",
+        "process-name": "Movements by Tanker and Barge",
+        "series": "MCRMTP1P21",
+        "series-description": "East Coast (PADD 1) Receipts by Tanker and Barge from Midwest (PADD 2) of Crude Oil (Thousand Barrels)",
+        "value": "362",
+        "units": "MBBL"
+      }
+    ]
+  },
+  "request": {
+    "command": "/v2/petroleum/move/tb/data/",
+    "params": {
+      "api_key": "o5nQ7H9b6Bf9Kh3D0cCeC8ydP24drGTiFGaCQrKN",
+      "frequency": "monthly",
+      "data": [
+        "value"
+      ],
+      "sort": [
+        {
+          "column": "period",
+          "direction": "desc"
+        }
+      ],
+      "length": "5",
+      "offset": "0"
+    }
+  },
+  "apiVersion": "2.1.10",
+  "ExcelAddInVersion": "2.1.0"
+}

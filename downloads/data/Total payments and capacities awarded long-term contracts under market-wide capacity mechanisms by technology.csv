@@ -1,0 +1,134 @@
+Year,Technology,Capacity mechanism (GW),Total payments (billion euros)
+2028,Natural gas,24.82,2.90
+2028,Coal,9.02,2.90
+2028,Battery storage,3.90,2.90
+2028,Demand response,1.28,2.90
+2028,Hydropower,2.72,2.90
+2028,RES,0.40,2.90
+2028,Other,2.63,2.90
+2027,Natural gas,27.11,3.00
+2027,Coal,9.21,3.00
+2027,Battery storage,2.18,3.00
+2027,Demand response,2.01,3.00
+2027,Hydropower,2.23,3.00
+2027,RES,0.20,3.00
+2027,Other,2.20,3.00
+2029,Natural gas,18.67,2.00
+2029,Coal,4.18,2.00
+2029,Battery storage,3.87,2.00
+2029,Demand response,0.15,2.00
+2029,Hydropower,1.57,2.00
+2029,RES,0.15,2.00
+2029,Other,1.19,2.00
+2030,Natural gas,17.49,2.00
+2030,Coal,4.18,2.00
+2030,Battery storage,3.87,2.00
+2030,Demand response,0.15,2.00
+2030,Hydropower,1.57,2.00
+2030,RES,0.15,2.00
+2030,Other,1.19,2.00
+2031,Natural gas,14.55,1.50
+2031,Coal,3.83,1.50
+2031,Battery storage,3.51,1.50
+2031,Demand response,0.02,1.50
+2031,Hydropower,1.56,1.50
+2031,RES,0.14,1.50
+2031,Other,0.83,1.50
+2032,Natural gas,14.39,1.50
+2032,Coal,3.69,1.50
+2032,Battery storage,3.51,1.50
+2032,Demand response,0.02,1.50
+2032,Hydropower,0.50,1.50
+2032,RES,0.14,1.50
+2032,Other,0.83,1.50
+2033,Natural gas,13.90,1.40
+2033,Coal,3.69,1.40
+2033,Battery storage,3.50,1.40
+2033,Demand response,0.00,1.40
+2033,Hydropower,0.45,1.40
+2033,RES,0.14,1.40
+2033,Other,0.83,1.40
+2034,Natural gas,13.90,1.40
+2034,Coal,3.69,1.40
+2034,Battery storage,3.50,1.40
+2034,Demand response,0.00,1.40
+2034,Hydropower,0.31,1.40
+2034,RES,0.08,1.40
+2034,Other,0.83,1.40
+2035,Natural gas,13.84,1.40
+2035,Coal,3.69,1.40
+2035,Battery storage,3.50,1.40
+2035,Demand response,0.00,1.40
+2035,Hydropower,0.07,1.40
+2035,RES,0.08,1.40
+2035,Other,0.83,1.40
+2036,Natural gas,6.43,1.10
+2036,Coal,0.00,1.10
+2036,Battery storage,2.28,1.10
+2036,Demand response,0.00,1.10
+2036,Hydropower,0.00,1.10
+2036,RES,0.04,1.10
+2036,Other,0.01,1.10
+2037,Natural gas,6.43,1.00
+2037,Coal,0.00,1.00
+2037,Battery storage,2.28,1.00
+2037,Demand response,0.00,1.00
+2037,Hydropower,0.00,1.00
+2037,RES,0.04,1.00
+2037,Other,0.01,1.00
+2038,Natural gas,6.00,0.70
+2038,Coal,0.00,0.70
+2038,Battery storage,2.28,0.70
+2038,Demand response,0.00,0.70
+2038,Hydropower,0.00,0.70
+2038,RES,0.04,0.70
+2038,Other,0.01,0.70
+2039,Natural gas,5.93,0.50
+2039,Coal,0.00,0.50
+2039,Battery storage,2.28,0.50
+2039,Demand response,0.00,0.50
+2039,Hydropower,0.00,0.50
+2039,RES,0.04,0.50
+2039,Other,0.01,0.50
+2040,Natural gas,4.31,0.50
+2040,Coal,0.00,0.50
+2040,Battery storage,2.25,0.50
+2040,Demand response,0.00,0.50
+2040,Hydropower,0.00,0.50
+2040,RES,0.04,0.50
+2040,Other,0.00,0.50
+2041,Natural gas,2.97,0.40
+2041,Coal,0.00,0.40
+2041,Battery storage,2.25,0.40
+2041,Demand response,0.00,0.40
+2041,Hydropower,0.00,0.40
+2041,RES,0.00,0.40
+2041,Other,0.00,0.40
+2042,Natural gas,2.97,0.40
+2042,Coal,0.00,0.40
+2042,Battery storage,1.89,0.40
+2042,Demand response,0.00,0.40
+2042,Hydropower,0.00,0.40
+2042,RES,0.00,0.40
+2042,Other,0.00,0.40
+2043,Natural gas,0.97,0.20
+2043,Coal,0.00,0.20
+2043,Battery storage,1.89,0.20
+2043,Demand response,0.00,0.20
+2043,Hydropower,0.00,0.20
+2043,RES,0.00,0.20
+2043,Other,0.00,0.20
+2044,Natural gas,0.00,0.10
+2044,Coal,0.00,0.10
+2044,Battery storage,1.73,0.10
+2044,Demand response,0.00,0.10
+2044,Hydropower,0.00,0.10
+2044,RES,0.00,0.10
+2044,Other,0.00,0.10
+2045,Natural gas,0.00,0.00
+2045,Coal,0.00,0.00
+2045,Battery storage,0.00,0.00
+2045,Demand response,0.00,0.00
+2045,Hydropower,0.00,0.00
+2045,RES,0.00,0.00
+2045,Other,0.00,0.00

@@ -1,0 +1,40 @@
+Year,BZ,Hour (UTC),BZ name,Price (EUR/MWh)
+2024,AT,17,Austria,119
+2024,BE,17,Belgium,108
+2024,BG,17,Bulgaria,338
+2024,CZ,17,Czech Republic,144
+2024,DE_LU,17,Germany_Luxemburg,139
+2024,DK1,17,Denmark DK1,125
+2024,DK2,17,Denmark DK2,125
+2024,EE,17,Estonia,202
+2024,ES,17,Spain,89
+2024,FI,17,Finland,48
+2024,FR,17,France,87
+2024,GR,17,Greece,313
+2024,HR,17,Croatia,260
+2024,HU,17,Hungary,333
+2024,IT_CALA,17,Italy Calabria,183
+2024,IT_CENTRE_NORTH,17,Italy Centre-North,182
+2024,IT_CENTRE_SOUTH,17,Italy Centre-South,182
+2024,IT_NORTH,17,Italy North,153
+2024,IT_SARDINIA,17,Italy Sardinia,182
+2024,IT_SICILY,17,Italy Sicily,196
+2024,IT_SOUTH,17,Italy South,182
+2024,LT,17,Lithuania,202
+2024,LV,17,Latvia,202
+2024,NL,17,Netherlands,131
+2024,NO1,17,Norway NO1,22
+2024,NO2,17,Norway NO2,50
+2024,NO3,17,Norway NO3,18
+2024,NO4,17,Norway NO4,18
+2024,NO5,17,Norway NO5,21
+2024,PL,17,Poland,213
+2024,PT,17,Portugal,90
+2024,RO,17,Romania,349
+2024,SE1,17,Sweden SE1,15
+2024,SE2,17,Sweden SE2,15
+2024,SE3,17,Sweden SE3,19
+2024,SE4,17,Sweden SE4,79
+2024,SEM,17,Ireland and Northern Ireland,133
+2024,SI,17,Slovenia,230
+2024,SK,17,Slovakia,221

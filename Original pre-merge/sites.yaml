@@ -1,0 +1,175 @@
+keywords:
+  - hydrogen
+  - renewables
+  - ammonia
+  - electricity
+  - energy
+  - solar
+  - wind
+  - hidrogeno  # Spanish for hydrogen
+  - renovable  # Spanish for renewable
+  - energía    # Spanish for energy
+
+output_dir: .
+
+sites:
+  # ==================== EXISTING TIER 1 ====================
+  - name: "Hydrogen Council Compass"
+    type: "hydrogen_council_compass_public"
+    start_urls:
+      - "https://compass.hydrogencouncil.com/"
+
+  - name: "IRENA Publications"
+    type: "irena_publications_playwright"
+    start_urls:
+      - "https://www.irena.org/Publications"
+    max_items: 50
+
+  - name: "CARB Annual Hydrogen Evaluation"
+    type: "carb_annual_h2_eval"
+    start_urls:
+      - "https://ww2.arb.ca.gov/resources/documents/annual-hydrogen-evaluation"
+
+  - name: "EIA Today in Energy"
+    type: "eia_today_in_energy"
+    start_urls:
+      - "https://www.eia.gov/todayinenergy/"
+    max_items: 50
+
+  - name: "EIA Reports & Publications"
+    type: "eia_reports_playwright"
+    start_urls:
+      - "https://www.eia.gov/reports/"
+    max_items: 100
+    min_year: 2020
+
+  - name: "ACER AEGIS CHEST (Monitoring Reports)"
+    type: "acer_chest_category"
+    start_urls:
+      - "https://aegis.acer.europa.eu/chest/category/55/list"
+    max_depth: 4
+    max_items: 200
+
+  # ==================== OMAN ====================
+  - name: "Hydrom Oman - Green Hydrogen Strategy"
+    type: "direct_pdf"
+    start_urls:
+      - "https://hydrom.om/Media/Pdf/Oman-Green-Hydrogen-Strategy-2024.pdf"
+      - "https://hydrom.om/Media/Pdf/Oman-Green-Hydrogen-Strategy-December-2024.pdf"
+
+  - name: "IEA - Renewable Hydrogen from Oman"
+    type: "direct_pdf"
+    start_urls:
+      - "https://iea.blob.core.windows.net/assets/338820b9-702a-48bd-b732-b0a43cda641b/RenewableHydrogenfromOman.pdf"
+
+  - name: "Oman Hydrogen Energy Potential (IEOM 2024)"
+    type: "direct_pdf"
+    start_urls:
+      - "https://ieomsociety.org/proceedings/oman2024/63.pdf"
+
+  - name: "Oman Green Hydrogen Strategy Presentation 2025"
+    type: "direct_pdf"
+    start_urls:
+      - "https://erranet.org/wp-content/uploads/2025/05/S5P3_Al_Miamani_Green-Hydrogen-in-Oman_Oman2025.pdf"
+
+  - name: "Oman Authority Electricity Regulation - Renewables Study"
+    type: "direct_pdf"
+    start_urls:
+      - "https://regulationbodyofknowledge.org/wp-content/uploads/2013/09/AuthorityforElectricityRegulation_Oman_Study_on.pdf"
+
+  - name: "Oman Electricity Sector Analysis (KAPSARC/ESMAP)"
+    type: "direct_pdf"
+    start_urls:
+      - "https://rise.esmap.org/sites/default/files/library/oman/Renewable%20Energy/Oman_Oman%20Electricity%20Sector_%20Features,%20Challenges%20and%20Opportunities%20for%20Market%20Integration_2019.pdf"
+
+  - name: "Oman PWP Annual Report"
+    type: "direct_pdf"
+    start_urls:
+      - "https://omanpwp.om/PDF/OPWP-AR2022-ENG1.pdf"
+
+  - name: "Oman Electricity Market Reports"
+    type: "generic_scraper"
+    start_urls:
+      - "https://www.oemo.om/"
+    max_items: 20
+
+  - name: "Green Hydrogen Organisation - Oman"
+    type: "generic_scraper"
+    start_urls:
+      - "https://gh2.org/countries/oman"
+    max_items: 10
+
+  # ==================== CHILE ====================
+  - name: "Chile Estrategia Nacional Hidrogeno Verde"
+    type: "direct_pdf"
+    start_urls:
+      - "https://energia.gob.cl/sites/default/files/estrategia_nacional_de_hidrogeno_verde_-_chile.pdf"
+      - "https://energia.gob.cl/sites/default/files/national_green_hydrogen_strategy_-_chile.pdf"
+      - "https://energia.gob.cl/sites/default/files/estrategia_h2_-_ingles.pdf"
+      - "https://energia.gob.cl/sites/default/files/documentos/green_h2_strategy_chile.pdf"
+
+  - name: "Chile Green Hydrogen Action Plan"
+    type: "direct_pdf"
+    start_urls:
+      - "https://energia.gob.cl/sites/default/files/documentos/green-hydrogen_action-plan.pdf"
+
+  - name: "Chile Guia Hidrogeno Verde"
+    type: "direct_pdf"
+    start_urls:
+      - "https://energia.gob.cl/sites/default/files/guia_hidrogeno_abril.pdf"
+      - "https://energia.gob.cl/sites/default/files/documentos/20211019_hidrogeno_y_mineria.pdf"
+
+  - name: "Chile Politica Energetica Nacional 2050"
+    type: "direct_pdf"
+    start_urls:
+      - "https://energia.gob.cl/sites/default/files/documentos/pen_2050_-_actualizado_marzo_2022_0.pdf"
+
+  - name: "Chile ERNC Mercado Electrico"
+    type: "direct_pdf"
+    start_urls:
+      - "https://www.energia.gob.cl/sites/default/files/ernc_mercado_electrico_chileno_baja_resolucion.pdf"
+      - "https://4echile.cl/wp-content/uploads/2022/01/Las-ERNC-en-el-mercado-electrico-chileno-2021.pdf"
+
+  - name: "Chile GIZ Renewable Hydrogen Project Study"
+    type: "direct_pdf"
+    start_urls:
+      - "https://energia.gob.cl/sites/default/files/documentos/estudio_significancia_final_26agosto2025_segunda_edicion_limpio.pdf"
+
+  - name: "IMO Chile Green Hydrogen Strategy Presentation"
+    type: "direct_pdf"
+    start_urls:
+      - "https://wwwcdn.imo.org/localresources/en/OurWork/Environment/Documents/Symposium%202021/Presentations/Second%20day%20-%20Blocks%203%20and%204/Block%204.3%20-%20Benjam%C3%ADn%20Maluenda-Philippi_national%20Green%20Hydrogen%20Strategy%20of%20Chile.pdf"
+
+  - name: "Chile Coordinador Electrico Nacional - Reporte Anual"
+    type: "direct_pdf"
+    start_urls:
+      - "https://www.coordinador.cl/wp-content/uploads/2024/04/CEN-ReporteArt72-15ano2023v2.pdf"
+
+  - name: "Chile CNE - Reporte Ciudadano Energia"
+    type: "direct_pdf"
+    start_urls:
+      - "https://www.cne.cl/wp-content/uploads/2024/06/RCiudadano_v202406.pdf"
+
+  - name: "Chile Ministerio Energia - Informes y Reportes"
+    type: "generic_scraper"
+    start_urls:
+      - "https://energia.gob.cl/pelp/informes-y-reportes"
+    max_items: 30
+
+  - name: "H2Chile - Asociacion Chilena Hidrogeno"
+    type: "generic_scraper"
+    start_urls:
+      - "https://h2chile.cl/"
+    max_items: 20
+
+  - name: "Green Hydrogen Organisation - Chile"
+    type: "generic_scraper"
+    start_urls:
+      - "https://gh2.org/countries/chile"
+    max_items: 10
+
+  - name: "Chile Plan Hidrogeno Verde Portal"
+    type: "generic_scraper"
+    start_urls:
+      - "https://www.planhidrogenoverde.cl/"
+    max_items: 20

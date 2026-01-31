@@ -1,0 +1,409 @@
+Country,Year,Category,Hydrogen consumption [Mt]
+Austria,2022,Total hydrogen consumption,0.12
+Austria,2022,Ammonia,0.07
+Austria,2022,Blending in natural gas pipelines,0.00
+Austria,2022,Methanol,0.00
+Austria,2022,Novel hydrogen applications,0.00
+Austria,2022,Other,0.00
+Austria,2022,Other chemicals,0.00
+Austria,2022,Refining,0.04
+Austria,2023,Total hydrogen consumption,0.13
+Austria,2023,Ammonia,0.07
+Austria,2023,Blending in natural gas pipelines,0.00
+Austria,2023,Methanol,0.00
+Austria,2023,Novel hydrogen applications,0.01
+Austria,2023,Other,0.00
+Austria,2023,Other chemicals,0.00
+Austria,2023,Refining,0.05
+Austria,2024,Total hydrogen consumption,0.13
+Austria,2024,Ammonia,0.07
+Austria,2024,Blending in natural gas pipelines,0.00
+Austria,2024,Methanol,0.00
+Austria,2024,Novel hydrogen applications,0.01
+Austria,2024,Other,0.00
+Austria,2024,Other chemicals,0.00
+Austria,2024,Refining,0.06
+Belgium,2022,Total hydrogen consumption,0.38
+Belgium,2022,Ammonia,0.14
+Belgium,2022,Blending in natural gas pipelines,0.00
+Belgium,2022,Methanol,0.00
+Belgium,2022,Novel hydrogen applications,0.03
+Belgium,2022,Other,0.00
+Belgium,2022,Other chemicals,0.04
+Belgium,2022,Refining,0.17
+Belgium,2023,Total hydrogen consumption,0.43
+Belgium,2023,Ammonia,0.17
+Belgium,2023,Blending in natural gas pipelines,0.00
+Belgium,2023,Methanol,0.00
+Belgium,2023,Novel hydrogen applications,0.03
+Belgium,2023,Other,0.00
+Belgium,2023,Other chemicals,0.04
+Belgium,2023,Refining,0.18
+Belgium,2024,Total hydrogen consumption,0.39
+Belgium,2024,Ammonia,0.13
+Belgium,2024,Blending in natural gas pipelines,0.00
+Belgium,2024,Methanol,0.00
+Belgium,2024,Novel hydrogen applications,0.04
+Belgium,2024,Other,0.00
+Belgium,2024,Other chemicals,0.04
+Belgium,2024,Refining,0.19
+Bulgaria,2022,Total hydrogen consumption,0.12
+Bulgaria,2022,Ammonia,0.05
+Bulgaria,2022,Blending in natural gas pipelines,0.00
+Bulgaria,2022,Methanol,0.00
+Bulgaria,2022,Novel hydrogen applications,0.00
+Bulgaria,2022,Other,0.00
+Bulgaria,2022,Other chemicals,0.00
+Bulgaria,2022,Refining,0.07
+Bulgaria,2023,Total hydrogen consumption,0.12
+Bulgaria,2023,Ammonia,0.06
+Bulgaria,2023,Blending in natural gas pipelines,0.00
+Bulgaria,2023,Methanol,0.00
+Bulgaria,2023,Novel hydrogen applications,0.00
+Bulgaria,2023,Other,0.00
+Bulgaria,2023,Other chemicals,0.00
+Bulgaria,2023,Refining,0.06
+Bulgaria,2024,Total hydrogen consumption,0.12
+Bulgaria,2024,Ammonia,0.06
+Bulgaria,2024,Blending in natural gas pipelines,0.00
+Bulgaria,2024,Methanol,0.00
+Bulgaria,2024,Novel hydrogen applications,0.00
+Bulgaria,2024,Other,0.00
+Bulgaria,2024,Other chemicals,0.00
+Bulgaria,2024,Refining,0.07
+Germany,2022,Total hydrogen consumption,1.74
+Germany,2022,Ammonia,0.36
+Germany,2022,Blending in natural gas pipelines,0.00
+Germany,2022,Methanol,0.15
+Germany,2022,Novel hydrogen applications,0.07
+Germany,2022,Other,0.18
+Germany,2022,Other chemicals,0.10
+Germany,2022,Refining,0.87
+Germany,2023,Total hydrogen consumption,1.39
+Germany,2023,Ammonia,0.33
+Germany,2023,Blending in natural gas pipelines,0.00
+Germany,2023,Methanol,0.08
+Germany,2023,Novel hydrogen applications,0.07
+Germany,2023,Other,0.15
+Germany,2023,Other chemicals,0.10
+Germany,2023,Refining,0.66
+Germany,2024,Total hydrogen consumption,1.49
+Germany,2024,Ammonia,0.33
+Germany,2024,Blending in natural gas pipelines,0.00
+Germany,2024,Methanol,0.11
+Germany,2024,Novel hydrogen applications,0.07
+Germany,2024,Other,0.10
+Germany,2024,Other chemicals,0.14
+Germany,2024,Refining,0.73
+Spain,2022,Total hydrogen consumption,0.61
+Spain,2022,Ammonia,0.07
+Spain,2022,Blending in natural gas pipelines,0.00
+Spain,2022,Methanol,0.00
+Spain,2022,Novel hydrogen applications,0.01
+Spain,2022,Other,0.03
+Spain,2022,Other chemicals,0.02
+Spain,2022,Refining,0.48
+Spain,2023,Total hydrogen consumption,0.57
+Spain,2023,Ammonia,0.07
+Spain,2023,Blending in natural gas pipelines,0.00
+Spain,2023,Methanol,0.00
+Spain,2023,Novel hydrogen applications,0.01
+Spain,2023,Other,0.00
+Spain,2023,Other chemicals,0.02
+Spain,2023,Refining,0.47
+Spain,2024,Total hydrogen consumption,0.62
+Spain,2024,Ammonia,0.07
+Spain,2024,Blending in natural gas pipelines,0.00
+Spain,2024,Methanol,0.00
+Spain,2024,Novel hydrogen applications,0.02
+Spain,2024,Other,0.00
+Spain,2024,Other chemicals,0.02
+Spain,2024,Refining,0.51
+Finland,2022,Total hydrogen consumption,0.18
+Finland,2022,Ammonia,0.00
+Finland,2022,Blending in natural gas pipelines,0.00
+Finland,2022,Methanol,0.00
+Finland,2022,Novel hydrogen applications,0.00
+Finland,2022,Other,0.00
+Finland,2022,Other chemicals,0.03
+Finland,2022,Refining,0.14
+Finland,2023,Total hydrogen consumption,0.18
+Finland,2023,Ammonia,0.00
+Finland,2023,Blending in natural gas pipelines,0.00
+Finland,2023,Methanol,0.00
+Finland,2023,Novel hydrogen applications,0.00
+Finland,2023,Other,0.00
+Finland,2023,Other chemicals,0.03
+Finland,2023,Refining,0.15
+Finland,2024,Total hydrogen consumption,0.16
+Finland,2024,Ammonia,0.00
+Finland,2024,Blending in natural gas pipelines,0.00
+Finland,2024,Methanol,0.00
+Finland,2024,Novel hydrogen applications,0.00
+Finland,2024,Other,0.00
+Finland,2024,Other chemicals,0.03
+Finland,2024,Refining,0.12
+France,2022,Total hydrogen consumption,0.55
+France,2022,Ammonia,0.15
+France,2022,Blending in natural gas pipelines,0.00
+France,2022,Methanol,0.00
+France,2022,Novel hydrogen applications,0.04
+France,2022,Other,0.02
+France,2022,Other chemicals,0.03
+France,2022,Refining,0.31
+France,2023,Total hydrogen consumption,0.54
+France,2023,Ammonia,0.12
+France,2023,Blending in natural gas pipelines,0.00
+France,2023,Methanol,0.00
+France,2023,Novel hydrogen applications,0.03
+France,2023,Other,0.02
+France,2023,Other chemicals,0.03
+France,2023,Refining,0.34
+France,2024,Total hydrogen consumption,0.56
+France,2024,Ammonia,0.12
+France,2024,Blending in natural gas pipelines,0.00
+France,2024,Methanol,0.00
+France,2024,Novel hydrogen applications,0.04
+France,2024,Other,0.02
+France,2024,Other chemicals,0.03
+France,2024,Refining,0.34
+Greece,2022,Total hydrogen consumption,0.33
+Greece,2022,Ammonia,0.02
+Greece,2022,Blending in natural gas pipelines,0.00
+Greece,2022,Methanol,0.00
+Greece,2022,Novel hydrogen applications,0.00
+Greece,2022,Other,0.00
+Greece,2022,Other chemicals,0.00
+Greece,2022,Refining,0.30
+Greece,2023,Total hydrogen consumption,0.34
+Greece,2023,Ammonia,0.02
+Greece,2023,Blending in natural gas pipelines,0.00
+Greece,2023,Methanol,0.00
+Greece,2023,Novel hydrogen applications,0.00
+Greece,2023,Other,0.00
+Greece,2023,Other chemicals,0.00
+Greece,2023,Refining,0.32
+Greece,2024,Total hydrogen consumption,0.35
+Greece,2024,Ammonia,0.02
+Greece,2024,Blending in natural gas pipelines,0.00
+Greece,2024,Methanol,0.00
+Greece,2024,Novel hydrogen applications,0.00
+Greece,2024,Other,0.00
+Greece,2024,Other chemicals,0.00
+Greece,2024,Refining,0.33
+Hungary,2022,Total hydrogen consumption,0.19
+Hungary,2022,Ammonia,0.06
+Hungary,2022,Blending in natural gas pipelines,0.00
+Hungary,2022,Methanol,0.00
+Hungary,2022,Novel hydrogen applications,0.01
+Hungary,2022,Other,0.00
+Hungary,2022,Other chemicals,0.07
+Hungary,2022,Refining,0.06
+Hungary,2023,Total hydrogen consumption,0.20
+Hungary,2023,Ammonia,0.07
+Hungary,2023,Blending in natural gas pipelines,0.00
+Hungary,2023,Methanol,0.00
+Hungary,2023,Novel hydrogen applications,0.01
+Hungary,2023,Other,0.00
+Hungary,2023,Other chemicals,0.06
+Hungary,2023,Refining,0.06
+Hungary,2024,Total hydrogen consumption,0.18
+Hungary,2024,Ammonia,0.06
+Hungary,2024,Blending in natural gas pipelines,0.00
+Hungary,2024,Methanol,0.00
+Hungary,2024,Novel hydrogen applications,0.01
+Hungary,2024,Other,0.00
+Hungary,2024,Other chemicals,0.06
+Hungary,2024,Refining,0.06
+Italy,2022,Total hydrogen consumption,0.61
+Italy,2022,Ammonia,0.08
+Italy,2022,Blending in natural gas pipelines,0.00
+Italy,2022,Methanol,0.00
+Italy,2022,Novel hydrogen applications,0.01
+Italy,2022,Other,0.01
+Italy,2022,Other chemicals,0.01
+Italy,2022,Refining,0.50
+Italy,2023,Total hydrogen consumption,0.55
+Italy,2023,Ammonia,0.02
+Italy,2023,Blending in natural gas pipelines,0.00
+Italy,2023,Methanol,0.00
+Italy,2023,Novel hydrogen applications,0.01
+Italy,2023,Other,0.01
+Italy,2023,Other chemicals,0.01
+Italy,2023,Refining,0.51
+Italy,2024,Total hydrogen consumption,0.56
+Italy,2024,Ammonia,0.06
+Italy,2024,Blending in natural gas pipelines,0.00
+Italy,2024,Methanol,0.00
+Italy,2024,Novel hydrogen applications,0.01
+Italy,2024,Other,0.01
+Italy,2024,Other chemicals,0.01
+Italy,2024,Refining,0.47
+Lithuania,2022,Total hydrogen consumption,0.14
+Lithuania,2022,Ammonia,0.10
+Lithuania,2022,Blending in natural gas pipelines,0.00
+Lithuania,2022,Methanol,0.00
+Lithuania,2022,Novel hydrogen applications,0.00
+Lithuania,2022,Other,0.00
+Lithuania,2022,Other chemicals,0.00
+Lithuania,2022,Refining,0.05
+Lithuania,2023,Total hydrogen consumption,0.14
+Lithuania,2023,Ammonia,0.09
+Lithuania,2023,Blending in natural gas pipelines,0.00
+Lithuania,2023,Methanol,0.00
+Lithuania,2023,Novel hydrogen applications,0.00
+Lithuania,2023,Other,0.00
+Lithuania,2023,Other chemicals,0.00
+Lithuania,2023,Refining,0.05
+Lithuania,2024,Total hydrogen consumption,0.14
+Lithuania,2024,Ammonia,0.09
+Lithuania,2024,Blending in natural gas pipelines,0.00
+Lithuania,2024,Methanol,0.00
+Lithuania,2024,Novel hydrogen applications,0.00
+Lithuania,2024,Other,0.00
+Lithuania,2024,Other chemicals,0.00
+Lithuania,2024,Refining,0.05
+Netherlands,2022,Total hydrogen consumption,1.01
+Netherlands,2022,Ammonia,0.26
+Netherlands,2022,Blending in natural gas pipelines,0.00
+Netherlands,2022,Methanol,0.02
+Netherlands,2022,Novel hydrogen applications,0.04
+Netherlands,2022,Other,0.04
+Netherlands,2022,Other chemicals,0.32
+Netherlands,2022,Refining,0.33
+Netherlands,2023,Total hydrogen consumption,1.20
+Netherlands,2023,Ammonia,0.40
+Netherlands,2023,Blending in natural gas pipelines,0.00
+Netherlands,2023,Methanol,0.00
+Netherlands,2023,Novel hydrogen applications,0.02
+Netherlands,2023,Other,0.04
+Netherlands,2023,Other chemicals,0.31
+Netherlands,2023,Refining,0.44
+Netherlands,2024,Total hydrogen consumption,1.05
+Netherlands,2024,Ammonia,0.37
+Netherlands,2024,Blending in natural gas pipelines,0.00
+Netherlands,2024,Methanol,0.00
+Netherlands,2024,Novel hydrogen applications,0.03
+Netherlands,2024,Other,0.02
+Netherlands,2024,Other chemicals,0.20
+Netherlands,2024,Refining,0.43
+Poland,2022,Total hydrogen consumption,0.78
+Poland,2022,Ammonia,0.37
+Poland,2022,Blending in natural gas pipelines,0.00
+Poland,2022,Methanol,0.00
+Poland,2022,Novel hydrogen applications,0.01
+Poland,2022,Other,0.01
+Poland,2022,Other chemicals,0.01
+Poland,2022,Refining,0.38
+Poland,2023,Total hydrogen consumption,0.73
+Poland,2023,Ammonia,0.32
+Poland,2023,Blending in natural gas pipelines,0.00
+Poland,2023,Methanol,0.00
+Poland,2023,Novel hydrogen applications,0.01
+Poland,2023,Other,0.01
+Poland,2023,Other chemicals,0.01
+Poland,2023,Refining,0.38
+Poland,2024,Total hydrogen consumption,0.68
+Poland,2024,Ammonia,0.32
+Poland,2024,Blending in natural gas pipelines,0.00
+Poland,2024,Methanol,0.00
+Poland,2024,Novel hydrogen applications,0.01
+Poland,2024,Other,0.01
+Poland,2024,Other chemicals,0.01
+Poland,2024,Refining,0.33
+Portugal,2022,Total hydrogen consumption,0.10
+Portugal,2022,Ammonia,0.00
+Portugal,2022,Blending in natural gas pipelines,0.00
+Portugal,2022,Methanol,0.00
+Portugal,2022,Novel hydrogen applications,0.01
+Portugal,2022,Other,0.00
+Portugal,2022,Other chemicals,0.01
+Portugal,2022,Refining,0.09
+Portugal,2023,Total hydrogen consumption,0.11
+Portugal,2023,Ammonia,0.00
+Portugal,2023,Blending in natural gas pipelines,0.00
+Portugal,2023,Methanol,0.00
+Portugal,2023,Novel hydrogen applications,0.00
+Portugal,2023,Other,0.00
+Portugal,2023,Other chemicals,0.01
+Portugal,2023,Refining,0.10
+Portugal,2024,Total hydrogen consumption,0.13
+Portugal,2024,Ammonia,0.00
+Portugal,2024,Blending in natural gas pipelines,0.00
+Portugal,2024,Methanol,0.00
+Portugal,2024,Novel hydrogen applications,0.00
+Portugal,2024,Other,0.00
+Portugal,2024,Other chemicals,0.01
+Portugal,2024,Refining,0.12
+Romania,2022,Total hydrogen consumption,0.13
+Romania,2022,Ammonia,0.04
+Romania,2022,Blending in natural gas pipelines,0.00
+Romania,2022,Methanol,0.01
+Romania,2022,Novel hydrogen applications,0.00
+Romania,2022,Other,0.00
+Romania,2022,Other chemicals,0.00
+Romania,2022,Refining,0.07
+Romania,2023,Total hydrogen consumption,0.10
+Romania,2023,Ammonia,0.01
+Romania,2023,Blending in natural gas pipelines,0.00
+Romania,2023,Methanol,0.02
+Romania,2023,Novel hydrogen applications,0.00
+Romania,2023,Other,0.00
+Romania,2023,Other chemicals,0.00
+Romania,2023,Refining,0.06
+Romania,2024,Total hydrogen consumption,0.12
+Romania,2024,Ammonia,0.05
+Romania,2024,Blending in natural gas pipelines,0.00
+Romania,2024,Methanol,0.00
+Romania,2024,Novel hydrogen applications,0.00
+Romania,2024,Other,0.00
+Romania,2024,Other chemicals,0.00
+Romania,2024,Refining,0.07
+Sweden,2022,Total hydrogen consumption,0.17
+Sweden,2022,Ammonia,0.00
+Sweden,2022,Blending in natural gas pipelines,0.00
+Sweden,2022,Methanol,0.01
+Sweden,2022,Novel hydrogen applications,0.01
+Sweden,2022,Other,0.00
+Sweden,2022,Other chemicals,0.02
+Sweden,2022,Refining,0.13
+Sweden,2023,Total hydrogen consumption,0.16
+Sweden,2023,Ammonia,0.00
+Sweden,2023,Blending in natural gas pipelines,0.00
+Sweden,2023,Methanol,0.01
+Sweden,2023,Novel hydrogen applications,0.01
+Sweden,2023,Other,0.00
+Sweden,2023,Other chemicals,0.02
+Sweden,2023,Refining,0.12
+Sweden,2024,Total hydrogen consumption,0.16
+Sweden,2024,Ammonia,0.00
+Sweden,2024,Blending in natural gas pipelines,0.00
+Sweden,2024,Methanol,0.00
+Sweden,2024,Novel hydrogen applications,0.01
+Sweden,2024,Other,0.00
+Sweden,2024,Other chemicals,0.02
+Sweden,2024,Refining,0.12
+Slovakia,2022,Total hydrogen consumption,0.10
+Slovakia,2022,Ammonia,0.01
+Slovakia,2022,Blending in natural gas pipelines,0.00
+Slovakia,2022,Methanol,0.00
+Slovakia,2022,Novel hydrogen applications,0.00
+Slovakia,2022,Other,0.00
+Slovakia,2022,Other chemicals,0.00
+Slovakia,2022,Refining,0.09
+Slovakia,2023,Total hydrogen consumption,0.17
+Slovakia,2023,Ammonia,0.08
+Slovakia,2023,Blending in natural gas pipelines,0.00
+Slovakia,2023,Methanol,0.00
+Slovakia,2023,Novel hydrogen applications,0.00
+Slovakia,2023,Other,0.00
+Slovakia,2023,Other chemicals,0.01
+Slovakia,2023,Refining,0.08
+Slovakia,2024,Total hydrogen consumption,0.16
+Slovakia,2024,Ammonia,0.08
+Slovakia,2024,Blending in natural gas pipelines,0.00
+Slovakia,2024,Methanol,0.00
+Slovakia,2024,Novel hydrogen applications,0.00
+Slovakia,2024,Other,0.00
+Slovakia,2024,Other chemicals,0.01
+Slovakia,2024,Refining,0.07
