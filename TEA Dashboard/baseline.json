@@ -1,0 +1,20 @@
+{
+  "lcoh_usd_per_kg": 7.189855657318846,
+  "lcoa_usd_per_kg": 1.6670433541304548,
+  "lcoe_usd_per_mwh": 105.36486095556941,
+  "npv": 468.46014821415247,
+  "irr_pct": -6.63715307826096,
+  "capex": 2609.70673277751,
+  "nh3_prod_tpa": 175245.83258429734,
+  "h2_prod_tpa": 31895.85629618019,
+  "cf_nh3_pct": 80.02092812068372,
+  "cf_h2_pct": 49.7701803267879,
+  "solar_capacity_mw": 400.0,
+  "wind_capacity_mw": 400.0,
+  "electrolyser_capacity_mw": 400.0,
+  "assumptions": {},
+  "source": {
+    "model": "SHARE",
+    "location_dir": "/home/shadi/Dropbox/SHARE_Model_LLM/Duqm_Oman"
+  }
+}
