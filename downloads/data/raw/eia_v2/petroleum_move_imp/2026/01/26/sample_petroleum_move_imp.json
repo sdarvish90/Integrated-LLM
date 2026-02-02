@@ -1,0 +1,100 @@
+{
+  "warnings": [
+    {
+      "warning": "incomplete return",
+      "description": "The API can only return 5000 rows in JSON format.  Please consider constraining your request with facet, start, or end, or using offset to paginate results."
+    }
+  ],
+  "response": {
+    "total": "228082",
+    "dateFormat": "YYYY-MM",
+    "frequency": "monthly",
+    "data": [
+      {
+        "period": "2025-10",
+        "duoarea": "R40-Z00",
+        "area-name": "PADD 4",
+        "product": "EP00",
+        "product-name": "Crude Oil and Petroleum Products",
+        "process": "IM0",
+        "process-name": "Imports",
+        "series": "MTTIMP41",
+        "series-description": "Rocky Mountain (PADD 4) Imports of Crude Oil and Petroleum Products (Thousand Barrels)",
+        "value": "13778",
+        "units": "MBBL"
+      },
+      {
+        "period": "2025-10",
+        "duoarea": "R10-Z00",
+        "area-name": "PADD 1",
+        "product": "EPPNS",
+        "product-name": "Special Naphthas",
+        "process": "IM0",
+        "process-name": "Imports",
+        "series": "MNSIMP12",
+        "series-description": "East Coast (PADD 1) Imports of Special Naphthas (Thousand Barrels per Day)",
+        "value": "0",
+        "units": "MBBL/D"
+      },
+      {
+        "period": "2025-10",
+        "duoarea": "R50-Z00",
+        "area-name": "PADD 5",
+        "product": "EPC0",
+        "product-name": "Crude Oil",
+        "process": "IM0",
+        "process-name": "Imports",
+        "series": "MCRIMP51",
+        "series-description": "West Coast (PADD 5) Imports of Crude Oil (Thousand Barrels)",
+        "value": "30019",
+        "units": "MBBL"
+      },
+      {
+        "period": "2025-10",
+        "duoarea": "R10-Z00",
+        "area-name": "PADD 1",
+        "product": "EPC0",
+        "product-name": "Crude Oil",
+        "process": "IM0",
+        "process-name": "Imports",
+        "series": "MCRIMP12",
+        "series-description": "East Coast (PADD 1) Imports of Crude Oil (Thousand Barrels per Day)",
+        "value": "733",
+        "units": "MBBL/D"
+      },
+      {
+        "period": "2025-10",
+        "duoarea": "R20-Z00",
+        "area-name": "PADD 2",
+        "product": "EPC0",
+        "product-name": "Crude Oil",
+        "process": "IM0",
+        "process-name": "Imports",
+        "series": "MCRIMP22",
+        "series-description": "Midwest (PADD 2) Imports of Crude Oil (Thousand Barrels per Day)",
+        "value": "2818",
+        "units": "MBBL/D"
+      }
+    ]
+  },
+  "request": {
+    "command": "/v2/petroleum/move/imp/data/",
+    "params": {
+      "api_key": "o5nQ7H9b6Bf9Kh3D0cCeC8ydP24drGTiFGaCQrKN",
+      "frequency": "monthly",
+      "data": [
+        "value"
+      ],
+      "sort": [
+        {
+          "column": "period",
+          "direction": "desc"
+        }
+      ],
+      "length": "5",
+      "offset": "0"
+    }
+  },
+  "apiVersion": "2.1.10",
+  "ExcelAddInVersion": "2.1.0"
+}

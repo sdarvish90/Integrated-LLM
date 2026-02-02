@@ -1,0 +1,29 @@
+Title: Demand Queue Call for Input (CFI) (interconnection_queue, Tier 1)
+URL: https://www.neso.energy/industry-information/connections/demand-queue-call-input-cfi
+Date: 2026-01-28
+======================================================================
+
+Demand Queue Call for Input (CFI)
+There has been a recent surge in demand connection applications which exceeds even the most ambitious forecasts for future demand. This trend creates challenges, particularly for the timely connection of viable demand projects in the queue.
+In collaboration with government and Ofgem, NESO is working at pace to identify and implement solutions that ensure fair and efficient access to the transmission network. A critical part of this effort is ensuring that decisions are based on accurate, up-to-date data about the existing queue.
+To support this, we are launching a
+Call for Input (CfI)
+today, aimed at
+customers with an existing transmission-level demand connection agreement
+as well as those with
+directly connected generation agreements that include demand technologies
+. This is being issued in parallel with
+Ofgem's guidance
+on demand connections, which sets out expectations for reform and highlights the need for improved transparency and data quality across the queue.
+This CfI is your opportunity to help shape how the demand queue is understood and managed. By providing information on key themes, such as project details, connection status, project timelines, financial readiness, and project maturity, you will help shape how future connections are managed and ensure fairness across the queue.
+Why respond?
+Your input will:
+Ensure your project’s readiness and viability are correctly reflected in queue data assessments
+Help identify potential opportunities to accelerate viable demand connections
+Inform policy and process improvements that support fairer outcomes
+Next Steps
+Today (6 November), NESO will begin contacting all customers who hold an existing directly connected transmission-level demand agreement, as well as those with directly connected generation agreements that include demand technologies (i.e. co-located sites), to request their input.
+If you have multiple relevant projects, please complete a separate form for each project to ensure each one is accurately represented.
+If you believe you should have received this communication, because you hold an existing connection agreement with NESO linked to a directly connected demand-technology type, but haven’t heard from us by 7 November, please get in touch at
+[email protected]
+The deadline for responding to the CFI is 5pm on 5 December 2025

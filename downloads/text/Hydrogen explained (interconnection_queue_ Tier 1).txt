@@ -1,0 +1,33 @@
+Title: Hydrogen explained (interconnection_queue, Tier 1)
+URL: https://www.neso.energy/energy-101/hydrogen-explained
+Date: 2026-01-28
+======================================================================
+
+Image
+Hydrogen explained
+Add to favourites
+Close tooltip
+Sign in to add this page to your favourites
+Sign in or register
+Hydrogen is a growing part of the energy system. As NESO, we have been building our hydrogen expertise during our journey to being NESO and we would love to share it with you.
+Have you heard about hydrogen? It’s been all over the news in Great Britain as a possible low-carbon alternative fuel that could replace some of the fossil fuels we currently use.
+So, if you’re finding yourself asking what hydrogen is and how it could help Great Britain achieve a cleaner and fairer energy system, you’ve come to the right place: Hydrogen Explained.
+What is hydrogen?
+Hydrogen is an element, which you’ll remember seeing on the periodic table at school. Combined with other elements, it is found all around us in water, plants, animals and the materials we use every day.
+On its own, hydrogen is a flammable gas and could be a really important future low-carbon fuel: when it is used to produce heat or electricity, the outputs are just clean energy and pure water.
+Hydrogen can also be used to make more complex fuels by combining it with carbon emissions that are captured from the air. These hydrogen-based fuels include ammonia (which is also used to make artificial fertilizer), methanol (you might use this to clean paint brushes), or even kerosene (which already fuels the aircraft we holiday in).
+Burning some of these more complex fuels will release carbon emissions, but if the fuels are originally made from captured carbon emissions, then no new carbon is being put into the atmosphere. Instead, existing emissions would be stored temporarily before being released again, making them net-zero fuels.
+Where does hydrogen come from?
+Hydrogen gas is rare on earth and if we want to use it in our everyday lives, we’ll need to extract it sustainably from the world around us. Businesses that produce hydrogen start with something that already has hydrogen in, like water or a fossil fuel (like natural gas).
+Companies that start with natural gas take the methane it contains and reform it using hot steam to produce hydrogen and carbon monoxide. Businesses already produce hydrogen this way in some chemical manufacturing processes. To make sure the hydrogen is considered low-carbon in the future, businesses will have to capture and store the carbon emissions for generations to come. This low-carbon hydrogen is commonly called blue hydrogen.
+If a company starts with water, they apply electricity in a machine called an electrolyser. An electrolyser splits water into its component elements: oxygen that we can breathe and hydrogen that can be used as a fuel. This hydrogen is called green hydrogen when the electricity used comes from any renewable source, like solar farms or wind farms.
+How does hydrogen move around?
+Today, most hydrogen being used in industry is transported through pipelines on industrial chemical sites. Early assessments indicate this might be the most economic way to transport the larger quantities of hydrogen needed in the future, although there are other potential transportation methods.
+When businesses only need to move small amounts at a time, they usually do this as a gas in cylinders moved by trucks. If they need to move lots of it, it is possible turn it into a liquid by cooling it to ‑253°C, so that much greater amounts can be put onto a ship or into a truck.
+Because hydrogen on its own is highly flammable, it requires special vehicles and safety measures to move it around. Some businesses find it easier to move hydrogen in other forms, so convert it into more advanced fuels like ammonia or methanol, or using new techniques to store hydrogen in solid forms. These can be used moving existing ships and trucks that are widely available.
+What could we use it for?
+Low-carbon hydrogen isn’t commonly used for energy production at the moment, but UK Government has a strategy for how hydrogen will have an increasingly important role in decarbonising Great Britain. In particular, there are some difficult to decarbonise sectors that will need hydrogen to meet the UK’s legally binding Net Zero target.
+Hydrogen is already a key industrial chemical, and it will gain importance as a tool for decarbonising many of our industrial processes. For example, producing iron and steel often involves using coal and emits carbon dioxide, so hydrogen could be used instead of coal to decarbonise iron and steelmaking.
+Other uses could include areas where electrification may not be suitable, like industrial heat (like burning hydrogen as a fuel to melt steel) and transportation (potentially fuelling ships, trains and aircraft).
+Hydrogen could also have a major role in generating, storing and moving electricity. For example, solar farms in Cornwall or wind farms in Scotland could be used to generate electricity for producing green hydrogen. The hydrogen could be transported by pipeline to another part of Great Britain and stored for long periods of time. The hydrogen can then be burned in a power station on days when there isn’t enough wind or solar to meet our needs, giving us on-demand electricity without producing any carbon emissions.
+As NESO, Government wants us to plan how hydrogen will be incorporated into the energy system of Great Britain to support the economy.

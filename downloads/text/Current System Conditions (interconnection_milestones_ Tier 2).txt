@@ -1,0 +1,24 @@
+Title: Current System Conditions (interconnection_milestones, Tier 2)
+URL: https://www.ercot.com/gridinfo/csc
+Date: 2026-01-28
+======================================================================
+
+Home
+Grid Information
+Current System Conditions
+Current System Conditions
+View dashboards for current system conditions such as frequency, load, and system capacity in the ERCOT control area.
+Current Information
+Capacity Available to SCED
+Find the comparison of Aggregated High and Low Ancillary Service Limits to Net Generation for Resources Available to SCED.
+Combined Wind and Solar
+Combined Wind and Solar is a graphical representation of the most recent estimated wind and solar power production amounts for the Current Operating Day (COP).
+Real-Time System Conditions
+View displays of real-time system conditions including frequency, DC tie flows and wind output.
+System Ancillary Service Capacity
+View displays of responsive reserve, non-spin, and regulation up/down capacity as well as capacity to increase/decrease base points and physical responsive capacity.
+System-Wide Demand
+System-Wide Demand is a graphical representation of the ERCOT system’s current power supply and demand using Real-Time data, as well as projected power supply and demand from hourly forecasts.
+Disclaimer
+The data and prices provided through the links above are preliminary and not reflective of real time conditions. Such information should not be relied upon for settlement or other purposes. ERCOT makes no representations or warranties regarding the correctness or veracity of the data and prices provided through the links above and shall not be responsible for any parties' reliance on any such information.
+ERCOT-Lockup-white

@@ -1,0 +1,35 @@
+Title: Hydrogen Storage
+URL: https://www.nrel.gov/hydrogen/storage
+Date: 2026-01-28
+======================================================================
+
+Hydrogen Storage
+With support from the U.S. Department of Energy (DOE), NLR develops comprehensive storage solutions, with a focus on hydrogen storage material properties, storage system configurations, interface requirements, and well-to-wheel analyses.
+NLR's current activities include quantifying storage characteristics of novel materials and helping achieve DOE storage targets for stationary and transportation applications. NLR co-leads the
+Hydrogen Materials Advanced Research Consortium
+(HyMARC), which combines the expertise of five national laboratories to develop clean, low-cost, materials-based hydrogen storage systems that exceed the capabilities of physical storage.
+Publications
+Balancing Molecular Level Influences of Intermolecular Frustrated Lewis Pairs (FLP) for Successful Design of FLP Catalysts for Hydrogen Storage Applications
+,
+International Journal of Hydrogen Energy
+(2023)
+Chapter 10.02 – Neutron Scattering Studies of Materials for Hydrogen Storage
+,
+Comprehensive Inorganic Chemistry III
+(2023)
+Multivariate Flexible Framework with High Usable Hydrogen Capacity in a Reduced Pressure Swing Process
+,
+Journal of the American Chemical Society
+(2023)
+Phototriggered Desorption of Hydrogen, Ethylene, and Carbon Monoxide from a Cu(I)-Modified Covalent Organic Framework
+,
+Journal of Physical Chemistry C
+(2022)
+Thermal Decomposition of Magnesium Borohydride: New Insights from Synchrotron X-Ray Scattering
+,
+Chemistry of Materials
+(2022)
+Search NLR's
+publications database
+for more publications about hydrogen storage research.
+Contact

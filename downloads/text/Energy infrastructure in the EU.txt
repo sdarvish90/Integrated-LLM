@@ -1,0 +1,33 @@
+Title: Energy infrastructure in the EU
+URL: https://energy.ec.europa.eu/energy-explained/energy-infrastructure-eu_en
+Date: 2026-01-28
+======================================================================
+
+The EU supports diverse and often cross-border energy infrastructure projects that produce, store, and distribute energy efficiently. This support contributes to a more integrated energy system, which is essential to achieve our energy policy and climate objectives. In addition to interconnecting the energy infrastructure and further integrate renewables and clean technologies into the EU energy system, these projects help to reduce the EU’s dependence on third-country energy imports.
+Interactive map
+The interactive map below provides a snapshot of EU energy infrastructure projects while also showing the main electricity sources per country. Explore it to find out more!
+Disclaimer
+The projects featured on this map illustrate some of the EU’s policy achievements on energy infrastructure. This is not an exhaustive list and the inclusion of these projects does not signify that they have been prioritised over the many others that EU energy policy facilitates and supports, which are all equally relevant.
+Energy Sources
+Gas
+Gas includes mostly natural gas and derived gases.
+Wind
+The kinetic energy of wind converted into electricity in wind turbines.
+Solar
+The solar radiation exploited for solar heat (hot water) and electricity production.
+Hydro
+The electricity generated from the potential and kinetic energy of water in hydroelectric plants (the electricity generated in pumped storage plants is not included).
+Nuclear
+Nuclear heat is the thermal energy produced in a nuclear power plant (nuclear energy). It is obtained from the nuclear fission of atoms, usually of uranium and plutonium.
+Solid fossil fuels (coal, peat, etc.)
+Solid fuels are fossil fuels covering various types of coals and solid products derived from coals. They consist of carbonised vegetable matter and usually have the physical appearance of a black or brown rock.
+Oil and petroleum products
+Total petroleum products are fossil fuels (usually in liquid state) and include crude oil and all products derived from it (e.g. when processed in oil refineries), including motor gasoline, diesel oil, fuel oil, etc.
+Biomass
+Also known as solid biofuels: organic, non-fossil material of biological origin, which may be used for heat production or electricity generation. It includes: charcoal; wood and wood waste; black liquor, bagasse, animal waste and other vegetal materials and residuals.
+Electricity mix is a share of each fuel (energy carrier) in gross electricity production in a EU country
+Related Links
+Find out more about
+EU energy infrastructure
+See all Projects of Common Interest on the
+PCI interactive map

@@ -1,0 +1,469 @@
+{
+  "_metadata": {
+    "description": "Water costs by country: desalination (SWRO) and municipal/industrial supply (USD/m3)",
+    "last_updated": "2025-01",
+    "sources": [
+      "IDA Desalination Yearbook 2024",
+      "Global Water Intelligence (GWI) 2024",
+      "OECD Environment Statistics – Water Prices 2023",
+      "World Bank IBNET Water Tariff Database",
+      "National utility tariff schedules",
+      "IRENA Green Hydrogen Cost Reduction (2020)"
+    ],
+    "notes": "Desal prices assume modern large-scale SWRO plants (>50,000 m3/d). Municipal prices are industrial/bulk tariffs. Actual costs vary by volume, contract, and local conditions."
+  },
+  "countries": {
+    "OM": {
+      "name": "Oman",
+      "desal_usd_m3": 0.80,
+      "municipal_usd_m3": 1.40,
+      "note": "Major SWRO capacity (Barka, Sur, Ghubrah); industrial water subsidized"
+    },
+    "SA": {
+      "name": "Saudi Arabia",
+      "desal_usd_m3": 0.60,
+      "municipal_usd_m3": 1.00,
+      "note": "World's largest desal capacity; SWPC contracts at $0.50-0.70/m3"
+    },
+    "AE": {
+      "name": "UAE",
+      "desal_usd_m3": 0.75,
+      "municipal_usd_m3": 1.20,
+      "note": "Shifting from MSF to SWRO; Taweelah IWP at $0.55/m3"
+    },
+    "QA": {
+      "name": "Qatar",
+      "desal_usd_m3": 0.85,
+      "municipal_usd_m3": 1.10,
+      "note": "MSF/MED dominant; Ras Abu Fontas expansion"
+    },
+    "KW": {
+      "name": "Kuwait",
+      "desal_usd_m3": 0.90,
+      "municipal_usd_m3": 0.80,
+      "note": "Heavily subsidized municipal water; Az-Zour SWRO $0.60/m3"
+    },
+    "BH": {
+      "name": "Bahrain",
+      "desal_usd_m3": 0.85,
+      "municipal_usd_m3": 1.30,
+      "note": "Al Dur SWRO plant; small-scale industrial supply"
+    },
+    "JO": {
+      "name": "Jordan",
+      "desal_usd_m3": 1.50,
+      "municipal_usd_m3": 2.50,
+      "note": "Water-scarce; Aqaba-Amman desal pipeline planned; high distribution costs"
+    },
+    "IQ": {
+      "name": "Iraq",
+      "desal_usd_m3": null,
+      "municipal_usd_m3": 0.30,
+      "note": "Freshwater from Tigris/Euphrates; heavily subsidized; no desal needed"
+    },
+    "IR": {
+      "name": "Iran",
+      "desal_usd_m3": 1.00,
+      "municipal_usd_m3": 0.20,
+      "note": "Subsidized; southern coast desal expansion; freshwater scarce in central/east"
+    },
+
+    "MA": {
+      "name": "Morocco",
+      "desal_usd_m3": 0.90,
+      "municipal_usd_m3": 1.50,
+      "note": "Casablanca desal plant (largest in Africa); Dakhla planned for green H2"
+    },
+    "EG": {
+      "name": "Egypt",
+      "desal_usd_m3": 0.80,
+      "municipal_usd_m3": 0.60,
+      "note": "Nile water cheap; Red Sea coast desal for industrial zones"
+    },
+    "TN": {
+      "name": "Tunisia",
+      "desal_usd_m3": 1.10,
+      "municipal_usd_m3": 0.80,
+      "note": "Sfax/Djerba SWRO; SONEDE tariffs tiered"
+    },
+    "DZ": {
+      "name": "Algeria",
+      "desal_usd_m3": 0.85,
+      "municipal_usd_m3": 0.25,
+      "note": "13 SWRO plants; municipal water heavily subsidized"
+    },
+    "LY": {
+      "name": "Libya",
+      "desal_usd_m3": 1.20,
+      "municipal_usd_m3": 0.15,
+      "note": "Great Man-Made River project; desal limited; water near-free"
+    },
+
+    "ZA": {
+      "name": "South Africa",
+      "desal_usd_m3": 1.50,
+      "municipal_usd_m3": 2.00,
+      "note": "Cape Town drought drove desal investment; municipal rising fast"
+    },
+    "NA_COUNTRY": {
+      "name": "Namibia",
+      "desal_usd_m3": 1.80,
+      "municipal_usd_m3": 2.50,
+      "note": "Erongo desal; NamWater bulk tariff; arid conditions"
+    },
+    "KE": {
+      "name": "Kenya",
+      "desal_usd_m3": 1.50,
+      "municipal_usd_m3": 1.80,
+      "note": "Mombasa desal planned; Nairobi water tariffs rising"
+    },
+    "NG": {
+      "name": "Nigeria",
+      "desal_usd_m3": null,
+      "municipal_usd_m3": 1.50,
+      "note": "Freshwater available; municipal supply unreliable; self-supply common"
+    },
+    "ET": {
+      "name": "Ethiopia",
+      "desal_usd_m3": null,
+      "municipal_usd_m3": 0.40,
+      "note": "Freshwater abundant (Blue Nile); very low tariffs"
+    },
+    "MZ": {
+      "name": "Mozambique",
+      "desal_usd_m3": null,
+      "municipal_usd_m3": 0.80,
+      "note": "River/groundwater; FIPAG tariffs; limited infrastructure"
+    },
+    "TZ": {
+      "name": "Tanzania",
+      "desal_usd_m3": null,
+      "municipal_usd_m3": 1.00,
+      "note": "DAWASCO supply; freshwater from lakes/rivers"
+    },
+    "GH": {
+      "name": "Ghana",
+      "desal_usd_m3": 1.80,
+      "municipal_usd_m3": 1.50,
+      "note": "Teshie-Nungua desal; Ghana Water Company tariffs"
+    },
+    "SN": {
+      "name": "Senegal",
+      "desal_usd_m3": 1.50,
+      "municipal_usd_m3": 1.80,
+      "note": "Dakar desal plants; SDE tariffs"
+    },
+
+    "CL": {
+      "name": "Chile",
+      "desal_usd_m3": 1.00,
+      "municipal_usd_m3": 2.50,
+      "note": "Mining drives desal in Atacama; cheapest SWRO in LatAm; municipal tiered"
+    },
+    "BR": {
+      "name": "Brazil",
+      "desal_usd_m3": null,
+      "municipal_usd_m3": 2.00,
+      "note": "Abundant freshwater; Sabesp/Copasa tariffs; NE Brazil has brackish desal"
+    },
+    "AR": {
+      "name": "Argentina",
+      "desal_usd_m3": null,
+      "municipal_usd_m3": 0.50,
+      "note": "Freshwater abundant; heavily subsidized water tariffs"
+    },
+    "CO": {
+      "name": "Colombia",
+      "desal_usd_m3": null,
+      "municipal_usd_m3": 1.50,
+      "note": "Freshwater abundant; tiered tariff system"
+    },
+    "PE": {
+      "name": "Peru",
+      "desal_usd_m3": 1.20,
+      "municipal_usd_m3": 1.00,
+      "note": "Coastal desal growing; SEDAPAL tariffs"
+    },
+    "UY": {
+      "name": "Uruguay",
+      "desal_usd_m3": null,
+      "municipal_usd_m3": 1.80,
+      "note": "OSE state utility; freshwater but drought risk"
+    },
+    "PY": {
+      "name": "Paraguay",
+      "desal_usd_m3": null,
+      "municipal_usd_m3": 0.40,
+      "note": "Abundant water (Parana/Paraguay rivers); ESSAP tariffs very low"
+    },
+    "EC": {
+      "name": "Ecuador",
+      "desal_usd_m3": null,
+      "municipal_usd_m3": 0.60,
+      "note": "Freshwater abundant; EPMAPS tariffs"
+    },
+    "MX": {
+      "name": "Mexico",
+      "desal_usd_m3": 1.20,
+      "municipal_usd_m3": 1.50,
+      "note": "Baja California SWRO; CONAGUA tariffs vary by state"
+    },
+
+    "AU": {
+      "name": "Australia",
+      "desal_usd_m3": 1.50,
+      "municipal_usd_m3": 3.50,
+      "note": "Perth/Sydney/Melbourne desal plants; water pricing among highest globally"
+    },
+    "NZ": {
+      "name": "New Zealand",
+      "desal_usd_m3": null,
+      "municipal_usd_m3": 2.50,
+      "note": "Freshwater abundant; council-set water rates"
+    },
+    "IN_COUNTRY": {
+      "name": "India",
+      "desal_usd_m3": 0.70,
+      "municipal_usd_m3": 0.50,
+      "note": "Chennai/Gujarat desal; industrial tariffs low; groundwater depletion issue"
+    },
+    "CN": {
+      "name": "China",
+      "desal_usd_m3": 0.80,
+      "municipal_usd_m3": 0.60,
+      "note": "Tianjin/Qingdao SWRO; industrial water 3-6 RMB/m3"
+    },
+    "JP": {
+      "name": "Japan",
+      "desal_usd_m3": 1.50,
+      "municipal_usd_m3": 2.50,
+      "note": "Fukuoka desal; municipal tariffs vary by prefecture"
+    },
+    "KR": {
+      "name": "South Korea",
+      "desal_usd_m3": 1.20,
+      "municipal_usd_m3": 1.00,
+      "note": "K-water tariffs; island desal plants"
+    },
+    "VN": {
+      "name": "Vietnam",
+      "desal_usd_m3": null,
+      "municipal_usd_m3": 0.50,
+      "note": "Freshwater from Mekong; industrial tariffs 8,000-12,000 VND/m3"
+    },
+    "TH": {
+      "name": "Thailand",
+      "desal_usd_m3": null,
+      "municipal_usd_m3": 0.80,
+      "note": "MWA/PWA supply; industrial zones 15-30 THB/m3"
+    },
+    "ID": {
+      "name": "Indonesia",
+      "desal_usd_m3": 1.00,
+      "municipal_usd_m3": 0.60,
+      "note": "PDAM tariffs; Java water stress driving desal interest"
+    },
+    "MY": {
+      "name": "Malaysia",
+      "desal_usd_m3": null,
+      "municipal_usd_m3": 0.50,
+      "note": "Freshwater abundant; heavily subsidized IWK tariffs"
+    },
+    "PH": {
+      "name": "Philippines",
+      "desal_usd_m3": 1.30,
+      "municipal_usd_m3": 1.00,
+      "note": "Manila Water/Maynilad; Cebu desal planned"
+    },
+    "SG": {
+      "name": "Singapore",
+      "desal_usd_m3": 0.70,
+      "municipal_usd_m3": 2.80,
+      "note": "Tuas desal; NEWater reuse; PUB industrial rate $2.74/m3"
+    },
+    "PK": {
+      "name": "Pakistan",
+      "desal_usd_m3": 1.00,
+      "municipal_usd_m3": 0.30,
+      "note": "Karachi desal projects; inland freshwater heavily subsidized"
+    },
+    "BD": {
+      "name": "Bangladesh",
+      "desal_usd_m3": null,
+      "municipal_usd_m3": 0.20,
+      "note": "Freshwater abundant (Ganges-Brahmaputra); DWASA tariffs very low"
+    },
+    "TW": {
+      "name": "Taiwan",
+      "desal_usd_m3": 1.30,
+      "municipal_usd_m3": 0.35,
+      "note": "Heavily subsidized municipal water; Changhua desal planned"
+    },
+
+    "KZ": {
+      "name": "Kazakhstan",
+      "desal_usd_m3": null,
+      "municipal_usd_m3": 0.30,
+      "note": "Freshwater from rivers; Mangistau desal (Caspian); low tariffs"
+    },
+    "UZ": {
+      "name": "Uzbekistan",
+      "desal_usd_m3": null,
+      "municipal_usd_m3": 0.15,
+      "note": "Amu Darya/Syr Darya; among lowest tariffs globally"
+    },
+    "GE": {
+      "name": "Georgia",
+      "desal_usd_m3": null,
+      "municipal_usd_m3": 0.40,
+      "note": "Freshwater abundant; GWP tariffs"
+    },
+    "AZ": {
+      "name": "Azerbaijan",
+      "desal_usd_m3": 1.50,
+      "municipal_usd_m3": 0.25,
+      "note": "Caspian desal potential; Azersu subsidized tariffs"
+    },
+
+    "TR": {
+      "name": "Turkey",
+      "desal_usd_m3": 1.20,
+      "municipal_usd_m3": 1.50,
+      "note": "ISKI/ASKi tariffs; Mediterranean coast desal growing"
+    },
+    "UA": {
+      "name": "Ukraine",
+      "desal_usd_m3": null,
+      "municipal_usd_m3": 0.80,
+      "note": "Freshwater from Dnieper; war-disrupted infrastructure"
+    },
+    "RU": {
+      "name": "Russia",
+      "desal_usd_m3": null,
+      "municipal_usd_m3": 0.50,
+      "note": "Freshwater abundant; Vodokanal tariffs low"
+    },
+
+    "DE": {
+      "name": "Germany",
+      "desal_usd_m3": null,
+      "municipal_usd_m3": 3.50,
+      "note": "Freshwater; among Europe's highest industrial water tariffs"
+    },
+    "FR": {
+      "name": "France",
+      "desal_usd_m3": null,
+      "municipal_usd_m3": 2.50,
+      "note": "Freshwater; Agences de l'Eau tariffs"
+    },
+    "ES": {
+      "name": "Spain",
+      "desal_usd_m3": 0.80,
+      "municipal_usd_m3": 2.50,
+      "note": "Major desal capacity (Torrevieja, Carboneras); drought-driven"
+    },
+    "IT": {
+      "name": "Italy",
+      "desal_usd_m3": 1.20,
+      "municipal_usd_m3": 2.00,
+      "note": "Sicily/Sardinia desal; ARERA regulated tariffs"
+    },
+    "NL": {
+      "name": "Netherlands",
+      "desal_usd_m3": null,
+      "municipal_usd_m3": 2.00,
+      "note": "Freshwater abundant; Vitens/Evides tariffs"
+    },
+    "BE": {
+      "name": "Belgium",
+      "desal_usd_m3": null,
+      "municipal_usd_m3": 3.00,
+      "note": "Freshwater; VMM/SWDE tariffs include sanitation"
+    },
+    "AT": {
+      "name": "Austria",
+      "desal_usd_m3": null,
+      "municipal_usd_m3": 2.50,
+      "note": "Alpine freshwater; municipal Wasserleitungsverband"
+    },
+    "PL": {
+      "name": "Poland",
+      "desal_usd_m3": null,
+      "municipal_usd_m3": 1.50,
+      "note": "Freshwater; MPWiK tariffs"
+    },
+    "PT": {
+      "name": "Portugal",
+      "desal_usd_m3": 1.00,
+      "municipal_usd_m3": 2.00,
+      "note": "Algarve desal planned; AdP group tariffs"
+    },
+    "GR": {
+      "name": "Greece",
+      "desal_usd_m3": 1.50,
+      "municipal_usd_m3": 1.80,
+      "note": "Island desal (Mykonos, Santorini); EYDAP tariffs"
+    },
+    "DK": {
+      "name": "Denmark",
+      "desal_usd_m3": null,
+      "municipal_usd_m3": 8.00,
+      "note": "Freshwater; world's highest water taxes (~$3.50 tax/m3)"
+    },
+    "SE": {
+      "name": "Sweden",
+      "desal_usd_m3": null,
+      "municipal_usd_m3": 3.00,
+      "note": "Freshwater abundant; VA-tariff by municipality"
+    },
+    "NO": {
+      "name": "Norway",
+      "desal_usd_m3": null,
+      "municipal_usd_m3": 3.50,
+      "note": "Freshwater abundant; kommunalt vann og avløp"
+    },
+    "FI": {
+      "name": "Finland",
+      "desal_usd_m3": null,
+      "municipal_usd_m3": 3.00,
+      "note": "Freshwater abundant; HSY/municipal tariffs"
+    },
+    "IE": {
+      "name": "Ireland",
+      "desal_usd_m3": null,
+      "municipal_usd_m3": 2.50,
+      "note": "Freshwater; Irish Water non-domestic charges"
+    },
+    "CH": {
+      "name": "Switzerland",
+      "desal_usd_m3": null,
+      "municipal_usd_m3": 3.50,
+      "note": "Alpine freshwater; Gemeinde tariffs"
+    },
+    "GB": {
+      "name": "Great Britain",
+      "desal_usd_m3": 1.80,
+      "municipal_usd_m3": 3.00,
+      "note": "Thames desal plant (Beckton); Ofwat regulated tariffs"
+    },
+
+    "CA": {
+      "name": "Canada",
+      "desal_usd_m3": null,
+      "municipal_usd_m3": 2.00,
+      "note": "Freshwater abundant; municipal rates vary by province"
+    },
+    "US": {
+      "name": "United States",
+      "desal_usd_m3": 1.50,
+      "municipal_usd_m3": 2.50,
+      "note": "Carlsbad/Huntington Beach desal (CA); EPA average industrial rate"
+    },
+    "IS": {
+      "name": "Iceland",
+      "desal_usd_m3": null,
+      "municipal_usd_m3": 1.50,
+      "note": "Geothermal/glacial freshwater; Veitur tariffs"
+    }
+  }
+}

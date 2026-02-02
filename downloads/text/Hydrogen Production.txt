@@ -1,0 +1,26 @@
+Title: Hydrogen Production
+URL: https://www.energy.gov/eere/fuelcells/hydrogen-production
+Date: 2026-01-28
+======================================================================
+
+Link URL
+/eere/fuelcells/hydrogen-production-pathways
+Hydrogen is the simplest element on earth—it consists of only one proton and one electron—and it is an energy carrier, not an energy source. Hydrogen can store and deliver usable energy, but it doesn't typically exist by itself in nature and must be produced from compounds that contain it.
+Why Study Hydrogen Production
+With approximately 10 million metric tons (MMT) hydrogen currently produced in the United States each year, the primary demand for hydrogen today is for petroleum refining and ammonia production. However, hydrogen can be used across multiple sectors to enable zero or near-zero emissions in other chemical and industrial processes, integrated renewable energy systems, and transportation. Emerging hydrogen markets within these sectors include data centers, ports, steel manufacturing, and medium- and heavy-duty trucks.
+How Hydrogen Production Works
+Hydrogen can be produced through low-carbon pathways using diverse, domestic
+resources
+—including fossil fuels, such as natural gas and coal, coupled with carbon capture and storage; through splitting of water using nuclear energy and renewable energy sources, such as wind, solar, geothermal, and hydro-electric power; and from biomass through biological processes. Learn more about
+hydrogen production processes
+.
+Research and Development Goals
+The U.S. Department of Energy (DOE) supports the research and development of a wide range of technologies to produce hydrogen economically and via net-zero-carbon pathways. View the
+hydrogen production pathways graphic
+to learn more about these technologies.
+The overall challenge to hydrogen production is cost. DOE's Hydrogen and Fuel Cell Technologies Office is focused on developing technologies that can produce hydrogen at $2/kg by 2026 and $1/kg by 2031 via net-zero-carbon pathways, in support of the
+Hydrogen Energy Earthshot
+goal of reducing the cost of hydrogen by 80% to $1 per 1 kilogram in 1 decade ("1 1 1").
+View
+related links
+for details about technical targets and DOE-funded hydrogen production activities.

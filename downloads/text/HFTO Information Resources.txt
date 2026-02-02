@@ -1,0 +1,35 @@
+Title: HFTO Information Resources
+URL: https://www.energy.gov/eere/fuelcells/hydrogen-and-fuel-cell-technologies-office-information-resources
+Date: 2026-01-28
+======================================================================
+
+Learn about hydrogen and fuel cells, find publications and technical information, view and download multimedia, read presentation materials from government leaders and experts, and find definitions for related terminology.
+Publications
+Program publications
+—Publications describing program plans, annual progress, and national-level roadmaps.
+Technical publications
+—Links to technical documents, technical presentations, journal articles, and other media.
+You can also search or browse for Hydrogen and Fuel Cell Technologies Office (HFTO) publications in the
+Office of Scientific and Technical Information (OSTI)
+Education and Outreach Materials
+Educational publications
+—Easy-to-understand fact sheets and other information designed to introduce hydrogen and fuel cell technologies to non-technical audiences.
+Newsletter
+—Quarterly recap of program news, funding opportunities, workshops, events, and recent publications.
+Program presentations—Presentations about fuel cells and hydrogen given by program staff at conferences and meetings.
+Multimedia
+—Infographics, videos, and animations about hydrogen and fuel cell technologies.
+Glossary
+—Glossary to help with understanding the vocabulary of hydrogen and fuel cell technologies.
+Event and Meeting Proceedings
+Conferences, workshops, and meetings
+—Annual merit review proceedings and workshop and meeting proceedings.
+Webinars
+—Upcoming and past program webinars.
+Data and Tools
+Data records
+—Documents that provide historical information about data developed by the DOE Hydrogen Program.
+Databases
+—Databases developed by the program to make it easier to find information about hydrogen and fuel cells.
+Hydrogen analysis toolbox
+—Production, delivery, and refueling analysis tools.

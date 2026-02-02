@@ -1,0 +1,60 @@
+Title: Sam Altman-backed Exowatt launches arm to power data centers with renewables
+URL: https://www.utilitydive.com/news/sam-altman-backed-exowatt-launches-arm-to-power-data-centers-with-renewable/810727/
+Date: 2026-01-28
+======================================================================
+
+An article from
+Dive Brief
+Sam Altman-backed Exowatt launches arm to power data centers with renewables
+The company said ExoRise will provide customers with solar and battery infrastructure that supports “behind-the-meter and off-grid deployment,” with a focus on the Southwest.
+Published Jan. 28, 2026
+Zoya Mirza
+Editor
+Share
+Copy link
+Email
+LinkedIn
+X/Twitter
+Facebook
+Print
+License
+Add us on Google
+Sam Altman, CEO of OpenAI, delivers remarks at the Federal Reserve on July 22, 2025, in Washington, DC. Altman is one of the investors behind renewable energy developer Exowatt, which launched a business arm focused on providing land and energy to data centers.
+Andrew Harnik via Getty Images
+First published on
+Listen to the article
+3 min
+This audio is auto-generated. Please let us know if you have
+feedback
+.
+Dive Brief:
+Renewable energy developer
+Exowatt has launched a business arm
+focused on providing land and energy infrastructure to support large or hyperscale data centers, the company announced last week.
+The company’s new arm, ExoRise, will lean on land, power and its P3 solar and battery technology — which stores energy in the form of heat and converts it to electricity on demand — to provide data centers with reliable power around the clock, Exowatt said in a press release.
+The Miami, Florida-headquartered startup is backed by OpenAI CEO Sam Altman, venture capital firm
+Andreessen Horowitz
+and others, and said it will develop the projects in areas with high solar exposure across the U.S. Southwest, such as New Mexico, west Texas, Arizona and Nevada. Exowatt said the region offers ample land and solar resources which allows for faster deployment and has a minimal impact on local communities.
+Dive Insight:
+ExoRise will provide the startup’s customers with infrastructure that supports “
+behind-the-meter and off-grid deployment” based on remote land, a method Exowatt said is able to deliver large-scale power without increasing electricity costs for local ratepayers. The company said the approach will also encourage domestic growth of artificial intelligence and boost energy resilience.
+Data centers consume increasing amounts of power, especially as companies in the
+tech sector continue to turn to AI.
+U.S. data center power demand
+could reach 106 gigawatts in 2035
+, according to a
+recent report from BloombergNEF
+. BNEF’s latest forecast is 36% higher than its April 2025 estimate released — a jump it attributed in part to the higher average size of the 150 significant U.S. data center projects announced in 2024, over a quarter of which are larger than 500 megawatts.
+“The growth of AI is colliding with real limits on grid capacity,”
+Exowatt’s Chief Data Center Officer Nic Bustamante
+said in the release. “ExoRise is designed to solve that problem by delivering dependable power at the speed AI requires. We’re not just solving a business problem — we’re enabling the future of American AI leadership.”
+Bustamante
+will lead partnerships with offtakers for hyperscale data centers and infrastructure financiers, Exowatt said.
+Last year, the startup
+raised $70 million to commercialize its P3
+solar technology. The funding round for the technology —  marketed as a modular, always-on clean energy solution for data centers and other large industrial loads — was backed by HSBC’s venture capital arm, actor Leonardo DiCaprio and several prominent Silicon Valley investors.
+The company expects its first ExoRise pilot project to come online by the end of the year, which it said will serve as a launchpad for its over 90 gigawatt-hours backlog of signed customer demand.
+purchase licensing rights
+Filed Under:
+Renewables,
+Energy Storage

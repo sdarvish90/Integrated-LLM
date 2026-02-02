@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet href="/rss/rss.xsl" type="text/xsl" media="screen"?>
+<rss version="2.0" xmlns:eia="http://www.eia.gov/rss/namespace" xmlns:atom="http://www.w3.org/2005/Atom" >
+	<channel>
+		<title>Presentations</title>
+		<link>http://www.eia.gov/pressroom/pressroom/presentations.php</link>
+		<atom:link href="http://www.eia.gov/rss/pressroom/presentations.xml" rel="self" type="application/rss+xml" />
+		<description>Presentations by EIA Administrator and Staff</description>
+		<language>en-us</language>
+		<lastBuildDate>Thu, 12 Jun 2024 09:00:00 EST</lastBuildDate>
+		<image>
+			<title>EIA logo</title>
+			<url>http://www.eia.gov/global/images/logos/eia_logo_250.png</url>
+			<link>http://www.eia.gov/</link>
+			<description>US Energy Information Administration</description>
+		</image>
+
+		<item>
+			<title>Atlantic Council 2025 Global Energy Forum</title>
+			<link>https://www.atlanticcouncil.org/event/2025-global-energy-forum/</link>
+			<eia:ppt></eia:ppt>
+			<eia:pdf></eia:pdf>
+			<pubDate>Wed, 18 Jun 2025 09:00:00 EST</pubDate>
+			<description></description>
+			<eia:subject>Oil &amp; gas markets in the era of energy dominance</eia:subject>
+			<eia:presentedby>Stephen Nalley</eia:presentedby>
+			<eia:presentedto>Atlantic Council</eia:presentedto>
+			<eia:location>Washington, DC</eia:location>
+		</item>	
+		
+	</channel>
+</rss>

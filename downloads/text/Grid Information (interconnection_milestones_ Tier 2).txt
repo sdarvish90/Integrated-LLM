@@ -1,0 +1,68 @@
+Title: Grid Information (interconnection_milestones, Tier 2)
+URL: https://www.ercot.com/gridinfo
+Date: 2026-01-28
+======================================================================
+
+Home
+Grid Information
+Grid Information
+Grid and Market Conditions
+A compilation of dashboards that display current ERCOT grid and market conditions.
+Go to Grid and Market Conditions
+ERCOT Market Information List (EMIL)
+A searchable listing of all ERCOT market products required to be supplied by Protocols or other binding documents (OBDs).
+Go to EMIL
+Data Access Portal
+Search ERCOT public data.
+Go to Data Access Portal
+Current System Conditions
+Current System Conditions
+Capacity Available to SCED
+Combined Wind and Solar
+Load Forecast vs Actual
+Real-Time System Conditions
+System Ancillary Service Capacity
+System-Wide Demand
+Generation
+Generation
+Daily RUC Active and Binding Transmission Constraints
+DC Tie Outage Report
+Hourly RMR Services Deployed
+Hourly RUC Active and Binding Transmission Constraints
+Hourly Resource Outage Capacity
+Load
+Load
+Actual Loads of Forecast Zones Display
+Actual Loads of Weather Zones Display
+Approved DC Tie Schedules
+Seven-Day Load Forecast by Forecast Zone
+Seven-Day Load Forecast by Model and Weather Zone
+Seven-Day Load Forecast by Weather Zone
+Short Term System Adequacy Report
+System-Wide Demand
+Transmission
+Transmission
+Electrical Bus to Hub List
+State Estimator Load Report - DC Tie Flows
+Network Operations Model Change Schedule
+State Estimator Load Report - Total ERCOT Generation
+SCED Shadow Prices and Binding Transmission Constraints
+In This Section
+Transmission
+View proposed and approved transmission outages; the outage contingency list and information sheets; and the dynamic schedule application, dynamic ratings form and re-route 'in-service' notification.
+Resource Adequacy
+View information on market studies and analysis materials related to Resource Adequacy in the ERCOT region.
+Resiliency
+Planning
+This page provides current information on long-term planning in the ERCOT region.
+Modeling
+This page offers publicly accessible documents detailing ERCOT’s modeling processes for both Market Participants (MPs) and public.
+Market Reports
+View data intended to assist market participants in their resource planning and projected assessment of system adequacy (PASA).
+Load
+View system demand and CSC flows; ERCOT control area load forecasts and historical data; short-, mid- and long-term forecasts; and day-ahead weather assumptions.
+Generation
+View data on DC ties, generation outages, resource plan details and scheduled generation, and find forms to submit generation and outage data/requests.
+Current System Conditions
+View dashboards for current system conditions in the ERCOT control area.
+ERCOT-Lockup-white

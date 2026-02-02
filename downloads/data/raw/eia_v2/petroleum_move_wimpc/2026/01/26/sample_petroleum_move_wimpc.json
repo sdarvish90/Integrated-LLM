@@ -1,0 +1,80 @@
+{
+  "warnings": [
+    {
+      "warning": "incomplete return",
+      "description": "The API can only return 5000 rows in JSON format.  Please consider constraining your request with facet, start, or end, or using offset to paginate results."
+    }
+  ],
+  "response": {
+    "total": "15026",
+    "dateFormat": "YYYY-MM-DD",
+    "frequency": "weekly",
+    "data": [
+      {
+        "period": "2025-09-19",
+        "duoarea": "NUS-NBR",
+        "area-name": "BRA",
+        "product": "EPC0",
+        "product-name": "Crude Oil",
+        "process": "IM0",
+        "process-name": "Imports",
+        "series": "W_EPC0_IM0_NUS-NBR_MBBLD",
+        "series-description": "U.S. Imports from Brazil of Crude Oil (Thousand Barrels per Day)"
+      },
+      {
+        "period": "2024-02-23",
+        "duoarea": "NUS-NBR",
+        "area-name": "BRA",
+        "product": "EPC0",
+        "product-name": "Crude Oil",
+        "process": "IM0",
+        "process-name": "Imports",
+        "series": "W_EPC0_IM0_NUS-NBR_MBBLD",
+        "series-description": "U.S. Imports from Brazil of Crude Oil (Thousand Barrels per Day)"
+      },
+      {
+        "period": "2025-05-16",
+        "duoarea": "NUS-NBR",
+        "area-name": "BRA",
+        "product": "EPC0",
+        "product-name": "Crude Oil",
+        "process": "IM0",
+        "process-name": "Imports",
+        "series": "W_EPC0_IM0_NUS-NBR_MBBLD",
+        "series-description": "U.S. Imports from Brazil of Crude Oil (Thousand Barrels per Day)"
+      },
+      {
+        "period": "2025-04-25",
+        "duoarea": "NUS-NBR",
+        "area-name": "BRA",
+        "product": "EPC0",
+        "product-name": "Crude Oil",
+        "process": "IM0",
+        "process-name": "Imports",
+        "series": "W_EPC0_IM0_NUS-NBR_MBBLD",
+        "series-description": "U.S. Imports from Brazil of Crude Oil (Thousand Barrels per Day)"
+      },
+      {
+        "period": "2025-04-04",
+        "duoarea": "NUS-NBR",
+        "area-name": "BRA",
+        "product": "EPC0",
+        "product-name": "Crude Oil",
+        "process": "IM0",
+        "process-name": "Imports",
+        "series": "W_EPC0_IM0_NUS-NBR_MBBLD",
+        "series-description": "U.S. Imports from Brazil of Crude Oil (Thousand Barrels per Day)"
+      }
+    ]
+  },
+  "request": {
+    "command": "/v2/petroleum/move/wimpc/data/",
+    "params": {
+      "api_key": "o5nQ7H9b6Bf9Kh3D0cCeC8ydP24drGTiFGaCQrKN",
+      "length": "5",
+      "offset": "0"
+    }
+  },
+  "apiVersion": "2.1.10",
+  "ExcelAddInVersion": "2.1.0"
+}

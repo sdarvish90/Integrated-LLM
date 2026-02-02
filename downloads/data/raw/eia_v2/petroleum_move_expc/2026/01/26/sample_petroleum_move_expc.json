@@ -1,0 +1,100 @@
+{
+  "warnings": [
+    {
+      "warning": "incomplete return",
+      "description": "The API can only return 5000 rows in JSON format.  Please consider constraining your request with facet, start, or end, or using offset to paginate results."
+    }
+  ],
+  "response": {
+    "total": "780831",
+    "dateFormat": "YYYY-MM",
+    "frequency": "monthly",
+    "data": [
+      {
+        "period": "2025-10",
+        "duoarea": "NUS-NDR",
+        "area-name": "DOM",
+        "product": "EPD0",
+        "product-name": "Distillate Fuel Oil",
+        "process": "EEX",
+        "process-name": "Exports",
+        "series": "M_EPD0_EEX_NUS-NDR_2",
+        "series-description": "U.S. Exports to Dominican Republic of Distillate Fuel Oil (Thousand Barrels per Day)",
+        "value": "14",
+        "units": "MBBL/D"
+      },
+      {
+        "period": "2025-10",
+        "duoarea": "NUS-NCO",
+        "area-name": "COL",
+        "product": "EPDXL0",
+        "product-name": "Distillate Fuel Oil, 0 to 15 ppm Sulfur",
+        "process": "EEX",
+        "process-name": "Exports",
+        "series": "M_EPDXL0_EEX_NUS-NCO_MBBL",
+        "series-description": "U.S. Exports to Colombia of Distillate Fuel Oil, 0 to 15 ppm Sulfur (Thousand Barrels)",
+        "value": "502",
+        "units": "MBBL"
+      },
+      {
+        "period": "2025-10",
+        "duoarea": "NUS-NBR",
+        "area-name": "BRA",
+        "product": "EPDXL0",
+        "product-name": "Distillate Fuel Oil, 0 to 15 ppm Sulfur",
+        "process": "EEX",
+        "process-name": "Exports",
+        "series": "M_EPDXL0_EEX_NUS-NBR_MBBLD",
+        "series-description": "U.S. Exports to Brazil of Distillate Fuel Oil, 0 to 15 ppm Sulfur (Thousand Barrels per Day)",
+        "value": "31",
+        "units": "MBBL/D"
+      },
+      {
+        "period": "2025-10",
+        "duoarea": "NUS-NUC",
+        "area-name": "NA",
+        "product": "EPDM20",
+        "product-name": "Distillate Fuel Oil, Greater than 500 to 2000 ppm Sulfur",
+        "process": "EEX",
+        "process-name": "Exports",
+        "series": "M_EPDM20_EEX_NUS-NUC_MBBLD",
+        "series-description": "U.S. Exports to Curacao of Distillate Fuel Oil, Greater than 500 to 2000 ppm Sulfur (Thousand Barrels per Day)",
+        "value": "1",
+        "units": "MBBL/D"
+      },
+      {
+        "period": "2025-10",
+        "duoarea": "NUS-NHA",
+        "area-name": "HTI",
+        "product": "EPD0",
+        "product-name": "Distillate Fuel Oil",
+        "process": "EEX",
+        "process-name": "Exports",
+        "series": "M_EPD0_EEX_NUS-NHA_2",
+        "series-description": "U.S. Exports to Haiti of Distillate Fuel Oil (Thousand Barrels per Day)",
+        "value": "3",
+        "units": "MBBL/D"
+      }
+    ]
+  },
+  "request": {
+    "command": "/v2/petroleum/move/expc/data/",
+    "params": {
+      "api_key": "o5nQ7H9b6Bf9Kh3D0cCeC8ydP24drGTiFGaCQrKN",
+      "frequency": "monthly",
+      "data": [
+        "value"
+      ],
+      "sort": [
+        {
+          "column": "period",
+          "direction": "desc"
+        }
+      ],
+      "length": "5",
+      "offset": "0"
+    }
+  },
+  "apiVersion": "2.1.10",
+  "ExcelAddInVersion": "2.1.0"
+}

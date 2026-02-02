@@ -1,0 +1,179 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" version="XHTML+RDFa 1.0" dir="ltr">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://clipper.e-clip.cl/clipper/sites/all/themes/eclip_theme/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+  <title>Clipping resumen mensual H2 Chile | e-clip</title>
+  <style type="text/css" media="all">@import url("https://clipper.e-clip.cl/clipper/modules/system/system.base.css?t4xd9g");
+@import url("https://clipper.e-clip.cl/clipper/modules/system/system.menus.css?t4xd9g");
+@import url("https://clipper.e-clip.cl/clipper/modules/system/system.messages.css?t4xd9g");
+@import url("https://clipper.e-clip.cl/clipper/modules/system/system.theme.css?t4xd9g");</style>
+<style type="text/css" media="all">@import url("https://clipper.e-clip.cl/clipper/misc/ui/jquery.ui.core.css?t4xd9g");
+@import url("https://clipper.e-clip.cl/clipper/misc/ui/jquery.ui.theme.css?t4xd9g");
+@import url("https://clipper.e-clip.cl/clipper/misc/ui/jquery.ui.button.css?t4xd9g");</style>
+<style type="text/css" media="all">@import url("https://clipper.e-clip.cl/clipper/sites/all/modules/calendar/css/calendar_multiday.css?t4xd9g");
+@import url("https://clipper.e-clip.cl/clipper/sites/all/modules/date/date_api/date.css?t4xd9g");
+@import url("https://clipper.e-clip.cl/clipper/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?t4xd9g");
+@import url("https://clipper.e-clip.cl/clipper/modules/field/theme/field.css?t4xd9g");
+@import url("https://clipper.e-clip.cl/clipper/modules/node/node.css?t4xd9g");
+@import url("https://clipper.e-clip.cl/clipper/modules/user/user.css?t4xd9g");
+@import url("https://clipper.e-clip.cl/clipper/sites/all/modules/views/css/views.css?t4xd9g");</style>
+<style type="text/css" media="all">@import url("https://clipper.e-clip.cl/clipper/sites/all/modules/colorbox/styles/default/colorbox_style.css?t4xd9g");
+@import url("https://clipper.e-clip.cl/clipper/sites/all/modules/ctools/css/ctools.css?t4xd9g");
+@import url("https://clipper.e-clip.cl/clipper/sites/all/modules/eclip/css/eclip-admin.ctools.css?t4xd9g");
+@import url("https://clipper.e-clip.cl/clipper/sites/all/modules/views_slideshow/views_slideshow.css?t4xd9g");
+@import url("https://clipper.e-clip.cl/clipper/sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/views_slideshow_cycle.css?t4xd9g");</style>
+<style type="text/css" media="all">
+<!--/*--><![CDATA[/*><!--*/
+body{background-color:#FFFFFF !important;}
+.category-title{background-color:#ff8f2d !important;width:98%;padding:2px 1%;}
+.category-title{color:#FFFFFF !important;}
+a{color:#084f75;}
+a.vermas{color:#8fb225;}
+.zone-3-inner,.main-left-inner,.main-center-inner,.main-bottom{border-color:#8fb225 !important;}
+
+/*]]>*/-->
+</style>
+<style type="text/css" media="all">@import url("https://clipper.e-clip.cl/clipper/sites/all/themes/eclip_theme/fresh.css?t4xd9g");
+@import url("https://clipper.e-clip.cl/clipper/sites/all/themes/eclip_theme/templates.css?t4xd9g");</style>
+<style type="text/css" media="print">@import url("https://clipper.e-clip.cl/clipper/sites/all/themes/eclip_theme/print.css?t4xd9g");</style>
+
+<!--[if lt IE 7]>
+<link type="text/css" rel="stylesheet" href="https://clipper.e-clip.cl/clipper/sites/all/themes/eclip_theme/fix-ie.css?t4xd9g" media="all" />
+<![endif]-->
+  <script type="text/javascript" src="https://clipper.e-clip.cl/clipper/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="https://clipper.e-clip.cl/clipper/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="https://clipper.e-clip.cl/clipper/misc/drupal.js?t4xd9g"></script>
+<script type="text/javascript" src="https://clipper.e-clip.cl/clipper/misc/ui/jquery.ui.core.min.js?v=1.8.7"></script>
+<script type="text/javascript" src="https://clipper.e-clip.cl/clipper/misc/ui/jquery.ui.widget.min.js?v=1.8.7"></script>
+<script type="text/javascript" src="https://clipper.e-clip.cl/clipper/misc/ui/jquery.ui.mouse.min.js?v=1.8.7"></script>
+<script type="text/javascript" src="https://clipper.e-clip.cl/clipper/misc/ui/jquery.ui.sortable.min.js?v=1.8.7"></script>
+<script type="text/javascript" src="https://clipper.e-clip.cl/clipper/misc/ui/jquery.ui.button.min.js?v=1.8.7"></script>
+<script type="text/javascript" src="https://clipper.e-clip.cl/clipper/sites/all/modules/analytics/analytics.js?t4xd9g"></script>
+<script type="text/javascript" src="https://clipper.e-clip.cl/clipper/sites/all/modules/admin_menu/admin_devel/admin_devel.js?t4xd9g"></script>
+<script type="text/javascript" src="https://clipper.e-clip.cl/clipper/sites/all/modules/media_colorbox/media_colorbox.js?t4xd9g"></script>
+<script type="text/javascript" src="https://clipper.e-clip.cl/clipper/sites/default/files/languages/es_yTvNs6-CaRLIY828BtumOekEDCfz8vTLy0OC8ANB_1U.js?t4xd9g"></script>
+<script type="text/javascript" src="https://clipper.e-clip.cl/clipper/sites/all/libraries/colorbox/colorbox/jquery.colorbox-min.js?t4xd9g"></script>
+<script type="text/javascript" src="https://clipper.e-clip.cl/clipper/sites/all/modules/colorbox/js/colorbox.js?t4xd9g"></script>
+<script type="text/javascript" src="https://clipper.e-clip.cl/clipper/sites/all/modules/colorbox/styles/default/colorbox_style.js?t4xd9g"></script>
+<script type="text/javascript" src="https://clipper.e-clip.cl/clipper/sites/all/modules/colorbox/js/colorbox_load.js?t4xd9g"></script>
+<script type="text/javascript" src="https://clipper.e-clip.cl/clipper/sites/all/modules/colorbox/js/colorbox_inline.js?t4xd9g"></script>
+<script type="text/javascript" src="https://clipper.e-clip.cl/clipper/sites/all/modules/eclip/js/eclip-admin.js?t4xd9g"></script>
+<script type="text/javascript" src="https://clipper.e-clip.cl/clipper/sites/all/modules/views_slideshow/js/views_slideshow.js?t4xd9g"></script>
+<script type="text/javascript" src="https://clipper.e-clip.cl/clipper/sites/all/libraries/jquery.cycle/jquery.cycle.all.js?t4xd9g"></script>
+<script type="text/javascript" src="https://clipper.e-clip.cl/clipper/sites/all/libraries/json2/json2.js?t4xd9g"></script>
+<script type="text/javascript" src="https://clipper.e-clip.cl/clipper/sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/js/views_slideshow_cycle.js?t4xd9g"></script>
+<script type="text/javascript" src="https://clipper.e-clip.cl/clipper/sites/all/libraries/flowplayer/flowplayer-3.2.13.min.js?t4xd9g"></script>
+<script type="text/javascript" src="https://clipper.e-clip.cl/clipper/sites/all/themes/eclip_theme/scripts.js?t4xd9g"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/clipper\/","pathPrefix":"","ajaxPageState":{"theme":"eclip_theme","theme_token":"gZ6STzHAbP3JNae08M3uF5ub9dYKG_FgS1M2zpwha3k","js":{"0":1,"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"misc\/ui\/jquery.ui.core.min.js":1,"misc\/ui\/jquery.ui.widget.min.js":1,"misc\/ui\/jquery.ui.mouse.min.js":1,"misc\/ui\/jquery.ui.sortable.min.js":1,"misc\/ui\/jquery.ui.button.min.js":1,"sites\/all\/modules\/analytics\/analytics.js":1,"sites\/all\/modules\/admin_menu\/admin_devel\/admin_devel.js":1,"sites\/all\/modules\/media_colorbox\/media_colorbox.js":1,"public:\/\/languages\/es_yTvNs6-CaRLIY828BtumOekEDCfz8vTLy0OC8ANB_1U.js":1,"sites\/all\/libraries\/colorbox\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox_load.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox_inline.js":1,"sites\/all\/modules\/eclip\/js\/eclip-admin.js":1,"sites\/all\/modules\/views_slideshow\/js\/views_slideshow.js":1,"sites\/all\/libraries\/jquery.cycle\/jquery.cycle.all.js":1,"sites\/all\/libraries\/json2\/json2.js":1,"sites\/all\/modules\/views_slideshow\/contrib\/views_slideshow_cycle\/js\/views_slideshow_cycle.js":1,"sites\/all\/libraries\/flowplayer\/flowplayer-3.2.13.min.js":1,"sites\/all\/themes\/eclip_theme\/scripts.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.button.css":1,"sites\/all\/modules\/calendar\/css\/calendar_multiday.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/eclip\/css\/fresh.css":1,"sites\/all\/modules\/eclip\/css\/eclip-admin.ctools.css":1,"sites\/all\/modules\/views_slideshow\/views_slideshow.css":1,"sites\/all\/modules\/views_slideshow\/contrib\/views_slideshow_cycle\/views_slideshow_cycle.css":1,"0":1,"1":1,"2":1,"3":1,"4":1,"5":1,"sites\/all\/themes\/eclip_theme\/fresh.css":1,"sites\/all\/themes\/eclip_theme\/templates.css":1,"sites\/all\/themes\/eclip_theme\/print.css":1,"sites\/all\/themes\/eclip_theme\/fix-ie.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true},"eclip":{"positions":""},"viewsSlideshow":{"slideshow_images_videos-files":{"methods":{"goToSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"nextSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"pause":["viewsSlideshowControls","viewsSlideshowCycle"],"play":["viewsSlideshowControls","viewsSlideshowCycle"],"previousSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"transitionBegin":["viewsSlideshowPager","viewsSlideshowSlideCounter"],"transitionEnd":[]},"paused":0}},"viewsSlideshowPager":{"slideshow_images_videos-files":{"top":{"type":"viewsSlideshowPagerFields"},"bottom":{"type":"viewsSlideshowPagerFields"}}},"viewsSlideshowPagerFields":{"slideshow_images_videos-files":{"top":{"activatePauseOnHover":0},"bottom":{"activatePauseOnHover":0}}},"viewsSlideshowCycle":{"#views_slideshow_cycle_main_slideshow_images_videos-files":{"num_divs":1,"id_prefix":"#views_slideshow_cycle_main_","div_prefix":"#views_slideshow_cycle_div_","vss_id":"slideshow_images_videos-files","effect":"fade","transition_advanced":0,"timeout":5000,"speed":700,"delay":0,"sync":1,"random":0,"pause":1,"pause_on_click":0,"action_advanced":1,"start_paused":1,"remember_slide":0,"remember_slide_days":1,"pause_when_hidden":0,"pause_when_hidden_type":"full","amount_allowed_visible":"","nowrap":0,"fixed_height":1,"items_per_slide":1,"wait_for_image_load":1,"wait_for_image_load_timeout":3000,"cleartype":0,"cleartypenobg":0,"advanced_options":"{}","advanced_options_choices":0,"advanced_options_entry":""}}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-clip page-clip-h2chilemensual page-clip-h2chilemensual- page-clip-h2chilemensual-647411 page-clip-h2chilemensual- page-clip-h2chilemensual-639695" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Pasar al contenido principal</a>
+  </div>
+    <div class="wrapper">
+    <div class="content">
+      <!--header-->
+            <div class="header">
+        <a href="/clipper/clip/h2chilemensual"><img src="https://clipper.e-clip.cl/clipper/sites/default/files/Top_H2Chile_2021_mes.jpg" alt="" /></a>      </div>
+            <!--END header-->
+
+      <div class="page-content">
+        <a id="main-content"></a>
+        <div id="tabs-wrapper" class="clearfix">                          <!--<h1 class="with-tabs">Clipping resumen mensual H2 Chile</h1>-->
+                        </div>                                <div class="clearfix">
+            <div class="region region-content">
+    <div id="block-system-main" class="block block-system clearfix">
+
+    
+  <div class="content">
+    <div class="view view-main-new view-id-main_new view-display-id-page view-dom-id-df3bf87585a99a30f4c8649286184f7e">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-php-2">        <span class="field-content"><a href="/clipper/clip/h2chilemensual/647411" class="btn-volver">Volver</a></span>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content"><strong></strong><strong>h2news.cl - </strong><span class="date-display-single">Martes, 3 de Junio de 2025</span>
+<div></div> </span>  </div>  
+  <div class="views-field views-field-field-description">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-php-1">        <span class="field-content"><div class="view view-slideshow-images-videos view-id-slideshow_images_videos view-display-id-files view-files view-dom-id-078eecab7852281e241efc56c3c6634e">
+        
+  
+  
+      <div class="view-content">
+      
+<div class="skin-default">
+      <div class="views-slideshow-controls-top clearfix">
+      <div id="widget_pager_top_slideshow_images_videos-files" class="views-slideshow-pager-fields widget_pager widget_pager_top views_slideshow_pager_field">
+  </div>
+    </div>
+  
+  <div id="views_slideshow_cycle_main_slideshow_images_videos-files" class="views_slideshow_cycle_main views_slideshow_main"><div id="views_slideshow_cycle_teaser_section_slideshow_images_videos-files" class="views-slideshow-cycle-main-frame views_slideshow_cycle_teaser_section">
+  <div id="views_slideshow_cycle_div_slideshow_images_videos-files_0" class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-1 views-row-odd">
+  <div class="views-slideshow-cycle-main-frame-row-item views-row views-row-0 views-row-first views-row-odd">
+    
+  <div class="views-field views-field-php">        <span class="field-content"><div class="file-container"><img src="https://clipper.e-clip.cl/clipper/sites/default/files/upload/images25/h2news04_030625.png?itok=1769662358" alt="" /><div style="clear: both; text-align: center;"><a class="button-print" title="Imprimir" onClick="window.print(); return false;">Imprimir</a><a href="https://clipper.e-clip.cl/clipper/sites/default/files/upload/images25/h2news04_030625.png?itok=1769662358" title="Descargar imagen" class="button-download" target="_blank">Descargar imagen</a></div></div></span>  </div></div>
+</div>
+</div>
+</div>
+      <div class="views-slideshow-controls-bottom clearfix">
+      <div id="widget_pager_bottom_slideshow_images_videos-files" class="views-slideshow-pager-fields widget_pager widget_pager_bottom views_slideshow_pager_field">
+  </div>
+    </div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div></span>  </div>  
+  <div class="views-field views-field-nothing-1">        <span class="field-content"><strong></strong><strong>h2news.cl - </strong><span class="date-display-single">Martes, 3 de Junio de 2025</span></span>  </div>  
+  <div class="views-field views-field-php-3">        <span class="field-content"><a href="/clipper/clip/h2chilemensual/647411" class="btn-volver">Volver</a></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div>
+  </div>
+        </div>
+      </div>   
+    </div>
+
+    <!--footer-->
+    <div id="footer">
+            
+      <div class="footer-image"><img src="https://clipper.e-clip.cl/clipper/sites/default/files/eclip2.png" alt="" /></div>
+      <div class="footer-text"></div>
+    </div>
+    <!--END footer-->
+</div>
+<!--End mainConteiner-->
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+if (!Drupal.settings.dnt) {
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga("create","UA-51361541-1","auto",{"name":"analytics_base"});
+ga("analytics_base.send","pageview");
+}
+//--><!]]>
+</script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+{
+  "warnings": [
+    {
+      "warning": "incomplete return",
+      "description": "The API can only return 5000 rows in JSON format.  Please consider constraining your request with facet, start, or end, or using offset to paginate results."
+    }
+  ],
+  "response": {
+    "total": "3511",
+    "dateFormat": "YYYY-MM",
+    "frequency": "monthly",
+    "data": [
+      {
+        "period": "2025-10",
+        "duoarea": "NUS-Z00",
+        "area-name": "NA",
+        "product": "EPC35B",
+        "product-name": "Crude Gravity 30.1 to 35.0 percent",
+        "process": "INF",
+        "process-name": "FOB Costs",
+        "series": "I000000354",
+        "series-description": "U.S. FOB Costs of Crude with API Gravity 30.1 to 35.0 degrees (Dollars per Barrel)",
+        "value": "60.7",
+        "units": "$/BBL"
+      },
+      {
+        "period": "2025-10",
+        "duoarea": "NUS-Z00",
+        "area-name": "NA",
+        "product": "EPC25B",
+        "product-name": "Crude Gravity 20.1 to 25.0 percent",
+        "process": "INF",
+        "process-name": "FOB Costs",
+        "series": "I000000254",
+        "series-description": "U.S. FOB Costs of Crude with API Gravity 20.1 to 25.0 degrees (Dollars per Barrel)",
+        "value": "51.44",
+        "units": "$/BBL"
+      },
+      {
+        "period": "2025-10",
+        "duoarea": "NUS-Z00",
+        "area-name": "NA",
+        "product": "EPC40B",
+        "product-name": "Crude Gravity 35.1 to 40.0 percent",
+        "process": "INF",
+        "process-name": "FOB Costs",
+        "series": "I000000404",
+        "series-description": "U.S. FOB Costs of Crude with API Gravity 35.1 to 40.0 degrees (Dollars per Barrel)",
+        "value": "57.39",
+        "units": "$/BBL"
+      },
+      {
+        "period": "2025-10",
+        "duoarea": "NUS-Z00",
+        "area-name": "NA",
+        "product": "EPC30B",
+        "product-name": "Crude Gravity 25.1 to 30.0 percent",
+        "process": "INF",
+        "process-name": "FOB Costs",
+        "series": "I000000304",
+        "series-description": "U.S. FOB Costs of Crude with API Gravity 25.1 to 30.0 degrees (Dollars per Barrel)",
+        "value": "56.74",
+        "units": "$/BBL"
+      },
+      {
+        "period": "2025-10",
+        "duoarea": "NUS-Z00",
+        "area-name": "NA",
+        "product": "EPC20B",
+        "product-name": "Crude Gravity 20.0 percent or less",
+        "process": "INF",
+        "process-name": "FOB Costs",
+        "series": "I000000204",
+        "series-description": "U.S. FOB Costs of Crude with API Gravity 20.0 degrees or less (Dollars per Barrel)",
+        "value": "54.35",
+        "units": "$/BBL"
+      }
+    ]
+  },
+  "request": {
+    "command": "/v2/petroleum/move/imc3/data/",
+    "params": {
+      "api_key": "o5nQ7H9b6Bf9Kh3D0cCeC8ydP24drGTiFGaCQrKN",
+      "frequency": "monthly",
+      "data": [
+        "value"
+      ],
+      "sort": [
+        {
+          "column": "period",
+          "direction": "desc"
+        }
+      ],
+      "length": "5",
+      "offset": "0"
+    }
+  },
+  "apiVersion": "2.1.10",
+  "ExcelAddInVersion": "2.1.0"
+}

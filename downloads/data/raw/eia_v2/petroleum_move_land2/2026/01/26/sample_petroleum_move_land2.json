@@ -1,0 +1,100 @@
+{
+  "warnings": [
+    {
+      "warning": "incomplete return",
+      "description": "The API can only return 5000 rows in JSON format.  Please consider constraining your request with facet, start, or end, or using offset to paginate results."
+    }
+  ],
+  "response": {
+    "total": "5593",
+    "dateFormat": "YYYY-MM",
+    "frequency": "monthly",
+    "data": [
+      {
+        "period": "2025-10",
+        "duoarea": "NUS-NMX",
+        "area-name": "MEX",
+        "product": "EPCMXMAY",
+        "product-name": "Mexican Mayan Crude Oil",
+        "process": "INL",
+        "process-name": "Landed Costs",
+        "series": "IMX2810008",
+        "series-description": "U.S. Landed Costs of Mexican Mayan Crude Oil (Dollars per Barrel)",
+        "value": "56.39",
+        "units": "$/BBL"
+      },
+      {
+        "period": "2025-10",
+        "duoarea": "NUS-NCA",
+        "area-name": "CAN",
+        "product": "EPCCABRH",
+        "product-name": "Canadian Bow River Heavy Crude Oil",
+        "process": "INL",
+        "process-name": "Landed Costs",
+        "series": "ICA2440008",
+        "series-description": "U.S. Landed Costs of Canadian Bow River Heavy Crude Oil (Dollars per Barrel)",
+        "value": "54.01",
+        "units": "$/BBL"
+      },
+      {
+        "period": "2025-10",
+        "duoarea": "NUS-NCA",
+        "area-name": "CAN",
+        "product": "EPCCASOU",
+        "product-name": "Canadian Light Sour Blend Crude Oil",
+        "process": "INL",
+        "process-name": "Landed Costs",
+        "series": "I19263000008",
+        "series-description": "U.S. Landed Costs of Canadian Light Sour Blend Crude Oil (Dollars per Barrel)",
+        "value": "57.47",
+        "units": "$/BBL"
+      },
+      {
+        "period": "2025-10",
+        "duoarea": "NUS-NSA",
+        "area-name": "SAU",
+        "product": "EPCSALT",
+        "product-name": "Saudi/Arab Light Crude Oil",
+        "process": "INL",
+        "process-name": "Landed Costs",
+        "series": "ISA4990008",
+        "series-description": "U.S. Landed Costs of Saudi Arabian Light Crude Oil (Dollars per Barrel)",
+        "value": null,
+        "units": "$/BBL"
+      },
+      {
+        "period": "2025-10",
+        "duoarea": "NUS-NEC",
+        "area-name": "ECU",
+        "product": "EPCECORI",
+        "product-name": "Ecuadorian Oriente Crude Oil",
+        "process": "INL",
+        "process-name": "Landed Costs",
+        "series": "IEC0500008",
+        "series-description": "U.S. Landed Costs of Ecuadorian Oriente Crude Oil (Dollars per Barrel)",
+        "value": null,
+        "units": "$/BBL"
+      }
+    ]
+  },
+  "request": {
+    "command": "/v2/petroleum/move/land2/data/",
+    "params": {
+      "api_key": "o5nQ7H9b6Bf9Kh3D0cCeC8ydP24drGTiFGaCQrKN",
+      "frequency": "monthly",
+      "data": [
+        "value"
+      ],
+      "sort": [
+        {
+          "column": "period",
+          "direction": "desc"
+        }
+      ],
+      "length": "5",
+      "offset": "0"
+    }
+  },
+  "apiVersion": "2.1.10",
+  "ExcelAddInVersion": "2.1.0"
+}

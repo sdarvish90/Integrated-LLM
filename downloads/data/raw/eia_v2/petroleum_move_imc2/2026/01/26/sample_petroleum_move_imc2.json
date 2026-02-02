@@ -1,0 +1,100 @@
+{
+  "warnings": [
+    {
+      "warning": "incomplete return",
+      "description": "The API can only return 5000 rows in JSON format.  Please consider constraining your request with facet, start, or end, or using offset to paginate results."
+    }
+  ],
+  "response": {
+    "total": "3013",
+    "dateFormat": "YYYY-MM",
+    "frequency": "monthly",
+    "data": [
+      {
+        "period": "2025-10",
+        "duoarea": "NUS-NCA",
+        "area-name": "CAN",
+        "product": "EPCCASOU",
+        "product-name": "Canadian Light Sour Blend Crude Oil",
+        "process": "INF",
+        "process-name": "FOB Costs",
+        "series": "I19263000004",
+        "series-description": "U.S. FOB Costs of Canadian Light Sour Blend Crude Oil (Dollars per Barrel)",
+        "value": "54.96",
+        "units": "$/BBL"
+      },
+      {
+        "period": "2025-10",
+        "duoarea": "NUS-NMX",
+        "area-name": "MEX",
+        "product": "EPCMXMAY",
+        "product-name": "Mexican Mayan Crude Oil",
+        "process": "INF",
+        "process-name": "FOB Costs",
+        "series": "IMX2810004",
+        "series-description": "U.S. FOB Costs of Mexican Mayan Crude Oil (Dollars per Barrel)",
+        "value": "55.36",
+        "units": "$/BBL"
+      },
+      {
+        "period": "2025-09",
+        "duoarea": "NUS-NCA",
+        "area-name": "CAN",
+        "product": "EPCCASOU",
+        "product-name": "Canadian Light Sour Blend Crude Oil",
+        "process": "INF",
+        "process-name": "FOB Costs",
+        "series": "I19263000004",
+        "series-description": "U.S. FOB Costs of Canadian Light Sour Blend Crude Oil (Dollars per Barrel)",
+        "value": "59.18",
+        "units": "$/BBL"
+      },
+      {
+        "period": "2025-09",
+        "duoarea": "NUS-NMX",
+        "area-name": "MEX",
+        "product": "EPCMXMAY",
+        "product-name": "Mexican Mayan Crude Oil",
+        "process": "INF",
+        "process-name": "FOB Costs",
+        "series": "IMX2810004",
+        "series-description": "U.S. FOB Costs of Mexican Mayan Crude Oil (Dollars per Barrel)",
+        "value": "59.18",
+        "units": "$/BBL"
+      },
+      {
+        "period": "2025-08",
+        "duoarea": "NUS-NCA",
+        "area-name": "CAN",
+        "product": "EPCCASOU",
+        "product-name": "Canadian Light Sour Blend Crude Oil",
+        "process": "INF",
+        "process-name": "FOB Costs",
+        "series": "I19263000004",
+        "series-description": "U.S. FOB Costs of Canadian Light Sour Blend Crude Oil (Dollars per Barrel)",
+        "value": "61.34",
+        "units": "$/BBL"
+      }
+    ]
+  },
+  "request": {
+    "command": "/v2/petroleum/move/imc2/data/",
+    "params": {
+      "api_key": "o5nQ7H9b6Bf9Kh3D0cCeC8ydP24drGTiFGaCQrKN",
+      "frequency": "monthly",
+      "data": [
+        "value"
+      ],
+      "sort": [
+        {
+          "column": "period",
+          "direction": "desc"
+        }
+      ],
+      "length": "5",
+      "offset": "0"
+    }
+  },
+  "apiVersion": "2.1.10",
+  "ExcelAddInVersion": "2.1.0"
+}

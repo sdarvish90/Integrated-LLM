@@ -1,0 +1,1696 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-L8ZB');</script>
+    <!-- End Google Tag Manager -->
+    <meta charset="utf-8" />
+<noscript><meta http-equiv="Refresh" content="0; URL=/big_pipe/no-js?destination=/tools/data-downloads/icis-fec-download-summary" />
+</noscript><meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="/themes/custom/echo/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="canonical" href="https://echo.epa.gov/tools/data-downloads/icis-fec-download-summary" />
+<link rel="shortlink" href="https://echo.epa.gov/node/208" />
+
+    <title>ICIS-FE&amp;C Download Summary and Data Element Dictionary | ECHO | US EPA</title>
+    <link rel="stylesheet" media="all" href="/assets/css/css_b2QtWEFnNeGY0Stq38WX62xWeRuz8N4cC08Jh_j588k.css?delta=0&amp;language=en&amp;theme=echo&amp;include=eJxdzEEOgCAMRNELqRzJFKhSLZbQEvX2JmpcuJu8TH6Qii7WVoAHWODoMCRxM4sH7tVOpm1-LIsnxnuP0Cy9pwfCipFM6ocFxqZ71H9KW8E6kSZHG1mnpxpm50HxAlQtNTM" />
+<link rel="stylesheet" media="all" href="/assets/css/css_1QydhEcwEbbgF_YMBykZ5-GxkhzNT6kkA5CItuzFSvg.css?delta=1&amp;language=en&amp;theme=echo&amp;include=eJxdzEEOgCAMRNELqRzJFKhSLZbQEvX2JmpcuJu8TH6Qii7WVoAHWODoMCRxM4sH7tVOpm1-LIsnxnuP0Cy9pwfCipFM6ocFxqZ71H9KW8E6kSZHG1mnpxpm50HxAlQtNTM" />
+<link rel="stylesheet" media="all" href="/assets/css/css_KR5R4D3d8koXL5dDtOkiYQfOhQ0-UHb5we7pIfkNFeQ.css?delta=2&amp;language=en&amp;theme=echo&amp;include=eJxdzEEOgCAMRNELqRzJFKhSLZbQEvX2JmpcuJu8TH6Qii7WVoAHWODoMCRxM4sH7tVOpm1-LIsnxnuP0Cy9pwfCipFM6ocFxqZ71H9KW8E6kSZHG1mnpxpm50HxAlQtNTM" />
+<link rel="stylesheet" media="all" href="/assets/css/css_nrkuDoW6I2wUHPHuTQFJiHr5B14uaqBGdLzh5A0cSVc.css?delta=3&amp;language=en&amp;theme=echo&amp;include=eJxdzEEOgCAMRNELqRzJFKhSLZbQEvX2JmpcuJu8TH6Qii7WVoAHWODoMCRxM4sH7tVOpm1-LIsnxnuP0Cy9pwfCipFM6ocFxqZ71H9KW8E6kSZHG1mnpxpm50HxAlQtNTM" />
+
+    
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-L8ZB"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+  
+
+<!-- EPA header -->
+
+<div class="banner-message epa-header">
+  
+</div>
+
+<div class="skiplinks epa-header" role="navigation" aria-labelledby="skip-to-main--echo">
+  <a id="skip-to-main--echo"
+     href="#main-content"
+     class="skiplinks__link visually-hidden focusable">Skip to main content</a>
+</div>
+<section class="usa-banner epa-header" aria-label="Official government website">
+  <div class="usa-accordion">
+    <header class="usa-banner__header">
+      <div class="usa-banner__inner">
+        <div class="grid-col-auto">
+          <img class="usa-banner__header-flag" src="https://www.epa.gov/themes/epa_theme/images/us_flag_small.png"
+               alt="U.S. flag" height="11px" width="16px">
+        </div>
+        <div class="grid-col-fill tablet:grid-col-auto">
+          <p class="usa-banner__header-text">An official website of the United States government</p>
+          <p class="usa-banner__header-action" aria-hidden="true">Here’s how you know</p></div>
+        <button class="usa-accordion__button usa-banner__button" aria-expanded="false" aria-controls="gov-banner">
+          <span class="usa-banner__button-text">Here’s how you know</span>
+        </button>
+      </div>
+    </header>
+    <div class="usa-banner__content usa-accordion__content" id="gov-banner" hidden="">
+      <div class="grid-row grid-gap-lg">
+        <div class="usa-banner__guidance tablet:grid-col-6">
+          <img class="usa-banner__icon usa-media-block__img"
+               src="https://www.epa.gov/themes/epa_theme/images/icon-dot-gov.svg" alt="Dot gov">
+          <div class="usa-media-block__body">
+            <p>
+              <strong>Official websites use .gov</strong>
+              <br> A <strong>.gov</strong> website belongs to an official government organization in the United States.
+            </p>
+          </div>
+        </div>
+        <div class="usa-banner__guidance tablet:grid-col-6">
+          <img class="usa-banner__icon usa-media-block__img"
+               src="https://www.epa.gov/themes/epa_theme/images/icon-https.svg" alt="HTTPS">
+          <div class="usa-media-block__body">
+            <p>
+              <strong>Secure .gov websites use HTTPS</strong>
+              <br> A <strong>lock</strong> (<span class="icon-lock"><svg xmlns="http://www.w3.org/2000/svg" width="52"
+                                                                         height="64" viewBox="0 0 52 64"
+                                                                         class="usa-banner__lock-image" role="img"
+                                                                         aria-labelledby="banner-lock-title banner-lock-description"><title
+                      id="banner-lock-title">Lock</title><desc id="banner-lock-description">A locked padlock</desc><path
+                      fill="#000000" fill-rule="evenodd"
+                      d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z"></path></svg></span>)
+              or <strong>https://</strong> means you’ve safely connected to the .gov website. Share sensitive
+              information only on official, secure websites.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<header
+  class="l-header js-header-search usa-header usa-header--extended"
+  data-once="header-search"
+>
+  <div class="usa-overlay"></div>
+  <div class="l-constrain">
+    <div class="l-header__navbar">
+      <div class="l-header__branding">
+                        <a class="site-logo" href="https://www.epa.gov" aria-label="Home" title="Home" rel="home">
+          <span class="site-logo__image">
+            <svg
+              class="site-logo__svg-main"
+              aria-hidden="true"
+              viewBox="0 0 454.1 154.7"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m112.8 61.2c-4.8 18.6-22.9 33.3-42.9 33.3-20.1 0-38-14.7-42.9-33.4h.2s9.8 10.3-.2 0c3.1 3.1 6.2 4.4 10.7 4.4s7.7-1.3 10.7-4.4c3.1 3.1 6.3 4.5 10.9 4.4 4.5 0 7.6-1.3 10.7-4.4 3.1 3.1 6.2 4.4 10.7 4.4s7.7-1.3 10.7-4.4c3.1 3.1 6.3 4.5 10.9 4.4 4.3 0 7.4-1.2 10.5-4.3z"
+              ></path>
+              <path
+                d="m113.2 51.2c0-24-19.4-43.5-43.3-43.5-24 0-43.5 19.5-43.5 43.5h39.1c-4.8-1.8-8.1-6.3-8.1-11.6 0-7 5.7-12.5 12.5-12.5 7 0 12.7 5.5 12.7 12.5 0 5.2-3.1 9.6-7.6 11.6z"
+              ></path>
+              <path
+                d="m72.6 147c.7-36.9 29.7-68.8 66.9-70 0 37.2-30 68-66.9 70z"
+              ></path>
+              <path
+                d="m67.1 147c-.7-36.9-29.7-68.8-67.1-70 0 37.2 30.2 68 67.1 70z"
+              ></path>
+              <path
+                d="m240 10.8h-87.9v133.1h87.9v-20.4h-60.3v-36h60.3v-21h-60.3v-35h60.3z"
+              ></path>
+              <path
+                d="m272.8 66.5h27.1c9.1 0 15.2-8.6 15.1-17.7-.1-9-6.1-17.3-15.1-17.3h-25.3v112.4h-27.8v-133.1h62.3c20.2 0 35 17.8 35.2 38 .2 20.4-14.8 38.7-35.2 38.7h-36.3z"
+              ></path>
+              <path
+                d="m315.9 143.9h29.7l12.9-35h54.2l-8.1-21.9h-38.4l18.9-50.7 39.2 107.6h29.7l-53.1-133.1h-33.7z"
+              ></path>
+            </svg>
+            <svg
+              class="site-logo__svg-text"
+              aria-hidden="true"
+              viewBox="0 0 595.4 154.7"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m9 8.5v22.4c0 1.9.2 3.3.5 4.3s.7 1.7 1 2.2c1.2 1.4 2.5 2.4 3.9 2.9 1.5.5 2.8.7 4.1.7 2.4 0 4.2-.4 5.5-1.3 1.3-.8 2.2-1.8 2.8-2.9s.9-2.3 1-3.4.1-2 .1-2.6v-22.3h4.7v22.3 1.7c0 .7-.1 1.5-.4 2.4-.3 1.8-1.2 3.6-2.5 5.4-1.8 2.1-3.8 3.5-6 4.2-2.2.6-4 .9-5.3.9-1.8 0-3.8-.3-6.2-1.1s-4.5-2.3-6.2-4.7c-.5-.8-1-1.8-1.4-3.2-.4-1.3-.6-3.3-.6-5.9v-22z"
+              ></path>
+              <path
+                d="m43.2 22.2v-2.9l4.6.1-.1 4.1c.2-.3.4-.7.8-1.2.3-.5.8-.9 1.4-1.4s1.4-.9 2.3-1.3c.9-.3 2.1-.5 3.4-.4.6 0 1.4.1 2.4.3.9.2 1.9.6 2.9 1.2s1.8 1.5 2.4 2.6c.6 1.2.9 2.8.9 4.7l-.4 17-4.6-.1.4-16c0-.9 0-1.7-.2-2.4-.1-.7-.5-1.3-1.1-1.9-1.2-1.2-2.6-1.8-4.3-1.8s-3.1.5-4.4 1.7-2 3.1-2.1 5.7l-.3 14.5-4.5-.1z"
+              ></path>
+              <path d="m72.9 8.6h5.5v5.1h-5.5zm.5 10.9h4.6v25.1h-4.6z"></path>
+              <path
+                d="m83.5 19.4h4.3v-5.3l4.5-1.5v6.8h5.4v3.4h-5.4v15.1c0 .3 0 .6.1 1 0 .4.1.7.4 1.1.2.4.5.6 1 .8.4.3 1 .4 1.8.4 1 0 1.7-.1 2.2-.2v3.7c-.9.2-2.1.3-3.8.3-2.1 0-3.6-.4-4.6-1.2s-1.5-2.2-1.5-4.2v-16.8h-4.3v-3.4z"
+              ></path>
+              <path
+                d="m106.6 32.9c-.1 2.6.5 4.8 1.7 6.5 1.1 1.7 2.9 2.6 5.3 2.6 1.5 0 2.8-.4 3.9-1.3 1-.8 1.6-2.2 1.8-4h4.6c0 .6-.2 1.4-.4 2.3-.3 1-.8 2-1.7 3-.2.3-.6.6-1 1-.5.4-1 .7-1.7 1.1s-1.5.6-2.4.8c-.9.3-2 .4-3.3.4-7.6-.2-11.3-4.5-11.3-12.9 0-2.5.3-4.8 1-6.8s2-3.7 3.8-5.1c1.2-.8 2.4-1.3 3.7-1.6 1.3-.2 2.2-.3 3-.3 2.7 0 4.8.6 6.3 1.6s2.5 2.3 3.1 3.9c.6 1.5 1 3.1 1.1 4.6.1 1.6.1 2.9 0 4h-17.5m12.9-3c0-.3 0-.7 0-1.1s0-.8-.1-1.2c-.1-.9-.4-1.7-.8-2.5s-1-1.5-1.8-2c-.9-.5-2-.8-3.4-.8-.8 0-1.5.1-2.3.3s-1.5.7-2.2 1.3-1.2 1.3-1.6 2.3-.7 2.2-.8 3.6h13z"
+              ></path>
+              <path
+                d="m148.6 8.6h4.6v32.1c0 1 .1 2.3.2 4h-4.6l-.1-4c-.2.3-.4.7-.7 1.2s-.8 1-1.4 1.5c-1 .7-2 1.2-3.1 1.4-.5.1-1 .2-1.5.3s-.9.1-1.4.1c-.4 0-.8 0-1.3-.1s-1.1-.2-1.7-.3c-1.1-.3-2.3-.9-3.4-1.8s-2.1-2.2-2.9-3.8c-.8-1.7-1.2-3.9-1.2-6.6.1-4.8 1.2-8.3 3.4-10.5 2.1-2.1 4.7-3.2 7.6-3.2 1.3 0 2.4.2 3.4.5.9.3 1.6.7 2.2 1.2.6.4 1 .9 1.3 1.4s.6.8.7 1.1zm.1 23.1c0-1.9-.2-3.3-.5-4.4-.4-1.1-.8-2-1.4-2.6-.5-.7-1.2-1.3-2-1.8-.9-.5-2-.7-3.3-.7-1.7 0-2.9.5-3.8 1.3s-1.6 1.9-2 3.1-.7 2.3-.7 3.4c-.1 1.1-.2 1.9-.1 2.4 0 1.1.1 2.2.3 3.4.2 1.1.5 2.2 1 3.1.5 1 1.2 1.7 2 2.3.9.6 2 .9 3.3.9 1.8 0 3.2-.5 4.2-1.4 1-.8 1.7-1.8 2.1-3s.7-2.4.8-3.4c.1-1.4.1-2.1.1-2.6z"
+              ></path>
+              <path
+                d="m179.6 34.1c0 .6.1 1.3.3 2.1.1.8.5 1.6 1 2.3.5.8 1.4 1.4 2.5 1.9s2.7.8 4.7.8c1.8 0 3.3-.3 4.4-.8s1.9-1.1 2.5-1.8 1-1.5 1.1-2.2.2-1.2.2-1.7c0-1-.2-1.9-.5-2.6-.4-.6-.9-1.2-1.6-1.6-1.4-.8-3.4-1.4-5.9-2-4.9-1.1-8.1-2.2-9.5-3.2s-2.3-2.2-2.9-3.5c-.6-1.2-.8-2.4-.8-3.6.1-3.7 1.5-6.4 4.2-8.1 2.6-1.7 5.7-2.5 9.1-2.5 1.3 0 2.9.2 4.8.5 1.9.4 3.6 1.4 5 3 .5.5.9 1.1 1.2 1.7.3.5.5 1.1.6 1.6.2 1.1.3 2.1.3 2.9h-5c-.2-2.2-1-3.7-2.4-4.5-1.5-.7-3.1-1.1-4.9-1.1-5.1.1-7.7 2-7.8 5.8 0 1.5.5 2.7 1.6 3.5 1 .8 2.6 1.4 4.7 1.9 4 1 6.7 1.8 8.1 2.2.8.2 1.4.5 1.8.7.5.2 1 .5 1.4.9.8.5 1.4 1.1 1.9 1.8s.8 1.4 1.1 2.1c.3 1.4.5 2.5.5 3.4 0 3.3-1.2 6-3.5 8-2.3 2.1-5.8 3.2-10.3 3.3-1.4 0-3.2-.3-5.4-.8-1-.3-2-.7-3-1.2-.9-.5-1.8-1.2-2.5-2.1-.9-1.4-1.5-2.7-1.7-4.1-.3-1.3-.4-2.4-.3-3.2h5z"
+              ></path>
+              <path
+                d="m205.7 19.4h4.3v-5.3l4.5-1.5v6.8h5.4v3.4h-5.4v15.1c0 .3 0 .6.1 1 0 .4.1.7.4 1.1.2.4.5.6 1 .8.4.3 1 .4 1.8.4 1 0 1.7-.1 2.2-.2v3.7c-.9.2-2.1.3-3.8.3-2.1 0-3.6-.4-4.6-1.2s-1.5-2.2-1.5-4.2v-16.8h-4.4z"
+              ></path>
+              <path
+                d="m241 44.6c-.3-1.2-.5-2.5-.4-3.7-.5 1-1.1 1.8-1.7 2.4-.7.6-1.4 1.1-2 1.4-1.4.5-2.7.8-3.7.8-2.8 0-4.9-.8-6.4-2.2s-2.2-3.1-2.2-5.2c0-1 .2-2.3.8-3.7s1.7-2.6 3.5-3.7c1.4-.7 2.9-1.2 4.5-1.5 1.6-.1 2.9-.2 3.9-.2s2.1 0 3.3.1c.1-2.9-.2-4.8-.9-5.6-.5-.6-1.1-1.1-1.9-1.3s-1.6-.4-2.3-.4c-1.1 0-2 .2-2.6.5-.7.3-1.2.7-1.5 1.2s-.5.9-.6 1.4-.2.9-.2 1.2h-4.6c.1-.7.2-1.4.4-2.3.2-.8.6-1.6 1.3-2.5.5-.6 1-1 1.7-1.3.6-.3 1.3-.6 2-.8 1.5-.4 2.8-.6 4.2-.6 1.8 0 3.6.3 5.2.9s2.8 1.6 3.4 2.9c.4.7.6 1.4.7 2s.1 1.2.1 1.8l-.2 12c0 1 .1 3.1.4 6.3h-4.2m-.5-12.1c-.7-.1-1.6-.1-2.6-.1-.5 0-1.2 0-2.1 0-1 .1-2 .3-3 .6s-1.9.8-2.6 1.5c-.8.7-1.2 1.7-1.2 3 0 .4.1.8.2 1.3s.4 1 .8 1.5.9.8 1.6 1.1 1.5.5 2.5.5c2.3 0 4.1-.9 5.2-2.7.5-.8.8-1.7 1-2.7.1-.9.2-2.2.2-4z"
+              ></path>
+              <path
+                d="m250.2 19.4h4.3v-5.3l4.5-1.5v6.8h5.4v3.4h-5.4v15.1c0 .3 0 .6.1 1 0 .4.1.7.4 1.1.2.4.5.6 1 .8.4.3 1 .4 1.8.4 1 0 1.7-.1 2.2-.2v3.7c-.9.2-2.1.3-3.8.3-2.1 0-3.6-.4-4.6-1.2s-1.5-2.2-1.5-4.2v-16.8h-4.3v-3.4z"
+              ></path>
+              <path
+                d="m273.3 32.9c-.1 2.6.5 4.8 1.7 6.5 1.1 1.7 2.9 2.6 5.3 2.6 1.5 0 2.8-.4 3.9-1.3 1-.8 1.6-2.2 1.8-4h4.6c0 .6-.2 1.4-.4 2.3-.3 1-.8 2-1.7 3-.2.3-.6.6-1 1-.5.4-1 .7-1.7 1.1s-1.5.6-2.4.8c-.9.3-2 .4-3.3.4-7.6-.2-11.3-4.5-11.3-12.9 0-2.5.3-4.8 1-6.8s2-3.7 3.8-5.1c1.2-.8 2.4-1.3 3.7-1.6 1.3-.2 2.2-.3 3-.3 2.7 0 4.8.6 6.3 1.6s2.5 2.3 3.1 3.9c.6 1.5 1 3.1 1.1 4.6.1 1.6.1 2.9 0 4h-17.5m12.9-3c0-.3 0-.7 0-1.1s0-.8-.1-1.2c-.1-.9-.4-1.7-.8-2.5s-1-1.5-1.8-2c-.9-.5-2-.8-3.4-.8-.8 0-1.5.1-2.3.3s-1.5.7-2.2 1.3-1.2 1.3-1.6 2.3-.7 2.2-.8 3.6h13z"
+              ></path>
+              <path
+                d="m301 37.2c0 .5.1 1 .2 1.4.1.5.4 1 .8 1.5s.9.8 1.6 1.1 1.6.5 2.7.5c1 0 1.8-.1 2.5-.3s1.3-.6 1.7-1.2c.5-.7.8-1.5.8-2.4 0-1.2-.4-2-1.3-2.5s-2.2-.9-4.1-1.2c-1.3-.3-2.4-.6-3.6-1-1.1-.3-2.1-.8-3-1.3s-1.5-1.2-2-2.1c-.5-.8-.8-1.9-.8-3.2 0-2.4.9-4.2 2.6-5.6 1.7-1.3 4-2 6.8-2.1 1.6 0 3.3.3 5 .8 1.7.6 2.9 1.6 3.7 3.1.4 1.4.6 2.6.6 3.7h-4.6c0-1.8-.6-3-1.7-3.5-1.1-.4-2.1-.6-3.1-.6-.2 0-.5 0-1 0s-1.1.2-1.7.4-1.1.5-1.5 1.1c-.5.5-.7 1.2-.7 2.1 0 1.1.5 1.9 1.3 2.3.7.4 1.5.7 2.1.9 3.3.7 5.6 1.3 6.9 1.8 1.3.4 2.2 1 2.8 1.7.7.7 1.1 1.4 1.4 2.2s.4 1.6.4 2.5c0 1.4-.3 2.7-.9 3.8s-1.4 2-2.4 2.6c-1.1.6-2.2 1-3.4 1.3s-2.5.4-3.8.4c-2.5 0-4.7-.6-6.6-1.8-1.8-1.2-2.8-3.3-2.9-6.3z"
+              ></path>
+              <path
+                d="m3.4 58.5h21.9v4.2h-17.1v11.3h16.3v4.2h-16.3v12.1h17.5v4.3h-22.3z"
+              ></path>
+              <path
+                d="m34.7 72.4-.1-2.9h4.6v4.1c.2-.3.4-.8.7-1.2.3-.5.8-1 1.3-1.5.6-.5 1.4-1 2.3-1.3s2-.5 3.4-.5c.6 0 1.4.1 2.4.2.9.2 1.9.5 2.9 1.1s1.8 1.4 2.5 2.5c.6 1.2 1 2.7 1 4.7v17.1h-4.6v-16c0-.9-.1-1.7-.2-2.4-.2-.7-.5-1.3-1.1-1.9-1.2-1.1-2.6-1.7-4.3-1.7s-3.1.6-4.3 1.8c-1.3 1.2-2 3.1-2 5.7v14.5h-4.5z"
+              ></path>
+              <path
+                d="m60.3 69.5h5.1l7.7 19.9 7.6-19.9h5l-10.6 25.1h-4.6z"
+              ></path>
+              <path d="m91.4 58.6h5.5v5.1h-5.5zm.5 10.9h4.6v25.1h-4.6z"></path>
+              <path
+                d="m106 74.7c0-1.8-.1-3.5-.3-5.1h4.6l.1 4.9c.5-1.8 1.4-3 2.5-3.7s2.2-1.2 3.3-1.3c1.4-.2 2.4-.2 3.1-.1v4.6c-.2-.1-.5-.2-.9-.2-.3 0-.8 0-1.3 0-1.3 0-2.4.2-3.3.5-.9.4-1.5.9-2 1.6-.9 1.4-1.4 3.2-1.3 5.4v13.3h-4.6v-19.9z"
+              ></path>
+              <path
+                d="m123.3 82.4c0-1.6.2-3.2.6-4.8s1.1-3 2-4.4c1-1.3 2.2-2.4 3.8-3.2s3.6-1.2 5.9-1.2c2.4 0 4.5.4 6.1 1.3 1.5.9 2.7 2 3.6 3.3s1.5 2.8 1.8 4.3c.2.8.3 1.5.4 2.2v2.2c0 3.7-1 6.9-3 9.5s-5.1 4-9.3 4c-4-.1-7-1.4-9-3.9-1.9-2.5-2.9-5.6-2.9-9.3m4.8-.3c0 2.7.6 5 1.8 6.9 1.2 2 3 3 5.6 3.1.9 0 1.8-.2 2.7-.5.8-.3 1.6-.9 2.3-1.7s1.3-1.9 1.8-3.2c.4-1.3.6-2.9.6-4.7-.1-6.4-2.5-9.6-7.1-9.6-.7 0-1.5.1-2.4.3-.8.3-1.7.8-2.5 1.6-.8.7-1.4 1.7-1.9 3-.6 1.1-.9 2.8-.9 4.8z"
+              ></path>
+              <path
+                d="m155.9 72.4-.1-2.9h4.6v4.1c.2-.3.4-.8.7-1.2.3-.5.8-1 1.3-1.5.6-.5 1.4-1 2.3-1.3s2-.5 3.4-.5c.6 0 1.4.1 2.4.2.9.2 1.9.5 2.9 1.1s1.8 1.4 2.5 2.5c.6 1.2 1 2.7 1 4.7v17.1h-4.6v-16c0-.9-.1-1.7-.2-2.4-.2-.7-.5-1.3-1.1-1.9-1.2-1.1-2.6-1.7-4.3-1.7s-3.1.6-4.3 1.8c-1.3 1.2-2 3.1-2 5.7v14.5h-4.6z"
+              ></path>
+              <path
+                d="m185.7 72.8-.1-3.3h4.6v3.6c1.2-1.9 2.6-3.2 4.1-3.7 1.5-.4 2.7-.6 3.8-.6 1.4 0 2.6.2 3.6.5.9.3 1.7.7 2.3 1.1 1.1 1 1.9 2 2.3 3.1.2-.4.5-.8 1-1.3.4-.5.9-1 1.5-1.6.6-.5 1.5-.9 2.5-1.3 1-.3 2.2-.5 3.5-.5.9 0 1.9.1 3 .3 1 .2 2 .7 3 1.3s1.7 1.5 2.3 2.7.9 2.7.9 4.6v16.9h-4.6v-16.2c0-1.1-.1-2-.2-2.5-.1-.6-.3-1-.6-1.3-.4-.6-1-1.2-1.8-1.6s-1.8-.6-3.1-.6c-1.5 0-2.7.4-3.6 1-.4.3-.8.5-1.1.9-.3.3-.6.6-.8.8-.5.8-.8 1.8-1 2.8-.1 1.1-.2 2-.1 2.6v14.1h-4.6v-16.7c0-1.6-.5-2.9-1.4-4-.9-1-2.3-1.5-4.2-1.5-1.6 0-2.9.4-3.8 1.1s-1.5 1.2-1.8 1.7c-.5.7-.8 1.5-.9 2.5-.1.9-.2 1.8-.2 2.6v14.3h-4.5z"
+              ></path>
+              <path
+                d="m236.2 82.9c-.1 2.6.5 4.8 1.7 6.5 1.1 1.7 2.9 2.6 5.3 2.6 1.5 0 2.8-.4 3.9-1.3 1-.8 1.6-2.2 1.8-4h4.6c0 .6-.2 1.4-.4 2.3-.3 1-.8 2-1.7 3-.2.3-.6.6-1 1-.5.4-1 .7-1.7 1.1s-1.5.6-2.4.8c-.9.3-2 .4-3.3.4-7.6-.2-11.3-4.5-11.3-12.9 0-2.5.3-4.8 1-6.8s2-3.7 3.8-5.1c1.2-.8 2.4-1.3 3.7-1.6 1.3-.2 2.2-.3 3-.3 2.7 0 4.8.6 6.3 1.6s2.5 2.3 3.1 3.9c.6 1.5 1 3.1 1.1 4.6.1 1.6.1 2.9 0 4h-17.5m12.8-3c0-.3 0-.7 0-1.1s0-.8-.1-1.2c-.1-.9-.4-1.7-.8-2.5s-1-1.5-1.8-2c-.9-.5-2-.8-3.4-.8-.8 0-1.5.1-2.3.3s-1.5.7-2.2 1.3-1.2 1.3-1.6 2.3-.7 2.2-.8 3.6z"
+              ></path>
+              <path
+                d="m261.4 72.4-.1-2.9h4.6v4.1c.2-.3.4-.8.7-1.2.3-.5.8-1 1.3-1.5.6-.5 1.4-1 2.3-1.3s2-.5 3.4-.5c.6 0 1.4.1 2.4.2.9.2 1.9.5 2.9 1.1s1.8 1.4 2.5 2.5c.6 1.2 1 2.7 1 4.7v17.1h-4.6v-16c0-.9-.1-1.7-.2-2.4-.2-.7-.5-1.3-1.1-1.9-1.2-1.1-2.6-1.7-4.3-1.7s-3.1.6-4.3 1.8c-1.3 1.2-2 3.1-2 5.7v14.5h-4.6z"
+              ></path>
+              <path
+                d="m288 69.4h4.3v-5.2l4.5-1.5v6.8h5.4v3.4h-5.4v15.1c0 .3 0 .6.1 1 0 .4.1.7.4 1.1.2.4.5.6 1 .8.4.3 1 .4 1.8.4 1 0 1.7-.1 2.2-.2v3.6c-.9.2-2.1.3-3.8.3-2.1 0-3.6-.4-4.6-1.2s-1.5-2.2-1.5-4.2v-16.8h-4.3v-3.4z"
+              ></path>
+              <path
+                d="m323.3 94.6c-.3-1.2-.5-2.5-.4-3.7-.5 1-1.1 1.8-1.7 2.4-.7.6-1.4 1.1-2 1.4-1.4.5-2.7.8-3.7.8-2.8 0-4.9-.8-6.4-2.2s-2.2-3.1-2.2-5.2c0-1 .2-2.3.8-3.7s1.7-2.6 3.5-3.7c1.4-.7 2.9-1.2 4.5-1.5 1.6-.1 2.9-.2 3.9-.2s2.1 0 3.3.1c.1-2.9-.2-4.8-.9-5.6-.5-.6-1.1-1.1-1.9-1.3s-1.6-.4-2.3-.4c-1.1 0-2 .2-2.6.5-.7.3-1.2.7-1.5 1.2s-.5.9-.6 1.4-.2.9-.2 1.2h-4.6c.1-.7.2-1.4.4-2.3.2-.8.6-1.6 1.3-2.5.5-.6 1-1 1.7-1.3.6-.3 1.3-.6 2-.8 1.5-.4 2.8-.6 4.2-.6 1.8 0 3.6.3 5.2.9s2.8 1.6 3.4 2.9c.4.7.6 1.4.7 2s.1 1.2.1 1.8l-.2 12c0 1 .1 3.1.4 6.3zm-.5-12.2c-.7-.1-1.6-.1-2.6-.1-.5 0-1.2 0-2.1 0-1 .1-2 .3-3 .6s-1.9.8-2.6 1.5c-.8.7-1.2 1.7-1.2 3 0 .4.1.8.2 1.3s.4 1 .8 1.5.9.8 1.6 1.1 1.5.5 2.5.5c2.3 0 4.1-.9 5.2-2.7.5-.8.8-1.7 1-2.7.1-.9.2-2.2.2-4z"
+              ></path>
+              <path d="m336.4 58.6h4.6v36.1h-4.6z"></path>
+              <path
+                d="m364.1 58.5h11.7c2.1 0 3.9.1 5.5.4.8.2 1.5.4 2.2.9.7.4 1.3.9 1.8 1.6 1.7 1.9 2.6 4.2 2.6 7 0 2.7-.9 5.1-2.8 7.1-.8.9-2 1.7-3.6 2.2-1.6.6-3.9.9-6.9.9h-5.7v16.1h-4.8zm4.8 15.9h5.8c.8 0 1.7-.1 2.6-.2s1.8-.3 2.6-.7 1.5-1 2-1.9c.5-.8.8-2 .8-3.4s-.2-2.5-.7-3.3-1.1-1.3-1.9-1.7c-1.6-.5-3.1-.8-4.5-.7h-6.8v11.9z"
+              ></path>
+              <path
+                d="m393.8 74.7c0-1.8-.1-3.5-.3-5.1h4.6l.1 4.9c.5-1.8 1.4-3 2.5-3.7s2.2-1.2 3.3-1.3c1.4-.2 2.4-.2 3.1-.1v4.6c-.2-.1-.5-.2-.9-.2-.3 0-.8 0-1.3 0-1.3 0-2.4.2-3.3.5-.9.4-1.5.9-2 1.6-.9 1.4-1.4 3.2-1.3 5.4v13.3h-4.6v-19.9z"
+              ></path>
+              <path
+                d="m411.2 82.4c0-1.6.2-3.2.6-4.8s1.1-3 2-4.4c1-1.3 2.2-2.4 3.8-3.2s3.6-1.2 5.9-1.2c2.4 0 4.5.4 6.1 1.3 1.5.9 2.7 2 3.6 3.3s1.5 2.8 1.8 4.3c.2.8.3 1.5.4 2.2v2.2c0 3.7-1 6.9-3 9.5s-5.1 4-9.3 4c-4-.1-7-1.4-9-3.9-1.9-2.5-2.9-5.6-2.9-9.3m4.8-.3c0 2.7.6 5 1.8 6.9 1.2 2 3 3 5.6 3.1.9 0 1.8-.2 2.7-.5.8-.3 1.6-.9 2.3-1.7s1.3-1.9 1.8-3.2c.4-1.3.6-2.9.6-4.7-.1-6.4-2.5-9.6-7.1-9.6-.7 0-1.5.1-2.4.3-.8.3-1.7.8-2.5 1.6-.8.7-1.4 1.7-1.9 3-.7 1.1-.9 2.8-.9 4.8z"
+              ></path>
+              <path
+                d="m439.8 69.4h4.3v-5.2l4.5-1.5v6.8h5.4v3.4h-5.4v15.1c0 .3 0 .6.1 1 0 .4.1.7.4 1.1.2.4.5.6 1 .8.4.3 1 .4 1.8.4 1 0 1.7-.1 2.2-.2v3.6c-.9.2-2.1.3-3.8.3-2.1 0-3.6-.4-4.6-1.2s-1.5-2.2-1.5-4.2v-16.8h-4.3v-3.4z"
+              ></path>
+              <path
+                d="m462.9 82.9c-.1 2.6.5 4.8 1.7 6.5 1.1 1.7 2.9 2.6 5.3 2.6 1.5 0 2.8-.4 3.9-1.3 1-.8 1.6-2.2 1.8-4h4.6c0 .6-.2 1.4-.4 2.3-.3 1-.8 2-1.7 3-.2.3-.6.6-1 1-.5.4-1 .7-1.7 1.1s-1.5.6-2.4.8c-.9.3-2 .4-3.3.4-7.6-.2-11.3-4.5-11.3-12.9 0-2.5.3-4.8 1-6.8s2-3.7 3.8-5.1c1.2-.8 2.4-1.3 3.7-1.6 1.3-.2 2.2-.3 3-.3 2.7 0 4.8.6 6.3 1.6s2.5 2.3 3.1 3.9c.6 1.5 1 3.1 1.1 4.6.1 1.6.1 2.9 0 4h-17.5m12.9-3c0-.3 0-.7 0-1.1s0-.8-.1-1.2c-.1-.9-.4-1.7-.8-2.5s-1-1.5-1.8-2c-.9-.5-2-.8-3.4-.8-.8 0-1.5.1-2.3.3s-1.5.7-2.2 1.3-1.2 1.3-1.6 2.3-.7 2.2-.8 3.6z"
+              ></path>
+              <path
+                d="m501.8 77.5c0-.3 0-.8-.1-1.4s-.3-1.1-.6-1.8c-.2-.6-.7-1.2-1.4-1.6s-1.6-.6-2.7-.6c-1.5 0-2.7.4-3.5 1.2-.9.8-1.5 1.7-1.9 2.8s-.6 2.2-.7 3.2c-.1 1.1-.2 1.8-.1 2.4 0 1.3.1 2.5.3 3.7s.5 2.3.9 3.3c.8 2 2.4 3 4.8 3.1 1.9 0 3.3-.7 4.1-1.9.8-1.1 1.2-2.3 1.2-3.6h4.6c-.2 2.5-1.1 4.6-2.7 6.3-1.7 1.8-4.1 2.7-7.1 2.7-.9 0-2.1-.2-3.6-.6-.7-.2-1.4-.6-2.2-1s-1.5-1-2.2-1.7c-.7-.9-1.4-2.1-2-3.6s-.9-3.5-.9-6.1.4-4.8 1.1-6.6c.7-1.7 1.6-3.1 2.7-4.2 1.1-1 2.3-1.8 3.6-2.2s2.5-.6 3.7-.6h1.6c.6.1 1.3.2 1.9.4.7.2 1.4.5 2.1 1 .7.4 1.3 1 1.8 1.7.9 1.1 1.4 2.1 1.7 3.1.2 1 .3 1.8.3 2.6z"
+              ></path>
+              <path
+                d="m509.3 69.4h4.3v-5.2l4.5-1.5v6.8h5.4v3.4h-5.4v15.1c0 .3 0 .6.1 1 0 .4.1.7.4 1.1.2.4.5.6 1 .8.4.3 1 .4 1.8.4 1 0 1.7-.1 2.2-.2v3.6c-.9.2-2.1.3-3.8.3-2.1 0-3.6-.4-4.6-1.2s-1.5-2.2-1.5-4.2v-16.8h-4.3v-3.4z"
+              ></path>
+              <path d="m529.2 58.6h5.5v5.1h-5.5zm.5 10.9h4.6v25.1h-4.6z"></path>
+              <path
+                d="m541.8 82.4c0-1.6.2-3.2.6-4.8s1.1-3 2-4.4c1-1.3 2.2-2.4 3.8-3.2s3.6-1.2 5.9-1.2c2.4 0 4.5.4 6.1 1.3 1.5.9 2.7 2 3.6 3.3s1.5 2.8 1.8 4.3c.2.8.3 1.5.4 2.2v2.2c0 3.7-1 6.9-3 9.5s-5.1 4-9.3 4c-4-.1-7-1.4-9-3.9-1.9-2.5-2.9-5.6-2.9-9.3m4.7-.3c0 2.7.6 5 1.8 6.9 1.2 2 3 3 5.6 3.1.9 0 1.8-.2 2.7-.5.8-.3 1.6-.9 2.3-1.7s1.3-1.9 1.8-3.2c.4-1.3.6-2.9.6-4.7-.1-6.4-2.5-9.6-7.1-9.6-.7 0-1.5.1-2.4.3-.8.3-1.7.8-2.5 1.6-.8.7-1.4 1.7-1.9 3-.6 1.1-.9 2.8-.9 4.8z"
+              ></path>
+              <path
+                d="m574.3 72.4-.1-2.9h4.6v4.1c.2-.3.4-.8.7-1.2.3-.5.8-1 1.3-1.5.6-.5 1.4-1 2.3-1.3s2-.5 3.4-.5c.6 0 1.4.1 2.4.2.9.2 1.9.5 2.9 1.1s1.8 1.4 2.5 2.5c.6 1.2 1 2.7 1 4.7v17.1h-4.6v-16c0-.9-.1-1.7-.2-2.4-.2-.7-.5-1.3-1.1-1.9-1.2-1.1-2.6-1.7-4.3-1.7s-3.1.6-4.3 1.8c-1.3 1.2-2 3.1-2 5.7v14.5h-4.6z"
+              ></path>
+              <path
+                d="m14.8 108.5h5.2l14.1 36.1h-5.3l-3.8-9.4h-16.2l-3.8 9.4h-5zm-4.4 22.7h13.3l-6.5-17.8z"
+              ></path>
+              <path
+                d="m44.4 146.5c.1.7.2 1.4.4 1.9.2.6.5 1.1.9 1.6.8.9 2.3 1.4 4.4 1.5 1.6 0 2.8-.3 3.7-.9s1.5-1.4 1.9-2.4c.4-1.1.6-2.3.7-3.7s.1-2.9.1-4.6c-.5.9-1.1 1.7-1.8 2.3s-1.5 1-2.3 1.3c-1.7.4-3 .6-3.9.6-1.2 0-2.4-.2-3.8-.6s-2.6-1.2-3.7-2.5c-1-1.3-1.7-2.8-2.1-4.4s-.6-3.2-.6-4.8c0-4.3 1.1-7.4 3.2-9.5 2-2.1 4.6-3.1 7.6-3.1 1.3 0 2.3.1 3.2.4s1.6.6 2.1 1c.6.4 1.1.8 1.5 1.2.3.4.6.8.9 1.2v-3.4h4.4l-.1 4.5v15.7c0 2.9-.1 5.2-.2 6.7-.2 1.6-.5 2.8-1 3.7-1.1 1.9-2.6 3.2-4.6 3.7-1.9.6-3.8.8-5.6.8-2.4 0-4.3-.3-5.6-.8-1.4-.5-2.4-1.2-3-2s-1-1.7-1.2-2.7c-.2-.9-.3-1.8-.4-2.7zm5.3-5.8c1.4 0 2.5-.2 3.3-.7s1.5-1.1 2-1.8c.5-.6.9-1.4 1.2-2.5.3-1 .4-2.6.4-4.8 0-1.6-.2-2.9-.4-3.9-.3-1-.8-1.8-1.4-2.4-1.3-1.4-3-2.2-5.2-2.2-1.4 0-2.5.3-3.4 1s-1.6 1.5-2 2.4c-.4 1-.7 2-.9 3s-.2 2-.2 2.8c0 1 .1 1.9.3 2.9.2 1.1.5 2.1 1 3s1.2 1.6 2 2.2c.8.7 1.9 1 3.3 1z"
+              ></path>
+              <path
+                d="m73.3 132.9c-.1 2.6.5 4.8 1.7 6.5 1.1 1.7 2.9 2.6 5.3 2.6 1.5 0 2.8-.4 3.9-1.3 1-.8 1.6-2.2 1.8-4h4.6c0 .6-.2 1.4-.4 2.3-.3 1-.8 2-1.7 3-.2.3-.6.6-1 1-.5.4-1 .7-1.7 1.1s-1.5.6-2.4.8c-.9.3-2 .4-3.3.4-7.6-.2-11.3-4.5-11.3-12.9 0-2.5.3-4.8 1-6.8s2-3.7 3.8-5.1c1.2-.8 2.4-1.3 3.7-1.6 1.3-.2 2.2-.3 3-.3 2.7 0 4.8.6 6.3 1.6s2.5 2.3 3.1 3.9c.6 1.5 1 3.1 1.1 4.6.1 1.6.1 2.9 0 4h-17.5m12.9-3c0-.3 0-.7 0-1.1s0-.8-.1-1.2c-.1-.9-.4-1.7-.8-2.5s-1-1.5-1.8-2.1c-.9-.5-2-.8-3.4-.8-.8 0-1.5.1-2.3.3s-1.5.7-2.2 1.3-1.2 1.3-1.6 2.3-.7 2.2-.8 3.7z"
+              ></path>
+              <path
+                d="m98.6 122.4-.1-2.9h4.6v4.1c.2-.3.4-.8.7-1.2.3-.5.8-1 1.3-1.5.6-.5 1.4-1 2.3-1.3s2-.5 3.4-.5c.6 0 1.4.1 2.4.2.9.2 1.9.5 2.9 1.1s1.8 1.4 2.5 2.5c.6 1.2 1 2.7 1 4.7v17.1h-4.6v-16c0-.9-.1-1.7-.2-2.4-.2-.7-.5-1.3-1.1-1.9-1.2-1.1-2.6-1.7-4.3-1.7s-3.1.6-4.3 1.8c-1.3 1.2-2 3.1-2 5.7v14.5h-4.6z"
+              ></path>
+              <path
+                d="m142.7 127.5c0-.3 0-.8-.1-1.4s-.3-1.1-.6-1.8c-.2-.6-.7-1.2-1.4-1.6s-1.6-.6-2.7-.6c-1.5 0-2.7.4-3.5 1.2-.9.8-1.5 1.7-1.9 2.8s-.6 2.2-.7 3.2c-.1 1.1-.2 1.8-.1 2.4 0 1.3.1 2.5.3 3.7s.5 2.3.9 3.3c.8 2 2.4 3 4.8 3.1 1.9 0 3.3-.7 4.1-1.9.8-1.1 1.2-2.3 1.2-3.6h4.6c-.2 2.5-1.1 4.6-2.7 6.3-1.7 1.8-4.1 2.7-7.1 2.7-.9 0-2.1-.2-3.6-.6-.7-.2-1.4-.6-2.2-1s-1.5-1-2.2-1.7c-.7-.9-1.4-2.1-2-3.6s-.9-3.5-.9-6.1.4-4.8 1.1-6.6c.7-1.7 1.6-3.1 2.7-4.2 1.1-1 2.3-1.8 3.6-2.2s2.5-.6 3.7-.6h1.6c.6.1 1.3.2 1.9.4.7.2 1.4.5 2.1 1 .7.4 1.3 1 1.8 1.7.9 1.1 1.4 2.1 1.7 3.1.2 1 .3 1.8.3 2.6z"
+              ></path>
+              <path
+                d="m164.8 144.8-3.4 9.3h-4.7l3.8-9.6-10.3-25h5.2l7.6 19.8 7.7-19.8h5z"
+              ></path>
+            </svg>
+          </span>
+        </a>
+                      </div>
+      <div class="l-header__search" id="header-search-drawer">
+        <form
+          class="usa-search usa-search--small usa-search--epa"
+          method="get"
+          action="https://search.epa.gov/epasearch"
+        >
+          <div role="search">
+            <label class="usa-search__label usa-sr-only" for="search-box"
+              >Search</label
+            >
+            <input
+              class="usa-input"
+              id="search-box"
+              type="search"
+              name="querytext"
+              placeholder="Search EPA.gov"
+            />
+            <button class="button" type="submit" aria-label="Search">
+              <svg class="icon usa-search__submit-icon" aria-hidden="true">
+                <use
+                  href="/themes/custom/epa_uswds/images/sprite.artifact.svg#magnifying-glass"
+                ></use>
+              </svg>
+              <span class="usa-search__submit-text">Search</span>
+            </button>
+            <input type="hidden" name="areaname" value="" />
+            <input type="hidden" name="areacontacts" value="" />
+            <input type="hidden" name="areasearchurl" value="" />
+            <input type="hidden" name="typeofsearch" value="epa" />
+            <input type="hidden" name="result_template" value="" />
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="l-header__nav">
+    <nav
+      class="usa-nav usa-nav--epa"
+      role="navigation"
+      aria-label="Primary navigation"
+    >
+      <div class="usa-nav__inner">
+        <button type="button" class="usa-nav__close" aria-label="Close">
+          <svg class="icon icon--nav-close" aria-hidden="true" role="img">
+            <title>Primary navigation</title>
+            <use
+              href="/themes/epa_theme/images/sprite.artifact.svg#xmark"
+            ></use>
+          </svg>
+        </button>
+        <div class="usa-nav__menu">
+          <ul class="menu menu--main menu--accordion usa-accordion">
+            <li class="menu__item">
+              <a
+                href="https://www.epa.gov/environmental-topics"
+                class="menu__link usa-nav__link"
+              >
+                Environmental Topics
+              </a>
+            </li>
+
+            <li class="menu__item">
+              <a
+                href="https://www.epa.gov/laws-regulations"
+                title="View links to regulatory information by topic and sector, and to top pages about environmental laws, regulations, policies, compliance, and enforcement"    
+                class="menu__link usa-nav__link"
+              >
+                Laws &amp; Regulations
+              </a>
+            </li>
+
+            <li class="menu__item">
+              <a
+                href="https://www.epa.gov/report-violation"
+                class="menu__link usa-nav__link"
+              >
+                Report a Violation
+              </a>
+            </li>
+
+            <li class="menu__item">
+              <a
+                class="menu__link usa-nav__link"
+                href="https://www.epa.gov/aboutepa"
+              >
+                About EPA
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
+
+
+<main id="main-content" class="main" role="main" tabindex="-1">
+  <div class="l-page padding-top-0">
+    <div class="l-constrain">
+      <article class=" article">
+        
+<header>
+  <span data-big-pipe-placeholder-id="callback=Drupal%5Cblock%5CBlockViewBuilder%3A%3AlazyBuilder&amp;args%5B0%5D=echo_site_branding&amp;args%5B1%5D=full&amp;args%5B2%5D&amp;token=9a0HfJL6Ki6au7tD0cANVA8jywXxiDONuQktCRIYS1k">
+</span><div id="block-mainmenu">
+  
+    
+      
+<ul id="superfish-main" class="menu sf-menu sf-main sf-horizontal sf-style-none" role="menu" aria-label="Menu">
+  
+
+            
+  <li id="main-menu-link-contenta737b389-e6c1-408a-a3cd-23cd330c3d8d" class="sf-depth-1 menuparent sf-first" role="none">
+    
+          <a href="/" title="" class="sf-depth-1 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Search Options</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+            
+  <li id="main-menu-link-content07d1512a-809b-455c-a3b4-23d06c0f319b" class="sf-depth-2 menuparent sf-first" role="none">
+    
+          <span class="sf-depth-2 menuparent nolink" role="menuitem" aria-haspopup="true" aria-expanded="false">Cross Program</span>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-contentf9e959f2-7fbd-44af-ac91-09a7c2dcb8aa" class="sf-depth-3 sf-no-children sf-first" role="none">
+    
+          <a href="/facilities/facility-search?mediaSelected=all" class="sf-depth-3" role="menuitem">All Media Programs Facility Search</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content36e95b02-1da3-4ea9-bcff-193663f29dc4" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/facilities/facility-search/results?mediaSelected=fac" class="sf-depth-3" role="menuitem">Map All Facilities</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content30396e9b-3280-4035-a7c2-4409bf63bbc1" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/facilities/compliance-screener" title="" class="sf-depth-3" role="menuitem">Corporate Compliance Screener</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content55742b8b-1650-46f5-a479-ebfe52742ab6" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/tools/echo-notify" title="" class="sf-depth-3" role="menuitem">ECHO Notify</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-content227bf9c5-20b7-476a-b2c2-7c779740b2d3" class="sf-depth-2 menuparent" role="none">
+    
+          <a href="/" title="" class="sf-depth-2 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Air</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content5996f5fc-f74c-4405-adc6-435ab4ea4f74" class="sf-depth-3 sf-no-children sf-first" role="none">
+    
+          <a href="/facilities/facility-search?mediaSelected=caa" class="sf-depth-3" role="menuitem">Air Facility Search</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentfd4c2717-fcc6-42da-9f2e-c7e7a45f1c37" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/facilities/facility-search/results?mediaSelected=caa" class="sf-depth-3" role="menuitem">Map Air Facilities</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content51b14d27-a025-4fb5-82b5-9a20abbc3e84" class="sf-depth-3 sf-no-children sf-last" role="none">
+    
+          <a href="/trends/air-monitoring-stations" class="sf-depth-3" role="menuitem">ECHO Clean Air Tracking Tool (ECATT)</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-content8d145819-0ed6-4f12-97b6-d2b398b57b87" class="sf-depth-2 menuparent" role="none">
+    
+          <span class="sf-depth-2 menuparent nolink" role="menuitem" aria-haspopup="true" aria-expanded="false">Wastewater/Stormwater/Biosolids (CWA)</span>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content16701670-d07a-4315-b58c-f34bef4c76af" class="sf-depth-3 sf-no-children sf-first" role="none">
+    
+          <a href="/facilities/facility-search?mediaSelected=cwa" class="sf-depth-3" role="menuitem">Wastewater/Stormwater/Biosolids Facility Search</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentc70c8939-03f7-4f6e-a434-511a669d8dca" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/facilities/facility-search?mediaSelected=bio" class="sf-depth-3" role="menuitem">Biosolids Facility Search</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content9f4187c9-c500-4a49-ac20-a4f9696b543e" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/facilities/facility-search?mediaSelected=bioAnnual" class="sf-depth-3" role="menuitem">Biosolids Annual Report Search</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contente8d5e984-cce5-4c31-a8b6-b310d8d62092" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/facilities/facility-search?mediaSelected=msgp" class="sf-depth-3" role="menuitem">Industrial Stormwater Facility Search</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content2c9c3638-d0cd-4987-a2fa-6a088f1517c3" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/facilities/facility-search/results?mediaSelected=cwa" class="sf-depth-3" role="menuitem">Map Water Facilities</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content78817e3a-2e00-48e7-9b23-b7938edd7b0c" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/trends/loading-tool/water-pollution-search" title="" class="sf-depth-3" role="menuitem">Water Pollutant Loading Tool</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content00f3572c-fb38-48d6-9312-3c7b0db421bb" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/trends/npdes-dmr-non-receipt-status" title="" class="sf-depth-3" role="menuitem">NPDES DMR Non-Receipt Status Search</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content6007e2d0-9d74-4363-be1c-332fac83920f" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/facilities/npdes-noncompliance-search" class="sf-depth-3" role="menuitem">Quarterly NPDES Noncompliance Report Search</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content682fd404-cd0f-4766-84ed-2cc7b117c59d" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/npdes-noncompliance-annual-report" class="sf-depth-3" role="menuitem">NPDES Noncompliance Annual Report</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-content5526fa51-6a7f-41c9-bd3d-5bed934c422d" class="sf-depth-2 menuparent" role="none">
+    
+          <a href="/" title="" class="sf-depth-2 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Hazardous Waste</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content8d1e68c4-5300-4d47-91da-0b597ced3874" class="sf-depth-3 sf-no-children sf-first" role="none">
+    
+          <a href="/facilities/facility-search?mediaSelected=rcra" class="sf-depth-3" role="menuitem">Hazardous Waste Facility Search</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentf75f1b03-54f1-47da-9c8e-212dc8399411" class="sf-depth-3 sf-no-children sf-last" role="none">
+    
+          <a href="/facilities/facility-search/results?mediaSelected=rcra" class="sf-depth-3" role="menuitem">Map Hazardous Waste Facilities</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-content900e0812-3d7d-4708-a38c-796ed591ef2b" class="sf-depth-2 menuparent sf-last" role="none">
+    
+          <a href="/" title="" class="sf-depth-2 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Drinking Water</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content80e91ff9-c51b-4d00-93b6-b79b5d4b4613" class="sf-depth-3 sf-no-children sf-first" role="none">
+    
+          <a href="/facilities/facility-search?mediaSelected=sdwa" class="sf-depth-3" role="menuitem">Drinking Water System Search</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-contentdee47242-ae82-41ac-a261-922d41cd2a00" class="sf-depth-1 menuparent" role="none">
+    
+          <a href="/" title="" class="sf-depth-1 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Analyze Trends</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+            
+  <li id="main-menu-link-contentdfe8f512-3072-4a5f-8844-eb2eeb195c63" class="sf-depth-2 menuparent sf-first" role="none">
+    
+          <a href="/" title="" class="sf-depth-2 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Track Performance</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content52187ada-aced-4804-9e63-a115197f9e1d" class="sf-depth-3 sf-no-children sf-first" role="none">
+    
+          <a href="/trends/comparative-maps-dashboards/state-air-dashboard" class="sf-depth-3" role="menuitem">EPA/State Dashboards (Air, Wastewater, Drinking Water, Hazardous Waste, Pesticides)</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentf21f9b42-6152-4235-916f-771e5e83e00d" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/trends/npdes-dmr-non-receipt-status" title="" class="sf-depth-3" role="menuitem">NPDES DMR Non-Receipt Status Search</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentd9faa247-308b-4e7a-85d5-30f2fa7fdc6e" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/oversight/state-review-framework/tracker-recommendations" title="" class="sf-depth-3" role="menuitem">State Review Framework Tracker Recommendations</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content3c58dbb2-2fd0-4603-b95d-19edde1b4ca6" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/archived-tools" title="" class="sf-depth-3" role="menuitem">Archived Tools</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-content66311933-e1aa-472d-8954-51e94f98146f" class="sf-depth-2 menuparent" role="none">
+    
+          <a href="/" class="sf-depth-2 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Data Visualization</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content014a6dfc-8ee0-4372-aad2-ec3a6d31343d" class="sf-depth-3 sf-no-children sf-first" role="none">
+    
+          <a href="/trends/data-viz" class="sf-depth-3" role="menuitem">Data Visualization Gallery</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contente0b5b82b-7fd6-4984-94c3-d66dcd2a0a59" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/trends/npdes-erule-dashboard-public" class="sf-depth-3" role="menuitem">NPDES eRule Readiness Dashboard</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content581933f1-4e95-4c03-a2d4-d15f27baf37f" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/trends/pfas-tools" class="sf-depth-3" role="menuitem">PFAS Analytic Tools</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content51cc7eeb-dbf2-4ee4-b238-3901d437c2b9" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/trends/data-viz?filters=erule" class="sf-depth-3" role="menuitem">NPDES eRule Dashboards</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentef529a3c-9e76-412d-bf72-7e0a30852299" class="sf-depth-3 sf-no-children sf-last" role="none">
+    
+          <a href="https://awsedap.epa.gov/public/extensions/Fenceline_Monitoring/Fenceline_Monitoring.html?sheet=facilitySnapshot" class="sf-depth-3 sf-external" role="menuitem">Benzene Fenceline Monitoring</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-content62389656-c4f1-4864-92c2-7bc4d5b6fccb" class="sf-depth-2 menuparent sf-last" role="none">
+    
+          <a href="/" class="sf-depth-2 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Pollution Analysis</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-contentece03193-99a4-4a4a-aaa2-b45c06a842d6" class="sf-depth-3 sf-no-children sf-first" role="none">
+    
+          <a href="/trends/loading-tool/water-pollution-search" title="" class="sf-depth-3" role="menuitem">Water Pollutant Loading Tool</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentdd0b0186-da49-4d48-a039-90b4c8a8c609" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/trends/air-monitoring-stations" class="sf-depth-3" role="menuitem">ECHO Clean Air Tracking Tool (ECATT)</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-contentd780676c-ecdd-4351-8dd2-124d0dbb7f10" class="sf-depth-1 menuparent" role="none">
+    
+          <a href="/" title="" class="sf-depth-1 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Find EPA Cases</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content4ac457b1-220a-4e93-98ad-bf167c6147a3" class="sf-depth-2 sf-no-children sf-first" role="none">
+    
+          <a href="/facilities/enforcement-case-search" title="" class="sf-depth-2" role="menuitem">EPA Enforcement Case Search</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentd052b460-8b70-470e-9698-ca2fd0c774db" class="sf-depth-2 sf-no-children sf-last" role="none">
+    
+          <a href="/facilities/enforcement-case-search?srch=adv" title="" class="sf-depth-2" role="menuitem">Advanced EPA Enforcement Case Search</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-contentbf4afe68-f7aa-4600-844f-18d7c489cbdb" class="sf-depth-1 menuparent" role="none">
+    
+          <a href="/" title="" class="sf-depth-1 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Data Services</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content67a01d27-b6f1-4e7d-935d-d67ab2b0bfa4" class="sf-depth-2 sf-no-children sf-first" role="none">
+    
+          <a href="/tools/data-downloads" title="" class="sf-depth-2" role="menuitem">National Data Sets</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content63ca6ee4-b4ae-4704-af23-1344859df968" class="sf-depth-2 sf-no-children" role="none">
+    
+          <a href="/tools/data-downloads#exporter" class="sf-depth-2" role="menuitem"> ECHO Exporter</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contente8373103-795b-4c6e-8475-bf918034bbb5" class="sf-depth-2 sf-no-children" role="none">
+    
+          <a href="/tools/web-services" title="" class="sf-depth-2" role="menuitem">ECHO Web Services</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contented8bf3fe-37d5-45be-a182-76adcff02bb7" class="sf-depth-2 sf-no-children" role="none">
+    
+          <a href="/tools/map-service" title="" class="sf-depth-2" role="menuitem">ECHO Map Services</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentbcb049e9-36ff-4c59-bcdb-4379267681fa" class="sf-depth-2 sf-no-children" role="none">
+    
+          <a href="/tools/quick-search-widget" class="sf-depth-2" role="menuitem">Quick Search Widget</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-contentc7efbc02-a9f8-4486-9db1-d830e71c8647" class="sf-depth-1 menuparent" role="none">
+    
+          <a href="/" title="" class="sf-depth-1 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Help</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content28850260-85c9-45e4-aef5-bd69b01d99d3" class="sf-depth-2 sf-no-children sf-first" role="none">
+    
+          <a href="/resources/echo-data/about-the-data" title="" class="sf-depth-2" role="menuitem">About the Data</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content64e0ee94-1100-4e6c-b60b-0ae76902f354" class="sf-depth-2 sf-no-children" role="none">
+    
+          <a href="/help/tutorials" title="ECHO Tutorials" class="sf-depth-2" role="menuitem">ECHO Video Tutorials</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contenta98cf620-e638-4c82-93d2-19b2043a681c" class="sf-depth-2 sf-no-children" role="none">
+    
+          <a href="/resources/general-info/learn-more-about-echo" title="" class="sf-depth-2" role="menuitem">Quick Start Guide</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content3c663a56-5c9d-49dc-bc1d-045478137b14" class="sf-depth-2 sf-no-children" role="none">
+    
+          <a href="/help/training" title="ECHO Training" class="sf-depth-2" role="menuitem">ECHO Training</a>
+    
+    
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-contentbeeb039f-202b-4f43-b2f3-b7792df2c847" class="sf-depth-2 menuparent" role="none">
+    
+          <a href="/" title="" class="sf-depth-2 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">How to ...</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content77f7b6f4-7578-458d-8c60-c265ec8c0ba5" class="sf-depth-3 sf-no-children sf-first" role="none">
+    
+          <a href="/help/how-to-report-error" title="Report a Data Error" class="sf-depth-3" role="menuitem">Report a Data Error</a>
+    
+    
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-contente3c48dfd-adac-43fb-9bcc-8f29f07a5163" class="sf-depth-3 menuparent" role="none">
+    
+          <a href="/" title="Facility Search" class="sf-depth-3 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Run Facility Searches</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content61eb2e2a-c669-4dbe-843e-bc8d79121f6d" class="sf-depth-4 sf-no-children sf-first" role="none">
+    
+          <a href="/help/facility-search/facility-search-help" title="Facility Search Help" class="sf-depth-4" role="menuitem">Facility Search Help</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content11991343-af0f-4854-926d-e8f95b69fe26" class="sf-depth-4 sf-no-children" role="none">
+    
+          <a href="/help/facility-search/search-criteria-help" title="Facility Search Criteria Help" class="sf-depth-4" role="menuitem">Facility Search Criteria Help</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentcb64039f-924b-4d43-b3a9-0b646b6558b0" class="sf-depth-4 sf-no-children" role="none">
+    
+          <a href="/help/facility-search/facility-search-results-help" title="Search Results Help" class="sf-depth-4" role="menuitem">Search Results Help</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content5abb9f52-e774-4a42-8937-fe437eaf6cf2" class="sf-depth-4 sf-no-children" role="none">
+    
+          <a href="/help/enforcement-case-search-help" title="Enforcement Case Search Help" class="sf-depth-4" role="menuitem">Enforcement Case Search Help</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content2a1f5d94-b460-4750-8ce1-12912a468424" class="sf-depth-4 sf-no-children sf-last" role="none">
+    
+          <a href="/help/corporate-compliance-screener/corporate-compliance-screener-help" title="" class="sf-depth-4" role="menuitem">Corporate Compliance Screener Help</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-content2df0856f-a839-4919-82b3-4ed82b28ad80" class="sf-depth-3 menuparent" role="none">
+    
+          <a href="/" title="Reports" class="sf-depth-3 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Use and Understand ECHO Reports</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content44b17cc4-9b75-40ab-8198-fb4edda4f7e5" class="sf-depth-4 sf-no-children sf-first" role="none">
+    
+          <a href="/help/reports/air-pollutant-report-help" title="Air Pollutant Report Help" class="sf-depth-4" role="menuitem">Air Pollutant Report Help</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content6585f150-46ad-4fa0-a7e5-33d1a05c4f2b" class="sf-depth-4 sf-no-children" role="none">
+    
+          <a href="/help/reports/ambient-monitoring-station-report-help" title="" class="sf-depth-4" role="menuitem">Air Monitoring Station Report Help</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentf5620209-8557-45b7-9969-21da9f16c458" class="sf-depth-4 sf-no-children" role="none">
+    
+          <a href="/help/reports/biosolids-facility-report-help" title="" class="sf-depth-4" role="menuitem">Biosolids Facility Report Help</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content2a944250-1ffb-4adb-b751-1e4e7b7715a5" class="sf-depth-4 sf-no-children" role="none">
+    
+          <a href="/help/reports/detailed-facility-report-help" title="Detailed Facility Report Help" class="sf-depth-4" role="menuitem">Detailed Facility Report Help</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentf8b14548-0e3e-430b-a675-bb9c2310ac4f" class="sf-depth-4 sf-no-children" role="none">
+    
+          <a href="/help/reports/enforcement-case-report-help" title="A description of the Enforcement Case Report" class="sf-depth-4" role="menuitem">Civil Enforcement Case Report Help</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content387c141d-766e-4dab-b08d-71758dc2db69" class="sf-depth-4 sf-no-children" role="none">
+    
+          <a href="/help/reports/criminal-case-report-help" title="" class="sf-depth-4" role="menuitem">Criminal Enforcement Case Report Help</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentd15bc9e3-5861-4f27-b888-788d235a31d0" class="sf-depth-4 sf-no-children sf-last" role="none">
+    
+          <a href="/help/reports/effluent-charts-help" title="" class="sf-depth-4" role="menuitem">Effluent Charts Help</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-content4bc4c087-b321-49c7-bfcc-ee92456486f6" class="sf-depth-3 menuparent sf-last" role="none">
+    
+          <a href="/" title="Dashboards Help" class="sf-depth-3 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Use ECHO EPA/State Dashboards</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content2154fcdd-4cc8-4248-8385-f8910b41a1db" class="sf-depth-4 sf-no-children sf-first" role="none">
+    
+          <a href="/help/air-dashboard-help" title="Air Dashboard Help" class="sf-depth-4" role="menuitem">Air Dashboard Help</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contente566b60d-af9c-4e98-baea-7841a12bf8ef" class="sf-depth-4 sf-no-children" role="none">
+    
+          <a href="/help/pesticide-dashboard-help" title="Pesticide Dashboard Help" class="sf-depth-4" role="menuitem">Pesticide Dashboard Help</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content0e0ae48d-20cc-4e44-8d64-e9ce9905976e" class="sf-depth-4 sf-no-children" role="none">
+    
+          <a href="/help/state-comparative-maps-help" title="State Comparative Maps Help" class="sf-depth-4" role="menuitem">State Comparative Maps Help</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-content5201296a-4f77-43b2-ab4f-a89f98a1c20d" class="sf-depth-2 menuparent" role="none">
+    
+          <a href="/" title="" class="sf-depth-2 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">General Information</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content4177439e-4543-4980-9860-770273a4f4bf" class="sf-depth-3 sf-no-children sf-first" role="none">
+    
+          <a href="/resources/general-info/whats-new" title="" class="sf-depth-3" role="menuitem">What&#039;s New</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content6c93dfde-d715-4a2d-913d-e47705efa3eb" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/resources/echo-data/known-data-problems" title="Known Data Problems" class="sf-depth-3" role="menuitem">Known Data Problems</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content6f398fa8-606b-410e-acb1-81ee7080c5f5" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/resources/general-info/tool-guide" title="" class="sf-depth-3" role="menuitem">ECHO Tool Guide</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content5033cf98-3b48-4f59-ad1c-1f3f647ed003" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/resources/general-info/echo-faq" title="Frequently Asked Questions" class="sf-depth-3" role="menuitem">Frequently Asked Questions</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content0f907c17-96c4-42ba-82a6-01f73e8250ae" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/resources/echo-site-map" title="ECHO Site Map" class="sf-depth-3" role="menuitem">ECHO Site Map</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentddd63b62-d717-47b2-b70e-75e5f7bfa35e" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/report-environmental-violations" title="Report Environmental Violations" class="sf-depth-3" role="menuitem">Report A Violation</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content96eded93-0fd9-444b-b388-125a58de3a77" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/resources/general-info/website-known-issues" title="Website Known Issues" class="sf-depth-3" role="menuitem">Website Known Issues</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-contentb45bc0b3-bf8b-4c61-85d8-6b3488883623" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/resources/general-info/listserv" title="" class="sf-depth-3" role="menuitem">Join the ECHO Listserv</a>
+    
+    
+    
+    
+      </li>
+
+
+  
+  <li id="main-menu-link-content73a57e1d-2ba5-4764-a565-7b380e1f0833" class="sf-depth-3 sf-no-children" role="none">
+    
+          <a href="/resources" title="" class="sf-depth-3" role="menuitem">Other Available Resources</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+            
+  <li id="main-menu-link-content0c82aeec-8530-43ac-89fc-07306b51ec57" class="sf-depth-2 menuparent sf-last" role="none">
+    
+          <a href="/" title="" class="sf-depth-2 menuparent" role="menuitem" aria-haspopup="true" aria-expanded="false">Get Access</a>
+    
+    
+    
+              <ul role="menu">
+      
+      
+
+  
+  <li id="main-menu-link-content2ba57853-0396-4b76-bb10-b07ce5a6b8a6" class="sf-depth-3 sf-no-children sf-first" role="none">
+    
+          <a href="/help/login-and-access" title="" class="sf-depth-3" role="menuitem">Login and Access</a>
+    
+    
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+
+              </ul>
+      
+    
+    
+      </li>
+
+
+</ul>
+
+  </div>
+<span data-big-pipe-placeholder-id="callback=Drupal%5Cblock%5CBlockViewBuilder%3A%3AlazyBuilder&amp;args%5B0%5D=echo_account_menu&amp;args%5B1%5D=full&amp;args%5B2%5D&amp;token=0aQiGtHfmcfMkZldF9umwp4ytpUXW1fy6B3sE6gnHoo">
+</span>
+</header>
+
+
+          <div>
+    <div id="block-echo-breadcrumbs">
+  
+    
+      
+  <nav class="usa-breadcrumb" role="navigation" aria-labelledby="system-breadcrumb">
+    <ol class="usa-breadcrumb__list" itemscope itemtype="http://schema.org/BreadcrumbList">
+              <li class="usa-breadcrumb__list-item " itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                      <a class="usa-breadcrumb__link" itemscope itemtype="http://schema.org/Thing" itemprop="item" href="/">
+              <span itemprop="name">Home</span>
+            </a>
+                    <meta itemprop="position" content="1" />
+        </li>
+              <li class="usa-breadcrumb__list-item " itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                      <a class="usa-breadcrumb__link" itemscope itemtype="http://schema.org/Thing" itemprop="item" href="/tools">
+              <span itemprop="name">Tools</span>
+            </a>
+                    <meta itemprop="position" content="2" />
+        </li>
+              <li class="usa-breadcrumb__list-item " itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                      <a class="usa-breadcrumb__link" itemscope itemtype="http://schema.org/Thing" itemprop="item" href="/tools/data-downloads">
+              <span itemprop="name">Data Downloads</span>
+            </a>
+                    <meta itemprop="position" content="3" />
+        </li>
+              <li class="usa-breadcrumb__list-item usa-current" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                      <span itemprop="name">ICIS-FE&amp;C Download Summary and Data Element Dictionary</span>
+                    <meta itemprop="position" content="4" />
+        </li>
+          </ol>
+  </nav>
+
+  </div>
+<div data-drupal-messages-fallback class="hidden"></div><span data-big-pipe-placeholder-id="callback=Drupal%5CCore%5CRender%5CElement%5CStatusMessages%3A%3ArenderMessages&amp;args%5B0%5D&amp;token=_HAdUpwWmet0TOTe2PSiJuMntExoshbm1kh2wQzzzAA">
+</span>
+
+  </div>
+
+          <div>
+    <div id="block-echo-page-title">
+  
+    
+      
+  <h1>
+<span property="schema:name">ICIS-FE&amp;C Download Summary and Data Element Dictionary</span>
+</h1>
+
+
+  </div>
+<div id="block-echo-echo-system-main">
+  
+    
+      <article data-history-node-id="208" about="/tools/data-downloads/icis-fec-download-summary" typeof="schema:WebPage">
+
+  
+      <span property="schema:name" content="ICIS-FE&amp;C Download Summary and Data Element Dictionary" class="hidden"></span>
+
+
+  
+  <div>
+    
+            <div property="schema:text"><p>The Enforcement and Compliance History Online (ECHO) system incorporates Federal enforcement and compliance (FE&amp;C) data from the Integrated Compliance Information System (ICIS), used to track federal enforcement cases. ICIS contains information on federal administrative and federal judicial cases under the following environmental statutes: the Clean Air Act (CAA), the Clean Water Act (CWA), the Resource Conservation and Recovery Act (RCRA), the Emergency Planning and Community Right-to-Know Act (EPCRA) Section 313, the Toxic Substances Control Act (TSCA), the Federal Insecticide, Fungicide, and Rodenticide Act (FIFRA), the Comprehensive Environmental Response, Compensation, and Liability Act (CERCLA or Superfund), the Safe Drinking Water Act (SDWA), and the Marine Protection, Research, and Sanctuaries Act (MPRSA).</p><p>ICIS may contain duplicates of actions and penalties shown in the program databases (i.e.,&nbsp;RCRAInfo).</p><p>Note: There may be a delay of up to several months between when cases are concluded and when they are entered into the database.</p><ul><li><a href="#description">ICIS FE&amp;C Description</a><ul><li><a href="#scope">Scope of the ICIS-FE&amp;C Download</a></li></ul></li><li><a href="#Guidance">Guidance on ICIS-FE&amp;C Downloads</a></li><li><a href="#file_structure">ICIS-FE&amp;C Data Download File Structure</a></li><li><a href="#definitions">ICIS-FE&amp;C Data Element Definitions</a></li></ul><div class="disclaimer pdf">You will need Adobe Reader to view some of the files on this page. See <a href="https://www.epa.gov/home/pdf-files">EPA’s About PDF page</a> to learn more.</div><hr><h2>ICIS-FE&amp;C Description<a name="description">&nbsp;</a></h2><p>ICIS is a case activity tracking and management system for civil, judicial, and administrative federal EPA enforcement cases. Case information is supplied and updated by EPA’s Offices of Regional Counsel and Office of Civil Enforcement case attorneys. The basic structure of an ICIS FE&amp;C record focuses on an enforcement case. It is assigned a case number and a case name which identifies the defendant (or principal defendant if more than one is named in the complaint). For administrative actions, the record includes the nature of the violation, statute(s) involved, and milestone dates (e.g., the date the order was issued). Judicial actions contain information similar to that for administrative actions, but include more detailed milestone dates. ECHO contains a subset of the ICIS data which includes:</p><ul><li>General Case Information - Case Number, Case Name, etc.</li><li>Violation Information - Law/Section, Violation Date, etc.</li><li>Defendant Name(s)</li><li>Milestone Dates - Referred to DOJ, Filed, Concluded, etc.</li><li>Penalty Amounts - Fines, Supplemental Environmental Projects (SEPs), etc.</li></ul><p>ICIS tracks enforcement actions taken against companies or individuals. Therefore, the ICIS case name may not exactly correspond to the facility name for ICIS records linked via FRS to facility records from other program office data systems.</p><h3>Scope of ICIS-FE&amp;C Download<a name="scope">&nbsp;</a></h3><p>The Integrated Compliance Information System (ICIS) tracks all formal administrative and judicial enforcement actions taken by the U.S. EPA and is used as the system of record to provide official enforcement data.&nbsp; The ICIS download includes data on issued administrative orders and filed judicial cases under EPA&nbsp;statutory authorities. The majority of EPA enforcement actions are initiated and tracked by the EPA regional offices. The cases are updated on a regular basis to provide new information.</p><p>The download also contains data on informal enforcement actions/notices of violations tracked in ICIS. Notices of Violation are activities taken by EPA&nbsp;that often precede a formal administrative or civil/judicial enforcement action.</p><p>Enforcement data in the download files are organized around two concepts: the enforcement case and a resulting settlement(s) (enforcement conclusion). Enforcement case data describe the enforcement action from initiation through to its conclusion. If multiple defendants, facilities, and/or violations are cited in the case, then a single case may result in multiple settlements. These case conclusions describe what has been ordered and/or agreed upon to be performed to address violations identified by the case complaint.</p><p>Compliance monitoring data in the FE&amp;C download file includes EPA-conducted compliance monitoring activities with an activity type of "Inspection/Evaluation", "Compliance Investigation", "Information Request", or "Offsite Record Review" that are not already reported in the <a href="https://echo.epa.gov/tools/data-downloads/icis-air-download-summary">ICIS-Air download</a> or <a href="https://echo.epa.gov/tools/data-downloads/icis-npdes-download-summary">ICIS-NPDES download</a>.</p><p>The included case level files are:</p><ul><li>Case Identifiers (CASE_ENFORCEMENTS.csv)</li><li>Violation(s) (CASE_VIOLATIONS.csv)</li><li>Enforcement Type (CASE_ENFORCEMENT_TYPE.csv)</li><li>Relief Sought (CASE_RELIEF_SOUGHT.csv)</li><li>Penalties (CASE_PENALTIES.csv)</li><li>Priorities (CASE_PRIORITIES.csv)</li><li>Laws Sections (CASE_LAW_SECTIONS.csv)</li><li>Facilities in Case (CASE_FACILITIES.csv)</li><li>Defendants (CASE_DEFENDANTS.csv)</li><li>Milestone Activities/Dates (CASE_MILESTONES.csv)</li><li>Pollutants Cited (CASE_POLLUTANTS.csv)</li><li>Programs (CASE_PROGRAMS.csv)</li><li>Regional Dockets (CASE_REGIONAL_DOCKETS.csv)</li><li>Related Activities (CASE_RELATED_ACTIVITIES.csv)</li></ul><p>The enforcement conclusion level files are:</p><ul><li>Case Conclusion (CASE_ENFORCEMENT_CONCLUSIONS.csv)</li><li>Pollutant Reductions (CASE_ENFORCEMENT_CONCLUSION_POLLUTANTS.csv)</li><li>Complying Actions (CASE_ENFORCEMENT_CONCLUSION_COMPLYING_ACTIONS.csv)</li><li>Enforcement Conclusion Facilities (CASE_ENFORCEMENT_CONCLUSION_FACILITIES.csv)</li><li>SEP Description (CASE_ENFORCEMENT_CONCLUSION_SEP.csv)</li><li>Enforcement Conclusion Dollars (CASE_ENFORCEMENT_CONCLUSION_DOLLARS.csv)</li></ul><p>ICIS informal enforcement action files are:</p><ul><li>Informal Actions (EPA_INFORMAL_ENFORCEMENT_ACTIONS.csv)</li></ul><p>ICIS compliance monitoring files are:</p><ul><li>ICIS EPA Inspections (ICIS_FEC_EPA_INSPECTIONS.csv)</li></ul><p>Data can be verified against an ECHO Case Report by supplying the CASE_NUMBER value in the URL to request a Case Report, e.g., <a href="https://echo.epa.gov/enforcement-case-report?id=06-2011-4881" target="_blank">https://echo.epa.gov/enforcement-case-report?id=06-2011-4881</a>.</p><p>Note: In 1996, EPA implemented an effort to improve reporting and tracking of settlement data in the predecessor database to ICIS (EPA Civil DOCKET). While that effort did include an attempt to provide additional detail on older closed cases, those cases entered prior to 1996 may not provide much settlement detail.</p><p>Maintaining the case-level versus case conclusion-level model, penalties are reported in two data files: PENALTIES (CASE_PENALTIES.csv) and CASE CONCLUSION (CASE_ENFORCEMENT_CONCLUSIONS.csv). As before, a single case may result in: no case conclusion (e.g., where a case is withdrawn or combined with another), a single (the most common occurrence), or multiple case conclusions.</p><p>The field total Federal Penalty Assessed Amount (FED_PENALTY) is the sum of federal penalties at all settlements at a case, i.e., if multiple settlements (case conclusions) exist at a case, any federal penalties at those case conclusions are summed and reported here.</p><p>Similarly, the fields State\Local Penalty Amount (ST_LCL_PENALTY), Total Supplemental Environmental Project (SEP) Amount (TOTAL_SEP), Total Complying Action Amount (COMPLIANCE_ACTION_COST), and Federal Cost Recovery Awarded Amount (FEDERAL_COST_RECOVERY_AMT) represent the sum of those reported values for all settlements (case conclusions) at a case. State/Local penalties were not tracked until Docket was replaced by ICIS in 2002. The cost of completing a SEP and the cost of complying actions are estimates and are not fines paid to EPA but rather are costs incurred to resolve the violations and/or in lieu of paying a fine. Cost recovery amounts are generally the costs incurred by EPA to stabilize and/or clean up Superfund sites, which are then recovered from the individuals or entities associated with the site (commonly referred to as potentially responsible parties or PRPs).</p><p class="clear-both text-right margin-bottom-neg-2"><a class="top-of-page" href="#main-content"><span>Top of Page</span></a></p><hr><h2>Guidance on ICIS-FE&amp;C Downloads<a name="Guidance">&nbsp;</a></h2><p>Twenty-two&nbsp;comma-separated value files comprise the data download. Data were selected based on a single criterion: that the ICIS Activity Type (ACTIVITY_TYPE_CODE) is equal to “administrative – formal” or “judicial.” The files contain repeating data fields, which will cause records to repeat the key field(s), e.g., ACTIVITY_ID, where a case has multiple values of the repeating field(s).</p><p>The primary key is the Activity Identifier (ACTIVITY_ID), which is an internal number having no other significance than to relate case-level data within and across the files. The Enforcement Conclusion Identifier (ENF_CONCLUSION_ID) is an internal number having no other significance than to relate settlement-level data within and across the data files. Data which repeat within a file are indicated file structure tables.</p><p>Key field columns are present in all CSV files and may be used to join and relate data between files. The following table describes how formal enforcement action tables may be joined (Please note that records in the informal enforcement actions table (EPA_INFORMAL_ENFORCEMENT_ACTIONS.csv) cannot be linked directly to a formal enforcement action):</p><table class="table"><thead><tr><th colspan="2" scope="col">Key fields</th><th scope="col">Tables</th></tr></thead><tbody><tr><td>1</td><td>ACTIVITY_ID</td><td><a name="1"></a>All Tables</td></tr><tr><td>2</td><td>CASE_NUMBER</td><td><a name="2"></a>All Tables</td></tr><tr><td>3</td><td>ENF_CONCLUSION_ID</td><td><a name="3"></a>CASE_ENFORCEMENT_CONCLUSIONS, CASE_ENFORCEMENT_POLLUTANTS, CASE_ENFORCEMENT_CONCLUSION_COMPLYING_ACTIONS, CASE_ENFORCEMENT_CONCLUSION_FACILITIES, CASE_ENFORCEMENT_CONCLUSION_SEP, CASE_ENFORCEMENT_CONCLUSION_DOLLARS</td></tr><tr><td>4</td><td>REGISTRY_ID</td><td><a name="4"></a>EPA_INFORMAL_ENFORCEMENT_ACTIONS, CASE_FACILITIES</td></tr></tbody></table><p class="clear-both text-right margin-bottom-neg-2"><a class="top-of-page" href="#main-content"><span>Top of Page</span></a></p><hr><h2>ICIS-FE&amp;C Data Download File Structure<a name="file_structure">&nbsp;</a></h2><h3>Case Identifiers (CASE_ENFORCEMENTS.csv)<a name="case_ids">&nbsp;</a></h3><table class="table"><thead><tr><th scope="col">Element Name</th><th scope="col">Data Type</th><th scope="col">Length</th><th scope="col">Repeating Data</th></tr></thead><tbody><tr><td>ACTIVITY_ID<a href="#1"><sup>1</sup></a></td><td>Num</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td>ACTIVITY_NAME</td><td>Char</td><td>100</td><td>&nbsp;</td></tr><tr><td>STATE_CODE</td><td>Char</td><td>2</td><td>&nbsp;</td></tr><tr><td>REGION_CODE</td><td>Char</td><td>2</td><td>Y</td></tr><tr><td>FISCAL_YEAR</td><td>Num</td><td>&nbsp;</td><td>Y</td></tr><tr><td>CASE_NUMBER<a href="#2"><sup>2</sup></a></td><td>Char</td><td>20</td><td>Y</td></tr><tr><td>CASE_NAME</td><td>Char</td><td>100</td><td>Y</td></tr><tr><td>ACTIVITY_TYPE_CODE</td><td>Char</td><td>3</td><td>Y</td></tr><tr><td>ACTIVITY_TYPE_DESC</td><td>Char</td><td>100</td><td>Y</td></tr><tr><td>ACTIVITY_STATUS_CODE</td><td>Char</td><td>3</td><td>Y</td></tr><tr><td>ACTIVITY_STATUS_DESC</td><td>Char</td><td>100</td><td>Y</td></tr><tr><td>ACTIVITY_STATUS_DATE</td><td>Date</td><td>7</td><td>Y</td></tr><tr><td>LEAD</td><td>Char</td><td>5</td><td>Y</td></tr><tr><td>CASE_STATUS_DATE</td><td>Date</td><td>7</td><td>Y</td></tr><tr><td>DOJ_DOCKET_NMBR</td><td>Char</td><td>50</td><td>&nbsp;</td></tr><tr><td>ENF_OUTCOME_CODE</td><td>Char</td><td>3</td><td>Y</td></tr><tr><td>ENF_OUTCOME_DESC</td><td>Char</td><td>100</td><td>Y</td></tr><tr><td>TOTAL_PENALTY_ASSESSED_AMT</td><td>Num</td><td>&nbsp;</td><td>Y</td></tr><tr><td>TOTAL_COST_RECOVERY_AMT</td><td>Num</td><td>&nbsp;</td><td>Y</td></tr><tr><td>TOTAL_COM_ACTION_AMT</td><td>Num</td><td>&nbsp;</td><td>Y</td></tr><tr><td>HQ_DIVISION</td><td>Char</td><td>3</td><td>Y</td></tr><tr><td>BRANCH</td><td>Char</td><td>5</td><td>&nbsp;</td></tr><tr><td>VOLUNTARY_SELF_DISCLOSURE_FLAG</td><td>Char</td><td>1</td><td>Y</td></tr><tr><td>MULTIMEDIA_FLAG</td><td>Char</td><td>1</td><td>Y</td></tr><tr><td>ENF_SUMMARY_TEXT</td><td>Char</td><td>4000</td><td>&nbsp;</td></tr></tbody></table><h3>Violation(s) (CASE_VIOLATIONS.csv)<a name="violations">&nbsp;</a></h3><table class="table"><thead><tr><th scope="col">Element Name</th><th scope="col">Data Type</th><th scope="col">Length</th><th scope="col">Repeating Data</th></tr></thead><tbody><tr><td>ACTIVITY_ID<a href="#1"><sup>1</sup></a></td><td>Num</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td>CASE_NUMBER<a href="#2"><sup>2</sup></a></td><td>Char</td><td>25</td><td>Y</td></tr><tr><td>VIOLATION_TYPE_CODE</td><td>Char</td><td>6</td><td>Y</td></tr><tr><td>VIOLATION_TYPE_DESC</td><td>Char</td><td>100</td><td>Y</td></tr><tr><td>RANK_ORDER</td><td>Num</td><td>&nbsp;</td><td>Y</td></tr></tbody></table><h3>Enforcement Types (CASE_ENFORCEMENT_TYPE.csv)<a name="enf_types">&nbsp;</a></h3><table class="table"><thead><tr><th scope="col">Element Name</th><th scope="col">Data Type</th><th scope="col">Length</th><th scope="col">Repeating Data</th></tr></thead><tbody><tr><td>ACTIVITY_ID<a href="#1"><sup>1</sup></a></td><td>Num</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td>CASE_NUMBER<a href="#2"><sup>2</sup></a></td><td>Char</td><td>25</td><td>Y</td></tr><tr><td>ENF_TYPE_CODE</td><td>Char</td><td>7</td><td>Y</td></tr><tr><td>ENF_TYPE_DESC</td><td>Char</td><td>100</td><td>Y</td></tr></tbody></table><h3>Relief Sought (CASE_RELIEF_SOUGHT.csv)<a name="relief">&nbsp;</a></h3><table class="table"><thead><tr><th scope="col">Element Name</th><th scope="col">Data Type</th><th scope="col">Length</th><th scope="col">Repeating Data</th></tr></thead><tbody><tr><td>ACTIVITY_ID<a href="#1"><sup>1</sup></a></td><td>Num</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td>CASE_NUMBER<a href="#2"><sup>2</sup></a></td><td>Char</td><td>25</td><td>Y</td></tr><tr><td>RELIEF_CODE</td><td>Char</td><td>3</td><td>Y</td></tr><tr><td>RELIEF_DESC</td><td>Char</td><td>100</td><td>Y</td></tr></tbody></table><p class="clear-both text-right margin-bottom-neg-2"><a class="top-of-page" href="#main-content"><span>Top of Page</span></a></p><h3>Penalties (CASE_PENALTIES.csv)<a name="penalties">&nbsp;</a></h3><table class="table"><thead><tr><th scope="col">Element Name</th><th scope="col">Data Type</th><th scope="col">Length</th><th scope="col">Repeating Data</th></tr></thead><tbody><tr><td>ACTIVITY_ID<a href="#1"><sup>1</sup></a></td><td>Num</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td>CASE_NUMBER<a href="#2"><sup>2</sup></a></td><td>Char</td><td>25</td><td>Y</td></tr><tr><td>FED_PENALTY</td><td>Num</td><td>&nbsp;</td><td>Y</td></tr><tr><td>ST_LCL_PENALTY</td><td>Num</td><td>&nbsp;</td><td>Y</td></tr><tr><td>TOTAL_SEP</td><td>Num</td><td>&nbsp;</td><td>Y</td></tr><tr><td>COMPLIANCE_ACTION_COST</td><td>Num</td><td>&nbsp;</td><td>Y</td></tr><tr><td>FEDERAL_COST_RECOVERY_AMT</td><td>Num</td><td>&nbsp;</td><td>Y</td></tr><tr><td>STATE_LOCAL_COST_RECOVERY_AMT</td><td>Num</td><td>&nbsp;</td><td>Y</td></tr><tr><td>PENALTY_COLLECTED_AMT</td><td>Num</td><td>&nbsp;</td><td>Y</td></tr></tbody></table><h3>Priorities&nbsp;(CASE_PRIORITIES.csv)<a name="priorities">&nbsp;</a></h3><table class="table"><thead><tr><th scope="col">Element Name</th><th scope="col">Data Type</th><th scope="col">Length</th><th scope="col">Repeating Data</th></tr></thead><tbody><tr><td>ACTIVITY_ID<a href="#1"><sup>1</sup></a></td><td>Num</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td>CASE_NUMBER<a href="#2"><sup>2</sup></a></td><td>Char</td><td>25</td><td>Y</td></tr><tr><td>PRIORITY_CODE</td><td>Num</td><td>&nbsp;</td><td>Y</td></tr><tr><td>PRIORITY_DESC</td><td>Char</td><td>100</td><td>Y</td></tr><tr><td>FISCAL_YEAR</td><td>Num</td><td>&nbsp;</td><td>Y</td></tr></tbody></table><h3>Law Sections (CASE_LAW_SECTIONS.csv)<a name="law_sec">&nbsp;</a></h3><table class="table"><thead><tr><th scope="col">Element Name</th><th scope="col">Data Type</th><th scope="col">Length</th><th scope="col">Repeating Data</th></tr></thead><tbody><tr><td>ACTIVITY_ID<a href="#1"><sup>1</sup></a></td><td>Num</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td>CASE_NUMBER<a href="#2"><sup>2</sup></a></td><td>Char</td><td>25</td><td>Y</td></tr><tr><td>RANK_ORDER</td><td>Num</td><td>&nbsp;</td><td>Y</td></tr><tr><td>STATUTE_CODE</td><td>Char</td><td>6</td><td>Y</td></tr><tr><td>LAW_SECTION_CODE</td><td>Char</td><td>15</td><td>Y</td></tr><tr><td>LAW_SECTION_DESC</td><td>Char</td><td>100</td><td>Y</td></tr></tbody></table><h3>Facilities in Case (CASE_FACILITIES.csv)<a name="facs_in_case">&nbsp;</a></h3><table class="table"><thead><tr><th scope="col">Element Name</th><th scope="col">Data Type</th><th scope="col">Length</th><th scope="col">Repeating Data</th></tr></thead><tbody><tr><td>ACTIVITY_ID<a href="#1"><sup>1</sup></a></td><td>Num</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td>CASE_NUMBER<a href="#2"><sup>2</sup></a></td><td>Char</td><td>25</td><td>Y</td></tr><tr><td>REGISTRY_ID<a href="#4"><sup>4</sup></a></td><td>Char</td><td>50</td><td>Y</td></tr><tr><td>FACILITY_NAME</td><td>Char</td><td>80</td><td>Y</td></tr><tr><td>LOCATION_ADDRESS</td><td>Char</td><td>50</td><td>Y</td></tr><tr><td>CITY</td><td>Char</td><td>60</td><td>Y</td></tr><tr><td>STATE_CODE</td><td>Char</td><td>2</td><td>Y</td></tr><tr><td>ZIP</td><td>Char</td><td>14</td><td>Y</td></tr><tr><td>PRIMARY_SIC_CODE</td><td>Char</td><td>4</td><td>Y</td></tr><tr><td>PRIMARY_NAICS_CODE</td><td>Char</td><td>6</td><td>Y</td></tr></tbody></table><h3>Defendants (CASE_DEFENDANTS.csv)<a name="defendants">&nbsp;</a></h3><table class="table"><thead><tr><th scope="col">Element Name</th><th scope="col">Data Type</th><th scope="col">Length</th><th scope="col">Repeating Data</th></tr></thead><tbody><tr><td>ACTIVITY_ID<a href="#1"><sup>1</sup></a></td><td>Num</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td>CASE_NUMBER<a href="#2"><sup>2</sup></a></td><td>Char</td><td>25</td><td>Y</td></tr><tr><td>DEFENDANT_NAME</td><td>Char</td><td>50</td><td>Y</td></tr><tr><td>NAMED_IN_COMPLAINT_FLAG</td><td>Char</td><td>1</td><td>Y</td></tr><tr><td>NAMED_IN_SETTLEMENT_FALG</td><td>Char</td><td>1</td><td>Y</td></tr></tbody></table><h3>Milestone Activities/Dates (CASE_MILESTONES.csv)<a name="milestones">&nbsp;</a></h3><table class="table"><thead><tr><th scope="col">Element Name</th><th scope="col">Data Type</th><th scope="col">Length</th><th scope="col">Repeating Data</th></tr></thead><tbody><tr><td>ACTIVITY_ID<a href="#1"><sup>1</sup></a></td><td>Num</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td>CASE_NUMBER<a href="#2"><sup>2</sup></a></td><td>Char</td><td>25</td><td>Y</td></tr><tr><td>SUB_ACTIVITY_TYPE_CODE</td><td>Char</td><td>5</td><td>Y</td></tr><tr><td>SUB_ACTIVITY_TYPE_DESC</td><td>Char</td><td>100</td><td>Y</td></tr><tr><td>ACTUAL_DATE</td><td>Date</td><td>7</td><td>Y</td></tr></tbody></table><p class="clear-both text-right margin-bottom-neg-2"><a class="top-of-page" href="#main-content"><span>Top of Page</span></a></p><h3>Pollutants Cited (CASE_POLLUTANTS.csv)<a name="poll_cited">&nbsp;</a></h3><table class="table"><thead><tr><th scope="col">Element Name</th><th scope="col">Data Type</th><th scope="col">Length</th><th scope="col">Repeating Data</th></tr></thead><tbody><tr><td>ACTIVITY_ID<a href="#1"><sup>1</sup></a></td><td>Num</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td>CASE_NUMBER<a href="#2"><sup>2</sup></a></td><td>Char</td><td>25</td><td>Y</td></tr><tr><td>POLLUTANT_CODE</td><td>Num</td><td>&nbsp;</td><td>Y</td></tr><tr><td>POLLUTANT_DESC</td><td>Char</td><td>2000</td><td>Y</td></tr><tr><td>CHEMICAL_ABSTRACT_SERVICE_NMBR</td><td>Char</td><td>9</td><td>Y</td></tr></tbody></table><h3>Programs&nbsp;(CASE_PROGRAMS.csv)<a name="caseprogram">&nbsp;</a></h3><table class="table"><thead><tr><th scope="col">Element Name</th><th scope="col">Data Type</th><th scope="col">Length</th><th scope="col">Repeating Data</th></tr></thead><tbody><tr><td>ACTIVITY_ID<a href="#1"><sup>1</sup></a></td><td>Num</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td>CASE_NUMBER<a href="#2"><sup>2</sup></a></td><td>VarChar</td><td>25</td><td>Y</td></tr><tr><td>PROGRAM_CODE</td><td>VarChar</td><td>9</td><td>Y</td></tr><tr><td>PROGRAM_DESC</td><td>VarChar</td><td>100</td><td>Y</td></tr></tbody></table><h3>Regional Dockets (CASE_REGIONAL_DOCKETS.csv)<a name="reg_dock">&nbsp;</a></h3><table class="table"><thead><tr><th scope="col">Element Name</th><th scope="col">Data Type</th><th scope="col">Length</th><th scope="col">Repeating Data</th></tr></thead><tbody><tr><td>ACTIVITY_ID<a href="#1"><sup>1</sup></a></td><td>Num</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td>CASE_NUMBER<a href="#2"><sup>2</sup></a></td><td>Char</td><td>25</td><td>Y</td></tr><tr><td>REGIONAL_DOCKET_NMBR</td><td>Char</td><td>50</td><td>Y</td></tr></tbody></table><h3>Related Activities (CASE_RELATED_ACTIVITIES.csv)<a name="rel_activities">&nbsp;</a></h3><table class="table"><thead><tr><th scope="col">Element Name</th><th scope="col">Data Type</th><th scope="col">Length</th><th scope="col">Repeating Data</th></tr></thead><tbody><tr><td>ACTIVITY_ID<a href="#1"><sup>1</sup></a></td><td>Num</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td>CASE_NUMBER<a href="#2"><sup>2</sup></a></td><td>Char</td><td>25</td><td>Y</td></tr><tr><td>ACTIVITY_STATUS_DATE</td><td>Date</td><td>7</td><td>Y</td></tr><tr><td>ACTIVITY_TYPE_CODE</td><td>Char</td><td>3</td><td>Y</td></tr><tr><td>ACTIVITY_TYPE_DESC</td><td>Char</td><td>100</td><td>Y</td></tr></tbody></table><h3>Case Conclusions (CASE_ENFORCEMENT_CONCLUSIONS.csv)<a name="case_con">&nbsp;</a></h3><table class="table"><thead><tr><th scope="col">Element Name</th><th scope="col">Data Type</th><th scope="col">Length</th><th scope="col">Repeating Data</th></tr></thead><tbody><tr><td>ACTIVITY_ID<a href="#1"><sup>1</sup></a></td><td>Num</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td>CASE_NUMBER<a href="#2"><sup>2</sup></a></td><td>Char</td><td>25</td><td>Y</td></tr><tr><td>ENF_CONCLUSION_ID<a href="#3"><sup>3</sup></a></td><td>Num</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td>ENF_CONCLUSION_NMBR</td><td>Num</td><td>&nbsp;</td><td>Y</td></tr><tr><td>ENF_CONCLUSION_ACTION_CODE</td><td>Char</td><td>3</td><td>Y</td></tr><tr><td>ENF_CONCLUSION_NAME</td><td>Char</td><td>100</td><td>&nbsp;</td></tr><tr><td>SETTLEMENT_LODGED_DATE</td><td>Date</td><td>7</td><td>Y</td></tr><tr><td>SETTLEMENT_ENTERED_DATE</td><td>Date</td><td>7</td><td>Y</td></tr><tr><td>SETTLEMENT_FY</td><td>Char</td><td>4</td><td>Y</td></tr><tr><td>PRIMARY_LAW</td><td>Char</td><td>55</td><td>Y</td></tr><tr><td>REGION_CODE</td><td>Char</td><td>2</td><td>Y</td></tr><tr><td>ACTIVITY_TYPE_CODE</td><td>Char</td><td>3</td><td>Y</td></tr><tr><td>FED_PENALTY_ASSESSED_AMT</td><td>Num</td><td>&nbsp;</td><td>Y</td></tr><tr><td>STATE_LOCAL_PENALTY_AMT</td><td>Num</td><td>&nbsp;</td><td>Y</td></tr><tr><td>SEP_AMT</td><td>Num</td><td>&nbsp;</td><td>Y</td></tr><tr><td>COMPLIANCE_ACTION_COST</td><td>Num</td><td>&nbsp;</td><td>Y</td></tr><tr><td>COST_RECOVERY_AWARDED_AMT</td><td>Num</td><td>&nbsp;</td><td>Y</td></tr></tbody></table><h3>Pollutant Reductions (CASE_ENFORCEMENT_CONCLUSION_POLLUTANTS.csv)<a name="poll_reduc">&nbsp;</a></h3><table class="table"><thead><tr><th scope="col">Element Name</th><th scope="col">Data Type</th><th scope="col">Length</th><th scope="col">Repeating Data</th></tr></thead><tbody><tr><td>ACTIVITY_ID<a href="#1"><sup>1</sup></a></td><td>Num</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td>CASE_NUMBER<a href="#2"><sup>2</sup></a></td><td>Char</td><td>25</td><td>Y</td></tr><tr><td>ENF_CONCLUSION_ID<a href="#3"><sup>3</sup></a></td><td>Num</td><td>&nbsp;</td><td>Y</td></tr><tr><td>COMP_ACTION_ID</td><td>Char</td><td>41</td><td>Y</td></tr><tr><td>ENVIRONMENTAL_IMPACT_ID</td><td>Num</td><td>&nbsp;</td><td>Y</td></tr><tr><td>SEP_ID</td><td>Char</td><td>41</td><td>Y</td></tr><tr><td>POLLUTANT_CODE</td><td>Char</td><td>&nbsp;</td><td>Y</td></tr><tr><td>POLLUTANT_NAME</td><td>Char</td><td>2000</td><td>Y</td></tr><tr><td>AVERAGE_ANNUAL_VALUE</td><td>Num</td><td>&nbsp;</td><td>Y</td></tr><tr><td>POLLUTANT_UNIT_CODE</td><td>Char</td><td>7</td><td>Y</td></tr><tr><td>MEDIA_CODE</td><td>Char</td><td>3</td><td>Y</td></tr><tr><td>MEDIA_DESC</td><td>Char</td><td>100</td><td>Y</td></tr><tr><td>SEP_OR_COMP_FLAG</td><td>Char</td><td>1</td><td>Y</td></tr></tbody></table><p class="clear-both text-right margin-bottom-neg-2"><a class="top-of-page" href="#main-content"><span>Top of Page</span></a></p><h3>Complying Actions (CASE_ENFORCEMENT_CONCLUSION_COMPLYING_ACTIONS.csv)<a name="comp_actions">&nbsp;</a></h3><table class="table"><thead><tr><th scope="col">Element Name</th><th scope="col">Data Type</th><th scope="col">Length</th><th scope="col">Repeating Data</th></tr></thead><tbody><tr><td>ACTIVITY_ID<a href="#1"><sup>1</sup>&nbsp;</a></td><td>Num</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td>CASE_NUMBER<a href="#2"><sup>2</sup></a></td><td>Char</td><td>25</td><td>Y</td></tr><tr><td>ENF_CONCLUSION_ID<a href="#3"><sup>3</sup></a></td><td>Num</td><td>&nbsp;</td><td>Y</td></tr><tr><td>COMP_ACTION_ID</td><td>Num</td><td>&nbsp;</td><td>Y</td></tr><tr><td>COMP_ACTION_DESCRIPTION</td><td>Char</td><td>4000</td><td>Y</td></tr><tr><td>COMP_ACTION_TYPE_CODE</td><td>Char</td><td>3</td><td>Y</td></tr><tr><td>COMP_ACTION_TYPE_DESC</td><td>Char</td><td>100</td><td>Y</td></tr><tr><td>COMP_ACTION_CATEGORY_TYPE_DESC</td><td>Char</td><td>100</td><td>Y</td></tr></tbody></table><h3>Enforcement Conclusions Facilities (CASE_ENFORCEMENT_CONCLUSION_FACILITIES.csv)<a name="enf_con_fac">&nbsp;</a></h3><table class="table"><thead><tr><th scope="col">Element Name</th><th scope="col">Data Type</th><th scope="col">Length</th><th scope="col">Repeating Data</th></tr></thead><tbody><tr><td>ACTIVITY_ID<a href="#1"><sup>1</sup></a></td><td>Num</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td>CASE_NUMBER<a href="#2"><sup>2</sup></a></td><td>Char</td><td>25</td><td>Y</td></tr><tr><td>ENF_CONCLUSION_ID<a href="#3"><sup>3</sup></a></td><td>Num</td><td>&nbsp;</td><td>Y</td></tr><tr><td>ICIS_FACILITY_INTEREST_ID</td><td>Num</td><td>&nbsp;</td><td>Y</td></tr><tr><td>FACILITY_UIN</td><td>Char</td><td>12</td><td>Y</td></tr><tr><td>FACILITY_NAME</td><td>Char</td><td>80</td><td>Y</td></tr><tr><td>FACILITY_CITY</td><td>Char</td><td>60</td><td>Y</td></tr><tr><td>FACILITY_STATE</td><td>Char</td><td>2</td><td>Y</td></tr><tr><td>FACILITY_ZIP</td><td>Char</td><td>14</td><td>Y</td></tr></tbody></table><h3>SEP Description (CASE_ENFORCEMENT_CONCLUSION_SEP.csv)<a name="sep_desc">&nbsp;</a></h3><table class="table"><thead><tr><th scope="col">Element Name</th><th scope="col">Data Type</th><th scope="col">Length</th><th scope="col">Repeating Data</th></tr></thead><tbody><tr><td>ACTIVITY_ID<a href="#1"><sup>1</sup></a></td><td>Num</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td>CASE_NUMBER<a href="#2"><sup>2</sup></a></td><td>Char</td><td>25</td><td>Y</td></tr><tr><td>ENF_CONCLUSION_ID<a href="#3"><sup>3</sup></a></td><td>Num</td><td>&nbsp;</td><td>Y</td></tr><tr><td>SEP_CATEGORY_CODE</td><td>Char</td><td>5</td><td>Y</td></tr><tr><td>SEP_CATEGORY_DESC</td><td>Char</td><td>100</td><td>Y</td></tr><tr><td>SEP_TEXT</td><td>Char</td><td>4000</td><td>Y</td></tr><tr><td>SEP_AMT</td><td>Num</td><td>&nbsp;</td><td>Y</td></tr></tbody></table><h3>Enforcement Conclusions Dollars (CASE_ENFORCEMENT_CONCLUSION_DOLLARS.csv)<a name="enf_con_dollars">&nbsp;</a></h3><table class="table"><thead><tr><th scope="col">Element Name</th><th scope="col">Data Type</th><th scope="col">Length</th><th scope="col">Repeating Data</th></tr></thead><tbody><tr><td>ACTIVITY_ID<a href="#1"><sup>1</sup></a></td><td>Num</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td>CASE_NUMBER<a href="#2"><sup>2</sup></a></td><td>Char</td><td>25</td><td>Y</td></tr><tr><td>ENF_CONCLUSION_ID<a href="#3"><sup>3</sup></a></td><td>Num</td><td>&nbsp;</td><td>Y</td></tr><tr><td>STATE_LOCAL_PENALTY_AMT</td><td>Num</td><td>&nbsp;</td><td>Y</td></tr><tr><td>COST_RECOVERY_AMT</td><td>Num</td><td>&nbsp;</td><td>Y</td></tr><tr><td>FED_PENALTY</td><td>Num</td><td>&nbsp;</td><td>Y</td></tr><tr><td>COMPLIANCE_ACTION_COST</td><td>Num</td><td>&nbsp;</td><td>Y</td></tr><tr><td>SEP_COST</td><td>Num</td><td>&nbsp;</td><td>Y</td></tr><tr><td>PENALTY_COLLECTED_AMT</td><td>Num</td><td>&nbsp;</td><td>&nbsp;</td></tr></tbody></table><h3>Informal Enforcement Actions (EPA_INFORMAL_ENFORCEMENT_ACTIONS.csv)<a name="enf_con_dollars">&nbsp;</a></h3><table class="table"><thead><tr><th scope="col">Element Name</th><th scope="col">Data Type</th><th scope="col">Length</th><th scope="col">Repeating Data</th></tr></thead><tbody><tr><td>PGM_SYS_ACRNM</td><td>Char</td><td>20</td><td>Y</td></tr><tr><td>PGM_SYS_ID</td><td>Char</td><td>30</td><td>&nbsp;</td></tr><tr><td>REGISTRY_ID<a href="#4"><sup>4</sup></a></td><td>Char</td><td>12</td><td>&nbsp;</td></tr><tr><td>AGENCY</td><td>Char</td><td>5</td><td>Y</td></tr><tr><td>ACTIVITY_TYPE_CODE</td><td>Char</td><td>3</td><td>Y</td></tr><tr><td>ENF_TYPE_CODE</td><td>Char</td><td>7</td><td>Y</td></tr><tr><td>ENF_TYPE_DESC</td><td>Char</td><td>100</td><td>Y</td></tr><tr><td>ACHIEVED_DATE</td><td>Date</td><td>&nbsp;</td><td>Y</td></tr><tr><td>ENF_IDENTIFIER</td><td>Char</td><td>25</td><td>Y</td></tr><tr><td>STATUTE</td><td>Char</td><td>6</td><td>Y</td></tr></tbody></table><h3>ICIS EPA Inspections (ICIS_FEC_EPA_INSPECTIONS.csv)<a name="icisinspections">&nbsp;</a></h3><table class="table"><thead><tr><th scope="col">Element Name</th><th scope="col">Data Type</th><th scope="col">Length</th><th scope="col">Repeating Data</th></tr></thead><tbody><tr><td>REGISTRY_ID<a href="#4"><sup>4</sup></a></td><td>Char</td><td>12</td><td>Y</td></tr><tr><td>PGM_SYS_ACRNM</td><td>Char</td><td>20</td><td>Y</td></tr><tr><td>PGM_SYS_ID</td><td>Char</td><td>30</td><td>Y</td></tr><tr><td>FACILITY_NAME</td><td>Char</td><td>80</td><td>Y</td></tr><tr><td>EPA_REGION_CODE</td><td>Char</td><td>2</td><td>Y</td></tr><tr><td>ACTIVITY_ID<a href="#1"><sup>1</sup>&nbsp;</a></td><td>Num</td><td>&nbsp;</td><td>Y</td></tr><tr><td>ACTIVITY_TYPE_CODE</td><td>Char</td><td>3</td><td>Y</td></tr><tr><td>ACTIVITY_TYPE_DESC</td><td>Char</td><td>100</td><td>Y</td></tr><tr><td>COMP_MONITOR_UID</td><td>Char</td><td>25</td><td>Y</td></tr><tr><td>COMP_MONITOR_TYPES</td><td>Char</td><td>4000</td><td>Y</td></tr><tr><td>STATUTE_CODE</td><td>Char</td><td>6</td><td>Y</td></tr><tr><td>LAW_SECTION_CODE</td><td>Char</td><td>15</td><td>Y</td></tr><tr><td>ACTUAL_BEGIN_DATE</td><td>Date</td><td>&nbsp;</td><td>Y</td></tr><tr><td>ACTUAL_END_DATE</td><td>Date</td><td>&nbsp;</td><td>Y</td></tr><tr><td>AGENCY</td><td>Char</td><td>5</td><td>Y</td></tr><tr><td>COMP_MONITOR_AGENCY_TYPES</td><td>Char</td><td>4000</td><td>Y</td></tr></tbody></table><hr><p class="clear-both text-right margin-bottom-neg-2"><a class="top-of-page" href="#main-content"><span>Top of Page</span></a></p><h2>ICIS-FE&amp;C Data Element Definitions<a name="definitions">&nbsp;</a></h2><p>The following is a list of the data elements and ICIS-derived elements that appear in the ECHO download. The data elements are listed alphabetically.</p><p><strong>ACHIEVED_DATE</strong> - The date of the notice of violation or informal enforcement.</p><p><strong>ACTIVITY_ID</strong> - an internal numeric key identifier used to uniquely identify enforcement case activities.</p><p><strong>ACTIVITY_NAME</strong> - The user-created name for an activity.</p><p><strong>ACTIVITY_STATUS_CODE</strong> - The unique code that identifies the current status of an activity.</p><p><strong>ACTIVITY_STATUS_DATE</strong> - The date on which the status of the activity was last changed.</p><p><strong>ACTIVITY_STATUS_DESC</strong> - Value for ACTIVITY_STATUS_CODE.</p><p><strong>ACTIVITY_TYPE_CODE</strong> - A three-character code that identifies the type of ICIS activity, which includes general categories such as information requests, inspections, compliance determinations, and enforcement. Activities selected for the ECHO data download are restricted to two subcategories of enforcement: administrative – formal (AFR) and judicial activities (JDC).</p><p><strong>ACTIVITY_TYPE_DESC</strong> - Value for ACTIVITY_TYPE_CODE (Activity Type Code).</p><p><strong>ACTUAL_BEGIN_DATE</strong>&nbsp;- The date on which the facility started the compliance monitoring activity. Date format is MM/DD/YYYY.</p><p><strong>ACTUAL_DATE</strong> - The date on which the sub activity/milestone was conducted or achieved. Date format is MM/DD/YYYY.</p><p><strong>ACTUAL_END_DATE</strong>&nbsp;- The date on which the facility completed the compliance monitoring activity. Date format is MM/DD/YYYY.</p><p><strong>AGENCY</strong> - Identifies the agency lead (EPA) for the listed enforcement action.</p><p><strong>AVERAGE_ANNUAL_VALUE</strong> - Average annual amount of pollutant reduction as a result of the enforcement action.</p><p><strong>BRANCH</strong> - The EPA Branch or unit office responsible for the enforcement action.</p><p><strong>CASE_NAME</strong> - An alphanumeric field that contains the name assigned to the case by the lead attorney. Generally, the primary defendant's name is used as the case name.</p><p><strong>CASE_NUMBER</strong> - Values typically begin with either two characters (EPA region number, "HQ" (headquarters), “EF” (CAA Eastern Field Office), or “WF” (CAA Western Field Office), followed by the four digit fiscal year. In a majority of cases, this is the year in which the action was initiated. The fiscal year is&nbsp;followed by a four character sequence identifier. State CASE_NUMBER values do not follow any set format.</p><p><strong>CASE_STATUS_DATE</strong> - The "as of" status date reflects the date of the most recent milestone activity.</p><p><strong>CHEMICAL_ABSTRACT_SERVICE_NMBR</strong> - Pollutant Chemical Abstract Service Number of the pollutant/parameter violated.</p><p><strong>CITY</strong> - A 50 character field that contains the name of the city in which the facility where the violation(s) occurred is located. For violations that occur outside of a facility (e.g., oil spills, pipeline leaks), the city may be the mailing address of the violator.</p><p><strong>COMP_ACTION_CATEGORY_TYPE_DESC</strong> - Value for the compliance action category type.</p><p><strong>COMP_ACTION_DESCRIPTION</strong><span>&nbsp;- Value for COMP_ACTION_ID.</span></p><p><strong>COMP_ACTION_ID</strong><span>&nbsp;- The unique code that identifies the physical and non-physical requirements obliging the defendant/respondent to take or refrain from certain actions.</span></p><p><strong>COMP_ACTION_TYPE_CODE</strong> - A code that uniquely identifies the category of complying action affiliated with the quantitative environmental impact.</p><p><strong>COMP_ACTION_TYPE_DESC</strong><span>&nbsp;- Value for COMP_ACTION_TYPE_CODE.</span></p><p><strong>COMPLIANCE_ACTION_COST</strong><span>&nbsp;- Dollar value of sum of compliance action amounts (derived value from ECHO). This field is the settlement-level sum of the dollar values of injunctive relief and the physical or nonphysical costs of returning to compliance. Injunctive relief represents the actions a regulated entity is ordered to undertake to achieve and maintain compliance, such as installing a new pollution control device to reduce air pollution, or preventing emissions of a pollutant in the first place.</span></p><p><strong>COMP_MONITOR_AGENCY_TYPES</strong>&nbsp;- Identifies the agency carrying out the inspection or evaluation. Values may include: EPA Contractor, Local, Other, Other- EPA,&nbsp;Other Federal,&nbsp;Regional, State, State- Using Federal Credentials, Tribal, Tribal- Using Federal Credentials, Unknown from Conversion, or U.S. EPA.&nbsp;</p><p><strong>COMP_MONITOR_TYPES</strong>&nbsp;- A description of the type of compliance monitoring undertaken.</p><p><strong>COMP_MONITOR_UID</strong>&nbsp;- The unique identifier for the compliance monitoring activity.&nbsp;</p><p><strong>COST_RECOVERY_AWARDED_AMT</strong> - The amount of cost recovery ordered or agreed to be repaid by the responsible party of parties and due the Superfund in accordance with either an administrative or judicial settlement.</p><p><strong>DEFENDANT_NAME</strong> - The name(s) of the defendant(s), PRPs (for Superfund cases), or respondents associated with the case.</p><p><strong>DOJ_DOCKET_NMBR</strong> - The number that the Clerk of the Court assigns to a case when it is filed or to a consent decree when it is lodged. For administrative cases, DOJ_DOCKET_NMBR is the number assigned to the case by the Regional Hearing Clerk.</p><p><strong>ENF_CONCLUSION_ACTION_CODE</strong> - The unique code that identifies the type of enforcement conclusion actions.&nbsp;</p><table class="table"><thead><tr><th scope="col"><strong>Final Order Type Code</strong></th><th scope="col"><strong>Final Order Type</strong></th><th scope="col"><strong>Forum</strong></th></tr></thead><tbody><tr><td>AAO</td><td>Amendment to Administrative Order or Consent Agreement</td><td>Administrative - Formal</td></tr><tr><td>ACA</td><td>Administrative Consent Order or Agreement</td><td>Administrative - Formal</td></tr><tr><td>ACO</td><td>Administrative Compliance Orders</td><td>Administrative - Formal</td></tr><tr><td>AFO</td><td>Administrative Order</td><td>Administrative - Formal</td></tr><tr><td>ANP</td><td>Administrative Non-Penalty Order (FIFRA only)</td><td>Administrative - Formal</td></tr><tr><td>AOC</td><td>Superfund Administrative Order For Cost Recovery</td><td>Administrative - Formal</td></tr><tr><td>AOD</td><td>Amendment to Previous Administrative Action</td><td>Administrative - Formal</td></tr><tr><td>APO</td><td>Administrative Penalty Order With or Without Injunctive Relief</td><td>Administrative - Formal</td></tr><tr><td>APO</td><td>Administrative Penalty Order With or Without Injunctive Relief</td><td>Judicial</td></tr><tr><td>APR</td><td>Enforceable Final Order Activity Producing Results</td><td>Judicial</td></tr><tr><td>CDC</td><td>Consent Decree or Court Order Resolving a Civil Judicial Action</td><td>Judicial</td></tr><tr><td>CDO</td><td>Consent Decree or Court Order</td><td>Judicial</td></tr><tr><td>ECI</td><td>EPA/Customs Import Enforcement Action</td><td>Administrative - Formal</td></tr><tr><td>EFO</td><td>Enforceable Final Order Activity Producing Results</td><td>Administrative - Formal</td></tr><tr><td>FCT</td><td>Field Citation</td><td>Administrative - Formal</td></tr><tr><td>FFA</td><td>Federal Facility Agreement (FFA)</td><td>Administrative - Formal</td></tr><tr><td>FFC</td><td>Federal Facility Compliance Agreement</td><td>Administrative - Formal</td></tr><tr><td>FFR</td><td>Federal Facility Record of Decision (ROD)</td><td>Administrative - Formal</td></tr><tr><td>FOR</td><td>Final Order Revoking or Suspending a Permit</td><td>Administrative - Formal</td></tr><tr><td>JOA</td><td>Judicial Order Amending or Enforcing Consent Decree</td><td>Judicial</td></tr><tr><td>JOD</td><td>Amendment to Previous Judicial Action</td><td>Judicial</td></tr><tr><td>NLP</td><td>Non-Lead Participant in Multi-Regional Case</td><td>Judicial</td></tr><tr><td>NOD</td><td>Notice of Determination</td><td>Administrative - Formal</td></tr><tr><td>NPM</td><td>Non-Lead Participant in Multi-Regional Case</td><td>Administrative - Formal</td></tr><tr><td>PFO</td><td>Post-Final Order Record of Decision (ROD) (not Federal Facility)</td><td>Administrative - Formal</td></tr><tr><td>PSA</td><td>Proposed Administrative Settlement</td><td>Administrative - Formal</td></tr><tr><td>PSJ</td><td>Proposed Judicial Settlement</td><td>Judicial</td></tr><tr><td>ROD</td><td>Post-Final Order Record of Decision (ROD)</td><td>Judicial</td></tr><tr><td>SCO</td><td>Stop Construction Order</td><td>Administrative - Formal</td></tr><tr><td>SLP</td><td>State/Local Action</td><td>Administrative - Formal</td></tr><tr><td>SPA</td><td>Stipulated Penalty Assessed Against Previous Action</td><td>Administrative - Formal</td></tr><tr><td>SPA</td><td>Stipulated Penalty Assessed Against Previous Action</td><td>Judicial</td></tr></tbody></table><p><strong>ENF_CONCLUSION_ACTION_DESC</strong> - Value for ENF_CONCLUSION_ACTION_CODE.&nbsp;</p><p><strong>ENF_CONCLUSION_ID</strong> - The unique identifier for each settlement within a case.</p><p><strong>ENF_CONCLUSION_NAME</strong> - The unique name of a settlement associated with an enforcement action.</p><p><strong>ENF_CONCLUSION_NMBR</strong> - A unique number used as the key field, identifying the enforcement case conclusion (a.k.a. settlement number).</p><p><strong>ENF_IDENTIFIER</strong> - The unique identifying number of the enforcement action.</p><p><strong>ENF_OUTCOME_CODE</strong> - The unique code to identify the outcome of the enforcement action.</p><p><strong>ENF_OUTCOME_DESC</strong> - Value for ENF_OUTCOME_CODE.</p><p><strong>ENF_SUMMARY_TEXT</strong> - A summary of the enforcement activity/case.</p><p><strong>ENF_TYPE_CODE</strong> - For informal enforcement actions, the code describing the action taken in response to a violation.&nbsp;For formal administrative enforcement cases, the enforcement type code is the section of the <a href="#statute">statute authorizing the action</a>. Each enforcement type code entered must have a matching statute entered. For administrative cases, more than one administrative enforcement type can be entered.&nbsp; For judicial cases, only one violation type is accepted.</p><p><strong>ENF_TYPE_DESC</strong> - A text description of the ENF_TYPE_CODE value.</p><table class="table"><caption>Informal Enforcement Action Types</caption><thead><tr><th>Code</th><th>Description</th></tr></thead><tbody><tr><td>LOVWL</td><td>Letter of Violation/Warning Letter</td></tr><tr><td>NONC</td><td>Notice of Noncompliance Issued</td></tr><tr><td>NOV</td><td>Notice of Violation</td></tr></tbody></table><p><strong>ENVIRONMENTAL_IMPACT_ID</strong> - The system-generated unique identifier of the Environmental Impact record.</p><p><strong>EPA_REGION_CODE</strong>&nbsp;- The two-digit code identifying the EPA region where the facility is located. EPA has 10 regional offices that execute programs within several states and territories.</p><p><strong>FACILITY_CITY</strong> - The name of the city in which the settling facility is located.</p><p><strong>FACILITY_NAME</strong> - The name of the facility associated with the EPA Identification Number.</p><p><strong>FACILITY_STATE</strong> - A two-character field that contains the state postal abbreviation of the settling facility’s location.</p><p><strong>FACILITY_UIN</strong> - The number assigned by the Facility Registry Service (FRS) that is used to associate facility records from multiple environmental database systems that were known or believed to represent the same facility (a.k.a. Registry ID, EPA ID Number, FRS ID).</p><p><strong>FACILITY_ZIP</strong> - See <a href="#zip">ZIP</a>.</p><p><strong>FEDERAL_COST_RECOVERY_AMT</strong> - The amount of cost recovery ordered or agreed to be repaid to the U.S. EPA by the responsible party or parties and due the Superfund in accordance with either an administrative or judicial settlement. This value is the derived sum of all settlements at a case.</p><p><strong>FED_PENALTY</strong> - The total federal penalty amount assessed or agreed to for an enforcement action. This value is the derived sum of federal penalties at all settlements at a case.</p><p><strong>FED_PENALTY_ASSESSED_AMT</strong> - For civil judicial enforcement actions, this amount is the Federal penalty assessed against the defendant(s) as specified in the final entered Consent Decree or Court Order. For administrative enforcement actions, it is the penalty assessed in the Consent/Final Order. It does not include the amount of the penalty mitigated due to a SEP or the amount shared with the state or local entities. Interest payments associated with a penalty paid over time are not to be included in this amount. It is the total Federal amount for each settlement.</p><p><strong>FISCAL_YEAR</strong> - The federal fiscal year in which the activity occurred. For <a href="#priorities"><strong>CASE_PRIORITIES.csv</strong></a>, FISCAL_YEAR refers to the federal fiscal year in which the <a href="#priority_desc">national or regional priority</a> is active.</p><p><strong>HQ_DIVISION</strong> - The EPA Headquarters division responsible for the enforcement action.</p><table class="table"><thead><tr><th scope="col">Headquarters Division Code</th><th scope="col">Description</th></tr></thead><tbody><tr><td>AIR</td><td>Air Enforcement</td></tr><tr><td>CER</td><td>CERCLA Enforcement</td></tr><tr><td>FFE</td><td>Federal Facilities Enforcement</td></tr><tr><td>MED</td><td>Multimedia Enforcement</td></tr><tr><td>MOB</td><td>Air Mobile Source Enforcement</td></tr><tr><td>RCR</td><td>RCRA Enforcement</td></tr><tr><td>TOX</td><td>TSCA Enforcement</td></tr><tr><td>WAT</td><td>CWA Enforcement</td></tr></tbody></table><p class="clear-both text-right margin-bottom-neg-2"><a class="top-of-page" href="#main-content"><span>Top of Page</span></a></p><p><strong>ICIS_FACILITY_INTEREST_ID</strong> - The system-generated unique ID for identifying the facility interest.&nbsp;</p><p><strong>LAW_SECTION_CODE</strong> - The unique <a href="https://echo.epa.gov/system/files/ICIS_REF_LAW_SECTION_Feb_2014.pdf" target="_blank">code</a> identifying the law sections cited in the case.&nbsp;</p><p><strong>LAW_SECTION_DESC</strong> - Description of LAW_SECTION_CODE value.</p><p><strong>LEAD</strong> - A field indicating whether federal EPA (E) or a state agency (S) has the lead for the enforcement activity.</p><p><strong>LOCATION_ADDRESS</strong> - The street address of the facility. It is the physical location of the facility where the violation(s) occurred. For violations that occur outside of a facility (e.g., oil spills, pipeline leaks), the address may be the mailing address of the violator.</p><p><strong>MEDIA_CODE</strong> - The unique code identifying a type of media (air, water, land, etc.) where the pollutants or waste would have been emitted/discharged.</p><p><strong>MEDIA_DESC</strong> - Value for MEDIA_CODE.</p><p><strong>MULTIMEDIA_FLAG</strong> - The flag to indicate whether the activity was a multimedia action. Multimedia actions involve violations of multiple environmental laws.</p><p><strong>NAMED_IN_COMPLAINT_FLAG</strong> - A one character field indicating whether a defendant has been named in the case complaint. Valid value is “Y.”</p><p><strong>NAMED_IN_SETTLEMENT_FLAG</strong> - A one character field indicating whether a defendant has been named in a settlement at the case. Valid value is “Y.”</p><p><strong>PENALTY_COLLECTED_AMT</strong>&nbsp;- The total penalty amount collected pursuant to a final order. Data may not be submitted to or available in all EPA source systems.&nbsp;</p><p><strong>PGM_SYS_ACRNM</strong>&nbsp;- Program System Acronym.&nbsp;</p><dl><dt><p><strong>System</strong></p></dt><dd><p>The&nbsp;<a href="https://echo.epa.gov/resources/echo-data/about-the-data#sources" target="_blank">data source</a>&nbsp;associated with the additional facility information.</p><table class="table"><thead><tr><th scope="col">Acronym</th><th scope="col">Data System</th></tr></thead><tbody><tr><td>ICIS-Air</td><td>ICIS-Air</td></tr><tr><td>EIS</td><td>Emissions Inventory System</td></tr><tr><td>FRS</td><td>Facility Registry Services</td></tr><tr><td>GHG</td><td>Greenhouse Gas Emissions</td></tr><tr><td>ICIS-NPDES</td><td>ICIS National Pollutant Discharge Elimination System (ICIS-NPDES)</td></tr><tr><td>RCRAInfo</td><td>Resource Conservation and Recovery Act Information System (RCRAInfo)</td></tr><tr><td>RMP</td><td>Clean Air Act Risk Management Plan Program</td></tr><tr><td>SDWIS</td><td>Safe Drinking Water Information System</td></tr><tr><td>SEMS</td><td>Superfund Enterprise Management System&nbsp;</td></tr><tr><td>TRI</td><td>Toxics Release Inventory</td></tr><tr><td>TSCA</td><td>Toxic Substances Control Act</td></tr></tbody></table></dd></dl><p><strong>PGM_SYS_ID</strong> - An alphanumeric field of varying length which is a unique value for each record/permit/site within each data system. These identifiers are for tracking purposes in the individual data systems.</p><p><strong>POLLUTANT_CODE</strong> - The unique identifier for the pollutant/parameter being reduced. Value descriptions are provided by the field POLLUTANT_NAME.</p><p><strong>POLLUTANT_NAME</strong> - Value for POLLUTANT_CODE.</p><p><strong>POLLUTANT_UNIT_CODE</strong> - The unique code to identify the pollutant unit of measurement.</p><p><strong>PRIMARY_LAW</strong>&nbsp;-&nbsp;<span>Identifies the primary statute/law violated and cited in the enforcement action.</span></p><p><strong>PRIMARY_NAICS_CODE</strong> - The 6-digit North American Industry Classification System (NAICS) codes representing the primary economic activity of the facility, as reported in the ICIS facility record.</p><p><strong>PRIMARY_SIC_CODE</strong> - The 4-digit Standard Industrial Classification (SIC) codes representing the primary economic activity of the facility, as reported in the ICIS facility record.</p><p><strong>PRIORITY_CODE</strong>&nbsp;- A code that uniquely identifies the national or regional priority that prompted the initiation of an enforcement action.&nbsp;</p><p><a name="priority_desc"><strong>&nbsp;</strong></a><strong>PRIORITY_DESC</strong>&nbsp;-&nbsp;&nbsp;The name of the national or regional priority (e.g., Clean Water Act/Wet Weather) that prompted the initiation of an enforcement action.</p><p><strong>PROGRAM_CODE </strong>- The code that identifies the program associated with an activity.</p><p><strong>PROGRAM_DESC</strong> - Value for PROGRAM_CODE.&nbsp;</p><p><strong>RANK_ORDER</strong> - A one digit code indicating the sort order for the law section on the Case (activity). Those STATUTE_CODE - CASE_NUMBER combinations identified with RANK_ORDER = 1 are considered the primary statute and section cited in the case.</p><p><strong>REGION_CODE</strong> - The two digit code that represents an EPA region, the EPA designated area that U.S. States, territories, and tribes are assigned to. There are 10 <a href="http://www.epa.gov/aboutepa/visiting-regional-office" target="_blank">EPA regions</a>.</p><p><strong>REGIONAL_DOCKET_NMBR</strong> - The number the Clerk of the Court assigns to a case that is filed or to a consent decree when it is lodged. For administrative cases, it is the number assigned to the case by the Regional Hearing Clerk.</p><p><strong>REGISTRY_ID</strong> - The number assigned by the Facility Registry Service (FRS) that is used to associate facility records from multiple environmental database systems that were known or believed to represent the same facility (a.k.a. UIN, FRS ID, EPA ID Number).</p><p><strong>RELIEF_CODE</strong> - The code to indicate the type of relief requested in the complaint.</p><p><strong>RELIEF_DESC</strong> - Value for RELIEF_CODE (Relief Code).</p><p><strong>SEP_AMT</strong> - The cost applied to the type(s) of environmentally beneficial projects which a defendant/respondent agree to undertake in settlement of an enforcement action, but which the defendant/respondent is not otherwise legally required to perform.</p><p><strong>SEP_CATEGORY_CODE</strong> - The unique code that identifies the list of Supplemental Environment Project (SEP) categories for a settlement.</p><p><strong>SEP_CATEGORY_DESC</strong> - Value for SEP_CATEGORY_CODE.</p><p><strong>SEP_ID</strong> - The system-generated unique identifier of the SEP record.</p><p><strong>SEP_OR_COMP_FLAG</strong> - The flag to indicate if the qualitative environmental impacts pertain to a Supplemental Environmental Project (SEP) or compliance action.</p><p><strong>SEP_TEXT</strong> - A summary of the Supplemental Environmental Project at a settlement.</p><p><strong>SETTLEMENT_ENTERED_DATE</strong> - The civil case date the settlement is signed by the presiding Judge and entered by the Clerk of the Court. It is the date the Clerk stamps on the document. Date format is MM/DD/YYYY.</p><p><strong>SETTLEMENT_LODGED_DATE</strong> - The date the settlement document is given to the Clerk of the Court for lodging in the District Court. It is the date the Clerk stamps on the document. Date format is MM/DD/YYYY.</p><p><strong>SETTLEMENT_FY</strong>&nbsp;-&nbsp;The federal fiscal year in which the settlement occurred (based on the SETTLEMENT_ENTERED_DATE).</p><p><strong>ST_LCL_PENALTY</strong> - The total penalty amount for local government or state settlements, or the amount allocated to a state/local entity from a federal enforcement settlement with state\local participation. This value is the derived sum of all settlements at a case.</p><p><strong>STATE_CODE</strong> - A two-character field that contains the state postal abbreviation for the state in which the facility where the violation(s) occurred is located. For violations that occur outside of a facility (e.g., oil spills, pipeline leaks), the state may be the mailing address of the violator.</p><p><strong>STATE_LOCAL_COST_RECOVERY_AMT</strong> - The amount of cost recovery ordered or agreed to be repaid by the responsible party or parties to a state/local entity from a federal enforcement settlement with state\local participation. This value is the derived sum of all settlements at a case.</p><p><strong>STATE_LOCAL_PENALTY_AMT</strong> - The penalty amount for local government or state settlements, or the amount allocated to a state/local entity from a federal enforcement settlement with state\local participation.</p><p><a name="statute"><strong>&nbsp;</strong></a><strong>STATUTE_CODE, STATUTE</strong> - The unique code that identifies the law which is authorizing the enforcement action or being violated. The list of possible laws is presented in the table below.</p><table class="table"><thead><tr><th scope="col">Law (Section)</th><th scope="col">Description</th></tr></thead><tbody><tr><td>CAA</td><td>Clean Air Act</td></tr><tr><td>CERCLA</td><td>Comprehensive Environmental Response, Compensation, and Liability Act</td></tr><tr><td>CWA</td><td>Clean Water Act</td></tr><tr><td>EPCRA</td><td>Emergency Planning &amp; Community Right-To-Know Act</td></tr><tr><td>FIFRA</td><td>Federal Insecticide, Fungicide, and Rodenticide Act</td></tr><tr><td>MPRSA</td><td>Marine Protection, Research and Sanctuaries Act (Ocean Dumping Act)</td></tr><tr><td>MWTA</td><td>Medical Waste Tracking Act</td></tr><tr><td>RCRA</td><td>Resource Conservation and Recovery Act</td></tr><tr><td>SDWA</td><td>Safe Drinking Water Act</td></tr><tr><td>TSCA</td><td>Toxic Substances Control Act</td></tr><tr><td>MCRBMA</td><td>Mercury-Containing And Rechargeable Battery Management Act</td></tr><tr><td>MRBMA</td><td>Mercury-Containing And Rechargeable Battery Management Act (MRBMA)</td></tr><tr><td>REFA</td><td>Refuse Act</td></tr><tr><td>EO</td><td>Executive Order</td></tr><tr><td>OPA</td><td>Oil Pollution Act</td></tr></tbody></table><p><strong>SUB_ACTIVITY_TYPE_CODE</strong> - The code used to identify the types of sub-activities and enforcement action milestones. The code descriptions, rather than the codes, are provided in the data file.</p><p><strong>SUB_ACTIVITY_TYPE_DESC</strong> - Value for SUB_ACTIVITY_TYPE_CODE.</p><p><strong>TOTAL_COMP_ACTION_AMT</strong> - The total dollar value of all complying actions (i.e., Direct Environmental Reduction, Preventative, and Facility Management and Information Practices) for the Enforcement Action.</p><p><strong>TOTAL_COST_RECOVERY_AMT</strong> - The total dollar amount of cost recovery awarded for the Enforcement Action.</p><p><strong>TOTAL_PENALTY_ASSESSED</strong> - The total dollar amount of penalties assessed for the Enforcement Action.</p><p><strong>TOTAL_SEP</strong> - The total cost for all Supplemental Environmental Projects (SEPs) entered for the case. The SEP cost is the estimated cost of environmentally beneficial projects which a defendant/ respondent agrees to undertake as part of the settlement of an enforcement action, but which the defendant/respondent is not otherwise legally required to perform.</p><p><strong>VIOLATION_TYPE_CODE</strong> - The unique code identifying the type of violation(s) associated with the enforcement action.&nbsp;</p><p><strong>VIOLATION_TYPE_DESC</strong> - Description of VIOLATION_TYPE_CODE value.</p><p><strong>VOLUNTARY_SELF_DISCLOSURE_FLAG</strong> - The flag to indicate the enforcement action was the result of a self-disclosure.</p><p><a name="zip"><strong>&nbsp;</strong></a><strong>ZIP</strong> - A 9-character field that contains the U.S. Postal Zone Improvement Plan (ZIP) code for the area in which the facility where the violation(s) occurred is located. For violations that occur outside of a facility (e.g., oil spills, pipeline leaks), the ZIP code may be the one associated with the mailing address of the violator.</p></div>
+      
+  </div>
+
+</article>
+
+  </div>
+
+  </div>
+
+
+        
+      </article>
+    </div>
+  </div>
+</main>
+
+<!-- EPA footer -->
+
+<div class="text-right padding-right-3 padding-bottom-1 epa-footer">
+  <a href="#" class="top-of-page" title="">
+    <svg role="img" aria-label="Top of page">
+      <use href="/themes/custom/epa_uswds/images/sprite.artifact.svg#angle"></use>
+    </svg>
+    <span>
+    Top of Page
+  </span>
+  </a>
+</div>
+<footer class="footer epa-footer" role="contentinfo">
+  <div class="l-constrain">
+    <img class="footer__epa-seal" src="https://www.epa.gov/themes/epa_theme/images/epa-seal.svg" alt="United States Environmental Protection Agency" height="100" width="100">
+    <div class="footer__content contextual-region">
+      <div class="footer__column">
+        <h2>Discover.</h2>
+        <ul class="menu menu--footer">
+          <li class="menu__item">
+            <a href="https://www.epa.gov/accessibility/epa-accessibility-statement" class="menu__link">Accessibility Statement</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/planandbudget" class="menu__link">Budget &amp; Performance</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/contracts" class="menu__link">Contracting</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/utilities/wwwepagov-snapshots" class="menu__link">EPA www Web Snapshot</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/grants" class="menu__link">Grants</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/ocr/no-fear-act-data" class="menu__link">No FEAR Act Data</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/web-policies-and-procedures/plain-writing" class="menu__link">Plain Writing</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/privacy/privacy-and-security-notice" class="menu__link">Privacy and Security Notice</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__column">
+        <h2>Connect.</h2>
+        <ul class="menu menu--footer">
+          <li class="menu__item">
+            <a href="https://www.epa.gov/data" class="menu__link">Data</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/office-inspector-general" class="menu__link">Inspector General</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/careers" class="menu__link">Jobs</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/newsroom" class="menu__link">Newsroom</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.regulations.gov/" class="menu__link" data-once="external-links protected-links">Regulations.gov<svg class="icon icon--exit is-spaced-before" role="img"><title>Exit EPA’s Website</title><use href="/themes/custom/epa_uswds/images/sprite.svg#launch"></use></svg></a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/newsroom/email-subscriptions-epa-news-releases" class="menu__link">Subscribe</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.usa.gov/" class="menu__link" data-once="external-links protected-links">USA.gov<svg class="icon icon--exit is-spaced-before" role="img"><title>Exit EPA’s Website</title><use href="/themes/custom/epa_uswds/images/sprite.svg#launch"></use></svg></a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.whitehouse.gov/" class="menu__link" data-once="external-links protected-links">White House<svg class="icon icon--exit is-spaced-before" role="img"><title>Exit EPA’s Website</title><use href="/themes/custom/epa_uswds/images/sprite.svg#launch"></use></svg></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__column">
+        <h2>Ask.</h2>
+        <ul class="menu menu--footer">
+          <li class="menu__item">
+            <a href="https://www.epa.gov/aboutepa/forms/contact-epa" class="menu__link">Contact EPA</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/web-policies-and-procedures/epa-disclaimers" class="menu__link">EPA Disclaimers</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/aboutepa/epa-hotlines" class="menu__link">Hotlines</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/foia" class="menu__link">FOIA Requests</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://www.epa.gov/aboutepa/frequent-questions-specific-epa-programstopics" class="menu__link">Frequent Questions</a>
+          </li>
+        </ul>
+        <h2>Follow.</h2>
+        <ul class="menu menu--social">
+          <li class="menu__item">
+            <a class="menu__link" aria-label="EPA’s Facebook" href="https://www.facebook.com/EPA">
+              <svg class="icon icon--social" aria-hidden="true"><use href="/themes/custom/epa_uswds/images/sprite.artifact.svg#facebook-square"></use></svg>    </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" aria-label="EPA’s Twitter / X" href="https://x.com/epa">
+              <svg class="icon icon--social" aria-hidden="true"><use href="/themes/custom/epa_uswds/images/sprite.artifact.svg#twitter-square"></use></svg>    </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" aria-label="EPA’s Youtube" href="https://www.youtube.com/user/USEPAgov">
+              <svg class="icon icon--social" aria-hidden="true"><use href="/themes/custom/epa_uswds/images/sprite.artifact.svg#youtube-square"></use></svg>    </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" aria-label="EPA’s Instagram" href="https://www.instagram.com/epagov">
+              <svg class="icon icon--social" aria-hidden="true"><use href="/themes/custom/epa_uswds/images/sprite.artifact.svg#instagram-square"></use></svg>    </a>
+          </li>
+        </ul>
+
+                  <p class="footer__last-updated">Last updated on December 9, 2025</p>
+        
+                  <p class="data-refresh-information"><a href="/resources/echo-data/about-the-data#sources">Data Refresh Information</a></p>
+              </div>
+    </div>
+  </div>
+</footer>
+
+  </div>
+
+    <div id="echo-survey-root"></div>
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/208","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"eJx1jtEKwyAMRX9ow08SYzMNUxNM3Ojfr6Ol0OHeDufeGwKUvJCggwNuGDO7VBhCuWvsJKZXZ2uhlnZXGajsGx-G5aO0i_jEhYz7KSX4oe9Ff0_pEOwP0uxOmjmf-YWdmmGzaa41lLL9jNjm-Zd0gP5LhZWMeFuvalgdBMUPZ0lzKw","theme":"echo","theme_token":null},"ajaxTrustedUrl":[],"bigPipePlaceholderIds":{"callback=Drupal%5CCore%5CRender%5CElement%5CStatusMessages%3A%3ArenderMessages\u0026args%5B0%5D\u0026token=_HAdUpwWmet0TOTe2PSiJuMntExoshbm1kh2wQzzzAA":true,"callback=Drupal%5Cblock%5CBlockViewBuilder%3A%3AlazyBuilder\u0026args%5B0%5D=echo_account_menu\u0026args%5B1%5D=full\u0026args%5B2%5D\u0026token=0aQiGtHfmcfMkZldF9umwp4ytpUXW1fy6B3sE6gnHoo":true,"callback=Drupal%5Cblock%5CBlockViewBuilder%3A%3AlazyBuilder\u0026args%5B0%5D=echo_site_branding\u0026args%5B1%5D=full\u0026args%5B2%5D\u0026token=9a0HfJL6Ki6au7tD0cANVA8jywXxiDONuQktCRIYS1k":true},"superfish":{"superfish-main":{"id":"superfish-main","sf":{"animation":{"opacity":"show","height":"show"},"speed":"fast","autoArrows":true,"dropShadows":true},"plugins":{"smallscreen":{"cloneParent":0,"mode":"window_width"},"supposition":true,"supersubs":{"maxWidth":18}}}},"echoAuth":{"loginUrl":"https:\/\/echo.epa.gov\/saml\/login","logoutUrl":"https:\/\/echo.epa.gov\/echoauth\/logout","redirectParm":"ReturnTo","passiveLoginParm":"IsPassive=true","sessionRenewalInterval":60,"inactivityTimeout":900,"inactivityWarningTime":60,"csrfToken":"KboJPHGcp-E1Z3njSmkDXJWDqPMaIkFWNCJubopp52w"},"user":{"uid":0,"permissionsHash":"bfcf218e3995934b015518ade7dfe37259bfc57699bc30e9d320d09049fb5019"},"echo":{"environment":{"name":"prod","type":"prod","isLab":false,"useStagingServices":false},"settings":{"credentials":{"document_upload":{"host":"https:\/\/tvzzvni6f9.execute-api.us-east-1.amazonaws.com\/echo-docs\/"}}},"user":{"email":null,"hasEnforcementSensitiveRole":false,"hasEpaRole":false,"hasGovernmentRole":false},"path":{"theme":"\/themes\/custom\/echo"}}}</script>
+<script src="/assets/js/js_twWlyAKjWiuCoF7c8fzbR40Sl3jfqEB41mFvYOTuNiE.js?scope=footer&amp;delta=0&amp;language=en&amp;theme=echo&amp;include=eJx1zUsKwCAMRdENWVySqKQaSE0wsevvB-nIzi7vDF7CEgQFfJrhIFf2hThF2jR3FNN3C3FYneB0CPQdtfqvVluofELHZtBs6XpEovsFoK39KR1J_1RY0ZDbBRsyUI8"></script>
+
+  
+<script type="application/vnd.drupal-ajax" data-big-pipe-event="start"></script>
+<script type="application/vnd.drupal-ajax" data-big-pipe-replacement-for-placeholder-with-id="callback=Drupal%5Cblock%5CBlockViewBuilder%3A%3AlazyBuilder&amp;args%5B0%5D=echo_site_branding&amp;args%5B1%5D=full&amp;args%5B2%5D&amp;token=9a0HfJL6Ki6au7tD0cANVA8jywXxiDONuQktCRIYS1k">
+[{"command":"insert","method":"replaceWith","selector":"[data-big-pipe-placeholder-id=\u0022callback=Drupal%5Cblock%5CBlockViewBuilder%3A%3AlazyBuilder\u0026args%5B0%5D=echo_site_branding\u0026args%5B1%5D=full\u0026args%5B2%5D\u0026token=9a0HfJL6Ki6au7tD0cANVA8jywXxiDONuQktCRIYS1k\u0022]","data":"\n\n  \u003Ca class=\u0022echo-logo\u0022 href=\u0022https:\/\/echo.epa.gov\/\u0022\u003E\n    \u003Cimg src=\u0022\/themes\/custom\/echo\/images\/logo.png\u0022 alt=\u0022ECHO: \u0022 style=\u0022vertical-align:middle;\u0022\u003E\n  \u003C\/a\u003E\n\n","settings":null}]
+</script><script type="application/vnd.drupal-ajax" data-big-pipe-replacement-for-placeholder-with-id="callback=Drupal%5Cblock%5CBlockViewBuilder%3A%3AlazyBuilder&amp;args%5B0%5D=echo_account_menu&amp;args%5B1%5D=full&amp;args%5B2%5D&amp;token=0aQiGtHfmcfMkZldF9umwp4ytpUXW1fy6B3sE6gnHoo">
+[{"command":"insert","method":"replaceWith","selector":"[data-big-pipe-placeholder-id=\u0022callback=Drupal%5Cblock%5CBlockViewBuilder%3A%3AlazyBuilder\u0026args%5B0%5D=echo_account_menu\u0026args%5B1%5D=full\u0026args%5B2%5D\u0026token=0aQiGtHfmcfMkZldF9umwp4ytpUXW1fy6B3sE6gnHoo\u0022]","data":"\n\n  \u003C!-- User menu --\u003E\n  \u003Cdiv id=\u0022log\u0022\u003E\n          \u003Cspan\u003E\u0026nbsp;\u003C\/span\u003E\n      \u003C\/div\u003E\n\n  \n              \u003Cul id=\u0022mainLinks\u0022\u003E\n              \u003Cli\u003E\n        \u003Ca href=\u0022\/resources\/general-info\/contact-us\u0022 data-drupal-link-system-path=\u0022node\/550\u0022\u003EContact Us\u003C\/a\u003E\n              \u003C\/li\u003E\n          \u003Cli\u003E\n        \u003Ca href=\u0022https:\/\/echo.epa.gov\/saml\/login?ReturnTo=https%3A%2F%2Fecho.epa.gov%2Fnode%2F208%3Fcheck_logged_in%3D1\u0022 data-drupal-link-system-path=\u0022user\/login\u0022\u003ELogin\u003C\/a\u003E\n              \u003C\/li\u003E\n        \u003C\/ul\u003E\n  \n\n\n\n","settings":null}]
+</script><script type="application/vnd.drupal-ajax" data-big-pipe-replacement-for-placeholder-with-id="callback=Drupal%5CCore%5CRender%5CElement%5CStatusMessages%3A%3ArenderMessages&amp;args%5B0%5D&amp;token=_HAdUpwWmet0TOTe2PSiJuMntExoshbm1kh2wQzzzAA">
+[{"command":"insert","method":"replaceWith","selector":"[data-big-pipe-placeholder-id=\u0022callback=Drupal%5CCore%5CRender%5CElement%5CStatusMessages%3A%3ArenderMessages\u0026args%5B0%5D\u0026token=_HAdUpwWmet0TOTe2PSiJuMntExoshbm1kh2wQzzzAA\u0022]","data":"","settings":null}]
+</script>
+<script type="application/vnd.drupal-ajax" data-big-pipe-event="stop"></script>
+</body>
+</html>

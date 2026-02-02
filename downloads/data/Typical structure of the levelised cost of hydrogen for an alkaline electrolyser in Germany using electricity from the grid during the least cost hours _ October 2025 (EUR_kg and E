@@ -1,0 +1,29 @@
+Number of operating hours,Cost component,Value [EUR/kg],Value [EUR/MWh]
+2000,Total levelised cost of hydrogen,8.80,263.10
+2000,Capital expenditure,4.90,146.50
+2000,Electricity,2.60,79.00
+2000,Other operating expenditure,1.30,37.50
+3000,Total levelised cost of hydrogen,7.60,227.00
+3000,Capital expenditure,3.30,99.10
+3000,Electricity,3.40,102.70
+3000,Other operating expenditure,0.80,25.20
+4000,Total levelised cost of hydrogen,7.20,216.50
+4000,Capital expenditure,2.50,73.90
+4000,Electricity,3.90,118.00
+4000,Other operating expenditure,0.80,24.60
+5000,Total levelised cost of hydrogen,7.00,209.30
+5000,Capital expenditure,2.00,59.20
+5000,Electricity,4.40,130.60
+5000,Other operating expenditure,0.70,19.50
+6000,Total levelised cost of hydrogen,6.90,208.40
+6000,Capital expenditure,1.70,49.50
+6000,Electricity,4.70,142.30
+6000,Other operating expenditure,0.60,16.50
+7000,Total levelised cost of hydrogen,7.10,212.30
+7000,Capital expenditure,1.40,42.30
+7000,Electricity,5.10,152.60
+7000,Other operating expenditure,0.60,17.40
+8000,Total levelised cost of hydrogen,7.20,215.90
+8000,Capital expenditure,1.20,36.90
+8000,Electricity,5.50,163.70
+8000,Other operating expenditure,0.50,15.30

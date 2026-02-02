@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?> 
+<?xml-stylesheet href="/rss/rss.xsl" type="text/xsl" media="screen"?>
+<rss version="2.0">
+<channel>
+	<title>EIA: Press Releases</title>
+	<link>http://www.eia.gov/pressroom/releases.php</link>
+	<description>Press Releases from the Energy Information Administration</description>
+	<language>en-us</language>
+	<lastBuildDate>Tue, 13 Jan 2026 12:00:00 EST</lastBuildDate> 
+	<webMaster>wmaster@eia.gov</webMaster>
+	
+	<image>
+		<title>EIA logo</title>
+		<url>http://www.eia.gov/global/images/logos/eia_logo_250.png</url>
+		<link>http://www.eia.gov/</link>
+		<description>US Energy Information Administration</description>
+	</image>
+	
+	<item>
+		<title>EIA forecasts strongest four-year growth in U.S. electricity demand since 2000, fueled by data centers </title>
+		<link>/pressroom/releases/press582.php</link>
+		<guid isPermaLink="true">/pressroom/releases/press582.php</guid>
+		<pubDate>Tue, 13 Jan 2026 12:00:00 EST</pubDate> 
+		<description>The U.S. Energy Information Administration (EIA) published its first energy-sector forecasts through 2027 in the January Short-Term Energy Outlook (STEO).</description>
+	</item>
+
+</channel>
+</rss>     

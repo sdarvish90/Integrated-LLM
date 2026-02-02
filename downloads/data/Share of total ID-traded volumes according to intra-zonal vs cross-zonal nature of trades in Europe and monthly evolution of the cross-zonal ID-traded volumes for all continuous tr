@@ -1,0 +1,32 @@
+Year,Month,Cross zonal trades between adjacent bidding zones,Non-adjacent cross zonal trades within the same market operator,Non-adjacent cross-zonal trades between different market operators (new in SIDC)
+2017,January,78%,25%,
+2017,February,73%,30%,
+2017,March,108%,38%,
+2017,April,102%,34%,
+2017,May,133%,34%,
+2017,June,118%,38%,
+2017,July,117%,30%,
+2017,August,146%,28%,
+2017,September,112%,30%,
+2017,October,91%,38%,
+2017,November,81%,35%,
+2017,December,93%,35%,
+2018,January,102%,46%,
+2018,February,93%,37%,
+2018,March,110%,44%,
+2018,April,134%,33%,
+2018,May,135%,27%,
+2018,June,92%,22%,16%
+2018,July,105%,22%,42%
+2018,August,110%,21%,79%
+2018,September,94%,23%,60%
+2018,October,81%,19%,85%
+2018,November,84%,18%,67%
+2018,December,86%,26%,93%
+Intra-zonal trades,2018,76%
+Cross zonal trades between adjucent bidding zones,2018,14%
+Non-adjucent cross zonal trades within the same market operator,2018,4%
+Non-adjucent cross-zonal trades between different market operators (new in SIDC),2018,5%
+Intra-zonal trades,2017,78%
+Cross zonal trades between adjucent bidding zones,2017,17%
+Non-adjucent cross zonal trades within the same market operator,2017,5%

@@ -1,0 +1,38 @@
+Title: Industry data and reports (interconnection_queue, Tier 1)
+URL: https://www.neso.energy/industry-information/industry-data-and-reports
+Date: 2026-01-28
+======================================================================
+
+Image
+Industry data and reports
+Add to favourites
+Close tooltip
+Sign in to add this page to your favourites
+Sign in or register
+Find the latest operational data, forecasts, reports, and support for National Electricity Transmission System (NETS) users.
+Balancing data
+It's our responsibility to maintain the system frequency between 49.5Hz and 50.5Hz. However, normal operating limits of 49.8Hz to 50.2Hz usually apply.
+We also provide real-time information on demand, which covers the last 60 minutes.
+View the demand data
+Reports
+System Performance Reports
+Our monthly and annual system performance reports are now available to download and indicates system incidents and loss of load/generation on transmission and/or distribution network.
+Balancing services performance monitoring report
+We have robust processes in place to monitor balancing services performance and hold balancing providers to account against contractual delivery commitments.
+GB Electricity System Operator Daily Reports
+On this page, you will find reports that we publish relating to the status of the NETS.
+System balancing reports
+Reports we publish relating to the commercial operation of the electricity transmission system, including MBSS and other services reports.
+Power Available
+The live Power Available (PA) data highlights the potential maximum power output of a renewable generator at a given time and in given conditions.
+Data and forecasts
+Forecast volumes and costs
+Breakdown of operating margin (OPMR) based on forecast volume of reserve, frequency response required, annual weighting factors for STOR contracts, and BSUoS charges.
+Data finder and explorer
+Explore cost and volume forecasts and outcomes relating to balancing services, reserve, and response.
+Balancing and settlement arrangements
+You can find operational data relating to balancing and settlement arrangements on the BM Reports website, via ELEXON. You can use this website to make trading decisions and understand market dynamics by accessing current and historic data.
+Balancing and Settlement Code (BSC)
+You can find operational Balancing and Settlement Code (BSC) data in the ELEXON Portal.
+Balancing services adjustment data (BSAD)
+Go to our portal for aggregated and disaggregated BSAD.

@@ -1,0 +1,100 @@
+{
+  "warnings": [
+    {
+      "warning": "incomplete return",
+      "description": "The API can only return 5000 rows in JSON format.  Please consider constraining your request with facet, start, or end, or using offset to paginate results."
+    }
+  ],
+  "response": {
+    "total": "6516",
+    "dateFormat": "YYYY-MM",
+    "frequency": "monthly",
+    "data": [
+      {
+        "period": "2025-10",
+        "duoarea": "NUS-MN0",
+        "area-name": "NA",
+        "product": "EPC0",
+        "product-name": "Crude Oil",
+        "process": "INL",
+        "process-name": "Landed Costs",
+        "series": "I070000008",
+        "series-description": "U.S. Landed Costs of Non-OPEC Countries Crude Oil (Dollars per Barrel)",
+        "value": "56.72",
+        "units": "$/BBL"
+      },
+      {
+        "period": "2025-10",
+        "duoarea": "NUS-NMX",
+        "area-name": "MEX",
+        "product": "EPC0",
+        "product-name": "Crude Oil",
+        "process": "INL",
+        "process-name": "Landed Costs",
+        "series": "IMX0000008",
+        "series-description": "U.S. Landed Costs of Mexico Crude Oil (Dollars per Barrel)",
+        "value": "58.32",
+        "units": "$/BBL"
+      },
+      {
+        "period": "2025-10",
+        "duoarea": "NUS-NVE",
+        "area-name": "VEN",
+        "product": "EPC0",
+        "product-name": "Crude Oil",
+        "process": "INL",
+        "process-name": "Landed Costs",
+        "series": "IVE0000008",
+        "series-description": "U.S. Landed Costs of Venezuela Crude Oil (Dollars per Barrel)",
+        "value": null,
+        "units": "$/BBL"
+      },
+      {
+        "period": "2025-10",
+        "duoarea": "NUS-NCA",
+        "area-name": "CAN",
+        "product": "EPC0",
+        "product-name": "Crude Oil",
+        "process": "INL",
+        "process-name": "Landed Costs",
+        "series": "ICA0000008",
+        "series-description": "U.S. Landed Costs of Canada Crude Oil (Dollars per Barrel)",
+        "value": "54.69",
+        "units": "$/BBL"
+      },
+      {
+        "period": "2025-10",
+        "duoarea": "NUS-NNI",
+        "area-name": "NGA",
+        "product": "EPC0",
+        "product-name": "Crude Oil",
+        "process": "INL",
+        "process-name": "Landed Costs",
+        "series": "INI0000008",
+        "series-description": "U.S. Landed Costs of Nigeria Crude Oil (Dollars per Barrel)",
+        "value": null,
+        "units": "$/BBL"
+      }
+    ]
+  },
+  "request": {
+    "command": "/v2/petroleum/move/land1/data/",
+    "params": {
+      "api_key": "o5nQ7H9b6Bf9Kh3D0cCeC8ydP24drGTiFGaCQrKN",
+      "frequency": "monthly",
+      "data": [
+        "value"
+      ],
+      "sort": [
+        {
+          "column": "period",
+          "direction": "desc"
+        }
+      ],
+      "length": "5",
+      "offset": "0"
+    }
+  },
+  "apiVersion": "2.1.10",
+  "ExcelAddInVersion": "2.1.0"
+}

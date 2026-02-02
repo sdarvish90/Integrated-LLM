@@ -1,3 +1,6 @@
 .DS_Store
 __pycache__/
 *.pyc
+
+# Too large for GitHub/LFS (>2GB)
+ingested_documents.json

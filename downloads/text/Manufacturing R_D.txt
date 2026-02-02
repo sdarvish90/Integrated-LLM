@@ -1,0 +1,8 @@
+Title: Manufacturing R&D
+URL: https://www.nrel.gov/hydrogen/manufacturing
+Date: 2026-01-28
+======================================================================
+
+Fuel Cell Manufacturing Research and Development
+NLR's fuel cell manufacturing R&D focuses on improving quality-inspection practices for high-volume manufacturing processes to enable higher production volumes, increased reliability, and lower costs.
+Many fuel cell companies are transitioning from labor-intensive manufacturing processes to high-throughput manufacturing methods to meet volume and cost targets for transportation and other applications. Fortunately, much can be learned about high-volume manufacturing from other industries such as microelectronics and polymer films.

@@ -1,0 +1,16 @@
+Title: Open Source Code
+URL: https://www.eia.gov/tools/open-source-code/
+Date: 2026-01-28
+======================================================================
+
+Open Source Code
+Skip to page content
+Why is EIA starting to make its code open source?
+At EIA, we strive to make our data and analytic products as transparent and accessible as possible. By allowing the public to examine the computer code that underlies our products, we hope to engender trust, foster understanding, and allow stakeholders to make better use of EIA products.
+Even though we carefully document our models, access to the source code allows users to better understand how the model functions, reproduce published results, and extend the model for their own purposes. Making code open source also allows EIA developers to receive valuable feedback from the broader expert community.
+What is being made open source? Can we expect other products to be released this way?
+As part of this launch, we are making the source code associated with the National Energy Modeling System (NEMS) available. NEMS is an important analytical tool at EIA that we use to produce our
+Annual Energy Outlook
+, and we want to make it more accessible to our stakeholders.
+EIA has a number of codebases that underlie our products. Before we create new repositories on GitHub, the code must go through a rigorous internal review process to ensure that our code is ready for public consumption.
+EIAgov on GitHub ›

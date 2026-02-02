@@ -1,0 +1,32 @@
+Title: Fuel Cells
+URL: https://www.energy.gov/eere/fuelcells/fuel-cells
+Date: 2026-01-28
+======================================================================
+
+A fuel cell uses the chemical energy of hydrogen or other fuels to cleanly and efficiently produce electricity. If hydrogen is the fuel, the only products are electricity, water, and heat. Fuel cells are unique in terms of the variety of their potential applications; they can use a wide range of fuels and feedstocks and can provide power for systems as large as a utility power station and as small as a laptop computer.
+Why Study Fuel Cells
+Fuel cells can be used in a wide range of applications, providing power for applications across multiple sectors, including transportation, industrial/commercial/residential buildings, and long-term energy storage for the grid in reversible systems.
+Fuel cells have several benefits over conventional combustion-based technologies currently used in many power plants and vehicles. Fuel cells can operate at higher efficiencies than combustion engines and can convert the chemical energy in the fuel directly to electrical energy with efficiencies capable of exceeding 60%. Fuel cells have lower or zero emissions compared to combustion engines. Hydrogen fuel cells emit only water, addressing critical climate challenges as there are no carbon dioxide emissions. There also are no air pollutants that create smog and cause health problems at the point of operation. Fuel cells are quiet during operation as they have few moving parts.
+How Fuel Cells Work
+Fuel cells work like batteries, but they do not run down or need recharging. They produce electricity and heat as long as fuel is supplied. A fuel cell consists of two electrodes—a negative electrode (or anode) and a positive electrode (or cathode)—sandwiched around an electrolyte. A fuel, such as hydrogen, is fed to the anode, and air is fed to the cathode. In a hydrogen fuel cell, a catalyst at the anode separates hydrogen molecules into protons and electrons, which take different paths to the cathode. The electrons go through an external circuit, creating a flow of electricity. The protons migrate through the electrolyte to the cathode, where they unite with oxygen and the electrons to produce water and heat. Learn more about:
+Parts of a fuel cell
+Fuel cell systems
+Types of fuel cells
+.
+View the Hydrogen and Fuel Cell Technologies Office's
+fuel cell animation
+to see how a fuel cell operates.
+Research and Development Goals
+The U.S. Department of Energy (DOE) is working closely with its national laboratories, universities, and industry partners to overcome critical technical barriers to fuel cell development. Cost, performance, and durability are still key challenges in the fuel cell industry. View
+related links
+that provide details about DOE-funded fuel cell activities.
+Cost
+—Research, development, and demonstration (RD&D) focuses on the development of low-cost fuel cell stack and balance of plant (BOP) components and advanced high-volume manufacturing approaches to reduce overall system cost. Platinum represents one of the largest cost components of a direct hydrogen fueled polymer electrolyte membrane fuel cell, so there is emphasis on approaches that will increase activity and utilization and reduce the content of current platinum group metal (PGM) and PGM-alloy catalysts, as well as PGM-free catalyst approaches for long-term applications.
+Performance
+—To improve fuel cell efficiency and performance, RD&D focuses on innovative materials and integration strategies. Efforts include developing ion-exchange membrane electrolytes with enhanced efficiency and durability at reduced cost; improving membrane electrode assemblies (MEAs) with high power density through integration of state-of-the-art MEA components; modeling to understand system design and operating conditions; and developing stacks with high efficiency at rated power and high-performing BOP components, such as air management components with low parasitic losses.
+Durability
+—Fuel cell applications generally require adequate performance to be maintained over long periods of time. DOE has set ultimate targets for fuel cell system lifetime under realistic operating conditions at 8,000 hours for light-duty vehicles, 30,000 hours for heavy-duty trucks, and 80,000 hours for distributed power systems. In the most demanding applications, system reliability and robustness is required under dynamic and harsh operating conditions. Realistic operating conditions include starting and stopping, freezing and thawing, impurities in the fuel and air, and humidity and dynamic load cycles that result in stresses on the chemical and mechanical stability of the fuel cell system materials and components. RD&D focuses on identifying and understanding the fuel cell degradation mechanisms and developing materials and strategies to mitigate their effects.
+Technical Targets
+Download the Fuel Cell Technologies section of the Hydrogen and Fuel Cell Technologies Office's
+Multi-Year Program Plan
+for full details about technical targets.

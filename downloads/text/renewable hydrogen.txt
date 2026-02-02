@@ -1,0 +1,52 @@
+Title: renewable hydrogen
+URL: https://energy.ec.europa.eu/topics/eus-energy-system/hydrogen/renewable-hydrogen_en
+Date: 2026-01-28
+======================================================================
+
+©AdobeStock (from left to right ) scharfsinn86/AA+W
+Renewable hydrogen is produced through the process of electrolysis, using renewable electricity to split water into hydrogen and oxygen and is therefore a ‘renewable fuel of non-biological origin’ (RFNBO).
+It will play a key role in decarbonising particular sectors, where other renewable alternatives might be unfeasible or more expensive. It can replace fossil-based hydrogen for transport and industrial processes,
+reducing greenhouse gas emissions and environmental impact. Additionally, it can be used to produce new industrial products, such as green fertilisers and steel.
+By providing long-term and large-scale storage,
+renewable hydrogen can also support the EU’s electricity sector, helping to stabilise the grid and improve the integration of variable renewable sources such as wind and solar. This means that renewable hydrogen can help improve the flexibility of the EU's energy system, paving the way for a resilient and sustainable energy future, supporting the integration of increasing shares of variable renewable energy sources.
+The
+Renewable Energy Directive
+set targets for the uptake of RFNBOs in transport and industry. By 2030, they are expected to account for at least 1% of total energy supplied to the transport sector, and at least 42% of all hydrogen used in industry, increasing to 60% in 2035.
+EU definition of renewable hydrogen
+The development of renewable hydrogen is promoted in the EU via several instruments including the targets set in the Renewable Energy Directive.
+To ensure that the hydrogen is produced from renewable energy sources and achieves at least 70% greenhouse gas emissions savings, the Commission adopted 2 delegated acts in June 2023. These rules apply to both domestic producers and international producers exporting renewable hydrogen to the EU.
+A methodology for renewable fuels of non-biological origin
+The
+Delegated Act on a methodology for renewable fuels on non-biological origin
+, defines under which conditions hydrogen, hydrogen-based fuels, or other energy carriers can be considered as renewable fuels of non-biological origin (RFNBO).
+It includes 2 types of criteria to ensure that hydrogen is renewable
+Additionality
+Additionality ensures that increased hydrogen production goes hand in hand with new renewable electricity generation capacity. Hydrogen producers must therefore conclude
+power purchase agreements
+with new and unsupported renewable electricity generation capacity.
+Temporal and geographic correlation
+These criteria ensure that hydrogen is produced when and where renewable electricity is available to avoid the demand for renewable electricity for hydrogen production incentivising more fossil electricity generation
+To support early scale-up, renewable hydrogen producers can sign long-term renewable power purchase agreements with existing renewable installations until 1 January 2028.
+This delegated act is subject to a review in July 2028.
+A minimum threshold for greenhouse gas emissions savings of recycled carbon fuels
+The
+Delegated Act establishing a minimum threshold for greenhouse gas (GHG) emissions savings of recycled carbon fuels
+provides a methodology for calculating life-cycle GHG emissions for RFNBOs.
+It takes into account GHG emissions across the full lifecycle of the fuels, including upstream emissions, emissions associated with taking electricity from the grid, processing, and transporting the fuels to the end-consumer.
+Certification through voluntary schemes
+For certification of renewable hydrogen, producers will be able to rely on a well-established system of certification by third parties, so-called
+voluntary schemes
+.
+These are international companies with experience in certifying biofuels, biomass and other products worldwide. EU countries are required to accept evidence from schemes that have been recognised by the Commission.
+The Commission will remain in close contact with stakeholders and certification schemes to support the practical implementation of the framework and will also monitor its implementation. To this end, it is planned to launch a dedicated study in early 2025.
+Documents
+Q&A implementation of hydrogen delegated acts
+Related links
+Delegated Act (EU) 2023/1184
+on a methodology for renewable fuels of non-biological origin
+Delegated Act (EU) 2023/1185 a minimum threshold for GHG emissions savings of recycled carbon fuels
+News:
+Renewable hydrogen production: new rules formally adopted
+(20 June 2023)
+Hydrogen
+Voluntary schemes

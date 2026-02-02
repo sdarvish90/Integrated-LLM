@@ -1,0 +1,11 @@
+Country,Cost threshold,Levelised cost of hydrogen [EUR/kg],Levelised cost of hydrogen [EUR/MWh]
+Germany,60 EUR/MWh,7.10,212.30
+Germany,50 EUR/MWh,7.00,209.30
+Germany,40 EUR/MWh,7.30,219.20
+Germany,30 EUR/MWh,7.70,231.20
+Germany,20 EUR/MWh,8.60,257.40
+Spain,60 EUR/MWh,6.00,179.00
+Spain,50 EUR/MWh,5.70,170.00
+Spain,40 EUR/MWh,5.40,161.00
+Spain,30 EUR/MWh,5.30,157.70
+Spain,20 EUR/MWh,5.40,161.90

@@ -1,0 +1,100 @@
+{
+  "warnings": [
+    {
+      "warning": "incomplete return",
+      "description": "The API can only return 5000 rows in JSON format.  Please consider constraining your request with facet, start, or end, or using offset to paginate results."
+    }
+  ],
+  "response": {
+    "total": "448265",
+    "dateFormat": "YYYY-MM",
+    "frequency": "monthly",
+    "data": [
+      {
+        "period": "2025-10",
+        "duoarea": "NUS-NSA",
+        "area-name": "SAU",
+        "product": "EP00",
+        "product-name": "Crude Oil and Petroleum Products",
+        "process": "IMN",
+        "process-name": "Net Imports",
+        "series": "MTTNTUSSA2",
+        "series-description": "U.S. Net Imports from Saudi Arabia of Crude Oil and Petroleum Products (Thousand Barrels per Day)",
+        "value": "354",
+        "units": "MBBL/D"
+      },
+      {
+        "period": "2025-10",
+        "duoarea": "NUS-NNU",
+        "area-name": "NIC",
+        "product": "EP00",
+        "product-name": "Crude Oil and Petroleum Products",
+        "process": "IMN",
+        "process-name": "Net Imports",
+        "series": "MTTNT_NUS-NNU_2",
+        "series-description": "U.S. Net Imports from Nicaragua of Crude Oil and Petroleum Products (Thousand Barrels per Day)",
+        "value": "-30",
+        "units": "MBBL/D"
+      },
+      {
+        "period": "2025-10",
+        "duoarea": "NUS-NBU",
+        "area-name": "BGR",
+        "product": "EP00",
+        "product-name": "Crude Oil and Petroleum Products",
+        "process": "IMN",
+        "process-name": "Net Imports",
+        "series": "MTTNT_NUS-NBU_2",
+        "series-description": "U.S. Net Imports from Bulgaria of Crude Oil and Petroleum Products (Thousand Barrels per Day)",
+        "value": "-24",
+        "units": "MBBL/D"
+      },
+      {
+        "period": "2025-10",
+        "duoarea": "NUS-NTW",
+        "area-name": "TWN",
+        "product": "EP00",
+        "product-name": "Crude Oil and Petroleum Products",
+        "process": "IMN",
+        "process-name": "Net Imports",
+        "series": "MTTNTUSTW2",
+        "series-description": "U.S. Net Imports from Taiwan of Crude Oil and Petroleum Products (Thousand Barrels per Day)",
+        "value": "-213",
+        "units": "MBBL/D"
+      },
+      {
+        "period": "2025-10",
+        "duoarea": "NUS-NHK",
+        "area-name": "HKG",
+        "product": "EP00",
+        "product-name": "Crude Oil and Petroleum Products",
+        "process": "IMN",
+        "process-name": "Net Imports",
+        "series": "MTTNT_NUS-NHK_2",
+        "series-description": "U.S. Net Imports from Hong Kong of Crude Oil and Petroleum Products (Thousand Barrels per Day)",
+        "value": "0",
+        "units": "MBBL/D"
+      }
+    ]
+  },
+  "request": {
+    "command": "/v2/petroleum/move/neti/data/",
+    "params": {
+      "api_key": "o5nQ7H9b6Bf9Kh3D0cCeC8ydP24drGTiFGaCQrKN",
+      "frequency": "monthly",
+      "data": [
+        "value"
+      ],
+      "sort": [
+        {
+          "column": "period",
+          "direction": "desc"
+        }
+      ],
+      "length": "5",
+      "offset": "0"
+    }
+  },
+  "apiVersion": "2.1.10",
+  "ExcelAddInVersion": "2.1.0"
+}

@@ -1,0 +1,15 @@
+Title: Resiliency (interconnection_milestones, Tier 2)
+URL: https://www.ercot.com/gridinfo/resiliency
+Date: 2026-01-28
+======================================================================
+
+Home
+Grid Information
+Resiliency
+Resiliency
+Resilience is the ability of the system to prepare for, operate through, and recover in a reasonable amount of time from non-routine disruptions. ERCOT has many initiatives related to resilience that are embedded in other programs; this section provides information on those initiatives.
+In This Section
+Winter Weather Readiness
+Summer Weather Readiness
+Gas-Electric Coordination
+ERCOT-Lockup-white

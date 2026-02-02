@@ -1,0 +1,29 @@
+Title: Methane from Oil and Gas Production Explained
+URL: https://www.worldbank.org/en/programs/gasflaringreduction/methane-explained
+Date: 2026-01-28
+======================================================================
+
+What is the environmental impact of methane?
+How does oil and gas production contribute to methane emissions?
+How can we reduce the amount of methane emissions?
+What is being done about methane emissions from oil and gas operations?
+What is the environmental impact of methane?
+Methane, the primary component of natural gas, is a potent short-livedgreenhouse gas (GHG), with a global warming potential (GWP) around 28 times greater than the same mass of carbon dioxide emissions on a 100-year basis, and over 80 times more powerful on a 20-year basis. This makes methane second only to carbon dioxide in its contribution to climate change.
+While methane has a significantly higher GWP than carbon dioxide, it also has a shorter atmospheric lifetime, and so after about 12 years, the methane in the atmosphere breaks down into GHGs with a lower GWP. In contrast, carbon dioxide can remain in the atmosphere for over a century.
+As a result, the rapid reduction of methane emissions is:
+one of the most effective ways to quickly slow the rate of climate change,
+critical to global efforts to limit global warming to within 1.5 degrees compared to pre-industrial levels; and
+probably the single most important climate action we can undertake in the short-term.
+How does oil and gas production contribute to methane emissions?
+The oil and gas sector accounted for approximately 78 million tonnes of anthropogenic methane emissions in 2023 representing over 66% of the emissions from the energy sector, and industry estimates suggest that methane emissions from fossil fuels have been increasing in recent years.
+The oil and gas industry is a significant source of global methane emissions. In fact, methane emissions from venting, leakage, and flaring in the oil and gas sector are currently estimated to be responsible for roughly a quarter of global anthropogenic methane emissions. Oil and gas operations release methane into the atmosphere through the wasteful practices of intentional flaring and venting, as well as through the unintentional release of fugitive methane emissions. About half of global emissions from oil and gas production occur in developing countries.
+Methane from fugitive emissions
+During the production and transportation of natural gas (associated or non-associated gas), leaks and other unintentional releases result in methane escaping into the atmosphere. While gas composition varies, natural gas typically comprises about 80-95 percent methane, with the remaining comprising heavier hydrocarbons like ethane, propane, and butane.
+In recent years the scale of these fugitive emissions has become apparent, with advances in methane detection technology allowing previously undetected leaks to be identified. These leaks, typically resulting from poor maintenance and broken equipment, can release enormous amounts of methane and are often labeled “super-emitters.”
+Methane from flaring
+Flares are a direct source of methane emissions, as flares do not completely combust all the hydrocarbons in the gas stream.
+Typically, greenhouse gas (GHG) estimates of gas flaring emissions are based on two core assumptions:
+that flares have a methane destruction efficiency of 98%, resulting in 2% of the methane in the flare gas stream being emitted to the atmosphere un-combusted; and
+that flares are lit and operating properly 100% of the time.
+These assumptions, used widely for decades, have formed the foundation of estimates of GHG emissions from flaring. We estimate that in 2024 flaring resulted in 389 million tonnes of CO2 equivalent emissions (MMtCO2e), of which 46 MMtCO2e was in the form of un-combusted methane.
+However, until recently, neither of these assumptions had been rigorously tested in real-world operational environments. GFMR has developed an interactive toolkit to help demonstrate the likely GHG emissions from flaring across a range of circumstances.

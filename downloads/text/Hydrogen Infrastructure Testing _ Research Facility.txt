@@ -1,0 +1,22 @@
+Title: Hydrogen Infrastructure Testing & Research Facility
+URL: https://www.nrel.gov/hydrogen/hitrf
+Date: 2026-01-28
+======================================================================
+
+Hydrogen Infrastructure Testing and Research Facility
+The Hydrogen Infrastructure Testing and Research Facility (HITRF) at NLR's
+Energy Systems Integration Facility
+(ESIF) consists of hydrogen storage, compression, and dispensing capabilities for
+    fuel cell vehicle fueling and component testing.
+The HITRF is the first facility of its kind in Colorado and is available to industry
+    for use in research and development activities. In addition to fueling fuel cell electric
+    vehicles, the HITRF serves as a proving ground for component, system, and control
+    testing. The facility is representative of current commercially available hydrogen
+    fueling stations, enabling NLR to validate current industry standards and methods
+    for hydrogen fueling as well as perform testing for next-generation technology and
+    controls.
+Integrated with the ESIF building, the HITRF provides a hydrogen distribution network
+    to multiple ESIF labs researching hydrogen production through renewable electrolysis,
+    fuel cell manufacturing and testing, high-pressure component testing, and hydrogen
+    sensor testing.
+Text Version

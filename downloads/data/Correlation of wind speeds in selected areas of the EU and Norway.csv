@@ -1,0 +1,7 @@
+Region from,Region to,Correlation
+Baltic,Core,0.45
+Baltic,Italy,0.54
+Baltic,Nordic,0.31
+Core,Italy,0.31
+Core,Nordic,0.38
+Core,West -Europe,0.19

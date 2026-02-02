@@ -1,0 +1,673 @@
+Balancing Service,Capacity/Energy,Distributed energy resources,Member State,' Estimated balancing capacity procured and balancing energy activated (% ranges)
+FCR,BALANCING CAPACITY,Distributed generation,AT,' NA
+FCR,BALANCING CAPACITY,Distributed generation,BE,' 0
+FCR,BALANCING CAPACITY,Distributed generation,BG,' 0
+FCR,BALANCING CAPACITY,Distributed generation,CZ,' NA
+FCR,BALANCING CAPACITY,Distributed generation,DE,' NA
+FCR,BALANCING CAPACITY,Distributed generation,DK,' NA
+FCR,BALANCING CAPACITY,Distributed generation,EE,' NAP
+FCR,BALANCING CAPACITY,Distributed generation,ES,' NA
+FCR,BALANCING CAPACITY,Distributed generation,FI,' NA
+FCR,BALANCING CAPACITY,Distributed generation,FR,' 0
+FCR,BALANCING CAPACITY,Distributed generation,GR,' 0
+FCR,BALANCING CAPACITY,Distributed generation,HR,' NA
+FCR,BALANCING CAPACITY,Distributed generation,HU,' > 20%
+FCR,BALANCING CAPACITY,Distributed generation,IT,' NAP
+FCR,BALANCING CAPACITY,Distributed generation,LT,' NAP
+FCR,BALANCING CAPACITY,Distributed generation,LV,' NAP
+FCR,BALANCING CAPACITY,Distributed generation,NL,' NA
+FCR,BALANCING CAPACITY,Distributed generation,NO,' NA
+FCR,BALANCING CAPACITY,Distributed generation,PL,' 0
+FCR,BALANCING CAPACITY,Distributed generation,PT,' 0
+FCR,BALANCING CAPACITY,Distributed generation,RO,' 0
+FCR,BALANCING CAPACITY,Distributed generation,SE,' NA
+FCR,BALANCING CAPACITY,Distributed generation,SI,' 0
+FCR,BALANCING CAPACITY,Distributed generation,SK,' NA
+FCR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,AT,' NA
+FCR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,BE,' > 20%
+FCR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,BG,' 0
+FCR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,CZ,' NA
+FCR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,DE,' NA
+FCR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,DK,' NA
+FCR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,EE,' NAP
+FCR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,ES,' NA
+FCR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,FI,' NA
+FCR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,FR,' > 20%
+FCR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,GR,' 0
+FCR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,HR,' NA
+FCR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,HU,' 0
+FCR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,IT,' NAP
+FCR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,LT,' NAP
+FCR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,LV,' NAP
+FCR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,NL,' NA
+FCR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,NO,' NA
+FCR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,PL,' 0
+FCR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,PT,' 0
+FCR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,RO,' 0
+FCR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,SE,' NA
+FCR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,SI,' 0
+FCR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,SK,' NA
+FCR,BALANCING CAPACITY,Demand response,AT,' NA
+FCR,BALANCING CAPACITY,Demand response,BE,' 1% - 5%
+FCR,BALANCING CAPACITY,Demand response,BG,' 0
+FCR,BALANCING CAPACITY,Demand response,CZ,' NA
+FCR,BALANCING CAPACITY,Demand response,DE,' NA
+FCR,BALANCING CAPACITY,Demand response,DK,' NA
+FCR,BALANCING CAPACITY,Demand response,EE,' NAP
+FCR,BALANCING CAPACITY,Demand response,ES,' 0
+FCR,BALANCING CAPACITY,Demand response,FI,' NA
+FCR,BALANCING CAPACITY,Demand response,FR,' > 20%
+FCR,BALANCING CAPACITY,Demand response,GR,' 0
+FCR,BALANCING CAPACITY,Demand response,HR,' NA
+FCR,BALANCING CAPACITY,Demand response,HU,' 0
+FCR,BALANCING CAPACITY,Demand response,IT,' NAP
+FCR,BALANCING CAPACITY,Demand response,LT,' NAP
+FCR,BALANCING CAPACITY,Demand response,LV,' NAP
+FCR,BALANCING CAPACITY,Demand response,NL,' NA
+FCR,BALANCING CAPACITY,Demand response,NO,' NA
+FCR,BALANCING CAPACITY,Demand response,PL,' 0
+FCR,BALANCING CAPACITY,Demand response,PT,' 0
+FCR,BALANCING CAPACITY,Demand response,RO,' 0
+FCR,BALANCING CAPACITY,Demand response,SE,' NA
+FCR,BALANCING CAPACITY,Demand response,SI,' 0
+FCR,BALANCING CAPACITY,Demand response,SK,' NA
+FCR,BALANCING CAPACITY,Total of distributed energy resources,AT,' NA
+FCR,BALANCING CAPACITY,Total of distributed energy resources,BE,' > 20%
+FCR,BALANCING CAPACITY,Total of distributed energy resources,BG,' 0
+FCR,BALANCING CAPACITY,Total of distributed energy resources,CZ,' NA
+FCR,BALANCING CAPACITY,Total of distributed energy resources,DE,' NA
+FCR,BALANCING CAPACITY,Total of distributed energy resources,DK,' NA
+FCR,BALANCING CAPACITY,Total of distributed energy resources,EE,' NAP
+FCR,BALANCING CAPACITY,Total of distributed energy resources,ES,' NA
+FCR,BALANCING CAPACITY,Total of distributed energy resources,FI,' NA
+FCR,BALANCING CAPACITY,Total of distributed energy resources,FR,' > 20%
+FCR,BALANCING CAPACITY,Total of distributed energy resources,GR,' 0
+FCR,BALANCING CAPACITY,Total of distributed energy resources,HR,' NA
+FCR,BALANCING CAPACITY,Total of distributed energy resources,HU,' > 20%
+FCR,BALANCING CAPACITY,Total of distributed energy resources,IT,' NAP
+FCR,BALANCING CAPACITY,Total of distributed energy resources,LT,' NAP
+FCR,BALANCING CAPACITY,Total of distributed energy resources,LV,' NAP
+FCR,BALANCING CAPACITY,Total of distributed energy resources,NL,' NA
+FCR,BALANCING CAPACITY,Total of distributed energy resources,NO,' NA
+FCR,BALANCING CAPACITY,Total of distributed energy resources,PL,' 0
+FCR,BALANCING CAPACITY,Total of distributed energy resources,PT,' 0
+FCR,BALANCING CAPACITY,Total of distributed energy resources,RO,' 0
+FCR,BALANCING CAPACITY,Total of distributed energy resources,SE,' NA
+FCR,BALANCING CAPACITY,Total of distributed energy resources,SI,' 0
+FCR,BALANCING CAPACITY,Total of distributed energy resources,SK,' NA
+aFRR,BALANCING CAPACITY,Distributed generation,AT,' NA
+aFRR,BALANCING CAPACITY,Distributed generation,BE,' 5% - 10%
+aFRR,BALANCING CAPACITY,Distributed generation,BG,' 0
+aFRR,BALANCING CAPACITY,Distributed generation,CZ,' NA
+aFRR,BALANCING CAPACITY,Distributed generation,DE,' NA
+aFRR,BALANCING CAPACITY,Distributed generation,DK,' NA
+aFRR,BALANCING CAPACITY,Distributed generation,EE,' NAP
+aFRR,BALANCING CAPACITY,Distributed generation,ES,' NA
+aFRR,BALANCING CAPACITY,Distributed generation,FI,' NA
+aFRR,BALANCING CAPACITY,Distributed generation,FR,' 0
+aFRR,BALANCING CAPACITY,Distributed generation,GR,' 0
+aFRR,BALANCING CAPACITY,Distributed generation,HR,' 0
+aFRR,BALANCING CAPACITY,Distributed generation,HU,' > 20%
+aFRR,BALANCING CAPACITY,Distributed generation,IT,' NAP
+aFRR,BALANCING CAPACITY,Distributed generation,LT,' NAP
+aFRR,BALANCING CAPACITY,Distributed generation,LV,' NAP
+aFRR,BALANCING CAPACITY,Distributed generation,NL,' NA
+aFRR,BALANCING CAPACITY,Distributed generation,NO,' NA
+aFRR,BALANCING CAPACITY,Distributed generation,PL,' 0
+aFRR,BALANCING CAPACITY,Distributed generation,PT,' 0
+aFRR,BALANCING CAPACITY,Distributed generation,RO,' 0
+aFRR,BALANCING CAPACITY,Distributed generation,SE,' NA
+aFRR,BALANCING CAPACITY,Distributed generation,SI,' 0
+aFRR,BALANCING CAPACITY,Distributed generation,SK,' NA
+aFRR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,AT,' NA
+aFRR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,BE,' 10% - 20%
+aFRR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,BG,' 0
+aFRR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,CZ,' NA
+aFRR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,DE,' NA
+aFRR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,DK,' NA
+aFRR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,EE,' NAP
+aFRR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,ES,' NA
+aFRR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,FI,' NA
+aFRR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,FR,' 0
+aFRR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,GR,' 0
+aFRR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,HR,' 0
+aFRR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,HU,' 0
+aFRR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,IT,' NAP
+aFRR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,LT,' NAP
+aFRR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,LV,' NAP
+aFRR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,NL,' NA
+aFRR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,NO,' 0
+aFRR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,PL,' 0
+aFRR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,PT,' 0
+aFRR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,RO,' 0
+aFRR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,SE,' NA
+aFRR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,SI,' 0
+aFRR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,SK,' NA
+aFRR,BALANCING CAPACITY,Demand response,AT,' NA
+aFRR,BALANCING CAPACITY,Demand response,BE,' 0
+aFRR,BALANCING CAPACITY,Demand response,BG,' 0
+aFRR,BALANCING CAPACITY,Demand response,CZ,' NA
+aFRR,BALANCING CAPACITY,Demand response,DE,' NA
+aFRR,BALANCING CAPACITY,Demand response,DK,' NA
+aFRR,BALANCING CAPACITY,Demand response,EE,' NAP
+aFRR,BALANCING CAPACITY,Demand response,ES,' 0
+aFRR,BALANCING CAPACITY,Demand response,FI,' NA
+aFRR,BALANCING CAPACITY,Demand response,FR,' 0
+aFRR,BALANCING CAPACITY,Demand response,GR,' 0
+aFRR,BALANCING CAPACITY,Demand response,HR,' NA
+aFRR,BALANCING CAPACITY,Demand response,HU,' 1% - 5%
+aFRR,BALANCING CAPACITY,Demand response,IT,' NAP
+aFRR,BALANCING CAPACITY,Demand response,LT,' NAP
+aFRR,BALANCING CAPACITY,Demand response,LV,' NAP
+aFRR,BALANCING CAPACITY,Demand response,NL,' NA
+aFRR,BALANCING CAPACITY,Demand response,NO,' 0
+aFRR,BALANCING CAPACITY,Demand response,PL,' 0
+aFRR,BALANCING CAPACITY,Demand response,PT,' 0
+aFRR,BALANCING CAPACITY,Demand response,RO,' 0
+aFRR,BALANCING CAPACITY,Demand response,SE,' 0
+aFRR,BALANCING CAPACITY,Demand response,SI,' 0
+aFRR,BALANCING CAPACITY,Demand response,SK,' NA
+aFRR,BALANCING CAPACITY,Total of distributed energy resources,AT,' NA
+aFRR,BALANCING CAPACITY,Total of distributed energy resources,BE,' > 20%
+aFRR,BALANCING CAPACITY,Total of distributed energy resources,BG,' 0
+aFRR,BALANCING CAPACITY,Total of distributed energy resources,CZ,' NA
+aFRR,BALANCING CAPACITY,Total of distributed energy resources,DE,' NA
+aFRR,BALANCING CAPACITY,Total of distributed energy resources,DK,' NA
+aFRR,BALANCING CAPACITY,Total of distributed energy resources,EE,' NAP
+aFRR,BALANCING CAPACITY,Total of distributed energy resources,ES,' NA
+aFRR,BALANCING CAPACITY,Total of distributed energy resources,FI,' NA
+aFRR,BALANCING CAPACITY,Total of distributed energy resources,FR,' 0
+aFRR,BALANCING CAPACITY,Total of distributed energy resources,GR,' 0
+aFRR,BALANCING CAPACITY,Total of distributed energy resources,HR,' NA
+aFRR,BALANCING CAPACITY,Total of distributed energy resources,HU,' > 20%
+aFRR,BALANCING CAPACITY,Total of distributed energy resources,IT,' NAP
+aFRR,BALANCING CAPACITY,Total of distributed energy resources,LT,' NAP
+aFRR,BALANCING CAPACITY,Total of distributed energy resources,LV,' NAP
+aFRR,BALANCING CAPACITY,Total of distributed energy resources,NL,' NA
+aFRR,BALANCING CAPACITY,Total of distributed energy resources,NO,' NA
+aFRR,BALANCING CAPACITY,Total of distributed energy resources,PL,' 0
+aFRR,BALANCING CAPACITY,Total of distributed energy resources,PT,' 0
+aFRR,BALANCING CAPACITY,Total of distributed energy resources,RO,' 0
+aFRR,BALANCING CAPACITY,Total of distributed energy resources,SE,' NA
+aFRR,BALANCING CAPACITY,Total of distributed energy resources,SI,' 0
+aFRR,BALANCING CAPACITY,Total of distributed energy resources,SK,' NA
+mFRR,BALANCING CAPACITY,Distributed generation,AT,' NA
+mFRR,BALANCING CAPACITY,Distributed generation,BE,' 5% - 10%
+mFRR,BALANCING CAPACITY,Distributed generation,BG,' 0
+mFRR,BALANCING CAPACITY,Distributed generation,CZ,' NA
+mFRR,BALANCING CAPACITY,Distributed generation,DE,' NA
+mFRR,BALANCING CAPACITY,Distributed generation,DK,' NA
+mFRR,BALANCING CAPACITY,Distributed generation,EE,' NAP
+mFRR,BALANCING CAPACITY,Distributed generation,ES,' NAP
+mFRR,BALANCING CAPACITY,Distributed generation,FI,' NA
+mFRR,BALANCING CAPACITY,Distributed generation,FR,' 10% - 20%
+mFRR,BALANCING CAPACITY,Distributed generation,GR,' 0
+mFRR,BALANCING CAPACITY,Distributed generation,HR,' 0
+mFRR,BALANCING CAPACITY,Distributed generation,HU,' 5% - 10%
+mFRR,BALANCING CAPACITY,Distributed generation,IT,' NAP
+mFRR,BALANCING CAPACITY,Distributed generation,LT,' 0
+mFRR,BALANCING CAPACITY,Distributed generation,LV,' NAP
+mFRR,BALANCING CAPACITY,Distributed generation,NL,' NA
+mFRR,BALANCING CAPACITY,Distributed generation,NO,' NA
+mFRR,BALANCING CAPACITY,Distributed generation,PL,' NAP
+mFRR,BALANCING CAPACITY,Distributed generation,PT,' 0
+mFRR,BALANCING CAPACITY,Distributed generation,RO,' 5% - 10%
+mFRR,BALANCING CAPACITY,Distributed generation,SE,' NAP
+mFRR,BALANCING CAPACITY,Distributed generation,SI,' > 20%
+mFRR,BALANCING CAPACITY,Distributed generation,SK,' NA
+mFRR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,AT,' NA
+mFRR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,BE,' 5% - 10%
+mFRR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,BG,' 0
+mFRR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,CZ,' NA
+mFRR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,DE,' NA
+mFRR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,DK,' NA
+mFRR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,EE,' NAP
+mFRR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,ES,' NAP
+mFRR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,FI,' NA
+mFRR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,FR,' 0
+mFRR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,GR,' 0
+mFRR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,HR,' 0
+mFRR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,HU,' 0
+mFRR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,IT,' NAP
+mFRR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,LT,' 0
+mFRR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,LV,' NAP
+mFRR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,NL,' NA
+mFRR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,NO,' NA
+mFRR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,PL,' NAP
+mFRR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,PT,' 0
+mFRR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,RO,' 0
+mFRR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,SE,' NAP
+mFRR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,SI,' 0
+mFRR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,SK,' NA
+mFRR,BALANCING CAPACITY,Demand response,AT,' NA
+mFRR,BALANCING CAPACITY,Demand response,BE,' 5% - 10%
+mFRR,BALANCING CAPACITY,Demand response,BG,' 0
+mFRR,BALANCING CAPACITY,Demand response,CZ,' NA
+mFRR,BALANCING CAPACITY,Demand response,DE,' NA
+mFRR,BALANCING CAPACITY,Demand response,DK,' NA
+mFRR,BALANCING CAPACITY,Demand response,EE,' NAP
+mFRR,BALANCING CAPACITY,Demand response,ES,' NAP
+mFRR,BALANCING CAPACITY,Demand response,FI,' NA
+mFRR,BALANCING CAPACITY,Demand response,FR,' > 20%
+mFRR,BALANCING CAPACITY,Demand response,GR,' 0
+mFRR,BALANCING CAPACITY,Demand response,HR,' NA
+mFRR,BALANCING CAPACITY,Demand response,HU,' 0% - 1%
+mFRR,BALANCING CAPACITY,Demand response,IT,' NAP
+mFRR,BALANCING CAPACITY,Demand response,LT,' 0
+mFRR,BALANCING CAPACITY,Demand response,LV,' NAP
+mFRR,BALANCING CAPACITY,Demand response,NL,' NA
+mFRR,BALANCING CAPACITY,Demand response,NO,' NA
+mFRR,BALANCING CAPACITY,Demand response,PL,' NAP
+mFRR,BALANCING CAPACITY,Demand response,PT,' > 20%
+mFRR,BALANCING CAPACITY,Demand response,RO,' 0
+mFRR,BALANCING CAPACITY,Demand response,SE,' NAP
+mFRR,BALANCING CAPACITY,Demand response,SI,' 0
+mFRR,BALANCING CAPACITY,Demand response,SK,' NA
+mFRR,BALANCING CAPACITY,Total of distributed energy resources,AT,' NA
+mFRR,BALANCING CAPACITY,Total of distributed energy resources,BE,' 5% - 10%
+mFRR,BALANCING CAPACITY,Total of distributed energy resources,BG,' 0
+mFRR,BALANCING CAPACITY,Total of distributed energy resources,CZ,' NA
+mFRR,BALANCING CAPACITY,Total of distributed energy resources,DE,' NA
+mFRR,BALANCING CAPACITY,Total of distributed energy resources,DK,' NA
+mFRR,BALANCING CAPACITY,Total of distributed energy resources,EE,' NAP
+mFRR,BALANCING CAPACITY,Total of distributed energy resources,ES,' NAP
+mFRR,BALANCING CAPACITY,Total of distributed energy resources,FI,' NA
+mFRR,BALANCING CAPACITY,Total of distributed energy resources,FR,' > 20%
+mFRR,BALANCING CAPACITY,Total of distributed energy resources,GR,' 0
+mFRR,BALANCING CAPACITY,Total of distributed energy resources,HR,' NA
+mFRR,BALANCING CAPACITY,Total of distributed energy resources,HU,' 5% - 10%
+mFRR,BALANCING CAPACITY,Total of distributed energy resources,IT,' NAP
+mFRR,BALANCING CAPACITY,Total of distributed energy resources,LT,' 0
+mFRR,BALANCING CAPACITY,Total of distributed energy resources,LV,' NAP
+mFRR,BALANCING CAPACITY,Total of distributed energy resources,NL,' NA
+mFRR,BALANCING CAPACITY,Total of distributed energy resources,NO,' NA
+mFRR,BALANCING CAPACITY,Total of distributed energy resources,PL,' NAP
+mFRR,BALANCING CAPACITY,Total of distributed energy resources,PT,' 0
+mFRR,BALANCING CAPACITY,Total of distributed energy resources,RO,' 0
+mFRR,BALANCING CAPACITY,Total of distributed energy resources,SE,' NAP
+mFRR,BALANCING CAPACITY,Total of distributed energy resources,SI,' > 20%
+mFRR,BALANCING CAPACITY,Total of distributed energy resources,SK,' NA
+RR,BALANCING CAPACITY,Distributed generation,AT,' NAP
+RR,BALANCING CAPACITY,Distributed generation,BE,' NAP
+RR,BALANCING CAPACITY,Distributed generation,BG,' NAP
+RR,BALANCING CAPACITY,Distributed generation,CZ,' NAP
+RR,BALANCING CAPACITY,Distributed generation,DE,' NAP
+RR,BALANCING CAPACITY,Distributed generation,DK,' NAP
+RR,BALANCING CAPACITY,Distributed generation,EE,' NAP
+RR,BALANCING CAPACITY,Distributed generation,ES,' NAP
+RR,BALANCING CAPACITY,Distributed generation,FI,' NAP
+RR,BALANCING CAPACITY,Distributed generation,FR,' 1% - 5%
+RR,BALANCING CAPACITY,Distributed generation,GR,' NAP
+RR,BALANCING CAPACITY,Distributed generation,HR,' NAP
+RR,BALANCING CAPACITY,Distributed generation,HU,' NAP
+RR,BALANCING CAPACITY,Distributed generation,IT,' NAP
+RR,BALANCING CAPACITY,Distributed generation,LT,' NAP
+RR,BALANCING CAPACITY,Distributed generation,LV,' NAP
+RR,BALANCING CAPACITY,Distributed generation,NL,' NAP
+RR,BALANCING CAPACITY,Distributed generation,NO,' NAP
+RR,BALANCING CAPACITY,Distributed generation,PL,' NAP
+RR,BALANCING CAPACITY,Distributed generation,PT,' 0
+RR,BALANCING CAPACITY,Distributed generation,RO,' 0
+RR,BALANCING CAPACITY,Distributed generation,SE,' NAP
+RR,BALANCING CAPACITY,Distributed generation,SI,' NAP
+RR,BALANCING CAPACITY,Distributed generation,SK,' NAP
+RR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,AT,' NAP
+RR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,BE,' NAP
+RR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,BG,' NAP
+RR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,CZ,' NAP
+RR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,DE,' NAP
+RR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,DK,' NAP
+RR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,EE,' NAP
+RR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,ES,' NAP
+RR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,FI,' NAP
+RR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,FR,' 0
+RR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,GR,' NAP
+RR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,HR,' NAP
+RR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,HU,' NAP
+RR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,IT,' NAP
+RR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,LT,' NAP
+RR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,LV,' NAP
+RR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,NL,' NAP
+RR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,NO,' NAP
+RR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,PL,' NAP
+RR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,PT,' 0
+RR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,RO,' 0
+RR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,SE,' NAP
+RR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,SI,' NAP
+RR,BALANCING CAPACITY,Storage excluding hydro and pumped-hydro storage,SK,' NAP
+RR,BALANCING CAPACITY,Demand response,AT,' NAP
+RR,BALANCING CAPACITY,Demand response,BE,' NAP
+RR,BALANCING CAPACITY,Demand response,BG,' NAP
+RR,BALANCING CAPACITY,Demand response,CZ,' NAP
+RR,BALANCING CAPACITY,Demand response,DE,' NAP
+RR,BALANCING CAPACITY,Demand response,DK,' NAP
+RR,BALANCING CAPACITY,Demand response,EE,' NAP
+RR,BALANCING CAPACITY,Demand response,ES,' NAP
+RR,BALANCING CAPACITY,Demand response,FI,' NAP
+RR,BALANCING CAPACITY,Demand response,FR,' 1% - 5%
+RR,BALANCING CAPACITY,Demand response,GR,' NAP
+RR,BALANCING CAPACITY,Demand response,HR,' NAP
+RR,BALANCING CAPACITY,Demand response,HU,' NAP
+RR,BALANCING CAPACITY,Demand response,IT,' NAP
+RR,BALANCING CAPACITY,Demand response,LT,' NAP
+RR,BALANCING CAPACITY,Demand response,LV,' NAP
+RR,BALANCING CAPACITY,Demand response,NL,' NAP
+RR,BALANCING CAPACITY,Demand response,NO,' NAP
+RR,BALANCING CAPACITY,Demand response,PL,' NAP
+RR,BALANCING CAPACITY,Demand response,PT,' 0
+RR,BALANCING CAPACITY,Demand response,RO,' 0
+RR,BALANCING CAPACITY,Demand response,SE,' NAP
+RR,BALANCING CAPACITY,Demand response,SI,' NAP
+RR,BALANCING CAPACITY,Demand response,SK,' NAP
+RR,BALANCING CAPACITY,Total of distributed energy resources,AT,' NAP
+RR,BALANCING CAPACITY,Total of distributed energy resources,BE,' NAP
+RR,BALANCING CAPACITY,Total of distributed energy resources,BG,' NAP
+RR,BALANCING CAPACITY,Total of distributed energy resources,CZ,' NAP
+RR,BALANCING CAPACITY,Total of distributed energy resources,DE,' NAP
+RR,BALANCING CAPACITY,Total of distributed energy resources,DK,' NAP
+RR,BALANCING CAPACITY,Total of distributed energy resources,EE,' NAP
+RR,BALANCING CAPACITY,Total of distributed energy resources,ES,' NAP
+RR,BALANCING CAPACITY,Total of distributed energy resources,FI,' NAP
+RR,BALANCING CAPACITY,Total of distributed energy resources,FR,' 1% - 5%
+RR,BALANCING CAPACITY,Total of distributed energy resources,GR,' NAP
+RR,BALANCING CAPACITY,Total of distributed energy resources,HR,' NAP
+RR,BALANCING CAPACITY,Total of distributed energy resources,HU,' NAP
+RR,BALANCING CAPACITY,Total of distributed energy resources,IT,' NAP
+RR,BALANCING CAPACITY,Total of distributed energy resources,LT,' NAP
+RR,BALANCING CAPACITY,Total of distributed energy resources,LV,' NAP
+RR,BALANCING CAPACITY,Total of distributed energy resources,NL,' NAP
+RR,BALANCING CAPACITY,Total of distributed energy resources,NO,' NAP
+RR,BALANCING CAPACITY,Total of distributed energy resources,PL,' NAP
+RR,BALANCING CAPACITY,Total of distributed energy resources,PT,' 0
+RR,BALANCING CAPACITY,Total of distributed energy resources,RO,' 0
+RR,BALANCING CAPACITY,Total of distributed energy resources,SE,' NAP
+RR,BALANCING CAPACITY,Total of distributed energy resources,SI,' NAP
+RR,BALANCING CAPACITY,Total of distributed energy resources,SK,' NAP
+aFRR,BALANCING ENERGY,Distributed generation,AT,' NA
+aFRR,BALANCING ENERGY,Distributed generation,BE,' 5% - 10%
+aFRR,BALANCING ENERGY,Distributed generation,BG,' 0
+aFRR,BALANCING ENERGY,Distributed generation,CZ,' NA
+aFRR,BALANCING ENERGY,Distributed generation,DE,' NA
+aFRR,BALANCING ENERGY,Distributed generation,DK,' NA
+aFRR,BALANCING ENERGY,Distributed generation,EE,' NAP
+aFRR,BALANCING ENERGY,Distributed generation,ES,' NA
+aFRR,BALANCING ENERGY,Distributed generation,FI,' NA
+aFRR,BALANCING ENERGY,Distributed generation,FR,' 0
+aFRR,BALANCING ENERGY,Distributed generation,GR,' 0
+aFRR,BALANCING ENERGY,Distributed generation,HR,' 0
+aFRR,BALANCING ENERGY,Distributed generation,HU,' 10% - 20%
+aFRR,BALANCING ENERGY,Distributed generation,IT,' 0
+aFRR,BALANCING ENERGY,Distributed generation,LT,' NAP
+aFRR,BALANCING ENERGY,Distributed generation,LV,' NAP
+aFRR,BALANCING ENERGY,Distributed generation,NL,' NA
+aFRR,BALANCING ENERGY,Distributed generation,NO,' NAP
+aFRR,BALANCING ENERGY,Distributed generation,PL,' 0
+aFRR,BALANCING ENERGY,Distributed generation,PT,' 0
+aFRR,BALANCING ENERGY,Distributed generation,RO,' 0
+aFRR,BALANCING ENERGY,Distributed generation,SE,' NA
+aFRR,BALANCING ENERGY,Distributed generation,SI,' 0
+aFRR,BALANCING ENERGY,Distributed generation,SK,' NA
+aFRR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,AT,' NA
+aFRR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,BE,' 10% - 20%
+aFRR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,BG,' 0
+aFRR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,CZ,' NA
+aFRR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,DE,' NA
+aFRR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,DK,' NA
+aFRR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,EE,' NAP
+aFRR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,ES,' NA
+aFRR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,FI,' NA
+aFRR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,FR,' 0
+aFRR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,GR,' 0
+aFRR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,HR,' 0
+aFRR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,HU,' 0
+aFRR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,IT,' 0
+RR,BALANCING ENERGY,Distributed generation,SE,' NAP
+RR,BALANCING ENERGY,Distributed generation,SI,' NAP
+RR,BALANCING ENERGY,Distributed generation,SK,' NAP
+RR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,AT,' NAP
+RR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,BE,' NAP
+RR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,BG,' NAP
+RR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,CZ,' 0
+RR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,DE,' NAP
+RR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,DK,' NAP
+RR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,EE,' NAP
+RR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,ES,' NA
+RR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,FI,' NAP
+aFRR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,LT,' NAP
+RR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,FR,' 0
+RR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,GR,' NAP
+RR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,HR,' NAP
+RR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,HU,' NAP
+RR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,IT,' 0
+aFRR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,LV,' NAP
+RR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,LT,' NAP
+RR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,LV,' NAP
+RR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,NL,' NAP
+RR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,NO,' NAP
+RR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,PL,' 0
+RR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,PT,' 0
+RR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,RO,' 0
+RR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,SE,' NAP
+RR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,SI,' NAP
+RR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,SK,' NAP
+RR,BALANCING ENERGY,Demand response,AT,' NAP
+RR,BALANCING ENERGY,Demand response,BE,' NAP
+RR,BALANCING ENERGY,Demand response,BG,' NAP
+RR,BALANCING ENERGY,Demand response,CZ,' 0
+RR,BALANCING ENERGY,Demand response,DE,' NAP
+RR,BALANCING ENERGY,Demand response,DK,' NAP
+RR,BALANCING ENERGY,Demand response,EE,' NAP
+RR,BALANCING ENERGY,Demand response,ES,' 0
+RR,BALANCING ENERGY,Demand response,FI,' NAP
+aFRR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,NL,' NA
+RR,BALANCING ENERGY,Demand response,FR,' 0% - 1%
+RR,BALANCING ENERGY,Demand response,GR,' NAP
+aFRR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,NO,' NAP
+RR,BALANCING ENERGY,Demand response,HR,' NAP
+aFRR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,PL,' 0
+RR,BALANCING ENERGY,Demand response,HU,' NAP
+aFRR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,PT,' 0
+RR,BALANCING ENERGY,Demand response,IT,' 0
+aFRR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,RO,' 0
+RR,BALANCING ENERGY,Demand response,LT,' NAP
+RR,BALANCING ENERGY,Demand response,LV,' NAP
+aFRR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,SE,' NA
+RR,BALANCING ENERGY,Demand response,NL,' NAP
+aFRR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,SI,' 0% - 1%
+RR,BALANCING ENERGY,Demand response,NO,' NAP
+RR,BALANCING ENERGY,Demand response,PL,' 0
+aFRR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,SK,' NA
+RR,BALANCING ENERGY,Demand response,PT,' 0
+aFRR,BALANCING ENERGY,Demand response,AT,' NA
+RR,BALANCING ENERGY,Demand response,RO,' 0
+aFRR,BALANCING ENERGY,Demand response,BE,' 0
+RR,BALANCING ENERGY,Demand response,SE,' NAP
+aFRR,BALANCING ENERGY,Demand response,BG,' 0
+RR,BALANCING ENERGY,Demand response,SI,' NAP
+aFRR,BALANCING ENERGY,Demand response,CZ,' NA
+RR,BALANCING ENERGY,Demand response,SK,' NAP
+aFRR,BALANCING ENERGY,Demand response,DE,' NA
+RR,BALANCING ENERGY,Total of distributed energy resources,AT,' NAP
+aFRR,BALANCING ENERGY,Demand response,DK,' NA
+RR,BALANCING ENERGY,Total of distributed energy resources,BE,' NAP
+aFRR,BALANCING ENERGY,Demand response,EE,' NAP
+RR,BALANCING ENERGY,Total of distributed energy resources,BG,' NAP
+aFRR,BALANCING ENERGY,Demand response,ES,' 0
+RR,BALANCING ENERGY,Total of distributed energy resources,CZ,' 0
+aFRR,BALANCING ENERGY,Demand response,FI,' NA
+aFRR,BALANCING ENERGY,Demand response,FR,' 0
+aFRR,BALANCING ENERGY,Demand response,GR,' 0
+aFRR,BALANCING ENERGY,Demand response,HR,' NA
+aFRR,BALANCING ENERGY,Demand response,HU,' 0% - 1%
+aFRR,BALANCING ENERGY,Demand response,IT,' 0
+aFRR,BALANCING ENERGY,Demand response,LT,' NAP
+aFRR,BALANCING ENERGY,Demand response,LV,' NAP
+aFRR,BALANCING ENERGY,Demand response,NL,' NA
+aFRR,BALANCING ENERGY,Demand response,NO,' NAP
+aFRR,BALANCING ENERGY,Demand response,PL,' 0
+aFRR,BALANCING ENERGY,Demand response,PT,' 0
+aFRR,BALANCING ENERGY,Demand response,RO,' 0
+aFRR,BALANCING ENERGY,Demand response,SE,' 0
+aFRR,BALANCING ENERGY,Demand response,SI,' 0
+aFRR,BALANCING ENERGY,Demand response,SK,' NA
+aFRR,BALANCING ENERGY,Total of distributed energy resources,AT,' NA
+aFRR,BALANCING ENERGY,Total of distributed energy resources,BE,' > 20%
+aFRR,BALANCING ENERGY,Total of distributed energy resources,BG,' 0
+aFRR,BALANCING ENERGY,Total of distributed energy resources,CZ,' NA
+aFRR,BALANCING ENERGY,Total of distributed energy resources,DE,' NA
+aFRR,BALANCING ENERGY,Total of distributed energy resources,DK,' NA
+aFRR,BALANCING ENERGY,Total of distributed energy resources,EE,' NAP
+aFRR,BALANCING ENERGY,Total of distributed energy resources,ES,' NA
+aFRR,BALANCING ENERGY,Total of distributed energy resources,FI,' NA
+aFRR,BALANCING ENERGY,Total of distributed energy resources,FR,' 0
+aFRR,BALANCING ENERGY,Total of distributed energy resources,GR,' 0
+aFRR,BALANCING ENERGY,Total of distributed energy resources,HR,' NA
+aFRR,BALANCING ENERGY,Total of distributed energy resources,HU,' 10% - 20%
+aFRR,BALANCING ENERGY,Total of distributed energy resources,IT,' 0
+aFRR,BALANCING ENERGY,Total of distributed energy resources,LT,' NAP
+aFRR,BALANCING ENERGY,Total of distributed energy resources,LV,' NAP
+aFRR,BALANCING ENERGY,Total of distributed energy resources,NL,' NA
+aFRR,BALANCING ENERGY,Total of distributed energy resources,NO,' NAP
+aFRR,BALANCING ENERGY,Total of distributed energy resources,PL,' 0
+aFRR,BALANCING ENERGY,Total of distributed energy resources,PT,' 0
+aFRR,BALANCING ENERGY,Total of distributed energy resources,RO,' 0
+aFRR,BALANCING ENERGY,Total of distributed energy resources,SE,' NA
+aFRR,BALANCING ENERGY,Total of distributed energy resources,SI,' 0
+aFRR,BALANCING ENERGY,Total of distributed energy resources,SK,' NA
+mFRR,BALANCING ENERGY,Distributed generation,AT,' NA
+mFRR,BALANCING ENERGY,Distributed generation,BE,' 0% - 1%
+mFRR,BALANCING ENERGY,Distributed generation,BG,' 0
+mFRR,BALANCING ENERGY,Distributed generation,CZ,' NA
+mFRR,BALANCING ENERGY,Distributed generation,DE,' NA
+mFRR,BALANCING ENERGY,Distributed generation,DK,' NA
+mFRR,BALANCING ENERGY,Distributed generation,EE,' 0
+mFRR,BALANCING ENERGY,Distributed generation,ES,' NA
+mFRR,BALANCING ENERGY,Distributed generation,FI,' NA
+mFRR,BALANCING ENERGY,Distributed generation,FR,' 0% - 1%
+mFRR,BALANCING ENERGY,Distributed generation,GR,' 0
+mFRR,BALANCING ENERGY,Distributed generation,HR,' 0
+mFRR,BALANCING ENERGY,Distributed generation,HU,' 10% - 20%
+mFRR,BALANCING ENERGY,Distributed generation,IT,' 0% - 1%
+mFRR,BALANCING ENERGY,Distributed generation,LT,' NA
+mFRR,BALANCING ENERGY,Distributed generation,LV,' 0
+mFRR,BALANCING ENERGY,Distributed generation,NL,' NA
+mFRR,BALANCING ENERGY,Distributed generation,NO,' NA
+mFRR,BALANCING ENERGY,Distributed generation,PL,' NAP
+mFRR,BALANCING ENERGY,Distributed generation,PT,' 0
+mFRR,BALANCING ENERGY,Distributed generation,RO,' 1% - 5%
+mFRR,BALANCING ENERGY,Distributed generation,SE,' NA
+RR,BALANCING ENERGY,Total of distributed energy resources,DE,' NAP
+mFRR,BALANCING ENERGY,Distributed generation,SI,' > 20%
+mFRR,BALANCING ENERGY,Distributed generation,SK,' NA
+RR,BALANCING ENERGY,Total of distributed energy resources,DK,' NAP
+RR,BALANCING ENERGY,Total of distributed energy resources,EE,' NAP
+mFRR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,AT,' NA
+RR,BALANCING ENERGY,Total of distributed energy resources,ES,' NA
+mFRR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,BE,' 0% - 1%
+RR,BALANCING ENERGY,Total of distributed energy resources,FI,' NAP
+mFRR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,BG,' 0
+RR,BALANCING ENERGY,Total of distributed energy resources,FR,' 1% - 5%
+mFRR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,CZ,' NA
+RR,BALANCING ENERGY,Total of distributed energy resources,GR,' NAP
+mFRR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,DE,' NA
+RR,BALANCING ENERGY,Total of distributed energy resources,HR,' NAP
+mFRR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,DK,' NA
+RR,BALANCING ENERGY,Total of distributed energy resources,HU,' NAP
+mFRR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,EE,' 0
+RR,BALANCING ENERGY,Total of distributed energy resources,IT,' 0
+mFRR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,ES,' NA
+RR,BALANCING ENERGY,Total of distributed energy resources,LT,' NAP
+mFRR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,FI,' NA
+RR,BALANCING ENERGY,Total of distributed energy resources,LV,' NAP
+RR,BALANCING ENERGY,Total of distributed energy resources,NL,' NAP
+mFRR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,FR,' 0
+RR,BALANCING ENERGY,Total of distributed energy resources,NO,' NAP
+mFRR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,GR,' 0
+RR,BALANCING ENERGY,Total of distributed energy resources,PL,' 0
+RR,BALANCING ENERGY,Total of distributed energy resources,PT,' 0
+mFRR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,HR,' 0
+RR,BALANCING ENERGY,Total of distributed energy resources,RO,' 0
+mFRR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,HU,' 0
+RR,BALANCING ENERGY,Total of distributed energy resources,SE,' NAP
+mFRR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,IT,' 10% - 20%
+RR,BALANCING ENERGY,Total of distributed energy resources,SI,' NAP
+mFRR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,LT,' 0
+RR,BALANCING ENERGY,Total of distributed energy resources,SK,' NAP
+mFRR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,LV,' 0
+mFRR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,NL,' NA
+mFRR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,NO,' NA
+mFRR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,PL,' NAP
+mFRR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,PT,' 0
+mFRR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,RO,' 0
+mFRR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,SE,' NA
+mFRR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,SI,' 0
+mFRR,BALANCING ENERGY,Storage excluding hydro and pumped-hydro storage,SK,' NA
+mFRR,BALANCING ENERGY,Demand response,AT,' NA
+mFRR,BALANCING ENERGY,Demand response,BE,' 0
+mFRR,BALANCING ENERGY,Demand response,BG,' 0
+mFRR,BALANCING ENERGY,Demand response,CZ,' NA
+mFRR,BALANCING ENERGY,Demand response,DE,' NA
+mFRR,BALANCING ENERGY,Demand response,DK,' NA
+mFRR,BALANCING ENERGY,Demand response,EE,' 0
+mFRR,BALANCING ENERGY,Demand response,ES,' 0
+mFRR,BALANCING ENERGY,Demand response,FI,' NA
+mFRR,BALANCING ENERGY,Demand response,FR,' 0% - 1%
+mFRR,BALANCING ENERGY,Demand response,GR,' 0
+mFRR,BALANCING ENERGY,Demand response,HR,' NA
+mFRR,BALANCING ENERGY,Demand response,HU,' 0% - 1%
+mFRR,BALANCING ENERGY,Demand response,IT,' NA
+mFRR,BALANCING ENERGY,Demand response,LT,' 0
+mFRR,BALANCING ENERGY,Demand response,LV,' 0
+mFRR,BALANCING ENERGY,Demand response,NL,' NA
+mFRR,BALANCING ENERGY,Demand response,NO,' NA
+mFRR,BALANCING ENERGY,Demand response,PL,' NAP
+mFRR,BALANCING ENERGY,Demand response,PT,' 1% - 5%
+mFRR,BALANCING ENERGY,Demand response,RO,' 0
+mFRR,BALANCING ENERGY,Demand response,SE,' NA
+mFRR,BALANCING ENERGY,Demand response,SI,' 0
+mFRR,BALANCING ENERGY,Demand response,SK,' NA
+mFRR,BALANCING ENERGY,Total of distributed energy resources,AT,' NA
+mFRR,BALANCING ENERGY,Total of distributed energy resources,BE,' 0% - 1%
+mFRR,BALANCING ENERGY,Total of distributed energy resources,BG,' 0
+mFRR,BALANCING ENERGY,Total of distributed energy resources,CZ,' NA
+mFRR,BALANCING ENERGY,Total of distributed energy resources,DE,' NA
+mFRR,BALANCING ENERGY,Total of distributed energy resources,DK,' NA
+mFRR,BALANCING ENERGY,Total of distributed energy resources,EE,' 0
+mFRR,BALANCING ENERGY,Total of distributed energy resources,ES,' NA
+mFRR,BALANCING ENERGY,Total of distributed energy resources,FI,' NA
+mFRR,BALANCING ENERGY,Total of distributed energy resources,FR,' 1% - 5%
+mFRR,BALANCING ENERGY,Total of distributed energy resources,GR,' 0
+mFRR,BALANCING ENERGY,Total of distributed energy resources,HR,' NA
+mFRR,BALANCING ENERGY,Total of distributed energy resources,HU,' 10% - 20%
+mFRR,BALANCING ENERGY,Total of distributed energy resources,IT,' 10% - 20%
+mFRR,BALANCING ENERGY,Total of distributed energy resources,LT,' NA
+mFRR,BALANCING ENERGY,Total of distributed energy resources,LV,' 0
+mFRR,BALANCING ENERGY,Total of distributed energy resources,NL,' NA
+mFRR,BALANCING ENERGY,Total of distributed energy resources,NO,' NA
+mFRR,BALANCING ENERGY,Total of distributed energy resources,PL,' NAP
+mFRR,BALANCING ENERGY,Total of distributed energy resources,PT,' 0
+mFRR,BALANCING ENERGY,Total of distributed energy resources,RO,' 0
+mFRR,BALANCING ENERGY,Total of distributed energy resources,SE,' NA
+mFRR,BALANCING ENERGY,Total of distributed energy resources,SI,' > 20%
+mFRR,BALANCING ENERGY,Total of distributed energy resources,SK,' NA
+RR,BALANCING ENERGY,Distributed generation,AT,' NAP
+RR,BALANCING ENERGY,Distributed generation,BE,' NAP
+RR,BALANCING ENERGY,Distributed generation,BG,' NAP
+RR,BALANCING ENERGY,Distributed generation,CZ,' 0
+RR,BALANCING ENERGY,Distributed generation,DE,' NAP
+RR,BALANCING ENERGY,Distributed generation,DK,' NAP
+RR,BALANCING ENERGY,Distributed generation,EE,' NAP
+RR,BALANCING ENERGY,Distributed generation,ES,' NA
+RR,BALANCING ENERGY,Distributed generation,FI,' NAP
+RR,BALANCING ENERGY,Distributed generation,FR,' 0% - 1%
+RR,BALANCING ENERGY,Distributed generation,GR,' NAP
+RR,BALANCING ENERGY,Distributed generation,HR,' NAP
+RR,BALANCING ENERGY,Distributed generation,HU,' NAP
+RR,BALANCING ENERGY,Distributed generation,IT,' 0
+RR,BALANCING ENERGY,Distributed generation,LT,' NAP
+RR,BALANCING ENERGY,Distributed generation,LV,' NAP
+RR,BALANCING ENERGY,Distributed generation,NL,' NAP
+RR,BALANCING ENERGY,Distributed generation,NO,' NAP
+RR,BALANCING ENERGY,Distributed generation,PL,' 0
+RR,BALANCING ENERGY,Distributed generation,PT,' 0
+RR,BALANCING ENERGY,Distributed generation,RO,' 0

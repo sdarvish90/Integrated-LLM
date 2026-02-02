@@ -1,0 +1,100 @@
+{
+  "warnings": [
+    {
+      "warning": "incomplete return",
+      "description": "The API can only return 5000 rows in JSON format.  Please consider constraining your request with facet, start, or end, or using offset to paginate results."
+    }
+  ],
+  "response": {
+    "total": "416194",
+    "dateFormat": "YYYY-MM",
+    "frequency": "monthly",
+    "data": [
+      {
+        "period": "2025-10",
+        "duoarea": "NUS-NNI",
+        "area-name": "NGA",
+        "product": "EP00",
+        "product-name": "Crude Oil and Petroleum Products",
+        "process": "IM0",
+        "process-name": "Imports",
+        "series": "MTTIMUSNI1",
+        "series-description": "U.S. Imports from Nigeria of Crude Oil and Petroleum Products (Thousand Barrels)",
+        "value": "4989",
+        "units": "MBBL"
+      },
+      {
+        "period": "2025-10",
+        "duoarea": "NUS-NAR",
+        "area-name": "ARG",
+        "product": "EPC0",
+        "product-name": "Crude Oil",
+        "process": "IM0",
+        "process-name": "Imports",
+        "series": "MCRIMUSAR2",
+        "series-description": "U.S. Imports from Argentina of Crude Oil (Thousand Barrels per Day)",
+        "value": "155",
+        "units": "MBBL/D"
+      },
+      {
+        "period": "2025-10",
+        "duoarea": "NUS-MP0",
+        "area-name": "NA",
+        "product": "EP00",
+        "product-name": "Crude Oil and Petroleum Products",
+        "process": "IM0",
+        "process-name": "Imports",
+        "series": "MTTIMUSPG2",
+        "series-description": "U.S. Imports from Persian Gulf Countries of Crude Oil and Petroleum Products (Thousand Barrels per Day)",
+        "value": "612",
+        "units": "MBBL/D"
+      },
+      {
+        "period": "2025-10",
+        "duoarea": "NUS-NBF",
+        "area-name": "BHS",
+        "product": "EP00",
+        "product-name": "Crude Oil and Petroleum Products",
+        "process": "IM0",
+        "process-name": "Imports",
+        "series": "MTTIMUSBF1",
+        "series-description": "U.S. Imports from Bahama Islands of Crude Oil and Petroleum Products (Thousand Barrels)",
+        "value": "1907",
+        "units": "MBBL"
+      },
+      {
+        "period": "2025-10",
+        "duoarea": "NUS-NJA",
+        "area-name": "JPN",
+        "product": "EP00",
+        "product-name": "Crude Oil and Petroleum Products",
+        "process": "IM0",
+        "process-name": "Imports",
+        "series": "MTTIMUSJA1",
+        "series-description": "U.S. Imports from Japan of Crude Oil and Petroleum Products (Thousand Barrels)",
+        "value": "310",
+        "units": "MBBL"
+      }
+    ]
+  },
+  "request": {
+    "command": "/v2/petroleum/move/impcus/data/",
+    "params": {
+      "api_key": "o5nQ7H9b6Bf9Kh3D0cCeC8ydP24drGTiFGaCQrKN",
+      "frequency": "monthly",
+      "data": [
+        "value"
+      ],
+      "sort": [
+        {
+          "column": "period",
+          "direction": "desc"
+        }
+      ],
+      "length": "5",
+      "offset": "0"
+    }
+  },
+  "apiVersion": "2.1.10",
+  "ExcelAddInVersion": "2.1.0"
+}

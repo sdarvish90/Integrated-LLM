@@ -1,0 +1,29 @@
+Title: Safety, Codes, & Standards
+URL: https://www.nrel.gov/hydrogen/safety-codes-standards
+Date: 2026-01-28
+======================================================================
+
+Safety, Codes, and Standards
+NLR's hydrogen safety, codes, and standards projects focus on ensuring safe operation, handling, and use of hydrogen and hydrogen systems through safety sensors and codes and standards for buildings and equipment.
+NLR researcher works on sensor testing apparatus in the Safety Sensor Testing Laboratory.
+Photo by Dennis Schroeder, National Laboratory of the Rockies
+Safety Sensors
+To facilitate hydrogen safety, NLR is testing hydrogen sensors that detect leaks and monitor gas purity at the
+Safety Sensor Testing Laboratory
+. Because hydrogen is colorless and odorless, sensors are important for safe hydrogen fueling stations, equipment, and facilities.
+NLR researchers are testing fiber-optic sensor configurations resistant to electromagnetic interference. They also are testing protective and self-cleaning overlayer coatings for sensors. For remote hydrogen sensing, NLR is assessing sensor requirements and design options for innovative hydrogen sensor technologies and the feasibility of using analytic techniques.
+Other sensor projects include testing wide-area visible hydrogen sensors and low-cost sensor arrays to address the transfer of instrument calibration between devices and the stability of devices over time. NLR explores the application of gettering polymer films for coating onto pipe and joined surfaces, gettering gasket materials based on Teflon composite materials, and incorporating sensor chemicals into coating and gasket materials.
+Codes and Standards
+NLR facilitates developing and promulgating building and equipment codes and standards for hydrogen systems in commercial, residential, and transportation applications. NLR also provides technical resources to help international standards development organizations.
+By developing and promulgating codes and standards, NLR contributes to making hydrogen a more significant energy carrier and fuel. Codes and standards are critical for the commercialization of hydrogen-based products and systems. In support of this, NLR developed
+national templates for hydrogen codes and standards
+.
+Publications and Presentations
+The
+NLR Publications Database
+offers a variety of documents related to hydrogen and fuel cell safety, codes, and standards.
+More Information
+The following resources offer more information about hydrogen safety, codes, and standards.
+Hydrogen Safety Bibliographic Database
+Codes and Standards Permitting Tools
+Contact

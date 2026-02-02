@@ -185,3 +185,40 @@ LEC < 1.5 indicates good overall system efficiency.
 ## License
 
 Proprietary - Southern Company / Powertech USA
+
+---
+
+# Hydrogen Intelligence Monitoring System
+
+Automated news collection and analysis for hydrogen project intelligence.
+
+## Quick Start
+
+### 1. Install Dependencies
+
+```bash
+# Install Python packages
+pip install -r requirements.txt
+```
+
+### 2. Run the System
+
+```bash
+python hydrogen_intelligence_monitor.py
+```
+
+### 3. Choose Mode
+
+When you run the script, you'll see:
+
+```
+CHOOSE MODE:
+1. Run once (test mode)          ← Start here to test
+2. Run scheduled monitoring (continuous)
+3. View recent articles
+4. Generate daily digest
+5. Generate weekly summary
+6. View statistics
+```
+
+**Recommended first run:** Choose option `1` to test

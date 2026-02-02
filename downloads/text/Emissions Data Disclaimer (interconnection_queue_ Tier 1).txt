@@ -1,0 +1,9 @@
+Title: Emissions Data Disclaimer (interconnection_queue, Tier 1)
+URL: https://www.nyiso.com/emissions-data-disclaimer
+Date: 2026-01-28
+======================================================================
+
+Emissions Data Disclaimer
+The NYISO posts this emissions data for informational purposes only. The posted data is based on the calculation methodology and assumptions described in the
+Emissions Transparency presentation
+. It may contain information received from third parties and unverified by the NYISO.  The NYISO expressly disclaims any obligation to correct or update the data made available through this posting.  To the maximum extent permissible under law, the NYISO makes no representation or warranties of any kind, express or implied, for the content of this data posting. In no event shall the NYISO be liable for any damages of any kind, including, but not limited to, direct, indirect, general, special, incidental, or consequential damages arising out of any access to or use of this data, or out of any use of or reliance on this data.

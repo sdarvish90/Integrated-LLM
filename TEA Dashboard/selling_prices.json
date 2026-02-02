@@ -1,0 +1,265 @@
+{
+  "_metadata": {
+    "last_updated": "2026-01",
+    "description": "Regional selling prices for green hydrogen, grey hydrogen, green ammonia, and grey ammonia (2026). Prices in USD per tonne. Sources: Argus Media, S&P Global Commodity Insights, ICIS, Bloomberg NEF, Platts, regional contract benchmarks.",
+    "sources": "Argus Green Hydrogen Assessment Jan 2026, ICIS European Ammonia Weekly Jan 2026, S&P Global Platts Hydrogen Price Assessments, Bloomberg NEF Hydrogen Market Outlook 2026, CRU Ammonia Market Service, Fertilizer Week"
+  },
+  "regions": {
+    "GLOBAL": {
+      "name": "Global (default)",
+      "green_h2_usd_t": 4500,
+      "grey_h2_usd_t": 1500,
+      "green_nh3_usd_t": 900,
+      "grey_nh3_usd_t": 400,
+      "note": "Global average benchmark; actual prices vary widely by region"
+    },
+
+    "EU_NW": {
+      "name": "EU - Northwest (Germany, Netherlands, Belgium)",
+      "green_h2_usd_t": 5500,
+      "grey_h2_usd_t": 2200,
+      "green_nh3_usd_t": 1050,
+      "grey_nh3_usd_t": 480,
+      "note": "Highest green H2 demand; CBAM premium lifting green NH3 value; Rotterdam/Antwerp hub pricing. Grey H2 high due to EU natural gas costs."
+    },
+    "EU_SOUTH": {
+      "name": "EU - South (Spain, Portugal, Italy, Greece)",
+      "green_h2_usd_t": 4800,
+      "grey_h2_usd_t": 2000,
+      "green_nh3_usd_t": 950,
+      "grey_nh3_usd_t": 450,
+      "note": "Growing production hub; lower local demand but export-oriented. Sines/Algeciras as H2 import terminals."
+    },
+    "EU_NORDIC": {
+      "name": "EU - Nordic (Sweden, Norway, Finland, Denmark)",
+      "green_h2_usd_t": 5200,
+      "grey_h2_usd_t": 1800,
+      "green_nh3_usd_t": 1000,
+      "grey_nh3_usd_t": 430,
+      "note": "HYBRIT/green steel premium for H2; low grey H2 costs due to cheap hydro. Marine fuel NH3 demand emerging at Nordic ports."
+    },
+
+    "US_GULF": {
+      "name": "US - Gulf Coast (TX, LA, MS)",
+      "green_h2_usd_t": 3800,
+      "grey_h2_usd_t": 1100,
+      "green_nh3_usd_t": 750,
+      "grey_nh3_usd_t": 350,
+      "note": "Largest H2 production region globally; cheap grey H2 from low gas prices; IRA 45V PTC reduces green H2 cost significantly; NH3 export terminals."
+    },
+    "US_CALIFORNIA": {
+      "name": "US - California",
+      "green_h2_usd_t": 5000,
+      "grey_h2_usd_t": 1600,
+      "green_nh3_usd_t": 900,
+      "grey_nh3_usd_t": 400,
+      "note": "LCFS credit premium ($50-100/tCO2 in 2026) for green H2 in transport; ZEV mandates create demand; higher gas prices than Gulf."
+    },
+    "US_MIDWEST": {
+      "name": "US - Midwest (IL, IN, OH, MN)",
+      "green_h2_usd_t": 4000,
+      "grey_h2_usd_t": 1200,
+      "green_nh3_usd_t": 780,
+      "grey_nh3_usd_t": 370,
+      "note": "Agricultural NH3 demand (fertilizer); wind-rich production potential; Midwest H2 hub (MachH2). Grey NH3 benchmark: Corn Belt pricing."
+    },
+    "US_NORTHEAST": {
+      "name": "US - Northeast (NY, NJ, PA, MA, CT)",
+      "green_h2_usd_t": 5200,
+      "grey_h2_usd_t": 1800,
+      "green_nh3_usd_t": 950,
+      "grey_nh3_usd_t": 420,
+      "note": "High energy costs; port demand for marine fuel NH3; RGGI carbon price adds to grey H2 cost; offshore wind H2 potential."
+    },
+    "US_PACIFIC_NW": {
+      "name": "US - Pacific Northwest (WA, OR)",
+      "green_h2_usd_t": 4200,
+      "grey_h2_usd_t": 1300,
+      "green_nh3_usd_t": 800,
+      "grey_nh3_usd_t": 380,
+      "note": "Cheap hydro for electrolysis; Pacific NW H2 Hub; port of Tacoma/Portland NH3 import/export."
+    },
+
+    "ME_GULF_EXPORT": {
+      "name": "Middle East - Gulf (SA, AE, OM, QA) Export-Oriented",
+      "green_h2_usd_t": 3500,
+      "grey_h2_usd_t": 800,
+      "green_nh3_usd_t": 650,
+      "grey_nh3_usd_t": 280,
+      "note": "Cheapest grey H2 globally (gas $1-2/MMBtu). Green H2 projects targeting <$2/kg. NH3 export pricing: FOB Ras Al Khair/Duqm. Most production is export-oriented to EU/Japan/Korea."
+    },
+    "ME_DOMESTIC": {
+      "name": "Middle East - Domestic Use",
+      "green_h2_usd_t": 3000,
+      "grey_h2_usd_t": 700,
+      "green_nh3_usd_t": 550,
+      "grey_nh3_usd_t": 250,
+      "note": "Lower domestic prices; subsidized gas; captive refinery/petrochemical use. Green H2 displacing grey in refineries as national strategies push transition."
+    },
+
+    "JAPAN": {
+      "name": "Japan",
+      "green_h2_usd_t": 6500,
+      "grey_h2_usd_t": 2500,
+      "green_nh3_usd_t": 1200,
+      "grey_nh3_usd_t": 500,
+      "note": "Highest willingness-to-pay globally; GX bonds subsidizing green H2 imports; JERA NH3 co-firing at power plants driving massive demand. Import CIF pricing."
+    },
+    "KOREA": {
+      "name": "South Korea",
+      "green_h2_usd_t": 6000,
+      "grey_h2_usd_t": 2300,
+      "green_nh3_usd_t": 1100,
+      "grey_nh3_usd_t": 480,
+      "note": "Hydrogen Economy Roadmap; H2 power generation bidding; import-dependent. KOGAS H2 import terminals. SK/Lotte/Samsung H2 projects."
+    },
+
+    "CHINA_EAST": {
+      "name": "China - Eastern/Coastal",
+      "green_h2_usd_t": 4000,
+      "grey_h2_usd_t": 1200,
+      "green_nh3_usd_t": 750,
+      "grey_nh3_usd_t": 320,
+      "note": "Sinopec/CNOOC green H2 projects; large domestic demand for refining and chemicals. Grey H2 from coal gasification (cheapest globally). Coastal NH3 import/export."
+    },
+    "CHINA_WEST": {
+      "name": "China - Western/Interior (Inner Mongolia, Xinjiang, Gansu)",
+      "green_h2_usd_t": 2800,
+      "grey_h2_usd_t": 900,
+      "green_nh3_usd_t": 600,
+      "grey_nh3_usd_t": 280,
+      "note": "Cheapest green H2 production globally; massive wind/solar; coal-based grey cheapest. Transport cost to coast adds $500-800/t for H2."
+    },
+
+    "INDIA": {
+      "name": "India",
+      "green_h2_usd_t": 3800,
+      "grey_h2_usd_t": 1400,
+      "green_nh3_usd_t": 700,
+      "grey_nh3_usd_t": 350,
+      "note": "National Green Hydrogen Mission; SIGHT incentive $0.60/kg for 3 years; massive fertilizer NH3 demand (IFFCO, NFL). Gujarat/Rajasthan green H2 corridors."
+    },
+
+    "AU": {
+      "name": "Australia",
+      "green_h2_usd_t": 4000,
+      "grey_h2_usd_t": 1600,
+      "green_nh3_usd_t": 780,
+      "grey_nh3_usd_t": 400,
+      "note": "HPTI $2/kg production incentive; Pilbara/Gladstone export hubs; CIF Japan/Korea pricing for exports. Yara Pilbara ammonia as benchmark."
+    },
+
+    "CHILE": {
+      "name": "Chile",
+      "green_h2_usd_t": 3200,
+      "grey_h2_usd_t": 1500,
+      "green_nh3_usd_t": 650,
+      "grey_nh3_usd_t": 380,
+      "note": "Among cheapest green H2 potential ($1.5-2.0/kg); Atacama solar + Patagonia wind. No domestic grey H2 baseline (imports). HIF eFuels project in Magallanes."
+    },
+    "BRAZIL": {
+      "name": "Brazil",
+      "green_h2_usd_t": 3500,
+      "grey_h2_usd_t": 1300,
+      "green_nh3_usd_t": 680,
+      "grey_nh3_usd_t": 360,
+      "note": "Pecém/Suape green H2 hubs; Fortescue/Casa dos Ventos projects; existing Petrobras grey H2 infrastructure. Export-focused NH3 at Pecém port."
+    },
+
+    "AFRICA_NORTH": {
+      "name": "North Africa (Morocco, Egypt)",
+      "green_h2_usd_t": 3300,
+      "grey_h2_usd_t": 1100,
+      "green_nh3_usd_t": 650,
+      "grey_nh3_usd_t": 320,
+      "note": "Morocco Offer Maroc targeting EU export; Egypt SCZONE green NH3 for Suez shipping; Masdar/AMEA projects. Cheap solar + proximity to EU market."
+    },
+    "AFRICA_SOUTH": {
+      "name": "Southern Africa (South Africa, Namibia)",
+      "green_h2_usd_t": 3000,
+      "grey_h2_usd_t": 1200,
+      "green_nh3_usd_t": 620,
+      "grey_nh3_usd_t": 340,
+      "note": "Namibia Tsau //Khaeb mega-project; South Africa Boegoebaai/Saldanha Bay; Sasol coal-to-H2 as grey baseline. Export to EU/Japan."
+    },
+
+    "UK": {
+      "name": "United Kingdom",
+      "green_h2_usd_t": 5300,
+      "grey_h2_usd_t": 2000,
+      "green_nh3_usd_t": 1020,
+      "grey_nh3_usd_t": 460,
+      "note": "Hydrogen Business Model strike price mechanism; Teesside/Humber industrial cluster; high natural gas prices. CCUS blue H2 competition."
+    },
+
+    "CANADA": {
+      "name": "Canada",
+      "green_h2_usd_t": 4200,
+      "grey_h2_usd_t": 1300,
+      "green_nh3_usd_t": 800,
+      "grey_nh3_usd_t": 380,
+      "note": "Clean Hydrogen ITC up to 40%; Alberta blue H2 + BC/Quebec green H2; Evolugen/EverWind NS export projects. Federal carbon price $170 CAD/tCO2 in 2030."
+    },
+
+    "NZ": {
+      "name": "New Zealand",
+      "green_h2_usd_t": 4500,
+      "grey_h2_usd_t": 1800,
+      "green_nh3_usd_t": 850,
+      "grey_nh3_usd_t": 420,
+      "note": "Meridian/Contact green H2 projects; Ballance Agri-Nutrients green NH3 pilot; limited domestic grey H2 baseline. ETS carbon price ~NZ$60."
+    },
+    "SINGAPORE": {
+      "name": "Singapore",
+      "green_h2_usd_t": 6000,
+      "grey_h2_usd_t": 2200,
+      "green_nh3_usd_t": 1100,
+      "grey_nh3_usd_t": 470,
+      "note": "Import-only; bunkering hub for marine fuel NH3; Jurong Island refinery/petrochemical demand. Import CIF pricing from Australia/Middle East."
+    }
+  },
+
+  "country_to_region": {
+    "DE": "EU_NW", "NL": "EU_NW", "BE": "EU_NW",
+    "ES": "EU_SOUTH", "PT": "EU_SOUTH", "IT": "EU_SOUTH", "GR": "EU_SOUTH",
+    "SE": "EU_NORDIC", "NO": "EU_NORDIC", "FI": "EU_NORDIC", "DK": "EU_NORDIC",
+    "FR": "EU_NW", "AT": "EU_NW", "PL": "EU_NW", "IE": "EU_NW", "CH": "EU_NW",
+    "GB": "UK",
+    "SA": "ME_GULF_EXPORT", "AE": "ME_GULF_EXPORT", "OM": "ME_GULF_EXPORT", "QA": "ME_GULF_EXPORT",
+    "JP": "JAPAN",
+    "KR": "KOREA",
+    "CN": "CHINA_EAST",
+    "IN": "INDIA",
+    "AU": "AU",
+    "CL": "CHILE",
+    "BR": "BRAZIL",
+    "MA": "AFRICA_NORTH", "EG": "AFRICA_NORTH",
+    "ZA": "AFRICA_SOUTH", "NA": "AFRICA_SOUTH", "KE": "AFRICA_SOUTH",
+    "CA": "CANADA",
+    "MX": "US_GULF",
+    "NZ": "NZ",
+    "SG": "SINGAPORE",
+    "CO": "BRAZIL",
+    "IS": "EU_NORDIC"
+  },
+
+  "us_state_to_region": {
+    "TX": "US_GULF", "LA": "US_GULF", "MS": "US_GULF", "AL": "US_GULF", "AR": "US_GULF",
+    "CA": "US_CALIFORNIA",
+    "IL": "US_MIDWEST", "IN": "US_MIDWEST", "OH": "US_MIDWEST", "MN": "US_MIDWEST",
+    "IA": "US_MIDWEST", "MO": "US_MIDWEST", "WI": "US_MIDWEST", "MI": "US_MIDWEST",
+    "KS": "US_MIDWEST", "NE": "US_MIDWEST", "ND": "US_MIDWEST", "SD": "US_MIDWEST",
+    "NY": "US_NORTHEAST", "NJ": "US_NORTHEAST", "PA": "US_NORTHEAST",
+    "MA": "US_NORTHEAST", "CT": "US_NORTHEAST", "NH": "US_NORTHEAST",
+    "VT": "US_NORTHEAST", "ME": "US_NORTHEAST", "RI": "US_NORTHEAST",
+    "MD": "US_NORTHEAST", "DE": "US_NORTHEAST", "VA": "US_NORTHEAST",
+    "WA": "US_PACIFIC_NW", "OR": "US_PACIFIC_NW",
+    "OK": "US_GULF", "NM": "US_GULF",
+    "CO": "US_MIDWEST", "WY": "US_MIDWEST", "MT": "US_MIDWEST", "UT": "US_MIDWEST",
+    "AZ": "US_CALIFORNIA", "NV": "US_CALIFORNIA",
+    "FL": "US_GULF", "GA": "US_GULF", "SC": "US_GULF", "NC": "US_GULF", "TN": "US_GULF",
+    "KY": "US_MIDWEST", "WV": "US_MIDWEST",
+    "ID": "US_PACIFIC_NW",
+    "HI": "US_CALIFORNIA", "AK": "US_PACIFIC_NW"
+  }
+}

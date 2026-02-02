@@ -1,0 +1,41 @@
+Area,Year,Label,Quantity
+SK,2020,Capacity (FRR + RR),5.60
+HU,2020,Capacity (FRR + RR),4.11
+CZ,2020,Capacity (FRR + RR),3.79
+RO,2020,Energy,2.87
+SI,2020,Capacity (FRR + RR),2.11
+RO,2020,Capacity (FRR + RR),1.98
+HU,2020,Energy,1.23
+NL,2020,Capacity (FRR + RR),1.00
+BE,2020,Capacity (FRR + RR),0.89
+Nordic,2020,Capacity (FCR only),0.41
+CH,2020,Capacity (FRR + RR),0.71
+PT,2020,Energy,0.61
+PL,2020,Capacity (FRR + RR),0.58
+BE,2020,Energy,0.51
+FR,2020,Energy,0.48
+PT,2020,Capacity (FRR + RR),0.44
+NL,2020,Energy,0.42
+Nordic,2020,Energy,0.42
+SK,2020,Capacity (FCR only),0.38
+Nordic,2020,Capacity (FRR + RR),0.35
+AT,2020,Energy,0.34
+DE,2020,Energy,0.32
+SI,2020,Energy,0.27
+FR,2020,Capacity (FRR + RR),0.25
+DE,2020,Capacity (FRR + RR),0.23
+SK,2020,Energy,0.22
+AT,2020,Capacity (FRR + RR),0.20
+CZ,2020,Capacity (FCR only),0.20
+HU,2020,Capacity (FCR only),0.16
+CH,2020,Energy,0.12
+PL,2020,Energy,0.12
+NL,2020,Capacity (FCR only),0.11
+BE,2020,Capacity (FCR only),0.09
+SI,2020,Capacity (FCR only),0.09
+FR,2020,Capacity (FCR only),0.08
+DE,2020,Capacity (FCR only),0.07
+AT,2020,Capacity (FCR only),0.06
+CH,2020,Capacity (FCR only),0.03
+CZ,2020,Energy,0.03
+PL,2020,Capacity (FCR only),0.01

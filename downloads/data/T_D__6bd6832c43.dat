@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="pingback" href="https://www.bloomenergy.com/xmlrpc.php" />
+
+	<script type="text/javascript">
+		document.documentElement.className = 'js';
+	</script>
+
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /><style id="et-divi-open-sans-inline-css">/* Original: https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&#038;subset=latin,latin-ext&#038;display=swap *//* User Agent: Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) Safari/538.1 Daum/4.1 */@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 300;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk5hkWV4exQ.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 400;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk8ZkWV4exQ.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 600;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkxhjWV4exQ.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 700;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkyFjWV4exQ.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 800;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk0ZjWV4exQ.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 300;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0B4uaVc.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 400;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4uaVc.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 600;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsgH1x4uaVc.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 700;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsg-1x4uaVc.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 800;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgshZ1x4uaVc.ttf) format('truetype');}/* User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0 */@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 300;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk5hkWV4exg&skey=743457fe2cc29280&v=v44) format('woff');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 400;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk8ZkWV4exg&skey=743457fe2cc29280&v=v44) format('woff');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 600;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkxhjWV4exg&skey=743457fe2cc29280&v=v44) format('woff');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 700;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkyFjWV4exg&skey=743457fe2cc29280&v=v44) format('woff');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 800;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk0ZjWV4exg&skey=743457fe2cc29280&v=v44) format('woff');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 300;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0B4uaVQ&skey=62c1cbfccc78b4b2&v=v44) format('woff');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 400;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4uaVQ&skey=62c1cbfccc78b4b2&v=v44) format('woff');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 600;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsgH1x4uaVQ&skey=62c1cbfccc78b4b2&v=v44) format('woff');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 700;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsg-1x4uaVQ&skey=62c1cbfccc78b4b2&v=v44) format('woff');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 800;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgshZ1x4uaVQ&skey=62c1cbfccc78b4b2&v=v44) format('woff');}/* User Agent: Mozilla/5.0 (Windows NT 6.3; rv:39.0) Gecko/20100101 Firefox/39.0 */@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 300;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk5hkWV4ewA.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 400;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk8ZkWV4ewA.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 600;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkxhjWV4ewA.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 700;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkyFjWV4ewA.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 800;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk0ZjWV4ewA.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 300;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0B4uaVI.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 400;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4uaVI.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 600;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsgH1x4uaVI.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 700;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsg-1x4uaVI.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 800;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgshZ1x4uaVI.woff2) format('woff2');}</style><style id="et-builder-googlefonts-cached-inline">/* Original: https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic&#038;subset=latin,latin-ext&#038;display=swap *//* User Agent: Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) Safari/538.1 Daum/4.1 */@font-face {font-family: 'Roboto';font-style: italic;font-weight: 100;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/roboto/v50/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLoHRuAb-lg.ttf) format('truetype');}@font-face {font-family: 'Roboto';font-style: italic;font-weight: 300;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/roboto/v50/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLt_QuAb-lg.ttf) format('truetype');}@font-face {font-family: 'Roboto';font-style: italic;font-weight: 400;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/roboto/v50/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLoHQuAb-lg.ttf) format('truetype');}@font-face {font-family: 'Roboto';font-style: italic;font-weight: 500;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/roboto/v50/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLrPQuAb-lg.ttf) format('truetype');}@font-face {font-family: 'Roboto';font-style: italic;font-weight: 700;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/roboto/v50/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLmbXuAb-lg.ttf) format('truetype');}@font-face {font-family: 'Roboto';font-style: italic;font-weight: 900;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/roboto/v50/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLijXuAb-lg.ttf) format('truetype');}@font-face {font-family: 'Roboto';font-style: normal;font-weight: 100;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/roboto/v50/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbFmaiA8.ttf) format('truetype');}@font-face {font-family: 'Roboto';font-style: normal;font-weight: 300;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/roboto/v50/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuaabVmaiA8.ttf) format('truetype');}@font-face {font-family: 'Roboto';font-style: normal;font-weight: 400;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/roboto/v50/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmaiA8.ttf) format('truetype');}@font-face {font-family: 'Roboto';font-style: normal;font-weight: 500;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/roboto/v50/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWub2bVmaiA8.ttf) format('truetype');}@font-face {font-family: 'Roboto';font-style: normal;font-weight: 700;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/roboto/v50/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuYjalmaiA8.ttf) format('truetype');}@font-face {font-family: 'Roboto';font-style: normal;font-weight: 900;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/roboto/v50/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuZtalmaiA8.ttf) format('truetype');}/* User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0 */@font-face {font-family: 'Roboto';font-style: italic;font-weight: 100;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLoHRuAb-lQ&skey=c608c610063635f9&v=v50) format('woff');}@font-face {font-family: 'Roboto';font-style: italic;font-weight: 300;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLt_QuAb-lQ&skey=c608c610063635f9&v=v50) format('woff');}@font-face {font-family: 'Roboto';font-style: italic;font-weight: 400;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLoHQuAb-lQ&skey=c608c610063635f9&v=v50) format('woff');}@font-face {font-family: 'Roboto';font-style: italic;font-weight: 500;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLrPQuAb-lQ&skey=c608c610063635f9&v=v50) format('woff');}@font-face {font-family: 'Roboto';font-style: italic;font-weight: 700;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLmbXuAb-lQ&skey=c608c610063635f9&v=v50) format('woff');}@font-face {font-family: 'Roboto';font-style: italic;font-weight: 900;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLijXuAb-lQ&skey=c608c610063635f9&v=v50) format('woff');}@font-face {font-family: 'Roboto';font-style: normal;font-weight: 100;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbFmaiAw&skey=a0a0114a1dcab3ac&v=v50) format('woff');}@font-face {font-family: 'Roboto';font-style: normal;font-weight: 300;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuaabVmaiAw&skey=a0a0114a1dcab3ac&v=v50) format('woff');}@font-face {font-family: 'Roboto';font-style: normal;font-weight: 400;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmaiAw&skey=a0a0114a1dcab3ac&v=v50) format('woff');}@font-face {font-family: 'Roboto';font-style: normal;font-weight: 500;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWub2bVmaiAw&skey=a0a0114a1dcab3ac&v=v50) format('woff');}@font-face {font-family: 'Roboto';font-style: normal;font-weight: 700;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuYjalmaiAw&skey=a0a0114a1dcab3ac&v=v50) format('woff');}@font-face {font-family: 'Roboto';font-style: normal;font-weight: 900;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuZtalmaiAw&skey=a0a0114a1dcab3ac&v=v50) format('woff');}/* User Agent: Mozilla/5.0 (Windows NT 6.3; rv:39.0) Gecko/20100101 Firefox/39.0 */@font-face {font-family: 'Roboto';font-style: italic;font-weight: 100;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/roboto/v50/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLoHRuAb-kw.woff2) format('woff2');}@font-face {font-family: 'Roboto';font-style: italic;font-weight: 300;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/roboto/v50/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLt_QuAb-kw.woff2) format('woff2');}@font-face {font-family: 'Roboto';font-style: italic;font-weight: 400;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/roboto/v50/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLoHQuAb-kw.woff2) format('woff2');}@font-face {font-family: 'Roboto';font-style: italic;font-weight: 500;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/roboto/v50/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLrPQuAb-kw.woff2) format('woff2');}@font-face {font-family: 'Roboto';font-style: italic;font-weight: 700;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/roboto/v50/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLmbXuAb-kw.woff2) format('woff2');}@font-face {font-family: 'Roboto';font-style: italic;font-weight: 900;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/roboto/v50/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLijXuAb-kw.woff2) format('woff2');}@font-face {font-family: 'Roboto';font-style: normal;font-weight: 100;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/roboto/v50/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbFmaiAo.woff2) format('woff2');}@font-face {font-family: 'Roboto';font-style: normal;font-weight: 300;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/roboto/v50/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuaabVmaiAo.woff2) format('woff2');}@font-face {font-family: 'Roboto';font-style: normal;font-weight: 400;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/roboto/v50/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmaiAo.woff2) format('woff2');}@font-face {font-family: 'Roboto';font-style: normal;font-weight: 500;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/roboto/v50/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWub2bVmaiAo.woff2) format('woff2');}@font-face {font-family: 'Roboto';font-style: normal;font-weight: 700;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/roboto/v50/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuYjalmaiAo.woff2) format('woff2');}@font-face {font-family: 'Roboto';font-style: normal;font-weight: 900;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/roboto/v50/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuZtalmaiAo.woff2) format('woff2');}</style><meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+<script type="text/javascript">
+			let jqueryParams=[],jQuery=function(r){return jqueryParams=[...jqueryParams,r],jQuery},$=function(r){return jqueryParams=[...jqueryParams,r],$};window.jQuery=jQuery,window.$=jQuery;let customHeadScripts=!1;jQuery.fn=jQuery.prototype={},$.fn=jQuery.prototype={},jQuery.noConflict=function(r){if(window.jQuery)return jQuery=window.jQuery,$=window.jQuery,customHeadScripts=!0,jQuery.noConflict},jQuery.ready=function(r){jqueryParams=[...jqueryParams,r]},$.ready=function(r){jqueryParams=[...jqueryParams,r]},jQuery.load=function(r){jqueryParams=[...jqueryParams,r]},$.load=function(r){jqueryParams=[...jqueryParams,r]},jQuery.fn.ready=function(r){jqueryParams=[...jqueryParams,r]},$.fn.ready=function(r){jqueryParams=[...jqueryParams,r]};</script>
+	<!-- This site is optimized with the Yoast SEO plugin v26.8 - https://yoast.com/product/yoast-seo-wordpress/ -->
+	<title>Onsite Generation Expected to Fully Power 27% of Data Center Facilities by 2030 - Bloom Energy</title>
+	<meta name="description" content="Bloom Energy’s Mid-Year Power Report reveals boom in onsite power to fuel AI amid grid constraints." />
+	<link rel="canonical" href="https://www.bloomenergy.com/news/onsite-generation-expected-to-fully-power-27-percent-of-data-center-facilities-by-2030/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Onsite Generation Expected to Fully Power 27% of Data Center Facilities by 2030 - Bloom Energy" />
+	<meta property="og:description" content="Bloom Energy’s Mid-Year Power Report reveals boom in onsite power to fuel AI amid grid constraints." />
+	<meta property="og:url" content="https://www.bloomenergy.com/news/onsite-generation-expected-to-fully-power-27-percent-of-data-center-facilities-by-2030/" />
+	<meta property="og:site_name" content="Bloom Energy" />
+	<meta property="article:publisher" content="https://www.facebook.com/bloomenergy/" />
+	<meta property="article:modified_time" content="2025-06-17T12:52:56+00:00" />
+	<meta property="og:image" content="https://www.bloomenergy.com/wp-content/uploads/data-center-power-report-graph1.png" />
+	<meta property="og:image:width" content="649" />
+	<meta property="og:image:height" content="408" />
+	<meta property="og:image:type" content="image/png" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@bloom_energy" />
+	<meta name="twitter:label1" content="Est. reading time" />
+	<meta name="twitter:data1" content="5 minutes" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://www.bloomenergy.com/news/onsite-generation-expected-to-fully-power-27-percent-of-data-center-facilities-by-2030/","url":"https://www.bloomenergy.com/news/onsite-generation-expected-to-fully-power-27-percent-of-data-center-facilities-by-2030/","name":"Onsite Generation Expected to Fully Power 27% of Data Center Facilities by 2030 - Bloom Energy","isPartOf":{"@id":"https://www.bloomenergy.com/#website"},"primaryImageOfPage":{"@id":"https://www.bloomenergy.com/news/onsite-generation-expected-to-fully-power-27-percent-of-data-center-facilities-by-2030/#primaryimage"},"image":{"@id":"https://www.bloomenergy.com/news/onsite-generation-expected-to-fully-power-27-percent-of-data-center-facilities-by-2030/#primaryimage"},"thumbnailUrl":"https://www.bloomenergy.com/wp-content/uploads/data-center-power-report-graph1.png","datePublished":"2025-06-17T12:45:19+00:00","dateModified":"2025-06-17T12:52:56+00:00","description":"Bloom Energy’s Mid-Year Power Report reveals boom in onsite power to fuel AI amid grid constraints.","breadcrumb":{"@id":"https://www.bloomenergy.com/news/onsite-generation-expected-to-fully-power-27-percent-of-data-center-facilities-by-2030/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.bloomenergy.com/news/onsite-generation-expected-to-fully-power-27-percent-of-data-center-facilities-by-2030/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://www.bloomenergy.com/news/onsite-generation-expected-to-fully-power-27-percent-of-data-center-facilities-by-2030/#primaryimage","url":"https://www.bloomenergy.com/wp-content/uploads/data-center-power-report-graph1.png","contentUrl":"https://www.bloomenergy.com/wp-content/uploads/data-center-power-report-graph1.png","width":649,"height":408,"caption":"Data Center Developers Graphic"},{"@type":"BreadcrumbList","@id":"https://www.bloomenergy.com/news/onsite-generation-expected-to-fully-power-27-percent-of-data-center-facilities-by-2030/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.bloomenergy.com/"},{"@type":"ListItem","position":2,"name":"Onsite Generation Expected to Fully Power 27% of Data Center Facilities by 2030"}]},{"@type":"WebSite","@id":"https://www.bloomenergy.com/#website","url":"https://www.bloomenergy.com/","name":"Bloom Energy","description":"Bloom Energy delivers always-on, reliable, resilient, sustainable and cost effective on-site electricity for organizations globally","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.bloomenergy.com/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="alternate" type="application/rss+xml" title="Bloom Energy &raquo; Feed" href="https://www.bloomenergy.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Bloom Energy &raquo; Comments Feed" href="https://www.bloomenergy.com/comments/feed/" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.bloomenergy.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.bloomenergy.com%2Fnews%2Fonsite-generation-expected-to-fully-power-27-percent-of-data-center-facilities-by-2030%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.bloomenergy.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.bloomenergy.com%2Fnews%2Fonsite-generation-expected-to-fully-power-27-percent-of-data-center-facilities-by-2030%2F&#038;format=xml" />
+<meta content="Bloom Energy v.1.0.0187" name="generator"/><style id='wp-block-library-inline-css' type='text/css'>
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}.has-text-align-center{text-align:center}.has-text-align-left{text-align:left}.has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-wrap:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=wp-block-library-inline-css */
+</style><style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:root { --wp--style--global--content-size: 823px;--wp--style--global--wide-size: 1080px; }:where(body) { margin: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='dp-owl-carousel-pro-styles-css' href='https://www.bloomenergy.com/wp-content/plugins/dp-owl-carousel-pro/styles/style.min.css?ver=2.4.8' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-pagenavi-css' href='https://www.bloomenergy.com/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70' type='text/css' media='all' />
+<link rel='stylesheet' id='dp-divi-filtergrid-bundle-style-css' href='https://www.bloomenergy.com/wp-content/plugins/dp-divi-filtergrid/styles/bundle.css?ver=4.1.5' type='text/css' media='all' />
+<link rel='stylesheet' id='divi-style-parent-css' href='https://www.bloomenergy.com/wp-content/themes/Divi/style-static.min.divi-switch-4.0.18.css?ver=1768864552' type='text/css' media='all' />
+<link rel='stylesheet' id='divi-style-css' href='https://www.bloomenergy.com/wp-content/themes/bloomenergy/style.css?ver=4.27.5' type='text/css' media='all' />
+<script type="text/javascript" src="https://www.bloomenergy.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://www.bloomenergy.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script type="text/javascript" id="jquery-js-after">
+/* <![CDATA[ */
+jqueryParams.length&&$.each(jqueryParams,function(e,r){if("function"==typeof r){var n=String(r);n.replace("$","jQuery");var a=new Function("return "+n)();$(document).ready(a)}});
+//# sourceURL=jquery-js-after
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.bloomenergy.com/wp-content/plugins/divi-switch/includes/output/script.js?ver=1768864550" id="DiviSwitch-js"></script>
+<link rel="https://api.w.org/" href="https://www.bloomenergy.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://www.bloomenergy.com/wp-json/wp/v2/news/16028" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.bloomenergy.com/xmlrpc.php?rsd" />
+<link rel='shortlink' href='https://www.bloomenergy.com/?p=16028' />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><meta name="google-site-verification" content="23jl6mT5c4Ra9Be_-EHbfxizjSp84OraTeDC18FAXEM">
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PT4NDZ4');</script>
+<!-- End Google Tag Manager -->
+
+<script type="text/javascript">
+jQuery(function($){
+jQuery('.makepopper').click(function(event) {
+jQuery(event.preventDefault());
+	jQuery('.popup').css('display', 'block');
+
+});
+jQuery('.close .et_pb_button').click(function() {
+jQuery('.popup').css('display', 'none');
+});});
+</script>
+
+<script>
+jQuery(document).ready(function(){
+    jQuery("#dropdownSelect").click(function(){
+        jQuery("#resource-categories").slideToggle("fast");
+    });
+});
+</script>
+
+<script type="text/javascript"> _linkedin_partner_id = "410244"; window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || []; window._linkedin_data_partner_ids.push(_linkedin_partner_id); </script><script type="text/javascript"> (function(){var s = document.getElementsByTagName("script")[0]; var b = document.createElement("script"); b.type = "text/javascript";b.async = true; b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js[snap.licdn.com]"; s.parentNode.insertBefore(b, s);})(); </script> <noscript> <img height="1" width="1" style="display:none;" alt="" src="https://dc.ads.linkedin.com/collect/?pid=410244&amp;fmt=gif%5Bdc.ads.linkedin.com%5D"> </noscript>
+
+<script>
+	jQuery(function($){	
+	
+$(document).ready(function() {    
+
+$('#tabs li a:not(:first)').addClass('inactive');
+$('#et-main-area .tabcontainer').hide();
+$('#et-main-area .tabcontainer:first').show();
+    
+$('#tabs li a').click(function(){
+    var t = $(this).attr('id');
+  if($(this).hasClass('inactive')){ //this is the start of our condition 
+    $('#tabs li a').addClass('inactive');           
+    $(this).removeClass('inactive');
+    
+    $('#et-main-area .tabcontainer').hide();
+    $('#'+ t + 'C').fadeIn('slow');
+ }
+});
+
+});
+
+});
+	</script>
+
+<script src="/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/magnific-popup.js" defer></script>
+<link rel="stylesheet" href="/wp-content/themes/Divi/includes/builder/styles/magnific_popup.css" defer>
+
+<script type="text/javascript">
+jQuery(function($){
+	var owl = $('.owl-carousel');
+	
+
+	$('.carouselrow').on("mouseenter", function(e) {
+	
+    owl.trigger('play.owl.autoplay', 5000);
+	})
+	
+});
+</script>
+
+<script>
+jQuery(function($){
+    $('.et_pb_accordion .et_pb_toggle_open').addClass('et_pb_toggle_close').removeClass('et_pb_toggle_open');
+
+    $('.et_pb_accordion .et_pb_toggle').click(function() {
+      $this = $(this);
+      setTimeout(function(){
+         $this.closest('.et_pb_accordion').removeClass('et_pb_accordion_toggling');
+      },700);
+    });
+});
+</script>
+<script>
+	jQuery(function($){
+  $('.et_pb_toggle_title').click(function(){
+    var $toggle = $(this).closest('.et_pb_toggle');
+    if (!$toggle.hasClass('et_pb_accordion_toggling')) {
+      var $accordion = $toggle.closest('.et_pb_accordion');
+      if ($toggle.hasClass('et_pb_toggle_open')) {
+        $accordion.addClass('et_pb_accordion_toggling');
+        $toggle.find('.et_pb_toggle_content').slideToggle(700, function() { 
+          $toggle.removeClass('et_pb_toggle_open').addClass('et_pb_toggle_close'); 
+					
+        });
+      }
+      setTimeout(function(){ 
+        $accordion.removeClass('et_pb_accordion_toggling'); 
+      }, 750);
+    }
+  });
+});
+</script>
+
+<script type="text/javascript">
+(function($) {
+	$(document).ready(function() {
+		$('a.video_popup, .video_popup a').magnificPopup({
+			type: 'iframe',
+			mainClass: 'mfp-fade',
+			removalDelay: 160,
+			preloader: false,
+			fixedContentPos: false
+		});
+	});
+})(jQuery);
+</script><link rel="icon" href="https://www.bloomenergy.com/wp-content/uploads/bloomfavicon.png" sizes="32x32" />
+<link rel="icon" href="https://www.bloomenergy.com/wp-content/uploads/bloomfavicon.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.bloomenergy.com/wp-content/uploads/bloomfavicon.png" />
+<meta name="msapplication-TileImage" content="https://www.bloomenergy.com/wp-content/uploads/bloomfavicon.png" />
+<style id="et-divi-customizer-global-cached-inline-styles">body,.et_pb_column_1_2 .et_quote_content blockquote cite,.et_pb_column_1_2 .et_link_content a.et_link_main_url,.et_pb_column_1_3 .et_quote_content blockquote cite,.et_pb_column_3_8 .et_quote_content blockquote cite,.et_pb_column_1_4 .et_quote_content blockquote cite,.et_pb_blog_grid .et_quote_content blockquote cite,.et_pb_column_1_3 .et_link_content a.et_link_main_url,.et_pb_column_3_8 .et_link_content a.et_link_main_url,.et_pb_column_1_4 .et_link_content a.et_link_main_url,.et_pb_blog_grid .et_link_content a.et_link_main_url,body .et_pb_bg_layout_light .et_pb_post p,body .et_pb_bg_layout_dark .et_pb_post p{font-size:18px}.et_pb_slide_content,.et_pb_best_value{font-size:20px}body{color:#3e3e3e}h1,h2,h3,h4,h5,h6{color:#3e3e3e}body{line-height:1.6em}#et_search_icon:hover,.mobile_menu_bar:before,.mobile_menu_bar:after,.et_toggle_slide_menu:after,.et-social-icon a:hover,.et_pb_sum,.et_pb_pricing li a,.et_pb_pricing_table_button,.et_overlay:before,.entry-summary p.price ins,.et_pb_member_social_links a:hover,.et_pb_widget li a:hover,.et_pb_filterable_portfolio .et_pb_portfolio_filters li a.active,.et_pb_filterable_portfolio .et_pb_portofolio_pagination ul li a.active,.et_pb_gallery .et_pb_gallery_pagination ul li a.active,.wp-pagenavi span.current,.wp-pagenavi a:hover,.nav-single a,.tagged_as a,.posted_in a{color:#66b360}.et_pb_contact_submit,.et_password_protected_form .et_submit_button,.et_pb_bg_layout_light .et_pb_newsletter_button,.comment-reply-link,.form-submit .et_pb_button,.et_pb_bg_layout_light .et_pb_promo_button,.et_pb_bg_layout_light .et_pb_more_button,.et_pb_contact p input[type="checkbox"]:checked+label i:before,.et_pb_bg_layout_light.et_pb_module.et_pb_button{color:#66b360}.footer-widget h4{color:#66b360}.et-search-form,.nav li ul,.et_mobile_menu,.footer-widget li:before,.et_pb_pricing li:before,blockquote{border-color:#66b360}.et_pb_counter_amount,.et_pb_featured_table .et_pb_pricing_heading,.et_quote_content,.et_link_content,.et_audio_content,.et_pb_post_slider.et_pb_bg_layout_dark,.et_slide_in_menu_container,.et_pb_contact p input[type="radio"]:checked+label i:before{background-color:#66b360}.container,.et_pb_row,.et_pb_slider .et_pb_container,.et_pb_fullwidth_section .et_pb_title_container,.et_pb_fullwidth_section .et_pb_title_featured_container,.et_pb_fullwidth_header:not(.et_pb_fullscreen) .et_pb_fullwidth_header_container{max-width:1400px}.et_boxed_layout #page-container,.et_boxed_layout.et_non_fixed_nav.et_transparent_nav #page-container #top-header,.et_boxed_layout.et_non_fixed_nav.et_transparent_nav #page-container #main-header,.et_fixed_nav.et_boxed_layout #page-container #top-header,.et_fixed_nav.et_boxed_layout #page-container #main-header,.et_boxed_layout #page-container .container,.et_boxed_layout #page-container .et_pb_row{max-width:1560px}a{color:#3dae2b}.nav li ul{border-color:#3dae2b}.et_secondary_nav_enabled #page-container #top-header{background-color:#ffffff!important}#et-secondary-nav li ul{background-color:#ffffff}#top-header,#top-header a{color:#3e3e3e}.et_header_style_centered .mobile_nav .select_page,.et_header_style_split .mobile_nav .select_page,.et_nav_text_color_light #top-menu>li>a,.et_nav_text_color_dark #top-menu>li>a,#top-menu a,.et_mobile_menu li a,.et_nav_text_color_light .et_mobile_menu li a,.et_nav_text_color_dark .et_mobile_menu li a,#et_search_icon:before,.et_search_form_container input,span.et_close_search_field:after,#et-top-navigation .et-cart-info{color:#3e3e3e}.et_search_form_container input::-moz-placeholder{color:#3e3e3e}.et_search_form_container input::-webkit-input-placeholder{color:#3e3e3e}.et_search_form_container input:-ms-input-placeholder{color:#3e3e3e}#top-menu li a{font-size:16px}body.et_vertical_nav .container.et_search_form_container .et-search-form input{font-size:16px!important}#top-menu li.current-menu-ancestor>a,#top-menu li.current-menu-item>a,#top-menu li.current_page_item>a{color:#3dae2b}#main-footer{background-color:#37414a}#main-footer .footer-widget h4,#main-footer .widget_block h1,#main-footer .widget_block h2,#main-footer .widget_block h3,#main-footer .widget_block h4,#main-footer .widget_block h5,#main-footer .widget_block h6{color:#66b360}.footer-widget li:before{border-color:#66b360}#footer-widgets .footer-widget li:before{top:12.3px}#footer-bottom{background-color:#37414a}#footer-info,#footer-info a{color:#ffffff}#footer-bottom .et-social-icon a{color:#ffffff}body .et_pb_button{background-color:#3dae2b;border-color:#3dae2b;border-radius:30px}body.et_pb_button_helper_class .et_pb_button,body.et_pb_button_helper_class .et_pb_module.et_pb_button{color:#ffffff}body .et_pb_bg_layout_light.et_pb_button:hover,body .et_pb_bg_layout_light .et_pb_button:hover,body .et_pb_button:hover{color:#ffffff!important;background-color:rgba(30,137,0,0.75);border-color:rgba(30,137,0,0)!important;border-radius:26px}@media only screen and (min-width:981px){.et_pb_section{padding:3% 0}.et_pb_fullwidth_section{padding:0}.et_pb_row{padding:1% 0}#main-footer .footer-widget h4,#main-footer .widget_block h1,#main-footer .widget_block h2,#main-footer .widget_block h3,#main-footer .widget_block h4,#main-footer .widget_block h5,#main-footer .widget_block h6{font-size:32px}.et_header_style_left #et-top-navigation,.et_header_style_split #et-top-navigation{padding:50px 0 0 0}.et_header_style_left #et-top-navigation nav>ul>li>a,.et_header_style_split #et-top-navigation nav>ul>li>a{padding-bottom:50px}.et_header_style_split .centered-inline-logo-wrap{width:100px;margin:-100px 0}.et_header_style_split .centered-inline-logo-wrap #logo{max-height:100px}.et_pb_svg_logo.et_header_style_split .centered-inline-logo-wrap #logo{height:100px}.et_header_style_centered #top-menu>li>a{padding-bottom:18px}.et_header_style_slide #et-top-navigation,.et_header_style_fullscreen #et-top-navigation{padding:41px 0 41px 0!important}.et_header_style_centered #main-header .logo_container{height:100px}#logo{max-height:75%}.et_pb_svg_logo #logo{height:75%}.et_header_style_left .et-fixed-header #et-top-navigation,.et_header_style_split .et-fixed-header #et-top-navigation{padding:50px 0 0 0}.et_header_style_left .et-fixed-header #et-top-navigation nav>ul>li>a,.et_header_style_split .et-fixed-header #et-top-navigation nav>ul>li>a{padding-bottom:50px}.et_header_style_centered header#main-header.et-fixed-header .logo_container{height:100px}.et_header_style_split #main-header.et-fixed-header .centered-inline-logo-wrap{width:100px;margin:-100px 0}.et_header_style_split .et-fixed-header .centered-inline-logo-wrap #logo{max-height:100px}.et_pb_svg_logo.et_header_style_split .et-fixed-header .centered-inline-logo-wrap #logo{height:100px}.et_header_style_slide .et-fixed-header #et-top-navigation,.et_header_style_fullscreen .et-fixed-header #et-top-navigation{padding:41px 0 41px 0!important}.et_fixed_nav #page-container .et-fixed-header#top-header{background-color:#ffffff!important}.et_fixed_nav #page-container .et-fixed-header#top-header #et-secondary-nav li ul{background-color:#ffffff}.et-fixed-header #top-menu a,.et-fixed-header #et_search_icon:before,.et-fixed-header #et_top_search .et-search-form input,.et-fixed-header .et_search_form_container input,.et-fixed-header .et_close_search_field:after,.et-fixed-header #et-top-navigation .et-cart-info{color:#3e3e3e!important}.et-fixed-header .et_search_form_container input::-moz-placeholder{color:#3e3e3e!important}.et-fixed-header .et_search_form_container input::-webkit-input-placeholder{color:#3e3e3e!important}.et-fixed-header .et_search_form_container input:-ms-input-placeholder{color:#3e3e3e!important}.et-fixed-header #top-menu li.current-menu-ancestor>a,.et-fixed-header #top-menu li.current-menu-item>a,.et-fixed-header #top-menu li.current_page_item>a{color:#4d9f43!important}.et-fixed-header#top-header a{color:#3e3e3e}}@media only screen and (min-width:1750px){.et_pb_row{padding:17px 0}.et_pb_section{padding:52px 0}.single.et_pb_pagebuilder_layout.et_full_width_page .et_post_meta_wrapper{padding-top:52px}.et_pb_fullwidth_section{padding:0}}h1,h1.et_pb_contact_main_title,.et_pb_title_container h1{font-size:40px}h2,.product .related h2,.et_pb_column_1_2 .et_quote_content blockquote p{font-size:34px}h3{font-size:29px}h4,.et_pb_circle_counter h3,.et_pb_number_counter h3,.et_pb_column_1_3 .et_pb_post h2,.et_pb_column_1_4 .et_pb_post h2,.et_pb_blog_grid h2,.et_pb_column_1_3 .et_quote_content blockquote p,.et_pb_column_3_8 .et_quote_content blockquote p,.et_pb_column_1_4 .et_quote_content blockquote p,.et_pb_blog_grid .et_quote_content blockquote p,.et_pb_column_1_3 .et_link_content h2,.et_pb_column_3_8 .et_link_content h2,.et_pb_column_1_4 .et_link_content h2,.et_pb_blog_grid .et_link_content h2,.et_pb_column_1_3 .et_audio_content h2,.et_pb_column_3_8 .et_audio_content h2,.et_pb_column_1_4 .et_audio_content h2,.et_pb_blog_grid .et_audio_content h2,.et_pb_column_3_8 .et_pb_audio_module_content h2,.et_pb_column_1_3 .et_pb_audio_module_content h2,.et_pb_gallery_grid .et_pb_gallery_item h3,.et_pb_portfolio_grid .et_pb_portfolio_item h2,.et_pb_filterable_portfolio_grid .et_pb_portfolio_item h2{font-size:24px}h5{font-size:21px}h6{font-size:18px}.et_pb_slide_description .et_pb_slide_title{font-size:61px}.et_pb_gallery_grid .et_pb_gallery_item h3,.et_pb_portfolio_grid .et_pb_portfolio_item h2,.et_pb_filterable_portfolio_grid .et_pb_portfolio_item h2,.et_pb_column_1_4 .et_pb_audio_module_content h2{font-size:21px}@media only screen and (max-width:980px){h1{font-size:36px}h2,.product .related h2,.et_pb_column_1_2 .et_quote_content blockquote p{font-size:30px}h3{font-size:26px}h4,.et_pb_circle_counter h3,.et_pb_number_counter h3,.et_pb_column_1_3 .et_pb_post h2,.et_pb_column_1_4 .et_pb_post h2,.et_pb_blog_grid h2,.et_pb_column_1_3 .et_quote_content blockquote p,.et_pb_column_3_8 .et_quote_content blockquote p,.et_pb_column_1_4 .et_quote_content blockquote p,.et_pb_blog_grid .et_quote_content blockquote p,.et_pb_column_1_3 .et_link_content h2,.et_pb_column_3_8 .et_link_content h2,.et_pb_column_1_4 .et_link_content h2,.et_pb_blog_grid .et_link_content h2,.et_pb_column_1_3 .et_audio_content h2,.et_pb_column_3_8 .et_audio_content h2,.et_pb_column_1_4 .et_audio_content h2,.et_pb_blog_grid .et_audio_content h2,.et_pb_column_3_8 .et_pb_audio_module_content h2,.et_pb_column_1_3 .et_pb_audio_module_content h2,.et_pb_gallery_grid .et_pb_gallery_item h3,.et_pb_portfolio_grid .et_pb_portfolio_item h2,.et_pb_filterable_portfolio_grid .et_pb_portfolio_item h2{font-size:21px}.et_pb_slider.et_pb_module .et_pb_slides .et_pb_slide_description .et_pb_slide_title{font-size:55px}.et_pb_gallery_grid .et_pb_gallery_item h3,.et_pb_portfolio_grid .et_pb_portfolio_item h2,.et_pb_filterable_portfolio_grid .et_pb_portfolio_item h2,.et_pb_column_1_4 .et_pb_audio_module_content h2{font-size:19px}h5{font-size:19px}h6{font-size:16px}.et_pb_section{padding:20px 0}.et_pb_section.et_pb_fullwidth_section{padding:0}.et_pb_row,.et_pb_column .et_pb_row_inner{padding:10px 0}}@media only screen and (max-width:767px){h1{font-size:26px}h2,.product .related h2,.et_pb_column_1_2 .et_quote_content blockquote p{font-size:22px}h3{font-size:18px}h4,.et_pb_circle_counter h3,.et_pb_number_counter h3,.et_pb_column_1_3 .et_pb_post h2,.et_pb_column_1_4 .et_pb_post h2,.et_pb_blog_grid h2,.et_pb_column_1_3 .et_quote_content blockquote p,.et_pb_column_3_8 .et_quote_content blockquote p,.et_pb_column_1_4 .et_quote_content blockquote p,.et_pb_blog_grid .et_quote_content blockquote p,.et_pb_column_1_3 .et_link_content h2,.et_pb_column_3_8 .et_link_content h2,.et_pb_column_1_4 .et_link_content h2,.et_pb_blog_grid .et_link_content h2,.et_pb_column_1_3 .et_audio_content h2,.et_pb_column_3_8 .et_audio_content h2,.et_pb_column_1_4 .et_audio_content h2,.et_pb_blog_grid .et_audio_content h2,.et_pb_column_3_8 .et_pb_audio_module_content h2,.et_pb_column_1_3 .et_pb_audio_module_content h2,.et_pb_gallery_grid .et_pb_gallery_item h3,.et_pb_portfolio_grid .et_pb_portfolio_item h2,.et_pb_filterable_portfolio_grid .et_pb_portfolio_item h2{font-size:15px}.et_pb_slider.et_pb_module .et_pb_slides .et_pb_slide_description .et_pb_slide_title{font-size:39px}.et_pb_gallery_grid .et_pb_gallery_item h3,.et_pb_portfolio_grid .et_pb_portfolio_item h2,.et_pb_filterable_portfolio_grid .et_pb_portfolio_item h2,.et_pb_column_1_4 .et_pb_audio_module_content h2{font-size:13px}h5{font-size:13px}h6{font-size:12px}.et_pb_section{padding:30px 0}.et_pb_section.et_pb_fullwidth_section{padding:0}}	#main-header,#et-top-navigation{font-family:'Roboto',Helvetica,Arial,Lucida,sans-serif}h1,h2,h3,h4,h5,h6{word-wrap:normal!important}iframe{min-height:50px}:target{scroll-margin-top:100px}.et_header_style_left #et-top-navigation{padding-top:5px!important}#et_top_search{margin:20px 0 0 22px!important}#top-menu li li a{padding:6px 10px}#top-menu li li:last-of-type{padding:0 20px 10px}.nav li ul{top:30px}#static-blurbs .et_pb_blurb:first-of-type{margin-top:50px!important}.page-id-13018 li#menu-item-1367{display:none}body.page-id-13018 li#menu-item-13486{display:inline-block!important}:not(.page-id-13018) li#menu-item-13486{display:none!important}#delivering .et_pb_blurb{position:relative;height:230px;width:250px;border-radius:20px 20px 20px 20px;overflow:hidden;padding-top:20px!important;padding-right:40px!important;padding-bottom:20px!important;padding-left:40px!important}#top-header{z-index:10}#main-header{z-index:9}.mfp-bg{z-index:11}.dp-dfg-layout-fullwidth .dp-dfg-image img{display:block;width:100%;max-width:200px;float:left;margin-right:40px}.media-frame-title h1{padding:0 16px;font-size:22px!important}#nf-form-2-cont .nf-form-content .listcheckbox-wrap li,#nf-form-2-cont .nf-form-content .listradio-wrap li{width:120px}#newsgrid .dp-dfg-skin-default .dp-dfg-filter a.active{text-decoration:underline;color:#000!important}.optionsimage:after{content:"";background:url(/wp-content/uploads/privacyoptions29x14.png) no-repeat center center;display:inline-block;height:14px;width:29px}.page-id-14977 .et_pb_blurb_description{position:relative;min-height:130px}.page-id-14977 .et_pb_blurb_description p:nth-of-type(2){position:absolute;bottom:0}.page-id-14977 .industryrow>div{max-height:265px}#pressreleases .dp-dfg-item{grid-template-rows:auto .75fr auto}#pressreleases .et_pb_button_wrapper{text-align:left;z-index:2}#pressreleases .et_pb_button_wrapper a{padding:0!important;font-weight:400!important;white-space:nowrap;color:#3dae2b!important;line-height:1.3!important;border-radius:0px!important;background:transparent!important;text-decoration:none!important;border:0px}@media screen and (max-width:1600px){.page-id-14977 .industryrow h4{font-size:16px!important}.page-id-14977 .industryrow>div{max-height:245px!important}}@media screen and (max-width:1200px){.page-id-14977 .industryrow h4{font-size:14px!important}#top-menu a{letter-spacing:-1px!important}#top-menu li{padding-right:9px!important}}@media screen and (max-width:980px){#et_top_search{margin:unset!important}.page-id-14977 .industryrow h4{font-size:24px!important}.page-id-14977 .industryrow>div{max-height:265px!important}.industryrow .et_pb_column,body .industryrow .et_pb_column:last-child{width:90%!important;margin-right:auto!important;margin-left:auto!important}.page-id-14977 .et_pb_blurb_description{min-height:auto}.page-id-14977 .et_pb_blurb_description p:nth-of-type(2){position:relative}}@media screen and (max-width:480px){.industryrow{margin-bottom:20px!important}}</style></head>
+<body class="wp-singular news-template-default single single-news postid-16028 wp-theme-Divi wp-child-theme-bloomenergy et_button_no_icon et_pb_button_helper_class et_fixed_nav et_show_nav et_secondary_nav_enabled et_secondary_nav_only_menu et_primary_nav_dropdown_animation_fade et_secondary_nav_dropdown_animation_fade et_header_style_left et_pb_svg_logo et_pb_footer_columns_1_6__1_2 et_cover_background et_pb_gutter windows et_pb_gutters3 et_smooth_scroll et_left_sidebar et_divi_theme et-db">
+<script class="divioverlays-globalresponsivevalues">var dov_globalresponsivevalues = { min_width:769, max_width:980, tablet_width:768, phone_width:400 };</script><script type="text/javascript">var overlays_with_css_trigger = {};</script><script type="text/javascript">var overlays_with_automatic_trigger = {'17529': '{"at_type":"0","at_value":"0","at_onceperload":"0"}','17524': '{"at_type":"0","at_value":"0","at_onceperload":"0"}','17521': '{"at_type":"0","at_value":"0","at_onceperload":"0"}','17515': '{"at_type":"0","at_value":"0","at_onceperload":"0"}','17512': '{"at_type":"0","at_value":"0","at_onceperload":"0"}','15414': '{"at_type":"0","at_value":"0","at_onceperload":"0"}','13908': '{"at_type":"0","at_value":"0","at_onceperload":"0"}','12722': '{"at_type":"0","at_value":"0","at_onceperload":"0"}','10515': '{"at_type":"0","at_value":"0","at_onceperload":"0"}','9110': '{"at_type":"0","at_value":"0","at_onceperload":"0"}','9097': '{"at_type":"0","at_value":"0","at_onceperload":"0"}',};</script>	<div id="page-container">
+
+					<div id="top-header">
+			<div class="container clearfix">
+
+			
+				<div id="et-secondary-menu">
+				<ul id="et-secondary-nav" class="menu"><li style="position:relative;" class="menu-item menu-item-gtranslate"><div style="position:absolute;white-space:nowrap;" id="gtranslate_menu_wrapper_52973"></div></li></ul>				</div>
+
+			</div>
+		</div>
+		
+	
+			<header id="main-header" data-height-onload="100">
+			<div class="container clearfix et_menu_container">
+							<div class="logo_container">
+					<span class="logo_helper"></span>
+					<a href="https://www.bloomenergy.com/" data-wpel-link="internal">
+						<img src="/wp-content/uploads/bloom_logo-full.svg" width="284" height="57" alt="Bloom Energy" id="logo" data-height-percentage="75" />
+					</a>
+				</div>
+							<div id="et-top-navigation" data-height="100" data-fixed-height="100">
+											<nav id="top-menu-nav">
+						<ul id="top-menu" class="nav"><li id="menu-item-11170" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-11170"><a href="https://www.bloomenergy.com/technology/" data-wpel-link="internal">Technology</a>
+<ul class="sub-menu">
+	<li id="menu-item-15962" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15962"><a href="https://www.bloomenergy.com/onsite-power/" data-wpel-link="internal">Why Onsite Power?</a></li>
+	<li id="menu-item-11202" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11202"><a href="https://www.bloomenergy.com/technology/" data-wpel-link="internal">How it Works</a></li>
+	<li id="menu-item-11171" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11171"><a href="https://www.bloomenergy.com/benefits-of-bloom-decarbonization-technology/" data-wpel-link="internal">Technology Benefits</a></li>
+	<li id="menu-item-4807" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4807"><a href="https://www.bloomenergy.com/technology/powering-the-future/" data-wpel-link="internal">Powering the Future</a></li>
+</ul>
+</li>
+<li id="menu-item-14213" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-14213"><a href="#">Industries</a>
+<ul class="sub-menu">
+	<li id="menu-item-14673" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14673"><a href="https://www.bloomenergy.com/industries/data-center-power/" data-wpel-link="internal">Data Centers</a></li>
+	<li id="menu-item-15428" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15428"><a href="https://www.bloomenergy.com/industries/manufacturing-energy/" data-wpel-link="internal">Manufacturing</a></li>
+	<li id="menu-item-14218" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14218"><a href="https://www.bloomenergy.com/industries/biotech-biopharma/" data-wpel-link="internal">Biotech &#038; Pharma</a></li>
+	<li id="menu-item-14219" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14219"><a href="https://www.bloomenergy.com/industries/chemical-manufacturing/" data-wpel-link="internal">Chemicals</a></li>
+	<li id="menu-item-14220" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14220"><a href="https://www.bloomenergy.com/industries/energy-efficient-schools/" data-wpel-link="internal">Education</a></li>
+	<li id="menu-item-14221" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14221"><a href="https://www.bloomenergy.com/industries/healthcare-energy-efficiency/" data-wpel-link="internal">Healthcare</a></li>
+	<li id="menu-item-14222" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14222"><a href="https://www.bloomenergy.com/industries/oil-gas/" data-wpel-link="internal">Oil &#038; Gas</a></li>
+	<li id="menu-item-14223" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14223"><a href="https://www.bloomenergy.com/industries/retail-sector/" data-wpel-link="internal">Retail</a></li>
+	<li id="menu-item-14214" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14214"><a href="https://www.bloomenergy.com/industries/tmt-sector/" data-wpel-link="internal">Tech, Media, &#038; Telecom</a></li>
+	<li id="menu-item-14224" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14224"><a href="https://www.bloomenergy.com/industries/utilities-industry/" data-wpel-link="internal">Utilities</a></li>
+</ul>
+</li>
+<li id="menu-item-2336" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2336"><a href="#">Applications</a>
+<ul class="sub-menu">
+	<li id="menu-item-7095" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7095"><a href="https://www.bloomenergy.com/power-generation-system/" data-wpel-link="internal">Primary Power</a></li>
+	<li id="menu-item-1390" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1390"><a href="https://www.bloomenergy.com/microgrid/" data-wpel-link="internal">Microgrid</a></li>
+	<li id="menu-item-12287" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12287"><a href="https://www.bloomenergy.com/waste-heat-recovery-for-chp/" data-wpel-link="internal">Heat Capture</a></li>
+	<li id="menu-item-5214" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5214"><a href="https://www.bloomenergy.com/carbon-capture/" data-wpel-link="internal">Carbon Capture</a></li>
+	<li id="menu-item-5202" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5202"><a href="https://www.bloomenergy.com/hydrogen-fuel-cells/" data-wpel-link="internal">Hydrogen Fuel Cells</a></li>
+	<li id="menu-item-12600" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12600"><a href="https://www.bloomenergy.com/biogas-energy/" data-wpel-link="internal">Biogas Energy</a></li>
+	<li id="menu-item-10887" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10887"><a href="https://www.bloomenergy.com/bloomelectrolyzer/" data-wpel-link="internal">Electrolyzers</a></li>
+	<li id="menu-item-5211" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5211"><a href="https://www.bloomenergy.com/marine-fuel-cell/" data-wpel-link="internal">Marine Fuel Cell</a></li>
+</ul>
+</li>
+<li id="menu-item-1375" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1375"><a href="https://www.bloomenergy.com/resources/" data-wpel-link="internal">Resources</a></li>
+<li id="menu-item-1372" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1372"><a href="https://www.bloomenergy.com/customers/" data-wpel-link="internal">Customers</a></li>
+<li id="menu-item-11181" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-11181"><a href="https://www.bloomenergy.com/company/" data-wpel-link="internal">Company</a>
+<ul class="sub-menu">
+	<li id="menu-item-11172" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11172"><a href="https://www.bloomenergy.com/company/" data-wpel-link="internal">About Us</a></li>
+	<li id="menu-item-16767" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16767"><a href="https://www.bloomenergy.com/blog/" data-wpel-link="internal">Blog</a></li>
+	<li id="menu-item-14144" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14144"><a href="https://www.bloomenergy.com/careers/" data-wpel-link="internal">Careers</a></li>
+	<li id="menu-item-8875" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8875"><a href="https://www.bloomenergy.com/events/" data-wpel-link="internal">Events</a></li>
+	<li id="menu-item-16766" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16766"><a href="https://investor.bloomenergy.com/overview/default.aspx" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">Investors</a></li>
+	<li id="menu-item-12684" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12684"><a href="/newsroom/" data-wpel-link="internal">Newsroom</a></li>
+	<li id="menu-item-11964" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11964"><a href="https://www.bloomenergy.com/leadership-board/" data-wpel-link="internal">Leadership &#038; Board</a></li>
+	<li id="menu-item-7153" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7153"><a href="https://www.bloomenergy.com/partners/" data-wpel-link="internal">Partners</a></li>
+	<li id="menu-item-11231" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11231"><a href="https://www.bloomenergy.com/sustainability/" data-wpel-link="internal">Sustainability</a></li>
+</ul>
+</li>
+<li id="menu-item-1367" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1367"><a href="https://www.bloomenergy.com/contact/" data-wpel-link="internal">Contact Us</a></li>
+<li id="menu-item-13486" class="series10 menu-item menu-item-type-custom menu-item-object-custom menu-item-13486"><a href="/series10/#contact" data-wpel-link="internal">Contact Us</a></li>
+</ul>						</nav>
+					
+					
+					
+											<div id="et_top_search">
+							<span id="et_search_icon"></span>
+						</div>
+					
+					<div id="et_mobile_nav_menu">
+				<div class="mobile_nav closed">
+					<span class="select_page">Select Page</span>
+					<span class="mobile_menu_bar mobile_menu_bar_toggle"></span>
+				</div>
+			</div>				</div> <!-- #et-top-navigation -->
+			</div> <!-- .container -->
+						<div class="et_search_outer">
+				<div class="container et_search_form_container">
+					<form role="search" method="get" class="et-search-form" action="https://www.bloomenergy.com/">
+					<input type="search" class="et-search-field" placeholder="Search &hellip;" value="" name="s" title="Search for:" />					</form>
+					<span class="et_close_search_field"></span>
+				</div>
+			</div>
+					</header> <!-- #main-header -->
+			<div id="et-main-area">
+	
+
+
+
+<div id="main-content">
+				
+<!--<div id="singleblog" class="et_pb_module et_pb_fullwidth_post_title_0 et_pb_post_title  et_pb_text_align_left et_pb_bg_layout_dark et_pb_featured_bg" style="background-image: url();"  >
+<div class="blog_overlay_container"></div>
+				
+<div class="blogname"><a href="/blog" data-wpel-link="internal">The AlwaysON Energy Blog</a></div>		
+				
+				
+				
+			</div>-->		
+
+
+<!-- BEGIN BLOGPOSTHEADER -->
+<div class="newspostheader">
+
+
+<div class="container">
+<p id="breadcrumbs"><span><span><a href="https://www.bloomenergy.com/" data-wpel-link="internal">Home</a></span> » <span><a href="/newsroom" data-wpel-link="internal">Newsroom</a></span> » <span>Onsite Generation Expected to Fully Power 27% of Data Center Facilities by 2030</span></span></p>
+<div>
+	<h1 class="entry-title">Onsite Generation Expected to Fully Power 27% of Data Center Facilities by 2030</h1>
+					
+					
+	</div>
+
+	<div class="et_post_meta_wrapper">
+						
+	<div class="post-date">June 17, 2025</div>
+				
+
+	</div> <!-- .et_post_meta_wrapper -->
+
+
+
+</div> <!-- END INNER -->
+</div> <!-- END BLOGPOSTHEADER -->
+	<div class="container">
+	
+	<div id="content-area" class="clearfix">
+		
+<div id="blog-sidebar">
+		
+
+				
+
+
+<div id="custom_html-6" class="widget_text et_pb_widget widget_custom_html"><div class="textwidget custom-html-widget"><a class="et_pb_button" href="/newsroom" data-wpel-link="internal">See all news</a></div></div><div id="text-7" class="et_pb_widget widget_text"><h4 class="widgettitle">Follow Our Leadership</h4>			<div class="textwidget"><div class="sidebar-block__content">
+<div class="profile-block">
+<div class="profile-block__image"><img decoding="async" class="alignleft" src="https://www.bloomenergy.com/wp-content/uploads/AmanJoshi_s.jpg" alt="" width="70" height="70" /></div>
+<div class="profile-block__info">
+<div class="profile-block__name"><a href="https://www.linkedin.com/in/aman-joshi-084b4526/" target="_blank" rel="noopener external noreferrer" data-wpel-link="external">Aman Joshi</a></div>
+<div class="profile-block__meta"><span class="profile-block__title">Chief Commercial Officer</span></div>
+</div>
+</div>
+<div class="profile-block">
+<div class="profile-block__image"><img decoding="async" class="alignleft" src="https://www.bloomenergy.com/wp-content/uploads/Raviportrait_s.png" alt="" width="70" height="70" /></div>
+<div class="profile-block__info">
+<div class="profile-block__name"><a href="https://www.linkedin.com/in/ravi-prasher-2458b41/" target="_blank" rel="noopener external noreferrer" data-wpel-link="external">Ravi Prasher</a></div>
+<div class="profile-block__meta"><span class="profile-block__title">Chief Technology Officer</span></div>
+</div>
+</div>
+<div class="profile-block">
+<div class="profile-block__image"><img decoding="async" class="alignleft" src="https://www.bloomenergy.com/wp-content/uploads/SonjaWilkerson_s.png" alt="" width="70" height="70" /></div>
+<div class="profile-block__info">
+<div class="profile-block__name"><a href="https://www.linkedin.com/in/sonja-wilkerson-202744/" target="_blank" rel="noopener external noreferrer" data-wpel-link="external">Sonja Wilkerson</a></div>
+<div class="profile-block__meta"><span class="profile-block__title">Chief People Officer</span></div>
+</div>
+</div>
+</div>
+</div>
+		</div> 
+
+
+
+</div> <!-- END OF LEFT COLUMN -->
+		
+			<div id="news-main-column">
+			
+				<article id="post-16028" class="et_pb_post post-16028 news type-news status-publish hentry category-data-center news_type-press-release news_year-111">
+					
+
+					<div class="entry-content">
+					
+					
+					<ul>
+<li><em>Bloom Energy’s Mid-Year Power Report reveals boom in onsite power to fuel AI amid grid constraints </em></li>
+<li><em>Data center developers’ estimate of up to 2 years for grid power access is unrealistic in key markets</em></li>
+<li><em>Access to power is the leading factor in data center site selection, key to gaining a competitive advantage</em></li>
+</ul>
+<p><strong>SAN JOSE, Calif. &#8211; JUNE 17, 2025 &#8211; </strong><a href="https://www.bloomenergy.com/" data-wpel-link="internal">Bloom Energy</a> (NYSE: BE), a global leader in power solutions, released a critical <a href="https://www.bloomenergy.com/midyr-2025-data-center-report/" data-wpel-link="internal">mid-year update</a> to the comprehensive 2025 Data Center Power Report launched earlier this year, which revealed that data centers are adopting onsite power as a primary energy source. Data centers are likely to continue to struggle with the timely availability of electricity, according to the new report, which carries major implications for the future of the AI industry.</p>
+<p>Today’s mid-year update shows that securing electricity for data centers is likely to take much longer than anticipated, and that power availability is now the leading factor in site selection. The report offers a timely lens into what matters most to the leaders shaping the future of the AI industry in America, including:</p>
+<ul>
+<li><strong>Data center developers are underestimating time to power:</strong> Utility providers report significantly longer timelines to deliver power in key U.S. markets, <em>up to 2 years longer than what hyperscalers and colocation providers expect. </em></li>
+</ul>
+<p><img loading="lazy" decoding="async" class="size-full wp-image-16038 aligncenter" src="https://www.bloomenergy.com/wp-content/uploads/data-center-power-report-graph1.png" alt="Data Center Developers Graphic" width="649" height="408" srcset="https://www.bloomenergy.com/wp-content/uploads/data-center-power-report-graph1.png 649w, https://www.bloomenergy.com/wp-content/uploads/data-center-power-report-graph1-480x302.png 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) 649px, 100vw" /></p>
+<ul>
+<li><strong>Power access is a leading factor in data center site selection: </strong>84% of respondents ranked <em>availability of power among their top three considerations</em>.</li>
+<li><strong>Onsite power is increasingly critical:</strong> In 2030, 38% of facilities are expected to use some onsite generation for primary power, up from 13% a year ago. <em>Notably, 27% of facilities expect to be fully powered by onsite generation by 2030, a 27x increase from just 1% last year.</em></li>
+</ul>
+<p><img loading="lazy" decoding="async" class="size-full wp-image-16039 aligncenter" src="https://www.bloomenergy.com/wp-content/uploads/data-center-power-report-graph2.png" alt="Expectations for onsite power" width="675" height="450" srcset="https://www.bloomenergy.com/wp-content/uploads/data-center-power-report-graph2.png 675w, https://www.bloomenergy.com/wp-content/uploads/data-center-power-report-graph2-480x320.png 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) 675px, 100vw" /></p>
+<ul>
+<li><strong>AI is driving larger, more power-intensive data centers:</strong> The median <em>data center size is expected to grow by nearly 115%,</em> from approximately 175 MW today to about 375 MW over the next 10 years.</li>
+<li><strong>Reducing carbon emissions is a lower but lasting priority:</strong> 95% of those surveyed affirmed that <em>sustainability and carbon reduction targets are still in place</em>, even if the path to achieving those goals may not be linear.</li>
+</ul>
+<p>&#8220;Decisions around where data centers get built have shifted dramatically over the last six months, with access to power now playing the most significant role in location scouting,&#8221; said Aman Joshi, Bloom Energy&#8217;s Chief Commercial Officer. &#8220;The grid can&#8217;t keep pace with AI demands, so the industry is taking control with onsite power generation. When you control your power, you control your timeline, and immediate access to energy is what separates viable projects from stalled ones.”</p>
+<p>According to the survey, operators are looking beyond legacy power generation to solutions that offer fast deployment timelines, low emissions, and the ability to handle intense and fluctuating AI workloads, all while meeting the industry’s uncompromising reliability standards and cost requirements.</p>
+<p>The latest report is based on data collected from April 2024 to April 2025, which surveyed approximately 100 decision-makers across the entire data center power ecosystem, reflecting perspectives from hyperscalers, colocation developers, utilities, and GPU service providers. A copy of the mid-year Bloom Energy Data Center Power report is available <a href="https://www.bloomenergy.com/midyr-2025-data-center-report/" data-wpel-link="internal">here</a>.</p>
+<p><strong>About Bloom Energy</strong></p>
+<p>Bloom Energy empowers enterprises to meet soaring energy demands and responsibly take charge of their power needs. The company’s fuel cell system provides ultra-resilient, highly scalable onsite electricity generation for Fortune 500 companies around the world, including data centers, semiconductor manufacturing, large utilities and other commercial and industrial sectors. Headquartered in Silicon Valley, Bloom Energy has deployed 1.5GW of low-carbon power across more than 1200 installations globally. For more information, visit <a href="https://cts.businesswire.com/ct/CT?id=smartlink&amp;url=http%3A%2F%2Fwww.bloomenergy.com%2F&amp;esheet=54210451&amp;newsitemid=20250220371127&amp;lan=en-US&amp;anchor=www.BloomEnergy.com&amp;index=1&amp;md5=18afedab4ca81a22805cc60661ba284f" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">www.BloomEnergy.com</a>.</p>
+<p><strong>Forward Looking Statements</strong><br />
+<em>This press release contains certain forward-looking statements, which are subject to the safe harbor provisions of the Private Securities Litigation Reform Act of 1995. Forward-looking statements generally relate to future events or our future financial or operating performance. In some cases, you can identify forward-looking statements because they contain words such as “anticipate,” “believe,” “could,” “estimate,” “expect,” “intend,” “may,” “should,” “will” and “would” or the negative of these words or similar terms or expressions that concern Bloom’s expectations, strategy, priorities, plans, or intentions. These forward-looking statements include, but are not limited to, expectations regarding the growth of onsite power generation and the role of power availability and accessibility in data center growth and location choice. Readers are cautioned that these forward-looking statements are only predictions and may differ materially from actual future events or results due to a variety of factors including, but not limited to, risks and uncertainties detailed in Bloom’s SEC filings. More information on potential risks and uncertainties that may impact Bloom’s business are set forth in Bloom’s periodic reports filed with the SEC, including its Annual Report on Form 10-K for the year ended December 31, 2024, filed with the SEC on February 27, 2025, as well as subsequent reports filed with or furnished to the SEC. Bloom assumes no obligation to, and does not intend to, update any such forward-looking statements.</em></p>
+<p><strong>Contacts</strong></p>
+<p><strong>Media</strong><br />
+Bloom Energy – Katja Gagen (<a href="mailto:press@bloomenergy.com">press@bloomenergy.com</a>)</p>
+<p><strong>Investors</strong><br />
+Bloom Energy – Michael Tierney (<a href="mailto:investor@bloomenergy.com">investor@bloomenergy.com</a>)</p>
+					</div> <!-- .entry-content -->
+					<div class="et_post_meta_wrapper">
+										</div> <!-- .et_post_meta_wrapper -->
+				</article> <!-- .et_pb_post -->
+				<div class="navigation">
+				
+				
+<!--<div class="pagination-post">
+	<div class="previous_post"><a href="https://www.bloomenergy.com/news/can-bloom-energy-capitalize-on-the-data-center-frenzy/" rel="prev" data-wpel-link="internal">&larr; Previous article</a></div>
+	<div class="next_post"><a href="https://www.bloomenergy.com/news/oracle-and-bloom-energy-collaborate-to-deliver-power-to-data-centers-at-the-speed-of-ai/" rel="next" data-wpel-link="internal">Next article &rarr;</a></div>
+</div>-->
+
+					<div class="nav-single clearfix">
+						<span class="nav-previous"><a href="https://www.bloomenergy.com/news/bloom-energy-corporation-announces-exchange-of-a-portion-of-its-existing-2-50-green-convertible-senior-notes-due-2025-for-3-00-green-convertible-senior-notes-due-2029/" rel="prev" data-wpel-link="internal"><span class="meta-nav">&larr;</span> Bloom Energy Corporation Announces Exchange of a Portion of its Existing 2.50% Green Convertible Senior Notes due 2025 for 3.00% Green Convertible Senior Notes due 2029</a></span>
+						<span class="nav-next"><a href="https://www.bloomenergy.com/news/bloom-energy-to-announce-second-quarter-2025-financial-results-on-july-31-2025/" rel="next" data-wpel-link="internal">Bloom Energy to Announce Second Quarter 2025 Financial Results on July 31, 2025 <span class="meta-nav">&rarr;</span></a></span>
+					</div><!-- .nav-single -->
+					
+					
+
+				
+
+				</div>
+
+			
+			</div> <!-- #left-area -->
+			
+			
+		</div> <!-- #content-area -->
+		
+		</div> <!-- .container -->
+		
+		<div id="press-kit" class="et_pb_section et_pb_section_1 et_pb_with_background et_section_regular" >
+				
+				
+				
+				
+				
+				
+				<div id="presskit" class="et_pb_row et_pb_row_0">
+				<div class="et_pb_column et_pb_column_1_2 et_pb_column_0  et_pb_css_mix_blend_mode_passthrough">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_0  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><h3>Contact our communications team</h3>
+<p>If you are a journalist, and need help with a story about Bloom Energy, please contact: <a href="mailto:press@bloomenergy.com">press@bloomenergy.com</a></p></div>
+			</div>
+			</div><div class="et_pb_column et_pb_column_1_2 et_pb_column_1  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_1  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><h3 style="text-align: center;">Bloom Energy press kit</h3></div>
+			</div><div class="et_pb_button_module_wrapper et_pb_button_0_wrapper et_pb_button_alignment_center et_pb_module ">
+				<a class="et_pb_button et_pb_button_0 et_pb_bg_layout_light" href="/press-kit/" data-wpel-link="internal">Access the full press kit here</a>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div>
+				
+				
+			</div>						
+
+	
+	</div> <!-- #main-content -->
+
+
+			<footer id="main-footer">
+				
+<div class="container">
+	<div id="footer-widgets" class="clearfix">
+		<div class="footer-widget"><div id="text-6" class="fwidget et_pb_widget widget_text">			<div class="textwidget"><p><img loading="lazy" decoding="async" class="alignnone wp-image-11969" src="/wp-content/uploads/be-footer-element.svg" alt="Bloom Energy" width="90" height="93" /></p>
+</div>
+		</div></div><div class="footer-widget"><div id="text-3" class="fwidget et_pb_widget widget_text">			<div class="textwidget"><p>Bloom Energy Headquarters<br />
+4353 North First Street<br />
+San Jose, CA 95134 USA<br />
+bloomenergy.com</p>
+</div>
+		</div></div><div class="footer-widget"><div id="text-5" class="fwidget et_pb_widget widget_text">			<div class="textwidget"><p>408-543-1500<br />
+<a href="/contact/" data-wpel-link="internal">info@bloomenergy.com</a></p>
+</div>
+		</div></div><div class="footer-widget"><div id="text-4" class="fwidget et_pb_widget widget_text">			<div class="textwidget"><div class="footer-social">
+<h5 class="green" style="text-align: left;">Follow Us</h5>
+<p><a href="https://www.linkedin.com/company/bloom-energy" data-wpel-link="external" target="_blank" rel="external noopener noreferrer"><img loading="lazy" decoding="async" class="alignleft size-full wp-image-5905" src="/wp-content/uploads/linkedin-icon.png" alt="Bloom Energy LinkedIn" width="56" height="56" /></a> <a href="https://www.youtube.com/user/BloomEnergy" data-wpel-link="external" target="_blank" rel="external noopener noreferrer"><img loading="lazy" decoding="async" class="alignleft size-full wp-image-5907" src="/wp-content/uploads/youtube-icon.png" alt="Bloom Energy YouTube" width="57" height="56" /></a> <a href="https://www.instagram.com/bloomenergy" data-wpel-link="external" target="_blank" rel="external noopener noreferrer"><img loading="lazy" decoding="async" class="alignleft size-full wp-image-5904" src="/wp-content/uploads/instagram-icon.png" alt="Bloom Energy Instagram" width="56" height="56" /></a> <a href="https://x.com/bloom_energy" data-wpel-link="external" target="_blank" rel="external noopener noreferrer"><img loading="lazy" decoding="async" class="alignleft size-full wp-image-5906" src="/wp-content/uploads/x-icon.png" alt="Bloom Energy Twitter" width="56" height="56" /></a> <a href="https://www.facebook.com/bloomenergy/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer"><img loading="lazy" decoding="async" class="alignleft size-full wp-image-5903" src="/wp-content/uploads/facebook-icon.png" alt="Bloom Energy Facebook" width="56" height="56" /></a></p>
+</div>
+</div>
+		</div></div>	</div>
+</div>
+
+
+		
+				<div id="footer-bottom">
+					<div class="container clearfix">
+				<div id="footer-info"><div class="footernav"><a href="/terms-of-use" data-wpel-link="internal">Terms of Use</a> | <a href="/privacy-policy" data-wpel-link="internal">Privacy Policy</a> | <a href="#" class="cky-banner-element">Cookie Settings</a> | <a class="optionsimage" href="https://forms.office.com/Pages/ResponsePage.aspx?id=RJ579IQNrEyUydj5CoXXy4v3IhoRpd1Fjci3aKgX5vpUNkU0VjlGVjBDM0tBT0wwTU5aUVIwVUtITS4u" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">Your Privacy Choices  </a>|  <a href="/supplychain" data-wpel-link="internal">Supply Chain</a> | <a href="/careers" data-wpel-link="internal">Careers</a> | <a href="https://partner.bloomenergy.com" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">Partner Program</a> | <a href="/sustainability/" data-wpel-link="internal">Sustainability</a></div>
+<div class="footercopyright">Copyright © 2025 Bloom Energy</div></div>					</div>
+				</div>
+			</footer>
+		</div>
+
+
+	</div>
+
+	<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/bloomenergy/*","/wp-content/themes/Divi/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+
+            <div id="ds-mega-menu-items">
+
+				            </div>
+            <script>
+                jQuery(document).ready(function ($) {
+                    $(".ds-mega-menu-item").each(function () {
+                        $id = $(this).attr("data-menuitem");
+                        $("#menu-item-" + $id).addClass("mega-menu menu-item-has-children");
+                        $("<ul class='sub-menu ds-mega-menu ds-mega-menu" + $id + "'><li><div></div></li></ul>").appendTo("#menu-item-" + $id);
+                        $(this).prependTo(".ds-mega-menu" + $id + " li div");
+                    });
+                });
+            </script>
+			<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PT4NDZ4" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) --><script type="text/javascript" id="divi-custom-script-js-extra">
+/* <![CDATA[ */
+var DIVI = {"item_count":"%d Item","items_count":"%d Items"};
+var et_builder_utils_params = {"condition":{"diviTheme":true,"extraTheme":false},"scrollLocations":["app","top"],"builderScrollLocations":{"desktop":"app","tablet":"app","phone":"app"},"onloadScrollLocation":"app","builderType":"fe"};
+var et_frontend_scripts = {"builderCssContainerPrefix":"#et-boc","builderCssLayoutPrefix":"#et-boc .et-l"};
+var et_pb_custom = {"ajaxurl":"https://www.bloomenergy.com/wp-admin/admin-ajax.php","images_uri":"https://www.bloomenergy.com/wp-content/themes/Divi/images","builder_images_uri":"https://www.bloomenergy.com/wp-content/themes/Divi/includes/builder/images","et_frontend_nonce":"9d7e7fd5bc","subscription_failed":"Please, check the fields below to make sure you entered the correct information.","et_ab_log_nonce":"76e146e042","fill_message":"Please, fill in the following fields:","contact_error_message":"Please, fix the following errors:","invalid":"Invalid email","captcha":"Captcha","prev":"Prev","previous":"Previous","next":"Next","wrong_captcha":"You entered the wrong number in captcha.","wrong_checkbox":"Checkbox","ignore_waypoints":"no","is_divi_theme_used":"1","widget_search_selector":".widget_search","ab_tests":[],"is_ab_testing_active":"","page_id":"16028","unique_test_id":"","ab_bounce_rate":"5","is_cache_plugin_active":"yes","is_shortcode_tracking":"","tinymce_uri":"https://www.bloomenergy.com/wp-content/themes/Divi/includes/builder/frontend-builder/assets/vendors","accent_color":"#66b360","waypoints_options":[]};
+var et_pb_box_shadow_elements = [];
+//# sourceURL=divi-custom-script-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.bloomenergy.com/wp-content/themes/Divi/js/scripts.min.js?ver=4.27.5" id="divi-custom-script-js"></script>
+<script type="text/javascript" src="https://www.bloomenergy.com/wp-content/themes/Divi/js/smoothscroll.js?ver=4.27.5" id="smoothscroll-js"></script>
+<script type="text/javascript" src="https://www.bloomenergy.com/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.fitvids.js?ver=4.27.5" id="fitvids-js"></script>
+<script type="text/javascript" id="et-builder-cpt-modules-wrapper-js-extra">
+/* <![CDATA[ */
+var et_modules_wrapper = {"builderCssContainerPrefix":"#et-boc","builderCssLayoutPrefix":"#et-boc .et-l"};
+//# sourceURL=et-builder-cpt-modules-wrapper-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.bloomenergy.com/wp-content/themes/Divi/includes/builder/scripts/cpt-modules-wrapper.js?ver=4.27.5" id="et-builder-cpt-modules-wrapper-js"></script>
+<script type="text/javascript" src="https://www.bloomenergy.com/wp-content/themes/Divi/core/admin/js/common.js?ver=4.27.5" id="et-core-common-js"></script>
+<script type="text/javascript" id="gt_widget_script_45175206-js-before">
+/* <![CDATA[ */
+window.gtranslateSettings = /* document.write */ window.gtranslateSettings || {};window.gtranslateSettings['45175206'] = {"default_language":"en","languages":["zh-CN","zh-TW","da","nl","en","fr","de","it","ja","ko","es"],"url_structure":"none","detect_browser_language":1,"flag_style":"3d","flag_size":16,"wrapper_selector":"#gtranslate_menu_wrapper_12042","alt_flags":{"en":"usa"},"switcher_open_direction":"bottom","switcher_horizontal_position":"inline","switcher_text_color":"#666666","switcher_arrow_color":"#666666","switcher_border_color":"#cccccc","switcher_background_color":"#ffffff","switcher_background_shadow_color":"#efefef","switcher_background_hover_color":"#f0f0f0","dropdown_text_color":"#000000","dropdown_hover_color":"#ffffff","dropdown_background_color":"#eeeeee","flags_location":"\/wp-content\/plugins\/gtranslate\/flags\/"};
+//# sourceURL=gt_widget_script_45175206-js-before
+/* ]]> */
+</script><script src="https://www.bloomenergy.com/wp-content/plugins/gtranslate/js/dwf.js?ver=6.9" data-no-optimize="1" data-no-minify="1" data-gt-orig-url="/news/onsite-generation-expected-to-fully-power-27-percent-of-data-center-facilities-by-2030/" data-gt-orig-domain="www.bloomenergy.com" data-gt-widget-id="45175206" defer></script><script type="text/javascript" id="gt_widget_script_52104505-js-before">
+/* <![CDATA[ */
+window.gtranslateSettings = /* document.write */ window.gtranslateSettings || {};window.gtranslateSettings['52104505'] = {"default_language":"en","languages":["zh-CN","zh-TW","da","nl","en","fr","de","it","ja","ko","es"],"url_structure":"none","detect_browser_language":1,"flag_style":"3d","flag_size":16,"wrapper_selector":"#gtranslate_menu_wrapper_28393","alt_flags":{"en":"usa"},"switcher_open_direction":"bottom","switcher_horizontal_position":"inline","switcher_text_color":"#666666","switcher_arrow_color":"#666666","switcher_border_color":"#cccccc","switcher_background_color":"#ffffff","switcher_background_shadow_color":"#efefef","switcher_background_hover_color":"#f0f0f0","dropdown_text_color":"#000000","dropdown_hover_color":"#ffffff","dropdown_background_color":"#eeeeee","flags_location":"\/wp-content\/plugins\/gtranslate\/flags\/"};
+//# sourceURL=gt_widget_script_52104505-js-before
+/* ]]> */
+</script><script src="https://www.bloomenergy.com/wp-content/plugins/gtranslate/js/dwf.js?ver=6.9" data-no-optimize="1" data-no-minify="1" data-gt-orig-url="/news/onsite-generation-expected-to-fully-power-27-percent-of-data-center-facilities-by-2030/" data-gt-orig-domain="www.bloomenergy.com" data-gt-widget-id="52104505" defer></script><script type="text/javascript" id="gt_widget_script_71434766-js-before">
+/* <![CDATA[ */
+window.gtranslateSettings = /* document.write */ window.gtranslateSettings || {};window.gtranslateSettings['71434766'] = {"default_language":"en","languages":["zh-CN","zh-TW","da","nl","en","fr","de","it","ja","ko","es"],"url_structure":"none","detect_browser_language":1,"flag_style":"3d","flag_size":16,"wrapper_selector":"#gtranslate_menu_wrapper_52973","alt_flags":{"en":"usa"},"switcher_open_direction":"bottom","switcher_horizontal_position":"inline","switcher_text_color":"#666666","switcher_arrow_color":"#666666","switcher_border_color":"#cccccc","switcher_background_color":"#ffffff","switcher_background_shadow_color":"#efefef","switcher_background_hover_color":"#f0f0f0","dropdown_text_color":"#000000","dropdown_hover_color":"#ffffff","dropdown_background_color":"#eeeeee","flags_location":"\/wp-content\/plugins\/gtranslate\/flags\/"};
+//# sourceURL=gt_widget_script_71434766-js-before
+/* ]]> */
+</script><script src="https://www.bloomenergy.com/wp-content/plugins/gtranslate/js/dwf.js?ver=6.9" data-no-optimize="1" data-no-minify="1" data-gt-orig-url="/news/onsite-generation-expected-to-fully-power-27-percent-of-data-center-facilities-by-2030/" data-gt-orig-domain="www.bloomenergy.com" data-gt-widget-id="71434766" defer></script><style id="et-builder-module-design-16028-cached-inline-styles">.et_pb_section_1.et_pb_section{background-color:#f5f5f5!important}.et_pb_text_1 h1{text-align:center}.et_pb_button_0,.et_pb_button_0:after{transition:all 300ms ease 0ms}</style><script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9c54b12b8b6aa115',t:'MTc2OTY0NzM3Mi4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

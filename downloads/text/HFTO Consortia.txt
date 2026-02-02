@@ -1,0 +1,21 @@
+Title: HFTO Consortia
+URL: https://www.energy.gov/eere/fuelcells/hydrogen-and-fuel-cell-technologies-office-consortia
+Date: 2026-01-28
+======================================================================
+
+The Hydrogen and Fuel Cell Technologies Office funds the following lab-led consortia to coordinate national laboratory research and development activities and serve as a resource for universities and industry. The office will add innovative projects to the consortia through future lab calls and Funding Opportunity Announcements, subject to appropriations.
+ElectroCat
+: The Electrocatalysis Consortium (ElectroCat) is an initiative to accelerate the development of catalysts made without platinum group metals (PGM-free) for use in automotive fuel cell applications.
+H2NEW
+: The Hydrogen from Next-generation Electrolyzers of Water (H2NEW) consortium will conduct R&D to achieve large-scale, affordable electrolyzers, which use electricity to split water into hydrogen and oxygen and can be powered by various energy sources, including natural gas, nuclear, and renewables. This R&D will complement and help support large industry deployment by enabling more durable, efficient, and low-cost electrolyzers.
+H-Mat
+: The Hydrogen Materials Compatibility Consortium (H-Mat) is a framework for cross-cutting early-stage research and development on hydrogen materials compatibility to improve the reliability and reduce the costs of materials, and to inform codes and standards that guide development and use of technologies in hydrogen.
+HyBlend
+: The HyBlend initiative aims to address technical barriers to blending hydrogen in natural gas pipelines. Key aspects of HyBlend include materials compatibility R&D, techno-economic analysis, and life cycle analysis that will inform the development of publicly accessible tools that characterize the opportunities, costs, and risks of blending.
+HydroGEN
+: The HydroGEN Advanced Water Splitting Materials consortium focuses on advanced water splitting materials, initially for the photoelectrochemical, solar thermochemical, and advanced electrolytic hydrogen production pathways.
+HyMARC
+: The Hydrogen Materials Advanced Research Consortium (HyMARC) aims to address unsolved scientific challenges in the development of viable solid-state materials for storage of hydrogen onboard vehicles. Better onboard hydrogen storage could lead to more reliable and economic hydrogen fuel cell vehicles.
+M2FCT
+:
+The Million Mile Fuel Cell Truck Consortium (M2FCT) focuses on research and development to improve fuel cell durability, performance, and cost to better position fuel cell trucks as a viable option in the long-haul trucking market. This initiative will set a five-year goal to prove the ability to have a fully competitive heavy-duty fuel cell truck that can meet all of the requirements of the trucking industry.

@@ -1,0 +1,791 @@
+{
+  "_metadata": {
+    "description": "Industrial land lease costs by country (USD/acre/year)",
+    "last_updated": "2025-01",
+    "sources": [
+      "World Bank Doing Business / Business Ready reports",
+      "OECD industrial land price surveys",
+      "National industrial zone authorities",
+      "JLL / CBRE industrial real estate reports 2024",
+      "Green hydrogen project feasibility studies"
+    ],
+    "notes": "Prices are rough estimates for industrial/energy project land in typical zones. Actual costs vary enormously by exact location, zoning, and government incentives. Green H2 projects in GCC/MENA often receive free or near-free government land."
+  },
+  "countries": {
+    "OM": {
+      "name": "Oman",
+      "land_cost_usd_acre_yr": 2,
+      "note": "Duqm SEZ and SEZAD offer near-free industrial land for strategic projects"
+    },
+    "SA": {
+      "name": "Saudi Arabia",
+      "land_cost_usd_acre_yr": 3,
+      "note": "NEOM/Oxagon, Jubail, Yanbu industrial cities offer subsidized land"
+    },
+    "AE": {
+      "name": "UAE",
+      "land_cost_usd_acre_yr": 50,
+      "note": "KIZAD, JAFZA free zones; higher in Abu Dhabi/Dubai urban areas"
+    },
+    "QA": {
+      "name": "Qatar",
+      "land_cost_usd_acre_yr": 30,
+      "note": "Ras Laffan, Mesaieed industrial zones"
+    },
+    "KW": {
+      "name": "Kuwait",
+      "land_cost_usd_acre_yr": 20,
+      "note": "Shuaiba industrial area; government-allocated"
+    },
+    "BH": {
+      "name": "Bahrain",
+      "land_cost_usd_acre_yr": 40,
+      "note": "BIIP, Hidd industrial; small country, limited land"
+    },
+    "JO": {
+      "name": "Jordan",
+      "land_cost_usd_acre_yr": 25,
+      "note": "Aqaba SEZ, Al Hassan industrial; government incentives"
+    },
+    "IQ": {
+      "name": "Iraq",
+      "land_cost_usd_acre_yr": 10,
+      "note": "Basra industrial zones; land abundant but infrastructure poor"
+    },
+    "IR": {
+      "name": "Iran",
+      "land_cost_usd_acre_yr": 5,
+      "note": "Government-allocated industrial parks; low nominal cost"
+    },
+
+    "MA": {
+      "name": "Morocco",
+      "land_cost_usd_acre_yr": 30,
+      "note": "Noor-Ouarzazate, Dakhla green H2 zones; government land programs"
+    },
+    "EG": {
+      "name": "Egypt",
+      "land_cost_usd_acre_yr": 15,
+      "note": "Suez Canal Economic Zone, Ain Sokhna; desert land cheap"
+    },
+    "TN": {
+      "name": "Tunisia",
+      "land_cost_usd_acre_yr": 20,
+      "note": "AFI industrial zones; government-managed"
+    },
+    "DZ": {
+      "name": "Algeria",
+      "land_cost_usd_acre_yr": 5,
+      "note": "Vast desert land; government-owned industrial zones"
+    },
+    "LY": {
+      "name": "Libya",
+      "land_cost_usd_acre_yr": 3,
+      "note": "Abundant land; minimal industrial zoning infrastructure"
+    },
+
+    "ZA": {
+      "name": "South Africa",
+      "land_cost_usd_acre_yr": 80,
+      "note": "IDZ Coega, Saldanha; varies widely by province"
+    },
+    "NA_COUNTRY": {
+      "name": "Namibia",
+      "land_cost_usd_acre_yr": 10,
+      "note": "Walvis Bay, Luderitz; government land for green H2"
+    },
+    "KE": {
+      "name": "Kenya",
+      "land_cost_usd_acre_yr": 100,
+      "note": "EPZ Athi River, Mombasa; relatively expensive for Africa"
+    },
+    "NG": {
+      "name": "Nigeria",
+      "land_cost_usd_acre_yr": 50,
+      "note": "Lekki FTZ, Calabar; Land Use Act complicates pricing"
+    },
+    "ET": {
+      "name": "Ethiopia",
+      "land_cost_usd_acre_yr": 8,
+      "note": "Industrial parks (Hawassa, Bole Lemi); government lease system"
+    },
+    "MZ": {
+      "name": "Mozambique",
+      "land_cost_usd_acre_yr": 5,
+      "note": "Nacala, Maputo corridors; state-owned land"
+    },
+    "TZ": {
+      "name": "Tanzania",
+      "land_cost_usd_acre_yr": 15,
+      "note": "EPZ Dar es Salaam, Bagamoyo SEZ"
+    },
+    "GH": {
+      "name": "Ghana",
+      "land_cost_usd_acre_yr": 40,
+      "note": "Tema FPZ, Dawa industrial; land tenure complex"
+    },
+    "SN": {
+      "name": "Senegal",
+      "land_cost_usd_acre_yr": 25,
+      "note": "DISEZ Diamniadio; government zones"
+    },
+
+    "CL": {
+      "name": "Chile",
+      "land_cost_usd_acre_yr": 20,
+      "note": "Atacama desert for solar/H2; very cheap remote land"
+    },
+    "BR": {
+      "name": "Brazil",
+      "land_cost_usd_acre_yr": 100,
+      "note": "Varies enormously; NE semi-arid cheaper, SE industrial expensive"
+    },
+    "AR": {
+      "name": "Argentina",
+      "land_cost_usd_acre_yr": 30,
+      "note": "Patagonia wind zones cheap; Buenos Aires province expensive"
+    },
+    "CO": {
+      "name": "Colombia",
+      "land_cost_usd_acre_yr": 50,
+      "note": "Free trade zones; La Guajira for wind"
+    },
+    "PE": {
+      "name": "Peru",
+      "land_cost_usd_acre_yr": 40,
+      "note": "Industrial parks Callao, Arequipa"
+    },
+    "UY": {
+      "name": "Uruguay",
+      "land_cost_usd_acre_yr": 60,
+      "note": "Zonamerica, free trade zones; small country"
+    },
+    "PY": {
+      "name": "Paraguay",
+      "land_cost_usd_acre_yr": 15,
+      "note": "Cheap agricultural land; industrial zones emerging"
+    },
+    "EC": {
+      "name": "Ecuador",
+      "land_cost_usd_acre_yr": 30,
+      "note": "ZEDE zones; coastal industrial areas"
+    },
+    "MX": {
+      "name": "Mexico",
+      "land_cost_usd_acre_yr": 120,
+      "note": "Industrial parks (Monterrey, Bajio expensive); Sonora desert cheaper"
+    },
+
+    "AU": {
+      "name": "Australia",
+      "land_cost_usd_acre_yr": 25,
+      "note": "Pilbara, remote SA cheap; peri-urban industrial expensive"
+    },
+    "NZ": {
+      "name": "New Zealand",
+      "land_cost_usd_acre_yr": 150,
+      "note": "Limited industrial land; council-regulated"
+    },
+    "IN_COUNTRY": {
+      "name": "India",
+      "land_cost_usd_acre_yr": 50,
+      "note": "SEZs Kutch/Rajasthan for green H2; DPIIT incentives"
+    },
+    "CN": {
+      "name": "China",
+      "land_cost_usd_acre_yr": 80,
+      "note": "Inner Mongolia/Xinjiang wind zones cheaper; coastal industrial expensive"
+    },
+    "JP": {
+      "name": "Japan",
+      "land_cost_usd_acre_yr": 800,
+      "note": "Industrial land among world's most expensive"
+    },
+    "KR": {
+      "name": "South Korea",
+      "land_cost_usd_acre_yr": 500,
+      "note": "KICOX industrial complexes; high land costs"
+    },
+    "VN": {
+      "name": "Vietnam",
+      "land_cost_usd_acre_yr": 60,
+      "note": "Industrial parks (Binh Duong, Hai Phong); government lease"
+    },
+    "TH": {
+      "name": "Thailand",
+      "land_cost_usd_acre_yr": 80,
+      "note": "EEC Eastern Seaboard; BOI promoted zones"
+    },
+    "ID": {
+      "name": "Indonesia",
+      "land_cost_usd_acre_yr": 40,
+      "note": "SEZs Batang, Kendal; Java more expensive"
+    },
+    "MY": {
+      "name": "Malaysia",
+      "land_cost_usd_acre_yr": 70,
+      "note": "MIDA approved parks; Sarawak cheaper for H2"
+    },
+    "PH": {
+      "name": "Philippines",
+      "land_cost_usd_acre_yr": 80,
+      "note": "PEZA ecozones; Batangas, Subic Bay"
+    },
+    "SG": {
+      "name": "Singapore",
+      "land_cost_usd_acre_yr": 3000,
+      "note": "JTC industrial; among world's highest; Jurong Island"
+    },
+    "PK": {
+      "name": "Pakistan",
+      "land_cost_usd_acre_yr": 20,
+      "note": "SEZs under CPEC; Balochistan cheap"
+    },
+    "BD": {
+      "name": "Bangladesh",
+      "land_cost_usd_acre_yr": 30,
+      "note": "BEPZA export zones; land scarcity rising"
+    },
+    "TW": {
+      "name": "Taiwan",
+      "land_cost_usd_acre_yr": 400,
+      "note": "STSP, CTSP science parks; high demand"
+    },
+
+    "KZ": {
+      "name": "Kazakhstan",
+      "land_cost_usd_acre_yr": 5,
+      "note": "Vast steppe; SEZ Astana Hub, Aktau"
+    },
+    "UZ": {
+      "name": "Uzbekistan",
+      "land_cost_usd_acre_yr": 3,
+      "note": "FEZ Navoi, Bukhara; very low costs"
+    },
+    "GE": {
+      "name": "Georgia",
+      "land_cost_usd_acre_yr": 15,
+      "note": "FIZ Kutaisi, Poti; government incentives"
+    },
+    "AZ": {
+      "name": "Azerbaijan",
+      "land_cost_usd_acre_yr": 10,
+      "note": "Alat FEZ; government-allocated"
+    },
+    "MN": {
+      "name": "Mongolia",
+      "land_cost_usd_acre_yr": 2,
+      "note": "Vast land; nomadic land use traditions"
+    },
+
+    "TR": {
+      "name": "Turkey",
+      "land_cost_usd_acre_yr": 100,
+      "note": "OIZ organized industrial zones; varies by region"
+    },
+    "UA": {
+      "name": "Ukraine",
+      "land_cost_usd_acre_yr": 20,
+      "note": "Industrial parks; war-disrupted market"
+    },
+    "RU": {
+      "name": "Russia",
+      "land_cost_usd_acre_yr": 10,
+      "note": "SEZs Alabuga, Lipetsk; vast cheap land outside Moscow"
+    },
+
+    "DE": {
+      "name": "Germany",
+      "land_cost_usd_acre_yr": 600,
+      "note": "GRW incentive areas cheaper; NRW/Bavaria expensive"
+    },
+    "FR": {
+      "name": "France",
+      "land_cost_usd_acre_yr": 300,
+      "note": "ZAC industrial zones; south/rural cheaper"
+    },
+    "ES": {
+      "name": "Spain",
+      "land_cost_usd_acre_yr": 150,
+      "note": "Suelo industrial; Andalusia/Extremadura cheaper for solar H2"
+    },
+    "IT": {
+      "name": "Italy",
+      "land_cost_usd_acre_yr": 350,
+      "note": "ZES Mezzogiorno cheaper; north industrial expensive"
+    },
+    "NL": {
+      "name": "Netherlands",
+      "land_cost_usd_acre_yr": 800,
+      "note": "Port of Rotterdam industrial; among Europe's highest"
+    },
+    "BE": {
+      "name": "Belgium",
+      "land_cost_usd_acre_yr": 500,
+      "note": "Port of Antwerp; dense country"
+    },
+    "AT": {
+      "name": "Austria",
+      "land_cost_usd_acre_yr": 300,
+      "note": "Betriebsgebiet; varies by Bundesland"
+    },
+    "PL": {
+      "name": "Poland",
+      "land_cost_usd_acre_yr": 80,
+      "note": "SEZ Katowice, Lodz; cheapest in central EU"
+    },
+    "PT": {
+      "name": "Portugal",
+      "land_cost_usd_acre_yr": 100,
+      "note": "ZI Sines (H2 hub); Alentejo cheaper"
+    },
+    "GR": {
+      "name": "Greece",
+      "land_cost_usd_acre_yr": 80,
+      "note": "ETVA industrial parks; Thrace/W. Macedonia cheaper"
+    },
+    "DK": {
+      "name": "Denmark",
+      "land_cost_usd_acre_yr": 400,
+      "note": "Erhvervsgrund; Jutland cheaper than Copenhagen"
+    },
+    "SE": {
+      "name": "Sweden",
+      "land_cost_usd_acre_yr": 200,
+      "note": "Norrland (H2 green steel) cheaper; south expensive"
+    },
+    "NO": {
+      "name": "Norway",
+      "land_cost_usd_acre_yr": 250,
+      "note": "Næringstomt; fjord/coastal industrial sites"
+    },
+    "FI": {
+      "name": "Finland",
+      "land_cost_usd_acre_yr": 150,
+      "note": "Teollisuustontti; Lapland/Ostrobothnia cheaper"
+    },
+    "IE": {
+      "name": "Ireland",
+      "land_cost_usd_acre_yr": 250,
+      "note": "IDA Ireland parks; Shannon FZ"
+    },
+    "CH": {
+      "name": "Switzerland",
+      "land_cost_usd_acre_yr": 1500,
+      "note": "Among Europe's highest; limited industrial zoning"
+    },
+    "GB": {
+      "name": "Great Britain",
+      "land_cost_usd_acre_yr": 400,
+      "note": "Enterprise zones; Teesside H2 hub; north cheaper"
+    },
+
+    "CA": {
+      "name": "Canada",
+      "land_cost_usd_acre_yr": 80,
+      "note": "Alberta/Saskatchewan cheap; BC/Ontario expensive"
+    },
+    "US": {
+      "name": "United States",
+      "land_cost_usd_acre_yr": 200,
+      "note": "BLM federal land leases ~$2-15/acre; private industrial $100-1000+"
+    },
+    "IS": {
+      "name": "Iceland",
+      "land_cost_usd_acre_yr": 50,
+      "note": "Abundant land; geothermal industrial zones"
+    },
+
+    "US_TX": {
+      "name": "US - Texas",
+      "land_cost_usd_acre_yr": 80,
+      "note": "West TX wind/solar zones $30-60/acre; Gulf Coast industrial $100-200"
+    },
+    "US_CA": {
+      "name": "US - California",
+      "land_cost_usd_acre_yr": 500,
+      "note": "Inland Empire/Central Valley industrial; desert (Imperial) $50-150"
+    },
+    "US_AZ": {
+      "name": "US - Arizona",
+      "land_cost_usd_acre_yr": 100,
+      "note": "Phoenix metro industrial; Pinal County solar zones cheaper"
+    },
+    "US_NV": {
+      "name": "US - Nevada",
+      "land_cost_usd_acre_yr": 60,
+      "note": "BLM land; Storey County (Tahoe Reno); rural very cheap"
+    },
+    "US_NM": {
+      "name": "US - New Mexico",
+      "land_cost_usd_acre_yr": 30,
+      "note": "BLM/state trust land; Mesa del Sol; wind/solar zones very cheap"
+    },
+    "US_CO": {
+      "name": "US - Colorado",
+      "land_cost_usd_acre_yr": 120,
+      "note": "Front Range industrial expensive; eastern plains $30-80"
+    },
+    "US_OK": {
+      "name": "US - Oklahoma",
+      "land_cost_usd_acre_yr": 40,
+      "note": "Wind-rich western OK very cheap; Tulsa industrial moderate"
+    },
+    "US_KS": {
+      "name": "US - Kansas",
+      "land_cost_usd_acre_yr": 35,
+      "note": "Wind farm leases $30-50/acre; agricultural land abundant"
+    },
+    "US_IA": {
+      "name": "US - Iowa",
+      "land_cost_usd_acre_yr": 200,
+      "note": "Prime agricultural land expensive; wind lease $30-80/acre"
+    },
+    "US_MN": {
+      "name": "US - Minnesota",
+      "land_cost_usd_acre_yr": 180,
+      "note": "Agricultural premium; wind zones in SW cheaper"
+    },
+    "US_IL": {
+      "name": "US - Illinois",
+      "land_cost_usd_acre_yr": 250,
+      "note": "Chicagoland industrial expensive; downstate $80-150"
+    },
+    "US_IN": {
+      "name": "US - Indiana",
+      "land_cost_usd_acre_yr": 120,
+      "note": "NW Indiana industrial corridor; rest moderate"
+    },
+    "US_OH": {
+      "name": "US - Ohio",
+      "land_cost_usd_acre_yr": 150,
+      "note": "NE Ohio industrial; Appalachian region cheaper"
+    },
+    "US_PA": {
+      "name": "US - Pennsylvania",
+      "land_cost_usd_acre_yr": 200,
+      "note": "Pittsburgh/Philadelphia corridors; central PA cheaper"
+    },
+    "US_NY": {
+      "name": "US - New York",
+      "land_cost_usd_acre_yr": 400,
+      "note": "Upstate industrial parks $150-300; NYC metro extremely expensive"
+    },
+    "US_NJ": {
+      "name": "US - New Jersey",
+      "land_cost_usd_acre_yr": 600,
+      "note": "Among highest industrial land in US; Turnpike corridor"
+    },
+    "US_CT": {
+      "name": "US - Connecticut",
+      "land_cost_usd_acre_yr": 500,
+      "note": "Limited industrial land; high cost of living premium"
+    },
+    "US_MA": {
+      "name": "US - Massachusetts",
+      "land_cost_usd_acre_yr": 550,
+      "note": "Offshore wind staging; very limited industrial parcels"
+    },
+    "US_FL": {
+      "name": "US - Florida",
+      "land_cost_usd_acre_yr": 200,
+      "note": "Central FL industrial; panhandle/rural cheaper"
+    },
+    "US_GA": {
+      "name": "US - Georgia",
+      "land_cost_usd_acre_yr": 100,
+      "note": "Savannah port industrial; rural south very cheap"
+    },
+    "US_NC": {
+      "name": "US - North Carolina",
+      "land_cost_usd_acre_yr": 120,
+      "note": "Research Triangle expensive; eastern NC cheap"
+    },
+    "US_LA": {
+      "name": "US - Louisiana",
+      "land_cost_usd_acre_yr": 70,
+      "note": "Gulf Coast petrochem corridor; Cameron LNG area"
+    },
+    "US_WA": {
+      "name": "US - Washington",
+      "land_cost_usd_acre_yr": 150,
+      "note": "Columbia Basin cheap ($30-80); Puget Sound expensive"
+    },
+    "US_OR": {
+      "name": "US - Oregon",
+      "land_cost_usd_acre_yr": 120,
+      "note": "Eastern OR cheap; Portland metro expensive"
+    },
+    "US_MT": {
+      "name": "US - Montana",
+      "land_cost_usd_acre_yr": 25,
+      "note": "Vast cheap rangeland; wind zones very affordable"
+    },
+    "US_WY": {
+      "name": "US - Wyoming",
+      "land_cost_usd_acre_yr": 15,
+      "note": "Cheapest in US; BLM wind/energy leases; Cheyenne industrial"
+    },
+    "US_ND": {
+      "name": "US - North Dakota",
+      "land_cost_usd_acre_yr": 30,
+      "note": "Wind-rich; agricultural land moderate; Williston Basin"
+    },
+    "US_SD": {
+      "name": "US - South Dakota",
+      "land_cost_usd_acre_yr": 30,
+      "note": "Wind leases cheap; limited industrial demand"
+    },
+    "US_NE": {
+      "name": "US - Nebraska",
+      "land_cost_usd_acre_yr": 100,
+      "note": "Agricultural premium in east; Sandhills cheap"
+    },
+    "US_UT": {
+      "name": "US - Utah",
+      "land_cost_usd_acre_yr": 60,
+      "note": "Western desert cheap; Salt Lake corridor moderate"
+    },
+    "US_MI": {
+      "name": "US - Michigan",
+      "land_cost_usd_acre_yr": 120,
+      "note": "SE Michigan industrial; Upper Peninsula cheap"
+    },
+    "US_WI": {
+      "name": "US - Wisconsin",
+      "land_cost_usd_acre_yr": 130,
+      "note": "SE Wisconsin industrial; rural moderate"
+    },
+    "US_AL": {
+      "name": "US - Alabama",
+      "land_cost_usd_acre_yr": 60,
+      "note": "TVA industrial sites; auto corridor Birmingham-Huntsville"
+    },
+    "US_MS": {
+      "name": "US - Mississippi",
+      "land_cost_usd_acre_yr": 40,
+      "note": "Among cheapest in US; Gulf port industrial"
+    },
+    "US_SC": {
+      "name": "US - South Carolina",
+      "land_cost_usd_acre_yr": 80,
+      "note": "Charleston port corridor; upstate auto manufacturing"
+    },
+    "US_TN": {
+      "name": "US - Tennessee",
+      "land_cost_usd_acre_yr": 100,
+      "note": "Nashville corridor expensive; Memphis/Chattanooga moderate"
+    },
+    "US_VA": {
+      "name": "US - Virginia",
+      "land_cost_usd_acre_yr": 200,
+      "note": "NoVA data centers expensive; SW Virginia cheap"
+    },
+    "US_MD": {
+      "name": "US - Maryland",
+      "land_cost_usd_acre_yr": 300,
+      "note": "Baltimore corridor; limited industrial parcels"
+    },
+    "US_HI": {
+      "name": "US - Hawaii",
+      "land_cost_usd_acre_yr": 800,
+      "note": "Extremely limited; island premium"
+    },
+    "US_AK": {
+      "name": "US - Alaska",
+      "land_cost_usd_acre_yr": 10,
+      "note": "Vast BLM/state land; remote but extremely cheap; Kenai industrial corridor higher"
+    },
+    "US_AR": {
+      "name": "US - Arkansas",
+      "land_cost_usd_acre_yr": 50,
+      "note": "Low cost; NW Arkansas growing; eastern Delta very cheap"
+    },
+    "US_DE": {
+      "name": "US - Delaware",
+      "land_cost_usd_acre_yr": 350,
+      "note": "Small state; limited industrial parcels; offshore wind staging potential"
+    },
+    "US_ID": {
+      "name": "US - Idaho",
+      "land_cost_usd_acre_yr": 40,
+      "note": "Boise corridor growing; southern Idaho agricultural/solar very cheap"
+    },
+    "US_KY": {
+      "name": "US - Kentucky",
+      "land_cost_usd_acre_yr": 60,
+      "note": "Coal transition zones; eastern KY very cheap; Louisville corridor moderate"
+    },
+    "US_ME": {
+      "name": "US - Maine",
+      "land_cost_usd_acre_yr": 80,
+      "note": "Offshore wind staging; abundant rural land; Portland area moderate"
+    },
+    "US_MO": {
+      "name": "US - Missouri",
+      "land_cost_usd_acre_yr": 80,
+      "note": "KC/St. Louis corridors moderate; rural MO very cheap"
+    },
+    "US_NH": {
+      "name": "US - New Hampshire",
+      "land_cost_usd_acre_yr": 300,
+      "note": "Limited industrial land; southern NH expensive near Boston commuter belt"
+    },
+    "US_RI": {
+      "name": "US - Rhode Island",
+      "land_cost_usd_acre_yr": 500,
+      "note": "Smallest state; very limited industrial parcels; offshore wind hub potential"
+    },
+    "US_VT": {
+      "name": "US - Vermont",
+      "land_cost_usd_acre_yr": 200,
+      "note": "Limited industrial base; rural land moderate; Act 250 land-use regulation"
+    },
+    "US_WV": {
+      "name": "US - West Virginia",
+      "land_cost_usd_acre_yr": 30,
+      "note": "Coal transition; among cheapest in eastern US; Appalachian industrial sites"
+    },
+
+    "EU_DE_NORTH": {
+      "name": "Germany - North (Schleswig-Holstein, Niedersachsen, M-V)",
+      "land_cost_usd_acre_yr": 300,
+      "note": "Wind-rich; offshore staging ports; cheaper than south"
+    },
+    "EU_DE_NRW": {
+      "name": "Germany - North Rhine-Westphalia",
+      "land_cost_usd_acre_yr": 800,
+      "note": "Ruhr industrial corridor; highest in Germany"
+    },
+    "EU_DE_EAST": {
+      "name": "Germany - East (Brandenburg, Saxony, Thuringia)",
+      "land_cost_usd_acre_yr": 200,
+      "note": "GRW Foerdergebiet subsidies; Leuna H2 hub area"
+    },
+    "EU_DE_SOUTH": {
+      "name": "Germany - South (Bavaria, Baden-Württemberg)",
+      "land_cost_usd_acre_yr": 700,
+      "note": "Munich/Stuttgart corridor expensive; rural BW moderate"
+    },
+    "EU_ES_ANDALUSIA": {
+      "name": "Spain - Andalusia",
+      "land_cost_usd_acre_yr": 60,
+      "note": "Green H2 Valley Huelva; Campo de Gibraltar; cheapest in Spain"
+    },
+    "EU_ES_ARAGON": {
+      "name": "Spain - Aragon/Castilla",
+      "land_cost_usd_acre_yr": 40,
+      "note": "Wind-rich plateau; very cheap industrial land"
+    },
+    "EU_ES_CATALONIA": {
+      "name": "Spain - Catalonia",
+      "land_cost_usd_acre_yr": 300,
+      "note": "Barcelona corridor expensive; inland Tarragona moderate"
+    },
+    "EU_ES_VALENCIA": {
+      "name": "Spain - Valencia/Murcia",
+      "land_cost_usd_acre_yr": 100,
+      "note": "Port of Valencia; solar-rich Murcia"
+    },
+    "EU_FR_NORTH": {
+      "name": "France - North (Hauts-de-France, Normandy)",
+      "land_cost_usd_acre_yr": 200,
+      "note": "Dunkirk H2 hub; port industrial; offshore wind staging"
+    },
+    "EU_FR_SOUTH": {
+      "name": "France - South (Occitanie, PACA)",
+      "land_cost_usd_acre_yr": 250,
+      "note": "Fos-sur-Mer industrial; solar-rich Occitanie"
+    },
+    "EU_FR_WEST": {
+      "name": "France - West (Bretagne, Pays de la Loire)",
+      "land_cost_usd_acre_yr": 150,
+      "note": "Saint-Nazaire offshore wind; moderate industrial costs"
+    },
+    "EU_IT_SOUTH": {
+      "name": "Italy - South (Puglia, Sicily, Sardinia)",
+      "land_cost_usd_acre_yr": 100,
+      "note": "ZES Mezzogiorno incentives; Taranto/Brindisi industrial"
+    },
+    "EU_IT_NORTH": {
+      "name": "Italy - North (Lombardy, Veneto, Emilia-Romagna)",
+      "land_cost_usd_acre_yr": 500,
+      "note": "Po Valley industrial heartland; among most expensive in EU"
+    },
+    "EU_NL_ROTTERDAM": {
+      "name": "Netherlands - Rotterdam/Maasvlakte",
+      "land_cost_usd_acre_yr": 1000,
+      "note": "Port of Rotterdam H2 hub; premium industrial port land"
+    },
+    "EU_NL_NORTH": {
+      "name": "Netherlands - Groningen/Eemshaven",
+      "land_cost_usd_acre_yr": 400,
+      "note": "Green H2 hub; former gas region transitioning; cheaper than Randstad"
+    },
+    "EU_DK_JUTLAND": {
+      "name": "Denmark - Jutland",
+      "land_cost_usd_acre_yr": 250,
+      "note": "Esbjerg offshore wind port; cheaper than Zealand"
+    },
+    "EU_SE_NORRLAND": {
+      "name": "Sweden - Norrland",
+      "land_cost_usd_acre_yr": 50,
+      "note": "HYBRIT/H2 Green Steel zone; very cheap; abundant wind/hydro"
+    },
+    "EU_SE_SOUTH": {
+      "name": "Sweden - South (Skåne, Västra Götaland)",
+      "land_cost_usd_acre_yr": 300,
+      "note": "Gothenburg/Malmö corridors; port industrial"
+    },
+    "EU_NO_WEST": {
+      "name": "Norway - West Coast (Rogaland, Hordaland)",
+      "land_cost_usd_acre_yr": 200,
+      "note": "Stavanger/Bergen energy corridor; offshore wind staging"
+    },
+    "EU_NO_NORTH": {
+      "name": "Norway - North (Nordland, Troms, Finnmark)",
+      "land_cost_usd_acre_yr": 80,
+      "note": "Hammerfest LNG; Arctic wind; very cheap land"
+    },
+    "EU_FI_OSTROBOTHNIA": {
+      "name": "Finland - Ostrobothnia/Oulu",
+      "land_cost_usd_acre_yr": 60,
+      "note": "Wind-rich west coast; green steel/H2 projects"
+    },
+    "EU_PL_SILESIA": {
+      "name": "Poland - Silesia/Katowice",
+      "land_cost_usd_acre_yr": 120,
+      "note": "Coal transition zone; SEZ incentives; industrial heritage"
+    },
+    "EU_PL_POMERANIA": {
+      "name": "Poland - Pomerania/Gdansk",
+      "land_cost_usd_acre_yr": 60,
+      "note": "Baltic offshore wind staging; Gdansk port industrial"
+    },
+    "EU_PT_SINES": {
+      "name": "Portugal - Sines/Alentejo",
+      "land_cost_usd_acre_yr": 50,
+      "note": "Sines green H2 hub; deepwater port; cheapest in western EU"
+    },
+    "EU_GR_THRACE": {
+      "name": "Greece - Western Thrace/Macedonia",
+      "land_cost_usd_acre_yr": 40,
+      "note": "Wind-rich; SEZ Alexandroupolis; cheapest in EU"
+    },
+    "EU_IE_SHANNON": {
+      "name": "Ireland - Shannon/Midwest",
+      "land_cost_usd_acre_yr": 150,
+      "note": "Shannon FZ; offshore wind staging; IDA incentive sites"
+    },
+    "EU_GB_TEESSIDE": {
+      "name": "UK - Teesside/Humber",
+      "land_cost_usd_acre_yr": 150,
+      "note": "East Coast H2 cluster; industrial freeport zones"
+    },
+    "EU_GB_SCOTLAND": {
+      "name": "UK - Scotland",
+      "land_cost_usd_acre_yr": 100,
+      "note": "Cromarty Firth H2 hub; Aberdeen energy transition; wind-rich"
+    }
+  }
+}

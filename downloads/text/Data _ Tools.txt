@@ -1,0 +1,19 @@
+Title: Data & Tools
+URL: https://www.nrel.gov/hydrogen/data-tools
+Date: 2026-01-28
+======================================================================
+
+Data and Tools
+NLR develops data, tools, and models for analyzing hydrogen and fuel cell technologies—from the materials to the systems scale.
+Featured Tools
+H2A-Lite: Hydrogen Analysis Lite Production Model
+Model that provides a convenient, high-level techno-economic view of select hydrogen production technologies.
+H2A: Hydrogen Analysis Production Models
+Models for analyzing the economics of distributed and centralized hydrogen production from various energy resources, including renewables, coal, natural gas, and biomass.
+H2FillS: Hydrogen Filling Simulation
+Simulation tool to safely design and operate hydrogen fueling station by tracking the transient change in hydrogen temperature, pressure, and mass flow when filling a fuel cell electric vehicle.
+H2FAST: Hydrogen Financial Analysis Scenario Tool
+Tool to conduct in-depth financial analysis for hydrogen fueling stations quickly and conveniently.
+SERA: Scenario Evaluation and Regionalization Analysis Model
+Model that evaluates both the supply and demand sides of transportation systems to conduct infrastructure development and transportation analysis as well as guide investment decisions.
+Data and Tools By Type

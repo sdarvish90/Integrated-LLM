@@ -1,0 +1,100 @@
+{
+  "warnings": [
+    {
+      "warning": "incomplete return",
+      "description": "The API can only return 5000 rows in JSON format.  Please consider constraining your request with facet, start, or end, or using offset to paginate results."
+    }
+  ],
+  "response": {
+    "total": "58710",
+    "dateFormat": "YYYY-MM",
+    "frequency": "monthly",
+    "data": [
+      {
+        "period": "2025-10",
+        "duoarea": "R10-R10",
+        "area-name": "PADD 1",
+        "product": "EPLLPA",
+        "product-name": "Propane",
+        "process": "RAIL",
+        "process-name": "Receipts by Rail",
+        "series": "ESM_EPLLPA_RAIL_R10-R10_MBBL",
+        "series-description": "East Coast (PADD 1) Intra-PADD Movement by Rail of Propane (Thousand Barrels)",
+        "value": "813",
+        "units": "MBBL"
+      },
+      {
+        "period": "2025-10",
+        "duoarea": "ZAMN-R30",
+        "area-name": "PADD 3",
+        "product": "EPLLPA",
+        "product-name": "Propane",
+        "process": "RAIL",
+        "process-name": "Receipts by Rail",
+        "series": "ESM_EPLLPA_RAIL_ZAMN-R30_MBBL",
+        "series-description": "Total Receipts by Rail from Gulf Coast (PADD 3) of Propane (Thousand Barrels)",
+        "value": "267",
+        "units": "MBBL"
+      },
+      {
+        "period": "2025-10",
+        "duoarea": "R30-R50",
+        "area-name": "PADD 5",
+        "product": "EPOORDO",
+        "product-name": "Renewable Diesel Fuel",
+        "process": "RAIL",
+        "process-name": "Receipts by Rail",
+        "series": "ESM_EPOORDO_RAIL_R30-R50_MBBL",
+        "series-description": "Gulf Coast (PADD 3) Receipts by Rail from West Coast (PADD 5) of Renewable Diesel Fuel (Thousand Barrels)",
+        "value": "6",
+        "units": "MBBL"
+      },
+      {
+        "period": "2025-10",
+        "duoarea": "ZAMN-R40",
+        "area-name": "PADD 4",
+        "product": "EPOORDB",
+        "product-name": "Biodiesel",
+        "process": "RAIL",
+        "process-name": "Receipts by Rail",
+        "series": "ESM_EPOORDB_RAIL_ZAMN-R40_MBBL",
+        "series-description": "Total Receipts by Rail from Rocky Mountain (PADD 4) of Biodiesel (Thousand Barrels)",
+        "value": "12",
+        "units": "MBBL"
+      },
+      {
+        "period": "2025-10",
+        "duoarea": "NUS-NCA",
+        "area-name": "CAN",
+        "product": "EPLLPY",
+        "product-name": "Propylene",
+        "process": "RAIL",
+        "process-name": "Receipts by Rail",
+        "series": "ESM_EPLLPY_RAIL_NUS-NCA_MBBL",
+        "series-description": "U.S. Receipts by Rail from Canada of Propylene (Thousand Barrels)",
+        "value": "6",
+        "units": "MBBL"
+      }
+    ]
+  },
+  "request": {
+    "command": "/v2/petroleum/move/rail/data/",
+    "params": {
+      "api_key": "o5nQ7H9b6Bf9Kh3D0cCeC8ydP24drGTiFGaCQrKN",
+      "frequency": "monthly",
+      "data": [
+        "value"
+      ],
+      "sort": [
+        {
+          "column": "period",
+          "direction": "desc"
+        }
+      ],
+      "length": "5",
+      "offset": "0"
+    }
+  },
+  "apiVersion": "2.1.10",
+  "ExcelAddInVersion": "2.1.0"
+}

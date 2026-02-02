@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="robots" content="noindex, follow">
+<meta id="vp" name="viewport" content="minimum-scale=1, maximum-scale=1, user-scalable=no, initial-scale=1" />
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+<meta http-equiv="x-ua-compatible" content="IE=edge" />
+<title>Flipsnack</title>
+<style>
+html,body{height:100%;width:100%;min-height:100%;min-width:100%;overflow:hidden;background-color:transparent;border:0;padding:0;margin:0}
+.embederror{width:100%;display:block;text-align:center;position:relative;top:50%;-ms-transform:translateY(-50%);transform:translateY(-50%);font-family:sans-serif}
+</style>
+<script async src=https://www.googletagmanager.com/gtag/js></script>
+<script>
+"use strict";function openGoPremium(){var a=document.referrer.split("#")[0];window.top.location.href=a+"#st-buy-points&vipOnly=1"}function setDirectLinkParam(a,b){var f,c=0===document.referrer.indexOf("https://")?"https://":"http://",d=new RegExp(c+"[^/]+"),e=d.exec(document.referrer);a&&b&&(f="setDlParam_"+a+"_"+b,e&&e[0]&&e[0].length>0&&parent.postMessage(f,"*"))}function sendReferrer(){var a=frames[0]||null;a&&a.postMessage(document.referrer,"*")}function sendOrientation(){var a=frames[0]||null;a&&a.postMessage("orientationchange:"+window.orientation+"_"+document.body.scrollWidth+"x"+document.body.scrollHeight,"*")}function fatalError(a){document.body.innerHTML='<span class="embederror">'+a+"</span>"}function isIE8(){return navigator.userAgent.toLowerCase().search("msie 8")>-1||navigator.appVersion.toLowerCase().search("msie 8")>-1}function documentReady(){var b,c,d,a=0;if(isIE8())return void fatalError(ERR.NOT_ON_IE8);if(location.search)for(c=location.search.substr(1).split("&"),b=c.length;a<b;a++)d=c[a].split("=",2),GET[d[0]]=decodeURIComponent(d[1]);if(!GET.hash)return void fatalError(ERR.INVALID_HASH);GET.v&&(VERSION=GET.v),GET.bgcolor&&("#"!=GET.bgcolor.substr(0,1)&&(GET.bgcolor="#"+GET.bgcolor),7!=GET.bgcolor.length&&delete GET.bgcolor),loadWidgetNou()}function loadJS(a,b){var c=document.getElementsByTagName("HEAD").item(0),d=document.createElement("script");d.type="text/javascript",d.src=a+"?v="+VERSION,d.onload=function(){"function"==typeof b&&b.apply(window,arguments)},c.appendChild(d)}function loadCSS(a){var b=document.getElementsByTagName("HEAD").item(0),c=document.createElement("link");c.rel="stylesheet",c.type="text/css",c.href=a+"?v="+VERSION,b.appendChild(c)}function loadWidgetNou(){loadCSS("main.min.gz.css"),loadCSS("desktop.min.gz.css"),loadCSS("shelf.min.gz.css"),loadCSS("theme.min.gz.css"),loadJS("main.min.gz.js",function(){loadJS("desktop.min.gz.js",function(){loadJS("customcontent.min.gz.js",function(){loadJS("shelf.min.gz.js",function(){setupWidgetNou()})})})})}function setupWidgetNou(){var a;try{a=new FlipSnackEmbed(GET),a.on("pageChanged",function(a){setDirectLinkParam("startBook",a.book),setDirectLinkParam("startPage",a.page)}),a.on("bookChanged",function(a){setDirectLinkParam("startBook",a.book),setDirectLinkParam("startPage",a.page)})}catch(a){fatalError(a)}}var VERSION="1743662451613",GET={referrer:document.referrer},ERR={INVALID_HASH:"Invalid hash",INVALID_URL:"'Invalid url",FATAL_ERROR:"An error has occured",NOT_ON_IE8:"Our widgets don't work on IE8. So sorry about that! Please upgrade to the latest version of IE or use a different browser."};
+</script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date());gtag("config","{$GTAG}", {
+    cookie_flags: 'max-age=7200;secure;samesite=none'
+});
+    Object.defineProperty(String.prototype, 'encodeHTML', {
+        value: function encodeHTML() {
+            return this.replace(/[\u00A0-\u9999<>\&]/g, function(i) {
+                return '&#'+i.charCodeAt(0)+';';
+            });
+        }
+    });
+</script>
+</head>
+<body onload="documentReady()"></body>
+</html>

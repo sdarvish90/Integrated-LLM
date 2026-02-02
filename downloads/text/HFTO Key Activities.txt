@@ -1,0 +1,56 @@
+Title: HFTO Key Activities
+URL: https://www.energy.gov/eere/fuelcells/hydrogen-and-fuel-cell-technologies-office-key-activities
+Date: 2026-01-28
+======================================================================
+
+The U.S. Department of Energy's (DOE's) Hydrogen and Fuel Cell Technologies Office (HFTO) conducts work in several key areas to advance the development of hydrogen and fuel cell technologies.
+Research, Development, and Demonstration
+Key areas of research, development, and demonstration (RD&D) include the following:
+Fuel cell R&D
+, which seeks to improve the durability, reduce the cost, and improve the performance of fuel cell systems, through advances in fuel cell stack and balance of plant components
+Hydrogen fuel R&D
+, which focuses on enabling the production of low-cost hydrogen fuel from diverse renewable pathways and addressing key challenges to hydrogen
+delivery
+and
+storage
+Manufacturing R&D
+, which works to develop and demonstrate advanced manufacturing technologies and processes that will reduce the cost of fuel cell systems and hydrogen technologies
+Technology validation
+, which demonstrates and validates pre-commercial technologies before the deployment phase.
+To ensure that advances in the laboratory can be realized in the marketplace, the Hydrogen and Fuel Cell Technologies Office conducts a range of activities to address economic and institutional barriers:
+Education and outreach
+activities aim to increase public awareness and understanding of the technologies, facilitating the implementation of near-term demonstration projects and early market fuel cell installations, while easing the way for long-term market adoption.
+Market transformation
+activities provide financial and technical assistance for the use of hydrogen and fuel cell systems in early market applications, with the goals of achieving sales volumes that will enable cost reductions through economies of scale, supporting the development of a domestic industry, and providing feedback to testing programs, manufacturers, and potential technology users.
+Safety, codes and standards
+efforts develop information resources and best practices to address safety issues, and to provide critical information needed for technically sound codes and standards—these efforts in codes and standards will be ongoing as new technologies emerge and mature.
+Advisory Panels
+These advisory panels have provided technical and programmatic advice for DOE's Hydrogen Program.
+Hydrogen and Fuel Cell Technical Advisory Committee
+The Hydrogen and Fuel Cell Technical Advisory Committee (HTAC) was established under Section 807 of the Energy Policy Act of 2005 to provide technical and programmatic advice to the Energy Secretary on DOE's hydrogen research, development, and demonstration efforts, and was operational from October 2006 through January 7, 2021.
+Find information from past HTAC meetings and access past HTAC reports and publications on the
+DOE Hydrogen Program
+website.
+National Research Council
+The National Academy of Sciences, through its National Research Council (NRC), periodically reviews the research and demonstration programs of DOE's Hydrogen Program as directed by the Energy Policy Act of 2005. The NRC is administered jointly by the National Academy of Sciences, the National Academy of Engineering, and the Institute of Medicine through the NRC Governing Board. For more information about NRC and related publications geared toward DOE's Hydrogen Program, visit the
+DOE Hydrogen Program
+website.
+Consortia
+The Hydrogen and Fuel Cell Technologies Office funds
+lab-led consortia
+to coordinate national laboratory research and development activities and serve as a resource for universities and industry.
+H2@Scale
+H2@Scale
+is a DOE initiative that brings together stakeholders to advance affordable hydrogen production, transport, storage, and utilization to increase revenue opportunities in multiple energy sectors. It is a framework in which national laboratories and industry can work together through government co-funded projects to accelerate the early-stage research, development, and demonstration of applicable hydrogen technologies.
+Systems Integration
+The breadth and complexity of the overall DOE Hydrogen Program RD&D effort, as well as the interaction of program elements, requires an integrated approach to reduce risk and maximize the potential for success. The focus of
+systems integration
+is to understand the complex interactions among program areas, components, and the tradeoffs between them.
+Partnerships and International Activities
+Cooperative hydrogen and fuel cell technology R&D will play a central role in advancing the transition to widespread adoption of hydrogen and fuel cell technologies.
+H2USA
+H2USA is a public-private collaboration focused on addressing the key challenges of hydrogen infrastructure.
+International Energy Agency
+Member countries across the globe address the technological, financial, and institutional barriers to widespread commercialization of hydrogen and fuel cells.
+International Partnership for Hydrogen and Fuel Cells in the Economy
+This multinational partnership coordinates research, development, and deployment programs to advance the commercialization of hydrogen and fuel cell technologies.

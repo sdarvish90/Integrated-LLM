@@ -1,0 +1,522 @@
+{
+  "_metadata": {
+    "description": "Wind and solar PPA / LCOE benchmark prices by country (USD/MWh)",
+    "last_updated": "2025-01",
+    "sources": [
+      "IRENA Renewable Power Generation Costs 2024",
+      "BNEF LCOE 2025",
+      "LevelTen PPA Price Index Q4 2024",
+      "Lawrence Berkeley Lab Utility-Scale Solar 2024",
+      "National auction results and project announcements"
+    ],
+    "notes": "Prices represent typical utility-scale PPA or LCOE. Actual PPAs vary by contract length, risk allocation, and bankability."
+  },
+  "countries": {
+    "OM": {
+      "name": "Oman",
+      "solar_ppa_usd_mwh": 25,
+      "wind_ppa_usd_mwh": 30,
+      "year": 2024,
+      "note": "Ibri II solar 300MW at $0.0269/kWh; strong wind in Duqm/Dhofar"
+    },
+    "SA": {
+      "name": "Saudi Arabia",
+      "solar_ppa_usd_mwh": 15,
+      "wind_ppa_usd_mwh": 22,
+      "year": 2024,
+      "note": "Record solar bid $0.0129/kWh (2024 tender); 400MW Dumat Al Jandal wind"
+    },
+    "AE": {
+      "name": "UAE",
+      "solar_ppa_usd_mwh": 17,
+      "wind_ppa_usd_mwh": null,
+      "year": 2024,
+      "note": "Al Dhafra 2GW at 1.35¢/kWh; limited onshore wind"
+    },
+    "QA": {
+      "name": "Qatar",
+      "solar_ppa_usd_mwh": 20,
+      "wind_ppa_usd_mwh": null,
+      "year": 2024,
+      "note": "Al Kharsaah 800MW solar"
+    },
+    "KW": {
+      "name": "Kuwait",
+      "solar_ppa_usd_mwh": 22,
+      "wind_ppa_usd_mwh": null,
+      "year": 2024,
+      "note": "Shagaya Renewable Complex"
+    },
+    "JO": {
+      "name": "Jordan",
+      "solar_ppa_usd_mwh": 28,
+      "wind_ppa_usd_mwh": 35,
+      "year": 2024,
+      "note": "Active RE auctions; Tafila wind farm"
+    },
+    "BH": {
+      "name": "Bahrain",
+      "solar_ppa_usd_mwh": 25,
+      "wind_ppa_usd_mwh": null,
+      "year": 2024,
+      "note": "Limited utility-scale projects"
+    },
+    "IQ": {
+      "name": "Iraq",
+      "solar_ppa_usd_mwh": 35,
+      "wind_ppa_usd_mwh": null,
+      "year": 2024,
+      "note": "Emerging market, limited data"
+    },
+    "IR": {
+      "name": "Iran",
+      "solar_ppa_usd_mwh": 30,
+      "wind_ppa_usd_mwh": 35,
+      "year": 2024,
+      "note": "Sanctions limit investment; good resource"
+    },
+
+    "MA": {
+      "name": "Morocco",
+      "solar_ppa_usd_mwh": 30,
+      "wind_ppa_usd_mwh": 30,
+      "year": 2024,
+      "note": "Noor Midelt CSP-PV 7¢/kWh; Noor PV1 €42/MWh; strong wind resource"
+    },
+    "EG": {
+      "name": "Egypt",
+      "solar_ppa_usd_mwh": 28,
+      "wind_ppa_usd_mwh": 30,
+      "year": 2024,
+      "note": "Benban 1.8GW solar; Suez Gulf wind"
+    },
+    "TN": {
+      "name": "Tunisia",
+      "solar_ppa_usd_mwh": 35,
+      "wind_ppa_usd_mwh": 38,
+      "year": 2024,
+      "note": "Developing RE market"
+    },
+    "DZ": {
+      "name": "Algeria",
+      "solar_ppa_usd_mwh": 35,
+      "wind_ppa_usd_mwh": 40,
+      "year": 2024,
+      "note": "Large solar potential, limited auctions"
+    },
+
+    "ZA": {
+      "name": "South Africa",
+      "solar_ppa_usd_mwh": 28,
+      "wind_ppa_usd_mwh": 35,
+      "year": 2024,
+      "note": "REIPPPP Round 7: solar $25-28/MWh; wind competitive"
+    },
+    "KE": {
+      "name": "Kenya",
+      "solar_ppa_usd_mwh": 55,
+      "wind_ppa_usd_mwh": 50,
+      "year": 2024,
+      "note": "Lake Turkana 310MW wind; off-grid solar growing"
+    },
+    "NG": {
+      "name": "Nigeria",
+      "solar_ppa_usd_mwh": 60,
+      "wind_ppa_usd_mwh": null,
+      "year": 2024,
+      "note": "Emerging market, high financing costs"
+    },
+    "ET": {
+      "name": "Ethiopia",
+      "solar_ppa_usd_mwh": 45,
+      "wind_ppa_usd_mwh": 50,
+      "year": 2024,
+      "note": "Scaling from hydro to solar/wind"
+    },
+    "NA_COUNTRY": {
+      "name": "Namibia",
+      "solar_ppa_usd_mwh": 35,
+      "wind_ppa_usd_mwh": 40,
+      "year": 2024,
+      "note": "Excellent solar resource; green hydrogen projects"
+    },
+    "MZ": {
+      "name": "Mozambique",
+      "solar_ppa_usd_mwh": 45,
+      "wind_ppa_usd_mwh": null,
+      "year": 2024,
+      "note": "Emerging solar market"
+    },
+
+    "CL": {
+      "name": "Chile",
+      "solar_ppa_usd_mwh": 35,
+      "wind_ppa_usd_mwh": 40,
+      "year": 2024,
+      "note": "Atacama solar PPAs $30-40/MWh; April 2024 tender $56.6/MWh (bundled)"
+    },
+    "BR": {
+      "name": "Brazil",
+      "solar_ppa_usd_mwh": 25,
+      "wind_ppa_usd_mwh": 30,
+      "year": 2024,
+      "note": "Gameleira solar $22/MWh; Brazil among cheapest in Americas"
+    },
+    "AR": {
+      "name": "Argentina",
+      "solar_ppa_usd_mwh": 35,
+      "wind_ppa_usd_mwh": 38,
+      "year": 2024,
+      "note": "Patagonia wind excellent; currency risk affects PPAs"
+    },
+    "CO": {
+      "name": "Colombia",
+      "solar_ppa_usd_mwh": 40,
+      "wind_ppa_usd_mwh": 45,
+      "year": 2024,
+      "note": "La Guajira wind; growing solar auctions"
+    },
+    "PE": {
+      "name": "Peru",
+      "solar_ppa_usd_mwh": 38,
+      "wind_ppa_usd_mwh": 42,
+      "year": 2024,
+      "note": "Atacama desert solar potential"
+    },
+    "UY": {
+      "name": "Uruguay",
+      "solar_ppa_usd_mwh": 40,
+      "wind_ppa_usd_mwh": 35,
+      "year": 2024,
+      "note": "98% renewable grid; wind-dominant"
+    },
+    "PY": {
+      "name": "Paraguay",
+      "solar_ppa_usd_mwh": 35,
+      "wind_ppa_usd_mwh": null,
+      "year": 2024,
+      "note": "Hydro-dominant; limited wind/solar PPA market"
+    },
+    "EC": {
+      "name": "Ecuador",
+      "solar_ppa_usd_mwh": 42,
+      "wind_ppa_usd_mwh": 48,
+      "year": 2024,
+      "note": "Growing RE auctions"
+    },
+
+    "MX": {
+      "name": "Mexico",
+      "solar_ppa_usd_mwh": 30,
+      "wind_ppa_usd_mwh": 35,
+      "year": 2024,
+      "note": "Pre-AMLO auctions very competitive; market uncertain"
+    },
+    "PA": {
+      "name": "Panama",
+      "solar_ppa_usd_mwh": 45,
+      "wind_ppa_usd_mwh": 50,
+      "year": 2024,
+      "note": "Small market"
+    },
+
+    "AU": {
+      "name": "Australia",
+      "solar_ppa_usd_mwh": 45,
+      "wind_ppa_usd_mwh": 55,
+      "year": 2024,
+      "note": "PPAs rising from $40 lows to >$70/MWh; grid constraints"
+    },
+    "NZ": {
+      "name": "New Zealand",
+      "solar_ppa_usd_mwh": 55,
+      "wind_ppa_usd_mwh": 50,
+      "year": 2024,
+      "note": "Wind-dominant; hydro complementary"
+    },
+    "IN_COUNTRY": {
+      "name": "India",
+      "solar_ppa_usd_mwh": 30,
+      "wind_ppa_usd_mwh": 35,
+      "year": 2024,
+      "note": "Solar auctions $25-33/MWh; Waaree lowest $0.0256/kWh"
+    },
+    "CN": {
+      "name": "China",
+      "solar_ppa_usd_mwh": 33,
+      "wind_ppa_usd_mwh": 29,
+      "year": 2024,
+      "note": "IRENA LCOE: solar $33/MWh, wind $29/MWh; lowest globally"
+    },
+    "JP": {
+      "name": "Japan",
+      "solar_ppa_usd_mwh": 80,
+      "wind_ppa_usd_mwh": 100,
+      "year": 2024,
+      "note": "High land costs; offshore wind emerging; FIT transitioning to FIP"
+    },
+    "KR": {
+      "name": "South Korea",
+      "solar_ppa_usd_mwh": 70,
+      "wind_ppa_usd_mwh": 85,
+      "year": 2024,
+      "note": "Limited land; offshore wind focus"
+    },
+    "VN": {
+      "name": "Vietnam",
+      "solar_ppa_usd_mwh": 38,
+      "wind_ppa_usd_mwh": 45,
+      "year": 2024,
+      "note": "FIT expired; transitioning to competitive auctions"
+    },
+    "TH": {
+      "name": "Thailand",
+      "solar_ppa_usd_mwh": 42,
+      "wind_ppa_usd_mwh": 50,
+      "year": 2024,
+      "note": "Corporate PPA market growing"
+    },
+    "ID": {
+      "name": "Indonesia",
+      "solar_ppa_usd_mwh": 45,
+      "wind_ppa_usd_mwh": 55,
+      "year": 2024,
+      "note": "Regulated tariffs; PLN monopoly buyer"
+    },
+    "MY": {
+      "name": "Malaysia",
+      "solar_ppa_usd_mwh": 42,
+      "wind_ppa_usd_mwh": null,
+      "year": 2024,
+      "note": "LSS (Large Scale Solar) auctions; limited wind"
+    },
+    "PH": {
+      "name": "Philippines",
+      "solar_ppa_usd_mwh": 48,
+      "wind_ppa_usd_mwh": 55,
+      "year": 2024,
+      "note": "GERAC auctions; island grid constraints"
+    },
+    "PK": {
+      "name": "Pakistan",
+      "solar_ppa_usd_mwh": 35,
+      "wind_ppa_usd_mwh": 40,
+      "year": 2024,
+      "note": "Jhimpir wind corridor; Sindh solar"
+    },
+    "BD": {
+      "name": "Bangladesh",
+      "solar_ppa_usd_mwh": 50,
+      "wind_ppa_usd_mwh": null,
+      "year": 2024,
+      "note": "Limited utility-scale; rooftop growing"
+    },
+    "TW": {
+      "name": "Taiwan",
+      "solar_ppa_usd_mwh": 60,
+      "wind_ppa_usd_mwh": 90,
+      "year": 2024,
+      "note": "Offshore wind focus; high costs"
+    },
+    "MN": {
+      "name": "Mongolia",
+      "solar_ppa_usd_mwh": 40,
+      "wind_ppa_usd_mwh": 45,
+      "year": 2024,
+      "note": "Excellent resource; limited infrastructure"
+    },
+    "KZ": {
+      "name": "Kazakhstan",
+      "solar_ppa_usd_mwh": 35,
+      "wind_ppa_usd_mwh": 38,
+      "year": 2024,
+      "note": "RE auction program active"
+    },
+    "UZ": {
+      "name": "Uzbekistan",
+      "solar_ppa_usd_mwh": 25,
+      "wind_ppa_usd_mwh": 30,
+      "year": 2024,
+      "note": "Aggressive RE target; Masdar, ACWA projects"
+    },
+
+    "TR": {
+      "name": "Turkey",
+      "solar_ppa_usd_mwh": 40,
+      "wind_ppa_usd_mwh": 45,
+      "year": 2024,
+      "note": "YEKA auctions; currency depreciation affects USD pricing"
+    },
+
+    "CA": {
+      "name": "Canada",
+      "solar_ppa_usd_mwh": 55,
+      "wind_ppa_usd_mwh": 45,
+      "year": 2024,
+      "note": "Alberta wind competitive; solar limited by latitude"
+    },
+    "IS": {
+      "name": "Iceland",
+      "solar_ppa_usd_mwh": null,
+      "wind_ppa_usd_mwh": 30,
+      "year": 2024,
+      "note": "Geothermal dominant; limited solar"
+    },
+
+    "US_ERCOT": {
+      "name": "US - Texas (ERCOT)",
+      "solar_ppa_usd_mwh": 40,
+      "wind_ppa_usd_mwh": 35,
+      "year": 2025,
+      "note": "Most competitive US region; LevelTen Q1 2025"
+    },
+    "US_MISO": {
+      "name": "US - MISO",
+      "solar_ppa_usd_mwh": 55,
+      "wind_ppa_usd_mwh": 40,
+      "year": 2025,
+      "note": "MISO South cheaper; LevelTen Q1 2025"
+    },
+    "US_SPP": {
+      "name": "US - SPP",
+      "solar_ppa_usd_mwh": 58,
+      "wind_ppa_usd_mwh": 38,
+      "year": 2025,
+      "note": "Wind-dominant region"
+    },
+    "US_CAISO": {
+      "name": "US - California (CAISO)",
+      "solar_ppa_usd_mwh": 70,
+      "wind_ppa_usd_mwh": 60,
+      "year": 2025,
+      "note": "High due to curtailment and grid charges"
+    },
+    "US_PJM": {
+      "name": "US - PJM (Mid-Atlantic)",
+      "solar_ppa_usd_mwh": 70,
+      "wind_ppa_usd_mwh": 55,
+      "year": 2025,
+      "note": "Data center demand driving prices up"
+    },
+    "US_ISNE": {
+      "name": "US - ISO New England",
+      "solar_ppa_usd_mwh": 112,
+      "wind_ppa_usd_mwh": 80,
+      "year": 2025,
+      "note": "Highest US region; grid constraints"
+    },
+    "US_NYISO": {
+      "name": "US - New York (NYISO)",
+      "solar_ppa_usd_mwh": 116,
+      "wind_ppa_usd_mwh": 85,
+      "year": 2025,
+      "note": "High land/interconnection costs"
+    },
+    "US_NATIONAL": {
+      "name": "US - National Average",
+      "solar_ppa_usd_mwh": 57,
+      "wind_ppa_usd_mwh": 42,
+      "year": 2025,
+      "note": "NREL/LBNL benchmarks; LevelTen Q1 2025"
+    },
+
+    "EU_DE": {
+      "name": "Germany",
+      "solar_ppa_usd_mwh": 54,
+      "wind_ppa_usd_mwh": 75,
+      "year": 2024,
+      "note": "10yr standard PPA €50/MWh solar; wind higher"
+    },
+    "EU_ES": {
+      "name": "Spain",
+      "solar_ppa_usd_mwh": 35,
+      "wind_ppa_usd_mwh": 45,
+      "year": 2024,
+      "note": "Bilateral PPAs ~€30/MWh; most competitive EU market"
+    },
+    "EU_FR": {
+      "name": "France",
+      "solar_ppa_usd_mwh": 55,
+      "wind_ppa_usd_mwh": 70,
+      "year": 2024,
+      "note": "Nuclear baseload competes; RE PPAs growing"
+    },
+    "EU_IT": {
+      "name": "Italy",
+      "solar_ppa_usd_mwh": 50,
+      "wind_ppa_usd_mwh": 65,
+      "year": 2024,
+      "note": "Southern Italy solar competitive"
+    },
+    "EU_NL": {
+      "name": "Netherlands",
+      "solar_ppa_usd_mwh": 60,
+      "wind_ppa_usd_mwh": 65,
+      "year": 2024,
+      "note": "Offshore wind focus; land constraints"
+    },
+    "EU_PT": {
+      "name": "Portugal",
+      "solar_ppa_usd_mwh": 35,
+      "wind_ppa_usd_mwh": 42,
+      "year": 2024,
+      "note": "Iberian market; competitive solar"
+    },
+    "EU_GR": {
+      "name": "Greece",
+      "solar_ppa_usd_mwh": 45,
+      "wind_ppa_usd_mwh": 55,
+      "year": 2024,
+      "note": "Growing RE market; island wind potential"
+    },
+    "EU_PL": {
+      "name": "Poland",
+      "solar_ppa_usd_mwh": 60,
+      "wind_ppa_usd_mwh": 55,
+      "year": 2024,
+      "note": "Coal transition; onshore wind moratorium lifted"
+    },
+    "EU_DK": {
+      "name": "Denmark",
+      "solar_ppa_usd_mwh": 55,
+      "wind_ppa_usd_mwh": 45,
+      "year": 2024,
+      "note": "Wind-dominant; offshore leader"
+    },
+    "EU_SE": {
+      "name": "Sweden",
+      "solar_ppa_usd_mwh": 50,
+      "wind_ppa_usd_mwh": 35,
+      "year": 2024,
+      "note": "Northern wind very cheap; price zones vary"
+    },
+    "EU_NO": {
+      "name": "Norway",
+      "solar_ppa_usd_mwh": null,
+      "wind_ppa_usd_mwh": 30,
+      "year": 2024,
+      "note": "Hydro dominant; onshore wind competitive"
+    },
+    "EU_FI": {
+      "name": "Finland",
+      "solar_ppa_usd_mwh": null,
+      "wind_ppa_usd_mwh": 35,
+      "year": 2024,
+      "note": "Wind boom; nuclear + wind mix"
+    },
+    "EU_IE": {
+      "name": "Ireland",
+      "solar_ppa_usd_mwh": 70,
+      "wind_ppa_usd_mwh": 60,
+      "year": 2024,
+      "note": "Strong wind resource; RESS auctions"
+    },
+    "GB": {
+      "name": "Great Britain",
+      "solar_ppa_usd_mwh": 65,
+      "wind_ppa_usd_mwh": 55,
+      "year": 2024,
+      "note": "CfD auctions; AR6 results pending"
+    }
+  }
+}

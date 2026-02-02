@@ -1,0 +1,32 @@
+Title: Regional Development Programmes (interconnection_queue, Tier 1)
+URL: https://www.neso.energy/publications/regional-development-programmes-rdps
+Date: 2026-01-28
+======================================================================
+
+Image
+Regional Development Programmes (RDPs)
+RDPs look across the whole electricity system to unlock more network capacity, reduce constraints and open new revenue streams for market participants.
+Add to favourites
+Close tooltip
+Sign in to add this page to your favourites
+Sign in or register
+The electricity system is in a period of transition. We are quickly moving away from a reliance on large-scale, grid-connected power generation to a larger volume of smaller localised generation, flexible demand, and energy storage.
+To ensure we continue to operate the system safely and securely, we must consider how this change impacts the transmission and distribution networks, both commercially and technically.
+NESO and Distribution Network Operators (DNOs) are working with stakeholders across Great Britain through Regional Development Programmes (RDPs) to identify and solve arising local network challenges.
+What is a Regional Development Programme?
+A Regional Development Programme (RDP) is a method of addressing areas of the network that have inherent challenges due to the connection of large volumes of Distributed Energy Resources (DER). DER are small-scale electricity generation, storage, or flexible demand units connected within the distribution network.
+RDPs aim to introduce methods significantly enhancing transmission and distribution system coordination and control. They also provide new tools and resources to manage system constraints, ultimately reducing consumer costs. They 'design by doing', creating whole system efficiencies as quickly as possible.
+Megawatt Dispatch
+The south west of England is likely to play a big role in meeting the government’s green energy targets because there is a lot of renewable solar and wind energy in the area. However, research has shown that absorbing that energy on the network is difficult.
+This RDP analyses the requirements and capabilities needed in the area to overcome this challenge at the least cost to the consumer.
+Read our Megawatt Dispatch overview
+Delivering GSP Technical Limits
+In 2023 a new way of accelerating the connection of distribution customers went live. Grid Supply Point (GSP) Technical Limits is being used by DNOs across GB to bring forward their customer connections by months and even years, in lieu of the required transmission reinforcement works.
+Before accelerating their customer connections, the DNOs must first work with NESO to build the required IT infrastructure that is crucial to the GSP Technical Limits design. Regional Development Programme 5 is focused on ensuring that the necessary data exchanges, communication links, and operational systems are in place between NESO and the DNOs, to enable greater visibility, and ultimately permit these accelerated connection dates to be offered to customers.
+By satisfying these requirements, both NESO and the DNOs are ensuring that these accelerated customers are connecting safely, that the governing codes and regulations are adhered to, and that the quality and security of supply of electricity is not sacrificed as a result.
+Applying for GSP Technical Limits
+Should DNOs wish to make use of GSP Technical Limits at a site where the limits do not yet exist, they must apply through their relevant Connection Contracts Manager at NESO, who will verify that they meet the pre-requisites. The DNO should not make offers to customers before GSP Technical Limits have been agreed and written into the relevant Bilateral Connections Agreement and before timelines for delivery of supporting IT infrastructure (as above) have been determined with NESO.
+Should you have any queries regarding the IT arrangements for GSP Technical Limits, such as the monitoring process, please contact us at:
+[email protected]
+South west Scotland RDP
+NESO investigated and explored the opportunity to deliver an additional MW Dispatch programme in south-west Scotland. Unfortunately, the predicted consumer benefit was outweighed by the operational costs of the project. Whilst the programme was not ultimately implemented it has proved to be an important reflection of the nuances of the GB electricity network which NESO, TOs, and DNOs are constantly challenged by, amongst the backdrop of a decarbonising energy system.

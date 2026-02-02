@@ -1,0 +1,131 @@
+Fuel type,Year,Capacity [GW],Relevant costs [million euros]
+Natural gas,2026,11.74,1244
+Coal/Lignite,2026,9.04,1244
+Nuclear,2026,0.00,1244
+"Hydro, excluding pumped storage",2026,0.26,1244
+"Hydro, pumped storage",2026,0.93,1244
+Other storage excluding hydro,2026,0.47,1244
+Intermittent RES,2026,0.02,1244
+Other non-hydro RES,2026,0.04,1244
+Oil & oil products,2026,0.00,1244
+Demand Response,2026,0.19,1244
+Foreign generation capacity,2026,0.00,1244
+Cross-border network capacity (if applicable),2026,0.00,1244
+Other,2026,0.79,1244
+Natural gas,2027,11.69,1238
+Coal/Lignite,2027,8.92,1238
+Nuclear,2027,0.00,1238
+"Hydro, excluding pumped storage",2027,0.26,1238
+"Hydro, pumped storage",2027,0.93,1238
+Other storage excluding hydro,2027,0.49,1238
+Intermittent RES,2027,0.02,1238
+Other non-hydro RES,2027,0.04,1238
+Oil & oil products,2027,0.00,1238
+Demand Response,2027,0.18,1238
+Foreign generation capacity,2027,0.00,1238
+Cross-border network capacity (if applicable),2027,0.00,1238
+Other,2027,0.79,1238
+Natural gas,2028,10.83,1177
+Coal/Lignite,2028,8.73,1177
+Nuclear,2028,0.00,1177
+"Hydro, excluding pumped storage",2028,0.24,1177
+"Hydro, pumped storage",2028,0.88,1177
+Other storage excluding hydro,2028,0.43,1177
+Intermittent RES,2028,0.02,1177
+Other non-hydro RES,2028,0.04,1177
+Oil & oil products,2028,0.00,1177
+Demand Response,2028,0.12,1177
+Foreign generation capacity,2028,0.00,1177
+Cross-border network capacity (if applicable),2028,0.00,1177
+Other,2028,0.78,1177
+Natural gas,2029,7.85,932
+Coal/Lignite,2029,4.90,932
+Nuclear,2029,0.00,932
+"Hydro, excluding pumped storage",2029,0.24,932
+"Hydro, pumped storage",2029,0.88,932
+Other storage excluding hydro,2029,0.32,932
+Intermittent RES,2029,0.02,932
+Other non-hydro RES,2029,0.04,932
+Oil & oil products,2029,0.00,932
+Demand Response,2029,0.05,932
+Foreign generation capacity,2029,0.00,932
+Cross-border network capacity (if applicable),2029,0.00,932
+Other,2029,0.78,932
+Natural gas,2030,7.85,932
+Coal/Lignite,2030,4.90,932
+Nuclear,2030,0.00,932
+"Hydro, excluding pumped storage",2030,0.24,932
+"Hydro, pumped storage",2030,0.88,932
+Other storage excluding hydro,2030,0.40,932
+Intermittent RES,2030,0.02,932
+Other non-hydro RES,2030,0.04,932
+Oil & oil products,2030,0.00,932
+Demand Response,2030,0.05,932
+Foreign generation capacity,2030,0.00,932
+Cross-border network capacity (if applicable),2030,0.00,932
+Other,2030,0.78,932
+Natural gas,2031,7.84,898
+Coal/Lignite,2031,4.54,898
+Nuclear,2031,0.00,898
+"Hydro, excluding pumped storage",2031,0.23,898
+"Hydro, pumped storage",2031,0.88,898
+Other storage excluding hydro,2031,0.53,898
+Intermittent RES,2031,0.02,898
+Other non-hydro RES,2031,0.04,898
+Oil & oil products,2031,0.00,898
+Demand Response,2031,0.05,898
+Foreign generation capacity,2031,0.00,898
+Cross-border network capacity (if applicable),2031,0.00,898
+Other,2031,0.78,898
+Natural gas,2032,7.63,886
+Coal/Lignite,2032,4.54,886
+Nuclear,2032,0.00,886
+"Hydro, excluding pumped storage",2032,0.23,886
+"Hydro, pumped storage",2032,0.88,886
+Other storage excluding hydro,2032,0.71,886
+Intermittent RES,2032,0.01,886
+Other non-hydro RES,2032,0.04,886
+Oil & oil products,2032,0.00,886
+Demand Response,2032,0.03,886
+Foreign generation capacity,2032,0.00,886
+Cross-border network capacity (if applicable),2032,0.00,886
+Other,2032,0.78,886
+Natural gas,2033,7.35,866
+Coal/Lignite,2033,4.54,866
+Nuclear,2033,0.00,866
+"Hydro, excluding pumped storage",2033,0.04,866
+"Hydro, pumped storage",2033,0.88,866
+Other storage excluding hydro,2033,0.12,866
+Intermittent RES,2033,0.01,866
+Other non-hydro RES,2033,0.04,866
+Oil & oil products,2033,0.00,866
+Demand Response,2033,0.03,866
+Foreign generation capacity,2033,0.00,866
+Cross-border network capacity (if applicable),2033,0.00,866
+Other,2033,0.78,866
+Natural gas,2034,6.88,819
+Coal/Lignite,2034,4.54,819
+Nuclear,2034,0.00,819
+"Hydro, excluding pumped storage",2034,0.04,819
+"Hydro, pumped storage",2034,0.88,819
+Other storage excluding hydro,2034,0.10,819
+Intermittent RES,2034,0.01,819
+Other non-hydro RES,2034,0.04,819
+Oil & oil products,2034,0.00,819
+Demand Response,2034,0.03,819
+Foreign generation capacity,2034,0.00,819
+Cross-border network capacity (if applicable),2034,0.00,819
+Other,2034,0.78,819
+Natural gas,2035,6.68,794
+Coal/Lignite,2035,4.54,794
+Nuclear,2035,0.00,794
+"Hydro, excluding pumped storage",2035,0.04,794
+"Hydro, pumped storage",2035,0.00,794
+Other storage excluding hydro,2035,0.10,794
+Intermittent RES,2035,0.01,794
+Other non-hydro RES,2035,0.04,794
+Oil & oil products,2035,0.00,794
+Demand Response,2035,0.00,794
+Foreign generation capacity,2035,0.00,794
+Cross-border network capacity (if applicable),2035,0.00,794
+Other,2035,0.78,794

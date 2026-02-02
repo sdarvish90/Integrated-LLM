@@ -1,0 +1,52 @@
+Title: Frequently Asked Questions (interconnection_queue, Tier 1)
+URL: https://www.spp.org/engineering/transmission-planning/detailed-project-proposals/frequently-asked-questions/
+Date: 2026-01-28
+======================================================================
+
+Frequently Asked Questions
+Does SPP accept both 2-winding and 3-winding transformers in submittals?
+Yes; both 2-winding and 3-winding transformers will be allowed as part of proposed projects.
+Can sequence data be provided using PSSE BAT command format in an idev or does it have to be provided in a separate .seq file in addition to the idev file?
+SPP will gladly accept sequence data in either format.
+Are connection codes required for transformers in PSSE?
+Yes; please provide the codes that refer to the proper winding type as defined in the PSSE manual.
+Are PSSE slider files required for each submittal?
+No, slider files are not required.
+Have a question that isn’t answered here? Please submit a ticket through
+SPP’s Request Management System (RMS).
+ENGINEERING
+›
+Compliance and Advanced Studies
+NERC Reliability Standards
+Economic Planning
+Generator Interconnection
+Interregional Relations
+›
+Modeling
+Model Development Advisory Group
+Request an SPP Transmission Map/Model
+SPP Maps Frequently Asked Questions
+Project Tracking & NTCs
+Research & Development
+Reliability Planning
+Resource Adequacy
+SPP-MISO JTIQ
+Tariff Studies
+TCR Markets
+›
+Transmission Owner Selection Process
+Transmission Owner Selection Process: Qualified RFP Participants (QRPs)
+Transmission Owner Selection Process: Industry Expert Panel (IEP)
+Transmission Owner Selection Process: Request for Proposals (RFPs)
+›
+Transmission Planning
+Balanced Portfolio
+Detailed Project Proposals
+Frequently Asked Questions
+Integrated Transmission Planning
+High Priority Studies
+Priority Projects
+Transmission Services
+Value of Transmission
+Consolidated Planning Process
+HVDC Interconnection

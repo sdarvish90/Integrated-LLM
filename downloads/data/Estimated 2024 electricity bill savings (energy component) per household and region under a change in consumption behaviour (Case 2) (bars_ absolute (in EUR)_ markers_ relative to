@@ -1,0 +1,7 @@
+Region,Standard Household (3000 kWh),HP Household (6000 kWh),EV Household (6500 kWh),Absolute/Relative,EV+HP Household (9500 kWh)
+Western and Southern Europe,34.53,56.74,185.10,Absolute values (Estimated average annual cost savings (in Euro),207.31
+Northern Europe,13.34,27.01,77.66,Absolute values (Estimated average annual cost savings (in Euro),91.34
+Eastern and South-Eastern Europe,54.97,78.33,278.95,Absolute values (Estimated average annual cost savings (in Euro),302.31
+Western and Southern Europe,0.04,0.03,0.10,Relative values (Estimated average annual cost savings (% of electricity bill),0.07
+Northern Europe,0.02,0.02,0.05,Relative values (Estimated average annual cost savings (% of electricity bill),0.04
+Eastern and South-Eastern Europe,0.09,0.06,0.21,Relative values (Estimated average annual cost savings (% of electricity bill),0.16

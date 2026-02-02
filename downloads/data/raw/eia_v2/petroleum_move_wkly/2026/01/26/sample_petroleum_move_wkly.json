@@ -1,0 +1,80 @@
+{
+  "warnings": [
+    {
+      "warning": "incomplete return",
+      "description": "The API can only return 5000 rows in JSON format.  Please consider constraining your request with facet, start, or end, or using offset to paginate results."
+    }
+  ],
+  "response": {
+    "total": "220133",
+    "dateFormat": "YYYY-MM-DD",
+    "frequency": "weekly",
+    "data": [
+      {
+        "period": "2025-05-23",
+        "duoarea": "R20-Z00",
+        "area-name": "PADD 2",
+        "product": "EPOBG",
+        "product-name": "Gasoline Blending Components",
+        "process": "IM0",
+        "process-name": "Imports",
+        "series": "WBCIM_R20-Z00_2",
+        "series-description": "Midwest (PADD 2) Imports of Gasoline Blending Components (Thousand Barrels per Day)"
+      },
+      {
+        "period": "2024-09-06",
+        "duoarea": "R20-Z00",
+        "area-name": "PADD 2",
+        "product": "EPOBG",
+        "product-name": "Gasoline Blending Components",
+        "process": "IM0",
+        "process-name": "Imports",
+        "series": "WBCIM_R20-Z00_2",
+        "series-description": "Midwest (PADD 2) Imports of Gasoline Blending Components (Thousand Barrels per Day)"
+      },
+      {
+        "period": "2024-07-26",
+        "duoarea": "R20-Z00",
+        "area-name": "PADD 2",
+        "product": "EPOBG",
+        "product-name": "Gasoline Blending Components",
+        "process": "IM0",
+        "process-name": "Imports",
+        "series": "WBCIM_R20-Z00_2",
+        "series-description": "Midwest (PADD 2) Imports of Gasoline Blending Components (Thousand Barrels per Day)"
+      },
+      {
+        "period": "2024-10-04",
+        "duoarea": "R20-Z00",
+        "area-name": "PADD 2",
+        "product": "EPOBG",
+        "product-name": "Gasoline Blending Components",
+        "process": "IM0",
+        "process-name": "Imports",
+        "series": "WBCIM_R20-Z00_2",
+        "series-description": "Midwest (PADD 2) Imports of Gasoline Blending Components (Thousand Barrels per Day)"
+      },
+      {
+        "period": "2024-10-11",
+        "duoarea": "R20-Z00",
+        "area-name": "PADD 2",
+        "product": "EPOBG",
+        "product-name": "Gasoline Blending Components",
+        "process": "IM0",
+        "process-name": "Imports",
+        "series": "WBCIM_R20-Z00_2",
+        "series-description": "Midwest (PADD 2) Imports of Gasoline Blending Components (Thousand Barrels per Day)"
+      }
+    ]
+  },
+  "request": {
+    "command": "/v2/petroleum/move/wkly/data/",
+    "params": {
+      "api_key": "o5nQ7H9b6Bf9Kh3D0cCeC8ydP24drGTiFGaCQrKN",
+      "length": "5",
+      "offset": "0"
+    }
+  },
+  "apiVersion": "2.1.10",
+  "ExcelAddInVersion": "2.1.0"
+}

@@ -1,0 +1,165 @@
+Energy product,TWh,Level,Origin,Flows to,Year
+Electricity,8.85,A,Net imports,Electricity,2018
+Gas,3145.74,A,Net imports,Gas,2018
+Heat,0.05,A,Net imports,Heat,2018
+Non-renewable waste,5.68,A,Net imports,Non-renewable waste,2018
+Nuclear,2270.73,A,Net imports,Nuclear,2018
+"Oil, petroleum, peat, shale",6019.44,A,Net imports,"Oil, petroleum, peat, shale",2018
+Renewables and biofuels,63.31,A,Net imports,Renewables and biofuels,2018
+Solid fossil fuels,1070.63,A,Net imports,Solid fossil fuels,2018
+Gas,690.03,A,Primary production,Gas,2018
+Heat,12.52,A,Primary production,Heat,2018
+Non-renewable waste,155.86,A,Primary production,Non-renewable waste,2018
+"Oil, petroleum, peat, shale",367.16,A,Primary production,"Oil, petroleum, peat, shale",2018
+Renewables and biofuels,2566.71,A,Primary production,Renewables and biofuels,2018
+Solid fossil fuels,1350.13,A,Primary production,Solid fossil fuels,2018
+Electricity,38.38,B,Electricity,Electricity/heat generation,2018
+Gas,1179.85,B,Gas,Electricity/heat generation,2018
+Heat,19.09,B,Heat,Electricity/heat generation,2018
+Non-renewable waste,107.47,B,Non-renewable waste,Electricity/heat generation,2018
+Nuclear,2270.73,B,Nuclear,Electricity/heat generation,2018
+"Oil, petroleum, peat, shale",217.66,B,"Oil, petroleum, peat, shale",Electricity/heat generation,2018
+Renewables and biofuels,1416.57,B,Renewables and biofuels,Electricity/heat generation,2018
+Solid fossil fuels,1660.97,B,Solid fossil fuels,Electricity/heat generation,2018
+Electricity,0.00,B,Electricity,Flow/transformation,2018
+Gas,2655.91,B,Gas,Flow/transformation,2018
+Heat,0.00,B,Heat,Flow/transformation,2018
+Non-renewable waste,54.07,B,Non-renewable waste,Flow/transformation,2018
+Nuclear,0.00,B,Nuclear,Flow/transformation,2018
+"Oil, petroleum, peat, shale",6168.94,B,"Oil, petroleum, peat, shale",Flow/transformation,2018
+Renewables and biofuels,1213.46,B,Renewables and biofuels,Flow/transformation,2018
+Solid fossil fuels,759.80,B,Solid fossil fuels,Flow/transformation,2018
+Electricity,220.77,C1,Electricity/heat generation,Energy sector - energy use,2018
+Gas,205.88,C1,Flow/transformation,Energy sector - energy use,2018
+Heat,52.04,C1,Electricity/heat generation,Energy sector - energy use,2018
+Non-renewable waste,0.38,C1,Flow/transformation,Energy sector - energy use,2018
+"Oil, petroleum, peat, shale",290.48,C1,Flow/transformation,Energy sector - energy use,2018
+Renewables and biofuels,6.54,C1,Flow/transformation,Energy sector - energy use,2018
+Solid fossil fuels,8.09,C1,Flow/transformation,Energy sector - energy use,2018
+Electricity,182.97,C2,Electricity/heat generation,Distribution losses,2018
+Gas,22.97,C2,Flow/transformation,Distribution losses,2018
+Heat,65.84,C2,Electricity/heat generation,Distribution losses,2018
+Non-renewable waste,0.01,C2,Flow/transformation,Distribution losses,2018
+"Oil, petroleum, peat, shale",0.16,C2,Flow/transformation,Distribution losses,2018
+Renewables and biofuels,0.94,C2,Flow/transformation,Distribution losses,2018
+Solid fossil fuels,0.62,C2,Flow/transformation,Distribution losses,2018
+Gas,170.22,C2,Flow/transformation,Non-energy use,2018
+"Oil, petroleum, peat, shale",871.25,C2,Flow/transformation,Non-energy use,2018
+Renewables and biofuels,0.00,C2,Flow/transformation,Non-energy use,2018
+Solid fossil fuels,19.66,C2,Flow/transformation,Non-energy use,2018
+Electricity,740.35,C2,Electricity/heat generation,Commercial and public services,2018
+Electricity,704.93,C2,Electricity/heat generation,Households,2018
+Electricity,945.23,C2,Electricity/heat generation,Industry sector,2018
+Electricity,55.29,C2,Electricity/heat generation,Other sectors,2018
+Electricity,58.89,C2,Electricity/heat generation,Transport sector,2018
+Gas,440.96,C2,Flow/transformation,Commercial and public services,2018
+Gas,935.36,C2,Flow/transformation,Households,2018
+Gas,953.03,C2,Flow/transformation,Industry sector,2018
+Gas,42.28,C2,Flow/transformation,Other sectors,2018
+Gas,39.76,C2,Flow/transformation,Transport sector,2018
+Heat,107.73,C2,Electricity/heat generation,Commercial and public services,2018
+Heat,245.18,C2,Electricity/heat generation,Households,2018
+Heat,178.96,C2,Electricity/heat generation,Industry sector,2018
+Heat,3.58,C2,Electricity/heat generation,Other sectors,2018
+Non-renewable waste,2.19,C2,Flow/transformation,Commercial and public services,2018
+Non-renewable waste,0.00,C2,Flow/transformation,Households,2018
+Non-renewable waste,51.41,C2,Flow/transformation,Industry sector,2018
+Non-renewable waste,0.04,C2,Flow/transformation,Other sectors,2018
+Non-renewable waste,0.00,C2,Flow/transformation,Transport sector,2018
+"Oil, petroleum, peat, shale",123.79,C2,Flow/transformation,Commercial and public services,2018
+"Oil, petroleum, peat, shale",337.51,C2,Flow/transformation,Households,2018
+"Oil, petroleum, peat, shale",286.51,C2,Flow/transformation,Industry sector,2018
+"Oil, petroleum, peat, shale",213.15,C2,Flow/transformation,Other sectors,2018
+"Oil, petroleum, peat, shale",3057.21,C2,Flow/transformation,Transport sector,2018
+Renewables and biofuels,106.17,C2,Flow/transformation,Commercial and public services,2018
+Renewables and biofuels,599.65,C2,Flow/transformation,Households,2018
+Renewables and biofuels,262.88,C2,Flow/transformation,Industry sector,2018
+Renewables and biofuels,51.76,C2,Flow/transformation,Other sectors,2018
+Renewables and biofuels,177.54,C2,Flow/transformation,Transport sector,2018
+Solid fossil fuels,9.53,C2,Flow/transformation,Commercial and public services,2018
+Solid fossil fuels,94.51,C2,Flow/transformation,Households,2018
+Solid fossil fuels,146.48,C2,Flow/transformation,Industry sector,2018
+Solid fossil fuels,12.66,C2,Flow/transformation,Other sectors,2018
+Solid fossil fuels,0.01,C2,Flow/transformation,Transport sector,2018
+Electricity,−.45,A,Net imports,Electricity,2023
+Gas,2856.92,A,Net imports,Gas,2023
+Heat,0.05,A,Net imports,Heat,2023
+Non-renewable waste,7.09,A,Net imports,Non-renewable waste,2023
+Nuclear,1836.97,A,Net imports,Nuclear,2023
+"Oil, petroleum, peat, shale",5557.49,A,Net imports,"Oil, petroleum, peat, shale",2023
+Renewables and biofuels,71.87,A,Net imports,Renewables and biofuels,2023
+Solid fossil fuels,595.84,A,Net imports,Solid fossil fuels,2023
+Gas,341.44,A,Primary production,Gas,2023
+Heat,8.40,A,Primary production,Heat,2023
+Non-renewable waste,154.99,A,Primary production,Non-renewable waste,2023
+"Oil, petroleum, peat, shale",255.75,A,Primary production,"Oil, petroleum, peat, shale",2023
+Renewables and biofuels,2957.49,A,Primary production,Renewables and biofuels,2023
+Solid fossil fuels,878.49,A,Primary production,Solid fossil fuels,2023
+Electricity,50.71,B,Electricity,Electricity/heat generation,2023
+Gas,1052.89,B,Gas,Electricity/heat generation,2023
+Heat,12.89,B,Heat,Electricity/heat generation,2023
+Non-renewable waste,105.30,B,Non-renewable waste,Electricity/heat generation,2023
+Nuclear,1836.97,B,Nuclear,Electricity/heat generation,2023
+"Oil, petroleum, peat, shale",155.73,B,"Oil, petroleum, peat, shale",Electricity/heat generation,2023
+Renewables and biofuels,1702.33,B,Renewables and biofuels,Electricity/heat generation,2023
+Solid fossil fuels,909.56,B,Solid fossil fuels,Electricity/heat generation,2023
+Electricity,0.00,B,Electricity,Flow/transformation,2023
+Gas,2145.47,B,Gas,Flow/transformation,2023
+Heat,0.00,B,Heat,Flow/transformation,2023
+Non-renewable waste,56.79,B,Non-renewable waste,Flow/transformation,2023
+Nuclear,0.00,B,Nuclear,Flow/transformation,2023
+"Oil, petroleum, peat, shale",5657.51,B,"Oil, petroleum, peat, shale",Flow/transformation,2023
+Renewables and biofuels,1327.03,B,Renewables and biofuels,Flow/transformation,2023
+Solid fossil fuels,564.77,B,Solid fossil fuels,Flow/transformation,2023
+Electricity,187.10,C1,Electricity/heat generation,Energy sector - energy use,2023
+Gas,150.48,C1,Flow/transformation,Energy sector - energy use,2023
+Heat,32.98,C1,Electricity/heat generation,Energy sector - energy use,2023
+Non-renewable waste,0.83,C1,Flow/transformation,Energy sector - energy use,2023
+"Oil, petroleum, peat, shale",309.03,C1,Flow/transformation,Energy sector - energy use,2023
+Renewables and biofuels,7.75,C1,Flow/transformation,Energy sector - energy use,2023
+Solid fossil fuels,4.62,C1,Flow/transformation,Energy sector - energy use,2023
+Electricity,175.02,C2,Electricity/heat generation,Distribution losses,2023
+Gas,17.50,C2,Flow/transformation,Distribution losses,2023
+Heat,62.40,C2,Electricity/heat generation,Distribution losses,2023
+Non-renewable waste,0.00,C2,Flow/transformation,Distribution losses,2023
+"Oil, petroleum, peat, shale",0.08,C2,Flow/transformation,Distribution losses,2023
+Renewables and biofuels,0.82,C2,Flow/transformation,Distribution losses,2023
+Solid fossil fuels,0.42,C2,Flow/transformation,Distribution losses,2023
+Gas,112.64,C2,Flow/transformation,Non-energy use,2023
+"Oil, petroleum, peat, shale",710.99,C2,Flow/transformation,Non-energy use,2023
+Renewables and biofuels,0.00,C2,Flow/transformation,Non-energy use,2023
+Solid fossil fuels,15.97,C2,Flow/transformation,Non-energy use,2023
+Electricity,702.62,C2,Electricity/heat generation,Commercial and public services,2023
+Electricity,691.42,C2,Electricity/heat generation,Households,2023
+Electricity,815.07,C2,Electricity/heat generation,Industry sector,2023
+Electricity,49.55,C2,Electricity/heat generation,Other sectors,2023
+Electricity,70.45,C2,Electricity/heat generation,Transport sector,2023
+Gas,356.02,C2,Flow/transformation,Commercial and public services,2023
+Gas,786.68,C2,Flow/transformation,Households,2023
+Gas,831.66,C2,Flow/transformation,Industry sector,2023
+Gas,38.71,C2,Flow/transformation,Other sectors,2023
+Gas,36.74,C2,Flow/transformation,Transport sector,2023
+Heat,105.13,C2,Electricity/heat generation,Commercial and public services,2023
+Heat,225.78,C2,Electricity/heat generation,Households,2023
+Heat,133.52,C2,Electricity/heat generation,Industry sector,2023
+Heat,2.91,C2,Electricity/heat generation,Other sectors,2023
+Non-renewable waste,3.31,C2,Flow/transformation,Commercial and public services,2023
+Non-renewable waste,0.00,C2,Flow/transformation,Households,2023
+Non-renewable waste,52.73,C2,Flow/transformation,Industry sector,2023
+Non-renewable waste,0.00,C2,Flow/transformation,Other sectors,2023
+Non-renewable waste,0.00,C2,Flow/transformation,Transport sector,2023
+"Oil, petroleum, peat, shale",84.60,C2,Flow/transformation,Commercial and public services,2023
+"Oil, petroleum, peat, shale",276.84,C2,Flow/transformation,Households,2023
+"Oil, petroleum, peat, shale",284.24,C2,Flow/transformation,Industry sector,2023
+"Oil, petroleum, peat, shale",219.14,C2,Flow/transformation,Other sectors,2023
+"Oil, petroleum, peat, shale",2936.02,C2,Flow/transformation,Transport sector,2023
+Renewables and biofuels,115.07,C2,Flow/transformation,Commercial and public services,2023
+Renewables and biofuels,626.97,C2,Flow/transformation,Households,2023
+Renewables and biofuels,280.87,C2,Flow/transformation,Industry sector,2023
+Renewables and biofuels,56.65,C2,Flow/transformation,Other sectors,2023
+Renewables and biofuels,205.37,C2,Flow/transformation,Transport sector,2023
+Solid fossil fuels,4.77,C2,Flow/transformation,Commercial and public services,2023
+Solid fossil fuels,59.39,C2,Flow/transformation,Households,2023
+Solid fossil fuels,99.23,C2,Flow/transformation,Industry sector,2023
+Solid fossil fuels,6.25,C2,Flow/transformation,Other sectors,2023
+Solid fossil fuels,0.00,C2,Flow/transformation,Transport sector,2023

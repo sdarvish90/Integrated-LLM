@@ -1,0 +1,102 @@
+Title: Copy Link
+URL: https://www.energymonitor.ai/policy/net-zero-policy/hydrogen-carbon-removal-and-grids-on-breakthrough-energys-2024-agenda/
+Date: 2026-01-28
+======================================================================
+
+Bill Gates’ BEV is targeting investments in hydrogen, carbon removal and grids in 2024. Credit: Breakthrough Energy.
+At the 2015 UN climate conference that delivered the Paris Agreement, Bill Gates announced that a coalition of 28 high-net-worth investors from ten countries had committed to establishing the Breakthrough Energy initiative, a group of programmes aimed at accelerating innovation in clean energy and other technologies to achieve net-zero emissions. The following year, a group of investors collectively worth $170bn committed to a $1bn fund “focused on fighting climate change by investing in clean energy innovation”. In the years since, Breakthrough Energy Ventures’ (BEV) BEVI fund, and its successor BEVII, have invested in a variety of start-ups attempting to commercialise new climate-focused technologies such as nuclear fusion, large-capacity batteries and microbe-generated biofuels.
+Energy Monitor
+caught up with Jim Cabot, BEV’s managing director, to discuss the progress made in the net-zero transition in the past year, and what to expect over the course of 2024.
+Go deeper with GlobalData
+Reports
+Middle East Energy Transition Market Analysis by Sectors (Power, El...
+Reports
+Japan Renewable Energy Policy Handbook 2022 Update
+Go deeper with GlobalData
+The gold standard of business intelligence.
+Find out more
+Discover B2B Marketing That Performs
+Combine business intelligence and editorial excellence to reach engaged professionals across 36 leading media platforms.
+Find out more
+Jim Cabot, managing director at BEV. Credit: Breakthrough Energy.
+What were the key developments in the global net-zero transition over the past year? Were you pleased or disappointed with overall progress?
+In 2023, we saw a rise in innovative climate tech solutions becoming a reality, laying a tangible foundation to combat the climate crisis. That’s not to say we don’t have work to do; in 2023 the world
+emitted
+more greenhouse gases into the atmosphere than any other year, but it’s no longer a question if the net-zero transition is happening. Notably, we passed the one-year mark since the passage of the
+Inflation Reduction Act (IRA)
+and are seeing the early impacts of this legislation improve climate tech economics across all major sectors. Clean energy investment also grew by
+17%
+globally, demonstrating the resilience and momentum for the transition.
+What were highlights from your investment portfolio?
+How much did you invest over the year and which were the most exciting recipient companies and technologies?
+We invest across five grand challenges: electricity, transportation, agriculture, manufacturing and the built environment. BEV’s portfolio has grown well north of 100 companies now, so there is a lot happening with companies at every stage of the start-up journey. Five years ago, we were investing in innovation and potential, and now we’re starting to see many of these companies commercialise and scale their operations.
+GlobalData Strategic Intelligence
+US Tariffs are shifting - will you react or anticipate?
+Don’t let policy changes catch you off guard. Stay proactive with real-time data and expert analysis.
+By GlobalData
+Learn more about Strategic Intelligence
+For example,
+Fervo Energy
+broke ground on
+the world’s largest next-gen geothermal project
+to deliver carbon-free electricity;
+Antora Energy
+launched its
+commercial-scale thermal battery
+for zero-emissions industrial heat and power;
+Rondo Energy
+announced plans to expand its
+Thailand factory
+to produce 90 gigawatt-hours of storage per year;
+Brimstone
+received third-party
+certification
+for its decarbonised Portland cement; and
+M2X Energy
+’s gas-to-methanol plant successfully
+completed its first field deployment
+to reduce methane emissions. These are just a handful of recent milestones.
+You
+launched your third fund in August
+. Can you tell us a bit about its focus and how it’s going so far?
+We [Breakthrough Energy Ventures] are working on the new fund, BEVIII. The investment focus for this fund is similar to BEVI and BEVII, encompassing climate innovations in the five key grand challenges I previously mentioned. The timing and size of the fund has not yet been announced, but we will share more about it in the coming months.
+What will be the key trends in net-zero transition over the coming year? Will we see more investment going into net zero
+?
+In 2024, I think we will see more of the technologies we need for decarbonisation being deployed, which should earn the confidence of less patient capital. This is the critical juncture – seeing the technologies deployed at scale will encourage new innovation as well as investment. Many of these technologies are moving beyond the ‘hype-cycle’ and will generate real returns for investors.
+Which clean technologies and companies should we be looking out for in 2024?
+Three technology areas we think deserve focus this year are
+hydrogen
+,
+carbon removal
+and
+electricity transmission
+. We published our annual
+State of the Transition
+report not long ago, and we go into detail about why these technologies are so critical. In short, there is a massive market opportunity for clean hydrogen – it can replace fossil fuels pretty much anywhere for any process – and while there is great work happening to produce hydrogen, the market demand needs to catch up.
+We also need carbon removal as part of the net-zero equation. Some people think it’s an excuse to keep emitting carbon, but the truth is we still need to address what’s already been emitted and being emitted as we speak. We can’t ignore this critical technology, and we need both natural and engineered solutions to get it done. The carbon management category is still nascent, and we need more investment and innovation to continue.
+We’re also focused on improving electricity transmission – the interstate highway of power systems. Many people think the solution to the climate problem is to electrify everything, and power it all with renewables. That sounds great, except the grids supporting this transition are not capable. We need to build new, smarter grids – buoyed by innovative technologies like new superconductors along the way – to deliver power where and when we need it.
+Does Breakthrough Energy have any particular objectives and focus areas for the year?
+The climate innovation landscape has changed completely, and we have entered the early stage of a “Clean Industrial Revolution”. We are focused on supporting our portfolio scale-up in any way we can to accelerate the path to market. Getting to commercialisation and then to scale will prove that these technologies are both good for the environment and good for business.
+What policies would you like to see governments develop this year to expedite the net-zero transition?
+One important way governments can support net-zero goals is to help create new markets – for example, by
+driving demand for products like green steel
+and cement through government procurement. Public investment is important, too. For example, last summer the US saw a major breakthrough on this front with the
+Department of Energy announcing its first round of awards for direct air ce (DAC) hubs
+. This represented the single largest investment in the history of
+DAC
+and paved the way for DAC companies to come together to access shared infrastructure so they can scale their technology faster and at lower cost.
+I must also call out the importance of regulations being issued by the Treasury Department to provide guidance for the tax credits established by the IRA. These rules need to provide clarity and consistency, and avoid locking-in one technology over another. However, we also need to look beyond the policy side of things and increase the general understanding around these technologies. When there’s a greater understanding, there’s more [public] support and acceptance.
+Sign up for our daily news round-up!
+Give your business an edge with our leading industry insights.
+Sign up
+Go deeper with GlobalData
+Reports
+Middle East Energy Transition Market Analysis by Sectors (Power, El...
+Reports
+Japan Renewable Energy Policy Handbook 2022 Update
+Go deeper with GlobalData
+The gold standard of business intelligence.
+Find out more
+Access deeper industry intelligence
+Experience unmatched clarity with a single platform that combines unique data, AI, and human expertise.
+Find out more

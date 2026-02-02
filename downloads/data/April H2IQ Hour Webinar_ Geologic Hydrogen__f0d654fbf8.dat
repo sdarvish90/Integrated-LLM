@@ -1,0 +1,1922 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+<head>
+  <meta charset="utf-8" />
+<noscript><meta http-equiv="Refresh" content="0; URL=/big_pipe/no-js?destination=/articles/doe-issues-export-approval-golden-pass-lng-accelerating-president-trumps-pledge-restore" />
+</noscript><script type="text/javascript">/*
+ Copyright and licenses see https://www.dynatrace.com/company/trust-center/customers/reports/ */
+(function(){function ab(){var ta;(ta=void 0===bb.dialogArguments&&navigator.cookieEnabled)||(document.cookie="__dTCookie=1;SameSite=Lax",ta=document.cookie.includes("__dTCookie"),ta=(document.cookie="__dTCookie=1; expires=Thu, 01-Jan-1970 00:00:01 GMT",ta));return ta}function Fa(){if(ab()){var ta=bb.dT_,Ga=null==ta?void 0:ta.platformPrefix,fb;if(fb=!ta||Ga){var Xa;fb=(null===(Xa=document.currentScript)||void 0===Xa?void 0:Xa.getAttribute("data-dtconfig"))||"domain=energy.gov|reportUrl=/rb_33bb55c9-1410-4de1-8b54-d592dfdc60af|app=cff6532c80af1c10|owasp=1|featureHash=A7NVfgqrux|xb=^bs/sitewide_alert^bs/load^p^bs/sitewide^bs_alert^bs/load|rdnt=1|uxrgce=1|cuc=dgtcdnr2|mel=100000|expw=1|dpvc=1|lastModification=1768983110921|postfix=dgtcdnr2|tp=500,50,0|srbbv=2|agentUri=/ruxitagentjs_A7NVfgqrux_10327251022105625.js|auto=1|domain=energy.gov|rid=RID_397192389|rpid=-66766094";
+fb=(Xa=null==ta?void 0:ta.minAgentVersion)&&"10327251022105625"<`${Xa}`?(console.log("[CookiePrefix/initConfig] Min agent version detected, and javascript agent is older - the javascript agent will not be initialized!"),!1):Ga&&!fb.includes(`cuc=${Ga}`)?(console.log(`[CookiePrefix/initConfig] value of platformPrefix [${Ga}] does not match the "cuc" value in the current config - initConfig will not initialize!`),!1):!0}fb&&(ta={cfg:"domain=energy.gov|reportUrl=/rb_33bb55c9-1410-4de1-8b54-d592dfdc60af|app=cff6532c80af1c10|owasp=1|featureHash=A7NVfgqrux|xb=^bs/sitewide_alert^bs/load^p^bs/sitewide^bs_alert^bs/load|rdnt=1|uxrgce=1|cuc=dgtcdnr2|mel=100000|expw=1|dpvc=1|lastModification=1768983110921|postfix=dgtcdnr2|tp=500,50,0|srbbv=2|agentUri=/ruxitagentjs_A7NVfgqrux_10327251022105625.js|auto=1|domain=energy.gov|rid=RID_397192389|rpid=-66766094",
+iCE:ab,platformCookieOffset:null==ta?void 0:ta.platformCookieOffset},Ga&&(ta.platformPrefix=Ga),bb.dT_=ta)}}function Ya(ta){return"function"==typeof ta}function hb(){let ta=window.performance;return ta&&Ba&&Va&&!!ta.timeOrigin&&Ya(ta.now)&&Ya(ta.getEntriesByType)&&Ya(ta.getEntriesByName)&&Ya(ta.setResourceTimingBufferSize)&&Ya(ta.clearResourceTimings)}this.dT_&&dT_.prm&&dT_.prm();var bb="undefined"!=typeof globalThis?globalThis:"undefined"!=typeof window?window:void 0,Va="function"==typeof PerformanceResourceTiming||
+"object"==typeof PerformanceResourceTiming,Ba="function"==typeof PerformanceNavigationTiming||"object"==typeof PerformanceNavigationTiming;if((!("documentMode"in document)||Number.isNaN(document.documentMode))&&hb()){let ta=bb.dT_;!ta||!ta.cfg&&ta.platformPrefix?Fa():ta.gCP||(bb.console.log("Duplicate agent injection detected, turning off redundant initConfig."),ta.di=1)}})();
+(function(){function ab(){let f=0;try{f=Math.round(Qa.performance.timeOrigin)}catch(p){}if(0>=f||Number.isNaN(f)||!Number.isFinite(f))de.push({severity:"Warning",type:"ptoi",text:`performance.timeOrigin is invalid, with a value of [${f}]. Falling back to performance.timing.navigationStart`}),f=Ne;return zd=f,Ue=Fa,zd}function Fa(){return zd}function Ya(){return Ue()}function hb(){let f=0;try{f=Math.round(Qa.performance.now())}catch(p){}return 0>=f||Number.isNaN(f)||!Number.isFinite(f)?Date.now()-
+Ue():f}function bb(f,p){if(!p)return"";var y=f+"=";f=p.indexOf(y);if(0>f)return"";for(;0<=f;){if(0===f||" "===p.charAt(f-1)||";"===p.charAt(f-1))return y=f+y.length,f=p.indexOf(";",f),0<=f?p.substring(y,f):p.substring(y);f=p.indexOf(y,f+y.length)}return""}function Va(f){return bb(f,document.cookie)}function Ba(){}function ta(f,p=[]){var y;if(!f||"object"!=typeof f&&"function"!=typeof f)return!1;let L="number"!=typeof p?p:[],U=null,wa=[];switch("number"==typeof p?p:5){case 0:U="Array";break;case 1:U=
+"Boolean";break;case 2:U="Number";break;case 3:U="String";break;case 4:U="Function";break;case 5:U="Object";break;case 6:U="Date";wa.push("getTime");break;case 7:U="Error";wa.push("name","message");break;case 8:U="Element";break;case 9:U="HTMLElement";break;case 10:U="HTMLImageElement";wa.push("complete");break;case 11:U="PerformanceEntry";break;case 13:U="PerformanceResourceTiming";break;case 14:U="PerformanceNavigationTiming";break;case 15:U="CSSRule";wa.push("cssText","parentStyleSheet");break;
+case 16:U="CSSStyleSheet";wa.push("cssRules","insertRule");break;case 17:U="Request";wa.push("url");break;case 18:U="Response";wa.push("ok","status","statusText");break;case 19:U="Set";wa.push("add","entries","forEach");break;case 20:U="Map";wa.push("set","entries","forEach");break;case 21:U="Worker";wa.push("addEventListener","postMessage","terminate");break;case 22:U="XMLHttpRequest";wa.push("open","send","setRequestHeader");break;case 23:U="SVGScriptElement";wa.push("ownerSVGElement","type");break;
+case 24:U="HTMLMetaElement";wa.push("httpEquiv","content","name");break;case 25:U="HTMLHeadElement";break;case 26:U="ArrayBuffer";break;case 27:U="ShadowRoot",wa.push("host","mode")}let {Pe:db,af:Lb}={Pe:U,af:wa};if(!db)return!1;p=Lb.length?Lb:L;if(!L.length)try{if(Qa[db]&&f instanceof Qa[db]||Object.prototype.toString.call(f)==="[object "+db+"]")return!0;if(f&&f.nodeType&&1===f.nodeType){let Ub=null===(y=f.ownerDocument.defaultView)||void 0===y?void 0:y[db];if("function"==typeof Ub&&f instanceof
+Ub)return!0}}catch(Ub){}for(let Ub of p)if("string"!=typeof Ub&&"number"!=typeof Ub&&"symbol"!=typeof Ub||!(Ub in f))return!1;return!!p.length}function Ga(f,p,y,L){"undefined"==typeof L&&(L=Xa(p,!0));"boolean"==typeof L&&(L=Xa(p,L));f===Qa?we&&we(p,y,L):ee&&ta(f,21)?Ge.call(f,p,y,L):f.addEventListener&&(f===Qa.document||f===Qa.document.documentElement?gh.call(f,p,y,L):we.call(f,p,y,L));L=!1;for(let U=Ad.length;0<=--U;){let wa=Ad[U];if(wa.object===f&&wa.event===p&&wa.Y===y){L=!0;break}}L||Ad.push({object:f,
+event:p,Y:y})}function fb(f,p,y,L){for(let U=Ad.length;0<=--U;){let wa=Ad[U];if(wa.object===f&&wa.event===p&&wa.Y===y){Ad.splice(U,1);break}}"undefined"==typeof L&&(L=Xa(p,!0));"boolean"==typeof L&&(L=Xa(p,L));f===Qa?Bf&&Bf(p,y,L):f.removeEventListener&&(f===Qa.document||f===Qa.document.documentElement?Qg.call(f,p,y,L):Bf.call(f,p,y,L))}function Xa(f,p){let y=!1;try{if(we&&Vh.includes(f)){let L=Object.defineProperty({},"passive",{get(){y=!0}});we("test",Ba,L)}}catch(L){}return y?{passive:!0,capture:p}:
+p}function Ca(){let f=Ad;for(let p=f.length;0<=--p;){let y=f[p];fb(y.object,y.event,y.Y)}Ad=[]}function ja(f){return"function"==typeof f}function ya(f){if(f&&void 0!==f[qg])return f[qg];let p=ja(f)&&/{\s+\[native code]/.test(Function.prototype.toString.call(f));return f&&(f[qg]=p),p}function ua(f,p,...y){return void 0!==Function.prototype.bind&&ya(Function.prototype.bind)?Function.prototype.bind.call(f,p,...y):function(...L){return f.apply(p,(y||[]).concat(Array.prototype.slice.call(arguments)||[]))}}
+function R(){if(Of){let f=new Of;if(Kd)for(let p of Rg)void 0!==Kd[p]&&(f[p]=ua(Kd[p],f));return f}return new Qa.XMLHttpRequest}function aa(){return zc()}function xa(f,p,...y){function L(){delete Rd[U];f.apply(this,arguments)}let U,wa=He;return"apply"in wa?(y.unshift(L,p),U=wa.apply(Qa,y)):U=wa(L,p),Rd[U]=!0,U}function N(f){delete Rd[f];let p=ke;"apply"in p?p.call(Qa,f):p(f)}function Y(f){xe.push(f)}function ka(f){let p=xe.length;for(;p--;)if(xe[p]===f){xe.splice(p,1);break}}function Sa(){return xe}
+function O(f,p){return Gd(f,p)}function ea(f){Sd(f)}function fa(f,p){if(!Pf||!Qf)return"";f=new Pf([f],{type:p});return Qf(f)}function S(f,p){return mf?new mf(f,p):void 0}function C(f){"function"==typeof f&&rg.push(f)}function V(){return rg}function la(){return Ne}function M(f){function p(...y){if("number"!=typeof y[0]||!Rd[y[0]])try{return f.apply(this,y)}catch(L){return f(y[0])}}return p[Wh]=f,p}function oa(){return de}function sa(){Ue=ab;zc=()=>Math.round(Ue()+hb());(Number.isNaN(zc())||0>=zc()||
+!Number.isFinite(zc()))&&(zc=()=>Date.now())}function Ta(){Ie&&(Qa.clearTimeout=ke,Qa.clearInterval=Sd,Ie=!1)}function nb(f){f=encodeURIComponent(f);let p=[];if(f)for(let y=0;y<f.length;y++){let L=f.charAt(y);p.push(Cf[L]||L)}return p.join("")}function cb(f){return f.includes("^")&&(f=f.split("^^").join("^"),f=f.split("^dq").join('"'),f=f.split("^rb").join(">"),f=f.split("^lb").join("<"),f=f.split("^p").join("|"),f=f.split("^e").join("="),f=f.split("^s").join(";"),f=f.split("^c").join(","),f=f.split("^bs").join("\\")),
+f}function tb(){return le}function Eb(f){le=f}function Qb(f){let p=Oa("rid"),y=Oa("rpid");p&&(f.rid=p);y&&(f.rpid=y)}function Vb(f){if(f=f.xb){f=cb(f);try{le=new RegExp(f,"i")}catch(p){}}else le=void 0}function Zb(f){return"n"===f||"s"===f||"l"===f?`;SameSite=${Sg[f]}`:""}function ia(f,p,y){let L=1,U=0;do document.cookie=f+'=""'+(p?";domain="+p:"")+";path="+y.substring(0,L)+"; expires=Thu, 01 Jan 1970 00:00:01 GMT;",L=y.indexOf("/",L),U++;while(-1!==L&&5>U)}function za(f,p=document.cookie){return bb(f,
+p)}function Ob(f){var p;return function(){if(p)return p;var y,L,U,wa,db=-1!==Rf?Rf:(null===(L=null===(y=Qa.dT_)||void 0===y?void 0:y.scv)||void 0===L?void 0:L.call(y,"postfix"))||(null===(wa=null===(U=Qa.dT_)||void 0===U?void 0:U.gCP)||void 0===wa?void 0:wa.call(U));y=(y=(Rf=db,db))?"".concat(f).concat(y):f;return p=y,y}}function Ac(){let f=(document.domain||location.hostname||"").split(".");return 1>=f.length?[]:f}function qb(f,p){p=`dTValidationCookieValue;path=/;domain=${f}${Zb(p)}`;return document.cookie=
+`${nf()}=${p}`,za(nf())?(ia(nf(),f,"/"),!0):!1}function kc(){var f=Tg.dT_.scv("agentUri");if(!f)return"ruxitagentjs";f=f.substring(f.lastIndexOf("/")+1);return f.includes("_")?f.substring(0,f.indexOf("_")):f}function Bb(){return Qa.dT_}function Fb(f){ca("eao")?ye=f:Qa.console.log(`${Sf} App override configuration is not enabled! The provided app config callback method will not be invoked!`)}function fc(f){let p=navigator.userAgent;if(!p)return null;let y=p.indexOf("DTHybrid/1.0");return-1===y?null:
+(f=p.substring(y).match(new RegExp(`(^|\\s)${f}=([^\\s]+)`)))?f[2]:null}function Q(){return navigator.userAgent.includes("Googlebot")||navigator.userAgent.includes("AdsBot-Google")}function X(f){let p=f,y=Math.pow(2,32);return function(){return p=(1664525*p+1013904223)%y,p/y}}function Ka(f,p){return Number.isNaN(f)||Number.isNaN(p)?Math.floor(33*td()):Math.floor(td()*(p-f+1))+f}function ba(f){if(Number.isNaN(f)||0>f)return"";var p=Qa.crypto;if(p&&!Q())p=p.getRandomValues(new Uint8Array(f));else{p=
+[];for(var y=0;y<f;y++)p.push(Ka(0,32))}f=Array(f);for(y=0;y<p.length;y++){let L=Math.abs(p[y]%32);f.push(String.fromCharCode(L+(9>=L?48:55)))}return f.join("")}function $a(f=!0){Ve=f}function lb(){return Td}function Na(){let f=Qa.dT_;try{let U=Qa.parent;for(;U&&U!==Qa;){let wa=U.dT_;var p;if(p=!!(wa&&"ea"in wa)&&"10327251022105625"===wa.version){var y=f,L=wa;let db=!y.bcv("ac")||y.scv("app")===L.scv("app"),Lb=y.scv("postfix"),Ub=L.scv("postfix");p=db&&Lb===Ub}if(p)return wa.tdto();U=U!==U.parent?
+U.parent:void 0}}catch(U){}return f}function dc(f,p="",y){var L=f.indexOf("h"),U=f.indexOf("v"),wa=f.indexOf("e");let db=f.substring(f.indexOf("$")+1,L);L=-1!==U?f.substring(L+1,U):f.substring(L+1);!p&&-1!==U&&(-1!==wa?p=f.substring(U+1,wa):p=f.substring(U+1));f=null;y||(U=Number.parseInt(db.split("_")[0]),wa=zc()%We,y=(wa<U&&(wa+=We),U+9E5>wa));return y&&(f={frameId:db,actionId:"-"===L?"-":Number.parseInt(L),visitId:""}),{visitId:p,Cd:f}}function Hb(f,p,y){var L=Ja("pcl");L=f.length-L;0<L&&f.splice(0,
+L);L=Bd(za(Ed(),y));let U=[],wa=L?`${L}$`:"";for(db of f)"-"!==db.actionId&&U.push(`${wa}${db.frameId}h${db.actionId}`);f=U.join("p");var db=(f||(Ve&&(Bc(!0,"a",y),$a(!1)),f+=`${L}$${Td}h-`),f+=`v${p||ha(y)}`,f+="e0",f);vc(of(),db,void 0,ca("ssc"))}function Xb(f,p=document.cookie){var y=za(of(),p);p=[];if(y&&"-"!==y){var L=y.split("p");y="";for(let U of L)L=dc(U,y,f),y=L.visitId,L.Cd&&p.push(L.Cd);for(let U of p)U.visitId=y}return p}function wc(f,p){let y=document.cookie;p=Xb(p,y);let L=!1;for(let U of p)U.frameId===
+Td&&(U.actionId=f,L=!0);L||p.push({frameId:Td,actionId:f,visitId:""});Hb(p,void 0,y)}function mc(){return Hd}function ib(f,p){try{Qa.localStorage.setItem(f,p)}catch(y){}}function w(f){try{Qa.localStorage.removeItem(f)}catch(p){}}function x(f){try{return Qa.localStorage.getItem(f)}catch(p){}return null}function r(f,p=document.cookie||""){return p.split(f+"=").length-1}function E(f,p){var y=r(f,p);if(1<y){p=Oa("domain")||Qa.location.hostname;let L=Qa.location.hostname,U=Qa.location.pathname,wa=0,db=
+0;ud.add(f);do{let Lb=L.substring(wa);if(Lb!==p||"/"!==U){ia(f,Lb===p?"":Lb,U);let Ub=r(f);Ub<y&&(ud.add(Lb),y=Ub)}wa=L.indexOf(".",wa)+1;db++}while(0!==wa&&10>db&&1<y);Oa("domain")&&1<y&&ia(f,"",U)}}function T(){var f=document.cookie;E(of(),f);E(Ed(),f);E(od(),f);f=ud.size;0<f&&f!==Xe&&(Xe=f,de.push({severity:"Error",type:"dcn",text:`Duplicate cookie name${1!==f?"s":""} detected: ${Array.from(ud).join(",")}`}))}function P(){ud=new Set;T();Y(function(f,p,y,L){0===ud.size||p||(f.av(L,"dCN",Array.from(ud).join(",")),
+ud.clear(),Xe=0)})}function ha(f){return na(f)||Bc(!0,"c",f)}function na(f){if(J(f)<=zc())return Bc(!0,"t",f);let p=yc(f);if(p){let y=hh.exec(p);f=y&&3===y.length&&32===y[1].length&&!Number.isNaN(Number.parseInt(y[2]))?(Sb(Cd(),p),p):Bc(!0,"i",f)}else f=Bc(!0,"c",f);return f}function Da(f,p){var y=zc();p=Gc(p).kc;f&&(p=y);$c(y+Ye+"|"+p);ad()}function pb(f){let p="t"+(zc()-J(f));Bc(!0,p,f)}function yc(f){var p,y;return null!==(y=null===(p=Xb(!0,f)[0])||void 0===p?void 0:p.visitId)&&void 0!==y?y:qc(Cd())}
+function Hc(){let f=ba(Ld);try{f=f.replace(/\d/g,function(p){p=.1*Number.parseInt(p);return String.fromCharCode(Math.floor(25*p+65))})}catch(p){throw ta(p,7),p;}return f+="-0",f}function Cc(f,p){let y=Xb(!1,p);Hb(y,f,p);Sb(Cd(),f);Da(!0)}function dd(f,p,y){return Bc(f,p,y)}function Bc(f,p,y){f&&(Oe=!0);f=yc(y);y=Hc();Cc(y);if(yc(document.cookie))for(let L of Md)L(y,Oe,p,f);return y}function Ec(f){Md.push(f)}function Lc(f){f=Md.indexOf(f);-1!==f&&Md.splice(f)}function ad(f){pf&&N(pf);pf=xa(Xc,J(f)-
+zc())}function Xc(){let f=document.cookie;return J(f)<=zc()?(sb(pb,[f]),!0):(I(ad),!1)}function $c(f){let p=ua(vc,null,od(),f,void 0,ca("ssc"));p();let y=za(od());""!==y&&f!==y&&(T(),p(),f===za(od())||sg||(de.push({severity:"Error",type:"dcn",text:"Could not sanitize cookies"}),sg=!0));Sb(od(),f)}function id(f,p){p=za(f,p);return p||(p=qc(f)||""),p}function jd(){var f=na()||"";Sb(Cd(),f);f=id(od());$c(f);w(Cd());w(od())}function Gc(f){let p={Zc:0,kc:0};if(f=id(od(),f))try{let y=f.split("|");2===y.length&&
+(p.Zc=Number.parseInt(y[0]),p.kc=Number.parseInt(y[1]))}catch(y){}return p}function J(f){f=Gc(f);return Math.min(f.Zc,f.kc+Df)}function W(f){Ye=f}function D(){let f=Oe;return Oe=!1,f}function ra(){Xc()||Da(!1)}function Ia(){if(ca("nsfnv")){var f=za(Ed());if(!f.includes(`${Ze}-`)){let p=Ea(f).serverId;f=f.replace(`${Ze}${p}`,`${Ze}${`${-1*Ka(2,me)}`.replace("-","-2D")}`);pd(f)}}}function Pa(){I(function(){if(!ed()){let f=-1*Ka(2,me),p=ba(Ld);pd(`v_4${Ze}${`${f}`.replace("-","-2D")}_sn_${p}`)}},!0);
+Ec(Ia)}function Ea(f){var p;let y={},L={sessionId:"",serverId:"",overloadState:0,appState:y};var U=f.split($e);if(2<U.length&&0===U.length%2){f=+U[1];if(Number.isNaN(f)||3>f)return L;f={};for(var wa=2;wa<U.length;wa++){let db=U[wa];db.startsWith(Tf)?y[db.substring(6).toLowerCase()]=+U[wa+1]:f[db]=U[wa+1];wa++}f.sn?(U=f.sn,L.sessionId=U.length===Ld||12>=U.length?U:""):L.sessionId="hybrid";if(f.srv){a:{U=f.srv.replace("-2D","-");if(!Number.isNaN(+U)&&(wa=Number.parseInt(U),wa>=-me&&wa<=me))break a;
+U=""}L.serverId=U}U=+f.ol;1===U&&ob(pc());0<=U&&2>=U&&(L.overloadState=U);f=+f.prv;Number.isNaN(f)||(L.privacyState=1>f||4<f?1:f);f=null===(p=Oa("app"))||void 0===p?void 0:p.toLowerCase();p=y[f];!Number.isNaN(p)&&0===p&&ob(pc())}return L}function ob(f){let p=Bb();f||(p.disabled=!0,p.overloadPrevention=!0)}function Ua(){if(yb()||Qa.dynatraceMobile){let f=Va("dtAdkSettings")||fc("dtAdkSettings")||"";return Ea(f).privacyState||null}return null}function yb(){var f,p;let y=Qa.MobileAgent;if(y)return y;
+let L=null===(p=null===(f=Qa.webkit)||void 0===f?void 0:f.messageHandlers)||void 0===p?void 0:p.MobileAgent;if(L)return{incrementActionCount:()=>L.postMessage({api:"incrementActionCount"})}}function sb(f,p){return!Wb()||Bb().overloadPrevention&&!pc()?null:f.apply(this,p)}function Wb(){let f=Ua();return 2===f||1===f?!1:!ca("coo")||ca("cooO")||pc()}function Yb(f,p){try{Qa.sessionStorage.setItem(f,p)}catch(y){}}function Sb(f,p){sb(Yb,[f,p])}function qc(f){try{return Qa.sessionStorage.getItem(f)}catch(p){}return null}
+function Ic(f){try{Qa.sessionStorage.removeItem(f)}catch(p){}}function tc(f){document.cookie=f+'="";path=/'+(Oa("domain")?";domain="+Oa("domain"):"")+"; expires=Thu, 01 Jan 1970 00:00:01 GMT;"}function Dc(f,p,y,L){p||0===p?(p=(p+"").replace(/[\n\r;]/g,"_"),f=f+"="+p+";path=/"+(Oa("domain")?";domain="+Oa("domain"):""),y&&(f+=";expires="+y.toUTCString()),f+=Zb(Oa("cssm")),L&&"https:"===location.protocol&&(f+=";Secure"),document.cookie=f):tc(f)}function vc(f,p,y,L){sb(Dc,[f,p,y,L])}function Dd(f){return!!f.includes("v_4")}
+function md(f){f=za(Ed(),f);f||(f=(f=qc(Ed()))&&Dd(f)?(pd(f),f):"");return Dd(f)?f:""}function pd(f){vc(Ed(),f,void 0,ca("ssc"))}function vd(f){return(f=f||md())?Ea(f):{sessionId:"",serverId:"",overloadState:0,appState:{}}}function Bd(f){return vd(f).serverId}function ed(f){return vd(f).sessionId}function pc(){return navigator.userAgent.includes(Nd)}function ze(f){let p={};f=f.split("|");for(let y of f)f=y.split("="),2===f.length&&(p[f[0]]=decodeURIComponent(f[1].replace(/\+/g," ")));return p}function A(){let f=
+kc();return(f.indexOf("dbg")===f.length-3?f.substring(0,f.length-3):f)+"_"+Oa("app")+"_Store"}function B(f,p={},y){f=f.split("|");for(var L of f){f=L;let U=L.indexOf("="),wa;-1===U?(wa=f,p[wa]="1"):(f=L.substring(0,U),wa=f,p[wa]=L.substring(U+1,L.length))}!y&&(y=p.spc)&&(L=document.createElement("textarea"),L.innerHTML=y,p.spc=L.value);return p}function F(f){var p;return null!==(p=ic[f])&&void 0!==p?p:Ud[f]}function ca(f){f=F(f);return"false"===f||"0"===f?!1:!!f}function Ja(f){var p=F(f);p=Number.parseInt(p);
+return Number.isNaN(p)&&(p=Ud[f]),p}function Oa(f){if("app"===f){a:{try{if(ye){var p=ye();if(p&&"string"==typeof p&&qf.test(p)){var y=p;break a}Qa.console.log(`${Sf} Registered app config callback method did not return a string in the correct app id format ${qf} The default app ID will be used instead! Got value: ${p}`)}}catch(L){Qa.console.log(`${Sf} Failed to execute the registered app config callback method! The default app ID will be used instead!`,L)}y=void 0}if(y)return y}return(F(f)||"")+""}
+function jb(f,p){ic[f]=p+""}function xb(f){return ic=f,ic}function Cb(f){let p=ic[f];p&&(ic[f]=p.includes("#"+f.toUpperCase())?"":p)}function Ib(f){var p=f.agentUri;null!=p&&p.includes("_")&&(p=/([A-Za-z]*)\d{0,4}_(\w*)_\d+/g.exec(p))&&p.length&&2<p.length&&(f.featureHash=p[2])}function $b(f){var p=Bb().platformCookieOffset;if("number"==typeof p){a:{var y=Oa("cssm");var L=Ac();if(L.length)for(p=L.slice(p);p.length;){if(qb(p.join("."),y)){y=p.join(".");break a}p.shift()}y=""}y&&(f.domain=y)}else if(y=
+f.domain||"",p=(p=location.hostname)&&y?p===y||p.includes("."+y,p.length-("."+y).length):!0,!y||!p){f.domainOverride||(f.domainOriginal=f.domain||"",f.domainOverride=`${location.hostname},${y}`,delete f.domain);a:{L=Oa("cssm");let wa=Ac().reverse();if(wa.length){var U=wa[0];for(let db=1;db<=wa.length;db++){if(qb(U,L)){L=U;break a}let Lb=wa[db];Lb&&(U=`${Lb}.${U}`)}}L=""}L&&(f.domain=L);p||de.push({type:"dpi",severity:"Warning",text:`Configured domain "${y}" is invalid for current location "${location.hostname}". Agent will use "${f.domain}" instead.`})}}
+function m(f,p){$b(f);let y=ic.pVO;(y&&(f.pVO=y),p)||(f.bp=(f.bp||Ud.bp)+"")}function t(f,p){if(null==f||!f.attributes)return p;let y=p;var L=f.attributes.getNamedItem("data-dtconfig");if(!L)return y;f=f.src;L=L.value;let U={};ic.legacy="1";var wa=/([A-Za-z]*)_(\w*)_(\d+)/g;let db=null;wa=(f&&(db=wa.exec(f),null!=db&&db.length&&(U.agentUri=f,U.featureHash=db[2],U.agentLocation=f.substring(0,f.indexOf(db[1])-1),U.buildNumber=db[3])),L&&B(L,U,!0),$b(U),U);if(!p)y=wa;else if(!wa.syntheticConfig)return wa;
+return y}function u(){return ic}function G(f){return Ud[f]===F(f)}function I(f,p=!1){Wb()?f():p?tg.push(f):ug.push(f)}function ma(){if(!ca("coo")||Wb())return!1;for(let f of ug)xa(f,0);ug=[];jb("cooO",!0);for(let f of tg)f();return tg.length=0,!0}function pa(){if(!ca("coo")||!Wb())return!1;jb("cooO",!1);tc(Ed());tc(of());tc(vg());tc("dtAdk");tc(Yc());tc(od());try{Ic(Cd()),Ic(od()),w(Cd()),w(od()),Ic(Yc()),Ic(Ed()),w(A()),w("dtAdk")}catch(f){}return!0}function Ma(){var f=za(Yc());if(!f||45!==(null==
+f?void 0:f.length))if(f=x(Yc())||qc(Yc()),45!==(null==f?void 0:f.length)){ih=!0;let p=zc()+"";f=(p+=ba(45-p.length),p)}return Wa(f),f}function Wa(f){let p;if(ca("dpvc")||ca("pVO"))Sb(Yc(),f);else{p=new Date;var y=p.getMonth()+Math.min(24,Math.max(1,Ja("rvcl")));p.setMonth(y);y=Yc();sb(ib,[y,f])}vc(Yc(),f,p,ca("ssc"))}function gb(){return ih}function rb(f){let p=za(Yc());tc(Yc());Ic(Yc());w(Yc());jb("pVO",!0);Wa(p);f&&sb(ib,["dt-pVO","1"]);jd()}function zb(){w("dt-pVO");ca("pVO")&&(jb("pVO",!1),Ma());
+Ic(Yc());jd()}function hc(f,p,y,L,U,wa){let db=document.createElement("script");db.setAttribute("src",f);p&&db.setAttribute("defer","defer");y&&(db.onload=y);L&&(db.onerror=L);U&&db.setAttribute("id",U);if(f=wa){var Lb;f=null!=(null===(Lb=document.currentScript)||void 0===Lb?void 0:Lb.attributes.getNamedItem("integrity"))}f&&db.setAttribute("integrity",wa);db.setAttribute("crossorigin","anonymous");wa=document.getElementsByTagName("script")[0];wa.parentElement.insertBefore(db,wa)}function nc(f){return Uf+
+"/"+Pe+"_"+f+"_"+(Ja("buildNumber")||Bb().version)+".js"}function Mc(){}function Oc(f,p){return function(){f.apply(p,arguments)}}function Mb(f){if(!(this instanceof Mb))throw new TypeError("Promises must be constructed via new");if("function"!=typeof f)throw new TypeError("not a function");this.oa=0;this.Ob=!1;this.qa=void 0;this.Da=[];jh(f,this)}function kd(f,p){for(;3===f.oa;)f=f.qa;0===f.oa?f.Da.push(p):(f.Ob=!0,Mb.qb(function(){var y=1===f.oa?p.Gb:p.Hb;if(null===y)(1===f.oa?Vd:Ae)(p.promise,f.qa);
+else{try{var L=y(f.qa)}catch(U){Ae(p.promise,U);return}Vd(p.promise,L)}}))}function Vd(f,p){try{if(p===f)throw new TypeError("A promise cannot be resolved with itself.");if(p&&("object"==typeof p||"function"==typeof p)){var y=p.then;if(p instanceof Mb){f.oa=3;f.qa=p;wg(f);return}if("function"==typeof y){jh(Oc(y,p),f);return}}f.oa=1;f.qa=p;wg(f)}catch(L){Ae(f,L)}}function Ae(f,p){f.oa=2;f.qa=p;wg(f)}function wg(f){2===f.oa&&0===f.Da.length&&Mb.qb(function(){f.Ob||Mb.Ub(f.qa)});for(var p=0,y=f.Da.length;p<
+y;p++)kd(f,f.Da[p]);f.Da=null}function Xh(f,p,y){this.Gb="function"==typeof f?f:null;this.Hb="function"==typeof p?p:null;this.promise=y}function jh(f,p){var y=!1;try{f(function(L){y||(y=!0,Vd(p,L))},function(L){y||(y=!0,Ae(p,L))})}catch(L){y||(y=!0,Ae(p,L))}}function xg(){return yg.qb=function(f){if("string"==typeof f)throw Error("Promise polyfill called _immediateFn with string");f()},yg.Ub=()=>{},yg}function Ef(){var f;(f=void 0===Qa.dialogArguments&&navigator.cookieEnabled)||(document.cookie="__dTCookie=1;SameSite=Lax",
+f=document.cookie.includes("__dTCookie"),f=(document.cookie="__dTCookie=1; expires=Thu, 01-Jan-1970 00:00:01 GMT",f));return f}function zg(){var f,p;try{null===(p=null===(f=yb())||void 0===f?void 0:f.incrementActionCount)||void 0===p||p.call(f)}catch(y){}}function Vf(){let f=Qa.dT_;Qa.dT_={di:0,version:"10327251022105625",cfg:f?f.cfg:"",iCE:f?Ef:function(){return navigator.cookieEnabled},ica:1,disabled:!1,disabledReason:"",overloadPrevention:!1,gAST:la,ww:S,stu:fa,nw:aa,st:xa,si:O,aBPSL:Y,rBPSL:ka,
+gBPSL:Sa,aBPSCC:C,gBPSCC:V,buildType:"dynatrace",gSSV:qc,sSSV:Sb,rSSV:Ic,rvl:w,iVSC:Dd,p3SC:Ea,dC:tc,sC:vc,esc:nb,gSId:Bd,gDtc:ed,gSC:md,sSC:pd,gC:Va,cRN:Ka,cRS:ba,cfgO:u,pCfg:ze,pCSAA:B,cFHFAU:Ib,sCD:m,bcv:ca,ncv:Ja,scv:Oa,stcv:jb,rplC:xb,cLSCK:A,gFId:lb,gBAU:nc,iS:hc,eWE:I,oEIEWA:sb,eA:ma,dA:pa,iNV:gb,gVID:Ma,dPV:rb,ePV:zb,sVIdUP:$a,sVTT:W,sVID:Cc,rVID:na,gVI:ha,gNVIdN:dd,gARnVF:D,cAUV:ra,uVT:Da,aNVL:Ec,rNVL:Lc,gPC:Xb,cPC:wc,sPC:Hb,clB:Ta,ct:N,aRI:Qb,iXB:Vb,gXBR:tb,sXBR:Eb,de:cb,iEC:zg,rnw:hb,gto:Ya,
+ael:Ga,rel:fb,sup:Xa,cuel:Ca,iAEPOO:Wb,iSM:pc,gxwp:R,iIO:ta,prm:xg,cI:ea,gidi:oa,iDCV:G,gCF:za,gPSMB:Ua,lvl:x,gCP:null!=f&&f.platformPrefix?function(){return f.platformPrefix||""}:void 0,platformCookieOffset:null==f?void 0:f.platformCookieOffset,tdto:Na,gFLAI:mc,rACC:Fb,gAN:kc,gAFUA:fc}}function Yh(){xg();var f;Of=Qa.XMLHttpRequest;var p=null===(f=Qa.XMLHttpRequest)||void 0===f?void 0:f.prototype;if(p){Kd={};for(let L of Rg)void 0!==p[L]&&(Kd[L]=p[L])}we=Qa.addEventListener;Bf=Qa.removeEventListener;
+gh=Qa.document.addEventListener;Qg=Qa.document.removeEventListener;He=Qa.setTimeout;Gd=Qa.setInterval;Ie||(ke=Qa.clearTimeout,Sd=Qa.clearInterval);f=Ef?Ef():navigator.cookieEnabled;var y;p=za("dtAdkSettings")||(null===(y=ne)||void 0===y?void 0:y.getItem("dtAdkSettings"))||fc("dtAdkSettings")||"";y=1===(Ea(p).overloadState||null);if(f){if(y)return!1}else return!1;return!0}function af(...f){Qa.console.log.apply(Qa.console,f)}this.dT_&&dT_.prm&&dT_.prm();var Tg="undefined"!=typeof window?window:self,
+Qa="undefined"!=typeof globalThis?globalThis:"undefined"!=typeof window?window:void 0,ke,Sd,He,Gd,zd,Ue,Wh=Symbol.for("dt_2");Symbol.for("dt_3");var we,Bf,gh,Qg,ee=Qa.Worker,Ge=ee&&ee.prototype.addEventListener,Ad=[],Vh=["touchstart","touchend","scroll"],qg=Symbol.for("dt2-isNativeFunction"),Of,Rg="abort getAllResponseHeaders getResponseHeader open overrideMimeType send setRequestHeader".split(" "),Kd,mf=Qa.Worker,Pf=Qa.Blob,Qf=Qa.URL&&Qa.URL.createObjectURL,Ie=!1,xe,rg=[],de=[],Ne,ne,Rd={},zc,Cf=
+{"!":"%21","~":"%7E","*":"%2A","(":"%28",")":"%29","'":"%27",hg:"%24",";":"%3B",",":"%2C"},le,Sg={l:"Lax",s:"Strict",n:"None"},Rf=-1,of=Ob("dtPC"),Ed=Ob("dtCookie"),od=Ob("rxvt"),Yc=Ob("rxVisitor"),nf=Ob("dTValidationCookie"),vg=Ob("dtSa"),Ud,Sf="[Dynatrace RUM JavaScript]",qf=/^[\da-f]{12,16}$/,ye,td,Be,Ve=!1,Td,We=6E8,Hd,Ld=32,Cd=Ob("rxvisitid"),ud,Xe=0,hh=/([A-Z]+)-(\d+)/,Md=[],Ye,Df,Oe=!1,pf,sg=!1,$e="_",me=32768,Ze=`${$e}srv${$e}`,Tf="app-3A",Nd="RuxitSynthetic",Zh=/c(\w+)=([^ ]+(?: (?!c?\w+=)[^ ()c]+)*)/g,
+ic={},ug=[],tg=[],ih=!1,Wf,Uf,Pe,$h=setTimeout;Mb.prototype.catch=function(f){return this.then(null,f)};Mb.prototype.then=function(f,p){var y=new this.constructor(Mc);return kd(this,new Xh(f,p,y)),y};Mb.prototype.finally=function(f){var p=this.constructor;return this.then(function(y){return p.resolve(f()).then(function(){return y})},function(y){return p.resolve(f()).then(function(){return p.reject(y)})})};Mb.all=function(f){return new Mb(function(p,y){function L(Lb,Ub){try{if(Ub&&("object"==typeof Ub||
+"function"==typeof Ub)){var ld=Ub.then;if("function"==typeof ld){ld.call(Ub,function(Od){L(Lb,Od)},y);return}}U[Lb]=Ub;0===--wa&&p(U)}catch(Od){y(Od)}}if(!f||"undefined"==typeof f.length)return y(new TypeError("Promise.all accepts an array"));var U=Array.prototype.slice.call(f);if(0===U.length)return p([]);for(var wa=U.length,db=0;db<U.length;db++)L(db,U[db])})};Mb.allSettled=function(f){return new this(function(p,y){function L(db,Lb){if(Lb&&("object"==typeof Lb||"function"==typeof Lb)){var Ub=Lb.then;
+if("function"==typeof Ub){Ub.call(Lb,function(ld){L(db,ld)},function(ld){U[db]={status:"rejected",reason:ld};0===--wa&&p(U)});return}}U[db]={status:"fulfilled",value:Lb};0===--wa&&p(U)}if(!f||"undefined"==typeof f.length)return y(new TypeError(typeof f+" "+f+" is not iterable(cannot read property Symbol(Symbol.iterator))"));var U=Array.prototype.slice.call(f);if(0===U.length)return p([]);var wa=U.length;for(y=0;y<U.length;y++)L(y,U[y])})};Mb.resolve=function(f){return f&&"object"==typeof f&&f.constructor===
+Mb?f:new Mb(function(p){p(f)})};Mb.reject=function(f){return new Mb(function(p,y){y(f)})};Mb.race=function(f){return new Mb(function(p,y){if(!f||"undefined"==typeof f.length)return y(new TypeError("Promise.race accepts an array"));for(var L=0,U=f.length;L<U;L++)Mb.resolve(f[L]).then(p,y)})};Mb.qb="function"==typeof setImmediate&&function(f){setImmediate(f)}||function(f){$h(f,0)};Mb.Ub=function(f){"undefined"!=typeof console&&console&&console.warn("Possible Unhandled Promise Rejection:",f)};var yg=
+Mb,Ug="function"==typeof PerformanceResourceTiming||"object"==typeof PerformanceResourceTiming,Ff="function"==typeof PerformanceNavigationTiming||"object"==typeof PerformanceNavigationTiming;(function(){var f,p,y,L;if(L=!("documentMode"in document&&!Number.isNaN(document.documentMode)))L=(L=window.performance)&&Ff&&Ug&&!!L.timeOrigin&&ja(L.now)&&ja(L.getEntriesByType)&&ja(L.getEntriesByName)&&ja(L.setResourceTimingBufferSize)&&ja(L.clearResourceTimings);if(L)if(L=!(null!==(f=navigator.userAgent)&&
+void 0!==f&&f.includes("RuxitSynthetic")),!Qa.dT_||!Qa.dT_.cfg||"string"!=typeof Qa.dT_.cfg||"initialized"in Qa.dT_&&Qa.dT_.initialized)null!==(p=Qa.dT_)&&void 0!==p&&p.gCP?af("[CookiePrefix/initCode] initCode with cookie prefix already initialized, not initializing initCode!"):af("InitConfig not found or agent already initialized! This is an injection issue."),Qa.dT_&&(Qa.dT_.di=3);else if(L)try{Vf();Ud={ade:"",aew:!0,apn:"",agentLocation:"",agentUri:"",app:"",ac:!0,async:!1,ase:!1,auto:!1,bp:3,
+bs:!1,buildNumber:0,csprv:!0,cepl:16E3,cls:!0,ccNcss:!1,coo:!1,cooO:!1,cssm:"0",cwtDomains:"",cwtUrl:"w2dax4xgw3",cwt:"",cors:!1,cuc:"",cce:!1,cux:!1,postfix:"",dataDtConfig:"",debugName:"",dvl:500,dASXH:!1,disableCookieManager:!1,dKAH:!1,disableLogging:!1,dmo:!1,doel:!1,dpch:!1,dpvc:!1,disableXhrFailures:!1,domain:"",domainOverride:"",domainOriginal:"",doNotDetect:"",ds:!0,dsndb:!1,dsa:!1,dsss:!1,dssv:!0,earxa:!0,eao:!1,exp:!1,eni:!0,etc:!0,expw:!1,instr:"",evl:"",fa:!1,fvdi:!1,featureHash:"",hvt:216E5,
+imm:!1,ign:"",iub:"",iqvn:!1,initializedModules:"",lastModification:0,lupr:!0,lab:!1,legacy:!1,lt:!0,mb:"",md:"",mdp:"",mdl:"",mcepsl:100,mdn:5E3,mhl:4E3,mpl:1024,mmds:2E4,msl:3E4,bismepl:2E3,mel:200,mepp:10,moa:30,mrt:3,ntd:!1,nsfnv:!1,ncw:!1,oat:180,ote:!1,owasp:!1,pcl:20,pt:!0,perfbv:1,prfSmpl:0,pVO:!1,peti:!1,raxeh:!0,rdnt:0,nosr:!0,reportUrl:"dynaTraceMonitor",rid:"",ridPath:"",rpid:"",rcdec:12096E5,rtl:0,rtp:2,rtt:1E3,rtu:200,rvcl:24,sl:100,ssc:!1,svNB:!1,srad:!0,srbbv:1,srbw:!0,srcst:!1,srdinitrec:!0,
+srmr:100,srms:"1,1,,,",srsr:1E5,srtbv:3,srtd:1,srtr:500,srvr:"",srvi:0,srwo:!1,srre:"",srxcss:!0,srxicss:!0,srficros:!0,srmrc:!1,srsdom:!0,srfirrbv:!0,srcss:!0,srmcrl:1,srmcrv:10,st:3E3,spc:"",syntheticConfig:!1,tal:0,tt:100,tvc:3E3,uxdce:!1,uxdcw:1500,uxrgce:!0,uxrgcm:"100,25,300,3;100,25,300,3",uam:!1,uana:"data-dtname,data-dtName",uanpi:0,pui:!1,usrvd:!0,vrt:!1,vcfi:!0,vcsb:!1,vcit:1E3,vct:50,vcx:50,vscl:0,vncm:1,vrei:"",xb:"",chw:"",xt:0,xhb:""};if(!Yh())throw Error("Error during initCode initialization");
+try{ne=Qa.localStorage}catch(wd){}de=[];sa();Ne=zc();xe=[];Rd={};Ie||(Qa.clearTimeout=M(ke),Qa.clearInterval=M(Sd),Ie=!0);let qd=Math.random(),Fd=Math.random();Be=0!==qd&&0!==Fd&&qd!==Fd;if(Q()){var U=performance.getEntriesByType("navigation")[0];if(U){f=0;for(var wa in U){let wd=+U[wa];!Number.isNaN(wd)&&Number.isFinite(wd)&&(f+=Math.abs(wd))}var db=Math.floor(1E4*f)}else db=zc();td=X(db)}else Be?td=Math.random:td=X(zc());Td=Ne%We+"_"+Number.parseInt(Ka(0,1E3)+"");a:{let wd=Bb().cfg;ic={reportUrl:"dynaTraceMonitor",
+initializedModules:"",dataDtConfig:"string"==typeof wd?wd:""};Bb().cfg=ic;let fd=ic.dataDtConfig;fd&&!fd.includes("#CONFIGSTRING")&&(B(fd,ic),Cb("domain"),Cb("auto"),Cb("app"),Ib(ic));let gd=(ic.dataDtConfig||"").includes("#CONFIGSTRING")?null:ic;if(gd=t(document.currentScript,gd),gd)for(let hd in gd)if(Object.prototype.hasOwnProperty.call(gd,hd)){U=hd;db=ic;wa=U;var Lb=gd[U];"undefined"!=typeof Lb&&(db[wa]=Lb)}let fe=A();try{let hd=(Lb=ne)&&Lb.getItem(fe);if(hd){let bf=ze(hd),oe=B(bf.config||""),
+rf=ic.lastModification||"0",Ag=Number.parseInt((oe.lastModification||bf.lastModification||"0").substring(0,13)),Ki="string"==typeof rf?Number.parseInt(rf.substring(0,13)):rf;if(!(rf&&Ag<Ki)&&(oe.agentUri=oe.agentUri||Oa("agentUri"),oe.featureHash=bf.featureHash||Oa("featureHash"),oe.agentUri&&Ib(oe),m(oe,!0),Vb(oe),Qb(oe),Ag>(+ic.lastModification||0))){let oj=ca("auto"),pj=ca("legacy");ic=xb(oe);ic.auto=oj?"1":"0";ic.legacy=pj?"1":"0"}}}catch(hd){}m(ic);try{let hd=ic.ign;if(hd&&(new RegExp(hd)).test(Qa.location.href)){var Ub=
+(delete Qa.dT_,!1);break a}}catch(hd){}if(pc()){{var ld=navigator.userAgent;let bf=ld.lastIndexOf(Nd);if(-1===bf)var Od={};else{var Qe=ld.substring(bf).matchAll(Zh);if(Qe){ld={};for(var Gf of Qe){let [,oe,rf]=Gf;ld[oe]=rf}Od=ld}else Od={}}}Gf=Od;let hd;for(hd in Gf)if(Object.prototype.hasOwnProperty.call(Gf,hd)&&Gf[hd]){Od=ic;Qe=hd;var pe=Gf[hd];"undefined"!=typeof pe&&(Od[Qe]=pe)}xb(ic)}var Pd=Oa("cuc"),Wd,cf;let Xd=null===(cf=null===(Wd=Qa.dT_)||void 0===Wd?void 0:Wd.gCP)||void 0===cf?void 0:cf.call(Wd);
+if(Pd&&Xd&&Pd!==Xd)throw Error("platformPrefix and cuc do not match!");Ub=!0}if(!Ub)throw Error("Error during config initialization");P();Wf=Bb().disabled;var Jc;if(!(Jc=Oa("agentLocation")))a:{let wd=Oa("agentUri");if(wd||document.currentScript){let gd=wd||document.currentScript.src;if(gd){let fe=gd.includes("_complete")?2:1,Xd=gd.lastIndexOf("/");for(Ub=0;Ub<fe&&-1!==Xd;Ub++)gd=gd.substring(0,Xd),Xd=gd.lastIndexOf("/");Jc=gd;break a}}let fd=location.pathname;Jc=fd.substring(0,fd.lastIndexOf("/"))}Uf=
+Jc;if(Pe=kc(),"true"===za("dtUseDebugAgent")&&!Pe.includes("dbg")&&(Pe=Oa("debugName")||Pe+"dbg"),!ca("auto")&&!ca("legacy")&&!Wf){let wd=Oa("agentUri")||nc(Oa("featureHash"));ca("async")||"complete"===document.readyState?hc(wd,ca("async"),void 0,void 0,"dtjsagent"):(document.write(`<script id="${"dtjsagentdw"}" type="text/javascript" src="${wd}" crossorigin="anonymous"><\/script>`),document.getElementById("dtjsagentdw")||hc(wd,ca("async"),void 0,void 0,"dtjsagent"))}za(Ed())&&jb("cooO",!0);Pa();
+jb("pVO",!!x("dt-pVO"));I(Ma);Ye=18E5;Df=Ja("hvt")||216E5;let df=Na();Hd=void 0;df&&"ea"in df&&(Hd=df.gITAID());sb(wc,[Hd||1])}catch(qd){"platformPrefix and cuc do not match!"===qd.message?(Jc=Qa.dT_,Qa.dT_={minAgentVersion:Jc.minAgentVersion,platformPrefix:(null===(y=Jc.gCP)||void 0===y?void 0:y.call(Jc))||Jc.platformPrefix,platformCookieOffset:Jc.platformCookieOffset},af("[CookiePrefix/initCode] cuc and platformPrefix do not match, disabling agent!")):(delete Qa.dT_,af("JsAgent initCode initialization failed!",
+qd))}})()})();
+</script><script type="text/javascript" src="/ruxitagentjs_A7NVfgqrux_10327251022105625.js" defer="defer"></script><script async src="https://www.googletagmanager.com/gtag/js?id=G-GS1KB7R8DY"></script>
+<script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments)};gtag("js", new Date());gtag("set", "developer_id.dMDhkMT", true);gtag("config", "G-GS1KB7R8DY", {"groups":"default","page_placeholder":"PLACEHOLDER_page_location","allow_ad_personalization_signals":false});gtag("config", "UA-17192165-1", {"groups":"default","anonymize_ip":true,"page_placeholder":"PLACEHOLDER_page_path","allow_ad_personalization_signals":false});gtag("config", "G-MFMY1F6D3V", {"groups":"default","page_placeholder":"PLACEHOLDER_page_location","allow_ad_personalization_signals":false});</script>
+<meta name="description" content="U.S. Secretary of Energy Chris Wright approved an LNG export permit extension for Golden Pass LNG Terminal LLC, currently under construction in Sabine Pass, Texas." />
+<link rel="canonical" href="https://www.energy.gov/articles/doe-issues-export-approval-golden-pass-lng-accelerating-president-trumps-pledge-restore" />
+<link rel="shortlink" href="https://www.energy.gov/node/4849398" />
+<meta name="generator" content="Drupal 8 (http://drupal.org)" />
+<link rel="image_src" href="https://www.energy.gov/sites/default/files/2025-02/DOE%20Full%20Seal%20on%20white%20gray%20background%20-%201250x785_1.png" />
+<meta name="referrer" content="strict-origin-when-cross-origin" />
+<meta property="og:site_name" content="Energy.gov" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.energy.gov/articles/doe-issues-export-approval-golden-pass-lng-accelerating-president-trumps-pledge-restore" />
+<meta property="og:title" content="DOE Issues Export Approval to Golden Pass LNG, Accelerating President Trump&#039;s Pledge to Restore American Energy Dominance" />
+<meta property="og:description" content="U.S. Secretary of Energy Chris Wright approved an LNG export permit extension for Golden Pass LNG Terminal LLC, currently under construction in Sabine Pass, Texas." />
+<meta property="og:image" content="https://www.energy.gov/sites/default/files/2025-02/DOE%20Full%20Seal%20on%20white%20gray%20background%20-%201250x785_1.png" />
+<meta property="og:image:url" content="https://www.energy.gov/sites/default/files/2025-02/DOE%20Full%20Seal%20on%20white%20gray%20background%20-%201250x785_1.png" />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:alt" content="US Department of Energy Seal Logo" />
+<meta property="og:street_address" content="1000 Independence Ave. SW" />
+<meta property="og:locality" content="Washington D.C." />
+<meta property="og:postal_code" content="20585" />
+<meta property="og:country_name" content="USA" />
+<meta property="og:phone_number" content="202-586-5000" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="U.S. Secretary of Energy Chris Wright approved an LNG export permit extension for Golden Pass LNG Terminal LLC, currently under construction in Sabine Pass, Texas." />
+<meta name="twitter:site" content="@ENERGY" />
+<meta name="twitter:title" content="DOE Issues Export Approval to Golden Pass LNG, Accelerating President Trump&#039;s Pledge to Restore American Energy Dominance" />
+<meta name="twitter:image" content="https://www.energy.gov/sites/default/files/2025-02/DOE%20Full%20Seal%20on%20white%20gray%20background%20-%201250x785_1.png" />
+<meta name="twitter:image:alt" content="US Department of Energy Seal Logo" />
+<meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>.page-hero, .topic-banner-wrapper .hero { background-image: linear-gradient(180deg, transparent 33%, rgba(41, 41, 41, .7)), url(https://www.energy.gov/) !important } .page-title { color: #ffffff !important }</style>
+<script>var addthis_share = addthis_share || {}; addthis_share = {"passthrough":{"twitter":{"via":"energygov"}}}</script>
+<link rel="icon" href="/themes/custom/energy_gov/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="alternate" hreflang="en" href="https://www.energy.gov/articles/doe-issues-export-approval-golden-pass-lng-accelerating-president-trumps-pledge-restore" />
+<script src="/sites/default/files/google_tag/eere.energy.gov/google_tag.script.js?t9khvr" defer></script>
+<script src="/sites/default/files/google_tag/energygov/google_tag.script.js?t9khvr" defer></script>
+
+  <title>DOE Issues Export Approval to Golden Pass LNG, Accelerating President Trump&#039;s Pledge to Restore American Energy Dominance | Department of Energy</title>
+  <link rel="stylesheet" media="all" href="/sites/default/files/css/css_LksS-OeV-l92M3dPIfKZj2BGhs7HlWMvpSG6Ig2LJsg.css?delta=0&amp;language=en&amp;theme=energy_gov&amp;include=eJxNi20KxCAMRC8U9EglrYPNbqpitB-3Xygr7Z9h5j1myRU-1F5YHX_4pOUFgrDmSEio8Zpu8-qDx7x7NkMzwtlU0nf8_5MKV46Vy2rDPMT1VPqsYisCmTQcEjCxojYvSRrZZQ2bn9lAu-Awf6fbcuiKHzVSSyw" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_mpkSZfCzy4ITBaVYl98WGmrkpeqm79GwV0DS3nOE_tU.css?delta=1&amp;language=en&amp;theme=energy_gov&amp;include=eJxNi20KxCAMRC8U9EglrYPNbqpitB-3Xygr7Z9h5j1myRU-1F5YHX_4pOUFgrDmSEio8Zpu8-qDx7x7NkMzwtlU0nf8_5MKV46Vy2rDPMT1VPqsYisCmTQcEjCxojYvSRrZZQ2bn9lAu-Awf6fbcuiKHzVSSyw" />
+
+  <script src="/sites/default/files/js/js_o7sxG5lgnvFpN3F_KDlujjgnPM2Py1JyoBxGlYoNWzU.js?scope=header&amp;delta=0&amp;language=en&amp;theme=energy_gov&amp;include=eJxtjuEOwjAIhF9oGX98n4a1yMga2hSc7u2tcZvR-I_jPribhEOVSjDtw5DQMeNGDSaacZXSbCClxltAxby5RAPGS6CV1IM3jIso_2FK4UyfxUHEot4vYZf08Cy6HC6XFdCM_OSNsMUZsNZzU6JgBkzJZ7HxLonJf8wvNe7oK_sqves7E1K71e4eFUyc-rPeOVNzEBV_AlKMcf8"></script>
+
+  <!-- Font Awesome includes classic solid, regular, brands, Duotone solid & regular. -->
+  <script defer src="/themes/custom/energy_gov/js/fontawesome/brands.js"></script>
+  <script defer src="/themes/custom/energy_gov/js/fontawesome/solid.js"></script>
+  <script defer src="/themes/custom/energy_gov/js/fontawesome/regular.js"></script>
+  <script defer src="/themes/custom/energy_gov/js/fontawesome/duotone.js"></script>
+  <script defer src="/themes/custom/energy_gov/js/fontawesome/duotone-regular.js"></script>
+  <script defer src="/themes/custom/energy_gov/js/fontawesome/fontawesome.js"></script>
+</head>
+<body>
+<div id="skip-link-container">
+  <a href="#main-content" class="visually-hidden focusable skip-link">
+    Skip to main content
+  </a>
+</div>
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WZQX9F4" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PCSS9JS&gtm_auth=rQjC8QLyy7zCI51ldZjEbA&gtm_preview=env-3&gtm_cookies_win=x" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+
+      <section id="usa-govt-website-banner" class="usa-banner" aria-label="Official website of the United States government">
+      
+<div class="usa-banner">
+  <div class="usa-accordion">
+    <header class="usa-banner__header">
+      <div class="usa-banner__inner">
+        <div class="grid-col-auto">
+          <img class="usa-banner__header-flag" aria-hidden="true" src="/themes/custom/energy_gov/assets/img/us_flag_small.png" alt="">
+        </div>
+        <div class="grid-col-fill tablet:grid-col-auto" aria-hidden="true">
+          <p class="usa-banner__header-text">An official website of the United States government</p>
+          <p class="usa-banner__header-action" aria-hidden="true">Here's how you know</p>
+        </div>
+        <button type="button" class="usa-accordion__button usa-banner__button" aria-expanded="false" aria-controls="gov-banner">
+          <span class="usa-banner__button-text">Here's how you know</span>
+        </button>
+      </div>
+    </header>
+    <div class="usa-banner__content usa-accordion__content" id="gov-banner" hidden="">
+      <div class="grid-row grid-gap-lg">
+        <div class="usa-banner__guidance tablet:grid-col-6">
+          <img class="usa-banner__icon usa-media-block__img" src="/themes/custom/energy_gov/assets/img/icon-dot-gov.svg" alt="Dot gov">
+          <div class="usa-media-block__body">
+            <p>
+              <strong>Official websites use .gov</strong>
+              <br>
+              A <strong>.gov</strong> website belongs to an official government organization in the United States.
+            </p>
+          </div>
+        </div>
+        <div class="usa-banner__guidance tablet:grid-col-6">
+          <img class="usa-banner__icon usa-media-block__img" src="/themes/custom/energy_gov/assets/img/icon-https.svg" alt="Https">
+          <div class="usa-media-block__body">
+            <p>
+              <strong>Secure .gov websites use HTTPS</strong>
+              <br>
+              A <strong>lock</strong> (   <span class="icon-lock">
+    <svg xmlns="http://www.w3.org/2000/svg" width="52" height="64" viewBox="0 0 52 64" class="usa-banner__lock-image" role="img" aria-labelledby="banner-lock-description" focusable="false">
+      <title id="banner-lock-title">Lock</title>
+      <desc id="banner-lock-description">Locked padlock</desc>
+      <path fill="#000000" fill-rule="evenodd" d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z"/>
+    </svg>
+  </span>
+ ) or <strong>https://</strong> means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    </section>
+  
+<div class="usa-overlay"></div>
+
+  <header class="usa-header usa-header--extended usa-header--extended-megamenu" id="header" role="banner">
+
+    <div id="header-container">
+    
+    
+      <div class="region region-header usa-navbar">
+      
+<button id="megamenu-hamburger-btn" class="usa-menu-btn megamenu-mobile-btn" type="button" aria-label="Main Menu"></button>
+
+  <div class="usa-logo site-logo" id="logo">
+
+    <em class="usa-logo__text">
+          <a class="logo-img" href="/" accesskey="1" title="Home" aria-label="Home">
+        <img src="/themes/custom/energy_gov/img/logo-image.png" alt="Home" />
+      </a>
+    
+    
+        </em>
+
+  </div>
+
+  <div id="search-btn-container-mobile" class="usa-accordion search-mobile">
+    <button type="button" id="megamenu-search-btn-mobile" class="search usa-accordion__button usa-current" aria-expanded="false" aria-controls="search-nav" aria-label="search"></button>
+
+    <div id="search-nav-mobile" class="usa-nav__submenu search-nav-mobile-class" hidden>
+      <section aria-label="Search form">
+        <div class="energy-global-search-mobile"></div>
+      </section>
+    </div>
+  </div>
+
+
+</div>
+
+
+      <nav class="usa-nav" role="navigation">
+                <div class="usa-nav__inner">
+          
+          
+          
+          
+                            
+        
+        
+  
+            <ul id="main-megamenu" class="usa-nav__primary usa-accordion">
+    
+                        
+                    
+      
+              <li class="usa-nav__primary-item">
+      
+                      <button type="button" class="usa-accordion__button primary-btn " aria-expanded="false" aria-controls="extended-mega-nav-section-1-1-1">
+          <span>About</span>
+        </button>
+
+      
+                
+        
+        
+  
+            <ul id="extended-mega-nav-section-1-1-1" class="usa-nav__submenu usa-megamenu usa-accordion" hidden="">
+        <li class="mobile-back-btn-secondary-wrapper">
+          <button type="button" class="mobile-back-btn-secondary">
+            <span>About</span>
+          </button>
+        </li>
+      
+    
+                        
+                    
+      
+                      <li>
+
+                  <div class="usa-nav__submenu-item">
+            <button type="button" class="usa-accordion__button " aria-expanded="false" aria-controls="basic-nav-section-1-2-1">
+              <span>Our Agency</span>
+            </button>
+          </div>
+              
+      
+                
+        
+        
+  
+            <ul id="basic-nav-section-1-2-1" class="usa-nav__submenu" hidden="">
+
+        <li class="mobile-back-btn-tertiary-wrapper">
+          <button type="button" class="mobile-back-btn-tertiary">
+            <span>Our Agency</span>
+          </button>
+        </li>
+
+          
+                        
+                    
+      
+              <li class="usa-nav__submenu-item">
+      
+      
+              
+        
+                        <a href="/lm/history" class="link" data-drupal-link-system-path="node/4847006">          <span>History </span>
+                            </a>
+                
+              
+              </li>
+      
+                        
+                    
+      
+              <li class="usa-nav__submenu-item">
+      
+      
+              
+        
+                        <a href="/our-leadership-offices" class="link" data-drupal-link-system-path="node/4847008">          <span>Our Leadership &amp; Offices</span>
+                            </a>
+                
+              
+              </li>
+      
+                        
+                    
+      
+              <li class="usa-nav__submenu-item">
+      
+      
+              
+        
+                        <a href="/nnsa/national-nuclear-security-administration" class="link" data-drupal-link-system-path="node/4846918">          <span>The National Nuclear Security Administration</span>
+                            </a>
+                
+              
+              </li>
+      
+                        
+                    
+      
+              <li class="usa-nav__submenu-item">
+      
+      
+              
+        
+                        <a href="/us-energy-information-administration-eia" class="link" data-drupal-link-system-path="node/4846910">          <span>The Energy Information Administration</span>
+                            </a>
+                
+              
+              </li>
+      
+                        
+                    
+      
+              <li class="usa-nav__submenu-item">
+      
+      
+              
+        
+                        <a href="/us-department-energy-national-laboratories" class="link" data-drupal-link-system-path="node/4846909">          <span>National Laboratories</span>
+                            </a>
+                
+              
+              </li>
+      
+                        
+                    
+      
+              <li class="usa-nav__submenu-item">
+      
+      
+              
+        
+                        <a href="/power-marketing-administrations" class="link" data-drupal-link-system-path="node/4846919">          <span>Power Marketing Administrations</span>
+                            </a>
+                
+              
+              </li>
+      
+    
+          </ul>
+
+                  
+
+      
+              </li>
+      
+                        
+                    
+      
+                      <li>
+
+                  <div class="usa-nav__submenu-item">
+            <button type="button" class="usa-accordion__button " aria-expanded="false" aria-controls="basic-nav-section-1-2-2">
+              <span>Our Outreach</span>
+            </button>
+          </div>
+              
+      
+                
+        
+        
+  
+            <ul id="basic-nav-section-1-2-2" class="usa-nav__submenu" hidden="">
+
+        <li class="mobile-back-btn-tertiary-wrapper">
+          <button type="button" class="mobile-back-btn-tertiary">
+            <span>Our Outreach</span>
+          </button>
+        </li>
+
+          
+                        
+                    
+      
+              <li class="usa-nav__submenu-item">
+      
+      
+              
+        
+                        <a href="/newsroom" class="link" data-drupal-link-system-path="node/4847098">          <span>Newsroom</span>
+                            </a>
+                
+              
+              </li>
+      
+                        
+                    
+      
+              <li class="usa-nav__submenu-item">
+      
+      
+              
+        
+                        <a href="/digital-engagement-and-media" class="link" data-drupal-link-system-path="node/4846997">          <span>Digital Engagement and Media</span>
+                            </a>
+                
+              
+              </li>
+      
+                        
+                    
+      
+              <li class="usa-nav__submenu-item">
+      
+      
+              
+        
+                        <a href="/design" class="link" data-drupal-link-system-path="node/4831064">          <span>Brand Guides</span>
+                            </a>
+                
+              
+              </li>
+      
+    
+          </ul>
+
+                  
+
+      
+              </li>
+      
+    
+          </ul>
+      
+
+      
+              </li>
+      
+                        
+                    
+      
+              <li class="usa-nav__primary-item">
+      
+                      <button type="button" class="usa-accordion__button primary-btn " aria-expanded="false" aria-controls="extended-mega-nav-section-2-1-2">
+          <span>Our Mission</span>
+        </button>
+
+      
+                
+        
+        
+  
+            <ul id="extended-mega-nav-section-2-1-2" class="usa-nav__submenu usa-megamenu usa-accordion" hidden="">
+        <li class="mobile-back-btn-secondary-wrapper">
+          <button type="button" class="mobile-back-btn-secondary">
+            <span>Our Mission</span>
+          </button>
+        </li>
+      
+    
+                        
+                    
+      
+                      <li>
+
+              
+      
+                        <div class="usa-nav__submenu-item">
+        
+        
+                        <a href="https://genesis.energy.gov/" class="link">          <span>Genesis Mission</span>
+                            </a>
+                
+                  </div>
+              
+              </li>
+      
+                        
+                    
+      
+                      <li>
+
+                  <div class="usa-nav__submenu-item">
+            <button type="button" class="usa-accordion__button " aria-expanded="false" aria-controls="basic-nav-section-2-2-2">
+              <span>Security &amp; Safety</span>
+            </button>
+          </div>
+              
+      
+                
+        
+        
+  
+            <ul id="basic-nav-section-2-2-2" class="usa-nav__submenu" hidden="">
+
+        <li class="mobile-back-btn-tertiary-wrapper">
+          <button type="button" class="mobile-back-btn-tertiary">
+            <span>Security &amp; Safety</span>
+          </button>
+        </li>
+
+          
+                        
+                    
+      
+              <li class="usa-nav__submenu-item">
+      
+      
+              
+        
+                        <a href="/topics/nuclear-security" class="link" data-drupal-link-system-path="node/4847066">          <span>Nuclear Security</span>
+                            </a>
+                
+              
+              </li>
+      
+                        
+                    
+      
+              <li class="usa-nav__submenu-item">
+      
+      
+              
+        
+                        <a href="/topics/energy-security" class="link" data-drupal-link-system-path="node/4847073">          <span>Energy Security</span>
+                            </a>
+                
+              
+              </li>
+      
+                        
+                    
+      
+              <li class="usa-nav__submenu-item">
+      
+      
+              
+        
+                        <a href="/topics/cybersecurity" class="link" data-drupal-link-system-path="node/4847042">          <span>Cybersecurity</span>
+                            </a>
+                
+              
+              </li>
+      
+                        
+                    
+      
+              <li class="usa-nav__submenu-item">
+      
+      
+              
+        
+                        <a href="/topics/environmental-and-legacy-management" class="link" data-drupal-link-system-path="node/4847080">          <span>Environmental &amp; Legacy Management</span>
+                            </a>
+                
+              
+              </li>
+      
+                        
+                    
+      
+              <li class="usa-nav__submenu-item">
+      
+      
+              
+        
+                        <a href="/topics/research-technology-and-economic-security" class="link" data-drupal-link-system-path="node/4847037">          <span>Research, Technology, &amp; Economic Security</span>
+                            </a>
+                
+              
+              </li>
+      
+                        
+                    
+      
+              <li class="usa-nav__submenu-item">
+      
+      
+              
+        
+                        <a href="/ceser/emergency-response-hub-0" class="link" data-drupal-link-system-path="node/4846993">          <span>Emergency Response</span>
+                            </a>
+                
+              
+              </li>
+      
+    
+          </ul>
+
+                  
+
+      
+              </li>
+      
+                        
+                    
+      
+                      <li>
+
+                  <div class="usa-nav__submenu-item">
+            <button type="button" class="usa-accordion__button " aria-expanded="false" aria-controls="basic-nav-section-2-2-3">
+              <span>Scientific Excellence</span>
+            </button>
+          </div>
+              
+      
+                
+        
+        
+  
+            <ul id="basic-nav-section-2-2-3" class="usa-nav__submenu" hidden="">
+
+        <li class="mobile-back-btn-tertiary-wrapper">
+          <button type="button" class="mobile-back-btn-tertiary">
+            <span>Scientific Excellence</span>
+          </button>
+        </li>
+
+          
+                        
+                    
+      
+              <li class="usa-nav__submenu-item">
+      
+      
+              
+        
+                        <a href="https://www.osti.gov/" class="link">          <span>Scientific Research Database (OSTI) </span>
+                            </a>
+                
+              
+              </li>
+      
+                        
+                    
+      
+              <li class="usa-nav__submenu-item">
+      
+      
+              
+        
+                        <a href="/science/department-energy-nobel-laureates" class="link" data-drupal-link-system-path="node/4846920">          <span>Nobel Prize Laureates</span>
+                            </a>
+                
+              
+              </li>
+      
+                        
+                    
+      
+              <li class="usa-nav__submenu-item">
+      
+      
+              
+        
+                        <a href="/topics/national-science-bowl" class="link" data-drupal-link-system-path="node/4847059">          <span>National Science Bowl</span>
+                            </a>
+                
+              
+              </li>
+      
+    
+          </ul>
+
+                  
+
+      
+              </li>
+      
+                        
+                    
+      
+                      <li>
+
+                  <div class="usa-nav__submenu-item">
+            <button type="button" class="usa-accordion__button " aria-expanded="false" aria-controls="basic-nav-section-2-2-4">
+              <span>Environment</span>
+            </button>
+          </div>
+              
+      
+                
+        
+        
+  
+            <ul id="basic-nav-section-2-2-4" class="usa-nav__submenu" hidden="">
+
+        <li class="mobile-back-btn-tertiary-wrapper">
+          <button type="button" class="mobile-back-btn-tertiary">
+            <span>Environment</span>
+          </button>
+        </li>
+
+          
+                        
+                    
+      
+              <li class="usa-nav__submenu-item">
+      
+      
+              
+        
+                        <a href="/topics/earth-systems-modeling" class="link" data-drupal-link-system-path="node/4847056">          <span>Earth Systems Modeling</span>
+                            </a>
+                
+              
+              </li>
+      
+                        
+                    
+      
+              <li class="usa-nav__submenu-item">
+      
+      
+              
+        
+                        <a href="/topics/extreme-weather-resiliency" class="link" data-drupal-link-system-path="node/4847094">          <span>Extreme Weather Resiliency</span>
+                            </a>
+                
+              
+              </li>
+      
+    
+          </ul>
+
+                  
+
+      
+              </li>
+      
+                        
+                    
+      
+                      <li>
+
+                  <div class="usa-nav__submenu-item">
+            <button type="button" class="usa-accordion__button " aria-expanded="false" aria-controls="basic-nav-section-2-2-5">
+              <span>Energy Access</span>
+            </button>
+          </div>
+              
+      
+                
+        
+        
+  
+            <ul id="basic-nav-section-2-2-5" class="usa-nav__submenu" hidden="">
+
+        <li class="mobile-back-btn-tertiary-wrapper">
+          <button type="button" class="mobile-back-btn-tertiary">
+            <span>Energy Access</span>
+          </button>
+        </li>
+
+          
+                        
+                    
+      
+              <li class="usa-nav__submenu-item">
+      
+      
+              
+        
+                        <a href="/topics/2025-doe-403-orders" class="link" data-drupal-link-system-path="node/4853511">          <span>2025 DOE 403 Orders</span>
+                            </a>
+                
+              
+              </li>
+      
+                        
+                    
+      
+              <li class="usa-nav__submenu-item">
+      
+      
+              
+        
+                        <a href="/topics/grid-deployment-and-transmission" class="link" data-drupal-link-system-path="node/4847031">          <span>Grid Deployment &amp; Transmission</span>
+                            </a>
+                
+              
+              </li>
+      
+                        
+                    
+      
+              <li class="usa-nav__submenu-item">
+      
+      
+              
+        
+                        <a href="/topics/puerto-rico-grid-resilience-and-modernization" class="link" data-drupal-link-system-path="node/4847071">          <span>Puerto Rico Grid Resilience &amp; Transitions (PR 100)</span>
+                            </a>
+                
+              
+              </li>
+      
+                        
+                    
+      
+              <li class="usa-nav__submenu-item">
+      
+      
+              
+        
+                        <a href="/topics/tribal-energy-access" class="link" data-drupal-link-system-path="node/4847044">          <span>Tribal Energy Access</span>
+                            </a>
+                
+              
+              </li>
+      
+    
+          </ul>
+
+                  
+
+      
+              </li>
+      
+                        
+                    
+      
+                      <li>
+
+                  <div class="usa-nav__submenu-item">
+            <button type="button" class="usa-accordion__button " aria-expanded="false" aria-controls="basic-nav-section-2-2-6">
+              <span>Economic Growth</span>
+            </button>
+          </div>
+              
+      
+                
+        
+        
+  
+            <ul id="basic-nav-section-2-2-6" class="usa-nav__submenu" hidden="">
+
+        <li class="mobile-back-btn-tertiary-wrapper">
+          <button type="button" class="mobile-back-btn-tertiary">
+            <span>Economic Growth</span>
+          </button>
+        </li>
+
+          
+                        
+                    
+      
+              <li class="usa-nav__submenu-item">
+      
+      
+              
+        
+                        <a href="/topics/energy-workforce" class="link" data-drupal-link-system-path="node/4847038">          <span>Energy Workforce</span>
+                            </a>
+                
+              
+              </li>
+      
+                        
+                    
+      
+              <li class="usa-nav__submenu-item">
+      
+      
+              
+        
+                        <a href="/topics/american-manufacturing" class="link" data-drupal-link-system-path="node/4847084">          <span>American Manufacturing</span>
+                            </a>
+                
+              
+              </li>
+      
+                        
+                    
+      
+              <li class="usa-nav__submenu-item">
+      
+      
+              
+        
+                        <a href="/topics/advancing-innovation-technology-transitions-and-early-investments" class="link" data-drupal-link-system-path="node/4847081">          <span>Technology Transitions &amp; Early Investments</span>
+                            </a>
+                
+              
+              </li>
+      
+                        
+                    
+      
+              <li class="usa-nav__submenu-item">
+      
+      
+              
+        
+                        <a href="/commercialization" class="link" data-drupal-link-system-path="node/4847063">          <span>Commercial Implementation</span>
+                            </a>
+                
+              
+              </li>
+      
+    
+          </ul>
+
+                  
+
+      
+              </li>
+      
+                        
+                    
+      
+                      <li>
+
+                  <div class="usa-nav__submenu-item">
+            <button type="button" class="usa-accordion__button " aria-expanded="false" aria-controls="basic-nav-section-2-2-7">
+              <span>Global Diplomacy &amp; Leadership</span>
+            </button>
+          </div>
+              
+      
+                
+        
+        
+  
+            <ul id="basic-nav-section-2-2-7" class="usa-nav__submenu" hidden="">
+
+        <li class="mobile-back-btn-tertiary-wrapper">
+          <button type="button" class="mobile-back-btn-tertiary">
+            <span>Global Diplomacy &amp; Leadership</span>
+          </button>
+        </li>
+
+          
+                        
+                    
+      
+              <li class="usa-nav__submenu-item">
+      
+      
+              
+        
+                        <a href="/topics/international-market-development" class="link" data-drupal-link-system-path="node/4847048">          <span>International Market Development</span>
+                            </a>
+                
+              
+              </li>
+      
+    
+          </ul>
+
+                  
+
+      
+              </li>
+      
+    
+          </ul>
+      
+
+      
+              </li>
+      
+                        
+                    
+      
+              <li class="usa-nav__primary-item">
+      
+                      <button type="button" class="usa-accordion__button primary-btn " aria-expanded="false" aria-controls="extended-mega-nav-section-3-1-3">
+          <span>Topics</span>
+        </button>
+
+      
+                
+        
+        
+  
+            <ul id="extended-mega-nav-section-3-1-3" class="usa-nav__submenu usa-megamenu usa-accordion" hidden="">
+        <li class="mobile-back-btn-secondary-wrapper">
+          <button type="button" class="mobile-back-btn-secondary">
+            <span>Topics</span>
+          </button>
+        </li>
+      
+    
+                        
+                    
+      
+                      <li>
+
+              
+      
+                        <div class="usa-nav__submenu-item">
+        
+        
+                        <a href="/topics" class="link" data-drupal-link-system-path="topics">          <span>View All Topics</span>
+                            </a>
+                
+                  </div>
+              
+              </li>
+      
+    
+          </ul>
+      
+
+      
+              </li>
+      
+                        
+                    
+      
+              <li class="usa-nav__primary-item">
+      
+                      <button type="button" class="usa-accordion__button primary-btn " aria-expanded="false" aria-controls="extended-mega-nav-section-4-1-4">
+          <span>Funding Opportunities</span>
+        </button>
+
+      
+                
+        
+        
+  
+            <ul id="extended-mega-nav-section-4-1-4" class="usa-nav__submenu usa-megamenu usa-accordion" hidden="">
+        <li class="mobile-back-btn-secondary-wrapper">
+          <button type="button" class="mobile-back-btn-secondary">
+            <span>Funding Opportunities</span>
+          </button>
+        </li>
+      
+    
+                        
+                    
+      
+                      <li>
+
+              
+      
+                        <div class="usa-nav__submenu-item">
+        
+        
+                        <a href="/funding-opportunities" class="link" data-drupal-link-system-path="node/4852619">          <span>View Funding Opportunities</span>
+                            </a>
+                
+                  </div>
+              
+              </li>
+      
+                        
+                    
+      
+                      <li>
+
+                  <div class="usa-nav__submenu-item">
+            <button type="button" class="usa-accordion__button " aria-expanded="false" aria-controls="basic-nav-section-4-2-2">
+              <span>Funding Opportunities By Office</span>
+            </button>
+          </div>
+              
+      
+                
+        
+        
+  
+            <ul id="basic-nav-section-4-2-2" class="usa-nav__submenu" hidden="">
+
+        <li class="mobile-back-btn-tertiary-wrapper">
+          <button type="button" class="mobile-back-btn-tertiary">
+            <span>Funding Opportunities By Office</span>
+          </button>
+        </li>
+
+          
+                        
+                    
+      
+              <li class="usa-nav__submenu-item">
+      
+      
+              
+        
+                        <a href="https://infrastructure-exchange.energy.gov/" class="link">          <span>Office of the Under Secretary of Energy</span>
+                            </a>
+                
+              
+              </li>
+      
+                        
+                    
+      
+              <li class="usa-nav__submenu-item">
+      
+      
+              
+        
+                        <a href="https://arpa-e.energy.gov/programs-and-initiatives/program-overview" class="link">          <span>Advanced Research Projects Agency-Energy</span>
+                            </a>
+                
+              
+              </li>
+      
+                        
+                    
+      
+              <li class="usa-nav__submenu-item">
+      
+      
+              
+        
+                        <a href="/eere/funding/eere-funding-opportunities" class="link">          <span>Office of Critical Minerals and Energy Innovation</span>
+                            </a>
+                
+              
+              </li>
+      
+                        
+                    
+      
+              <li class="usa-nav__submenu-item">
+      
+      
+              
+        
+                        <a href="/femp/federal-energy-management-program-funding-opportunities" class="link" data-drupal-link-system-path="node/850876">          <span>Federal Energy Management Program</span>
+                            </a>
+                
+              
+              </li>
+      
+                        
+                    
+      
+              <li class="usa-nav__submenu-item">
+      
+      
+              
+        
+                        <a href="/hgeo/hgeo-solicitations-and-business-opportunities" class="link" data-drupal-link-system-path="node/623591">          <span>Hydrocarbons and Geothermal Energy Office</span>
+                            </a>
+                
+              
+              </li>
+      
+                        
+                    
+      
+              <li class="usa-nav__submenu-item">
+      
+      
+              
+        
+                        <a href="/gdo/funding-opportunities-and-requests-information" class="link" data-drupal-link-system-path="node/4819997">          <span>Grid Deployment Office</span>
+                            </a>
+                
+              
+              </li>
+      
+                        
+                    
+      
+              <li class="usa-nav__submenu-item">
+      
+      
+              
+        
+                        <a href="/indianenergy/current-funding-and-technical-assistance-opportunities" class="link" data-drupal-link-system-path="node/4826752">          <span>Office of Indian Energy</span>
+                            </a>
+                
+              
+              </li>
+      
+                        
+                    
+      
+              <li class="usa-nav__submenu-item">
+      
+      
+              
+        
+                        <a href="/mesc/funding" class="link" data-drupal-link-system-path="node/4839627">          <span>Office of Manufacturing and Energy Supply Chains</span>
+                            </a>
+                
+              
+              </li>
+      
+                        
+                    
+      
+              <li class="usa-nav__submenu-item">
+      
+      
+              
+        
+                        <a href="/science/office-science-funding-opportunities" class="link" data-drupal-link-system-path="node/3996399">          <span>Office of Science</span>
+                            </a>
+                
+              
+              </li>
+      
+    
+          </ul>
+
+                  
+
+      
+              </li>
+      
+    
+          </ul>
+      
+
+      
+              </li>
+      
+                        
+                    
+      
+              <li class="usa-nav__primary-item">
+      
+                      <button type="button" class="usa-accordion__button primary-btn " aria-expanded="false" aria-controls="extended-mega-nav-section-5-1-5">
+          <span>Consumer Savings</span>
+        </button>
+
+      
+                
+        
+        
+  
+            <ul id="extended-mega-nav-section-5-1-5" class="usa-nav__submenu usa-megamenu usa-accordion" hidden="">
+        <li class="mobile-back-btn-secondary-wrapper">
+          <button type="button" class="mobile-back-btn-secondary">
+            <span>Consumer Savings</span>
+          </button>
+        </li>
+      
+    
+                        
+                    
+      
+                      <li>
+
+              
+      
+                        <div class="usa-nav__submenu-item">
+        
+        
+                        <a href="/save" class="link" data-drupal-link-system-path="node/4827848">          <span>Tax Credits &amp; Rebates</span>
+                            </a>
+                
+                  </div>
+              
+              </li>
+      
+                        
+                    
+      
+                      <li>
+
+              
+      
+                        <div class="usa-nav__submenu-item">
+        
+        
+                        <a href="/energysaver/energy-saver" class="link" data-drupal-link-system-path="node/1174591">          <span>Energy Saving Tips </span>
+                            </a>
+                
+                  </div>
+              
+              </li>
+      
+                        
+                    
+      
+                      <li>
+
+              
+      
+                        <div class="usa-nav__submenu-item">
+        
+        
+                        <a href="/scep/wap/weatherization-assistance-program" class="link" data-drupal-link-system-path="node/4847136">          <span>Weatherization Assistance Program</span>
+                            </a>
+                
+                  </div>
+              
+              </li>
+      
+    
+          </ul>
+      
+
+      
+              </li>
+      
+                        
+                    
+      
+              <li class="usa-nav__primary-item">
+      
+                      <button type="button" class="usa-accordion__button primary-btn " aria-expanded="false" aria-controls="extended-mega-nav-section-6-1-6">
+          <span>Services &amp; Opportunities</span>
+        </button>
+
+      
+                
+        
+        
+  
+            <ul id="extended-mega-nav-section-6-1-6" class="usa-nav__submenu usa-megamenu usa-accordion" hidden="">
+        <li class="mobile-back-btn-secondary-wrapper">
+          <button type="button" class="mobile-back-btn-secondary">
+            <span>Services &amp; Opportunities</span>
+          </button>
+        </li>
+      
+    
+                        
+                    
+      
+                      <li>
+
+                  <div class="usa-nav__submenu-item">
+            <button type="button" class="usa-accordion__button " aria-expanded="false" aria-controls="basic-nav-section-6-2-1">
+              <span>Career Pathways</span>
+            </button>
+          </div>
+              
+      
+                
+        
+        
+  
+            <ul id="basic-nav-section-6-2-1" class="usa-nav__submenu" hidden="">
+
+        <li class="mobile-back-btn-tertiary-wrapper">
+          <button type="button" class="mobile-back-btn-tertiary">
+            <span>Career Pathways</span>
+          </button>
+        </li>
+
+          
+                        
+                    
+      
+              <li class="usa-nav__submenu-item">
+      
+      
+              
+        
+                        <a href="/internships-fellowships" class="link" data-drupal-link-system-path="node/4846914">          <span>Internships &amp; Fellowships</span>
+                            </a>
+                
+              
+              </li>
+      
+                        
+                    
+      
+              <li class="usa-nav__submenu-item">
+      
+      
+              
+        
+                        <a href="/apprenticeships-workforce-development" class="link" data-drupal-link-system-path="node/4846922">          <span>Apprenticeships &amp; Workforce Development</span>
+                            </a>
+                
+              
+              </li>
+      
+                        
+                    
+      
+              <li class="usa-nav__submenu-item">
+      
+      
+              
+        
+                        <a href="/work-us-department-energy" class="link" data-drupal-link-system-path="node/4847097">          <span>Work at DOE</span>
+                            </a>
+                
+              
+              </li>
+      
+    
+          </ul>
+
+                  
+
+      
+              </li>
+      
+    
+          </ul>
+      
+
+      
+              </li>
+      
+    
+          </ul>
+
+                  <div id="search-btn-container" class="usa-accordion search-btn-megamenu search-desktop">
+        <button type="button" id="megamenu-search-btn" class="search usa-accordion__button usa-current search-icon" aria-expanded="false" aria-controls="search-nav" aria-label="Search">
+        </button>
+
+        <div id="search-nav" class="usa-nav__submenu" hidden>
+          <section aria-label="Search form">
+            <div class="energy-global-search"></div>
+          </section>
+        </div>
+      </div>
+            
+
+
+
+
+
+            
+            
+            
+                  </div>
+              </nav>
+
+        </div>
+</header>
+
+
+  <div class="region-header-ful-width">
+      <div>
+    
+
+<div id="block-energy-gov-sitewidealert" class="block block-sitewide-alert-block">
+          
+        
+              <div data-sitewide-alert></div>
+              
+      </div>
+
+  </div>
+
+  </div>
+
+
+<main class="main-content usa-layout-docs usa-section node-type--article" id="main-content" role="main" tabindex="-1">
+
+    <div class="grid-container">
+
+                        <div class="grid-row">
+              <div>
+    
+
+<div id="block-addthistoolbar" class="block block-energy-social block-energy-social-addthis-toolbar">
+          
+        
+              <div class="energy-social-addthis-toolbar"><div class="addthis_inline_share_toolbox"  data-title="DOE Issues Export Approval to Golden Pass LNG, Accelerating President Trump&#039;s Pledge to Restore A …&quot;" data-url="https://www.energy.gov/articles/doe-issues-export-approval-golden-pass-lng-accelerating-president-trumps-pledge-restore" data-description="U.S. Secretary of Energy Chris Wright approved an LNG export permit extension for Golden Pass LNG Terminal LLC, currently under construction in Sabine Pass, Texas." data-media="https://www.energy.gov/sites/default/files/2025-02/DOE%20Full%20Seal%20on%20white%20gray%20background%20-%201250x785_1.png"></div>
+</div>
+              
+      </div>
+
+  </div>
+
+          </div>
+        
+                  <div class="">
+            
+          </div>
+        
+                      
+      <div class="grid-row grid-gap">
+        
+                  <div class="usa-layout-docs__main desktop:grid-col-fill">
+                                          <span data-big-pipe-placeholder-id="callback=Drupal%5Cblock%5CBlockViewBuilder%3A%3AlazyBuilder&amp;args%5B0%5D=local_tasks&amp;args%5B1%5D=full&amp;args%5B2%5D&amp;token=E_tpSvqNthSj0MYVJlzfBQEATPFdvt5Orok_tIOZVpA">
+</span>
+
+<div id="block-main-breadcrumbs" class="block block-system block-system-breadcrumb-block">
+          
+        
+                  <nav class="usa-breadcrumb" role="navigation" aria-labelledby="system-breadcrumb">
+        <h2 id="system-breadcrumb" class="usa-sr-only">Breadcrumb</h2>
+        <ol class="usa-breadcrumb__list">
+                            <li class="usa-breadcrumb__list-item">
+                                            <a href="/" class="usa-breadcrumb__link"><span>Energy.gov</span></a>
+                                    </li>
+                            <li class="usa-breadcrumb__list-item">
+                                            <a href="/articles/doe-issues-export-approval-golden-pass-lng-accelerating-president-trumps-pledge-restore" class="usa-breadcrumb__link"><span>DOE Issues Export Approval to Golden Pass LNG, Accelerating President Trump&#039;s Pledge to Restore American Energy Dominance</span></a>
+                                    </li>
+                    </ol>
+    </nav>
+
+              
+      </div>
+
+
+<div id="block-pagetitle" class="block block-core block-page-title-block">
+          
+        
+              
+  <section  class="hero hero--press-releases hero--article">
+      <div class="hero__img"></div>
+      <div class="grid-container">
+    
+        </div>
+  </section>
+
+
+              
+      </div>
+<div data-drupal-messages-fallback class="hidden"></div><span data-big-pipe-placeholder-id="callback=Drupal%5CCore%5CRender%5CElement%5CStatusMessages%3A%3ArenderMessages&amp;args%5B0%5D&amp;token=_HAdUpwWmet0TOTe2PSiJuMntExoshbm1kh2wQzzzAA">
+</span>
+<div id="block-main-page-content" class="block block-system block-system-main-block">
+          
+        
+        
+            <div class="page-title-outside-hero">
+      
+      <h1>DOE Issues Export Approval to Golden Pass LNG, Accelerating President Trump's Pledge to Restore American Energy Dominance</h1>
+    </div>
+    
+      <article about="/articles/doe-issues-export-approval-golden-pass-lng-accelerating-president-trumps-pledge-restore" typeof="schema:Article">
+  <div class="beneath-title">
+                  <p class="summary">U.S. Secretary of Energy Chris Wright approved an LNG export permit extension for Golden Pass LNG Terminal LLC, currently under construction in Sabine Pass, Texas.</p>
+    
+              <p class="primary-office"><a href="/">Energy.gov</a></p>
+    
+                  <span class="display-date">March 5, 2025</span>
+    
+        <div class="read-time">
+      <img src="/themes/custom/energy_gov/img/icon-time.svg" alt="">
+      <span id="read-time"></span> <span aria-hidden="true">&nbsp;min</span>
+      <span class="visually-hidden"> minute read time</span>
+    </div>
+  </div>
+
+  
+      <span property="schema:name" content="DOE Issues Export Approval to Golden Pass LNG, Accelerating President Trump&#039;s Pledge to Restore American Energy Dominance" class="hidden"></span>
+
+
+  
+  <div>
+    
+
+
+
+
+
+<section class="layout blade-section--boxed blade-section--fullwidth" >
+
+    <div class="grid-container">
+      <div class="blade-color " >
+                                      <div  class="grid-row">
+                  <div  class="grid-col">
+      
+
+<div class="block block-layout-builder block-inline-blocktemplate">
+        
+    
+          
+
+            <div class="field field--entity_reference_revisions_entity_view field--field_paragraph_reference field field--name-field-paragraph-reference field--type-entity-reference-revisions field--label-hidden field__item">
+
+<div class="paragraph paragraph--type--text-field paragraph--view-mode--default">
+  <div class="paragraph__column">
+    
+
+            <div class="field field--text_default field--field_text field field--name-field-text field--type-text-long field--label-hidden field__item"><p><strong>WASHINGTON—</strong>U.S. Secretary of Energy Chris Wright today approved an LNG export permit extension for Golden Pass LNG Terminal LLC (Golden Pass), marking yet another step toward meeting President Trump’s and Secretary Wright’s commitment to unleash American energy dominance and restore regular order to liquefied natural gas (LNG) export reviews. The approval will grant additional time to begin LNG exports from the Golden Pass LNG Terminal, currently under construction in Sabine Pass, Texas.</p><p>“Exporting U.S. LNG supports American jobs, bolsters our national security and strengthens America’s position as a world energy leader. President Trump has pledged to restore energy dominance for the American people, and I am proud to help deliver on that agenda with today’s permit extension,” said <strong>Secretary Wright</strong>.</p><p>The issuance to Golden Pass marks the third LNG-related approval from DOE since President Trump took office, following an <a href="/articles/secretary-wright-issues-first-lng-export-approval-commonwealth-lng" data-entity-type="node" data-entity-uuid="3615f460-e246-43e4-a22c-15e2532b24d8" data-entity-substitution="canonical" title="Secretary Wright Issues First LNG Export Approval for Commonwealth LNG" aria-label="Secretary Wright Issues First LNG Export Approval for Commonwealth LNG">export approval to Commonwealth LNG on February 14</a> and an order on rehearing removing barriers for the use of LNG as bunkering fuel <a href="/articles/doe-removes-barriers-use-lng-marine-fuel-order-jax-lng" data-entity-type="node" data-entity-uuid="2231dd90-a285-4ca6-9128-abc6455019b0" data-entity-substitution="canonical" title="DOE Removes Barriers to the Use of LNG as a Marine Fuel with Order to JAX LNG" aria-label="DOE Removes Barriers to the Use of LNG as a Marine Fuel with Order to JAX LNG">announced on February 28</a>. “Golden Pass was the first project approved for exports to non-free trade agreement countries by DOE during the first Trump Administration, and it is gratifying that this project is so close to being able to deliver its first LNG,” said <strong>Tala Goudarzi, Acting Principal Deputy Assistant Secretary of the Office of Fossil Energy and Carbon Management</strong>.</p><p>Golden Pass, owned by QatarEnergy and ExxonMobil, is set to begin exporting as early as later this year, and once operational, will become the ninth large-scale export terminal operating in the United States. Once completed, Golden Pass will be able to export up to 2.57 billion cubic feet per day (Bcf/d) of natural gas as LNG and will bring unprecedented levels of LNG exports from the United States.&nbsp;</p><center><p>###</p></center><p>&nbsp;</p></div>
+      
+  </div>
+</div>
+</div>
+      
+            </div>
+
+    </div>
+  
+        </div>
+            </div>
+    </div>
+  </section>
+
+
+
+
+<div class="press-release-buttons"><div class="press-release-buttons--next press-release-buttons__next js-view-dom-id-0fe176d0f33ca3ab149a7d2dd88f0a1621040f2c74dd1698ebdc76ecf6dac4fe">
+  
+  
+  
+
+  
+  
+  
+
+      <div class="views-row">
+<div class="press-release-buttons__button">
+      <a class='usa-button' href="https://www.energy.gov/articles/icymi-secretaries-wright-and-burgum-join-american-energy-workers-applauding-president">
+      View Next<span class="usa-sr-only">Press Release</span>
+    </a>
+  </div>
+
+<div class="press-release-buttons__title title-sm">
+      ICYMI: Secretaries Wright and Burgum Join American Energy Workers in Applauding President Trump’s Leadership &amp; Historic Investment in American Energy Infrastructure
+  </div>
+
+<div class="press-release-buttons__date p2">
+  <time datetime="2025-03-07T00:55:24Z">March 6, 2025</time>
+
+</div>
+</div>
+
+    
+
+  
+  
+
+  
+  
+</div>
+<div class="press-release-buttons--previous press-release-buttons__previous js-view-dom-id-229bfcd94bf3883431194f46ada7554e3c06b5620cf70b3d477e96d19849045d">
+  
+  
+  
+
+  
+  
+  
+
+      <div class="views-row">
+<div class="press-release-buttons__button">
+    <a class='usa-button usa-button--outline' href="https://www.energy.gov/articles/secretaries-wright-burgum-deliver-remarks-louisiana-lng-export-facility">
+    View Previous <span class="usa-sr-only">Press Release</span>
+  </a>
+</div>
+
+<div class="press-release-buttons__title title-sm">
+      Secretaries Wright &amp; Burgum to Deliver Remarks at Louisiana LNG Export Facility
+  </div>
+
+<div class="press-release-buttons__date p2">
+  <time datetime="2025-03-05T15:00:34Z">March 5, 2025</time>
+
+</div>
+</div>
+
+    
+
+  
+  
+
+  
+  
+</div>
+</div>
+
+  </div>
+
+        
+              </article>
+
+              
+      </div>
+
+
+<div id="block-officearticlemarkup" class="block block-energy-offices block-energy-offices-article-markup">
+          
+        
+              <div class="block-article-markup"><section class="group-section"><div class="group-section__item group-section__item--start"><h3>Media Inquiries:</h3><p>(202) 586-4940 or DOENews@hq.doe.gov</p></div><div class="group-section__item group-section__item--end"><h3>Read more at the<br><a style="color:#FFFFFF;" href="/newsroom-legacy" aria-label="Newsroom" data-entity-type="node" data-entity-uuid="f90aa94e-29ad-4fd7-b8c4-213e562c6167" data-entity-substitution="canonical" title="Newsroom - Legacy">energy.gov Newsroom</a></h3></div></section><style type="text/css">.group-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  background-color:#085A9B;
+  color:#FFFFFF;
+  padding:2rem;
+  margin-top: 4.375rem;
+  
+}
+.group-section__item {
+    flex: 1;
+}
+.group-section:before {
+    content: "";
+    border: 1px solid #FFF;
+  align-self: stretch;
+}
+.group-section__item--start {
+    order: -1;
+}
+.group-section h3 {
+  link-height:1;
+  margin-top:0px;
+  margin-bottom:0px;
+}
+.group-section p{
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
+@media (max-width: 600px) {
+    .group-section {
+       align-items: center;
+       flex-direction: column;
+       text-align:center;
+    }
+}
+.layout-content-bottom .block-article-markup {
+    left: 0;
+}
+</style></div>
+              
+      </div>
+
+
+                      </div>        
+              </div>
+    </div>
+  </main>
+  
+<footer class="usa-footer usa-footer--medium" role="contentinfo">
+      <div class="usa-footer__primary-section">
+      <div class="usa-footer__primary-content grid-container">
+        <div class="logo-tagline">
+          <img src="/themes/custom/energy_gov/svg/footer-logo.svg" alt="Department of Energy" />
+                      <p class="text-bold">
+              Committed to Restoring America’s Energy Dominance.
+            </p>
+                  </div>
+        <div class="footer-address">
+          
+        </div>
+        <div class="footer-social-bar">
+          <p class="footer-heading">Follow Us</p>
+                      <a href="https://www.facebook.com/energy">
+              <i class="fa-brands fa-facebook"></i>
+              <span class="usa-sr-only">Link to Facebook</span>
+            </a>
+                                      <a href="https://www.instagram.com/energy">
+                <i class="fa-brands fa-instagram"></i>
+                <span class="usa-sr-only">Link to Instagram</span>
+              </a>
+                                      <a href="https://www.linkedin.com/company/u-s--department-of-energy">
+                <i class="fa-brands fa-linkedin"></i>
+                <span class="usa-sr-only">Link to Linkedin</span>
+              </a>
+                                      <a href="https://www.youtube.com/user/USdepartmentofenergy">
+                <i class="fa-brands fa-youtube"></i>
+                <span class="usa-sr-only">Link to Youtube</span>
+              </a>
+                                      <a href="https://twitter.com/energy">
+                <i class="fa-brands fa-x-twitter"></i>
+                <span class="usa-sr-only">Link to X</span>
+              </a>
+                                                  <a href="https://www.flickr.com/photos/departmentofenergy/">
+                <i class="fa-brands fa-flickr"></i>
+                <span class="usa-sr-only">Link to Flickr</span>
+              </a>
+                    </div>
+        <div class="footer-newsletter">
+
+        
+        </div>
+        <div class="footer-agency">
+          <nav class="usa-footer__nav" aria-label="Our Agency">
+            
+      <ul class="menu menu--our-agency nav">
+                              <li class="expanded dropdown first last">
+                                                                                    <span class="expanded dropdown first last dropdown-toggle" data-toggle="dropdown">Quick Links <span class="caret"></span></span>
+                            <ul class="dropdown-menu">
+                              <li class="first">
+                                                  <a href="/our-leadership-offices" class="first" data-drupal-link-system-path="node/4847008">Leadership &amp; Offices</a>
+                  </li>
+                              <li>
+                                                  <a href="/mission" data-drupal-link-system-path="node/2713865">Mission</a>
+                  </li>
+                              <li>
+                                                  <a href="/newsroom" data-drupal-link-system-path="node/4847098">Newsroom</a>
+                  </li>
+                              <li>
+                                                  <a href="/contact-us" data-drupal-link-system-path="node/268177">Contact Us</a>
+                  </li>
+                              <li class="last">
+                                                  <a href="/work-us-department-energy" class="last" data-drupal-link-system-path="node/4847097">Careers</a>
+                  </li>
+          </ul>
+  
+                  </li>
+          </ul>
+  
+
+          </nav>
+        </div>
+        <div class="footer-resources">
+          <nav class="usa-footer__nav" aria-label="Our Resources">
+            
+      <ul class="menu menu--our-resources nav">
+                              <li class="expanded dropdown first last">
+                                                                                    <span class="expanded dropdown first last dropdown-toggle" data-toggle="dropdown">Resources <span class="caret"></span></span>
+                            <ul class="dropdown-menu">
+                              <li class="first">
+                                                  <a href="/budget-performance" class="first" data-drupal-link-system-path="node/268189">Budget &amp; Performance </a>
+                  </li>
+                              <li>
+                                                  <a href="https://www.directives.doe.gov/">Directives, Delegations, &amp; Requirements </a>
+                  </li>
+                              <li>
+                                                  <a href="/gc/freedom-information-act" data-drupal-link-system-path="node/3049">Freedom of Information Act (FOIA)</a>
+                  </li>
+                              <li>
+                                                  <a href="/ig/office-inspector-general" data-drupal-link-system-path="node/4847015">Inspector General </a>
+                  </li>
+                              <li class="last">
+                                                  <a href="/cio/privacy-program" class="last" data-drupal-link-system-path="node/2603217">Privacy Program</a>
+                  </li>
+          </ul>
+  
+                  </li>
+          </ul>
+  
+
+          </nav>
+        </div>
+        <div class="footer-policies">
+          <nav class="usa-footer__nav" aria-label="Federal Policies and Information">
+            
+      <ul class="menu menu--federal-policies nav">
+                              <li class="expanded dropdown first last">
+                                                                                    <span class="expanded dropdown first last dropdown-toggle" data-toggle="dropdown">Federal Government <span class="caret"></span></span>
+                            <ul class="dropdown-menu">
+                              <li class="first">
+                                                  <a href="https://www.usa.gov/" class="first">USA.gov</a>
+                  </li>
+                              <li class="last">
+                                                  <a href="https://www.whitehouse.gov/" class="last">The White House </a>
+                  </li>
+          </ul>
+  
+                  </li>
+          </ul>
+  
+
+          </nav>
+        </div>
+      </div>
+    </div>
+        <div class="usa-footer__secondary-section">
+      <div class="usa-footer__secondary-content grid-container">
+        <nav class="usa-footer__nav" aria-label="Utility Links">
+          
+      <ul class="menu menu--menu-footer-utility nav">
+                              <li class="first">
+                                                  <a href="/open-government" class="first" data-drupal-link-system-path="node/268195">Open Gov</a>
+                  </li>
+                              <li>
+                                                  <a href="/cio/accessibility-standard-statement" data-drupal-link-system-path="node/723576">Accessibility</a>
+                  </li>
+                              <li>
+                                                  <a href="/about-us/web-policies/privacy" data-drupal-link-system-path="node/268159">Privacy</a>
+                  </li>
+                              <li>
+                                                  <a href="/cio/department-energy-information-quality-guidelines" data-drupal-link-system-path="node/289213">Information Quality</a>
+                  </li>
+                              <li>
+                                                  <a href="/web-policies" data-drupal-link-system-path="node/268153">Web Policies</a>
+                  </li>
+                              <li>
+                                                  <a href="/cio/articles/vulnerability-disclosure-policy" data-drupal-link-system-path="node/4802628">Vulnerability Disclosure Program</a>
+                  </li>
+                              <li>
+                                                  <a href="/whistleblower-protection-and-nondisclosure-agreements" data-drupal-link-system-path="node/631441">Whistleblower Protection</a>
+                  </li>
+                              <li class="last">
+                                                  <a href="/OMEI/office-civil-rights-and-equal-employment-opportunity" class="last" data-drupal-link-system-path="node/4851555">Equal Employment Opportunity</a>
+                  </li>
+          </ul>
+  
+
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  </div>
+
+<span data-big-pipe-placeholder-id="callback=datalayer.lazy_builders%3AlazyScriptTag&amp;&amp;token=9_GVGT1v-E9W64AdkzcOiCj72O-qV6NGBZzv1P2Q8PM">
+</span>
+<script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/4849398","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"eJxtT9FyhDAI_KGMvPR_HJJwCWNMMoBa_77eVc-20xdm2V1g8ZzGzp3An8BFNCy4k4CnjCs3UUeVJO0jViy7cVBI-DHSStVGEwwT1_SPp7VU6CYuR2jVjkk4W_q0wnW6VSH4gS8-tRVQley9RwklZMDe30wLjAUwRsusw8Yxkf0Rf3XDaX1mevDxw3cWiLL0Q72idRRMgj3rpdzMsNS--MKaKTplo-Pq8XQhMeDK5nRXoxk8KrlFt6jjE8JDcKatyeRWpk3hVYe5xaXQFw7_oBE","theme":"energy_gov","theme_token":null},"ajaxTrustedUrl":[],"bigPipePlaceholderIds":{"callback=datalayer.lazy_builders%3AlazyScriptTag\u0026\u0026token=9_GVGT1v-E9W64AdkzcOiCj72O-qV6NGBZzv1P2Q8PM":true,"callback=Drupal%5CCore%5CRender%5CElement%5CStatusMessages%3A%3ArenderMessages\u0026args%5B0%5D\u0026token=_HAdUpwWmet0TOTe2PSiJuMntExoshbm1kh2wQzzzAA":true,"callback=Drupal%5Cblock%5CBlockViewBuilder%3A%3AlazyBuilder\u0026args%5B0%5D=local_tasks\u0026args%5B1%5D=full\u0026args%5B2%5D\u0026token=E_tpSvqNthSj0MYVJlzfBQEATPFdvt5Orok_tIOZVpA":true},"dataLayer":{"defaultLang":"en","languages":{"en":{"id":"en","name":"English","direction":"ltr","weight":0},"es":{"id":"es","name":"Spanish","direction":"ltr","weight":1}}},"external_link_popup":{"whitelist":"","width":"85%","popups":[{"id":"default","name":"Default","status":true,"weight":10,"close":true,"title":"You Are Now Leaving This Site","body":"\u003Cp\u003EWould you like to leave this site?\u003C\/p\u003E\n","labelyes":"OK","labelno":"Cancel","domains":"*","target":"_self"}]},"google_analytics":{"account":"G-GS1KB7R8DY","trackOutbound":true,"trackMailto":true,"trackDownload":true,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"data":{"extlink":{"extTarget":true,"extTargetAppendNewWindowLabel":"(opens in a new window)","extTargetNoOverride":false,"extNofollow":true,"extTitleNoOverride":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":true,"extExclude":"\\.gov","extInclude":"isExternalResource","extCssExclude":"footer, .social-bar-utility, .media-type-image, .energy-social-links","extCssInclude":"","extCssExplicit":"","extAlert":true,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","extHideIcons":false,"mailtoClass":"0","telClass":"","mailtoLabel":"(link sends email)","telLabel":"(link is a phone number)","extUseFontAwesome":false,"extIconPlacement":"append","extPreventOrphan":false,"extFaLinkClasses":"fa fa-external-link","extFaMailtoClasses":"fa fa-envelope-o","extAdditionalLinkClasses":"","extAdditionalMailtoClasses":"","extAdditionalTelClasses":"","extFaTelClasses":"fa fa-phone","whitelistedDomains":[],"extExcludeNoreferrer":""}},"energyAnalytics":{"accounts":["UA-17192165-1"],"pageTitle":"DOE Issues Export Approval to Golden Pass LNG, Accelerating President Trump\u0027s Pledge to Restore American Energy Dominance","settings":[["_setAccount","UA-17192165-1"],["_trackPageview"],["_setDomainName",".energy.gov"]]},"searchSettings":{"bestBetsHeadingText":"Recommended by DOE:","defaultThumbnailUrl":"https:\/\/www.energy.gov\/sites\/default\/files\/2025-04\/white-fallback_0.png","enableTopicsAutocomplete":true,"events":{"showUpcomingEventsSection":true,"viewAllEventsLinkTitle":"View All Events","viewEventDetailsLinkTitle":"View Event Details"},"isSearchEventsPage":false,"isSearchEventsCalendarPage":false,"searchHeaderMessage":{"generic":"What are you looking for?","events":"What event are you looking for?"},"popularSearchTerm1":"Artificial Intelligence","popularSearchTerm2":"LNG","popularSearchTerm3":"Geothermal","popularSearchTerm4":"Nuclear Energy","popularSearchTerm5":"Hydropower","popularSearchTerm6":"","facetsFooterMessage":"\u003Cp\u003E\u003Cstrong\u003ELooking for compliance docs?\u003C\/strong\u003E\u003Cbr\u003E\u003Ca href=\u0022#\u0022\u003EVisit our Compliance Document search page\u003C\/a\u003E\u003C\/p\u003E","noResultsFoundMessage":"No matches were found using the filters you have selected.","suggestedTopicsMessage":"Suggested Topics based on Your Search","spellcheck":{"labelPrefix":"Did you mean: ","labelSuffix":"? Suggestion based on closest match(es)."},"timeZone":"America\/New_York","topics":{"topicsCountForSearchPage":"3"}},"sitewideAlert":{"refreshInterval":150000,"automaticRefresh":true},"user":{"uid":0,"permissionsHash":"9c9c480e7af7c661408c60c46bc6b4cece620e7005df99e7baae3961aab99997"}}</script>
+<script src="/sites/default/files/js/js_DDSX4MyzXMo027lnywn4SRokDL72r2vikjkkeMsqYuY.js?scope=footer&amp;delta=0&amp;language=en&amp;theme=energy_gov&amp;include=eJxtjuEOwjAIhF9oGX98n4a1yMga2hSc7u2tcZvR-I_jPribhEOVSjDtw5DQMeNGDSaacZXSbCClxltAxby5RAPGS6CV1IM3jIso_2FK4UyfxUHEot4vYZf08Cy6HC6XFdCM_OSNsMUZsNZzU6JgBkzJZ7HxLonJf8wvNe7oK_sqves7E1K71e4eFUyc-rPeOVNzEBV_AlKMcf8"></script>
+<script src="/modules/custom/energy_search/js/search-uswds/build/static/js/bundle.js?t9khvr"></script>
+<script src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4e306a1b4dc28184"></script>
+<script src="/sites/default/files/js/js_f0ocZKYH50FwjVzOnMO-BB6abKFlLaO-i2i3Wpic1ho.js?scope=footer&amp;delta=3&amp;language=en&amp;theme=energy_gov&amp;include=eJxtjuEOwjAIhF9oGX98n4a1yMga2hSc7u2tcZvR-I_jPribhEOVSjDtw5DQMeNGDSaacZXSbCClxltAxby5RAPGS6CV1IM3jIso_2FK4UyfxUHEot4vYZf08Cy6HC6XFdCM_OSNsMUZsNZzU6JgBkzJZ7HxLonJf8wvNe7oK_sqves7E1K71e4eFUyc-rPeOVNzEBV_AlKMcf8"></script>
+
+
+<script type="application/vnd.drupal-ajax" data-big-pipe-event="start"></script>
+<script type="application/vnd.drupal-ajax" data-big-pipe-replacement-for-placeholder-with-id="callback=Drupal%5Cblock%5CBlockViewBuilder%3A%3AlazyBuilder&amp;args%5B0%5D=local_tasks&amp;args%5B1%5D=full&amp;args%5B2%5D&amp;token=E_tpSvqNthSj0MYVJlzfBQEATPFdvt5Orok_tIOZVpA">
+[{"command":"insert","method":"replaceWith","selector":"[data-big-pipe-placeholder-id=\u0022callback=Drupal%5Cblock%5CBlockViewBuilder%3A%3AlazyBuilder\u0026args%5B0%5D=local_tasks\u0026args%5B1%5D=full\u0026args%5B2%5D\u0026token=E_tpSvqNthSj0MYVJlzfBQEATPFdvt5Orok_tIOZVpA\u0022]","data":"","settings":null}]
+</script><script type="application/vnd.drupal-ajax" data-big-pipe-replacement-for-placeholder-with-id="callback=Drupal%5CCore%5CRender%5CElement%5CStatusMessages%3A%3ArenderMessages&amp;args%5B0%5D&amp;token=_HAdUpwWmet0TOTe2PSiJuMntExoshbm1kh2wQzzzAA">
+[{"command":"insert","method":"replaceWith","selector":"[data-big-pipe-placeholder-id=\u0022callback=Drupal%5CCore%5CRender%5CElement%5CStatusMessages%3A%3ArenderMessages\u0026args%5B0%5D\u0026token=_HAdUpwWmet0TOTe2PSiJuMntExoshbm1kh2wQzzzAA\u0022]","data":"","settings":null}]
+</script><script type="application/vnd.drupal-ajax" data-big-pipe-replacement-for-placeholder-with-id="callback=datalayer.lazy_builders%3AlazyScriptTag&amp;&amp;token=9_GVGT1v-E9W64AdkzcOiCj72O-qV6NGBZzv1P2Q8PM">
+[{"command":"insert","method":"replaceWith","selector":"[data-big-pipe-placeholder-id=\u0022callback=datalayer.lazy_builders%3AlazyScriptTag\u0026\u0026token=9_GVGT1v-E9W64AdkzcOiCj72O-qV6NGBZzv1P2Q8PM\u0022]","data":"\u003Cscript\u003Ewindow.dataLayer = window.dataLayer || []; window.dataLayer.push({\u0022drupalLanguage\u0022:\u0022en\u0022,\u0022drupalCountry\u0022:null,\u0022siteName\u0022:\u0022Department of Energy\u0022,\u0022entityCreated\u0022:\u00221741188072\u0022,\u0022entityLangcode\u0022:\u0022en\u0022,\u0022entityStatus\u0022:\u00221\u0022,\u0022entityUid\u0022:\u0022373\u0022,\u0022entityUuid\u0022:\u002256d415cd-95ce-4662-b5e8-a7956aa6b2d9\u0022,\u0022entityVid\u0022:\u00221481221\u0022,\u0022entityName\u0022:\u0022Jeffrey.Dorman@hq.doe.gov\u0022,\u0022entityType\u0022:\u0022node\u0022,\u0022entityBundle\u0022:\u0022article\u0022,\u0022entityId\u0022:\u00224849398\u0022,\u0022entityTitle\u0022:\u0022DOE Issues Export Approval to Golden Pass LNG, Accelerating President Trump\\u0027s Pledge to Restore American Energy Dominance\u0022,\u0022articleType\u0022:{\u0022type\u0022:\u0022entity_reference\u0022,\u0022value\u0022:[{\u0022id\u0022:\u00221\u0022,\u0022label\u0022:\u0022Press Releases\u0022,\u0022bundle\u0022:\u0022article_type\u0022}]},\u0022audience\u0022:{\u0022type\u0022:\u0022entity_reference\u0022,\u0022value\u0022:[]},\u0022customTopics\u0022:{\u0022type\u0022:\u0022entity_reference\u0022,\u0022value\u0022:[{\u0022id\u0022:\u00221381131\u0022,\u0022label\u0022:\u002217S1 LNG Exports\u0022,\u0022bundle\u0022:\u0022keywords\u0022}]},\u0022officeSpecificTopics\u0022:{\u0022type\u0022:\u0022entity_reference\u0022,\u0022value\u0022:[]},\u0022topic\u0022:{\u0022type\u0022:\u0022entity_reference\u0022,\u0022value\u0022:[]},\u0022entityTaxonomy\u0022:{\u0022article_type\u0022:{\u00221\u0022:\u0022Press Releases\u0022},\u0022keywords\u0022:{\u00221381131\u0022:\u002217S1 LNG Exports\u0022}},\u0022userUid\u0022:0,\u0022primaryOffice\u0022:{\u0022id\u0022:\u002231\u0022,\u0022label\u0022:\u0022Energy.gov\u0022}});\u003C\/script\u003E\n","settings":null}]
+</script>
+<script type="application/vnd.drupal-ajax" data-big-pipe-event="stop"></script>
+</body>
+</html>

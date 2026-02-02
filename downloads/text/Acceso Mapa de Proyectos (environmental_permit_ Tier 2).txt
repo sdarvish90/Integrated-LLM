@@ -1,0 +1,16 @@
+Title: Acceso Mapa de Proyectos (environmental_permit, Tier 2)
+URL: https://sig.sea.gob.cl/mapadeproyectos/
+Date: 2026-01-28
+======================================================================
+
+Bienvenido/a a la aplicación "Mapa de proyectos sometidos al SEIA"
+Usted ha ingresado a la aplicación: "Mapa de proyectos sometidos al SEIA". En ella podrá visualizar la localización representativa de los proyectos o actividades sometidos a evaluación ambiental, cuya localización ha sido validada por el Servicio de Evaluación Ambiental (SEA). En primer lugar debe seleccionar DIA, EIA o ambos. También puede utilizar filtros avanzados como región, estado, entre otros. El resultado de su búsqueda puede ser descargado en CSV, KMZ o XLS.
+Estás ingresando en calidad de:
+Titular
+Consultor
+OAECA
+SEA
+Ciudadano
+Otro
+Debe elegir un tipo de ingreso.
+Aceptar

@@ -1,0 +1,18 @@
+{
+  "Total_LCOH_USD_per_tonne": 7494.237475539494,
+  "Total_LCOA_USD_per_tonne": 3336.199721319536,
+  "Total_LCOE_USD_per_MWh": 84.63929053723072,
+  "Total_LCOH_USD_per_kg": 7.494237475539494,
+  "Total_LCOA_USD_per_kg": 3.336199721319536,
+  "NH3_prod_TPA_tonnes_per_year": 79435.77345644952,
+  "H2_prod_TPA_tonnes_per_year": 14459.68312214252,
+  "IRR_percent": 31.46561938620425,
+  "NPV_USD_M": -273.5870706798091,
+  "Total_CAPEX_USD_M": 1652.5084900444456,
+  "final_product": "NH3",
+  "green_H2_selling_price_USD_per_t": 0.0,
+  "grey_H2_selling_price_USD_per_t": 0.0,
+  "run_timestamp_utc": "2026-02-01T19:35:04.470704Z",
+  "model": "SHARE",
+  "entrypoint": "SHARE_Model_main_v1.py"
+}

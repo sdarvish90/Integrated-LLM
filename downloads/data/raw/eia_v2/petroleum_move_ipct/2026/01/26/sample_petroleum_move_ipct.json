@@ -1,0 +1,100 @@
+{
+  "warnings": [
+    {
+      "warning": "incomplete return",
+      "description": "The API can only return 5000 rows in JSON format.  Please consider constraining your request with facet, start, or end, or using offset to paginate results."
+    }
+  ],
+  "response": {
+    "total": "3584",
+    "dateFormat": "YYYY-MM",
+    "frequency": "monthly",
+    "data": [
+      {
+        "period": "2025-10",
+        "duoarea": "NUS-Z00",
+        "area-name": "NA",
+        "product": "EPC25B",
+        "product-name": "Crude Gravity 20.1 to 25.0 percent",
+        "process": "IMP",
+        "process-name": "Percent Total Imported by API Gravity",
+        "series": "I000000252",
+        "series-description": "U.S. Percent Total Imported by API Gravity of Crude Gravity 20.1 to 25.0 percent (%)",
+        "value": "50.4",
+        "units": "%"
+      },
+      {
+        "period": "2025-10",
+        "duoarea": "NUS-Z00",
+        "area-name": "NA",
+        "product": "EPC30B",
+        "product-name": "Crude Gravity 25.1 to 30.0 percent",
+        "process": "IMP",
+        "process-name": "Percent Total Imported by API Gravity",
+        "series": "I000000302",
+        "series-description": "U.S. Percent Total Imported by API Gravity of Crude Gravity 25.1 to 30.0 percent (%)",
+        "value": "11.33",
+        "units": "%"
+      },
+      {
+        "period": "2025-10",
+        "duoarea": "NUS-Z00",
+        "area-name": "NA",
+        "product": "EPC20B",
+        "product-name": "Crude Gravity 20.0 percent or less",
+        "process": "IMP",
+        "process-name": "Percent Total Imported by API Gravity",
+        "series": "I000000202",
+        "series-description": "U.S. Percent Total Imported by API Gravity of Crude Gravity 20.0 percent or less (%)",
+        "value": "11.11",
+        "units": "%"
+      },
+      {
+        "period": "2025-10",
+        "duoarea": "NUS-Z00",
+        "area-name": "NA",
+        "product": "EPC40B",
+        "product-name": "Crude Gravity 35.1 to 40.0 percent",
+        "process": "IMP",
+        "process-name": "Percent Total Imported by API Gravity",
+        "series": "I000000402",
+        "series-description": "U.S. Percent Total Imported by API Gravity of Crude Gravity 35.1 to 40.0 percent (%)",
+        "value": "4.84",
+        "units": "%"
+      },
+      {
+        "period": "2025-10",
+        "duoarea": "NUS-Z00",
+        "area-name": "NA",
+        "product": "EPC45B",
+        "product-name": "Crude Gravity 40.1 to 45.0 percent",
+        "process": "IMP",
+        "process-name": "Percent Total Imported by API Gravity",
+        "series": "I000000452",
+        "series-description": "U.S. Percent Total Imported by API Gravity of Crude Gravity 40.1 to 45.0%",
+        "value": null,
+        "units": "%"
+      }
+    ]
+  },
+  "request": {
+    "command": "/v2/petroleum/move/ipct/data/",
+    "params": {
+      "api_key": "o5nQ7H9b6Bf9Kh3D0cCeC8ydP24drGTiFGaCQrKN",
+      "frequency": "monthly",
+      "data": [
+        "value"
+      ],
+      "sort": [
+        {
+          "column": "period",
+          "direction": "desc"
+        }
+      ],
+      "length": "5",
+      "offset": "0"
+    }
+  },
+  "apiVersion": "2.1.10",
+  "ExcelAddInVersion": "2.1.0"
+}

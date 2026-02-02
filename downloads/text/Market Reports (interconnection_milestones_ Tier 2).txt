@@ -1,0 +1,73 @@
+Title: Market Reports (interconnection_milestones, Tier 2)
+URL: https://www.ercot.com/mktinfo/reports
+Date: 2026-01-28
+======================================================================
+
+Home
+Market Information
+Market Reports
+Market Reports
+This section contains reports of general interest on different facets of the ERCOT market.
+Compliance Reports
+60-Day COP Adjustment Period Snapshot
+View 60-Day COP Adjustment Period Snapshot for each QSE snapshot on each hour; confidentiality expired 60 day data.
+AS Obligation and Responsibility
+View Ancillary Service Obligation and Ancillary Service Supply Responsibility for each QSE, 180 days after the Operating Day.
+Ancillary Service Trade Overages Report
+Ancillary Services trades that result in a QSE’s purchased quantities of Ancillary Services exceeding the QSE’s Self-Arranged Ancillary Service Quantities. This product is delivered after the 1430 snapshot taken daily for the day-ahead.
+ERCOT Interconnection Combined Frequency Response Performance
+This report displays ERCOT interconnection combined frequency response performance.
+ERCOT Interconnection Minimum Frequency Response Computation Methodology
+This report displays ERCOT interconnection minimum frequency response computation methodology.
+Frequency Measurable Events in ERCOT Interconnection
+This report displays frequency measurable events in ERCOT Interconnection.
+Disclosure Reports and Extracts
+2-Day DAM Ancillary Services Reports
+This report will contain all 48 Hour disclosure data related to DAM. The following individual files are included in the report:  2-Day Aggregate DAM AS Offers, 2-Day Cleared DAM AS, and 2-Day Self-Arranged AS.
+2-Day DAM Bids and Offers Reports
+This report will contain all 48 Hour disclosure data related to DAM. The following individual files are included in the report:  2-Day Total Cleared Energy Bids and Energy-Only Offers, 2-Day Total Cleared Energy Bids and Energy-Only Offers by Disclosure Areas, 2-Day Point-to-Point Obligation Bids, 2-Day Point-to-Point Obligation Bids by Disclosure Areas.
+2-Day DAM Energy Curves
+This report contains 2-Day aggregate energy demand and supply curve disclosure data for the Day-Ahead Market (DAM).  The following file types are included in this report:  Energy Demand Curves, Energy Supply Curves, and Minimum Energy Supply Curves, including by Disclosure Area.
+2-Day Real-Time Gen and Load Data Reports
+This report contains 2-Day aggregate disclosure data related to Real Time. The following file types are included in this report: Aggregate Generation Summary, Aggregate Load Summary, and Aggregate Output Schedules, including by Disclosure Area.
+2-Day SCED Energy Curves
+This report contains 2-Day aggregate energy demand and supply curve disclosure data for SCED. The following file types are included in this report: Energy Demand Curves for CLRs including by Disclosure Area, Supply Curve for ESR, Photovoltaic, Wind, and Non-Intermittent Renewable Resources, including by Disclosure Area.
+3-Day DAM Highest Price AS Offer Selected
+This report provides the offer price and the name of the Entity submitting the offer for the highest-priced Ancillary Service (AS) Offer selected in the Day-Ahead Market (DAM) for each AS three days after the end of the applicable Operating Day. If multiple Entities submitted the highest-priced offers selected, all Entities shall be identified.
+3-Day Highest Price Bids Selected or Dispatched in SCED
+The bid price and the name of the Entity submitting the bid for the highest-priced bid selected or Dispatched by SCED three days after the applicable Operating Day. If multiple Entities submitted the highest-priced bids selected, all Entities shall be identified on the MIS Public Area.
+3-Day Highest Price Offered in SCED
+ERCOT shall post the offer price and the name of the Entity submitting the offer for the highest-priced offer selected or Dispatched by SCED three days after the applicable Operating Day. If multiple Entities submitted the highest-priced offers selected, all Entities shall be identified on the MIS Public Area.
+60-Day COP All Updates
+This report displays all iterative COP submissions where a change has occurred for the Operating Day.
+60-Day DAM Disclosure Reports
+This report will contain all 60 day disclosure data related to DAM. The following individual files are included in the report: 60d_DAM_EnergyBidAwards; 60d_DAM_EnergyBids; 60d_DAM_EnergyOnlyOfferAwards; 60d_DAM_EnergyOnlyOffers; 60d_DAM_Generation_Resource_ASOffers; 60d_DAM_Gen_Resource_Data; 60d_DAM_Load_Resource_ASOffers; 60d_DAM_Load_Resource_Data; 60d_DAM_PTPObligationBidAwards; 60d_DAM_PTPObligationBids; 60d_DAM_PTP_Obligation_Option; 60d_DAM_PTP_Obligation_OptionAwards; and 60d_DAM_QSE_Self_Arranged_AS.
+60-Day SASM Disclosure Reports
+This report will contain all 60 day disclosure data related to SASM for Generation and Load Resources. The following individual files are included in the report: 60d_SASM_Generation_Resource_AS_Offers-YY-MMM-DD.csv60d_SASM_Load_Resource_AS_Offers-YY-MMM-DD.csv60d_SASM_Generation_Resource_AS_Offer Awards-YY-MMM-DD.csv60d_SASM_Load_Resource_AS_Offer_Awards-YY-MMM-DD.csv
+60-Day SCED Disclosure Reports
+This report will contain all 60 day disclosure data related to SCED. The following individual files are included in the report: 60d_HDL_LDL_ManOverride; 60d_Load_Resource_Data_in_SCED; 60d_SCED_DSR_Load_Data; 60d_SCED_EOC_Updates_in_OpHour; 60d_SCED_Gen_Resource_Data; 60d_SCED_QSE_Self_Arranged; and 60d_SCED_SMNE_GEN_RES.
+7-Day Event Trigger Posting
+Seven days after the applicable Operating Day, ERCOT shall post the portion of any Resource's Energy Offer Curve or Energy Bid/Offer Curve that is at or above 50 times the Fuel Index Price (50xFIP) for any Security-Constrained Economic Dispatch (SCED) interval in the Real-Time Market (RTM) where any Real-Time Locational Marginal Price (LMP) exceeds 50xFIP, or the portion of any Resource’s Ancillary Service Offer that is at or above 50xFIP for any operating Hour in Day-Ahead Market (DAM) or any SCED intervals in Real-Time Market (RTM) where any Ancillary Service Market Clearing Price for Capacity (MCPC) exceeds 50xFIP.
+DAM and SCED Ancillary Service Demand Curves
+Ancillary Service Demand Curve (ASDC) data for all AS Types by hour that will be used by DAM and SCED to procure Ancillary Services. If the AS Plan is altered, a new ASDC will be posted to reflect this change for applicable hours.
+Daily Balancing Authority Operations Report
+Daily Balancing Authority Operations Report
+Daily RUC Ancillary Service Demand Curves
+Ancillary Service Demand Curve (ASDC) data for all AS Types by hour that will be used by DRUC to procure Ancillary Services. If the AS Plan is altered, a new ASDC will be posted to reflect this change for applicable hours.
+Daily RUC Ancillary Service Deployment Factors
+Ancillary Service Deployment Factors used by the Daily Reliability Unit Commitment (DRUC) process for each hour in the RUC Study Period.
+Hourly Balancing Authority Operations Report
+Hourly Balancing Authority Operations Report
+Hourly RUC Ancillary Service Demand Curves
+Ancillary Service Demand Curve (ASDC) data for all AS Types by hour that will be used by HRUC to procure Ancillary Services. If the AS Plan is altered, a new ASDC will be posted to reflect this change for applicable hours.
+Hourly RUC Ancillary Service Deployment Factors
+Ancillary Service Deployment Factors used by the Hourly Reliability Unit Commitment (HRUC) process for each hour in the RUC Study Period.
+Projected Ancillary Service Deployments Factors
+Provides the Ancillary Service Deployments Factors that are projected to be used in the DRUC and HRUC process for the next Operating Day.
+Resource Decision-Making Entity List
+Daily Resource Decision-Making Entity List containing the decision-making entities for each Resource.
+Weekly RUC Ancillary Service Demand Curves
+Ancillary Service Demand Curve (ASDC) data for all AS Types by hour that will be used by WRUC to procure Ancillary Services. If the AS Plan is altered, a new ASDC will be posted to reflect this change for applicable hours.
+Weekly RUC Ancillary Service Deployment Factors
+Ancillary Service Deployment Factors used by the Weekly Reliability Unit Commitment (WRUC) process for each hour in the RUC Study Period.
+ERCOT-Lockup-white
