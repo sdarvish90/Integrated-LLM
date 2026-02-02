@@ -57,7 +57,7 @@ class IntegratedConfig:
     sensitivity_db_path: Path = Path("./sensitivity_analysis.db")
     
     # TEA Model paths
-    tea_locations_root: Path = Path(__file__).resolve().parent.parent
+    tea_locations_root: Path = Path("/Users/Shadi/Dropbox/SHARE_Model_LLM")
     
     # Location mapping
     location_map: Dict[str, str] = field(default_factory=lambda: {

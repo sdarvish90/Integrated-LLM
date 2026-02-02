@@ -1,0 +1,1458 @@
+keywords:
+  # ===========================================================================
+  # ENGLISH - Core Hydrogen
+  # ===========================================================================
+  - hydrogen
+  - green hydrogen
+  - blue hydrogen
+  - grey hydrogen
+  - clean hydrogen
+  - renewable hydrogen
+  - low-carbon hydrogen
+  - electrolyzer
+  - electrolysis
+  - electrolyser
+  - PEM
+  - alkaline
+  - SOEC
+  - SOFC
+  - solid oxide
+  - ammonia
+  - green ammonia
+  - blue ammonia
+  - fuel cell
+  - FCEV
+  - hydrogen vehicle
+  
+  # ===========================================================================
+  # ENGLISH - Natural Gas & Carbon
+  # ===========================================================================
+  - natural gas
+  - LNG
+  - gas pipeline
+  - carbon
+  - carbon capture
+  - CCS
+  - CCUS
+  - carbon storage
+  - carbon sequestration
+  - CO2
+  - emissions
+  - decarbonization
+  - decarbonisation
+  - methane
+  - SMR
+  - steam methane reforming
+  - ATR
+  - autothermal reforming
+  
+  # ===========================================================================
+  # ENGLISH - Renewable Energy
+  # ===========================================================================
+  - renewable
+  - renewables
+  - solar
+  - photovoltaic
+  - PV
+  - wind
+  - offshore wind
+  - onshore wind
+  - wind farm
+  - solar farm
+  - capacity factor
+  - curtailment
+  - hybrid
+  
+  # ===========================================================================
+  # ENGLISH - Power & Grid
+  # ===========================================================================
+  - electricity
+  - electricity price
+  - wholesale price
+  - power purchase
+  - PPA
+  - offtake
+  - offtake agreement
+  - grid
+  - grid connection
+  - transmission
+  - interconnection
+  - interconnection queue
+  - substation
+  
+  # ===========================================================================
+  # ENGLISH - Economics & Finance
+  # ===========================================================================
+  - LCOH
+  - levelized cost
+  - LCOE
+  - CAPEX
+  - OPEX
+  - NPV
+  - IRR
+  - investment
+  - financing
+  - project finance
+  - bankable
+  
+  # ===========================================================================
+  # ENGLISH - Policy & Incentives
+  # ===========================================================================
+  - 45V
+  - IRA
+  - Inflation Reduction Act
+  - tax credit
+  - PTC
+  - ITC
+  - incentive
+  - subsidy
+  - grant
+  - carbon
+  - emissions
+  - carbon intensity
+  - additionality
+  - RECs
+  
+  # ===========================================================================
+  # ENGLISH - Project Development
+  # ===========================================================================
+  - FID
+  - final investment decision
+  - feasibility
+  - feasibility study
+  - FEED
+  - front end engineering
+  - EPC
+  - NTP
+  - notice to proceed
+  - COD
+  - commercial operation
+  - commissioning
+  - construction
+  - development
+  - permit
+  - license
+  - approval
+  - authorization
+  - environmental permit
+  - air permit
+  - water permit
+  
+  # ===========================================================================
+  # ENGLISH - Business & Contracts
+  # ===========================================================================
+  - tender
+  - RFP
+  - RFQ
+  - bid
+  - award
+  - contract
+  - agreement
+  - MOU
+  - memorandum
+  - partnership
+  - joint venture
+  - consortium
+  
+  # ===========================================================================
+  # ENGLISH - Storage, Transport & Infrastructure
+  # ===========================================================================
+  - storage
+  - hydrogen storage
+  - pipeline
+  - hydrogen pipeline
+  - infrastructure
+  - hydrogen infrastructure
+  - liquefaction
+  - liquid hydrogen
+  - compressed hydrogen
+  - transport
+  - shipping
+  - export
+  - import
+  - terminal
+  - refueling
+  - refuelling
+  - distribution
+  - blending
+  - hub
+  - corridor
+  
+  # ===========================================================================
+  # ENGLISH - Regions & Projects
+  # ===========================================================================
+  - Oman
+  - Duqm
+  - Sohar
+  - Salalah
+  - Chile
+  - Magallanes
+  - Atacama
+  - Antofagasta
+  - NEOM
+  - Saudi
+  - Saudi Arabia
+  - UAE
+  - Gulf
+  - GCC
+  - MENA
+  - Middle East
+  - Australia
+  - Europe
+  
+  # ===========================================================================
+  # SPANISH - Core Hydrogen (Chile)
+  # ===========================================================================
+  - hidrógeno
+  - hidrógeno verde
+  - hidrógeno renovable
+  - hidrógeno limpio
+  - electrolizador
+  - electrólisis
+  - amoníaco
+  - amoníaco verde
+  - celda de combustible
+  - pila de combustible
+  
+  # ===========================================================================
+  # SPANISH - Energy
+  # ===========================================================================
+  - energía
+  - energía renovable
+  - energía solar
+  - energía eólica
+  - electricidad
+  - generación
+  - transmisión
+  - conexión
+  - red eléctrica
+  - ERNC
+  
+  # ===========================================================================
+  # SPANISH - Economics & Business
+  # ===========================================================================
+  - costo nivelado
+  - inversión
+  - financiamiento
+  - subsidio
+  - incentivo
+  - crédito fiscal
+  - proyecto
+  - desarrollo
+  - contrato
+  - acuerdo
+  - convenio
+  - licitación
+  - adjudicación
+  - propuesta
+  
+  # ===========================================================================
+  # SPANISH - Permits & Regulatory
+  # ===========================================================================
+  - permiso
+  - licencia
+  - autorización
+  - aprobación
+  - evaluación ambiental
+  - estudio de impacto
+  - declaración ambiental
+  - resolución
+  - normativa
+  
+  # ===========================================================================
+  # SPANISH - Regions (Chile)
+  # ===========================================================================
+  - Magallanes
+  - Atacama
+  - Antofagasta
+  - Valparaíso
+  - Biobío
+  - Tarapacá
+  - Coquimbo
+  - Punta Arenas
+  - Cabo Negro
+  
+  # ===========================================================================
+  # ARABIC - Core Hydrogen (Oman) هيدروجين
+  # ===========================================================================
+  - هيدروجين
+  - الهيدروجين الأخضر
+  - الهيدروجين النظيف
+  - الهيدروجين المتجدد
+  - أمونيا
+  - الأمونيا الخضراء
+  - التحليل الكهربائي
+  - محلل كهربائي
+  - خلية وقود
+  
+  # ===========================================================================
+  # ARABIC - Energy طاقة
+  # ===========================================================================
+  - طاقة
+  - طاقة متجددة
+  - طاقة شمسية
+  - طاقة الرياح
+  - كهرباء
+  - توليد
+  - شبكة
+  - محطة
+  - توصيل
+  
+  # ===========================================================================
+  # ARABIC - Business & Contracts عقد
+  # ===========================================================================
+  - مشروع
+  - استثمار
+  - تمويل
+  - عقد
+  - اتفاقية
+  - شراكة
+  - مناقصة
+  - عطاء
+  - ترسية
+  
+  # ===========================================================================
+  # ARABIC - Permits & Regulatory رخصة
+  # ===========================================================================
+  - رخصة
+  - تصريح
+  - موافقة
+  - ترخيص
+  - تنظيم
+  
+  # ===========================================================================
+  # ARABIC - Locations (Oman) مواقع
+  # ===========================================================================
+  - عمان
+  - سلطنة عمان
+  - دقم
+  - صحار
+  - صلالة
+  - مسقط
+  - الدقم
+  - المنطقة الاقتصادية
+
+output_dir: downloads
+
+sites:
+  # ==========================================================================
+  # TIER 1 - MAJOR PUBLICATIONS & REPORTS
+  # ==========================================================================
+  
+  - name: "Hydrogen Council Compass"
+    type: "hydrogen_council_compass_public"
+    start_urls:
+      - "https://compass.hydrogencouncil.com/"
+
+  - name: "IRENA Publications"
+    type: "irena_publications_playwright"
+    start_urls:
+      - "https://www.irena.org/Publications"
+    max_items: 50
+
+  - name: "CARB Annual Hydrogen Evaluation"
+    type: "carb_annual_h2_eval"
+    start_urls:
+      - "https://ww2.arb.ca.gov/resources/documents/annual-hydrogen-evaluation"
+
+  - name: "EIA Today in Energy"
+    type: "eia_today_in_energy"
+    start_urls:
+      - "https://www.eia.gov/todayinenergy/"
+    max_items: 50
+
+  - name: "EIA Reports & Publications"
+    type: "eia_reports_playwright"
+    start_urls:
+      - "https://www.eia.gov/reports/"
+    max_items: 100
+    min_year: 2020
+
+  - name: "ACER AEGIS CHEST (Monitoring Reports)"
+    type: "acer_chest_category"
+    start_urls:
+      - "https://aegis.acer.europa.eu/chest/category/55/list"
+    max_depth: 4
+    max_items: 200
+
+  # ==========================================================================
+  # EIA RSS FEEDS
+  # ==========================================================================
+  
+  - name: "EIA Today in Energy RSS"
+    type: "rss_feed"
+    start_urls:
+      - "https://www.eia.gov/rss/todayinenergy.xml"
+    max_items: 100
+
+  - name: "EIA Press Releases"
+    type: "rss_feed"
+    start_urls:
+      - "https://www.eia.gov/rss/press_rss.xml"
+    max_items: 50
+
+  - name: "EIA Electricity RSS"
+    type: "rss_feed"
+    start_urls:
+      - "https://www.eia.gov/rss/electricity_rss.xml"
+    max_items: 50
+
+  - name: "EIA Renewable RSS"
+    type: "rss_feed"
+    start_urls:
+      - "https://www.eia.gov/rss/renewable_rss.xml"
+    max_items: 50
+
+  - name: "EIA Natural Gas RSS"
+    type: "rss_feed"
+    start_urls:
+      - "https://www.eia.gov/rss/ng_rss.xml"
+    max_items: 50
+
+  # ==========================================================================
+  # EIA INDEX PAGES
+  # ==========================================================================
+  
+  - name: "EIA STEO"
+    type: "index_page"
+    start_urls:
+      - "https://www.eia.gov/outlooks/steo/"
+      - "https://www.eia.gov/outlooks/steo/data.php"
+    allowed_domains:
+      - "eia.gov"
+    max_items: 50
+
+  - name: "EIA AEO"
+    type: "index_page"
+    start_urls:
+      - "https://www.eia.gov/outlooks/aeo/"
+    allowed_domains:
+      - "eia.gov"
+    max_items: 50
+
+  # ==========================================================================
+  # IEA
+  # ==========================================================================
+  
+  - name: "IEA News RSS"
+    type: "rss_feed"
+    start_urls:
+      - "https://www.iea.org/rss/news.xml"
+    max_items: 100
+
+  - name: "IEA Hydrogen Reports"
+    type: "index_page"
+    start_urls:
+      - "https://www.iea.org/energy-system/low-emission-fuels/hydrogen"
+      - "https://www.iea.org/reports?topic=hydrogen"
+    allowed_domains:
+      - "iea.org"
+    max_items: 50
+
+  # ==========================================================================
+  # IRENA
+  # ==========================================================================
+  
+  - name: "IRENA News RSS"
+    type: "rss_feed"
+    start_urls:
+      - "https://www.irena.org/rss/news"
+    max_items: 50
+
+  - name: "IRENA Hydrogen"
+    type: "index_page"
+    start_urls:
+      - "https://www.irena.org/Energy-Transition/Technology/Hydrogen"
+    allowed_domains:
+      - "irena.org"
+    max_items: 50
+
+  # ==========================================================================
+  # DOE / NREL
+  # ==========================================================================
+  
+  - name: "DOE News RSS"
+    type: "rss_feed"
+    start_urls:
+      - "https://www.energy.gov/rss/articles.xml"
+    max_items: 100
+
+  - name: "DOE Hydrogen Program"
+    type: "index_page"
+    start_urls:
+      - "https://www.energy.gov/eere/fuelcells/hydrogen-and-fuel-cell-technologies-office"
+    allowed_domains:
+      - "energy.gov"
+    max_items: 50
+
+  - name: "NREL News RSS"
+    type: "rss_feed"
+    start_urls:
+      - "https://www.nrel.gov/news/rss.xml"
+    max_items: 50
+
+  - name: "NREL Hydrogen"
+    type: "index_page"
+    start_urls:
+      - "https://www.nrel.gov/hydrogen/"
+    allowed_domains:
+      - "nrel.gov"
+    max_items: 50
+
+  # ==========================================================================
+  # HYDROGEN NEWS
+  # ==========================================================================
+  
+  - name: "Hydrogen Insight RSS"
+    type: "rss_feed"
+    start_urls:
+      - "https://www.hydrogeninsight.com/rss"
+    max_items: 100
+
+  - name: "H2 View RSS"
+    type: "rss_feed"
+    start_urls:
+      - "https://www.h2-view.com/feed/"
+    max_items: 100
+
+  - name: "FuelCellsWorks RSS"
+    type: "rss_feed"
+    start_urls:
+      - "https://fuelcellsworks.com/feed/"
+    max_items: 100
+
+  - name: "Recharge News RSS"
+    type: "rss_feed"
+    start_urls:
+      - "https://www.rechargenews.com/rss"
+    max_items: 100
+
+  # ==========================================================================
+  # AMMONIA ENERGY
+  # ==========================================================================
+  
+  - name: "Ammonia Energy RSS"
+    type: "rss_feed"
+    start_urls:
+      - "https://ammoniaenergy.org/feed/"
+    max_items: 50
+
+  # ==========================================================================
+  # HYDROGEN COUNCIL
+  # ==========================================================================
+  
+  - name: "Hydrogen Council Reports"
+    type: "index_page"
+    start_urls:
+      - "https://hydrogencouncil.com/en/reports/"
+    allowed_domains:
+      - "hydrogencouncil.com"
+    max_items: 50
+
+  # ==========================================================================
+  # WORLD BANK
+  # ==========================================================================
+  
+  - name: "World Bank News RSS"
+    type: "rss_feed"
+    start_urls:
+      - "https://www.worldbank.org/en/news/rss.xml"
+    max_items: 50
+
+  - name: "World Bank Energy"
+    type: "index_page"
+    start_urls:
+      - "https://www.worldbank.org/en/topic/energy"
+    allowed_domains:
+      - "worldbank.org"
+    max_items: 30
+
+  # ==========================================================================
+  # LAZARD
+  # ==========================================================================
+  
+  - name: "Lazard LCOE/LCOH"
+    type: "index_page"
+    start_urls:
+      - "https://www.lazard.com/research-insights/"
+    allowed_domains:
+      - "lazard.com"
+    max_items: 30
+
+  # ==========================================================================
+  # CONSULTING FIRMS - FREE REPORTS
+  # ==========================================================================
+  
+  - name: "McKinsey Energy Insights"
+    type: "index_page"
+    start_urls:
+      - "https://www.mckinsey.com/industries/oil-and-gas/our-insights"
+      - "https://www.mckinsey.com/industries/electric-power-and-natural-gas/our-insights"
+      - "https://www.mckinsey.com/capabilities/sustainability/our-insights"
+      - "https://www.mckinsey.com/featured-insights/sustainable-inclusive-growth"
+    allowed_domains:
+      - "mckinsey.com"
+    max_items: 50
+
+  - name: "McKinsey Hydrogen"
+    type: "generic_scraper"
+    start_urls:
+      - "https://www.mckinsey.com/industries/oil-and-gas/our-insights/hydrogen"
+    max_items: 30
+
+  - name: "BCG Energy"
+    type: "index_page"
+    start_urls:
+      - "https://www.bcg.com/industries/energy/overview"
+      - "https://www.bcg.com/publications?industry=energy"
+      - "https://www.bcg.com/capabilities/climate-sustainability/overview"
+    allowed_domains:
+      - "bcg.com"
+    max_items: 50
+
+  - name: "EY Energy"
+    type: "index_page"
+    start_urls:
+      - "https://www.ey.com/en_gl/energy-resources"
+      - "https://www.ey.com/en_gl/power-utilities"
+      - "https://www.ey.com/en_gl/insights/energy-resources"
+      - "https://www.ey.com/en_gl/recai-renewable-energy-country-attractiveness-index"
+    allowed_domains:
+      - "ey.com"
+    max_items: 50
+
+  - name: "Deloitte Energy"
+    type: "index_page"
+    start_urls:
+      - "https://www.deloitte.com/global/en/Industries/energy-resources-industrials/perspectives.html"
+      - "https://www.deloitte.com/global/en/Industries/energy-resources-industrials/research.html"
+    allowed_domains:
+      - "deloitte.com"
+    max_items: 50
+
+  - name: "PwC Energy"
+    type: "index_page"
+    start_urls:
+      - "https://www.pwc.com/gx/en/industries/energy-utilities-resources.html"
+      - "https://www.strategyand.pwc.com/gx/en/industries/energy-utilities.html"
+    allowed_domains:
+      - "pwc.com"
+      - "strategyand.pwc.com"
+    max_items: 50
+
+  - name: "KPMG Energy"
+    type: "index_page"
+    start_urls:
+      - "https://kpmg.com/xx/en/home/industries/energy.html"
+      - "https://kpmg.com/xx/en/home/insights/2023/01/energy-insights.html"
+    allowed_domains:
+      - "kpmg.com"
+    max_items: 50
+
+  - name: "Wood Mackenzie (Free)"
+    type: "index_page"
+    start_urls:
+      - "https://www.woodmac.com/news/"
+      - "https://www.woodmac.com/horizons/"
+    allowed_domains:
+      - "woodmac.com"
+    max_items: 30
+
+  # ==========================================================================
+  # PPA & POWER MARKETS
+  # ==========================================================================
+  
+  - name: "LevelTen Energy"
+    type: "index_page"
+    start_urls:
+      - "https://www.leveltenenergy.com/insights"
+      - "https://www.leveltenenergy.com/resources"
+      - "https://www.leveltenenergy.com/ppa-price-index"
+    allowed_domains:
+      - "leveltenenergy.com"
+    max_items: 50
+
+  - name: "LevelTen PPA Reports"
+    type: "generic_scraper"
+    start_urls:
+      - "https://www.leveltenenergy.com/ppa"
+    max_items: 30
+
+  # ==========================================================================
+  # MARKET DATA & RESEARCH
+  # ==========================================================================
+  
+  - name: "BloombergNEF (Free)"
+    type: "index_page"
+    start_urls:
+      - "https://about.bnef.com/blog/"
+      - "https://about.bnef.com/new-energy-outlook/"
+    allowed_domains:
+      - "bnef.com"
+      - "about.bnef.com"
+    max_items: 50
+
+  - name: "S&P Global Commodities (Free)"
+    type: "index_page"
+    start_urls:
+      - "https://www.spglobal.com/commodityinsights/en/market-insights/topics/hydrogen"
+      - "https://www.spglobal.com/commodityinsights/en/market-insights/topics/energy-transition"
+      - "https://www.spglobal.com/commodityinsights/en/market-insights/latest-news/electric-power"
+    allowed_domains:
+      - "spglobal.com"
+    max_items: 50
+
+  - name: "Argus Media"
+    type: "index_page"
+    start_urls:
+      - "https://www.argusmedia.com/en/news"
+      - "https://www.argusmedia.com/en/news/hydrogen"
+      - "https://www.argusmedia.com/en/news/power"
+    allowed_domains:
+      - "argusmedia.com"
+    max_items: 50
+
+  - name: "GM Insights Hydrogen"
+    type: "index_page"
+    start_urls:
+      - "https://www.gminsights.com/industry-analysis/hydrogen-market"
+      - "https://www.gminsights.com/industry-analysis/green-hydrogen-market"
+      - "https://www.gminsights.com/industry-analysis/electrolyzer-market"
+    allowed_domains:
+      - "gminsights.com"
+    max_items: 30
+
+  - name: "Research and Markets"
+    type: "generic_scraper"
+    start_urls:
+      - "https://www.researchandmarkets.com/categories/hydrogen"
+    max_items: 20
+
+  # ==========================================================================
+  # IEA ANALYSIS
+  # ==========================================================================
+  
+  - name: "IEA Reports"
+    type: "index_page"
+    start_urls:
+      - "https://www.iea.org/analysis?type=report"
+      - "https://www.iea.org/reports"
+      - "https://www.iea.org/analysis?topic=hydrogen"
+    allowed_domains:
+      - "iea.org"
+    max_items: 100
+
+  # ==========================================================================
+  # INDUSTRY NEWS & PORTALS
+  # ==========================================================================
+  
+  - name: "Gasworld"
+    type: "index_page"
+    start_urls:
+      - "https://www.gasworld.com/hydrogen"
+      - "https://www.gasworld.com/news"
+      - "https://www.gasworld.com/features"
+    allowed_domains:
+      - "gasworld.com"
+    max_items: 50
+
+  - name: "Gasworld RSS"
+    type: "rss_feed"
+    start_urls:
+      - "https://www.gasworld.com/feed/"
+    max_items: 50
+
+  - name: "Yahoo Finance Energy News"
+    type: "generic_scraper"
+    start_urls:
+      - "https://finance.yahoo.com/topic/energy/"
+    max_items: 30
+
+  - name: "OEUK (Offshore Energy UK)"
+    type: "index_page"
+    start_urls:
+      - "https://oeuk.org.uk/"
+      - "https://oeuk.org.uk/news/"
+      - "https://oeuk.org.uk/reports/"
+      - "https://oeuk.org.uk/energy-transition/"
+    allowed_domains:
+      - "oeuk.org.uk"
+    max_items: 50
+
+  - name: "Offshore Energy"
+    type: "index_page"
+    start_urls:
+      - "https://www.offshore-energy.biz/hydrogen/"
+      - "https://www.offshore-energy.biz/renewables/"
+    allowed_domains:
+      - "offshore-energy.biz"
+    max_items: 50
+
+  - name: "Energy Voice"
+    type: "index_page"
+    start_urls:
+      - "https://www.energyvoice.com/category/renewables-energy-transition/hydrogen/"
+      - "https://www.energyvoice.com/category/renewables-energy-transition/"
+    allowed_domains:
+      - "energyvoice.com"
+    max_items: 50
+
+  - name: "Upstream Online"
+    type: "index_page"
+    start_urls:
+      - "https://www.upstreamonline.com/energy-transition"
+      - "https://www.upstreamonline.com/hydrogen"
+    allowed_domains:
+      - "upstreamonline.com"
+    max_items: 50
+
+  - name: "Power Technology"
+    type: "index_page"
+    start_urls:
+      - "https://www.power-technology.com/news/"
+      - "https://www.power-technology.com/features/"
+    allowed_domains:
+      - "power-technology.com"
+    max_items: 50
+
+  - name: "PV Magazine"
+    type: "index_page"
+    start_urls:
+      - "https://www.pv-magazine.com/"
+      - "https://www.pv-magazine.com/category/hydrogen/"
+    allowed_domains:
+      - "pv-magazine.com"
+    max_items: 50
+
+  - name: "Windpower Monthly"
+    type: "index_page"
+    start_urls:
+      - "https://www.windpowermonthly.com/"
+      - "https://www.windpowermonthly.com/green-hydrogen"
+    allowed_domains:
+      - "windpowermonthly.com"
+    max_items: 50
+
+  - name: "Renews"
+    type: "index_page"
+    start_urls:
+      - "https://renews.biz/"
+      - "https://renews.biz/sector/hydrogen/"
+    allowed_domains:
+      - "renews.biz"
+    max_items: 50
+
+  - name: "Energy Monitor"
+    type: "index_page"
+    start_urls:
+      - "https://www.energymonitor.ai/"
+      - "https://www.energymonitor.ai/sectors/hydrogen/"
+    allowed_domains:
+      - "energymonitor.ai"
+    max_items: 50
+
+  - name: "Canary Media"
+    type: "index_page"
+    start_urls:
+      - "https://www.canarymedia.com/"
+      - "https://www.canarymedia.com/tag/hydrogen"
+    allowed_domains:
+      - "canarymedia.com"
+    max_items: 50
+
+  - name: "Utility Dive"
+    type: "index_page"
+    start_urls:
+      - "https://www.utilitydive.com/"
+      - "https://www.utilitydive.com/topic/Hydrogen/"
+    allowed_domains:
+      - "utilitydive.com"
+    max_items: 50
+
+  # ==========================================================================
+  # THINK TANKS & RESEARCH INSTITUTES
+  # ==========================================================================
+  
+  - name: "RMI (Rocky Mountain Institute)"
+    type: "index_page"
+    start_urls:
+      - "https://rmi.org/our-work/clean-energy/"
+      - "https://rmi.org/insight/"
+    allowed_domains:
+      - "rmi.org"
+    max_items: 50
+
+  - name: "KAPSARC"
+    type: "index_page"
+    start_urls:
+      - "https://www.kapsarc.org/research/"
+      - "https://www.kapsarc.org/research/hydrogen/"
+    allowed_domains:
+      - "kapsarc.org"
+    max_items: 50
+
+  - name: "Oxford Institute for Energy Studies"
+    type: "index_page"
+    start_urls:
+      - "https://www.oxfordenergy.org/publications/"
+      - "https://www.oxfordenergy.org/topics/hydrogen/"
+    allowed_domains:
+      - "oxfordenergy.org"
+    max_items: 50
+
+  - name: "Columbia SIPA Energy"
+    type: "index_page"
+    start_urls:
+      - "https://www.energypolicy.columbia.edu/research/"
+      - "https://www.energypolicy.columbia.edu/publications/"
+    allowed_domains:
+      - "energypolicy.columbia.edu"
+    max_items: 50
+
+  - name: "Agora Energiewende"
+    type: "index_page"
+    start_urls:
+      - "https://www.agora-energiewende.org/publications/"
+    allowed_domains:
+      - "agora-energiewende.org"
+    max_items: 50
+
+  - name: "Energy Transition Commission"
+    type: "index_page"
+    start_urls:
+      - "https://www.energy-transitions.org/publications/"
+    allowed_domains:
+      - "energy-transitions.org"
+    max_items: 30
+
+  - name: "BNEF Hydrogen"
+    type: "generic_scraper"
+    start_urls:
+      - "https://about.bnef.com/hydrogen/"
+    max_items: 20
+
+  # ==========================================================================
+  # EU HYDROGEN
+  # ==========================================================================
+  
+  - name: "EU Hydrogen Strategy"
+    type: "index_page"
+    start_urls:
+      - "https://energy.ec.europa.eu/topics/energy-systems-integration/hydrogen_en"
+    allowed_domains:
+      - "europa.eu"
+      - "ec.europa.eu"
+    max_items: 50
+
+  # ==========================================================================
+  # FID SIGNALS - US INTERCONNECTION QUEUES
+  # ==========================================================================
+  
+  - name: "CAISO Queue"
+    type: "fid_direct"
+    start_urls:
+      - "https://www.caiso.com/documents/publicqueuereport.xlsx"
+    signal_type: "interconnection_queue"
+    tier: 1
+
+  - name: "MISO GI Queue"
+    type: "fid_index"
+    start_urls:
+      - "https://www.misoenergy.org/planning/resource-utilization/generator-interconnection/"
+    allowed_domains:
+      - "misoenergy.org"
+    signal_type: "interconnection_queue"
+    tier: 1
+    max_items: 50
+
+  - name: "ERCOT GIS Report"
+    type: "fid_index"
+    start_urls:
+      - "https://www.ercot.com/mp/data-products/data-product-details?id=pg7-200-er"
+    allowed_domains:
+      - "ercot.com"
+    signal_type: "interconnection_milestones"
+    tier: 2
+    max_items: 50
+
+  - name: "PJM Queue"
+    type: "fid_index"
+    start_urls:
+      - "https://www.pjm.com/planning/services-requests/interconnection-queues"
+    allowed_domains:
+      - "pjm.com"
+    signal_type: "interconnection_queue"
+    tier: 1
+    max_items: 50
+
+  - name: "SPP GI Queue"
+    type: "fid_index"
+    start_urls:
+      - "https://www.spp.org/engineering/generator-interconnection/"
+    allowed_domains:
+      - "spp.org"
+    signal_type: "interconnection_queue"
+    tier: 1
+    max_items: 50
+
+  - name: "NYISO Queue"
+    type: "fid_index"
+    start_urls:
+      - "https://www.nyiso.com/interconnections"
+    allowed_domains:
+      - "nyiso.com"
+    signal_type: "interconnection_queue"
+    tier: 1
+    max_items: 50
+
+  # ==========================================================================
+  # FID SIGNALS - US PERMITS & AWARDS
+  # ==========================================================================
+  
+  - name: "FERC eLibrary"
+    type: "fid_index"
+    start_urls:
+      - "https://elibrary.ferc.gov/eLibrary/search"
+    allowed_domains:
+      - "ferc.gov"
+    signal_type: "regulatory_filings"
+    tier: 1
+    max_items: 50
+
+  - name: "EPA ECHO"
+    type: "fid_index"
+    start_urls:
+      - "https://echo.epa.gov/tools/web-services"
+    allowed_domains:
+      - "epa.gov"
+    signal_type: "permits_api"
+    tier: 2
+    max_items: 30
+
+  - name: "USAspending"
+    type: "fid_index"
+    start_urls:
+      - "https://www.usaspending.gov/search"
+    allowed_domains:
+      - "usaspending.gov"
+    signal_type: "federal_awards"
+    tier: 3
+    max_items: 50
+
+  - name: "DOE Loan Programs"
+    type: "fid_index"
+    start_urls:
+      - "https://www.energy.gov/lpo/projects"
+    allowed_domains:
+      - "energy.gov"
+    signal_type: "doe_loans"
+    tier: 3
+    max_items: 50
+
+  # ==========================================================================
+  # FID SIGNALS - GLOBAL QUEUES
+  # ==========================================================================
+  
+  - name: "UK NESO Connections"
+    type: "fid_index"
+    start_urls:
+      - "https://www.neso.energy/industry-information/connections"
+    allowed_domains:
+      - "neso.energy"
+    signal_type: "interconnection_queue"
+    tier: 1
+    max_items: 50
+
+  - name: "Australia AEMO"
+    type: "fid_index"
+    start_urls:
+      - "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/participate-in-the-market/network-connections"
+    allowed_domains:
+      - "aemo.com.au"
+    signal_type: "interconnection_queue"
+    tier: 1
+    max_items: 50
+
+  # ==========================================================================
+  # OMAN - DIRECT PDFs
+  # ==========================================================================
+  
+  - name: "Hydrom Oman - Green Hydrogen Strategy"
+    type: "direct_pdf"
+    start_urls:
+      - "https://hydrom.om/Media/Pdf/Oman-Green-Hydrogen-Strategy-2024.pdf"
+      - "https://hydrom.om/Media/Pdf/Oman-Green-Hydrogen-Strategy-December-2024.pdf"
+
+  - name: "IEA - Renewable Hydrogen from Oman"
+    type: "direct_pdf"
+    start_urls:
+      - "https://iea.blob.core.windows.net/assets/338820b9-702a-48bd-b732-b0a43cda641b/RenewableHydrogenfromOman.pdf"
+
+  - name: "Oman Hydrogen Energy Potential (IEOM 2024)"
+    type: "direct_pdf"
+    start_urls:
+      - "https://ieomsociety.org/proceedings/oman2024/63.pdf"
+
+  - name: "Oman Green Hydrogen Strategy Presentation 2025"
+    type: "direct_pdf"
+    start_urls:
+      - "https://erranet.org/wp-content/uploads/2025/05/S5P3_Al_Miamani_Green-Hydrogen-in-Oman_Oman2025.pdf"
+
+  - name: "Oman Authority Electricity Regulation - Renewables Study"
+    type: "direct_pdf"
+    start_urls:
+      - "https://regulationbodyofknowledge.org/wp-content/uploads/2013/09/AuthorityforElectricityRegulation_Oman_Study_on.pdf"
+
+  - name: "Oman Electricity Sector Analysis (KAPSARC/ESMAP)"
+    type: "direct_pdf"
+    start_urls:
+      - "https://rise.esmap.org/sites/default/files/library/oman/Renewable%20Energy/Oman_Oman%20Electricity%20Sector_%20Features,%20Challenges%20and%20Opportunities%20for%20Market%20Integration_2019.pdf"
+
+  - name: "Oman PWP Annual Report"
+    type: "direct_pdf"
+    start_urls:
+      - "https://omanpwp.om/PDF/OPWP-AR2022-ENG1.pdf"
+
+  # ==========================================================================
+  # OMAN - FID SIGNALS
+  # ==========================================================================
+  
+  - name: "HYDROM Projects"
+    type: "fid_index"
+    start_urls:
+      - "https://hydrom.om/"
+      - "https://hydrom.om/projects/"
+      - "https://hydrom.om/news/"
+      - "https://hydrom.om/blocks/"
+    allowed_domains:
+      - "hydrom.om"
+    signal_type: "project_allocation"
+    tier: 2
+    max_items: 50
+
+  - name: "Oman APSR (Licenses)"
+    type: "fid_index"
+    start_urls:
+      - "https://apsr.om/en/licenses"
+      - "https://apsr.om/en/electricity"
+      - "https://apsr.om/en/decisions"
+      - "https://apsr.om/ar/licenses"
+    allowed_domains:
+      - "apsr.om"
+    signal_type: "generation_license"
+    tier: 2
+    max_items: 50
+
+  - name: "Oman OPWP (PPA Awards)"
+    type: "fid_index"
+    start_urls:
+      - "https://omanpwp.om/new-projects/"
+      - "https://omanpwp.om/projects/"
+      - "https://omanpwp.om/procurement/"
+      - "https://omanpwp.om/sector-news/"
+    allowed_domains:
+      - "omanpwp.om"
+    signal_type: "ppa_award"
+    tier: 3
+    max_items: 50
+
+  - name: "Oman OETC (Grid Connection)"
+    type: "fid_index"
+    start_urls:
+      - "https://oetc.om/"
+      - "https://oetc.om/en/grid"
+      - "https://oetc.om/en/projects"
+    allowed_domains:
+      - "oetc.om"
+    signal_type: "grid_connection"
+    tier: 1
+    max_items: 30
+
+  - name: "OPAZ Duqm SEZ"
+    type: "fid_index"
+    start_urls:
+      - "https://opaz.gov.om/en"
+      - "https://opaz.gov.om/en/economic-zones/duqm"
+      - "https://duqm.gov.om/"
+      - "https://duqm.gov.om/en/invest"
+      - "https://duqm.gov.om/en/news"
+    allowed_domains:
+      - "opaz.gov.om"
+      - "duqm.gov.om"
+    signal_type: "sez_approval"
+    tier: 2
+    max_items: 50
+
+  - name: "Oman MSX (Disclosures)"
+    type: "fid_index"
+    start_urls:
+      - "https://www.msx.om/en/market/disclosures"
+      - "https://www.msx.om/en/news"
+    allowed_domains:
+      - "msx.om"
+    signal_type: "company_disclosure"
+    tier: 3
+    max_items: 50
+
+  - name: "Oman Tender Board"
+    type: "fid_index"
+    start_urls:
+      - "https://etendering.tenderboard.gov.om/"
+      - "https://www.tenderboard.gov.om/"
+    allowed_domains:
+      - "tenderboard.gov.om"
+    signal_type: "government_tender"
+    tier: 2
+    max_items: 50
+
+  - name: "OQ Oman (Hydrogen)"
+    type: "fid_index"
+    start_urls:
+      - "https://www.oq.com/en/media/news"
+      - "https://www.oq.com/en/our-business/alternative-energy"
+      - "https://www.oq.com/en/our-business/alternative-energy/hydrogen"
+    allowed_domains:
+      - "oq.com"
+    signal_type: "company_announcement"
+    tier: 2
+    max_items: 50
+
+  - name: "Oman Ministry of Energy"
+    type: "fid_index"
+    start_urls:
+      - "https://mem.gov.om/en/"
+      - "https://mem.gov.om/en/news"
+      - "https://mem.gov.om/ar/"
+    allowed_domains:
+      - "mem.gov.om"
+    signal_type: "policy_announcement"
+    tier: 2
+    max_items: 30
+
+  - name: "Oman News Agency"
+    type: "fid_index"
+    start_urls:
+      - "https://omannews.gov.om/topics/en/15/10"
+      - "https://omannews.gov.om/topics/ar/15/10"
+    allowed_domains:
+      - "omannews.gov.om"
+    signal_type: "news"
+    tier: 1
+    max_items: 50
+
+  - name: "Oman Electricity Market"
+    type: "generic_scraper"
+    start_urls:
+      - "https://www.oemo.om/"
+    max_items: 20
+
+  - name: "Green Hydrogen Organisation - Oman"
+    type: "generic_scraper"
+    start_urls:
+      - "https://gh2.org/countries/oman"
+    max_items: 10
+
+  # ==========================================================================
+  # CHILE - DIRECT PDFs
+  # ==========================================================================
+  
+  - name: "Chile Estrategia Nacional Hidrogeno Verde"
+    type: "direct_pdf"
+    start_urls:
+      - "https://energia.gob.cl/sites/default/files/estrategia_nacional_de_hidrogeno_verde_-_chile.pdf"
+      - "https://energia.gob.cl/sites/default/files/national_green_hydrogen_strategy_-_chile.pdf"
+      - "https://energia.gob.cl/sites/default/files/estrategia_h2_-_ingles.pdf"
+      - "https://energia.gob.cl/sites/default/files/documentos/green_h2_strategy_chile.pdf"
+
+  - name: "Chile Green Hydrogen Action Plan"
+    type: "direct_pdf"
+    start_urls:
+      - "https://energia.gob.cl/sites/default/files/documentos/green-hydrogen_action-plan.pdf"
+
+  - name: "Chile Guia Hidrogeno Verde"
+    type: "direct_pdf"
+    start_urls:
+      - "https://energia.gob.cl/sites/default/files/guia_hidrogeno_abril.pdf"
+      - "https://energia.gob.cl/sites/default/files/documentos/20211019_hidrogeno_y_mineria.pdf"
+
+  - name: "Chile Politica Energetica Nacional 2050"
+    type: "direct_pdf"
+    start_urls:
+      - "https://energia.gob.cl/sites/default/files/documentos/pen_2050_-_actualizado_marzo_2022_0.pdf"
+
+  - name: "Chile ERNC Mercado Electrico"
+    type: "direct_pdf"
+    start_urls:
+      - "https://www.energia.gob.cl/sites/default/files/ernc_mercado_electrico_chileno_baja_resolucion.pdf"
+      - "https://4echile.cl/wp-content/uploads/2022/01/Las-ERNC-en-el-mercado-electrico-chileno-2021.pdf"
+
+  - name: "Chile GIZ Renewable Hydrogen Project Study"
+    type: "direct_pdf"
+    start_urls:
+      - "https://energia.gob.cl/sites/default/files/documentos/estudio_significancia_final_26agosto2025_segunda_edicion_limpio.pdf"
+
+  - name: "IMO Chile Green Hydrogen Strategy Presentation"
+    type: "direct_pdf"
+    start_urls:
+      - "https://wwwcdn.imo.org/localresources/en/OurWork/Environment/Documents/Symposium%202021/Presentations/Second%20day%20-%20Blocks%203%20and%204/Block%204.3%20-%20Benjam%C3%ADn%20Maluenda-Philippi_national%20Green%20Hydrogen%20Strategy%20of%20Chile.pdf"
+
+  - name: "Chile Coordinador Electrico Nacional - Reporte Anual"
+    type: "direct_pdf"
+    start_urls:
+      - "https://www.coordinador.cl/wp-content/uploads/2024/04/CEN-ReporteArt72-15ano2023v2.pdf"
+
+  - name: "Chile CNE - Reporte Ciudadano Energia"
+    type: "direct_pdf"
+    start_urls:
+      - "https://www.cne.cl/wp-content/uploads/2024/06/RCiudadano_v202406.pdf"
+
+  # ==========================================================================
+  # CHILE - FID SIGNALS
+  # ==========================================================================
+  
+  - name: "Chile CEN (Grid Queue)"
+    type: "fid_index"
+    start_urls:
+      - "https://www.coordinador.cl/operacion/"
+      - "https://www.coordinador.cl/desarrollo/conexiones/"
+      - "https://www.coordinador.cl/informes-y-estadisticas/"
+    allowed_domains:
+      - "coordinador.cl"
+    signal_type: "grid_connection_queue"
+    tier: 1
+    max_items: 50
+
+  - name: "Chile CNE (Energy Permits)"
+    type: "fid_index"
+    start_urls:
+      - "https://www.cne.cl/estadisticas/electricidad/"
+      - "https://www.cne.cl/normativas/electricidad/"
+      - "https://www.cne.cl/noticias/"
+    allowed_domains:
+      - "cne.cl"
+    signal_type: "energy_permit"
+    tier: 2
+    max_items: 50
+
+  - name: "Chile SEA (Environmental Permits)"
+    type: "fid_index"
+    start_urls:
+      - "https://www.sea.gob.cl/"
+      - "https://www.sea.gob.cl/noticias"
+    allowed_domains:
+      - "sea.gob.cl"
+    signal_type: "environmental_permit"
+    tier: 2
+    max_items: 50
+
+  - name: "Chile Ministerio Energía (H2V)"
+    type: "fid_index"
+    start_urls:
+      - "https://energia.gob.cl/"
+      - "https://energia.gob.cl/hidrogeno-verde"
+      - "https://energia.gob.cl/noticias"
+    allowed_domains:
+      - "energia.gob.cl"
+    signal_type: "h2_project_registry"
+    tier: 2
+    max_items: 50
+
+  - name: "Chile CORFO (H2 Grants)"
+    type: "fid_index"
+    start_urls:
+      - "https://www.corfo.cl/sites/cpp/hidrogeno-verde"
+      - "https://www.corfo.cl/sites/cpp/convocatorias"
+    allowed_domains:
+      - "corfo.cl"
+    signal_type: "h2_grant"
+    tier: 3
+    max_items: 50
+
+  - name: "Chile SEC (Operating Permits)"
+    type: "fid_index"
+    start_urls:
+      - "https://www.sec.cl/"
+      - "https://www.sec.cl/area-electrica/"
+    allowed_domains:
+      - "sec.cl"
+    signal_type: "operating_permit"
+    tier: 2
+    max_items: 30
+
+  - name: "Chile Compra (Procurement)"
+    type: "fid_index"
+    start_urls:
+      - "https://www.mercadopublico.cl/Home"
+    allowed_domains:
+      - "mercadopublico.cl"
+    signal_type: "government_procurement"
+    tier: 3
+    max_items: 50
+
+  - name: "Chile CMF (Disclosures)"
+    type: "fid_index"
+    start_urls:
+      - "https://www.cmfchile.cl/portal/principal/613/w3-propertyvalue-43419.html"
+    allowed_domains:
+      - "cmfchile.cl"
+    signal_type: "company_disclosure"
+    tier: 3
+    max_items: 30
+
+  - name: "H2 Chile"
+    type: "fid_index"
+    start_urls:
+      - "https://h2chile.cl/"
+      - "https://h2chile.cl/noticias/"
+      - "https://h2chile.cl/proyectos/"
+    allowed_domains:
+      - "h2chile.cl"
+    signal_type: "industry_news"
+    tier: 1
+    max_items: 50
+
+  - name: "Generadoras Chile"
+    type: "fid_index"
+    start_urls:
+      - "https://generadoras.cl/"
+      - "https://generadoras.cl/prensa"
+    allowed_domains:
+      - "generadoras.cl"
+    signal_type: "industry_news"
+    tier: 1
+    max_items: 30
+
+  - name: "InvestChile"
+    type: "fid_index"
+    start_urls:
+      - "https://investchile.gob.cl/"
+      - "https://investchile.gob.cl/sectores/energia/"
+    allowed_domains:
+      - "investchile.gob.cl"
+    signal_type: "investment_promotion"
+    tier: 1
+    max_items: 30
+
+  - name: "Chile Ministerio Energia - Informes"
+    type: "generic_scraper"
+    start_urls:
+      - "https://energia.gob.cl/pelp/informes-y-reportes"
+    max_items: 30
+
+  - name: "H2Chile Asociacion"
+    type: "generic_scraper"
+    start_urls:
+      - "https://h2chile.cl/"
+    max_items: 20
+
+  - name: "Green Hydrogen Organisation - Chile"
+    type: "generic_scraper"
+    start_urls:
+      - "https://gh2.org/countries/chile"
+    max_items: 10
+
+  - name: "Chile Plan Hidrogeno Verde Portal"
+    type: "generic_scraper"
+    start_urls:
+      - "https://www.planhidrogenoverde.cl/"
+    max_items: 20

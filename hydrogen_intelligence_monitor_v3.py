@@ -24,7 +24,6 @@ import time
 import smtplib
 import requests
 import json
-import urllib.parse
 import urllib.request
 import webbrowser
 from datetime import datetime, timedelta
@@ -53,7 +52,11 @@ from tea_baseline_adapter import ShareRunConfig, ShareBaselineAdapter
 
 def load_or_run_tea_baseline(location: str):
     # Auto-detect path based on OS
-    root = Path(__file__).resolve().parent.parent
+    import platform
+    if platform.system() == "Darwin":  # macOS
+        root = Path("/Users/Shadi/Dropbox/SHARE_Model_LLM")
+    else:  # Linux
+        root = Path("/home/shadi/Dropbox/SHARE_Model_LLM")
 
     cfg = ShareRunConfig(
         locations_root=root,
@@ -173,7 +176,6 @@ def search_knowledge_base(query: str, top_k: int = 5) -> list:
                     'text': doc,
                     'source': metadata.get('source', 'unknown'),
                     'source_type': metadata.get('source_type', 'unknown'),
-                    'file_path': metadata.get('file_path', ''),
                     'relevance': 1 - distance if distance else 0  # Convert distance to similarity
                 })
 
@@ -276,7 +278,6 @@ def analyze_impact_from_kb(article_title: str, article_content: str, baseline: d
     npv_impact = 0
     lcoh_impact = 0
     reasons = []
-    formula_breakdowns = []  # Detailed formula for each matched pattern
     sources = []
 
     # Check article text for signals and cross-reference with KB
@@ -284,55 +285,23 @@ def analyze_impact_from_kb(article_title: str, article_content: str, baseline: d
 
     for pattern, multiplier in impact_signals['positive_npv']:
         if pattern in article_lower and pattern in combined_text:
-            impact_val = baseline['npv'] * multiplier * avg_relevance
-            npv_impact += impact_val
+            npv_impact += baseline['npv'] * multiplier * avg_relevance
             reasons.append(f"KB confirms: '{pattern}' (+{multiplier*100:.1f}% NPV)")
-            formula_breakdowns.append({
-                'pattern': pattern,
-                'category': 'positive_npv',
-                'formula': f"NPV ${baseline['npv']:.1f}M x {multiplier:+.1%} x {avg_relevance:.0%} relevance = ${impact_val:+.1f}M",
-                'multiplier': multiplier,
-                'impact_value': impact_val,
-            })
 
     for pattern, multiplier in impact_signals['negative_npv']:
         if pattern in article_lower and pattern in combined_text:
-            impact_val = baseline['npv'] * multiplier * avg_relevance
-            npv_impact += impact_val
+            npv_impact += baseline['npv'] * multiplier * avg_relevance
             reasons.append(f"KB confirms: '{pattern}' ({multiplier*100:.1f}% NPV)")
-            formula_breakdowns.append({
-                'pattern': pattern,
-                'category': 'negative_npv',
-                'formula': f"NPV ${baseline['npv']:.1f}M x {multiplier:+.1%} x {avg_relevance:.0%} relevance = ${impact_val:+.1f}M",
-                'multiplier': multiplier,
-                'impact_value': impact_val,
-            })
 
     for pattern, multiplier in impact_signals['positive_lcoh']:
         if pattern in article_lower and pattern in combined_text:
-            impact_val = multiplier * avg_relevance
-            lcoh_impact += impact_val
+            lcoh_impact += multiplier * avg_relevance
             reasons.append(f"KB confirms: '{pattern}' ({multiplier:+.2f} LCOH)")
-            formula_breakdowns.append({
-                'pattern': pattern,
-                'category': 'positive_lcoh',
-                'formula': f"LCOH {multiplier:+.2f} $/kg x {avg_relevance:.0%} relevance = {impact_val:+.2f} $/kg",
-                'multiplier': multiplier,
-                'impact_value': impact_val,
-            })
 
     for pattern, multiplier in impact_signals['negative_lcoh']:
         if pattern in article_lower and pattern in combined_text:
-            impact_val = multiplier * avg_relevance
-            lcoh_impact += impact_val
+            lcoh_impact += multiplier * avg_relevance
             reasons.append(f"KB confirms: '{pattern}' ({multiplier:+.2f} LCOH)")
-            formula_breakdowns.append({
-                'pattern': pattern,
-                'category': 'negative_lcoh',
-                'formula': f"LCOH {multiplier:+.2f} $/kg x {avg_relevance:.0%} relevance = {impact_val:+.2f} $/kg",
-                'multiplier': multiplier,
-                'impact_value': impact_val,
-            })
 
     # Extract numbers/percentages from KB docs that might indicate impact magnitude
     import re
@@ -357,63 +326,24 @@ def analyze_impact_from_kb(article_title: str, article_content: str, baseline: d
                             npv_impact -= baseline['npv'] * (pct_val / 100) * 0.3 * avg_relevance
                     break
 
-    # Collect source information with full document text (no truncation)
+    # Collect source information
     sources = [{'source': doc['source'], 'relevance': doc['relevance']} for doc in kb_docs[:3]]
-    kb_doc_details = []
-    for doc in kb_docs:
-        kb_doc_details.append({
-            'source': doc.get('source', 'unknown'),
-            'source_type': doc.get('source_type', 'unknown'),
-            'file_path': doc.get('file_path', ''),
-            'relevance': doc.get('relevance', 0),
-            'full_text': doc.get('text', ''),
-        })
 
     # Calculate confidence based on relevance and number of matching patterns
     confidence = min(0.9, avg_relevance * (1 + len(reasons) * 0.1))
 
-    # Build structured reasoning
-    methodology = (
-        f"Searched {len(kb_docs)} training documents for context. "
-        f"Average relevance to this article: {avg_relevance:.0%}. "
-        f"Cross-referenced {len(impact_signals['positive_npv']) + len(impact_signals['negative_npv']) + len(impact_signals['positive_lcoh']) + len(impact_signals['negative_lcoh'])} "
-        f"known impact patterns against both the article text and KB documents."
-    )
-
+    # Build reasoning string
     if reasons:
-        pattern_detail = []
-        for r in reasons:
-            pattern_detail.append(r)
-        reasoning_summary = (
-            f"Found {len(reasons)} matching impact pattern(s) confirmed by training data. "
-            + "; ".join(reasons)
-        )
+        reasoning = f"KB-based analysis ({len(kb_docs)} docs, {avg_relevance:.0%} avg relevance): " + "; ".join(reasons[:3])
     else:
-        reasoning_summary = "No direct impact patterns matched between article and training documents"
-
-    # Human-readable event label (not the raw reasoning dump)
-    # Extract the most important pattern for the label
-    if reasons:
-        # Get the first matched pattern keyword for a clean label
-        first_reason = reasons[0]
-        # Extract pattern name from "KB confirms: 'pattern' (...)"
-        import re as _re
-        pat_match = _re.search(r"'([^']+)'", first_reason)
-        event_label = pat_match.group(1).title() if pat_match else "Market signal"
-    else:
-        event_label = "Market signal"
+        reasoning = f"KB search found {len(kb_docs)} relevant docs ({avg_relevance:.0%} relevance) but no direct impact patterns matched"
 
     result = {
         'npv_change': round(npv_impact, 2),
         'lcoh_change': round(lcoh_impact, 4),
         'confidence': round(confidence, 2),
-        'reasoning': reasoning_summary,
-        'methodology': methodology,
-        'event_label': event_label,
-        'matched_patterns': reasons,
-        'formula_breakdowns': formula_breakdowns,
-        'kb_sources': sources,
-        'kb_doc_details': kb_doc_details,
+        'reasoning': reasoning,
+        'kb_sources': sources
     }
 
     return result
@@ -1351,15 +1281,6 @@ RSS_FEEDS = {
 
 
 # ============================================================================
-# REGION DETECTION — imported from region_registry.py (single source of truth)
-# ============================================================================
-from region_registry import (
-    detect_primary_region, detect_regions, classify_article_region,
-    get_region_hierarchy, get_all_region_tags,
-    REGION_REGISTRY,
-)
-
-# ============================================================================
 # ENHANCED KEYWORDS (EXPANDED - v3.0)
 # ============================================================================
 
@@ -2055,8 +1976,25 @@ def categorize_article(title, snippet=''):
             found_keywords.append(keyword)
             total_score += 1
     
-    # Detect region using the centralized registry (scored detection)
-    region = detect_primary_region(text_original)
+    # Detect region (expanded with Arabic)
+    if 'oman' in text_lower or 'duqm' in text_lower or 'hydrom' in text_lower or 'عُمان' in text_original or 'دقم' in text_original:
+        region = 'Oman'
+    elif 'chile' in text_lower or 'magallanes' in text_lower:
+        region = 'Chile'
+    elif 'houston' in text_lower or 'texas' in text_lower:
+        region = 'Houston'
+    elif 'neom' in text_lower or 'saudi' in text_lower:
+        region = 'Saudi Arabia'
+    elif 'australia' in text_lower or 'pilbara' in text_lower:
+        region = 'Australia'
+    elif 'morocco' in text_lower:
+        region = 'Morocco'
+    elif 'namibia' in text_lower:
+        region = 'Namibia'
+    elif 'egypt' in text_lower:
+        region = 'Egypt'
+    elif 'india' in text_lower:
+        region = 'India'
     
     return category, total_score, list(set(found_keywords)), region
 
@@ -2177,7 +2115,27 @@ def auto_extract_intelligence_from_articles():
         
         # Re-detect region if article's region field is empty
         if not region or region == 'Global':
-            region = detect_primary_region(text_original) or 'Global'
+            # Detect region from text
+            if 'oman' in text or 'duqm' in text or 'hydrom' in text or 'عُمان' in text_original or 'دقم' in text_original:
+                region = 'Oman'
+            elif 'chile' in text or 'magallanes' in text:
+                region = 'Chile'
+            elif 'houston' in text or 'texas' in text:
+                region = 'Houston'
+            elif 'neom' in text or 'saudi' in text:
+                region = 'Saudi Arabia'
+            elif 'australia' in text or 'pilbara' in text:
+                region = 'Australia'
+            elif 'morocco' in text:
+                region = 'Morocco'
+            elif 'namibia' in text:
+                region = 'Namibia'
+            elif 'egypt' in text:
+                region = 'Egypt'
+            elif 'india' in text:
+                region = 'India'
+            else:
+                region = 'Global'  # Only default to Global if truly no region detected
         
         # Extract Competitors (FID announcements, project mentions)
         if any(word in text for word in ['fid', 'final investment decision', 'approved', 'greenlit', 'capacity']):
@@ -2842,58 +2800,30 @@ def analyze_cumulative_impact():
     
     print(f"Found {len(articles)} high-priority articles total\n")
     
-    # Filter articles using 3-tier hierarchy: city → country → global
-    hierarchy = get_region_hierarchy(your_region)
-    city_tags = hierarchy['city']       # e.g. ['Houston']
-    country_tags = hierarchy['country'] # e.g. ['USA']
-    all_my_tags = get_all_region_tags(your_region)
-
-    city_articles = []      # Tier 1: city/project-level (e.g. Houston)
-    country_articles = []   # Tier 2: country-level (e.g. USA)
-    untagged_articles = []  # Tier 3: no region tag - still analyzed
-    global_critical_articles = []  # Other regions, CRITICAL or HIGH - listed at end, not analyzed
-    other_region_articles = []     # Other regions, MEDIUM or LOW - discarded
-
+    # Filter articles by region - keep region-specific + global/unspecified
+    region_specific_articles = []
+    global_articles = []
+    other_region_articles = []
+    
     for article in articles:
         title, content, score, category, article_region, published, keywords = article
-
-        # Re-detect region for untagged articles using the centralized registry
-        # This works for ALL regions (USA, Oman, Chile, etc.) not just US
-        effective_region = article_region
-        if not effective_region or effective_region == '':
-            effective_region = detect_primary_region(
-                title + ' ' + (content or '')[:500]
-            )
-
-        if effective_region in city_tags:
-            # City/project-level - highest priority
-            city_articles.append(article)
-        elif effective_region in country_tags or effective_region == your_region:
-            # Country-level
-            country_articles.append(article)
-        elif not effective_region or effective_region == '':
-            # No region tag - still financially analyzed
-            untagged_articles.append(article)
-        elif category in ('CRITICAL', 'HIGH'):
-            # Other region but important - listed in global section, no financial analysis
-            global_critical_articles.append(article)
+        
+        # Check if article is about the selected region or global
+        if not article_region or article_region == '':
+            global_articles.append(article)
+        elif article_region == your_region:
+            region_specific_articles.append(article)
         else:
-            # Other region, low importance - discarded
             other_region_articles.append(article)
-
-    # All 3 tiers get financial analysis, ordered by priority
-    relevant_articles = city_articles + country_articles + untagged_articles
-
-    city_label = '/'.join(city_tags) if city_tags else your_region
-    country_label = '/'.join(country_tags) if country_tags else your_region
-
-    print(f"📊 Article Breakdown (priority order):")
-    print(f"   1. {city_label} (city/project): {len(city_articles)} (analyzed first)")
-    print(f"   2. {country_label} (country): {len(country_articles)} (analyzed second)")
-    print(f"   3. Untagged/Global: {len(untagged_articles)} (analyzed third)")
-    print(f"   4. Other regions (CRITICAL/HIGH): {len(global_critical_articles)} (listed in Global Intelligence)")
-    print(f"   5. Other regions (MEDIUM/LOW): {len(other_region_articles)} (discarded)")
-    print(f"   → Financially analyzing: {len(relevant_articles)} articles\n")
+    
+    # Combine region-specific + global for analysis
+    relevant_articles = region_specific_articles + global_articles
+    
+    print(f"📊 Article Breakdown:")
+    print(f"   {your_region}-specific: {len(region_specific_articles)}")
+    print(f"   Global/Unspecified: {len(global_articles)}")
+    print(f"   Other regions: {len(other_region_articles)} (not analyzed)")
+    print(f"   → Analyzing: {len(relevant_articles)} articles\n")
     
     if not relevant_articles:
         print(f"No articles found specifically for {your_region} or global market.")
@@ -2922,135 +2852,18 @@ def analyze_cumulative_impact():
     neutral_events = []
     all_actions = []
     
-    # =========================================================================
-    # DEDUPLICATION: Group articles covering the same news event
-    # =========================================================================
-    # Multiple sources often report the same event (e.g. 45V repeal reported by
-    # Fuel Cells Works, H2 View, gasworld). We only count the impact ONCE per
-    # unique event, but track all source articles for reference.
-
-    def _normalize_title(t):
-        """Normalize title for similarity comparison."""
-        import re
-        t = t.lower()
-        # Remove source suffixes like "- Fuel Cells Works", "- H2 View"
-        t = re.sub(r'\s*[-–|]\s*(?:fuel cells? works?|h2 view|gasworld|pv tech|'
-                    r'utility dive|energies media|rbn energy|zawya|recharge|'
-                    r'solarquarter|quantum commodity|ceenergynews|seenews|'
-                    r'businesskorea|hydrogen insight).*$', '', t, flags=re.IGNORECASE)
-        # Remove common filler words
-        t = re.sub(r'\b(the|a|an|in|of|for|to|and|as|by|with|on|at|is|are|its|from)\b', ' ', t)
-        # Collapse whitespace
-        t = re.sub(r'\s+', ' ', t).strip()
-        return t
-
-    # Topic signatures: group articles about the same legislative/market event.
-    # Each signature = (topic_id, anchor_regex, positive_regexes, negative_regexes)
-    # anchor + at least 1 positive must match; none of the negatives may match
-    _TOPIC_SIGNATURES = [
-        # 45V repeal/cut: House or budget bill ending/cutting the credit
-        ('45v_repeal', r'\b45v\b', [r'\b(end|cut|drop|repeal|eliminat|pass)', r'\b(house|congress|budget|bill|lower)'],
-         [r'\b(extend|reprieve|sav)']),
-        # 45V extension: Senate extending the credit
-        ('45v_extend', r'\b45v\b', [r'\b(extend|reprieve|save|insert)', r'\b(senate|extension|deadline)'],
-         [r'\b(end|cut|drop|repeal|eliminat)\b']),
-    ]
-
-    def _get_topic_signature(title_lower):
-        """Return a topic ID if the title matches a known topic pattern."""
-        for topic_id, anchor_re, pos_res, neg_res in _TOPIC_SIGNATURES:
-            if re.search(anchor_re, title_lower):
-                has_positive = any(re.search(pr, title_lower) for pr in pos_res)
-                has_negative = any(re.search(nr, title_lower) for nr in neg_res)
-                if has_positive and not has_negative:
-                    return topic_id
-        return None
-
-    def _titles_are_similar(t1, t2, threshold=0.40):
-        """Check if two titles refer to the same news event."""
-        # Method 1: Topic signature match (catches different wording for same event)
-        t1_lower = t1.lower()
-        t2_lower = t2.lower()
-        sig1 = _get_topic_signature(t1_lower)
-        sig2 = _get_topic_signature(t2_lower)
-        if sig1 and sig2 and sig1 == sig2:
-            return True
-
-        # Method 2: Word overlap (general case, lowered threshold from 0.55)
-        words1 = set(_normalize_title(t1).split())
-        words2 = set(_normalize_title(t2).split())
-        if not words1 or not words2:
-            return False
-        overlap = len(words1 & words2)
-        similarity = overlap / min(len(words1), len(words2))
-        return similarity >= threshold
-
-    # Group articles into event clusters
-    event_clusters = []  # List of lists: [[article, article, ...], ...]
-    clustered = set()
-
-    for i, article in enumerate(relevant_articles):
-        if i in clustered:
-            continue
-        cluster = [article]
-        clustered.add(i)
-        title_i = article[0]  # title is index 0
-
-        for j, other in enumerate(relevant_articles):
-            if j in clustered:
-                continue
-            title_j = other[0]
-            if _titles_are_similar(title_i, title_j):
-                cluster.append(other)
-                clustered.add(j)
-
-        event_clusters.append(cluster)
-
-    # Pick the highest-scored article from each cluster as the representative
-    # Store all source titles for each cluster so the report can list them
-    deduplicated_articles = []
-    cluster_sources = {}  # Maps representative title → list of all source titles in the cluster
-    duplicate_count = 0
-    for cluster in event_clusters:
-        # Sort by priority_score (index 2) descending, pick first
-        cluster.sort(key=lambda a: a[2], reverse=True)
-        representative = cluster[0]
-        deduplicated_articles.append(representative)
-        # Store all titles (including representative) as sources
-        cluster_sources[representative[0]] = [a[0] for a in cluster]
-        if len(cluster) > 1:
-            duplicate_count += len(cluster) - 1
-
-    print(f"📰 Deduplication: {len(relevant_articles)} articles → {len(deduplicated_articles)} unique events ({duplicate_count} duplicates removed)\n")
-
     # Analyze each article
     print(f"{'='*70}")
     print(f"ANALYZING {your_region}-RELEVANT ARTICLES...")
     print(f"{'='*70}\n")
-
+    
     articles_with_impact = 0
     deep_dives_performed = 0
-
-    skipped_irrelevant = 0
-
-    for i, article in enumerate(deduplicated_articles, 1):
+    
+    for i, article in enumerate(relevant_articles, 1):
         title, content, score, category, region, published, keywords = article
 
         article_lower = title.lower()
-
-        # Skip articles that have no hydrogen/energy relevance
-        # (e.g. Arabic articles about car shows, journalism events that only matched
-        # because they contain a region name like "Oman")
-        energy_keywords = ['hydrogen', 'h2', 'ammonia', 'electroly', 'renewable', 'solar',
-                           'wind', 'energy', 'power', 'fuel cell', 'green', 'fid', 'offtake',
-                           'ppa', '45v', 'lcoh', 'pipeline', 'infrastructure', 'port',
-                           'electrolyzer', 'subsidy', 'tax credit', 'carbon', 'emission',
-                           'climate', 'hydrom', 'هيدروجين', 'الطاقة', 'أمونيا', 'كهربائي']
-        combined_text = article_lower + ' ' + (content or '').lower()[:500]
-        if not any(ek in combined_text for ek in energy_keywords):
-            skipped_irrelevant += 1
-            continue
-
         npv_change = 0
         lcoh_change = 0
         timeline_change = 0
@@ -3082,26 +2895,14 @@ def analyze_cumulative_impact():
                     kb_parts.append(f"  [{rel_label}] {source_name} ({source_type}): {clean_text}...")
                 kb_context = "\n".join(kb_parts)
 
-        # Mark tier: city → country → global
-        if region in city_tags:
-            tier = 'city'
-            is_region_specific = True
-            impact_scope = region
-        elif region in country_tags or region == your_region:
-            tier = 'country'
-            is_region_specific = True
-            impact_scope = region
-        else:
-            tier = 'global'
-            is_region_specific = False
-            impact_scope = "Global"
+        # Mark if this is region-specific or global
+        is_region_specific = (region == your_region)
+        impact_scope = f"{region}" if is_region_specific else "Global"
         
         # Competitor exits/cancellations - STRONGER impact if in same region
         # Deep dive triggered: These are important events worth investigating
-        # Verify title actually mentions region (DB tag alone is insufficient)
-        _title_mentions_region = any(w in article_lower for w in [t.lower() for t in all_my_tags])
         if any(word in article_lower for word in ['cancel', 'withdraw', 'exit', 'abandon', 'shelved']):
-            if is_region_specific and _title_mentions_region:
+            if is_region_specific:
                 # Same region - strong positive impact
                 # DEEP DIVE: Understand WHY they cancelled (critical for risk assessment)
                 should_deep_dive = True
@@ -3168,10 +2969,8 @@ def analyze_cumulative_impact():
                 actions.append("Monitor if affects your region")
         
         # Competitor FID/offtake - STRONGER negative if in same region
-        # Verify the article actually mentions the region in its text (not just DB tag)
         elif 'FID' in title or 'final investment decision' in article_lower:
-            _title_mentions_region = any(w in article_lower for w in [t.lower() for t in all_my_tags])
-            if is_region_specific and _title_mentions_region:
+            if is_region_specific:
                 # Same region - strong negative (direct competition)
                 should_deep_dive = True
                 deep_dives_performed += 1
@@ -3344,8 +3143,7 @@ def analyze_cumulative_impact():
                     actions.append("Monitor demand trajectory for offtake planning")
 
             # Delay / postpone / challenges
-            # Use word boundary check to avoid false matches (e.g. "install" matching "stall")
-            elif any(re.search(r'\b' + w + r'\b', article_lower) for w in ['delay', 'postpone', 'stall', 'slow']):
+            elif any(w in article_lower for w in ['delay', 'postpone', 'stall', 'slow']):
                 if is_region_specific:
                     npv_change = -baseline['npv'] * 0.02
                     impact_type = 'negative'
@@ -3388,30 +3186,16 @@ def analyze_cumulative_impact():
                     actions.append("Monitor supply chain impacts")
 
         # If keyword matching yielded no impact, try KB-based analysis
-        kb_analysis_detail = None  # Full KB analysis data for report rendering
         if npv_change == 0 and lcoh_change == 0 and KNOWLEDGE_BASE is not None:
             kb_impact = analyze_impact_from_kb(title, content, baseline, your_region)
             if kb_impact['confidence'] > 0.2 and (kb_impact['npv_change'] != 0 or kb_impact['lcoh_change'] != 0):
                 npv_change = kb_impact['npv_change']
                 lcoh_change = kb_impact['lcoh_change']
                 impact_type = 'positive' if npv_change > 0 else 'negative' if npv_change < 0 else 'neutral'
-                event_description = f"{kb_impact.get('event_label', 'Market signal')} (KB-analyzed, {kb_impact['confidence']:.0%} confidence)"
-                impact_reasoning = (
-                    f"Analysis method: Knowledge Base cross-reference | "
-                    f"Confidence: {kb_impact['confidence']:.0%} | "
-                    f"Methodology: {kb_impact.get('methodology', 'N/A')} | "
-                    f"Findings: {kb_impact['reasoning']}"
-                )
+                event_description = f"KB-analyzed: {kb_impact['reasoning'][:80]}..."
+                impact_reasoning = f"Rule: Knowledge base analysis | Confidence: {kb_impact['confidence']:.0%} | {kb_impact['reasoning'][:200]} | Sources: {', '.join(str(s) for s in kb_impact['kb_sources'][:3])}"
                 actions.append(f"Review KB sources: {len(kb_impact['kb_sources'])} relevant docs (confidence: {kb_impact['confidence']:.0%})")
-                # Store the full KB analysis for detailed rendering in report
-                kb_analysis_detail = {
-                    'confidence': kb_impact['confidence'],
-                    'methodology': kb_impact.get('methodology', ''),
-                    'findings': kb_impact['reasoning'],
-                    'formula_breakdowns': kb_impact.get('formula_breakdowns', []),
-                    'kb_doc_details': kb_impact.get('kb_doc_details', []),
-                }
-                kb_context = ""  # Rendered directly from kb_analysis_detail
+                kb_context = f"KB Impact Analysis:\n{kb_impact['reasoning']}\nSources: {kb_impact['kb_sources']}"
 
         # Accumulate impacts
         if npv_change != 0 or lcoh_change != 0 or timeline_change != 0:
@@ -3421,12 +3205,7 @@ def analyze_cumulative_impact():
             cumulative_timeline_change += timeline_change
             
             # Add region marker for display
-            if tier == 'city':
-                region_marker = f"📍 {region} (city)"
-            elif tier == 'country':
-                region_marker = f"🏳️ {region} (country)"
-            else:
-                region_marker = "🌍 Global"
+            region_marker = f"🎯 {your_region}" if is_region_specific else "🌍 Global"
             
             # Check if we have deep dive data
             deep_dive_summary = None
@@ -3436,24 +3215,18 @@ def analyze_cumulative_impact():
                     'implications': deep_dive.get('implications', [])
                 }
             
-            # Get all source articles that covered this same event
-            sources = cluster_sources.get(title, [title])
-
             event_data = {
                 'title': title,
                 'date': published,
                 'description': event_description,
                 'region_marker': region_marker,
-                'tier': tier,  # 'city', 'country', or 'global'
                 'npv_change': npv_change,
                 'lcoh_change': lcoh_change,
                 'timeline_change': timeline_change,
                 'impact_reasoning': impact_reasoning,
                 'actions': actions,
                 'deep_dive': deep_dive_summary,
-                'kb_context': kb_context,  # Knowledge base context from training documents
-                'kb_analysis_detail': kb_analysis_detail,  # Full KB analysis (docs, formulas, methodology)
-                'sources': sources,  # All article titles covering this event
+                'kb_context': kb_context  # Knowledge base context from training documents
             }
             
             if impact_type == 'positive':
@@ -3469,13 +3242,10 @@ def analyze_cumulative_impact():
     print(f"\n{'='*70}")
     print(f"ANALYSIS COMPLETE")
     print(f"{'='*70}")
-    print(f"Total articles before dedup: {len(relevant_articles)}")
-    print(f"Duplicates removed: {duplicate_count}")
-    print(f"Unique events analyzed: {len(deduplicated_articles)}")
-    print(f"Skipped (not energy/hydrogen related): {skipped_irrelevant}")
+    print(f"Articles analyzed: {len(relevant_articles)}")
     print(f"Deep dives performed: {deep_dives_performed} (region-specific events only)")
     print(f"Articles with financial impact: {articles_with_impact}")
-    print(f"Articles with no impact: {len(deduplicated_articles) - articles_with_impact - skipped_irrelevant}")
+    print(f"Articles with no impact: {len(relevant_articles) - articles_with_impact}")
     if KNOWLEDGE_BASE is not None:
         print(f"📚 Knowledge base: ACTIVE ({KNOWLEDGE_BASE.count():,} training documents)")
     else:
@@ -3489,51 +3259,35 @@ def analyze_cumulative_impact():
     print(f"Analysis Period: Past {days} days")
     print(f"Total Articles in Database: {len(articles)}")
     print(f"Articles Analyzed for {your_region}: {len(relevant_articles)}")
-    print(f"  • 📍 {city_label} (city): {len(city_articles)}")
-    print(f"  • 🏳️ {country_label} (country): {len(country_articles)}")
-    print(f"  • 🌍 Untagged/Global: {len(untagged_articles)}")
+    print(f"  • {your_region}-specific: {len(region_specific_articles)}")
+    print(f"  • Global/Unspecified: {len(global_articles)}")
     print(f"Impactful Events: {len(positive_events) + len(negative_events)} (+ {len(neutral_events)} market signals)\n")
-
+    
     # Show examples of what was analyzed vs excluded
-    if other_region_articles or global_critical_articles:
+    if other_region_articles:
         print(f"{'='*70}")
         print(f"📋 ARTICLE FILTERING SUMMARY")
         print(f"{'='*70}\n")
-
+        
         print(f"✅ ANALYZED ({len(relevant_articles)} articles):")
-        if city_articles:
-            print(f"\n   📍 {city_label} (city) articles (top 3):")
-            for article in city_articles[:3]:
+        if region_specific_articles:
+            print(f"\n   {your_region}-specific articles (top 3):")
+            for article in region_specific_articles[:3]:
                 title = article[0]
                 print(f"   • {title[:70]}...")
-
-        if country_articles:
-            print(f"\n   🏳️ {country_label} (country) articles (top 3):")
-            for article in country_articles[:3]:
+        
+        if global_articles:
+            print(f"\n   Global/Unspecified articles (top 3):")
+            for article in global_articles[:3]:
                 title = article[0]
                 print(f"   • {title[:70]}...")
-
-        if untagged_articles:
-            print(f"\n   🌍 Untagged/Global articles (top 3):")
-            for article in untagged_articles[:3]:
-                title = article[0]
-                print(f"   • {title[:70]}...")
-
-        if global_critical_articles:
-            print(f"\n🌍 GLOBAL INTELLIGENCE ({len(global_critical_articles)} articles - CRITICAL/HIGH from other regions):")
-            for article in global_critical_articles[:3]:
-                title, _, _, g_category, article_region, _, _ = article
-                print(f"   • [{article_region}] ({g_category}) {title[:60]}...")
-            if len(global_critical_articles) > 3:
-                print(f"   ... and {len(global_critical_articles) - 3} more (see Global Intelligence section below)")
-
-        if other_region_articles:
-            print(f"\n⏭️  DISCARDED ({len(other_region_articles)} articles - MEDIUM/LOW from other regions):")
-            for article in other_region_articles[:3]:
-                title, _, _, _, article_region, _, _ = article
-                print(f"   • [{article_region}] {title[:60]}...")
-            if len(other_region_articles) > 3:
-                print(f"   ... and {len(other_region_articles) - 3} more")
+        
+        print(f"\n⏭️  EXCLUDED ({len(other_region_articles)} articles from other regions):")
+        for article in other_region_articles[:3]:
+            title, _, _, _, article_region, _, _ = article
+            print(f"   • [{article_region}] {title[:60]}...")
+        if len(other_region_articles) > 3:
+            print(f"   ... and {len(other_region_articles) - 3} more from other regions")
         print()
     
     print(f"{'='*70}")
@@ -3632,94 +3386,78 @@ def analyze_cumulative_impact():
     print(f"   Deep dives performed: {deep_dives_performed}")
     print()
 
-    # Helper to display events grouped by tier
-    def _display_events_by_tier(events, max_per_tier=5):
-        tier_order = [('city', f"📍 {city_label}"), ('country', f"🏳️ {country_label}"), ('global', '🌍 Global')]
-        for tier_key, tier_label in tier_order:
-            tier_events = [e for e in events if e.get('tier') == tier_key]
-            if not tier_events:
-                continue
-            print(f"  --- {tier_label} ({len(tier_events)}) ---\n")
-            for event in tier_events[:max_per_tier]:
-                print(f"  {event['region_marker']} {event['description']}")
-                print(f"    NPV Impact: ${event['npv_change']:+.1f}M", end="")
-                if event['lcoh_change'] != 0:
-                    print(f"  |  LCOH Impact: ${event['lcoh_change']:+.2f}/kg")
-                else:
-                    print()
-                if event.get('impact_reasoning'):
-                    # Parse structured reasoning for cleaner display
-                    reasoning = event['impact_reasoning']
-                    if '|' in reasoning:
-                        parts = [p.strip() for p in reasoning.split('|')]
-                        print(f"    📐 Reasoning:")
-                        for part in parts:
-                            print(f"       {part[:120]}")
-                    else:
-                        print(f"    📐 Reasoning: {reasoning[:150]}")
-                if event.get('deep_dive'):
-                    dd = event['deep_dive']
-                    if dd.get('reasons'):
-                        print(f"    📋 Evidence:")
-                        for reason in dd['reasons'][:3]:
-                            print(f"       • {reason[:100]}")
-                        if len(dd['reasons']) > 3:
-                            print(f"       (+ {len(dd['reasons'])-3} more)")
-                # Full KB analysis detail (for KB-analyzed events)
-                kb_detail = event.get('kb_analysis_detail')
-                if kb_detail:
-                    print(f"    📚 KB Analysis Detail:")
-                    print(f"       Method: {kb_detail.get('methodology', 'N/A')}")
-                    print(f"       Confidence: {kb_detail['confidence']:.0%}")
-                    formulas = kb_detail.get('formula_breakdowns', [])
-                    if formulas:
-                        print(f"       Impact Calculation:")
-                        for fb in formulas:
-                            print(f"         • Pattern '{fb['pattern']}': {fb['formula']}")
-                    docs = kb_detail.get('kb_doc_details', [])
-                    if docs:
-                        print(f"       Training Documents Reviewed ({len(docs)}):")
-                        for j, doc in enumerate(docs, 1):
-                            print(f"         [{j}] {doc['source']} ({doc['relevance']:.0%} relevance, {doc['source_type']})")
-                            if doc.get('file_path'):
-                                print(f"             Path: {doc['file_path']}")
-                            full_text = doc.get('full_text', '')
-                            if full_text:
-                                print(f"             ── Document Text ──")
-                                for line in full_text.split('\n'):
-                                    print(f"             | {line}")
-                                print(f"             ── End ──")
-                elif event.get('kb_context'):
-                    print(f"    📚 KB Context:")
-                    for line in event['kb_context'].split('\n'):
-                        if line.strip():
-                            print(f"       {line[:120]}")
-                # Show all sources
-                sources = event.get('sources', [])
-                if sources and len(sources) > 1:
-                    print(f"    📰 Sources ({len(sources)}):")
-                    for i, src in enumerate(sources, 1):
-                        print(f"       {i}. {src[:90]}")
-                elif sources:
-                    print(f"    📰 Source: {sources[0][:90]}")
-                else:
-                    print(f"    📰 Source: {event['title'][:90]}")
-                print()
-            if len(tier_events) > max_per_tier:
-                print(f"    ... and {len(tier_events)-max_per_tier} more\n")
-
     # Breakdown by event type
     if positive_events:
         print(f"{'='*70}")
         print(f"✅ POSITIVE EVENTS ({len(positive_events)})")
         print(f"{'='*70}\n")
-        _display_events_by_tier(positive_events)
+        
+        total_positive = sum(e['npv_change'] for e in positive_events)
+        for event in positive_events[:5]:  # Top 5
+            print(f"{event['region_marker']} {event['description']}")
+            print(f"  {event['title'][:60]}...")
+            print(f"  NPV Impact: ${event['npv_change']:+.1f}M")
+            if event['lcoh_change'] != 0:
+                print(f"  LCOH Impact: ${event['lcoh_change']:+.2f}/kg")
+
+            # Show impact reasoning
+            if event.get('impact_reasoning'):
+                print(f"  📐 Reasoning: {event['impact_reasoning']}")
+
+            # Show deep dive findings if available
+            if event.get('deep_dive'):
+                deep_dive = event['deep_dive']
+                if deep_dive.get('reasons'):
+                    print(f"  📋 Evidence: {deep_dive['reasons'][0][:80]}...")
+                if len(deep_dive.get('reasons', [])) > 1:
+                    print(f"        (+ {len(deep_dive['reasons'])-1} more reason(s) found)")
+
+            # Show knowledge base context if available
+            if event.get('kb_context'):
+                print(f"  📚 Supporting Data:")
+                for line in event['kb_context'].split('\n')[:3]:
+                    print(f"     {line[:100]}")
+
+            print()
+
+        if len(positive_events) > 5:
+            print(f"  ... and {len(positive_events)-5} more positive events\n")
     
     if negative_events:
         print(f"{'='*70}")
         print(f"⚠️  NEGATIVE EVENTS ({len(negative_events)})")
         print(f"{'='*70}\n")
-        _display_events_by_tier(negative_events)
+        
+        total_negative = sum(e['npv_change'] for e in negative_events)
+        for event in negative_events[:5]:  # Top 5
+            print(f"{event['region_marker']} {event['description']}")
+            print(f"  {event['title'][:60]}...")
+            print(f"  NPV Impact: ${event['npv_change']:+.1f}M")
+            if event['lcoh_change'] != 0:
+                print(f"  LCOH Impact: ${event['lcoh_change']:+.2f}/kg")
+
+            # Show impact reasoning
+            if event.get('impact_reasoning'):
+                print(f"  📐 Reasoning: {event['impact_reasoning']}")
+
+            # Show deep dive findings if available
+            if event.get('deep_dive'):
+                deep_dive = event['deep_dive']
+                if deep_dive.get('reasons'):
+                    print(f"  📋 Evidence: {deep_dive['reasons'][0][:80]}...")
+                if len(deep_dive.get('reasons', [])) > 1:
+                    print(f"        (+ {len(deep_dive['reasons'])-1} more reason(s) found)")
+
+            # Show knowledge base context if available
+            if event.get('kb_context'):
+                print(f"  📚 Supporting Data:")
+                for line in event['kb_context'].split('\n')[:3]:
+                    print(f"     {line[:100]}")
+
+            print()
+
+        if len(negative_events) > 5:
+            print(f"  ... and {len(negative_events)-5} more negative events\n")
     
     # Key actions
     if all_actions:
@@ -3744,21 +3482,6 @@ def analyze_cumulative_impact():
                 print(f"   • {action}")
             print()
     
-    # Global Intelligence - CRITICAL & HIGH articles from other regions (no financial analysis)
-    if global_critical_articles:
-        print(f"{'='*70}")
-        print(f"🌍 GLOBAL INTELLIGENCE (Other Regions - CRITICAL & HIGH)")
-        print(f"{'='*70}\n")
-        print(f"  {len(global_critical_articles)} important articles from other regions (not financially analyzed):\n")
-
-        for article in global_critical_articles:
-            g_title, _, g_score, g_category, g_region, g_published, g_keywords = article
-            print(f"  [{g_region}] {g_title[:80]}")
-            print(f"    Category: {g_category} | Score: {g_score} | Date: {g_published or 'N/A'}")
-            if g_keywords:
-                print(f"    Keywords: {g_keywords[:80]}")
-            print()
-
     # Decision recommendation
     print(f"{'='*70}")
     print("💡 DECISION RECOMMENDATION")
@@ -3787,119 +3510,257 @@ def analyze_cumulative_impact():
     # ========================================================================
     # GENERATE HTML REPORT
     # ========================================================================
-
-    # Helper to render event cards in HTML (used for both positive and negative)
-    def _render_html_events(events, section_title, css_class, total_label):
-        html = f"""
-        <h2>{section_title} ({len(events)})</h2>
-        <div class="{css_class}">
-        <p><strong>{total_label}:</strong> ${sum(e['npv_change'] for e in events):+.1f}M</p>
+    
+    html_content = f"""
+    <div class="info">
+        <h2>📊 Analysis Parameters</h2>
+        <p><strong>Target Region:</strong> {your_region}</p>
+        <p><strong>Time Period:</strong> Last {days} days</p>
+        <p><strong>Articles Analyzed:</strong> {len(relevant_articles)}</p>
+        <p><strong>Region-Specific:</strong> {len(region_specific_articles)} articles</p>
+        <p><strong>Global/Unspecified:</strong> {len(global_articles)} articles</p>
+    </div>
+    
+    <h2>💰 Financial Impact Summary</h2>
+    <div class="{'success' if cumulative_npv_change > 0 else 'critical' if cumulative_npv_change < -baseline['npv']*0.05 else 'warning'}">
+        <h3>{'📈' if cumulative_npv_change > 0 else '📉'} Net Present Value</h3>
+        <table>
+            <tr><th>Metric</th><th>Value</th></tr>
+            <tr><td>Baseline NPV</td><td>${baseline['npv']:.0f}M</td></tr>
+            <tr><td>Cumulative Change</td><td><strong>${cumulative_npv_change:+.1f}M ({cumulative_npv_change/baseline['npv']*100:+.1f}%)</strong></td></tr>
+            <tr><td><strong>UPDATED NPV</strong></td><td><strong>${new_npv:.0f}M</strong></td></tr>
+        </table>
+    """
+    
+    if cumulative_lcoh_change != 0:
+        html_content += f"""
+        <h3>{'📉' if cumulative_lcoh_change < 0 else '📈'} Levelized Cost of Hydrogen</h3>
+        <table>
+            <tr><th>Metric</th><th>Value</th></tr>
+            <tr><td>Baseline LCOH</td><td>${baseline['lcoh']:.2f}/kg</td></tr>
+            <tr><td>Cumulative Change</td><td><strong>${cumulative_lcoh_change:+.2f}/kg</strong></td></tr>
+            <tr><td><strong>UPDATED LCOH</strong></td><td><strong>${new_lcoh:.2f}/kg</strong></td></tr>
+        </table>
         """
-
-        for event in events:
-            sources = event.get('sources', [event['title']])
-            num_sources = len(sources)
-            lcoh_line = f"<br>LCOH Impact: <strong>${event['lcoh_change']:+.2f}/kg</strong>" if event['lcoh_change'] != 0 else ""
-
-            # Event header with impact
-            html += f"""
-            <div style="border-left: 4px solid {'#2ecc71' if css_class == 'success' else '#e74c3c'}; padding: 12px; margin: 16px 0; background: #{'f0fff0' if css_class == 'success' else 'fff0f0'};">
-                <h3 style="margin:0;">{event['region_marker']} {event['description']}</h3>
-                <p><strong>NPV Impact: ${event['npv_change']:+.1f}M</strong>{lcoh_line}</p>
-            """
-
-            # Impact reasoning
-            if event.get('impact_reasoning'):
-                reasoning = event['impact_reasoning']
-                if '|' in reasoning:
-                    parts = [p.strip() for p in reasoning.split('|')]
-                    html += "<p><strong>📐 Impact Reasoning:</strong></p><ul>"
-                    for part in parts:
-                        html += f"<li><em>{part}</em></li>"
-                    html += "</ul>"
-                else:
-                    html += f"""
-                    <p><strong>📐 Impact Reasoning:</strong><br>
-                    <em>{reasoning}</em></p>
-                    """
-
-            # Deep dive findings
+    
+    if cumulative_timeline_change != 0:
+        html_content += f"""
+        <h3>{'⚡' if cumulative_timeline_change < 0 else '🐌'} Project Timeline</h3>
+        <table>
+            <tr><th>Metric</th><th>Value</th></tr>
+            <tr><td>Baseline Timeline</td><td>{baseline['timeline']} months</td></tr>
+            <tr><td>Cumulative Change</td><td><strong>{cumulative_timeline_change:+d} months</strong></td></tr>
+            <tr><td><strong>UPDATED TIMELINE</strong></td><td><strong>{new_timeline} months</strong></td></tr>
+        </table>
+        """
+    
+    html_content += "</div>"
+    
+    # Positive Events
+    if positive_events:
+        html_content += f"""
+        <h2>✅ POSITIVE EVENTS ({len(positive_events)})</h2>
+        <div class="success">
+        <p><strong>Total Positive Impact:</strong> ${sum(e['npv_change'] for e in positive_events):+.1f}M</p>
+        <table>
+            <tr>
+                <th>Event</th>
+                <th>Title</th>
+                <th>NPV Impact</th>
+                <th>LCOH Impact</th>
+                <th>Details</th>
+            </tr>
+        """
+        
+        for event in positive_events:
+            region_marker = event['region_marker']
+            title = event['title'][:80]
+            npv_impact = event['npv_change']
+            lcoh_impact = event['lcoh_change']
+            description = event['description']
+            
+            deep_dive_info = ""
             if event.get('deep_dive') and event['deep_dive'].get('reasons'):
                 reasons = event['deep_dive']['reasons']
-                html += "<p><strong>📋 Deep Dive Evidence:</strong></p><ul>"
-                for reason in reasons[:3]:
-                    html += f"<li>{reason[:150]}</li>"
-                if len(reasons) > 3:
-                    html += f"<li><em>... and {len(reasons)-3} more</em></li>"
-                html += "</ul>"
-
-            # Full KB analysis detail (for KB-analyzed events)
-            kb_detail = event.get('kb_analysis_detail')
-            if kb_detail:
-                html += """
-                <div style="background: #f8f9fa; border: 1px solid #dee2e6; border-radius: 6px; padding: 12px; margin: 8px 0;">
-                <p><strong>📚 Knowledge Base Analysis Detail</strong></p>
-                """
-                # Methodology
-                html += f"<p><strong>How this was analyzed:</strong><br><small>{kb_detail.get('methodology', '')}</small></p>"
-                html += f"<p><strong>Confidence:</strong> {kb_detail['confidence']:.0%}</p>"
-
-                # Formula breakdowns
-                formulas = kb_detail.get('formula_breakdowns', [])
-                if formulas:
-                    html += "<p><strong>Impact Calculation:</strong></p>"
-                    html += '<table style="font-size: 0.85em; border-collapse: collapse; width: 100%;">'
-                    html += '<tr style="background:#e9ecef;"><th style="padding:4px 8px; text-align:left;">Pattern Found</th><th style="padding:4px 8px; text-align:left;">Formula</th></tr>'
-                    for fb in formulas:
-                        html += f'<tr><td style="padding:4px 8px; border-bottom:1px solid #dee2e6;"><code>{fb["pattern"]}</code></td>'
-                        html += f'<td style="padding:4px 8px; border-bottom:1px solid #dee2e6;">{fb["formula"]}</td></tr>'
-                    html += '</table>'
-
-                # KB documents reviewed
-                docs = kb_detail.get('kb_doc_details', [])
-                if docs:
-                    html += f"<p><strong>Training Documents Reviewed ({len(docs)}):</strong></p>"
-                    for i, doc in enumerate(docs, 1):
-                        rel_pct = doc['relevance'] * 100
-                        rel_color = '#28a745' if rel_pct > 40 else '#ffc107' if rel_pct > 25 else '#dc3545'
-                        fpath = doc.get('file_path', '')
-                        if fpath:
-                            file_url = 'file://' + urllib.parse.quote(fpath, safe='/:')
-                            source_link = f'<a href="{file_url}" title="{fpath}" style="color:#1a5490; text-decoration:underline;">{doc["source"]}</a>'
-                        else:
-                            source_link = doc['source']
-                        full_text_html = doc.get('full_text', '').replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;').replace('\n', '<br>')
-                        html += f"""
-                        <div style="border-left: 3px solid {rel_color}; padding: 6px 10px; margin: 6px 0; background: #fff;">
-                            <strong>[{i}] {source_link}</strong>
-                            <span style="color: {rel_color}; font-weight: bold;"> ({rel_pct:.0f}% relevance)</span>
-                            <small> | Type: {doc['source_type']}</small>
-                            <div style="background: #f6f8fa; border: 1px solid #e1e4e8; border-radius: 4px; padding: 10px; margin-top: 6px; font-size: 0.85em; color: #333; white-space: pre-wrap; word-wrap: break-word; font-family: 'Segoe UI', sans-serif; line-height: 1.5;">{full_text_html}</div>
-                        </div>
-                        """
-
-                html += "</div>"
-
-            # KB context (for rule-based events that also had KB lookup)
-            elif event.get('kb_context'):
-                kb_lines = event['kb_context'].split('\n')
-                html += "<p><strong>📚 Knowledge Base Context:</strong></p><ul>"
-                for line in kb_lines:
-                    if line.strip():
-                        html += f"<li><small>{line.strip()}</small></li>"
-                html += "</ul>"
-
-            # Sources
-            html += f"<p><strong>📰 Sources ({num_sources}):</strong></p><ol>"
-            for src in sources:
-                html += f"<li><small>{src}</small></li>"
-            html += "</ol>"
-
-            html += "</div>"
-
-        html += "</div>"
-        return html
-
+                deep_dive_info = f"<br><small>📋 {reasons[0][:100]}..."
+                if len(reasons) > 1:
+                    deep_dive_info += f"<br>(+ {len(reasons)-1} more reason(s))"
+                deep_dive_info += "</small>"
+            
+            html_content += f"""
+            <tr>
+                <td>{region_marker} {description}</td>
+                <td>{title}...</td>
+                <td><strong>${npv_impact:+.1f}M</strong></td>
+                <td>{f'${lcoh_impact:+.2f}/kg' if lcoh_impact != 0 else '-'}</td>
+                <td>{deep_dive_info if deep_dive_info else '-'}</td>
+            </tr>
+            """
+        
+        html_content += """
+        </table>
+        </div>
+        """
+    
+    # Negative Events
+    if negative_events:
+        html_content += f"""
+        <h2>⚠️ NEGATIVE EVENTS ({len(negative_events)})</h2>
+        <div class="critical">
+        <p><strong>Total Negative Impact:</strong> ${sum(e['npv_change'] for e in negative_events):+.1f}M</p>
+        <table>
+            <tr>
+                <th>Event</th>
+                <th>Title</th>
+                <th>NPV Impact</th>
+                <th>LCOH Impact</th>
+                <th>Details</th>
+            </tr>
+        """
+        
+        for event in negative_events:
+            region_marker = event['region_marker']
+            title = event['title'][:80]
+            npv_impact = event['npv_change']
+            lcoh_impact = event['lcoh_change']
+            description = event['description']
+            
+            deep_dive_info = ""
+            if event.get('deep_dive') and event['deep_dive'].get('reasons'):
+                reasons = event['deep_dive']['reasons']
+                deep_dive_info = f"<br><small>📋 {reasons[0][:100]}..."
+                if len(reasons) > 1:
+                    deep_dive_info += f"<br>(+ {len(reasons)-1} more reason(s))"
+                deep_dive_info += "</small>"
+            
+            html_content += f"""
+            <tr>
+                <td>{region_marker} {description}</td>
+                <td>{title}...</td>
+                <td><strong>${npv_impact:+.1f}M</strong></td>
+                <td>{f'${lcoh_impact:+.2f}/kg' if lcoh_impact != 0 else '-'}</td>
+                <td>{deep_dive_info if deep_dive_info else '-'}</td>
+            </tr>
+            """
+        
+        html_content += """
+        </table>
+        </div>
+        """
+    
+    # Neutral Events
+    if neutral_events:
+        html_content += f"""
+        <h2>⚪ NEUTRAL/UNCERTAIN EVENTS ({len(neutral_events)})</h2>
+        <div class="neutral">
+        <table>
+            <tr>
+                <th>Event</th>
+                <th>Title</th>
+                <th>Notes</th>
+            </tr>
+        """
+        
+        for event in neutral_events:
+            html_content += f"""
+            <tr>
+                <td>{event['region_marker']} {event['description']}</td>
+                <td>{event['title'][:80]}...</td>
+                <td>No clear impact on {your_region} project</td>
+            </tr>
+            """
+        
+        html_content += """
+        </table>
+        </div>
+        """
+    
+    # Action Items
+    if all_actions:
+        critical = [a for a in all_actions if 'CRITICAL' in a.upper() or 'URGENT' in a.upper()]
+        normal = [a for a in all_actions if a not in critical]
+        
+        html_content += f"""
+        <h2>🎯 KEY ACTIONS RECOMMENDED</h2>
+        """
+        
+        if critical:
+            html_content += f"""
+            <div class="critical">
+                <h3>🔴 CRITICAL/URGENT</h3>
+                <ul>
+            """
+            for action in critical[:5]:
+                html_content += f"<li>{action}</li>"
+            html_content += """
+                </ul>
+            </div>
+            """
+        
+        if normal:
+            html_content += f"""
+            <div class="warning">
+                <h3>🟡 RECOMMENDED</h3>
+                <ul>
+            """
+            for action in normal[:10]:
+                html_content += f"<li>{action}</li>"
+            html_content += """
+                </ul>
+            </div>
+            """
+    
+    # Decision Recommendation
+    html_content += f"""
+    <h2>💡 DECISION RECOMMENDATION</h2>
+    """
+    
+    if cumulative_npv_change > baseline['npv'] * 0.10:
+        html_content += f"""
+        <div class="success">
+            <h3>✅ STRONG POSITIVE: Market conditions improving significantly</h3>
+            <ul>
+                <li>Consider ACCELERATING project timeline</li>
+                <li>{your_region} opportunity strengthening</li>
+            </ul>
+        </div>
+        """
+    elif cumulative_npv_change > 0:
+        html_content += f"""
+        <div class="success">
+            <h3>✅ POSITIVE: Net favorable market developments</h3>
+            <ul>
+                <li>Proceed with {your_region} project as planned</li>
+                <li>Monitor ongoing developments</li>
+            </ul>
+        </div>
+        """
+    elif cumulative_npv_change > -baseline['npv'] * 0.10:
+        html_content += f"""
+        <div class="warning">
+            <h3>⚠️ NEUTRAL/MIXED: Offsetting positive and negative factors</h3>
+            <ul>
+                <li>Proceed cautiously with {your_region}</li>
+                <li>Address key risks identified above</li>
+            </ul>
+        </div>
+        """
+    else:
+        html_content += f"""
+        <div class="critical">
+            <h3>🔴 NEGATIVE: Market conditions deteriorating</h3>
+            <ul>
+                <li>RECONSIDER {your_region} project viability</li>
+                <li>Evaluate alternative regions</li>
+                <li>Consider delaying FID until conditions improve</li>
+            </ul>
+        </div>
+        """
+    
+    # Generate HTML report
+    filename = f"cumulative_impact_{your_region.lower()}_{days}days_{datetime.now().strftime('%Y%m%d_%H%M%S')}.html"
+    generate_html_report(f"Cumulative Impact Analysis - {your_region}", html_content, filename)
+    
     # Save session context for Options 12-18
     global SESSION_CONTEXT
     SESSION_CONTEXT = {
@@ -3971,15 +3832,33 @@ def analyze_cumulative_impact():
         </div>
         """
         
-        # Positive events detail (full rendering with KB details, reasoning, sources)
+        # Positive events detail
         if positive_events:
-            html_summary += _render_html_events(
-                positive_events, "✅ POSITIVE EVENTS", "success", "Total Positive Impact")
-
-        # Negative events detail (full rendering with KB details, reasoning, sources)
+            html_summary += """
+            <h2>✅ Positive Events</h2>
+            """
+            for event in positive_events[:20]:  # Show top 20
+                html_summary += f"""
+                <div class="positive">
+                    <h3>{event['description']}</h3>
+                    <p><strong>NPV Impact:</strong> ${event['npv_change']:+.1f}M</p>
+                    <p><strong>Article:</strong> {event['title'][:100]}</p>
+                </div>
+                """
+        
+        # Negative events detail
         if negative_events:
-            html_summary += _render_html_events(
-                negative_events, "⚠️ NEGATIVE EVENTS", "critical", "Total Negative Impact")
+            html_summary += """
+            <h2>⚠️ Negative Events</h2>
+            """
+            for event in negative_events[:20]:  # Show top 20
+                html_summary += f"""
+                <div class="negative">
+                    <h3>{event['description']}</h3>
+                    <p><strong>NPV Impact:</strong> ${event['npv_change']:+.1f}M</p>
+                    <p><strong>Article:</strong> {event['title'][:100]}</p>
+                </div>
+                """
     
     # Key actions
     if all_actions:
