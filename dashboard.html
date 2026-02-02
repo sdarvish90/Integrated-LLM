@@ -1,0 +1,3363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Station of the Future – Dashboard</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <script crossorigin src="https://unpkg.com/prop-types@15/prop-types.min.js"></script>
+  <script src="https://unpkg.com/@babel/standalone@7.23.10/babel.min.js"></script>
+  <script src="https://unpkg.com/recharts@2.12.7/umd/Recharts.js"></script>
+  <style>
+    body { margin: 0; background: #111827; }
+    input[type="range"] {
+      -webkit-appearance: none; appearance: none;
+      height: 6px; background: #374151; border-radius: 3px; outline: none;
+    }
+    input[type="range"]::-webkit-slider-thumb {
+      -webkit-appearance: none; appearance: none;
+      width: 16px; height: 16px; border-radius: 50%; background: #3b82f6; cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="text/babel">
+    const { useState, useMemo, useCallback } = React;
+    const {
+      BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend,
+      ResponsiveContainer, PieChart, Pie, Cell,
+      ComposedChart, Line, LineChart, Area,
+    } = Recharts;
+
+    // Simple icon component using inline SVGs
+    const icons = {
+      flame: (
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+          <path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/>
+        </svg>
+      ),
+      factory: (
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+          <path d="M2 20a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8l-7 5V8l-7 5V4a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2Z"/>
+          <path d="M17 18h1"/><path d="M12 18h1"/><path d="M7 18h1"/>
+        </svg>
+      ),
+      zap: (
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+          <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+        </svg>
+      ),
+      droplets: (
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+          <path d="M7 16.3c2.2 0 4-1.83 4-4.05 0-1.16-.57-2.26-1.71-3.19S7.29 6.75 7 5.3c-.29 1.45-1.14 2.84-2.29 3.76S3 11.1 3 12.25c0 2.22 1.8 4.05 4 4.05z"/>
+          <path d="M12.56 6.6A10.97 10.97 0 0 0 14 3.02c.5 2.5 2 4.9 4 6.5s3 3.5 3 5.5a6.98 6.98 0 0 1-11.91 4.97"/>
+        </svg>
+      ),
+      truck: (
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+          <path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"/>
+          <path d="M15 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 13.52 9H14"/>
+          <circle cx="17" cy="18" r="2"/><circle cx="7" cy="18" r="2"/>
+        </svg>
+      ),
+      car: (
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+          <path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2"/>
+          <circle cx="7" cy="17" r="2"/><circle cx="17" cy="17" r="2"/>
+        </svg>
+      ),
+      battery: (
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+          <rect width="16" height="10" x="2" y="7" rx="2" ry="2"/><line x1="22" x2="22" y1="11" y2="13"/>
+        </svg>
+      ),
+      fuel: (
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+          <line x1="3" x2="15" y1="22" y2="22"/><line x1="4" x2="14" y1="9" y2="9"/>
+          <path d="M14 22V4a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v18"/>
+          <path d="M14 13h2a2 2 0 0 1 2 2v2a2 2 0 0 0 2 2h0a2 2 0 0 0 2-2V9.83a2 2 0 0 0-.59-1.42L18 5"/>
+        </svg>
+      ),
+      check: (
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+          <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/>
+        </svg>
+      ),
+      alert: (
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+          <path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/>
+          <line x1="12" x2="12" y1="9" y2="13"/><line x1="12" x2="12.01" y1="17" y2="17"/>
+        </svg>
+      ),
+    };
+
+    function Icon({ name, className = "" }) {
+      return <span className={"inline-flex " + className}>{icons[name]}</span>;
+    }
+
+    // ============================================================
+    // CALCULATION ENGINE
+    // ============================================================
+    const calculateTriGen = (NG_scf_h, config = {}) => {
+      const {
+        electrical_eff = 0.50, overall_eff = 0.80, H2_coprod_share = 0.223,
+        LHV_NG_BTU_scf = 1037, LHV_H2_kWh_kg = 33.33,
+        aux_load_frac = 0.03, AC_DC_rate = 0.94,
+      } = config;
+      if (NG_scf_h === 0) return { H2_kg_day: 0, elec_kWh_day: 0, heat_kW_day: 0, NG_scf_day: 0 };
+      const fuel_energy_kW = NG_scf_h * LHV_NG_BTU_scf / 3412;
+      const fuel_to_stack = fuel_energy_kW * (1 - H2_coprod_share);
+      const H2_energy_kW = fuel_energy_kW * H2_coprod_share;
+      const H2_kg_h = H2_energy_kW / LHV_H2_kWh_kg;
+      const power_gross = Math.max(1400, electrical_eff * fuel_to_stack);
+      const power_net = power_gross * (1 - aux_load_frac);
+      const useful_heat = (overall_eff - electrical_eff) * fuel_energy_kW;
+      const heat_export_kW = useful_heat * 0.5;
+      return {
+        H2_kg_day: H2_kg_h * 24,
+        elec_kWh_day: power_net * 24 * AC_DC_rate,
+        heat_kW_day: heat_export_kW * 24,
+        NG_scf_day: NG_scf_h * 24,
+      };
+    };
+
+    const calculateSMR = (H2_tpd, heat_from_trigen = 0) => {
+      if (H2_tpd === 0) return { H2_kg_day: 0, NG_scf_day: 0, CO2_kg_day: 0, elec_kWh_day: 0 };
+      const H2_kg_day = H2_tpd * 1000;
+      const H2_kg_h = H2_kg_day / 24;
+      const NG_kg_h = H2_kg_h * 3;
+      const NG_scf_h = NG_kg_h / 0.02007;
+      const CO2_kg_h = (NG_kg_h / 16.04) * 44.01;
+      return { H2_kg_day, NG_scf_day: NG_scf_h * 24, CO2_kg_day: CO2_kg_h * 24, elec_kWh_day: H2_kg_h * 5 };
+    };
+
+    const calculateElectrolyzer = (H2_tpd) => {
+      if (H2_tpd === 0) return { H2_kg_day: 0, elec_kWh_day: 0, water_gal_day: 0 };
+      const H2_kg_day = H2_tpd * 1000;
+      const SEC = 53.04;
+      const water_kg_per_kg = 10;
+      return { H2_kg_day, elec_kWh_day: H2_kg_day * SEC, water_gal_day: H2_kg_day * water_kg_per_kg / 3.785 };
+    };
+
+    const calculateLH2Delivery = (throughput_tpd) => {
+      if (throughput_tpd === 0) return { H2_kg_day: 0, elec_kWh_day: 0, heat_kW_day: 0 };
+      const H2_kg_day = throughput_tpd * 1000 * 0.98;
+      const pump_kW = 8.86 * (throughput_tpd / 0.5);
+      const aux_kW = 25;
+      return { H2_kg_day, elec_kWh_day: (pump_kW + aux_kW) * 24, heat_kW_day: 25.29 * 24 * (throughput_tpd / 0.5) };
+    };
+
+    const calculateH2Station = (H2_from_buffer, H2_from_trailer, demand = 1000) => {
+      const total_input = H2_from_buffer + H2_from_trailer;
+      if (total_input === 0) return { H2_dispensed: 0, elec_kWh_day: 0, waste_heat: 0 };
+      const loss_frac = 0.02;
+      const H2_available = total_input * (1 - loss_frac);
+      const H2_dispensed = Math.min(H2_available, demand);
+      const SEC_buffer = 8, SEC_trailer = 1.5;
+      const buffer_after_loss = H2_from_buffer * (1 - loss_frac);
+      const trailer_after_loss = H2_from_trailer * (1 - loss_frac);
+      const comp_energy = buffer_after_loss * SEC_buffer + trailer_after_loss * SEC_trailer;
+      const chiller_energy = (H2_dispensed / 24) * 1 / 2.5 * 24;
+      const BOP = 120;
+      return { H2_dispensed, elec_kWh_day: comp_energy + chiller_energy + BOP, waste_heat: comp_energy };
+    };
+
+    const calculateCNGStation = (trucks) => {
+      if (trucks === 0) return { NG_scf_day: 0, elec_kWh_day: 0 };
+      const fuel_per_truck = 80, scf_per_GGE = 114;
+      const demand_scf = trucks * fuel_per_truck * scf_per_GGE;
+      const losses = demand_scf * 0.027;
+      const comp_energy = trucks * fuel_per_truck * 0.6;
+      const aux = 101.8;
+      return { NG_scf_day: demand_scf + losses, elec_kWh_day: comp_energy + aux };
+    };
+
+    const calculateFuelCell = (H2_kg_day) => {
+      if (H2_kg_day === 0) return { elec_kWh_day: 0, heat_kWh_day: 0 };
+      const eta_el = 0.5, eta_th = 0.3, LHV = 33.33, BOP_frac = 0.02;
+      const gross_elec = H2_kg_day * LHV * eta_el;
+      return { elec_kWh_day: gross_elec * (1 - BOP_frac), heat_kWh_day: H2_kg_day * LHV * eta_th };
+    };
+
+    const runScenario = (inputs) => {
+      const {
+        trigen_NG_scf_h = 0, smr_H2_tpd = 0, electrolyzer_H2_tpd = 0,
+        lh2_tpd = 0, gh2_trailer_kg_day = 0, cng_trucks = 25,
+        ev_demand_kWh = 20000, fuel_cell_enabled = false, H2_demand = 1000,
+      } = inputs;
+
+      const trigen = calculateTriGen(trigen_NG_scf_h);
+      const smr = calculateSMR(smr_H2_tpd, trigen.heat_kW_day);
+      const elec = calculateElectrolyzer(electrolyzer_H2_tpd);
+      const lh2 = calculateLH2Delivery(lh2_tpd);
+      const cng = calculateCNGStation(cng_trucks);
+      const H2_to_buffer = trigen.H2_kg_day + smr.H2_kg_day + elec.H2_kg_day;
+
+      let H2_to_fc = 0;
+      let fc = { elec_kWh_day: 0, heat_kWh_day: 0 };
+      if (fuel_cell_enabled && H2_to_buffer > H2_demand) {
+        H2_to_fc = H2_to_buffer - H2_demand;
+        fc = calculateFuelCell(H2_to_fc);
+      }
+
+      const H2_buffer_to_station = H2_to_buffer - H2_to_fc;
+      const h2s = calculateH2Station(H2_buffer_to_station, gh2_trailer_kg_day, H2_demand);
+      const total_H2_dispensed = h2s.H2_dispensed + lh2.H2_kg_day;
+
+      const elec_gen = trigen.elec_kWh_day + fc.elec_kWh_day;
+      const elec_con = elec.elec_kWh_day + h2s.elec_kWh_day + lh2.elec_kWh_day + cng.elec_kWh_day;
+      const elec_for_ev = Math.max(0, elec_gen - elec_con);
+      const grid_import = Math.max(0, ev_demand_kWh - elec_for_ev);
+      const total_NG = trigen.NG_scf_day + smr.NG_scf_day + cng.NG_scf_day;
+
+      const NG_HHV_factor = 0.2847, H2_HHV_factor = 39.4, H2_LHV_factor = 33.33;
+      const energy_input = total_NG * NG_HHV_factor + grid_import +
+        (lh2_tpd * 1000 + gh2_trailer_kg_day) * H2_HHV_factor;
+      const energy_output = total_H2_dispensed * H2_LHV_factor +
+        cng.NG_scf_day * NG_HHV_factor + ev_demand_kWh;
+      const LEC = energy_output > 0 ? energy_input / energy_output : 0;
+
+      return {
+        H2_from_trigen: trigen.H2_kg_day, H2_from_smr: smr.H2_kg_day,
+        H2_from_electrolyzer: elec.H2_kg_day, H2_from_lh2: lh2.H2_kg_day,
+        H2_from_trailer: gh2_trailer_kg_day, H2_to_fc, H2_dispensed: total_H2_dispensed,
+        NG_trigen: trigen.NG_scf_day, NG_smr: smr.NG_scf_day, NG_cng: cng.NG_scf_day, NG_total: total_NG,
+        elec_trigen: trigen.elec_kWh_day, elec_fc: fc.elec_kWh_day,
+        elec_electrolyzer: elec.elec_kWh_day, elec_h2_station: h2s.elec_kWh_day,
+        elec_lh2: lh2.elec_kWh_day, elec_cng: cng.elec_kWh_day, elec_ev: ev_demand_kWh,
+        elec_grid: grid_import, elec_gen, elec_con: elec_con + ev_demand_kWh,
+        heat_trigen: trigen.heat_kW_day, heat_fc: fc.heat_kWh_day,
+        CO2_smr: smr.CO2_kg_day,
+        energy_input, energy_output, LEC,
+        self_sufficiency: elec_gen > 0 ? Math.min(1, elec_gen / (elec_con + ev_demand_kWh)) : 0,
+      };
+    };
+
+    // ============================================================
+    // TEA HELPERS
+    // ============================================================
+    const teaCrf = (rate, years) => {
+      if (rate === 0) return 1 / years;
+      return (rate * Math.pow(1 + rate, years)) / (Math.pow(1 + rate, years) - 1);
+    };
+
+    const teaNpv = (cashFlows, rate) => {
+      return cashFlows.reduce((acc, cf, t) => acc + cf / Math.pow(1 + rate, t), 0);
+    };
+
+    const teaIrr = (cashFlows, maxIter = 200) => {
+      // If undiscounted sum is negative, no positive IRR exists
+      const undiscountedSum = cashFlows.reduce((s, v) => s + v, 0);
+      if (undiscountedSum <= 0) return 0;
+      // If all operating cash flows are negative (ignoring year-0 capex), no valid IRR
+      const opCFs = cashFlows.slice(1);
+      if (opCFs.every(cf => cf <= 0)) return 0;
+      let irr = 0.10;
+      for (let iter = 0; iter < maxIter; iter++) {
+        let npv = 0, dnpv = 0;
+        for (let t = 0; t < cashFlows.length; t++) {
+          const denom = Math.pow(1 + irr, t);
+          npv += cashFlows[t] / denom;
+          if (t > 0) dnpv += -t * cashFlows[t] / Math.pow(1 + irr, t + 1);
+        }
+        if (Math.abs(dnpv) < 1e-10) break;
+        const newIrr = irr - npv / dnpv;
+        if (Math.abs(newIrr - irr) < 1e-7) return Math.max(0, newIrr);
+        irr = Math.max(-0.99, Math.min(10, newIrr));
+      }
+      return Math.max(0, irr);
+    };
+
+    const teaSimplePayback = (cumulativeFlows) => {
+      for (let i = 1; i < cumulativeFlows.length; i++) {
+        if (cumulativeFlows[i] >= 0) {
+          const prev = cumulativeFlows[i - 1];
+          return (i - 1) + (-prev / (cumulativeFlows[i] - prev));
+        }
+      }
+      return Infinity;
+    };
+
+    // ============================================================
+    // TRIGEN TEA (from trigen_tea.py)
+    // ============================================================
+    const calculateTriGenTEA = (massBalance, econ) => {
+      const {
+        elec_kWh_day = 0, H2_kg_day = 0, heat_kW_day = 0, NG_scf_day = 0
+      } = massBalance;
+      if (NG_scf_day === 0) return null;
+
+      const operatingDays = 365 * 0.92;
+      const ratedKW = Math.max(1400, elec_kWh_day / 24);
+      const annualElecMWh = (elec_kWh_day * operatingDays) / 1000;
+      const annualH2Kg = H2_kg_day * operatingDays;
+      const annualHeatMMBtu = (heat_kW_day * operatingDays) / 293.07;
+      const annualNGMMBtu = (NG_scf_day * operatingDays) / 1000;
+
+      const capexPerKW = econ.trigen_capex_per_kw;
+      const equipmentCost = ratedKW * capexPerKW;
+      const installCost = equipmentCost * 0.15;
+      const engCost = equipmentCost * 0.10;
+      const subtotal = equipmentCost + installCost + engCost;
+      const contingency = subtotal * 0.10;
+      const totalCapex = subtotal + contingency;
+      const itcBenefit = totalCapex * 0.30;
+      const netCapex = totalCapex - itcBenefit;
+
+      const annualFuel = annualNGMMBtu * econ.ng_price;
+      const annualFixedOM = ratedKW * 50;
+      const annualVarOM = annualElecMWh * 1000 * 0.005;
+      const annualWater = annualElecMWh * 1000 * 0.5 * 0.005;
+
+      const stackReplCost = equipmentCost * 0.40;
+      const stackLifeYears = 7;
+      const numRepl = Math.floor(econ.project_life / stackLifeYears);
+      let stackNPV = 0;
+      for (let i = 1; i <= numRepl; i++) {
+        const yr = i * stackLifeYears;
+        if (yr < econ.project_life) stackNPV += stackReplCost / Math.pow(1 + econ.discount_rate, yr);
+      }
+      const crf = teaCrf(econ.discount_rate, econ.project_life);
+      const annualStackReserve = stackNPV * crf;
+      const totalAnnualOpex = annualFuel + annualFixedOM + annualVarOM + annualWater + annualStackReserve;
+
+      const annualElecValue = annualElecMWh * 1000 * econ.electricity_price;
+      const annualH2Value = annualH2Kg * econ.h2_price;
+      const annualHeatValue = annualHeatMMBtu * econ.heat_price;
+      const totalRevenue = annualElecValue + annualH2Value + annualHeatValue;
+
+      const annualizedCapex = netCapex * crf;
+      const totalAnnualCost = annualizedCapex + totalAnnualOpex;
+
+      const elecMMBtu = annualElecMWh * 3.412;
+      const h2MMBtu = annualH2Kg * 0.114;
+      const heatMMBtu = annualHeatMMBtu;
+      const totalEnergyMMBtu = elecMMBtu + h2MMBtu + heatMMBtu;
+      const elecFrac = totalEnergyMMBtu > 0 ? elecMMBtu / totalEnergyMMBtu : 0;
+      const h2Frac = totalEnergyMMBtu > 0 ? h2MMBtu / totalEnergyMMBtu : 0;
+
+      const LCOE = annualElecMWh > 0 ? (totalAnnualCost * elecFrac) / (annualElecMWh * 1000) : 0;
+      const LCOH = annualH2Kg > 0 ? (totalAnnualCost * h2Frac) / annualH2Kg : 0;
+
+      const cashFlows = [-netCapex];
+      const cumCashFlows = [-netCapex];
+      let cum = -netCapex;
+      for (let yr = 1; yr <= econ.project_life; yr++) {
+        const deg = Math.pow(1 - 0.005, yr - 1);
+        const yrRev = totalRevenue * deg;
+        const yrFuel = annualFuel * deg;
+        let yrOpex = yrFuel + annualFixedOM + annualVarOM * deg + annualWater;
+        if (yr % stackLifeYears === 0 && yr < econ.project_life) yrOpex += stackReplCost;
+        const yrCF = yrRev - yrOpex;
+        cashFlows.push(yrCF);
+        cum += yrCF;
+        cumCashFlows.push(cum);
+      }
+
+      return {
+        system: 'TriGen',
+        capex: totalCapex, netCapex,
+        annualOpex: totalAnnualOpex,
+        annualRevenue: totalRevenue,
+        annualFuel, annualFixedOM, annualVarOM, annualWater, annualStackReserve,
+        LCOE, LCOH,
+        NPV: teaNpv(cashFlows, econ.discount_rate),
+        IRR: teaIrr(cashFlows),
+        payback: teaSimplePayback(cumCashFlows),
+        cashFlows, cumCashFlows,
+        opexBreakdown: {
+          fuel: annualFuel, fixedOM: annualFixedOM, varOM: annualVarOM,
+          water: annualWater, stackRepl: annualStackReserve,
+        },
+        revenueBreakdown: {
+          electricity: annualElecValue, hydrogen: annualH2Value, heat: annualHeatValue,
+        },
+      };
+    };
+
+    // ============================================================
+    // SMR TEA (simplified)
+    // ============================================================
+    const calculateSMRTEA = (massBalance, econ) => {
+      if (!massBalance.H2_kg_day || massBalance.H2_kg_day === 0) return null;
+      // Modular/containerized SMR (~1 tpd scale, e.g. OneH2/BayoTech class)
+      // NREL range: $2,000–$5,600/kg/day; mid-range $3,500/kg/day
+      const availability = 0.90; // modular units target 90%+
+      const operatingDays = 365 * availability;
+      const annualH2Kg = massBalance.H2_kg_day * operatingDays;
+      const annualNGMMBtu = (massBalance.NG_scf_day * operatingDays) / 1000;
+
+      // CAPEX — modular skid-mounted, factory-fabricated
+      const capexPerKgDay = 3500; // $/kg/day capacity (NREL mid-range for distributed SMR)
+      const equipCost = massBalance.H2_kg_day * capexPerKgDay;
+      const installFactor = 1.15; // lower for factory-built skids vs stick-built
+      const engineering = equipCost * 0.08;
+      const permitting = 50000; // H2 permitting & safety review
+      const subtotal = equipCost * installFactor + engineering + permitting;
+      const contingency = subtotal * 0.10;
+      const totalCapex = subtotal + contingency;
+      const netCapex = totalCapex; // no ITC for gray H2
+
+      // OPEX
+      const annualFuel = annualNGMMBtu * econ.ng_price;
+      const annualFixedOM = totalCapex * 0.03; // routine maintenance
+      const annualVarOM = annualH2Kg * 0.02; // variable consumables
+      const waterGalPerKg = 2.5; // process water
+      const waterCostPerKgal = 5.00; // $/1000 gal municipal rate
+      const annualWater = annualH2Kg * waterGalPerKg / 1000 * waterCostPerKgal;
+      // Catalyst replacement reserve (~every 4-5 years, ~$150K per replacement for 1 tpd)
+      const catalystReplCost = 150000;
+      const catalystLifeYrs = 4.5;
+      const numRepl = Math.floor(econ.project_life / catalystLifeYrs);
+      const crf = teaCrf(econ.discount_rate, econ.project_life);
+      let catalystNPV = 0;
+      for (let i = 1; i <= numRepl; i++) {
+        const yr = Math.round(i * catalystLifeYrs);
+        if (yr < econ.project_life) catalystNPV += catalystReplCost / Math.pow(1 + econ.discount_rate, yr);
+      }
+      const annualCatalystReserve = catalystNPV * crf;
+      const totalOpex = annualFuel + annualFixedOM + annualVarOM + annualWater + annualCatalystReserve;
+
+      const revenue = annualH2Kg * econ.h2_price;
+      const LCOH = annualH2Kg > 0 ? (netCapex * crf + totalOpex) / annualH2Kg : 0;
+
+      const cashFlows = [-netCapex];
+      let cum = -netCapex;
+      const cumCF = [-netCapex];
+      for (let yr = 1; yr <= econ.project_life; yr++) {
+        const deg = Math.pow(1 - 0.005, yr - 1); // 0.5%/yr degradation
+        const cf = revenue * deg - totalOpex;
+        cashFlows.push(cf); cum += cf; cumCF.push(cum);
+      }
+      return {
+        system: 'SMR (Modular)', capex: totalCapex, netCapex,
+        annualOpex: totalOpex, annualRevenue: revenue, LCOH,
+        NPV: teaNpv(cashFlows, econ.discount_rate), IRR: teaIrr(cashFlows),
+        payback: teaSimplePayback(cumCF), cashFlows, cumCashFlows: cumCF,
+        opexBreakdown: { fuel: annualFuel, fixedOM: annualFixedOM, varOM: annualVarOM, water: annualWater, stackRepl: annualCatalystReserve },
+        revenueBreakdown: { hydrogen: revenue },
+      };
+    };
+
+    // ============================================================
+    // ELECTROLYZER TEA — Granular PEM model (from electrolyzer_tea.py)
+    // Ref: DOE H2A v3.2018, IRENA Green H2 Cost Reduction (2020), NREL ATB 2024
+    // ============================================================
+    const calculateElectrolyzerTEA = (massBalance, econ) => {
+      if (!massBalance.H2_kg_day || massBalance.H2_kg_day === 0) return null;
+
+      // ── Performance ──
+      const availability = 0.90; // 90% uptime (scheduled + unscheduled)
+      const operatingDays = 365 * availability;
+      const annualH2Kg = massBalance.H2_kg_day * operatingDays;
+      const annualOpHrs = operatingDays * 24;
+      const SEC = 55; // kWh/kg system-level (stack ~50 + BOP ~5)
+      const annualElecMWh = (annualH2Kg * SEC) / 1000;
+      const capacityKW = (massBalance.H2_kg_day / 24) * SEC;
+      const capacityMW = capacityKW / 1000;
+
+      // ── CAPEX: Component-level breakdown ($/kW of electrolyzer) ──
+      const capexPerKW = econ.elec_capex_per_kw; // user-adjustable base
+      // Scale: at $500/kW base, split per IRENA/DOE reference
+      const scaleFactor = capexPerKW / 500; // normalize to reference
+      const stackPerKW        = 280 * scaleFactor;  // stack + MEA + BPP
+      const stackBalPerKW     = 40  * scaleFactor;  // gaskets, endplates
+      const rectifierPerKW    = 80  * scaleFactor;  // power electronics
+      const dcConverterPerKW  = 30  * scaleFactor;
+      const switchgearPerKW   = 25  * scaleFactor;
+      const waterTreatPerKW   = 30  * scaleFactor;  // DI + RO
+      const thermalMgmtPerKW  = 35  * scaleFactor;  // cooling, HX
+      const gasProcPerKW      = 40  * scaleFactor;  // drying, purification
+      const pipingPerKW       = 25  * scaleFactor;  // piping, valves, instruments
+      const controlPerKW      = 20  * scaleFactor;  // PLC, HMI, SCADA
+      const safetyPerKW       = 15  * scaleFactor;  // ventilation, detection
+
+      // H2 compression (electrolyzer output ~30 bar → 200-450 bar storage)
+      const compressorPerKW   = 50  * scaleFactor;
+
+      const equipPerKW = stackPerKW + stackBalPerKW + rectifierPerKW + dcConverterPerKW
+        + switchgearPerKW + waterTreatPerKW + thermalMgmtPerKW + gasProcPerKW
+        + pipingPerKW + controlPerKW + safetyPerKW + compressorPerKW;
+      const equipCost = capacityKW * equipPerKW;
+
+      // Installation
+      const civilPerKW        = 30 * scaleFactor;
+      const elecInstallPerKW  = 25 * scaleFactor;
+      const mechInstallPerKW  = 20 * scaleFactor;
+      const commissionPerKW   = 15 * scaleFactor;
+      const installCost = capacityKW * (civilPerKW + elecInstallPerKW + mechInstallPerKW + commissionPerKW);
+
+      // Soft costs
+      const engineering = equipCost * 0.08;
+      const projectMgmt = equipCost * 0.05;
+      const contingency = (equipCost + installCost + engineering + projectMgmt) * 0.10;
+      const totalCapex = equipCost + installCost + engineering + projectMgmt + contingency;
+
+      // Grid interconnection cost (utility-scale power draw)
+      const gridInterconnect = capacityMW > 0.5 ? (80000 + capacityMW * 50000) : 40000;
+      const totalCapexWithGrid = totalCapex + gridInterconnect;
+
+      // ITC: only applicable if powered by clean electricity (lifecycle CI < 4 kg CO2/kg H2)
+      // Grid-powered electrolysis at ~55 kWh/kg with US avg grid (~0.4 kg CO2/kWh) = 22 kg CO2/kg H2
+      // → Does NOT qualify for 45V PTC or 48E ITC unless paired with dedicated renewables
+      // Use econ flag; default: no subsidy for grid-powered
+      const cleanPowered = econ.elec_clean_powered || false;
+      const itcRate = cleanPowered ? 0.30 : 0;
+      const netCapex = totalCapexWithGrid * (1 - itcRate);
+
+      // ── OPEX: Detailed breakdown ──
+      // Electricity (dominant cost)
+      const annualElecCost = annualElecMWh * econ.elec_cost_per_mwh;
+      // Demand charges for grid connection
+      const demandChargePerKWMonth = cleanPowered ? 0 : 12; // $/kW/month; 0 if behind-the-meter renewables
+      const annualDemandCharge = capacityKW * demandChargePerKWMonth * 12;
+
+      // Water: feedwater + cooling + wastewater treatment
+      const feedwaterLPerKg = 9;     // L/kg H2 consumed
+      const wastewaterLPerKg = 42;   // L/kg H2 (cooling blowdown, etc)
+      const waterCostPerM3 = 1.36;   // $/m3
+      const annualFeedwater = annualH2Kg * feedwaterLPerKg / 1000 * waterCostPerM3;
+      const annualWastewater = annualH2Kg * wastewaterLPerKg / 1000 * waterCostPerM3 * 0.3; // treatment cheaper
+      const annualWater = annualFeedwater + annualWastewater;
+
+      // Labor
+      const numOperators = Math.max(1, Math.ceil(capacityMW * 0.05));
+      const annualLabor = numOperators * 80000;
+
+      // Maintenance
+      const annualFixedOM = totalCapex * 0.02;
+      const annualVarOM = annualH2Kg * 0.05;
+      // Major maintenance every 5 years (3% of equipment CAPEX)
+      const majorMaintCost = equipCost * 0.03;
+      const majorMaintInterval = 5;
+      const numMajorMaint = Math.floor(econ.project_life / majorMaintInterval);
+      let majorMaintNPV = 0;
+      for (let i = 1; i <= numMajorMaint; i++) {
+        const yr = i * majorMaintInterval;
+        if (yr < econ.project_life) majorMaintNPV += majorMaintCost / Math.pow(1 + econ.discount_rate, yr);
+      }
+      const crf = teaCrf(econ.discount_rate, econ.project_life);
+      const annualMajorMaint = majorMaintNPV * crf;
+
+      // Stack replacement
+      const stackCost = capacityKW * stackPerKW;
+      const stackLifeHrs = 80000;
+      const stackLifeYrs = stackLifeHrs / annualOpHrs;
+      const numRepl = Math.floor(econ.project_life / stackLifeYrs);
+      let stackNPV = 0;
+      for (let i = 1; i <= numRepl; i++) {
+        const yr = Math.round(i * stackLifeYrs);
+        if (yr < econ.project_life) stackNPV += stackCost * 0.50 / Math.pow(1 + econ.discount_rate, yr);
+      }
+      const annualStackReserve = stackNPV * crf;
+
+      // Consumables (DI resin, desiccant, electrolyte makeup)
+      const annualConsumables = annualH2Kg * (0.002 + 0.001 + 0.005);
+
+      // Insurance + property tax + admin
+      const annualInsurance = totalCapex * 0.005;
+      const annualPropTax = totalCapex * 0.01;
+      const annualAdmin = capacityKW * 2;
+
+      const totalOpex = annualElecCost + annualDemandCharge + annualWater + annualLabor
+        + annualFixedOM + annualVarOM + annualMajorMaint + annualStackReserve
+        + annualConsumables + annualInsurance + annualPropTax + annualAdmin;
+
+      // ── LCOH ──
+      const annualizedCapex = netCapex * crf;
+      const LCOH = annualH2Kg > 0 ? (annualizedCapex + totalOpex) / annualH2Kg : 0;
+
+      // ── Cash flows ──
+      const revenue = annualH2Kg * econ.h2_price;
+      const cashFlows = [-netCapex];
+      let cum = -netCapex;
+      const cumCF = [-netCapex];
+      for (let yr = 1; yr <= econ.project_life; yr++) {
+        const deg = Math.pow(1 - 0.01, yr - 1); // 1%/yr degradation
+        const yrH2 = annualH2Kg * deg;
+        const yrRev = yrH2 * econ.h2_price;
+        const inflFactor = Math.pow(1 + econ.inflation_rate, yr - 1);
+        const yrOpex = totalOpex * inflFactor;
+        const cf = yrRev - yrOpex;
+        cashFlows.push(cf); cum += cf; cumCF.push(cum);
+      }
+
+      return {
+        system: 'Electrolyzer', capex: totalCapexWithGrid, netCapex,
+        annualOpex: totalOpex, annualRevenue: revenue,
+        LCOH,
+        NPV: teaNpv(cashFlows, econ.discount_rate), IRR: teaIrr(cashFlows),
+        payback: teaSimplePayback(cumCF), cashFlows, cumCashFlows: cumCF,
+        opexBreakdown: {
+          fuel: annualElecCost + annualDemandCharge,
+          fixedOM: annualFixedOM + annualLabor + annualMajorMaint + annualInsurance + annualPropTax + annualAdmin,
+          varOM: annualVarOM + annualConsumables,
+          water: annualWater,
+          stackRepl: annualStackReserve,
+        },
+        revenueBreakdown: { hydrogen: revenue },
+      };
+    };
+
+    // ============================================================
+    // SOLAR TEA (from solar_tea.py)
+    // ============================================================
+    const calculateSolarTEA = (econ) => {
+      if (!econ.solar_capacity_mw || econ.solar_capacity_mw === 0) return null;
+      const capMWdc = econ.solar_capacity_mw;
+      const capWdc = capMWdc * 1e6;
+      const dcAcRatio = 1.15;
+      const capMWac = capMWdc / dcAcRatio;
+      const capWac = capMWac * 1e6;
+      const cf = 0.26;
+
+      const capexPerWdc = econ.solar_capex_per_wdc;
+      // Module + racking + BOS + install + soft
+      const modulesCost = capWdc * 0.25;
+      const rackingCost = capWdc * 0.14; // with tracker
+      const bosCost = capWdc * 0.09;
+      const installCost = capWdc * 0.10;
+      const interconnect = capWac * 0.03;
+      const hardware = modulesCost + rackingCost + bosCost + installCost + interconnect;
+      const softCosts = hardware * 0.05 + capWdc * 0.01 + capWdc * 0.02;
+      const subtotal = hardware + softCosts;
+      const totalCapex = subtotal * 1.05 * 1.05; // contingency + dev margin
+      // Override if user changed capex slider
+      const actualCapex = capWdc * capexPerWdc;
+      const useCapex = Math.abs(capexPerWdc - 0.60) > 0.01 ? actualCapex : totalCapex;
+      const itcBenefit = useCapex * 0.30;
+      const netCapex = useCapex - itcBenefit;
+
+      const yr1GenMWh = capMWac * 8760 * cf * 0.98; // 2% first-year LID
+      const annualFixedOM = capMWdc * 1000 * 15; // $15/kWdc-yr
+      const annualInsurance = useCapex * 0.004;
+      const annualPropTax = useCapex * 0.01;
+      const inverterCost = capWac * 0.05;
+      const projLife = 30;
+      const numInvRepl = Math.floor(projLife / 15);
+      let invReplNPV = 0;
+      for (let i = 1; i <= numInvRepl; i++) {
+        if (i * 15 < projLife) invReplNPV += inverterCost / Math.pow(1 + econ.discount_rate, i * 15);
+      }
+      const crf30 = teaCrf(econ.discount_rate, projLife);
+      const annualInvReserve = invReplNPV * crf30;
+      const totalOpex = annualFixedOM + annualInsurance + annualPropTax + annualInvReserve;
+
+      let lifetimeGenNPV = 0;
+      for (let yr = 1; yr <= projLife; yr++) {
+        const yrGen = yr1GenMWh * Math.pow(1 - 0.005, yr - 1);
+        lifetimeGenNPV += yrGen / Math.pow(1 + econ.discount_rate, yr);
+      }
+      let lifetimeOpexNPV = 0;
+      for (let yr = 1; yr <= projLife; yr++) {
+        lifetimeOpexNPV += totalOpex * Math.pow(1.02, yr - 1) / Math.pow(1 + econ.discount_rate, yr);
+      }
+      const LCOE = (netCapex + lifetimeOpexNPV) / lifetimeGenNPV; // $/MWh
+
+      const revenue = yr1GenMWh * econ.electricity_price * 1000; // elec price $/kWh -> *1000 for MWh
+      const cashFlows = [-netCapex];
+      let cum = -netCapex;
+      const cumCF = [-netCapex];
+      for (let yr = 1; yr <= econ.project_life; yr++) {
+        const deg = Math.pow(1 - 0.005, yr - 1);
+        const yrGen = yr1GenMWh * deg;
+        const yrRev = yrGen * econ.electricity_price * 1000;
+        const yrOpex = totalOpex * Math.pow(1.02, yr - 1);
+        const cf = yrRev - yrOpex;
+        cashFlows.push(cf); cum += cf; cumCF.push(cum);
+      }
+
+      return {
+        system: 'Solar', capex: useCapex, netCapex,
+        annualOpex: totalOpex, annualRevenue: revenue,
+        LCOE, annualGenMWh: yr1GenMWh,
+        NPV: teaNpv(cashFlows, econ.discount_rate), IRR: teaIrr(cashFlows),
+        payback: teaSimplePayback(cumCF), cashFlows, cumCashFlows: cumCF,
+        opexBreakdown: { fuel: 0, fixedOM: annualFixedOM, varOM: 0, water: 0, stackRepl: annualInvReserve },
+        revenueBreakdown: { electricity: revenue },
+      };
+    };
+
+    // ============================================================
+    // WIND TEA (from wind_tea.py)
+    // ============================================================
+    const calculateWindTEA = (econ) => {
+      if (!econ.wind_capacity_mw || econ.wind_capacity_mw === 0) return null;
+      const capMW = econ.wind_capacity_mw;
+      const capKW = capMW * 1000;
+      const cf = 0.35;
+      const yr1GenMWh = capMW * 8760 * cf;
+      const projLife = 30;
+
+      const capexPerKW = econ.wind_capex_per_kw;
+      // Turbine 800 + BOS 250 + install 80 + soft costs
+      const turbineCost = capKW * 800;
+      const bosCost = capKW * 250;
+      const installCost = capKW * 80;
+      const hardCosts = turbineCost + bosCost + installCost;
+      const softCosts = hardCosts * 0.05 + capKW * 30 + capKW * 20;
+      const subtotal = hardCosts + softCosts;
+      const totalCapex = subtotal * 1.05; // contingency
+      // Override if user changed capex slider
+      const actualCapex = capKW * capexPerKW;
+      const useCapex = Math.abs(capexPerKW - 1200) > 10 ? actualCapex : totalCapex;
+
+      const netCapex = useCapex; // Wind typically uses PTC not ITC
+
+      // O&M escalation schedule
+      const getFixedOM = (yr) => {
+        if (yr <= 2) return useCapex * 0.010;
+        if (yr <= 10) return useCapex * 0.015;
+        return useCapex * 0.020;
+      };
+      const yr1FixedOM = getFixedOM(1);
+      const yr1VarOM = yr1GenMWh * 2;
+      const yr1Insurance = useCapex * 0.005;
+      const yr1PropTax = useCapex * 0.01;
+      const yr1LandLease = capMW * 5000;
+      const totalOpex = yr1FixedOM + yr1VarOM + yr1Insurance + yr1PropTax + yr1LandLease;
+
+      // PTC $26/MWh for 10 years
+      const ptcPerMWh = 26;
+      const ptcYears = 10;
+
+      let lifetimeGenNPV = 0;
+      for (let yr = 1; yr <= projLife; yr++) {
+        lifetimeGenNPV += yr1GenMWh * Math.pow(1 - 0.005, yr - 1) / Math.pow(1 + econ.discount_rate, yr);
+      }
+      let lifetimeOpexNPV = 0;
+      for (let yr = 1; yr <= projLife; yr++) {
+        const esc = Math.pow(1.03, yr - 1);
+        lifetimeOpexNPV += (getFixedOM(yr) * esc + yr1VarOM + yr1Insurance + yr1PropTax + yr1LandLease) / Math.pow(1 + econ.discount_rate, yr);
+      }
+      let ptcValueNPV = 0;
+      for (let yr = 1; yr <= ptcYears; yr++) {
+        ptcValueNPV += yr1GenMWh * Math.pow(1 - 0.005, yr - 1) * ptcPerMWh / Math.pow(1 + econ.discount_rate, yr);
+      }
+      const LCOE = (useCapex + lifetimeOpexNPV) / lifetimeGenNPV;
+      const LCOEwithPTC = (useCapex + lifetimeOpexNPV - ptcValueNPV) / lifetimeGenNPV;
+
+      const energyPrice = econ.electricity_price * 1000; // $/kWh -> $/MWh
+      const revenue = yr1GenMWh * energyPrice;
+      const cashFlows = [-netCapex];
+      let cum = -netCapex;
+      const cumCF = [-netCapex];
+      for (let yr = 1; yr <= econ.project_life; yr++) {
+        const deg = Math.pow(1 - 0.005, yr - 1);
+        const yrGen = yr1GenMWh * deg;
+        let yrRev = yrGen * energyPrice;
+        if (yr <= ptcYears) yrRev += yrGen * ptcPerMWh;
+        const esc = Math.pow(1.03, yr - 1);
+        let yrOpex = getFixedOM(yr) * esc + yr1VarOM + yr1Insurance + yr1PropTax + yr1LandLease;
+        if (yr === 15) yrOpex += turbineCost * 0.15; // gearbox replacement
+        const cf = yrRev - yrOpex;
+        cashFlows.push(cf); cum += cf; cumCF.push(cum);
+      }
+
+      return {
+        system: 'Wind', capex: useCapex, netCapex,
+        annualOpex: totalOpex, annualRevenue: revenue,
+        LCOE, LCOEwithPTC, annualGenMWh: yr1GenMWh,
+        NPV: teaNpv(cashFlows, econ.discount_rate), IRR: teaIrr(cashFlows),
+        payback: teaSimplePayback(cumCF), cashFlows, cumCashFlows: cumCF,
+        opexBreakdown: { fuel: 0, fixedOM: yr1FixedOM, varOM: yr1VarOM, water: 0, stackRepl: 0 },
+        revenueBreakdown: { electricity: revenue },
+      };
+    };
+
+    // ============================================================
+    // BESS TEA (from bess_tea.py)
+    // ============================================================
+    const calculateBESSTEA = (econ) => {
+      if (!econ.bess_power_mw || econ.bess_power_mw === 0) return null;
+      const powerMW = econ.bess_power_mw;
+      const durationHrs = econ.bess_duration_hrs;
+      const energyMWh = powerMW * durationHrs;
+      const powerKW = powerMW * 1000;
+      const energyKWh = energyMWh * 1000;
+      const rte = 0.85;
+      const dailyCycles = 1.0;
+      const annualCycles = dailyCycles * 365 * 0.99;
+      const dod = 0.95;
+      const projLife = 20;
+
+      const energyCapex = energyKWh * 200;
+      const powerCapex = powerKW * 325;
+      const bosCost = powerKW * 0 + energyKWh * (10 + 20 + 15);
+      const installCost = powerKW * (20 + 30 + 50 + 15);
+      const hardware = energyCapex + powerCapex + bosCost + installCost;
+      const softCosts = hardware * 0.08 + powerKW * 10;
+      const subtotal = hardware + softCosts;
+      const totalCapex = subtotal * 1.05;
+      const itcBenefit = totalCapex * 0.30;
+      const netCapex = totalCapex - itcBenefit;
+
+      const batteryCost = energyCapex + powerCapex;
+      const annualFixedOM = powerKW * 11;
+      const annualThroughput = energyMWh * annualCycles * 2 * dod;
+      const annualVarOM = annualThroughput * 0.5;
+      const annualInsurance = totalCapex * 0.004;
+      const annualPropTax = totalCapex * 0.01;
+      const annualSiteLease = powerMW * 2000;
+
+      const augInterval = 2;
+      const augFraction = 0.20;
+      const numAug = Math.floor(projLife / augInterval);
+      let augNPV = 0;
+      for (let i = 1; i <= numAug; i++) {
+        if (i * augInterval < projLife) {
+          augNPV += batteryCost * augFraction / Math.pow(1 + econ.discount_rate, i * augInterval);
+        }
+      }
+      const crf = teaCrf(econ.discount_rate, projLife);
+      const annualAugReserve = augNPV * crf;
+      const totalOpex = annualFixedOM + annualVarOM + annualInsurance + annualPropTax + annualSiteLease + annualAugReserve;
+
+      // SOH tracking
+      const calDeg = 0.01;
+      const cycleDegPerCycle = 0.10 / 3000;
+      const sohByYear = [1.0];
+      const augYears = [];
+      let soh = 1.0;
+      for (let yr = 1; yr <= projLife; yr++) {
+        soh -= calDeg;
+        soh -= annualCycles * cycleDegPerCycle;
+        if (soh < 0.85 && yr % augInterval === 0) {
+          augYears.push(yr);
+          soh = Math.min(1.0, soh + augFraction);
+        }
+        soh = Math.max(0.90, soh);
+        sohByYear.push(soh);
+      }
+
+      const dischargedMWh = annualThroughput / 2 * rte;
+      let lifetimeDischargeNPV = 0;
+      for (let yr = 1; yr <= projLife; yr++) {
+        lifetimeDischargeNPV += dischargedMWh * sohByYear[yr] / Math.pow(1 + econ.discount_rate, yr);
+      }
+      const LCOS = netCapex / lifetimeDischargeNPV +
+        totalOpex / dischargedMWh; // simplified
+
+      const arbitrageSpread = 30;
+      const capacityPayment = powerKW * 50 * 0.90;
+      const ancillary = powerMW * 30000 * 0.5 + powerMW * 10000;
+      const annualRevenue = dischargedMWh * arbitrageSpread + capacityPayment + ancillary;
+
+      const cashFlows = [-netCapex];
+      let cum = -netCapex;
+      const cumCF = [-netCapex];
+      for (let yr = 1; yr <= econ.project_life; yr++) {
+        const sohYr = yr <= projLife ? sohByYear[yr] : sohByYear[projLife];
+        const yrRev = dischargedMWh * sohYr * arbitrageSpread + capacityPayment + ancillary;
+        const infl = Math.pow(1.02, yr - 1);
+        let yrOpex = (totalOpex - annualAugReserve) * infl;
+        if (augYears.includes(yr)) yrOpex += batteryCost * augFraction * Math.pow(1.025, yr - 1);
+        const cf = yrRev - yrOpex;
+        cashFlows.push(cf); cum += cf; cumCF.push(cum);
+      }
+
+      return {
+        system: 'BESS', capex: totalCapex, netCapex,
+        annualOpex: totalOpex, annualRevenue,
+        LCOS, powerMW, energyMWh, durationHrs,
+        NPV: teaNpv(cashFlows, econ.discount_rate), IRR: teaIrr(cashFlows),
+        payback: teaSimplePayback(cumCF), cashFlows, cumCashFlows: cumCF,
+        opexBreakdown: { fuel: 0, fixedOM: annualFixedOM, varOM: annualVarOM, water: 0, stackRepl: annualAugReserve },
+        revenueBreakdown: { arbitrage: dischargedMWh * arbitrageSpread, capacity: capacityPayment, ancillary },
+      };
+    };
+
+    // ============================================================
+    // H2 STATION TEA (from h2_station_tea.py)
+    // ============================================================
+    const calculateH2StationTEA = (massBalance, econ) => {
+      const h2Dispensed = massBalance.H2_dispensed || 0;
+      if (h2Dispensed === 0) return null;
+
+      const capacity = econ.h2_station_capacity || h2Dispensed;
+      const operatingDays = 365;
+      const availability = 0.98;
+      const utilization = 0.80;
+      const annualKg = capacity * utilization * operatingDays * availability;
+      const projLife = econ.project_life;
+
+      // CAPEX - Equipment with scaling
+      const compScale = capacity / 1000;
+      const compressor = 300000 * Math.pow(compScale, 0.67) * 2; // 2 units
+      const lpBufferKg = capacity / 24 * 4;
+      const lpStorage = lpBufferKg * 800;
+      const peakHourKg = capacity / 18 * 2.0;
+      const hpStorageKg = peakHourKg * 8;
+      const hpStorage = hpStorageKg * 1200;
+      const chillerScale = capacity / 450;
+      const chiller = 50000 * Math.pow(chillerScale, 0.50);
+      const dispensers = 2 * 150000;
+      const controls = 75000;
+      const safety = 50000;
+      const site = 150000 + 75000 + 50000;
+      const equipment = compressor + lpStorage + hpStorage + chiller + dispensers + controls + safety;
+      const installation = equipment * 0.15;
+      const engineering = equipment * 0.10;
+      const permitting = 30000;
+      const subtotal = equipment + site + installation + engineering + permitting;
+      const contingency = subtotal * 0.10;
+      const totalCapex = subtotal + contingency;
+
+      // OPEX
+      const secTotal = 1.8 + 0.8 + 0.2; // compression + cooling + BOP kWh/kg
+      const elecPrice = econ.electricity_price;
+      const opexElec = annualKg * secTotal * elecPrice;
+      const opexMaint = compressor * 0.05 + (totalCapex - compressor) * 0.02;
+      const opexLabor = 10 * 52 * 50;
+      const opexInsurance = totalCapex * 0.01;
+      const opexPropTax = totalCapex * 0.01;
+      const opexRent = 36000;
+      const feedstockCost = econ.h2_station_feedstock_cost || 5.0;
+      const opexLosses = annualKg * 0.005 * feedstockCost;
+      const totalOpex = opexElec + opexMaint + opexLabor + opexInsurance + opexPropTax + opexRent + opexLosses;
+
+      // Levelized cost of dispensing
+      const crf = teaCrf(econ.discount_rate, projLife);
+      const lcodCapex = (totalCapex * crf) / annualKg;
+      const lcodOpex = totalOpex / annualKg;
+      const lcodFeedstock = feedstockCost * 1.005;
+      const lcodTotal = lcodCapex + lcodOpex + lcodFeedstock;
+
+      // Revenue & cash flows
+      const revenue = annualKg * econ.h2_price;
+      const annualH2Cost = annualKg * feedstockCost * 1.005;
+      const annualProfit = revenue - annualH2Cost - totalOpex;
+      const cashFlows = [-totalCapex];
+      let cum = -totalCapex;
+      const cumCF = [-totalCapex];
+      for (let yr = 1; yr <= projLife; yr++) {
+        const util = yr <= 3 ? 0.50 + (0.80 - 0.50) * (yr - 1) / 3 : 0.80;
+        const yrKg = capacity * util * operatingDays * availability;
+        const yrRev = yrKg * econ.h2_price;
+        const yrH2Cost = yrKg * feedstockCost * 1.005;
+        const yrOpex = totalOpex * (util / 0.80);
+        const cf = yrRev - yrH2Cost - yrOpex;
+        cashFlows.push(cf); cum += cf; cumCF.push(cum);
+      }
+
+      return {
+        system: 'H2 Station', capex: totalCapex, netCapex: totalCapex,
+        annualOpex: totalOpex + annualH2Cost, annualRevenue: revenue,
+        LCOH: lcodTotal, LCOE: null,
+        NPV: teaNpv(cashFlows, econ.discount_rate), IRR: teaIrr(cashFlows),
+        payback: teaSimplePayback(cumCF), cashFlows, cumCashFlows: cumCF,
+        opexBreakdown: { fuel: opexElec, fixedOM: opexMaint + opexLabor, varOM: opexLosses, water: 0, stackRepl: 0 },
+        revenueBreakdown: { hydrogen: revenue },
+      };
+    };
+
+    // ============================================================
+    // GH2 DELIVERY TEA (from gh2_delivery_tea.py)
+    // ============================================================
+    const calculateGH2DeliveryTEA = (massBalance, econ) => {
+      const trailerKgDay = massBalance.H2_from_trailer || 0;
+      if (trailerKgDay === 0) return null;
+
+      const operatingDays = 350;
+      const annualH2Kg = trailerKgDay * operatingDays;
+      const projLife = econ.project_life;
+
+      // Trailer specs — composite Type IV, 500 bar (~350 bar avg fill)
+      // Modern composite trailers carry 700–1100 kg usable at 500 bar
+      const trailerCapacityKg = 950; // mid-range 500-bar composite
+      const trailerLeasePerMonth = 8000; // current market for composite trailers
+      const tractorLeasePerMonth = 3500;
+
+      // Fleet sizing
+      const tripsPerDay = trailerKgDay / trailerCapacityKg;
+      const tripsPerYear = Math.ceil(tripsPerDay * operatingDays);
+      const deliveryDistKm = econ.gh2_delivery_distance || 80;
+      const roundTripKm = 2 * deliveryDistKm;
+      const travelTime = roundTripKm / 50; // 50 km/h avg (mixed road)
+      const loadUnloadHrs = 1.0 + 1.5; // quick-connect loading + cascade unloading
+      const roundTripHours = travelTime + loadUnloadHrs;
+      const tripsPerTrailerDay = 10 / roundTripHours; // 10-hr driver shift
+      const trailersForDemand = Math.ceil(tripsPerDay / tripsPerTrailerDay);
+      const numTrailers = trailersForDemand + 1; // +1 swap trailer on-site
+      const numTractors = trailersForDemand;
+
+      // Costs
+      const costTrailer = numTrailers * trailerLeasePerMonth * 12;
+      const costTractor = numTractors * tractorLeasePerMonth * 12;
+      const annualKm = tripsPerYear * roundTripKm;
+      const costFuel = annualKm * 0.35 * 1.10; // L/km * diesel $/L
+      const driverHoursPerTrip = roundTripHours + 0.5; // + pre/post trip
+      const costDriver = tripsPerYear * driverHoursPerTrip * 35; // $/hr loaded
+      const costMaint = numTrailers * 6000 + annualKm * 0.10;
+      const crf = teaCrf(econ.discount_rate, projLife);
+      const terminalCapex = 300000; // loading rack share
+      const costTerminal = terminalCapex * crf + 10000; // annualized + annual maint
+      const deliveryCosts = costTrailer + costTractor + costFuel + costDriver + costMaint + costTerminal;
+
+      const h2ProdCost = econ.gh2_production_cost || 3.0;
+      const h2PurchasedKg = annualH2Kg / (1 - 0.01);
+      const costH2 = h2PurchasedKg * h2ProdCost;
+      const totalAnnual = deliveryCosts + costH2;
+      const deliveryCostPerKg = deliveryCosts / annualH2Kg;
+      const deliveredCostPerKg = totalAnnual / annualH2Kg;
+
+      // Cash flows — standalone delivery business: buy at production cost, sell at retail
+      const totalCapex = terminalCapex; // terminal loading rack (fleet is leased)
+      const annualRevenue = annualH2Kg * econ.h2_price;
+      const cashFlows = [-totalCapex];
+      let cum = -totalCapex;
+      const cumCF = [-totalCapex];
+      for (let yr = 1; yr <= projLife; yr++) {
+        const cf = annualRevenue - costH2 - deliveryCosts;
+        cashFlows.push(cf); cum += cf; cumCF.push(cum);
+      }
+
+      return {
+        system: 'GH2 Delivery', capex: totalCapex, netCapex: totalCapex,
+        annualOpex: deliveryCosts + costH2, annualRevenue,
+        LCOH: deliveredCostPerKg, deliveryCostPerKg, LCOE: null,
+        NPV: teaNpv(cashFlows, econ.discount_rate), IRR: teaIrr(cashFlows),
+        payback: teaSimplePayback(cumCF), cashFlows, cumCashFlows: cumCF,
+        opexBreakdown: { fuel: costFuel, fixedOM: costTrailer + costTractor + costMaint, varOM: costDriver, water: 0, stackRepl: costTerminal, feedstock: costH2 },
+        revenueBreakdown: { hydrogen: annualRevenue },
+      };
+    };
+
+    // ============================================================
+    // LH2 DELIVERY TEA (from lh2_delivery_tea.py)
+    // ============================================================
+    const calculateLH2DeliveryTEA = (massBalance, econ) => {
+      const lh2KgDay = massBalance.H2_from_lh2 || 0;
+      if (lh2KgDay === 0) return null;
+
+      const operatingDays = 350;
+      const annualDemand = lh2KgDay * operatingDays;
+      const projLife = econ.project_life;
+
+      // LH2 Tanker specs (Standard 4000 kg)
+      const tankerCapKg = 4000 * 0.95; // 3800 usable
+      const tankerLeaseMonth = 22000;
+      const tractorLeaseMonth = 3500;
+
+      // Fleet sizing
+      const tripsPerDay = lh2KgDay / tankerCapKg;
+      const tripsPerYear = Math.ceil(tripsPerDay * operatingDays);
+      const deliveryDistKm = econ.lh2_delivery_distance || 150;
+      const roundTripKm = 2 * deliveryDistKm;
+      const roundTripHours = roundTripKm / 60 + 1.0 + 2.0;
+      const tripsPerTankerDay = 10 / roundTripHours;
+      const tankersNeeded = Math.ceil(tripsPerDay / tripsPerTankerDay);
+      const tractorsNeeded = tankersNeeded;
+
+      // Delivery costs
+      const costTanker = tankersNeeded * tankerLeaseMonth * 12;
+      const costTractor = tractorsNeeded * tractorLeaseMonth * 12;
+      const annualKm = tripsPerYear * roundTripKm;
+      const costFuel = annualKm * 0.50 * 1.30;
+      const costDriver = tripsPerYear * (roundTripHours + 1.0) * 40;
+      const costMaint = tankersNeeded * 20000 + annualKm * 0.12;
+      const boiloffPct = 0.003 * 0.5 + 0.01; // transit + transfer
+      const lh2CostAtPlant = econ.lh2_cost_at_plant || 4.50;
+      const lh2LostKg = annualDemand * boiloffPct / (1 - boiloffPct);
+      const costBoiloff = lh2LostKg * lh2CostAtPlant;
+      const deliveryTotal = costTanker + costTractor + costFuel + costDriver + costMaint + costBoiloff;
+      const deliveryCostPerKg = deliveryTotal / annualDemand;
+
+      // Station CAPEX (cryo tank, pump, vaporizer, dispenser)
+      const capacity = lh2KgDay;
+      const storageKg = capacity * 3;
+      const cryoTank = storageKg * 400;
+      const pumpScale = capacity / 500;
+      const pump = 250000 * Math.pow(pumpScale, 0.60) * 2;
+      const vaporizerKW = (capacity / 24) * 1.2;
+      const vaporizer = vaporizerKW * 300;
+      const dispenser = 2 * 120000;
+      const precooler = 30000;
+      const controls = 100000;
+      const safety = 75000;
+      const siteCost = 150000 + 40000 + 75000;
+      const stationEquip = cryoTank + pump + vaporizer + dispenser + precooler + controls + safety;
+      const stationInstall = stationEquip * 0.15;
+      const stationEng = stationEquip * 0.10;
+      const stationPermit = 40000;
+      const stationSubtotal = stationEquip + siteCost + stationInstall + stationEng + stationPermit;
+      const stationContingency = stationSubtotal * 0.10;
+      const stationCapex = stationSubtotal + stationContingency;
+
+      // Station OPEX
+      const opexElec = annualDemand * 0.5 * econ.electricity_price; // pump SEC
+      const opexMaint = stationCapex * 0.03;
+      const opexLabor = 10 * 52 * 50;
+      const opexInsurance = stationCapex * 0.01;
+      const opexPropTax = stationCapex * 0.01;
+      const opexRent = 36000;
+      const avgStorageKg = storageKg / 2;
+      const dailyBoiloff = avgStorageKg * 0.002;
+      const annualBoiloff = dailyBoiloff * 365;
+      const opexBoiloff = annualBoiloff * lh2CostAtPlant;
+      const stationOpex = opexElec + opexMaint + opexLabor + opexInsurance + opexPropTax + opexRent + opexBoiloff;
+
+      // LCOD
+      const crf = teaCrf(econ.discount_rate, projLife);
+      const totalLossPct = boiloffPct + (annualBoiloff / annualDemand);
+      const lh2PerKgDispensed = 1 / (1 - totalLossPct);
+      const lcodFeedstock = lh2CostAtPlant * lh2PerKgDispensed;
+      const lcodDelivery = deliveryCostPerKg;
+      const lcodCapex = (stationCapex * crf) / annualDemand;
+      const lcodOpex = stationOpex / annualDemand;
+      const lcodTotal = lcodFeedstock + lcodDelivery + lcodCapex + lcodOpex;
+
+      // Cash flows
+      const totalCapex = stationCapex;
+      const annualRevenue = annualDemand * econ.h2_price;
+      const annualLH2Cost = annualDemand * lh2PerKgDispensed * lh2CostAtPlant;
+      const cashFlows = [-totalCapex];
+      let cum = -totalCapex;
+      const cumCF = [-totalCapex];
+      for (let yr = 1; yr <= projLife; yr++) {
+        const cf = annualRevenue - annualLH2Cost - deliveryTotal - stationOpex;
+        cashFlows.push(cf); cum += cf; cumCF.push(cum);
+      }
+
+      return {
+        system: 'LH2 Delivery', capex: totalCapex, netCapex: totalCapex,
+        annualOpex: stationOpex + deliveryTotal + annualLH2Cost, annualRevenue,
+        LCOH: lcodTotal, LCOE: null,
+        NPV: teaNpv(cashFlows, econ.discount_rate), IRR: teaIrr(cashFlows),
+        payback: teaSimplePayback(cumCF), cashFlows, cumCashFlows: cumCF,
+        opexBreakdown: { fuel: opexElec + costFuel, fixedOM: opexMaint + opexLabor + costMaint, varOM: costDriver + opexBoiloff + costBoiloff, water: 0, stackRepl: 0, feedstock: annualLH2Cost },
+        revenueBreakdown: { hydrogen: annualRevenue },
+      };
+    };
+
+    // ============================================================
+    // CNG STATION TEA
+    // ============================================================
+    const calculateCNGStationTEA = (scenario, econ) => {
+      const cngTrucks = scenario.NG_cng ? Math.round(scenario.NG_cng / ((80 * 114) * 1.027)) : 0;
+      if (cngTrucks === 0) return null;
+
+      const operatingDays = 365;
+      const fuelPerTruck = 80; // GGE/truck/day
+      const annualGGE = cngTrucks * fuelPerTruck * operatingDays;
+
+      // CAPEX — time-fill CNG station (compressor, storage, dispenser, controls)
+      // NREL AFDC: $1.5–2.5M for a 25-truck fleet station
+      const compressorScale = cngTrucks / 25;
+      const compressor = 400000 * Math.pow(compressorScale, 0.70); // multi-stage 250 bar
+      const storageGGE = cngTrucks * fuelPerTruck * 1.5; // 1.5 days buffer
+      const storageCascade = storageGGE * 30; // $/GGE storage (ASME vessels)
+      const dispensers = Math.ceil(cngTrucks / 8) * 75000; // 1 dispenser per 8 trucks
+      const controls = 50000;
+      const safety = 30000;
+      const siteCivil = 120000 + 60000; // site prep + canopy
+      const equipment = compressor + storageCascade + dispensers + controls + safety;
+      const installation = equipment * 0.20;
+      const engineering = equipment * 0.10;
+      const permitting = 25000;
+      const subtotal = equipment + siteCivil + installation + engineering + permitting;
+      const contingency = subtotal * 0.10;
+      const totalCapex = subtotal + contingency;
+
+      // OPEX
+      const ngScfDay = scenario.NG_cng || 0;
+      const annualNGMMBtu = (ngScfDay * operatingDays) / 1000;
+      const opexFuel = annualNGMMBtu * econ.ng_price;
+      const secKWhPerGGE = 0.6; // compressor + controls
+      const opexElec = annualGGE * secKWhPerGGE * econ.electricity_price;
+      const opexMaint = totalCapex * 0.03;
+      const opexLabor = 6 * 52 * 45; // part-time attendant
+      const opexInsurance = totalCapex * 0.01;
+      const opexPropTax = totalCapex * 0.01;
+      const totalOpex = opexFuel + opexElec + opexMaint + opexLabor + opexInsurance + opexPropTax;
+
+      // Revenue & LCOF
+      const revenue = annualGGE * econ.cng_price_per_gge;
+      const crf = teaCrf(econ.discount_rate, econ.project_life);
+      const lcof = annualGGE > 0 ? (totalCapex * crf + totalOpex) / annualGGE : 0;
+
+      // Cash flows — ramp up utilization over first 2 years
+      const cashFlows = [-totalCapex];
+      let cum = -totalCapex;
+      const cumCF = [-totalCapex];
+      for (let yr = 1; yr <= econ.project_life; yr++) {
+        const util = yr <= 2 ? 0.70 + 0.30 * (yr - 1) / 2 : 1.0;
+        const yrRev = revenue * util;
+        const yrOpex = totalOpex * util;
+        const cf = yrRev - yrOpex;
+        cashFlows.push(cf); cum += cf; cumCF.push(cum);
+      }
+
+      return {
+        system: 'CNG Station', capex: totalCapex, netCapex: totalCapex,
+        annualOpex: totalOpex, annualRevenue: revenue,
+        LCOH: null, LCOE: null, LCOF: lcof,
+        NPV: teaNpv(cashFlows, econ.discount_rate), IRR: teaIrr(cashFlows),
+        payback: teaSimplePayback(cumCF), cashFlows, cumCashFlows: cumCF,
+        opexBreakdown: { fuel: opexFuel, fixedOM: opexMaint + opexLabor, varOM: opexElec, water: 0, stackRepl: 0 },
+        revenueBreakdown: { cng: revenue },
+      };
+    };
+
+    // ============================================================
+    // EV CHARGING STATION TEA
+    // ============================================================
+    const calculateEVStationTEA = (scenario, econ) => {
+      const evDemandKWhDay = scenario.elec_ev || 0;
+      if (evDemandKWhDay === 0) return null;
+
+      const operatingDays = 365;
+      const annualKWh = evDemandKWhDay * operatingDays;
+      const annualMWh = annualKWh / 1000;
+
+      // Station sizing — DCFC (150 kW) + Level 2 (19 kW) mix
+      const peakKW = evDemandKWhDay / 12; // assume 12-hr effective peak
+      const numDCFC = Math.max(2, Math.ceil(peakKW / 150));
+      const numL2 = Math.max(2, Math.ceil((evDemandKWhDay - numDCFC * 150 * 8) / (19 * 12)));
+
+      // CAPEX — NREL DCFC: $100–150K/unit installed; L2: $10–15K/unit
+      const capexDCFC = numDCFC * 130000; // charger + power electronics
+      const capexL2 = Math.max(0, numL2) * 12000;
+      const transformer = 50000 * Math.pow(peakKW / 300, 0.60); // utility interconnection
+      const switchgear = 40000;
+      const controls = 30000;
+      const siteCivil = 80000 + numDCFC * 15000; // pad, conduit, canopy per DCFC
+      const equipment = capexDCFC + capexL2 + transformer + switchgear + controls;
+      const installation = equipment * 0.18;
+      const engineering = equipment * 0.08;
+      const permitting = 20000;
+      const subtotal = equipment + siteCivil + installation + engineering + permitting;
+      const contingency = subtotal * 0.10;
+      const totalCapex = subtotal + contingency;
+
+      // Electricity sourcing cost
+      const gridKWh = scenario.elec_grid || 0;
+      const selfGenKWh = evDemandKWhDay - gridKWh;
+      // Grid portion at retail rate; self-generated at marginal cost (~$0.03/kWh variable cost)
+      const selfGenCostPerKWh = 0.03;
+      const annualElecCost = (gridKWh * operatingDays * econ.electricity_price)
+        + (selfGenKWh * operatingDays * selfGenCostPerKWh);
+      // Demand charges for grid-connected DCFC stations
+      const peakGridKW = gridKWh > 0 ? Math.min(peakKW, gridKWh / 12) : 0;
+      const annualDemandCharge = peakGridKW * 15 * 12; // $15/kW/month typical
+
+      const opexMaint = totalCapex * 0.02; // charger maintenance, network fees
+      const opexNetworkFees = (numDCFC * 200 + Math.max(0, numL2) * 50) * 12; // $/unit/month
+      const opexInsurance = totalCapex * 0.01;
+      const totalOpex = annualElecCost + annualDemandCharge + opexMaint + opexNetworkFees + opexInsurance;
+
+      // Revenue — EV charging at retail rate (typically $0.30–0.50/kWh for DCFC)
+      const evRetailRate = econ.ev_charge_rate || 0.35; // $/kWh blended
+      const revenue = annualKWh * evRetailRate;
+      const crf = teaCrf(econ.discount_rate, econ.project_life);
+      const lcoe = annualKWh > 0 ? (totalCapex * crf + totalOpex) / (annualKWh / 1000) : 0; // $/MWh
+
+      // Cash flows — ramp utilization
+      const cashFlows = [-totalCapex];
+      let cum = -totalCapex;
+      const cumCF = [-totalCapex];
+      for (let yr = 1; yr <= econ.project_life; yr++) {
+        const util = yr <= 3 ? 0.40 + 0.60 * (yr - 1) / 3 : 1.0;
+        const yrRev = revenue * util;
+        const yrOpex = annualElecCost * util + annualDemandCharge + opexMaint + opexNetworkFees + opexInsurance;
+        const cf = yrRev - yrOpex;
+        cashFlows.push(cf); cum += cf; cumCF.push(cum);
+      }
+
+      return {
+        system: 'EV Station', capex: totalCapex, netCapex: totalCapex,
+        annualOpex: totalOpex, annualRevenue: revenue,
+        LCOH: null, LCOE: lcoe,
+        NPV: teaNpv(cashFlows, econ.discount_rate), IRR: teaIrr(cashFlows),
+        payback: teaSimplePayback(cumCF), cashFlows, cumCashFlows: cumCF,
+        opexBreakdown: { fuel: annualElecCost + annualDemandCharge, fixedOM: opexMaint + opexNetworkFees, varOM: 0, water: 0, stackRepl: 0 },
+        revenueBreakdown: { electricity: revenue },
+      };
+    };
+
+    // ============================================================
+    // INTEGRATED STATION TEA
+    // ============================================================
+    const calculateStationTEA = (massBalanceResults, econ) => {
+      const trigen = massBalanceResults.trigen || {};
+      const smr = massBalanceResults.smr || {};
+      const elec = massBalanceResults.elec || {};
+      const scenario = massBalanceResults.scenario || {};
+
+      const trigenTEA = calculateTriGenTEA(trigen, econ);
+      const smrTEA = calculateSMRTEA(smr, econ);
+      const elecTEA = calculateElectrolyzerTEA(elec, econ);
+      const solarTEA = calculateSolarTEA(econ);
+      const windTEA = calculateWindTEA(econ);
+      const bessTEA = calculateBESSTEA(econ);
+      const h2StationTEA = calculateH2StationTEA(scenario, econ);
+      const gh2DeliveryTEA = calculateGH2DeliveryTEA(scenario, econ);
+      const lh2DeliveryTEA = calculateLH2DeliveryTEA(scenario, econ);
+      const cngStationTEA = calculateCNGStationTEA(scenario, econ);
+      const evStationTEA = calculateEVStationTEA(scenario, econ);
+
+      const systems = [trigenTEA, smrTEA, elecTEA, solarTEA, windTEA, bessTEA, h2StationTEA, gh2DeliveryTEA, lh2DeliveryTEA, cngStationTEA, evStationTEA].filter(Boolean);
+
+      const totalCapex = systems.reduce((s, t) => s + t.capex, 0);
+      const totalNetCapex = systems.reduce((s, t) => s + t.netCapex, 0);
+      const totalAnnualOpex = systems.reduce((s, t) => s + t.annualOpex, 0);
+      const totalAnnualRevenue = systems.reduce((s, t) => s + t.annualRevenue, 0);
+
+      // Merged LCOH from H2-producing systems
+      const h2Systems = [trigenTEA, smrTEA, elecTEA].filter(Boolean);
+      const weightedLCOH = h2Systems.length > 0
+        ? h2Systems.reduce((s, t) => s + (t.LCOH || 0) * (t.annualRevenue || 1), 0) /
+          h2Systems.reduce((s, t) => s + (t.annualRevenue || 1), 0)
+        : 0;
+
+      // Station-level LCOE from electricity-producing systems
+      const elecSystems = [trigenTEA, solarTEA, windTEA].filter(Boolean);
+      const weightedLCOE = elecSystems.length > 0
+        ? elecSystems.reduce((s, t) => s + (t.LCOE || 0) * (t.annualRevenue || 1), 0) /
+          elecSystems.reduce((s, t) => s + (t.annualRevenue || 1), 0)
+        : 0;
+
+      // Station-level cash flows
+      const maxLen = Math.max(...systems.map(s => s.cashFlows.length));
+      const stationCashFlows = [];
+      const stationCumCF = [];
+      let cum = 0;
+      for (let i = 0; i < maxLen; i++) {
+        const yrCF = systems.reduce((s, t) => s + (t.cashFlows[i] || 0), 0);
+        stationCashFlows.push(yrCF);
+        cum += yrCF;
+        stationCumCF.push(cum);
+      }
+
+      // CAPEX breakdown data
+      const capexBreakdown = systems.map(s => ({ name: s.system, value: s.capex }));
+
+      // OPEX breakdown (aggregated)
+      const opexCategories = { fuel: 0, fixedOM: 0, varOM: 0, water: 0, stackRepl: 0 };
+      systems.forEach(s => {
+        if (s.opexBreakdown) {
+          Object.keys(opexCategories).forEach(k => { opexCategories[k] += s.opexBreakdown[k] || 0; });
+        }
+      });
+
+      // Revenue breakdown (aggregated)
+      const revCategories = {};
+      systems.forEach(s => {
+        if (s.revenueBreakdown) {
+          Object.keys(s.revenueBreakdown).forEach(k => {
+            revCategories[k] = (revCategories[k] || 0) + s.revenueBreakdown[k];
+          });
+        }
+      });
+
+      // Cash flow chart data (year-by-year)
+      const cashFlowChartData = [];
+      for (let i = 0; i < stationCashFlows.length; i++) {
+        cashFlowChartData.push({
+          year: i === 0 ? 'Year 0' : `Year ${i}`,
+          annualCF: stationCashFlows[i] / 1e6,
+          cumulativeCF: stationCumCF[i] / 1e6,
+        });
+      }
+
+      return {
+        systems, trigenTEA, smrTEA, elecTEA, solarTEA, windTEA, bessTEA, h2StationTEA, gh2DeliveryTEA, lh2DeliveryTEA, cngStationTEA, evStationTEA,
+        totalCapex, totalNetCapex, totalAnnualOpex, totalAnnualRevenue,
+        stationLCOH: weightedLCOH,
+        stationLCOE: weightedLCOE,
+        stationNPV: teaNpv(stationCashFlows, econ.discount_rate),
+        stationIRR: stationCashFlows.length > 1 ? teaIrr(stationCashFlows) : 0,
+        stationPayback: teaSimplePayback(stationCumCF),
+        capexBreakdown, opexCategories, revCategories,
+        cashFlowChartData, stationCashFlows, stationCumCF,
+      };
+    };
+
+    // ============================================================
+    // OPTIMIZER: Sensitivity Analysis
+    // ============================================================
+    const runSensitivity1D = (massBalanceResults, baseEcon, paramKey, paramLabel, numPoints = 20) => {
+      const baseVal = baseEcon[paramKey];
+      const minVal = baseVal * 0.5;
+      const maxVal = baseVal * 2.0;
+      const step = (maxVal - minVal) / (numPoints - 1);
+      const points = [];
+      let breakevenVal = null;
+      let prevNPV = null;
+
+      for (let i = 0; i < numPoints; i++) {
+        const val = minVal + i * step;
+        const testEcon = { ...baseEcon, [paramKey]: val };
+        const tea = calculateStationTEA(massBalanceResults, testEcon);
+        const pt = { value: val, NPV: tea.stationNPV / 1e6, LCOH: tea.stationLCOH, IRR: tea.stationIRR * 100 };
+        points.push(pt);
+        if (prevNPV !== null && prevNPV * pt.NPV < 0) {
+          // linear interpolation for breakeven
+          const prevVal = minVal + (i - 1) * step;
+          breakevenVal = prevVal + (val - prevVal) * (-prevNPV / (pt.NPV - prevNPV));
+        }
+        prevNPV = pt.NPV;
+      }
+      return { paramKey, paramLabel, baseVal, points, breakevenVal };
+    };
+
+    const runSensitivity2D = (massBalanceResults, baseEcon, xKey, yKey, gridSize = 10) => {
+      const xBase = baseEcon[xKey];
+      const yBase = baseEcon[yKey];
+      const xVals = Array.from({ length: gridSize }, (_, i) => xBase * (0.5 + i * 1.5 / (gridSize - 1)));
+      const yVals = Array.from({ length: gridSize }, (_, i) => yBase * (0.5 + i * 1.5 / (gridSize - 1)));
+      const grid = [];
+      for (let yi = 0; yi < gridSize; yi++) {
+        const row = [];
+        for (let xi = 0; xi < gridSize; xi++) {
+          const testEcon = { ...baseEcon, [xKey]: xVals[xi], [yKey]: yVals[yi] };
+          const tea = calculateStationTEA(massBalanceResults, testEcon);
+          row.push({ NPV: tea.stationNPV / 1e6, IRR: tea.stationIRR * 100, LCOH: tea.stationLCOH });
+        }
+        grid.push(row);
+      }
+      return { xVals, yVals, grid };
+    };
+
+    const runScenarioRanking = (baseInputs, baseEcon) => {
+      const scenarios = [
+        { name: 'TriGen Only', overrides: { smr_H2_tpd: 0, electrolyzer_H2_tpd: 0, lh2_tpd: 0, gh2_trailer_kg_day: 0 } },
+        { name: 'Electrolyzer Only', overrides: { trigen_NG_scf_h: 0, smr_H2_tpd: 0, electrolyzer_H2_tpd: 1.0, lh2_tpd: 0, gh2_trailer_kg_day: 0 } },
+        { name: 'SMR Only', overrides: { trigen_NG_scf_h: 0, smr_H2_tpd: 1.0, electrolyzer_H2_tpd: 0, lh2_tpd: 0, gh2_trailer_kg_day: 0 } },
+        { name: 'GH2 Delivery Only', overrides: { trigen_NG_scf_h: 0, smr_H2_tpd: 0, electrolyzer_H2_tpd: 0, lh2_tpd: 0, gh2_trailer_kg_day: 1000 } },
+        { name: 'LH2 Delivery Only', overrides: { trigen_NG_scf_h: 0, smr_H2_tpd: 0, electrolyzer_H2_tpd: 0, lh2_tpd: 1.0, gh2_trailer_kg_day: 0 } },
+        { name: 'TriGen + SMR', overrides: { smr_H2_tpd: 0.5, electrolyzer_H2_tpd: 0, lh2_tpd: 0, gh2_trailer_kg_day: 0 } },
+        { name: 'TriGen + Electrolyzer', overrides: { smr_H2_tpd: 0, electrolyzer_H2_tpd: 0.5, lh2_tpd: 0, gh2_trailer_kg_day: 0 } },
+        { name: 'TriGen + GH2', overrides: { smr_H2_tpd: 0, electrolyzer_H2_tpd: 0, lh2_tpd: 0, gh2_trailer_kg_day: 500 } },
+        { name: 'TriGen + LH2', overrides: { smr_H2_tpd: 0, electrolyzer_H2_tpd: 0, lh2_tpd: 0.5, gh2_trailer_kg_day: 0 } },
+        { name: 'All Sources', overrides: { smr_H2_tpd: 0.2, electrolyzer_H2_tpd: 0.2, lh2_tpd: 0.2, gh2_trailer_kg_day: 200 } },
+      ];
+
+      return scenarios.map(sc => {
+        const testInputs = { ...baseInputs, ...sc.overrides };
+        const massResults = runScenario(testInputs);
+        const trigen = calculateTriGen(testInputs.trigen_NG_scf_h);
+        const smr = calculateSMR(testInputs.smr_H2_tpd);
+        const elec = calculateElectrolyzer(testInputs.electrolyzer_H2_tpd);
+        const tea = calculateStationTEA({ trigen, smr, elec, scenario: massResults }, baseEcon);
+
+        let status = 'UNVIABLE';
+        const irr = tea.stationIRR * 100;
+        const pb = tea.stationPayback;
+        const lcoh = tea.stationLCOH;
+        const npv = tea.stationNPV;
+        if (irr >= 8 && pb <= 10 && lcoh <= 10 && npv > 0) status = 'OPTIMAL';
+        else if (irr >= 5 && pb <= 12 && npv > 0) status = 'VIABLE';
+        else if (npv > 0) status = 'MARGINAL';
+
+        return {
+          name: sc.name,
+          capex: tea.totalCapex / 1e6,
+          lcoh,
+          npv: npv / 1e6,
+          irr,
+          payback: pb,
+          status,
+        };
+      });
+    };
+
+    // ============================================================
+    // NEWS IMPACT ANALYZER - Config Generators
+    // ============================================================
+
+    // H2 source definitions: each maps to physical input keys
+    const H2_SOURCES = [
+      { id: 'trigen',  label: 'TriGen',        inputKey: 'trigen_NG_scf_h', unit: 'scf_h', baseFullDemand: 10700 },
+      { id: 'elec',    label: 'Electrolyzer',   inputKey: 'electrolyzer_H2_tpd', unit: 'tpd', baseFullDemand: 1.0 },
+      { id: 'smr',     label: 'SMR',            inputKey: 'smr_H2_tpd', unit: 'tpd', baseFullDemand: 1.0 },
+      { id: 'gh2',     label: 'GH2 Delivery',   inputKey: 'gh2_trailer_kg_day', unit: 'kg_day', baseFullDemand: 1000 },
+      { id: 'lh2',     label: 'LH2 Delivery',   inputKey: 'lh2_tpd', unit: 'tpd', baseFullDemand: 1.0 },
+    ];
+
+    const EV_SOURCES = [
+      { id: 'trigen',     label: 'TriGen' },
+      { id: 'fc_batt',    label: 'FC+Battery' },
+      { id: 'grid',       label: 'Grid' },
+      { id: 'renewables', label: 'Renewables' },
+    ];
+
+    const generateH2Configs = (h2DemandKgDay) => {
+      const configs = [];
+      const ratios = [1.0]; // singles
+      const mixRatios = [0.30, 0.50, 0.70];
+
+      // Build input set for a given source mix
+      const buildInputs = (sources) => {
+        // Start with all zeros
+        const inp = { trigen_NG_scf_h: 0, smr_H2_tpd: 0, electrolyzer_H2_tpd: 0, lh2_tpd: 0, gh2_trailer_kg_day: 0 };
+        sources.forEach(({ src, frac }) => {
+          inp[src.inputKey] = src.baseFullDemand * frac;
+        });
+        return inp;
+      };
+
+      // Singles
+      H2_SOURCES.forEach(src => {
+        configs.push({
+          name: src.label + ' Only',
+          category: 'single',
+          inputs: buildInputs([{ src, frac: 1.0 }]),
+        });
+      });
+
+      // Pairs at 3 ratios
+      for (let i = 0; i < H2_SOURCES.length; i++) {
+        for (let j = i + 1; j < H2_SOURCES.length; j++) {
+          const a = H2_SOURCES[i], b = H2_SOURCES[j];
+          mixRatios.forEach(r => {
+            const nameA = Math.round(r * 100);
+            const nameB = Math.round((1 - r) * 100);
+            configs.push({
+              name: a.label + ' ' + nameA + ' / ' + b.label + ' ' + nameB,
+              category: 'mix',
+              inputs: buildInputs([{ src: a, frac: r }, { src: b, frac: 1 - r }]),
+            });
+          });
+        }
+      }
+
+      return configs;
+    };
+
+    const generateEVConfigs = (evDemandKWh, baseInputs, baseEcon) => {
+      const configs = [];
+      const mixRatios = [0.30, 0.50, 0.70];
+
+      // Each EV source: how to model its economics
+      // We compute annual cost to supply the kWh fraction
+      const computeEVSourceCost = (sourceId, fractionKWh, econ) => {
+        const annualKWh = fractionKWh * 365;
+        switch (sourceId) {
+          case 'trigen': {
+            // TriGen: NG fuel cost for electricity at ~50% eff
+            const kWhPerScf = 1037 / 3412 * 0.50;
+            const scfNeeded = fractionKWh / kWhPerScf;
+            const costPerDay = scfNeeded * econ.ng_price / 1000; // ng_price is $/MMBtu, ~1000 scf/MMBtu
+            return { annualCost: costPerDay * 365, capex: fractionKWh / 24 * 5000, label: 'TriGen' }; // $5000/kW
+          }
+          case 'fc_batt': {
+            // Fuel cell: H2 -> electricity at 50% eff, 33.33 kWh/kg LHV
+            const h2KgDay = fractionKWh / (33.33 * 0.50);
+            const annualH2 = h2KgDay * 365;
+            const h2Cost = annualH2 * (econ.h2_station_feedstock_cost || 5.0);
+            const fcCapex = fractionKWh / 24 * 3000; // ~$3000/kW
+            const battCapex = fractionKWh / 24 * 4 * 200; // 4hr battery @ $200/kWh
+            return { annualCost: h2Cost + (fcCapex + battCapex) * 0.05, capex: fcCapex + battCapex, label: 'FC+Battery' };
+          }
+          case 'grid': {
+            return { annualCost: fractionKWh * 365 * econ.electricity_price, capex: 50000, label: 'Grid' }; // minimal interconnect
+          }
+          case 'renewables': {
+            // Solar + wind mix, capacity factor ~0.28
+            const peakKW = fractionKWh / 24 / 0.28;
+            const capex = peakKW * 1000 * (econ.solar_capex_per_wdc || 0.60); // $/W
+            const annualOM = capex * 0.015;
+            return { annualCost: annualOM, capex, label: 'Renewables' };
+          }
+          default:
+            return { annualCost: 0, capex: 0, label: '' };
+        }
+      };
+
+      // Evaluate an EV config: returns economics metrics
+      const evalEVConfig = (sources, econ) => {
+        let totalAnnualCost = 0, totalCapex = 0;
+        sources.forEach(({ id, frac }) => {
+          const res = computeEVSourceCost(id, evDemandKWh * frac, econ);
+          totalAnnualCost += res.annualCost;
+          totalCapex += res.capex;
+        });
+        const annualKWh = evDemandKWh * 365;
+        const lcoe = annualKWh > 0 ? (totalAnnualCost + totalCapex * teaCrf(econ.discount_rate, econ.project_life)) / annualKWh : 0;
+        const annualRevenue = annualKWh * econ.electricity_price; // selling at grid price
+        const annualProfit = annualRevenue - totalAnnualCost;
+        const crf = teaCrf(econ.discount_rate, econ.project_life);
+        const npv = -totalCapex + annualProfit / crf; // simplified NPV
+        return { totalCapex, totalAnnualCost, lcoe, npv, annualRevenue };
+      };
+
+      // Singles
+      EV_SOURCES.forEach(src => {
+        configs.push({
+          name: src.label + ' Only',
+          category: 'single',
+          sources: [{ id: src.id, frac: 1.0 }],
+          evalFn: evalEVConfig,
+        });
+      });
+
+      // Pairs at 3 ratios
+      for (let i = 0; i < EV_SOURCES.length; i++) {
+        for (let j = i + 1; j < EV_SOURCES.length; j++) {
+          const a = EV_SOURCES[i], b = EV_SOURCES[j];
+          mixRatios.forEach(r => {
+            const nameA = Math.round(r * 100);
+            const nameB = Math.round((1 - r) * 100);
+            configs.push({
+              name: a.label + ' ' + nameA + ' / ' + b.label + ' ' + nameB,
+              category: 'mix',
+              sources: [{ id: a.id, frac: r }, { id: b.id, frac: 1 - r }],
+              evalFn: evalEVConfig,
+            });
+          });
+        }
+      }
+
+      return configs;
+    };
+
+    // ============================================================
+    // NEWS SIGNALS
+    // ============================================================
+    const NEWS_SIGNALS = {
+      ng_price_climbing: {
+        id: 'ng_price_climbing',
+        label: 'Natural Gas Prices Climbing',
+        icon: 'flame',
+        description: 'Rising NG costs impact TriGen fuel, SMR feedstock, and CNG dispensing economics.',
+        newsSource: 'EIA Short-Term Energy Outlook projects Henry Hub NG at $4.20/MMBtu amid LNG export growth and storage draws.',
+        levels: [
+          { tag: 'Mild (+25%)',     severity: 'mild',     multiplier: 1.25 },
+          { tag: 'Moderate (+50%)', severity: 'moderate',  multiplier: 1.50 },
+          { tag: 'Severe (2x)',     severity: 'severe',    multiplier: 2.00 },
+        ],
+        affects: [
+          { param: 'ng_price',          scale: 1.0 },
+          { param: 'cng_price_per_gge', scale: 0.6 },
+        ],
+      },
+      electricity_dropping: {
+        id: 'electricity_dropping',
+        label: 'Electricity Prices Dropping',
+        icon: 'zap',
+        description: 'Cheaper grid electricity favors electrolyzer-heavy and grid-powered configurations.',
+        newsSource: 'Enverus: Solar PPA prices trending toward $20\u201330/MWh as queued projects create buyer\u2019s market (Utility Dive, Mar 2025).',
+        levels: [
+          { tag: 'Mild (-15%)',     severity: 'mild',     multiplier: 0.85 },
+          { tag: 'Moderate (-30%)', severity: 'moderate',  multiplier: 0.70 },
+          { tag: 'Severe (-50%)',   severity: 'severe',    multiplier: 0.50 },
+        ],
+        affects: [
+          { param: 'electricity_price', scale: 1.0 },
+          { param: 'elec_cost_per_mwh', scale: 1.0 },
+        ],
+      },
+      h2_demand_surge: {
+        id: 'h2_demand_surge',
+        label: 'H2 Demand Surge',
+        icon: 'fuel',
+        description: 'Growing hydrogen demand drives up selling price and feedstock costs.',
+        newsSource: 'DOE projects U.S. clean H2 demand reaching 10 MMT/yr by 2030 under Hydrogen Earthshot, up from 1 MMT today.',
+        levels: [
+          { tag: 'Mild (+20%)',     severity: 'mild',     multiplier: 1.20 },
+          { tag: 'Moderate (+40%)', severity: 'moderate',  multiplier: 1.40 },
+          { tag: 'Severe (+80%)',   severity: 'severe',    multiplier: 1.80 },
+        ],
+        affects: [
+          { param: 'h2_price',                 scale: 1.0 },
+          { param: 'h2_station_feedstock_cost', scale: 0.5 },
+          { param: 'gh2_production_cost',       scale: 0.3 },
+          { param: 'lh2_cost_at_plant',         scale: 0.4 },
+        ],
+      },
+      carbon_tax: {
+        id: 'carbon_tax',
+        label: 'Carbon Tax / Clean H2 Mandate',
+        icon: 'alert',
+        description: 'CO2-emitting pathways (SMR, NG) become more expensive; clean pathways benefit.',
+        newsSource: 'Treasury finalizes 45V rules: gray H2 (>4 kg CO2/kg) gets $0 credit. EU CBAM enters compliance phase Jan 2026, taxing gray H2 imports (Treasury, Jan 2025).',
+        levels: [
+          { tag: '$25/ton CO2',  severity: 'mild',     multiplier: 1.10 },
+          { tag: '$50/ton CO2',  severity: 'moderate',  multiplier: 1.20 },
+          { tag: '$100/ton CO2', severity: 'severe',    multiplier: 1.40 },
+        ],
+        affects: [
+          { param: 'ng_price',                  scale: 1.0 },
+          { param: 'h2_station_feedstock_cost',  scale: 0.7 },
+          { param: 'gh2_production_cost',        scale: 0.5 },
+        ],
+      },
+      diesel_surge: {
+        id: 'diesel_surge',
+        label: 'Diesel / Transport Fuel Surge',
+        icon: 'flame',
+        description: 'Rising diesel prices increase tube trailer and LH2 tanker delivery costs. On-site production (TriGen, Electrolyzer, SMR) unaffected.',
+        newsSource: 'Diesel up $0.21/gal in first 3 weeks of 2025; CA hits $5.08/gal. Fuel is 25\u201340% of trucking costs (Overdrive / FleetOwner, Jan\u2013Nov 2025).',
+        levels: [
+          { tag: 'Mild (+15%)',     severity: 'mild',     multiplier: 1.15 },
+          { tag: 'Moderate (+40%)', severity: 'moderate',  multiplier: 1.40 },
+          { tag: 'Severe (+80%)',   severity: 'severe',    multiplier: 1.80 },
+        ],
+        affects: [
+          { param: 'gh2_delivery_distance', scale: 0.0 }, // distance unchanged, but cost per km rises:
+          { param: 'gh2_production_cost',   scale: 0.15 }, // small pass-through to delivered cost
+          { param: 'lh2_cost_at_plant',     scale: 0.12 }, // LH2 plant cost slight increase (energy)
+          { param: 'ng_price',              scale: 0.2 },  // NG correlated with diesel
+        ],
+      },
+      grid_crisis: {
+        id: 'grid_crisis',
+        label: 'Grid Reliability Crisis',
+        icon: 'zap',
+        description: 'Peak demand surcharges and grid stress increase electricity costs. Hurts electrolyzer and grid-powered EV. Benefits self-generating TriGen.',
+        newsSource: 'PJM capacity prices hit record $333/MW-day \u2014 833% increase \u2014 while falling 6,623 MW short of reliability target due to data center load (Utility Dive, Dec 2025).',
+        levels: [
+          { tag: 'Mild (+20%)',     severity: 'mild',     multiplier: 1.20 },
+          { tag: 'Moderate (+50%)', severity: 'moderate',  multiplier: 1.50 },
+          { tag: 'Severe (2x)',     severity: 'severe',    multiplier: 2.00 },
+        ],
+        affects: [
+          { param: 'electricity_price', scale: 1.0 },
+          { param: 'elec_cost_per_mwh', scale: 1.0 },
+        ],
+      },
+      water_scarcity: {
+        id: 'water_scarcity',
+        label: 'Water Scarcity / Drought',
+        icon: 'alert',
+        description: 'Water restrictions and cost increases hit electrolyzer (9 L/kg feedwater + 42 L/kg cooling) and SMR. Delivery configs unaffected.',
+        newsSource: 'UN declares global "water bankruptcy" \u2014 4 billion face severe scarcity, US Southwest flagged as hotspot due to Colorado River crisis (Washington Post, Jan 2026).',
+        levels: [
+          { tag: 'Mild (2x water cost)',     severity: 'mild',     multiplier: 1.03 },
+          { tag: 'Moderate (5x water cost)', severity: 'moderate',  multiplier: 1.08 },
+          { tag: 'Severe (curtailment)',     severity: 'severe',    multiplier: 1.15 },
+        ],
+        affects: [
+          { param: 'elec_cost_per_mwh', scale: 0.3 },  // cooling water → higher elec costs
+          { param: 'ng_price',           scale: 0.1 },  // water for NG extraction
+        ],
+      },
+      renewable_ppa_crash: {
+        id: 'renewable_ppa_crash',
+        label: 'Renewable PPA Price Crash',
+        icon: 'zap',
+        description: 'Plummeting solar/wind PPA prices make clean-powered electrolysis and renewable EV charging highly competitive.',
+        newsSource: 'Growing competition could drive solar PPA prices to $20\u201330/MWh by 2026 as queued projects create oversupply (Enverus/Utility Dive, Mar 2025). EU solar PPAs below \u20AC35 in 2025.',
+        levels: [
+          { tag: 'Mild (-20%)',     severity: 'mild',     multiplier: 0.80 },
+          { tag: 'Moderate (-40%)', severity: 'moderate',  multiplier: 0.60 },
+          { tag: 'Severe (-60%)',   severity: 'severe',    multiplier: 0.40 },
+        ],
+        affects: [
+          { param: 'elec_cost_per_mwh',  scale: 1.0 },
+          { param: 'electricity_price',  scale: 0.7 },  // retail lags wholesale
+          { param: 'solar_capex_per_wdc', scale: 0.5 }, // correlated module cost drop
+        ],
+      },
+      supply_chain_disruption: {
+        id: 'supply_chain_disruption',
+        label: 'Supply Chain / Equipment Disruption',
+        icon: 'alert',
+        description: 'Iridium shortages, steel price spikes, and manufacturing bottlenecks raise electrolyzer and equipment CAPEX. Delivery (leased fleet) less affected.',
+        newsSource: 'PEM electrolyzer demand could consume 75% of global iridium supply; electrical steel hits $5,915/MT. Critical bottleneck for scale-up (Hydrogen Newsletter, 2025).',
+        levels: [
+          { tag: 'Mild (+15% CAPEX)',     severity: 'mild',     multiplier: 1.15 },
+          { tag: 'Moderate (+35% CAPEX)', severity: 'moderate',  multiplier: 1.35 },
+          { tag: 'Severe (+60% CAPEX)',   severity: 'severe',    multiplier: 1.60 },
+        ],
+        affects: [
+          { param: 'elec_capex_per_kw',    scale: 1.0 },
+          { param: 'trigen_capex_per_kw',   scale: 0.5 },  // general industrial equipment
+          { param: 'solar_capex_per_wdc',   scale: 0.4 },
+          { param: 'wind_capex_per_kw',     scale: 0.4 },
+        ],
+      },
+    };
+
+    // ============================================================
+    // NEWS IMPACT ANALYSIS ENGINE
+    // ============================================================
+    const runNewsImpactAnalysis = (baseInputs, baseEcon, signal) => {
+      const h2Configs = generateH2Configs(baseInputs.H2_demand || 1000);
+      const evConfigs = generateEVConfigs(baseInputs.ev_demand_kWh || 20000, baseInputs, baseEcon);
+
+      const classify = (tea) => {
+        const irr = tea.stationIRR * 100;
+        const pb = tea.stationPayback;
+        const lcoh = tea.stationLCOH;
+        const npv = tea.stationNPV;
+        if (irr >= 8 && pb <= 10 && lcoh <= 10 && npv > 0) return 'OPTIMAL';
+        if (irr >= 5 && pb <= 12 && npv > 0) return 'VIABLE';
+        if (npv > 0) return 'MARGINAL';
+        return 'UNVIABLE';
+      };
+
+      // Sorting is done at render time via h2SortKey/evSortKey state
+
+      // Evaluate all H2 configs with given economics
+      const evaluateH2 = (econ) => {
+        return h2Configs.map(cfg => {
+          const testInputs = { ...baseInputs, ...cfg.inputs };
+          const massResults = runScenario(testInputs);
+          const trigen = calculateTriGen(testInputs.trigen_NG_scf_h);
+          const smr = calculateSMR(testInputs.smr_H2_tpd);
+          const elec = calculateElectrolyzer(testInputs.electrolyzer_H2_tpd);
+          const tea = calculateStationTEA({ trigen, smr, elec, scenario: massResults }, econ);
+          return {
+            name: cfg.name,
+            category: cfg.category,
+            capex: tea.totalCapex / 1e6,
+            lcoh: tea.stationLCOH,
+            npv: tea.stationNPV / 1e6,
+            irr: tea.stationIRR * 100,
+            payback: tea.stationPayback,
+            status: classify(tea),
+          };
+        });
+      };
+
+      // Evaluate all EV configs with given economics
+      const evaluateEV = (econ) => {
+        return evConfigs.map(cfg => {
+          const res = cfg.evalFn(cfg.sources, econ);
+          return {
+            name: cfg.name,
+            category: cfg.category,
+            capex: res.totalCapex / 1e6,
+            lcoe: res.lcoe * 1000, // $/kWh -> $/MWh
+            npv: res.npv / 1e6,
+            annualCost: res.totalAnnualCost / 1e6,
+            irr: 0,
+            lcoh: 0,
+          };
+        });
+      };
+
+      // Apply signal at a given level
+      const applySignal = (level) => {
+        const mod = { ...baseEcon };
+        signal.affects.forEach(aff => {
+          const adj = 1 + (level.multiplier - 1) * aff.scale;
+          mod[aff.param] = baseEcon[aff.param] * adj;
+        });
+        return mod;
+      };
+
+      // Baseline (unsorted — sorting applied at render time)
+      const baseH2 = evaluateH2(baseEcon);
+      const baseEV = evaluateEV(baseEcon);
+      // Build lookup maps for delta computation
+      const baseH2Map = {};
+      baseH2.forEach(sc => { baseH2Map[sc.name] = sc; });
+      const baseEVMap = {};
+      baseEV.forEach(sc => { baseEVMap[sc.name] = sc; });
+
+      // Impact levels
+      const impactLevels = signal.levels.map(level => {
+        const modEcon = applySignal(level);
+
+        // H2
+        const h2Scenarios = evaluateH2(modEcon);
+        h2Scenarios.forEach(sc => {
+          const base = baseH2Map[sc.name];
+          if (base) {
+            sc.npvDelta = sc.npv - base.npv;
+            sc.lcohDelta = sc.lcoh - base.lcoh;
+            sc.baseNpv = base.npv;
+            sc.baseLcoh = base.lcoh;
+            sc.baseStatus = base.status;
+          }
+        });
+
+        // EV
+        const evScenarios = evaluateEV(modEcon);
+        evScenarios.forEach(sc => {
+          const base = baseEVMap[sc.name];
+          if (base) {
+            sc.npvDelta = sc.npv - base.npv;
+            sc.lcoeDelta = sc.lcoe - base.lcoe;
+            sc.baseNpv = base.npv;
+            sc.baseLcoe = base.lcoe;
+          }
+        });
+
+        const paramChanges = signal.affects.map(aff => ({
+          param: aff.param,
+          baseVal: baseEcon[aff.param],
+          newVal: modEcon[aff.param],
+        }));
+
+        return {
+          tag: level.tag,
+          severity: level.severity,
+          paramChanges,
+          h2Scenarios,
+          evScenarios,
+        };
+      });
+
+      // Chart data: top 5 H2 configs by NPV across levels
+      const top5H2Names = [...baseH2].sort((a, b) => b.npv - a.npv).slice(0, 5).map(s => s.name);
+      const h2ChartData = top5H2Names.map(name => {
+        const base = baseH2.find(s => s.name === name);
+        const row = { name, baseline: base.npv };
+        impactLevels.forEach(lv => {
+          const imp = lv.h2Scenarios.find(s => s.name === name);
+          row[lv.severity] = imp ? imp.npv : 0;
+        });
+        return row;
+      });
+
+      const top5EVNames = [...baseEV].sort((a, b) => a.lcoe - b.lcoe).slice(0, 5).map(s => s.name);
+      const evChartData = top5EVNames.map(name => {
+        const base = baseEV.find(s => s.name === name);
+        const row = { name, baseline: base.lcoe };
+        impactLevels.forEach(lv => {
+          const imp = lv.evScenarios.find(s => s.name === name);
+          row[lv.severity] = imp ? imp.lcoe : 0;
+        });
+        return row;
+      });
+
+      return {
+        signal,
+        baselineH2: baseH2,
+        baselineEV: baseEV,
+        impactLevels,
+        h2ChartData,
+        evChartData,
+      };
+    };
+
+    // ============================================================
+    // DASHBOARD COMPONENT
+    // ============================================================
+    function StationDashboard() {
+      const [inputs, setInputs] = useState({
+        trigen_NG_scf_h: 10700, smr_H2_tpd: 0, electrolyzer_H2_tpd: 0,
+        lh2_tpd: 0.5, gh2_trailer_kg_day: 0, cng_trucks: 25,
+        ev_demand_kWh: 20000, fuel_cell_enabled: false, H2_demand: 1000,
+      });
+      const [activeTab, setActiveTab] = useState('overview');
+      const [compareMode, setCompareMode] = useState(false);
+      const [savedScenarios, setSavedScenarios] = useState([]);
+
+      // Economics state (financial inputs only - physical inputs come from `inputs`)
+      const [econInputs, setEconInputs] = useState({
+        discount_rate: 0.08, project_life: 20, inflation_rate: 0.025,
+        ng_price: 4.00, h2_price: 6.00, electricity_price: 0.08, heat_price: 8.00,
+        cng_price_per_gge: 2.50,
+        trigen_capex_per_kw: 5000, elec_capex_per_kw: 700, elec_cost_per_mwh: 40, elec_clean_powered: false,
+        solar_capacity_mw: 0, solar_capex_per_wdc: 0.60,
+        wind_capacity_mw: 0, wind_capex_per_kw: 1200,
+        bess_power_mw: 0, bess_duration_hrs: 4,
+        h2_station_feedstock_cost: 5.00, gh2_delivery_distance: 80, gh2_production_cost: 3.00,
+        lh2_delivery_distance: 150, lh2_cost_at_plant: 4.50,
+        ev_charge_rate: 0.35,
+      });
+      const handleEconChange = (key, value) => setEconInputs(prev => ({ ...prev, [key]: value }));
+
+      // Optimizer state
+      const [sensParam, setSensParam] = useState('ng_price');
+      const [heatmapX, setHeatmapX] = useState('ng_price');
+      const [heatmapY, setHeatmapY] = useState('h2_price');
+
+      // News Impact state
+      const [selectedSignalId, setSelectedSignalId] = useState('ng_price_climbing');
+      const [injectedSignal, setInjectedSignal] = useState(null);
+      const [showAllH2, setShowAllH2] = useState(false);
+      const [showAllEV, setShowAllEV] = useState(false);
+      const [h2SortKey, setH2SortKey] = useState('npv');   // 'npv' | 'lcoh' | 'irr' | 'capex'
+      const [h2SortAsc, setH2SortAsc] = useState(false);   // false = desc for NPV/IRR, true = asc for LCOH
+      const [evSortKey, setEvSortKey] = useState('lcoe');
+      const [evSortAsc, setEvSortAsc] = useState(true);
+      const toggleH2Sort = (key) => {
+        if (h2SortKey === key) { setH2SortAsc(!h2SortAsc); }
+        else { setH2SortKey(key); setH2SortAsc(key === 'lcoh' || key === 'capex'); }
+      };
+      const toggleEvSort = (key) => {
+        if (evSortKey === key) { setEvSortAsc(!evSortAsc); }
+        else { setEvSortKey(key); setEvSortAsc(key === 'lcoe' || key === 'capex'); }
+      };
+
+      // External injection hook
+      React.useEffect(() => {
+        window.injectNewsSignal = (signalData) => {
+          if (signalData && signalData.id && signalData.levels && signalData.affects) {
+            setInjectedSignal(signalData);
+            setSelectedSignalId(signalData.id);
+            setActiveTab('news');
+          }
+        };
+        return () => { delete window.injectNewsSignal; };
+      }, []);
+
+      const activeSignal = useMemo(() => {
+        if (injectedSignal && selectedSignalId === injectedSignal.id) return injectedSignal;
+        return NEWS_SIGNALS[selectedSignalId] || NEWS_SIGNALS.ng_price_climbing;
+      }, [selectedSignalId, injectedSignal]);
+
+      const results = useMemo(() => runScenario(inputs), [inputs]);
+
+      // Compute TEA when economics tab is active or inputs change
+      const teaResults = useMemo(() => {
+        const trigen = calculateTriGen(inputs.trigen_NG_scf_h);
+        const smr = calculateSMR(inputs.smr_H2_tpd);
+        const elec = calculateElectrolyzer(inputs.electrolyzer_H2_tpd);
+        return calculateStationTEA({ trigen, smr, elec, scenario: results }, econInputs);
+      }, [inputs, econInputs, results]);
+
+      // Sensitivity analysis (computed lazily)
+      const sensParamLabels = {
+        ng_price: 'NG Price ($/MMBtu)', h2_price: 'H2 Price ($/kg)',
+        electricity_price: 'Elec Price ($/kWh)', trigen_capex_per_kw: 'TriGen CAPEX ($/kW)',
+        discount_rate: 'Discount Rate',
+        h2_station_feedstock_cost: 'H2 Feedstock ($/kg)',
+        lh2_cost_at_plant: 'LH2 at Plant ($/kg)',
+      };
+      const sensitivity1D = useMemo(() => {
+        if (activeTab !== 'optimizer') return null;
+        const trigen = calculateTriGen(inputs.trigen_NG_scf_h);
+        const smr = calculateSMR(inputs.smr_H2_tpd);
+        const elec = calculateElectrolyzer(inputs.electrolyzer_H2_tpd);
+        return runSensitivity1D({ trigen, smr, elec, scenario: results }, econInputs, sensParam, sensParamLabels[sensParam] || sensParam);
+      }, [inputs, econInputs, sensParam, activeTab, results]);
+
+      const heatmap2D = useMemo(() => {
+        if (activeTab !== 'optimizer') return null;
+        const trigen = calculateTriGen(inputs.trigen_NG_scf_h);
+        const smr = calculateSMR(inputs.smr_H2_tpd);
+        const elec = calculateElectrolyzer(inputs.electrolyzer_H2_tpd);
+        return runSensitivity2D({ trigen, smr, elec, scenario: results }, econInputs, heatmapX, heatmapY);
+      }, [inputs, econInputs, heatmapX, heatmapY, activeTab, results]);
+
+      const scenarioRanking = useMemo(() => {
+        if (activeTab !== 'optimizer') return [];
+        return runScenarioRanking(inputs, econInputs);
+      }, [inputs, econInputs, activeTab]);
+
+      // News Impact analysis (lazy)
+      const newsImpactResults = useMemo(() => {
+        if (activeTab !== 'news') return null;
+        return runNewsImpactAnalysis(inputs, econInputs, activeSignal);
+      }, [inputs, econInputs, activeSignal, activeTab]);
+
+      const presets = {
+        'TriGen Only': { trigen_NG_scf_h: 10700, smr_H2_tpd: 0, electrolyzer_H2_tpd: 0, lh2_tpd: 0, gh2_trailer_kg_day: 0 },
+        'Electrolyzer Only': { trigen_NG_scf_h: 0, smr_H2_tpd: 0, electrolyzer_H2_tpd: 1.0, lh2_tpd: 0, gh2_trailer_kg_day: 0 },
+        'SMR Only': { trigen_NG_scf_h: 0, smr_H2_tpd: 1.0, electrolyzer_H2_tpd: 0, lh2_tpd: 0, gh2_trailer_kg_day: 0 },
+        'GH2 Delivery Only': { trigen_NG_scf_h: 0, smr_H2_tpd: 0, electrolyzer_H2_tpd: 0, lh2_tpd: 0, gh2_trailer_kg_day: 1000 },
+        'LH2 Delivery Only': { trigen_NG_scf_h: 0, smr_H2_tpd: 0, electrolyzer_H2_tpd: 0, lh2_tpd: 1.0, gh2_trailer_kg_day: 0 },
+        'TriGen + SMR': { trigen_NG_scf_h: 10700, smr_H2_tpd: 0.5, electrolyzer_H2_tpd: 0, lh2_tpd: 0, gh2_trailer_kg_day: 0 },
+        'TriGen + Electrolyzer': { trigen_NG_scf_h: 10700, smr_H2_tpd: 0, electrolyzer_H2_tpd: 0.5, lh2_tpd: 0, gh2_trailer_kg_day: 0 },
+        'TriGen + GH2': { trigen_NG_scf_h: 10700, smr_H2_tpd: 0, electrolyzer_H2_tpd: 0, lh2_tpd: 0, gh2_trailer_kg_day: 500 },
+        'TriGen + LH2': { trigen_NG_scf_h: 10700, smr_H2_tpd: 0, electrolyzer_H2_tpd: 0, lh2_tpd: 0.5, gh2_trailer_kg_day: 0 },
+        'All Sources': { trigen_NG_scf_h: 10700, smr_H2_tpd: 0.2, electrolyzer_H2_tpd: 0.2, lh2_tpd: 0.2, gh2_trailer_kg_day: 200 },
+      };
+
+      const handleInputChange = (key, value) => setInputs(prev => ({ ...prev, [key]: value }));
+      const loadPreset = (name) => setInputs(prev => ({ ...prev, ...presets[name] }));
+      const saveScenario = () => {
+        const name = "Scenario " + (savedScenarios.length + 1);
+        setSavedScenarios(prev => [...prev, { name, inputs: { ...inputs }, results: { ...results } }]);
+      };
+
+      const h2SourcesData = [
+        { name: 'TriGen', value: results.H2_from_trigen, color: '#3b82f6' },
+        { name: 'SMR', value: results.H2_from_smr, color: '#10b981' },
+        { name: 'Electrolyzer', value: results.H2_from_electrolyzer, color: '#f59e0b' },
+        { name: 'LH2 Delivery', value: results.H2_from_lh2, color: '#8b5cf6' },
+        { name: 'GH2 Trailer', value: results.H2_from_trailer, color: '#06b6d4' },
+      ].filter(d => d.value > 0);
+
+      const ngUsageData = [
+        { name: 'TriGen', value: results.NG_trigen },
+        { name: 'SMR', value: results.NG_smr },
+        { name: 'CNG Station', value: results.NG_cng },
+      ].filter(d => d.value > 0);
+
+      const elecFlowData = [
+        { name: 'TriGen', value: results.elec_trigen, type: 'gen' },
+        { name: 'Fuel Cell', value: results.elec_fc, type: 'gen' },
+        { name: 'Grid', value: results.elec_grid, type: 'gen' },
+        { name: 'Electrolyzer', value: results.elec_electrolyzer, type: 'con' },
+        { name: 'H2 Station', value: results.elec_h2_station, type: 'con' },
+        { name: 'LH2 Pump', value: results.elec_lh2, type: 'con' },
+        { name: 'CNG Station', value: results.elec_cng, type: 'con' },
+        { name: 'EV Charger', value: results.elec_ev, type: 'con' },
+      ];
+
+      const compareData = savedScenarios.map(s => ({
+        name: s.name, LEC: s.results.LEC,
+        H2: s.results.H2_dispensed, Grid: s.results.elec_grid / 1000,
+      }));
+      if (compareMode) {
+        compareData.push({ name: 'Current', LEC: results.LEC, H2: results.H2_dispensed, Grid: results.elec_grid / 1000 });
+      }
+
+      const SliderInput = ({ icon, label, min, max, step, inputKey, format }) => (
+        <div>
+          <label className="text-sm text-gray-400 flex items-center gap-2">
+            <Icon name={icon} />
+            {label}
+          </label>
+          <input type="range" min={min} max={max} step={step}
+            value={inputs[inputKey]}
+            onChange={(e) => handleInputChange(inputKey, Number(e.target.value))}
+            className="w-full mt-1" />
+          <span className="text-sm text-blue-400">{format(inputs[inputKey])}</span>
+        </div>
+      );
+
+      return (
+        <div className="min-h-screen bg-gray-900 text-white p-4">
+          <div className="max-w-7xl mx-auto">
+            <div className="mb-6">
+              <h1 className="text-3xl font-bold text-blue-400 mb-2">Station of the Future</h1>
+              <p className="text-gray-400">Mass &amp; Energy Balance Dashboard</p>
+            </div>
+
+            <div className="flex gap-2 mb-6">
+              {['overview', 'hydrogen', 'electricity', 'compare', 'economics', 'optimizer', 'news'].map(tab => (
+                <button key={tab} onClick={() => setActiveTab(tab)}
+                  className={"px-4 py-2 rounded-lg font-medium transition " +
+                    (activeTab === tab ? 'bg-blue-600 text-white' : 'bg-gray-800 text-gray-400 hover:bg-gray-700')}>
+                  {tab.charAt(0).toUpperCase() + tab.slice(1)}
+                </button>
+              ))}
+            </div>
+
+            <div className="grid grid-cols-12 gap-4">
+              {/* Left Panel */}
+              <div className="col-span-3 bg-gray-800 rounded-xl p-4">
+                <h2 className="text-lg font-semibold mb-4 flex items-center gap-2">
+                  <Icon name="factory" className="text-blue-400" />
+                  Configuration
+                </h2>
+
+                <div className="mb-4">
+                  <label className="text-sm text-gray-400 mb-2 block">Load Preset</label>
+                  <select className="w-full bg-gray-700 rounded-lg p-2 text-sm text-white"
+                    onChange={(e) => e.target.value && loadPreset(e.target.value)} defaultValue="">
+                    <option value="">Select preset...</option>
+                    {Object.keys(presets).map(name => <option key={name} value={name}>{name}</option>)}
+                  </select>
+                </div>
+
+                <div className="space-y-4">
+                  <SliderInput icon="flame" label="TriGen NG (scf/h)"
+                    min={0} max={21840} step={100} inputKey="trigen_NG_scf_h"
+                    format={v => v.toLocaleString()} />
+                  <SliderInput icon="factory" label="SMR H2 (tpd)"
+                    min={0} max={2} step={0.1} inputKey="smr_H2_tpd"
+                    format={v => v.toFixed(1)} />
+                  <SliderInput icon="zap" label="Electrolyzer H2 (tpd)"
+                    min={0} max={2} step={0.1} inputKey="electrolyzer_H2_tpd"
+                    format={v => v.toFixed(1)} />
+                  <SliderInput icon="droplets" label="LH2 Delivery (tpd)"
+                    min={0} max={2} step={0.1} inputKey="lh2_tpd"
+                    format={v => v.toFixed(1)} />
+                  <SliderInput icon="truck" label="GH2 Trailer (kg/day)"
+                    min={0} max={1000} step={50} inputKey="gh2_trailer_kg_day"
+                    format={v => String(v)} />
+                  <SliderInput icon="truck" label="CNG Trucks/day"
+                    min={0} max={50} step={1} inputKey="cng_trucks"
+                    format={v => String(v)} />
+                  <SliderInput icon="car" label="EV Demand (kWh/day)"
+                    min={0} max={50000} step={1000} inputKey="ev_demand_kWh"
+                    format={v => (v/1000).toFixed(0) + " MWh"} />
+
+                  <div className="flex items-center justify-between">
+                    <label className="text-sm text-gray-400 flex items-center gap-2">
+                      <Icon name="battery" />
+                      Fuel Cell
+                    </label>
+                    <button onClick={() => handleInputChange('fuel_cell_enabled', !inputs.fuel_cell_enabled)}
+                      className={"w-12 h-6 rounded-full transition " +
+                        (inputs.fuel_cell_enabled ? 'bg-blue-600' : 'bg-gray-600')}>
+                      <div className={"w-5 h-5 bg-white rounded-full transition transform " +
+                        (inputs.fuel_cell_enabled ? 'translate-x-6' : 'translate-x-0.5')} />
+                    </button>
+                  </div>
+                </div>
+
+                <button onClick={saveScenario}
+                  className="w-full mt-4 bg-blue-600 hover:bg-blue-700 text-white py-2 rounded-lg font-medium transition">
+                  Save Scenario
+                </button>
+
+                {(activeTab === 'economics' || activeTab === 'optimizer' || activeTab === 'news') && (
+                  <div className="mt-6 border-t border-gray-700 pt-4">
+                    <h3 className="text-sm font-semibold text-green-400 mb-3">Financial Parameters</h3>
+                    <div className="space-y-3">
+                      <div>
+                        <label className="text-xs text-gray-400">Discount Rate</label>
+                        <input type="range" min={0.03} max={0.15} step={0.005}
+                          value={econInputs.discount_rate}
+                          onChange={(e) => handleEconChange('discount_rate', Number(e.target.value))}
+                          className="w-full mt-1" />
+                        <span className="text-xs text-green-400">{(econInputs.discount_rate * 100).toFixed(1)}%</span>
+                      </div>
+                      <div>
+                        <label className="text-xs text-gray-400">Project Life (years)</label>
+                        <input type="range" min={10} max={30} step={1}
+                          value={econInputs.project_life}
+                          onChange={(e) => handleEconChange('project_life', Number(e.target.value))}
+                          className="w-full mt-1" />
+                        <span className="text-xs text-green-400">{econInputs.project_life} yr</span>
+                      </div>
+                      <div>
+                        <label className="text-xs text-gray-400">NG Price ($/MMBtu)</label>
+                        <input type="range" min={1} max={10} step={0.25}
+                          value={econInputs.ng_price}
+                          onChange={(e) => handleEconChange('ng_price', Number(e.target.value))}
+                          className="w-full mt-1" />
+                        <span className="text-xs text-green-400">${econInputs.ng_price.toFixed(2)}</span>
+                      </div>
+                      <div>
+                        <label className="text-xs text-gray-400">H2 Selling Price ($/kg)</label>
+                        <input type="range" min={2} max={15} step={0.25}
+                          value={econInputs.h2_price}
+                          onChange={(e) => handleEconChange('h2_price', Number(e.target.value))}
+                          className="w-full mt-1" />
+                        <span className="text-xs text-green-400">${econInputs.h2_price.toFixed(2)}</span>
+                      </div>
+                      <div>
+                        <label className="text-xs text-gray-400">Electricity Price ($/kWh)</label>
+                        <input type="range" min={0.02} max={0.20} step={0.005}
+                          value={econInputs.electricity_price}
+                          onChange={(e) => handleEconChange('electricity_price', Number(e.target.value))}
+                          className="w-full mt-1" />
+                        <span className="text-xs text-green-400">${econInputs.electricity_price.toFixed(3)}</span>
+                      </div>
+                      <div>
+                        <label className="text-xs text-gray-400">Heat Value ($/MMBtu)</label>
+                        <input type="range" min={2} max={20} step={0.5}
+                          value={econInputs.heat_price}
+                          onChange={(e) => handleEconChange('heat_price', Number(e.target.value))}
+                          className="w-full mt-1" />
+                        <span className="text-xs text-green-400">${econInputs.heat_price.toFixed(1)}</span>
+                      </div>
+                      {inputs.cng_trucks > 0 && (
+                        <div>
+                          <label className="text-xs text-gray-400">CNG Price ($/GGE)</label>
+                          <input type="range" min={1} max={5} step={0.1}
+                            value={econInputs.cng_price_per_gge}
+                            onChange={(e) => handleEconChange('cng_price_per_gge', Number(e.target.value))}
+                            className="w-full mt-1" />
+                          <span className="text-xs text-green-400">${econInputs.cng_price_per_gge.toFixed(2)}</span>
+                        </div>
+                      )}
+                      {inputs.ev_demand_kWh > 0 && (
+                        <div>
+                          <label className="text-xs text-gray-400">EV Charge Rate ($/kWh)</label>
+                          <input type="range" min={0.10} max={0.80} step={0.01}
+                            value={econInputs.ev_charge_rate}
+                            onChange={(e) => handleEconChange('ev_charge_rate', Number(e.target.value))}
+                            className="w-full mt-1" />
+                          <span className="text-xs text-green-400">${econInputs.ev_charge_rate.toFixed(2)}</span>
+                        </div>
+                      )}
+                    </div>
+
+                    <h3 className="text-sm font-semibold text-yellow-400 mt-4 mb-3">CAPEX Overrides</h3>
+                    <div className="space-y-3">
+                      <div>
+                        <label className="text-xs text-gray-400">TriGen CAPEX ($/kW)</label>
+                        <input type="range" min={2000} max={10000} step={100}
+                          value={econInputs.trigen_capex_per_kw}
+                          onChange={(e) => handleEconChange('trigen_capex_per_kw', Number(e.target.value))}
+                          className="w-full mt-1" />
+                        <span className="text-xs text-yellow-400">${econInputs.trigen_capex_per_kw.toLocaleString()}</span>
+                      </div>
+                      {inputs.electrolyzer_H2_tpd > 0 && (
+                        <React.Fragment>
+                          <div>
+                            <label className="text-xs text-gray-400">Elec CAPEX ($/kW)</label>
+                            <input type="range" min={200} max={1500} step={25}
+                              value={econInputs.elec_capex_per_kw}
+                              onChange={(e) => handleEconChange('elec_capex_per_kw', Number(e.target.value))}
+                              className="w-full mt-1" />
+                            <span className="text-xs text-yellow-400">${econInputs.elec_capex_per_kw}</span>
+                          </div>
+                          <div>
+                            <label className="text-xs text-gray-400">Elec Cost ($/MWh)</label>
+                            <input type="range" min={10} max={100} step={5}
+                              value={econInputs.elec_cost_per_mwh}
+                              onChange={(e) => handleEconChange('elec_cost_per_mwh', Number(e.target.value))}
+                              className="w-full mt-1" />
+                            <span className="text-xs text-yellow-400">${econInputs.elec_cost_per_mwh}</span>
+                          </div>
+                          <div className="flex items-center gap-2">
+                            <input type="checkbox" checked={econInputs.elec_clean_powered}
+                              onChange={(e) => handleEconChange('elec_clean_powered', e.target.checked)} />
+                            <label className="text-xs text-gray-400">Clean-powered (30% ITC eligible)</label>
+                          </div>
+                        </React.Fragment>
+                      )}
+                    </div>
+
+                    <h3 className="text-sm font-semibold text-purple-400 mt-4 mb-3">Solar / Wind / BESS</h3>
+                    <div className="space-y-3">
+                      <div>
+                        <label className="text-xs text-gray-400">Solar (MW)</label>
+                        <input type="range" min={0} max={200} step={5}
+                          value={econInputs.solar_capacity_mw}
+                          onChange={(e) => handleEconChange('solar_capacity_mw', Number(e.target.value))}
+                          className="w-full mt-1" />
+                        <span className="text-xs text-purple-400">{econInputs.solar_capacity_mw} MW</span>
+                      </div>
+                      {econInputs.solar_capacity_mw > 0 && (
+                        <div>
+                          <label className="text-xs text-gray-400">Solar CAPEX ($/Wdc)</label>
+                          <input type="range" min={0.30} max={1.20} step={0.02}
+                            value={econInputs.solar_capex_per_wdc}
+                            onChange={(e) => handleEconChange('solar_capex_per_wdc', Number(e.target.value))}
+                            className="w-full mt-1" />
+                          <span className="text-xs text-purple-400">${econInputs.solar_capex_per_wdc.toFixed(2)}</span>
+                        </div>
+                      )}
+                      <div>
+                        <label className="text-xs text-gray-400">Wind (MW)</label>
+                        <input type="range" min={0} max={400} step={10}
+                          value={econInputs.wind_capacity_mw}
+                          onChange={(e) => handleEconChange('wind_capacity_mw', Number(e.target.value))}
+                          className="w-full mt-1" />
+                        <span className="text-xs text-purple-400">{econInputs.wind_capacity_mw} MW</span>
+                      </div>
+                      {econInputs.wind_capacity_mw > 0 && (
+                        <div>
+                          <label className="text-xs text-gray-400">Wind CAPEX ($/kW)</label>
+                          <input type="range" min={800} max={2000} step={50}
+                            value={econInputs.wind_capex_per_kw}
+                            onChange={(e) => handleEconChange('wind_capex_per_kw', Number(e.target.value))}
+                            className="w-full mt-1" />
+                          <span className="text-xs text-purple-400">${econInputs.wind_capex_per_kw}</span>
+                        </div>
+                      )}
+                      <div>
+                        <label className="text-xs text-gray-400">BESS Power (MW)</label>
+                        <input type="range" min={0} max={100} step={5}
+                          value={econInputs.bess_power_mw}
+                          onChange={(e) => handleEconChange('bess_power_mw', Number(e.target.value))}
+                          className="w-full mt-1" />
+                        <span className="text-xs text-purple-400">{econInputs.bess_power_mw} MW</span>
+                      </div>
+                      {econInputs.bess_power_mw > 0 && (
+                        <div>
+                          <label className="text-xs text-gray-400">BESS Duration (hrs)</label>
+                          <input type="range" min={1} max={8} step={1}
+                            value={econInputs.bess_duration_hrs}
+                            onChange={(e) => handleEconChange('bess_duration_hrs', Number(e.target.value))}
+                            className="w-full mt-1" />
+                          <span className="text-xs text-purple-400">{econInputs.bess_duration_hrs} hrs</span>
+                        </div>
+                      )}
+                    </div>
+
+                    <h3 className="text-sm font-semibold text-cyan-400 mt-4 mb-3">H2 Delivery / Station</h3>
+                    <div className="space-y-3">
+                      <div>
+                        <label className="text-xs text-gray-400">H2 Station Feedstock ($/kg)</label>
+                        <input type="range" min={2} max={10} step={0.25}
+                          value={econInputs.h2_station_feedstock_cost}
+                          onChange={(e) => handleEconChange('h2_station_feedstock_cost', Number(e.target.value))}
+                          className="w-full mt-1" />
+                        <span className="text-xs text-cyan-400">${econInputs.h2_station_feedstock_cost.toFixed(2)}</span>
+                      </div>
+                      {inputs.gh2_trailer_kg_day > 0 && (
+                        <React.Fragment>
+                          <div>
+                            <label className="text-xs text-gray-400">GH2 Delivery Dist (km)</label>
+                            <input type="range" min={20} max={300} step={10}
+                              value={econInputs.gh2_delivery_distance}
+                              onChange={(e) => handleEconChange('gh2_delivery_distance', Number(e.target.value))}
+                              className="w-full mt-1" />
+                            <span className="text-xs text-cyan-400">{econInputs.gh2_delivery_distance} km</span>
+                          </div>
+                          <div>
+                            <label className="text-xs text-gray-400">GH2 Production Cost ($/kg)</label>
+                            <input type="range" min={1} max={8} step={0.25}
+                              value={econInputs.gh2_production_cost}
+                              onChange={(e) => handleEconChange('gh2_production_cost', Number(e.target.value))}
+                              className="w-full mt-1" />
+                            <span className="text-xs text-cyan-400">${econInputs.gh2_production_cost.toFixed(2)}</span>
+                          </div>
+                        </React.Fragment>
+                      )}
+                      {inputs.lh2_tpd > 0 && (
+                        <React.Fragment>
+                          <div>
+                            <label className="text-xs text-gray-400">LH2 Delivery Dist (km)</label>
+                            <input type="range" min={50} max={500} step={10}
+                              value={econInputs.lh2_delivery_distance}
+                              onChange={(e) => handleEconChange('lh2_delivery_distance', Number(e.target.value))}
+                              className="w-full mt-1" />
+                            <span className="text-xs text-cyan-400">{econInputs.lh2_delivery_distance} km</span>
+                          </div>
+                          <div>
+                            <label className="text-xs text-gray-400">LH2 Cost at Plant ($/kg)</label>
+                            <input type="range" min={2} max={10} step={0.25}
+                              value={econInputs.lh2_cost_at_plant}
+                              onChange={(e) => handleEconChange('lh2_cost_at_plant', Number(e.target.value))}
+                              className="w-full mt-1" />
+                            <span className="text-xs text-cyan-400">${econInputs.lh2_cost_at_plant.toFixed(2)}</span>
+                          </div>
+                        </React.Fragment>
+                      )}
+                    </div>
+                  </div>
+                )}
+              </div>
+
+              {/* Main Content */}
+              <div className="col-span-9">
+                {activeTab === 'overview' && (
+                  <div className="space-y-4">
+                    <div className="grid grid-cols-4 gap-4">
+                      <div className="bg-gray-800 rounded-xl p-4">
+                        <div className="flex items-center gap-2 text-gray-400 text-sm mb-1">
+                          <Icon name="fuel" /> H2 Dispensed
+                        </div>
+                        <div className="text-2xl font-bold text-blue-400">
+                          {results.H2_dispensed.toLocaleString(undefined, {maximumFractionDigits: 0})}
+                        </div>
+                        <div className="text-sm text-gray-500">kg/day</div>
+                      </div>
+                      <div className="bg-gray-800 rounded-xl p-4">
+                        <div className="flex items-center gap-2 text-gray-400 text-sm mb-1">
+                          <Icon name="flame" /> Total NG
+                        </div>
+                        <div className="text-2xl font-bold text-orange-400">
+                          {(results.NG_total/1000).toLocaleString(undefined, {maximumFractionDigits: 0})}k
+                        </div>
+                        <div className="text-sm text-gray-500">scf/day</div>
+                      </div>
+                      <div className="bg-gray-800 rounded-xl p-4">
+                        <div className="flex items-center gap-2 text-gray-400 text-sm mb-1">
+                          <Icon name="zap" /> Grid Import
+                        </div>
+                        <div className={"text-2xl font-bold " + (results.elec_grid > 0 ? 'text-red-400' : 'text-green-400')}>
+                          {(results.elec_grid/1000).toLocaleString(undefined, {maximumFractionDigits: 1})}
+                        </div>
+                        <div className="text-sm text-gray-500">MWh/day</div>
+                      </div>
+                      <div className="bg-gray-800 rounded-xl p-4">
+                        <div className="flex items-center gap-2 text-gray-400 text-sm mb-1">
+                          <Icon name={results.LEC < 1.5 ? "check" : "alert"} /> LEC
+                        </div>
+                        <div className={"text-2xl font-bold " + (results.LEC < 1.5 ? 'text-green-400' : 'text-yellow-400')}>
+                          {results.LEC.toFixed(3)}
+                        </div>
+                        <div className="text-sm text-gray-500">{results.LEC < 1.5 ? 'Good' : 'Review'}</div>
+                      </div>
+                    </div>
+
+                    <div className="grid grid-cols-2 gap-4">
+                      <div className="bg-gray-800 rounded-xl p-4">
+                        <h3 className="text-lg font-semibold mb-4">H2 Sources</h3>
+                        <ResponsiveContainer width="100%" height={250}>
+                          <PieChart>
+                            <Pie data={h2SourcesData} cx="50%" cy="50%"
+                              innerRadius={60} outerRadius={100} paddingAngle={2} dataKey="value"
+                              label={({name, value}) => name + ": " + value.toFixed(0)}>
+                              {h2SourcesData.map((entry, index) => (
+                                <Cell key={index} fill={entry.color} />
+                              ))}
+                            </Pie>
+                            <Tooltip formatter={(v) => v.toFixed(0) + " kg/day"} />
+                          </PieChart>
+                        </ResponsiveContainer>
+                      </div>
+                      <div className="bg-gray-800 rounded-xl p-4">
+                        <h3 className="text-lg font-semibold mb-4">Natural Gas Usage</h3>
+                        <ResponsiveContainer width="100%" height={250}>
+                          <BarChart data={ngUsageData} layout="vertical">
+                            <CartesianGrid strokeDasharray="3 3" stroke="#374151" />
+                            <XAxis type="number" tickFormatter={(v) => (v/1000).toFixed(0) + "k"} />
+                            <YAxis type="category" dataKey="name" width={80} />
+                            <Tooltip formatter={(v) => v.toLocaleString() + " scf/day"} />
+                            <Bar dataKey="value" fill="#f59e0b" radius={4} />
+                          </BarChart>
+                        </ResponsiveContainer>
+                      </div>
+                    </div>
+
+                    <div className="bg-gray-800 rounded-xl p-4">
+                      <h3 className="text-lg font-semibold mb-4">Energy Balance</h3>
+                      <div className="grid grid-cols-3 gap-8">
+                        <div>
+                          <h4 className="text-sm text-gray-400 mb-2">Generation</h4>
+                          <div className="space-y-2">
+                            <div className="flex justify-between"><span>TriGen</span><span className="text-green-400">{(results.elec_trigen/1000).toFixed(1)} MWh</span></div>
+                            <div className="flex justify-between"><span>Fuel Cell</span><span className="text-green-400">{(results.elec_fc/1000).toFixed(1)} MWh</span></div>
+                            <div className="flex justify-between"><span>Grid Import</span><span className="text-red-400">{(results.elec_grid/1000).toFixed(1)} MWh</span></div>
+                            <div className="border-t border-gray-700 pt-2 flex justify-between font-semibold">
+                              <span>Total</span><span className="text-blue-400">{((results.elec_gen + results.elec_grid)/1000).toFixed(1)} MWh</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div>
+                          <h4 className="text-sm text-gray-400 mb-2">Consumption</h4>
+                          <div className="space-y-2">
+                            <div className="flex justify-between"><span>Electrolyzer</span><span className="text-yellow-400">{(results.elec_electrolyzer/1000).toFixed(1)} MWh</span></div>
+                            <div className="flex justify-between"><span>H2 Station</span><span className="text-yellow-400">{(results.elec_h2_station/1000).toFixed(1)} MWh</span></div>
+                            <div className="flex justify-between"><span>LH2 System</span><span className="text-yellow-400">{(results.elec_lh2/1000).toFixed(1)} MWh</span></div>
+                            <div className="flex justify-between"><span>CNG Station</span><span className="text-yellow-400">{(results.elec_cng/1000).toFixed(1)} MWh</span></div>
+                            <div className="flex justify-between"><span>EV Charger</span><span className="text-yellow-400">{(results.elec_ev/1000).toFixed(1)} MWh</span></div>
+                            <div className="border-t border-gray-700 pt-2 flex justify-between font-semibold">
+                              <span>Total</span><span className="text-blue-400">{(results.elec_con/1000).toFixed(1)} MWh</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div>
+                          <h4 className="text-sm text-gray-400 mb-2">Metrics</h4>
+                          <div className="space-y-4">
+                            <div>
+                              <div className="text-sm text-gray-400">Self-Sufficiency</div>
+                              <div className="w-full bg-gray-700 rounded-full h-4 mt-1">
+                                <div className="bg-green-500 h-4 rounded-full transition-all"
+                                  style={{ width: (results.self_sufficiency * 100) + "%" }} />
+                              </div>
+                              <div className="text-right text-sm mt-1">{(results.self_sufficiency * 100).toFixed(0)}%</div>
+                            </div>
+                            <div>
+                              <div className="text-sm text-gray-400">CO2 from SMR</div>
+                              <div className="text-xl font-semibold text-orange-400">{results.CO2_smr.toFixed(0)} kg/day</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                )}
+
+                {activeTab === 'hydrogen' && (
+                  <div className="space-y-4">
+                    <div className="bg-gray-800 rounded-xl p-4">
+                      <h3 className="text-lg font-semibold mb-4">Hydrogen Flow Diagram</h3>
+                      <div className="grid grid-cols-3 gap-4 items-center">
+                        <div className="space-y-2">
+                          <h4 className="text-sm text-gray-400 text-center mb-4">Production Sources</h4>
+                          {[
+                            { name: 'TriGen', value: results.H2_from_trigen, color: '#3b82f6' },
+                            { name: 'SMR', value: results.H2_from_smr, color: '#10b981' },
+                            { name: 'Electrolyzer', value: results.H2_from_electrolyzer, color: '#f59e0b' },
+                            { name: 'LH2 Delivery', value: results.H2_from_lh2, color: '#06b6d4' },
+                            { name: 'GH2 Trailer', value: results.H2_from_trailer, color: '#8b5cf6' },
+                          ].map(source => (
+                            <div key={source.name} className="bg-gray-700 rounded-lg p-3"
+                              style={{borderLeft: "4px solid " + source.color}}>
+                              <div className="text-sm text-gray-400">{source.name}</div>
+                              <div className="text-xl font-bold">{source.value.toFixed(0)} kg/day</div>
+                            </div>
+                          ))}
+                        </div>
+                        <div className="flex flex-col items-center justify-center">
+                          <div className="text-4xl text-gray-500">&#8594;</div>
+                          <div className="bg-gray-700 rounded-lg p-4 my-4">
+                            <div className="text-center text-sm text-gray-400">LP Buffer</div>
+                            <div className="text-2xl font-bold text-blue-400 text-center">
+                              {(results.H2_from_trigen + results.H2_from_smr + results.H2_from_electrolyzer).toFixed(0)}
+                            </div>
+                            <div className="text-center text-sm text-gray-500">kg/day</div>
+                          </div>
+                          <div className="text-4xl text-gray-500">&#8594;</div>
+                        </div>
+                        <div className="space-y-2">
+                          <h4 className="text-sm text-gray-400 text-center mb-4">Consumption</h4>
+                          <div className="bg-gray-700 rounded-lg p-3" style={{borderLeft:"4px solid #10b981"}}>
+                            <div className="text-sm text-gray-400">Dispensed</div>
+                            <div className="text-xl font-bold text-green-400">{results.H2_dispensed.toFixed(0)} kg/day</div>
+                          </div>
+                          <div className="bg-gray-700 rounded-lg p-3" style={{borderLeft:"4px solid #f97316"}}>
+                            <div className="text-sm text-gray-400">To Fuel Cell</div>
+                            <div className="text-xl font-bold text-orange-400">{results.H2_to_fc.toFixed(0)} kg/day</div>
+                          </div>
+                          <div className="bg-gray-700 rounded-lg p-3" style={{borderLeft:"4px solid #ef4444"}}>
+                            <div className="text-sm text-gray-400">Demand Target</div>
+                            <div className="text-xl font-bold">{inputs.H2_demand} kg/day</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="bg-gray-800 rounded-xl p-4">
+                      <h3 className="text-lg font-semibold mb-4">Production Breakdown</h3>
+                      <ResponsiveContainer width="100%" height={300}>
+                        <BarChart data={[
+                          { name: 'TriGen', H2: results.H2_from_trigen, NG: results.NG_trigen / 1000, Elec: 0 },
+                          { name: 'SMR', H2: results.H2_from_smr, NG: results.NG_smr / 1000, Elec: 0 },
+                          { name: 'Electrolyzer', H2: results.H2_from_electrolyzer, NG: 0, Elec: results.elec_electrolyzer / 1000 },
+                          { name: 'LH2', H2: results.H2_from_lh2, NG: 0, Elec: results.elec_lh2 / 1000 },
+                          { name: 'GH2 Trailer', H2: results.H2_from_trailer, NG: 0, Elec: 0 },
+                        ]}>
+                          <CartesianGrid strokeDasharray="3 3" stroke="#374151" />
+                          <XAxis dataKey="name" />
+                          <YAxis yAxisId="left" orientation="left" label={{ value: 'H2 (kg/day)', angle: -90, position: 'insideLeft' }} />
+                          <YAxis yAxisId="right" orientation="right" label={{ value: 'Input (k scf or MWh)', angle: 90, position: 'insideRight' }} />
+                          <Tooltip />
+                          <Legend />
+                          <Bar yAxisId="left" dataKey="H2" fill="#3b82f6" name="H2 Output (kg/day)" />
+                          <Bar yAxisId="right" dataKey="NG" fill="#f59e0b" name="NG Input (k scf/day)" />
+                          <Bar yAxisId="right" dataKey="Elec" fill="#10b981" name="Elec Input (MWh/day)" />
+                        </BarChart>
+                      </ResponsiveContainer>
+                    </div>
+                  </div>
+                )}
+
+                {activeTab === 'electricity' && (
+                  <div className="space-y-4">
+                    <div className="bg-gray-800 rounded-xl p-4">
+                      <h3 className="text-lg font-semibold mb-4">Electricity Flow</h3>
+                      <ResponsiveContainer width="100%" height={350}>
+                        <BarChart data={elecFlowData} layout="vertical">
+                          <CartesianGrid strokeDasharray="3 3" stroke="#374151" />
+                          <XAxis type="number" tickFormatter={(v) => (v/1000).toFixed(1)}
+                            label={{ value: 'MWh/day', position: 'bottom' }} />
+                          <YAxis type="category" dataKey="name" width={100} />
+                          <Tooltip formatter={(v) => (v/1000).toFixed(2) + " MWh/day"} />
+                          <Bar dataKey="value" radius={4}>
+                            {elecFlowData.map((entry, index) => (
+                              <Cell key={index} fill={entry.type === 'gen' ? '#10b981' : '#ef4444'} />
+                            ))}
+                          </Bar>
+                        </BarChart>
+                      </ResponsiveContainer>
+                    </div>
+
+                    <div className="grid grid-cols-2 gap-4">
+                      <div className="bg-gray-800 rounded-xl p-4">
+                        <h3 className="text-lg font-semibold mb-4 text-green-400">Generation</h3>
+                        <div className="text-4xl font-bold mb-2">{(results.elec_gen/1000).toFixed(1)} MWh/day</div>
+                        <div className="space-y-2 text-sm">
+                          <div className="flex justify-between"><span>TriGen</span><span>{((results.elec_trigen/results.elec_gen)*100 || 0).toFixed(0)}%</span></div>
+                          <div className="flex justify-between"><span>Fuel Cell</span><span>{((results.elec_fc/results.elec_gen)*100 || 0).toFixed(0)}%</span></div>
+                        </div>
+                      </div>
+                      <div className="bg-gray-800 rounded-xl p-4">
+                        <h3 className="text-lg font-semibold mb-4 text-red-400">Consumption</h3>
+                        <div className="text-4xl font-bold mb-2">{(results.elec_con/1000).toFixed(1)} MWh/day</div>
+                        <div className="space-y-2 text-sm">
+                          <div className="flex justify-between"><span>EV Charger</span><span>{((results.elec_ev/results.elec_con)*100).toFixed(0)}%</span></div>
+                          <div className="flex justify-between"><span>H2 Station</span><span>{((results.elec_h2_station/results.elec_con)*100).toFixed(0)}%</span></div>
+                          <div className="flex justify-between"><span>Other</span><span>{(((results.elec_electrolyzer + results.elec_lh2 + results.elec_cng)/results.elec_con)*100).toFixed(0)}%</span></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                )}
+
+                {activeTab === 'compare' && (
+                  <div className="space-y-4">
+                    <div className="bg-gray-800 rounded-xl p-4">
+                      <div className="flex justify-between items-center mb-4">
+                        <h3 className="text-lg font-semibold">Scenario Comparison</h3>
+                        <label className="flex items-center gap-2 text-sm">
+                          <input type="checkbox" checked={compareMode}
+                            onChange={(e) => setCompareMode(e.target.checked)} className="rounded" />
+                          Include Current
+                        </label>
+                      </div>
+                      {compareData.length > 0 ? (
+                        <ResponsiveContainer width="100%" height={400}>
+                          <BarChart data={compareData}>
+                            <CartesianGrid strokeDasharray="3 3" stroke="#374151" />
+                            <XAxis dataKey="name" />
+                            <YAxis yAxisId="left" orientation="left" />
+                            <YAxis yAxisId="right" orientation="right" />
+                            <Tooltip />
+                            <Legend />
+                            <Bar yAxisId="left" dataKey="LEC" fill="#3b82f6" name="LEC" />
+                            <Bar yAxisId="left" dataKey="H2" fill="#10b981" name="H2 Dispensed (kg)" />
+                            <Bar yAxisId="right" dataKey="Grid" fill="#ef4444" name="Grid Import (MWh)" />
+                          </BarChart>
+                        </ResponsiveContainer>
+                      ) : (
+                        <div className="text-center text-gray-400 py-12">
+                          Save some scenarios to compare them here
+                        </div>
+                      )}
+                    </div>
+
+                    {savedScenarios.length > 0 && (
+                      <div className="bg-gray-800 rounded-xl p-4">
+                        <h3 className="text-lg font-semibold mb-4">Saved Scenarios</h3>
+                        <table className="w-full text-sm">
+                          <thead>
+                            <tr className="text-gray-400 border-b border-gray-700">
+                              <th className="text-left py-2">Name</th>
+                              <th className="text-right py-2">H2 (kg/day)</th>
+                              <th className="text-right py-2">NG (k scf/day)</th>
+                              <th className="text-right py-2">Grid (MWh)</th>
+                              <th className="text-right py-2">LEC</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            {savedScenarios.map((s, i) => (
+                              <tr key={i} className="border-b border-gray-700">
+                                <td className="py-2">{s.name}</td>
+                                <td className="text-right">{s.results.H2_dispensed.toFixed(0)}</td>
+                                <td className="text-right">{(s.results.NG_total/1000).toFixed(0)}</td>
+                                <td className="text-right">{(s.results.elec_grid/1000).toFixed(1)}</td>
+                                <td className={"text-right " + (s.results.LEC < 1.5 ? 'text-green-400' : 'text-yellow-400')}>
+                                  {s.results.LEC.toFixed(3)}
+                                </td>
+                              </tr>
+                            ))}
+                          </tbody>
+                        </table>
+                      </div>
+                    )}
+                  </div>
+                )}
+
+                {/* ==================== ECONOMICS TAB ==================== */}
+                {activeTab === 'economics' && (
+                  <div className="space-y-4">
+                    {/* KPI Cards */}
+                    <div className="grid grid-cols-6 gap-3">
+                      {[
+                        {
+                          label: 'Station LCOH', value: '$' + teaResults.stationLCOH.toFixed(2) + '/kg',
+                          color: teaResults.stationLCOH < 4 ? 'text-green-400' : teaResults.stationLCOH < 8 ? 'text-yellow-400' : 'text-red-400',
+                        },
+                        {
+                          label: 'Station LCOE', value: '$' + (teaResults.stationLCOE * 1000).toFixed(1) + '/MWh',
+                          color: teaResults.stationLCOE < 0.10 ? 'text-green-400' : teaResults.stationLCOE < 0.15 ? 'text-yellow-400' : 'text-red-400',
+                        },
+                        {
+                          label: 'Total CAPEX', value: '$' + (teaResults.totalCapex / 1e6).toFixed(1) + 'M',
+                          color: 'text-blue-400',
+                        },
+                        {
+                          label: 'Station NPV', value: '$' + (teaResults.stationNPV / 1e6).toFixed(1) + 'M',
+                          color: teaResults.stationNPV > 0 ? 'text-green-400' : 'text-red-400',
+                        },
+                        {
+                          label: 'Station IRR', value: (teaResults.stationIRR * 100).toFixed(1) + '%',
+                          color: teaResults.stationIRR > 0.10 ? 'text-green-400' : teaResults.stationIRR > 0.05 ? 'text-yellow-400' : 'text-red-400',
+                        },
+                        {
+                          label: 'Payback', value: teaResults.stationPayback < 50 ? teaResults.stationPayback.toFixed(1) + ' yr' : 'N/A',
+                          color: teaResults.stationPayback < 7 ? 'text-green-400' : teaResults.stationPayback < 12 ? 'text-yellow-400' : 'text-red-400',
+                        },
+                      ].map((kpi, i) => (
+                        <div key={i} className="bg-gray-800 rounded-xl p-3">
+                          <div className="text-xs text-gray-400 mb-1">{kpi.label}</div>
+                          <div className={"text-xl font-bold " + kpi.color}>{kpi.value}</div>
+                        </div>
+                      ))}
+                    </div>
+
+                    {/* Charts Row 1: CAPEX Breakdown + OPEX Breakdown */}
+                    <div className="grid grid-cols-2 gap-4">
+                      <div className="bg-gray-800 rounded-xl p-4">
+                        <h3 className="text-lg font-semibold mb-3">CAPEX by System</h3>
+                        <ResponsiveContainer width="100%" height={250}>
+                          <PieChart>
+                            <Pie data={teaResults.capexBreakdown.filter(d => d.value > 0)}
+                              cx="50%" cy="50%" innerRadius={50} outerRadius={90}
+                              paddingAngle={2} dataKey="value"
+                              label={({name, value}) => name + ': $' + (value/1e6).toFixed(1) + 'M'}>
+                              {teaResults.capexBreakdown.filter(d => d.value > 0).map((_, i) => (
+                                <Cell key={i} fill={['#3b82f6','#10b981','#f59e0b','#8b5cf6','#06b6d4','#ec4899','#f97316','#14b8a6','#6366f1'][i]} />
+                              ))}
+                            </Pie>
+                            <Tooltip formatter={(v) => '$' + (v/1e6).toFixed(2) + 'M'} />
+                          </PieChart>
+                        </ResponsiveContainer>
+                      </div>
+
+                      <div className="bg-gray-800 rounded-xl p-4">
+                        <h3 className="text-lg font-semibold mb-3">Annual OPEX Breakdown</h3>
+                        <ResponsiveContainer width="100%" height={250}>
+                          <BarChart data={[
+                            { name: 'Fuel', value: teaResults.opexCategories.fuel / 1e6 },
+                            { name: 'Fixed O&M', value: teaResults.opexCategories.fixedOM / 1e6 },
+                            { name: 'Variable O&M', value: teaResults.opexCategories.varOM / 1e6 },
+                            { name: 'Water', value: teaResults.opexCategories.water / 1e6 },
+                            { name: 'Stack/Repl', value: teaResults.opexCategories.stackRepl / 1e6 },
+                          ].filter(d => d.value > 0.001)}>
+                            <CartesianGrid strokeDasharray="3 3" stroke="#374151" />
+                            <XAxis dataKey="name" tick={{ fontSize: 11 }} />
+                            <YAxis tickFormatter={(v) => '$' + v.toFixed(1) + 'M'} />
+                            <Tooltip formatter={(v) => '$' + v.toFixed(3) + 'M'} />
+                            <Bar dataKey="value" fill="#f59e0b" radius={4} />
+                          </BarChart>
+                        </ResponsiveContainer>
+                      </div>
+                    </div>
+
+                    {/* Charts Row 2: Cash Flow + Revenue vs Cost */}
+                    <div className="grid grid-cols-2 gap-4">
+                      <div className="bg-gray-800 rounded-xl p-4">
+                        <h3 className="text-lg font-semibold mb-3">20-Year Cash Flow</h3>
+                        <ResponsiveContainer width="100%" height={280}>
+                          <ComposedChart data={teaResults.cashFlowChartData}>
+                            <CartesianGrid strokeDasharray="3 3" stroke="#374151" />
+                            <XAxis dataKey="year" tick={{ fontSize: 10 }} interval={2} />
+                            <YAxis tickFormatter={(v) => '$' + v.toFixed(0) + 'M'} />
+                            <Tooltip formatter={(v) => '$' + v.toFixed(2) + 'M'} />
+                            <Legend />
+                            <Bar dataKey="annualCF" fill="#3b82f6" name="Annual CF ($M)" />
+                            <Line type="monotone" dataKey="cumulativeCF" stroke="#10b981" strokeWidth={2}
+                              name="Cumulative ($M)" dot={false} />
+                          </ComposedChart>
+                        </ResponsiveContainer>
+                      </div>
+
+                      <div className="bg-gray-800 rounded-xl p-4">
+                        <h3 className="text-lg font-semibold mb-3">Revenue vs Cost</h3>
+                        <ResponsiveContainer width="100%" height={280}>
+                          <BarChart data={[
+                            ...Object.entries(teaResults.revCategories).map(([k, v]) => ({
+                              name: k.charAt(0).toUpperCase() + k.slice(1), Revenue: v / 1e6, Cost: 0,
+                            })),
+                            { name: 'Fuel', Revenue: 0, Cost: teaResults.opexCategories.fuel / 1e6 },
+                            { name: 'O&M', Revenue: 0, Cost: (teaResults.opexCategories.fixedOM + teaResults.opexCategories.varOM) / 1e6 },
+                            { name: 'Replacements', Revenue: 0, Cost: teaResults.opexCategories.stackRepl / 1e6 },
+                          ]}>
+                            <CartesianGrid strokeDasharray="3 3" stroke="#374151" />
+                            <XAxis dataKey="name" tick={{ fontSize: 10 }} />
+                            <YAxis tickFormatter={(v) => '$' + v.toFixed(1) + 'M'} />
+                            <Tooltip formatter={(v) => '$' + v.toFixed(3) + 'M'} />
+                            <Legend />
+                            <Bar dataKey="Revenue" fill="#10b981" />
+                            <Bar dataKey="Cost" fill="#ef4444" />
+                          </BarChart>
+                        </ResponsiveContainer>
+                      </div>
+                    </div>
+
+                    {/* LCOH Waterfall */}
+                    {teaResults.trigenTEA && (
+                      <div className="bg-gray-800 rounded-xl p-4">
+                        <h3 className="text-lg font-semibold mb-3">LCOH Breakdown (TriGen)</h3>
+                        <ResponsiveContainer width="100%" height={200}>
+                          <BarChart data={[
+                            { name: 'CAPEX', value: teaResults.trigenTEA ? (teaResults.trigenTEA.netCapex * teaCrf(econInputs.discount_rate, econInputs.project_life)) / (teaResults.trigenTEA.LCOH > 0 ? teaResults.trigenTEA.opexBreakdown.fuel / econInputs.ng_price * econInputs.ng_price / teaResults.trigenTEA.LCOH * teaResults.trigenTEA.LCOH : 1) : 0 },
+                            { name: 'Fuel', value: teaResults.trigenTEA.opexBreakdown.fuel / 1e6 },
+                            { name: 'Fixed O&M', value: teaResults.trigenTEA.opexBreakdown.fixedOM / 1e6 },
+                            { name: 'Stack Repl', value: teaResults.trigenTEA.opexBreakdown.stackRepl / 1e6 },
+                          ]} layout="vertical">
+                            <CartesianGrid strokeDasharray="3 3" stroke="#374151" />
+                            <XAxis type="number" tickFormatter={(v) => '$' + v.toFixed(1) + 'M'} />
+                            <YAxis type="category" dataKey="name" width={80} />
+                            <Tooltip formatter={(v) => '$' + v.toFixed(3) + 'M'} />
+                            <Bar dataKey="value" fill="#8b5cf6" radius={4} />
+                          </BarChart>
+                        </ResponsiveContainer>
+                      </div>
+                    )}
+
+                    {/* Per-system summary table */}
+                    <div className="bg-gray-800 rounded-xl p-4">
+                      <h3 className="text-lg font-semibold mb-3">Per-System Economics</h3>
+                      <table className="w-full text-sm">
+                        <thead>
+                          <tr className="text-gray-400 border-b border-gray-700">
+                            <th className="text-left py-2">System</th>
+                            <th className="text-right py-2">CAPEX ($M)</th>
+                            <th className="text-right py-2">OPEX ($M/yr)</th>
+                            <th className="text-right py-2">Revenue ($M/yr)</th>
+                            <th className="text-right py-2">LCOH ($/kg)</th>
+                            <th className="text-right py-2">LCOE ($/MWh)</th>
+                            <th className="text-right py-2">NPV ($M)</th>
+                            <th className="text-right py-2">IRR (%)</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {teaResults.systems.map((s, i) => (
+                            <tr key={i} className="border-b border-gray-700">
+                              <td className="py-2 font-medium">{s.system}</td>
+                              <td className="text-right">{(s.capex / 1e6).toFixed(1)}</td>
+                              <td className="text-right">{(s.annualOpex / 1e6).toFixed(2)}</td>
+                              <td className="text-right">{(s.annualRevenue / 1e6).toFixed(2)}</td>
+                              <td className="text-right">{s.LCOH ? '$' + s.LCOH.toFixed(2) : (s.LCOF ? '$' + s.LCOF.toFixed(2) + '/GGE' : '—')}</td>
+                              <td className="text-right">{s.LCOE ? '$' + s.LCOE.toFixed(1) : (s.LCOS ? '$' + s.LCOS.toFixed(1) : '—')}</td>
+                              <td className={"text-right " + (s.NPV > 0 ? 'text-green-400' : 'text-red-400')}>{(s.NPV / 1e6).toFixed(1)}</td>
+                              <td className="text-right">{(s.IRR * 100).toFixed(1)}%</td>
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                )}
+
+                {/* ==================== OPTIMIZER TAB ==================== */}
+                {activeTab === 'optimizer' && (
+                  <div className="space-y-4">
+                    {/* 1D Sensitivity */}
+                    <div className="bg-gray-800 rounded-xl p-4">
+                      <div className="flex items-center gap-4 mb-3">
+                        <h3 className="text-lg font-semibold">1D Sensitivity Analysis</h3>
+                        <select className="bg-gray-700 rounded-lg p-2 text-sm text-white"
+                          value={sensParam} onChange={(e) => setSensParam(e.target.value)}>
+                          {Object.entries(sensParamLabels).map(([k, v]) => (
+                            <option key={k} value={k}>{v}</option>
+                          ))}
+                        </select>
+                      </div>
+                      {sensitivity1D && (
+                        <React.Fragment>
+                          <ResponsiveContainer width="100%" height={300}>
+                            <ComposedChart data={sensitivity1D.points}>
+                              <CartesianGrid strokeDasharray="3 3" stroke="#374151" />
+                              <XAxis dataKey="value" tickFormatter={(v) => typeof v === 'number' && v < 1 ? (v * 100).toFixed(0) + '%' : v.toFixed(2)} />
+                              <YAxis yAxisId="left" orientation="left"
+                                label={{ value: 'NPV ($M)', angle: -90, position: 'insideLeft', fill: '#9ca3af' }} />
+                              <YAxis yAxisId="right" orientation="right"
+                                label={{ value: 'LCOH ($/kg)', angle: 90, position: 'insideRight', fill: '#9ca3af' }} />
+                              <Tooltip />
+                              <Legend />
+                              <Line yAxisId="left" type="monotone" dataKey="NPV" stroke="#3b82f6" strokeWidth={2} name="NPV ($M)" dot={false} />
+                              <Line yAxisId="right" type="monotone" dataKey="LCOH" stroke="#f59e0b" strokeWidth={2} name="LCOH ($/kg)" dot={false} />
+                              {sensitivity1D.breakevenVal && (
+                                <Line yAxisId="left" type="monotone" dataKey={() => 0} stroke="#ef4444" strokeDasharray="5 5" name="Breakeven" dot={false} />
+                              )}
+                            </ComposedChart>
+                          </ResponsiveContainer>
+                          {sensitivity1D.breakevenVal && (
+                            <div className="text-sm text-gray-400 mt-2">
+                              NPV breakeven at <span className="text-yellow-400 font-medium">
+                                {sensParam.includes('rate') ? (sensitivity1D.breakevenVal * 100).toFixed(1) + '%' : '$' + sensitivity1D.breakevenVal.toFixed(2)}
+                              </span>
+                            </div>
+                          )}
+                        </React.Fragment>
+                      )}
+                    </div>
+
+                    {/* 2D Heatmap */}
+                    <div className="bg-gray-800 rounded-xl p-4">
+                      <div className="flex items-center gap-4 mb-3">
+                        <h3 className="text-lg font-semibold">2D Sensitivity Heatmap (NPV)</h3>
+                        <select className="bg-gray-700 rounded-lg p-2 text-sm text-white"
+                          value={heatmapX} onChange={(e) => setHeatmapX(e.target.value)}>
+                          {Object.entries(sensParamLabels).map(([k, v]) => (
+                            <option key={k} value={k}>X: {v}</option>
+                          ))}
+                        </select>
+                        <select className="bg-gray-700 rounded-lg p-2 text-sm text-white"
+                          value={heatmapY} onChange={(e) => setHeatmapY(e.target.value)}>
+                          {Object.entries(sensParamLabels).map(([k, v]) => (
+                            <option key={k} value={k}>Y: {v}</option>
+                          ))}
+                        </select>
+                      </div>
+                      {heatmap2D && (
+                        <div className="overflow-x-auto">
+                          <table className="text-xs w-full">
+                            <thead>
+                              <tr>
+                                <th className="p-1 text-gray-400">{sensParamLabels[heatmapY] || heatmapY} \ {sensParamLabels[heatmapX] || heatmapX}</th>
+                                {heatmap2D.xVals.map((x, i) => (
+                                  <th key={i} className="p-1 text-gray-400">{x < 1 ? (x * 100).toFixed(0) + '%' : x.toFixed(1)}</th>
+                                ))}
+                              </tr>
+                            </thead>
+                            <tbody>
+                              {heatmap2D.grid.map((row, yi) => (
+                                <tr key={yi}>
+                                  <td className="p-1 text-gray-400 font-medium">
+                                    {heatmap2D.yVals[yi] < 1 ? (heatmap2D.yVals[yi] * 100).toFixed(0) + '%' : heatmap2D.yVals[yi].toFixed(1)}
+                                  </td>
+                                  {row.map((cell, xi) => {
+                                    const bg = cell.NPV > 5 ? 'bg-green-800' : cell.NPV > 0 ? 'bg-green-900' : cell.NPV > -5 ? 'bg-yellow-900' : 'bg-red-900';
+                                    return (
+                                      <td key={xi} className={"p-1 text-center rounded " + bg}
+                                        title={`NPV: $${cell.NPV.toFixed(1)}M | IRR: ${cell.IRR.toFixed(1)}% | LCOH: $${cell.LCOH.toFixed(2)}/kg`}>
+                                        {cell.NPV.toFixed(0)}
+                                      </td>
+                                    );
+                                  })}
+                                </tr>
+                              ))}
+                            </tbody>
+                          </table>
+                          <div className="flex gap-4 mt-2 text-xs text-gray-400">
+                            <span><span className="inline-block w-3 h-3 bg-green-800 rounded mr-1"></span>NPV &gt; $5M</span>
+                            <span><span className="inline-block w-3 h-3 bg-green-900 rounded mr-1"></span>NPV $0-5M</span>
+                            <span><span className="inline-block w-3 h-3 bg-yellow-900 rounded mr-1"></span>NPV $0 to -$5M</span>
+                            <span><span className="inline-block w-3 h-3 bg-red-900 rounded mr-1"></span>NPV &lt; -$5M</span>
+                          </div>
+                        </div>
+                      )}
+                    </div>
+
+                    {/* Scenario Ranking */}
+                    <div className="bg-gray-800 rounded-xl p-4">
+                      <h3 className="text-lg font-semibold mb-3">Scenario Ranking</h3>
+                      <table className="w-full text-sm">
+                        <thead>
+                          <tr className="text-gray-400 border-b border-gray-700">
+                            <th className="text-left py-2">Scenario</th>
+                            <th className="text-right py-2">CAPEX ($M)</th>
+                            <th className="text-right py-2">LCOH ($/kg)</th>
+                            <th className="text-right py-2">NPV ($M)</th>
+                            <th className="text-right py-2">IRR (%)</th>
+                            <th className="text-right py-2">Payback (yr)</th>
+                            <th className="text-right py-2">Status</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {scenarioRanking.map((sc, i) => {
+                            const statusColor = {
+                              OPTIMAL: 'text-green-400 bg-green-900/30',
+                              VIABLE: 'text-blue-400 bg-blue-900/30',
+                              MARGINAL: 'text-yellow-400 bg-yellow-900/30',
+                              UNVIABLE: 'text-red-400 bg-red-900/30',
+                            }[sc.status] || 'text-gray-400';
+                            return (
+                              <tr key={i} className="border-b border-gray-700">
+                                <td className="py-2 font-medium">{sc.name}</td>
+                                <td className="text-right">{sc.capex.toFixed(1)}</td>
+                                <td className="text-right">${sc.lcoh.toFixed(2)}</td>
+                                <td className={"text-right " + (sc.npv > 0 ? 'text-green-400' : 'text-red-400')}>{sc.npv.toFixed(1)}</td>
+                                <td className="text-right">{sc.irr.toFixed(1)}%</td>
+                                <td className="text-right">{sc.payback < 50 ? sc.payback.toFixed(1) : 'N/A'}</td>
+                                <td className="text-right">
+                                  <span className={"px-2 py-1 rounded text-xs font-medium " + statusColor}>{sc.status}</span>
+                                </td>
+                              </tr>
+                            );
+                          })}
+                        </tbody>
+                      </table>
+                      <div className="text-xs text-gray-500 mt-2">
+                        Thresholds: OPTIMAL = IRR &ge; 8%, payback &le; 10yr, LCOH &le; $10/kg, NPV &gt; 0
+                      </div>
+                    </div>
+                  </div>
+                )}
+
+                {/* ==================== NEWS IMPACT TAB ==================== */}
+                {activeTab === 'news' && newsImpactResults && (
+                  <div className="space-y-4">
+                    {/* Signal Selector */}
+                    <div className="bg-gray-800 rounded-xl p-4">
+                      <div className="flex items-center justify-between">
+                        <div className="flex items-center gap-3">
+                          <Icon name={activeSignal.icon || 'alert'} className="text-orange-400" />
+                          <h3 className="text-lg font-semibold">News Impact Analyzer</h3>
+                        </div>
+                        <select className="bg-gray-700 rounded-lg p-2 text-sm text-white"
+                          value={selectedSignalId}
+                          onChange={(e) => { setSelectedSignalId(e.target.value); setInjectedSignal(null); }}>
+                          {Object.values(NEWS_SIGNALS).map(sig => (
+                            <option key={sig.id} value={sig.id}>{sig.label}</option>
+                          ))}
+                          {injectedSignal && (
+                            <option value={injectedSignal.id}>{injectedSignal.label} (external)</option>
+                          )}
+                        </select>
+                      </div>
+                      <p className="text-sm text-gray-400 mt-2">{activeSignal.description}</p>
+                      {activeSignal.newsSource && (
+                        <p className="text-xs text-yellow-400/70 mt-1 italic">{'\u{1F4F0}'} {activeSignal.newsSource}</p>
+                      )}
+                      <div className="flex gap-2 mt-3 flex-wrap">
+                        {activeSignal.affects.map(aff => (
+                          <span key={aff.param} className="px-2 py-1 bg-gray-700 rounded text-xs text-orange-300">
+                            {aff.param.replace(/_/g, ' ')} ({(aff.scale * 100).toFixed(0)}% pass-through)
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+
+                    {/* Baseline Rankings - H2 and EV side by side */}
+                    {/* Helper: sort arrow indicator */}
+                    {(() => {
+                      const sortArrow = (key, currentKey, asc) => key === currentKey ? (asc ? ' \u25B2' : ' \u25BC') : '';
+                      const sortH2 = (arr) => [...arr].sort((a, b) => {
+                        const va = a[h2SortKey], vb = b[h2SortKey];
+                        return h2SortAsc ? va - vb : vb - va;
+                      });
+                      const sortEV = (arr) => [...arr].sort((a, b) => {
+                        const va = a[evSortKey], vb = b[evSortKey];
+                        return evSortAsc ? va - vb : vb - va;
+                      });
+                      const h2Hdr = (label, key) => (
+                        <th className={"text-right py-1 cursor-pointer select-none hover:text-white " + (h2SortKey === key ? 'text-blue-400' : '')}
+                          onClick={() => toggleH2Sort(key)}>
+                          {label}{sortArrow(key, h2SortKey, h2SortAsc)}
+                        </th>
+                      );
+                      const evHdr = (label, key) => (
+                        <th className={"text-right py-1 cursor-pointer select-none hover:text-white " + (evSortKey === key ? 'text-cyan-400' : '')}
+                          onClick={() => toggleEvSort(key)}>
+                          {label}{sortArrow(key, evSortKey, evSortAsc)}
+                        </th>
+                      );
+
+                      const sortedBaseH2 = sortH2(newsImpactResults.baselineH2);
+                      const sortedBaseEV = sortEV(newsImpactResults.baselineEV);
+
+                      return (<React.Fragment>
+                    <div className="grid grid-cols-2 gap-4">
+                      <div className="bg-gray-800 rounded-xl p-4">
+                        <div className="flex items-center justify-between mb-3">
+                          <h3 className="text-lg font-semibold">H2 Station Baseline ({newsImpactResults.baselineH2.length} configs)</h3>
+                          <button onClick={() => setShowAllH2(!showAllH2)}
+                            className="text-xs text-blue-400 hover:text-blue-300">
+                            {showAllH2 ? 'Show Top 10' : 'Show All'}
+                          </button>
+                        </div>
+                        <table className="w-full text-xs">
+                          <thead>
+                            <tr className="text-gray-400 border-b border-gray-700">
+                              <th className="text-left py-1 w-6">#</th>
+                              <th className="text-left py-1">Config</th>
+                              {h2Hdr('NPV ($M)', 'npv')}
+                              {h2Hdr('LCOH ($/kg)', 'lcoh')}
+                              {h2Hdr('IRR (%)', 'irr')}
+                              {h2Hdr('CAPEX ($M)', 'capex')}
+                              <th className="text-right py-1">Status</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            {(showAllH2 ? sortedBaseH2 : sortedBaseH2.slice(0, 10)).map((sc, idx) => {
+                              const stColor = { OPTIMAL: 'text-green-400', VIABLE: 'text-blue-400', MARGINAL: 'text-yellow-400', UNVIABLE: 'text-red-400' }[sc.status] || '';
+                              return (
+                                <tr key={sc.name} className="border-b border-gray-700/50">
+                                  <td className="py-1 text-gray-500">{idx + 1}</td>
+                                  <td className="py-1">{sc.name}</td>
+                                  <td className={"text-right " + (sc.npv > 0 ? 'text-green-400' : 'text-red-400')}>{sc.npv.toFixed(1)}</td>
+                                  <td className="text-right">${sc.lcoh.toFixed(2)}</td>
+                                  <td className="text-right">{sc.irr.toFixed(1)}%</td>
+                                  <td className="text-right">{sc.capex.toFixed(1)}</td>
+                                  <td className={"text-right " + stColor}>{sc.status}</td>
+                                </tr>
+                              );
+                            })}
+                          </tbody>
+                        </table>
+                      </div>
+
+                      <div className="bg-gray-800 rounded-xl p-4">
+                        <div className="flex items-center justify-between mb-3">
+                          <h3 className="text-lg font-semibold">EV Station Baseline ({newsImpactResults.baselineEV.length} configs)</h3>
+                          <button onClick={() => setShowAllEV(!showAllEV)}
+                            className="text-xs text-blue-400 hover:text-blue-300">
+                            {showAllEV ? 'Show Top 10' : 'Show All'}
+                          </button>
+                        </div>
+                        <table className="w-full text-xs">
+                          <thead>
+                            <tr className="text-gray-400 border-b border-gray-700">
+                              <th className="text-left py-1 w-6">#</th>
+                              <th className="text-left py-1">Config</th>
+                              {evHdr('LCOE ($/MWh)', 'lcoe')}
+                              {evHdr('NPV ($M)', 'npv')}
+                              {evHdr('CAPEX ($M)', 'capex')}
+                            </tr>
+                          </thead>
+                          <tbody>
+                            {(showAllEV ? sortedBaseEV : sortedBaseEV.slice(0, 10)).map((sc, idx) => (
+                              <tr key={sc.name} className="border-b border-gray-700/50">
+                                <td className="py-1 text-gray-500">{idx + 1}</td>
+                                <td className="py-1">{sc.name}</td>
+                                <td className="text-right">${sc.lcoe.toFixed(1)}</td>
+                                <td className={"text-right " + (sc.npv > 0 ? 'text-green-400' : 'text-red-400')}>{sc.npv.toFixed(1)}</td>
+                                <td className="text-right">{sc.capex.toFixed(1)}</td>
+                              </tr>
+                            ))}
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+
+                    {/* Impact Level Cards */}
+                    {newsImpactResults.impactLevels.map(level => {
+                      const sevBorder = { mild: 'border-yellow-600', moderate: 'border-orange-600', severe: 'border-red-600' }[level.severity] || '';
+                      const sevBg = { mild: 'bg-yellow-900/20', moderate: 'bg-orange-900/20', severe: 'bg-red-900/20' }[level.severity] || '';
+                      const sortedLvH2 = sortH2(level.h2Scenarios);
+                      const sortedLvEV = sortEV(level.evScenarios);
+                      const bestH2 = [...level.h2Scenarios].sort((a, b) => b.npv - a.npv)[0];
+                      const bestEV = [...level.evScenarios].sort((a, b) => a.lcoe - b.lcoe)[0];
+                      return (
+                        <div key={level.severity} className={"bg-gray-800 rounded-xl p-4 border-l-4 " + sevBorder}>
+                          {/* Header */}
+                          <div className={"flex items-center justify-between mb-3 -mx-4 -mt-4 px-4 pt-3 pb-2 rounded-t-xl " + sevBg}>
+                            <h3 className="text-lg font-semibold">{level.tag}</h3>
+                            <div className="flex gap-2 text-xs flex-wrap">
+                              {level.paramChanges.map(pc => (
+                                <span key={pc.param} className="bg-gray-700 px-2 py-1 rounded text-orange-300">
+                                  {pc.param.replace(/_/g, ' ')}: ${pc.baseVal.toFixed(2)} &rarr; ${pc.newVal.toFixed(2)}
+                                </span>
+                              ))}
+                            </div>
+                          </div>
+
+                          {/* Recommendations */}
+                          <div className="flex gap-6 mb-3">
+                            <div className="flex items-center gap-2">
+                              <Icon name="check" className="text-green-400" />
+                              <span className="text-sm"><span className="text-green-400 font-medium">Best H2:</span> {bestH2.name}</span>
+                              <span className="text-xs text-gray-400">(NPV ${bestH2.npv.toFixed(1)}M, LCOH ${bestH2.lcoh.toFixed(2)})</span>
+                            </div>
+                            <div className="flex items-center gap-2">
+                              <Icon name="check" className="text-cyan-400" />
+                              <span className="text-sm"><span className="text-cyan-400 font-medium">Best EV:</span> {bestEV.name}</span>
+                              <span className="text-xs text-gray-400">(LCOE ${bestEV.lcoe.toFixed(1)}/MWh)</span>
+                            </div>
+                          </div>
+
+                          {/* H2 and EV tables side by side */}
+                          <div className="grid grid-cols-2 gap-4">
+                            <div>
+                              <h4 className="text-sm text-gray-400 mb-2">H2 Configs</h4>
+                              <table className="w-full text-xs">
+                                <thead>
+                                  <tr className="text-gray-400 border-b border-gray-700">
+                                    <th className="text-left py-1 w-6">#</th>
+                                    <th className="text-left py-1">Config</th>
+                                    {h2Hdr('NPV', 'npv')}
+                                    <th className="text-right py-1">&Delta;NPV</th>
+                                    {h2Hdr('LCOH', 'lcoh')}
+                                    <th className="text-right py-1">&Delta;LCOH</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  {sortedLvH2.slice(0, showAllH2 ? 999 : 10).map((sc, idx) => (
+                                    <tr key={sc.name} className="border-b border-gray-700/50">
+                                      <td className="py-1 text-gray-500">{idx + 1}</td>
+                                      <td className="py-1">{sc.name}</td>
+                                      <td className={"text-right " + (sc.npv > 0 ? 'text-green-400' : 'text-red-400')}>{sc.npv.toFixed(1)}</td>
+                                      <td className={"text-right " + ((sc.npvDelta || 0) >= 0 ? 'text-green-400' : 'text-red-400')}>
+                                        {(sc.npvDelta || 0) >= 0 ? '+' : ''}{(sc.npvDelta || 0).toFixed(1)}
+                                      </td>
+                                      <td className="text-right">${sc.lcoh.toFixed(2)}</td>
+                                      <td className={"text-right " + ((sc.lcohDelta || 0) <= 0 ? 'text-green-400' : 'text-red-400')}>
+                                        {(sc.lcohDelta || 0) >= 0 ? '+' : ''}{(sc.lcohDelta || 0).toFixed(2)}
+                                      </td>
+                                    </tr>
+                                  ))}
+                                </tbody>
+                              </table>
+                            </div>
+
+                            <div>
+                              <h4 className="text-sm text-gray-400 mb-2">EV Configs</h4>
+                              <table className="w-full text-xs">
+                                <thead>
+                                  <tr className="text-gray-400 border-b border-gray-700">
+                                    <th className="text-left py-1 w-6">#</th>
+                                    <th className="text-left py-1">Config</th>
+                                    {evHdr('LCOE', 'lcoe')}
+                                    <th className="text-right py-1">&Delta;LCOE</th>
+                                    {evHdr('NPV', 'npv')}
+                                    <th className="text-right py-1">&Delta;NPV</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  {sortedLvEV.slice(0, showAllEV ? 999 : 10).map((sc, idx) => (
+                                    <tr key={sc.name} className="border-b border-gray-700/50">
+                                      <td className="py-1 text-gray-500">{idx + 1}</td>
+                                      <td className="py-1">{sc.name}</td>
+                                      <td className="text-right">${sc.lcoe.toFixed(1)}</td>
+                                      <td className={"text-right " + ((sc.lcoeDelta || 0) <= 0 ? 'text-green-400' : 'text-red-400')}>
+                                        {(sc.lcoeDelta || 0) >= 0 ? '+' : ''}{(sc.lcoeDelta || 0).toFixed(1)}
+                                      </td>
+                                      <td className={"text-right " + (sc.npv > 0 ? 'text-green-400' : 'text-red-400')}>{sc.npv.toFixed(1)}</td>
+                                      <td className={"text-right " + ((sc.npvDelta || 0) >= 0 ? 'text-green-400' : 'text-red-400')}>
+                                        {(sc.npvDelta || 0) >= 0 ? '+' : ''}{(sc.npvDelta || 0).toFixed(1)}
+                                      </td>
+                                    </tr>
+                                  ))}
+                                </tbody>
+                              </table>
+                            </div>
+                          </div>
+                        </div>
+                      );
+                    })}
+
+                    {/* Charts: NPV comparison (H2) and LCOE comparison (EV) */}
+                    <div className="grid grid-cols-2 gap-4">
+                      <div className="bg-gray-800 rounded-xl p-4">
+                        <h3 className="text-lg font-semibold mb-3">H2 NPV Across Impact Levels (Top 5)</h3>
+                        <ResponsiveContainer width="100%" height={300}>
+                          <BarChart data={newsImpactResults.h2ChartData}>
+                            <CartesianGrid strokeDasharray="3 3" stroke="#374151" />
+                            <XAxis dataKey="name" tick={{ fontSize: 9 }} angle={-20} textAnchor="end" height={60} />
+                            <YAxis tickFormatter={(v) => '$' + v.toFixed(0) + 'M'} />
+                            <Tooltip formatter={(v) => '$' + v.toFixed(2) + 'M'} />
+                            <Legend />
+                            <Bar dataKey="baseline" fill="#3b82f6" name="Baseline" radius={[3,3,0,0]} />
+                            <Bar dataKey="mild" fill="#eab308" name="Mild" radius={[3,3,0,0]} />
+                            <Bar dataKey="moderate" fill="#f97316" name="Moderate" radius={[3,3,0,0]} />
+                            <Bar dataKey="severe" fill="#ef4444" name="Severe" radius={[3,3,0,0]} />
+                          </BarChart>
+                        </ResponsiveContainer>
+                      </div>
+
+                      <div className="bg-gray-800 rounded-xl p-4">
+                        <h3 className="text-lg font-semibold mb-3">EV LCOE Across Impact Levels (Top 5)</h3>
+                        <ResponsiveContainer width="100%" height={300}>
+                          <BarChart data={newsImpactResults.evChartData}>
+                            <CartesianGrid strokeDasharray="3 3" stroke="#374151" />
+                            <XAxis dataKey="name" tick={{ fontSize: 9 }} angle={-20} textAnchor="end" height={60} />
+                            <YAxis tickFormatter={(v) => '$' + v.toFixed(0)} />
+                            <Tooltip formatter={(v) => '$' + v.toFixed(1) + '/MWh'} />
+                            <Legend />
+                            <Bar dataKey="baseline" fill="#3b82f6" name="Baseline" radius={[3,3,0,0]} />
+                            <Bar dataKey="mild" fill="#eab308" name="Mild" radius={[3,3,0,0]} />
+                            <Bar dataKey="moderate" fill="#f97316" name="Moderate" radius={[3,3,0,0]} />
+                            <Bar dataKey="severe" fill="#ef4444" name="Severe" radius={[3,3,0,0]} />
+                          </BarChart>
+                        </ResponsiveContainer>
+                      </div>
+                    </div>
+
+                    {/* Quick Insight */}
+                    <div className="bg-gray-800 rounded-xl p-4 border border-gray-700">
+                      <h3 className="text-sm font-semibold text-gray-400 mb-2">Quick Insight</h3>
+                      <p className="text-sm text-gray-300">
+                        {(() => {
+                          const severe = newsImpactResults.impactLevels[2];
+                          const sevH2byNPV = [...severe.h2Scenarios].sort((a, b) => b.npv - a.npv);
+                          const baseH2byNPV = [...newsImpactResults.baselineH2].sort((a, b) => b.npv - a.npv);
+                          const sevEVbyLCOE = [...severe.evScenarios].sort((a, b) => a.lcoe - b.lcoe);
+                          const baseEVbyLCOE = [...newsImpactResults.baselineEV].sort((a, b) => a.lcoe - b.lcoe);
+                          const recH2 = sevH2byNPV[0];
+                          const baseRecH2 = baseH2byNPV[0];
+                          const recEV = sevEVbyLCOE[0];
+                          const baseRecEV = baseEVbyLCOE[0];
+                          const parts = [];
+                          if (recH2.name === baseRecH2.name) {
+                            parts.push(recH2.name + ' remains the top H2 config even under ' + severe.tag + ' (NPV $' + baseRecH2.npv.toFixed(1) + 'M \u2192 $' + recH2.npv.toFixed(1) + 'M).');
+                          } else {
+                            const oldSevere = severe.h2Scenarios.find(s => s.name === baseRecH2.name);
+                            parts.push('H2 recommendation shifts from ' + baseRecH2.name + ' to ' + recH2.name + ' under ' + severe.tag + ' (NPV $' + recH2.npv.toFixed(1) + 'M vs $' + (oldSevere ? oldSevere.npv.toFixed(1) : '?') + 'M).');
+                          }
+                          if (recEV.name === baseRecEV.name) {
+                            parts.push(recEV.name + ' stays the best EV config (LCOE $' + recEV.lcoe.toFixed(0) + '/MWh).');
+                          } else {
+                            parts.push('EV recommendation shifts from ' + baseRecEV.name + ' to ' + recEV.name + ' (LCOE $' + recEV.lcoe.toFixed(0) + '/MWh).');
+                          }
+                          return parts.join(' ');
+                        })()}
+                      </p>
+                      <p className="text-xs text-gray-500 mt-2">
+                        CNG station operates as standalone. {newsImpactResults.baselineH2.length} H2 configs and {newsImpactResults.baselineEV.length} EV configs evaluated at each level.
+                        Click any column header to sort. Currently sorting H2 by {h2SortKey.toUpperCase()} ({h2SortAsc ? 'asc' : 'desc'}), EV by {evSortKey.toUpperCase()} ({evSortAsc ? 'asc' : 'desc'}).
+                      </p>
+                    </div>
+                    </React.Fragment>);
+                    })()}
+                  </div>
+                )}
+              </div>
+            </div>
+          </div>
+        </div>
+      );
+    }
+
+    ReactDOM.createRoot(document.getElementById('root')).render(<StationDashboard />);
+  </script>
+</body>
+</html>
