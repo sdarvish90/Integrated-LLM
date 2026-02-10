@@ -1,0 +1,6 @@
+event_id,sanction_name,category,date,target,type,sectors,gas_price_impact,description,event_type,sub_type
+SANC_RUSSIA_2014,Crimea Annexation Sanctions,SANCTIONS,2014-03-17,Russia,Sectoral,"Energy, Finance, Defense",0.3,"Initial EU/US sanctions after Crimea, limited energy scope",SANCTIONS,Sectoral
+SANC_RUSSIA_2022,Ukraine Invasion Sanctions,SANCTIONS,2022-02-26,Russia,Comprehensive,"SWIFT, Central Bank, Oil, Technology",4.0,"Severe sanctions, SWIFT cutoff, $400B reserves frozen",SANCTIONS,Comprehensive
+SANC_RUSSIA_OIL_CAP_2022,G7 Russian Oil Price Cap,SANCTIONS,2022-12-05,Russia,Price Cap,Crude Oil,0.5,$60/bbl price cap on Russian seaborne crude,SANCTIONS,Price Cap
+SANC_EU_GAS_CAP_2023,EU Gas Price Cap,SANCTIONS,2023-02-15,Market,Price Cap,Natural Gas,-0.3,"EU TTF cap at €180/MWh, never triggered",SANCTIONS,Price Cap
+SANC_RUSSIA_LNG_2025,EU 18th Sanctions Package,SANCTIONS,2025-07-01,Russia,LNG,"LNG, Refined Products",0.2,Banned Russian crude-derived products from third countries,SANCTIONS,LNG

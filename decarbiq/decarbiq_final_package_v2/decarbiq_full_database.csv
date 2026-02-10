@@ -1,0 +1,88 @@
+Year,Region,Gas_Price_USD_MMBtu,Elec_Price_cents_kWh,Gas_Share_Pct,Coal_Share_Pct,Renewables_Share_Pct,Nuclear_Share_Pct,Notes
+1997,US,2.52,6.85,15,52,10,18,
+1997,California,3.22,9.5,35,1,30,15,SoCal Citygate hub
+1997,Texas,2.42,6.2,38,37,1,12,Waha/HSC hub - ERCOT
+1998,US,2.08,6.74,15,52,10,19,
+1998,California,2.78,9.2,36,1,30,15,SoCal Citygate hub
+1998,Texas,1.98,6.0,40,35,1,12,Waha/HSC hub - ERCOT
+1999,US,2.27,6.64,16,51,10,20,
+1999,California,3.02,9.1,37,1,29,15,SoCal Citygate hub
+1999,Texas,2.22,5.9,42,33,2,12,Waha/HSC hub - ERCOT
+2000,US,4.31,6.81,16,52,9,20,
+2000,California,7.51,9.5,38,1,28,15,SoCal Citygate hub
+2000,Texas,4.21,7.5,45,30,2,12,Waha/HSC hub - ERCOT
+2001,US,4.07,7.29,17,51,9,20,
+2001,California,8.07,12.0,35,1,27,15,SoCal Citygate hub
+2001,Texas,3.92,7.8,44,32,2,11,Waha/HSC hub - ERCOT
+2002,US,3.37,7.2,18,50,9,20,
+2002,California,4.47,11.5,36,1,28,15,SoCal Citygate hub
+2002,Texas,3.22,7.2,45,31,3,11,Waha/HSC hub - ERCOT
+2003,US,5.49,7.44,17,51,9,20,
+2003,California,6.49,11.8,37,1,27,16,SoCal Citygate hub
+2003,Texas,5.29,7.8,46,30,4,11,Waha/HSC hub - ERCOT
+2004,US,5.9,7.61,18,50,9,20,
+2004,California,7.0,12.2,40,1,26,15,SoCal Citygate hub
+2004,Texas,5.7,8.5,47,29,5,11,Waha/HSC hub - ERCOT
+2005,US,8.81,8.14,19,50,9,19,
+2005,California,10.51,12.8,42,1,25,15,SoCal Citygate hub
+2005,Texas,8.51,9.8,48,28,6,10,Waha/HSC hub - ERCOT
+2006,US,6.74,8.9,20,49,9,19,
+2006,California,8.04,13.5,43,1,24,15,SoCal Citygate hub
+2006,Texas,6.49,10.5,49,27,7,10,Waha/HSC hub - ERCOT
+2007,US,6.97,9.13,22,49,9,19,
+2007,California,8.47,13.8,46,1,23,15,SoCal Citygate hub
+2007,Texas,6.77,10.8,50,26,8,10,Waha/HSC hub - ERCOT
+2008,US,8.86,9.74,21,48,9,19,
+2008,California,10.46,14.5,47,1,22,15,SoCal Citygate hub
+2008,Texas,8.51,11.2,49,27,8,10,Waha/HSC hub - ERCOT
+2009,US,3.95,9.82,23,45,10,20,
+2009,California,4.95,15.0,48,1,24,15,SoCal Citygate hub
+2009,Texas,3.8,10.0,48,28,8,10,Waha/HSC hub - ERCOT
+2010,US,4.39,9.83,24,45,10,20,
+2010,California,5.49,14.8,48,1,25,15,SoCal Citygate hub
+2010,Texas,4.19,10.2,47,28,9,10,Waha/HSC hub - ERCOT
+2011,US,4.0,9.9,25,42,12,19,
+2011,California,5.2,15.2,46,0,27,15,SoCal Citygate hub
+2011,Texas,3.8,10.5,46,29,10,10,Waha/HSC hub - ERCOT
+2012,US,2.75,9.84,30,37,12,19,
+2012,California,3.5,15.0,45,0,28,9,SoCal Citygate hub
+2012,Texas,2.6,9.5,48,27,11,10,Waha/HSC hub - ERCOT
+2013,US,3.73,10.07,27,39,13,19,
+2013,California,4.83,15.8,44,0,30,9,SoCal Citygate hub
+2013,Texas,3.48,10.0,47,28,12,10,Waha/HSC hub - ERCOT
+2014,US,4.39,10.44,27,39,13,19,
+2014,California,5.49,16.5,44,0,32,9,SoCal Citygate hub
+2014,Texas,4.19,10.5,46,28,13,10,Waha/HSC hub - ERCOT
+2015,US,2.63,10.41,33,33,13,20,
+2015,California,3.48,16.0,45,0,33,9,SoCal Citygate hub
+2015,Texas,2.48,9.8,47,26,14,10,Waha/HSC hub - ERCOT
+2016,US,2.52,10.27,34,30,15,20,
+2016,California,3.22,16.5,43,0,35,9,SoCal Citygate hub
+2016,Texas,2.42,9.5,45,26,16,10,Waha/HSC hub - ERCOT
+2017,US,2.99,10.48,32,30,17,20,
+2017,California,3.79,17.5,42,0,38,9,SoCal Citygate hub
+2017,Texas,2.79,10.0,43,26,18,10,Waha/HSC hub - ERCOT
+2018,US,3.18,10.53,35,27,17,19,
+2018,California,4.48,18.0,40,0,40,9,SoCal Citygate hub
+2018,Texas,2.98,10.2,44,25,19,9,Waha/HSC hub - ERCOT
+2019,US,2.57,10.54,38,24,18,20,
+2019,California,3.47,19.0,38,0,44,8,SoCal Citygate hub
+2019,Texas,2.42,10.1,45,22,21,9,Waha/HSC hub - ERCOT
+2020,US,2.03,10.59,40,20,20,20,
+2020,California,2.98,19.9,37,0,46,8,SoCal Citygate hub
+2020,Texas,1.88,10.0,47,18,24,9,Waha/HSC hub - ERCOT
+2021,US,3.91,10.98,37,22,20,19,
+2021,California,5.51,22.0,37,0,47,8,SoCal Citygate hub
+2021,Texas,3.81,11.7,42,18,26,10,Waha/HSC hub - ERCOT
+2022,US,6.45,12.55,39,20,22,18,
+2022,California,11.95,26.5,38,0,48,8,SoCal Citygate hub
+2022,Texas,6.2,14.46,42,16,28,10,Waha/HSC hub - ERCOT
+2023,US,2.54,12.68,43,16,21,19,
+2023,California,6.54,24.87,42,0,48,8,SoCal Citygate hub
+2023,Texas,2.39,10.04,42,14,32,9,Waha/HSC hub - ERCOT
+2024,US,2.19,12.94,43,16,22,19,
+2024,California,4.54,27.04,40,0,50,8,SoCal Citygate hub
+2024,Texas,1.99,9.79,42,13,36,9,Waha/HSC hub - ERCOT
+2025,US,3.5,13.5,43,15,23,18,
+2025,California,5.0,28.5,38,0,52,8,SoCal Citygate hub
+2025,Texas,3.2,10.5,42,12,38,9,Waha/HSC hub - ERCOT

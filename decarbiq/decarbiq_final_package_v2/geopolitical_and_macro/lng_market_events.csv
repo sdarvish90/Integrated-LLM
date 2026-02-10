@@ -1,0 +1,8 @@
+event_id,event_name,category,date,region,capacity_bcfd,impact,gas_price_impact,description,end_date,event_type,sub_type
+SABINE_PASS_START_2016,Sabine Pass LNG Start,LNG_SUPPLY,2016-02-24,US Gulf Coast,3.0,SUPPLY_INCREASE,-0.3,"First US LNG export cargo, began US export era",,MARKET_STRUCTURE,LNG_SUPPLY
+FREEPORT_EXPLOSION_2022,Freeport LNG Fire,LNG_DISRUPTION,2022-06-08,Texas,2.1,SUPPLY_DECREASE,-1.5,"Explosion shut facility 8+ months, reduced US exports, lowered Henry Hub",2023-03-01,MARKET_STRUCTURE,LNG_DISRUPTION
+EUROPE_LNG_SURGE_2022,Europe LNG Import Surge,LNG_DEMAND,2022-03-01,Europe,12.0,DEMAND_INCREASE,3.5,"EU LNG imports up 68% from 70 to 118 MT, replaced Russian gas",2023-12-31,MARKET_STRUCTURE,LNG_DEMAND
+QATAR_NORTH_FIELD_EXPANSION,Qatar North Field Expansion FID,LNG_SUPPLY,2023-10-01,Qatar,8.4,FUTURE_SUPPLY,0.0,"32 MTPA North Field East + 32 MTPA West, online 2025-2030",,MARKET_STRUCTURE,LNG_SUPPLY
+US_LNG_PAUSE_2024,Biden LNG Pause,LNG_POLICY,2024-01-26,US,0.0,POLICY,0.1,"Temporary pause on new LNG export approvals, reversed by OBBBA",2025-07-04,MARKET_STRUCTURE,LNG_POLICY
+PLAQUEMINES_START_2024,Plaquemines LNG First Cargo,LNG_SUPPLY,2024-12-01,Louisiana,2.6,SUPPLY_INCREASE,0.2,"Phase 1 startup, 8th US export facility",,MARKET_STRUCTURE,LNG_SUPPLY
+LNG_CANADA_START_2025,LNG Canada Startup,LNG_SUPPLY,2025-03-01,British Columbia,1.8,SUPPLY_INCREASE,0.1,"Canada's first large LNG export facility, Pacific market access",,MARKET_STRUCTURE,LNG_SUPPLY

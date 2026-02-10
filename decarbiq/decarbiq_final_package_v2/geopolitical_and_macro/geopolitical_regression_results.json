@@ -1,0 +1,29 @@
+{
+  "model_type": "geopolitical_regression",
+  "price_column": "henry_hub_spot",
+  "n_observations": 336,
+  "r_squared": 0.31519465017411286,
+  "intercept_usd_mmbtu": 4.553935339380531,
+  "coefficients_usd_mmbtu": {
+    "hurricane_active": -0.27586481427660203,
+    "hurricane_major": 5.651525164188103,
+    "polar_vortex_event": -4.440892098500626e-15,
+    "war_active": -0.22427432472784797,
+    "russia_gas_dispute": -0.2767655143362815,
+    "iran_sanctions_active": -0.19985293823261965,
+    "venezuela_sanctions_active": -0.0761571317067904,
+    "russia_sanctions_active": -1.5173892181888013,
+    "lng_tight_market": 1.4518840420803407
+  },
+  "disruption_counts": {
+    "hurricane_active": 15,
+    "hurricane_major": 8,
+    "polar_vortex_event": 0,
+    "war_active": 121,
+    "russia_gas_dispute": 2,
+    "iran_sanctions_active": 128,
+    "venezuela_sanctions_active": 88,
+    "russia_sanctions_active": 129,
+    "lng_tight_market": 48
+  }
+}

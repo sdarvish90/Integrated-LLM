@@ -1,0 +1,11 @@
+date,price_region,price_severity,price_deviation_pct,concurrent_param_events,param_events_list
+2022-05,HENRY_HUB,EXTREME,50.80309339678759,1,Residential Gas Demand(CRASH:-50.3%)
+2022-04,HENRY_HUB,ELEVATED,41.62646450723638,1,Power Sector Gas Demand(CRASH:-20.3%)
+2022-06,HENRY_HUB,ELEVATED,17.557626287395784,1,Residential Gas Demand(CRASH:-68.3%)
+2022-12,CAISO,EXTREME,268.29144544033284,1,Residential Gas Demand(SPIKE:+96.9%)
+2022-09,HENRY_HUB,EXTREME,-0.6075334143377972,1,Residential Gas Demand(CRASH:-70.8%)
+2023-01,CAISO,ELEVATED,6.269138871811197,1,Residential Gas Demand(SPIKE:+96.3%)
+2023-08,ERCOT,EXTREME,410.1704512381379,2,Power Sector Gas Demand(SPIKE:+36.5%); Residential Gas Demand(CRASH:-73.7%)
+2022-07,ERCOT,ELEVATED,73.02684439261607,2,Power Sector Gas Demand(SPIKE:+41.8%); Residential Gas Demand(CRASH:-72.7%)
+2021-02,ERCOT,EXTREME,6635.780865881765,5,Coal Generation Share(SPIKE:+33.6%); LNG Exports(SPIKE:+37.8%); Net Gas Exports(SPIKE:+37.9%); Residential Gas Demand(SPIKE:+132.1%); Total Gas Consumption(SPIKE:+31.5%)
+2022-08,ERCOT,ELEVATED,7.149621127155633,2,Power Sector Gas Demand(SPIKE:+37.9%); Residential Gas Demand(CRASH:-74.5%)

@@ -1,0 +1,5 @@
+region,normal_range_low,normal_range_high,elevated_threshold,extreme_threshold,unit
+ERCOT,15,60,100.0,200,$/MWh
+CAISO,20,80,100.0,150,$/MWh
+HENRY_HUB,2,5,6.0,8,$/MMBtu
+INDUSTRIAL_RETAIL,5,8,8.5,9,¢/kWh

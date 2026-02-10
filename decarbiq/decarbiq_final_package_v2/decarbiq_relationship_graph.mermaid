@@ -1,0 +1,86 @@
+```mermaid
+graph TD
+    subgraph SUPPLY["🔵 SUPPLY (Upstream)"]
+        SHALE["Shale Production<br/>coef: -1.30"]
+        LNG["LNG Exports<br/>coef: +0.12"]
+        RIGS["Drilling Activity<br/>coef: -0.003"]
+        EXPORTS["Net Export Status<br/>coef: -1.48"]
+    end
+    
+    subgraph DEMAND["🟢 DEMAND (Upstream)"]
+        POWER["Power Sector<br/>coef: +0.28"]
+        INDUSTRIAL["Industrial<br/>coef: -0.43"]
+        HEATING["Seasonal Heating<br/>coef: +0.15"]
+    end
+    
+    subgraph POLICY["🟣 POLICY (Structural Shifters)"]
+        RGGI["RGGI<br/>coef: -1.30"]
+        MATS["MATS Rule<br/>coef: +0.86"]
+        IRA["IRA<br/>coef: -2.40"]
+        PERMIT["Permitting<br/>coef: +1.52"]
+    end
+    
+    subgraph CENTRAL["🔴 NATURAL GAS PRICE"]
+        GAS["Henry Hub<br/>$/MMBtu"]
+    end
+    
+    subgraph MODERATOR["🟡 GENERATION MIX (Moderator)"]
+        GASGEN["Gas Share: 43%<br/>r=+0.81 w/elec"]
+        COAL["Coal Share: 16%<br/>r=-0.72 w/elec"]
+        RENEW["Renewables<br/>r=+0.59 w/elec"]
+    end
+    
+    subgraph DOWNSTREAM["🟠 ELECTRICITY PRICE"]
+        TX["TX Industrial<br/>r=+0.68 w/gas"]
+        CA["CA Industrial<br/>r=-0.35 w/gas"]
+        ERCOT["ERCOT Wholesale<br/>r=+0.21 w/gas"]
+        CAISO["CAISO Wholesale<br/>r=+0.42 w/gas"]
+    end
+    
+    %% Supply flows
+    SHALE -->|"-$1.30"| GAS
+    LNG -->|"+$0.12"| GAS
+    RIGS -->|"lagged"| GAS
+    EXPORTS -->|"-$1.48"| GAS
+    
+    %% Demand flows
+    POWER -->|"+$0.28"| GAS
+    INDUSTRIAL -->|"-$0.43"| GAS
+    HEATING -->|"+$0.15"| GAS
+    
+    %% Policy structural shifts
+    RGGI -.->|"structural"| GAS
+    MATS -.->|"coal ret."| GASGEN
+    IRA -.->|"renewables"| RENEW
+    PERMIT -.->|"constrains"| SHALE
+    
+    %% Gas to Electricity (moderated)
+    GAS ==>|"passthrough"| TX
+    GAS ==>|"passthrough"| CA
+    GAS ==>|"passthrough"| ERCOT
+    GAS ==>|"passthrough"| CAISO
+    
+    %% Generation mix moderates
+    GASGEN -->|"moderates"| TX
+    GASGEN -->|"moderates"| CA
+    COAL -->|"moderates"| TX
+    COAL -->|"moderates"| CA
+    
+    %% Demand affects electricity
+    POWER -->|"+0.80"| TX
+    POWER -->|"+0.80"| CA
+
+    classDef supply fill:#3498db,stroke:#2980b9,color:white
+    classDef demand fill:#2ecc71,stroke:#27ae60,color:white
+    classDef policy fill:#9b59b6,stroke:#8e44ad,color:white
+    classDef central fill:#e74c3c,stroke:#c0392b,color:white
+    classDef moderator fill:#f1c40f,stroke:#f39c12,color:black
+    classDef downstream fill:#e67e22,stroke:#d35400,color:white
+    
+    class SHALE,LNG,RIGS,EXPORTS supply
+    class POWER,INDUSTRIAL,HEATING demand
+    class RGGI,MATS,IRA,PERMIT policy
+    class GAS central
+    class GASGEN,COAL,RENEW moderator
+    class TX,CA,ERCOT,CAISO downstream
+```

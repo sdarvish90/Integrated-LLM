@@ -1,0 +1,41 @@
+effective_date,policy_id,short_name,category,market_impact_summary,status
+1919-01-01,TX_RRC_RULES,TX Drilling Regs,OIL_GAS_PRODUCTION,"TX produces ~30% of US gas, ~40% of US oil. Fast permitting enables supply response.",ACTIVE
+1938-06-21,NGA_SECTION_7,Pipeline Certificate,GAS_INFRASTRUCTURE,Controls pace of pipeline development. Provides eminent domain upon approval.,ACTIVE
+1938-06-21,NGA_SECTION_3,LNG Export Authority,LNG_EXPORTS,Framework for US LNG exports. ~50 Bcf/d approved capacity.,ACTIVE
+1970-01-01,NEPA_1970,NEPA,ENVIRONMENTAL_REVIEW,Creates multi-year permitting timeline. EIS can take 4-7 years for major pipelines.,ACTIVE
+1985-10-09,FERC_436,Open Access,GAS_MARKET_STRUCTURE,Began transition from regulated wellhead prices to market-based pricing.,SUPERSEDED
+1990-11-15,CAAA_1990,Acid Rain Program,ENVIRONMENTAL_EMISSIONS,Required scrubbers or fuel switching. Began shift to low-sulfur coal and gas.,ACTIVE
+1992-11-01,FERC_636,Pipeline Restructuring,GAS_MARKET_STRUCTURE,Completed transition to competitive wholesale gas markets. Henry Hub emerged as pricing point.,ACTIVE
+1996-04-24,FERC_888,Electric Open Access,ELECTRICITY_MARKET_STRUCTURE,Enabled wholesale electricity markets and competitive power generation.,ACTIVE
+1999-09-15,FERC_CERT_POLICY_1999,Certificate Policy,GAS_INFRASTRUCTURE,Enabled ~95% approval rate 2000-2020. Currently under review for climate impacts.,UNDER_REVIEW
+1999-12-20,FERC_2000,RTO Formation,ELECTRICITY_MARKET_STRUCTURE,"Created organized wholesale markets (PJM, MISO, SPP, CAISO, ERCOT, NYISO, ISO-NE).",ACTIVE
+2005-08-08,EPACT_2005_FRAC,Halliburton Loophole,OIL_GAS_PRODUCTION,Enabled shale gas revolution. US production: 18 Tcf (2005) to 34 Tcf (2023). Transformed US to net exporter.,ACTIVE
+2009-01-01,RGGI_2009,RGGI,CARBON_MARKETS,Carbon price $13-15/ton. Accelerated coal retirements. $6B+ revenue.,ACTIVE
+2011-05-20,DOE_SABINE_PASS,First Non-FTA Export,LNG_EXPORTS,Opened global markets. First cargo Feb 2016. Transformed US from importer to exporter.,ACTIVE
+2011-07-21,FERC_1000,Transmission Planning,ELECTRICITY_INFRASTRUCTURE,Improved regional transmission planning. Increased competition for transmission development.,ACTIVE
+2012-01-01,CA_AB32,CA Cap-and-Trade,CARBON_MARKETS,Carbon price $30-35/ton. Eliminated in-state coal. Linked with Quebec.,ACTIVE
+2012-02-14,PA_ACT_13,PA Marcellus Rules,OIL_GAS_PRODUCTION,Created framework for largest US shale play. PA: 1 Tcf (2010) to 7 Tcf (2023).,PARTIALLY_ACTIVE
+2015-01-01,CSAPR_2011,CSAPR,ENVIRONMENTAL_EMISSIONS,Additional coal retirement driver. Updated multiple times with tighter limits.,ACTIVE
+2015-04-16,MATS_2012,MATS Rule,ENVIRONMENTAL_EMISSIONS,Major coal retirement driver. 15-20 GW coal retired partly due to MATS.,ACTIVE
+2015-06-29,NY_FRACK_BAN,NY Fracking Ban,OIL_GAS_PRODUCTION,Prevented NY Marcellus development. Increased dependence on pipeline imports.,ACTIVE
+2019-03-22,NM_ETA_2019,NM Coal Phaseout,COAL_RETIREMENT,San Juan GS retired 2022. PNM transitioning remaining coal.,ACTIVE
+2019-04-16,CO_SB19_181,CO Oil & Gas Reform,OIL_GAS_PRODUCTION,Increased regulatory uncertainty in DJ Basin. Some capital shifted to Permian.,ACTIVE
+2019-05-30,CO_SB19_236,CO Coal Retirement,COAL_RETIREMENT,Xcel retiring all CO coal by 2030. Template for utility decarbonization.,ACTIVE
+2021-06-08,TX_SB3_2021,TX Weatherization,GRID_RELIABILITY,Increased compliance costs. Aims to prevent Uri repeat.,ACTIVE
+2021-09-15,IL_CEJA_2021,IL Coal Phaseout,COAL_RETIREMENT,Retiring ~6 GW coal in MISO by 2030. Creates reliability challenges.,ACTIVE
+2021-11-15,IIJA_2021,Bipartisan Infrastructure,INFRASTRUCTURE_INVESTMENT,Addresses infrastructure bottlenecks. Complements IRA incentives.,ACTIVE
+2022-08-16,IRA_2022,IRA Clean Energy,CLEAN_ENERGY_INCENTIVES,$369B clean energy incentives. Transforms clean energy economics.,ACTIVE
+2023-01-01,IRA_45Q,45Q CCS Credit,CCS_INCENTIVES,Makes CCS viable for many applications. Enables blue hydrogen.,ACTIVE
+2023-01-01,IRA_45V,45V Hydrogen PTC,CLEAN_HYDROGEN,$3/kg credit makes green hydrogen competitive with grey.,ACTIVE
+2023-01-01,WA_CCA_2023,WA Cap-and-Invest,CARBON_MARKETS,"Carbon price $48-63/ton, highest in US. Adds cost to WA power and fuels.",ACTIVE
+2023-02-07,MN_100_CLEAN,MN Clean Energy,COAL_RETIREMENT,Accelerates Xcel coal retirements. Drives renewable procurement.,ACTIVE
+2023-06-03,MVP_APPROVAL_2023,MVP Approval,GAS_INFRASTRUCTURE,"Enabled 303-mile, 2 Bcf/d pipeline. First Congressional pipeline approval. In service 2024.",ACTIVE
+2023-08-04,GOOD_NEIGHBOR_2023,Good Neighbor,ENVIRONMENTAL_EMISSIONS,"Supreme Court partially stayed. Where effective, accelerates coal retirement.",PARTIALLY_STAYED
+2023-10-13,DOE_H2_HUBS,H2Hubs,CLEAN_HYDROGEN,Creates regional hydrogen ecosystems. Expected 3M MT/year production.,ACTIVE
+2023-11-07,TX_ENERGY_FUND_2023,TX Gas Plant Loans,CAPACITY_INVESTMENT,Major incentive for new gas. Could support 10+ GW capacity.,ACTIVE
+2024-01-01,IRA_METHANE_FEE,Methane Fee,ENVIRONMENTAL_EMISSIONS,Creates direct cost for methane emissions. Incentivizes leak detection.,ACTIVE
+2024-01-26,DOE_LNG_PAUSE_2024,LNG Permit Pause,LNG_EXPORTS,Created uncertainty for ~10 Bcf/d proposed. Existing approvals unaffected.,ACTIVE
+2024-03-08,EPA_METHANE_2024,Methane Rule,ENVIRONMENTAL_EMISSIONS,Increases producer compliance costs. May accelerate consolidation.,ACTIVE
+2024-07-08,EPA_111_2024,Power Plant GHG Rule,ENVIRONMENTAL_EMISSIONS,"If upheld, accelerates coal retirement. Requires CCS for new baseload gas.",ACTIVE_LITIGATION
+2026-06-01,TX_PCM_2026,TX PCM,CAPACITY_MARKETS,May support 3-10 GW new dispatchable. $1-2B/year generator revenue.,PENDING
+,CPP_2015,CPP (Stayed),ENVIRONMENTAL_EMISSIONS,Never implemented. Created planning uncertainty. Influenced utility decisions.,REPEALED

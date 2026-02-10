@@ -1,0 +1,42 @@
+{
+  "model_type": "GARCH(1,1)",
+  "estimation_period": {
+    "start": "1997-02-01",
+    "end": "2024-12-01",
+    "n_observations": 335
+  },
+  "parameters": {
+    "omega": 0.01930217703722439,
+    "alpha": 0.1635970923425313,
+    "beta": 0.0,
+    "persistence": 0.1635970923425313
+  },
+  "unconditional_volatility": {
+    "monthly": 0.15191315391117718,
+    "annualized": 0.5262426018243792
+  },
+  "half_life_months": 0.3828804959788998,
+  "current_state": {
+    "date": "2024-12-01",
+    "conditional_variance": 0.019526641377895372,
+    "annualized_volatility_pct": 48.406579773285415
+  },
+  "regime_thresholds": {
+    "low": "< 30%",
+    "normal": "30-50%",
+    "elevated": "50-80%",
+    "crisis": "> 80%"
+  },
+  "regime_distribution": {
+    "Normal": 195,
+    "Elevated": 134,
+    "Crisis": 6,
+    "Low": 0
+  },
+  "volatility_forecast_24m": {
+    "month_1": 48.406579773285415,
+    "month_6": 52.62378573129887,
+    "month_12": 52.62426017334207,
+    "month_24": 52.62426018243792
+  }
+}

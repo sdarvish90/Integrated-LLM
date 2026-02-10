@@ -1,0 +1,20 @@
+year,plant,state,capacity_mw,utility
+1990,Various small units,Multiple,500,Various
+1995,Various small units,Multiple,800,Various
+2000,Various small units,Multiple,1200,Various
+2005,Various small units,Multiple,1500,Various
+2010,Various,Multiple,3000,Various
+2011,Various,Multiple,4500,Various
+2012,"Kammer, Mitchell","WV, PA",6200,"AEP, FirstEnergy"
+2013,"Hatfields Ferry, Muskingum River","PA, OH",8100,"FirstEnergy, AEP"
+2014,"Brayton Point, Salem Harbor",MA,9500,"Dominion, Footprint"
+2015,"Vermilion, Wood River, Kincaid",IL,14200,"Dynegy, Ameren"
+2016,"Huntley, Dunkirk, Homer City 3","NY, PA",13800,"NRG, GDF Suez"
+2017,"Navajo, San Juan 2-3","AZ, NM",11500,"SRP, PNM"
+2018,"Spurlock, Pleasants","KY, WV",14100,"EKPC, FirstEnergy"
+2019,"Navajo, Bruce Mansfield","AZ, PA",16200,"SRP, FirstEnergy"
+2020,"Comanche, Craig, Escalante","CO, NM",11200,"Xcel, Tri-State"
+2021,"Scherer 4, Martin Lake","GA, TX",9800,"Georgia Power, Vistra"
+2022,"Coal Creek, Milton Young, Leland Olds",ND,8500,"Rainbow Energy, Minnkota"
+2023,"J.M. Stuart, Killen, Miami Fort",OH,10200,"Vistra, AES"
+2024,"Waukegan, Joliet, Will County",IL,7800,NRG

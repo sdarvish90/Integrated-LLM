@@ -1,0 +1,36 @@
+year,additions_gw,type,avg_heat_rate,cumulative_additions_gw
+1990,2.5,Mostly peakers,10500,2.5
+1991,3.0,Mixed,10200,5.5
+1992,3.5,Mixed,10000,9.0
+1993,4.0,Mixed,9800,13.0
+1994,4.5,Mixed,9600,17.5
+1995,5.0,CCGT ramp-up,9400,22.5
+1996,6.5,CCGT,9200,29.0
+1997,8.0,CCGT,9000,37.0
+1998,12.0,CCGT boom,8800,49.0
+1999,18.0,CCGT boom,8500,67.0
+2000,25.0,CCGT boom peak,8200,92.0
+2001,45.0,CCGT boom peak,7800,137.0
+2002,55.0,CCGT boom peak,7500,192.0
+2003,40.0,Post-boom slowdown,7300,232.0
+2004,15.0,Slowdown,7200,247.0
+2005,8.0,Minimal,7100,255.0
+2006,6.0,Minimal,7000,261.0
+2007,7.0,Minimal,6950,268.0
+2008,8.0,Pre-shale,6900,276.0
+2009,6.0,Financial crisis,6850,282.0
+2010,5.0,Shale begins,6800,287.0
+2011,7.0,Shale ramp,6750,294.0
+2012,9.0,Coal-to-gas switch,6700,303.0
+2013,8.0,Steady,6650,311.0
+2014,10.0,CCGT wave 2,6600,321.0
+2015,12.0,CCGT wave 2,6550,333.0
+2016,14.0,CCGT wave 2,6500,347.0
+2017,16.0,CCGT wave 2,6450,363.0
+2018,18.0,CCGT wave 2 peak,6400,381.0
+2019,12.0,Slowing,6350,393.0
+2020,10.0,COVID slowdown,6300,403.0
+2021,9.0,Recovery,6280,412.0
+2022,8.0,Steady,6260,420.0
+2023,7.0,Renewables competition,6240,427.0
+2024,8.0,Data center demand,6220,435.0

@@ -1,0 +1,20 @@
+year,capacity_gw,capacity_factor_pct,units,major_outages
+1990,99.6,66.0,111,Various maintenance
+1995,99.5,77.4,109,Efficiency improvements
+2000,97.9,88.1,104,Deregulation era
+2005,100.0,89.3,104,Uprates offsetting closures
+2010,101.2,91.1,104,Peak efficiency
+2011,101.4,89.1,104,Fukushima response
+2012,102.1,86.1,104,San Onofre issues
+2013,100.3,89.9,100,"San Onofre, Kewaunee closed"
+2014,98.7,91.7,99,Vermont Yankee closed
+2015,98.6,92.2,99,High performance
+2016,99.9,92.5,99,Watts Bar 2 online
+2017,99.6,92.2,99,Fort Calhoun closed
+2018,99.2,92.6,98,Oyster Creek closed
+2019,97.1,93.4,96,"Pilgrim, TMI closed"
+2020,95.5,92.6,94,"Indian Point 2, Duane Arnold closed"
+2021,93.5,93.5,93,Indian Point 3 closed
+2022,93.5,92.0,92,Palisades closed
+2023,95.5,93.1,93,Vogtle 3 online
+2024,97.5,92.5,94,"Vogtle 4 online, Palisades restart planned"

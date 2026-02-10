@@ -1,0 +1,10 @@
+event_id,event_name,category,date,end_date,region,oil_disruption_mbd,gas_disruption_bcfd,gas_price_impact,description,event_type,sub_type
+LIBYA_CIVIL_WAR_2011,Libyan Civil War,GEOPOLITICAL,2011-02-15,2011-10-23,North Africa/Mediterranean,1.4,0.5,0.8,"Libya gas exports to Italy halted, oil production collapsed",GEOPOLITICAL,GEOPOLITICAL
+RUSSIA_UKRAINE_2006,Russia-Ukraine Gas Dispute 2006,GEOPOLITICAL,2006-01-01,2006-01-04,Europe,0.0,4.0,0.5,"Gazprom cut gas to Ukraine, reduced flows to Europe",GEOPOLITICAL,GEOPOLITICAL
+RUSSIA_UKRAINE_2009,Russia-Ukraine Gas Dispute 2009,GEOPOLITICAL,2009-01-01,2009-01-20,Europe,0.0,6.0,1.2,Complete halt of Russian gas through Ukraine for 13 days,GEOPOLITICAL,GEOPOLITICAL
+FUKUSHIMA_2011,Fukushima Nuclear Disaster,GEOPOLITICAL,2011-03-11,2012-05-05,Japan/Asia,0.0,0.0,1.5,"Japan shut all nuclear, LNG imports surged, global LNG tightness",GEOPOLITICAL,GEOPOLITICAL
+RUSSIA_UKRAINE_WAR_2022,Russia-Ukraine War,GEOPOLITICAL,2022-02-24,,Europe/Global,1.5,22.0,5.0,"Russia cut 80 bcm/yr to Europe, EU TTF peaked €340/MWh, US Henry Hub +20%",GEOPOLITICAL,GEOPOLITICAL
+NORD_STREAM_SABOTAGE_2022,Nord Stream Pipeline Sabotage,GEOPOLITICAL,2022-09-26,2022-09-26,Baltic Sea/Europe,0.0,15.0,2.0,"Explosions destroyed 3 of 4 Nord Stream pipes, 115k tons methane released",GEOPOLITICAL,GEOPOLITICAL
+UKRAINE_TRANSIT_END_2025,Ukraine Gas Transit Ends,GEOPOLITICAL,2025-01-01,,Europe,0.0,3.5,0.8,"Ukraine transit contract expired, ~15 bcm/yr lost to Europe",GEOPOLITICAL,GEOPOLITICAL
+IRAN_SANCTIONS_2018,Iran Sanctions Reimposed,GEOPOLITICAL,2018-11-05,,Middle East,1.5,0.0,0.3,"US reimposed Iran sanctions, oil exports dropped 2.5 mbd to 0.5 mbd",GEOPOLITICAL,GEOPOLITICAL
+HOUTHI_ATTACKS_2024,Houthi Red Sea Attacks,GEOPOLITICAL,2024-01-01,,Red Sea/Middle East,0.2,0.0,0.4,"LNG vessels rerouted via Cape of Good Hope, longer voyages, higher costs",GEOPOLITICAL,GEOPOLITICAL

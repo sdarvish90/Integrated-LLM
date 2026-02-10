@@ -1,0 +1,10 @@
+,gas_price,gas_price,gas_price,gas_price,gas_price,electric_power_bcfd,lng_exports_bcfd
+,mean,std,min,max,count,mean,mean
+era,,,,,,,
+2_EARLY_DEREGULATION,2.29,0.42,1.72,3.45,24,11.5,0.0
+3_MATURE_MARKET,4.51,1.84,1.77,9.53,80,14.24,0.0
+4_EARLY_SHALE,7.99,2.13,4.9,13.42,40,17.17,0.0
+5_SHALE_DOMINANCE,3.67,0.87,1.93,6.0,85,21.66,0.02
+6_LNG_ERA,2.78,0.51,1.73,4.09,49,27.53,2.8
+7_COVID_ERA,4.0,2.09,1.63,8.81,30,30.98,8.91
+8_IRA_ERA,2.9,1.46,1.49,7.88,28,34.62,11.87

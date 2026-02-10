@@ -1,0 +1,92 @@
+{
+  "model_type": "event_frequency_distributions",
+  "created": "2026-02-10",
+  "hurricane": {
+    "distribution": "Poisson",
+    "lambda_annual": 0.43333333333333335,
+    "lambda_major": 0.13333333333333333,
+    "probability_any_year": 0.3516556589984903,
+    "probability_major_year": 0.12482668095705252,
+    "peak_months": [
+      8,
+      9,
+      10
+    ],
+    "monthly_weights": {
+      "6": 0.07,
+      "7": 0.1,
+      "8": 0.25,
+      "9": 0.3,
+      "10": 0.2,
+      "11": 0.08
+    },
+    "price_impact_distribution": {
+      "type": "lognormal",
+      "mean_pct": 19.0,
+      "median_pct": 12.0,
+      "max_pct": 75.0
+    },
+    "shutin_distribution": {
+      "mean_bcfd": 3.5846153846153848,
+      "max_bcfd": 8.8
+    }
+  },
+  "polar_vortex": {
+    "distribution": "Poisson",
+    "lambda_annual": 0.13333333333333333,
+    "return_period_years": 7.5,
+    "probability_any_year": 0.12482668095705252,
+    "probability_5year": 0.486582880967408,
+    "peak_months": [
+      1,
+      2,
+      12
+    ],
+    "severity_distribution": {
+      "mean_shutin_bcfd": 6.5,
+      "max_shutin_bcfd": 15.0,
+      "mean_price_impact_pct": 171.25
+    }
+  },
+  "war": {
+    "distribution": "Poisson",
+    "lambda_annual": 0.17142857142857143,
+    "return_period_years": 5.833333333333333,
+    "probability_any_year": 0.15753955838322864,
+    "note": "Wars are persistent; use regime probabilities for ongoing conflicts"
+  },
+  "gas_dispute": {
+    "distribution": "Poisson",
+    "lambda_annual": 0.08571428571428572,
+    "probability_any_year": 0.08214356154310742
+  },
+  "sanctions_regimes": {
+    "note": "Sanctions are persistent regimes, not random events",
+    "current_probabilities": {
+      "iran_sanctions_active": 0.85,
+      "russia_sanctions_active": 0.9,
+      "venezuela_sanctions_active": 0.8
+    },
+    "transition_probabilities": {
+      "relief_given_sanctions": 0.05,
+      "new_sanctions_given_none": 0.1
+    }
+  },
+  "lng_market": {
+    "tight_market_probability": 0.6666666666666666,
+    "forecast": {
+      "2025": {
+        "tightness": "moderate",
+        "probability": 0.6
+      },
+      "2026": {
+        "tightness": "low",
+        "probability": 0.3
+      },
+      "2027": {
+        "tightness": "low",
+        "probability": 0.2
+      }
+    }
+  }
+}
