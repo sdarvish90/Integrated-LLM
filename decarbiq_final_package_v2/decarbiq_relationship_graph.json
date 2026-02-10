@@ -1,0 +1,641 @@
+{
+  "metadata": {
+    "name": "DecarbIQ Energy Price Relationship Model",
+    "version": "1.3",
+    "created": "2026-02-10",
+    "description": "Causal relationship graph for natural gas and electricity price dynamics",
+    "base_r2": 0.76,
+    "base_mae": 0.72,
+    "updates": [
+      "Added generation mix and capacity variables to supply node",
+      "Added geopolitical and weather disruption nodes",
+      "Added geopolitical, sanctions, weather, and LNG competition nodes"
+    ],
+    "policy_current_as_of": "OBBBA (July 4, 2025)",
+    "last_updated": "2026-02-10"
+  },
+  "nodes": {
+    "supply": {
+      "category": "UPSTREAM",
+      "flow_to": [
+        "natural_gas_price"
+      ],
+      "variables": {
+        "shale_production": {
+          "proxy_var": "shale_era",
+          "coefficient": -1.3,
+          "direction": "negative",
+          "mechanism": "Increased supply from shale revolution lowered prices",
+          "structural_break": "2009-01-01"
+        },
+        "lng_exports": {
+          "proxy_var": "lng_exports_bcfd",
+          "coefficient": 0.12,
+          "direction": "positive",
+          "mechanism": "LNG exports tighten domestic supply, raise prices",
+          "structural_break": "2016-02-01"
+        },
+        "drilling_activity": {
+          "proxy_var": "gas_rigs",
+          "coefficient": -0.003,
+          "direction": "negative",
+          "mechanism": "More rigs = future supply = price pressure down",
+          "lag_months": 6
+        },
+        "net_export_status": {
+          "proxy_var": "us_net_exporter",
+          "coefficient": -1.48,
+          "direction": "negative",
+          "mechanism": "Net exporter status changed market dynamics",
+          "structural_break": "2017-01-01"
+        },
+        "gas_plant_additions": {
+          "proxy_var": "gas_capacity_additions_gw",
+          "unit": "GW",
+          "direction": "positive",
+          "mechanism": "New gas plants increase generation capacity and potential gas demand",
+          "data_source": "EIA Form 860",
+          "lag_months": 12,
+          "note": "Capacity additions signal future demand growth"
+        },
+        "coal_retirements": {
+          "proxy_var": "coal_retirements_gw",
+          "unit": "GW",
+          "direction": "positive",
+          "mechanism": "Coal retirements shift load to gas plants, increasing gas demand",
+          "data_source": "EIA Form 860",
+          "structural_breaks": [
+            "2015-01-01",
+            "2020-01-01"
+          ],
+          "note": "Accelerated post-MATS and during COVID"
+        },
+        "gas_generation_share": {
+          "proxy_var": "gas_share_pct",
+          "unit": "percent",
+          "current_value": 43,
+          "historical_range": {
+            "min": 17,
+            "max": 44
+          },
+          "correlation_with_gas_price": -0.52,
+          "correlation_with_elec_price": 0.81,
+          "mechanism": "Higher gas share increases electricity sensitivity to gas prices",
+          "trend": "Rising since 2005, accelerated post-2015 coal retirements"
+        },
+        "gas_capacity_factors": {
+          "proxy_var": "gas_capacity_factor_pct",
+          "unit": "percent",
+          "typical_range": {
+            "ccgt": "40-60%",
+            "peaker": "5-15%"
+          },
+          "mechanism": "Higher capacity factors indicate more gas burn per installed MW",
+          "seasonal_pattern": "Higher in summer (cooling) and winter (heating)",
+          "note": "Rising CFs signal dispatch economics favor gas over alternatives"
+        }
+      },
+      "description": "\nSupply-side factors affecting natural gas and electricity prices.\nIncludes traditional supply metrics (shale, LNG, rigs) plus generation \ncapacity dynamics (gas additions, coal retirements, capacity factors).\n"
+    },
+    "demand": {
+      "category": "UPSTREAM",
+      "flow_to": [
+        "natural_gas_price",
+        "electricity_price"
+      ],
+      "variables": {
+        "power_sector_demand": {
+          "proxy_var": "electric_power_bcfd",
+          "coefficient": 0.28,
+          "direction": "positive",
+          "mechanism": "Higher power sector gas demand raises prices",
+          "correlation_with_gas": -0.24,
+          "correlation_with_elec": 0.8
+        },
+        "industrial_demand": {
+          "proxy_var": "industrial_bcfd",
+          "coefficient": -0.43,
+          "direction": "negative",
+          "mechanism": "Industrial demand fell as prices rose (demand destruction)",
+          "note": "Negative coefficient reflects reverse causality"
+        },
+        "seasonal_heating": {
+          "proxy_var": "heating_demand",
+          "coefficient": 0.15,
+          "direction": "positive",
+          "mechanism": "Winter heating demand drives seasonal price spikes"
+        },
+        "seasonal_cooling": {
+          "proxy_var": "is_summer",
+          "coefficient": -0.25,
+          "direction": "negative",
+          "mechanism": "Summer has lower heating demand despite cooling load"
+        }
+      }
+    },
+    "generation_mix": {
+      "category": "MODERATOR",
+      "flow_to": [
+        "electricity_price"
+      ],
+      "modifies": [
+        "gas_to_electricity_passthrough"
+      ],
+      "variables": {
+        "gas_share": {
+          "proxy_var": "gas_share_pct",
+          "correlation_with_gas": -0.52,
+          "correlation_with_elec": 0.81,
+          "mechanism": "Higher gas share increases electricity sensitivity to gas prices",
+          "current_value": "~43%"
+        },
+        "coal_share": {
+          "proxy_var": "coal_share_pct",
+          "correlation_with_gas": 0.54,
+          "correlation_with_elec": -0.72,
+          "mechanism": "Coal retirement removes cheap baseload, raises electricity prices",
+          "current_value": "~16%"
+        },
+        "renewable_share": {
+          "proxy_var": "renewable_share_pct",
+          "correlation_with_gas": -0.35,
+          "correlation_with_elec": 0.59,
+          "mechanism": "Renewables reduce gas burn but add system costs"
+        },
+        "coal_retirement_era": {
+          "proxy_var": "post_major_coal_ret",
+          "coefficient": 0.63,
+          "structural_break": "2015-01-01",
+          "mechanism": "Major coal retirements after 2015 shifted price dynamics"
+        }
+      }
+    },
+    "natural_gas_price": {
+      "category": "CENTRAL",
+      "flow_to": [
+        "electricity_price"
+      ],
+      "variables": {
+        "henry_hub": {
+          "proxy_var": "gas_price",
+          "unit": "$/MMBtu",
+          "mean": 4.18,
+          "std": 2.14,
+          "passthrough_to_wholesale_elec": {
+            "ERCOT": 0.21,
+            "CAISO": 0.42,
+            "PJM": 0.81,
+            "ISO-NE": 0.83
+          },
+          "passthrough_to_retail_elec": {
+            "TX_industrial": 0.68,
+            "CA_industrial": -0.35,
+            "US_industrial": -0.18
+          }
+        }
+      }
+    },
+    "electricity_price": {
+      "category": "DOWNSTREAM",
+      "flow_to": [
+        "end_users"
+      ],
+      "receives_from": [
+        "natural_gas_price",
+        "generation_mix",
+        "demand",
+        "policy"
+      ],
+      "regional_differences": {
+        "TX_ERCOT": {
+          "wholesale_gas_correlation": 0.21,
+          "retail_gas_correlation": 0.68,
+          "mean_industrial_rate": 6.2,
+          "market_structure": "energy_only",
+          "key_driver": "gas_price"
+        },
+        "CA_CAISO": {
+          "wholesale_gas_correlation": 0.42,
+          "retail_gas_correlation": -0.35,
+          "mean_industrial_rate": 12.0,
+          "market_structure": "regulated_retail",
+          "key_driver": "policy_and_infrastructure"
+        }
+      }
+    },
+    "policy": {
+      "category": "STRUCTURAL_SHIFTER",
+      "modifies": [
+        "all_relationships"
+      ],
+      "variables": {
+        "rggi": {
+          "proxy_var": "post_rggi",
+          "coefficient": -1.3,
+          "start_date": "2009-01-01",
+          "mechanism": "Carbon pricing shifted dispatch economics",
+          "affected_regions": [
+            "ISO-NE",
+            "PJM",
+            "NYISO"
+          ]
+        },
+        "mats_rule": {
+          "proxy_var": "post_mats",
+          "coefficient": 0.86,
+          "start_date": "2015-04-16",
+          "mechanism": "Mercury rules accelerated coal retirements",
+          "effect": "Increased gas demand for power"
+        },
+        "epact_2005": {
+          "proxy_var": "post_epact2005",
+          "coefficient": 0.66,
+          "start_date": "2005-08-08",
+          "mechanism": "Fracking exemption enabled shale revolution",
+          "effect": "Unlocked massive supply growth"
+        },
+        "obbba": {
+          "proxy_var": "post_obbba",
+          "full_name": "One Big Beautiful Bill Act",
+          "coefficient": 1.2,
+          "start_date": "2025-07-04",
+          "signed_by": "President Trump",
+          "mechanism": "Repeals/modifies most IRA clean energy tax credits, supports fossil fuel development",
+          "key_provisions": [
+            "Terminates EV tax credits by Sept 30, 2025",
+            "Ends residential clean energy credit by Dec 31, 2025",
+            "Accelerates wind/solar credit phaseout",
+            "Maintains nuclear credits with 10% bonus",
+            "Maintains carbon capture (45Q) credits",
+            "Extends clean fuel credit (45Z) to 2029",
+            "Creates Energy Dominance Financing Program ($1B)",
+            "Postpones methane fees for 10 years"
+          ],
+          "replaces": "IRA (Inflation Reduction Act of 2022)",
+          "effect_on_gas": "Positive - supports fossil fuel development",
+          "effect_on_electricity": "Mixed - slows renewable deployment, maintains nuclear support"
+        }
+      }
+    },
+    "permitting": {
+      "category": "CONSTRAINT",
+      "modifies": [
+        "supply"
+      ],
+      "variables": {
+        "ferc_certificate_policy": {
+          "proxy_var": "post_certificate_policy",
+          "coefficient": 1.52,
+          "mechanism": "Pipeline permitting constraints limit supply response"
+        },
+        "order_1000": {
+          "proxy_var": "post_order1000",
+          "coefficient": -3.04,
+          "start_date": "2011-07-21",
+          "mechanism": "Transmission planning reforms affected regional integration"
+        },
+        "section_401_battles": {
+          "proxy_var": "post_401_battles",
+          "coefficient": 0.45,
+          "start_date": "2016-01-01",
+          "mechanism": "State 401 challenges delayed pipeline construction"
+        }
+      }
+    },
+    "geopolitical": {
+      "type": "structural_shifter",
+      "description": "Geopolitical events affecting global energy supply and prices",
+      "variables": {
+        "war_active": {
+          "description": "Active military conflict affecting energy supply",
+          "coefficient": 2.5,
+          "mechanism": "Supply disruption, risk premium, infrastructure damage"
+        },
+        "russia_gas_dispute": {
+          "description": "Russia-Ukraine/Europe gas transit disputes",
+          "coefficient": 1.8,
+          "mechanism": "European supply uncertainty, transit risk"
+        },
+        "nord_stream_sabotage": {
+          "description": "Nord Stream pipeline destruction",
+          "coefficient": 3.0,
+          "start_date": "2022-09-26",
+          "mechanism": "Permanent 55 bcm/year capacity loss"
+        }
+      }
+    },
+    "weather_disruption": {
+      "category": "EXTERNAL_SHOCK",
+      "flow_to": [
+        "natural_gas_price"
+      ],
+      "description": "Weather events causing supply disruptions",
+      "variables": {
+        "hurricanes": {
+          "proxy_var": "hurricane_season",
+          "affected_region": "Gulf of Mexico",
+          "mechanism": "Shut-in offshore production, damage infrastructure",
+          "major_events": [
+            "Katrina/Rita 2005",
+            "Gustav/Ike 2008",
+            "Ida 2021"
+          ],
+          "note": "GOM now only 2% of US gas (down from 20% in 2005)"
+        },
+        "polar_vortex": {
+          "proxy_var": "polar_vortex_event",
+          "affected_region": "Texas, Midwest, Northeast",
+          "mechanism": "Freeze-offs at wellheads, surge in heating demand",
+          "major_events": [
+            "Polar Vortex 2014",
+            "Winter Storm Uri 2021",
+            "Elliott 2022"
+          ],
+          "note": "Uri caused $195B damages, 246+ deaths"
+        }
+      }
+    },
+    "sanctions": {
+      "type": "structural_shifter",
+      "description": "Economic sanctions affecting global energy supply",
+      "variables": {
+        "iran_sanctions": {
+          "description": "US/EU sanctions on Iran oil exports",
+          "coefficient": 0.8,
+          "mechanism": "Removes 1-2 mbd from global oil market, indirect gas price impact"
+        },
+        "russia_sanctions": {
+          "description": "Sanctions on Russia post-2022 invasion",
+          "coefficient": 2.0,
+          "mechanism": "Oil price cap, gas weaponization, LNG redirection"
+        },
+        "venezuela_sanctions": {
+          "description": "Sanctions on Venezuela oil sector",
+          "coefficient": 0.3,
+          "mechanism": "Heavy crude supply reduction, refinery economics"
+        }
+      }
+    },
+    "weather_disruptions": {
+      "type": "supply_shock",
+      "description": "Weather events causing energy supply disruptions",
+      "variables": {
+        "hurricane_active": {
+          "description": "Hurricane affecting Gulf of Mexico production",
+          "coefficient": 0.5,
+          "mechanism": "Platform evacuation, production shut-in"
+        },
+        "hurricane_major": {
+          "description": "Major hurricane (Cat 3+) with infrastructure damage",
+          "coefficient": 2.0,
+          "mechanism": "Extended shutdowns, platform/pipeline damage"
+        },
+        "polar_vortex": {
+          "description": "Extreme cold event causing demand spike and freeze-offs",
+          "coefficient": 5.0,
+          "mechanism": "Production freeze-offs, heating demand surge, pipeline constraints"
+        }
+      },
+      "historical_impacts": {
+        "katrina_rita_2005": {
+          "gas_shutin_bcfd": 8.8,
+          "duration_months": 10,
+          "peak_price": 15.22
+        },
+        "uri_2021": {
+          "gas_shutin_bcfd": 15.0,
+          "duration_days": 7,
+          "price_spike_pct": 535
+        }
+      }
+    },
+    "lng_competition": {
+      "type": "demand_moderator",
+      "description": "Global LNG market competition between regions",
+      "variables": {
+        "asia_europe_spread": {
+          "description": "Price spread between JKM and TTF",
+          "coefficient": -0.15,
+          "mechanism": "Arbitrage flows, cargo redirection"
+        },
+        "us_lng_exports": {
+          "description": "US LNG export volumes (Bcf/d)",
+          "coefficient": 0.08,
+          "mechanism": "Demand pull on Henry Hub, global supply increase"
+        },
+        "lng_competition_intense": {
+          "description": "Intense Asia-Europe competition (spread < $2)",
+          "coefficient": 0.4,
+          "mechanism": "Higher spot prices, reduced destination flexibility"
+        }
+      },
+      "capacity_additions": {
+        "2024": {
+          "new_capacity_bcm": 20,
+          "primary_source": "US"
+        },
+        "2025": {
+          "new_capacity_bcm": 40,
+          "primary_source": "US_Qatar"
+        },
+        "2026": {
+          "new_capacity_bcm": 60,
+          "primary_source": "US_Qatar_Canada"
+        },
+        "2030_cumulative": {
+          "total_new_bcm": 250,
+          "notes": "LNG glut expected"
+        }
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": "shale_production",
+      "to": "natural_gas_price",
+      "weight": -1.3,
+      "type": "causal"
+    },
+    {
+      "from": "lng_exports",
+      "to": "natural_gas_price",
+      "weight": 0.12,
+      "type": "causal"
+    },
+    {
+      "from": "drilling_activity",
+      "to": "natural_gas_price",
+      "weight": -0.003,
+      "type": "causal_lagged"
+    },
+    {
+      "from": "power_sector_demand",
+      "to": "natural_gas_price",
+      "weight": 0.28,
+      "type": "causal"
+    },
+    {
+      "from": "seasonal_heating",
+      "to": "natural_gas_price",
+      "weight": 0.15,
+      "type": "causal"
+    },
+    {
+      "from": "natural_gas_price",
+      "to": "electricity_price",
+      "weight": "varies_by_region",
+      "type": "causal_moderated"
+    },
+    {
+      "from": "gas_share",
+      "to": "electricity_price",
+      "weight": 0.81,
+      "type": "correlation"
+    },
+    {
+      "from": "coal_share",
+      "to": "electricity_price",
+      "weight": -0.72,
+      "type": "correlation"
+    },
+    {
+      "from": "power_sector_demand",
+      "to": "electricity_price",
+      "weight": 0.8,
+      "type": "causal"
+    },
+    {
+      "from": "rggi",
+      "to": "natural_gas_price",
+      "weight": -1.3,
+      "type": "structural_break"
+    },
+    {
+      "from": "mats_rule",
+      "to": "generation_mix",
+      "weight": "accelerated_coal_retirement",
+      "type": "structural_break"
+    },
+    {
+      "from": "obbba",
+      "to": "generation_mix",
+      "weight": 1.2,
+      "type": "structural_break"
+    },
+    {
+      "from": "permitting",
+      "to": "supply",
+      "weight": "constrains_response",
+      "type": "constraint"
+    },
+    {
+      "from": "gas_plant_additions",
+      "to": "natural_gas_price",
+      "weight": "demand_signal",
+      "type": "causal_lagged",
+      "lag_months": 12
+    },
+    {
+      "from": "coal_retirements",
+      "to": "natural_gas_price",
+      "weight": "positive",
+      "type": "causal",
+      "mechanism": "Shifts generation to gas"
+    },
+    {
+      "from": "gas_generation_share",
+      "to": "electricity_price",
+      "weight": 0.81,
+      "type": "correlation"
+    },
+    {
+      "from": "gas_capacity_factors",
+      "to": "natural_gas_price",
+      "weight": "positive",
+      "type": "causal",
+      "mechanism": "Higher CFs = more gas burn"
+    },
+    {
+      "from": "russia_ukraine_war",
+      "to": "natural_gas_price",
+      "weight": "shock",
+      "type": "geopolitical"
+    },
+    {
+      "from": "global_lng_competition",
+      "to": "natural_gas_price",
+      "weight": "positive",
+      "type": "causal"
+    },
+    {
+      "from": "hurricanes",
+      "to": "natural_gas_price",
+      "weight": "spike",
+      "type": "supply_shock"
+    },
+    {
+      "from": "polar_vortex",
+      "to": "natural_gas_price",
+      "weight": "spike",
+      "type": "supply_shock"
+    },
+    {
+      "from": "geopolitical",
+      "to": "natural_gas_price",
+      "type": "supply_shock",
+      "weight": 2.5
+    },
+    {
+      "from": "sanctions",
+      "to": "natural_gas_price",
+      "type": "structural_shift",
+      "weight": 1.5
+    },
+    {
+      "from": "weather_disruptions",
+      "to": "natural_gas_price",
+      "type": "supply_shock",
+      "weight": 3.0
+    },
+    {
+      "from": "weather_disruptions",
+      "to": "supply",
+      "type": "production_impact",
+      "weight": -5.0
+    },
+    {
+      "from": "lng_competition",
+      "to": "natural_gas_price",
+      "type": "demand_moderator",
+      "weight": 0.5
+    },
+    {
+      "from": "lng_competition",
+      "to": "electricity_price",
+      "type": "indirect",
+      "weight": 0.3
+    }
+  ],
+  "insights": {
+    "tx_vs_ca_divergence": {
+      "observation": "TX industrial electricity correlates +0.68 with gas, CA correlates -0.35",
+      "explanation": "TX is market-driven (energy-only), CA is policy-driven (regulated)",
+      "implication": "Gas price forecasts translate differently by region"
+    },
+    "shale_rggi_equivalence": {
+      "observation": "Shale era and post-RGGI have identical coefficients (-1.30)",
+      "explanation": "Both represent structural shifts that lowered gas prices",
+      "implication": "Policy and technology can have equivalent price impacts"
+    },
+    "coal_retirement_paradox": {
+      "observation": "Policies that lowered gas prices correlated with higher electricity prices",
+      "explanation": "Coal retirement removed cheap baseload, infrastructure costs rose",
+      "implication": "Fuel cost savings don't guarantee electricity price reductions"
+    },
+    "regional_passthrough": {
+      "observation": "Gas price passthrough varies: PJM/ISO-NE ~0.8, ERCOT 0.21, CAISO 0.42",
+      "explanation": "Market structure, fuel mix, and regulation affect transmission",
+      "implication": "National gas price forecasts need regional translation"
+    }
+  }
+}

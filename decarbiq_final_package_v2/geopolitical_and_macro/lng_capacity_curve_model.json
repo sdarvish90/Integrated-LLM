@@ -1,0 +1,308 @@
+{
+  "model_type": "LNG_Capacity_Curve",
+  "version": "1.0",
+  "created": "2026-02-10 22:17",
+  "description": "Global LNG supply/demand balance affecting natural gas prices",
+  "methodology": {
+    "global_utilization_impact": "Utilization rate determines market regime and price premium/discount",
+    "us_export_impact": "$0.12/MMBtu per Bcf/d above 6.5 Bcf/d baseline",
+    "combined_effect": "Global utilization premium + US export demand pull"
+  },
+  "utilization_thresholds": {
+    "crisis": ">95% utilization \u2192 +$2.00 to +$4.00",
+    "tight": "90-95% \u2192 +$1.00 to +$2.00",
+    "firm": "85-90% \u2192 +$0.25 to +$1.00",
+    "balanced": "78-85% \u2192 $0.00",
+    "loose": "70-78% \u2192 -$0.25 to -$0.50",
+    "glut": "<70% \u2192 -$0.50 to -$1.50"
+  },
+  "capacity_projections": {
+    "2020": {
+      "total_capacity_bcm": 434.0,
+      "us_capacity_bcm": 70.0
+    },
+    "2021": {
+      "total_capacity_bcm": 448.0,
+      "us_capacity_bcm": 75.0
+    },
+    "2022": {
+      "total_capacity_bcm": 464.0,
+      "us_capacity_bcm": 80.0
+    },
+    "2023": {
+      "total_capacity_bcm": 481.0,
+      "us_capacity_bcm": 88.0
+    },
+    "2024": {
+      "total_capacity_bcm": 498.0,
+      "us_capacity_bcm": 95.0
+    },
+    "2025": {
+      "total_capacity_bcm": 526.0,
+      "us_capacity_bcm": 115.0
+    },
+    "2026": {
+      "total_capacity_bcm": 565.0,
+      "us_capacity_bcm": 140.0
+    },
+    "2027": {
+      "total_capacity_bcm": 623.0,
+      "us_capacity_bcm": 165.0
+    },
+    "2028": {
+      "total_capacity_bcm": 676.0,
+      "us_capacity_bcm": 185.0
+    },
+    "2029": {
+      "total_capacity_bcm": 702.0,
+      "us_capacity_bcm": 195.0
+    },
+    "2030": {
+      "total_capacity_bcm": 728.0,
+      "us_capacity_bcm": 205.0
+    },
+    "2035": {
+      "total_capacity_bcm": 880.0,
+      "us_capacity_bcm": 250.0
+    }
+  },
+  "demand_projections": {
+    "2020": {
+      "total_demand_bcm": 380.0,
+      "asia_demand_bcm": 260.0,
+      "europe_demand_bcm": 80.0
+    },
+    "2021": {
+      "total_demand_bcm": 415.0,
+      "asia_demand_bcm": 280.0,
+      "europe_demand_bcm": 90.0
+    },
+    "2022": {
+      "total_demand_bcm": 470.0,
+      "asia_demand_bcm": 290.0,
+      "europe_demand_bcm": 130.0
+    },
+    "2023": {
+      "total_demand_bcm": 504.0,
+      "asia_demand_bcm": 310.0,
+      "europe_demand_bcm": 140.0
+    },
+    "2024": {
+      "total_demand_bcm": 535.0,
+      "asia_demand_bcm": 330.0,
+      "europe_demand_bcm": 145.0
+    },
+    "2025": {
+      "total_demand_bcm": 566.0,
+      "asia_demand_bcm": 350.0,
+      "europe_demand_bcm": 150.0
+    },
+    "2026": {
+      "total_demand_bcm": 595.0,
+      "asia_demand_bcm": 370.0,
+      "europe_demand_bcm": 155.0
+    },
+    "2027": {
+      "total_demand_bcm": 626.0,
+      "asia_demand_bcm": 390.0,
+      "europe_demand_bcm": 160.0
+    },
+    "2028": {
+      "total_demand_bcm": 655.0,
+      "asia_demand_bcm": 410.0,
+      "europe_demand_bcm": 165.0
+    },
+    "2029": {
+      "total_demand_bcm": 674.0,
+      "asia_demand_bcm": 425.0,
+      "europe_demand_bcm": 165.0
+    },
+    "2030": {
+      "total_demand_bcm": 695.0,
+      "asia_demand_bcm": 440.0,
+      "europe_demand_bcm": 165.0
+    },
+    "2035": {
+      "total_demand_bcm": 805.0,
+      "asia_demand_bcm": 520.0,
+      "europe_demand_bcm": 170.0
+    }
+  },
+  "annual_balance": {
+    "2020": {
+      "utilization_pct": 87.55760368663594,
+      "surplus_bcm": 54.0,
+      "market_regime": "Balanced",
+      "global_price_impact": 0.6336405529953915,
+      "us_export_impact": 0.0,
+      "total_adjustment": 0.6336405529953915,
+      "lng_adjusted_mean": 4.1336405529953915
+    },
+    "2021": {
+      "utilization_pct": 92.63392857142857,
+      "surplus_bcm": 33.0,
+      "market_regime": "Tight",
+      "global_price_impact": 1.526785714285714,
+      "us_export_impact": 0.36,
+      "total_adjustment": 1.8867857142857138,
+      "lng_adjusted_mean": 5.386785714285714
+    },
+    "2022": {
+      "utilization_pct": 101.29310344827587,
+      "surplus_bcm": -6.0,
+      "market_regime": "Crisis",
+      "global_price_impact": 4.517241379310349,
+      "us_export_impact": 0.48,
+      "total_adjustment": 4.997241379310349,
+      "lng_adjusted_mean": 8.49724137931035
+    },
+    "2023": {
+      "utilization_pct": 104.78170478170479,
+      "surplus_bcm": -23.0,
+      "market_regime": "Crisis",
+      "global_price_impact": 5.912681912681916,
+      "us_export_impact": 0.636,
+      "total_adjustment": 6.548681912681916,
+      "lng_adjusted_mean": 10.048681912681916
+    },
+    "2024": {
+      "utilization_pct": 107.429718875502,
+      "surplus_bcm": -37.0,
+      "market_regime": "Crisis",
+      "global_price_impact": 6.971887550200802,
+      "us_export_impact": 0.72,
+      "total_adjustment": 7.691887550200802,
+      "lng_adjusted_mean": 11.191887550200802
+    },
+    "2025": {
+      "utilization_pct": 107.60456273764258,
+      "surplus_bcm": -40.0,
+      "market_regime": "Crisis",
+      "global_price_impact": 7.041825095057033,
+      "us_export_impact": 0.8999999999999999,
+      "total_adjustment": 7.941825095057032,
+      "lng_adjusted_mean": 11.441825095057032
+    },
+    "2026": {
+      "utilization_pct": 105.30973451327435,
+      "surplus_bcm": -30.0,
+      "market_regime": "Crisis",
+      "global_price_impact": 6.1238938053097405,
+      "us_export_impact": 1.14,
+      "total_adjustment": 7.26389380530974,
+      "lng_adjusted_mean": 10.76389380530974
+    },
+    "2027": {
+      "utilization_pct": 100.48154093097914,
+      "surplus_bcm": -3.0,
+      "market_regime": "Crisis",
+      "global_price_impact": 4.1926163723916545,
+      "us_export_impact": 1.44,
+      "total_adjustment": 5.632616372391654,
+      "lng_adjusted_mean": 9.132616372391654
+    },
+    "2028": {
+      "utilization_pct": 96.89349112426035,
+      "surplus_bcm": 21.0,
+      "market_regime": "Crisis",
+      "global_price_impact": 2.75739644970414,
+      "us_export_impact": 1.74,
+      "total_adjustment": 4.49739644970414,
+      "lng_adjusted_mean": 7.99739644970414
+    },
+    "2029": {
+      "utilization_pct": 96.01139601139602,
+      "surplus_bcm": 28.0,
+      "market_regime": "Crisis",
+      "global_price_impact": 2.4045584045584065,
+      "us_export_impact": 1.92,
+      "total_adjustment": 4.324558404558406,
+      "lng_adjusted_mean": 7.824558404558406
+    },
+    "2030": {
+      "utilization_pct": 95.46703296703298,
+      "surplus_bcm": 33.0,
+      "market_regime": "Crisis",
+      "global_price_impact": 2.186813186813191,
+      "us_export_impact": 2.1,
+      "total_adjustment": 4.286813186813191,
+      "lng_adjusted_mean": 7.786813186813191
+    },
+    "2035": {
+      "utilization_pct": 91.47727272727273,
+      "surplus_bcm": 75.0,
+      "market_regime": "Tight",
+      "global_price_impact": 1.2954545454545467,
+      "us_export_impact": 2.82,
+      "total_adjustment": 4.115454545454547,
+      "lng_adjusted_mean": 7.615454545454547
+    }
+  },
+  "us_lng_exports": {
+    "2020": {
+      "exports_bcfd": 6.5,
+      "lng_share_pct": 7.142857142857142,
+      "hh_premium": 0.0
+    },
+    "2021": {
+      "exports_bcfd": 9.5,
+      "lng_share_pct": 10.21505376344086,
+      "hh_premium": 0.36
+    },
+    "2022": {
+      "exports_bcfd": 10.5,
+      "lng_share_pct": 10.606060606060606,
+      "hh_premium": 0.48
+    },
+    "2023": {
+      "exports_bcfd": 11.8,
+      "lng_share_pct": 11.456310679611653,
+      "hh_premium": 0.636
+    },
+    "2024": {
+      "exports_bcfd": 12.5,
+      "lng_share_pct": 11.904761904761903,
+      "hh_premium": 0.72
+    },
+    "2025": {
+      "exports_bcfd": 14.0,
+      "lng_share_pct": 13.084112149532709,
+      "hh_premium": 0.8999999999999999
+    },
+    "2026": {
+      "exports_bcfd": 16.0,
+      "lng_share_pct": 14.545454545454545,
+      "hh_premium": 1.14
+    },
+    "2027": {
+      "exports_bcfd": 18.5,
+      "lng_share_pct": 16.371681415929203,
+      "hh_premium": 1.44
+    },
+    "2028": {
+      "exports_bcfd": 21.0,
+      "lng_share_pct": 18.103448275862068,
+      "hh_premium": 1.74
+    },
+    "2029": {
+      "exports_bcfd": 22.5,
+      "lng_share_pct": 19.06779661016949,
+      "hh_premium": 1.92
+    },
+    "2030": {
+      "exports_bcfd": 24.0,
+      "lng_share_pct": 20.0,
+      "hh_premium": 2.1
+    },
+    "2035": {
+      "exports_bcfd": 30.0,
+      "lng_share_pct": 23.076923076923077,
+      "hh_premium": 2.82
+    }
+  },
+  "integration_instructions": {
+    "monte_carlo": "Replace static long_run_mean with lng_adjusted_mean by year",
+    "regime_switching": "Use LNG regime to influence crisis transition probability",
+    "seasonality": "Apply monthly utilization adjustment on top of price seasonality"
+  }
+}

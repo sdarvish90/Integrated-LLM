@@ -1,0 +1,30 @@
+{
+  "crude_oil_impact": {
+    "wti_to_gas": {
+      "contemporaneous": {
+        "beta": 0.05875309804282176,
+        "r_squared": 0.3756555770819608,
+        "interpretation": "$/Mcf gas per $/bbl oil"
+      },
+      "lagged_3m": {
+        "beta": 0.05182628452737298,
+        "r_squared": 0.30296662932641943
+      }
+    },
+    "associated_gas": {
+      "permian_gas_per_oil": 4.333209467773549,
+      "r_squared": 0.9690877340403062,
+      "interpretation": "Bcf/d gas per mbd oil"
+    },
+    "fuel_switching": {
+      "energy_equivalent": 6.0,
+      "gas_favored_threshold": 10.0,
+      "oil_favored_threshold": 6.0
+    },
+    "transmission_to_electricity": {
+      "primary_driver": "gas_price",
+      "oil_contribution": "secondary (via associated gas supply)",
+      "lag_to_electricity": "0-3 months via gas, 6-12 months via associated gas"
+    }
+  }
+}

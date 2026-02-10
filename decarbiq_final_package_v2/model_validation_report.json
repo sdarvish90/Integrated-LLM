@@ -1,0 +1,39 @@
+{
+  "historical_fit": {
+    "actual_vol": 0.5278476777299033,
+    "model_vol": 0.5262426018243792,
+    "vol_error_pct": 0.30407937237252836,
+    "actual_mean": 4.1225297619047625,
+    "model_mean": 3.5,
+    "mean_error_pct": 15.100673563533732
+  },
+  "backtest_2020_2024": {
+    "actual_avg": 3.417833333333333,
+    "model_p50": 4.005005315334849,
+    "model_p10": 3.527904597590114,
+    "model_p90": 4.607627968329132,
+    "in_confidence_interval": false,
+    "actual_max": 8.81,
+    "max_in_ci": false
+  },
+  "stylized_facts": {
+    "vol_clustering_actual": 0.2542775933689663,
+    "kurtosis_actual": 3.380950487047225,
+    "mean_reversion_signal": -0.5281200026899298,
+    "seasonality_winter_premium_pct": 3.222263965552097
+  },
+  "model_limitations": [
+    "No seasonality",
+    "Constant volatility (GARCH not integrated)",
+    "Independent events",
+    "Symmetric shocks",
+    "Static long-run mean",
+    "No regime switching"
+  ],
+  "recommended_improvements": [
+    "Add seasonal mean curve",
+    "Integrate GARCH volatility",
+    "Add regime switching (normal vs crisis)",
+    "Use asymmetric jump process for spikes"
+  ]
+}

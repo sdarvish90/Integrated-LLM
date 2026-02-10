@@ -1,0 +1,20 @@
+{
+  "oil_gas_correlation": {
+    "contemporaneous_r": 0.61,
+    "contemporaneous_r2": 0.38,
+    "beta": 0.059,
+    "interpretation": "$/Mcf gas per $/bbl oil"
+  },
+  "gas_to_electricity": {
+    "ercot_wholesale_r2": 0.04619503446939369,
+    "tx_retail_r2": 0.2978963395773164,
+    "ca_retail_r2": 0.00584516421060258
+  },
+  "oil_to_electricity": {
+    "ercot_wholesale_r2": 1.5807080212012761e-06,
+    "tx_retail_r2": 0.4365824250416779,
+    "ca_retail_r2": 0.25510079426922944
+  },
+  "key_finding": "Gas is PRIMARY driver (R\u00b2 0.30-0.65), Oil is SECONDARY (<0.15)",
+  "recommendation": "Use gas price for electricity forecasting, oil for scenario adjustment"
+}
