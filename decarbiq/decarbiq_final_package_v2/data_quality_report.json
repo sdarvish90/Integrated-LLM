@@ -1,0 +1,4122 @@
+{
+  "date": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "datetime64[ns]",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "year": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "month": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "period": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "object",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "electric_power_bcfd": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "industrial_bcfd": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "residential_bcfd": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "commercial_bcfd": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "total_bcfd": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "electric_power_share_pct": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "industrial_share_pct": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "residential_cents_kwh": {
+    "coverage_start": "2001-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 288,
+    "n_total": 336,
+    "missing_pct": 14.3,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "commercial_cents_kwh": {
+    "coverage_start": "2001-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 288,
+    "n_total": 336,
+    "missing_pct": 14.3,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "industrial_cents_kwh": {
+    "coverage_start": "2001-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 288,
+    "n_total": 336,
+    "missing_pct": 14.3,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "gas_share_pct": {
+    "coverage_start": "2001-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 288,
+    "n_total": 336,
+    "missing_pct": 14.3,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "coal_share_pct": {
+    "coverage_start": "2001-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 288,
+    "n_total": 336,
+    "missing_pct": 14.3,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "nuclear_share_pct": {
+    "coverage_start": "2001-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 288,
+    "n_total": 336,
+    "missing_pct": 14.3,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "renewable_share_pct": {
+    "coverage_start": "2001-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 288,
+    "n_total": 336,
+    "missing_pct": 14.3,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "gas_rigs": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "oil_rigs": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "total_rigs": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "caiso_wholesale_mwh": {
+    "coverage_start": "2001-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 285,
+    "n_total": 336,
+    "missing_pct": 15.2,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "henry_hub_mmbtu": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "net_exports_bcfd": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "lng_exports_bcfd": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "is_net_exporter": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "bool",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "henry_hub_spot": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "texas_citygate": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "california_citygate": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "gas_price": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "post_order436": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": true,
+    "suspected_backfill": true
+  },
+  "post_order636": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": true,
+    "suspected_backfill": true
+  },
+  "post_order888": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": true,
+    "suspected_backfill": true
+  },
+  "post_epact2005": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "shale_boom": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "post_caa1990": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": true,
+    "suspected_backfill": true
+  },
+  "post_mats": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "post_cpp": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "post_rggi": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "post_ca_cap": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "post_lng_exports": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "us_net_exporter": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "post_ira": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "post_lng_pause": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "era": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "object",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "post_nepa": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": true,
+    "suspected_backfill": true
+  },
+  "post_epact2005_permitting": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "post_fra2023": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "post_certificate_policy": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "post_mvp_approval": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "post_order2003": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "post_order2023": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "post_order1000": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "post_order1920": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "post_401_battles": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "power_share_of_gas": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "heating_demand": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "base_demand": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "is_winter": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "is_summer": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "gas_coal_ratio": {
+    "coverage_start": "2001-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 288,
+    "n_total": 336,
+    "missing_pct": 14.3,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "thermal_share": {
+    "coverage_start": "2001-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 288,
+    "n_total": 336,
+    "missing_pct": 14.3,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "clean_share": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "post_coal_decline": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "post_major_coal_ret": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "shale_era": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "caiso_wholesale_historical_mwh": {
+    "coverage_start": "2001-01-01 00:00:00",
+    "coverage_end": "2013-12-01 00:00:00",
+    "n_valid": 156,
+    "n_total": 336,
+    "missing_pct": 53.6,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "indiana_wholesale_mwh": {
+    "coverage_start": "2006-01-01 00:00:00",
+    "coverage_end": "2013-12-01 00:00:00",
+    "n_valid": 96,
+    "n_total": 336,
+    "missing_pct": 71.4,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "midc_wholesale_mwh": {
+    "coverage_start": "2001-01-01 00:00:00",
+    "coverage_end": "2013-12-01 00:00:00",
+    "n_valid": 155,
+    "n_total": 336,
+    "missing_pct": 53.9,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "isone_wholesale_mwh": {
+    "coverage_start": "2001-01-01 00:00:00",
+    "coverage_end": "2013-12-01 00:00:00",
+    "n_valid": 156,
+    "n_total": 336,
+    "missing_pct": 53.6,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "pjm_wholesale_mwh": {
+    "coverage_start": "2001-01-01 00:00:00",
+    "coverage_end": "2013-12-01 00:00:00",
+    "n_valid": 156,
+    "n_total": 336,
+    "missing_pct": 53.6,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "palo_verde_wholesale_mwh": {
+    "coverage_start": "2001-01-01 00:00:00",
+    "coverage_end": "2013-12-01 00:00:00",
+    "n_valid": 156,
+    "n_total": 336,
+    "missing_pct": 53.6,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "ca_industrial_cents_kwh": {
+    "coverage_start": "2001-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 288,
+    "n_total": 336,
+    "missing_pct": 14.3,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "tx_industrial_cents_kwh": {
+    "coverage_start": "2001-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 288,
+    "n_total": 336,
+    "missing_pct": 14.3,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "ercot_wholesale_mwh": {
+    "coverage_start": "2010-12-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 169,
+    "n_total": 336,
+    "missing_pct": 49.7,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "post_obbba": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": true,
+    "suspected_backfill": true
+  },
+  "ira_era": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "hurricane_active": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "hurricane_major": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "polar_vortex_event": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": true,
+    "suspected_backfill": true
+  },
+  "war_active": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "russia_gas_dispute": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "iran_sanctions_active": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "venezuela_sanctions_active": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "russia_sanctions_active": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "lng_tight_market": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "tx_gas_gen_pct": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "tx_coal_gen_pct": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "tx_nuclear_gen_pct": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "tx_total_twh": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "tx_gas_gw": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "tx_wind_gw": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "tx_solar_gw": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 252,
+    "n_total": 336,
+    "missing_pct": 25.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "tx_coal_gw": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ca_gas_gen_pct": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ca_coal_gen_pct": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ca_nuclear_gen_pct": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ca_total_twh": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ca_gas_gw": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ca_wind_gw": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ca_solar_gw": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "tx_renewable_pct": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ca_renewable_pct": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "tx_thermal_pct": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ca_thermal_pct": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "tx_gas_gen_pct_yoy": {
+    "coverage_start": "1998-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 324,
+    "n_total": 336,
+    "missing_pct": 3.6,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "tx_wind_gen_pct_yoy": {
+    "coverage_start": "1998-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 324,
+    "n_total": 336,
+    "missing_pct": 3.6,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "tx_coal_gen_pct_yoy": {
+    "coverage_start": "1998-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 324,
+    "n_total": 336,
+    "missing_pct": 3.6,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ca_gas_gen_pct_yoy": {
+    "coverage_start": "1998-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 324,
+    "n_total": 336,
+    "missing_pct": 3.6,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ca_wind_gen_pct_yoy": {
+    "coverage_start": "1998-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 324,
+    "n_total": 336,
+    "missing_pct": 3.6,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ca_solar_gen_pct_yoy": {
+    "coverage_start": "1998-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 324,
+    "n_total": 336,
+    "missing_pct": 3.6,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "us_gdp_growth_pct": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "us_population_m": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "us_population_growth_pct": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "us_industrial_prod_index": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "us_electricity_twh": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "us_electricity_growth_pct": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "us_ng_total_bcf": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "us_data_center_twh": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "us_data_center_pct_total": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "us_gdp_billion": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "tx_gdp_billion": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "tx_gdp_growth_pct": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "tx_population_m": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "tx_population_growth_pct": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "tx_industrial_prod_index": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "tx_ercot_demand_twh": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "tx_ercot_peak_gw": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "tx_data_center_twh": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "tx_data_center_pct_total": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "tx_large_load_queue_gw": {
+    "coverage_start": "2020-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 60,
+    "n_total": 336,
+    "missing_pct": 82.1,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "tx_mfg_investment_bn": {
+    "coverage_start": "2020-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 60,
+    "n_total": 336,
+    "missing_pct": 82.1,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ca_gdp_billion": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ca_gdp_growth_pct": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ca_population_m": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ca_population_growth_pct": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ca_industrial_prod_index": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ca_caiso_demand_twh": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ca_caiso_peak_gw": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ca_data_center_twh": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ca_data_center_pct_total": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ca_renewable_share_pct_dd": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "implied_heat_rate": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ng_fuel_cost_mwh": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "ercot_spark_spread": {
+    "coverage_start": "2010-12-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 169,
+    "n_total": 336,
+    "missing_pct": 49.7,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "caiso_spark_spread": {
+    "coverage_start": "2001-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 216,
+    "n_total": 336,
+    "missing_pct": 35.7,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "us_data_center_load_share": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "us_gdp_per_capita_k": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "tx_gdp_per_capita_k": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ca_gdp_per_capita_k": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "us_industrial_prod_index_yoy": {
+    "coverage_start": "1998-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 324,
+    "n_total": 336,
+    "missing_pct": 3.6,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "us_data_center_twh_yoy": {
+    "coverage_start": "1998-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 324,
+    "n_total": 336,
+    "missing_pct": 3.6,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "tx_ercot_demand_twh_yoy": {
+    "coverage_start": "1998-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 324,
+    "n_total": 336,
+    "missing_pct": 3.6,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "tx_wind_gen_pct": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "tx_solar_gen_pct": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "ca_wind_gen_pct": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "ca_solar_gen_pct": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "itc_rate_pct": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ptc_rate_cents_kwh": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "itc_active": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": true,
+    "suspected_backfill": true
+  },
+  "ptc_active": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ira_active": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "n_ira_credits": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "queue_backlog_gw": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ercot_large_load_queue_gw": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ferc_reform_year": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "cumulative_ferc_reforms": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "n_rps_states": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ca_rps_target_pct": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ca_allowance_price_per_ton": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ca_allowance_spread": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ca_cap_trade_active": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "tx_crez_transmission_gw": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "tx_crez_active": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ca_nem_compensation_level": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ca_storage_mandate": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "der_market_access": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ca_solar_mandate": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "major_energy_legislation": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "cumulative_energy_laws": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ira_spending_bn": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "arra_active": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "policy_intensity_index": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "us_hdd": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "tx_hdd": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "ca_hdd": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "us_cdd": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "tx_cdd": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "ca_cdd": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "us_hdd_departure_pct": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "us_cdd_departure_pct": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "tx_hdd_departure_pct": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 308,
+    "n_total": 336,
+    "missing_pct": 8.3,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "tx_cdd_departure_pct": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "ca_hdd_departure_pct": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "ca_cdd_departure_pct": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "us_ng_storage_bcf": {
+    "coverage_start": "2010-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 180,
+    "n_total": 336,
+    "missing_pct": 46.4,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "us_ng_storage_vs_5yr_bcf": {
+    "coverage_start": "2010-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 180,
+    "n_total": 336,
+    "missing_pct": 46.4,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "us_ng_storage_vs_5yr_pct": {
+    "coverage_start": "2010-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 180,
+    "n_total": 336,
+    "missing_pct": 46.4,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "us_planning_reserve_margin_pct": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "us_actual_reserve_margin_pct": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "us_peak_demand_gw": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ercot_planning_reserve_margin_pct": {
+    "coverage_start": "2000-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 252,
+    "n_total": 336,
+    "missing_pct": 25.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ercot_actual_reserve_margin_pct": {
+    "coverage_start": "2000-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 252,
+    "n_total": 336,
+    "missing_pct": 25.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ercot_peak_demand_gw": {
+    "coverage_start": "2000-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 252,
+    "n_total": 336,
+    "missing_pct": 25.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "caiso_planning_reserve_margin_pct": {
+    "coverage_start": "2000-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 132,
+    "n_total": 336,
+    "missing_pct": 60.7,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "caiso_actual_reserve_margin_pct": {
+    "coverage_start": "2000-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 132,
+    "n_total": 336,
+    "missing_pct": 60.7,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "caiso_peak_demand_gw": {
+    "coverage_start": "2000-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 132,
+    "n_total": 336,
+    "missing_pct": 60.7,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ercot_congestion_cost_million": {
+    "coverage_start": "2011-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 168,
+    "n_total": 336,
+    "missing_pct": 50.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ercot_congestion_per_mwh": {
+    "coverage_start": "2016-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 108,
+    "n_total": 336,
+    "missing_pct": 67.9,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "caiso_congestion_cost_million": {
+    "coverage_start": "2006-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 156,
+    "n_total": 336,
+    "missing_pct": 53.6,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "caiso_congestion_per_mwh": {
+    "coverage_start": "2016-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 108,
+    "n_total": 336,
+    "missing_pct": 67.9,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ercot_total_curtailment_pct": {
+    "coverage_start": "2016-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 108,
+    "n_total": 336,
+    "missing_pct": 67.9,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ercot_wind_curtailment_pct": {
+    "coverage_start": "2016-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 108,
+    "n_total": 336,
+    "missing_pct": 67.9,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ercot_solar_curtailment_pct": {
+    "coverage_start": "2016-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 108,
+    "n_total": 336,
+    "missing_pct": 67.9,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "caiso_total_curtailment_pct": {
+    "coverage_start": "2014-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 132,
+    "n_total": 336,
+    "missing_pct": 60.7,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "caiso_wind_curtailment_pct": {
+    "coverage_start": "2014-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 132,
+    "n_total": 336,
+    "missing_pct": 60.7,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "caiso_solar_curtailment_pct": {
+    "coverage_start": "2014-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 132,
+    "n_total": 336,
+    "missing_pct": 60.7,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "us_total_curtailment_pct": {
+    "coverage_start": "2020-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 60,
+    "n_total": 336,
+    "missing_pct": 82.1,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "us_wind_curtailment_pct": {
+    "coverage_start": "2020-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 60,
+    "n_total": 336,
+    "missing_pct": 82.1,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "us_solar_curtailment_pct": {
+    "coverage_start": "2020-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 60,
+    "n_total": 336,
+    "missing_pct": 82.1,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ercot_scarcity_hours": {
+    "coverage_start": "2005-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 192,
+    "n_total": 336,
+    "missing_pct": 42.9,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ercot_scarcity_revenue_million": {
+    "coverage_start": "2005-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 192,
+    "n_total": 336,
+    "missing_pct": 42.9,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ercot_ordc_adder_max_mwh": {
+    "coverage_start": "2005-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 192,
+    "n_total": 336,
+    "missing_pct": 42.9,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ercot_price_cap_mwh": {
+    "coverage_start": "2005-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 192,
+    "n_total": 336,
+    "missing_pct": 42.9,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ercot_eea_events": {
+    "coverage_start": "2005-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 192,
+    "n_total": 336,
+    "missing_pct": 42.9,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "caiso_scarcity_hours": {
+    "coverage_start": "2000-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 60,
+    "n_total": 336,
+    "missing_pct": 82.1,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "caiso_eea_events": {
+    "coverage_start": "2000-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 60,
+    "n_total": 336,
+    "missing_pct": 82.1,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "caiso_negative_hours": {
+    "coverage_start": "2015-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 120,
+    "n_total": 336,
+    "missing_pct": 64.3,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ercot_negative_hours_annual": {
+    "coverage_start": "2015-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 120,
+    "n_total": 336,
+    "missing_pct": 64.3,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "battery_pack_price_kwh": {
+    "coverage_start": "2010-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 180,
+    "n_total": 336,
+    "missing_pct": 46.4,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "battery_stationary_price_kwh": {
+    "coverage_start": "2022-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 36,
+    "n_total": 336,
+    "missing_pct": 89.3,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "us_battery_capacity_gw": {
+    "coverage_start": "2010-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 180,
+    "n_total": 336,
+    "missing_pct": 46.4,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "tx_battery_capacity_gw": {
+    "coverage_start": "2010-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 132,
+    "n_total": 336,
+    "missing_pct": 60.7,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ca_battery_capacity_gw": {
+    "coverage_start": "2010-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 132,
+    "n_total": 336,
+    "missing_pct": 60.7,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "lng_utilization_pct": {
+    "coverage_start": "2020-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 60,
+    "n_total": 336,
+    "missing_pct": 82.1,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "us_lng_exports_bcfd": {
+    "coverage_start": "2020-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 60,
+    "n_total": 336,
+    "missing_pct": 82.1,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "us_ev_annual_charging_twh": {
+    "coverage_start": "2015-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 120,
+    "n_total": 336,
+    "missing_pct": 64.3,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "us_ev_peak_demand_increase_gw": {
+    "coverage_start": "2015-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 120,
+    "n_total": 336,
+    "missing_pct": 64.3,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "tx_ev_annual_charging_twh": {
+    "coverage_start": "2024-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 12,
+    "n_total": 336,
+    "missing_pct": 96.4,
+    "dtype": "float64",
+    "is_constant": true,
+    "suspected_backfill": true
+  },
+  "tx_ev_peak_demand_increase_gw": {
+    "coverage_start": "2024-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 12,
+    "n_total": 336,
+    "missing_pct": 96.4,
+    "dtype": "float64",
+    "is_constant": true,
+    "suspected_backfill": true
+  },
+  "ca_ev_annual_charging_twh": {
+    "coverage_start": "2024-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 12,
+    "n_total": 336,
+    "missing_pct": 96.4,
+    "dtype": "float64",
+    "is_constant": true,
+    "suspected_backfill": true
+  },
+  "ca_ev_peak_demand_increase_gw": {
+    "coverage_start": "2024-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 12,
+    "n_total": 336,
+    "missing_pct": 96.4,
+    "dtype": "float64",
+    "is_constant": true,
+    "suspected_backfill": true
+  },
+  "us_wind_cf_variability_cv": {
+    "coverage_start": "2020-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 60,
+    "n_total": 336,
+    "missing_pct": 82.1,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "us_wind_cf_annual_avg": {
+    "coverage_start": "2020-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 60,
+    "n_total": 336,
+    "missing_pct": 82.1,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "us_solar_cf_variability_cv": {
+    "coverage_start": "2020-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 60,
+    "n_total": 336,
+    "missing_pct": 82.1,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "us_solar_cf_annual_avg": {
+    "coverage_start": "2020-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 60,
+    "n_total": 336,
+    "missing_pct": 82.1,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "tx_wind_cf_variability_cv": {
+    "coverage_start": "2020-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 60,
+    "n_total": 336,
+    "missing_pct": 82.1,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "tx_wind_cf_annual_avg": {
+    "coverage_start": "2020-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 60,
+    "n_total": 336,
+    "missing_pct": 82.1,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "tx_solar_cf_variability_cv": {
+    "coverage_start": "2020-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 60,
+    "n_total": 336,
+    "missing_pct": 82.1,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "tx_solar_cf_annual_avg": {
+    "coverage_start": "2020-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 60,
+    "n_total": 336,
+    "missing_pct": 82.1,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ca_wind_cf_variability_cv": {
+    "coverage_start": "2020-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 60,
+    "n_total": 336,
+    "missing_pct": 82.1,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ca_wind_cf_annual_avg": {
+    "coverage_start": "2020-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 60,
+    "n_total": 336,
+    "missing_pct": 82.1,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ca_solar_cf_variability_cv": {
+    "coverage_start": "2020-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 60,
+    "n_total": 336,
+    "missing_pct": 82.1,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ca_solar_cf_annual_avg": {
+    "coverage_start": "2020-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 60,
+    "n_total": 336,
+    "missing_pct": 82.1,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ercot_curtailment_gwh": {
+    "coverage_start": "2022-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 36,
+    "n_total": 336,
+    "missing_pct": 89.3,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "caiso_curtailment_gwh": {
+    "coverage_start": "2022-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 36,
+    "n_total": 336,
+    "missing_pct": 89.3,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "ercot_regulationup_price": {
+    "coverage_start": "2005-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 240,
+    "n_total": 336,
+    "missing_pct": 28.6,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ercot_responsivereserve_price": {
+    "coverage_start": "2005-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 240,
+    "n_total": 336,
+    "missing_pct": 28.6,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "caiso_regulationup_price": {
+    "coverage_start": "2007-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 168,
+    "n_total": 336,
+    "missing_pct": 50.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "caiso_spinningreserve_price": {
+    "coverage_start": "2007-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 168,
+    "n_total": 336,
+    "missing_pct": 50.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ercot_rtm_mean": {
+    "coverage_start": "2010-12-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 169,
+    "n_total": 336,
+    "missing_pct": 49.7,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "ercot_rtm_p90": {
+    "coverage_start": "2010-12-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 169,
+    "n_total": 336,
+    "missing_pct": 49.7,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "ercot_rtm_p95": {
+    "coverage_start": "2010-12-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 169,
+    "n_total": 336,
+    "missing_pct": 49.7,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "ercot_rtm_max": {
+    "coverage_start": "2010-12-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 169,
+    "n_total": 336,
+    "missing_pct": 49.7,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "ercot_rtm_std": {
+    "coverage_start": "2010-12-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 169,
+    "n_total": 336,
+    "missing_pct": 49.7,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "ercot_rtm_cv": {
+    "coverage_start": "2010-12-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 169,
+    "n_total": 336,
+    "missing_pct": 49.7,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "ercot_spike_count": {
+    "coverage_start": "2010-12-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 169,
+    "n_total": 336,
+    "missing_pct": 49.7,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "ercot_spikes_gt200": {
+    "coverage_start": "2010-12-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 169,
+    "n_total": 336,
+    "missing_pct": 49.7,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "ercot_spikes_gt500": {
+    "coverage_start": "2010-12-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 169,
+    "n_total": 336,
+    "missing_pct": 49.7,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "ercot_extreme_spikes": {
+    "coverage_start": "2010-12-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 169,
+    "n_total": 336,
+    "missing_pct": 49.7,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "ercot_spikes_gt5000": {
+    "coverage_start": "2010-12-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 169,
+    "n_total": 336,
+    "missing_pct": 49.7,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ercot_negative_hours": {
+    "coverage_start": "2010-12-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 169,
+    "n_total": 336,
+    "missing_pct": 49.7,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "ercot_price_range": {
+    "coverage_start": "2010-12-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 169,
+    "n_total": 336,
+    "missing_pct": 49.7,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "ercot_scarcity_intensity": {
+    "coverage_start": "2010-12-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 169,
+    "n_total": 336,
+    "missing_pct": 49.7,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "caiso_dam_mean": {
+    "coverage_start": "2001-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 283,
+    "n_total": 336,
+    "missing_pct": 15.8,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "caiso_dam_median": {
+    "coverage_start": "2001-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 283,
+    "n_total": 336,
+    "missing_pct": 15.8,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "caiso_dam_max": {
+    "coverage_start": "2001-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 283,
+    "n_total": 336,
+    "missing_pct": 15.8,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "caiso_dam_min": {
+    "coverage_start": "2001-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 283,
+    "n_total": 336,
+    "missing_pct": 15.8,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "caiso_dam_std": {
+    "coverage_start": "2001-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 283,
+    "n_total": 336,
+    "missing_pct": 15.8,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "caiso_monthly_negative_hours": {
+    "coverage_start": "2001-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 283,
+    "n_total": 336,
+    "missing_pct": 15.8,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "caiso_monthly_spikes_gt100": {
+    "coverage_start": "2001-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 283,
+    "n_total": 336,
+    "missing_pct": 15.8,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "caiso_monthly_spikes_gt200": {
+    "coverage_start": "2001-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 283,
+    "n_total": 336,
+    "missing_pct": 15.8,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "caiso_monthly_congestion_avg": {
+    "coverage_start": "2018-04-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 76,
+    "n_total": 336,
+    "missing_pct": 77.4,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "caiso_monthly_energy_avg": {
+    "coverage_start": "2018-04-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 76,
+    "n_total": 336,
+    "missing_pct": 77.4,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "caiso_monthly_loss_avg": {
+    "coverage_start": "2018-04-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 76,
+    "n_total": 336,
+    "missing_pct": 77.4,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "caiso_negative_pct": {
+    "coverage_start": "2001-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 283,
+    "n_total": 336,
+    "missing_pct": 15.8,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "caiso_wind_curtail_gwh": {
+    "coverage_start": "2014-05-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 128,
+    "n_total": 336,
+    "missing_pct": 61.9,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "caiso_solar_curtail_gwh": {
+    "coverage_start": "2014-05-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 128,
+    "n_total": 336,
+    "missing_pct": 61.9,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "caiso_total_curtail_gwh": {
+    "coverage_start": "2014-05-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 128,
+    "n_total": 336,
+    "missing_pct": 61.9,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "ercot_congestion_per_mwh_lag1": {
+    "coverage_start": "2016-02-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 107,
+    "n_total": 336,
+    "missing_pct": 68.2,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ercot_congestion_per_mwh_lag3": {
+    "coverage_start": "2016-04-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 105,
+    "n_total": 336,
+    "missing_pct": 68.8,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ercot_congestion_per_mwh_lag6": {
+    "coverage_start": "2016-07-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 102,
+    "n_total": 336,
+    "missing_pct": 69.6,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ercot_congestion_per_mwh_lag12": {
+    "coverage_start": "2017-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 96,
+    "n_total": 336,
+    "missing_pct": 71.4,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ercot_congestion_cost_million_lag1": {
+    "coverage_start": "2011-02-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 167,
+    "n_total": 336,
+    "missing_pct": 50.3,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ercot_congestion_cost_million_lag3": {
+    "coverage_start": "2011-04-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 165,
+    "n_total": 336,
+    "missing_pct": 50.9,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ercot_congestion_cost_million_lag6": {
+    "coverage_start": "2011-07-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 162,
+    "n_total": 336,
+    "missing_pct": 51.8,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ercot_congestion_cost_million_lag12": {
+    "coverage_start": "2012-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 156,
+    "n_total": 336,
+    "missing_pct": 53.6,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "caiso_congestion_per_mwh_lag1": {
+    "coverage_start": "2016-02-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 107,
+    "n_total": 336,
+    "missing_pct": 68.2,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "caiso_congestion_per_mwh_lag3": {
+    "coverage_start": "2016-04-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 105,
+    "n_total": 336,
+    "missing_pct": 68.8,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "caiso_congestion_per_mwh_lag6": {
+    "coverage_start": "2016-07-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 102,
+    "n_total": 336,
+    "missing_pct": 69.6,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "caiso_congestion_per_mwh_lag12": {
+    "coverage_start": "2017-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 96,
+    "n_total": 336,
+    "missing_pct": 71.4,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "caiso_congestion_cost_million_lag1": {
+    "coverage_start": "2006-02-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 155,
+    "n_total": 336,
+    "missing_pct": 53.9,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "caiso_congestion_cost_million_lag3": {
+    "coverage_start": "2006-04-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 153,
+    "n_total": 336,
+    "missing_pct": 54.5,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "caiso_congestion_cost_million_lag6": {
+    "coverage_start": "2006-07-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 150,
+    "n_total": 336,
+    "missing_pct": 55.4,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "caiso_congestion_cost_million_lag12": {
+    "coverage_start": "2007-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 144,
+    "n_total": 336,
+    "missing_pct": 57.1,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ercot_actual_reserve_margin_pct_lag1": {
+    "coverage_start": "2000-02-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 251,
+    "n_total": 336,
+    "missing_pct": 25.3,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ercot_actual_reserve_margin_pct_lag3": {
+    "coverage_start": "2000-04-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 249,
+    "n_total": 336,
+    "missing_pct": 25.9,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ercot_actual_reserve_margin_pct_lag6": {
+    "coverage_start": "2000-07-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 246,
+    "n_total": 336,
+    "missing_pct": 26.8,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ercot_actual_reserve_margin_pct_lag12": {
+    "coverage_start": "2001-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 240,
+    "n_total": 336,
+    "missing_pct": 28.6,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "caiso_actual_reserve_margin_pct_lag1": {
+    "coverage_start": "2000-02-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 131,
+    "n_total": 336,
+    "missing_pct": 61.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "caiso_actual_reserve_margin_pct_lag3": {
+    "coverage_start": "2000-04-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 129,
+    "n_total": 336,
+    "missing_pct": 61.6,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "caiso_actual_reserve_margin_pct_lag6": {
+    "coverage_start": "2000-07-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 126,
+    "n_total": 336,
+    "missing_pct": 62.5,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "caiso_actual_reserve_margin_pct_lag12": {
+    "coverage_start": "2001-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 120,
+    "n_total": 336,
+    "missing_pct": 64.3,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "us_actual_reserve_margin_pct_lag1": {
+    "coverage_start": "1997-02-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 335,
+    "n_total": 336,
+    "missing_pct": 0.3,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "us_actual_reserve_margin_pct_lag3": {
+    "coverage_start": "1997-04-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 333,
+    "n_total": 336,
+    "missing_pct": 0.9,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "us_actual_reserve_margin_pct_lag6": {
+    "coverage_start": "1997-07-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 330,
+    "n_total": 336,
+    "missing_pct": 1.8,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "us_actual_reserve_margin_pct_lag12": {
+    "coverage_start": "1998-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 324,
+    "n_total": 336,
+    "missing_pct": 3.6,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ercot_total_curtailment_pct_lag1": {
+    "coverage_start": "2016-02-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 107,
+    "n_total": 336,
+    "missing_pct": 68.2,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ercot_total_curtailment_pct_lag3": {
+    "coverage_start": "2016-04-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 105,
+    "n_total": 336,
+    "missing_pct": 68.8,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ercot_total_curtailment_pct_lag6": {
+    "coverage_start": "2016-07-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 102,
+    "n_total": 336,
+    "missing_pct": 69.6,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ercot_total_curtailment_pct_lag12": {
+    "coverage_start": "2017-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 96,
+    "n_total": 336,
+    "missing_pct": 71.4,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "caiso_total_curtailment_pct_lag1": {
+    "coverage_start": "2014-02-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 131,
+    "n_total": 336,
+    "missing_pct": 61.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "caiso_total_curtailment_pct_lag3": {
+    "coverage_start": "2014-04-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 129,
+    "n_total": 336,
+    "missing_pct": 61.6,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "caiso_total_curtailment_pct_lag6": {
+    "coverage_start": "2014-07-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 126,
+    "n_total": 336,
+    "missing_pct": 62.5,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "caiso_total_curtailment_pct_lag12": {
+    "coverage_start": "2015-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 120,
+    "n_total": 336,
+    "missing_pct": 64.3,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ercot_spike_count_lag1": {
+    "coverage_start": "2011-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 168,
+    "n_total": 336,
+    "missing_pct": 50.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "ercot_spike_count_lag3": {
+    "coverage_start": "2011-03-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 166,
+    "n_total": 336,
+    "missing_pct": 50.6,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "ercot_spike_count_lag6": {
+    "coverage_start": "2011-06-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 163,
+    "n_total": 336,
+    "missing_pct": 51.5,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "ercot_spike_count_lag12": {
+    "coverage_start": "2011-12-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 157,
+    "n_total": 336,
+    "missing_pct": 53.3,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "ercot_rtm_cv_lag1": {
+    "coverage_start": "2011-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 168,
+    "n_total": 336,
+    "missing_pct": 50.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "ercot_rtm_cv_lag3": {
+    "coverage_start": "2011-03-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 166,
+    "n_total": 336,
+    "missing_pct": 50.6,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "ercot_rtm_cv_lag6": {
+    "coverage_start": "2011-06-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 163,
+    "n_total": 336,
+    "missing_pct": 51.5,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "ercot_rtm_cv_lag12": {
+    "coverage_start": "2011-12-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 157,
+    "n_total": 336,
+    "missing_pct": 53.3,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "ercot_negative_hours_lag1": {
+    "coverage_start": "2011-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 168,
+    "n_total": 336,
+    "missing_pct": 50.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "ercot_negative_hours_lag3": {
+    "coverage_start": "2011-03-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 166,
+    "n_total": 336,
+    "missing_pct": 50.6,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "ercot_negative_hours_lag6": {
+    "coverage_start": "2011-06-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 163,
+    "n_total": 336,
+    "missing_pct": 51.5,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "ercot_negative_hours_lag12": {
+    "coverage_start": "2011-12-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 157,
+    "n_total": 336,
+    "missing_pct": 53.3,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "ercot_scarcity_hours_lag1": {
+    "coverage_start": "2005-02-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 191,
+    "n_total": 336,
+    "missing_pct": 43.2,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ercot_scarcity_hours_lag3": {
+    "coverage_start": "2005-04-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 189,
+    "n_total": 336,
+    "missing_pct": 43.8,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ercot_scarcity_hours_lag6": {
+    "coverage_start": "2005-07-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 186,
+    "n_total": 336,
+    "missing_pct": 44.6,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ercot_scarcity_hours_lag12": {
+    "coverage_start": "2006-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 180,
+    "n_total": 336,
+    "missing_pct": 46.4,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "caiso_negative_hours_lag1": {
+    "coverage_start": "2015-02-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 119,
+    "n_total": 336,
+    "missing_pct": 64.6,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "caiso_negative_hours_lag3": {
+    "coverage_start": "2015-04-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 117,
+    "n_total": 336,
+    "missing_pct": 65.2,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "caiso_negative_hours_lag6": {
+    "coverage_start": "2015-07-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 114,
+    "n_total": 336,
+    "missing_pct": 66.1,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "caiso_negative_hours_lag12": {
+    "coverage_start": "2016-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 108,
+    "n_total": 336,
+    "missing_pct": 67.9,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ercot_regulationup_price_lag1": {
+    "coverage_start": "2005-02-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 239,
+    "n_total": 336,
+    "missing_pct": 28.9,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ercot_regulationup_price_lag3": {
+    "coverage_start": "2005-04-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 237,
+    "n_total": 336,
+    "missing_pct": 29.5,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ercot_regulationup_price_lag6": {
+    "coverage_start": "2005-07-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 234,
+    "n_total": 336,
+    "missing_pct": 30.4,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ercot_regulationup_price_lag12": {
+    "coverage_start": "2006-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 228,
+    "n_total": 336,
+    "missing_pct": 32.1,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ercot_responsivereserve_price_lag1": {
+    "coverage_start": "2005-02-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 239,
+    "n_total": 336,
+    "missing_pct": 28.9,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ercot_responsivereserve_price_lag3": {
+    "coverage_start": "2005-04-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 237,
+    "n_total": 336,
+    "missing_pct": 29.5,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ercot_responsivereserve_price_lag6": {
+    "coverage_start": "2005-07-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 234,
+    "n_total": 336,
+    "missing_pct": 30.4,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ercot_responsivereserve_price_lag12": {
+    "coverage_start": "2006-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 228,
+    "n_total": 336,
+    "missing_pct": 32.1,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ercot_scarcity_intensity_lag1": {
+    "coverage_start": "2011-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 168,
+    "n_total": 336,
+    "missing_pct": 50.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "ercot_scarcity_intensity_lag3": {
+    "coverage_start": "2011-03-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 166,
+    "n_total": 336,
+    "missing_pct": 50.6,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "ercot_scarcity_intensity_lag6": {
+    "coverage_start": "2011-06-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 163,
+    "n_total": 336,
+    "missing_pct": 51.5,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "ercot_scarcity_intensity_lag12": {
+    "coverage_start": "2011-12-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 157,
+    "n_total": 336,
+    "missing_pct": 53.3,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "ercot_spikes_gt500_lag1": {
+    "coverage_start": "2011-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 168,
+    "n_total": 336,
+    "missing_pct": 50.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "ercot_spikes_gt500_lag3": {
+    "coverage_start": "2011-03-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 166,
+    "n_total": 336,
+    "missing_pct": 50.6,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "ercot_spikes_gt500_lag6": {
+    "coverage_start": "2011-06-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 163,
+    "n_total": 336,
+    "missing_pct": 51.5,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "ercot_spikes_gt500_lag12": {
+    "coverage_start": "2011-12-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 157,
+    "n_total": 336,
+    "missing_pct": 53.3,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "caiso_monthly_negative_hours_lag1": {
+    "coverage_start": "2001-02-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 282,
+    "n_total": 336,
+    "missing_pct": 16.1,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "caiso_monthly_negative_hours_lag3": {
+    "coverage_start": "2001-04-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 280,
+    "n_total": 336,
+    "missing_pct": 16.7,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "caiso_monthly_negative_hours_lag6": {
+    "coverage_start": "2001-07-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 277,
+    "n_total": 336,
+    "missing_pct": 17.6,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "caiso_monthly_negative_hours_lag12": {
+    "coverage_start": "2002-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 271,
+    "n_total": 336,
+    "missing_pct": 19.3,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "caiso_monthly_congestion_avg_lag1": {
+    "coverage_start": "2018-05-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 75,
+    "n_total": 336,
+    "missing_pct": 77.7,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "caiso_monthly_congestion_avg_lag3": {
+    "coverage_start": "2018-07-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 73,
+    "n_total": 336,
+    "missing_pct": 78.3,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "caiso_monthly_congestion_avg_lag6": {
+    "coverage_start": "2018-10-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 70,
+    "n_total": 336,
+    "missing_pct": 79.2,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "caiso_monthly_congestion_avg_lag12": {
+    "coverage_start": "2019-04-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 64,
+    "n_total": 336,
+    "missing_pct": 81.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "caiso_total_curtail_gwh_lag1": {
+    "coverage_start": "2014-06-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 127,
+    "n_total": 336,
+    "missing_pct": 62.2,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "caiso_total_curtail_gwh_lag3": {
+    "coverage_start": "2014-08-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 125,
+    "n_total": 336,
+    "missing_pct": 62.8,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "caiso_total_curtail_gwh_lag6": {
+    "coverage_start": "2014-11-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 122,
+    "n_total": 336,
+    "missing_pct": 63.7,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "caiso_total_curtail_gwh_lag12": {
+    "coverage_start": "2015-05-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 116,
+    "n_total": 336,
+    "missing_pct": 65.5,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "caiso_solar_curtail_gwh_lag1": {
+    "coverage_start": "2014-06-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 127,
+    "n_total": 336,
+    "missing_pct": 62.2,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "caiso_solar_curtail_gwh_lag3": {
+    "coverage_start": "2014-08-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 125,
+    "n_total": 336,
+    "missing_pct": 62.8,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "caiso_solar_curtail_gwh_lag6": {
+    "coverage_start": "2014-11-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 122,
+    "n_total": 336,
+    "missing_pct": 63.7,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "caiso_solar_curtail_gwh_lag12": {
+    "coverage_start": "2015-05-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 116,
+    "n_total": 336,
+    "missing_pct": 65.5,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "caiso_wholesale_lag1": {
+    "coverage_start": "2001-02-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 284,
+    "n_total": 336,
+    "missing_pct": 15.5,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "caiso_wholesale_lag3": {
+    "coverage_start": "2001-04-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 282,
+    "n_total": 336,
+    "missing_pct": 16.1,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "caiso_wholesale_lag6": {
+    "coverage_start": "2001-07-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 279,
+    "n_total": 336,
+    "missing_pct": 17.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "caiso_wholesale_lag12": {
+    "coverage_start": "2002-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 273,
+    "n_total": 336,
+    "missing_pct": 18.8,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "ercot_wholesale_lag1": {
+    "coverage_start": "2011-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 168,
+    "n_total": 336,
+    "missing_pct": 50.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "ercot_wholesale_lag3": {
+    "coverage_start": "2011-03-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 166,
+    "n_total": 336,
+    "missing_pct": 50.6,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "ercot_wholesale_lag6": {
+    "coverage_start": "2011-06-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 163,
+    "n_total": 336,
+    "missing_pct": 51.5,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "ercot_wholesale_lag12": {
+    "coverage_start": "2011-12-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 157,
+    "n_total": 336,
+    "missing_pct": 53.3,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "ercot_rtm_mean_lag1": {
+    "coverage_start": "2011-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 168,
+    "n_total": 336,
+    "missing_pct": 50.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "ercot_rtm_mean_lag3": {
+    "coverage_start": "2011-03-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 166,
+    "n_total": 336,
+    "missing_pct": 50.6,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "ercot_rtm_mean_lag6": {
+    "coverage_start": "2011-06-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 163,
+    "n_total": 336,
+    "missing_pct": 51.5,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "ercot_rtm_mean_lag12": {
+    "coverage_start": "2011-12-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 157,
+    "n_total": 336,
+    "missing_pct": 53.3,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "dc_twh_yoy_change": {
+    "coverage_start": "1997-02-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 335,
+    "n_total": 336,
+    "missing_pct": 0.3,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "tx_dc_twh_yoy_change": {
+    "coverage_start": "1997-02-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 335,
+    "n_total": 336,
+    "missing_pct": 0.3,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "ca_dc_twh_yoy_change": {
+    "coverage_start": "1997-02-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 335,
+    "n_total": 336,
+    "missing_pct": 0.3,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "queue_yoy_change": {
+    "coverage_start": "1997-02-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 335,
+    "n_total": 336,
+    "missing_pct": 0.3,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "dc_x_gas_gen_pct": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "dc_x_renewable_share": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "ca_dc_x_solar": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "gas_x_tx_wind": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "gas_x_ca_solar": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "gas_x_ercot_scarcity": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "tx_dc_squared": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ca_dc_squared": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "us_dc_squared": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "tx_wind_gen_pct_sq": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "ca_solar_gen_pct_sq": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "tx_solar_gen_pct_sq": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "post_uri": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "post_ca_crisis": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "post_shale": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "post_covid": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "post_ordc": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "post_ordc_x_henry": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "post_shale_x_henry": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  }
+}

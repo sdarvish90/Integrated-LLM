@@ -1,12 +1,3 @@
-event_id,event_name,category,date,end_date,region,production_shut_in_pct,gas_shut_in_bcf,oil_shut_in_mb,duration_days,gas_price_impact,description,event_type,sub_type
-HURR_OPAL_1995,Hurricane Opal,HURRICANE,1995-10-04,1995-10-06,Gulf of Mexico,25,,,7,0.3,"Category 3, minor production disruption",NATURAL_DISASTER,HURRICANE
-HURR_GEORGES_1998,Hurricane Georges,HURRICANE,1998-09-28,1998-10-01,Gulf of Mexico,30,,,10,0.25,"Category 2, moderate disruption",NATURAL_DISASTER,HURRICANE
-HURR_LILI_2002,Hurricane Lili,HURRICANE,2002-10-03,2002-10-04,Gulf of Mexico,35,,,14,0.35,"Category 4, significant platform evacuations",NATURAL_DISASTER,HURRICANE
-HURR_IVAN_2004,Hurricane Ivan,HURRICANE,2004-09-16,2004-09-17,Gulf of Mexico,25,100.0,25.0,30,0.5,"Category 3, destroyed 7 platforms",NATURAL_DISASTER,HURRICANE
-HURR_KATRINA_2005,Hurricane Katrina,HURRICANE,2005-08-29,2005-08-30,Gulf of Mexico,95,450.0,100.0,180,4.5,"Category 5, destroyed 47 platforms, 88% gas shut-in, 10 months disruption",NATURAL_DISASTER,HURRICANE
-HURR_RITA_2005,Hurricane Rita,HURRICANE,2005-09-24,2005-09-24,Gulf of Mexico,100,350.0,66.0,150,3.0,"Category 5, destroyed 66 platforms, 80% gas shut-in",NATURAL_DISASTER,HURRICANE
-HURR_GUSTAV_2008,Hurricane Gustav,HURRICANE,2008-09-01,2008-09-02,Gulf of Mexico,95,50.0,30.0,21,1.2,"Category 4, major evacuations",NATURAL_DISASTER,HURRICANE
-HURR_IKE_2008,Hurricane Ike,HURRICANE,2008-09-13,2008-09-14,Gulf of Mexico/Texas,95,80.0,40.0,45,1.5,"Category 2 at landfall, widespread damage",NATURAL_DISASTER,HURRICANE
-HURR_LAURA_2020,Hurricane Laura,HURRICANE,2020-08-27,2020-08-28,Louisiana,80,15.0,20.0,14,0.4,"Category 4, halted LNG exports at Sabine Pass/Cameron",NATURAL_DISASTER,HURRICANE
-HURR_IDA_2021,Hurricane Ida,HURRICANE,2021-08-29,2021-08-30,Gulf of Mexico/Louisiana,96,25.0,30.0,21,0.8,"Category 4, 94% gas and 96% oil shut-in, surpassed Katrina cuts",NATURAL_DISASTER,HURRICANE
-HURR_FRANCINE_2024,Hurricane Francine,HURRICANE,2024-09-11,2024-09-12,Gulf of Mexico/Louisiana,40,5.0,10.0,7,0.15,"Category 2, moderate disruption",NATURAL_DISASTER,HURRICANE
+version https://git-lfs.github.com/spec/v1
+oid sha256:260211a9e3b96eac9d166dd3137382a003d589d43167568bb8b2cc5f8ff5d0d2
+size 2078

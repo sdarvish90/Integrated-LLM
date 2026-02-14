@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 820" width="1920" height="1640">
+  <rect width="960" height="820" fill="#1a1a2e" />
+
+  <!-- Title -->
+  <text x="480" y="28" text-anchor="middle" fill="white" font-weight="bold" font-size="18" font-family="Arial, sans-serif">
+    DecarbIQ ERCOT Electricity Price Relationship Model v2.0
+  </text>
+  <text x="480" y="48" text-anchor="middle" fill="#888" font-size="10" font-family="Arial, sans-serif">
+    High-impact factors only | Coefficients from regression (HH Full R²=0.612, ERCOT Full R²=0.149) | *** p&lt;0.001, ** p&lt;0.01, * p&lt;0.05
+  </text>
+
+  <!-- Row label -->
+  <text x="120" y="75" fill="#888" font-size="12" text-anchor="middle" font-family="Arial, sans-serif">UPSTREAM</text>
+
+  <!-- ========== SUPPLY BOX ========== -->
+  <g transform="translate(10, 85)">
+    <rect width="200" height="130" rx="8" fill="#3498db" />
+    <text x="100" y="22" text-anchor="middle" fill="white" font-weight="bold" font-size="14" font-family="Arial, sans-serif">SUPPLY</text>
+    <text x="10" y="45" fill="white" font-size="11" font-family="Arial, sans-serif">Shale Production: -1.300</text>
+    <text x="10" y="67" fill="white" font-size="11" font-family="Arial, sans-serif">LNG Exports: +0.120</text>
+    <text x="10" y="89" fill="white" font-size="11" font-family="Arial, sans-serif">Drilling Activity: -0.003</text>
+    <text x="10" y="111" fill="white" font-size="11" font-family="Arial, sans-serif">Net Export Status: -1.480</text>
+  </g>
+
+  <!-- ========== DEMAND BOX ========== -->
+  <g transform="translate(230, 85)">
+    <rect width="200" height="130" rx="8" fill="#2ecc71" />
+    <text x="100" y="22" text-anchor="middle" fill="white" font-weight="bold" font-size="14" font-family="Arial, sans-serif">DEMAND</text>
+    <text x="10" y="45" fill="white" font-size="11" font-family="Arial, sans-serif">GDP Growth: +0.486 ***</text>
+    <text x="10" y="67" fill="white" font-size="11" font-family="Arial, sans-serif">Industrial Prod: +0.118 **</text>
+    <text x="10" y="89" fill="white" font-size="11" font-family="Arial, sans-serif">Power Sector: -0.064 *</text>
+    <text x="10" y="111" fill="white" font-size="11" font-family="Arial, sans-serif">Seasonal (Summer): +0.600 *</text>
+  </g>
+
+  <!-- ========== DATA CENTER DEMAND BOX ========== -->
+  <g transform="translate(450, 85)">
+    <rect width="210" height="108" rx="8" fill="#e91e63" />
+    <text x="105" y="22" text-anchor="middle" fill="white" font-weight="bold" font-size="14" font-family="Arial, sans-serif">DATA CENTER DEMAND</text>
+    <text x="10" y="45" fill="white" font-size="11" font-family="Arial, sans-serif">US DC Load: +0.059 **</text>
+    <text x="10" y="67" fill="white" font-size="11" font-family="Arial, sans-serif">TX DC Load: 55→200 TWh</text>
+    <text x="10" y="89" fill="white" font-size="11" font-family="Arial, sans-serif">ERCOT Queue: 230+ GW</text>
+  </g>
+
+  <!-- ========== POLICY BOX ========== -->
+  <g transform="translate(700, 85)">
+    <rect width="240" height="130" rx="8" fill="#9b59b6" />
+    <text x="120" y="22" text-anchor="middle" fill="white" font-weight="bold" font-size="14" font-family="Arial, sans-serif">POLICY</text>
+    <text x="10" y="45" fill="white" font-size="11" font-family="Arial, sans-serif">IRA→OBBBA: +8.570 ***</text>
+    <text x="10" y="67" fill="white" font-size="11" font-family="Arial, sans-serif">FERC Reforms (12): +0.570 *</text>
+    <text x="10" y="89" fill="white" font-size="11" font-family="Arial, sans-serif">TX CREZ: $7B→18.5 GW</text>
+    <text x="10" y="111" fill="white" font-size="11" font-family="Arial, sans-serif">MATS Rule: +0.860</text>
+  </g>
+
+  <!-- ========== QUEUE CONSTRAINT BOX ========== -->
+  <g transform="translate(700, 260)">
+    <rect width="240" height="108" rx="8" fill="#ff9800" />
+    <text x="120" y="22" text-anchor="middle" fill="white" font-weight="bold" font-size="14" font-family="Arial, sans-serif">QUEUE CONSTRAINT</text>
+    <text x="10" y="45" fill="white" font-size="11" font-family="Arial, sans-serif">National Backlog: 2,600 GW</text>
+    <text x="10" y="67" fill="white" font-size="11" font-family="Arial, sans-serif">Avg Wait: 5 years</text>
+    <text x="10" y="89" fill="white" font-size="11" font-family="Arial, sans-serif">Solar Completion: 14%</text>
+  </g>
+
+  <!-- ========== ARROWHEADS ========== -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#888" />
+    </marker>
+    <marker id="arrowhead-red" markerWidth="12" markerHeight="8" refX="11" refY="4" orient="auto">
+      <polygon points="0 0, 12 4, 0 8" fill="#e74c3c" />
+    </marker>
+  </defs>
+
+  <!-- Arrow: Supply -> Gas -->
+  <line x1="110" y1="220" x2="360" y2="370" stroke="#888" stroke-width="2" marker-end="url(#arrowhead)" />
+
+  <!-- Arrow: Demand -> Gas -->
+  <line x1="330" y1="220" x2="390" y2="370" stroke="#888" stroke-width="2" marker-end="url(#arrowhead)" />
+  <text x="345" y="295" text-anchor="middle" font-size="10" fill="#aaa" font-family="Arial, sans-serif">+$0.49/1%GDP</text>
+
+  <!-- Arrow: Data Center -> Gas -->
+  <line x1="505" y1="193" x2="430" y2="370" stroke="#888" stroke-width="2" marker-end="url(#arrowhead)" />
+  <text x="478" y="278" text-anchor="middle" font-size="10" fill="#aaa" font-family="Arial, sans-serif">+$0.06/TWh</text>
+
+  <!-- Arrow: Data Center -> ERCOT (dashed) -->
+  <line x1="555" y1="193" x2="470" y2="540" stroke="#888" stroke-width="2" stroke-dasharray="5,5" marker-end="url(#arrowhead)" />
+  <text x="530" y="370" text-anchor="middle" font-size="10" fill="#888" font-family="Arial, sans-serif">demand pull</text>
+
+  <!-- Arrow: Policy -> Gas (IRA/OBBBA DOMINANT - THICK RED) -->
+  <line x1="700" y1="140" x2="452" y2="375" stroke="#e74c3c" stroke-width="5" marker-end="url(#arrowhead-red)" />
+  <text x="590" y="245" text-anchor="middle" font-size="11" fill="#e74c3c" font-weight="bold" font-family="Arial, sans-serif">+$8.57***</text>
+
+  <!-- Arrow: FERC -> Gas -->
+  <line x1="700" y1="170" x2="455" y2="390" stroke="#888" stroke-width="2" marker-end="url(#arrowhead)" />
+  <text x="590" y="280" text-anchor="middle" font-size="10" fill="#aaa" font-family="Arial, sans-serif">+$0.57*</text>
+
+  <!-- Arrow: Queue -> ERCOT (dashed) -->
+  <line x1="700" y1="330" x2="560" y2="545" stroke="#888" stroke-width="2" stroke-dasharray="5,5" marker-end="url(#arrowhead)" />
+  <text x="645" y="435" text-anchor="middle" font-size="10" fill="#888" font-family="Arial, sans-serif">delays capacity</text>
+
+  <!-- ========== NATURAL GAS PRICE - CENTRAL NODE ========== -->
+  <g transform="translate(310, 375)">
+    <rect width="220" height="95" rx="10" fill="#e74c3c" stroke="#c0392b" stroke-width="3" />
+    <text x="110" y="25" text-anchor="middle" fill="white" font-weight="bold" font-size="16" font-family="Arial, sans-serif">NATURAL GAS PRICE</text>
+    <text x="110" y="45" text-anchor="middle" fill="white" font-size="12" font-family="Arial, sans-serif">Henry Hub $/MMBtu</text>
+    <text x="110" y="65" text-anchor="middle" fill="white" font-size="11" font-family="Arial, sans-serif">HH Full: R²=0.612 | n=336</text>
+    <text x="110" y="82" text-anchor="middle" fill="white" font-size="10" font-family="Arial, sans-serif">7 significant drivers (p&lt;0.05)</text>
+  </g>
+
+  <!-- Arrow: Gas -> Gen Mix -->
+  <line x1="420" y1="470" x2="420" y2="500" stroke="#888" stroke-width="2" marker-end="url(#arrowhead)" />
+  <text x="450" y="488" text-anchor="middle" font-size="10" fill="#aaa" font-family="Arial, sans-serif">passthrough</text>
+
+  <!-- ========== GENERATION MIX BOX ========== -->
+  <g transform="translate(320, 505)">
+    <rect width="200" height="120" rx="8" fill="#b7950b" />
+    <text x="100" y="22" text-anchor="middle" fill="white" font-weight="bold" font-size="14" font-family="Arial, sans-serif">GENERATION MIX (TX)</text>
+    <text x="10" y="42" fill="white" font-size="11" font-family="Arial, sans-serif">Gas Share: 47%</text>
+    <text x="10" y="62" fill="white" font-size="11" font-family="Arial, sans-serif">Wind Share: 25% (40+ GW)</text>
+    <text x="10" y="82" fill="white" font-size="11" font-family="Arial, sans-serif">Coal Share: 16% (declining)</text>
+    <text x="10" y="102" fill="white" font-size="11" font-family="Arial, sans-serif">Solar Share: 8% (rising)</text>
+  </g>
+
+  <!-- Arrow: Gen Mix -> Electricity Price -->
+  <line x1="420" y1="625" x2="420" y2="655" stroke="#888" stroke-width="2" marker-end="url(#arrowhead)" />
+
+  <!-- ========== ELECTRICITY PRICE BOX ========== -->
+  <g transform="translate(150, 660)">
+    <rect width="540" height="140" rx="10" fill="#e67e22" />
+    <text x="270" y="22" text-anchor="middle" fill="white" font-weight="bold" font-size="14" font-family="Arial, sans-serif">ELECTRICITY PRICE</text>
+
+    <!-- ERCOT sub-box -->
+    <rect x="15" y="35" width="250" height="95" rx="5" fill="#d35400" />
+    <text x="140" y="52" text-anchor="middle" fill="white" font-weight="bold" font-size="13" font-family="Arial, sans-serif">ERCOT</text>
+    <text x="140" y="68" text-anchor="middle" fill="white" font-size="10" font-family="Arial, sans-serif">$41/MWh per $1/MMBtu gas (p=0.004)</text>
+    <text x="140" y="82" text-anchor="middle" fill="white" font-size="10" font-family="Arial, sans-serif">R²=0.149 | n=169 | Energy-only</text>
+    <text x="140" y="96" text-anchor="middle" fill="#ffcc80" font-size="10" font-family="Arial, sans-serif">Gas price is ONLY significant driver</text>
+    <text x="140" y="112" text-anchor="middle" fill="#ffcc80" font-size="9" font-family="Arial, sans-serif">DC load: 55 TWh (11.6%) | Queue: 230+ GW</text>
+
+    <!-- CAISO sub-box -->
+    <rect x="280" y="35" width="245" height="95" rx="5" fill="#795548" />
+    <text x="403" y="52" text-anchor="middle" fill="white" font-weight="bold" font-size="13" font-family="Arial, sans-serif">CAISO</text>
+    <text x="403" y="68" text-anchor="middle" fill="white" font-size="10" font-family="Arial, sans-serif">$14/MWh per $1/MMBtu gas (p&lt;0.001)</text>
+    <text x="403" y="82" text-anchor="middle" fill="white" font-size="10" font-family="Arial, sans-serif">R²=0.569 | n=183 | Regulated</text>
+    <text x="403" y="96" text-anchor="middle" fill="#bcaaa4" font-size="10" font-family="Arial, sans-serif">4 significant policy variables</text>
+    <text x="403" y="112" text-anchor="middle" fill="#bcaaa4" font-size="9" font-family="Arial, sans-serif">RPS, Cap-Trade, Gas%, Wind%</text>
+  </g>
+
+  <!-- ========== ERCOT HIGH-IMPACT FACTORS LEGEND ========== -->
+  <g transform="translate(10, 505)">
+    <rect width="290" height="150" rx="5" fill="#2a2a4a" stroke="#444" stroke-width="1" />
+    <text x="145" y="20" text-anchor="middle" fill="white" font-weight="bold" font-size="12" font-family="Arial, sans-serif">ERCOT HIGH-IMPACT FACTORS</text>
+    <line x1="10" y1="27" x2="280" y2="27" stroke="#555" stroke-width="1" />
+    <text x="10" y="44" fill="#e74c3c" font-size="10" font-family="Arial, sans-serif">1. Gas Price: $41/MWh per $1 gas (p=0.004)</text>
+    <text x="10" y="61" fill="#e91e63" font-size="10" font-family="Arial, sans-serif">2. Data Centers: 55→200 TWh, 230 GW queue</text>
+    <text x="10" y="78" fill="#9b59b6" font-size="10" font-family="Arial, sans-serif">3. IRA→OBBBA: +$8.57/MMBtu (p&lt;0.001)</text>
+    <text x="10" y="95" fill="#ff9800" font-size="10" font-family="Arial, sans-serif">4. Queue Backlog: 2,600 GW, 5yr wait</text>
+    <text x="10" y="112" fill="#b7950b" font-size="10" font-family="Arial, sans-serif">5. Wind: 25% share, off-peak compression</text>
+    <text x="10" y="129" fill="#2ecc71" font-size="10" font-family="Arial, sans-serif">6. GDP Growth: +$0.49/MMBtu per 1%</text>
+    <text x="10" y="146" fill="#9b59b6" font-size="10" font-family="Arial, sans-serif">7. FERC Reforms: +$0.57/MMBtu (p=0.023)</text>
+  </g>
+</svg>

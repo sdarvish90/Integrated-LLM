@@ -1,12 +1,3 @@
-event_id,event_name,category,start_date,end_date,region,supply_impact_mbd,price_impact_pct,target_country,imposing_country,notes
-IRAN_SANCTIONS_2012,Iran Oil Sanctions (NDAA 2012),SANCTIONS,2012-01-01,2016-01-16,IRAN,1.2,15,IRAN,US_EU,"Iran exports fell from 2.5 to <1 mbd, SWIFT cutoff, GDP -7.6%"
-JCPOA_RELIEF_2016,JCPOA Sanctions Relief,SANCTIONS_RELIEF,2016-01-16,2018-05-08,IRAN,-1.3,-10,IRAN,US_EU,"Iran production +1.3 mbd within 2 years, nuclear deal compliance"
-IRAN_MAX_PRESSURE_2018,Iran Maximum Pressure,SANCTIONS,2018-05-08,,IRAN,1.9,20,IRAN,US,"Trump withdrawal from JCPOA, production fell -1.9 mbd, Oct 2020 lowest since 1989"
-IRAN_MAX_PRESSURE_2025,Iran Maximum Pressure 2.0,SANCTIONS,2025-02-01,,IRAN,0.5,5,IRAN,US,Trump 2.0 targeting Chinese teapot refineries importing Iran oil
-RUSSIA_CRIMEA_2014,Russia Crimea Sanctions,SANCTIONS,2014-03-17,,RUSSIA,0.2,5,RUSSIA,US_EU,"Technology/financing restrictions for Arctic, shale, deepwater; Exxon withdrew"
-RUSSIA_2022_SANCTIONS,Russia Full Invasion Sanctions,SANCTIONS,2022-02-24,,RUSSIA,1.5,50,RUSSIA,US_EU_G7,"SWIFT ban, oil price cap $60, gas weaponization, EU ban Russian oil/coal"
-EU_RUSSIA_GAS_BAN_2027,EU Russian Gas Phase-Out,SANCTIONS,2025-06-01,2027-11-30,EUROPE,0.0,10,RUSSIA,EU,"EU committed to end all Russian oil, pipeline gas, and LNG by Nov 2027"
-VENEZUELA_2017,Venezuela Initial Sanctions,SANCTIONS,2017-08-24,,VENEZUELA,0.2,2,VENEZUELA,US,"Financial restrictions, debt refinancing blocked"
-VENEZUELA_PDVSA_2019,Venezuela PdVSA Sanctions,SANCTIONS,2019-01-28,,VENEZUELA,0.5,3,VENEZUELA,US,"PdVSA added to SDN list, US petroleum trade terminated"
-VENEZUELA_RELIEF_2023,Venezuela Temporary Sanctions Relief,SANCTIONS_RELIEF,2023-10-18,2024-04-18,VENEZUELA,-0.2,-2,VENEZUELA,US,"Barbados Agreements, 6-month relief, Chevron license expanded"
-VENEZUELA_INTERVENTION_2026,Venezuela US Intervention,REGIME_CHANGE,2026-01-03,,VENEZUELA,0.3,5,VENEZUELA,US,"Maduro arrested, US plans to oversee oil sales, 30-50 million bbl transfer to US"
+version https://git-lfs.github.com/spec/v1
+oid sha256:459b8db898b6f404e33532136628fe8d7de545bf207521981cf19f7679da3e0c
+size 2011

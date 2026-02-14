@@ -1,7 +1,3 @@
-event_id,event_name,category,date,end_date,region,gas_price_spike_pct,peak_price,pre_event_price,power_outages_millions,deaths,description,event_type,sub_type
-COLD_2011,February 2011 Cold Wave,POLAR_VORTEX,2011-02-01,2011-02-05,Texas/Southwest,50,5.5,3.7,2.0,36.0,"Rolling blackouts in Texas, ERCOT warning issued",NATURAL_DISASTER,POLAR_VORTEX
-POLAR_VORTEX_2014,Polar Vortex 2014,POLAR_VORTEX,2014-01-06,2014-01-08,Midwest/Northeast,114,7.9,3.7,1.5,21.0,"Henry Hub hit $7.90, NY spot hit $20.77, Chicago $27.45",NATURAL_DISASTER,POLAR_VORTEX
-WINTER_STORM_URI_2021,Winter Storm Uri,POLAR_VORTEX,2021-02-10,2021-02-20,Texas/Central US,535,23.86,3.76,4.5,246.0,"Worst Texas grid failure, spot gas hit $224/MMBtu at PEPL TX/OK, electricity $9000/MWh, $195B damage",NATURAL_DISASTER,POLAR_VORTEX
-WINTER_STORM_ELLIOTT_2022,Winter Storm Elliott,POLAR_VORTEX,2022-12-21,2022-12-26,Eastern US,80,7.0,3.9,1.5,87.0,"Bomb cyclone, grid stress PJM/MISO/TVA",NATURAL_DISASTER,POLAR_VORTEX
-POLAR_VORTEX_2024,January 2024 Arctic Outbreak,POLAR_VORTEX,2024-01-12,2024-01-17,Central/Eastern US,45,3.2,2.2,0.5,15.0,"Cold snap, tested post-Uri grid improvements",NATURAL_DISASTER,POLAR_VORTEX
-WINTER_STORM_FERN_2026,Winter Storm Fern,POLAR_VORTEX,2026-01-23,2026-01-26,Texas/Southeast,60,5.0,3.1,0.8,,"Polar vortex disruption, testing post-Uri weatherization",NATURAL_DISASTER,POLAR_VORTEX
+version https://git-lfs.github.com/spec/v1
+oid sha256:a32898a963da17b358ce16e0af36cbae6d03b99b52bb46cf4c528b9a947b64cf
+size 1371

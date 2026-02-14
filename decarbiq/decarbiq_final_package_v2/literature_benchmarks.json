@@ -1,0 +1,322 @@
+{
+  "_metadata": {
+    "description": "Consolidated literature benchmarks for DecarbIQ model validation",
+    "last_updated": "2026-02-13",
+    "usage": "Pipeline reads this file in validation step. If a benchmark is missing, fall back to web search."
+  },
+
+  "gas_price_forecasts": {
+    "description": "Independent HH natural gas price forecasts for comparison",
+    "eia_aeo_2025_reference": {
+      "source": "EIA Annual Energy Outlook 2025, Reference Case",
+      "url": "https://www.eia.gov/outlooks/aeo/",
+      "unit": "$/MMBtu (2024 dollars)",
+      "values": {
+        "2024_actual": 2.10,
+        "2025": 3.05,
+        "2026": 3.25,
+        "2027": 3.40,
+        "2028": 3.55,
+        "2029": 3.70,
+        "2030": 3.85
+      },
+      "notes": "Reference case assumes current laws and regulations. Range across side cases is roughly +/- $1.00."
+    },
+    "nymex_futures_strip": {
+      "source": "CME/NYMEX Henry Hub Natural Gas Futures",
+      "as_of": "2025-01-15",
+      "unit": "$/MMBtu",
+      "values": {
+        "2025": 3.00,
+        "2026": 3.35,
+        "2027": 3.50,
+        "2028": 3.65,
+        "2029": 3.75,
+        "2030": 3.85
+      },
+      "notes": "Futures strip is risk-neutral pricing; typically slightly below fundamental forecasts due to convenience yield."
+    },
+    "consensus_range": {
+      "description": "Approximate consensus across EIA, NYMEX, IHS Markit, Wood Mackenzie",
+      "2026": {"low": 2.80, "mid": 3.30, "high": 4.00},
+      "2027": {"low": 2.90, "mid": 3.45, "high": 4.20},
+      "2028": {"low": 3.00, "mid": 3.55, "high": 4.40},
+      "2029": {"low": 3.10, "mid": 3.70, "high": 4.60},
+      "2030": {"low": 3.20, "mid": 3.85, "high": 4.80}
+    }
+  },
+
+  "garch_parameters": {
+    "description": "Published GARCH(1,1) estimates for natural gas log-returns",
+    "studies": {
+      "pindyck_2004": {
+        "citation": "Pindyck RS (2004). Volatility and commodity price dynamics. J Futures Markets 24(11):1029-1047",
+        "alpha": [0.05, 0.10],
+        "beta": [0.85, 0.92],
+        "persistence": [0.90, 0.99],
+        "annualized_vol_pct": [40, 50],
+        "data_period": "1990-2003",
+        "frequency": "daily"
+      },
+      "sadorsky_2006": {
+        "citation": "Sadorsky P (2006). Modeling and forecasting petroleum futures volatility. Energy Economics 28(4):467-488",
+        "alpha": [0.08, 0.12],
+        "beta": [0.82, 0.90],
+        "persistence": [0.90, 0.98],
+        "annualized_vol_pct": [35, 50],
+        "data_period": "1996-2004",
+        "frequency": "daily"
+      },
+      "kang_2009": {
+        "citation": "Kang SH et al (2009). Forecasting volatility of crude oil markets. Energy Economics 31(1):119-125",
+        "alpha": [0.10, 0.15],
+        "beta": [0.80, 0.88],
+        "persistence": [0.90, 0.98],
+        "annualized_vol_pct": [40, 55],
+        "data_period": "1992-2006",
+        "frequency": "daily"
+      },
+      "efimova_2014": {
+        "citation": "Efimova O, Serletis A (2014). Energy markets volatility modelling using GARCH. Energy Economics 43:264-273",
+        "alpha": [0.05, 0.08],
+        "beta": [0.88, 0.92],
+        "persistence": [0.93, 0.99],
+        "annualized_vol_pct": [30, 45],
+        "data_period": "1991-2012",
+        "frequency": "daily"
+      },
+      "nick_2014": {
+        "citation": "Nick S, Thoenes S (2014). What drives natural gas prices? Energy Economics 44:422-431",
+        "alpha": [0.08, 0.12],
+        "beta": [0.82, 0.88],
+        "persistence": [0.90, 0.98],
+        "annualized_vol_pct": [35, 50],
+        "data_period": "2002-2013",
+        "frequency": "daily"
+      },
+      "mohammadi_2015": {
+        "citation": "Mohammadi H (2015). A note on GARCH effects on natural gas. Applied Economics Letters 22(13):1083-1087",
+        "alpha": [0.06, 0.10],
+        "beta": [0.85, 0.90],
+        "persistence": [0.91, 0.98],
+        "annualized_vol_pct": [35, 50],
+        "data_period": "1997-2013",
+        "frequency": "daily"
+      }
+    },
+    "literature_consensus": {
+      "alpha": [0.05, 0.15],
+      "beta": [0.80, 0.92],
+      "persistence": [0.90, 0.99],
+      "annualized_vol_pct": [30, 55],
+      "notes": "Post-2012 (shale era) estimates tend toward lower alpha, higher beta. Full-sample including 1997-2012 yields higher alpha due to pre-shale volatility."
+    },
+    "era_expectations": {
+      "description": "Expected GARCH parameter ranges by market era",
+      "pre_shale": {
+        "period": "1997-2008",
+        "annualized_vol_pct": [50, 80],
+        "notes": "Tight supply, hurricane sensitivity, weather-driven spikes. Higher alpha (faster shock response)."
+      },
+      "post_shale": {
+        "period": "2009-2019",
+        "annualized_vol_pct": [25, 45],
+        "notes": "Abundant shale gas supply, stable low prices. Lower alpha, higher beta (slow mean reversion of vol)."
+      },
+      "post_covid": {
+        "period": "2020-present",
+        "annualized_vol_pct": [35, 65],
+        "notes": "LNG exports, Russia-Ukraine war, energy transition. Intermediate vol between pre-shale and post-shale."
+      }
+    }
+  },
+
+  "gas_passthrough": {
+    "description": "Heat-rate based gas-to-electricity price passthrough coefficients",
+    "theoretical_range": {
+      "source": "Standard heat rate 7-9 MMBtu/MWh for CCGT fleet",
+      "low": 7.0,
+      "high": 9.0,
+      "unit": "$/MWh per $/MMBtu"
+    },
+    "empirical_estimates": {
+      "borenstein_bushnell_2015": {
+        "citation": "Borenstein S, Bushnell J (2015). The US Electricity Industry after 20 Years of Restructuring. Annual Review of Economics 7:437-463",
+        "range": [6.5, 9.5],
+        "notes": "Varies by market structure and renewable penetration"
+      },
+      "linn_mccormack_2019": {
+        "citation": "Linn J, McCormack K (2019). The roles of energy markets and environmental regulation in reducing coal-fired plant profits and electricity sector emissions. RAND J Economics 50(4):733-767",
+        "range": [7.0, 8.5],
+        "notes": "Coal-to-gas switching dynamics moderate passthrough"
+      }
+    },
+    "notes": "Markets with high renewable penetration (CAISO, ERCOT increasingly) show lower passthrough as renewables set marginal price more often."
+  },
+
+  "hurricane_frequency": {
+    "description": "Tropical cyclone frequency trends from major climate assessments",
+    "ipcc_ar6_2021": {
+      "citation": "IPCC AR6 WG1 (2021), Chapter 11: Weather and Climate Extreme Events",
+      "frequency_trend": "flat to declining",
+      "trend_per_decade": 0.0,
+      "confidence": "medium",
+      "notes": "No detectable trend in Atlantic basin frequency. Intensity increase likely but frequency flat."
+    },
+    "knutson_2020": {
+      "citation": "Knutson T et al (2020). Tropical cyclones and climate change assessment. Bull AMS 101(3):E303-E322",
+      "frequency_trend": "flat to slightly declining",
+      "trend_per_decade": 0.0,
+      "notes": "Global TC frequency may decrease 0-15% by 2100. Cat4-5 proportion increases."
+    },
+    "vecchi_2021": {
+      "citation": "Vecchi GA et al (2021). Changes in Atlantic major hurricane frequency since the late-19th century. Nature Communications 12:4054",
+      "frequency_trend": "no significant trend after accounting for observing capabilities",
+      "notes": "Apparent increase in Atlantic is primarily detection artifact."
+    },
+    "noaa_gfdl": {
+      "citation": "NOAA GFDL Hurricane Research Division, Knutson 2021 summary",
+      "key_finding": "25-30% increase in Category 4-5 intensity; 0-15% decrease in total frequency globally",
+      "us_landfall_trend": "no significant trend"
+    },
+    "emanuel_2021": {
+      "citation": "Emanuel K (2021). Atlantic tropical cyclones downscaled from climate reanalyses. PNAS 118(41):e2109806118",
+      "frequency_trend": "no robust increase in basin-wide count",
+      "notes": "Rapid intensification events may increase"
+    },
+    "consensus": {
+      "frequency_trend_per_decade": 0.0,
+      "intensity_trend": "increasing (Cat4-5 proportion)",
+      "us_gas_production_exposure": "declining (GOM share 13% in 2005 to 2% in 2024)"
+    }
+  },
+
+  "event_probabilities": {
+    "description": "Empirical gas-impact event rates from 29-year named event catalog (1997-2025)",
+    "geopolitical": {
+      "total_events_in_catalog": 8,
+      "events_with_us_gas_impact_gt_1pct": 1,
+      "qualifying_event": "Russia-Ukraine War 2022 (+$5.00/MMBtu to HH via LNG arbitrage)",
+      "empirical_annual_rate": 0.034,
+      "notes": "Most geopolitical events affect European/Asian prices but not US HH directly. US is a net exporter since 2016."
+    },
+    "demand_shock": {
+      "total_events_in_catalog": 6,
+      "events_with_us_gas_impact_gt_1pct": 2,
+      "qualifying_events": ["Polar Vortex 2014 (+$2.50/MMBtu)", "Winter Storm Uri 2021 (+$5.00+/MMBtu short-term)"],
+      "empirical_annual_rate": 0.069,
+      "notes": "Polar vortex events have highest direct US price impact coefficient."
+    },
+    "policy_shock": {
+      "total_events_in_catalog": 5,
+      "events_with_us_gas_impact_gt_1pct": 1,
+      "qualifying_event": "Freeport LNG Fire 2022 (policy/regulatory forced shutdown, -$0.50 to HH)",
+      "empirical_annual_rate": 0.034,
+      "notes": "Policy events tend to have gradual rather than shock-like price impacts."
+    }
+  },
+
+  "electricity_price_benchmarks": {
+    "description": "Historical and forecast wholesale electricity price references",
+    "ercot": {
+      "historical_avg_2019_2024": {
+        "values": {
+          "2019": 28.5,
+          "2020": 22.0,
+          "2021": 45.0,
+          "2022": 65.0,
+          "2023": 34.0,
+          "2024": 25.1
+        },
+        "unit": "$/MWh",
+        "notes": "2021 includes Uri. 2022 inflated by gas prices. 2023-2024 normalized. Mean excl 2021-2022: ~$27."
+      },
+      "typical_range": [20, 50],
+      "growth_drivers": ["data center load growth", "declining reserve margins", "gas price trends"],
+      "notes": "ERCOT is energy-only market with scarcity pricing. Long-run average ~$30-40/MWh in normal gas price environments."
+    },
+    "caiso": {
+      "historical_avg_2019_2024": {
+        "values": {
+          "2019": 38.0,
+          "2020": 35.0,
+          "2021": 46.0,
+          "2022": 88.0,
+          "2023": 45.0,
+          "2024": 40.0
+        },
+        "unit": "$/MWh",
+        "notes": "2022 inflated by gas price spike. CAISO includes carbon cost (CA cap-and-trade ~$30-35/ton). Mean excl 2022: ~$41."
+      },
+      "typical_range": [35, 60],
+      "growth_drivers": ["carbon allowance prices", "gas prices", "battery storage displacing gas peakers"],
+      "notes": "CA carbon allowance adds ~$8-12/MWh. Battery storage growth (0→15 GW 2018-2025) is deflationary for peak prices."
+    }
+  },
+
+  "mean_reversion_parameters": {
+    "description": "Literature estimates for commodity price mean-reversion speed",
+    "schwartz_1997": {
+      "citation": "Schwartz ES (1997). The stochastic behavior of commodity prices: Implications for valuation and hedging. J Finance 52(3):923-973",
+      "model": "One-factor (Ornstein-Uhlenbeck in log-price)",
+      "kappa_annual": [0.5, 2.0],
+      "half_life_months": [4, 17],
+      "notes": "Natural gas at the faster end due to storage/production flexibility"
+    },
+    "pilipovic_2007": {
+      "citation": "Pilipovic D (2007). Energy Risk: Valuing and Managing Energy Derivatives. 2nd ed. McGraw-Hill",
+      "kappa_annual_natural_gas": [1.0, 3.0],
+      "half_life_months": [3, 8],
+      "notes": "Natural gas mean-reverts faster than oil due to storage costs and seasonal demand"
+    },
+    "consensus_natural_gas": {
+      "kappa_monthly": [0.08, 0.25],
+      "half_life_months": [3, 9],
+      "notes": "Current model uses kappa=0.15/month (half-life ~4.6 months) — within range"
+    }
+  },
+
+  "production_economics_floor": {
+    "description": "Minimum gas prices implied by production economics",
+    "breakeven_estimates": {
+      "appalachian_marcellus": {"low": 1.50, "mid": 2.00, "high": 2.50},
+      "haynesville": {"low": 2.00, "mid": 2.50, "high": 3.00},
+      "permian_associated": {"low": 0.50, "mid": 1.00, "high": 1.50},
+      "overall_us_marginal": {"low": 1.50, "mid": 2.00, "high": 2.50}
+    },
+    "notes": "Below ~$1.50/MMBtu, producers shut in wells. The MC model should enforce a floor near this level to prevent unrealistic P5/P10 values.",
+    "source": "EIA Drilling Productivity Report, various operator 10-K filings"
+  },
+
+  "lng_export_capacity": {
+    "description": "US LNG export capacity trajectory",
+    "source": "EIA, FERC, operator announcements",
+    "capacity_bcfd": {
+      "2020": 10.5,
+      "2022": 11.9,
+      "2024": 14.0,
+      "2026": 18.0,
+      "2028": 22.0,
+      "2030": 25.0
+    },
+    "price_impact": {
+      "coefficient_per_bcfd": 0.12,
+      "source": "Geopolitical macro summary regression estimate",
+      "notes": "Each 1 bcfd of LNG exports adds ~$0.12/MMBtu to HH. Total impact from 14→25 bcfd = ~$1.30/MMBtu"
+    }
+  },
+
+  "battery_storage_capacity": {
+    "description": "US utility-scale battery storage deployment trajectory",
+    "source": "EIA Electric Power Monthly, BNEF",
+    "capacity_gw": {
+      "us": {"2020": 1.5, "2022": 8.0, "2024": 20.0, "2026": 35.0, "2028": 55.0, "2030": 80.0},
+      "california": {"2020": 0.5, "2022": 4.5, "2024": 10.0, "2026": 15.0, "2028": 20.0, "2030": 25.0},
+      "texas": {"2020": 0.2, "2022": 2.0, "2024": 5.0, "2026": 10.0, "2028": 16.0, "2030": 22.0}
+    },
+    "price_impact": {
+      "mechanism": "Reduces gas peaker dispatch, compresses peak-to-off-peak spread",
+      "notes": "Each GW of 4-hour storage displaces ~1 GW of gas peaker capacity. Deflationary for peak electricity prices."
+    }
+  }
+}

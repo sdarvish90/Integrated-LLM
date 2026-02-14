@@ -1,24 +1,3 @@
-region,era,relationship,slope,r_squared,p_value,n,significance
-Texas,pre_shale,Gas→Electricity,0.6790211254488318,0.8524642643184591,0.001,9,Yes
-Texas,shale_boom,Gas→Electricity,0.378643271500708,0.4912091213510976,0.01,12,Yes
-Texas,post_pandemic,Gas→Electricity,-0.2946740678175199,0.6208897287486373,0.1,4,No
-California,pre_shale,Gas→Electricity,0.5540317879352311,0.47279318341050647,0.05,9,No
-California,shale_boom,Gas→Electricity,-2.070457834359984,0.5259187367698235,0.01,12,Yes
-California,post_pandemic,Gas→Electricity,-0.275708505153444,0.022278861970350228,0.1,4,No
-US Average,pre_shale,Gas→Electricity,0.40747530840944857,0.6516880172878085,0.01,9,Yes
-US Average,shale_boom,Gas→Electricity,-0.2133212442397802,0.3013219384971717,0.05,12,No
-US Average,post_pandemic,Gas→Electricity,-0.2072506071087586,0.22729430140308737,0.1,4,No
-Texas (Citygate),shale_boom,US Production→GasPrice,-0.06560173733566554,0.552903855097455,0.01,12,Yes
-Texas (Citygate),post_pandemic,US Production→GasPrice,-0.27169940535845516,0.8366503424764563,0.01,4,Yes
-Texas (Citygate),post_pandemic,Haynesville Production→GasPrice,-2.1129288798000463,0.9298930522519107,0.001,4,Yes
-Texas (Citygate),post_pandemic,Appalachia Production→GasPrice,-0.9156217882836584,0.9265485810970543,0.001,4,Yes
-Texas (Citygate),pre_shale,Gas Rig Count→GasPrice,0.006290715035765657,0.9055859116055739,0.001,9,Yes
-California (Citygate),shale_boom,US Production→GasPrice,-0.044418632253549147,0.5029164004023035,0.01,12,Yes
-California (Citygate),pre_shale,Gas Rig Count→GasPrice,0.004781606850309118,0.7953469994139513,0.001,9,Yes
-California (Citygate),shale_boom,Gas Rig Count→GasPrice,0.001748089720039309,0.5686890082075565,0.01,12,Yes
-California (Citygate),post_pandemic,Gas Rig Count→GasPrice,0.07676444679351657,0.8272490790180553,0.01,4,Yes
-Henry Hub,shale_boom,US Production→GasPrice,-0.04765734864530577,0.48037500838770664,0.01,12,Yes
-Henry Hub,post_pandemic,Appalachia Production→GasPrice,-0.7066675231243573,0.8801100361003821,0.01,4,Yes
-Henry Hub,post_pandemic,US Storage→GasPrice,-0.007222884967437953,0.9446143653342948,0.001,4,Yes
-Henry Hub,pre_shale,Gas Rig Count→GasPrice,0.0058174595416043695,0.7638139948968501,0.001,9,Yes
-Henry Hub,shale_boom,Gas Rig Count→GasPrice,0.0018631429561151804,0.5360372486815848,0.01,12,Yes
+version https://git-lfs.github.com/spec/v1
+oid sha256:eb252e99ddf97359870922914faf296de13aff6bae01feb592f748660a1066fb
+size 2371

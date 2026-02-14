@@ -1,11 +1,3 @@
-event_id,event_name,category,start_date,end_date,region,supply_impact_mbd,price_impact_pct,duration_days,affected_commodity,notes
-GULF_WAR_1990,Gulf War (Iraq-Kuwait),WAR,1990-08-02,1991-02-28,MIDDLE_EAST,4.3,111,211.0,OIL,"Oil $17→$36/bbl, UN embargo removed 4.3 mbd, 600 Kuwait wells set ablaze"
-IRAQ_WAR_2003,Iraq War,WAR,2003-03-20,2003-05-01,MIDDLE_EAST,2.5,40,42.0,OIL,"Short war premium, rapid collapse when coalition succeeded"
-RUSSIA_GEORGIA_2008,Russia-Georgia War,WAR,2008-08-07,2008-08-16,CAUCASUS,1.0,5,10.0,OIL_GAS,"BTC pipeline briefly shut, South Caucasus Pipeline closed 2 days, Nabucco uncertainty"
-LIBYA_CIVIL_WAR_2011,Libya Civil War,WAR,2011-02-15,2011-10-23,NORTH_AFRICA,1.6,30,250.0,OIL,"Production fell from 1.7 mbd to <100k bpd, IEA released 60 million bbls"
-LIBYA_CIVIL_WAR_2014,Libya Second Civil War,WAR,2014-05-16,2020-10-23,NORTH_AFRICA,1.0,15,2352.0,OIL,"Sporadic production disruptions 2014-2020, militias used oil as leverage"
-RUSSIA_UKRAINE_2022,Russia-Ukraine War,WAR,2022-02-24,,EUROPE,0.0,400,,GAS,"EU gas 40%→8% from Russia, Nord Stream sabotage, TTF €330/MWh peak, $8.80 Henry Hub"
-RU_UA_GAS_2006,Russia-Ukraine Gas Dispute 2006,GAS_DISPUTE,2006-01-01,2006-01-04,EUROPE,0.0,25,4.0,GAS,"Russia cut gas to Ukraine, Europe affected, first 'gas war'"
-RU_UA_GAS_2009,Russia-Ukraine Gas Dispute 2009,GAS_DISPUTE,2009-01-01,2009-01-20,EUROPE,0.0,35,20.0,GAS,"Complete cutoff to Europe via Ukraine, severe cold in Eastern Europe"
-RU_UA_TRANSIT_END,Ukraine Transit Termination,GAS_DISPUTE,2025-01-01,,EUROPE,0.0,8,,GAS,"Ukraine refused to renew transit deal, 14.4 bcm/year ended, Transnistria crisis"
-NORD_STREAM_SABOTAGE,Nord Stream Pipeline Sabotage,INFRASTRUCTURE,2022-09-26,2022-09-27,BALTIC_SEA,0.0,15,1.0,GAS,"NS1 and NS2 explosions, 55 bcm/year capacity destroyed permanently"
+version https://git-lfs.github.com/spec/v1
+oid sha256:690f35df6471d0946d67ca9c08ec78ea907bc108e98583a663e423102000089a
+size 1820

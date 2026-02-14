@@ -1,32 +1,3 @@
-year,event,category,impact
-1970,NEPA enacted,NEPA,Created EIS requirement
-1973,Endangered Species Act enacted,ESA,Created Section 7 consultation
-1977,Clean Air Act Amendments,CAA,Added PSD/NSR permitting
-1985,FERC Order 436,GAS_RESTRUCTURING,Began pipeline open access
-1992,FERC Order 636,GAS_RESTRUCTURING,Completed gas market restructuring
-1996,FERC Order 888,ELECTRIC_RESTRUCTURING,"Electric open access, ISO formation"
-1999,FERC Certificate Policy Statement,PIPELINE_PERMITTING,Framework for pipeline approvals
-2003,FERC Order 2003,INTERCONNECTION,Standardized generator interconnection
-2005,Energy Policy Act 2005,PERMITTING,FERC lead agency; schedule authority
-2005,EPAct Section 216 - NIETC,TRANSMISSION,Created transmission corridor authority
-2011,Sabine Pass LNG authorized,LNG,First non-FTA LNG export
-2011,FERC Order 1000,TRANSMISSION,Regional transmission planning reform
-2013,Interconnection queue growth accelerates,INTERCONNECTION,Annual requests surge from 500 to 2500+
-2016,First US LNG export (Sabine Pass),LNG,US becomes LNG exporter
-2017,WA denies Millennium coal terminal,CWA_401,States using 401 to block projects
-2018,Hoopa Valley Tribe v FERC,CWA_401,DC Circuit: strict 1-year 401 deadline
-2020,Trump EPA 401 Rule,CWA_401,Limited scope of 401 certification
-2021,IIJA enacted,PERMITTING,FERC backstop authority clarified
-2022,FERC GHG Policy Statement issued/withdrawn,PIPELINE_PERMITTING,36-day policy created uncertainty
-2022,Sackett v EPA,CWA_404,Narrowed WOTUS jurisdiction
-2022,IRA enacted,INCENTIVES,Accelerated interconnection requests
-2023,FERC Order 2023,INTERCONNECTION,First-ready-first-served; cluster studies
-2023,Fiscal Responsibility Act,NEPA,2-year EIS deadline
-2023,Biden EPA 401 Rule,CWA_401,Restored broad 401 scope
-2023,Mountain Valley Pipeline approved,PIPELINE_PERMITTING,First Congressional pipeline approval
-2024,DOE LNG pause,LNG,Halted new non-FTA authorizations
-2024,DC Circuit vacates Transco REAE,PIPELINE_PERMITTING,Required GHG significance analysis
-2024,DOE CITAP rule finalized,TRANSMISSION,2-year federal permitting timeline goal
-2024,FERC Order 1920,TRANSMISSION,Long-term transmission planning reform
-2025,Trump emergency permitting procedures,PERMITTING,NEPA EA: 14 days; ESA expedited
-2026,Trump EPA 401 Rule proposed,CWA_401,Re-narrow 401 scope (pending)
+version https://git-lfs.github.com/spec/v1
+oid sha256:b3904a5ae8ff1aeaa846e40bfac85eb4e689f6340796cfdb9a1efc50943052c0
+size 2317

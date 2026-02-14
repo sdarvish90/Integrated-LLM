@@ -1,0 +1,603 @@
+{
+  "metadata": {
+    "name": "DecarbIQ Future Projection Relationship Map",
+    "version": "1.0",
+    "created": "2026-02-13",
+    "horizon": "2025-2035",
+    "description": "Forward-looking projection combining regression coefficients with variable trajectories",
+    "models_used": {
+      "hh_full": {
+        "r2": 0.3129881705211205,
+        "n": 335
+      },
+      "ercot_full": {
+        "r2": 0.3432567529110523,
+        "n": 168
+      },
+      "caiso_full": {
+        "r2": 0.33793124831653776,
+        "n": 183
+      }
+    },
+    "base_year": 2024,
+    "latest_observed": {
+      "henry_hub": 3.01,
+      "ercot_wholesale": 25.05610215053764,
+      "caiso_wholesale": 40.00414579301075
+    }
+  },
+  "coefficients": {
+    "hh_full": {
+      "electric_power_bcfd": -0.0452,
+      "us_hdd": -0.0012,
+      "us_gdp_growth_pct": 0.0015,
+      "us_ng_storage_vs_5yr_pct": -0.2054,
+      "itc_rate_pct": 0.2147,
+      "ptc_rate_cents_kwh": -0.0107
+    },
+    "ercot_gas_passthrough": 6.94,
+    "caiso_gas_passthrough": 10.74
+  },
+  "variable_projections": {
+    "2025": {
+      "gas_price": {
+        "mean": 3.01,
+        "p10": 2.408,
+        "p50": 3.01,
+        "p90": 3.6119999999999997
+      },
+      "us_gdp_growth_pct": 2.8,
+      "us_industrial_prod_index": 103.5,
+      "us_data_center_twh": 216.9,
+      "tx_data_center_twh": 7.3,
+      "electric_power_bcfd": 35.5,
+      "queue_backlog_gw": 2600,
+      "cumulative_ferc_reforms": 12,
+      "ira_active": 1,
+      "tx_gas_gen_pct": 51.8,
+      "tx_wind_gen_pct": 21.9,
+      "tx_solar_gen_pct": 7.2,
+      "tx_coal_gen_pct": 6.8,
+      "tx_renewable_pct": 29.1
+    },
+    "2026": {
+      "gas_price": {
+        "mean": 4.074048546125855,
+        "p10": 2.2230847631531856,
+        "p50": 3.646311373993937,
+        "p90": 6.237010719964393
+      },
+      "us_gdp_growth_pct": 2.74,
+      "us_industrial_prod_index": 104.3,
+      "us_data_center_twh": 235.3,
+      "tx_data_center_twh": 8.6,
+      "electric_power_bcfd": 35.9,
+      "queue_backlog_gw": 2800,
+      "cumulative_ferc_reforms": 13,
+      "ira_active": 1,
+      "tx_gas_gen_pct": 50.3,
+      "tx_wind_gen_pct": 23.1,
+      "tx_solar_gen_pct": 8.5,
+      "tx_coal_gen_pct": 6.0,
+      "tx_renewable_pct": 31.2
+    },
+    "2027": {
+      "gas_price": {
+        "mean": 4.747959720283992,
+        "p10": 1.7507745648711792,
+        "p50": 4.072499175329078,
+        "p90": 8.29083206738807
+      },
+      "us_gdp_growth_pct": 2.68,
+      "us_industrial_prod_index": 105.1,
+      "us_data_center_twh": 255.2,
+      "tx_data_center_twh": 10.2,
+      "electric_power_bcfd": 36.3,
+      "queue_backlog_gw": 3000,
+      "cumulative_ferc_reforms": 14,
+      "ira_active": 1,
+      "tx_gas_gen_pct": 48.8,
+      "tx_wind_gen_pct": 24.3,
+      "tx_solar_gen_pct": 9.8,
+      "tx_coal_gen_pct": 5.2,
+      "tx_renewable_pct": 33.4
+    },
+    "2028": {
+      "gas_price": {
+        "mean": 4.871176696039191,
+        "p10": 1.7491347792672516,
+        "p50": 4.1521772388366145,
+        "p90": 8.760844625959615
+      },
+      "us_gdp_growth_pct": 2.62,
+      "us_industrial_prod_index": 105.9,
+      "us_data_center_twh": 276.9,
+      "tx_data_center_twh": 12.0,
+      "electric_power_bcfd": 36.7,
+      "queue_backlog_gw": 2900,
+      "cumulative_ferc_reforms": 15,
+      "ira_active": 1,
+      "tx_gas_gen_pct": 47.3,
+      "tx_wind_gen_pct": 25.5,
+      "tx_solar_gen_pct": 11.1,
+      "tx_coal_gen_pct": 4.4,
+      "tx_renewable_pct": 35.5
+    },
+    "2029": {
+      "gas_price": {
+        "mean": 5.179807206187069,
+        "p10": 1.8051808805512277,
+        "p50": 4.452420937489325,
+        "p90": 9.282620535586918
+      },
+      "us_gdp_growth_pct": 2.56,
+      "us_industrial_prod_index": 106.7,
+      "us_data_center_twh": 300.3,
+      "tx_data_center_twh": 14.2,
+      "electric_power_bcfd": 37.1,
+      "queue_backlog_gw": 2800,
+      "cumulative_ferc_reforms": 16,
+      "ira_active": 1,
+      "tx_gas_gen_pct": 45.8,
+      "tx_wind_gen_pct": 26.7,
+      "tx_solar_gen_pct": 12.4,
+      "tx_coal_gen_pct": 3.6,
+      "tx_renewable_pct": 37.7
+    },
+    "2030": {
+      "gas_price": {
+        "mean": 5.430713542295212,
+        "p10": 1.8221585758816152,
+        "p50": 4.731763173643744,
+        "p90": 9.747874266564873
+      },
+      "us_gdp_growth_pct": 2.5,
+      "us_industrial_prod_index": 107.5,
+      "us_data_center_twh": 325.8,
+      "tx_data_center_twh": 16.7,
+      "electric_power_bcfd": 37.5,
+      "queue_backlog_gw": 2700,
+      "cumulative_ferc_reforms": 17,
+      "ira_active": 1,
+      "tx_gas_gen_pct": 44.3,
+      "tx_wind_gen_pct": 27.9,
+      "tx_solar_gen_pct": 13.7,
+      "tx_coal_gen_pct": 2.8,
+      "tx_renewable_pct": 39.9
+    },
+    "2031": {
+      "gas_price": {
+        "mean": 5.430713542295212,
+        "p10": 1.8221585758816152,
+        "p50": 4.731763173643744,
+        "p90": 9.747874266564873
+      },
+      "us_gdp_growth_pct": 2.44,
+      "us_industrial_prod_index": 108.3,
+      "us_data_center_twh": 353.3,
+      "tx_data_center_twh": 19.7,
+      "electric_power_bcfd": 37.9,
+      "queue_backlog_gw": 2600,
+      "cumulative_ferc_reforms": 18,
+      "ira_active": 1,
+      "tx_gas_gen_pct": 42.8,
+      "tx_wind_gen_pct": 29.1,
+      "tx_solar_gen_pct": 15.0,
+      "tx_coal_gen_pct": 2.0,
+      "tx_renewable_pct": 42.0
+    },
+    "2032": {
+      "gas_price": {
+        "mean": 5.430713542295212,
+        "p10": 1.8221585758816152,
+        "p50": 4.731763173643744,
+        "p90": 9.747874266564873
+      },
+      "us_gdp_growth_pct": 2.38,
+      "us_industrial_prod_index": 109.1,
+      "us_data_center_twh": 383.3,
+      "tx_data_center_twh": 23.3,
+      "electric_power_bcfd": 38.3,
+      "queue_backlog_gw": 2500,
+      "cumulative_ferc_reforms": 19,
+      "ira_active": 1,
+      "tx_gas_gen_pct": 41.3,
+      "tx_wind_gen_pct": 30.3,
+      "tx_solar_gen_pct": 16.3,
+      "tx_coal_gen_pct": 1.2,
+      "tx_renewable_pct": 44.1
+    },
+    "2033": {
+      "gas_price": {
+        "mean": 5.430713542295212,
+        "p10": 1.8221585758816152,
+        "p50": 4.731763173643744,
+        "p90": 9.747874266564873
+      },
+      "us_gdp_growth_pct": 2.32,
+      "us_industrial_prod_index": 109.9,
+      "us_data_center_twh": 415.7,
+      "tx_data_center_twh": 27.5,
+      "electric_power_bcfd": 38.7,
+      "queue_backlog_gw": 2400,
+      "cumulative_ferc_reforms": 20,
+      "ira_active": 1,
+      "tx_gas_gen_pct": 39.8,
+      "tx_wind_gen_pct": 31.5,
+      "tx_solar_gen_pct": 17.6,
+      "tx_coal_gen_pct": 0.4,
+      "tx_renewable_pct": 46.3
+    },
+    "2034": {
+      "gas_price": {
+        "mean": 5.430713542295212,
+        "p10": 1.8221585758816152,
+        "p50": 4.731763173643744,
+        "p90": 9.747874266564873
+      },
+      "us_gdp_growth_pct": 2.26,
+      "us_industrial_prod_index": 110.7,
+      "us_data_center_twh": 450.9,
+      "tx_data_center_twh": 32.4,
+      "electric_power_bcfd": 39.1,
+      "queue_backlog_gw": 2300,
+      "cumulative_ferc_reforms": 21,
+      "ira_active": 1,
+      "tx_gas_gen_pct": 38.3,
+      "tx_wind_gen_pct": 32.7,
+      "tx_solar_gen_pct": 18.9,
+      "tx_coal_gen_pct": 0,
+      "tx_renewable_pct": 48.5
+    },
+    "2035": {
+      "gas_price": {
+        "mean": 5.430713542295212,
+        "p10": 1.8221585758816152,
+        "p50": 4.731763173643744,
+        "p90": 9.747874266564873
+      },
+      "us_gdp_growth_pct": 2.2,
+      "us_industrial_prod_index": 111.5,
+      "us_data_center_twh": 489.1,
+      "tx_data_center_twh": 38.3,
+      "electric_power_bcfd": 39.5,
+      "queue_backlog_gw": 2200,
+      "cumulative_ferc_reforms": 22,
+      "ira_active": 1,
+      "tx_gas_gen_pct": 36.8,
+      "tx_wind_gen_pct": 33.9,
+      "tx_solar_gen_pct": 20,
+      "tx_coal_gen_pct": 0,
+      "tx_renewable_pct": 50.6
+    }
+  },
+  "driver_impacts_on_gas": {
+    "2025": {
+      "electric_power_bcfd": -0.1341,
+      "us_gdp_growth_pct": 0.0,
+      "us_ng_storage_vs_5yr_pct": -0.0,
+      "itc_rate_pct": 0.0,
+      "ptc_rate_cents_kwh": -0.0
+    },
+    "2026": {
+      "electric_power_bcfd": -0.1522,
+      "us_gdp_growth_pct": -0.0001,
+      "us_ng_storage_vs_5yr_pct": -0.0,
+      "itc_rate_pct": 0.0,
+      "ptc_rate_cents_kwh": -0.0
+    },
+    "2027": {
+      "electric_power_bcfd": -0.1703,
+      "us_gdp_growth_pct": -0.0002,
+      "us_ng_storage_vs_5yr_pct": -0.0,
+      "itc_rate_pct": 0.0,
+      "ptc_rate_cents_kwh": -0.0
+    },
+    "2028": {
+      "electric_power_bcfd": -0.1884,
+      "us_gdp_growth_pct": -0.0003,
+      "us_ng_storage_vs_5yr_pct": -0.0,
+      "itc_rate_pct": 0.0,
+      "ptc_rate_cents_kwh": -0.0
+    },
+    "2029": {
+      "electric_power_bcfd": -0.2065,
+      "us_gdp_growth_pct": -0.0004,
+      "us_ng_storage_vs_5yr_pct": -0.0,
+      "itc_rate_pct": 0.0,
+      "ptc_rate_cents_kwh": -0.0
+    },
+    "2030": {
+      "electric_power_bcfd": -0.2246,
+      "us_gdp_growth_pct": -0.0004,
+      "us_ng_storage_vs_5yr_pct": -0.0,
+      "itc_rate_pct": 0.0,
+      "ptc_rate_cents_kwh": -0.0
+    },
+    "2031": {
+      "electric_power_bcfd": -0.2427,
+      "us_gdp_growth_pct": -0.0005,
+      "us_ng_storage_vs_5yr_pct": -0.0,
+      "itc_rate_pct": 0.0,
+      "ptc_rate_cents_kwh": -0.0
+    },
+    "2032": {
+      "electric_power_bcfd": -0.2608,
+      "us_gdp_growth_pct": -0.0006,
+      "us_ng_storage_vs_5yr_pct": -0.0,
+      "itc_rate_pct": 0.0,
+      "ptc_rate_cents_kwh": -0.0
+    },
+    "2033": {
+      "electric_power_bcfd": -0.2789,
+      "us_gdp_growth_pct": -0.0007,
+      "us_ng_storage_vs_5yr_pct": -0.0,
+      "itc_rate_pct": -0.8587,
+      "ptc_rate_cents_kwh": 0.0053
+    },
+    "2034": {
+      "electric_power_bcfd": -0.297,
+      "us_gdp_growth_pct": -0.0008,
+      "us_ng_storage_vs_5yr_pct": -0.0,
+      "itc_rate_pct": -1.7174,
+      "ptc_rate_cents_kwh": 0.0107
+    },
+    "2035": {
+      "electric_power_bcfd": -0.315,
+      "us_gdp_growth_pct": -0.0009,
+      "us_ng_storage_vs_5yr_pct": -0.0,
+      "itc_rate_pct": -2.5761,
+      "ptc_rate_cents_kwh": 0.016
+    }
+  },
+  "electricity_price_projections": {
+    "ERCOT": {
+      "2025": {
+        "mean": 25.06,
+        "low": 21.3,
+        "high": 28.81,
+        "gas_component": 18.19
+      },
+      "2026": {
+        "mean": 32.84,
+        "low": 21.21,
+        "high": 46.43,
+        "gas_component": 24.62
+      },
+      "2027": {
+        "mean": 38.19,
+        "low": 19.37,
+        "high": 60.43,
+        "gas_component": 28.7
+      },
+      "2028": {
+        "mean": 40.05,
+        "low": 20.46,
+        "high": 64.46,
+        "gas_component": 29.44
+      },
+      "2029": {
+        "mean": 43.06,
+        "low": 21.9,
+        "high": 68.79,
+        "gas_component": 31.31
+      },
+      "2030": {
+        "mean": 45.7,
+        "low": 23.09,
+        "high": 72.76,
+        "gas_component": 32.82
+      },
+      "2031": {
+        "mean": 46.75,
+        "low": 24.15,
+        "high": 73.8,
+        "gas_component": 32.82
+      },
+      "2032": {
+        "mean": 47.81,
+        "low": 25.21,
+        "high": 74.84,
+        "gas_component": 32.82
+      },
+      "2033": {
+        "mean": 48.87,
+        "low": 26.29,
+        "high": 75.89,
+        "gas_component": 32.82
+      },
+      "2034": {
+        "mean": 49.94,
+        "low": 27.38,
+        "high": 76.94,
+        "gas_component": 32.82
+      },
+      "2035": {
+        "mean": 50.84,
+        "low": 28.28,
+        "high": 77.82,
+        "gas_component": 32.82
+      }
+    },
+    "CAISO": {
+      "2025": {
+        "mean": 40.0,
+        "low": 34.0,
+        "high": 46.0,
+        "gas_component": 22.2,
+        "source": "caiso_A"
+      },
+      "2026": {
+        "mean": 53.09,
+        "low": 39.43,
+        "high": 69.04,
+        "gas_component": 30.05,
+        "source": "caiso_A"
+      },
+      "2027": {
+        "mean": 63.29,
+        "low": 41.18,
+        "high": 89.42,
+        "gas_component": 35.02,
+        "source": "caiso_A"
+      },
+      "2028": {
+        "mean": 69.46,
+        "low": 46.43,
+        "high": 98.15,
+        "gas_component": 35.93,
+        "source": "caiso_A"
+      },
+      "2029": {
+        "mean": 77.0,
+        "low": 52.11,
+        "high": 107.26,
+        "gas_component": 38.2,
+        "source": "caiso_A"
+      },
+      "2030": {
+        "mean": 84.11,
+        "low": 57.49,
+        "high": 115.95,
+        "gas_component": 40.06,
+        "source": "caiso_A"
+      },
+      "2031": {
+        "mean": 89.34,
+        "low": 62.73,
+        "high": 121.18,
+        "gas_component": 40.06,
+        "source": "caiso_A"
+      },
+      "2032": {
+        "mean": 94.57,
+        "low": 67.96,
+        "high": 126.42,
+        "gas_component": 40.06,
+        "source": "caiso_A"
+      },
+      "2033": {
+        "mean": 99.43,
+        "low": 72.81,
+        "high": 131.27,
+        "gas_component": 40.06,
+        "source": "caiso_A"
+      },
+      "2034": {
+        "mean": 104.28,
+        "low": 77.66,
+        "high": 136.12,
+        "gas_component": 40.06,
+        "source": "caiso_A"
+      },
+      "2035": {
+        "mean": 109.13,
+        "low": 82.52,
+        "high": 140.98,
+        "gas_component": 40.06,
+        "source": "caiso_A"
+      }
+    }
+  },
+  "scenarios": {
+    "ira_rollback": {
+      "description": "IRA repealed/defunded starting 2027",
+      "probability": "15-25% per Congressional discussions",
+      "impact": {
+        "2025": {
+          "gas_delta": 0,
+          "ercot_delta": 0,
+          "caiso_delta": 0
+        },
+        "2026": {
+          "gas_delta": 0,
+          "ercot_delta": 0,
+          "caiso_delta": 0
+        },
+        "2027": {
+          "gas_delta": -4.26,
+          "ercot_delta": -29.58,
+          "caiso_delta": -45.81
+        },
+        "2028": {
+          "gas_delta": -4.26,
+          "ercot_delta": -29.58,
+          "caiso_delta": -45.81
+        },
+        "2029": {
+          "gas_delta": -4.26,
+          "ercot_delta": -29.58,
+          "caiso_delta": -45.81
+        },
+        "2030": {
+          "gas_delta": -4.26,
+          "ercot_delta": -29.58,
+          "caiso_delta": -45.81
+        },
+        "2031": {
+          "gas_delta": -4.26,
+          "ercot_delta": -29.58,
+          "caiso_delta": -45.81
+        },
+        "2032": {
+          "gas_delta": -4.26,
+          "ercot_delta": -29.58,
+          "caiso_delta": -45.81
+        },
+        "2033": {
+          "gas_delta": -4.26,
+          "ercot_delta": -29.58,
+          "caiso_delta": -45.81
+        },
+        "2034": {
+          "gas_delta": -4.26,
+          "ercot_delta": -29.58,
+          "caiso_delta": -45.81
+        },
+        "2035": {
+          "gas_delta": -4.26,
+          "ercot_delta": -29.58,
+          "caiso_delta": -45.81
+        }
+      }
+    },
+    "data_center_boom": {
+      "description": "DC load doubles vs base case (AI demand surge)",
+      "gas_impact_2030": 0.0,
+      "ercot_impact_2030": 0.0
+    },
+    "queue_breakthrough": {
+      "description": "FERC reforms clear 50% of backlog by 2030",
+      "gas_impact": 0,
+      "ercot_impact": -0.0
+    }
+  },
+  "key_risks": [
+    {
+      "risk": "IRA rollback",
+      "probability": "15-25%",
+      "gas_impact": "+$4.26/MMBtu",
+      "ercot_impact": "+$30/MWh"
+    },
+    {
+      "risk": "Queue delays persist",
+      "probability": "40-60%",
+      "mechanism": "Delays renewable capacity, sustains gas dependence"
+    },
+    {
+      "risk": "Data center demand spike",
+      "probability": "30-50%",
+      "mechanism": "Each 100 TWh adds +$0.0/MMBtu to gas"
+    },
+    {
+      "risk": "Extreme weather (hurricane/polar vortex)",
+      "probability": "45-65% annually",
+      "mechanism": "+$0.30 to +$5.00/MMBtu seasonal spikes"
+    },
+    {
+      "risk": "LNG export surge",
+      "probability": "High",
+      "mechanism": "14\u219230 Bcf/d by 2035, tightens domestic supply"
+    }
+  ]
+}

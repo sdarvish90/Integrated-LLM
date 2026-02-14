@@ -1,0 +1,145 @@
+{
+  "timestamp": "2026-02-13T20:22:48.943013",
+  "regression": {
+    "ERCOT_Baseline": {
+      "r_squared": 0.2726337125555862,
+      "adj_r_squared": 0.2593282316877006,
+      "n": 168
+    },
+    "ERCOT_Policy": {
+      "r_squared": 0.34341777117815486,
+      "adj_r_squared": 0.310382187338062,
+      "n": 168
+    },
+    "ERCOT_Full": {
+      "r_squared": 0.3432567529110523,
+      "adj_r_squared": 0.30584732744396037,
+      "n": 168
+    },
+    "CAISO_Baseline": {
+      "r_squared": 0.1903439264437542,
+      "adj_r_squared": 0.17677427157968306,
+      "n": 183
+    },
+    "CAISO_Policy": {
+      "r_squared": 0.27214325191371025,
+      "adj_r_squared": 0.24732995368349586,
+      "n": 183
+    },
+    "CAISO_Full": {
+      "r_squared": 0.33793124831653776,
+      "adj_r_squared": 0.3114484982491993,
+      "n": 183
+    },
+    "HH_Baseline": {
+      "r_squared": 0.07075282777686176,
+      "adj_r_squared": 0.062330647968192765,
+      "n": 335
+    },
+    "HH_Policy": {
+      "r_squared": 0.2219990782368737,
+      "adj_r_squared": 0.20776735405827995,
+      "n": 335
+    },
+    "HH_Full": {
+      "r_squared": 0.3129881705211205,
+      "adj_r_squared": 0.2961289845216387,
+      "n": 335
+    }
+  },
+  "garch": {
+    "old_params": {
+      "omega": 2.362010342764118e-05,
+      "alpha": 0.07254058420651507,
+      "beta": 0.9137772796687982,
+      "persistence": 0.9863178638753133
+    },
+    "new_params": {
+      "omega": 2.362010342764118e-05,
+      "alpha": 0.07254058420651507,
+      "beta": 0.9137772796687982,
+      "persistence": 0.9863178638753133
+    }
+  },
+  "forecasts": {
+    "2026": {
+      "prev_mean": 4.074048546125855,
+      "new_mean": 4.074048546125855,
+      "diff": 0.0
+    },
+    "2027": {
+      "prev_mean": 4.747959720283992,
+      "new_mean": 4.747959720283992,
+      "diff": 0.0
+    },
+    "2028": {
+      "prev_mean": 4.871176696039191,
+      "new_mean": 4.871176696039191,
+      "diff": 0.0
+    },
+    "2029": {
+      "prev_mean": 5.179807206187069,
+      "new_mean": 5.179807206187069,
+      "diff": 0.0
+    },
+    "2030": {
+      "prev_mean": 5.430713542295212,
+      "new_mean": 5.430713542295212,
+      "diff": 0.0
+    }
+  },
+  "policy_impact": {
+    "ERCOT": {
+      "r2_baseline": 0.2726337125555862,
+      "r2_full": 0.3432567529110523,
+      "r2_improvement": 0.07062304035546607,
+      "significant_vars": [
+        "tx_gdp_growth_pct",
+        "tx_gas_gen_pct",
+        "itc_rate_pct"
+      ]
+    },
+    "CAISO": {
+      "r2_baseline": 0.1903439264437542,
+      "r2_full": 0.33793124831653776,
+      "r2_improvement": 0.14758732187278356,
+      "significant_vars": [
+        "ca_gdp_growth_pct",
+        "queue_backlog_gw",
+        "n_rps_states"
+      ]
+    },
+    "HH": {
+      "r2_baseline": 0.07075282777686176,
+      "r2_full": 0.3129881705211205,
+      "r2_improvement": 0.24223534274425873,
+      "significant_vars": [
+        "us_industrial_prod_index",
+        "us_data_center_twh",
+        "itc_rate_pct"
+      ]
+    }
+  },
+  "literature_check": {
+    "2026": {
+      "p50": 3.65,
+      "status": "PASS"
+    },
+    "2027": {
+      "p50": 4.07,
+      "status": "PASS"
+    },
+    "2028": {
+      "p50": 4.15,
+      "status": "PASS"
+    },
+    "2029": {
+      "p50": 4.45,
+      "status": "PASS"
+    },
+    "2030": {
+      "p50": 4.73,
+      "status": "PASS"
+    }
+  }
+}

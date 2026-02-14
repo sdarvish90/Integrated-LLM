@@ -1,24 +1,3 @@
-Analysis,Era,X_Variable,Y_Variable,Beta,Std_Err,t_stat,p_value,R_squared,n,Significant_05
-Factor_to_Gas,Pre-Shale,Production,Henry_Hub,0.288511,0.640013,0.451,0.5,0.0282,9,False
-Factor_to_Gas,Pre-Shale,Rig_Count,Henry_Hub,0.005039,0.00141,3.574,0.005,0.646,9,True
-Factor_to_Gas,Pre-Shale,Storage,Henry_Hub,0.006598,0.002071,3.185,0.01,0.5918,9,True
-Factor_to_Gas,Pre-Shale,Mexico_Exports,Henry_Hub,5.443434,1.594478,3.414,0.01,0.6248,9,True
-Factor_to_Gas,Shale Boom,Production,Henry_Hub,-0.050117,0.015021,-3.337,0.01,0.5268,12,True
-Factor_to_Gas,Shale Boom,Rig_Count,Henry_Hub,0.002128,0.000541,3.934,0.005,0.6075,12,True
-Factor_to_Gas,Shale Boom,Storage,Henry_Hub,-0.001183,0.001115,-1.061,0.1,0.1013,12,False
-Factor_to_Gas,Shale Boom,LNG_Exports,Henry_Hub,-0.224312,0.087821,-2.554,0.02,0.3948,12,True
-Factor_to_Gas,Shale Boom,Mexico_Exports,Henry_Hub,-0.371741,0.095021,-3.912,0.005,0.6048,12,True
-Factor_to_Gas,Post-Pandemic,Production,Henry_Hub,-0.100298,0.16158,-0.621,0.5,0.1138,5,False
-Factor_to_Gas,Post-Pandemic,Rig_Count,Henry_Hub,0.05151,0.0283,1.82,0.1,0.5248,5,False
-Factor_to_Gas,Post-Pandemic,Storage,Henry_Hub,-0.008831,0.002809,-3.143,0.01,0.7671,5,True
-Factor_to_Gas,Post-Pandemic,LNG_Exports,Henry_Hub,-0.319067,0.476176,-0.67,0.5,0.1302,5,False
-Factor_to_Gas,Post-Pandemic,Mexico_Exports,Henry_Hub,-2.09586,2.125583,-0.986,0.5,0.2448,5,False
-Gas_to_Electricity,Pre-Shale,US_Avg_Gas,US_Avg_Elec,0.412971,0.113326,3.644,0.005,0.6548,9,True
-Gas_to_Electricity,Shale Boom,US_Avg_Gas,US_Avg_Elec,-0.213436,0.1029,-2.074,0.05,0.3008,12,False
-Gas_to_Electricity,Post-Pandemic,US_Avg_Gas,US_Avg_Elec,-0.111582,0.316829,-0.352,0.5,0.0397,5,False
-Gas_to_Electricity,Pre-Shale,California_Gas,California_Elec,0.441,0.245316,1.798,0.1,0.3158,9,False
-Gas_to_Electricity,Shale Boom,California_Gas,California_Elec,-1.016307,0.469394,-2.165,0.05,0.3192,12,False
-Gas_to_Electricity,Post-Pandemic,California_Gas,California_Elec,0.029489,0.47349,0.062,0.5,0.0013,5,False
-Gas_to_Electricity,Pre-Shale,Texas_Gas,Texas_Elec,0.717235,0.150864,4.754,0.001,0.7635,9,True
-Gas_to_Electricity,Shale Boom,Texas_Gas,Texas_Elec,0.261294,0.100181,2.608,0.02,0.4049,12,True
-Gas_to_Electricity,Post-Pandemic,Texas_Gas,Texas_Elec,1.144557,0.088921,12.872,0.001,0.9822,5,True
+version https://git-lfs.github.com/spec/v1
+oid sha256:8547609677eaa46ffa54b0878a0e23fabf878a0c2677b254d46d3a0faf878cb4
+size 2285

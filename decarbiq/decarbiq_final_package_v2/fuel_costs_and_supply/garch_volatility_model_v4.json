@@ -1,0 +1,154 @@
+{
+  "model_type": "GARCH(1,1)",
+  "version": "7.0_jump_filtered_multi_era",
+  "input_data": "HH daily log-returns (jump-filtered, excl. Feb 2021 Uri)",
+  "frequency": "daily",
+  "n_observations": 5776,
+  "n_raw_observations": 7285,
+  "estimation_period": {
+    "start": "1997-01-07",
+    "end": "2026-02-09",
+    "n_observations": 5776
+  },
+  "selected_era": "post_covid",
+  "eras": {
+    "pre_shale": {
+      "n": 2825,
+      "label": "Pre-shale (<2009)",
+      "skipped": false,
+      "omega": 2.3054357441059745e-05,
+      "alpha": 0.06868001565905592,
+      "beta": 0.9100261021230036,
+      "persistence": 0.9787061177820595,
+      "sample_variance": 0.0010698079561410586,
+      "unconditional_variance": 0.0010826751648713463,
+      "annualized_vol_pct": 52.23352769510971
+    },
+    "post_shale": {
+      "n": 2357,
+      "label": "Post-shale (2009-19)",
+      "skipped": false,
+      "omega": 1.2461694863536939e-05,
+      "alpha": 0.05819627384832154,
+      "beta": 0.9269142996049403,
+      "persistence": 0.9851105734532618,
+      "sample_variance": 0.0008324581380120667,
+      "unconditional_variance": 0.0008369492823930754,
+      "annualized_vol_pct": 45.92507149292802
+    },
+    "post_covid": {
+      "n": 594,
+      "label": "Post-COVID (2020+)",
+      "skipped": false,
+      "omega": 2.362010342764118e-05,
+      "alpha": 0.07254058420651507,
+      "beta": 0.9137772796687982,
+      "persistence": 0.9863178638753133,
+      "sample_variance": 0.0014619178847169326,
+      "unconditional_variance": 0.0017263461796015434,
+      "annualized_vol_pct": 65.95750429326363
+    }
+  },
+  "parameters": {
+    "omega": 2.362010342764118e-05,
+    "alpha": 0.07254058420651507,
+    "beta": 0.9137772796687982,
+    "persistence": 0.9863178638753133
+  },
+  "full_sample_parameters": {
+    "omega": 1.408868674999742e-05,
+    "alpha": 0.06037668118120716,
+    "beta": 0.9257756489819494,
+    "persistence": 0.9861523301631566,
+    "annualized_vol_pct": 50.63457589444826
+  },
+  "unconditional_volatility": {
+    "period": 0.04154932225201205,
+    "annualized_pct": 65.95750429326364
+  },
+  "half_life_months": 2.395874930783177,
+  "current_state": {
+    "date": "2026-02-09",
+    "conditional_variance": 0.00229862388794648,
+    "annualized_volatility_pct": 76.1086867422184
+  },
+  "monthly_equivalent": {
+    "description": "GARCH from post_covid era, aggregated to monthly for MC",
+    "unconditional_variance": 0.03625326977163241,
+    "current_variance": 0.04827110164687608,
+    "persistence": 0.7487811088493369,
+    "trading_days_per_month": 21
+  },
+  "seasonal_factors": {
+    "description": "Monthly volatility ratios and mean premiums from jump-filtered daily sample",
+    "volatility_ratio": {
+      "1": 1.164,
+      "2": 0.977,
+      "3": 0.936,
+      "4": 0.851,
+      "5": 0.832,
+      "6": 0.909,
+      "7": 0.847,
+      "8": 0.899,
+      "9": 1.01,
+      "10": 1.165,
+      "11": 1.209,
+      "12": 1.127
+    },
+    "mean_premium_usd": {
+      "1": 0.26,
+      "2": -0.03,
+      "3": -0.23,
+      "4": -0.13,
+      "5": -0.0,
+      "6": 0.1,
+      "7": -0.1,
+      "8": -0.03,
+      "9": -0.14,
+      "10": -0.01,
+      "11": 0.03,
+      "12": 0.3
+    }
+  },
+  "regime_thresholds": {
+    "Low": "<40% annualized",
+    "Normal": "40-80% annualized",
+    "Elevated": "80-120% annualized",
+    "Crisis": ">120% annualized"
+  },
+  "regime_distribution": {
+    "Low": 862,
+    "Normal": 4867,
+    "Elevated": 47,
+    "Crisis": 0
+  },
+  "volatility_forecast_24m": {
+    "month_1": 73.69015829740816,
+    "month_6": 67.85697903273511,
+    "month_12": 66.29623763693674,
+    "month_24": 65.96805291035935
+  },
+  "comparison": {
+    "old_params": {
+      "omega": 2.362010342764118e-05,
+      "alpha": 0.07254058420651507,
+      "beta": 0.9137772796687982,
+      "persistence": 0.9863178638753133
+    },
+    "new_params": {
+      "omega": 2.362010342764118e-05,
+      "alpha": 0.07254058420651507,
+      "beta": 0.9137772796687982,
+      "persistence": 0.9863178638753133
+    }
+  },
+  "jump_filtering": {
+    "method": "Statistical (3.0x MAD-sigma) + event date matching",
+    "n_raw": 7285,
+    "n_filtered": 5776,
+    "n_jumps_removed": 1509,
+    "robust_sigma": 0.031324,
+    "threshold": 0.094,
+    "shock_catalog_path": "fuel_costs_and_supply/hh_shock_catalog.json"
+  }
+}

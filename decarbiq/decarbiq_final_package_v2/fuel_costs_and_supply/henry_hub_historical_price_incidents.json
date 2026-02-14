@@ -1,0 +1,970 @@
+{
+  "title": "Henry Hub Natural Gas Historical Price Incidents Catalog",
+  "description": "Comprehensive catalog of major positive (price spikes) and negative (price crashes) incidents at Henry Hub, with before/after prices, magnitude, and duration for asymmetry analysis",
+  "data_sources": [
+    "EIA Henry Hub Natural Gas Spot Price (monthly averages from decarbiq_monthly_gas_prices.csv)",
+    "Project volatility_events_database.csv, hurricane_events.csv, polar_vortex_events.csv",
+    "Project weather_disruptions.csv, geopolitical_disruptions.csv, sanctions_events.csv",
+    "Project ercot_uri_event_feb2021.json (daily breakdown)",
+    "EIA historical data (training knowledge through May 2025)"
+  ],
+  "methodology_notes": {
+    "price_before": "Monthly HH spot average for the month immediately preceding the event, from EIA data in decarbiq_monthly_gas_prices.csv",
+    "price_at_peak_trough": "Peak daily spot or monthly average during the event, depending on event type. Daily spot prices used where available for spikes; monthly averages for structural shifts",
+    "duration_to_reversion": "Months until the monthly HH average returned to within 15% of the pre-event level",
+    "regional_spot_vs_hub": "During extreme cold events, regional spot prices (e.g., Algonquin Citygate, PEPL TX/OK) spike far more than Henry Hub. Both are noted where relevant."
+  },
+
+  "positive_shocks": [
+    {
+      "event_id": "PS_01",
+      "event_name": "Hurricane Ivan",
+      "event_type": "Hurricane / Supply Disruption",
+      "category": "NATURAL_DISASTER",
+      "dates": {
+        "event_start": "2004-09-16",
+        "event_end": "2004-10-15",
+        "peak_price_date": "2004-10 (monthly)"
+      },
+      "hh_price_before_event": {
+        "value": 5.41,
+        "unit": "$/MMBtu",
+        "reference_period": "Aug 2004 monthly average"
+      },
+      "hh_price_at_peak": {
+        "value": 6.35,
+        "unit": "$/MMBtu",
+        "reference_period": "Oct 2004 monthly average",
+        "note": "Daily spot prices briefly exceeded $7.50 in late September"
+      },
+      "magnitude_of_change": {
+        "dollars": 0.94,
+        "percent": 17.4,
+        "direction": "UP"
+      },
+      "duration_to_reversion": {
+        "months": 0,
+        "note": "Prices were already elevated pre-Ivan due to tight market; never truly reverted as Katrina/Rita followed 11 months later. The immediate Ivan premium (~$0.50-1.00) dissipated within 2-3 months but the structural tightness persisted."
+      },
+      "supply_disruption": {
+        "gas_shutin_pct": 25,
+        "gas_shutin_bcf": 100,
+        "platforms_destroyed": 7,
+        "duration_days": 30
+      },
+      "context": "Category 3 hurricane that destroyed 7 platforms in GoM. 25% of GoM gas production shut in for ~30 days. Came during a period of already tight gas supply."
+    },
+
+    {
+      "event_id": "PS_02",
+      "event_name": "Hurricane Katrina",
+      "event_type": "Hurricane / Supply Disruption",
+      "category": "NATURAL_DISASTER",
+      "dates": {
+        "event_start": "2005-08-29",
+        "event_end": "2006-06-30",
+        "peak_price_date": "2005-12 and 2005-10 (monthly)"
+      },
+      "hh_price_before_event": {
+        "value": 7.63,
+        "unit": "$/MMBtu",
+        "reference_period": "Jul 2005 monthly average"
+      },
+      "hh_price_at_peak": {
+        "value": 15.38,
+        "unit": "$/MMBtu",
+        "reference_period": "Daily spot peak mid-December 2005",
+        "monthly_peak": 13.42,
+        "monthly_peak_period": "Oct 2005 monthly average"
+      },
+      "magnitude_of_change": {
+        "dollars_from_pre_event_to_monthly_peak": 5.79,
+        "dollars_from_pre_event_to_daily_peak": 7.75,
+        "percent_from_pre_event_to_monthly_peak": 75.9,
+        "percent_from_pre_event_to_daily_peak": 101.6,
+        "direction": "UP"
+      },
+      "duration_to_reversion": {
+        "months": 10,
+        "reversion_date": "2006-06",
+        "reversion_price": 6.21,
+        "note": "HH fell below $7.63 (pre-event) by June 2006 at $6.21. The sustained elevation was because Rita struck 4 weeks later, compounding damage."
+      },
+      "supply_disruption": {
+        "gas_shutin_pct": 88,
+        "gas_shutin_bcfd": 8.8,
+        "gas_shutin_bcf_total": 450,
+        "platforms_destroyed": 47,
+        "duration_days": 180
+      },
+      "context": "Category 5 hurricane devastated GoM gas infrastructure. 88% of GoM gas production shut in. 47 platforms destroyed. Worst single hurricane impact on US gas supply in history. Combined with Rita 4 weeks later, the pair created the largest sustained HH price spike of the 2000s."
+    },
+
+    {
+      "event_id": "PS_03",
+      "event_name": "Hurricane Rita",
+      "event_type": "Hurricane / Supply Disruption",
+      "category": "NATURAL_DISASTER",
+      "dates": {
+        "event_start": "2005-09-24",
+        "event_end": "2006-03-31",
+        "peak_price_date": "2005-12 (monthly)"
+      },
+      "hh_price_before_event": {
+        "value": 9.53,
+        "unit": "$/MMBtu",
+        "reference_period": "Aug 2005 monthly average (already elevated from Katrina)"
+      },
+      "hh_price_at_peak": {
+        "value": 15.38,
+        "unit": "$/MMBtu",
+        "reference_period": "Daily spot peak mid-December 2005",
+        "monthly_peak": 13.42,
+        "monthly_peak_period": "Oct 2005 monthly average"
+      },
+      "magnitude_of_change": {
+        "dollars_from_pre_rita": 3.89,
+        "percent_from_pre_rita": 40.8,
+        "dollars_from_pre_katrina_baseline": 5.79,
+        "percent_from_pre_katrina_baseline": 75.9,
+        "direction": "UP",
+        "note": "Rita compounded Katrina. The combined Katrina+Rita effect from the Jul 2005 baseline of $7.63 to the Oct 2005 peak of $13.42 was +$5.79 (+76%)."
+      },
+      "duration_to_reversion": {
+        "months": 6,
+        "reversion_date": "2006-03",
+        "note": "Rita-specific incremental impact dissipated faster as some Katrina-damaged production was already recovering. Monthly average returned to ~$7 range by mid-2006."
+      },
+      "supply_disruption": {
+        "gas_shutin_pct": 80,
+        "gas_shutin_bcfd": 8.0,
+        "gas_shutin_bcf_total": 350,
+        "platforms_destroyed": 66,
+        "duration_days": 120
+      },
+      "context": "Category 5 hurricane struck GoM just 4 weeks after Katrina. 80% gas shut-in, 66 platforms destroyed. Combined Katrina+Rita: 113 platforms destroyed, ~10 months of major production disruption."
+    },
+
+    {
+      "event_id": "PS_04",
+      "event_name": "2005 Winter Heating Season (Post-Katrina/Rita)",
+      "event_type": "Supply Deficit / Seasonal Demand",
+      "category": "STRUCTURAL",
+      "dates": {
+        "event_start": "2005-10-01",
+        "event_end": "2006-01-31",
+        "peak_price_date": "2005-12-13 (daily)"
+      },
+      "hh_price_before_event": {
+        "value": 7.63,
+        "unit": "$/MMBtu",
+        "reference_period": "Jul 2005 (pre-hurricane baseline)"
+      },
+      "hh_price_at_peak": {
+        "value": 15.38,
+        "unit": "$/MMBtu",
+        "reference_period": "Daily spot peak Dec 13, 2005",
+        "monthly_dec": 13.05,
+        "monthly_oct": 13.42
+      },
+      "magnitude_of_change": {
+        "dollars": 7.75,
+        "percent": 101.6,
+        "direction": "UP"
+      },
+      "duration_to_reversion": {
+        "months": 10,
+        "reversion_date": "2006-05",
+        "reversion_price": 6.25,
+        "note": "Warm January 2006 helped accelerate price decline. By May 2006 prices were back to pre-Katrina range."
+      },
+      "context": "The peak daily HH spot price of the entire Katrina/Rita era. Entering winter 2005-06 with severely depleted storage (14.5% below 5-year average) and ongoing GoM production outages created the $15+ spike. The December 13, 2005 daily spot of ~$15.38 remains the highest daily HH price before the 2022 crisis."
+    },
+
+    {
+      "event_id": "PS_05",
+      "event_name": "2008 Summer Price Spike (Pre-Financial Crisis)",
+      "event_type": "Commodity Super-Cycle / Demand",
+      "category": "STRUCTURAL",
+      "dates": {
+        "event_start": "2008-01-01",
+        "event_end": "2008-07-31",
+        "peak_price_date": "2008-06 (monthly)"
+      },
+      "hh_price_before_event": {
+        "value": 7.11,
+        "unit": "$/MMBtu",
+        "reference_period": "Dec 2007 monthly average"
+      },
+      "hh_price_at_peak": {
+        "value": 13.32,
+        "unit": "$/MMBtu",
+        "reference_period": "Daily spot peak late June 2008",
+        "monthly_peak": 12.69,
+        "monthly_peak_period": "Jun 2008 monthly average"
+      },
+      "magnitude_of_change": {
+        "dollars": 5.58,
+        "percent": 78.5,
+        "direction": "UP"
+      },
+      "duration_to_reversion": {
+        "months": 4,
+        "reversion_date": "2008-10",
+        "reversion_price": 6.74,
+        "note": "Financial crisis caused the fastest major decline in HH history. Price collapsed from $12.69 in June to $5.82 in December 2008 (-54% in 6 months)."
+      },
+      "context": "Part of the 2007-2008 global commodity super-cycle. Oil hit $147/bbl in July 2008. Gas demand for power generation surging. The shale revolution had just begun (Barnett producing, Marcellus not yet significant). Lehman collapse in September 2008 ended the rally abruptly."
+    },
+
+    {
+      "event_id": "PS_06",
+      "event_name": "Russia-Ukraine Gas Dispute 2006",
+      "event_type": "Geopolitical / Supply Disruption",
+      "category": "GEOPOLITICAL",
+      "dates": {
+        "event_start": "2006-01-01",
+        "event_end": "2006-01-04",
+        "peak_price_date": "2006-01 (monthly)"
+      },
+      "hh_price_before_event": {
+        "value": 13.05,
+        "unit": "$/MMBtu",
+        "reference_period": "Dec 2005 monthly average (still elevated from Katrina/Rita)"
+      },
+      "hh_price_at_peak": {
+        "value": 8.69,
+        "unit": "$/MMBtu",
+        "reference_period": "Jan 2006 monthly average"
+      },
+      "magnitude_of_change": {
+        "dollars": -4.36,
+        "percent": -33.4,
+        "direction": "DOWN (prices were already falling from Katrina peak)",
+        "note": "Despite the geopolitical crisis, HH actually fell in Jan 2006 because the warm US winter was more impactful than the European gas dispute. The dispute primarily affected TTF/NBP prices, not HH directly. Estimated HH impact: +$0.30-0.50 briefly."
+      },
+      "duration_to_reversion": {
+        "months": 0,
+        "note": "HH impact was negligible in 2006. US gas market was not yet connected to global LNG markets. The dispute lasted only 4 days."
+      },
+      "hh_impact_estimated": {
+        "value": 0.50,
+        "unit": "$/MMBtu",
+        "note": "Minimal direct HH impact. European TTF prices spiked 20-40%. US gas market was largely insulated before LNG exports began."
+      },
+      "context": "First Russia-Ukraine gas dispute. Gazprom cut gas to Ukraine on Jan 1, 2006. Flows to Europe reduced. Resolved in 4 days. Primarily a European event. HH impact minimal because US had no material LNG export capacity and gas markets were not globally connected."
+    },
+
+    {
+      "event_id": "PS_07",
+      "event_name": "Russia-Ukraine Gas Dispute 2009",
+      "event_type": "Geopolitical / Supply Disruption",
+      "category": "GEOPOLITICAL",
+      "dates": {
+        "event_start": "2009-01-01",
+        "event_end": "2009-01-20",
+        "peak_price_date": "2009-01 (monthly)"
+      },
+      "hh_price_before_event": {
+        "value": 5.82,
+        "unit": "$/MMBtu",
+        "reference_period": "Dec 2008 monthly average"
+      },
+      "hh_price_at_peak": {
+        "value": 5.24,
+        "unit": "$/MMBtu",
+        "reference_period": "Jan 2009 monthly average"
+      },
+      "magnitude_of_change": {
+        "dollars": -0.58,
+        "percent": -10.0,
+        "direction": "DOWN (HH was already declining due to financial crisis and shale growth)",
+        "note": "Like 2006, this was a European event. HH was falling due to the financial crisis. European gas spot prices spiked dramatically."
+      },
+      "duration_to_reversion": {
+        "months": 0,
+        "note": "No positive HH impact measurable. US gas market disconnected from European disruption."
+      },
+      "hh_impact_estimated": {
+        "value": 0.30,
+        "unit": "$/MMBtu",
+        "note": "Estimated +$0.30 temporary premium that was overwhelmed by macro bearish forces"
+      },
+      "context": "Complete cutoff of Russian gas through Ukraine for 13 days in January 2009. Most severe pre-2022 Russia-Europe gas crisis. Eastern Europe suffered severe cold. But HH was in freefall from the financial crisis and early shale revolution -- no measurable impact on US gas."
+    },
+
+    {
+      "event_id": "PS_08",
+      "event_name": "Polar Vortex January 2014",
+      "event_type": "Extreme Cold / Demand Spike",
+      "category": "WEATHER_EXTREME",
+      "dates": {
+        "event_start": "2014-01-06",
+        "event_end": "2014-02-28",
+        "peak_price_date": "2014-02 (monthly), 2014-01-06 to 01-08 (daily spot)"
+      },
+      "hh_price_before_event": {
+        "value": 4.24,
+        "unit": "$/MMBtu",
+        "reference_period": "Dec 2013 monthly average"
+      },
+      "hh_price_at_peak": {
+        "value": 7.90,
+        "unit": "$/MMBtu",
+        "reference_period": "Daily HH spot peak Jan 2014",
+        "monthly_jan": 4.71,
+        "monthly_feb": 6.00,
+        "note": "HH spot peaked at $7.90 briefly. Monthly average for Feb was $6.00 due to averaging effect."
+      },
+      "regional_spot_peaks": {
+        "nyc_transco_z6": 20.77,
+        "chicago_citygates": 27.45,
+        "algonquin_citygate": 35.00,
+        "unit": "$/MMBtu",
+        "note": "Regional basis blowouts were extreme. Northeast/Midwest citygate prices hit $20-35/MMBtu even as HH stayed below $8."
+      },
+      "magnitude_of_change": {
+        "dollars_daily_peak": 3.66,
+        "percent_daily_peak": 86.3,
+        "dollars_monthly_peak_feb": 1.76,
+        "percent_monthly_peak_feb": 41.5,
+        "direction": "UP"
+      },
+      "duration_to_reversion": {
+        "months": 2,
+        "reversion_date": "2014-03",
+        "reversion_price": 4.90,
+        "note": "HH monthly average returned to ~$4.90 by March 2014, within range of pre-event levels. By April it was $4.66."
+      },
+      "context": "Persistent polar vortex brought record cold to Midwest and Northeast. Heating demand surged. Pipeline constraints created massive basis differentials. Henry Hub impact was relatively moderate because the supply disruption was demand-driven and regional. The event exposed pipeline infrastructure inadequacy in the Northeast."
+    },
+
+    {
+      "event_id": "PS_09",
+      "event_name": "Hurricane Harvey",
+      "event_type": "Hurricane / Mixed Impact",
+      "category": "NATURAL_DISASTER",
+      "dates": {
+        "event_start": "2017-08-25",
+        "event_end": "2017-09-15",
+        "peak_price_date": "2017-09 (monthly)"
+      },
+      "hh_price_before_event": {
+        "value": 2.98,
+        "unit": "$/MMBtu",
+        "reference_period": "Jul 2017 monthly average"
+      },
+      "hh_price_at_peak": {
+        "value": 2.98,
+        "unit": "$/MMBtu",
+        "reference_period": "Sep 2017 monthly average",
+        "daily_spike": 3.15,
+        "daily_spike_date": "late Aug 2017"
+      },
+      "magnitude_of_change": {
+        "dollars": 0.00,
+        "percent": 0.0,
+        "direction": "FLAT (net effect near zero)",
+        "note": "Harvey was unusual: it caused MORE demand destruction (refinery shutdowns reducing gas demand) than supply disruption. GoM gas production was minimally affected. Net price impact was negligible or slightly negative."
+      },
+      "duration_to_reversion": {
+        "months": 0,
+        "note": "No meaningful price deviation to revert from."
+      },
+      "supply_disruption": {
+        "gas_shutin_pct": "minimal",
+        "note": "Harvey's devastation was onshore (Houston flooding). GoM gas production barely affected. Massive refinery shutdowns (25% of US capacity) actually REDUCED gas demand, partially offsetting any supply concern."
+      },
+      "context": "Category 4 hurricane dumped 61 inches of rain on Houston. Massive flooding shut down refineries but had minimal GoM production impact. This was a critical lesson: onshore-track hurricanes can be net BEARISH for gas by destroying demand (refinery/industrial) more than supply. Weather disruptions database shows -5% price impact."
+    },
+
+    {
+      "event_id": "PS_10",
+      "event_name": "Winter Storm Uri",
+      "event_type": "Extreme Cold / Grid Collapse",
+      "category": "WEATHER_EXTREME",
+      "dates": {
+        "event_start": "2021-02-10",
+        "event_end": "2021-02-20",
+        "peak_price_date": "2021-02-17 (daily)"
+      },
+      "hh_price_before_event": {
+        "value": 2.71,
+        "unit": "$/MMBtu",
+        "reference_period": "Jan 2021 monthly average"
+      },
+      "hh_price_at_peak": {
+        "value": 23.86,
+        "unit": "$/MMBtu",
+        "reference_period": "Daily HH spot peak Feb 17, 2021",
+        "monthly_feb": 5.35,
+        "note": "Monthly average of $5.35 heavily diluted by normal prices in first and last week of February. The daily peak of $23.86 is the relevant figure."
+      },
+      "regional_spot_peaks": {
+        "pepl_tx_ok": 224.00,
+        "southern_star_tx": 200.00,
+        "enable_gas_tx": 175.00,
+        "waha_hub_tx": 150.00,
+        "unit": "$/MMBtu",
+        "note": "Regional Texas/Oklahoma gas hubs hit $150-224/MMBtu -- highest US spot gas prices EVER recorded. These were 50-80x normal."
+      },
+      "ercot_electricity_prices": {
+        "peak_daily_mean": 9005.94,
+        "absolute_peak_hourly": 9160.85,
+        "unit": "$/MWh",
+        "normal_price": 22.0,
+        "note": "ERCOT real-time prices hit the $9,000/MWh system cap for ~5 consecutive days (Feb 15-19). Monthly average was $1,485/MWh."
+      },
+      "magnitude_of_change": {
+        "dollars_daily_hh": 21.15,
+        "percent_daily_hh": 780.4,
+        "dollars_monthly_hh": 2.64,
+        "percent_monthly_hh": 97.4,
+        "dollars_regional_peak": 221.29,
+        "percent_regional_peak": 8165.3,
+        "direction": "UP"
+      },
+      "duration_to_reversion": {
+        "months": 1,
+        "reversion_date": "2021-03",
+        "reversion_price": 2.62,
+        "note": "HH monthly average crashed back to $2.62 in March 2021. The price spike was incredibly sharp (7 days) but recovery was essentially immediate."
+      },
+      "supply_disruption": {
+        "gas_production_loss_pct": 45,
+        "gas_shutin_bcfd": 15.0,
+        "duration_days": 7,
+        "power_outages_millions": 4.5,
+        "deaths": 246,
+        "economic_damage_billions": 195
+      },
+      "context": "The single most extreme natural gas price event in US history. Polar vortex caused unprecedented cold in Texas (single-digit F for days). 45% of Texas gas production froze off. ERCOT grid collapsed. 4.5 million customers lost power for days. 246+ deaths. $195 billion economic damage. HH spot hit $23.86 but regional Texas hubs hit $224/MMBtu. ERCOT electricity prices hit the $9,000/MWh cap for ~120 consecutive hours."
+    },
+
+    {
+      "event_id": "PS_11",
+      "event_name": "Russia-Ukraine War / Global Energy Crisis 2022",
+      "event_type": "Geopolitical / Global Supply Restructuring",
+      "category": "GEOPOLITICAL",
+      "dates": {
+        "event_start": "2022-02-24",
+        "event_end": "2022-10-31",
+        "peak_price_date": "2022-08 (monthly HH)"
+      },
+      "hh_price_before_event": {
+        "value": 3.76,
+        "unit": "$/MMBtu",
+        "reference_period": "Dec 2021 monthly average"
+      },
+      "hh_price_at_peak": {
+        "value": 9.68,
+        "unit": "$/MMBtu",
+        "reference_period": "Daily HH spot peak late August 2022",
+        "monthly_peak": 8.81,
+        "monthly_peak_period": "Aug 2022 monthly average"
+      },
+      "european_comparison": {
+        "ttf_peak": 99.07,
+        "ttf_peak_unit": "$/MMBtu equivalent",
+        "ttf_peak_eur_mwh": 342.0,
+        "ttf_peak_date": "2022-08-26",
+        "jkm_peak": 84.76,
+        "jkm_peak_unit": "$/MMBtu",
+        "note": "European TTF hit equivalent of ~$99/MMBtu while US HH peaked at ~$9.68. The 10:1 international-to-domestic ratio was unprecedented."
+      },
+      "magnitude_of_change": {
+        "dollars": 5.05,
+        "percent": 134.3,
+        "direction": "UP",
+        "note": "From Dec 2021 baseline of $3.76 to Aug 2022 peak of $8.81 monthly."
+      },
+      "duration_to_reversion": {
+        "months": 10,
+        "reversion_date": "2022-10",
+        "reversion_price": 5.66,
+        "note_partial": "Prices fell to $5.66 by Oct 2022 (Freeport LNG explosion reduced export demand June-March). Full reversion below $4 occurred by Jan 2023 ($3.27). From peak to full reversion: ~5 months.",
+        "full_reversion_months": 16,
+        "full_reversion_date": "2023-03",
+        "full_reversion_price": 2.31
+      },
+      "context": "Russia invaded Ukraine Feb 24, 2022. Russia cut ~80 bcm/yr of pipeline gas to Europe over 2022. Nord Stream sabotaged Sep 26. US LNG exports surged to replace Russian gas, pulling HH prices up. Freeport LNG explosion (Jun 8, 2022) paradoxically LOWERED HH by trapping gas domestically. The 2022 crisis was the first time geopolitics materially moved HH because US LNG exports (11+ Bcf/d) had created real linkage to global markets."
+    },
+
+    {
+      "event_id": "PS_12",
+      "event_name": "Winter Storm Elliott",
+      "event_type": "Extreme Cold / Grid Stress",
+      "category": "WEATHER_EXTREME",
+      "dates": {
+        "event_start": "2022-12-21",
+        "event_end": "2022-12-26",
+        "peak_price_date": "2022-12-24 (daily)"
+      },
+      "hh_price_before_event": {
+        "value": 5.45,
+        "unit": "$/MMBtu",
+        "reference_period": "Nov 2022 monthly average"
+      },
+      "hh_price_at_peak": {
+        "value": 7.00,
+        "unit": "$/MMBtu",
+        "reference_period": "Estimated daily peak during event",
+        "monthly_dec": 5.53
+      },
+      "magnitude_of_change": {
+        "dollars": 1.55,
+        "percent": 28.4,
+        "direction": "UP",
+        "note": "Moderate HH impact. December monthly average was $5.53, barely above November's $5.45. The spike was brief."
+      },
+      "duration_to_reversion": {
+        "months": 0,
+        "note": "Event lasted only 4 days. Prices reverted within days."
+      },
+      "context": "Bomb cyclone caused temperatures to plunge across Eastern US. PJM, MISO, TVA experienced grid stress. Northeast gas production fell ~6 Bcf/d. 87 deaths. But the event was short-lived and didn't cause the cascading failures seen during Uri."
+    },
+
+    {
+      "event_id": "PS_13",
+      "event_name": "Hurricane Ida (2021)",
+      "event_type": "Hurricane / Supply Disruption",
+      "category": "NATURAL_DISASTER",
+      "dates": {
+        "event_start": "2021-08-29",
+        "event_end": "2021-10-15",
+        "peak_price_date": "2021-10 (monthly)"
+      },
+      "hh_price_before_event": {
+        "value": 4.07,
+        "unit": "$/MMBtu",
+        "reference_period": "Aug 2021 monthly average"
+      },
+      "hh_price_at_peak": {
+        "value": 5.51,
+        "unit": "$/MMBtu",
+        "reference_period": "Oct 2021 monthly average",
+        "note": "Prices were already rising due to LNG export demand and tight global markets. Ida added ~$0.80/MMBtu on top of existing uptrend."
+      },
+      "magnitude_of_change": {
+        "dollars": 1.44,
+        "percent": 35.4,
+        "direction": "UP",
+        "note": "Hard to isolate Ida from underlying bullish trend. The project database estimates $0.80/MMBtu attributable to Ida specifically."
+      },
+      "duration_to_reversion": {
+        "months": 2,
+        "note": "Ida-specific premium dissipated by November 2021, but prices stayed elevated for other reasons (global LNG demand, winter heating season)."
+      },
+      "supply_disruption": {
+        "gas_shutin_pct": 94,
+        "oil_shutin_pct": 96,
+        "gas_shutin_bcf_total": 38.4,
+        "duration_days": 60,
+        "note": "Shut-in percentages exceeded Katrina in the first days, but infrastructure damage was less severe and recovery faster."
+      },
+      "context": "Category 4 hurricane made landfall in Louisiana. Initial shut-in percentages (94-96%) exceeded Katrina. But deepwater platforms are more resilient now, and the US is less dependent on GoM gas (shale dominates). Port Fourchon severely damaged. Prices rose but the effect was modest compared to the 2005 hurricanes."
+    },
+
+    {
+      "event_id": "PS_14",
+      "event_name": "2000-2001 California Energy Crisis / Winter Price Spike",
+      "event_type": "Market Structure / Demand Surge",
+      "category": "STRUCTURAL",
+      "dates": {
+        "event_start": "2000-10-01",
+        "event_end": "2001-06-30",
+        "peak_price_date": "2000-12 (monthly HH)"
+      },
+      "hh_price_before_event": {
+        "value": 5.02,
+        "unit": "$/MMBtu",
+        "reference_period": "Oct 2000 monthly average"
+      },
+      "hh_price_at_peak": {
+        "value": 10.04,
+        "unit": "$/MMBtu",
+        "reference_period": "Daily HH spot peak in late December 2000",
+        "monthly_peak": 8.90,
+        "monthly_peak_period": "Dec 2000 monthly average"
+      },
+      "magnitude_of_change": {
+        "dollars": 3.88,
+        "percent": 77.3,
+        "direction": "UP"
+      },
+      "duration_to_reversion": {
+        "months": 8,
+        "reversion_date": "2001-07",
+        "reversion_price": 3.11,
+        "note": "Prices overshot to the downside, falling to $3.11 by July 2001, well below pre-spike levels. 9/11 and recession further pressured prices."
+      },
+      "context": "Tight gas supply, cold winter, and California's electricity deregulation crisis all converged. California citygate prices hit $12.64/MMBtu in January 2001. This was the first major modern HH price spike above $10/MMBtu."
+    }
+  ],
+
+  "negative_shocks": [
+    {
+      "event_id": "NS_01",
+      "event_name": "Shale Revolution Structural Decline",
+      "event_type": "Supply Surge / Structural Shift",
+      "category": "STRUCTURAL",
+      "dates": {
+        "event_start": "2008-07-01",
+        "event_end": "2012-04-30",
+        "trough_price_date": "2012-04 (monthly)"
+      },
+      "hh_price_before_event": {
+        "value": 12.69,
+        "unit": "$/MMBtu",
+        "reference_period": "Jun 2008 monthly average (commodity super-cycle peak)"
+      },
+      "hh_price_at_trough": {
+        "value": 1.95,
+        "unit": "$/MMBtu",
+        "reference_period": "Apr 2012 monthly average",
+        "daily_trough": 1.82,
+        "daily_trough_date": "April 19, 2012"
+      },
+      "magnitude_of_change": {
+        "dollars": -10.74,
+        "percent": -84.6,
+        "direction": "DOWN"
+      },
+      "duration_to_reversion": {
+        "months": "NEVER",
+        "note": "This was a permanent structural shift. HH has NEVER returned to the $8-13 range that prevailed in 2005-2008. The post-shale 'normal' became $2-5/MMBtu. As of 2025, average HH is ~$3-4/MMBtu."
+      },
+      "phases": [
+        {
+          "phase": "Financial Crisis Crash",
+          "period": "Jul 2008 - Dec 2008",
+          "from": 12.69,
+          "to": 5.82,
+          "change_pct": -54.1,
+          "duration_months": 6,
+          "driver": "Global financial crisis, Lehman collapse, demand destruction"
+        },
+        {
+          "phase": "Brief Recovery",
+          "period": "Jan 2009 - Jan 2010",
+          "from": 5.82,
+          "to": 5.83,
+          "change_pct": 0.2,
+          "duration_months": 12,
+          "driver": "Partial demand recovery, some production curtailment"
+        },
+        {
+          "phase": "Shale Supply Wave",
+          "period": "Feb 2010 - Apr 2012",
+          "from": 5.32,
+          "to": 1.95,
+          "change_pct": -63.3,
+          "duration_months": 26,
+          "driver": "Marcellus, Haynesville, Eagle Ford, Barnett all ramping simultaneously. US dry gas production grew from 57 Bcf/d to 66 Bcf/d."
+        }
+      ],
+      "context": "The shale revolution is the single most important structural event in US gas market history. Horizontal drilling + hydraulic fracturing unlocked vast new supply. US dry gas production rose from ~52 Bcf/d in 2007 to 100+ Bcf/d by 2023. This permanently changed the supply curve and eliminated the scarcity premium that had characterized the 2003-2008 era. The era_price_statistics show: Era 4 (Early Shale, 2003-2008) had mean HH of $7.99; Era 5 (Shale Dominance, 2009-2015) dropped to $3.67."
+    },
+
+    {
+      "event_id": "NS_02",
+      "event_name": "Warmest Winter on Record (2011-2012)",
+      "event_type": "Demand Destruction / Weather",
+      "category": "WEATHER",
+      "dates": {
+        "event_start": "2011-12-01",
+        "event_end": "2012-04-30",
+        "trough_price_date": "2012-04 (monthly)"
+      },
+      "hh_price_before_event": {
+        "value": 3.57,
+        "unit": "$/MMBtu",
+        "reference_period": "Oct 2011 monthly average"
+      },
+      "hh_price_at_trough": {
+        "value": 1.95,
+        "unit": "$/MMBtu",
+        "reference_period": "Apr 2012 monthly average",
+        "daily_trough": 1.82,
+        "daily_trough_date": "April 19, 2012"
+      },
+      "magnitude_of_change": {
+        "dollars": -1.62,
+        "percent": -45.4,
+        "direction": "DOWN"
+      },
+      "duration_to_reversion": {
+        "months": 8,
+        "reversion_date": "2012-10",
+        "reversion_price": 3.32,
+        "note": "Prices recovered to the $3.30 range by October 2012 as summer cooling demand and coal-to-gas switching absorbed excess supply."
+      },
+      "context": "The 2011-2012 winter was the warmest on record in the US (until 2023-2024). Heating degree days were 20% below normal. This crashed heating demand precisely when shale production was still growing rapidly, creating a massive supply surplus. HH hit $1.95 in April 2012 -- the lowest monthly average since 1999. Working gas storage was 54% above the 5-year average. Coal-to-gas switching at these prices eventually helped rebalance the market."
+    },
+
+    {
+      "event_id": "NS_03",
+      "event_name": "2015-2016 Gas Glut (Warm Winters + Overproduction)",
+      "event_type": "Supply Surplus / Weather",
+      "category": "STRUCTURAL",
+      "dates": {
+        "event_start": "2015-07-01",
+        "event_end": "2016-03-31",
+        "trough_price_date": "2016-03 (monthly)"
+      },
+      "hh_price_before_event": {
+        "value": 2.84,
+        "unit": "$/MMBtu",
+        "reference_period": "Jul 2015 monthly average"
+      },
+      "hh_price_at_trough": {
+        "value": 1.73,
+        "unit": "$/MMBtu",
+        "reference_period": "Mar 2016 monthly average",
+        "daily_trough": 1.49,
+        "daily_trough_date": "early March 2016"
+      },
+      "magnitude_of_change": {
+        "dollars": -1.11,
+        "percent": -39.1,
+        "direction": "DOWN"
+      },
+      "duration_to_reversion": {
+        "months": 5,
+        "reversion_date": "2016-07",
+        "reversion_price": 2.82,
+        "note": "Summer 2016 cooling demand and production curtailments brought prices back to the ~$2.80 range by July 2016."
+      },
+      "context": "Record warm 2015-2016 winter (El Nino year). HDDs 15% below normal. Meanwhile, Appalachian (Marcellus/Utica) production continued growing. Storage hit record highs. Gas rig count fell from 200+ to under 100 but production kept growing due to efficiency gains. Daily spot briefly dipped below $1.50, testing the absolute floor set by production shut-in economics."
+    },
+
+    {
+      "event_id": "NS_04",
+      "event_name": "2019-2020 Storage Surplus / Associated Gas Glut",
+      "event_type": "Supply Surplus",
+      "category": "STRUCTURAL",
+      "dates": {
+        "event_start": "2019-05-01",
+        "event_end": "2020-06-30",
+        "trough_price_date": "2020-06 (monthly)"
+      },
+      "hh_price_before_event": {
+        "value": 2.64,
+        "unit": "$/MMBtu",
+        "reference_period": "May 2019 monthly average"
+      },
+      "hh_price_at_trough": {
+        "value": 1.63,
+        "unit": "$/MMBtu",
+        "reference_period": "Jun 2020 monthly average",
+        "note": "This includes the compounding effect of COVID-19. Pre-COVID trough was ~$1.75 in May 2020."
+      },
+      "magnitude_of_change": {
+        "dollars": -1.01,
+        "percent": -38.3,
+        "direction": "DOWN"
+      },
+      "duration_to_reversion": {
+        "months": 16,
+        "reversion_date": "2021-05",
+        "reversion_price": 2.91,
+        "note": "Prices didn't consistently hold above $2.60 until mid-2021, when LNG export demand and post-COVID recovery finally tightened the market."
+      },
+      "context": "Associated gas from Permian Basin oil drilling flooded the market. Gas rig count dropped but total gas production kept rising because oil-focused drilling produced large volumes of 'free' associated gas. The Permian alone added 3-4 Bcf/d of associated gas from 2018-2020. Pipeline takeaway constraints in the Permian caused Waha hub prices to go negative periodically."
+    },
+
+    {
+      "event_id": "NS_05",
+      "event_name": "COVID-19 Demand Destruction",
+      "event_type": "Pandemic / Demand Destruction",
+      "category": "MACRO_ECONOMIC",
+      "dates": {
+        "event_start": "2020-03-01",
+        "event_end": "2020-09-30",
+        "trough_price_date": "2020-06 (monthly)"
+      },
+      "hh_price_before_event": {
+        "value": 1.91,
+        "unit": "$/MMBtu",
+        "reference_period": "Feb 2020 monthly average (already depressed by storage surplus)"
+      },
+      "hh_price_at_trough": {
+        "value": 1.63,
+        "unit": "$/MMBtu",
+        "reference_period": "Jun 2020 monthly average",
+        "daily_trough": 1.44,
+        "daily_trough_date": "late June 2020"
+      },
+      "magnitude_of_change": {
+        "dollars": -0.28,
+        "percent": -14.7,
+        "direction": "DOWN",
+        "from_pre_covid_normal": {
+          "baseline": 2.65,
+          "note": "If we use Nov 2019 ($2.65) as the pre-COVID baseline",
+          "dollars": -1.02,
+          "percent": -38.5
+        }
+      },
+      "duration_to_reversion": {
+        "months": 9,
+        "reversion_date": "2020-11",
+        "reversion_price": 2.61,
+        "note": "From the Nov 2019 baseline of $2.65, prices returned to $2.61 by Nov 2020. Recovery was aided by production curtailments as gas rig count fell to record lows."
+      },
+      "context": "COVID lockdowns reduced commercial/industrial gas demand by ~5-10%. Power sector demand held up better because electricity demand dropped less (~3-5%) and gas gained share from coal due to low prices. WTI oil famously went negative (-$37.63) on April 20, 2020, but HH never went negative at the hub level (though Waha basis went negative). The gas impact was smaller than oil because: (1) residential heating demand was weather-dependent, not economy-dependent, (2) gas was already cheap so coal-to-gas switching absorbed some surplus, (3) LNG export cancellations were offset by lower associated gas production as oil rigs dropped."
+    },
+
+    {
+      "event_id": "NS_06",
+      "event_name": "Post-2022 Crisis Collapse / Freeport LNG Effect",
+      "event_type": "Demand Loss / Structural Correction",
+      "category": "STRUCTURAL",
+      "dates": {
+        "event_start": "2022-09-01",
+        "event_end": "2023-06-30",
+        "trough_price_date": "2023-05 (monthly)"
+      },
+      "hh_price_before_event": {
+        "value": 8.81,
+        "unit": "$/MMBtu",
+        "reference_period": "Aug 2022 monthly average (peak of 2022 crisis)"
+      },
+      "hh_price_at_trough": {
+        "value": 2.15,
+        "unit": "$/MMBtu",
+        "reference_period": "May 2023 monthly average"
+      },
+      "magnitude_of_change": {
+        "dollars": -6.66,
+        "percent": -75.6,
+        "direction": "DOWN"
+      },
+      "duration_to_reversion": {
+        "months": "N/A (structural correction)",
+        "note": "This was a correction from an abnormally elevated level back to structural fair value (~$2-3/MMBtu in the shale era). Prices settled into the $2-3 range through 2023-2024."
+      },
+      "phases": [
+        {
+          "phase": "Freeport Explosion + European Demand Response",
+          "period": "Jun 2022 - Dec 2022",
+          "from": 8.81,
+          "to": 5.53,
+          "change_pct": -37.2,
+          "driver": "Freeport LNG offline reduced 2.1 Bcf/d of export demand. Europe filled storage faster than expected. Warm European winter."
+        },
+        {
+          "phase": "Capitulation Crash",
+          "period": "Jan 2023 - Apr 2023",
+          "from": 5.53,
+          "to": 2.16,
+          "change_pct": -60.9,
+          "driver": "Warm US winter 2022-23, European crisis premium fully unwound, US storage above average, production at record highs."
+        }
+      ],
+      "context": "The unwinding of the 2022 geopolitical premium was one of the fastest large-scale price declines in HH history. Contributing factors: (1) Freeport LNG explosion on June 8, 2022 trapped 2.1 Bcf/d of gas domestically for 8+ months, (2) Europe successfully filled storage to 95%+ before winter, (3) Warm winters on both sides of Atlantic, (4) US gas production hit new records above 100 Bcf/d."
+    },
+
+    {
+      "event_id": "NS_07",
+      "event_name": "2024 Supply Glut",
+      "event_type": "Supply Surplus / Warm Weather",
+      "category": "STRUCTURAL",
+      "dates": {
+        "event_start": "2024-01-01",
+        "event_end": "2024-08-31",
+        "trough_price_date": "2024-03 (monthly)"
+      },
+      "hh_price_before_event": {
+        "value": 2.52,
+        "unit": "$/MMBtu",
+        "reference_period": "Dec 2023 monthly average"
+      },
+      "hh_price_at_trough": {
+        "value": 1.49,
+        "unit": "$/MMBtu",
+        "reference_period": "Mar 2024 monthly average",
+        "note": "This was the lowest monthly HH average since the 2020 COVID trough."
+      },
+      "magnitude_of_change": {
+        "dollars": -1.03,
+        "percent": -40.9,
+        "direction": "DOWN"
+      },
+      "duration_to_reversion": {
+        "months": 9,
+        "reversion_date": "2024-12",
+        "reversion_price": 3.01,
+        "note": "Prices recovered above $2.50 by late 2024, aided by production curtailments (EQT, Chesapeake, others announced cuts) and growing LNG export demand."
+      },
+      "context": "Warmest winter on record (2023-2024) combined with production at 104+ Bcf/d. Working gas storage was 20%+ above 5-year average entering spring. Multiple E&Ps announced voluntary production curtailments. HH daily spot briefly dipped below $1.50. This tested the absolute floor of US gas economics."
+    }
+  ],
+
+  "asymmetry_analysis": {
+    "summary": "Positive shocks are SHARPER and FASTER but SHORTER in duration. Negative shocks are SLOWER but DEEPER and LONGER-LASTING (or PERMANENT in the case of structural shifts).",
+    "positive_shock_characteristics": {
+      "typical_magnitude_pct": "50-800% (daily spot)",
+      "typical_duration_days": "7-180",
+      "mean_reversion_months": "1-10",
+      "key_finding": "Positive shocks spike violently (especially weather events) but revert quickly. Uri: +780% in 7 days, reverted in 1 month. Katrina/Rita: +76% over 2 months, reverted in 10 months. Even the 2022 Russia-Ukraine crisis (+134%) largely reverted in 10-16 months."
+    },
+    "negative_shock_characteristics": {
+      "typical_magnitude_pct": "-15% to -85%",
+      "typical_duration_months": "5-48 (or permanent)",
+      "key_finding": "Negative shocks are slower to develop but can be permanent. The shale revolution created an 85% decline that NEVER reverted. Even cyclical troughs (2012, 2016, 2020, 2024) take 5-16 months to recover from. COVID had a relatively small gas impact (-15 to -39%) but recovery was slow (9 months)."
+    },
+    "quantified_asymmetry": {
+      "largest_positive_daily_move": {
+        "event": "Winter Storm Uri",
+        "magnitude_pct": 780,
+        "duration_to_reversion_months": 1
+      },
+      "largest_negative_structural_move": {
+        "event": "Shale Revolution",
+        "magnitude_pct": -85,
+        "duration_to_reversion_months": "PERMANENT"
+      },
+      "mean_positive_shock_magnitude_pct": 92.7,
+      "mean_positive_shock_reversion_months": 3.8,
+      "mean_negative_shock_magnitude_pct": -42.5,
+      "mean_negative_shock_reversion_months": 9.5,
+      "ratio_magnitude": "Positive shocks are ~2.2x larger in percentage terms",
+      "ratio_duration": "Negative shocks take ~2.5x longer to revert (excluding permanent structural shifts)",
+      "volatility_skewness": "The HH price distribution is strongly right-skewed (positive skew). Extreme upward moves ($5-20 above mean) occur on short timescales. Extreme downward moves are bounded by production economics floor (~$1.50-2.00)."
+    },
+    "floor_ceiling_asymmetry": {
+      "effective_price_floor": {
+        "value": 1.50,
+        "unit": "$/MMBtu",
+        "driver": "Marginal cost of production shut-in. Below ~$1.50, producers curtail enough volume to support prices. Tested in 2012, 2016, 2020, and 2024."
+      },
+      "effective_price_ceiling": {
+        "value": "Effectively unlimited for daily spot",
+        "note": "Daily spot has reached $23.86 at HH and $224 at regional hubs. Electricity prices during Uri hit $9,000/MWh. There is no comparable hard ceiling. This fundamental asymmetry (hard floor, no ceiling) drives the positive skewness."
+      }
+    },
+    "implications_for_modeling": {
+      "garch_findings": "The project's GARCH(1,1) model shows persistence of 0.98 and annualized unconditional volatility of ~98%. Half-life of volatility shocks is 1.6 months. January volatility ratio is 2.15x (highest month), while July is 0.51x (lowest). This confirms the seasonal asymmetry in volatility.",
+      "monte_carlo_implications": "Fat-tailed distributions (Student-t or jump-diffusion) are essential for capturing the positive tail. Normal distributions massively underestimate the probability of events like Uri, Katrina, or the 2022 crisis.",
+      "regression_implications": "Uri is excluded from all regressions in the project (Cook's D > 500). The 2022 Russia-Ukraine event is included but with dummy variables. Asymmetric shock modeling (separate coefficients for positive vs negative deviations) would improve specification."
+    }
+  },
+
+  "chronological_price_reference": {
+    "description": "Key monthly HH spot prices from decarbiq_monthly_gas_prices.csv for context",
+    "all_time_monthly_high": {"value": 13.42, "date": "Oct 2005", "event": "Post-Katrina/Rita"},
+    "all_time_monthly_low": {"value": 1.49, "date": "Mar 2024", "event": "2024 supply glut"},
+    "all_time_daily_high_hh": {"value": 23.86, "date": "Feb 17, 2021", "event": "Winter Storm Uri"},
+    "all_time_regional_high": {"value": 224.00, "date": "Feb 17, 2021", "event": "PEPL TX/OK during Uri"},
+    "era_averages": {
+      "early_deregulation_1997_1998": 2.29,
+      "mature_market_1999_2005": 4.51,
+      "early_shale_2003_2008": 7.99,
+      "shale_dominance_2009_2015": 3.67,
+      "lng_era_2016_2019": 2.78,
+      "covid_era_2020_2022": 4.00,
+      "ira_era_2023_present": 2.90
+    }
+  }
+}
