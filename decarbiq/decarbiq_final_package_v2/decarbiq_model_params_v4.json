@@ -86,23 +86,24 @@
   "caiso": {
     "multivariate": {
       "coefficients": {
-        "intercept": 79.16741592124242,
-        "henry_hub_spot": 10.7440294692822,
-        "is_summer": 0.2687734005526092,
-        "is_winter": 8.435319825435677,
-        "ca_gdp_growth_pct": -1.8383492148724232,
-        "ca_wind_gen_pct": 0.398350719434743,
-        "queue_backlog_gw": 0.02115423451880183,
-        "n_rps_states": -10.964440144341626
+        "intercept": 70.62898990657301,
+        "california_citygate": 9.506222630497522,
+        "is_summer": 0.598452838719064,
+        "is_winter": -2.4984622552577473,
+        "ca_gdp_growth_pct": -1.4400373406125553,
+        "ca_wind_gen_pct": -0.9834205444012365,
+        "ca_storage_mandate": 17.92323273501019,
+        "n_rps_states": -8.120751176041837
       },
-      "r_squared": 0.33793124831653776,
+      "r_squared": 0.48342314862365,
       "includes_demand_drivers": true,
       "includes_policy_variables": true,
       "policy_variables": [
-        "queue_backlog_gw",
+        "ca_storage_mandate",
         "n_rps_states"
       ],
       "demand_driver_variables": [
+        "california_citygate",
         "ca_gdp_growth_pct",
         "ca_wind_gen_pct"
       ]
@@ -147,6 +148,6 @@
       "11": 10.674679255530428,
       "12": 4.240390843782755
     },
-    "residual_std": 32.5131211402433
+    "residual_std": 28.719348740896393
   }
 }

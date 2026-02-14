@@ -24,27 +24,27 @@
       "ercot_price_cap_mwh": 0.0
     },
     "caiso": {
-      "caiso_scarcity_hours": -0.473,
-      "caiso_eea_events": -0.473,
-      "ca_solar_cf_variability_cv": -0.2367,
-      "battery_stationary_price_kwh": -0.2246,
-      "ca_solar_cf_annual_avg": 0.2022,
-      "ercot_ordc_adder_max_mwh": 0.1235,
-      "ercot_curtailment_gwh": -0.1164,
-      "tx_wind_cf_variability_cv": -0.1059,
-      "caiso_spinningreserve_price": 0.0914,
-      "caiso_regulationup_price": 0.08,
-      "ercot_responsivereserve_price": 0.0735,
-      "ercot_regulationup_price": 0.0728,
-      "battery_pack_price_kwh": -0.0419,
-      "ercot_price_cap_mwh": 0.038,
-      "ercot_negative_hours_annual": -0.0266,
-      "ercot_scarcity_revenue_million": 0.0227,
-      "ercot_eea_events": 0.0214,
-      "caiso_curtailment_gwh": 0.0126,
-      "us_ev_peak_demand_increase_gw": -0.0092,
-      "us_ev_annual_charging_twh": -0.0055,
-      "tx_wind_cf_annual_avg": -0.0042
+      "caiso_scarcity_hours": -0.3599,
+      "caiso_eea_events": -0.3599,
+      "ca_solar_cf_variability_cv": -0.2608,
+      "ca_solar_cf_annual_avg": 0.1982,
+      "battery_stationary_price_kwh": -0.1905,
+      "ercot_negative_hours_annual": -0.1299,
+      "caiso_regulationup_price": 0.107,
+      "ercot_ordc_adder_max_mwh": 0.1057,
+      "tx_wind_cf_variability_cv": -0.104,
+      "ercot_curtailment_gwh": -0.0976,
+      "us_ev_peak_demand_increase_gw": -0.0934,
+      "us_ev_annual_charging_twh": -0.0905,
+      "caiso_spinningreserve_price": 0.0891,
+      "battery_pack_price_kwh": 0.0782,
+      "caiso_curtailment_gwh": -0.0672,
+      "ercot_regulationup_price": 0.0292,
+      "ercot_responsivereserve_price": 0.0264,
+      "ercot_price_cap_mwh": 0.02,
+      "tx_wind_cf_annual_avg": -0.0149,
+      "ercot_scarcity_revenue_million": -0.0055,
+      "ercot_eea_events": 0.0035
     },
     "hh": {
       "tx_wind_cf_annual_avg": 0.2765,
@@ -110,40 +110,40 @@
     "caiso": {
       "first_half": {
         "coefficients": {
-          "intercept": -0.0020904181998335773,
-          "henry_hub_spot": 6.6788115717297165,
-          "ca_hdd": 0.014945320033881826,
-          "ca_cdd": 0.058120868722462915,
-          "ca_caiso_demand_twh": 0.0764533625428927,
-          "ca_wind_gen_pct": -1.7642910015022495,
-          "caiso_total_curtail_gwh": 0.0008651102132057886,
-          "caiso_monthly_negative_hours": 2.3796014633870044e-05,
-          "caiso_monthly_congestion_avg": 0.021928568564483684,
-          "itc_rate_pct": -0.06271254599501844,
-          "ca_rps_target_pct": -0.20904181998319388,
-          "ca_allowance_price_per_ton": 1.3147564564173866,
-          "n_rps_states": -0.018813763798502733
+          "intercept": 0.0027641034543022824,
+          "california_citygate": 2.545798324478232,
+          "ca_hdd": 0.009717696871585413,
+          "ca_cdd": 0.02238978752829654,
+          "ca_gdp_growth_pct": 0.5689264733177432,
+          "ca_wind_gen_pct": -1.7443887512466487,
+          "caiso_total_curtail_gwh": -0.002051188143840754,
+          "caiso_monthly_negative_hours": 0.0019045253458591649,
+          "caiso_monthly_congestion_avg": 0.8430458058828987,
+          "itc_rate_pct": 0.082923103629064,
+          "ptc_rate_cents_kwh": -0.02685104998523255,
+          "ca_rps_target_pct": 0.27641034543026566,
+          "n_rps_states": 0.024876931088723676
         },
-        "r_squared": 0.6422400658285161,
+        "r_squared": 0.5691569945009639,
         "n": 38
       },
       "second_half": {
         "coefficients": {
-          "intercept": -0.04085890237417066,
-          "henry_hub_spot": 5.296738908626858,
-          "ca_hdd": 0.04936835059625111,
-          "ca_cdd": 0.12746977832990028,
-          "ca_caiso_demand_twh": 2.2817476130994545,
-          "ca_wind_gen_pct": 1.0618479576848325,
-          "caiso_total_curtail_gwh": -0.00046478774920188926,
-          "caiso_monthly_negative_hours": -0.00816700682294047,
-          "caiso_monthly_congestion_avg": 1.2907823589203173,
-          "itc_rate_pct": -1.2257670712251763,
-          "ca_rps_target_pct": -4.085890237417269,
-          "n_rps_states": -0.3677301213675502,
-          "ca_dc_x_solar": -0.27379674364572143
+          "intercept": 0.010917003208356488,
+          "california_citygate": 4.064126314373461,
+          "ca_hdd": 0.013503101552459151,
+          "ca_cdd": 0.10690405990279256,
+          "ca_gdp_growth_pct": -0.0007919545930360483,
+          "ca_caiso_demand_twh": -0.44660129520119335,
+          "ca_wind_gen_pct": -3.2894184770849013,
+          "caiso_total_curtail_gwh": 0.0008346561987977452,
+          "caiso_monthly_negative_hours": -0.0017328032581649389,
+          "caiso_monthly_congestion_avg": 1.5864391232547772,
+          "itc_rate_pct": 0.32751009625070465,
+          "ca_rps_target_pct": 1.091700320835681,
+          "n_rps_states": 0.09825302887521146
         },
-        "r_squared": 0.7065142950854499,
+        "r_squared": 0.7997619242449838,
         "n": 38
       }
     },
@@ -266,14 +266,16 @@
     "ercot": {
       "coefficient": 6.043810041895818,
       "p_value": 0.0,
-      "variant": "ercot_D"
+      "variant": "ercot_D",
+      "gas_variable": "henry_hub_spot"
     },
     "caiso": {
-      "coefficient": 4.975710084024701,
-      "p_value": 0.001212983990386718,
-      "variant": "caiso_D"
+      "coefficient": 3.8506363380020368,
+      "p_value": 2.5565793926318747e-10,
+      "variant": "caiso_A",
+      "gas_variable": "california_citygate"
     },
-    "ratio": 1.21,
+    "ratio": 1.57,
     "literature_range": [
       7,
       9
@@ -331,44 +333,44 @@
     },
     "gas_forecasts": {
       "2026": {
-        "p50": 3.65,
-        "mean": 4.07,
+        "p50": 3.45,
+        "mean": 4.3,
         "consensus_low": 2.8,
         "consensus_mid": 3.3,
         "consensus_high": 4.0,
         "status": "PASS"
       },
       "2027": {
-        "p50": 4.07,
-        "mean": 4.75,
+        "p50": 4.3,
+        "mean": 6.2,
         "consensus_low": 2.9,
         "consensus_mid": 3.45,
         "consensus_high": 4.2,
-        "status": "PASS"
+        "status": "HIGH"
       },
       "2028": {
-        "p50": 4.15,
-        "mean": 4.87,
+        "p50": 4.74,
+        "mean": 6.69,
         "consensus_low": 3.0,
         "consensus_mid": 3.55,
         "consensus_high": 4.4,
-        "status": "PASS"
+        "status": "HIGH"
       },
       "2029": {
-        "p50": 4.45,
-        "mean": 5.18,
+        "p50": 5.25,
+        "mean": 7.12,
         "consensus_low": 3.1,
         "consensus_mid": 3.7,
         "consensus_high": 4.6,
-        "status": "PASS"
+        "status": "HIGH"
       },
       "2030": {
-        "p50": 4.73,
-        "mean": 5.43,
+        "p50": 5.52,
+        "mean": 7.37,
         "consensus_low": 3.2,
         "consensus_mid": 3.85,
         "consensus_high": 4.8,
-        "status": "PASS"
+        "status": "HIGH"
       }
     },
     "gas_passthrough": {
@@ -381,12 +383,12 @@
         "status": "PASS"
       },
       "caiso": {
-        "coefficient": 4.975710084024701,
+        "coefficient": 3.8506363380020368,
         "range": [
           7.0,
           9.0
         ],
-        "status": "PASS"
+        "status": "OUTSIDE"
       }
     },
     "event_probabilities": {
@@ -442,10 +444,11 @@
     "production_floor": {
       "floor_mid": 2.0,
       "violations": [
-        "2027: P10=$1.75",
-        "2028: P10=$1.75",
-        "2029: P10=$1.81",
-        "2030: P10=$1.82"
+        "2026: P10=$1.99",
+        "2027: P10=$1.64",
+        "2028: P10=$1.65",
+        "2029: P10=$1.70",
+        "2030: P10=$1.69"
       ]
     }
   }

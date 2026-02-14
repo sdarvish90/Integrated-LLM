@@ -2,7 +2,7 @@
   "metadata": {
     "name": "DecarbIQ Energy Price Relationship Model",
     "version": "auto",
-    "created": "2026-02-13",
+    "created": "2026-02-14",
     "description": "Auto-generated from pipeline regression results",
     "regression_models": {
       "ercot_full": {
@@ -18,8 +18,8 @@
         "k": 9
       },
       "caiso_full": {
-        "r2": 0.3379,
-        "adj_r2": 0.3114,
+        "r2": 0.4834,
+        "adj_r2": 0.4628,
         "n": 183,
         "k": 8
       }
@@ -123,28 +123,28 @@
         }
       },
       "CA_CAISO": {
-        "gas_passthrough": 10.74,
-        "gas_p_value": 0.0,
+        "gas_passthrough": 9.51,
+        "gas_p_value": null,
         "stats": {
-          "r2": 0.3379,
-          "adj_r2": 0.3114,
+          "r2": 0.4834,
+          "adj_r2": 0.4628,
           "n": 183,
           "k": 8
         },
         "significant_vars": [
-          "henry_hub_spot",
+          "california_citygate",
           "ca_gdp_growth_pct",
-          "queue_backlog_gw",
+          "ca_storage_mandate",
           "n_rps_states"
         ],
         "all_coefficients": {
-          "henry_hub_spot": 10.744,
-          "is_summer": 0.2688,
-          "is_winter": 8.4353,
-          "ca_gdp_growth_pct": -1.8383,
-          "ca_wind_gen_pct": 0.3984,
-          "queue_backlog_gw": 0.0212,
-          "n_rps_states": -10.9644
+          "california_citygate": 9.5062,
+          "is_summer": 0.5985,
+          "is_winter": -2.4985,
+          "ca_gdp_growth_pct": -1.44,
+          "ca_wind_gen_pct": -0.9834,
+          "ca_storage_mandate": 17.9232,
+          "n_rps_states": -8.1208
         }
       }
     }
@@ -278,31 +278,31 @@
       "model": "ERCOT_Full"
     },
     {
-      "from": "henry_hub_spot",
+      "from": "california_citygate",
       "to": "CA_CAISO",
-      "coefficient": 10.744,
-      "p_value": 0.0,
+      "coefficient": 9.5062,
+      "p_value": null,
       "model": "CAISO_Full"
     },
     {
       "from": "ca_gdp_growth_pct",
       "to": "CA_CAISO",
-      "coefficient": -1.8383,
-      "p_value": 0.026122,
+      "coefficient": -1.44,
+      "p_value": 0.042644,
       "model": "CAISO_Full"
     },
     {
-      "from": "queue_backlog_gw",
+      "from": "ca_storage_mandate",
       "to": "CA_CAISO",
-      "coefficient": 0.0212,
-      "p_value": 8e-06,
+      "coefficient": 17.9232,
+      "p_value": 0.022887,
       "model": "CAISO_Full"
     },
     {
       "from": "n_rps_states",
       "to": "CA_CAISO",
-      "coefficient": -10.9644,
-      "p_value": 1e-06,
+      "coefficient": -8.1208,
+      "p_value": 1.1e-05,
       "model": "CAISO_Full"
     },
     {
@@ -316,8 +316,8 @@
     {
       "from": "natural_gas_price",
       "to": "CA_CAISO",
-      "coefficient": 10.74,
-      "p_value": 0.0,
+      "coefficient": 9.51,
+      "p_value": null,
       "model": "CAISO_Full"
     }
   ]

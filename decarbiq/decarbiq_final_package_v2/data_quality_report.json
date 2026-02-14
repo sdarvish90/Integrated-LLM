@@ -4118,5 +4118,115 @@
     "dtype": "float64",
     "is_constant": false,
     "suspected_backfill": false
+  },
+  "ercot_regime": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "object",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "caiso_regime": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "object",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "is_ng_crisis": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "is_elec_crisis": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "is_caiso_heat_crisis": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "is_caiso_drought": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "int64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "scarcity_pct": {
+    "coverage_start": "2005-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 192,
+    "n_total": 336,
+    "missing_pct": 42.9,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
+  },
+  "ca_hydro_vs_normal_pct": {
+    "coverage_start": "2000-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 300,
+    "n_total": 336,
+    "missing_pct": 10.7,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ca_drought_severity_score": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "ca_reservoir_pct": {
+    "coverage_start": "2000-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 300,
+    "n_total": 336,
+    "missing_pct": 10.7,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": true
+  },
+  "california_basis": {
+    "coverage_start": "1997-01-01 00:00:00",
+    "coverage_end": "2024-12-01 00:00:00",
+    "n_valid": 336,
+    "n_total": 336,
+    "missing_pct": 0.0,
+    "dtype": "float64",
+    "is_constant": false,
+    "suspected_backfill": false
   }
 }

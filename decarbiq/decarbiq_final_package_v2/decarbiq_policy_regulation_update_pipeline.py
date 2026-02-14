@@ -100,6 +100,13 @@ BATTERY_CAPACITY_CSV = os.path.join(BASE, "renewable_penetration", "battery_stor
 GAS_STORAGE_CSV = os.path.join(BASE, "generation_mix_and_capacity", "gas_storage_weekly.csv")
 CAISO_DAILY_DIR = os.path.join(BASE, "generation_mix_and_capacity", "caiso_daily_data")
 
+# Regime classification & hydro/basis data
+DISRUPTIONS_CSV = os.path.join(BASE, "geopolitical_and_macro", "geopolitical_macro_disruptions.csv")
+GRID_STRESS_CSV = os.path.join(BASE, "weather_climate", "major_grid_stress_events.csv")
+DROUGHT_CSV = os.path.join(BASE, "weather_climate", "drought_wildfire_grid_impacts.csv")
+RESERVOIR_CSV = os.path.join(BASE, "generation_mix_and_capacity", "reservoir_levels_database.csv")
+GAS_PRICES_CSV = os.path.join(BASE, "fuel_costs_and_supply", "decarbiq_monthly_gas_prices.csv")
+
 # Step 13 — Enhanced regression outputs
 MASTER_V8 = os.path.join(BASE, "master_regression_dataset_v8.csv")
 REG_DIAGNOSTICS = os.path.join(BASE, "regression_diagnostics_v2.json")
@@ -516,6 +523,7 @@ def step2_regression(master):
     # ---- ERCOT Wholesale Price Model ----
     print("\n  --- ERCOT Wholesale Price Model + Policy Variables ---")
     ercot_base_cols = ["henry_hub_spot", "is_summer", "is_winter"]
+    caiso_base_cols = ["california_citygate", "is_summer", "is_winter"]
 
     # Policy variable candidates for ERCOT
     # NOTE: Binary dummies (ira_active, ptc_active, tx_crez_active) removed —
@@ -575,7 +583,7 @@ def step2_regression(master):
     # ---- CAISO Wholesale Price Model ----
     print("\n  --- CAISO Wholesale Price Model + Policy Variables ---")
     caiso_col = "caiso_wholesale_mwh" if "caiso_wholesale_mwh" in master.columns else "caiso_wholesale_historical_mwh"
-    caiso_df = master.dropna(subset=[caiso_col, "henry_hub_spot"]).copy()
+    caiso_df = master.dropna(subset=[caiso_col, "california_citygate"]).copy()
     # Exclude Feb 2021 (Uri) — gas price spike distorts passthrough across all markets
     caiso_df, uri_n_c = _exclude_uri(caiso_df)
     if uri_n_c > 0:
@@ -604,11 +612,11 @@ def step2_regression(master):
 
     if len(caiso_df) >= 20:
         results["caiso_baseline"] = _ols(
-            _make_X(caiso_df, ercot_base_cols), y_caiso, "CAISO_Baseline")
+            _make_X(caiso_df, caiso_base_cols), y_caiso, "CAISO_Baseline")
 
         pol_avail_c = [c for c in pol_candidates_caiso if c in caiso_df.columns and caiso_df[c].notna().sum() > 20]
         if pol_avail_c:
-            X_pol_c = _make_X(caiso_df, ercot_base_cols + pol_avail_c)
+            X_pol_c = _make_X(caiso_df, caiso_base_cols + pol_avail_c)
             X_pol_c, dropped_pol_c = _prune_by_vif(X_pol_c, y_caiso, threshold=10)
             results["caiso_policy"] = _ols(X_pol_c, y_caiso, "CAISO_Policy")
 
@@ -616,7 +624,7 @@ def step2_regression(master):
         gm_avail_c = [c for c in gm_cols_caiso if c in caiso_df.columns and caiso_df[c].notna().sum() > 20]
         full_avail_c = dd_avail_c + gm_avail_c + pol_avail_c
         if full_avail_c:
-            X_full_c = _make_X(caiso_df, ercot_base_cols + full_avail_c)
+            X_full_c = _make_X(caiso_df, caiso_base_cols + full_avail_c)
             X_full_c, dropped_full_c = _prune_by_vif(X_full_c, y_caiso, threshold=10)
             results["caiso_full"] = _ols(X_full_c, y_caiso, "CAISO_Full")
             results["caiso_residuals"] = results["caiso_full"]["residuals"]
@@ -2399,6 +2407,200 @@ def step1b_enhance_master(master):
         print(f"    Created {break_interactions} structural break interaction terms")
 
     # ------------------------------------------------------------------
+    # 1I. Regime Classification (Event-Based)
+    # ------------------------------------------------------------------
+    print("\n  --- 1I. Regime Classification (Event-Based) ---")
+
+    # Initialize regime columns
+    master["ercot_regime"] = "normal"
+    master["caiso_regime"] = "normal"
+    master["is_ng_crisis"] = 0
+    master["is_elec_crisis"] = 0
+    master["is_caiso_heat_crisis"] = 0
+    master["is_caiso_drought"] = 0
+
+    # --- ERCOT NG-crisis: disruptions with gas_price_impact >= 1.5 ---
+    ng_crisis_months = set()  # (year, month) tuples
+    ng_crisis_events = []
+    if os.path.exists(DISRUPTIONS_CSV):
+        df_disrupt = pd.read_csv(DISRUPTIONS_CSV)
+        high_impact = df_disrupt[df_disrupt["gas_price_impact"] >= 1.5].copy()
+        for _, row in high_impact.iterrows():
+            ev_start = pd.to_datetime(row["date"], errors="coerce")
+            ev_end_raw = row.get("end_date")
+            ev_end = pd.to_datetime(ev_end_raw, errors="coerce") if pd.notna(ev_end_raw) else None
+            if pd.isna(ev_start):
+                continue
+            if ev_end is None or pd.isna(ev_end):
+                ev_end = ev_start
+            # All months this event covers
+            current = ev_start.replace(day=1)
+            end_month = ev_end.replace(day=1)
+            while current <= end_month:
+                ng_crisis_months.add((current.year, current.month))
+                current += pd.DateOffset(months=1)
+            ng_crisis_events.append(
+                f"{row['event_name']} ({row['date']} to {ev_end.strftime('%Y-%m-%d')}, "
+                f"impact={row['gas_price_impact']})"
+            )
+        for yr, mo in ng_crisis_months:
+            mask = (master["year"] == yr) & (master["month"] == mo)
+            master.loc[mask, "is_ng_crisis"] = 1
+        print(f"    NG-crisis qualifying events (gas_price_impact >= 1.5): {len(high_impact)}")
+        for ev in ng_crisis_events:
+            print(f"      {ev}")
+        print(f"    NG-crisis months flagged: {master['is_ng_crisis'].sum()}")
+    else:
+        print(f"    WARNING: {DISRUPTIONS_CSV} not found")
+
+    # --- ERCOT Elec-crisis: scarcity_pct > 0.05 ---
+    # scarcity_pct = ercot_scarcity_intensity / ercot_price_cap_mwh
+    # Normalizes for 2022 ORDC reform ($9,000 -> $5,000 VOLL cap)
+    # Threshold 0.05 is set just below the observed minimum of scarcity-priced
+    # months (Groundhog Day Feb 2011 = 0.063)
+    if "ercot_scarcity_intensity" in master.columns and "ercot_price_cap_mwh" in master.columns:
+        master["scarcity_pct"] = (
+            master["ercot_scarcity_intensity"].fillna(0)
+            / master["ercot_price_cap_mwh"].replace(0, np.nan)
+        )
+        master["is_elec_crisis"] = (master["scarcity_pct"] > 0.05).astype(int)
+        n_elec = master["is_elec_crisis"].sum()
+        print(f"    Elec-crisis months (scarcity_pct > 0.05): {n_elec}")
+        if n_elec > 0:
+            elec_rows = master[master["is_elec_crisis"] == 1][
+                ["year", "month", "scarcity_pct", "ercot_scarcity_intensity", "ercot_price_cap_mwh"]
+            ]
+            for _, r in elec_rows.iterrows():
+                print(f"      {int(r['year'])}-{int(r['month']):02d}: "
+                      f"scarcity_pct={r['scarcity_pct']:.3f} "
+                      f"(intensity={r['ercot_scarcity_intensity']:.0f}, "
+                      f"cap={r['ercot_price_cap_mwh']:.0f})")
+    else:
+        print("    WARNING: ercot_scarcity_intensity or ercot_price_cap_mwh not in master")
+
+    # Assign ercot_regime (priority: elec_crisis > ng_crisis > normal)
+    master.loc[master["is_ng_crisis"] == 1, "ercot_regime"] = "ng_crisis"
+    master.loc[master["is_elec_crisis"] == 1, "ercot_regime"] = "elec_crisis"
+    regime_counts = master["ercot_regime"].value_counts()
+    print(f"    ERCOT regime counts: {dict(regime_counts)}")
+
+    # --- CAISO Heat-crisis: grid stress events ---
+    caiso_heat_months = set()
+    caiso_heat_events = []
+    if os.path.exists(GRID_STRESS_CSV):
+        df_stress = pd.read_csv(GRID_STRESS_CSV)
+        caiso_stress = df_stress[
+            df_stress["region"].str.contains("CAISO", case=False, na=False)
+        ]
+        caiso_heat = caiso_stress[
+            (caiso_stress["type"].str.contains("Heat wave", case=False, na=False))
+            | (pd.to_numeric(caiso_stress["capacity_lost_gw"], errors="coerce").fillna(0) > 0)
+        ]
+        for _, row in caiso_heat.iterrows():
+            ev_date = pd.to_datetime(row["date"], errors="coerce")
+            if pd.notna(ev_date):
+                caiso_heat_months.add((ev_date.year, ev_date.month))
+                caiso_heat_events.append(
+                    f"{row['event_name']} ({row['date']}, type={row['type']})"
+                )
+        for yr, mo in caiso_heat_months:
+            mask = (master["year"] == yr) & (master["month"] == mo)
+            master.loc[mask, "is_caiso_heat_crisis"] = 1
+        print(f"    CAISO heat-crisis events: {len(caiso_heat)}")
+        for ev in caiso_heat_events:
+            print(f"      {ev}")
+        print(f"    CAISO heat-crisis months flagged: {master['is_caiso_heat_crisis'].sum()}")
+    else:
+        print(f"    WARNING: {GRID_STRESS_CSV} not found")
+
+    # ------------------------------------------------------------------
+    # 1J. Hydro/Drought Variables
+    # ------------------------------------------------------------------
+    print("\n  --- 1J. Hydro/Drought Variables ---")
+
+    # From drought_wildfire_grid_impacts.csv — California rows
+    if os.path.exists(DROUGHT_CSV):
+        df_drought = pd.read_csv(DROUGHT_CSV)
+        ca_drought = df_drought[df_drought["region"] == "California"].copy()
+
+        # ca_hydro_vs_normal_pct — annual, forward-fill for gaps
+        hydro_map = dict(zip(
+            ca_drought["year"],
+            pd.to_numeric(ca_drought["hydro_vs_normal_pct"], errors="coerce")
+        ))
+        hydro_map = {k: v for k, v in hydro_map.items() if pd.notna(v)}
+        master["ca_hydro_vs_normal_pct"] = master["year"].map(hydro_map)
+        master["ca_hydro_vs_normal_pct"] = master["ca_hydro_vs_normal_pct"].ffill()
+        n_hydro = master["ca_hydro_vs_normal_pct"].notna().sum()
+        print(f"    ca_hydro_vs_normal_pct: {n_hydro} months ({len(hydro_map)} annual points)")
+        if hydro_map:
+            print(f"      Range: {min(hydro_map.values()):.0f}% - {max(hydro_map.values()):.0f}%")
+
+        # ca_drought_severity_score — Moderate=1, Severe=2, Extreme=3, Exceptional=4
+        severity_map = {"Moderate": 1, "Severe": 2, "Extreme": 3, "Exceptional": 4}
+        ca_drought["severity_score"] = ca_drought["drought_severity"].map(severity_map)
+        sev_by_year = dict(zip(ca_drought["year"], ca_drought["severity_score"]))
+        sev_by_year = {k: v for k, v in sev_by_year.items() if pd.notna(v)}
+        master["ca_drought_severity_score"] = master["year"].map(sev_by_year).fillna(0)
+        n_sev = (master["ca_drought_severity_score"] > 0).sum()
+        print(f"    ca_drought_severity_score: {n_sev} months with drought > 0")
+
+        # CAISO drought-stress: hydro_vs_normal_pct < 70%
+        master.loc[
+            master["ca_hydro_vs_normal_pct"].notna() & (master["ca_hydro_vs_normal_pct"] < 70),
+            "is_caiso_drought"
+        ] = 1
+        n_drought_stress = master["is_caiso_drought"].sum()
+        print(f"    CAISO drought-stress months (hydro < 70%): {n_drought_stress}")
+    else:
+        print(f"    WARNING: {DROUGHT_CSV} not found")
+
+    # From reservoir_levels_database.csv — Shasta as CA reservoir proxy
+    if os.path.exists(RESERVOIR_CSV):
+        df_res = pd.read_csv(RESERVOIR_CSV)
+        res_map = dict(zip(
+            df_res["year"],
+            pd.to_numeric(df_res["shasta_pct"], errors="coerce")
+        ))
+        res_map = {k: v for k, v in res_map.items() if pd.notna(v)}
+        master["ca_reservoir_pct"] = master["year"].map(res_map)
+        master["ca_reservoir_pct"] = master["ca_reservoir_pct"].ffill()
+        n_res = master["ca_reservoir_pct"].notna().sum()
+        print(f"    ca_reservoir_pct (Shasta): {n_res} months ({len(res_map)} annual points)")
+    else:
+        print(f"    WARNING: {RESERVOIR_CSV} not found")
+
+    # Assign caiso_regime (priority: heat_crisis > drought_stress > normal)
+    master.loc[master["is_caiso_drought"] == 1, "caiso_regime"] = "drought_stress"
+    master.loc[master["is_caiso_heat_crisis"] == 1, "caiso_regime"] = "heat_crisis"
+    caiso_regime_counts = master["caiso_regime"].value_counts()
+    print(f"    CAISO regime counts: {dict(caiso_regime_counts)}")
+
+    # ------------------------------------------------------------------
+    # 1K. California Basis (citygate - HH)
+    # ------------------------------------------------------------------
+    print("\n  --- 1K. California Basis ---")
+    if os.path.exists(GAS_PRICES_CSV):
+        df_gas = pd.read_csv(GAS_PRICES_CSV)
+        if "california_basis" in df_gas.columns:
+            basis_df = df_gas[["year", "month", "california_basis"]].dropna(
+                subset=["california_basis"]
+            )
+            basis_df = basis_df.drop_duplicates(subset=["year", "month"])
+            if "california_basis" in master.columns:
+                master = master.drop(columns=["california_basis"])
+            master = master.merge(basis_df, on=["year", "month"], how="left")
+            n_basis = master["california_basis"].notna().sum()
+            basis_valid = master["california_basis"].dropna()
+            print(f"    california_basis: {n_basis} monthly observations merged")
+            print(f"      Mean=${basis_valid.mean():.2f}, Std=${basis_valid.std():.2f}, "
+                  f"Range=[${basis_valid.min():.2f}, ${basis_valid.max():.2f}]")
+        else:
+            print(f"    WARNING: california_basis column not in {GAS_PRICES_CSV}")
+    else:
+        print(f"    WARNING: {GAS_PRICES_CSV} not found")
+
+    # ------------------------------------------------------------------
     # Data quality audit
     # ------------------------------------------------------------------
     print("\n  --- Data Quality Audit ---")
@@ -2906,12 +3108,13 @@ def step2b_enhanced_regression(master_v8):
     # (ca_solar_gen_pct had VIF=19 due to strong time trend; curtailment captures
     # the same solar oversupply → price depression with more within-year variation)
     caiso_dv = "caiso_wholesale_mwh"
-    caiso_base = ["henry_hub_spot", "ca_hdd", "ca_cdd",
+    caiso_base = ["california_citygate", "ca_hdd", "ca_cdd",
                   "ca_gdp_growth_pct", "ca_data_center_twh", "ca_caiso_demand_twh",
                   "ca_gas_gen_pct", "ca_wind_gen_pct",
                   "caiso_total_curtail_gwh", "caiso_monthly_negative_hours",
                   "caiso_monthly_congestion_avg",
-                  "ca_battery_capacity_gw"]
+                  "ca_battery_capacity_gw",
+                  "ca_hydro_vs_normal_pct"]
     # ca_allowance_spread: premium above CARB floor price (better identified than
     # ca_allowance_price_per_ton which trends monotonically with other policy vars)
     caiso_policy = ["itc_rate_pct", "ptc_rate_cents_kwh", "ca_rps_target_pct",
@@ -3408,11 +3611,287 @@ def step2b_enhanced_regression(master_v8):
                       + (" *** SIGN CHANGE" if sign_change else ""))
                 print(f"    Downweighted observations: {int((weights < 0.99).sum())}")
 
+    # ==================================================================
+    # Variant H: Regime-Switching Models (Stored Separately)
+    # ==================================================================
+    # These models serve a distinct structural purpose — NOT competing
+    # with A-F.  H results are ALWAYS used by step6/step11 for
+    # regime-aware projections, regardless of which single-model
+    # variant (A-F) wins the overall composite score.
+    print(f"\n{'='*60}")
+    print(f"  VARIANT H: REGIME-SWITCHING MODELS")
+    print(f"{'='*60}")
+
+    regime_models = {}
+    uri_excl_df, _ = _exclude_uri(master_v8)
+
+    # ---- ERCOT H --------------------------------------------------------
+    if ercot_dv in master_v8.columns and "ercot_regime" in master_v8.columns:
+        print(f"\n  --- ERCOT Variant H ---")
+        ercot_h_df = uri_excl_df.copy()
+        all_ercot_h = [v for v in ercot_base + ercot_policy
+                       if v in ercot_h_df.columns and ercot_h_df[v].notna().sum() > 30]
+
+        # H1: Normal-regime OLS
+        ercot_normal = ercot_h_df[ercot_h_df["ercot_regime"] == "normal"].copy()
+        df_h1 = ercot_normal[[ercot_dv] + all_ercot_h].dropna()
+        if len(df_h1) >= 30:
+            X_h1 = _make_X(df_h1, [v for v in all_ercot_h if v in df_h1.columns])
+            y_h1 = df_h1[ercot_dv]
+            X_h1, dropped_h1 = _prune_by_vif(X_h1, y_h1)
+            ols_h1 = _ols(X_h1, y_h1, "ERCOT_H1_Normal")
+            regime_models["ercot_H_normal"] = ols_h1
+            gas_pt = ols_h1["coefficients"].get("henry_hub_spot", {}).get("coefficient", "N/A")
+            print(f"    H1 Normal: n={ols_h1['n']}, adj_R²={ols_h1['adj_r_squared']:.4f}, "
+                  f"gas_passthrough={gas_pt}")
+            if dropped_h1:
+                print(f"      VIF-dropped: {dropped_h1}")
+        else:
+            print(f"    H1 Normal: SKIPPED (n={len(df_h1)})")
+
+        # H2: NG-crisis interaction model (full sample, Uri excluded)
+        h2_cols = [v for v in all_ercot_h if v in ercot_h_df.columns] + ["is_ng_crisis"]
+        df_h2 = ercot_h_df[[ercot_dv] + h2_cols].dropna()
+        if len(df_h2) >= 30 and "henry_hub_spot" in df_h2.columns:
+            df_h2 = df_h2.copy()
+            df_h2["henry_hub_x_ng_crisis"] = (
+                df_h2["henry_hub_spot"] * df_h2["is_ng_crisis"]
+            )
+            h2_vars = ([v for v in all_ercot_h if v in df_h2.columns]
+                       + ["is_ng_crisis", "henry_hub_x_ng_crisis"])
+            X_h2 = _make_X(df_h2, h2_vars)
+            y_h2 = df_h2[ercot_dv]
+            X_h2, dropped_h2 = _prune_by_vif(X_h2, y_h2)
+            ols_h2 = _ols(X_h2, y_h2, "ERCOT_H2_NG_Crisis_Interaction")
+            regime_models["ercot_H_interaction"] = ols_h2
+            ng_shift = ols_h2["coefficients"].get(
+                "is_ng_crisis", {}).get("coefficient", "N/A")
+            ng_interact = ols_h2["coefficients"].get(
+                "henry_hub_x_ng_crisis", {}).get("coefficient", "N/A")
+            print(f"    H2 NG-crisis interaction: n={ols_h2['n']}, "
+                  f"adj_R²={ols_h2['adj_r_squared']:.4f}")
+            print(f"      Level shift (is_ng_crisis) = {ng_shift}")
+            print(f"      Passthrough delta (HH × is_ng_crisis) = {ng_interact}")
+            if dropped_h2:
+                print(f"      VIF-dropped: {dropped_h2}")
+        else:
+            print(f"    H2 NG-crisis interaction: SKIPPED (n={len(df_h2)})")
+
+        # H3: Elec-crisis scarcity scaling model
+        # log(price) = α + β × log(scarcity_pct) + ε
+        # Uses FULL master (Uri included) — Uri IS a scarcity event
+        if "scarcity_pct" in master_v8.columns:
+            h3_df = master_v8[
+                (master_v8["is_elec_crisis"] == 1)
+                & (master_v8["scarcity_pct"] > 0)
+                & (master_v8[ercot_dv].notna())
+            ].copy()
+            if len(h3_df) >= 3:
+                log_price = np.log(h3_df[ercot_dv].values)
+                log_scarcity = np.log(h3_df["scarcity_pct"].values)
+                X_h3 = np.column_stack([np.ones(len(log_scarcity)), log_scarcity])
+                beta_h3 = np.linalg.lstsq(X_h3, log_price, rcond=None)[0]
+                fitted_h3 = X_h3 @ beta_h3
+                resid_h3 = log_price - fitted_h3
+                ddof_h3 = min(2, len(resid_h3) - 1)
+                resid_std_h3 = float(np.std(resid_h3, ddof=ddof_h3))
+
+                current_voll_cap = float(
+                    master_v8["ercot_price_cap_mwh"].dropna().iloc[-1]
+                )
+
+                # Observed vs fitted for diagnostics
+                scarcity_empirical = {}
+                for _, r in h3_df.iterrows():
+                    yr_mo = f"{int(r['year'])}-{int(r['month']):02d}"
+                    scarcity_empirical[yr_mo] = {
+                        "scarcity_pct": float(r["scarcity_pct"]),
+                        "price": float(r[ercot_dv]),
+                        "fitted": float(np.exp(
+                            beta_h3[0] + beta_h3[1] * np.log(r["scarcity_pct"])
+                        )),
+                    }
+
+                # Type-gated empirical pools
+                cold_pool, summer_pool = [], []
+                for _, r in h3_df.iterrows():
+                    mo = int(r["month"])
+                    sp = float(r["scarcity_pct"])
+                    if mo in (11, 12, 1, 2, 3):
+                        cold_pool.append(sp)
+                    else:
+                        summer_pool.append(sp)
+
+                regime_models["ercot_H_crisis_scaling"] = {
+                    "alpha": float(beta_h3[0]),
+                    "beta_scarcity": float(beta_h3[1]),
+                    "residual_std": resid_std_h3,
+                    "n": len(h3_df),
+                    "current_voll_cap": current_voll_cap,
+                    "scarcity_empirical": scarcity_empirical,
+                    "cold_weather_pool": cold_pool,
+                    "summer_heat_pool": summer_pool,
+                }
+
+                print(f"    H3 Elec-crisis scaling: n={len(h3_df)}")
+                print(f"      α={beta_h3[0]:.4f}, β_scarcity={beta_h3[1]:.4f}, "
+                      f"residual_std={resid_std_h3:.4f}")
+                print(f"      Current VOLL cap: ${current_voll_cap:.0f}")
+                print(f"      Cold-weather pool: {cold_pool}")
+                print(f"      Summer-heat pool: {summer_pool}")
+                print(f"      Observed vs Fitted:")
+                for yr_mo, vals in sorted(scarcity_empirical.items()):
+                    print(f"        {yr_mo}: observed=${vals['price']:.0f}, "
+                          f"fitted=${vals['fitted']:.0f}, "
+                          f"scarcity_pct={vals['scarcity_pct']:.3f}")
+            else:
+                print(f"    H3 Elec-crisis scaling: SKIPPED (n={len(h3_df)})")
+        else:
+            print("    H3 Elec-crisis scaling: SKIPPED (scarcity_pct not in master)")
+
+    # ---- CAISO H --------------------------------------------------------
+    if caiso_dv in master_v8.columns and "caiso_regime" in master_v8.columns:
+        print(f"\n  --- CAISO Variant H ---")
+        caiso_h_df = uri_excl_df.copy()
+        all_caiso_h = [v for v in caiso_base + caiso_policy
+                       if v in caiso_h_df.columns and caiso_h_df[v].notna().sum() > 30]
+
+        # H1: Normal-regime OLS
+        caiso_normal = caiso_h_df[caiso_h_df["caiso_regime"] == "normal"].copy()
+        df_ch1 = caiso_normal[[caiso_dv] + all_caiso_h].dropna()
+        if len(df_ch1) >= 30:
+            X_ch1 = _make_X(df_ch1, [v for v in all_caiso_h if v in df_ch1.columns])
+            y_ch1 = df_ch1[caiso_dv]
+            X_ch1, dropped_ch1 = _prune_by_vif(X_ch1, y_ch1)
+            ols_ch1 = _ols(X_ch1, y_ch1, "CAISO_H1_Normal")
+            regime_models["caiso_H_normal"] = ols_ch1
+            cg_pt = ols_ch1["coefficients"].get(
+                "california_citygate", {}).get("coefficient", "N/A")
+            print(f"    H1 Normal: n={ols_ch1['n']}, "
+                  f"adj_R²={ols_ch1['adj_r_squared']:.4f}, "
+                  f"citygate_passthrough={cg_pt}")
+            if dropped_ch1:
+                print(f"      VIF-dropped: {dropped_ch1}")
+        else:
+            print(f"    H1 Normal: SKIPPED (n={len(df_ch1)})")
+
+        # H2: Heat-crisis interaction model (full sample, Uri excluded)
+        h2c_base = [v for v in all_caiso_h if v in caiso_h_df.columns]
+        h2c_cols = h2c_base + ["is_caiso_heat_crisis"]
+        df_ch2 = caiso_h_df[[caiso_dv] + h2c_cols].dropna()
+        if len(df_ch2) >= 30 and "california_citygate" in df_ch2.columns:
+            df_ch2 = df_ch2.copy()
+            df_ch2["citygate_x_heat_crisis"] = (
+                df_ch2["california_citygate"] * df_ch2["is_caiso_heat_crisis"]
+            )
+            h2c_vars = (h2c_base
+                        + ["is_caiso_heat_crisis", "citygate_x_heat_crisis"])
+            X_ch2 = _make_X(df_ch2, h2c_vars)
+            y_ch2 = df_ch2[caiso_dv]
+            X_ch2, dropped_ch2 = _prune_by_vif(X_ch2, y_ch2)
+            ols_ch2 = _ols(X_ch2, y_ch2, "CAISO_H2_Heat_Interaction")
+            regime_models["caiso_H_heat_interaction"] = ols_ch2
+            heat_shift = ols_ch2["coefficients"].get(
+                "is_caiso_heat_crisis", {}).get("coefficient", "N/A")
+            heat_interact = ols_ch2["coefficients"].get(
+                "citygate_x_heat_crisis", {}).get("coefficient", "N/A")
+            print(f"    H2 Heat-crisis interaction: n={ols_ch2['n']}, "
+                  f"adj_R²={ols_ch2['adj_r_squared']:.4f}")
+            print(f"      Level shift (is_caiso_heat_crisis) = {heat_shift}")
+            print(f"      Passthrough delta (citygate × heat) = {heat_interact}")
+        else:
+            print(f"    H2 Heat-crisis interaction: SKIPPED (n={len(df_ch2)})")
+
+        # H3: Drought — ca_hydro_vs_normal_pct as continuous variable
+        # VIF pruning decides if it survives alongside ca_gas_gen_pct
+        if "ca_hydro_vs_normal_pct" in caiso_h_df.columns:
+            h3c_vars = list(dict.fromkeys(
+                all_caiso_h + ["ca_hydro_vs_normal_pct"]
+            ))
+            df_ch3 = caiso_h_df[[caiso_dv] + h3c_vars].dropna()
+            if len(df_ch3) >= 30:
+                X_ch3 = _make_X(df_ch3, h3c_vars)
+                y_ch3 = df_ch3[caiso_dv]
+                X_ch3, dropped_ch3 = _prune_by_vif(X_ch3, y_ch3)
+                ols_ch3 = _ols(X_ch3, y_ch3, "CAISO_H3_Drought")
+                regime_models["caiso_H_drought"] = ols_ch3
+                hydro_coef = ols_ch3["coefficients"].get(
+                    "ca_hydro_vs_normal_pct", {}).get("coefficient", "dropped by VIF")
+                print(f"    H3 Drought: n={ols_ch3['n']}, "
+                      f"adj_R²={ols_ch3['adj_r_squared']:.4f}")
+                print(f"      ca_hydro_vs_normal_pct coef = {hydro_coef}")
+                if dropped_ch3:
+                    print(f"      VIF-dropped: {dropped_ch3}")
+            else:
+                print(f"    H3 Drought: SKIPPED (n={len(df_ch3)})")
+        else:
+            print("    H3 Drought: SKIPPED (ca_hydro_vs_normal_pct not available)")
+
+    # ---- HH H ------------------------------------------------------------
+    if hh_dv in master_v8.columns and "is_ng_crisis" in master_v8.columns:
+        print(f"\n  --- HH Variant H ---")
+        hh_h_df = uri_excl_df.copy()
+        all_hh_h = [v for v in hh_base + hh_policy
+                     if v in hh_h_df.columns and hh_h_df[v].notna().sum() > 30]
+
+        # H1: Normal-regime OLS
+        hh_normal = hh_h_df[hh_h_df["is_ng_crisis"] == 0].copy()
+        df_hh1 = hh_normal[[hh_dv] + all_hh_h].dropna()
+        if len(df_hh1) >= 30:
+            X_hh1 = _make_X(df_hh1, [v for v in all_hh_h if v in df_hh1.columns])
+            y_hh1 = df_hh1[hh_dv]
+            X_hh1, dropped_hh1 = _prune_by_vif(X_hh1, y_hh1)
+            ols_hh1 = _ols(X_hh1, y_hh1, "HH_H1_Normal")
+            regime_models["hh_H_normal"] = ols_hh1
+            print(f"    H1 Normal: n={ols_hh1['n']}, "
+                  f"adj_R²={ols_hh1['adj_r_squared']:.4f}")
+            if dropped_hh1:
+                print(f"      VIF-dropped: {dropped_hh1}")
+        else:
+            print(f"    H1 Normal: SKIPPED (n={len(df_hh1)})")
+
+        # H2: NG-crisis interaction model (full sample, Uri excluded)
+        hh_key_interact = ["electric_power_bcfd"]
+        hh_interact_avail = [v for v in hh_key_interact if v in hh_h_df.columns]
+        h2h_cols = [v for v in all_hh_h if v in hh_h_df.columns] + ["is_ng_crisis"]
+        df_hh2 = hh_h_df[[hh_dv] + h2h_cols].dropna()
+        if len(df_hh2) >= 30:
+            df_hh2 = df_hh2.copy()
+            h2h_extra = ["is_ng_crisis"]
+            for v in hh_interact_avail:
+                iname = f"{v}_x_ng_crisis"
+                df_hh2[iname] = df_hh2[v] * df_hh2["is_ng_crisis"]
+                h2h_extra.append(iname)
+            h2h_vars = [v for v in all_hh_h if v in df_hh2.columns] + h2h_extra
+            X_hh2 = _make_X(df_hh2, h2h_vars)
+            y_hh2 = df_hh2[hh_dv]
+            X_hh2, dropped_hh2 = _prune_by_vif(X_hh2, y_hh2)
+            ols_hh2 = _ols(X_hh2, y_hh2, "HH_H2_NG_Crisis_Interaction")
+            regime_models["hh_H_interaction"] = ols_hh2
+            hh_shift = ols_hh2["coefficients"].get(
+                "is_ng_crisis", {}).get("coefficient", "N/A")
+            print(f"    H2 NG-crisis interaction: n={ols_hh2['n']}, "
+                  f"adj_R²={ols_hh2['adj_r_squared']:.4f}")
+            print(f"      Level shift (is_ng_crisis) = {hh_shift}")
+            if dropped_hh2:
+                print(f"      VIF-dropped: {dropped_hh2}")
+        else:
+            print(f"    H2 NG-crisis interaction: SKIPPED (n={len(df_hh2)})")
+
+    # Store regime models in results (separate namespace, not competing)
+    results["regime_models"] = regime_models
+    diagnostics["regime_models"] = {
+        k: {
+            "type": "scaling" if "scaling" in k else "ols",
+            "n": v.get("n", "N/A") if isinstance(v, dict) else "N/A",
+        }
+        for k, v in regime_models.items()
+    }
+    print(f"\n  Regime models stored: {list(regime_models.keys())}")
+
     # ------------------------------------------------------------------
     # ERCOT P95 Subvariant
     # ------------------------------------------------------------------
-    # Exclude Uri for P95 and OOS sections (all markets)
-    uri_excl_df, _ = _exclude_uri(master_v8)
 
     if "ercot_rtm_p95" in master_v8.columns:
         print(f"\n{'='*60}")
@@ -3840,35 +4319,40 @@ def step14_expanded_validation(reg_v2, diagnostics, master_v8):
     # ------------------------------------------------------------------
     print("\n  --- 14D. Cross-Market Gas Passthrough Consistency ---")
     gas_passthroughs = {}
+    gas_var_map = {"ercot": "henry_hub_spot", "caiso": "california_citygate"}
     for market in ["ercot", "caiso"]:
         best_key = diagnostics.get(f"{market}_best_variant")
         model = reg_v2.get(best_key) if best_key else None
         if model is None:
             continue
-        hh_coef = model.get("coefficients", {}).get("henry_hub_spot", {})
-        if hh_coef:
+        gas_var = gas_var_map[market]
+        gas_coef = model.get("coefficients", {}).get(gas_var, {})
+        if gas_coef:
             gas_passthroughs[market] = {
-                "coefficient": hh_coef.get("coefficient"),
-                "p_value": hh_coef.get("p_value"),
+                "coefficient": gas_coef.get("coefficient"),
+                "p_value": gas_coef.get("p_value"),
                 "variant": best_key,
+                "gas_variable": gas_var,
             }
     for mkt, data in gas_passthroughs.items():
         coef = data["coefficient"]
         pval = data.get("p_value", "N/A")
         variant = data.get("variant", "?")
-        print(f"    {mkt.upper()} gas passthrough: ${coef:.2f}/MWh per $/MMBtu "
+        gvar = data.get("gas_variable", "?")
+        print(f"    {mkt.upper()} gas passthrough ({gvar}): ${coef:.2f}/MWh per $/MMBtu "
               f"(p={pval}, variant={variant})")
     if len(gas_passthroughs) == 2:
         e_coef = gas_passthroughs["ercot"]["coefficient"]
         c_coef = gas_passthroughs["caiso"]["coefficient"]
         ratio = abs(e_coef / c_coef) if c_coef != 0 else float('inf')
-        print(f"    Ratio: {ratio:.2f}x")
+        print(f"    Ratio: {ratio:.2f}x (ERCOT uses HH, CAISO uses citygate)")
         gas_passthroughs["ratio"] = round(float(ratio), 2)
     elif len(gas_passthroughs) == 1:
         mkt = list(gas_passthroughs.keys())[0]
         coef = gas_passthroughs[mkt]["coefficient"]
         missing = "CAISO" if mkt == "ercot" else "ERCOT"
-        print(f"    {missing}: henry_hub_spot dropped by VIF pruning in best variant")
+        gvar = gas_var_map.get(missing, "gas")
+        print(f"    {missing}: {gvar} dropped by VIF pruning in best variant")
     else:
         print(f"    No gas passthrough coefficients available")
     print(f"    Literature range: $7-9/MWh per $/MMBtu (heat rate based)")
@@ -5145,6 +5629,148 @@ def step6_monte_carlo(garch, reg_results, event_proj, lng, master=None, reg_v2=N
     demand_proj = event_proj.get("demand_shock_model", {}).get("projections", {})
     policy_proj = event_proj.get("policy_risk_model", {}).get("projections", {})
 
+    # ── REGIME-SWITCHING MC SETUP (Changes 4 & 5) ──────────────────
+    # Data-estimated parameters for regime-specific simulation
+    speed_normal = 0.15    # fallback
+    speed_crisis = 0.25    # fallback (crises revert faster)
+    crisis_level_shift_hh = 0.0
+    garch_normal = {"omega": omega, "alpha": alpha, "beta": beta}
+    garch_crisis = {"omega": omega, "alpha": alpha, "beta": beta}
+    uncond_var_normal = uncond_monthly
+    uncond_var_crisis = uncond_monthly
+    basis_model_fit = None
+    basis_residuals = None
+
+    if master is not None and reg_v2 and isinstance(reg_v2, dict) and "regime_models" in reg_v2:
+        rm = reg_v2["regime_models"]
+        print("\n  ── Regime-Switching MC Setup ──")
+
+        # 4c-bis. AR(1) mean-reversion speed estimation (data-driven, replaces hardcoded 0.15)
+        if "henry_hub_spot" in master.columns and "is_ng_crisis" in master.columns:
+            hh_valid = master.dropna(subset=["henry_hub_spot"]).copy()
+            hh_log = np.log(hh_valid["henry_hub_spot"].clip(lower=0.5))
+            crisis_flag = hh_valid["is_ng_crisis"].fillna(0).astype(int)
+
+            # Normal: consecutive month pairs where both are normal
+            normal_mask = (crisis_flag == 0) & (crisis_flag.shift(1) == 0)
+            y_n = hh_log[normal_mask].values
+            x_n = hh_log.shift(1)[normal_mask].values
+            valid_n = ~np.isnan(y_n) & ~np.isnan(x_n)
+            y_n, x_n = y_n[valid_n], x_n[valid_n]
+            if len(y_n) > 10:
+                X_n = np.column_stack([np.ones(len(x_n)), x_n])
+                phi_beta = np.linalg.lstsq(X_n, y_n, rcond=None)[0]
+                phi_n = float(phi_beta[1])
+                if 0.01 < phi_n < 1.0:
+                    speed_normal = float(-np.log(phi_n))
+                print(f"  AR(1) normal: φ={phi_n:.4f}, speed κ={speed_normal:.4f} "
+                      f"(n={len(y_n)}, half-life={np.log(2)/max(speed_normal,0.01):.1f}mo)")
+
+            # Crisis: consecutive month pairs where both are crisis
+            crisis_mask = (crisis_flag == 1) & (crisis_flag.shift(1) == 1)
+            y_c = hh_log[crisis_mask].values
+            x_c = hh_log.shift(1)[crisis_mask].values
+            valid_c = ~np.isnan(y_c) & ~np.isnan(x_c)
+            y_c, x_c = y_c[valid_c], x_c[valid_c]
+            if len(y_c) > 5:
+                X_c = np.column_stack([np.ones(len(x_c)), x_c])
+                phi_beta_c = np.linalg.lstsq(X_c, y_c, rcond=None)[0]
+                phi_c = float(phi_beta_c[1])
+                if 0.01 < phi_c < 1.0:
+                    speed_crisis = float(-np.log(phi_c))
+                print(f"  AR(1) crisis: φ={phi_c:.4f}, speed κ={speed_crisis:.4f} "
+                      f"(n={len(y_c)}, half-life={np.log(2)/max(speed_crisis,0.01):.1f}mo)")
+
+        # 4c. Regime-specific GARCH volatility
+        if "henry_hub_spot" in master.columns and "is_ng_crisis" in master.columns:
+            hh_valid2 = master.dropna(subset=["henry_hub_spot"]).copy()
+            hh_log2 = np.log(hh_valid2["henry_hub_spot"].clip(lower=0.5))
+            log_returns = hh_log2.diff().dropna()
+            cr_flag = hh_valid2["is_ng_crisis"].fillna(0).astype(int).reindex(log_returns.index)
+            normal_ret = log_returns[cr_flag == 0].values
+            crisis_ret = log_returns[cr_flag == 1].values
+
+            # Normal: use overall GARCH params from step3 (75%+ of data is normal)
+            if len(normal_ret) > 0:
+                uncond_var_normal = float(np.var(normal_ret))
+                print(f"  Normal vol: σ={np.sqrt(uncond_var_normal):.4f} "
+                      f"(n={len(normal_ret)}), GARCH dynamics from step3")
+
+            # Crisis: empirical variance (n≈38 < 50 threshold → constant variance)
+            if len(crisis_ret) > 0:
+                uncond_var_crisis = float(np.var(crisis_ret))
+                garch_crisis = {"omega": uncond_var_crisis, "alpha": 0.0, "beta": 0.0}
+                print(f"  Crisis vol: σ={np.sqrt(uncond_var_crisis):.4f} "
+                      f"(n={len(crisis_ret)}), constant variance (n<50 fallback)")
+                print(f"  Vol ratio crisis/normal: "
+                      f"{np.sqrt(uncond_var_crisis / max(uncond_var_normal, 1e-8)):.2f}x")
+
+        # 4b. Crisis level shift from HH H2 interaction model
+        hh_interact = rm.get("hh_H_interaction", {})
+        if hh_interact:
+            hh_i_coefs = hh_interact.get("coefficients", {})
+            vdict = hh_i_coefs.get("is_ng_crisis", {})
+            if isinstance(vdict, dict):
+                crisis_level_shift_hh = float(vdict.get("coefficient", 0) or 0)
+            elif vdict:
+                crisis_level_shift_hh = float(vdict)
+            print(f"  HH crisis level shift: ${crisis_level_shift_hh:+.2f}/MMBtu (H2 interaction)")
+
+    # 5a. Basis model for citygate projection
+    if master is not None and "california_basis" in master.columns:
+        basis_candidates = ["ca_gas_gen_pct", "ca_cdd", "ca_hydro_vs_normal_pct"]
+        basis_vars = [v for v in basis_candidates
+                      if v in master.columns and master[v].notna().sum() > 20]
+        basis_df = master.dropna(subset=["california_basis"]).copy()
+        if basis_vars:
+            basis_df = basis_df.dropna(subset=basis_vars)
+        if len(basis_df) > 20 and len(basis_vars) > 0:
+            basis_df["_trend"] = np.arange(len(basis_df))
+            b_cols = basis_vars + ["_trend"]
+            X_b = np.column_stack([np.ones(len(basis_df))] +
+                                  [basis_df[v].values for v in b_cols])
+            y_b = basis_df["california_basis"].values
+            b_beta = np.linalg.lstsq(X_b, y_b, rcond=None)[0]
+            b_resid = y_b - X_b @ b_beta
+            b_ss_res = np.sum(b_resid**2)
+            b_ss_tot = np.sum((y_b - np.mean(y_b))**2)
+            b_r2 = 1 - b_ss_res / b_ss_tot if b_ss_tot > 0 else 0
+            basis_model_fit = {
+                "intercept": float(b_beta[0]),
+                "coefficients": {v: float(b_beta[i + 1]) for i, v in enumerate(b_cols)},
+                "r_squared": float(b_r2),
+                "n": int(len(y_b)),
+                "latest_trend_idx": int(len(basis_df) - 1),
+                "var_names": basis_vars,
+            }
+            basis_residuals = b_resid.copy()
+            # Diagnostics with p-values
+            n_b, k_b = X_b.shape
+            ms_b = b_ss_res / max(n_b - k_b, 1)
+            try:
+                cov_b = ms_b * np.linalg.inv(X_b.T @ X_b)
+                se_b = np.sqrt(np.abs(np.diag(cov_b)))
+                t_b = b_beta / se_b
+                p_b = 2 * (1 - sp_stats.t.cdf(np.abs(t_b), max(n_b - k_b, 1)))
+            except np.linalg.LinAlgError:
+                p_b = np.full(k_b, np.nan)
+            print(f"\n  Basis model (citygate - HH) R²={b_r2:.4f}, n={len(y_b)}:")
+            for i, v in enumerate(b_cols):
+                pval = p_b[i + 1] if i + 1 < len(p_b) else float("nan")
+                print(f"    {v}: {b_beta[i + 1]:+.4f} (p={pval:.3f})")
+            print(f"    intercept: {b_beta[0]:+.4f}")
+            print(f"    residual range: [{b_resid.min():.2f}, {b_resid.max():.2f}]")
+        elif len(basis_df) > 5:
+            # Fallback: constant basis = recent mean
+            recent_basis = float(master["california_basis"].dropna().tail(24).mean())
+            basis_model_fit = {
+                "intercept": recent_basis, "coefficients": {},
+                "r_squared": 0.0, "n": 0, "latest_trend_idx": 0, "var_names": [],
+            }
+            basis_residuals = (master["california_basis"].dropna().tail(24).values
+                               - recent_basis)
+            print(f"\n  Basis model: fallback to recent mean ${recent_basis:.2f}")
+
     N_SIMS = 10000
     MONTHS = 60
     CAP = 25.0
@@ -5156,12 +5782,13 @@ def step6_monte_carlo(garch, reg_results, event_proj, lng, master=None, reg_v2=N
 
     paths = np.zeros((N_SIMS, MONTHS + 1))
     paths[:, 0] = START
+    regime_tracker = np.zeros((N_SIMS, MONTHS), dtype=np.int8)  # 0=normal, 1=ng_crisis
 
     for sim in range(N_SIMS):
         h_t = curr_var
         price = START
         ln_price = np.log(START)
-        active_events = []  # Multi-month event tracking: [[signed_peak, remaining_months, total_duration], ...]
+        active_events = []  # [[signed_peak, remaining, total, event_type], ...]
         # Determine if IRA rollback occurs in this simulation path
         ira_rollback_year = None
         for yr in range(2026, 2031):
@@ -5202,18 +5829,34 @@ def step6_monte_carlo(garch, reg_results, event_proj, lng, master=None, reg_v2=N
                 queue_premium = pol.get("queue_capacity_shortfall_gw", 5) * 0.01
                 lr_mean += min(0.5, queue_premium)
 
-            target = lr_mean
-            speed = 0.15
+            # Classify gas regime from currently active events (events → regimes)
+            gas_regime = "normal"
+            for evt in active_events:
+                evt_type = evt[3] if len(evt) > 3 else "unknown"
+                if evt_type in ("hurricane", "polar_vortex", "geopolitical") and abs(evt[0]) >= 1.5:
+                    gas_regime = "ng_crisis"
+                    break
+            regime_tracker[sim, m] = 1 if gas_regime == "ng_crisis" else 0
+
+            # Regime-specific target, speed, and GARCH parameters
+            if gas_regime == "ng_crisis":
+                target = lr_mean + crisis_level_shift_hh
+                speed = speed_crisis
+                gp = garch_crisis
+            else:
+                target = lr_mean
+                speed = speed_normal
+                gp = garch_normal
 
             # GARCH shock — additive in log-space (Schwartz 1997 one-factor model)
             # Simulating d(ln P) = κ(ln θ − ln P)dt + σ dW
             # Seasonal vol ratio applied to shock, GARCH tracks deseasonalized variance
             z = np.random.normal(0, 1)
             vol_ratio = seasonal_vol.get(mo, 1.0)
-            shock = z * np.sqrt(max(h_t, 1e-6)) * vol_ratio  # additive in log-space
-            h_t = omega + alpha * (z * np.sqrt(max(h_t, 1e-6)))**2 + beta * h_t
+            shock = z * np.sqrt(max(h_t, 1e-6)) * vol_ratio
+            h_t = gp["omega"] + gp["alpha"] * (z * np.sqrt(max(h_t, 1e-6)))**2 + gp["beta"] * h_t
             h_t = max(h_t, 1e-6)
-            h_t = min(h_t, 4.0 * uncond_monthly)  # variance cap: observed monthly std never exceeds ~2x unconditional
+            h_t = min(h_t, 4.0 * uncond_monthly)
 
             # === MULTI-MONTH EVENT MODEL ===
             # Category-specific persistence from 29-year empirical severity-duration analysis
@@ -5234,10 +5877,12 @@ def step6_monte_carlo(garch, reg_results, event_proj, lng, master=None, reg_v2=N
             # Step 1: Accumulate contributions from all active events (linear decay)
             event_shock = 0.0
             surviving = []
-            for evt_peak, evt_rem, evt_tot in active_events:
+            for evt in active_events:
+                evt_peak, evt_rem, evt_tot = evt[0], evt[1], evt[2]
+                evt_type = evt[3] if len(evt) > 3 else "unknown"
                 event_shock += evt_peak * (evt_rem / evt_tot)
                 if evt_rem > 1:
-                    surviving.append([evt_peak, evt_rem - 1, evt_tot])
+                    surviving.append([evt_peak, evt_rem - 1, evt_tot, evt_type])
             active_events = surviving
 
             # Step 2: Check for new events this month
@@ -5252,7 +5897,7 @@ def step6_monte_carlo(garch, reg_results, event_proj, lng, master=None, reg_v2=N
                 if random.random() < hurr_p:
                     mag = random.uniform(1.50, 4.60)
                     dur = max(1, round(1.86 * mag))
-                    active_events.append([mag, dur, dur])
+                    active_events.append([mag, dur, dur, "hurricane"])
 
             # Polar vortex / cold snap (Dec-Feb): 5 events in 29 years = 0.172/yr
             # Scale by projection ratio; Uri-type extreme handled separately
@@ -5262,12 +5907,12 @@ def step6_monte_carlo(garch, reg_results, event_proj, lng, master=None, reg_v2=N
                 if random.random() < pv_p:
                     mag = random.uniform(1.30, 4.80)
                     dur = max(1, round(1.33 * mag))
-                    active_events.append([mag, dur, dur])
+                    active_events.append([mag, dur, dur, "polar_vortex"])
                 # Uri-type extreme tail event (~1 in 100 years)
                 if random.random() < 0.01 / 3:
                     mag = random.uniform(8.0, 14.0)
                     dur = max(1, round(1.33 * mag))
-                    active_events.append([mag, dur, dur])
+                    active_events.append([mag, dur, dur, "polar_vortex"])
 
             # Geopolitical (any month): 1 gas-impacting event in 29 years = 0.034/yr
             # (p_disruption from projections = 0.64 = ANY disruption worldwide,
@@ -5279,7 +5924,7 @@ def step6_monte_carlo(garch, reg_results, event_proj, lng, master=None, reg_v2=N
             if random.random() < (geo_base * max(0.5, min(2.0, geo_ratio))) / 12:
                 mag = random.uniform(2.00, 5.00)
                 dur = max(1, round(0.99 * mag))
-                active_events.append([mag, dur, dur])
+                active_events.append([mag, dur, dur, "geopolitical"])
 
             # Demand shock / structural surge (any month): 2 events in 29 years = 0.069/yr
             # (demand_spike_probability from projections = total grid stress probability,
@@ -5290,14 +5935,14 @@ def step6_monte_carlo(garch, reg_results, event_proj, lng, master=None, reg_v2=N
             if random.random() < (dd_base * max(0.5, min(2.0, dd_ratio))) / 12:
                 mag = random.uniform(0.80, 1.50)
                 dur = max(1, round(1.27 * mag))
-                active_events.append([mag, dur, dur])
+                active_events.append([mag, dur, dur, "demand"])
 
             # Policy shock (any month): 1 event in 29 years = 0.034/yr
             policy_shock_base = 0.034  # empirical gas-impact rate
             if random.random() < policy_shock_base / 12:
                 mag = random.uniform(0.30, 1.50)
                 dur = max(1, round(1.27 * mag))
-                active_events.append([mag, dur, dur])
+                active_events.append([mag, dur, dur, "policy"])
 
             # --- NEGATIVE EVENTS ---
 
@@ -5307,7 +5952,7 @@ def step6_monte_carlo(garch, reg_results, event_proj, lng, master=None, reg_v2=N
                 if random.random() < 0.057:  # 0.172/3
                     mag = random.uniform(0.66, 1.30)
                     dur = max(1, round(4.94 * mag))
-                    active_events.append([-mag, dur, dur])
+                    active_events.append([-mag, dur, dur, "mild_winter"])
 
             # Storage surplus (Sep-Nov): 4 events in 29 years = 0.138/yr
             # Persistence: 9.52 months per dollar (supply surplus category)
@@ -5315,14 +5960,14 @@ def step6_monte_carlo(garch, reg_results, event_proj, lng, master=None, reg_v2=N
                 if random.random() < 0.046:  # 0.138/3
                     mag = random.uniform(0.30, 1.50)
                     dur = max(1, round(9.52 * mag))
-                    active_events.append([-mag, dur, dur])
+                    active_events.append([-mag, dur, dur, "storage"])
 
             # Macro recession / demand destruction (any month): 6 events in 29 years = 0.207/yr
             # Persistence: 10.86 months per dollar (macro category — longest lasting)
             if random.random() < 0.017:  # 0.207/12
                 mag = random.uniform(0.54, 2.25)
                 dur = max(1, round(10.86 * mag))
-                active_events.append([-mag, dur, dur])
+                active_events.append([-mag, dur, dur, "recession"])
 
             # Renewable overbuild / structural correction (any month, growing probability)
             # 2 events in 29 years = 0.069/yr base, increasing with renewable penetration
@@ -5331,7 +5976,7 @@ def step6_monte_carlo(garch, reg_results, event_proj, lng, master=None, reg_v2=N
             if random.random() < overbuild_p:
                 mag = random.uniform(0.51, 1.03)
                 dur = max(1, round(2.46 * mag))
-                active_events.append([-mag, dur, dur])
+                active_events.append([-mag, dur, dur, "overbuild"])
 
             # Log-space mean-reversion (Schwartz 1997 one-factor)
             # P50 tracks regression target; mean > P50 by convexity premium exp(σ²/2κ)
@@ -5346,6 +5991,47 @@ def step6_monte_carlo(garch, reg_results, event_proj, lng, master=None, reg_v2=N
 
     print("  Simulation complete.")
 
+    # ── Citygate gas paths (basis model + bootstrapped noise) ──
+    citygate_paths = None
+    if basis_model_fit is not None and basis_residuals is not None:
+        print("\n  Computing citygate (CA) gas paths from HH + basis model...")
+        citygate_paths = np.zeros_like(paths)
+        citygate_paths[:, 0] = paths[:, 0] + basis_model_fit["intercept"]
+        latest_basis_vars = {}
+        if master is not None:
+            for v in basis_model_fit.get("var_names", []):
+                if v in master.columns and master[v].notna().any():
+                    latest_basis_vars[v] = float(master[v].dropna().iloc[-1])
+        for m_idx in range(1, MONTHS + 1):
+            trend_idx = basis_model_fit["latest_trend_idx"] + m_idx
+            basis_proj = basis_model_fit["intercept"]
+            for v, coef in basis_model_fit["coefficients"].items():
+                if v == "_trend":
+                    basis_proj += coef * trend_idx
+                else:
+                    basis_proj += coef * latest_basis_vars.get(v, 0)
+            noise = np.random.choice(basis_residuals, size=N_SIMS, replace=True)
+            citygate_paths[:, m_idx] = paths[:, m_idx] + basis_proj + noise
+        cg_2026 = citygate_paths[:, 1:13].mean(axis=1)
+        print(f"  Citygate P50 2026: ${np.median(cg_2026):.2f}, "
+              f"mean: ${np.mean(cg_2026):.2f}")
+
+    # ── Regime fractions from MC ──
+    regime_fractions = {}
+    for yr_off in range(5):
+        yr = 2026 + yr_off
+        s, e = yr_off * 12, min((yr_off + 1) * 12, MONTHS)
+        yr_regimes = regime_tracker[:, s:e]
+        ng_frac = float(yr_regimes.mean())
+        regime_fractions[str(yr)] = {
+            "normal": round(1.0 - ng_frac, 4),
+            "ng_crisis": round(ng_frac, 4),
+        }
+    print(f"\n  Regime fractions (MC):")
+    for yr_s in sorted(regime_fractions.keys()):
+        rf = regime_fractions[yr_s]
+        print(f"    {yr_s}: normal={rf['normal']:.1%}, ng_crisis={rf['ng_crisis']:.1%}")
+
     # Stats
     annual_fc = {}
     for yr_off in range(5):
@@ -5359,6 +6045,24 @@ def step6_monte_carlo(garch, reg_results, event_proj, lng, master=None, reg_v2=N
             "p90": float(np.percentile(ap, 90)), "p95": float(np.percentile(ap, 95)),
             "p99": float(np.percentile(ap, 99)),
         }
+
+    # Add regime fractions to annual forecasts
+    for yr_s in annual_fc:
+        if yr_s in regime_fractions:
+            annual_fc[yr_s]["regime_fraction_normal"] = regime_fractions[yr_s]["normal"]
+            annual_fc[yr_s]["regime_fraction_ng_crisis"] = regime_fractions[yr_s]["ng_crisis"]
+
+    # Citygate annual forecasts
+    citygate_fc = {}
+    if citygate_paths is not None:
+        for yr_off in range(5):
+            yr = 2026 + yr_off
+            s, e = yr_off * 12 + 1, min((yr_off + 1) * 12 + 1, MONTHS + 1)
+            ap = citygate_paths[:, s:e].mean(axis=1)
+            citygate_fc[str(yr)] = {
+                "mean": float(np.mean(ap)), "median": float(np.median(ap)),
+                "p5": float(np.percentile(ap, 5)), "p95": float(np.percentile(ap, 95)),
+            }
 
     bands = {}
     for pname, pval in {"p5": 5, "p10": 10, "p25": 25, "p50": 50,
@@ -5383,17 +6087,26 @@ def step6_monte_carlo(garch, reg_results, event_proj, lng, master=None, reg_v2=N
         "model_type": "Integrated_LNG_Capacity_Curve",
         "version": "8.0",
         "created": datetime.now().strftime("%Y-%m-%d %H:%M"),
-        "description": "V7 + policy variables (ITC/PTC rates, queue backlog, RPS, IRA rollback risk)",
+        "description": "V8 + regime-switching MC (events trigger regimes) + citygate basis model",
         "key_changes": [
             "Policy variables in regression (ITC rate, PTC rate, queue backlog, RPS count, policy intensity)",
             "GARCH re-estimated on policy-adjusted residuals",
             "Policy-risk event model added (IRA rollback, queue delays, RPS shortfall)",
             "IRA rollback scenario paths in Monte Carlo (shifts long-run mean upward)",
-            "Queue bottleneck premium on gas prices",
-            "Policy uncertainty shock events",
+            "Regime-switching MC: events trigger gas regimes (normal/ng_crisis)",
+            "Data-estimated AR(1) mean-reversion speeds per regime",
+            "Regime-specific GARCH volatility (normal from step3, crisis empirical)",
+            "Citygate gas paths from basis model + bootstrapped residuals",
         ],
         "lng_capacity_curve": old_mc.get("lng_capacity_curve", {}),
         "annual_forecasts": annual_fc,
+        "citygate_forecasts": citygate_fc,
+        "regime_fractions": regime_fractions,
+        "regime_params": {
+            "speed_normal": speed_normal, "speed_crisis": speed_crisis,
+            "crisis_level_shift": crisis_level_shift_hh,
+            "uncond_var_normal": uncond_var_normal, "uncond_var_crisis": uncond_var_crisis,
+        },
         "spike_probabilities": spikes,
         "confidence_bands": bands,
         "garch_params": garch["parameters"],
@@ -5634,7 +6347,7 @@ def step9_relationship_graph(reg_results):
 
     # Build the graph structure
     gas_coef_ercot, gas_p_ercot, _ = _coef("ercot_full", "henry_hub_spot")
-    gas_coef_caiso, gas_p_caiso, _ = _coef("caiso_full", "henry_hub_spot")
+    gas_coef_caiso, gas_p_caiso, _ = _coef("caiso_full", "california_citygate")
 
     # HH Full model coefficients
     hh_coefs = {}
@@ -5810,7 +6523,7 @@ def step10_chord_diagram(reg_results):
 
     # Extract key coefficients from regressions
     gas_ercot, gas_ercot_p, _ = _coef_safe("ercot_full", "henry_hub_spot")
-    gas_caiso, gas_caiso_p, _ = _coef_safe("caiso_full", "henry_hub_spot")
+    gas_caiso, gas_caiso_p, _ = _coef_safe("caiso_full", "california_citygate")
 
     # HH Full significant vars
     hh_vars = {}
@@ -5962,7 +6675,7 @@ def step10_chord_diagram(reg_results):
             connections.append((idx, 0, min(mag, 15.0), color, sig))
 
         # Add connections: var → CAISO (from CAISO model)
-        if var in caiso_coefs and var != "henry_hub_spot":
+        if var in caiso_coefs and var != "california_citygate":
             coef = caiso_coefs[var].get("coefficient", 0)
             sig = caiso_coefs[var].get("significant", False)
             mag = max(abs(coef) * 0.3, 1.0)
@@ -6193,7 +6906,7 @@ def step11_projection_map(reg_results, mc_results, evt_results, master, reg_v2=N
             "queue_backlog_gw":        _coef("hh_full", "queue_backlog_gw"),
         }
     ercot_gas_passthrough = _coef("ercot_full", "henry_hub_spot")
-    caiso_gas_passthrough = _coef("caiso_full", "henry_hub_spot")
+    caiso_gas_passthrough = _coef("caiso_full", "california_citygate")
 
     # ── Gas price forecasts from Monte Carlo ───────────────────────────
     gas_forecasts = {}
@@ -6233,6 +6946,46 @@ def step11_projection_map(reg_results, mc_results, evt_results, master, reg_v2=N
             "mean": latest_gas, "p10": latest_gas * 0.8,
             "p50": latest_gas, "p90": latest_gas * 1.2,
         }
+
+    # ── Citygate gas forecasts from MC (for CAISO) ────────────────────
+    citygate_forecasts = {}
+    mc_regime_fracs = {}
+    if isinstance(mc_results, dict):
+        cg_fc = mc_results.get("citygate_forecasts", {})
+        if isinstance(cg_fc, dict):
+            for yr_str, data in cg_fc.items():
+                cg_yr = int(yr_str) if isinstance(yr_str, str) else yr_str
+                if isinstance(data, dict):
+                    citygate_forecasts[cg_yr] = data
+        mc_regime_fracs = mc_results.get("regime_fractions", {})
+    # Extend citygate to 2035 (flat hold like HH)
+    if citygate_forecasts:
+        last_cg_yr = max(citygate_forecasts.keys())
+        last_cg = citygate_forecasts[last_cg_yr]
+        for cg_yr in range(last_cg_yr + 1, 2036):
+            citygate_forecasts[cg_yr] = dict(last_cg)
+    # 2025 citygate: observed citygate price
+    if 2025 not in citygate_forecasts:
+        latest_citygate = latest_gas + float(latest.get("california_basis", 0.5))
+        citygate_forecasts[2025] = {
+            "mean": latest_citygate, "p5": latest_citygate * 0.7,
+            "median": latest_citygate, "p95": latest_citygate * 1.3,
+        }
+
+    # ── ERCOT crisis shift from H2 interaction model ──────────────────
+    ercot_crisis_shift = 0.0
+    if reg_v2 and isinstance(reg_v2, dict) and "regime_models" in reg_v2:
+        rm = reg_v2["regime_models"]
+        ercot_interact = rm.get("ercot_H_interaction", {})
+        if ercot_interact:
+            ei_coefs = ercot_interact.get("coefficients", {})
+            vdict = ei_coefs.get("is_ng_crisis", {})
+            if isinstance(vdict, dict):
+                ercot_crisis_shift = float(vdict.get("coefficient", 0) or 0)
+            elif vdict:
+                ercot_crisis_shift = float(vdict)
+        if ercot_crisis_shift != 0:
+            print(f"  ERCOT crisis shift: ${ercot_crisis_shift:+.2f}/MWh (H2 interaction)")
 
     # ── Variable projections 2025-2035 ─────────────────────────────────
     years = list(range(2025, 2036))
@@ -6533,22 +7286,34 @@ def step11_projection_map(reg_results, mc_results, evt_results, master, reg_v2=N
         gas_p10 = gas_forecasts.get(yr, {}).get("p10", gas_mean - 2)
         gas_p90 = gas_forecasts.get(yr, {}).get("p90", gas_mean + 2)
 
-        # ERCOT: Delta method — project changes from observed
-        # P_yr = P_obs + [f(X_yr, gas_yr) - f(X_2025, gas_2025)]
+        # Citygate gas for CAISO (= HH + basis from MC)
+        cg_data = citygate_forecasts.get(yr, {})
+        cg_mean = cg_data.get("mean", gas_mean + 0.5)
+        cg_p10 = cg_data.get("p5", gas_p10 + 0.5)
+        cg_p90 = cg_data.get("p95", gas_p90 + 0.5)
+
+        # ERCOT: Regime-weighted delta method
+        # e_mean = (1-p_crisis)*e_normal + p_crisis*(e_normal + crisis_shift)
         if yr == 2025:
             e_mean = latest_ercot_obs
             e_low = latest_ercot_obs * 0.85
             e_high = latest_ercot_obs * 1.15
         else:
-            e_mean = latest_ercot_obs + (_ercot_predict(gas_mean, yr) - ercot_base_pred)
+            e_normal = latest_ercot_obs + (_ercot_predict(gas_mean, yr) - ercot_base_pred)
             e_low = latest_ercot_obs + (_ercot_predict(gas_p10, yr) - ercot_base_pred)
             e_high = latest_ercot_obs + (_ercot_predict(gas_p90, yr) - ercot_base_pred)
+            # Apply regime weighting (unconditional expected value)
+            p_ng = mc_regime_fracs.get(str(yr), {}).get("ng_crisis", 0)
+            e_mean = e_normal + p_ng * ercot_crisis_shift
+            e_low = e_low + p_ng * ercot_crisis_shift
+            e_high = e_high + p_ng * ercot_crisis_shift
 
         ercot_proj[yr] = {
             "mean": round(max(0, e_mean), 2),
             "low": round(max(0, e_low), 2),
             "high": round(max(0, e_high), 2),
             "gas_component": round(ercot_model_coefs.get("henry_hub_spot", ercot_gas_passthrough) * gas_mean, 2),
+            "regime_fraction_ng_crisis": round(mc_regime_fracs.get(str(yr), {}).get("ng_crisis", 0), 4),
         }
 
         # CAISO: use step2b variant A (VIF-pruned baseline — most stable)
@@ -6567,10 +7332,10 @@ def step11_projection_map(reg_results, mc_results, evt_results, master, reg_v2=N
         if best_caiso_key:
             # Use step2b coefficients (with battery storage, curtailment, etc.)
             caiso_v2_coefs = reg_v2[best_caiso_key].get("coefficients", {})
-            # Validate: model MUST include henry_hub_spot for projection
+            # Validate: model MUST include california_citygate for projection
             # (VIF pruning may drop it with n=27, making model useless for forecasting)
-            if "henry_hub_spot" not in caiso_v2_coefs:
-                print(f"  WARNING: {best_caiso_key} dropped henry_hub_spot (VIF pruning) — falling back to step2 caiso_full")
+            if "california_citygate" not in caiso_v2_coefs:
+                print(f"  WARNING: {best_caiso_key} dropped california_citygate (VIF pruning) — falling back to step2 caiso_full")
                 best_caiso_key = None
         if best_caiso_key:
             caiso_v2_coefs = reg_v2[best_caiso_key].get("coefficients", {})
@@ -6583,7 +7348,7 @@ def step11_projection_map(reg_results, mc_results, evt_results, master, reg_v2=N
 
             # CAISO variable projections for each year
             caiso_var_proj = {
-                "henry_hub_spot": None,  # passed as argument
+                "california_citygate": None,  # passed as argument
                 "is_summer": 0.33,  # fallback if model still has is_summer
                 "is_winter": 0.25,  # fallback if model still has is_winter
                 "ca_hdd": ca_hdd_proj.get(yr, _hdd_cdd_avg.get("ca_hdd", 0)),
@@ -6618,7 +7383,7 @@ def step11_projection_map(reg_results, mc_results, evt_results, master, reg_v2=N
                     if var in ("const", "intercept"):
                         continue
                     coef = vdict.get("coefficient", 0) or 0
-                    if var == "henry_hub_spot":
+                    if var == "california_citygate":
                         pred += coef * gas_price
                     elif var in caiso_var_proj and caiso_var_proj[var] is not None:
                         pred += coef * caiso_var_proj[var]
@@ -6628,9 +7393,9 @@ def step11_projection_map(reg_results, mc_results, evt_results, master, reg_v2=N
                         pred += coef * val
                 return pred
 
-            c_mean = _caiso_predict(gas_mean)
-            c_low = _caiso_predict(gas_p10)
-            c_high = _caiso_predict(gas_p90)
+            c_mean = _caiso_predict(cg_mean)
+            c_low = _caiso_predict(cg_p10)
+            c_high = _caiso_predict(cg_p90)
         else:
             # Fallback to step2 caiso_full — use ALL coefficients dynamically
             caiso_full_coefs = reg_results.get("caiso_full", {}).get("coefficients", {})
@@ -6639,7 +7404,7 @@ def step11_projection_map(reg_results, mc_results, evt_results, master, reg_v2=N
             )
             # Use same projection dicts as step2b path for variable values
             caiso_s2_proj = {
-                "henry_hub_spot": None,  # passed as argument
+                "california_citygate": None,  # passed as argument
                 "is_summer": 0.33, "is_winter": 0.25,  # fallback for step2 model
                 "ca_hdd": ca_hdd_proj.get(yr, _hdd_cdd_avg.get("ca_hdd", 0)),
                 "ca_cdd": ca_cdd_proj.get(yr, _hdd_cdd_avg.get("ca_cdd", 0)),
@@ -6665,7 +7430,7 @@ def step11_projection_map(reg_results, mc_results, evt_results, master, reg_v2=N
                     if var in ("const", "intercept"):
                         continue
                     coef = vdict.get("coefficient", 0) or 0
-                    if var == "henry_hub_spot":
+                    if var == "california_citygate":
                         pred += coef * gas_price
                     elif var in caiso_s2_proj and caiso_s2_proj[var] is not None:
                         pred += coef * caiso_s2_proj[var]
@@ -6673,9 +7438,9 @@ def step11_projection_map(reg_results, mc_results, evt_results, master, reg_v2=N
                         pred += coef * float(latest_caiso_s2.get(var, 0))
                 return pred
 
-            c_mean = _caiso_s2_predict(gas_mean)
-            c_low = _caiso_s2_predict(gas_p10)
-            c_high = _caiso_s2_predict(gas_p90)
+            c_mean = _caiso_s2_predict(cg_mean)
+            c_low = _caiso_s2_predict(cg_p10)
+            c_high = _caiso_s2_predict(cg_p90)
 
         # CAISO: Delta method — project changes from observed
         # P_yr = P_obs + [f(X_yr, gas_yr) - f(X_2025, gas_2025)]
@@ -6692,15 +7457,15 @@ def step11_projection_map(reg_results, mc_results, evt_results, master, reg_v2=N
             c_high = latest_caiso_obs + (eq_c_high - caiso_base_pred)
 
         # Gas component: use the coefficient from whichever model produced the projection
-        if best_caiso_key and "henry_hub_spot" in caiso_v2_coefs:
-            _caiso_gas_coef = float(caiso_v2_coefs["henry_hub_spot"].get("coefficient", caiso_gas_passthrough) or caiso_gas_passthrough)
+        if best_caiso_key and "california_citygate" in caiso_v2_coefs:
+            _caiso_gas_coef = float(caiso_v2_coefs["california_citygate"].get("coefficient", caiso_gas_passthrough) or caiso_gas_passthrough)
         else:
             _caiso_gas_coef = caiso_gas_passthrough
         caiso_proj[yr] = {
             "mean": round(max(0, c_mean), 2),
             "low": round(max(0, c_low), 2),
             "high": round(max(0, c_high), 2),
-            "gas_component": round(_caiso_gas_coef * gas_mean, 2),
+            "gas_component": round(_caiso_gas_coef * cg_mean, 2),
             "source": best_caiso_key or "caiso_full",
         }
 
@@ -7050,6 +7815,12 @@ SATURATION_CONFIG = {
     "gas_x_ca_solar":          {"bounds": (-200, 200), "exponent": 1.0, "type": "bounded"},
     "post_ordc_x_henry":       {"bounds": (0, 30),    "exponent": 0.7, "type": "bounded"},
     "post_shale_x_henry":      {"bounds": (0, 30),    "exponent": 0.7, "type": "bounded"},
+    # Regime-switching variables (Change 7)
+    "california_citygate":     {"bounds": (0.5, 35),  "exponent": 0.7,  "type": "bounded"},
+    "ca_hydro_vs_normal_pct":  {"bounds": (20, 130),  "exponent": 1.0,  "type": "bounded"},
+    "is_ng_crisis":            {"bounds": (0, 1),     "exponent": 1.0,  "type": "binary"},
+    "is_caiso_heat_crisis":    {"bounds": (0, 1),     "exponent": 1.0,  "type": "binary"},
+    "citygate_x_heat_crisis":  {"bounds": (-200, 200), "exponent": 1.0, "type": "bounded"},
 }
 
 LAG_PROFILES = {
@@ -7117,7 +7888,7 @@ SEASONAL_AMPLIFICATION = {
     },
     "spring": {
         "ca_gas_gen_pct": 0.70, "ca_solar_gen_pct": 1.15,
-        "ca_caiso_demand_twh": 0.85, "henry_hub_spot": 0.90,
+        "ca_caiso_demand_twh": 0.85, "california_citygate": 0.90,
         "tx_wind_gen_pct": 1.10, "tx_gas_gen_pct": 0.95,
     },
     "fall": {
@@ -7408,9 +8179,11 @@ class CrossMarketTransmission:
 
 
 class ElectricityTransmission:
-    def __init__(self, ercot_model, caiso_model):
+    def __init__(self, ercot_model, caiso_model, regimes=None, base_pts=None):
         self.ercot = ercot_model
         self.caiso = caiso_model
+        self.regimes = regimes or REGIMES
+        self.base_pts = base_pts or {}
 
     def _get_coef(self, market, variable):
         model = self.ercot if market == "ercot" else self.caiso
@@ -7427,12 +8200,12 @@ class ElectricityTransmission:
         return c.get("std_error", 0) or 0
 
     def _regime_passthrough(self, base_gas, delta_gas, market):
-        gas_levels = sorted(REGIMES.values(), key=lambda r: r["hh_range"][0])
+        gas_levels = sorted(self.regimes.values(), key=lambda r: r["hh_range"][0])
         total_impact = 0
         remaining = delta_gas
         current = base_gas
         mult_key = "ercot_mult" if market == "ercot" else "caiso_mult"
-        base_pt = 41.33 if market == "ercot" else 14.19
+        base_pt = self.base_pts.get(market, 41.33 if market == "ercot" else 14.19)
 
         if delta_gas >= 0:
             for regime in gas_levels:
@@ -7477,8 +8250,8 @@ class ElectricityTransmission:
             ercot_direct = self._get_coef("ercot", variable) * eff_delta
             caiso_direct = self._get_coef("caiso", variable) * eff_delta
 
-        caiso_indirect += result.get("caiso_gas_competition_premium", 0) * 14.19
-        ercot_indirect += result.get("ercot_gas_competition_premium", 0) * 41.33
+        caiso_indirect += result.get("caiso_gas_competition_premium", 0) * self.base_pts.get("caiso", 14.19)
+        ercot_indirect += result.get("ercot_gas_competition_premium", 0) * self.base_pts.get("ercot", 41.33)
 
         ercot_direct_se = abs(self._get_se("ercot", variable) * eff_delta)
         caiso_direct_se = abs(self._get_se("caiso", variable) * eff_delta)
@@ -7643,22 +8416,25 @@ class UncertaintyQuantifier:
 # --- ShockPropagator ---
 
 class ShockPropagator:
-    def __init__(self, catalog, reg_results, mc_params, master):
+    def __init__(self, catalog, reg_results, mc_params, master, regimes=None, base_pts=None):
         self.catalog = catalog
         self.reg_results = reg_results
         cross_market_params = _calibrate_cross_market(reg_results, master)
         print(f"  Cross-market residual correlation: {cross_market_params['residual_correlation']:.4f} "
               f"(n={cross_market_params['n_common_observations']})")
         self.cross_market_params = cross_market_params
+        self.base_pts = base_pts or {}
+        _regimes = regimes or REGIMES
         self.stages = [
             SaturationFilter(catalog),
             LagFilter(VARIABLE_LAG_MAP, LAG_PROFILES),
             SeasonalFilter(SEASONAL_AMPLIFICATION),
-            RegimeDetector(REGIMES),
+            RegimeDetector(_regimes),
             GasTransmission(reg_results.get("hh_full", {})),
             CrossMarketTransmission(reg_results, cross_market_params),
             ElectricityTransmission(reg_results.get("ercot_full", {}),
-                                    reg_results.get("caiso_full", {})),
+                                    reg_results.get("caiso_full", {}),
+                                    regimes=_regimes, base_pts=base_pts),
             FeedbackAdjuster(FEEDBACK_RULES),
             UncertaintyQuantifier(reg_results, mc_params, master),
         ]
@@ -7683,8 +8459,8 @@ class ShockPropagator:
             hh_c = hh_coefs.get(variable, {}).get("coefficient", 0)
             dg = hh_c * delta
 
-        ercot_gas_pt = 41.33
-        caiso_gas_pt = 14.19
+        ercot_gas_pt = self.base_pts.get("ercot", 41.33) if hasattr(self, "base_pts") and self.base_pts else 41.33
+        caiso_gas_pt = self.base_pts.get("caiso", 14.19) if hasattr(self, "base_pts") and self.base_pts else 14.19
         ercot_indirect = dg * ercot_gas_pt
         caiso_indirect = dg * caiso_gas_pt
 
@@ -7930,15 +8706,82 @@ def _build_multi_shock_scenarios(propagator, catalog):
 
 # --- Step 12 orchestrator ---
 
-def step12_sensitivity_simulator(reg_results, master, mc_results):
+def step12_sensitivity_simulator(reg_results, master, mc_results, reg_v2=None):
     banner("STEP 12: Advanced Sensitivity Simulator — Nonlinear Shock Propagation")
 
     print("  Building variable catalog...")
     catalog = _build_variable_catalog(reg_results, master)
     print(f"  Catalog: {len(catalog)} variables across {len(set(v['category'] for v in catalog.values()))} categories")
 
+    # ── Compute data-estimated regime parameters from Variant H ──
+    data_regimes = dict(REGIMES)  # start with hardcoded defaults
+    ercot_base_pt = 41.33
+    caiso_base_pt = 14.19
+    if reg_v2 and isinstance(reg_v2, dict) and "regime_models" in reg_v2:
+        rm = reg_v2["regime_models"]
+        # ERCOT normal-regime gas passthrough (H1)
+        ercot_h1 = rm.get("ercot_H_normal", {})
+        if ercot_h1:
+            h1_coefs = ercot_h1.get("coefficients", {})
+            hh_v = h1_coefs.get("henry_hub_spot", {})
+            h1_pt = float(hh_v.get("coefficient", 0) or 0) if isinstance(hh_v, dict) else (float(hh_v) if hh_v else 0)
+            if h1_pt > 0:
+                ercot_base_pt = h1_pt
+
+        # ERCOT crisis multiplier from H2 interaction
+        ercot_h2 = rm.get("ercot_H_interaction", {})
+        ercot_crisis_mult = 1.0
+        if ercot_h2:
+            h2_coefs = ercot_h2.get("coefficients", {})
+            interact_v = h2_coefs.get("henry_hub_x_ng_crisis", {})
+            interact_delta = float(interact_v.get("coefficient", 0) or 0) if isinstance(interact_v, dict) else (float(interact_v) if interact_v else 0)
+            if ercot_base_pt > 0:
+                ercot_crisis_mult = max(0.5, (ercot_base_pt + interact_delta) / ercot_base_pt)
+
+        # CAISO normal-regime citygate passthrough (H1)
+        caiso_h1 = rm.get("caiso_H_normal", {})
+        if caiso_h1:
+            c_h1_coefs = caiso_h1.get("coefficients", {})
+            cg_v = c_h1_coefs.get("california_citygate", {})
+            c_h1_pt = float(cg_v.get("coefficient", 0) or 0) if isinstance(cg_v, dict) else (float(cg_v) if cg_v else 0)
+            if c_h1_pt > 0:
+                caiso_base_pt = c_h1_pt
+
+        # CAISO crisis multiplier from H2 interaction
+        caiso_h2 = rm.get("caiso_H_heat_interaction", {})
+        caiso_crisis_mult = 1.0
+        if caiso_h2:
+            c_h2_coefs = caiso_h2.get("coefficients", {})
+            c_interact_v = c_h2_coefs.get("citygate_x_heat_crisis", {})
+            c_interact_delta = float(c_interact_v.get("coefficient", 0) or 0) if isinstance(c_interact_v, dict) else (float(c_interact_v) if c_interact_v else 0)
+            if caiso_base_pt > 0:
+                caiso_crisis_mult = max(0.5, (caiso_base_pt + c_interact_delta) / caiso_base_pt)
+
+        # Crisis threshold: 25th percentile of gas prices during crisis months
+        crisis_threshold = 5.0
+        if master is not None and "is_ng_crisis" in master.columns and "henry_hub_spot" in master.columns:
+            crisis_prices = master.loc[master["is_ng_crisis"] == 1, "henry_hub_spot"].dropna()
+            if len(crisis_prices) > 5:
+                crisis_threshold = float(crisis_prices.quantile(0.25))
+                crisis_threshold = max(4.0, min(10.0, crisis_threshold))
+
+        data_regimes = {
+            "normal":    {"hh_range": (0, crisis_threshold), "ercot_mult": 1.0,
+                          "caiso_mult": 1.0, "label": "Normal"},
+            "ng_crisis": {"hh_range": (crisis_threshold, 999),
+                          "ercot_mult": round(ercot_crisis_mult, 3),
+                          "caiso_mult": round(caiso_crisis_mult, 3), "label": "NG Crisis"},
+        }
+        print(f"  Regime params (data-estimated from Variant H):")
+        print(f"    ERCOT base passthrough: ${ercot_base_pt:.2f}/MWh, crisis mult: {ercot_crisis_mult:.3f}x")
+        print(f"    CAISO base passthrough: ${caiso_base_pt:.2f}/MWh, crisis mult: {caiso_crisis_mult:.3f}x")
+        print(f"    Crisis threshold: ${crisis_threshold:.2f}/MMBtu")
+
+    base_pts = {"ercot": ercot_base_pt, "caiso": caiso_base_pt}
+
     print("  Initializing ShockPropagator (9-stage pipeline)...")
-    propagator = ShockPropagator(catalog, reg_results, mc_results, master)
+    propagator = ShockPropagator(catalog, reg_results, mc_results, master,
+                                 regimes=data_regimes, base_pts=base_pts)
 
     print("  Computing sensitivity matrix (linear + dynamic, ±1σ per variable)...")
     matrix = _compute_sensitivity_matrix(propagator, catalog)
@@ -7962,7 +8805,10 @@ def step12_sensitivity_simulator(reg_results, master, mc_results):
                 "RegimeDetector", "GasTransmission", "CrossMarketTransmission",
                 "ElectricityTransmission", "FeedbackAdjuster", "UncertaintyQuantifier",
             ],
-            "regimes": {k: v["label"] for k, v in REGIMES.items()},
+            "regimes": {k: {"label": v["label"], "ercot_mult": v["ercot_mult"],
+                            "caiso_mult": v["caiso_mult"]}
+                        for k, v in data_regimes.items()},
+            "base_passthroughs": base_pts,
             "cross_market": propagator.cross_market_params,
             "model_stats": {
                 "hh_full": {"r2": reg_results.get("hh_full", {}).get("r_squared"),
@@ -8317,7 +9163,7 @@ def main():
     # Step 12: Use enhanced models if available
     # Merge best variant results into reg for Step 12 consumption
     reg_for_12 = _merge_enhanced_into_reg(reg, reg_v2, diag)
-    step12_sensitivity_simulator(reg_for_12, master_v8, mc)
+    step12_sensitivity_simulator(reg_for_12, master_v8, mc, reg_v2=reg_v2)
 
     # Step 13: Model diagnostics report
     step13_model_diagnostics(reg_v2, diag, master_v8)

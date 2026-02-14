@@ -2,7 +2,7 @@
   "metadata": {
     "name": "DecarbIQ Sensitivity Analysis",
     "version": "1.0",
-    "created": "2026-02-13 20:22",
+    "created": "2026-02-14 16:04",
     "pipeline_stages": [
       "SaturationFilter",
       "LagFilter",
@@ -15,12 +15,23 @@
       "UncertaintyQuantifier"
     ],
     "regimes": {
-      "normal": "Normal",
-      "elevated": "Elevated",
-      "crisis": "Crisis"
+      "normal": {
+        "label": "Normal",
+        "ercot_mult": 1.0,
+        "caiso_mult": 1.0
+      },
+      "ng_crisis": {
+        "label": "NG Crisis",
+        "ercot_mult": 1.0,
+        "caiso_mult": 4.206
+      }
+    },
+    "base_passthroughs": {
+      "ercot": 6.358463679492865,
+      "caiso": 3.2405362128484896
     },
     "cross_market": {
-      "residual_correlation": -0.0921,
+      "residual_correlation": 0.0142,
       "raw_price_correlation": 0.08,
       "n_common_observations": 75,
       "gas_competition_factor": 0.05,
@@ -36,23 +47,12 @@
         "n": 107
       },
       "caiso_full": {
-        "r2": 0.6990533208251577,
+        "r2": 0.7708161208072011,
         "n": 75
       }
     }
   },
   "variable_catalog": {
-    "ca_allowance_price_per_ton": {
-      "baseline_mean": 8.6271,
-      "baseline_std": 10.8103,
-      "sigma_1": 10.8103,
-      "category": "other",
-      "unit": "$/ton",
-      "models": [
-        "caiso_full"
-      ],
-      "lag_class": "slow"
-    },
     "ca_caiso_demand_twh": {
       "baseline_mean": 255.8214,
       "baseline_std": 26.0732,
@@ -75,16 +75,16 @@
       ],
       "lag_class": "fast"
     },
-    "ca_dc_x_solar": {
-      "baseline_mean": 16.6311,
-      "baseline_std": 40.5933,
-      "sigma_1": 40.5933,
+    "ca_gdp_growth_pct": {
+      "baseline_mean": 5.1286,
+      "baseline_std": 4.0183,
+      "sigma_1": 4.0183,
       "category": "other",
-      "unit": "interaction",
+      "unit": "",
       "models": [
         "caiso_full"
       ],
-      "lag_class": "medium"
+      "lag_class": "fast"
     },
     "ca_hdd": {
       "baseline_mean": 283.4375,
@@ -152,6 +152,17 @@
       ],
       "lag_class": "slow"
     },
+    "california_citygate": {
+      "baseline_mean": 4.6321,
+      "baseline_std": 2.443,
+      "sigma_1": 2.443,
+      "category": "other",
+      "unit": "",
+      "models": [
+        "caiso_full"
+      ],
+      "lag_class": "fast"
+    },
     "electric_power_bcfd": {
       "baseline_mean": 21.4009,
       "baseline_std": 8.6045,
@@ -203,8 +214,7 @@
       "category": "commodity",
       "unit": "$/MMBtu",
       "models": [
-        "ercot_full",
-        "caiso_full"
+        "ercot_full"
       ],
       "lag_class": "instant"
     },
@@ -262,7 +272,8 @@
       "category": "policy",
       "unit": "\u00a2/kWh",
       "models": [
-        "hh_full"
+        "hh_full",
+        "caiso_full"
       ],
       "lag_class": "medium"
     },
@@ -356,128 +367,6 @@
     }
   },
   "sensitivity_matrix": {
-    "ca_allowance_price_per_ton__plus_1sigma": {
-      "variable": "ca_allowance_price_per_ton",
-      "direction": "plus_1sigma",
-      "delta_input": 10.8103,
-      "category": "other",
-      "linear": {
-        "delta_gas": 0.0,
-        "delta_ercot": 0.0,
-        "delta_caiso": 28.46
-      },
-      "dynamic": {
-        "delta_gas": 0.0,
-        "delta_ercot": 0.0,
-        "delta_caiso": 18.5,
-        "regime_before": "normal",
-        "regime_after": "normal",
-        "lag_fraction": 0.65,
-        "seasonal_multiplier": 1.0,
-        "feedback_applied": [],
-        "confidence_intervals": {
-          "gas_price": {
-            "point_estimate": 0.0,
-            "se": 0.9743,
-            "ci_90": [
-              -1.6,
-              1.6
-            ],
-            "ci_95": [
-              -1.91,
-              1.91
-            ]
-          },
-          "ercot_wholesale": {
-            "point_estimate": 0.0,
-            "se": 2.64,
-            "ci_90": [
-              -4.35,
-              4.35
-            ],
-            "ci_95": [
-              -5.18,
-              5.18
-            ]
-          },
-          "caiso_wholesale": {
-            "point_estimate": 18.5,
-            "se": 14.17,
-            "ci_90": [
-              -4.81,
-              41.81
-            ],
-            "ci_95": [
-              -9.27,
-              46.27
-            ]
-          },
-          "joint_system_se": 14.17
-        },
-        "data_quality_flags": []
-      }
-    },
-    "ca_allowance_price_per_ton__minus_1sigma": {
-      "variable": "ca_allowance_price_per_ton",
-      "direction": "minus_1sigma",
-      "delta_input": -10.8103,
-      "category": "other",
-      "linear": {
-        "delta_gas": -0.0,
-        "delta_ercot": -0.0,
-        "delta_caiso": -28.46
-      },
-      "dynamic": {
-        "delta_gas": 0.0,
-        "delta_ercot": 0.0,
-        "delta_caiso": 2.35,
-        "regime_before": "normal",
-        "regime_after": "normal",
-        "lag_fraction": 0.65,
-        "seasonal_multiplier": 1.0,
-        "feedback_applied": [],
-        "confidence_intervals": {
-          "gas_price": {
-            "point_estimate": 0.0,
-            "se": 0.9743,
-            "ci_90": [
-              -1.6,
-              1.6
-            ],
-            "ci_95": [
-              -1.91,
-              1.91
-            ]
-          },
-          "ercot_wholesale": {
-            "point_estimate": 0.0,
-            "se": 2.64,
-            "ci_90": [
-              -4.35,
-              4.35
-            ],
-            "ci_95": [
-              -5.18,
-              5.18
-            ]
-          },
-          "caiso_wholesale": {
-            "point_estimate": 2.35,
-            "se": 13.76,
-            "ci_90": [
-              -20.29,
-              24.99
-            ],
-            "ci_95": [
-              -24.63,
-              29.32
-            ]
-          },
-          "joint_system_se": 13.77
-        },
-        "data_quality_flags": []
-      }
-    },
     "ca_caiso_demand_twh__plus_1sigma": {
       "variable": "ca_caiso_demand_twh",
       "direction": "plus_1sigma",
@@ -486,14 +375,14 @@
       "linear": {
         "delta_gas": 0.0,
         "delta_ercot": 0.0,
-        "delta_caiso": 3.85
+        "delta_caiso": -1.73
       },
       "dynamic": {
         "delta_gas": 0.0,
         "delta_ercot": 0.0,
-        "delta_caiso": 4.62,
-        "regime_before": "normal",
-        "regime_after": "normal",
+        "delta_caiso": -2.08,
+        "regime_before": "ng_crisis",
+        "regime_after": "ng_crisis",
         "lag_fraction": 1.0,
         "seasonal_multiplier": 1.2,
         "feedback_applied": [],
@@ -523,20 +412,22 @@
             ]
           },
           "caiso_wholesale": {
-            "point_estimate": 4.62,
-            "se": 13.93,
+            "point_estimate": -2.08,
+            "se": 12.26,
             "ci_90": [
-              -18.3,
-              27.53
+              -22.25,
+              18.09
             ],
             "ci_95": [
-              -22.68,
-              31.92
+              -26.12,
+              21.96
             ]
           },
-          "joint_system_se": 13.94
+          "joint_system_se": 12.58
         },
-        "data_quality_flags": []
+        "data_quality_flags": [
+          "ca_caiso_demand_twh NOT significant in caiso_full (p=0.40977635760904363)"
+        ]
       }
     },
     "ca_caiso_demand_twh__minus_1sigma": {
@@ -547,14 +438,14 @@
       "linear": {
         "delta_gas": -0.0,
         "delta_ercot": -0.0,
-        "delta_caiso": -3.85
+        "delta_caiso": 1.73
       },
       "dynamic": {
         "delta_gas": -0.0,
         "delta_ercot": 0.0,
-        "delta_caiso": -4.62,
-        "regime_before": "normal",
-        "regime_after": "normal",
+        "delta_caiso": 2.08,
+        "regime_before": "ng_crisis",
+        "regime_after": "ng_crisis",
         "lag_fraction": 1.0,
         "seasonal_multiplier": 1.2,
         "feedback_applied": [],
@@ -584,20 +475,22 @@
             ]
           },
           "caiso_wholesale": {
-            "point_estimate": -4.62,
-            "se": 13.93,
+            "point_estimate": 2.08,
+            "se": 12.26,
             "ci_90": [
-              -27.53,
-              18.3
+              -18.09,
+              22.25
             ],
             "ci_95": [
-              -31.92,
-              22.68
+              -21.96,
+              26.12
             ]
           },
-          "joint_system_se": 13.94
+          "joint_system_se": 12.58
         },
-        "data_quality_flags": []
+        "data_quality_flags": [
+          "ca_caiso_demand_twh NOT significant in caiso_full (p=0.40977635760904363)"
+        ]
       }
     },
     "ca_cdd__plus_1sigma": {
@@ -608,14 +501,14 @@
       "linear": {
         "delta_gas": 0.0,
         "delta_ercot": 0.0,
-        "delta_caiso": 7.37
+        "delta_caiso": 5.2
       },
       "dynamic": {
         "delta_gas": 0.0,
         "delta_ercot": 0.0,
-        "delta_caiso": 7.37,
-        "regime_before": "normal",
-        "regime_after": "normal",
+        "delta_caiso": 5.2,
+        "regime_before": "ng_crisis",
+        "regime_after": "ng_crisis",
         "lag_fraction": 1.0,
         "seasonal_multiplier": 1.0,
         "feedback_applied": [],
@@ -645,18 +538,18 @@
             ]
           },
           "caiso_wholesale": {
-            "point_estimate": 7.37,
-            "se": 14.05,
+            "point_estimate": 5.2,
+            "se": 12.26,
             "ci_90": [
-              -15.74,
-              30.49
+              -14.97,
+              25.37
             ],
             "ci_95": [
-              -20.17,
-              34.91
+              -18.84,
+              29.24
             ]
           },
-          "joint_system_se": 14.06
+          "joint_system_se": 12.58
         },
         "data_quality_flags": []
       }
@@ -669,14 +562,14 @@
       "linear": {
         "delta_gas": -0.0,
         "delta_ercot": -0.0,
-        "delta_caiso": -7.37
+        "delta_caiso": -5.2
       },
       "dynamic": {
         "delta_gas": -0.0,
         "delta_ercot": 0.0,
-        "delta_caiso": -7.37,
-        "regime_before": "normal",
-        "regime_after": "normal",
+        "delta_caiso": -5.2,
+        "regime_before": "ng_crisis",
+        "regime_after": "ng_crisis",
         "lag_fraction": 1.0,
         "seasonal_multiplier": 1.0,
         "feedback_applied": [],
@@ -706,38 +599,38 @@
             ]
           },
           "caiso_wholesale": {
-            "point_estimate": -7.37,
-            "se": 14.05,
+            "point_estimate": -5.2,
+            "se": 12.26,
             "ci_90": [
-              -30.49,
-              15.74
+              -25.37,
+              14.97
             ],
             "ci_95": [
-              -34.91,
-              20.17
+              -29.24,
+              18.84
             ]
           },
-          "joint_system_se": 14.06
+          "joint_system_se": 12.58
         },
         "data_quality_flags": []
       }
     },
-    "ca_dc_x_solar__plus_1sigma": {
-      "variable": "ca_dc_x_solar",
+    "ca_gdp_growth_pct__plus_1sigma": {
+      "variable": "ca_gdp_growth_pct",
       "direction": "plus_1sigma",
-      "delta_input": 40.5933,
+      "delta_input": 4.0183,
       "category": "other",
       "linear": {
         "delta_gas": 0.0,
         "delta_ercot": 0.0,
-        "delta_caiso": -9.21
+        "delta_caiso": 2.2
       },
       "dynamic": {
         "delta_gas": 0.0,
         "delta_ercot": 0.0,
-        "delta_caiso": -9.21,
-        "regime_before": "normal",
-        "regime_after": "normal",
+        "delta_caiso": 2.2,
+        "regime_before": "ng_crisis",
+        "regime_after": "ng_crisis",
         "lag_fraction": 1.0,
         "seasonal_multiplier": 1.0,
         "feedback_applied": [],
@@ -767,38 +660,40 @@
             ]
           },
           "caiso_wholesale": {
-            "point_estimate": -9.21,
-            "se": 13.92,
+            "point_estimate": 2.2,
+            "se": 12.06,
             "ci_90": [
-              -32.11,
-              13.69
+              -17.64,
+              22.03
             ],
             "ci_95": [
-              -36.49,
-              18.08
+              -21.44,
+              25.83
             ]
           },
-          "joint_system_se": 13.93
+          "joint_system_se": 12.38
         },
-        "data_quality_flags": []
+        "data_quality_flags": [
+          "ca_gdp_growth_pct NOT significant in caiso_full (p=0.06305282443729365)"
+        ]
       }
     },
-    "ca_dc_x_solar__minus_1sigma": {
-      "variable": "ca_dc_x_solar",
+    "ca_gdp_growth_pct__minus_1sigma": {
+      "variable": "ca_gdp_growth_pct",
       "direction": "minus_1sigma",
-      "delta_input": -40.5933,
+      "delta_input": -4.0183,
       "category": "other",
       "linear": {
         "delta_gas": -0.0,
         "delta_ercot": -0.0,
-        "delta_caiso": 9.21
+        "delta_caiso": -2.2
       },
       "dynamic": {
         "delta_gas": -0.0,
         "delta_ercot": 0.0,
-        "delta_caiso": 9.21,
-        "regime_before": "normal",
-        "regime_after": "normal",
+        "delta_caiso": -2.2,
+        "regime_before": "ng_crisis",
+        "regime_after": "ng_crisis",
         "lag_fraction": 1.0,
         "seasonal_multiplier": 1.0,
         "feedback_applied": [],
@@ -828,20 +723,22 @@
             ]
           },
           "caiso_wholesale": {
-            "point_estimate": 9.21,
-            "se": 13.92,
+            "point_estimate": -2.2,
+            "se": 12.06,
             "ci_90": [
-              -13.69,
-              32.11
+              -22.03,
+              17.64
             ],
             "ci_95": [
-              -18.08,
-              36.49
+              -25.83,
+              21.44
             ]
           },
-          "joint_system_se": 13.93
+          "joint_system_se": 12.38
         },
-        "data_quality_flags": []
+        "data_quality_flags": [
+          "ca_gdp_growth_pct NOT significant in caiso_full (p=0.06305282443729365)"
+        ]
       }
     },
     "ca_hdd__plus_1sigma": {
@@ -852,14 +749,14 @@
       "linear": {
         "delta_gas": 0.0,
         "delta_ercot": 0.0,
-        "delta_caiso": 6.94
+        "delta_caiso": 2.51
       },
       "dynamic": {
         "delta_gas": 0.0,
         "delta_ercot": 0.0,
-        "delta_caiso": 6.94,
-        "regime_before": "normal",
-        "regime_after": "normal",
+        "delta_caiso": 2.51,
+        "regime_before": "ng_crisis",
+        "regime_after": "ng_crisis",
         "lag_fraction": 1.0,
         "seasonal_multiplier": 1.0,
         "feedback_applied": [],
@@ -889,20 +786,22 @@
             ]
           },
           "caiso_wholesale": {
-            "point_estimate": 6.94,
-            "se": 14.17,
+            "point_estimate": 2.51,
+            "se": 12.39,
             "ci_90": [
-              -16.38,
-              30.26
+              -17.87,
+              22.89
             ],
             "ci_95": [
-              -20.84,
-              34.72
+              -21.77,
+              26.8
             ]
           },
-          "joint_system_se": 14.18
+          "joint_system_se": 12.71
         },
-        "data_quality_flags": []
+        "data_quality_flags": [
+          "ca_hdd NOT significant in caiso_full (p=0.4158545941747358)"
+        ]
       }
     },
     "ca_hdd__minus_1sigma": {
@@ -913,14 +812,14 @@
       "linear": {
         "delta_gas": -0.0,
         "delta_ercot": -0.0,
-        "delta_caiso": -6.94
+        "delta_caiso": -2.51
       },
       "dynamic": {
         "delta_gas": -0.0,
         "delta_ercot": 0.0,
-        "delta_caiso": -6.94,
-        "regime_before": "normal",
-        "regime_after": "normal",
+        "delta_caiso": -2.51,
+        "regime_before": "ng_crisis",
+        "regime_after": "ng_crisis",
         "lag_fraction": 1.0,
         "seasonal_multiplier": 1.0,
         "feedback_applied": [],
@@ -950,20 +849,22 @@
             ]
           },
           "caiso_wholesale": {
-            "point_estimate": -6.94,
-            "se": 14.17,
+            "point_estimate": -2.51,
+            "se": 12.39,
             "ci_90": [
-              -30.26,
-              16.38
+              -22.89,
+              17.87
             ],
             "ci_95": [
-              -34.72,
-              20.84
+              -26.8,
+              21.77
             ]
           },
-          "joint_system_se": 14.18
+          "joint_system_se": 12.71
         },
-        "data_quality_flags": []
+        "data_quality_flags": [
+          "ca_hdd NOT significant in caiso_full (p=0.4158545941747358)"
+        ]
       }
     },
     "ca_rps_target_pct__plus_1sigma": {
@@ -974,14 +875,14 @@
       "linear": {
         "delta_gas": 0.0,
         "delta_ercot": 0.0,
-        "delta_caiso": -23.56
+        "delta_caiso": 13.74
       },
       "dynamic": {
         "delta_gas": 0.0,
         "delta_ercot": 0.0,
-        "delta_caiso": -15.31,
-        "regime_before": "normal",
-        "regime_after": "normal",
+        "delta_caiso": 8.93,
+        "regime_before": "ng_crisis",
+        "regime_after": "ng_crisis",
         "lag_fraction": 0.65,
         "seasonal_multiplier": 1.0,
         "feedback_applied": [
@@ -1020,21 +921,22 @@
             ]
           },
           "caiso_wholesale": {
-            "point_estimate": -15.31,
-            "se": 14.78,
+            "point_estimate": 8.93,
+            "se": 12.86,
             "ci_90": [
-              -39.63,
-              9.01
+              -12.22,
+              30.08
             ],
             "ci_95": [
-              -44.29,
-              13.67
+              -16.27,
+              34.13
             ]
           },
-          "joint_system_se": 14.78
+          "joint_system_se": 13.16
         },
         "data_quality_flags": [
-          "Feedback 'policy_stabilizer' uses estimated strength (data_quality=low)"
+          "Feedback 'policy_stabilizer' uses estimated strength (data_quality=low)",
+          "ca_rps_target_pct NOT significant in caiso_full (p=0.0573416534978306)"
         ]
       }
     },
@@ -1046,14 +948,14 @@
       "linear": {
         "delta_gas": -0.0,
         "delta_ercot": -0.0,
-        "delta_caiso": 23.56
+        "delta_caiso": -13.74
       },
       "dynamic": {
         "delta_gas": -0.0,
         "delta_ercot": 0.0,
-        "delta_caiso": 15.31,
-        "regime_before": "normal",
-        "regime_after": "normal",
+        "delta_caiso": -8.93,
+        "regime_before": "ng_crisis",
+        "regime_after": "ng_crisis",
         "lag_fraction": 0.65,
         "seasonal_multiplier": 1.0,
         "feedback_applied": [
@@ -1092,21 +994,22 @@
             ]
           },
           "caiso_wholesale": {
-            "point_estimate": 15.31,
-            "se": 14.78,
+            "point_estimate": -8.93,
+            "se": 12.86,
             "ci_90": [
-              -9.01,
-              39.63
+              -30.08,
+              12.22
             ],
             "ci_95": [
-              -13.67,
-              44.29
+              -34.13,
+              16.27
             ]
           },
-          "joint_system_se": 14.78
+          "joint_system_se": 13.16
         },
         "data_quality_flags": [
-          "Feedback 'policy_stabilizer' uses estimated strength (data_quality=low)"
+          "Feedback 'policy_stabilizer' uses estimated strength (data_quality=low)",
+          "ca_rps_target_pct NOT significant in caiso_full (p=0.0573416534978306)"
         ]
       }
     },
@@ -1118,14 +1021,14 @@
       "linear": {
         "delta_gas": 0.0,
         "delta_ercot": 0.0,
-        "delta_caiso": -1.8
+        "delta_caiso": -6.56
       },
       "dynamic": {
         "delta_gas": 0.0,
         "delta_ercot": 0.0,
-        "delta_caiso": -1.8,
-        "regime_before": "normal",
-        "regime_after": "normal",
+        "delta_caiso": -6.56,
+        "regime_before": "ng_crisis",
+        "regime_after": "ng_crisis",
         "lag_fraction": 1.0,
         "seasonal_multiplier": 1.0,
         "feedback_applied": [],
@@ -1155,22 +1058,20 @@
             ]
           },
           "caiso_wholesale": {
-            "point_estimate": -1.8,
-            "se": 14.12,
+            "point_estimate": -6.56,
+            "se": 12.33,
             "ci_90": [
-              -25.02,
-              21.42
+              -26.84,
+              13.72
             ],
             "ci_95": [
-              -29.47,
-              25.87
+              -30.73,
+              17.61
             ]
           },
-          "joint_system_se": 14.12
+          "joint_system_se": 12.65
         },
-        "data_quality_flags": [
-          "ca_wind_gen_pct NOT significant in caiso_full (p=0.5726022852242849)"
-        ]
+        "data_quality_flags": []
       }
     },
     "ca_wind_gen_pct__minus_1sigma": {
@@ -1181,14 +1082,14 @@
       "linear": {
         "delta_gas": -0.0,
         "delta_ercot": -0.0,
-        "delta_caiso": 1.8
+        "delta_caiso": 6.56
       },
       "dynamic": {
         "delta_gas": -0.0,
         "delta_ercot": 0.0,
-        "delta_caiso": 1.8,
-        "regime_before": "normal",
-        "regime_after": "normal",
+        "delta_caiso": 6.56,
+        "regime_before": "ng_crisis",
+        "regime_after": "ng_crisis",
         "lag_fraction": 1.0,
         "seasonal_multiplier": 1.0,
         "feedback_applied": [],
@@ -1218,22 +1119,20 @@
             ]
           },
           "caiso_wholesale": {
-            "point_estimate": 1.8,
-            "se": 14.12,
+            "point_estimate": 6.56,
+            "se": 12.33,
             "ci_90": [
-              -21.42,
-              25.02
+              -13.72,
+              26.84
             ],
             "ci_95": [
-              -25.87,
-              29.47
+              -17.61,
+              30.73
             ]
           },
-          "joint_system_se": 14.12
+          "joint_system_se": 12.65
         },
-        "data_quality_flags": [
-          "ca_wind_gen_pct NOT significant in caiso_full (p=0.5726022852242849)"
-        ]
+        "data_quality_flags": []
       }
     },
     "caiso_monthly_congestion_avg__plus_1sigma": {
@@ -1244,14 +1143,14 @@
       "linear": {
         "delta_gas": 0.0,
         "delta_ercot": 0.0,
-        "delta_caiso": 3.79
+        "delta_caiso": 6.12
       },
       "dynamic": {
         "delta_gas": 0.0,
         "delta_ercot": 0.0,
-        "delta_caiso": 3.79,
-        "regime_before": "normal",
-        "regime_after": "normal",
+        "delta_caiso": 6.12,
+        "regime_before": "ng_crisis",
+        "regime_after": "ng_crisis",
         "lag_fraction": 1.0,
         "seasonal_multiplier": 1.0,
         "feedback_applied": [],
@@ -1281,22 +1180,20 @@
             ]
           },
           "caiso_wholesale": {
-            "point_estimate": 3.79,
-            "se": 13.95,
+            "point_estimate": 6.12,
+            "se": 12.13,
             "ci_90": [
-              -19.16,
-              26.74
+              -13.83,
+              26.08
             ],
             "ci_95": [
-              -23.56,
-              31.14
+              -17.66,
+              29.9
             ]
           },
-          "joint_system_se": 13.96
+          "joint_system_se": 12.45
         },
-        "data_quality_flags": [
-          "caiso_monthly_congestion_avg NOT significant in caiso_full (p=0.1093045156976653)"
-        ]
+        "data_quality_flags": []
       }
     },
     "caiso_monthly_congestion_avg__minus_1sigma": {
@@ -1307,14 +1204,14 @@
       "linear": {
         "delta_gas": -0.0,
         "delta_ercot": -0.0,
-        "delta_caiso": -3.79
+        "delta_caiso": -6.12
       },
       "dynamic": {
         "delta_gas": -0.0,
         "delta_ercot": 0.0,
-        "delta_caiso": -3.52,
-        "regime_before": "normal",
-        "regime_after": "normal",
+        "delta_caiso": -5.69,
+        "regime_before": "ng_crisis",
+        "regime_after": "ng_crisis",
         "lag_fraction": 1.0,
         "seasonal_multiplier": 1.0,
         "feedback_applied": [],
@@ -1344,22 +1241,20 @@
             ]
           },
           "caiso_wholesale": {
-            "point_estimate": -3.52,
-            "se": 13.93,
+            "point_estimate": -5.69,
+            "se": 12.11,
             "ci_90": [
-              -26.43,
-              19.38
+              -25.62,
+              14.24
             ],
             "ci_95": [
-              -30.82,
-              23.77
+              -29.44,
+              18.05
             ]
           },
-          "joint_system_se": 13.93
+          "joint_system_se": 12.44
         },
-        "data_quality_flags": [
-          "caiso_monthly_congestion_avg NOT significant in caiso_full (p=0.1093045156976653)"
-        ]
+        "data_quality_flags": []
       }
     },
     "caiso_monthly_negative_hours__plus_1sigma": {
@@ -1370,14 +1265,14 @@
       "linear": {
         "delta_gas": 0.0,
         "delta_ercot": 0.0,
-        "delta_caiso": -1.53
+        "delta_caiso": 0.83
       },
       "dynamic": {
         "delta_gas": 0.0,
         "delta_ercot": 0.0,
-        "delta_caiso": -0.34,
-        "regime_before": "normal",
-        "regime_after": "normal",
+        "delta_caiso": 0.18,
+        "regime_before": "ng_crisis",
+        "regime_after": "ng_crisis",
         "lag_fraction": 1.0,
         "seasonal_multiplier": 1.0,
         "feedback_applied": [],
@@ -1407,21 +1302,21 @@
             ]
           },
           "caiso_wholesale": {
-            "point_estimate": -0.34,
-            "se": 13.76,
+            "point_estimate": 0.18,
+            "se": 12.01,
             "ci_90": [
-              -22.97,
-              22.3
+              -19.57,
+              19.93
             ],
             "ci_95": [
-              -27.3,
-              26.63
+              -23.35,
+              23.71
             ]
           },
-          "joint_system_se": 13.77
+          "joint_system_se": 12.33
         },
         "data_quality_flags": [
-          "caiso_monthly_negative_hours NOT significant in caiso_full (p=0.22382197821954075)"
+          "caiso_monthly_negative_hours NOT significant in caiso_full (p=0.4056764944119111)"
         ]
       }
     },
@@ -1433,14 +1328,14 @@
       "linear": {
         "delta_gas": -0.0,
         "delta_ercot": -0.0,
-        "delta_caiso": 1.53
+        "delta_caiso": -0.83
       },
       "dynamic": {
         "delta_gas": -0.0,
         "delta_ercot": 0.0,
-        "delta_caiso": 0.42,
-        "regime_before": "normal",
-        "regime_after": "normal",
+        "delta_caiso": -0.23,
+        "regime_before": "ng_crisis",
+        "regime_after": "ng_crisis",
         "lag_fraction": 1.0,
         "seasonal_multiplier": 1.0,
         "feedback_applied": [],
@@ -1470,21 +1365,21 @@
             ]
           },
           "caiso_wholesale": {
-            "point_estimate": 0.42,
-            "se": 13.76,
+            "point_estimate": -0.23,
+            "se": 12.01,
             "ci_90": [
-              -22.22,
-              23.06
+              -19.98,
+              19.53
             ],
             "ci_95": [
-              -26.55,
-              27.39
+              -23.76,
+              23.31
             ]
           },
-          "joint_system_se": 13.77
+          "joint_system_se": 12.33
         },
         "data_quality_flags": [
-          "caiso_monthly_negative_hours NOT significant in caiso_full (p=0.22382197821954075)"
+          "caiso_monthly_negative_hours NOT significant in caiso_full (p=0.4056764944119111)"
         ]
       }
     },
@@ -1496,14 +1391,14 @@
       "linear": {
         "delta_gas": 0.0,
         "delta_ercot": 0.0,
-        "delta_caiso": -1.18
+        "delta_caiso": -1.92
       },
       "dynamic": {
         "delta_gas": 0.0,
         "delta_ercot": 0.0,
-        "delta_caiso": -0.77,
-        "regime_before": "normal",
-        "regime_after": "normal",
+        "delta_caiso": -1.25,
+        "regime_before": "ng_crisis",
+        "regime_after": "ng_crisis",
         "lag_fraction": 0.65,
         "seasonal_multiplier": 1.0,
         "feedback_applied": [],
@@ -1533,21 +1428,21 @@
             ]
           },
           "caiso_wholesale": {
-            "point_estimate": -0.77,
-            "se": 13.85,
+            "point_estimate": -1.25,
+            "se": 12.08,
             "ci_90": [
-              -23.55,
-              22.01
+              -21.12,
+              18.62
             ],
             "ci_95": [
-              -27.91,
-              26.38
+              -24.92,
+              22.43
             ]
           },
-          "joint_system_se": 13.86
+          "joint_system_se": 12.4
         },
         "data_quality_flags": [
-          "caiso_total_curtail_gwh NOT significant in caiso_full (p=0.6339296636056204)"
+          "caiso_total_curtail_gwh NOT significant in caiso_full (p=0.3590621701719252)"
         ]
       }
     },
@@ -1559,14 +1454,14 @@
       "linear": {
         "delta_gas": -0.0,
         "delta_ercot": -0.0,
-        "delta_caiso": 1.18
+        "delta_caiso": 1.92
       },
       "dynamic": {
         "delta_gas": -0.0,
         "delta_ercot": 0.0,
-        "delta_caiso": 0.52,
-        "regime_before": "normal",
-        "regime_after": "normal",
+        "delta_caiso": 0.84,
+        "regime_before": "ng_crisis",
+        "regime_after": "ng_crisis",
         "lag_fraction": 0.65,
         "seasonal_multiplier": 1.0,
         "feedback_applied": [],
@@ -1596,22 +1491,144 @@
             ]
           },
           "caiso_wholesale": {
-            "point_estimate": 0.52,
-            "se": 13.8,
+            "point_estimate": 0.84,
+            "se": 12.04,
             "ci_90": [
-              -22.18,
-              23.22
+              -18.96,
+              20.65
             ],
             "ci_95": [
-              -26.53,
-              27.56
+              -22.75,
+              24.44
             ]
           },
-          "joint_system_se": 13.81
+          "joint_system_se": 12.36
         },
         "data_quality_flags": [
-          "caiso_total_curtail_gwh NOT significant in caiso_full (p=0.6339296636056204)"
+          "caiso_total_curtail_gwh NOT significant in caiso_full (p=0.3590621701719252)"
         ]
+      }
+    },
+    "california_citygate__plus_1sigma": {
+      "variable": "california_citygate",
+      "direction": "plus_1sigma",
+      "delta_input": 2.443,
+      "category": "other",
+      "linear": {
+        "delta_gas": 0.0,
+        "delta_ercot": 0.0,
+        "delta_caiso": 9.41
+      },
+      "dynamic": {
+        "delta_gas": 0.0,
+        "delta_ercot": 0.0,
+        "delta_caiso": 9.41,
+        "regime_before": "ng_crisis",
+        "regime_after": "ng_crisis",
+        "lag_fraction": 1.0,
+        "seasonal_multiplier": 1.0,
+        "feedback_applied": [],
+        "confidence_intervals": {
+          "gas_price": {
+            "point_estimate": 0.0,
+            "se": 0.9743,
+            "ci_90": [
+              -1.6,
+              1.6
+            ],
+            "ci_95": [
+              -1.91,
+              1.91
+            ]
+          },
+          "ercot_wholesale": {
+            "point_estimate": 0.0,
+            "se": 2.64,
+            "ci_90": [
+              -4.35,
+              4.35
+            ],
+            "ci_95": [
+              -5.18,
+              5.18
+            ]
+          },
+          "caiso_wholesale": {
+            "point_estimate": 9.41,
+            "se": 12.07,
+            "ci_90": [
+              -10.45,
+              29.26
+            ],
+            "ci_95": [
+              -14.25,
+              33.06
+            ]
+          },
+          "joint_system_se": 12.39
+        },
+        "data_quality_flags": []
+      }
+    },
+    "california_citygate__minus_1sigma": {
+      "variable": "california_citygate",
+      "direction": "minus_1sigma",
+      "delta_input": -2.443,
+      "category": "other",
+      "linear": {
+        "delta_gas": -0.0,
+        "delta_ercot": -0.0,
+        "delta_caiso": -9.41
+      },
+      "dynamic": {
+        "delta_gas": -0.0,
+        "delta_ercot": 0.0,
+        "delta_caiso": -9.41,
+        "regime_before": "ng_crisis",
+        "regime_after": "ng_crisis",
+        "lag_fraction": 1.0,
+        "seasonal_multiplier": 1.0,
+        "feedback_applied": [],
+        "confidence_intervals": {
+          "gas_price": {
+            "point_estimate": -0.0,
+            "se": 0.9743,
+            "ci_90": [
+              -1.6,
+              1.6
+            ],
+            "ci_95": [
+              -1.91,
+              1.91
+            ]
+          },
+          "ercot_wholesale": {
+            "point_estimate": 0.0,
+            "se": 2.64,
+            "ci_90": [
+              -4.35,
+              4.35
+            ],
+            "ci_95": [
+              -5.18,
+              5.18
+            ]
+          },
+          "caiso_wholesale": {
+            "point_estimate": -9.41,
+            "se": 12.07,
+            "ci_90": [
+              -29.26,
+              10.45
+            ],
+            "ci_95": [
+              -33.06,
+              14.25
+            ]
+          },
+          "joint_system_se": 12.39
+        },
+        "data_quality_flags": []
       }
     },
     "electric_power_bcfd__plus_1sigma": {
@@ -1621,15 +1638,15 @@
       "category": "demand",
       "linear": {
         "delta_gas": -0.3892,
-        "delta_ercot": -16.08,
-        "delta_caiso": -5.52
+        "delta_ercot": -2.47,
+        "delta_caiso": -1.26
       },
       "dynamic": {
         "delta_gas": -0.5225,
-        "delta_ercot": -22.52,
-        "delta_caiso": -7.73,
-        "regime_before": "normal",
-        "regime_after": "normal",
+        "delta_ercot": -3.46,
+        "delta_caiso": -3.01,
+        "regime_before": "ng_crisis",
+        "regime_after": "ng_crisis",
         "lag_fraction": 1.0,
         "seasonal_multiplier": 1.4,
         "feedback_applied": [
@@ -1656,30 +1673,30 @@
             ]
           },
           "ercot_wholesale": {
-            "point_estimate": -22.52,
+            "point_estimate": -3.46,
             "se": 9.42,
             "ci_90": [
-              -38.01,
-              -7.03
+              -18.96,
+              12.03
             ],
             "ci_95": [
-              -40.98,
-              -4.06
+              -21.92,
+              14.99
             ]
           },
           "caiso_wholesale": {
-            "point_estimate": -7.73,
-            "se": 14.1,
+            "point_estimate": -3.01,
+            "se": 12.4,
             "ci_90": [
-              -30.93,
-              15.47
+              -23.41,
+              17.38
             ],
             "ci_95": [
-              -35.37,
-              19.91
+              -27.31,
+              21.29
             ]
           },
-          "joint_system_se": 16.22
+          "joint_system_se": 15.68
         },
         "data_quality_flags": [
           "electric_power_bcfd NOT significant in hh_full (p=0.10631213034336029)"
@@ -1693,15 +1710,15 @@
       "category": "demand",
       "linear": {
         "delta_gas": 0.3892,
-        "delta_ercot": 16.08,
-        "delta_caiso": 5.52
+        "delta_ercot": 2.47,
+        "delta_caiso": 1.26
       },
       "dynamic": {
         "delta_gas": 0.5225,
-        "delta_ercot": 22.52,
-        "delta_caiso": 7.73,
-        "regime_before": "normal",
-        "regime_after": "normal",
+        "delta_ercot": 3.46,
+        "delta_caiso": 7.43,
+        "regime_before": "ng_crisis",
+        "regime_after": "ng_crisis",
         "lag_fraction": 1.0,
         "seasonal_multiplier": 1.4,
         "feedback_applied": [
@@ -1728,30 +1745,30 @@
             ]
           },
           "ercot_wholesale": {
-            "point_estimate": 22.52,
+            "point_estimate": 3.46,
             "se": 9.42,
             "ci_90": [
-              7.03,
-              38.01
+              -12.03,
+              18.96
             ],
             "ci_95": [
-              4.06,
-              40.98
+              -14.99,
+              21.92
             ]
           },
           "caiso_wholesale": {
-            "point_estimate": 7.73,
-            "se": 14.1,
+            "point_estimate": 7.43,
+            "se": 12.4,
             "ci_90": [
-              -15.47,
-              30.93
+              -12.97,
+              27.82
             ],
             "ci_95": [
-              -19.91,
-              35.37
+              -16.88,
+              31.73
             ]
           },
-          "joint_system_se": 16.22
+          "joint_system_se": 15.68
         },
         "data_quality_flags": [
           "electric_power_bcfd NOT significant in hh_full (p=0.10631213034336029)"
@@ -1772,8 +1789,8 @@
         "delta_gas": 0.0,
         "delta_ercot": 91.8,
         "delta_caiso": 0.0,
-        "regime_before": "normal",
-        "regime_after": "normal",
+        "regime_before": "ng_crisis",
+        "regime_after": "ng_crisis",
         "lag_fraction": 1.0,
         "seasonal_multiplier": 1.0,
         "feedback_applied": [],
@@ -1804,17 +1821,17 @@
           },
           "caiso_wholesale": {
             "point_estimate": 0.0,
-            "se": 13.76,
+            "se": 12.0,
             "ci_90": [
-              -22.63,
-              22.63
+              -19.75,
+              19.75
             ],
             "ci_95": [
-              -26.96,
-              26.96
+              -23.53,
+              23.53
             ]
           },
-          "joint_system_se": 13.8
+          "joint_system_se": 12.4
         },
         "data_quality_flags": []
       }
@@ -1833,8 +1850,8 @@
         "delta_gas": -0.0,
         "delta_ercot": -15.95,
         "delta_caiso": 0.0,
-        "regime_before": "normal",
-        "regime_after": "normal",
+        "regime_before": "ng_crisis",
+        "regime_after": "ng_crisis",
         "lag_fraction": 1.0,
         "seasonal_multiplier": 1.0,
         "feedback_applied": [],
@@ -1865,17 +1882,17 @@
           },
           "caiso_wholesale": {
             "point_estimate": 0.0,
-            "se": 13.76,
+            "se": 12.0,
             "ci_90": [
-              -22.63,
-              22.63
+              -19.75,
+              19.75
             ],
             "ci_95": [
-              -26.96,
-              26.96
+              -23.53,
+              23.53
             ]
           },
-          "joint_system_se": 13.77
+          "joint_system_se": 12.33
         },
         "data_quality_flags": []
       }
@@ -1894,8 +1911,8 @@
         "delta_gas": 0.0,
         "delta_ercot": -2.5,
         "delta_caiso": 0.0,
-        "regime_before": "normal",
-        "regime_after": "normal",
+        "regime_before": "ng_crisis",
+        "regime_after": "ng_crisis",
         "lag_fraction": 1.0,
         "seasonal_multiplier": 1.0,
         "feedback_applied": [],
@@ -1926,17 +1943,17 @@
           },
           "caiso_wholesale": {
             "point_estimate": 0.0,
-            "se": 13.76,
+            "se": 12.0,
             "ci_90": [
-              -22.63,
-              22.63
+              -19.75,
+              19.75
             ],
             "ci_95": [
-              -26.96,
-              26.96
+              -23.53,
+              23.53
             ]
           },
-          "joint_system_se": 13.77
+          "joint_system_se": 12.34
         },
         "data_quality_flags": []
       }
@@ -1955,8 +1972,8 @@
         "delta_gas": -0.0,
         "delta_ercot": 2.5,
         "delta_caiso": 0.0,
-        "regime_before": "normal",
-        "regime_after": "normal",
+        "regime_before": "ng_crisis",
+        "regime_after": "ng_crisis",
         "lag_fraction": 1.0,
         "seasonal_multiplier": 1.0,
         "feedback_applied": [],
@@ -1987,17 +2004,17 @@
           },
           "caiso_wholesale": {
             "point_estimate": 0.0,
-            "se": 13.76,
+            "se": 12.0,
             "ci_90": [
-              -22.63,
-              22.63
+              -19.75,
+              19.75
             ],
             "ci_95": [
-              -26.96,
-              26.96
+              -23.53,
+              23.53
             ]
           },
-          "joint_system_se": 13.77
+          "joint_system_se": 12.34
         },
         "data_quality_flags": []
       }
@@ -2016,8 +2033,8 @@
         "delta_gas": 0.0,
         "delta_ercot": 0.12,
         "delta_caiso": 0.0,
-        "regime_before": "normal",
-        "regime_after": "normal",
+        "regime_before": "ng_crisis",
+        "regime_after": "ng_crisis",
         "lag_fraction": 1.0,
         "seasonal_multiplier": 1.0,
         "feedback_applied": [],
@@ -2048,17 +2065,17 @@
           },
           "caiso_wholesale": {
             "point_estimate": 0.0,
-            "se": 13.76,
+            "se": 12.0,
             "ci_90": [
-              -22.63,
-              22.63
+              -19.75,
+              19.75
             ],
             "ci_95": [
-              -26.96,
-              26.96
+              -23.53,
+              23.53
             ]
           },
-          "joint_system_se": 13.77
+          "joint_system_se": 12.34
         },
         "data_quality_flags": [
           "gas_x_tx_wind NOT significant in ercot_full (p=0.8131564972867042)"
@@ -2079,8 +2096,8 @@
         "delta_gas": -0.0,
         "delta_ercot": -0.12,
         "delta_caiso": 0.0,
-        "regime_before": "normal",
-        "regime_after": "normal",
+        "regime_before": "ng_crisis",
+        "regime_after": "ng_crisis",
         "lag_fraction": 1.0,
         "seasonal_multiplier": 1.0,
         "feedback_applied": [],
@@ -2111,17 +2128,17 @@
           },
           "caiso_wholesale": {
             "point_estimate": 0.0,
-            "se": 13.76,
+            "se": 12.0,
             "ci_90": [
-              -22.63,
-              22.63
+              -19.75,
+              19.75
             ],
             "ci_95": [
-              -26.96,
-              26.96
+              -23.53,
+              23.53
             ]
           },
-          "joint_system_se": 13.77
+          "joint_system_se": 12.34
         },
         "data_quality_flags": [
           "gas_x_tx_wind NOT significant in ercot_full (p=0.8131564972867042)"
@@ -2135,15 +2152,15 @@
       "category": "commodity",
       "linear": {
         "delta_gas": 2.1477,
-        "delta_ercot": 88.76,
-        "delta_caiso": 30.48
+        "delta_ercot": 13.66,
+        "delta_caiso": 6.96
       },
       "dynamic": {
         "delta_gas": 2.4713,
-        "delta_ercot": 131.07,
-        "delta_caiso": 40.18,
-        "regime_before": "normal",
-        "regime_after": "elevated",
+        "delta_ercot": 16.39,
+        "delta_caiso": 35.13,
+        "regime_before": "ng_crisis",
+        "regime_after": "ng_crisis",
         "lag_fraction": 1.0,
         "seasonal_multiplier": 1.2,
         "feedback_applied": [
@@ -2170,30 +2187,30 @@
             ]
           },
           "ercot_wholesale": {
-            "point_estimate": 131.07,
+            "point_estimate": 16.39,
             "se": 2.84,
             "ci_90": [
-              126.39,
-              135.74
+              11.71,
+              21.06
             ],
             "ci_95": [
-              125.5,
-              136.64
+              10.82,
+              21.96
             ]
           },
           "caiso_wholesale": {
-            "point_estimate": 40.18,
-            "se": 14.27,
+            "point_estimate": 35.13,
+            "se": 12.0,
             "ci_90": [
-              16.72,
-              63.65
+              15.38,
+              54.87
             ],
             "ci_95": [
-              12.22,
-              68.14
+              11.6,
+              58.66
             ]
           },
-          "joint_system_se": 14.29
+          "joint_system_se": 12.38
         },
         "data_quality_flags": []
       }
@@ -2205,14 +2222,14 @@
       "category": "commodity",
       "linear": {
         "delta_gas": -2.1477,
-        "delta_ercot": -88.76,
-        "delta_caiso": -30.48
+        "delta_ercot": -13.66,
+        "delta_caiso": -6.96
       },
       "dynamic": {
         "delta_gas": -2.4713,
-        "delta_ercot": -106.52,
-        "delta_caiso": -36.57,
-        "regime_before": "normal",
+        "delta_ercot": -16.39,
+        "delta_caiso": -9.6,
+        "regime_before": "ng_crisis",
         "regime_after": "normal",
         "lag_fraction": 1.0,
         "seasonal_multiplier": 1.2,
@@ -2240,30 +2257,30 @@
             ]
           },
           "ercot_wholesale": {
-            "point_estimate": -106.52,
+            "point_estimate": -16.39,
             "se": 2.84,
             "ci_90": [
-              -111.19,
-              -101.84
+              -21.06,
+              -11.71
             ],
             "ci_95": [
-              -112.09,
-              -100.95
+              -21.96,
+              -10.82
             ]
           },
           "caiso_wholesale": {
-            "point_estimate": -36.57,
-            "se": 14.27,
+            "point_estimate": -9.6,
+            "se": 12.0,
             "ci_90": [
-              -60.04,
-              -13.1
+              -29.35,
+              10.15
             ],
             "ci_95": [
-              -64.53,
-              -8.61
+              -33.13,
+              13.93
             ]
           },
-          "joint_system_se": 14.29
+          "joint_system_se": 12.38
         },
         "data_quality_flags": []
       }
@@ -2275,15 +2292,15 @@
       "category": "other",
       "linear": {
         "delta_gas": 0.0072,
-        "delta_ercot": -2.75,
-        "delta_caiso": 0.1
+        "delta_ercot": -3.0,
+        "delta_caiso": 0.03
       },
       "dynamic": {
         "delta_gas": 0.0072,
-        "delta_ercot": -2.75,
+        "delta_ercot": -3.0,
         "delta_caiso": 0.1,
-        "regime_before": "normal",
-        "regime_after": "normal",
+        "regime_before": "ng_crisis",
+        "regime_after": "ng_crisis",
         "lag_fraction": 1.0,
         "seasonal_multiplier": 1.0,
         "feedback_applied": [],
@@ -2301,15 +2318,15 @@
             ]
           },
           "ercot_wholesale": {
-            "point_estimate": -2.75,
+            "point_estimate": -3.0,
             "se": 3331647605.23,
             "ci_90": [
-              -5480560313.35,
-              5480560307.85
+              -5480560313.6,
+              5480560307.6
             ],
             "ci_95": [
-              -6530029309.0,
-              6530029303.5
+              -6530029309.25,
+              6530029303.25
             ]
           },
           "caiso_wholesale": {
@@ -2317,17 +2334,18 @@
             "se": 1143868364.82,
             "ci_90": [
               -1881663460.04,
-              1881663460.23
+              1881663460.24
             ],
             "ci_95": [
               -2241981994.96,
-              2241981995.15
+              2241981995.16
             ]
           },
-          "joint_system_se": 3421451535.43
+          "joint_system_se": 3537872530.82
         },
         "data_quality_flags": [
-          "intercept NOT significant in ercot_full (p=0.6608827849088521)"
+          "intercept NOT significant in ercot_full (p=0.6608827849088521)",
+          "intercept NOT significant in caiso_full (p=0.057341653451922436)"
         ]
       }
     },
@@ -2338,15 +2356,15 @@
       "category": "other",
       "linear": {
         "delta_gas": -0.0072,
-        "delta_ercot": 2.75,
-        "delta_caiso": -0.1
+        "delta_ercot": 3.0,
+        "delta_caiso": -0.03
       },
       "dynamic": {
         "delta_gas": -0.0072,
-        "delta_ercot": 2.75,
+        "delta_ercot": 3.0,
         "delta_caiso": -0.1,
-        "regime_before": "normal",
-        "regime_after": "normal",
+        "regime_before": "ng_crisis",
+        "regime_after": "ng_crisis",
         "lag_fraction": 1.0,
         "seasonal_multiplier": 1.0,
         "feedback_applied": [],
@@ -2364,33 +2382,34 @@
             ]
           },
           "ercot_wholesale": {
-            "point_estimate": 2.75,
+            "point_estimate": 3.0,
             "se": 3331647605.23,
             "ci_90": [
-              -5480560307.85,
-              5480560313.35
+              -5480560307.6,
+              5480560313.6
             ],
             "ci_95": [
-              -6530029303.5,
-              6530029309.0
+              -6530029303.25,
+              6530029309.25
             ]
           },
           "caiso_wholesale": {
             "point_estimate": -0.1,
             "se": 1143868364.82,
             "ci_90": [
-              -1881663460.23,
+              -1881663460.24,
               1881663460.04
             ],
             "ci_95": [
-              -2241981995.15,
+              -2241981995.16,
               2241981994.96
             ]
           },
-          "joint_system_se": 3421451535.43
+          "joint_system_se": 3537872530.82
         },
         "data_quality_flags": [
-          "intercept NOT significant in ercot_full (p=0.6608827849088521)"
+          "intercept NOT significant in ercot_full (p=0.6608827849088521)",
+          "intercept NOT significant in caiso_full (p=0.057341653451922436)"
         ]
       }
     },
@@ -2401,15 +2420,15 @@
       "category": "policy",
       "linear": {
         "delta_gas": 1.9425,
-        "delta_ercot": 80.28,
-        "delta_caiso": 25.81
+        "delta_ercot": 12.35,
+        "delta_caiso": 7.32
       },
       "dynamic": {
         "delta_gas": 1.9425,
-        "delta_ercot": 93.02,
-        "delta_caiso": 28.07,
-        "regime_before": "normal",
-        "regime_after": "normal",
+        "delta_ercot": 12.01,
+        "delta_caiso": 27.5,
+        "regime_before": "ng_crisis",
+        "regime_after": "ng_crisis",
         "lag_fraction": 1.0,
         "seasonal_multiplier": 1.0,
         "feedback_applied": [
@@ -2436,33 +2455,34 @@
             ]
           },
           "ercot_wholesale": {
-            "point_estimate": 93.02,
+            "point_estimate": 12.01,
             "se": 988903528.54,
             "ci_90": [
-              -1626746211.43,
-              1626746397.46
+              -1626746292.43,
+              1626746316.45
             ],
             "ci_95": [
-              -1938250822.91,
-              1938251008.95
+              -1938250903.92,
+              1938250927.94
             ]
           },
           "caiso_wholesale": {
-            "point_estimate": 28.07,
+            "point_estimate": 27.5,
             "se": 339524342.36,
             "ci_90": [
-              -558517515.12,
-              558517571.26
+              -558517515.69,
+              558517570.69
             ],
             "ci_95": [
-              -665467682.96,
-              665467739.11
+              -665467683.54,
+              665467738.53
             ]
           },
-          "joint_system_se": 1015559235.86
+          "joint_system_se": 1050115451.51
         },
         "data_quality_flags": [
-          "Feedback 'policy_stabilizer' uses estimated strength (data_quality=low)"
+          "Feedback 'policy_stabilizer' uses estimated strength (data_quality=low)",
+          "itc_rate_pct NOT significant in caiso_full (p=0.057341653497847256)"
         ]
       }
     },
@@ -2473,15 +2493,15 @@
       "category": "policy",
       "linear": {
         "delta_gas": -1.9425,
-        "delta_ercot": -80.28,
-        "delta_caiso": -25.81
+        "delta_ercot": -12.35,
+        "delta_caiso": -7.32
       },
       "dynamic": {
         "delta_gas": -1.9425,
-        "delta_ercot": -78.07,
-        "delta_caiso": -25.81,
-        "regime_before": "normal",
-        "regime_after": "normal",
+        "delta_ercot": -12.01,
+        "delta_caiso": -8.56,
+        "regime_before": "ng_crisis",
+        "regime_after": "ng_crisis",
         "lag_fraction": 1.0,
         "seasonal_multiplier": 1.0,
         "feedback_applied": [
@@ -2508,33 +2528,34 @@
             ]
           },
           "ercot_wholesale": {
-            "point_estimate": -78.07,
+            "point_estimate": -12.01,
             "se": 988903528.54,
             "ci_90": [
-              -1626746382.51,
-              1626746226.37
+              -1626746316.45,
+              1626746292.43
             ],
             "ci_95": [
-              -1938250994.0,
-              1938250837.86
+              -1938250927.94,
+              1938250903.92
             ]
           },
           "caiso_wholesale": {
-            "point_estimate": -25.81,
+            "point_estimate": -8.56,
             "se": 339524342.36,
             "ci_90": [
-              -558517569.0,
-              558517517.38
+              -558517551.75,
+              558517534.63
             ],
             "ci_95": [
-              -665467736.85,
-              665467685.22
+              -665467719.6,
+              665467702.47
             ]
           },
-          "joint_system_se": 1015559235.86
+          "joint_system_se": 1050115451.51
         },
         "data_quality_flags": [
-          "Feedback 'policy_stabilizer' uses estimated strength (data_quality=low)"
+          "Feedback 'policy_stabilizer' uses estimated strength (data_quality=low)",
+          "itc_rate_pct NOT significant in caiso_full (p=0.057341653497847256)"
         ]
       }
     },
@@ -2552,8 +2573,8 @@
         "delta_gas": 0.0,
         "delta_ercot": 0.09,
         "delta_caiso": 0.0,
-        "regime_before": "normal",
-        "regime_after": "normal",
+        "regime_before": "ng_crisis",
+        "regime_after": "ng_crisis",
         "lag_fraction": 0.65,
         "seasonal_multiplier": 1.0,
         "feedback_applied": [],
@@ -2584,17 +2605,17 @@
           },
           "caiso_wholesale": {
             "point_estimate": 0.0,
-            "se": 13.76,
+            "se": 12.0,
             "ci_90": [
-              -22.63,
-              22.63
+              -19.75,
+              19.75
             ],
             "ci_95": [
-              -26.96,
-              26.96
+              -23.53,
+              23.53
             ]
           },
-          "joint_system_se": 13.77
+          "joint_system_se": 12.33
         },
         "data_quality_flags": [
           "n_ira_credits NOT significant in ercot_full (p=0.7089741244557148)"
@@ -2615,8 +2636,8 @@
         "delta_gas": -0.0,
         "delta_ercot": -0.09,
         "delta_caiso": 0.0,
-        "regime_before": "normal",
-        "regime_after": "normal",
+        "regime_before": "ng_crisis",
+        "regime_after": "ng_crisis",
         "lag_fraction": 0.65,
         "seasonal_multiplier": 1.0,
         "feedback_applied": [],
@@ -2647,17 +2668,17 @@
           },
           "caiso_wholesale": {
             "point_estimate": 0.0,
-            "se": 13.76,
+            "se": 12.0,
             "ci_90": [
-              -22.63,
-              22.63
+              -19.75,
+              19.75
             ],
             "ci_95": [
-              -26.96,
-              26.96
+              -23.53,
+              23.53
             ]
           },
-          "joint_system_se": 13.77
+          "joint_system_se": 12.33
         },
         "data_quality_flags": [
           "n_ira_credits NOT significant in ercot_full (p=0.7089741244557148)"
@@ -2672,14 +2693,14 @@
       "linear": {
         "delta_gas": 0.0,
         "delta_ercot": 0.0,
-        "delta_caiso": -0.13
+        "delta_caiso": 0.07
       },
       "dynamic": {
         "delta_gas": 0.0,
         "delta_ercot": 0.0,
-        "delta_caiso": -0.08,
-        "regime_before": "normal",
-        "regime_after": "normal",
+        "delta_caiso": 0.05,
+        "regime_before": "ng_crisis",
+        "regime_after": "ng_crisis",
         "lag_fraction": 0.65,
         "seasonal_multiplier": 1.0,
         "feedback_applied": [],
@@ -2709,20 +2730,22 @@
             ]
           },
           "caiso_wholesale": {
-            "point_estimate": -0.08,
-            "se": 13.76,
+            "point_estimate": 0.05,
+            "se": 12.0,
             "ci_90": [
-              -22.71,
-              22.55
+              -19.7,
+              19.8
             ],
             "ci_95": [
-              -27.04,
-              26.88
+              -23.48,
+              23.58
             ]
           },
-          "joint_system_se": 13.77
+          "joint_system_se": 12.33
         },
-        "data_quality_flags": []
+        "data_quality_flags": [
+          "n_rps_states NOT significant in caiso_full (p=0.05734165349765874)"
+        ]
       }
     },
     "n_rps_states__minus_1sigma": {
@@ -2733,14 +2756,14 @@
       "linear": {
         "delta_gas": -0.0,
         "delta_ercot": -0.0,
-        "delta_caiso": 0.13
+        "delta_caiso": -0.07
       },
       "dynamic": {
         "delta_gas": -0.0,
         "delta_ercot": 0.0,
-        "delta_caiso": 0.08,
-        "regime_before": "normal",
-        "regime_after": "normal",
+        "delta_caiso": -0.05,
+        "regime_before": "ng_crisis",
+        "regime_after": "ng_crisis",
         "lag_fraction": 0.65,
         "seasonal_multiplier": 1.0,
         "feedback_applied": [],
@@ -2770,20 +2793,22 @@
             ]
           },
           "caiso_wholesale": {
-            "point_estimate": 0.08,
-            "se": 13.76,
+            "point_estimate": -0.05,
+            "se": 12.0,
             "ci_90": [
-              -22.55,
-              22.71
+              -19.8,
+              19.7
             ],
             "ci_95": [
-              -26.88,
-              27.04
+              -23.58,
+              23.48
             ]
           },
-          "joint_system_se": 13.77
+          "joint_system_se": 12.33
         },
-        "data_quality_flags": []
+        "data_quality_flags": [
+          "n_rps_states NOT significant in caiso_full (p=0.05734165349765874)"
+        ]
       }
     },
     "ptc_rate_cents_kwh__plus_1sigma": {
@@ -2793,15 +2818,15 @@
       "category": "policy",
       "linear": {
         "delta_gas": -0.1601,
-        "delta_ercot": -6.62,
-        "delta_caiso": -2.27
+        "delta_ercot": -1.02,
+        "delta_caiso": -2.49
       },
       "dynamic": {
         "delta_gas": 0.0118,
-        "delta_ercot": 0.47,
-        "delta_caiso": 0.17,
-        "regime_before": "normal",
-        "regime_after": "normal",
+        "delta_ercot": 0.07,
+        "delta_caiso": 0.31,
+        "regime_before": "ng_crisis",
+        "regime_after": "ng_crisis",
         "lag_fraction": 1.0,
         "seasonal_multiplier": 1.0,
         "feedback_applied": [
@@ -2828,33 +2853,34 @@
             ]
           },
           "ercot_wholesale": {
-            "point_estimate": 0.47,
+            "point_estimate": 0.07,
             "se": 2.66,
             "ci_90": [
-              -3.9,
-              4.85
+              -4.3,
+              4.45
             ],
             "ci_95": [
-              -4.74,
-              5.68
+              -5.14,
+              5.28
             ]
           },
           "caiso_wholesale": {
-            "point_estimate": 0.17,
-            "se": 13.76,
+            "point_estimate": 0.31,
+            "se": 12.01,
             "ci_90": [
-              -22.46,
-              22.8
+              -19.44,
+              20.05
             ],
             "ci_95": [
-              -26.8,
-              27.13
+              -23.22,
+              23.84
             ]
           },
-          "joint_system_se": 13.77
+          "joint_system_se": 12.33
         },
         "data_quality_flags": [
-          "Feedback 'policy_stabilizer' uses estimated strength (data_quality=low)"
+          "Feedback 'policy_stabilizer' uses estimated strength (data_quality=low)",
+          "ptc_rate_cents_kwh NOT significant in caiso_full (p=0.12999801601141936)"
         ]
       }
     },
@@ -2865,15 +2891,15 @@
       "category": "policy",
       "linear": {
         "delta_gas": 0.1601,
-        "delta_ercot": 6.62,
-        "delta_caiso": 2.27
+        "delta_ercot": 1.02,
+        "delta_caiso": 2.49
       },
       "dynamic": {
         "delta_gas": 0.0652,
-        "delta_ercot": 2.62,
-        "delta_caiso": 0.93,
-        "regime_before": "normal",
-        "regime_after": "normal",
+        "delta_ercot": 0.4,
+        "delta_caiso": 1.69,
+        "regime_before": "ng_crisis",
+        "regime_after": "ng_crisis",
         "lag_fraction": 1.0,
         "seasonal_multiplier": 1.0,
         "feedback_applied": [
@@ -2900,33 +2926,34 @@
             ]
           },
           "ercot_wholesale": {
-            "point_estimate": 2.62,
+            "point_estimate": 0.4,
             "se": 3.09,
             "ci_90": [
-              -2.46,
-              7.7
+              -4.67,
+              5.48
             ],
             "ci_95": [
-              -3.43,
-              8.67
+              -5.65,
+              6.45
             ]
           },
           "caiso_wholesale": {
-            "point_estimate": 0.93,
-            "se": 13.77,
+            "point_estimate": 1.69,
+            "se": 12.03,
             "ci_90": [
-              -21.72,
-              23.57
+              -18.09,
+              21.48
             ],
             "ci_95": [
-              -26.06,
-              27.91
+              -21.88,
+              25.27
             ]
           },
-          "joint_system_se": 13.83
+          "joint_system_se": 12.46
         },
         "data_quality_flags": [
-          "Feedback 'policy_stabilizer' uses estimated strength (data_quality=low)"
+          "Feedback 'policy_stabilizer' uses estimated strength (data_quality=low)",
+          "ptc_rate_cents_kwh NOT significant in caiso_full (p=0.12999801601141936)"
         ]
       }
     },
@@ -2944,8 +2971,8 @@
         "delta_gas": 0.0,
         "delta_ercot": 1.21,
         "delta_caiso": 0.0,
-        "regime_before": "normal",
-        "regime_after": "normal",
+        "regime_before": "ng_crisis",
+        "regime_after": "ng_crisis",
         "lag_fraction": 1.0,
         "seasonal_multiplier": 1.0,
         "feedback_applied": [],
@@ -2976,17 +3003,17 @@
           },
           "caiso_wholesale": {
             "point_estimate": 0.0,
-            "se": 13.76,
+            "se": 12.0,
             "ci_90": [
-              -22.63,
-              22.63
+              -19.75,
+              19.75
             ],
             "ci_95": [
-              -26.96,
-              26.96
+              -23.53,
+              23.53
             ]
           },
-          "joint_system_se": 13.77
+          "joint_system_se": 12.34
         },
         "data_quality_flags": []
       }
@@ -3005,8 +3032,8 @@
         "delta_gas": -0.0,
         "delta_ercot": -1.21,
         "delta_caiso": 0.0,
-        "regime_before": "normal",
-        "regime_after": "normal",
+        "regime_before": "ng_crisis",
+        "regime_after": "ng_crisis",
         "lag_fraction": 1.0,
         "seasonal_multiplier": 1.0,
         "feedback_applied": [],
@@ -3037,17 +3064,17 @@
           },
           "caiso_wholesale": {
             "point_estimate": 0.0,
-            "se": 13.76,
+            "se": 12.0,
             "ci_90": [
-              -22.63,
-              22.63
+              -19.75,
+              19.75
             ],
             "ci_95": [
-              -26.96,
-              26.96
+              -23.53,
+              23.53
             ]
           },
-          "joint_system_se": 13.77
+          "joint_system_se": 12.34
         },
         "data_quality_flags": []
       }
@@ -3066,8 +3093,8 @@
         "delta_gas": 0.0,
         "delta_ercot": 0.41,
         "delta_caiso": 0.0,
-        "regime_before": "normal",
-        "regime_after": "normal",
+        "regime_before": "ng_crisis",
+        "regime_after": "ng_crisis",
         "lag_fraction": 1.0,
         "seasonal_multiplier": 1.2,
         "feedback_applied": [],
@@ -3098,17 +3125,17 @@
           },
           "caiso_wholesale": {
             "point_estimate": 0.0,
-            "se": 13.76,
+            "se": 12.0,
             "ci_90": [
-              -22.63,
-              22.63
+              -19.75,
+              19.75
             ],
             "ci_95": [
-              -26.96,
-              26.96
+              -23.53,
+              23.53
             ]
           },
-          "joint_system_se": 13.77
+          "joint_system_se": 12.33
         },
         "data_quality_flags": [
           "tx_gas_gen_pct NOT significant in ercot_full (p=0.24902864230235044)"
@@ -3129,8 +3156,8 @@
         "delta_gas": -0.0,
         "delta_ercot": -0.41,
         "delta_caiso": 0.0,
-        "regime_before": "normal",
-        "regime_after": "normal",
+        "regime_before": "ng_crisis",
+        "regime_after": "ng_crisis",
         "lag_fraction": 1.0,
         "seasonal_multiplier": 1.2,
         "feedback_applied": [],
@@ -3161,17 +3188,17 @@
           },
           "caiso_wholesale": {
             "point_estimate": 0.0,
-            "se": 13.76,
+            "se": 12.0,
             "ci_90": [
-              -22.63,
-              22.63
+              -19.75,
+              19.75
             ],
             "ci_95": [
-              -26.96,
-              26.96
+              -23.53,
+              23.53
             ]
           },
-          "joint_system_se": 13.77
+          "joint_system_se": 12.33
         },
         "data_quality_flags": [
           "tx_gas_gen_pct NOT significant in ercot_full (p=0.24902864230235044)"
@@ -3192,8 +3219,8 @@
         "delta_gas": 0.0,
         "delta_ercot": -0.46,
         "delta_caiso": 0.0,
-        "regime_before": "normal",
-        "regime_after": "normal",
+        "regime_before": "ng_crisis",
+        "regime_after": "ng_crisis",
         "lag_fraction": 1.0,
         "seasonal_multiplier": 1.0,
         "feedback_applied": [],
@@ -3224,17 +3251,17 @@
           },
           "caiso_wholesale": {
             "point_estimate": 0.0,
-            "se": 13.76,
+            "se": 12.0,
             "ci_90": [
-              -22.63,
-              22.63
+              -19.75,
+              19.75
             ],
             "ci_95": [
-              -26.96,
-              26.96
+              -23.53,
+              23.53
             ]
           },
-          "joint_system_se": 13.77
+          "joint_system_se": 12.34
         },
         "data_quality_flags": [
           "tx_hdd NOT significant in ercot_full (p=0.3536936802402071)"
@@ -3255,8 +3282,8 @@
         "delta_gas": -0.0,
         "delta_ercot": 0.46,
         "delta_caiso": 0.0,
-        "regime_before": "normal",
-        "regime_after": "normal",
+        "regime_before": "ng_crisis",
+        "regime_after": "ng_crisis",
         "lag_fraction": 1.0,
         "seasonal_multiplier": 1.0,
         "feedback_applied": [],
@@ -3287,17 +3314,17 @@
           },
           "caiso_wholesale": {
             "point_estimate": 0.0,
-            "se": 13.76,
+            "se": 12.0,
             "ci_90": [
-              -22.63,
-              22.63
+              -19.75,
+              19.75
             ],
             "ci_95": [
-              -26.96,
-              26.96
+              -23.53,
+              23.53
             ]
           },
-          "joint_system_se": 13.77
+          "joint_system_se": 12.34
         },
         "data_quality_flags": [
           "tx_hdd NOT significant in ercot_full (p=0.3536936802402071)"
@@ -3318,8 +3345,8 @@
         "delta_gas": 0.0,
         "delta_ercot": 1.43,
         "delta_caiso": 0.0,
-        "regime_before": "normal",
-        "regime_after": "normal",
+        "regime_before": "ng_crisis",
+        "regime_after": "ng_crisis",
         "lag_fraction": 1.0,
         "seasonal_multiplier": 1.0,
         "feedback_applied": [],
@@ -3350,17 +3377,17 @@
           },
           "caiso_wholesale": {
             "point_estimate": 0.0,
-            "se": 13.76,
+            "se": 12.0,
             "ci_90": [
-              -22.63,
-              22.63
+              -19.75,
+              19.75
             ],
             "ci_95": [
-              -26.96,
-              26.96
+              -23.53,
+              23.53
             ]
           },
-          "joint_system_se": 13.77
+          "joint_system_se": 12.34
         },
         "data_quality_flags": []
       }
@@ -3379,8 +3406,8 @@
         "delta_gas": -0.0,
         "delta_ercot": -0.67,
         "delta_caiso": 0.0,
-        "regime_before": "normal",
-        "regime_after": "normal",
+        "regime_before": "ng_crisis",
+        "regime_after": "ng_crisis",
         "lag_fraction": 1.0,
         "seasonal_multiplier": 1.0,
         "feedback_applied": [],
@@ -3411,17 +3438,17 @@
           },
           "caiso_wholesale": {
             "point_estimate": 0.0,
-            "se": 13.76,
+            "se": 12.0,
             "ci_90": [
-              -22.63,
-              22.63
+              -19.75,
+              19.75
             ],
             "ci_95": [
-              -26.96,
-              26.96
+              -23.53,
+              23.53
             ]
           },
-          "joint_system_se": 13.77
+          "joint_system_se": 12.33
         },
         "data_quality_flags": []
       }
@@ -3440,8 +3467,8 @@
         "delta_gas": 0.0,
         "delta_ercot": -0.56,
         "delta_caiso": 0.0,
-        "regime_before": "normal",
-        "regime_after": "normal",
+        "regime_before": "ng_crisis",
+        "regime_after": "ng_crisis",
         "lag_fraction": 1.0,
         "seasonal_multiplier": 0.65,
         "feedback_applied": [],
@@ -3472,17 +3499,17 @@
           },
           "caiso_wholesale": {
             "point_estimate": 0.0,
-            "se": 13.76,
+            "se": 12.0,
             "ci_90": [
-              -22.63,
-              22.63
+              -19.75,
+              19.75
             ],
             "ci_95": [
-              -26.96,
-              26.96
+              -23.53,
+              23.53
             ]
           },
-          "joint_system_se": 13.77
+          "joint_system_se": 12.34
         },
         "data_quality_flags": [
           "tx_wind_gen_pct NOT significant in ercot_full (p=0.21413925432196423)"
@@ -3503,8 +3530,8 @@
         "delta_gas": -0.0,
         "delta_ercot": 0.55,
         "delta_caiso": 0.0,
-        "regime_before": "normal",
-        "regime_after": "normal",
+        "regime_before": "ng_crisis",
+        "regime_after": "ng_crisis",
         "lag_fraction": 1.0,
         "seasonal_multiplier": 0.65,
         "feedback_applied": [],
@@ -3535,17 +3562,17 @@
           },
           "caiso_wholesale": {
             "point_estimate": 0.0,
-            "se": 13.76,
+            "se": 12.0,
             "ci_90": [
-              -22.63,
-              22.63
+              -19.75,
+              19.75
             ],
             "ci_95": [
-              -26.96,
-              26.96
+              -23.53,
+              23.53
             ]
           },
-          "joint_system_se": 13.77
+          "joint_system_se": 12.34
         },
         "data_quality_flags": [
           "tx_wind_gen_pct NOT significant in ercot_full (p=0.21413925432196423)"
@@ -3559,15 +3586,15 @@
       "category": "macro",
       "linear": {
         "delta_gas": 0.0026,
-        "delta_ercot": 0.11,
-        "delta_caiso": 0.04
+        "delta_ercot": 0.02,
+        "delta_caiso": 0.01
       },
       "dynamic": {
         "delta_gas": 0.0025,
-        "delta_ercot": 0.11,
+        "delta_ercot": 0.02,
         "delta_caiso": 0.04,
-        "regime_before": "normal",
-        "regime_after": "normal",
+        "regime_before": "ng_crisis",
+        "regime_after": "ng_crisis",
         "lag_fraction": 1.0,
         "seasonal_multiplier": 1.0,
         "feedback_applied": [
@@ -3594,30 +3621,30 @@
             ]
           },
           "ercot_wholesale": {
-            "point_estimate": 0.11,
+            "point_estimate": 0.02,
             "se": 4.71,
             "ci_90": [
-              -7.64,
-              7.86
+              -7.73,
+              7.76
             ],
             "ci_95": [
-              -9.12,
-              9.34
+              -9.22,
+              9.25
             ]
           },
           "caiso_wholesale": {
             "point_estimate": 0.04,
-            "se": 13.82,
+            "se": 12.08,
             "ci_90": [
-              -22.7,
-              22.77
+              -19.83,
+              19.91
             ],
             "ci_95": [
-              -27.05,
-              27.13
+              -23.64,
+              23.71
             ]
           },
-          "joint_system_se": 14.18
+          "joint_system_se": 13.03
         },
         "data_quality_flags": [
           "us_gdp_growth_pct NOT significant in hh_full (p=0.978348222289769)"
@@ -3631,15 +3658,15 @@
       "category": "macro",
       "linear": {
         "delta_gas": -0.0026,
-        "delta_ercot": -0.11,
-        "delta_caiso": -0.04
+        "delta_ercot": -0.02,
+        "delta_caiso": -0.01
       },
       "dynamic": {
         "delta_gas": -0.0025,
-        "delta_ercot": -0.11,
+        "delta_ercot": -0.02,
         "delta_caiso": -0.04,
-        "regime_before": "normal",
-        "regime_after": "normal",
+        "regime_before": "ng_crisis",
+        "regime_after": "ng_crisis",
         "lag_fraction": 1.0,
         "seasonal_multiplier": 1.0,
         "feedback_applied": [
@@ -3666,30 +3693,30 @@
             ]
           },
           "ercot_wholesale": {
-            "point_estimate": -0.11,
+            "point_estimate": -0.02,
             "se": 4.71,
             "ci_90": [
-              -7.86,
-              7.64
+              -7.76,
+              7.73
             ],
             "ci_95": [
-              -9.34,
-              9.12
+              -9.25,
+              9.22
             ]
           },
           "caiso_wholesale": {
             "point_estimate": -0.04,
-            "se": 13.82,
+            "se": 12.08,
             "ci_90": [
-              -22.77,
-              22.7
+              -19.91,
+              19.83
             ],
             "ci_95": [
-              -27.13,
-              27.05
+              -23.71,
+              23.64
             ]
           },
-          "joint_system_se": 14.18
+          "joint_system_se": 13.03
         },
         "data_quality_flags": [
           "us_gdp_growth_pct NOT significant in hh_full (p=0.978348222289769)"
@@ -3703,15 +3730,15 @@
       "category": "other",
       "linear": {
         "delta_gas": -0.3756,
-        "delta_ercot": -15.52,
-        "delta_caiso": -5.33
+        "delta_ercot": -2.39,
+        "delta_caiso": -1.22
       },
       "dynamic": {
         "delta_gas": -0.3756,
-        "delta_ercot": -15.52,
-        "delta_caiso": -5.33,
-        "regime_before": "normal",
-        "regime_after": "normal",
+        "delta_ercot": -2.39,
+        "delta_caiso": -2.46,
+        "regime_before": "ng_crisis",
+        "regime_after": "ng_crisis",
         "lag_fraction": 1.0,
         "seasonal_multiplier": 1.0,
         "feedback_applied": [],
@@ -3729,30 +3756,30 @@
             ]
           },
           "ercot_wholesale": {
-            "point_estimate": -15.52,
+            "point_estimate": -2.39,
             "se": 7.8,
             "ci_90": [
-              -28.36,
-              -2.69
+              -15.22,
+              10.45
             ],
             "ci_95": [
-              -30.82,
-              -0.23
+              -17.68,
+              12.9
             ]
           },
           "caiso_wholesale": {
-            "point_estimate": -5.33,
-            "se": 13.99,
+            "point_estimate": -2.46,
+            "se": 12.27,
             "ci_90": [
-              -28.34,
-              17.68
+              -22.64,
+              17.71
             ],
             "ci_95": [
-              -32.74,
-              22.08
+              -26.51,
+              21.58
             ]
           },
-          "joint_system_se": 15.37
+          "joint_system_se": 14.63
         },
         "data_quality_flags": []
       }
@@ -3764,15 +3791,15 @@
       "category": "other",
       "linear": {
         "delta_gas": 0.3756,
-        "delta_ercot": 15.52,
-        "delta_caiso": 5.33
+        "delta_ercot": 2.39,
+        "delta_caiso": 1.22
       },
       "dynamic": {
         "delta_gas": 0.3756,
-        "delta_ercot": 15.52,
-        "delta_caiso": 5.33,
-        "regime_before": "normal",
-        "regime_after": "normal",
+        "delta_ercot": 2.39,
+        "delta_caiso": 5.12,
+        "regime_before": "ng_crisis",
+        "regime_after": "ng_crisis",
         "lag_fraction": 1.0,
         "seasonal_multiplier": 1.0,
         "feedback_applied": [],
@@ -3790,30 +3817,30 @@
             ]
           },
           "ercot_wholesale": {
-            "point_estimate": 15.52,
+            "point_estimate": 2.39,
             "se": 7.8,
             "ci_90": [
-              2.69,
-              28.36
+              -10.45,
+              15.22
             ],
             "ci_95": [
-              0.23,
-              30.82
+              -12.9,
+              17.68
             ]
           },
           "caiso_wholesale": {
-            "point_estimate": 5.33,
-            "se": 13.99,
+            "point_estimate": 5.12,
+            "se": 12.27,
             "ci_90": [
-              -17.68,
-              28.34
+              -15.06,
+              25.3
             ],
             "ci_95": [
-              -22.08,
-              32.74
+              -18.92,
+              29.16
             ]
           },
-          "joint_system_se": 15.37
+          "joint_system_se": 14.63
         },
         "data_quality_flags": []
       }
@@ -3825,15 +3852,15 @@
       "category": "other",
       "linear": {
         "delta_gas": -2.6051,
-        "delta_ercot": -107.67,
-        "delta_caiso": -36.97
+        "delta_ercot": -16.56,
+        "delta_caiso": -8.44
       },
       "dynamic": {
         "delta_gas": -2.6051,
-        "delta_ercot": -107.67,
-        "delta_caiso": -36.97,
-        "regime_before": "normal",
-        "regime_after": "normal",
+        "delta_ercot": -16.56,
+        "delta_caiso": -9.69,
+        "regime_before": "ng_crisis",
+        "regime_after": "ng_crisis",
         "lag_fraction": 1.0,
         "seasonal_multiplier": 1.0,
         "feedback_applied": [],
@@ -3851,30 +3878,30 @@
             ]
           },
           "ercot_wholesale": {
-            "point_estimate": -107.67,
+            "point_estimate": -16.56,
             "se": 18.62,
             "ci_90": [
-              -138.3,
-              -77.04
+              -47.2,
+              14.07
             ],
             "ci_95": [
-              -144.17,
-              -71.17
+              -53.06,
+              19.93
             ]
           },
           "caiso_wholesale": {
-            "point_estimate": -36.97,
-            "se": 15.14,
+            "point_estimate": -9.69,
+            "se": 13.57,
             "ci_90": [
-              -61.88,
-              -12.06
+              -32.01,
+              12.63
             ],
             "ci_95": [
-              -66.65,
-              -7.29
+              -36.29,
+              16.91
             ]
           },
-          "joint_system_se": 22.89
+          "joint_system_se": 23.2
         },
         "data_quality_flags": []
       }
@@ -3886,15 +3913,15 @@
       "category": "other",
       "linear": {
         "delta_gas": 2.6051,
-        "delta_ercot": 107.67,
-        "delta_caiso": 36.97
+        "delta_ercot": 16.56,
+        "delta_caiso": 8.44
       },
       "dynamic": {
         "delta_gas": 2.6051,
-        "delta_ercot": 132.63,
-        "delta_caiso": 40.64,
-        "regime_before": "normal",
-        "regime_after": "normal",
+        "delta_ercot": 16.56,
+        "delta_caiso": 35.51,
+        "regime_before": "ng_crisis",
+        "regime_after": "ng_crisis",
         "lag_fraction": 1.0,
         "seasonal_multiplier": 1.0,
         "feedback_applied": [],
@@ -3912,30 +3939,30 @@
             ]
           },
           "ercot_wholesale": {
-            "point_estimate": 132.63,
+            "point_estimate": 16.56,
             "se": 18.62,
             "ci_90": [
-              102.0,
-              163.26
+              -14.07,
+              47.2
             ],
             "ci_95": [
-              96.13,
-              169.12
+              -19.93,
+              53.06
             ]
           },
           "caiso_wholesale": {
-            "point_estimate": 40.64,
-            "se": 15.14,
+            "point_estimate": 35.51,
+            "se": 13.57,
             "ci_90": [
-              15.73,
-              65.55
+              13.18,
+              57.83
             ],
             "ci_95": [
-              10.96,
-              70.32
+              8.91,
+              62.11
             ]
           },
-          "joint_system_se": 22.89
+          "joint_system_se": 23.2
         },
         "data_quality_flags": []
       }
@@ -3948,13 +3975,13 @@
       "horizon": "24m",
       "dynamic": {
         "delta_gas": -4.2775,
-        "delta_ercot": -168.5843,
-        "delta_caiso": -56.8268
+        "delta_ercot": -25.9361,
+        "delta_caiso": -17.0004
       },
       "linear": {
         "delta_gas": -4.2775,
-        "delta_ercot": -176.79,
-        "delta_caiso": -56.82
+        "delta_ercot": -27.2,
+        "delta_caiso": -15.92
       },
       "confidence_intervals_95": {
         "gas": [
@@ -3962,12 +3989,12 @@
           103655697.89
         ],
         "ercot": [
-          -4284090339.3,
-          4284090002.13
+          -4284090196.65,
+          4284090144.78
         ],
         "caiso": [
-          -1470874470.63,
-          1470874356.97
+          -1470874430.8,
+          1470874396.8
         ]
       },
       "details": [
@@ -3985,24 +4012,26 @@
           "variable": "itc_rate_pct",
           "delta": -20,
           "dynamic_gas": -4.2935,
-          "dynamic_ercot": -169.22,
-          "dynamic_caiso": -57.05,
+          "dynamic_ercot": -26.03,
+          "dynamic_caiso": -17.42,
           "linear_gas": -4.2935,
-          "linear_ercot": -177.45,
-          "linear_caiso": -57.05
+          "linear_ercot": -27.3,
+          "linear_caiso": -16.17
         },
         {
           "variable": "ptc_rate_cents_kwh",
           "delta": -1.5,
           "dynamic_gas": 0.016,
-          "dynamic_ercot": 0.63,
-          "dynamic_caiso": 0.23,
+          "dynamic_ercot": 0.1,
+          "dynamic_caiso": 0.42,
           "linear_gas": 0.016,
-          "linear_ercot": 0.66,
-          "linear_caiso": 0.23
+          "linear_ercot": 0.1,
+          "linear_caiso": 0.25
         }
       ],
       "data_quality_flags": [
+        "ptc_rate_cents_kwh NOT significant in caiso_full (p=0.12999801601141936)",
+        "itc_rate_pct NOT significant in caiso_full (p=0.057341653497847256)",
         "Feedback 'policy_stabilizer' uses estimated strength (data_quality=low)"
       ]
     },
@@ -4012,13 +4041,13 @@
       "horizon": "3m",
       "dynamic": {
         "delta_gas": 3.6311,
-        "delta_ercot": 196.8741,
-        "delta_caiso": 58.7477
+        "delta_ercot": 23.3739,
+        "delta_caiso": 51.4616
       },
       "linear": {
         "delta_gas": 2.8191,
-        "delta_ercot": 116.51,
-        "delta_caiso": 40.0
+        "delta_ercot": 17.93,
+        "delta_caiso": 9.13
       },
       "confidence_intervals_95": {
         "gas": [
@@ -4026,12 +4055,12 @@
           6.94
         ],
         "ercot": [
-          184.35,
-          209.4
+          10.85,
+          35.9
         ],
         "caiso": [
           10.62,
-          106.87
+          92.3
         ]
       },
       "details": [
@@ -4039,11 +4068,11 @@
           "variable": "henry_hub_spot",
           "delta": 3.0,
           "dynamic_gas": 3.8788,
-          "dynamic_ercot": 207.24,
-          "dynamic_caiso": 62.31,
+          "dynamic_ercot": 24.97,
+          "dynamic_caiso": 53.52,
           "linear_gas": 3.0,
-          "linear_ercot": 123.99,
-          "linear_caiso": 42.57
+          "linear_ercot": 19.08,
+          "linear_caiso": 9.72
         },
         {
           "variable": "tx_ercot_demand_twh",
@@ -4059,11 +4088,11 @@
           "variable": "electric_power_bcfd",
           "delta": 4.0,
           "dynamic_gas": -0.2477,
-          "dynamic_ercot": -10.36,
-          "dynamic_caiso": -3.56,
+          "dynamic_ercot": -1.59,
+          "dynamic_caiso": -2.06,
           "linear_gas": -0.1809,
-          "linear_ercot": -7.48,
-          "linear_caiso": -2.57
+          "linear_ercot": -1.15,
+          "linear_caiso": -0.59
         }
       ],
       "data_quality_flags": [
@@ -4076,13 +4105,13 @@
       "horizon": "1m",
       "dynamic": {
         "delta_gas": 5.9536,
-        "delta_ercot": 367.1318,
-        "delta_caiso": 101.0926
+        "delta_ercot": 38.0172,
+        "delta_caiso": 82.5146
       },
       "linear": {
         "delta_gas": 4.7286,
-        "delta_ercot": 195.43,
-        "delta_caiso": 67.1
+        "delta_ercot": 30.06,
+        "delta_caiso": 15.32
       },
       "confidence_intervals_95": {
         "gas": [
@@ -4090,12 +4119,12 @@
           8.66
         ],
         "ercot": [
-          355.79,
-          378.47
+          26.68,
+          49.36
         ],
         "caiso": [
-          58.95,
-          143.24
+          49.16,
+          115.87
         ]
       },
       "details": [
@@ -4103,21 +4132,21 @@
           "variable": "henry_hub_spot",
           "delta": 5.0,
           "dynamic_gas": 6.1711,
-          "dynamic_ercot": 376.16,
-          "dynamic_caiso": 104.19,
+          "dynamic_ercot": 39.41,
+          "dynamic_caiso": 84.47,
           "linear_gas": 5.0,
-          "linear_ercot": 206.65,
-          "linear_caiso": 70.95
+          "linear_ercot": 31.79,
+          "linear_caiso": 16.2
         },
         {
           "variable": "electric_power_bcfd",
           "delta": 6.0,
           "dynamic_gas": -0.2175,
-          "dynamic_ercot": -9.03,
-          "dynamic_caiso": -3.1,
+          "dynamic_ercot": -1.39,
+          "dynamic_caiso": -1.95,
           "linear_gas": -0.2714,
-          "linear_ercot": -11.22,
-          "linear_caiso": -3.85
+          "linear_ercot": -1.73,
+          "linear_caiso": -0.88
         }
       ],
       "data_quality_flags": [
@@ -4148,8 +4177,8 @@
           8.96
         ],
         "caiso": [
-          -46.71,
-          46.71
+          -40.74,
+          40.74
         ]
       },
       "details": [
@@ -4212,8 +4241,8 @@
           5.46
         ],
         "caiso": [
-          -38.14,
-          38.14
+          -33.26,
+          33.26
         ]
       },
       "details": [
@@ -4239,8 +4268,8 @@
         }
       ],
       "data_quality_flags": [
-        "tx_gas_gen_pct NOT significant in ercot_full (p=0.24902864230235044)",
-        "tx_wind_gen_pct NOT significant in ercot_full (p=0.21413925432196423)"
+        "tx_wind_gen_pct NOT significant in ercot_full (p=0.21413925432196423)",
+        "tx_gas_gen_pct NOT significant in ercot_full (p=0.24902864230235044)"
       ]
     },
     {
@@ -4267,8 +4296,8 @@
           7.32
         ],
         "caiso": [
-          -38.14,
-          38.14
+          -33.26,
+          33.26
         ]
       },
       "details": [
@@ -4319,8 +4348,8 @@
           5.17
         ],
         "caiso": [
-          -26.97,
-          26.97
+          -23.52,
+          23.52
         ]
       },
       "details": [
@@ -4343,13 +4372,13 @@
       "horizon": "12m",
       "dynamic": {
         "delta_gas": -0.0063,
-        "delta_ercot": -0.2725,
-        "delta_caiso": -0.0936
+        "delta_ercot": -0.0419,
+        "delta_caiso": -0.0899
       },
       "linear": {
         "delta_gas": -0.0066,
-        "delta_ercot": -0.27,
-        "delta_caiso": -0.09
+        "delta_ercot": -0.04,
+        "delta_caiso": -0.02
       },
       "confidence_intervals_95": {
         "gas": [
@@ -4357,12 +4386,12 @@
           2.73
         ],
         "ercot": [
-          -20.87,
-          20.32
+          -20.64,
+          20.55
         ],
         "caiso": [
-          -38.79,
-          38.61
+          -34.01,
+          33.83
         ]
       },
       "details": [
@@ -4370,11 +4399,11 @@
           "variable": "us_gdp_growth_pct",
           "delta": -4.5,
           "dynamic_gas": -0.0063,
-          "dynamic_ercot": -0.27,
+          "dynamic_ercot": -0.04,
           "dynamic_caiso": -0.09,
           "linear_gas": -0.0066,
-          "linear_ercot": -0.27,
-          "linear_caiso": -0.09
+          "linear_ercot": -0.04,
+          "linear_caiso": -0.02
         },
         {
           "variable": "us_industrial_prod_index",

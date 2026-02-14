@@ -2,7 +2,7 @@
   "metadata": {
     "name": "DecarbIQ Future Projection Relationship Map",
     "version": "1.0",
-    "created": "2026-02-13",
+    "created": "2026-02-14",
     "horizon": "2025-2035",
     "description": "Forward-looking projection combining regression coefficients with variable trajectories",
     "models_used": {
@@ -15,7 +15,7 @@
         "n": 168
       },
       "caiso_full": {
-        "r2": 0.33793124831653776,
+        "r2": 0.48342314862365,
         "n": 183
       }
     },
@@ -36,7 +36,7 @@
       "ptc_rate_cents_kwh": -0.0107
     },
     "ercot_gas_passthrough": 6.94,
-    "caiso_gas_passthrough": 10.74
+    "caiso_gas_passthrough": 9.51
   },
   "variable_projections": {
     "2025": {
@@ -62,10 +62,10 @@
     },
     "2026": {
       "gas_price": {
-        "mean": 4.074048546125855,
-        "p10": 2.2230847631531856,
-        "p50": 3.646311373993937,
-        "p90": 6.237010719964393
+        "mean": 4.304135392552923,
+        "p10": 1.9925837148524927,
+        "p50": 3.4548416582840815,
+        "p90": 7.36937736117102
       },
       "us_gdp_growth_pct": 2.74,
       "us_industrial_prod_index": 104.3,
@@ -83,10 +83,10 @@
     },
     "2027": {
       "gas_price": {
-        "mean": 4.747959720283992,
-        "p10": 1.7507745648711792,
-        "p50": 4.072499175329078,
-        "p90": 8.29083206738807
+        "mean": 6.19501133570129,
+        "p10": 1.6399604623672241,
+        "p50": 4.302991176813598,
+        "p90": 14.287920255153198
       },
       "us_gdp_growth_pct": 2.68,
       "us_industrial_prod_index": 105.1,
@@ -104,10 +104,10 @@
     },
     "2028": {
       "gas_price": {
-        "mean": 4.871176696039191,
-        "p10": 1.7491347792672516,
-        "p50": 4.1521772388366145,
-        "p90": 8.760844625959615
+        "mean": 6.692559552742912,
+        "p10": 1.6454075854584738,
+        "p50": 4.735193107244401,
+        "p90": 15.335051107339531
       },
       "us_gdp_growth_pct": 2.62,
       "us_industrial_prod_index": 105.9,
@@ -125,10 +125,10 @@
     },
     "2029": {
       "gas_price": {
-        "mean": 5.179807206187069,
-        "p10": 1.8051808805512277,
-        "p50": 4.452420937489325,
-        "p90": 9.282620535586918
+        "mean": 7.123537213265781,
+        "p10": 1.6975111784398607,
+        "p50": 5.253363423969431,
+        "p90": 16.082220489467584
       },
       "us_gdp_growth_pct": 2.56,
       "us_industrial_prod_index": 106.7,
@@ -146,10 +146,10 @@
     },
     "2030": {
       "gas_price": {
-        "mean": 5.430713542295212,
-        "p10": 1.8221585758816152,
-        "p50": 4.731763173643744,
-        "p90": 9.747874266564873
+        "mean": 7.368176606233829,
+        "p10": 1.6946327015240776,
+        "p50": 5.518630510107545,
+        "p90": 16.648761662573275
       },
       "us_gdp_growth_pct": 2.5,
       "us_industrial_prod_index": 107.5,
@@ -167,10 +167,10 @@
     },
     "2031": {
       "gas_price": {
-        "mean": 5.430713542295212,
-        "p10": 1.8221585758816152,
-        "p50": 4.731763173643744,
-        "p90": 9.747874266564873
+        "mean": 7.368176606233829,
+        "p10": 1.6946327015240776,
+        "p50": 5.518630510107545,
+        "p90": 16.648761662573275
       },
       "us_gdp_growth_pct": 2.44,
       "us_industrial_prod_index": 108.3,
@@ -188,10 +188,10 @@
     },
     "2032": {
       "gas_price": {
-        "mean": 5.430713542295212,
-        "p10": 1.8221585758816152,
-        "p50": 4.731763173643744,
-        "p90": 9.747874266564873
+        "mean": 7.368176606233829,
+        "p10": 1.6946327015240776,
+        "p50": 5.518630510107545,
+        "p90": 16.648761662573275
       },
       "us_gdp_growth_pct": 2.38,
       "us_industrial_prod_index": 109.1,
@@ -209,10 +209,10 @@
     },
     "2033": {
       "gas_price": {
-        "mean": 5.430713542295212,
-        "p10": 1.8221585758816152,
-        "p50": 4.731763173643744,
-        "p90": 9.747874266564873
+        "mean": 7.368176606233829,
+        "p10": 1.6946327015240776,
+        "p50": 5.518630510107545,
+        "p90": 16.648761662573275
       },
       "us_gdp_growth_pct": 2.32,
       "us_industrial_prod_index": 109.9,
@@ -230,10 +230,10 @@
     },
     "2034": {
       "gas_price": {
-        "mean": 5.430713542295212,
-        "p10": 1.8221585758816152,
-        "p50": 4.731763173643744,
-        "p90": 9.747874266564873
+        "mean": 7.368176606233829,
+        "p10": 1.6946327015240776,
+        "p50": 5.518630510107545,
+        "p90": 16.648761662573275
       },
       "us_gdp_growth_pct": 2.26,
       "us_industrial_prod_index": 110.7,
@@ -251,10 +251,10 @@
     },
     "2035": {
       "gas_price": {
-        "mean": 5.430713542295212,
-        "p10": 1.8221585758816152,
-        "p50": 4.731763173643744,
-        "p90": 9.747874266564873
+        "mean": 7.368176606233829,
+        "p10": 1.6946327015240776,
+        "p50": 5.518630510107545,
+        "p90": 16.648761662573275
       },
       "us_gdp_growth_pct": 2.2,
       "us_industrial_prod_index": 111.5,
@@ -356,67 +356,78 @@
         "mean": 25.06,
         "low": 21.3,
         "high": 28.81,
-        "gas_component": 18.19
+        "gas_component": 18.19,
+        "regime_fraction_ng_crisis": 0
       },
       "2026": {
-        "mean": 32.84,
-        "low": 21.21,
-        "high": 46.43,
-        "gas_component": 24.62
+        "mean": 34.48,
+        "low": 19.96,
+        "high": 53.73,
+        "gas_component": 26.01,
+        "regime_fraction_ng_crisis": 0.0919
       },
       "2027": {
-        "mean": 38.19,
-        "low": 19.37,
-        "high": 60.43,
-        "gas_component": 28.7
+        "mean": 47.58,
+        "low": 18.98,
+        "high": 98.39,
+        "gas_component": 37.44,
+        "regime_fraction_ng_crisis": 0.1476
       },
       "2028": {
-        "mean": 40.05,
-        "low": 20.46,
-        "high": 64.46,
-        "gas_component": 29.44
+        "mean": 51.8,
+        "low": 20.13,
+        "high": 106.03,
+        "gas_component": 40.45,
+        "regime_fraction_ng_crisis": 0.1517
       },
       "2029": {
-        "mean": 43.06,
-        "low": 21.9,
-        "high": 68.79,
-        "gas_component": 31.31
+        "mean": 55.58,
+        "low": 21.55,
+        "high": 111.76,
+        "gas_component": 43.05,
+        "regime_fraction_ng_crisis": 0.1576
       },
       "2030": {
-        "mean": 45.7,
-        "low": 23.09,
-        "high": 72.76,
-        "gas_component": 32.82
+        "mean": 58.17,
+        "low": 22.61,
+        "high": 116.34,
+        "gas_component": 44.53,
+        "regime_fraction_ng_crisis": 0.1562
       },
       "2031": {
-        "mean": 46.75,
-        "low": 24.15,
-        "high": 73.8,
-        "gas_component": 32.82
+        "mean": 58.89,
+        "low": 23.35,
+        "high": 117.03,
+        "gas_component": 44.53,
+        "regime_fraction_ng_crisis": 0
       },
       "2032": {
-        "mean": 47.81,
-        "low": 25.21,
-        "high": 74.84,
-        "gas_component": 32.82
+        "mean": 59.94,
+        "low": 24.41,
+        "high": 118.04,
+        "gas_component": 44.53,
+        "regime_fraction_ng_crisis": 0
       },
       "2033": {
-        "mean": 48.87,
-        "low": 26.29,
-        "high": 75.89,
-        "gas_component": 32.82
+        "mean": 61.0,
+        "low": 25.5,
+        "high": 119.07,
+        "gas_component": 44.53,
+        "regime_fraction_ng_crisis": 0
       },
       "2034": {
-        "mean": 49.94,
-        "low": 27.38,
-        "high": 76.94,
-        "gas_component": 32.82
+        "mean": 62.06,
+        "low": 26.58,
+        "high": 120.09,
+        "gas_component": 44.53,
+        "regime_fraction_ng_crisis": 0
       },
       "2035": {
-        "mean": 50.84,
-        "low": 28.28,
-        "high": 77.82,
-        "gas_component": 32.82
+        "mean": 62.95,
+        "low": 27.48,
+        "high": 120.95,
+        "gas_component": 44.53,
+        "regime_fraction_ng_crisis": 0
       }
     },
     "CAISO": {
@@ -424,77 +435,77 @@
         "mean": 40.0,
         "low": 34.0,
         "high": 46.0,
-        "gas_component": 22.2,
+        "gas_component": 13.52,
         "source": "caiso_A"
       },
       "2026": {
-        "mean": 53.09,
-        "low": 39.43,
-        "high": 69.04,
-        "gas_component": 30.05,
+        "mean": 49.57,
+        "low": 39.37,
+        "high": 72.52,
+        "gas_component": 22.8,
         "source": "caiso_A"
       },
       "2027": {
-        "mean": 63.29,
-        "low": 41.18,
-        "high": 89.42,
-        "gas_component": 35.02,
+        "mean": 57.53,
+        "low": 38.88,
+        "high": 103.59,
+        "gas_component": 30.47,
         "source": "caiso_A"
       },
       "2028": {
-        "mean": 69.46,
-        "low": 46.43,
-        "high": 98.15,
-        "gas_component": 35.93,
+        "mean": 60.18,
+        "low": 39.64,
+        "high": 106.67,
+        "gas_component": 32.81,
         "source": "caiso_A"
       },
       "2029": {
-        "mean": 77.0,
-        "low": 52.11,
-        "high": 107.26,
-        "gas_component": 38.2,
+        "mean": 62.53,
+        "low": 40.46,
+        "high": 109.14,
+        "gas_component": 34.83,
         "source": "caiso_A"
       },
       "2030": {
-        "mean": 84.11,
-        "low": 57.49,
-        "high": 115.95,
-        "gas_component": 40.06,
+        "mean": 64.13,
+        "low": 41.14,
+        "high": 110.78,
+        "gas_component": 36.12,
         "source": "caiso_A"
       },
       "2031": {
-        "mean": 89.34,
-        "low": 62.73,
-        "high": 121.18,
-        "gas_component": 40.06,
+        "mean": 64.42,
+        "low": 41.42,
+        "high": 111.07,
+        "gas_component": 36.12,
         "source": "caiso_A"
       },
       "2032": {
-        "mean": 94.57,
-        "low": 67.96,
-        "high": 126.42,
-        "gas_component": 40.06,
+        "mean": 64.7,
+        "low": 41.71,
+        "high": 111.35,
+        "gas_component": 36.12,
         "source": "caiso_A"
       },
       "2033": {
-        "mean": 99.43,
-        "low": 72.81,
-        "high": 131.27,
-        "gas_component": 40.06,
+        "mean": 64.6,
+        "low": 41.6,
+        "high": 111.25,
+        "gas_component": 36.12,
         "source": "caiso_A"
       },
       "2034": {
-        "mean": 104.28,
-        "low": 77.66,
-        "high": 136.12,
-        "gas_component": 40.06,
+        "mean": 64.5,
+        "low": 41.5,
+        "high": 111.15,
+        "gas_component": 36.12,
         "source": "caiso_A"
       },
       "2035": {
-        "mean": 109.13,
-        "low": 82.52,
-        "high": 140.98,
-        "gas_component": 40.06,
+        "mean": 64.4,
+        "low": 41.4,
+        "high": 111.05,
+        "gas_component": 36.12,
         "source": "caiso_A"
       }
     }
@@ -517,47 +528,47 @@
         "2027": {
           "gas_delta": -4.26,
           "ercot_delta": -29.58,
-          "caiso_delta": -45.81
+          "caiso_delta": -40.54
         },
         "2028": {
           "gas_delta": -4.26,
           "ercot_delta": -29.58,
-          "caiso_delta": -45.81
+          "caiso_delta": -40.54
         },
         "2029": {
           "gas_delta": -4.26,
           "ercot_delta": -29.58,
-          "caiso_delta": -45.81
+          "caiso_delta": -40.54
         },
         "2030": {
           "gas_delta": -4.26,
           "ercot_delta": -29.58,
-          "caiso_delta": -45.81
+          "caiso_delta": -40.54
         },
         "2031": {
           "gas_delta": -4.26,
           "ercot_delta": -29.58,
-          "caiso_delta": -45.81
+          "caiso_delta": -40.54
         },
         "2032": {
           "gas_delta": -4.26,
           "ercot_delta": -29.58,
-          "caiso_delta": -45.81
+          "caiso_delta": -40.54
         },
         "2033": {
           "gas_delta": -4.26,
           "ercot_delta": -29.58,
-          "caiso_delta": -45.81
+          "caiso_delta": -40.54
         },
         "2034": {
           "gas_delta": -4.26,
           "ercot_delta": -29.58,
-          "caiso_delta": -45.81
+          "caiso_delta": -40.54
         },
         "2035": {
           "gas_delta": -4.26,
           "ercot_delta": -29.58,
-          "caiso_delta": -45.81
+          "caiso_delta": -40.54
         }
       }
     },
