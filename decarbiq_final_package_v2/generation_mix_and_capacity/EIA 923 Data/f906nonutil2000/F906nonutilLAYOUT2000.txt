@@ -1,0 +1,60 @@
+                              POSITION             TYPE
+      FIELD              FROM THRU   LENGTH   (A/N)  COMMENTS
+     -----------------  ---- ----   ------   -----  ------------------------------
+
+      Year                  1    4      4        N   Year of the Reported Data 
+     Facility Code         5    9      5        N   Unique Facility I.D.
+      Facility Name        10   44     35       AN   Left Justified
+      State Code           45   46      2        A   U.S. State Postal Code 
+      Owner Name           47   76     30       AN   Name of Owner Company      
+      Prime Mover Code     77   77      1       AN   See below for values
+      Kind of Fuel Code    78   78      1       AN   See below for values
+      Generation Type      79   79      1       AN   N = Net Generation
+                                                     G = Gross Generation       
+      Monthly Data         83  394               *   Group consisting of Gen-
+                                                     eration Consumption and
+                                                     Stocks, Repeats 12 times
+
+      Generation                       12       SN   Signed number (KWh)
+                                                     Monthly generation
+
+     Consumption                       8        N   Fuel used to generate
+                                                     electrical energy
+                                                     including standby
+
+
+
+                           PERTINENT VALUES FOR FIELDS:
+
+         PRIME MOVER
+         DESCRIPTION   PRIME MOVER CODE
+         -----------   ----------------
+             HY        1 - Hydro
+             ST        2 - Steam
+             IC        3 - Internal Combustion
+             GT        4 - Gas Turbine
+             CC        5 - Combined Cycle (Steam)
+             CT        6 - Combined Cycle (Gas Turbine)
+             WD        7 - Wood Turbine
+             SO        8 - Solar
+
+
+         KIND OF FUEL
+         DESCRIPTION               KIND OF FUEL CODE
+         ---------------------     -----------------
+             WAT                    ' '  Water
+             UR                      1   Nuclear
+             FO2                     2   Light Oil
+             FO6                     3   Heavy Oil
+             ANT                     4   Anthracite
+             PC                      5   Coke
+             BIT                     6   Bituminous
+             LIG                     7   Lignite
+             NG                      9   Natural Gas
+             GEO                     A   Geothermal
+             WOD                     B   Wood
+             WAS                     C   Waste
+             WI                      D   Wind
+             SP                      E   Solar - Photovoltaic
+                 SO                      F   Solar - Thermal
+    

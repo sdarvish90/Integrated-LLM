@@ -1,0 +1,423 @@
+{
+  "metadata": {
+    "step": "step15_futures_benchmark_validation",
+    "timestamp": "2026-02-13T19:33:46.596172+00:00",
+    "divergence_threshold_pct": 20.0,
+    "forecast_years": [
+      "2026",
+      "2027",
+      "2028",
+      "2029",
+      "2030"
+    ],
+    "sources": {
+      "monte_carlo": "8.0",
+      "literature_benchmarks": "2026-02-13",
+      "nymex_as_of": "2025-01-15"
+    }
+  },
+  "summary": {
+    "overall_status": "CRITICAL",
+    "sections_flagged": 3,
+    "sections_total": 7,
+    "section_statuses": {
+      "gas_vs_nymex": "PASS",
+      "gas_vs_eia_aeo": "PASS",
+      "gas_vs_consensus": "PASS",
+      "ercot_electricity": "PASS",
+      "caiso_electricity": "FLAGGED",
+      "confidence_bands": "FLAGGED",
+      "lng_adjusted_means": "FLAGGED"
+    },
+    "flagged_items": [
+      "caiso_electricity/2026",
+      "lng_adjusted_means/2026",
+      "lng_adjusted_means/2027",
+      "lng_adjusted_means/2028",
+      "lng_adjusted_means/2029",
+      "lng_adjusted_means/2030"
+    ],
+    "recommendation": "3/7 validation sections flagged. Model outputs diverge materially from market references across multiple dimensions. Systematic recalibration required before using these projections for project economics. Priority: 1) Fix LNG capacity curve regime thresholds, 2) Re-estimate GARCH on post-shale data, 3) Anchor MC starting distribution to current futures strip.",
+    "divergence_threshold_pct": 20.0
+  },
+  "gas_vs_nymex_futures": {
+    "reference": "NYMEX Henry Hub Futures Strip",
+    "as_of": "2025-01-15",
+    "unit": "$/MMBtu",
+    "years": {
+      "2026": {
+        "nymex_futures": 3.35,
+        "model_p50": 3.1797,
+        "model_mean": 3.4883,
+        "p50_divergence_pct": -5.08,
+        "mean_divergence_pct": 4.13,
+        "p50_status": "PASS",
+        "mean_status": "PASS"
+      },
+      "2027": {
+        "nymex_futures": 3.5,
+        "model_p50": 3.3549,
+        "model_mean": 3.8194,
+        "p50_divergence_pct": -4.15,
+        "mean_divergence_pct": 9.13,
+        "p50_status": "PASS",
+        "mean_status": "PASS"
+      },
+      "2028": {
+        "nymex_futures": 3.65,
+        "model_p50": 3.4385,
+        "model_mean": 3.9381,
+        "p50_divergence_pct": -5.8,
+        "mean_divergence_pct": 7.89,
+        "p50_status": "PASS",
+        "mean_status": "PASS"
+      },
+      "2029": {
+        "nymex_futures": 3.75,
+        "model_p50": 3.7383,
+        "model_mean": 4.2205,
+        "p50_divergence_pct": -0.31,
+        "mean_divergence_pct": 12.55,
+        "p50_status": "PASS",
+        "mean_status": "PASS"
+      },
+      "2030": {
+        "nymex_futures": 3.85,
+        "model_p50": 3.9875,
+        "model_mean": 4.4382,
+        "p50_divergence_pct": 3.57,
+        "mean_divergence_pct": 15.28,
+        "p50_status": "PASS",
+        "mean_status": "PASS"
+      }
+    },
+    "any_divergent": false,
+    "divergent_years": []
+  },
+  "gas_vs_eia_aeo": {
+    "reference": "EIA Annual Energy Outlook 2025, Reference Case",
+    "unit": "$/MMBtu (2024 dollars)",
+    "years": {
+      "2026": {
+        "eia_aeo_ref": 3.25,
+        "model_p50": 3.1797,
+        "model_mean": 3.4883,
+        "p50_divergence_pct": -2.16,
+        "mean_divergence_pct": 7.33,
+        "p50_status": "PASS",
+        "mean_status": "PASS"
+      },
+      "2027": {
+        "eia_aeo_ref": 3.4,
+        "model_p50": 3.3549,
+        "model_mean": 3.8194,
+        "p50_divergence_pct": -1.33,
+        "mean_divergence_pct": 12.33,
+        "p50_status": "PASS",
+        "mean_status": "PASS"
+      },
+      "2028": {
+        "eia_aeo_ref": 3.55,
+        "model_p50": 3.4385,
+        "model_mean": 3.9381,
+        "p50_divergence_pct": -3.14,
+        "mean_divergence_pct": 10.93,
+        "p50_status": "PASS",
+        "mean_status": "PASS"
+      },
+      "2029": {
+        "eia_aeo_ref": 3.7,
+        "model_p50": 3.7383,
+        "model_mean": 4.2205,
+        "p50_divergence_pct": 1.04,
+        "mean_divergence_pct": 14.07,
+        "p50_status": "PASS",
+        "mean_status": "PASS"
+      },
+      "2030": {
+        "eia_aeo_ref": 3.85,
+        "model_p50": 3.9875,
+        "model_mean": 4.4382,
+        "p50_divergence_pct": 3.57,
+        "mean_divergence_pct": 15.28,
+        "p50_status": "PASS",
+        "mean_status": "PASS"
+      }
+    },
+    "any_divergent": false,
+    "divergent_years": []
+  },
+  "gas_vs_consensus_range": {
+    "reference": "Analyst Consensus (EIA, NYMEX, IHS Markit, Wood Mackenzie)",
+    "years": {
+      "2026": {
+        "consensus_low": 2.8,
+        "consensus_mid": 3.3,
+        "consensus_high": 4.0,
+        "model_p50": 3.1797,
+        "model_mean": 3.4883,
+        "p50_vs_mid_pct": -3.65,
+        "mean_vs_mid_pct": 5.71,
+        "band_status": "PASS",
+        "band_divergence_pct": 0.0,
+        "flagged": false
+      },
+      "2027": {
+        "consensus_low": 2.9,
+        "consensus_mid": 3.45,
+        "consensus_high": 4.2,
+        "model_p50": 3.3549,
+        "model_mean": 3.8194,
+        "p50_vs_mid_pct": -2.76,
+        "mean_vs_mid_pct": 10.71,
+        "band_status": "PASS",
+        "band_divergence_pct": 0.0,
+        "flagged": false
+      },
+      "2028": {
+        "consensus_low": 3.0,
+        "consensus_mid": 3.55,
+        "consensus_high": 4.4,
+        "model_p50": 3.4385,
+        "model_mean": 3.9381,
+        "p50_vs_mid_pct": -3.14,
+        "mean_vs_mid_pct": 10.93,
+        "band_status": "PASS",
+        "band_divergence_pct": 0.0,
+        "flagged": false
+      },
+      "2029": {
+        "consensus_low": 3.1,
+        "consensus_mid": 3.7,
+        "consensus_high": 4.6,
+        "model_p50": 3.7383,
+        "model_mean": 4.2205,
+        "p50_vs_mid_pct": 1.04,
+        "mean_vs_mid_pct": 14.07,
+        "band_status": "PASS",
+        "band_divergence_pct": 0.0,
+        "flagged": false
+      },
+      "2030": {
+        "consensus_low": 3.2,
+        "consensus_mid": 3.85,
+        "consensus_high": 4.8,
+        "model_p50": 3.9875,
+        "model_mean": 4.4382,
+        "p50_vs_mid_pct": 3.57,
+        "mean_vs_mid_pct": 15.28,
+        "band_status": "PASS",
+        "band_divergence_pct": 0.0,
+        "flagged": false
+      }
+    },
+    "any_divergent": false,
+    "divergent_years": []
+  },
+  "ercot_electricity": {
+    "market": "ERCOT",
+    "typical_range": [
+      20,
+      50
+    ],
+    "historical_avg_2019_2024": 36.6,
+    "years": {
+      "2026": {
+        "projected_mean": 38.72,
+        "projected_low": 26.33,
+        "projected_high": 51.92,
+        "gas_component": 21.08,
+        "typical_range_high": 50,
+        "divergence_vs_typical_high_pct": -22.56,
+        "band_status": "PASS",
+        "flagged": false
+      },
+      "2027": {
+        "projected_mean": 41.91,
+        "projected_low": 18.5,
+        "projected_high": 64.93,
+        "gas_component": 23.08,
+        "typical_range_high": 50,
+        "divergence_vs_typical_high_pct": -16.18,
+        "band_status": "PASS",
+        "flagged": false
+      },
+      "2028": {
+        "projected_mean": 43.75,
+        "projected_low": 19.07,
+        "projected_high": 70.84,
+        "gas_component": 23.8,
+        "typical_range_high": 50,
+        "divergence_vs_typical_high_pct": -12.5,
+        "band_status": "PASS",
+        "flagged": false
+      },
+      "2029": {
+        "projected_mean": 46.6,
+        "projected_low": 20.17,
+        "projected_high": 75.43,
+        "gas_component": 25.51,
+        "typical_range_high": 50,
+        "divergence_vs_typical_high_pct": -6.8,
+        "band_status": "PASS",
+        "flagged": false
+      },
+      "2030": {
+        "projected_mean": 49.04,
+        "projected_low": 21.27,
+        "projected_high": 78.9,
+        "gas_component": 26.82,
+        "typical_range_high": 50,
+        "divergence_vs_typical_high_pct": -1.92,
+        "band_status": "PASS",
+        "flagged": false
+      }
+    },
+    "any_divergent": false,
+    "divergent_years": []
+  },
+  "caiso_electricity": {
+    "market": "CAISO",
+    "typical_range": [
+      35,
+      60
+    ],
+    "historical_avg_2019_2024": 48.67,
+    "years": {
+      "2026": {
+        "projected_mean": 29.35,
+        "projected_low": 14.81,
+        "projected_high": 44.85,
+        "gas_component": 25.73,
+        "typical_range_high": 60,
+        "divergence_vs_typical_high_pct": -51.08,
+        "band_status": "LOW",
+        "flagged": true
+      },
+      "2027": {
+        "projected_mean": 37.03,
+        "projected_low": 9.52,
+        "projected_high": 64.07,
+        "gas_component": 28.17,
+        "typical_range_high": 60,
+        "divergence_vs_typical_high_pct": -38.28,
+        "band_status": "PASS",
+        "flagged": false
+      },
+      "2028": {
+        "projected_mean": 43.16,
+        "projected_low": 14.15,
+        "projected_high": 75.0,
+        "gas_component": 29.05,
+        "typical_range_high": 60,
+        "divergence_vs_typical_high_pct": -28.07,
+        "band_status": "PASS",
+        "flagged": false
+      },
+      "2029": {
+        "projected_mean": 50.51,
+        "projected_low": 19.42,
+        "projected_high": 84.42,
+        "gas_component": 31.13,
+        "typical_range_high": 60,
+        "divergence_vs_typical_high_pct": -15.82,
+        "band_status": "PASS",
+        "flagged": false
+      },
+      "2030": {
+        "projected_mean": 57.37,
+        "projected_low": 24.7,
+        "projected_high": 92.52,
+        "gas_component": 32.74,
+        "typical_range_high": 60,
+        "divergence_vs_typical_high_pct": -4.38,
+        "band_status": "PASS",
+        "flagged": false
+      }
+    },
+    "any_divergent": true,
+    "divergent_years": [
+      "2026"
+    ]
+  },
+  "confidence_band_sanity": {
+    "production_floor_mid": 2.0,
+    "extreme_ceiling": 20.0,
+    "total_months": 60,
+    "p5_floor_breaches": 57,
+    "p95_ceiling_breaches": 0,
+    "band_width_issues": 0,
+    "violations": [
+      "P5 band breaches production floor (1.00) in 57/60 months"
+    ],
+    "status": "FLAGGED"
+  },
+  "lng_adjusted_mean_sanity": {
+    "description": "LNG capacity-curve adjusted mean vs market references",
+    "years": {
+      "2026": {
+        "lng_adjusted_mean": 10.7639,
+        "nymex_ref": 3.35,
+        "consensus_mid": 3.3,
+        "primary_ref_used": 3.35,
+        "divergence_pct": 221.31,
+        "status": "HIGH",
+        "utilization_pct": 105.30973451327436,
+        "market_regime": "Crisis"
+      },
+      "2027": {
+        "lng_adjusted_mean": 9.1326,
+        "nymex_ref": 3.5,
+        "consensus_mid": 3.45,
+        "primary_ref_used": 3.5,
+        "divergence_pct": 160.93,
+        "status": "HIGH",
+        "utilization_pct": 100.48154093097914,
+        "market_regime": "Crisis"
+      },
+      "2028": {
+        "lng_adjusted_mean": 7.9974,
+        "nymex_ref": 3.65,
+        "consensus_mid": 3.55,
+        "primary_ref_used": 3.65,
+        "divergence_pct": 119.11,
+        "status": "HIGH",
+        "utilization_pct": 96.89349112426036,
+        "market_regime": "Crisis"
+      },
+      "2029": {
+        "lng_adjusted_mean": 7.8246,
+        "nymex_ref": 3.75,
+        "consensus_mid": 3.7,
+        "primary_ref_used": 3.75,
+        "divergence_pct": 108.65,
+        "status": "HIGH",
+        "utilization_pct": 96.01139601139602,
+        "market_regime": "Crisis"
+      },
+      "2030": {
+        "lng_adjusted_mean": 7.7868,
+        "nymex_ref": 3.85,
+        "consensus_mid": 3.85,
+        "primary_ref_used": 3.85,
+        "divergence_pct": 102.25,
+        "status": "HIGH",
+        "utilization_pct": 95.46703296703298,
+        "market_regime": "Crisis"
+      }
+    },
+    "any_divergent": true,
+    "divergent_years": [
+      "2026",
+      "2027",
+      "2028",
+      "2029",
+      "2030"
+    ],
+    "regime_distribution": {
+      "Balanced": 1,
+      "Tight": 2,
+      "Crisis": 9
+    }
+  }
+}

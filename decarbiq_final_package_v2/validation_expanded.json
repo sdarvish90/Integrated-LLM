@@ -1,0 +1,452 @@
+{
+  "residual_correlations": {
+    "ercot": {
+      "caiso_scarcity_hours": -0.1796,
+      "caiso_eea_events": -0.1796,
+      "caiso_curtailment_gwh": 0.1632,
+      "battery_stationary_price_kwh": -0.1238,
+      "ca_solar_cf_annual_avg": 0.0878,
+      "tx_wind_cf_variability_cv": -0.0698,
+      "ercot_eea_events": 0.0617,
+      "ercot_scarcity_revenue_million": 0.0615,
+      "ca_solar_cf_variability_cv": -0.0497,
+      "ercot_regulationup_price": 0.0382,
+      "ercot_responsivereserve_price": 0.0377,
+      "ercot_curtailment_gwh": 0.0243,
+      "caiso_regulationup_price": 0.0241,
+      "ercot_negative_hours_annual": -0.0219,
+      "ercot_ordc_adder_max_mwh": 0.0216,
+      "battery_pack_price_kwh": -0.0164,
+      "caiso_spinningreserve_price": 0.0163,
+      "tx_wind_cf_annual_avg": 0.0151,
+      "us_ev_peak_demand_increase_gw": -0.0028,
+      "us_ev_annual_charging_twh": 0.0005,
+      "ercot_price_cap_mwh": 0.0
+    },
+    "caiso": {
+      "caiso_scarcity_hours": -0.473,
+      "caiso_eea_events": -0.473,
+      "ca_solar_cf_variability_cv": -0.2367,
+      "battery_stationary_price_kwh": -0.2246,
+      "ca_solar_cf_annual_avg": 0.2022,
+      "ercot_ordc_adder_max_mwh": 0.1235,
+      "ercot_curtailment_gwh": -0.1164,
+      "tx_wind_cf_variability_cv": -0.1059,
+      "caiso_spinningreserve_price": 0.0914,
+      "caiso_regulationup_price": 0.08,
+      "ercot_responsivereserve_price": 0.0735,
+      "ercot_regulationup_price": 0.0728,
+      "battery_pack_price_kwh": -0.0419,
+      "ercot_price_cap_mwh": 0.038,
+      "ercot_negative_hours_annual": -0.0266,
+      "ercot_scarcity_revenue_million": 0.0227,
+      "ercot_eea_events": 0.0214,
+      "caiso_curtailment_gwh": 0.0126,
+      "us_ev_peak_demand_increase_gw": -0.0092,
+      "us_ev_annual_charging_twh": -0.0055,
+      "tx_wind_cf_annual_avg": -0.0042
+    },
+    "hh": {
+      "tx_wind_cf_annual_avg": 0.2765,
+      "ca_solar_cf_variability_cv": -0.2565,
+      "battery_stationary_price_kwh": -0.2498,
+      "battery_pack_price_kwh": 0.1701,
+      "caiso_scarcity_hours": -0.1484,
+      "caiso_eea_events": -0.1484,
+      "us_ev_annual_charging_twh": -0.1276,
+      "ercot_negative_hours_annual": -0.1228,
+      "us_ev_peak_demand_increase_gw": -0.1195,
+      "caiso_regulationup_price": 0.0706,
+      "ercot_eea_events": 0.0634,
+      "ercot_scarcity_revenue_million": 0.0488,
+      "ca_solar_cf_annual_avg": 0.0455,
+      "tx_wind_cf_variability_cv": -0.044,
+      "caiso_curtailment_gwh": -0.0436,
+      "ercot_curtailment_gwh": 0.0391,
+      "caiso_spinningreserve_price": 0.0109,
+      "ercot_regulationup_price": 0.0042,
+      "ercot_responsivereserve_price": -0.0001,
+      "ercot_ordc_adder_max_mwh": 0.0,
+      "ercot_price_cap_mwh": 0.0
+    }
+  },
+  "coefficient_stability": {
+    "ercot": {
+      "first_half": {
+        "coefficients": {
+          "intercept": 10.930585320874364,
+          "henry_hub_spot": 5.796208212049208,
+          "tx_hdd": -0.001490949305570144,
+          "tx_cdd": 0.0073671373391528405,
+          "tx_gas_gen_pct": -0.10035366621238972,
+          "tx_wind_gen_pct": -0.2992023807105278,
+          "tx_solar_gen_pct": -1.869746885062239,
+          "ercot_scarcity_intensity": 0.04331569269709323,
+          "n_ira_credits": -8.881784197001252e-16,
+          "gas_x_tx_wind": -0.09112288163010038,
+          "gas_x_ercot_scarcity": 0.005274374036505769
+        },
+        "r_squared": 0.9838520097137429,
+        "n": 84
+      },
+      "second_half": {
+        "coefficients": {
+          "intercept": 31.760551949532495,
+          "henry_hub_spot": 4.897825516186705,
+          "tx_hdd": -0.008361962935546474,
+          "tx_cdd": -0.015350509783874644,
+          "tx_gas_gen_pct": -0.2503088022798904,
+          "tx_wind_gen_pct": -0.5458511486239986,
+          "tx_solar_gen_pct": 1.6006524175077645,
+          "ercot_scarcity_intensity": 0.045051587755650324,
+          "n_ira_credits": -0.2292216298561127,
+          "gas_x_tx_wind": -0.025755357032355573,
+          "gas_x_ercot_scarcity": 0.0011950806378155931
+        },
+        "r_squared": 0.9990102065942832,
+        "n": 85
+      }
+    },
+    "caiso": {
+      "first_half": {
+        "coefficients": {
+          "intercept": -0.0020904181998335773,
+          "henry_hub_spot": 6.6788115717297165,
+          "ca_hdd": 0.014945320033881826,
+          "ca_cdd": 0.058120868722462915,
+          "ca_caiso_demand_twh": 0.0764533625428927,
+          "ca_wind_gen_pct": -1.7642910015022495,
+          "caiso_total_curtail_gwh": 0.0008651102132057886,
+          "caiso_monthly_negative_hours": 2.3796014633870044e-05,
+          "caiso_monthly_congestion_avg": 0.021928568564483684,
+          "itc_rate_pct": -0.06271254599501844,
+          "ca_rps_target_pct": -0.20904181998319388,
+          "ca_allowance_price_per_ton": 1.3147564564173866,
+          "n_rps_states": -0.018813763798502733
+        },
+        "r_squared": 0.6422400658285161,
+        "n": 38
+      },
+      "second_half": {
+        "coefficients": {
+          "intercept": -0.04085890237417066,
+          "henry_hub_spot": 5.296738908626858,
+          "ca_hdd": 0.04936835059625111,
+          "ca_cdd": 0.12746977832990028,
+          "ca_caiso_demand_twh": 2.2817476130994545,
+          "ca_wind_gen_pct": 1.0618479576848325,
+          "caiso_total_curtail_gwh": -0.00046478774920188926,
+          "caiso_monthly_negative_hours": -0.00816700682294047,
+          "caiso_monthly_congestion_avg": 1.2907823589203173,
+          "itc_rate_pct": -1.2257670712251763,
+          "ca_rps_target_pct": -4.085890237417269,
+          "n_rps_states": -0.3677301213675502,
+          "ca_dc_x_solar": -0.27379674364572143
+        },
+        "r_squared": 0.7065142950854499,
+        "n": 38
+      }
+    },
+    "hh": {
+      "first_half": {
+        "coefficients": {
+          "intercept": 0.0055258727404562434,
+          "electric_power_bcfd": -0.05083073398303539,
+          "us_hdd": -0.0002244510291821225,
+          "us_gdp_growth_pct": -0.10780906476841506,
+          "us_ng_storage_vs_5yr_pct": -0.04227386778914209,
+          "itc_rate_pct": 0.16577618221368762,
+          "ptc_rate_cents_kwh": -0.0025690773888104247
+        },
+        "r_squared": 0.5859715081755552,
+        "n": 90
+      },
+      "second_half": {
+        "coefficients": {
+          "intercept": 0.0013353493071467436,
+          "electric_power_bcfd": 0.04518476323084501,
+          "us_hdd": 0.00024057222559777103,
+          "us_gdp_growth_pct": 0.17156013832427286,
+          "us_ng_storage_vs_5yr_pct": -0.05608051053208987,
+          "itc_rate_pct": 0.040060479214402256,
+          "ptc_rate_cents_kwh": 0.005247275049580038
+        },
+        "r_squared": 0.2199521461044297,
+        "n": 90
+      }
+    }
+  },
+  "expanding_oos": {
+    "ercot": {
+      "windows": [
+        {
+          "train_n": 101,
+          "test_n": 12,
+          "rmse": 5.16,
+          "mae": 2.84,
+          "r2_oos": 0.9717
+        },
+        {
+          "train_n": 113,
+          "test_n": 12,
+          "rmse": 6.87,
+          "mae": 3.64,
+          "r2_oos": 0.9997
+        },
+        {
+          "train_n": 125,
+          "test_n": 12,
+          "rmse": 5.5,
+          "mae": 4.69,
+          "r2_oos": 0.6483
+        },
+        {
+          "train_n": 137,
+          "test_n": 12,
+          "rmse": 17.83,
+          "mae": 9.89,
+          "r2_oos": 0.7944
+        },
+        {
+          "train_n": 149,
+          "test_n": 12,
+          "rmse": 6.38,
+          "mae": 4.29,
+          "r2_oos": 0.9832
+        }
+      ],
+      "avg_rmse": 8.35,
+      "avg_r2_oos": 0.8795,
+      "n_windows": 5
+    },
+    "hh": {
+      "windows": [
+        {
+          "train_n": 108,
+          "test_n": 12,
+          "rmse": 0.81,
+          "mae": 0.71,
+          "r2_oos": -8.4379
+        },
+        {
+          "train_n": 120,
+          "test_n": 12,
+          "rmse": 12.64,
+          "mae": 12.64,
+          "r2_oos": -1451.2951
+        },
+        {
+          "train_n": 132,
+          "test_n": 12,
+          "rmse": 3.75,
+          "mae": 3.59,
+          "r2_oos": -11.3575
+        },
+        {
+          "train_n": 144,
+          "test_n": 12,
+          "rmse": 3.85,
+          "mae": 3.49,
+          "r2_oos": -6.1232
+        },
+        {
+          "train_n": 156,
+          "test_n": 12,
+          "rmse": 0.95,
+          "mae": 0.91,
+          "r2_oos": -7.426
+        }
+      ],
+      "avg_rmse": 4.4,
+      "avg_r2_oos": -296.9279,
+      "n_windows": 5
+    }
+  },
+  "gas_passthrough_consistency": {
+    "ercot": {
+      "coefficient": 6.043810041895818,
+      "p_value": 0.0,
+      "variant": "ercot_D"
+    },
+    "caiso": {
+      "coefficient": 4.975710084024701,
+      "p_value": 0.001212983990386718,
+      "variant": "caiso_D"
+    },
+    "ratio": 1.21,
+    "literature_range": [
+      7,
+      9
+    ]
+  },
+  "literature_comparison": {
+    "garch": {
+      "alpha": {
+        "value": 0.07254058420651507,
+        "literature_range": [
+          0.05,
+          0.15
+        ],
+        "status": "PASS"
+      },
+      "beta": {
+        "value": 0.9137772796687982,
+        "literature_range": [
+          0.8,
+          0.92
+        ],
+        "status": "PASS"
+      },
+      "persistence": {
+        "value": 0.9863178638753133,
+        "literature_range": [
+          0.9,
+          0.99
+        ],
+        "status": "PASS"
+      },
+      "annualized_vol_pct": {
+        "value": 66.0,
+        "literature_range": [
+          30,
+          55
+        ],
+        "status": "HIGH"
+      },
+      "selected_era": "post_covid",
+      "eras": {
+        "pre_shale": {
+          "ann_vol": 52.2,
+          "status": "PASS"
+        },
+        "post_shale": {
+          "ann_vol": 45.9,
+          "status": "PASS"
+        },
+        "post_covid": {
+          "ann_vol": 66.0,
+          "status": "HIGH"
+        }
+      }
+    },
+    "gas_forecasts": {
+      "2026": {
+        "p50": 3.65,
+        "mean": 4.07,
+        "consensus_low": 2.8,
+        "consensus_mid": 3.3,
+        "consensus_high": 4.0,
+        "status": "PASS"
+      },
+      "2027": {
+        "p50": 4.07,
+        "mean": 4.75,
+        "consensus_low": 2.9,
+        "consensus_mid": 3.45,
+        "consensus_high": 4.2,
+        "status": "PASS"
+      },
+      "2028": {
+        "p50": 4.15,
+        "mean": 4.87,
+        "consensus_low": 3.0,
+        "consensus_mid": 3.55,
+        "consensus_high": 4.4,
+        "status": "PASS"
+      },
+      "2029": {
+        "p50": 4.45,
+        "mean": 5.18,
+        "consensus_low": 3.1,
+        "consensus_mid": 3.7,
+        "consensus_high": 4.6,
+        "status": "PASS"
+      },
+      "2030": {
+        "p50": 4.73,
+        "mean": 5.43,
+        "consensus_low": 3.2,
+        "consensus_mid": 3.85,
+        "consensus_high": 4.8,
+        "status": "PASS"
+      }
+    },
+    "gas_passthrough": {
+      "ercot": {
+        "coefficient": 6.043810041895818,
+        "range": [
+          7.0,
+          9.0
+        ],
+        "status": "PASS"
+      },
+      "caiso": {
+        "coefficient": 4.975710084024701,
+        "range": [
+          7.0,
+          9.0
+        ],
+        "status": "PASS"
+      }
+    },
+    "event_probabilities": {
+      "geopolitical": {
+        "empirical_annual_rate": 0.034,
+        "events_qualifying": 1,
+        "total_events": 8
+      },
+      "demand_shock": {
+        "empirical_annual_rate": 0.069,
+        "events_qualifying": 2,
+        "total_events": 6
+      },
+      "policy_shock": {
+        "empirical_annual_rate": 0.034,
+        "events_qualifying": 1,
+        "total_events": 5
+      }
+    },
+    "hurricane_frequency": {
+      "consensus_trend_per_decade": 0.0
+    },
+    "electricity_prices": {
+      "ercot": {
+        "typical_range": [
+          20,
+          50
+        ],
+        "historical": {
+          "2019": 28.5,
+          "2020": 22.0,
+          "2021": 45.0,
+          "2022": 65.0,
+          "2023": 34.0,
+          "2024": 25.1
+        }
+      },
+      "caiso": {
+        "typical_range": [
+          35,
+          60
+        ],
+        "historical": {
+          "2019": 38.0,
+          "2020": 35.0,
+          "2021": 46.0,
+          "2022": 88.0,
+          "2023": 45.0,
+          "2024": 40.0
+        }
+      }
+    },
+    "production_floor": {
+      "floor_mid": 2.0,
+      "violations": [
+        "2027: P10=$1.75",
+        "2028: P10=$1.75",
+        "2029: P10=$1.81",
+        "2030: P10=$1.82"
+      ]
+    }
+  }
+}

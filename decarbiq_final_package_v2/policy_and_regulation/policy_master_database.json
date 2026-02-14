@@ -1,0 +1,327 @@
+{
+  "metadata": {
+    "created": "2026-02-10",
+    "coverage": "1978-2035",
+    "sources": [
+      "DSIRE",
+      "LBNL",
+      "FERC",
+      "EIA",
+      "CRS",
+      "state legislation"
+    ],
+    "categories": [
+      "federal_tax_credits",
+      "state_rps_ces",
+      "interconnection",
+      "behind_the_meter",
+      "federal_legislation"
+    ]
+  },
+  "federal_tax_credits": {
+    "summary": {
+      "itc_current_rate": "30% (through 2032)",
+      "ptc_current_rate": "$0.0275/kWh (inflation adjusted)",
+      "45v_hydrogen": "Up to $3.00/kg",
+      "45q_carbon_capture": "$85/ton sequestered",
+      "bonus_credits": {
+        "domestic_content": "+10%",
+        "energy_community": "+10%",
+        "low_income": "+10-20%"
+      }
+    },
+    "timeline": [
+      {
+        "year": 1978,
+        "policy": "ITC",
+        "description": "Energy Tax Act creates 10% Investment Tax Credit for solar/wind",
+        "value": "10%",
+        "status": "enacted",
+        "expiration": "1982"
+      },
+      {
+        "year": 1980,
+        "policy": "ITC",
+        "description": "ITC extended, increased to 15%",
+        "value": "15%",
+        "status": "extended",
+        "expiration": "1985"
+      },
+      {
+        "year": 1986,
+        "policy": "ITC",
+        "description": "Tax Reform Act - wind made ineligible, stepdown to 10%",
+        "value": "10%",
+        "status": "modified",
+        "expiration": "1988"
+      },
+      {
+        "year": 1990,
+        "policy": "ITC",
+        "description": "ITC expired for ~1 month, then extended",
+        "value": "10%",
+        "status": "lapsed/renewed",
+        "expiration": "1991"
+      },
+      {
+        "year": 1992,
+        "policy": "ITC",
+        "description": "Energy Policy Act - ITC made permanent at 10%",
+        "value": "10%",
+        "status": "permanent",
+        "expiration": "permanent"
+      },
+      {
+        "year": 2005,
+        "policy": "ITC",
+        "description": "Energy Policy Act increases solar ITC to 30%",
+        "value": "30%",
+        "status": "increased",
+        "expiration": "2007"
+      },
+      {
+        "year": 2006,
+        "policy": "ITC",
+        "description": "Tax Relief Act extends 30% ITC",
+        "value": "30%",
+        "status": "extended",
+        "expiration": "2008"
+      },
+      {
+        "year": 2008,
+        "policy": "ITC",
+        "description": "Emergency Economic Stabilization Act extends 30% ITC 8 years, removes $2k residential cap",
+        "value": "30%",
+        "status": "extended",
+        "expiration": "2016"
+      },
+      {
+        "year": 2015,
+        "policy": "ITC",
+        "description": "Consolidated Appropriations Act extends with stepdown (30%\u219226%\u219222%\u219210%)",
+        "value": "30%",
+        "status": "extended+stepdown",
+        "expiration": "2022"
+      },
+      {
+        "year": 2020,
+        "policy": "ITC",
+        "description": "COVID relief extends stepdown schedule by 2 years",
+        "value": "26%",
+        "status": "extended",
+        "expiration": "2024"
+      },
+      {
+        "year": 2022,
+        "policy": "ITC",
+        "description": "Inflation Reduction Act restores 30% ITC through 2032",
+        "value": "30%",
+        "status": "extended",
+        "expiration": "2032"
+      },
+      {
+        "year": 2025,
+        "policy": "ITC-48E",
+        "description": "Technology-neutral Clean Electricity ITC (Section 48E) begins",
+        "value": "30%+bonuses",
+        "status": "active",
+        "expiration": "2032+"
+      },
+      {
+        "year": 1992,
+        "policy": "PTC",
+        "description": "Energy Policy Act creates Production Tax Credit at 1.5\u00a2/kWh",
+        "value": "1.5\u00a2/kWh",
+        "status": "enacted",
+        "expiration": "1999"
+      },
+      {
+        "year": 1999,
+        "policy": "PTC",
+        "description": "PTC expires July 1, reinstated December (6-month lapse)",
+        "value": "1.5\u00a2/kWh",
+        "status": "lapsed/renewed",
+        "expiration": "2001"
+      },
+      {
+        "year": 2002,
+        "policy": "PTC",
+        "description": "PTC extended",
+        "value": "1.8\u00a2/kWh",
+        "status": "extended",
+        "expiration": "2003"
+      },
+      {
+        "year": 2004,
+        "policy": "PTC",
+        "description": "PTC extended",
+        "value": "1.8\u00a2/kWh",
+        "status": "extended",
+        "expiration": "2005"
+      },
+      {
+        "year": 2006,
+        "policy": "PTC",
+        "description": "PTC extended",
+        "value": "1.9\u00a2/kWh",
+        "status": "extended",
+        "expiration": "2008"
+      },
+      {
+        "year": 2009,
+        "policy": "PTC",
+        "description": "American Recovery Act - PTC extended, option to elect 30% ITC instead",
+        "value": "2.1\u00a2/kWh",
+        "status": "extended+ITC option",
+        "expiration": "2012"
+      },
+      {
+        "year": 2013,
+        "policy": "PTC",
+        "description": "American Taxpayer Relief Act extends PTC",
+        "value": "2.3\u00a2/kWh",
+        "status": "extended",
+        "expiration": "2013"
+      },
+      {
+        "year": 2015,
+        "policy": "PTC",
+        "description": "Consolidated Appropriations Act extends with stepdown (100%\u219280%\u219260%\u219240%\u21920)",
+        "value": "2.3\u00a2/kWh",
+        "status": "extended+stepdown",
+        "expiration": "2019"
+      },
+      {
+        "year": 2020,
+        "policy": "PTC",
+        "description": "COVID relief extends PTC stepdown",
+        "value": "60%",
+        "status": "extended",
+        "expiration": "2021"
+      },
+      {
+        "year": 2022,
+        "policy": "PTC",
+        "description": "Inflation Reduction Act restores full PTC, extends through 2032",
+        "value": "2.75\u00a2/kWh",
+        "status": "extended",
+        "expiration": "2032"
+      },
+      {
+        "year": 2025,
+        "policy": "PTC-45Y",
+        "description": "Technology-neutral Clean Electricity PTC (Section 45Y) begins",
+        "value": "2.75\u00a2/kWh+bonuses",
+        "status": "active",
+        "expiration": "2032+"
+      },
+      {
+        "year": 2022,
+        "policy": "45V",
+        "description": "Clean Hydrogen Production Tax Credit created (up to $3/kg)",
+        "value": "$0.60-$3.00/kg",
+        "status": "enacted",
+        "expiration": "2032"
+      },
+      {
+        "year": 2022,
+        "policy": "45Q",
+        "description": "Carbon Capture Tax Credit enhanced ($85/ton sequestered, $60/ton utilized)",
+        "value": "$85/ton",
+        "status": "enhanced",
+        "expiration": "2032"
+      },
+      {
+        "year": 2022,
+        "policy": "45X",
+        "description": "Advanced Manufacturing Production Tax Credit created",
+        "value": "varies",
+        "status": "enacted",
+        "expiration": "2032"
+      },
+      {
+        "year": 2022,
+        "policy": "48C",
+        "description": "Advanced Energy Project Investment Tax Credit expanded ($10B allocation)",
+        "value": "30%",
+        "status": "expanded",
+        "expiration": "2032"
+      },
+      {
+        "year": 2022,
+        "policy": "30D",
+        "description": "Clean Vehicle Tax Credit restructured ($7,500 max)",
+        "value": "$7,500",
+        "status": "modified",
+        "expiration": "2032"
+      },
+      {
+        "year": 2022,
+        "policy": "25D",
+        "description": "Residential Clean Energy Credit extended at 30%",
+        "value": "30%",
+        "status": "extended",
+        "expiration": "2034"
+      },
+      {
+        "year": 2022,
+        "policy": "Domestic Content Bonus",
+        "description": "+10% ITC/PTC for domestic steel, iron, manufactured products",
+        "value": "+10%",
+        "status": "enacted",
+        "expiration": "2032"
+      },
+      {
+        "year": 2022,
+        "policy": "Energy Community Bonus",
+        "description": "+10% ITC/PTC for projects in energy communities (coal closures, brownfields)",
+        "value": "+10%",
+        "status": "enacted",
+        "expiration": "2032"
+      },
+      {
+        "year": 2022,
+        "policy": "Low-Income Bonus",
+        "description": "+10-20% ITC for projects serving low-income communities",
+        "value": "+10-20%",
+        "status": "enacted",
+        "expiration": "2032"
+      }
+    ]
+  },
+  "state_policies": {
+    "california": {
+      "rps_target": "100% clean by 2045",
+      "current_rps": "60% by 2030",
+      "carbon_policy": "Cap-and-Trade since 2013",
+      "ghg_target": "40% below 1990 by 2030",
+      "net_metering": "NEM 3.0 (reduced export rates)",
+      "storage_mandate": "Yes"
+    },
+    "texas": {
+      "rps_target": "Met/exceeded (no binding target)",
+      "current_capacity": "40+ GW wind, 20+ GW solar",
+      "carbon_policy": "None",
+      "net_metering": "Limited (varies by utility)",
+      "crez_investment": "$7B transmission buildout"
+    }
+  },
+  "interconnection": {
+    "current_backlog": "2,600+ GW nationally",
+    "avg_wait_time": "5 years",
+    "completion_rate": "~14% for solar",
+    "key_reforms": {
+      "ferc_2023": "Cluster study, first-ready-first-served, penalties",
+      "ferc_2023a": "Clarifications, May 2024 compliance",
+      "ferc_1920": "Long-term regional transmission planning"
+    },
+    "ercot_queue": "230+ GW large load requests (2025)"
+  },
+  "key_dates": {
+    "itc_expiration": "2032 (steps down after)",
+    "ptc_expiration": "2032 (or 75% emissions reduction)",
+    "45v_hydrogen_deadline": "Begin construction by 2033",
+    "ca_100_clean": "2045",
+    "nem_3_effective": "April 15, 2023"
+  }
+}

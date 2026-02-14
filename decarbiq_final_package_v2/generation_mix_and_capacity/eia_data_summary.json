@@ -1,0 +1,90 @@
+{
+  "created": "2026-02-10",
+  "source": "100% EIA Data (Form 860, EIA-923, Electricity Data Browser)",
+  "coverage": "1990-2024 (35 years)",
+  "files": {
+    "annual": {
+      "eia_texas_ercot_complete.csv": {
+        "description": "Texas/ERCOT generation + capacity + prices",
+        "years": "1990-2024",
+        "columns": 55,
+        "key_metrics": [
+          "coal_twh",
+          "gas_twh",
+          "wind_twh",
+          "solar_twh",
+          "nuclear_twh",
+          "coal_gw",
+          "gas_gw",
+          "wind_gw",
+          "solar_gw",
+          "industrial_cents_kwh",
+          "wholesale_avg_mwh"
+        ]
+      },
+      "eia_california_caiso_complete.csv": {
+        "description": "California/CAISO generation + capacity + prices",
+        "years": "1990-2024",
+        "columns": 60,
+        "key_metrics": [
+          "coal_twh",
+          "gas_twh",
+          "wind_twh",
+          "solar_twh",
+          "nuclear_twh",
+          "hydro_twh",
+          "coal_gw",
+          "gas_gw",
+          "wind_gw",
+          "solar_gw",
+          "hydro_gw",
+          "industrial_cents_kwh",
+          "wholesale_avg_mwh"
+        ]
+      },
+      "eia_us_national_complete.csv": {
+        "description": "US National generation + capacity changes + gas consumption + prices",
+        "years": "1990-2024",
+        "columns": 34,
+        "key_metrics": [
+          "coal_gen_twh",
+          "gas_gen_twh",
+          "wind_gen_twh",
+          "solar_gen_twh",
+          "gas_additions_gw",
+          "coal_retirements_gw",
+          "electric_power_bcf",
+          "lng_exports_bcf",
+          "industrial_cents_kwh"
+        ]
+      }
+    },
+    "monthly": {
+      "eia_us_monthly_complete.csv": "US generation + gas consumption + retail prices (2001-2024)",
+      "eia_ercot_monthly_complete.csv": "ERCOT load + wholesale + retail prices (2019-2024)",
+      "eia_caiso_monthly_complete.csv": "CAISO load + wholesale + retail prices (2018-2024)"
+    }
+  },
+  "key_trends_2024": {
+    "texas": {
+      "total_generation_twh": 566.502688,
+      "gas_share_pct": 51.8,
+      "wind_share_pct": 21.9,
+      "solar_share_pct": 7.2,
+      "coal_share_pct": 11.6
+    },
+    "california": {
+      "total_generation_twh": 214.191383,
+      "gas_share_pct": 40.5,
+      "solar_share_pct": 22.6,
+      "hydro_share_pct": 13.8,
+      "coal_share_pct": 0.1
+    },
+    "us_national": {
+      "total_generation_twh": 4250.0,
+      "gas_share_pct": 43.52941176470589,
+      "coal_share_pct": 14.588235294117649,
+      "renewable_share_pct": 21.64705882352941
+    }
+  }
+}

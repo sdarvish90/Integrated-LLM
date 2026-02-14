@@ -1,86 +1,114 @@
 ```mermaid
 graph TD
-    subgraph SUPPLY["🔵 SUPPLY (Upstream)"]
+    subgraph SUPPLY["SUPPLY (Upstream)"]
         SHALE["Shale Production<br/>coef: -1.30"]
         LNG["LNG Exports<br/>coef: +0.12"]
         RIGS["Drilling Activity<br/>coef: -0.003"]
         EXPORTS["Net Export Status<br/>coef: -1.48"]
     end
-    
-    subgraph DEMAND["🟢 DEMAND (Upstream)"]
-        POWER["Power Sector<br/>coef: +0.28"]
-        INDUSTRIAL["Industrial<br/>coef: -0.43"]
-        HEATING["Seasonal Heating<br/>coef: +0.15"]
+
+    subgraph DEMAND["DEMAND (Upstream)"]
+        POWER["Power Sector<br/>coef: -0.064 p=0.018"]
+        GDP["GDP Growth<br/>coef: +0.486 p<0.001"]
+        INDPROD["Industrial Production<br/>coef: +0.118 p=0.005"]
+        HEATING["Seasonal<br/>Summer: +0.60 p=0.04"]
     end
-    
-    subgraph POLICY["🟣 POLICY (Structural Shifters)"]
-        RGGI["RGGI<br/>coef: -1.30"]
+
+    subgraph DATACENTER["DATA CENTER DEMAND (Emerging)"]
+        USDC["US DC Load<br/>coef: +0.059/TWh p=0.002"]
+        TXDC["TX DC Load<br/>55 TWh → 200 TWh"]
+        QUEUE_ERCOT["ERCOT Large Load<br/>230+ GW in queue"]
+    end
+
+    subgraph POLICY["POLICY (Structural Shifters)"]
+        IRA_OBBBA["IRA→OBBBA<br/>coef: +8.57 p<0.001"]
+        FERC["FERC Reforms (12)<br/>coef: +0.57 p=0.023"]
+        CREZ["TX CREZ<br/>$7B → 18.5 GW wind"]
         MATS["MATS Rule<br/>coef: +0.86"]
-        IRA["IRA<br/>coef: -2.40"]
-        PERMIT["Permitting<br/>coef: +1.52"]
     end
-    
-    subgraph CENTRAL["🔴 NATURAL GAS PRICE"]
-        GAS["Henry Hub<br/>$/MMBtu"]
+
+    subgraph CONSTRAINT["INTERCONNECTION QUEUE (Constraint)"]
+        QUEUE_NAT["National Queue<br/>2,600 GW backlog"]
+        WAIT["Avg Wait: 5 years<br/>14% solar completion"]
     end
-    
-    subgraph MODERATOR["🟡 GENERATION MIX (Moderator)"]
-        GASGEN["Gas Share: 43%<br/>r=+0.81 w/elec"]
-        COAL["Coal Share: 16%<br/>r=-0.72 w/elec"]
-        RENEW["Renewables<br/>r=+0.59 w/elec"]
+
+    subgraph CENTRAL["NATURAL GAS PRICE"]
+        GAS["Henry Hub $/MMBtu<br/>HH Full R²=0.612"]
     end
-    
-    subgraph DOWNSTREAM["🟠 ELECTRICITY PRICE"]
-        TX["TX Industrial<br/>r=+0.68 w/gas"]
-        CA["CA Industrial<br/>r=-0.35 w/gas"]
-        ERCOT["ERCOT Wholesale<br/>r=+0.21 w/gas"]
-        CAISO["CAISO Wholesale<br/>r=+0.42 w/gas"]
+
+    subgraph MODERATOR["GENERATION MIX (Moderator)"]
+        GASGEN["TX Gas Share: 47%<br/>r=+0.81 w/elec"]
+        WIND["TX Wind: 25%<br/>40+ GW installed"]
+        COAL["TX Coal: 16%<br/>declining"]
+        SOLAR["TX Solar: 8%<br/>rising rapidly"]
     end
-    
-    %% Supply flows
+
+    subgraph DOWNSTREAM["ERCOT ELECTRICITY PRICE"]
+        ERCOT["ERCOT Wholesale<br/>$41/MWh per $1 gas<br/>R²=0.149 n=169"]
+        TX["TX Industrial<br/>r=+0.68 w/gas<br/>6.2¢/kWh"]
+    end
+
+    subgraph DOWNSTREAM_CA["CAISO ELECTRICITY PRICE"]
+        CAISO["CAISO Wholesale<br/>$14/MWh per $1 gas<br/>R²=0.569 n=183"]
+    end
+
+    %% Supply flows to gas
     SHALE -->|"-$1.30"| GAS
     LNG -->|"+$0.12"| GAS
     RIGS -->|"lagged"| GAS
     EXPORTS -->|"-$1.48"| GAS
-    
-    %% Demand flows
-    POWER -->|"+$0.28"| GAS
-    INDUSTRIAL -->|"-$0.43"| GAS
-    HEATING -->|"+$0.15"| GAS
-    
-    %% Policy structural shifts
-    RGGI -.->|"structural"| GAS
-    MATS -.->|"coal ret."| GASGEN
-    IRA -.->|"renewables"| RENEW
-    PERMIT -.->|"constrains"| SHALE
-    
-    %% Gas to Electricity (moderated)
-    GAS ==>|"passthrough"| TX
-    GAS ==>|"passthrough"| CA
-    GAS ==>|"passthrough"| ERCOT
-    GAS ==>|"passthrough"| CAISO
-    
-    %% Generation mix moderates
-    GASGEN -->|"moderates"| TX
-    GASGEN -->|"moderates"| CA
-    COAL -->|"moderates"| TX
-    COAL -->|"moderates"| CA
-    
-    %% Demand affects electricity
-    POWER -->|"+0.80"| TX
-    POWER -->|"+0.80"| CA
+
+    %% Demand flows to gas (regression-validated)
+    POWER -->|"-$0.064"| GAS
+    GDP -->|"+$0.486***"| GAS
+    INDPROD -->|"+$0.118**"| GAS
+    HEATING -->|"+$0.60*"| GAS
+
+    %% Data center demand (dual path)
+    USDC -->|"+$0.059**"| GAS
+    TXDC -->|"demand pull"| ERCOT
+    QUEUE_ERCOT -->|"scarcity risk"| ERCOT
+
+    %% Policy to gas and gen mix
+    IRA_OBBBA ==>|"+$8.57***"| GAS
+    IRA_OBBBA -.->|"slows renewables"| WIND
+    FERC -->|"+$0.57*"| GAS
+    FERC -.->|"reforms queue"| QUEUE_NAT
+    CREZ -.->|"enabled wind"| WIND
+    MATS -.->|"coal retirement"| COAL
+
+    %% Queue constrains new capacity
+    QUEUE_NAT -.->|"delays capacity"| ERCOT
+    WAIT -.->|"constrains"| MODERATOR
+
+    %% Gas to electricity (DOMINANT for ERCOT)
+    GAS ==>|"$41/MWh***"| ERCOT
+    GAS ==>|"$14/MWh***"| CAISO
+    ERCOT -->|"retail"| TX
+
+    %% Gen mix moderates ERCOT
+    GASGEN -->|"passthrough"| ERCOT
+    WIND -->|"compresses<br/>off-peak"| ERCOT
+    SOLAR -->|"duck curve"| ERCOT
+    COAL -->|"retiring"| GASGEN
 
     classDef supply fill:#3498db,stroke:#2980b9,color:white
     classDef demand fill:#2ecc71,stroke:#27ae60,color:white
+    classDef datacenter fill:#e91e63,stroke:#c2185b,color:white
     classDef policy fill:#9b59b6,stroke:#8e44ad,color:white
+    classDef constraint fill:#ff9800,stroke:#f57c00,color:white
     classDef central fill:#e74c3c,stroke:#c0392b,color:white
     classDef moderator fill:#f1c40f,stroke:#f39c12,color:black
     classDef downstream fill:#e67e22,stroke:#d35400,color:white
-    
+    classDef downstream_ca fill:#795548,stroke:#5d4037,color:white
+
     class SHALE,LNG,RIGS,EXPORTS supply
-    class POWER,INDUSTRIAL,HEATING demand
-    class RGGI,MATS,IRA,PERMIT policy
+    class POWER,GDP,INDPROD,HEATING demand
+    class USDC,TXDC,QUEUE_ERCOT datacenter
+    class IRA_OBBBA,FERC,CREZ,MATS policy
+    class QUEUE_NAT,WAIT constraint
     class GAS central
-    class GASGEN,COAL,RENEW moderator
-    class TX,CA,ERCOT,CAISO downstream
+    class GASGEN,WIND,COAL,SOLAR moderator
+    class ERCOT,TX downstream
+    class CAISO downstream_ca
 ```
