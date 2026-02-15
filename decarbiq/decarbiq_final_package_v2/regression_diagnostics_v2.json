@@ -2204,7 +2204,7 @@
   "regime_models": {
     "ercot_H_normal": {
       "type": "ols",
-      "n": 77
+      "n": 83
     },
     "ercot_H_interaction": {
       "type": "ols",
@@ -2212,7 +2212,7 @@
     },
     "ercot_H_crisis_scaling": {
       "type": "scaling",
-      "n": 25
+      "n": 8
     },
     "caiso_H_normal": {
       "type": "ols",

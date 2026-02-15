@@ -2,7 +2,7 @@
   "metadata": {
     "name": "DecarbIQ Sensitivity Analysis",
     "version": "1.0",
-    "created": "2026-02-14 23:31",
+    "created": "2026-02-15 10:46",
     "pipeline_stages": [
       "SaturationFilter",
       "LagFilter",
@@ -27,7 +27,7 @@
       }
     },
     "base_passthroughs": {
-      "ercot": 6.358463679492865,
+      "ercot": 6.234720860258614,
       "caiso": 3.2405362128484896
     },
     "cross_market": {
@@ -1638,12 +1638,12 @@
       "category": "demand",
       "linear": {
         "delta_gas": -0.3892,
-        "delta_ercot": -2.47,
+        "delta_ercot": -2.43,
         "delta_caiso": -1.26
       },
       "dynamic": {
         "delta_gas": -0.5225,
-        "delta_ercot": -3.46,
+        "delta_ercot": -3.4,
         "delta_caiso": -3.01,
         "regime_before": "ng_crisis",
         "regime_after": "ng_crisis",
@@ -1673,15 +1673,15 @@
             ]
           },
           "ercot_wholesale": {
-            "point_estimate": -3.46,
+            "point_estimate": -3.4,
             "se": 9.42,
             "ci_90": [
-              -18.96,
-              12.03
+              -18.89,
+              12.1
             ],
             "ci_95": [
-              -21.92,
-              14.99
+              -21.86,
+              15.06
             ]
           },
           "caiso_wholesale": {
@@ -1710,12 +1710,12 @@
       "category": "demand",
       "linear": {
         "delta_gas": 0.3892,
-        "delta_ercot": 2.47,
+        "delta_ercot": 2.43,
         "delta_caiso": 1.26
       },
       "dynamic": {
         "delta_gas": 0.5225,
-        "delta_ercot": 3.46,
+        "delta_ercot": 3.4,
         "delta_caiso": 7.43,
         "regime_before": "ng_crisis",
         "regime_after": "ng_crisis",
@@ -1745,15 +1745,15 @@
             ]
           },
           "ercot_wholesale": {
-            "point_estimate": 3.46,
+            "point_estimate": 3.4,
             "se": 9.42,
             "ci_90": [
-              -12.03,
-              18.96
+              -12.1,
+              18.89
             ],
             "ci_95": [
-              -14.99,
-              21.92
+              -15.06,
+              21.86
             ]
           },
           "caiso_wholesale": {
@@ -2152,12 +2152,12 @@
       "category": "commodity",
       "linear": {
         "delta_gas": 2.1477,
-        "delta_ercot": 13.66,
+        "delta_ercot": 13.39,
         "delta_caiso": 6.96
       },
       "dynamic": {
         "delta_gas": 2.4713,
-        "delta_ercot": 16.39,
+        "delta_ercot": 16.07,
         "delta_caiso": 35.13,
         "regime_before": "ng_crisis",
         "regime_after": "ng_crisis",
@@ -2187,15 +2187,15 @@
             ]
           },
           "ercot_wholesale": {
-            "point_estimate": 16.39,
+            "point_estimate": 16.07,
             "se": 2.84,
             "ci_90": [
-              11.71,
-              21.06
+              11.39,
+              20.74
             ],
             "ci_95": [
-              10.82,
-              21.96
+              10.5,
+              21.64
             ]
           },
           "caiso_wholesale": {
@@ -2222,12 +2222,12 @@
       "category": "commodity",
       "linear": {
         "delta_gas": -2.1477,
-        "delta_ercot": -13.66,
+        "delta_ercot": -13.39,
         "delta_caiso": -6.96
       },
       "dynamic": {
         "delta_gas": -2.4713,
-        "delta_ercot": -16.39,
+        "delta_ercot": -16.07,
         "delta_caiso": -9.6,
         "regime_before": "ng_crisis",
         "regime_after": "normal",
@@ -2257,15 +2257,15 @@
             ]
           },
           "ercot_wholesale": {
-            "point_estimate": -16.39,
+            "point_estimate": -16.07,
             "se": 2.84,
             "ci_90": [
-              -21.06,
-              -11.71
+              -20.74,
+              -11.39
             ],
             "ci_95": [
-              -21.96,
-              -10.82
+              -21.64,
+              -10.5
             ]
           },
           "caiso_wholesale": {
@@ -2420,12 +2420,12 @@
       "category": "policy",
       "linear": {
         "delta_gas": 1.9425,
-        "delta_ercot": 12.35,
+        "delta_ercot": 12.11,
         "delta_caiso": 7.32
       },
       "dynamic": {
         "delta_gas": 1.9425,
-        "delta_ercot": 12.01,
+        "delta_ercot": 11.78,
         "delta_caiso": 27.5,
         "regime_before": "ng_crisis",
         "regime_after": "ng_crisis",
@@ -2455,15 +2455,15 @@
             ]
           },
           "ercot_wholesale": {
-            "point_estimate": 12.01,
+            "point_estimate": 11.78,
             "se": 988903528.54,
             "ci_90": [
-              -1626746292.43,
-              1626746316.45
+              -1626746292.67,
+              1626746316.22
             ],
             "ci_95": [
-              -1938250903.92,
-              1938250927.94
+              -1938250904.15,
+              1938250927.71
             ]
           },
           "caiso_wholesale": {
@@ -2493,12 +2493,12 @@
       "category": "policy",
       "linear": {
         "delta_gas": -1.9425,
-        "delta_ercot": -12.35,
+        "delta_ercot": -12.11,
         "delta_caiso": -7.32
       },
       "dynamic": {
         "delta_gas": -1.9425,
-        "delta_ercot": -12.01,
+        "delta_ercot": -11.78,
         "delta_caiso": -8.56,
         "regime_before": "ng_crisis",
         "regime_after": "ng_crisis",
@@ -2528,15 +2528,15 @@
             ]
           },
           "ercot_wholesale": {
-            "point_estimate": -12.01,
+            "point_estimate": -11.78,
             "se": 988903528.54,
             "ci_90": [
-              -1626746316.45,
-              1626746292.43
+              -1626746316.22,
+              1626746292.67
             ],
             "ci_95": [
-              -1938250927.94,
-              1938250903.92
+              -1938250927.71,
+              1938250904.15
             ]
           },
           "caiso_wholesale": {
@@ -2818,7 +2818,7 @@
       "category": "policy",
       "linear": {
         "delta_gas": -0.1601,
-        "delta_ercot": -1.02,
+        "delta_ercot": -1.0,
         "delta_caiso": -2.49
       },
       "dynamic": {
@@ -2857,7 +2857,7 @@
             "se": 2.66,
             "ci_90": [
               -4.3,
-              4.45
+              4.44
             ],
             "ci_95": [
               -5.14,
@@ -2891,7 +2891,7 @@
       "category": "policy",
       "linear": {
         "delta_gas": 0.1601,
-        "delta_ercot": 1.02,
+        "delta_ercot": 1.0,
         "delta_caiso": 2.49
       },
       "dynamic": {
@@ -2929,12 +2929,12 @@
             "point_estimate": 0.4,
             "se": 3.09,
             "ci_90": [
-              -4.67,
-              5.48
+              -4.68,
+              5.47
             ],
             "ci_95": [
               -5.65,
-              6.45
+              6.44
             ]
           },
           "caiso_wholesale": {
@@ -3730,12 +3730,12 @@
       "category": "other",
       "linear": {
         "delta_gas": -0.3756,
-        "delta_ercot": -2.39,
+        "delta_ercot": -2.34,
         "delta_caiso": -1.22
       },
       "dynamic": {
         "delta_gas": -0.3756,
-        "delta_ercot": -2.39,
+        "delta_ercot": -2.34,
         "delta_caiso": -2.46,
         "regime_before": "ng_crisis",
         "regime_after": "ng_crisis",
@@ -3756,15 +3756,15 @@
             ]
           },
           "ercot_wholesale": {
-            "point_estimate": -2.39,
+            "point_estimate": -2.34,
             "se": 7.8,
             "ci_90": [
-              -15.22,
-              10.45
+              -15.18,
+              10.49
             ],
             "ci_95": [
-              -17.68,
-              12.9
+              -17.63,
+              12.95
             ]
           },
           "caiso_wholesale": {
@@ -3791,12 +3791,12 @@
       "category": "other",
       "linear": {
         "delta_gas": 0.3756,
-        "delta_ercot": 2.39,
+        "delta_ercot": 2.34,
         "delta_caiso": 1.22
       },
       "dynamic": {
         "delta_gas": 0.3756,
-        "delta_ercot": 2.39,
+        "delta_ercot": 2.34,
         "delta_caiso": 5.12,
         "regime_before": "ng_crisis",
         "regime_after": "ng_crisis",
@@ -3817,15 +3817,15 @@
             ]
           },
           "ercot_wholesale": {
-            "point_estimate": 2.39,
+            "point_estimate": 2.34,
             "se": 7.8,
             "ci_90": [
-              -10.45,
-              15.22
+              -10.49,
+              15.18
             ],
             "ci_95": [
-              -12.9,
-              17.68
+              -12.95,
+              17.63
             ]
           },
           "caiso_wholesale": {
@@ -3852,12 +3852,12 @@
       "category": "other",
       "linear": {
         "delta_gas": -2.6051,
-        "delta_ercot": -16.56,
+        "delta_ercot": -16.24,
         "delta_caiso": -8.44
       },
       "dynamic": {
         "delta_gas": -2.6051,
-        "delta_ercot": -16.56,
+        "delta_ercot": -16.24,
         "delta_caiso": -9.69,
         "regime_before": "ng_crisis",
         "regime_after": "ng_crisis",
@@ -3878,15 +3878,15 @@
             ]
           },
           "ercot_wholesale": {
-            "point_estimate": -16.56,
+            "point_estimate": -16.24,
             "se": 18.62,
             "ci_90": [
-              -47.2,
-              14.07
+              -46.87,
+              14.39
             ],
             "ci_95": [
-              -53.06,
-              19.93
+              -52.74,
+              20.25
             ]
           },
           "caiso_wholesale": {
@@ -3913,12 +3913,12 @@
       "category": "other",
       "linear": {
         "delta_gas": 2.6051,
-        "delta_ercot": 16.56,
+        "delta_ercot": 16.24,
         "delta_caiso": 8.44
       },
       "dynamic": {
         "delta_gas": 2.6051,
-        "delta_ercot": 16.56,
+        "delta_ercot": 16.24,
         "delta_caiso": 35.51,
         "regime_before": "ng_crisis",
         "regime_after": "ng_crisis",
@@ -3939,15 +3939,15 @@
             ]
           },
           "ercot_wholesale": {
-            "point_estimate": 16.56,
+            "point_estimate": 16.24,
             "se": 18.62,
             "ci_90": [
-              -14.07,
-              47.2
+              -14.39,
+              46.87
             ],
             "ci_95": [
-              -19.93,
-              53.06
+              -20.25,
+              52.74
             ]
           },
           "caiso_wholesale": {
@@ -3975,12 +3975,12 @@
       "horizon": "24m",
       "dynamic": {
         "delta_gas": -4.2775,
-        "delta_ercot": -25.9361,
+        "delta_ercot": -25.4313,
         "delta_caiso": -17.0004
       },
       "linear": {
         "delta_gas": -4.2775,
-        "delta_ercot": -27.2,
+        "delta_ercot": -26.67,
         "delta_caiso": -15.92
       },
       "confidence_intervals_95": {
@@ -3989,8 +3989,8 @@
           103655697.89
         ],
         "ercot": [
-          -4284090196.65,
-          4284090144.78
+          -4284090196.14,
+          4284090145.28
         ],
         "caiso": [
           -1470874430.8,
@@ -4012,10 +4012,10 @@
           "variable": "itc_rate_pct",
           "delta": -20,
           "dynamic_gas": -4.2935,
-          "dynamic_ercot": -26.03,
+          "dynamic_ercot": -25.53,
           "dynamic_caiso": -17.42,
           "linear_gas": -4.2935,
-          "linear_ercot": -27.3,
+          "linear_ercot": -26.77,
           "linear_caiso": -16.17
         },
         {
@@ -4030,8 +4030,8 @@
         }
       ],
       "data_quality_flags": [
-        "ptc_rate_cents_kwh NOT significant in caiso_full (p=0.12999801601141936)",
         "Feedback 'policy_stabilizer' uses estimated strength (data_quality=low)",
+        "ptc_rate_cents_kwh NOT significant in caiso_full (p=0.12999801601141936)",
         "itc_rate_pct NOT significant in caiso_full (p=0.057341653497847256)"
       ]
     },
@@ -4041,12 +4041,12 @@
       "horizon": "3m",
       "dynamic": {
         "delta_gas": 3.6311,
-        "delta_ercot": 23.3739,
+        "delta_ercot": 22.919,
         "delta_caiso": 51.4616
       },
       "linear": {
         "delta_gas": 2.8191,
-        "delta_ercot": 17.93,
+        "delta_ercot": 17.57,
         "delta_caiso": 9.13
       },
       "confidence_intervals_95": {
@@ -4055,8 +4055,8 @@
           6.94
         ],
         "ercot": [
-          10.85,
-          35.9
+          10.4,
+          35.44
         ],
         "caiso": [
           10.62,
@@ -4068,10 +4068,10 @@
           "variable": "henry_hub_spot",
           "delta": 3.0,
           "dynamic_gas": 3.8788,
-          "dynamic_ercot": 24.97,
+          "dynamic_ercot": 24.48,
           "dynamic_caiso": 53.52,
           "linear_gas": 3.0,
-          "linear_ercot": 19.08,
+          "linear_ercot": 18.7,
           "linear_caiso": 9.72
         },
         {
@@ -4088,10 +4088,10 @@
           "variable": "electric_power_bcfd",
           "delta": 4.0,
           "dynamic_gas": -0.2477,
-          "dynamic_ercot": -1.59,
+          "dynamic_ercot": -1.56,
           "dynamic_caiso": -2.06,
           "linear_gas": -0.1809,
-          "linear_ercot": -1.15,
+          "linear_ercot": -1.13,
           "linear_caiso": -0.59
         }
       ],
@@ -4105,12 +4105,12 @@
       "horizon": "1m",
       "dynamic": {
         "delta_gas": 5.9536,
-        "delta_ercot": 38.0172,
+        "delta_ercot": 37.2773,
         "delta_caiso": 82.5146
       },
       "linear": {
         "delta_gas": 4.7286,
-        "delta_ercot": 30.06,
+        "delta_ercot": 29.48,
         "delta_caiso": 15.32
       },
       "confidence_intervals_95": {
@@ -4119,8 +4119,8 @@
           8.66
         ],
         "ercot": [
-          26.68,
-          49.36
+          25.94,
+          48.62
         ],
         "caiso": [
           49.16,
@@ -4132,20 +4132,20 @@
           "variable": "henry_hub_spot",
           "delta": 5.0,
           "dynamic_gas": 6.1711,
-          "dynamic_ercot": 39.41,
+          "dynamic_ercot": 38.64,
           "dynamic_caiso": 84.47,
           "linear_gas": 5.0,
-          "linear_ercot": 31.79,
+          "linear_ercot": 31.17,
           "linear_caiso": 16.2
         },
         {
           "variable": "electric_power_bcfd",
           "delta": 6.0,
           "dynamic_gas": -0.2175,
-          "dynamic_ercot": -1.39,
+          "dynamic_ercot": -1.36,
           "dynamic_caiso": -1.95,
           "linear_gas": -0.2714,
-          "linear_ercot": -1.73,
+          "linear_ercot": -1.69,
           "linear_caiso": -0.88
         }
       ],
@@ -4372,7 +4372,7 @@
       "horizon": "12m",
       "dynamic": {
         "delta_gas": -0.0063,
-        "delta_ercot": -0.0419,
+        "delta_ercot": -0.0411,
         "delta_caiso": -0.0899
       },
       "linear": {
@@ -4386,7 +4386,7 @@
           2.73
         ],
         "ercot": [
-          -20.64,
+          -20.63,
           20.55
         ],
         "caiso": [

@@ -2,7 +2,7 @@
   "metadata": {
     "name": "DecarbIQ Future Projection Relationship Map",
     "version": "1.0",
-    "created": "2026-02-14",
+    "created": "2026-02-15",
     "horizon": "2025-2035",
     "description": "Forward-looking projection combining regression coefficients with variable trajectories",
     "models_used": {
@@ -71,10 +71,10 @@
     },
     "2026": {
       "gas_price": {
-        "mean": 4.131541548528634,
-        "p10": 1.9681709025652996,
-        "p50": 3.444744771198761,
-        "p90": 6.966808094262111
+        "mean": 4.016534734150571,
+        "p10": 2.5129113596760346,
+        "p50": 3.713322780367032,
+        "p90": 5.795195897223934
       },
       "us_gdp_growth_pct": 2.74,
       "us_industrial_prod_index": 104.3,
@@ -101,10 +101,10 @@
     },
     "2027": {
       "gas_price": {
-        "mean": 5.488720032258581,
-        "p10": 1.5177725928105257,
-        "p50": 4.172015820657582,
-        "p90": 11.377450852921392
+        "mean": 4.497914166034667,
+        "p10": 2.315209267484157,
+        "p50": 4.08969070447093,
+        "p90": 7.0023468127031085
       },
       "us_gdp_growth_pct": 2.68,
       "us_industrial_prod_index": 105.1,
@@ -131,10 +131,10 @@
     },
     "2028": {
       "gas_price": {
-        "mean": 5.841203583264971,
-        "p10": 1.5140151805705764,
-        "p50": 4.468510596046522,
-        "p90": 12.135901588028368
+        "mean": 4.63825886411692,
+        "p10": 2.327448882700857,
+        "p50": 4.203764420378921,
+        "p90": 7.40731967744153
       },
       "us_gdp_growth_pct": 2.62,
       "us_industrial_prod_index": 105.9,
@@ -161,10 +161,10 @@
     },
     "2029": {
       "gas_price": {
-        "mean": 6.216111352182817,
-        "p10": 1.574585389968804,
-        "p50": 4.847328359276671,
-        "p90": 12.956188921201363
+        "mean": 4.924838843549948,
+        "p10": 2.3918494188114443,
+        "p50": 4.4825553540679595,
+        "p90": 7.869232965689685
       },
       "us_gdp_growth_pct": 2.56,
       "us_industrial_prod_index": 106.7,
@@ -191,10 +191,10 @@
     },
     "2030": {
       "gas_price": {
-        "mean": 6.477708647302955,
-        "p10": 1.5631375014239839,
-        "p50": 5.125337232797387,
-        "p90": 13.55398431948208
+        "mean": 5.179001073485108,
+        "p10": 2.4325706963996208,
+        "p50": 4.775626007654705,
+        "p90": 8.322830772633726
       },
       "us_gdp_growth_pct": 2.5,
       "us_industrial_prod_index": 107.5,
@@ -221,10 +221,10 @@
     },
     "2031": {
       "gas_price": {
-        "mean": 6.477708647302955,
-        "p10": 1.5631375014239839,
-        "p50": 5.125337232797387,
-        "p90": 13.55398431948208
+        "mean": 5.179001073485108,
+        "p10": 2.4325706963996208,
+        "p50": 4.775626007654705,
+        "p90": 8.322830772633726
       },
       "us_gdp_growth_pct": 2.44,
       "us_industrial_prod_index": 108.3,
@@ -251,10 +251,10 @@
     },
     "2032": {
       "gas_price": {
-        "mean": 6.477708647302955,
-        "p10": 1.5631375014239839,
-        "p50": 5.125337232797387,
-        "p90": 13.55398431948208
+        "mean": 5.179001073485108,
+        "p10": 2.4325706963996208,
+        "p50": 4.775626007654705,
+        "p90": 8.322830772633726
       },
       "us_gdp_growth_pct": 2.38,
       "us_industrial_prod_index": 109.1,
@@ -281,10 +281,10 @@
     },
     "2033": {
       "gas_price": {
-        "mean": 6.477708647302955,
-        "p10": 1.5631375014239839,
-        "p50": 5.125337232797387,
-        "p90": 13.55398431948208
+        "mean": 5.179001073485108,
+        "p10": 2.4325706963996208,
+        "p50": 4.775626007654705,
+        "p90": 8.322830772633726
       },
       "us_gdp_growth_pct": 2.32,
       "us_industrial_prod_index": 109.9,
@@ -311,10 +311,10 @@
     },
     "2034": {
       "gas_price": {
-        "mean": 6.477708647302955,
-        "p10": 1.5631375014239839,
-        "p50": 5.125337232797387,
-        "p90": 13.55398431948208
+        "mean": 5.179001073485108,
+        "p10": 2.4325706963996208,
+        "p50": 4.775626007654705,
+        "p90": 8.322830772633726
       },
       "us_gdp_growth_pct": 2.26,
       "us_industrial_prod_index": 110.7,
@@ -341,10 +341,10 @@
     },
     "2035": {
       "gas_price": {
-        "mean": 6.477708647302955,
-        "p10": 1.5631375014239839,
-        "p50": 5.125337232797387,
-        "p90": 13.55398431948208
+        "mean": 5.179001073485108,
+        "p10": 2.4325706963996208,
+        "p50": 4.775626007654705,
+        "p90": 8.322830772633726
       },
       "us_gdp_growth_pct": 2.2,
       "us_industrial_prod_index": 111.5,
@@ -468,164 +468,164 @@
         "crisis_premium_total": 0.0
       },
       "2026": {
-        "mean": 39.33,
-        "low": 25.76,
-        "high": 57.12,
-        "gas_component": 24.97,
+        "mean": 38.87,
+        "low": 29.43,
+        "high": 50.03,
+        "gas_component": 24.28,
         "regime_fraction_ng_crisis": 0.0919,
-        "mean_normal": 33.93,
-        "mean_ng_crisis": 36.03,
-        "mean_elec_crisis": 103.9,
-        "p_normal": 0.8337,
+        "mean_normal": 33.21,
+        "mean_ng_crisis": 35.31,
+        "mean_elec_crisis": 262.74,
+        "p_normal": 0.8843,
         "p_ng_crisis": 0.0919,
-        "p_elec_crisis": 0.0744,
+        "p_elec_crisis": 0.0238,
         "crisis_premium_ng": 0.19,
-        "crisis_premium_elec": 5.21,
-        "crisis_premium_total": 5.4
+        "crisis_premium_elec": 5.46,
+        "crisis_premium_total": 5.66
       },
       "2027": {
-        "mean": 49.15,
-        "low": 24.27,
-        "high": 86.05,
-        "gas_component": 33.17,
+        "mean": 43.86,
+        "low": 30.19,
+        "high": 59.56,
+        "gas_component": 27.18,
         "regime_fraction_ng_crisis": 0.1476,
-        "mean_normal": 44.42,
-        "mean_ng_crisis": 46.51,
-        "mean_elec_crisis": 103.9,
-        "p_normal": 0.778,
+        "mean_normal": 38.21,
+        "mean_ng_crisis": 40.3,
+        "mean_elec_crisis": 262.74,
+        "p_normal": 0.8286,
         "p_ng_crisis": 0.1476,
-        "p_elec_crisis": 0.0744,
+        "p_elec_crisis": 0.0238,
         "crisis_premium_ng": 0.31,
-        "crisis_premium_elec": 4.43,
-        "crisis_premium_total": 4.73
+        "crisis_premium_elec": 5.35,
+        "crisis_premium_total": 5.66
       },
       "2028": {
-        "mean": 53.17,
-        "low": 26.1,
-        "high": 92.55,
-        "gas_component": 35.3,
+        "mean": 46.81,
+        "low": 32.36,
+        "high": 64.14,
+        "gas_component": 28.03,
         "regime_fraction_ng_crisis": 0.1517,
-        "mean_normal": 48.75,
-        "mean_ng_crisis": 50.84,
-        "mean_elec_crisis": 103.9,
-        "p_normal": 0.7739,
+        "mean_normal": 41.22,
+        "mean_ng_crisis": 43.31,
+        "mean_elec_crisis": 262.74,
+        "p_normal": 0.8245,
         "p_ng_crisis": 0.1517,
-        "p_elec_crisis": 0.0744,
+        "p_elec_crisis": 0.0238,
         "crisis_premium_ng": 0.32,
-        "crisis_premium_elec": 4.1,
-        "crisis_premium_total": 4.42
+        "crisis_premium_elec": 5.27,
+        "crisis_premium_total": 5.59
       },
       "2029": {
-        "mean": 57.45,
-        "low": 28.47,
-        "high": 99.55,
-        "gas_component": 37.57,
+        "mean": 50.81,
+        "low": 34.99,
+        "high": 69.19,
+        "gas_component": 29.76,
         "regime_fraction_ng_crisis": 0.1576,
-        "mean_normal": 53.36,
-        "mean_ng_crisis": 55.46,
-        "mean_elec_crisis": 103.9,
-        "p_normal": 0.768,
+        "mean_normal": 45.3,
+        "mean_ng_crisis": 47.39,
+        "mean_elec_crisis": 262.74,
+        "p_normal": 0.8186,
         "p_ng_crisis": 0.1576,
-        "p_elec_crisis": 0.0744,
+        "p_elec_crisis": 0.0238,
         "crisis_premium_ng": 0.33,
-        "crisis_premium_elec": 3.76,
-        "crisis_premium_total": 4.09
+        "crisis_premium_elec": 5.18,
+        "crisis_premium_total": 5.51
       },
       "2030": {
-        "mean": 61.21,
-        "low": 30.58,
-        "high": 105.32,
-        "gas_component": 39.15,
+        "mean": 54.74,
+        "low": 37.63,
+        "high": 74.34,
+        "gas_component": 31.3,
         "regime_fraction_ng_crisis": 0.1562,
-        "mean_normal": 57.43,
-        "mean_ng_crisis": 59.52,
-        "mean_elec_crisis": 103.9,
-        "p_normal": 0.7694,
+        "mean_normal": 49.34,
+        "mean_ng_crisis": 51.43,
+        "mean_elec_crisis": 262.74,
+        "p_normal": 0.82,
         "p_ng_crisis": 0.1562,
-        "p_elec_crisis": 0.0744,
+        "p_elec_crisis": 0.0238,
         "crisis_premium_ng": 0.33,
-        "crisis_premium_elec": 3.46,
-        "crisis_premium_total": 3.78
+        "crisis_premium_elec": 5.08,
+        "crisis_premium_total": 5.41
       },
       "2031": {
-        "mean": 62.99,
-        "low": 32.43,
-        "high": 107.01,
-        "gas_component": 39.15,
+        "mean": 56.65,
+        "low": 39.57,
+        "high": 76.21,
+        "gas_component": 31.3,
         "regime_fraction_ng_crisis": 0,
-        "mean_normal": 59.71,
-        "mean_ng_crisis": 61.8,
-        "mean_elec_crisis": 103.9,
-        "p_normal": 0.9256,
+        "mean_normal": 51.63,
+        "mean_ng_crisis": 53.72,
+        "mean_elec_crisis": 262.74,
+        "p_normal": 0.9762,
         "p_ng_crisis": 0,
-        "p_elec_crisis": 0.0744,
+        "p_elec_crisis": 0.0238,
         "crisis_premium_ng": 0.0,
-        "crisis_premium_elec": 3.29,
-        "crisis_premium_total": 3.29
+        "crisis_premium_elec": 5.03,
+        "crisis_premium_total": 5.03
       },
       "2032": {
-        "mean": 65.28,
-        "low": 34.79,
-        "high": 109.19,
-        "gas_component": 39.15,
+        "mean": 59.09,
+        "low": 42.04,
+        "high": 78.59,
+        "gas_component": 31.3,
         "regime_fraction_ng_crisis": 0,
-        "mean_normal": 62.18,
-        "mean_ng_crisis": 64.27,
-        "mean_elec_crisis": 103.9,
-        "p_normal": 0.9256,
+        "mean_normal": 54.12,
+        "mean_ng_crisis": 56.21,
+        "mean_elec_crisis": 262.74,
+        "p_normal": 0.9762,
         "p_ng_crisis": 0,
-        "p_elec_crisis": 0.0744,
+        "p_elec_crisis": 0.0238,
         "crisis_premium_ng": 0.0,
-        "crisis_premium_elec": 3.1,
-        "crisis_premium_total": 3.1
+        "crisis_premium_elec": 4.97,
+        "crisis_premium_total": 4.97
       },
       "2033": {
-        "mean": 67.7,
-        "low": 37.28,
-        "high": 111.5,
-        "gas_component": 39.15,
+        "mean": 61.65,
+        "low": 44.65,
+        "high": 81.11,
+        "gas_component": 31.3,
         "regime_fraction_ng_crisis": 0,
-        "mean_normal": 64.79,
-        "mean_ng_crisis": 66.88,
-        "mean_elec_crisis": 103.9,
-        "p_normal": 0.9256,
+        "mean_normal": 56.75,
+        "mean_ng_crisis": 58.84,
+        "mean_elec_crisis": 262.74,
+        "p_normal": 0.9762,
         "p_ng_crisis": 0,
-        "p_elec_crisis": 0.0744,
+        "p_elec_crisis": 0.0238,
         "crisis_premium_ng": 0.0,
-        "crisis_premium_elec": 2.91,
-        "crisis_premium_total": 2.91
+        "crisis_premium_elec": 4.9,
+        "crisis_premium_total": 4.9
       },
       "2034": {
-        "mean": 70.27,
-        "low": 39.93,
-        "high": 113.95,
-        "gas_component": 39.15,
+        "mean": 64.38,
+        "low": 47.43,
+        "high": 83.79,
+        "gas_component": 31.3,
         "regime_fraction_ng_crisis": 0,
-        "mean_normal": 67.56,
-        "mean_ng_crisis": 69.66,
-        "mean_elec_crisis": 103.9,
-        "p_normal": 0.9256,
+        "mean_normal": 59.55,
+        "mean_ng_crisis": 61.64,
+        "mean_elec_crisis": 262.74,
+        "p_normal": 0.9762,
         "p_ng_crisis": 0,
-        "p_elec_crisis": 0.0744,
+        "p_elec_crisis": 0.0238,
         "crisis_premium_ng": 0.0,
-        "crisis_premium_elec": 2.7,
-        "crisis_premium_total": 2.7
+        "crisis_premium_elec": 4.84,
+        "crisis_premium_total": 4.84
       },
       "2035": {
-        "mean": 72.98,
-        "low": 42.72,
-        "high": 116.54,
-        "gas_component": 39.15,
+        "mean": 67.27,
+        "low": 50.36,
+        "high": 86.62,
+        "gas_component": 31.3,
         "regime_fraction_ng_crisis": 0,
-        "mean_normal": 70.49,
-        "mean_ng_crisis": 72.59,
-        "mean_elec_crisis": 103.9,
-        "p_normal": 0.9256,
+        "mean_normal": 62.5,
+        "mean_ng_crisis": 64.59,
+        "mean_elec_crisis": 262.74,
+        "p_normal": 0.9762,
         "p_ng_crisis": 0,
-        "p_elec_crisis": 0.0744,
+        "p_elec_crisis": 0.0238,
         "crisis_premium_ng": 0.0,
-        "crisis_premium_elec": 2.49,
-        "crisis_premium_total": 2.49
+        "crisis_premium_elec": 4.77,
+        "crisis_premium_total": 4.77
       }
     },
     "CAISO": {
@@ -637,73 +637,73 @@
         "source": "caiso_A"
       },
       "2026": {
-        "mean": 49.58,
-        "low": 39.81,
-        "high": 68.49,
-        "gas_component": 22.13,
+        "mean": 49.14,
+        "low": 41.86,
+        "high": 59.92,
+        "gas_component": 21.69,
         "source": "caiso_A"
       },
       "2027": {
-        "mean": 56.15,
-        "low": 39.59,
-        "high": 90.49,
-        "gas_component": 27.75,
+        "mean": 52.34,
+        "low": 42.51,
+        "high": 66.51,
+        "gas_component": 23.93,
         "source": "caiso_A"
       },
       "2028": {
-        "mean": 58.92,
-        "low": 41.01,
-        "high": 94.73,
-        "gas_component": 29.53,
+        "mean": 54.29,
+        "low": 44.04,
+        "high": 69.63,
+        "gas_component": 24.89,
         "source": "caiso_A"
       },
       "2029": {
-        "mean": 61.73,
-        "low": 42.55,
-        "high": 99.41,
-        "gas_component": 31.34,
+        "mean": 56.76,
+        "low": 45.55,
+        "high": 72.98,
+        "gas_component": 26.37,
         "source": "caiso_A"
       },
       "2030": {
-        "mean": 64.05,
-        "low": 43.85,
-        "high": 102.6,
-        "gas_component": 32.69,
+        "mean": 59.05,
+        "low": 46.99,
+        "high": 76.01,
+        "gas_component": 27.69,
         "source": "caiso_A"
       },
       "2031": {
-        "mean": 65.01,
-        "low": 44.81,
-        "high": 103.56,
-        "gas_component": 32.69,
+        "mean": 60.01,
+        "low": 47.94,
+        "high": 76.97,
+        "gas_component": 27.69,
         "source": "caiso_A"
       },
       "2032": {
-        "mean": 65.97,
-        "low": 45.77,
-        "high": 104.51,
-        "gas_component": 32.69,
+        "mean": 60.97,
+        "low": 48.9,
+        "high": 77.93,
+        "gas_component": 27.69,
         "source": "caiso_A"
       },
       "2033": {
-        "mean": 66.54,
-        "low": 46.34,
-        "high": 105.09,
-        "gas_component": 32.69,
+        "mean": 61.54,
+        "low": 49.48,
+        "high": 78.5,
+        "gas_component": 27.69,
         "source": "caiso_A"
       },
       "2034": {
-        "mean": 67.11,
-        "low": 46.91,
-        "high": 105.66,
-        "gas_component": 32.69,
+        "mean": 62.11,
+        "low": 50.05,
+        "high": 79.07,
+        "gas_component": 27.69,
         "source": "caiso_A"
       },
       "2035": {
-        "mean": 67.69,
-        "low": 47.48,
-        "high": 106.23,
-        "gas_component": 32.69,
+        "mean": 62.69,
+        "low": 50.62,
+        "high": 79.65,
+        "gas_component": 27.69,
         "source": "caiso_A"
       }
     }
@@ -779,6 +779,82 @@
       "description": "FERC reforms clear 50% of backlog by 2030",
       "gas_impact": 0,
       "ercot_impact": -0.0
+    },
+    "demand_scenarios": {
+      "description": "ERCOT price sensitivity to demand growth (demand \u2192 gas \u2192 ERCOT indirect pathway)",
+      "methodology": "Demand affects gas price via electric_power_bcfd and us_data_center_twh; ERCOT tracks via gas passthrough",
+      "base_case": {
+        "2025": {
+          "demand_twh": 492.2,
+          "dc_twh": 62.4,
+          "ercot_mean": 25.06,
+          "ercot_normal": 25.06
+        },
+        "2028": {
+          "demand_twh": 587.1,
+          "dc_twh": 113.7,
+          "ercot_mean": 46.81,
+          "ercot_normal": 41.22
+        },
+        "2030": {
+          "demand_twh": 668.2,
+          "dc_twh": 157.2,
+          "ercot_mean": 54.74,
+          "ercot_normal": 49.34
+        },
+        "2035": {
+          "demand_twh": 933.3,
+          "dc_twh": 299.1,
+          "ercot_mean": 67.27,
+          "ercot_normal": 62.5
+        }
+      },
+      "high_growth": {
+        "description": "+50% data center load growth \u2192 gas demand increase \u2192 higher ERCOT",
+        "2025": {
+          "dc_delta_twh": 119.4,
+          "gas_delta": -0.08,
+          "ercot_delta": -0.56
+        },
+        "2028": {
+          "dc_delta_twh": 167.8,
+          "gas_delta": -0.083,
+          "ercot_delta": -0.58
+        },
+        "2030": {
+          "dc_delta_twh": 205.1,
+          "gas_delta": -0.085,
+          "ercot_delta": -0.59
+        },
+        "2035": {
+          "dc_delta_twh": 315.9,
+          "gas_delta": -0.089,
+          "ercot_delta": -0.62
+        }
+      },
+      "low_growth": {
+        "description": "Data center growth halved + demand flat \u2192 lower gas pressure",
+        "2025": {
+          "dc_delta_twh": -59.7,
+          "gas_delta": 0.048,
+          "ercot_delta": 0.33
+        },
+        "2028": {
+          "dc_delta_twh": -83.9,
+          "gas_delta": 0.05,
+          "ercot_delta": 0.35
+        },
+        "2030": {
+          "dc_delta_twh": -102.5,
+          "gas_delta": 0.051,
+          "ercot_delta": 0.35
+        },
+        "2035": {
+          "dc_delta_twh": -158.0,
+          "gas_delta": 0.054,
+          "ercot_delta": 0.37
+        }
+      }
     }
   },
   "key_risks": [
@@ -814,8 +890,8 @@
     "methodology": "mean = p_normal*mean_normal + p_ng*mean_ng_crisis + p_elec*mean_elec_crisis",
     "crisis_premium_note": "Premium = p_regime * (mean_regime - mean_normal). Total premium = sum of NG and elec premiums.",
     "ercot_crisis_shift_mwh": 2.09,
-    "ercot_elec_crisis_mean_mwh": 103.9,
-    "p_elec_monthly": 0.0744,
+    "ercot_elec_crisis_mean_mwh": 262.74,
+    "p_elec_monthly": 0.0238,
     "use_cases": {
       "hedger": "Apply crisis_decay_rate=0.08-0.10 to discount distant crisis premiums",
       "infrastructure_investor": "Use mean_normal for base case, crisis_premium_total for risk loading",

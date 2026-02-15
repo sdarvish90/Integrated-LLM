@@ -2,7 +2,7 @@
   "metadata": {
     "name": "DecarbIQ Energy Price Relationship Model",
     "version": "auto",
-    "created": "2026-02-14",
+    "created": "2026-02-15",
     "description": "Auto-generated from pipeline regression results",
     "regression_models": {
       "ercot_full": {

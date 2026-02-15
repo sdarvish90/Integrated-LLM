@@ -333,44 +333,44 @@
     },
     "gas_forecasts": {
       "2026": {
-        "p50": 3.44,
-        "mean": 4.13,
+        "p50": 3.71,
+        "mean": 4.02,
         "consensus_low": 2.8,
         "consensus_mid": 3.3,
         "consensus_high": 4.0,
         "status": "PASS"
       },
       "2027": {
-        "p50": 4.17,
-        "mean": 5.49,
+        "p50": 4.09,
+        "mean": 4.5,
         "consensus_low": 2.9,
         "consensus_mid": 3.45,
         "consensus_high": 4.2,
         "status": "PASS"
       },
       "2028": {
-        "p50": 4.47,
-        "mean": 5.84,
+        "p50": 4.2,
+        "mean": 4.64,
         "consensus_low": 3.0,
         "consensus_mid": 3.55,
         "consensus_high": 4.4,
-        "status": "HIGH"
+        "status": "PASS"
       },
       "2029": {
-        "p50": 4.85,
-        "mean": 6.22,
+        "p50": 4.48,
+        "mean": 4.92,
         "consensus_low": 3.1,
         "consensus_mid": 3.7,
         "consensus_high": 4.6,
-        "status": "HIGH"
+        "status": "PASS"
       },
       "2030": {
-        "p50": 5.13,
-        "mean": 6.48,
+        "p50": 4.78,
+        "mean": 5.18,
         "consensus_low": 3.2,
         "consensus_mid": 3.85,
         "consensus_high": 4.8,
-        "status": "HIGH"
+        "status": "PASS"
       }
     },
     "gas_passthrough": {
@@ -443,26 +443,20 @@
     },
     "production_floor": {
       "floor_mid": 2.0,
-      "violations": [
-        "2026: P10=$1.97",
-        "2027: P10=$1.52",
-        "2028: P10=$1.51",
-        "2029: P10=$1.57",
-        "2030: P10=$1.56"
-      ],
+      "violations": [],
       "supply_floor": {
         "breakeven": 1.75,
         "supply_speed": 0.48690778799361445,
         "abs_floor": 1.25,
-        "pct_below_breakeven": 20.59
+        "pct_below_breakeven": 6.88
       }
     },
     "mean_reversion": {
-      "speed_normal_monthly": 0.0576,
-      "speed_crisis_monthly": 0.0864,
-      "kappa_annual_normal": 0.69,
-      "kappa_annual_crisis": 1.04,
-      "half_life_months": 12.0,
+      "speed_normal_monthly": 0.1837,
+      "speed_crisis_monthly": 0.2755,
+      "kappa_annual_normal": 2.2,
+      "kappa_annual_crisis": 3.31,
+      "half_life_months": 3.8,
       "schwartz_range": [
         0.5,
         2.0
@@ -471,7 +465,10 @@
         1.0,
         3.0
       ],
-      "status": "PASS"
+      "status": "PASS",
+      "estimation_method": "detrended_OU_HP_filter",
+      "hp_lambda": 14400,
+      "schwartz_fallback_used": false
     },
     "lng_capacity": {
       "2020": {
@@ -485,15 +482,15 @@
       },
       "2026": {
         "literature_capacity_bcfd": 18.0,
-        "gas_mean": 4.13
+        "gas_mean": 4.02
       },
       "2028": {
         "literature_capacity_bcfd": 22.0,
-        "gas_mean": 5.84
+        "gas_mean": 4.64
       },
       "2030": {
         "literature_capacity_bcfd": 25.0,
-        "gas_mean": 6.48
+        "gas_mean": 5.18
       },
       "total_price_impact_2024_2030": 1.32
     },
@@ -554,50 +551,50 @@
           50
         ],
         "historical_cagr": -2.5,
-        "projected_cagr": 11.3,
+        "projected_cagr": 10.4,
         "yearly": {
           "2025": {
             "projected": 25.1,
             "status": "PASS"
           },
           "2026": {
-            "projected": 39.3,
+            "projected": 38.9,
             "status": "PASS"
           },
           "2027": {
-            "projected": 49.1,
+            "projected": 43.9,
             "status": "PASS"
           },
           "2028": {
-            "projected": 53.2,
-            "status": "HIGH"
+            "projected": 46.8,
+            "status": "PASS"
           },
           "2029": {
-            "projected": 57.5,
+            "projected": 50.8,
             "status": "HIGH"
           },
           "2030": {
-            "projected": 61.2,
+            "projected": 54.7,
             "status": "HIGH"
           },
           "2031": {
-            "projected": 63.0,
+            "projected": 56.6,
             "status": "HIGH"
           },
           "2032": {
-            "projected": 65.3,
+            "projected": 59.1,
             "status": "HIGH"
           },
           "2033": {
-            "projected": 67.7,
+            "projected": 61.6,
             "status": "HIGH"
           },
           "2034": {
-            "projected": 70.3,
+            "projected": 64.4,
             "status": "HIGH"
           },
           "2035": {
-            "projected": 73.0,
+            "projected": 67.3,
             "status": "HIGH"
           }
         }
@@ -608,50 +605,50 @@
           60
         ],
         "historical_cagr": 1.0,
-        "projected_cagr": 5.4,
+        "projected_cagr": 4.6,
         "yearly": {
           "2025": {
             "projected": 40.0,
             "status": "PASS"
           },
           "2026": {
-            "projected": 49.6,
+            "projected": 49.1,
             "status": "PASS"
           },
           "2027": {
-            "projected": 56.1,
+            "projected": 52.3,
             "status": "PASS"
           },
           "2028": {
-            "projected": 58.9,
+            "projected": 54.3,
             "status": "PASS"
           },
           "2029": {
-            "projected": 61.7,
-            "status": "HIGH"
+            "projected": 56.8,
+            "status": "PASS"
           },
           "2030": {
-            "projected": 64.0,
-            "status": "HIGH"
+            "projected": 59.0,
+            "status": "PASS"
           },
           "2031": {
-            "projected": 65.0,
+            "projected": 60.0,
             "status": "HIGH"
           },
           "2032": {
-            "projected": 66.0,
+            "projected": 61.0,
             "status": "HIGH"
           },
           "2033": {
-            "projected": 66.5,
+            "projected": 61.5,
             "status": "HIGH"
           },
           "2034": {
-            "projected": 67.1,
+            "projected": 62.1,
             "status": "HIGH"
           },
           "2035": {
-            "projected": 67.7,
+            "projected": 62.7,
             "status": "HIGH"
           }
         }
@@ -665,63 +662,63 @@
         "identity_check": "PASS"
       },
       "2026": {
-        "mean": 39.33,
-        "reconstructed": 39.33,
-        "crisis_premium_total": 5.4,
+        "mean": 38.87,
+        "reconstructed": 38.87,
+        "crisis_premium_total": 5.66,
         "identity_check": "PASS"
       },
       "2027": {
-        "mean": 49.15,
-        "reconstructed": 49.15,
-        "crisis_premium_total": 4.73,
+        "mean": 43.86,
+        "reconstructed": 43.86,
+        "crisis_premium_total": 5.66,
         "identity_check": "PASS"
       },
       "2028": {
-        "mean": 53.17,
-        "reconstructed": 53.17,
-        "crisis_premium_total": 4.42,
+        "mean": 46.81,
+        "reconstructed": 46.81,
+        "crisis_premium_total": 5.59,
         "identity_check": "PASS"
       },
       "2029": {
-        "mean": 57.45,
-        "reconstructed": 57.45,
-        "crisis_premium_total": 4.09,
+        "mean": 50.81,
+        "reconstructed": 50.8,
+        "crisis_premium_total": 5.51,
         "identity_check": "PASS"
       },
       "2030": {
-        "mean": 61.21,
-        "reconstructed": 61.21,
-        "crisis_premium_total": 3.78,
+        "mean": 54.74,
+        "reconstructed": 54.75,
+        "crisis_premium_total": 5.41,
         "identity_check": "PASS"
       },
       "2031": {
-        "mean": 62.99,
-        "reconstructed": 63.0,
-        "crisis_premium_total": 3.29,
+        "mean": 56.65,
+        "reconstructed": 56.65,
+        "crisis_premium_total": 5.03,
         "identity_check": "PASS"
       },
       "2032": {
-        "mean": 65.28,
-        "reconstructed": 65.28,
-        "crisis_premium_total": 3.1,
+        "mean": 59.09,
+        "reconstructed": 59.09,
+        "crisis_premium_total": 4.97,
         "identity_check": "PASS"
       },
       "2033": {
-        "mean": 67.7,
-        "reconstructed": 67.7,
-        "crisis_premium_total": 2.91,
+        "mean": 61.65,
+        "reconstructed": 61.65,
+        "crisis_premium_total": 4.9,
         "identity_check": "PASS"
       },
       "2034": {
-        "mean": 70.27,
-        "reconstructed": 70.26,
-        "crisis_premium_total": 2.7,
+        "mean": 64.38,
+        "reconstructed": 64.39,
+        "crisis_premium_total": 4.84,
         "identity_check": "PASS"
       },
       "2035": {
-        "mean": 72.98,
-        "reconstructed": 72.98,
-        "crisis_premium_total": 2.49,
+        "mean": 67.27,
+        "reconstructed": 67.27,
+        "crisis_premium_total": 4.77,
         "identity_check": "PASS"
       }
     },
@@ -796,36 +793,37 @@
     },
     "price_volatility_term_structure": {
       "2026": {
-        "mean": 4.13,
-        "p10": 1.97,
-        "p90": 6.97,
-        "implied_vol_pct": 47.3
+        "mean": 4.02,
+        "p10": 2.51,
+        "p90": 5.8,
+        "implied_vol_pct": 31.9
       },
       "2027": {
-        "mean": 5.49,
-        "p10": 1.52,
-        "p90": 11.38,
-        "implied_vol_pct": 70.2
+        "mean": 4.5,
+        "p10": 2.32,
+        "p90": 7.0,
+        "implied_vol_pct": 40.7
       },
       "2028": {
-        "mean": 5.84,
-        "p10": 1.51,
-        "p90": 12.14,
-        "implied_vol_pct": 71.0
+        "mean": 4.64,
+        "p10": 2.33,
+        "p90": 7.41,
+        "implied_vol_pct": 42.8
       },
       "2029": {
-        "mean": 6.22,
-        "p10": 1.57,
-        "p90": 12.96,
-        "implied_vol_pct": 71.5
+        "mean": 4.92,
+        "p10": 2.39,
+        "p90": 7.87,
+        "implied_vol_pct": 43.4
       },
       "2030": {
-        "mean": 6.48,
-        "p10": 1.56,
-        "p90": 13.55,
-        "implied_vol_pct": 72.3
+        "mean": 5.18,
+        "p10": 2.43,
+        "p90": 8.32,
+        "implied_vol_pct": 44.4
       },
       "trend": "expanding",
+      "trend_explanation": "Expanding vol is intentional: regime-switching MC generates fat tails from discrete crisis events (NG-crisis, elec-crisis). Unlike single-factor OU models where vol converges to GARCH unconditional, regime-switching adds irreducible event uncertainty at longer horizons.",
       "garch_unconditional_pct": 66.0
     }
   }
