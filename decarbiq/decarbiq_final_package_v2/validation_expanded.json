@@ -333,40 +333,40 @@
     },
     "gas_forecasts": {
       "2026": {
-        "p50": 3.45,
-        "mean": 4.3,
+        "p50": 3.44,
+        "mean": 4.13,
         "consensus_low": 2.8,
         "consensus_mid": 3.3,
         "consensus_high": 4.0,
         "status": "PASS"
       },
       "2027": {
-        "p50": 4.3,
-        "mean": 6.2,
+        "p50": 4.17,
+        "mean": 5.49,
         "consensus_low": 2.9,
         "consensus_mid": 3.45,
         "consensus_high": 4.2,
-        "status": "HIGH"
+        "status": "PASS"
       },
       "2028": {
-        "p50": 4.74,
-        "mean": 6.69,
+        "p50": 4.47,
+        "mean": 5.84,
         "consensus_low": 3.0,
         "consensus_mid": 3.55,
         "consensus_high": 4.4,
         "status": "HIGH"
       },
       "2029": {
-        "p50": 5.25,
-        "mean": 7.12,
+        "p50": 4.85,
+        "mean": 6.22,
         "consensus_low": 3.1,
         "consensus_mid": 3.7,
         "consensus_high": 4.6,
         "status": "HIGH"
       },
       "2030": {
-        "p50": 5.52,
-        "mean": 7.37,
+        "p50": 5.13,
+        "mean": 6.48,
         "consensus_low": 3.2,
         "consensus_mid": 3.85,
         "consensus_high": 4.8,
@@ -444,12 +444,389 @@
     "production_floor": {
       "floor_mid": 2.0,
       "violations": [
-        "2026: P10=$1.99",
-        "2027: P10=$1.64",
-        "2028: P10=$1.65",
-        "2029: P10=$1.70",
-        "2030: P10=$1.69"
-      ]
+        "2026: P10=$1.97",
+        "2027: P10=$1.52",
+        "2028: P10=$1.51",
+        "2029: P10=$1.57",
+        "2030: P10=$1.56"
+      ],
+      "supply_floor": {
+        "breakeven": 1.75,
+        "supply_speed": 0.48690778799361445,
+        "abs_floor": 1.25,
+        "pct_below_breakeven": 20.59
+      }
+    },
+    "mean_reversion": {
+      "speed_normal_monthly": 0.0576,
+      "speed_crisis_monthly": 0.0864,
+      "kappa_annual_normal": 0.69,
+      "kappa_annual_crisis": 1.04,
+      "half_life_months": 12.0,
+      "schwartz_range": [
+        0.5,
+        2.0
+      ],
+      "pilipovic_range": [
+        1.0,
+        3.0
+      ],
+      "status": "PASS"
+    },
+    "lng_capacity": {
+      "2020": {
+        "literature_capacity_bcfd": 10.5
+      },
+      "2022": {
+        "literature_capacity_bcfd": 11.9
+      },
+      "2024": {
+        "literature_capacity_bcfd": 14.0
+      },
+      "2026": {
+        "literature_capacity_bcfd": 18.0,
+        "gas_mean": 4.13
+      },
+      "2028": {
+        "literature_capacity_bcfd": 22.0,
+        "gas_mean": 5.84
+      },
+      "2030": {
+        "literature_capacity_bcfd": 25.0,
+        "gas_mean": 6.48
+      },
+      "total_price_impact_2024_2030": 1.32
+    },
+    "battery_storage": {
+      "california": {
+        "2020": {
+          "literature_gw": 0.5
+        },
+        "2022": {
+          "literature_gw": 4.5
+        },
+        "2024": {
+          "literature_gw": 10.0
+        },
+        "2026": {
+          "literature_gw": 15.0
+        },
+        "2028": {
+          "literature_gw": 20.0
+        },
+        "2030": {
+          "literature_gw": 25.0
+        }
+      },
+      "texas": {
+        "2020": {
+          "literature_gw": 0.2
+        },
+        "2022": {
+          "literature_gw": 2.0
+        },
+        "2024": {
+          "literature_gw": 5.0
+        },
+        "2026": {
+          "literature_gw": 10.0
+        },
+        "2028": {
+          "literature_gw": 16.0
+        },
+        "2030": {
+          "literature_gw": 22.0
+        }
+      },
+      "comparison_2030": {
+        "ca_model": 30.04,
+        "ca_literature": 25.0,
+        "ca_status": "PASS",
+        "tx_model": 53.73,
+        "tx_literature": 22.0,
+        "tx_status": "FLAG"
+      }
+    },
+    "electricity_projections": {
+      "ERCOT": {
+        "typical_range": [
+          20,
+          50
+        ],
+        "historical_cagr": -2.5,
+        "projected_cagr": 11.3,
+        "yearly": {
+          "2025": {
+            "projected": 25.1,
+            "status": "PASS"
+          },
+          "2026": {
+            "projected": 39.3,
+            "status": "PASS"
+          },
+          "2027": {
+            "projected": 49.1,
+            "status": "PASS"
+          },
+          "2028": {
+            "projected": 53.2,
+            "status": "HIGH"
+          },
+          "2029": {
+            "projected": 57.5,
+            "status": "HIGH"
+          },
+          "2030": {
+            "projected": 61.2,
+            "status": "HIGH"
+          },
+          "2031": {
+            "projected": 63.0,
+            "status": "HIGH"
+          },
+          "2032": {
+            "projected": 65.3,
+            "status": "HIGH"
+          },
+          "2033": {
+            "projected": 67.7,
+            "status": "HIGH"
+          },
+          "2034": {
+            "projected": 70.3,
+            "status": "HIGH"
+          },
+          "2035": {
+            "projected": 73.0,
+            "status": "HIGH"
+          }
+        }
+      },
+      "CAISO": {
+        "typical_range": [
+          35,
+          60
+        ],
+        "historical_cagr": 1.0,
+        "projected_cagr": 5.4,
+        "yearly": {
+          "2025": {
+            "projected": 40.0,
+            "status": "PASS"
+          },
+          "2026": {
+            "projected": 49.6,
+            "status": "PASS"
+          },
+          "2027": {
+            "projected": 56.1,
+            "status": "PASS"
+          },
+          "2028": {
+            "projected": 58.9,
+            "status": "PASS"
+          },
+          "2029": {
+            "projected": 61.7,
+            "status": "HIGH"
+          },
+          "2030": {
+            "projected": 64.0,
+            "status": "HIGH"
+          },
+          "2031": {
+            "projected": 65.0,
+            "status": "HIGH"
+          },
+          "2032": {
+            "projected": 66.0,
+            "status": "HIGH"
+          },
+          "2033": {
+            "projected": 66.5,
+            "status": "HIGH"
+          },
+          "2034": {
+            "projected": 67.1,
+            "status": "HIGH"
+          },
+          "2035": {
+            "projected": 67.7,
+            "status": "HIGH"
+          }
+        }
+      }
+    },
+    "ercot_risk_decomposition": {
+      "2025": {
+        "mean": 25.06,
+        "reconstructed": 25.06,
+        "crisis_premium_total": 0.0,
+        "identity_check": "PASS"
+      },
+      "2026": {
+        "mean": 39.33,
+        "reconstructed": 39.33,
+        "crisis_premium_total": 5.4,
+        "identity_check": "PASS"
+      },
+      "2027": {
+        "mean": 49.15,
+        "reconstructed": 49.15,
+        "crisis_premium_total": 4.73,
+        "identity_check": "PASS"
+      },
+      "2028": {
+        "mean": 53.17,
+        "reconstructed": 53.17,
+        "crisis_premium_total": 4.42,
+        "identity_check": "PASS"
+      },
+      "2029": {
+        "mean": 57.45,
+        "reconstructed": 57.45,
+        "crisis_premium_total": 4.09,
+        "identity_check": "PASS"
+      },
+      "2030": {
+        "mean": 61.21,
+        "reconstructed": 61.21,
+        "crisis_premium_total": 3.78,
+        "identity_check": "PASS"
+      },
+      "2031": {
+        "mean": 62.99,
+        "reconstructed": 63.0,
+        "crisis_premium_total": 3.29,
+        "identity_check": "PASS"
+      },
+      "2032": {
+        "mean": 65.28,
+        "reconstructed": 65.28,
+        "crisis_premium_total": 3.1,
+        "identity_check": "PASS"
+      },
+      "2033": {
+        "mean": 67.7,
+        "reconstructed": 67.7,
+        "crisis_premium_total": 2.91,
+        "identity_check": "PASS"
+      },
+      "2034": {
+        "mean": 70.27,
+        "reconstructed": 70.26,
+        "crisis_premium_total": 2.7,
+        "identity_check": "PASS"
+      },
+      "2035": {
+        "mean": 72.98,
+        "reconstructed": 72.98,
+        "crisis_premium_total": 2.49,
+        "identity_check": "PASS"
+      }
+    },
+    "decarbonization_milestones": {
+      "tx_coal_reaches_zero_pct": 2030,
+      "tx_gas_below_35_pct": 2030,
+      "tx_renewables_exceed_50_pct": 2029,
+      "ca_gas_below_25_pct": 2027,
+      "ca_solar_exceeds_35_pct": 2029,
+      "TX_gas_2030_check": {
+        "model": 34.9,
+        "lit_range": [
+          40,
+          50
+        ],
+        "status": "OUTSIDE"
+      },
+      "TX_wind_2030_check": {
+        "model": 37.0,
+        "lit_range": [
+          25,
+          35
+        ],
+        "status": "OUTSIDE"
+      },
+      "TX_solar_2030_check": {
+        "model": 20.7,
+        "lit_range": [
+          10,
+          20
+        ],
+        "status": "OUTSIDE"
+      },
+      "TX_coal_2030_check": {
+        "model": 0.0,
+        "lit_range": [
+          0,
+          5
+        ],
+        "status": "PASS"
+      }
+    },
+    "carbon_intensity": {
+      "ercot": {
+        "2025": 643.0,
+        "2026": 587.0,
+        "2027": 528.0,
+        "2028": 467.0,
+        "2029": 404.0,
+        "2030": 340.0,
+        "2031": 293.0,
+        "2032": 245.0,
+        "2033": 193.0,
+        "2034": 139.0,
+        "2035": 84.0
+      },
+      "ercot_cagr_pct": -18.4,
+      "caiso": {
+        "2025": 263.0,
+        "2026": 237.0,
+        "2027": 210.0,
+        "2028": 182.0,
+        "2029": 152.0,
+        "2030": 122.0,
+        "2031": 90.0,
+        "2032": 58.0,
+        "2033": 24.0,
+        "2034": 10.0,
+        "2035": 10.0
+      },
+      "caiso_cagr_pct": -27.9
+    },
+    "price_volatility_term_structure": {
+      "2026": {
+        "mean": 4.13,
+        "p10": 1.97,
+        "p90": 6.97,
+        "implied_vol_pct": 47.3
+      },
+      "2027": {
+        "mean": 5.49,
+        "p10": 1.52,
+        "p90": 11.38,
+        "implied_vol_pct": 70.2
+      },
+      "2028": {
+        "mean": 5.84,
+        "p10": 1.51,
+        "p90": 12.14,
+        "implied_vol_pct": 71.0
+      },
+      "2029": {
+        "mean": 6.22,
+        "p10": 1.57,
+        "p90": 12.96,
+        "implied_vol_pct": 71.5
+      },
+      "2030": {
+        "mean": 6.48,
+        "p10": 1.56,
+        "p90": 13.55,
+        "implied_vol_pct": 72.3
+      },
+      "trend": "expanding",
+      "garch_unconditional_pct": 66.0
     }
   }
 }

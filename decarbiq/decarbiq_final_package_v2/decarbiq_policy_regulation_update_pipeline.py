@@ -1018,6 +1018,432 @@ def _interpolate_annual(year_val_dict, max_gap=2):
     return full, gap_warnings
 
 
+def _fit_variable_trend(master, col_name, fit_window_years=10,
+                        annualize="mean", models=("linear", "quadratic"),
+                        physical_bounds=None, onset_threshold=0.01,
+                        min_data_points=5, project_years=None):
+    """Fit trend models to historical annual data and project forward.
+
+    Tries linear, quadratic (and optionally exponential) on recent history.
+    Selects best by adjusted R². Short-window guard: for ≤5yr windows, prefer
+    linear unless quadratic improves adj R² by >0.05.
+
+    Returns dict with projections, fit metadata, and warnings.
+    """
+    if project_years is None:
+        project_years = list(range(2025, 2036))
+
+    result = {
+        "projections": {}, "best_model": "N/A", "adj_r2": 0.0,
+        "fit_window": "N/A", "latest": 0.0, "diagnostics": {},
+        "warnings": [], "source": "trend_fit",
+    }
+
+    if col_name not in master.columns:
+        result["warnings"].append(f"Column {col_name} not in master")
+        result["projections"] = {yr: 0.0 for yr in project_years}
+        return result
+
+    # Annualize monthly data
+    if annualize == "last":
+        annual = master.groupby("year")[col_name].last().dropna()
+    else:
+        annual = master.groupby("year")[col_name].mean().dropna()
+
+    if len(annual) < min_data_points:
+        result["warnings"].append(f"Only {len(annual)} annual points (need {min_data_points})")
+        latest_val = float(annual.iloc[-1]) if len(annual) > 0 else 0.0
+        result["latest"] = latest_val
+        result["projections"] = {yr: round(latest_val, 2) for yr in project_years}
+        return result
+
+    result["latest"] = float(annual.iloc[-1])
+
+    # Determine fit window
+    if fit_window_years is None:
+        # Auto-detect onset: first year where value exceeds 1% of max
+        adaptive_threshold = max(onset_threshold, 0.01 * annual.max())
+        onset_mask = annual > adaptive_threshold
+        if onset_mask.any():
+            onset_year = onset_mask.idxmax()
+            data = annual.loc[onset_year:]
+        else:
+            data = annual
+    else:
+        latest_year = annual.index.max()
+        cutoff = latest_year - fit_window_years + 1
+        data = annual.loc[annual.index >= cutoff]
+
+    if len(data) < min_data_points:
+        data = annual.tail(min_data_points)
+
+    result["fit_window"] = f"{data.index.min()}-{data.index.max()}"
+
+    # Prepare arrays
+    years_arr = data.index.values.astype(float)
+    y = data.values.astype(float)
+    base_year = float(years_arr[0])
+    x = years_arr - base_year
+    n = len(y)
+
+    # Fit models
+    fit_results = {}
+    for model_type in models:
+        try:
+            if model_type == "linear":
+                coeffs = np.polyfit(x, y, 1)
+                y_pred = np.polyval(coeffs, x)
+                k = 2
+            elif model_type == "quadratic":
+                if n < 4:
+                    continue
+                coeffs = np.polyfit(x, y, 2)
+                y_pred = np.polyval(coeffs, x)
+                k = 3
+            elif model_type == "exponential":
+                if np.any(y <= 0):
+                    continue
+                log_y = np.log(y)
+                coeffs = np.polyfit(x, log_y, 1)
+                y_pred = np.exp(np.polyval(coeffs, x))
+                k = 2
+            else:
+                continue
+
+            ss_res = np.sum((y - y_pred) ** 2)
+            ss_tot = np.sum((y - np.mean(y)) ** 2)
+            r2 = 1 - ss_res / ss_tot if ss_tot > 0 else 0
+            adj_r2 = 1 - (1 - r2) * (n - 1) / (n - k) if n > k else r2
+
+            fit_results[model_type] = {
+                "coeffs": coeffs.tolist(), "r2": round(r2, 4),
+                "adj_r2": round(adj_r2, 4), "k": k,
+            }
+        except Exception:
+            continue
+
+    if not fit_results:
+        result["warnings"].append("All model fits failed")
+        result["projections"] = {yr: round(result["latest"], 2) for yr in project_years}
+        return result
+
+    # Select best model
+    best_name, best_params = max(fit_results.items(), key=lambda item: item[1]["adj_r2"])
+
+    # Short-window guard: ≤5yr → prefer linear unless quad gains >0.05
+    window_years = len(data)
+    if window_years <= 5 and "linear" in fit_results and best_name != "linear":
+        linear_r2 = fit_results["linear"]["adj_r2"]
+        if best_params["adj_r2"] - linear_r2 < 0.05:
+            best_name = "linear"
+            best_params = fit_results["linear"]
+            result["warnings"].append(f"Short window ({window_years}yr): linear preferred (quad gain <0.05)")
+
+    # Weak-fit guard: if best adj R² < 0.3, fall back to recent historical mean
+    # (no detectable trend → best forecast is the recent average)
+    if best_params["adj_r2"] < 0.3:
+        recent_mean = float(data.tail(min(5, len(data))).mean())
+        result["warnings"].append(
+            f"Weak fit (adj R²={best_params['adj_r2']:.3f}): using recent mean={recent_mean:.1f}")
+        result["best_model"] = "mean"
+        result["adj_r2"] = best_params["adj_r2"]
+        result["diagnostics"] = fit_results
+        result["projections"] = {yr: round(recent_mean, 2) for yr in project_years}
+        return result
+
+    coeffs = best_params["coeffs"]
+    result["best_model"] = best_name
+    result["adj_r2"] = best_params["adj_r2"]
+    result["diagnostics"] = fit_results
+
+    # Project forward
+    projections = {}
+    pre_cap = {}
+    for yr in project_years:
+        x_proj = yr - base_year
+        if best_name == "linear":
+            val = coeffs[0] * x_proj + coeffs[1]
+        elif best_name == "quadratic":
+            val = coeffs[0] * x_proj**2 + coeffs[1] * x_proj + coeffs[2]
+        elif best_name == "exponential":
+            val = np.exp(coeffs[0] * x_proj + coeffs[1])
+        else:
+            val = result["latest"]
+
+        pre_cap[yr] = round(float(val), 2)
+
+        # Apply physical bounds only
+        if physical_bounds:
+            lo, hi = physical_bounds
+            if lo is not None:
+                val = max(lo, val)
+            if hi is not None:
+                val = min(hi, val)
+
+        projections[yr] = round(float(val), 2)
+
+    result["projections"] = projections
+    result["pre_cap_projections"] = pre_cap
+
+    # Warnings
+    latest_val = result["latest"]
+    proj_2035 = projections.get(2035, 0)
+    if latest_val > 0 and proj_2035 > 3 * latest_val:
+        result["warnings"].append(
+            f"Extrapolation: 2035={proj_2035:.1f} is {proj_2035/latest_val:.1f}x latest ({latest_val:.1f})")
+
+    if best_params["adj_r2"] < 0.5:
+        result["warnings"].append(f"Weak fit: adj R²={best_params['adj_r2']:.3f}")
+
+    if physical_bounds and physical_bounds[1] is not None:
+        capped_yrs = sum(1 for yr in project_years if pre_cap.get(yr, 0) > physical_bounds[1])
+        if capped_yrs > 0:
+            result["warnings"].append(
+                f"Physical cap ({physical_bounds[1]}) active for {capped_yrs}/{len(project_years)} years "
+                f"(pre-cap: {pre_cap.get(2025, 0):.0f}→{pre_cap.get(2035, 0):.0f})")
+
+    # Trivial projection guard: if fit projects all forward years at the
+    # physical lower bound (e.g., 0) despite meaningful recent values,
+    # the trend is likely cyclical, not declining to zero. Use recent mean.
+    if physical_bounds and physical_bounds[0] is not None and latest_val > 0:
+        lo = physical_bounds[0]
+        bound_yrs = sum(1 for yr in project_years if yr >= 2026 and projections.get(yr, lo) <= lo)
+        total_fwd = sum(1 for yr in project_years if yr >= 2026)
+        if total_fwd > 0 and bound_yrs == total_fwd:
+            recent_mean = float(data.tail(min(5, len(data))).mean())
+            result["warnings"].append(
+                f"Cyclical guard: all forward years at bound ({lo}), "
+                f"recent mean={recent_mean:.1f} used instead")
+            result["best_model"] = "mean"
+            result["projections"] = {yr: round(recent_mean, 2) for yr in project_years}
+
+    return result
+
+
+def _build_all_projections(master, project_years=None):
+    """Build all data-driven projections from master dataset.
+
+    Category A: Trend-fit from historical data (19 variables)
+    Category A-residual: Gas gen % derived so gen mix sums to 100%
+    Category B: Policy/legislation assumptions (15 variables)
+    Category C: Weather climatological normals (8+ variables)
+    Category D: Exogenous macro inputs (3 variables)
+
+    Returns (projections, diagnostics) where projections = {col: {year: value}}.
+    """
+    if project_years is None:
+        project_years = list(range(2025, 2036))
+
+    projections = {}
+    diagnostics = {}
+
+    print("\n  ══════════════════════════════════════════════════════════════════════")
+    print("  DATA-DRIVEN VARIABLE PROJECTIONS (2025-2035)")
+    print("  ══════════════════════════════════════════════════════════════════════")
+
+    # ── Category A: Trend-fit from data ────────────────────────────────────
+    # (col_name, fit_window, annualize, physical_bounds, models)
+    trend_configs = [
+        # Demand
+        ("tx_ercot_demand_twh", 10, "mean", (0, None), ("linear", "quadratic")),
+        ("ca_caiso_demand_twh", 10, "mean", (0, None), ("linear", "quadratic")),
+        # Data centers
+        ("us_data_center_twh", 10, "mean", (0, None), ("linear", "quadratic")),
+        ("tx_data_center_twh", 10, "mean", (0, None), ("linear", "quadratic")),
+        ("ca_data_center_twh", 10, "mean", (0, None), ("linear", "quadratic")),
+        # Generation mix movers (auto-onset)
+        ("tx_wind_gen_pct", None, "mean", (0, 100), ("linear", "quadratic")),
+        ("tx_solar_gen_pct", None, "mean", (0, 100), ("linear", "quadratic")),
+        ("tx_coal_gen_pct", 10, "mean", (0, 100), ("linear", "quadratic")),
+        ("ca_solar_gen_pct", None, "mean", (0, 100), ("linear", "quadratic")),
+        ("ca_wind_gen_pct", None, "mean", (0, 100), ("linear", "quadratic")),
+        # Battery storage (stock variable, short window)
+        ("tx_battery_capacity_gw", 5, "last", (0, None), ("linear", "quadratic")),
+        ("ca_battery_capacity_gw", 5, "last", (0, None), ("linear", "quadratic")),
+        ("us_battery_capacity_gw", 5, "last", (0, None), ("linear", "quadratic")),
+        # LNG (physical cap at 105% — throughput-to-nameplate ratio)
+        ("lng_utilization_pct", 5, "mean", (0, 105), ("linear", "quadratic")),
+        # Grid metrics
+        ("caiso_total_curtail_gwh", 5, "mean", (0, None), ("linear", "quadratic")),
+        ("caiso_monthly_negative_hours", 5, "mean", (0, None), ("linear", "quadratic")),
+        ("caiso_monthly_congestion_avg", 5, "mean", (0, None), ("linear", "quadratic")),
+        ("ercot_congestion_per_mwh", 5, "mean", (0, None), ("linear", "quadratic")),
+        ("ercot_spike_count", 5, "mean", (0, None), ("linear", "quadratic")),
+    ]
+
+    print(f"  {'Variable':<32} {'Model':<10} {'Adj R²':<8} {'Window':<12} "
+          f"{'2025':>7} {'2030':>7} {'2035':>7}  Flags")
+    print("  " + "─" * 105)
+
+    for col, window, annl, bounds, mdls in trend_configs:
+        result = _fit_variable_trend(
+            master, col, fit_window_years=window, annualize=annl,
+            physical_bounds=bounds, models=mdls, project_years=project_years)
+
+        projections[col] = result["projections"]
+        diagnostics[col] = result
+
+        # Print diagnostic row
+        p25 = result["projections"].get(2025, 0)
+        p30 = result["projections"].get(2030, 0)
+        p35 = result["projections"].get(2035, 0)
+        flags = []
+        for w in result.get("warnings", []):
+            if "Extrapolation" in w:
+                flags.append("EXTRAP")
+            elif "Weak" in w:
+                flags.append("WEAK")
+            elif "Physical cap" in w:
+                flags.append(f"CAPPED@{bounds[1]}")
+            elif "Short window" in w:
+                flags.append("*")
+            elif "STRUCTURAL" in w:
+                flags.append("BREAK?")
+        flag_str = " ".join(flags)
+
+        print(f"  {col:<32} {result['best_model']:<10} {result['adj_r2']:<8.3f} "
+              f"{result.get('fit_window', 'N/A'):<12} {p25:>7.1f} {p30:>7.1f} {p35:>7.1f}  {flag_str}")
+
+    # ── Regime break flag: CA demand ───────────────────────────────────────
+    if "ca_caiso_demand_twh" in diagnostics:
+        diagnostics["ca_caiso_demand_twh"]["regime_break"] = True
+        diagnostics["ca_caiso_demand_twh"]["warnings"].append(
+            "STRUCTURAL BREAK FLAG: Historical trend declining, but electrification mandates "
+            "(EVs, heat pumps), data center growth, and CEC forecasts point to reversal")
+        print(f"  {'':>32} *** STRUCTURAL BREAK FLAG: CA demand — CEC forecasts diverge ***")
+
+    # ── Category A-residual: Gas gen % (100 - fitted movers) ──────────────
+    latest_annual = master.groupby("year").last().iloc[-1]
+
+    # TX gas = 100 - wind - solar - coal - nuclear(const) - other(const)
+    tx_nuclear = float(latest_annual.get("tx_nuclear_gen_pct", 12.0) or 12.0)
+    tx_gas_lat = float(latest_annual.get("tx_gas_gen_pct", 52.0) or 52.0)
+    tx_wind_lat = float(latest_annual.get("tx_wind_gen_pct", 22.0) or 22.0)
+    tx_solar_lat = float(latest_annual.get("tx_solar_gen_pct", 6.0) or 6.0)
+    tx_coal_lat = float(latest_annual.get("tx_coal_gen_pct", 7.0) or 7.0)
+    tx_other = max(0, 100 - tx_gas_lat - tx_wind_lat - tx_solar_lat - tx_coal_lat - tx_nuclear)
+
+    projections["tx_gas_gen_pct"] = {}
+    for yr in project_years:
+        tx_wind_yr = projections["tx_wind_gen_pct"].get(yr, 0)
+        tx_solar_yr = projections["tx_solar_gen_pct"].get(yr, 0)
+        tx_coal_yr = projections["tx_coal_gen_pct"].get(yr, 0)
+        tx_other_yr = tx_other
+        # If modeled sources + constants exceed 100%, shrink "other" first
+        modeled_sum = tx_wind_yr + tx_solar_yr + tx_coal_yr + tx_nuclear
+        if modeled_sum + tx_other_yr > 100:
+            tx_other_yr = max(0, 100 - modeled_sum)
+        gas_r = 100 - tx_wind_yr - tx_solar_yr - tx_coal_yr - tx_nuclear - tx_other_yr
+        projections["tx_gas_gen_pct"][yr] = round(max(0, gas_r), 1)
+    diagnostics["tx_gas_gen_pct"] = {"source": "residual", "nuclear_const": tx_nuclear, "other_const": round(tx_other, 1)}
+
+    # TX renewable pct = wind + solar
+    projections["tx_renewable_pct"] = {
+        yr: round(projections["tx_wind_gen_pct"].get(yr, 0) + projections["tx_solar_gen_pct"].get(yr, 0), 1)
+        for yr in project_years
+    }
+
+    # CA gas = 100 - solar - wind - nuclear(const) - other(const, includes hydro)
+    ca_nuclear = float(latest_annual.get("ca_nuclear_gen_pct", 9.0) or 9.0)
+    ca_gas_lat = float(latest_annual.get("ca_gas_gen_pct", 40.5) or 40.5)
+    ca_solar_lat = float(latest_annual.get("ca_solar_gen_pct", 17.0) or 17.0)
+    ca_wind_lat = float(latest_annual.get("ca_wind_gen_pct", 5.0) or 5.0)
+    ca_other = max(0, 100 - ca_gas_lat - ca_solar_lat - ca_wind_lat - ca_nuclear)
+
+    projections["ca_gas_gen_pct"] = {}
+    for yr in project_years:
+        ca_solar_yr = projections["ca_solar_gen_pct"].get(yr, 0)
+        ca_wind_yr = projections["ca_wind_gen_pct"].get(yr, 0)
+        ca_other_yr = ca_other
+        # If modeled sources + constants exceed 100%, shrink "other" first
+        modeled_sum = ca_solar_yr + ca_wind_yr + ca_nuclear
+        if modeled_sum + ca_other_yr > 100:
+            ca_other_yr = max(0, 100 - modeled_sum)
+        gas_r = 100 - ca_solar_yr - ca_wind_yr - ca_nuclear - ca_other_yr
+        projections["ca_gas_gen_pct"][yr] = round(max(0, gas_r), 1)
+    diagnostics["ca_gas_gen_pct"] = {"source": "residual", "nuclear_const": ca_nuclear, "other_const": round(ca_other, 1)}
+
+    # Print residual rows
+    for label, col in [("tx_gas_gen_pct", "tx_gas_gen_pct"), ("ca_gas_gen_pct", "ca_gas_gen_pct")]:
+        p25 = projections[col].get(2025, 0)
+        p30 = projections[col].get(2030, 0)
+        p35 = projections[col].get(2035, 0)
+        print(f"  {label:<32} {'residual':<10} {'—':<8} {'derived':<12} "
+              f"{p25:>7.1f} {p30:>7.1f} {p35:>7.1f}")
+
+    # ── Category B: Policy assumptions ─────────────────────────────────────
+    projections["itc_rate_pct"] = {yr: 30.0 if yr <= 2032 else max(10, 30 - 4 * (yr - 2032)) for yr in project_years}
+    projections["ptc_rate_cents_kwh"] = {yr: 2.75 if yr <= 2032 else max(0.5, 2.75 - 0.5 * (yr - 2032)) for yr in project_years}
+    projections["ira_active_base"] = {yr: 1 for yr in project_years}
+    projections["ira_active_rollback"] = {yr: 0 if yr >= 2027 else 1 for yr in project_years}
+    projections["ca_rps_target_pct"] = {yr: round(min(100, 60 + 4 * (yr - 2025)), 1) for yr in project_years}
+    projections["ca_allowance_price_per_ton"] = {yr: round(40 + 2.0 * (yr - 2025), 1) for yr in project_years}
+    projections["n_rps_states"] = {yr: min(12, 9 + max(0, yr - 2027)) for yr in project_years}
+    projections["cumulative_ferc_reforms"] = {yr: 12 + (yr - 2025) for yr in project_years}
+    projections["queue_backlog_gw"] = {}
+    for yr in project_years:
+        if yr <= 2027:
+            projections["queue_backlog_gw"][yr] = round(2600 + 200 * (yr - 2025), 0)
+        else:
+            projections["queue_backlog_gw"][yr] = round(3000 - 100 * (yr - 2027), 0)
+    projections["ca_nem_compensation_level"] = {yr: 3 for yr in project_years}
+    projections["ca_storage_mandate"] = {yr: 1 for yr in project_years}
+    projections["der_market_access"] = {yr: 1 for yr in project_years}
+    projections["ca_solar_mandate"] = {yr: 1 for yr in project_years}
+    projections["ca_allowance_spread"] = {yr: round(12 + 0.8 * (yr - 2025), 1) for yr in project_years}
+    projections["n_ira_credits"] = {yr: 11 + (yr - 2024) for yr in project_years}
+
+    # ── Category C: Weather normals ────────────────────────────────────────
+    for col in ["us_hdd", "us_cdd", "tx_hdd", "tx_cdd", "ca_hdd", "ca_cdd"]:
+        if col in master.columns:
+            avg = float(master[col].dropna().mean())
+        else:
+            avg = 0
+        projections[col] = {yr: round(avg, 0) for yr in project_years}
+
+    for col in ["us_hdd_departure_pct", "us_cdd_departure_pct",
+                "tx_hdd_departure_pct", "tx_cdd_departure_pct",
+                "ca_hdd_departure_pct", "ca_cdd_departure_pct",
+                "us_ng_storage_vs_5yr_pct"]:
+        projections[col] = {yr: 0.0 for yr in project_years}
+
+    # ── Category D: Exogenous macro inputs (CBO/EIA sourced) ──────────────
+    projections["us_gdp_growth_pct"] = {yr: round(2.8 - 0.06 * (yr - 2025), 2) for yr in project_years}
+    projections["us_industrial_prod_index"] = {yr: round(103.5 + 0.8 * (yr - 2025), 1) for yr in project_years}
+    projections["electric_power_bcfd"] = {yr: round(35.5 + 0.4 * (yr - 2025), 1) for yr in project_years}
+
+    # ── Gen mix consistency check ──────────────────────────────────────────
+    # "Other" may be adjusted down when renewables exceed 100%-nuclear-other
+    print("\n  Generation mix consistency check:")
+    for yr in [2025, 2030, 2035]:
+        tx_modeled = (projections["tx_wind_gen_pct"].get(yr, 0) +
+                      projections["tx_solar_gen_pct"].get(yr, 0) +
+                      projections["tx_coal_gen_pct"].get(yr, 0) + tx_nuclear)
+        tx_oth_adj = min(tx_other, max(0, 100 - tx_modeled))
+        tx_sum = projections["tx_gas_gen_pct"].get(yr, 0) + tx_modeled + tx_oth_adj
+        ca_modeled = (projections["ca_solar_gen_pct"].get(yr, 0) +
+                      projections["ca_wind_gen_pct"].get(yr, 0) + ca_nuclear)
+        ca_oth_adj = min(ca_other, max(0, 100 - ca_modeled))
+        ca_sum = projections["ca_gas_gen_pct"].get(yr, 0) + ca_modeled + ca_oth_adj
+        print(f"    {yr}: TX={tx_sum:.1f}% (gas={projections['tx_gas_gen_pct'].get(yr, 0):.1f}%), "
+              f"CA={ca_sum:.1f}% (gas={projections['ca_gas_gen_pct'].get(yr, 0):.1f}%)")
+
+    # ── Warnings summary ──────────────────────────────────────────────────
+    all_warnings = []
+    for col, diag in diagnostics.items():
+        if isinstance(diag, dict) and "warnings" in diag:
+            for w in diag["warnings"]:
+                all_warnings.append(f"    {col}: {w}")
+    if all_warnings:
+        print(f"\n  [WARNINGS]")
+        for w in all_warnings:
+            print(w)
+
+    print("  " + "═" * 70)
+
+    return projections, diagnostics
+
+
 def _aggregate_ercot_daily_to_monthly(daily_path):
     """Aggregate pre-computed daily stats to monthly features.
 
@@ -4504,18 +4930,443 @@ def step14_expanded_validation(reg_v2, diagnostics, master_v8):
             floor_mid = floor_lit.get("mid", 2.0)
             # Check P10 values
             if os.path.exists(mc_path):
+                supply_floor_info = mc_data.get("supply_floor", {})
                 p10_issues = []
                 for yr_s, fc in forecasts.items():
                     p10 = fc.get("p10", 0)
                     if isinstance(p10, (int, float)) and p10 < floor_mid:
                         p10_issues.append(f"{yr_s}: P10=${p10:.2f}")
+                print(f"\n    Production Floor Check (marginal cost ~${floor_mid:.2f}/MMBtu):")
+                if supply_floor_info:
+                    print(f"      Supply-response soft floor: breakeven=${supply_floor_info.get('breakeven', 'N/A')}, "
+                          f"supply_speed={supply_floor_info.get('supply_speed', 'N/A'):.4f}, "
+                          f"below-breakeven={supply_floor_info.get('pct_below_breakeven', 0):.1f}% of path-months")
                 if p10_issues:
-                    print(f"\n    Production Floor Check (marginal cost ~${floor_mid:.2f}/MMBtu):")
                     print(f"      WARNING: P10 below production floor in: {', '.join(p10_issues)}")
-                    lit_comparison["production_floor"] = {"floor_mid": floor_mid, "violations": p10_issues}
+                    lit_comparison["production_floor"] = {
+                        "floor_mid": floor_mid, "violations": p10_issues,
+                        "supply_floor": supply_floor_info,
+                    }
                 else:
-                    print(f"\n    Production Floor Check: PASS — all P10 >= ${floor_mid:.2f}")
-                    lit_comparison["production_floor"] = {"floor_mid": floor_mid, "violations": []}
+                    print(f"      PASS — all P10 >= ${floor_mid:.2f}")
+                    lit_comparison["production_floor"] = {
+                        "floor_mid": floor_mid, "violations": [],
+                        "supply_floor": supply_floor_info,
+                    }
+
+        # 14E-8: Mean-Reversion Speed vs Literature
+        mr_lit = lit.get("mean_reversion_parameters", {})
+        if mr_lit and os.path.exists(mc_path):
+            regime_params = mc_data.get("regime_params", {})
+            speed_normal = regime_params.get("speed_normal", 0)
+            speed_crisis = regime_params.get("speed_crisis", 0)
+            kappa_annual_normal = speed_normal * 12
+            kappa_annual_crisis = speed_crisis * 12
+            hl_months = np.log(2) / max(speed_normal, 0.001)
+
+            # Literature ranges (already annual)
+            schwartz = mr_lit.get("schwartz_1997", {})
+            schwartz_range = schwartz.get("kappa_annual", [0.5, 2.0])
+            pilipovic = mr_lit.get("pilipovic_2007", {})
+            pilipovic_range = pilipovic.get("kappa_annual_natural_gas", [1.0, 3.0])
+            consensus = mr_lit.get("consensus_natural_gas", {})
+            consensus_monthly = consensus.get("kappa_monthly", [0.08, 0.25])
+            consensus_hl = consensus.get("half_life_months", [3, 9])
+
+            # Union range for PASS/FAIL: [0.5, 3.0] (Schwartz low to Pilipovic high)
+            union_low, union_high = 0.5, 3.0
+            in_range = union_low <= kappa_annual_normal <= union_high
+            status = "PASS" if in_range else ("HIGH" if kappa_annual_normal > union_high else "LOW")
+
+            # Monthly check
+            monthly_in = consensus_monthly[0] <= speed_normal <= consensus_monthly[1] if isinstance(consensus_monthly, list) else False
+            monthly_status = "PASS" if monthly_in else "OUTSIDE"
+
+            print(f"\n    Mean-Reversion Speed vs Literature:")
+            print(f"      Normal regime: κ_monthly={speed_normal:.4f}, κ_annual={kappa_annual_normal:.2f}")
+            print(f"        Schwartz (1997): κ_annual [{schwartz_range[0]:.1f}, {schwartz_range[1]:.1f}] — "
+                  f"{'PASS' if schwartz_range[0] <= kappa_annual_normal <= schwartz_range[1] else 'OUTSIDE'}")
+            print(f"        Pilipovic (2007): κ_annual [{pilipovic_range[0]:.1f}, {pilipovic_range[1]:.1f}] — "
+                  f"{'PASS' if pilipovic_range[0] <= kappa_annual_normal <= pilipovic_range[1] else 'OUTSIDE'}")
+            print(f"        Consensus monthly: [{consensus_monthly[0]:.2f}, {consensus_monthly[1]:.2f}] — {monthly_status}")
+            print(f"        Half-life: {hl_months:.1f} months (literature: {consensus_hl[0]}-{consensus_hl[1]} months)")
+            print(f"        Overall: {status}")
+            if speed_crisis > 0:
+                print(f"      Crisis regime: κ_monthly={speed_crisis:.4f}, κ_annual={kappa_annual_crisis:.2f}")
+
+            lit_comparison["mean_reversion"] = {
+                "speed_normal_monthly": round(speed_normal, 4),
+                "speed_crisis_monthly": round(speed_crisis, 4),
+                "kappa_annual_normal": round(kappa_annual_normal, 2),
+                "kappa_annual_crisis": round(kappa_annual_crisis, 2),
+                "half_life_months": round(hl_months, 1),
+                "schwartz_range": schwartz_range,
+                "pilipovic_range": pilipovic_range,
+                "status": status,
+            }
+
+        # 14E-9: LNG Capacity vs Literature
+        lng_lit = lit.get("lng_export_capacity", {})
+        if lng_lit:
+            lng_capacity = lng_lit.get("capacity_bcfd", {})
+            lng_coef = lng_lit.get("price_impact", {}).get("coefficient_per_bcfd", 0.12)
+            # Read projection_map for LNG utilization trajectory
+            if os.path.exists(PROJECTION_JSON):
+                with open(PROJECTION_JSON) as f:
+                    proj_data = json.load(f)
+                var_projs = proj_data.get("variable_projections", {})
+                print(f"\n    LNG Capacity vs Literature:")
+                lng_checks = {}
+                for yr_s in sorted(lng_capacity.keys()):
+                    lit_cap = lng_capacity[yr_s]
+                    # Model doesn't project LNG capacity directly, but projects utilization
+                    # Check if year is in projections
+                    vp = var_projs.get(yr_s, {})
+                    gas_fc = vp.get("gas_price", {})
+                    if gas_fc:
+                        model_mean = gas_fc.get("mean", 0) if isinstance(gas_fc, dict) else 0
+                        lng_checks[yr_s] = {"literature_capacity_bcfd": lit_cap, "gas_mean": round(model_mean, 2)}
+                        print(f"      {yr_s}: Literature capacity={lit_cap} Bcf/d, coefficient=${lng_coef:.2f}/bcfd")
+                    else:
+                        lng_checks[yr_s] = {"literature_capacity_bcfd": lit_cap}
+                        print(f"      {yr_s}: Literature capacity={lit_cap} Bcf/d")
+                # Total LNG price impact from capacity growth
+                cap_2024 = lng_capacity.get("2024", 14.0)
+                cap_2030 = lng_capacity.get("2030", 25.0)
+                total_impact = (cap_2030 - cap_2024) * lng_coef
+                print(f"      LNG expansion {cap_2024}→{cap_2030} Bcf/d = +${total_impact:.2f}/MMBtu price support")
+                lng_checks["total_price_impact_2024_2030"] = round(total_impact, 2)
+                lit_comparison["lng_capacity"] = lng_checks
+
+        # 14E-10: Battery Storage vs Literature
+        batt_lit = lit.get("battery_storage_capacity", {})
+        if batt_lit:
+            batt_cap = batt_lit.get("capacity_gw", {})
+            ca_batt_lit = batt_cap.get("california", {})
+            tx_batt_lit = batt_cap.get("texas", {})
+            print(f"\n    Battery Storage vs Literature:")
+            batt_checks = {}
+            if os.path.exists(PROJECTION_JSON):
+                with open(PROJECTION_JSON) as f:
+                    proj_data = json.load(f)
+                var_projs = proj_data.get("variable_projections", {})
+                # Extract model battery projections from var_projections if available
+                # Check CA and TX battery growth vs literature
+                for region, lit_vals, label in [("california", ca_batt_lit, "CA"), ("texas", tx_batt_lit, "TX")]:
+                    region_checks = {}
+                    for yr_s in sorted(lit_vals.keys()):
+                        lit_gw = lit_vals[yr_s]
+                        region_checks[yr_s] = {"literature_gw": lit_gw}
+                    if region_checks:
+                        # Print comparison
+                        print(f"      {label} Literature trajectory: " +
+                              ", ".join(f"{yr}={v['literature_gw']} GW" for yr, v in sorted(region_checks.items())))
+                        batt_checks[region] = region_checks
+
+                # Model projections: read from projection map output (data-driven)
+                model_ca = {}
+                model_tx = {}
+                for yr in range(2026, 2031):
+                    yr_data = var_projs.get(str(yr), {})
+                    model_ca[str(yr)] = yr_data.get("ca_battery_capacity_gw", 0)
+                    model_tx[str(yr)] = yr_data.get("tx_battery_capacity_gw", 0)
+                print(f"      CA Model trajectory:  " +
+                      ", ".join(f"{yr}={gw} GW" for yr, gw in sorted(model_ca.items())))
+                print(f"      TX Model trajectory:  " +
+                      ", ".join(f"{yr}={gw} GW" for yr, gw in sorted(model_tx.items())))
+
+                # Compare at 2030
+                ca_lit_2030 = ca_batt_lit.get("2030", 25)
+                tx_lit_2030 = tx_batt_lit.get("2030", 22)
+                ca_model_2030 = model_ca.get("2030", 0)
+                tx_model_2030 = model_tx.get("2030", 0)
+                ca_status = "PASS" if abs(ca_model_2030 - ca_lit_2030) / ca_lit_2030 < 0.3 else "FLAG"
+                tx_status = "PASS" if abs(tx_model_2030 - tx_lit_2030) / tx_lit_2030 < 0.3 else "FLAG"
+                print(f"      CA 2030: Model={ca_model_2030} GW vs Literature={ca_lit_2030} GW — {ca_status}")
+                print(f"      TX 2030: Model={tx_model_2030} GW vs Literature={tx_lit_2030} GW — {tx_status}")
+                batt_checks["comparison_2030"] = {
+                    "ca_model": ca_model_2030, "ca_literature": ca_lit_2030, "ca_status": ca_status,
+                    "tx_model": tx_model_2030, "tx_literature": tx_lit_2030, "tx_status": tx_status,
+                }
+            lit_comparison["battery_storage"] = batt_checks
+
+        # 14E-11: Electricity Projections vs Historical Benchmarks
+        elec_lit = lit.get("electricity_price_benchmarks", {})
+        if elec_lit and os.path.exists(PROJECTION_JSON):
+            with open(PROJECTION_JSON) as f:
+                proj_data = json.load(f)
+            elec_projs = proj_data.get("electricity_price_projections", {})
+            print(f"\n    Electricity Projections vs Historical Benchmarks:")
+            elec_proj_checks = {}
+            for mkt_key, mkt_label in [("ERCOT", "ERCOT"), ("CAISO", "CAISO")]:
+                mkt_lit = elec_lit.get(mkt_key.lower(), {})
+                typical = mkt_lit.get("typical_range", [])
+                hist_vals = mkt_lit.get("historical_avg_2019_2024", {}).get("values", {})
+                mkt_projs = elec_projs.get(mkt_key, {})
+                if not typical or not mkt_projs:
+                    continue
+                # Get projected values
+                proj_years = sorted(mkt_projs.keys())
+                proj_vals = {}
+                for yr_s in proj_years:
+                    val = mkt_projs[yr_s]
+                    if isinstance(val, dict):
+                        proj_vals[yr_s] = val.get("mean", val.get("base_case", 0))
+                    elif isinstance(val, (int, float)):
+                        proj_vals[yr_s] = val
+                # Check projections against typical range
+                proj_status = {}
+                for yr_s, pv in proj_vals.items():
+                    in_range = typical[0] <= pv <= typical[1]
+                    s = "PASS" if in_range else ("HIGH" if pv > typical[1] else "LOW")
+                    proj_status[yr_s] = {"projected": round(pv, 1), "status": s}
+                # Historical CAGR
+                hist_years = sorted(hist_vals.keys())
+                if len(hist_years) >= 2:
+                    first_yr, last_yr = hist_years[0], hist_years[-1]
+                    n_years = int(last_yr) - int(first_yr)
+                    if n_years > 0 and hist_vals[first_yr] > 0:
+                        hist_cagr = (hist_vals[last_yr] / hist_vals[first_yr]) ** (1.0 / n_years) - 1
+                    else:
+                        hist_cagr = 0
+                else:
+                    hist_cagr = 0
+                # Projected CAGR (first to last projected year)
+                proj_yr_list = sorted(proj_vals.keys())
+                if len(proj_yr_list) >= 2 and proj_vals[proj_yr_list[0]] > 0:
+                    first_pv, last_pv = proj_vals[proj_yr_list[0]], proj_vals[proj_yr_list[-1]]
+                    n_p = int(proj_yr_list[-1]) - int(proj_yr_list[0])
+                    proj_cagr = (last_pv / first_pv) ** (1.0 / max(n_p, 1)) - 1
+                else:
+                    proj_cagr = 0
+                print(f"      {mkt_label}: typical range ${typical[0]}-${typical[1]}/MWh")
+                print(f"        Historical CAGR ({hist_years[0] if hist_years else '?'}-{hist_years[-1] if hist_years else '?'}): "
+                      f"{hist_cagr*100:.1f}%/yr")
+                print(f"        Projected CAGR ({proj_yr_list[0] if proj_yr_list else '?'}-{proj_yr_list[-1] if proj_yr_list else '?'}): "
+                      f"{proj_cagr*100:.1f}%/yr")
+                for yr_s, ps in sorted(proj_status.items()):
+                    print(f"        {yr_s}: ${ps['projected']:.1f}/MWh — {ps['status']}")
+                elec_proj_checks[mkt_key] = {
+                    "typical_range": typical,
+                    "historical_cagr": round(hist_cagr * 100, 1),
+                    "projected_cagr": round(proj_cagr * 100, 1),
+                    "yearly": proj_status,
+                }
+            lit_comparison["electricity_projections"] = elec_proj_checks
+
+            # 14E-11b: ERCOT Risk Decomposition Verification
+            ercot_projs = elec_projs.get("ERCOT", {})
+            risk_decomp = proj_data.get("risk_decomposition", {})
+            if ercot_projs and risk_decomp:
+                print(f"\n    ERCOT Risk Decomposition Check:")
+                print(f"      NG crisis shift: ${risk_decomp.get('ercot_crisis_shift_mwh', 0):.2f}/MWh")
+                print(f"      Elec-crisis mean: ${risk_decomp.get('ercot_elec_crisis_mean_mwh', 0):.0f}/MWh")
+                print(f"      Elec-crisis probability: {risk_decomp.get('p_elec_monthly', 0):.4f}/month")
+                decomp_checks = {}
+                for yr_s, ep in sorted(ercot_projs.items()):
+                    if isinstance(ep, dict) and "mean_normal" in ep:
+                        mn = ep["mean_normal"]
+                        mng = ep.get("mean_ng_crisis", mn)
+                        mel = ep.get("mean_elec_crisis", mn)
+                        pn = ep.get("p_normal", 1.0)
+                        png = ep.get("p_ng_crisis", 0.0)
+                        pel = ep.get("p_elec_crisis", 0.0)
+                        reconstructed = pn * mn + png * mng + pel * mel
+                        diff = abs(reconstructed - ep["mean"])
+                        ok = "PASS" if diff < 0.5 else f"DIFF={diff:.2f}"
+                        decomp_checks[yr_s] = {
+                            "mean": ep["mean"], "reconstructed": round(reconstructed, 2),
+                            "crisis_premium_total": ep.get("crisis_premium_total", 0),
+                            "identity_check": ok,
+                        }
+                        print(f"      {yr_s}: mean=${ep['mean']:.1f}, premium_ng=${ep.get('crisis_premium_ng', 0):.2f}, "
+                              f"premium_elec=${ep.get('crisis_premium_elec', 0):.2f}, identity={ok}")
+                lit_comparison["ercot_risk_decomposition"] = decomp_checks
+
+        # ------------------------------------------------------------------
+        # 14F: Derived Projections — Decarbonization Milestones
+        # ------------------------------------------------------------------
+        print("\n  --- 14F. Decarbonization Milestones ---")
+        milestones = {}
+        if os.path.exists(PROJECTION_JSON):
+            with open(PROJECTION_JSON) as f:
+                proj_data = json.load(f)
+            var_projs = proj_data.get("variable_projections", {})
+            # TX/CA milestones: solve from projected trajectories (data-driven)
+            # Scan projection years to find when thresholds are crossed
+            tx_coal_zero, tx_gas_35, tx_renew_50 = None, None, None
+            ca_gas_25, ca_solar_35 = None, None
+            for yr in range(2025, 2051):
+                vp = var_projs.get(str(yr), {})
+                if tx_coal_zero is None and vp.get("tx_coal_gen_pct", 100) <= 0.5:
+                    tx_coal_zero = yr
+                if tx_gas_35 is None and vp.get("tx_gas_gen_pct", 100) < 35:
+                    tx_gas_35 = yr
+                if tx_renew_50 is None and vp.get("tx_renewable_pct", 0) > 50:
+                    tx_renew_50 = yr
+                if ca_gas_25 is None and vp.get("ca_gas_gen_pct", 100) < 25:
+                    ca_gas_25 = yr
+                if ca_solar_35 is None and vp.get("ca_solar_gen_pct", 0) > 35:
+                    ca_solar_35 = yr
+            # If milestone not reached within projection horizon, extrapolate linearly
+            def _extrap_milestone(var_key, target, direction="below"):
+                """Extrapolate from last two projection years to estimate milestone year."""
+                vals = [(int(y), vp.get(var_key, 0)) for y, vp in sorted(var_projs.items()) if var_key in vp]
+                if len(vals) < 2:
+                    return None
+                y1, v1 = vals[-2]
+                y2, v2 = vals[-1]
+                slope = (v2 - v1) / max(1, y2 - y1) if y2 != y1 else 0
+                if slope == 0:
+                    return None
+                if direction == "below":
+                    yr_est = y2 + (target - v2) / slope
+                else:  # above
+                    yr_est = y2 + (target - v2) / slope
+                return round(yr_est) if 2025 <= yr_est <= 2060 else None
+            if tx_coal_zero is None:
+                tx_coal_zero = _extrap_milestone("tx_coal_gen_pct", 0, "below")
+            if tx_gas_35 is None:
+                tx_gas_35 = _extrap_milestone("tx_gas_gen_pct", 35, "below")
+            if tx_renew_50 is None:
+                tx_renew_50 = _extrap_milestone("tx_renewable_pct", 50, "above")
+            if ca_gas_25 is None:
+                ca_gas_25 = _extrap_milestone("ca_gas_gen_pct", 25, "below")
+            if ca_solar_35 is None:
+                ca_solar_35 = _extrap_milestone("ca_solar_gen_pct", 35, "above")
+
+            milestones = {
+                "tx_coal_reaches_zero_pct": tx_coal_zero,
+                "tx_gas_below_35_pct": tx_gas_35,
+                "tx_renewables_exceed_50_pct": tx_renew_50,
+                "ca_gas_below_25_pct": ca_gas_25,
+                "ca_solar_exceeds_35_pct": ca_solar_35,
+            }
+            print(f"    TX coal → 0%:         ~{tx_coal_zero or 'beyond 2060'}")
+            print(f"    TX gas < 35%:         ~{tx_gas_35 or 'beyond 2060'}")
+            print(f"    TX renewables > 50%:  ~{tx_renew_50 or 'beyond 2060'}")
+            print(f"    CA gas < 25%:         ~{ca_gas_25 or 'beyond 2060'}")
+            print(f"    CA solar > 35%:       ~{ca_solar_35 or 'beyond 2060'}")
+
+            # Cross-check with generation mix benchmarks
+            gen_mix_lit = lit.get("generation_mix_benchmarks", {})
+            if gen_mix_lit:
+                ercot_2030 = gen_mix_lit.get("ercot_2030", {})
+                caiso_2030 = gen_mix_lit.get("caiso_2030", {})
+                print(f"\n    Gen Mix 2030 vs EIA AEO Benchmarks:")
+                # Model 2030 values
+                vp_2030 = var_projs.get("2030", {})
+                model_tx_gas_2030 = vp_2030.get("tx_gas_gen_pct", 0)
+                model_tx_wind_2030 = vp_2030.get("tx_wind_gen_pct", 0)
+                model_tx_solar_2030 = vp_2030.get("tx_solar_gen_pct", 0)
+                model_tx_coal_2030 = vp_2030.get("tx_coal_gen_pct", 0)
+                for var, model_val, lit_range, label in [
+                    ("gas_pct", model_tx_gas_2030, ercot_2030.get("gas_pct", []), "TX gas"),
+                    ("wind_pct", model_tx_wind_2030, ercot_2030.get("wind_pct", []), "TX wind"),
+                    ("solar_pct", model_tx_solar_2030, ercot_2030.get("solar_pct", []), "TX solar"),
+                    ("coal_pct", model_tx_coal_2030, ercot_2030.get("coal_pct", []), "TX coal"),
+                ]:
+                    if lit_range and len(lit_range) == 2:
+                        in_r = lit_range[0] <= model_val <= lit_range[1]
+                        s = "PASS" if in_r else "OUTSIDE"
+                        print(f"      {label}: model={model_val:.1f}% vs EIA [{lit_range[0]}, {lit_range[1]}]% — {s}")
+                        milestones[f"{label.replace(' ', '_')}_2030_check"] = {
+                            "model": round(model_val, 1), "lit_range": lit_range, "status": s
+                        }
+
+        lit_comparison["decarbonization_milestones"] = milestones
+
+        # ------------------------------------------------------------------
+        # 14G: Derived Projections — Carbon Intensity Trajectory
+        # ------------------------------------------------------------------
+        print("\n  --- 14G. Carbon Intensity Trajectory ---")
+        carbon_lit = lit.get("carbon_emission_factors", {})
+        ef = carbon_lit.get("lbs_co2_per_mwh", {})
+        carbon_trajectory = {}
+        if ef:
+            coal_ef = ef.get("coal", 2000)
+            gas_ef = ef.get("gas_ccgt", 900)
+            other_ef = ef.get("other", 200)
+            # Compute carbon intensity per year from model gen mix projections
+            # Read from projection map (data-driven, not hardcoded slopes)
+            if not var_projs:
+                # Reload if not already available
+                try:
+                    with open(PROJECTION_JSON) as f:
+                        _pj = json.load(f)
+                    var_projs = _pj.get("variable_projections", {})
+                except Exception:
+                    var_projs = {}
+            for region, gas_key, coal_key, other_share, label in [
+                ("ercot", "tx_gas_gen_pct", "tx_coal_gen_pct", 13.0, "TX"),
+                ("caiso", "ca_gas_gen_pct", None, 5.0, "CA"),
+            ]:
+                region_traj = {}
+                for yr in range(2025, 2036):
+                    vp = var_projs.get(str(yr), {})
+                    gas_pct = vp.get(gas_key, 0) / 100.0
+                    coal_pct = vp.get(coal_key, 0) / 100.0 if coal_key else 0.0
+                    other_pct = other_share / 100.0
+                    # Wind + solar + hydro + nuclear = remainder → 0 lbs CO2
+                    ci = coal_pct * coal_ef + gas_pct * gas_ef + other_pct * other_ef
+                    region_traj[str(yr)] = round(ci, 0)
+                carbon_trajectory[region] = region_traj
+                # Print trajectory
+                vals_str = ", ".join(f"{yr}: {ci}" for yr, ci in sorted(region_traj.items()) if int(yr) % 2 == 0 or yr == "2025")
+                print(f"    {label} carbon intensity (lbs CO2/MWh): {vals_str}")
+                # CAGR
+                ci_2025 = region_traj.get("2025", 1)
+                ci_2035 = region_traj.get("2035", 1)
+                if ci_2025 > 0:
+                    ci_cagr = (ci_2035 / ci_2025) ** (1.0 / 10) - 1
+                    print(f"    {label} decline rate: {ci_cagr*100:.1f}%/yr")
+                    carbon_trajectory[f"{region}_cagr_pct"] = round(ci_cagr * 100, 1)
+            # Literature check
+            ercot_lit_2024 = carbon_lit.get("ercot_2024", 750)
+            caiso_lit_2024 = carbon_lit.get("caiso_2024", 450)
+            ercot_model_2025 = carbon_trajectory.get("ercot", {}).get("2025", 0)
+            caiso_model_2025 = carbon_trajectory.get("caiso", {}).get("2025", 0)
+            print(f"    ERCOT 2025 model: {ercot_model_2025} lbs/MWh (literature 2024: {ercot_lit_2024})")
+            print(f"    CAISO 2025 model: {caiso_model_2025} lbs/MWh (literature 2024: {caiso_lit_2024})")
+
+        lit_comparison["carbon_intensity"] = carbon_trajectory
+
+        # ------------------------------------------------------------------
+        # 14H: Derived Projections — Price Volatility Term Structure
+        # ------------------------------------------------------------------
+        print("\n  --- 14H. Price Volatility Term Structure ---")
+        vol_term = {}
+        if os.path.exists(mc_path):
+            print(f"    Implied annual vol from MC percentile bands:")
+            print(f"      {'Year':<6} {'Mean':>8} {'P10':>8} {'P90':>8} {'ImplVol':>10}")
+            for yr_s in sorted(forecasts.keys()):
+                fc = forecasts[yr_s]
+                mean = fc.get("mean", 0)
+                p10 = fc.get("p10", 0)
+                p90 = fc.get("p90", 0)
+                if mean > 0 and p10 > 0 and p90 > 0:
+                    # Implied vol: (P90-P10) / (2 * 1.28 * mean)
+                    # 1.28 = z-score for 10th/90th percentiles
+                    implied_vol = (p90 - p10) / (2 * 1.28 * mean) * 100
+                    vol_term[yr_s] = {
+                        "mean": round(mean, 2), "p10": round(p10, 2), "p90": round(p90, 2),
+                        "implied_vol_pct": round(implied_vol, 1),
+                    }
+                    print(f"      {yr_s:<6} ${mean:>7.2f} ${p10:>7.2f} ${p90:>7.2f}  {implied_vol:>8.1f}%")
+            # Check vol trend: should generally decay or stabilize
+            vol_vals = [v["implied_vol_pct"] for v in vol_term.values()]
+            if len(vol_vals) >= 2:
+                vol_trend = "declining" if vol_vals[-1] < vol_vals[0] else "expanding"
+                print(f"      Vol trend: {vol_trend} ({vol_vals[0]:.0f}% → {vol_vals[-1]:.0f}%)")
+                vol_term["trend"] = vol_trend
+            # Compare to GARCH unconditional vol
+            if os.path.exists(garch_path):
+                garch_uncond = garch_current.get("unconditional_volatility", {}).get("annualized_pct", 0)
+                if garch_uncond > 0:
+                    print(f"      GARCH unconditional vol: {garch_uncond:.1f}% (MC should converge toward this)")
+                    vol_term["garch_unconditional_pct"] = round(garch_uncond, 1)
+
+        lit_comparison["price_volatility_term_structure"] = vol_term
 
     else:
         print(f"    WARNING: {LITERATURE_BENCHMARKS} not found — skipping literature comparison")
@@ -5416,7 +6267,7 @@ def step5_lng(master):
 # ============================================================================
 # STEP 6: MONTE CARLO V8
 # ============================================================================
-def step6_monte_carlo(garch, reg_results, event_proj, lng, master=None, reg_v2=None):
+def step6_monte_carlo(garch, reg_results, event_proj, lng, master=None, reg_v2=None, all_projections=None):
     banner("STEP 6: Re-run Monte Carlo (V8 — regression-estimated gas mean)")
 
     mc_path = MC_V8_EXISTING if os.path.exists(MC_V8_EXISTING) else MC_V7
@@ -5509,45 +6360,22 @@ def step6_monte_carlo(garch, reg_results, event_proj, lng, master=None, reg_v2=N
             START = float(latest_hh.iloc[-1])
     print(f"  START price: ${START:.2f} (latest observed HH)")
 
-    # Build projected fundamentals for each year using data-driven trajectories
-    # These must match the step11 variable projections to ensure consistency
+    # Build projected fundamentals for each year from data-driven projections
+    # Uses all_projections computed once by _build_all_projections() for consistency
     projected_vars = {}
     if master is not None and hh_coefs:
         latest = master.dropna(subset=["henry_hub_spot"]).iloc[-1].to_dict() if len(master) > 0 else {}
         for yr in range(2026, 2036):
             yr_vars = {}
-            # Data-driven projections for each HH regression variable
-            var_projections = {
-                # GDP growth: CBO-like trajectory 2.8% → 2.2%
-                "us_gdp_growth_pct": round(2.8 - 0.06 * (yr - 2025), 2),
-                # Industrial production index: slow growth from 103.5
-                "us_industrial_prod_index": round(103.5 + 0.8 * (yr - 2025), 1),
-                # Data center TWh (US): CAGR 8.47% from 200 TWh (2024 base)
-                "us_data_center_twh": round(200 * (1.0847 ** (yr - 2024)), 1),
-                # Electric power demand (Bcf/d): slow growth with electrification
-                "electric_power_bcfd": round(35.5 + 0.4 * (yr - 2025), 1),
-                # ITC rate: 30% through 2032, phasedown after
-                "itc_rate_pct": 30.0 if yr <= 2032 else max(10, 30 - 4 * (yr - 2032)),
-                # PTC rate (cents/kWh): 2.75 through 2032, phasedown after
-                "ptc_rate_cents_kwh": 2.75 if yr <= 2032 else max(0.5, 2.75 - 0.5 * (yr - 2032)),
-                # Queue backlog (GW): peaks ~3200 by 2027 then declines with FERC reforms
-                "queue_backlog_gw": round(2600 + 200 * (yr - 2025), 0) if yr <= 2027 else round(3000 - 100 * (yr - 2027), 0),
-                # Cumulative FERC reforms: 12 now, +1 per year
-                "cumulative_ferc_reforms": min(12 + (yr - 2025), 22),
-                # LNG utilization: grows from ~65% toward 85-90% as capacity fills
-                "lng_utilization_pct": round(min(92, 65 + 3.0 * (yr - 2025)), 1),
-                # Storage deviation: project normal (0% vs 5yr avg)
-                "us_ng_storage_vs_5yr_pct": 0.0,
-                # Weather departures: project normal (0%)
-                "us_hdd_departure_pct": 0.0,
-                "us_cdd_departure_pct": 0.0,
-            }
-            # Seasonal variables handled monthly in simulation loop — skip from annual delta
             _seasonal_vars = {"is_winter", "is_summer", "us_hdd", "us_cdd", "tx_hdd", "tx_cdd", "ca_hdd", "ca_cdd"}
             for var in hh_coefs:
                 if var in _seasonal_vars:
                     continue
-                yr_vars[var] = var_projections.get(var, float(latest.get(var, 0)))
+                # Look up from centralized projections first, fallback to latest observed
+                if all_projections and var in all_projections:
+                    yr_vars[var] = all_projections[var].get(yr, float(latest.get(var, 0)))
+                else:
+                    yr_vars[var] = float(latest.get(var, 0))
             projected_vars[str(yr)] = yr_vars
 
     # Compute regression-estimated annual gas means
@@ -5633,6 +6461,7 @@ def step6_monte_carlo(garch, reg_results, event_proj, lng, master=None, reg_v2=N
     # Data-estimated parameters for regime-specific simulation
     speed_normal = 0.15    # fallback
     speed_crisis = 0.25    # fallback (crises revert faster)
+    supply_speed = 0.15    # fallback: supply-response reversion when below breakeven
     crisis_level_shift_hh = 0.0
     garch_normal = {"omega": omega, "alpha": alpha, "beta": beta}
     garch_crisis = {"omega": omega, "alpha": alpha, "beta": beta}
@@ -5666,10 +6495,13 @@ def step6_monte_carlo(garch, reg_results, event_proj, lng, master=None, reg_v2=N
                 print(f"  AR(1) normal: φ={phi_n:.4f}, speed κ={speed_normal:.4f} "
                       f"(n={len(y_n)}, half-life={np.log(2)/max(speed_normal,0.01):.1f}mo)")
 
-            # Crisis: consecutive month pairs where both are crisis
-            crisis_mask = (crisis_flag == 1) & (crisis_flag.shift(1) == 1)
-            y_c = hh_log[crisis_mask].values
-            x_c = hh_log.shift(1)[crisis_mask].values
+            # Crisis: ALL transitions involving crisis months (entry + within + exit)
+            # Pure crisis-crisis pairs underestimate reversion speed because they only
+            # measure within-episode persistence. Including entry/exit transitions
+            # captures the actual dynamics: rapid price jumps and snapbacks.
+            crisis_any_mask = (crisis_flag == 1) | (crisis_flag.shift(1) == 1)
+            y_c = hh_log[crisis_any_mask].values
+            x_c = hh_log.shift(1)[crisis_any_mask].values
             valid_c = ~np.isnan(y_c) & ~np.isnan(x_c)
             y_c, x_c = y_c[valid_c], x_c[valid_c]
             if len(y_c) > 5:
@@ -5678,8 +6510,15 @@ def step6_monte_carlo(garch, reg_results, event_proj, lng, master=None, reg_v2=N
                 phi_c = float(phi_beta_c[1])
                 if 0.01 < phi_c < 1.0:
                     speed_crisis = float(-np.log(phi_c))
-                print(f"  AR(1) crisis: φ={phi_c:.4f}, speed κ={speed_crisis:.4f} "
-                      f"(n={len(y_c)}, half-life={np.log(2)/max(speed_crisis,0.01):.1f}mo)")
+                # Crisis MUST revert at least as fast as normal (physical constraint:
+                # crisis events are temporary shocks with bounded duration)
+                if speed_crisis < speed_normal:
+                    print(f"  AR(1) crisis: φ={phi_c:.4f}, κ={speed_crisis:.4f} < normal κ={speed_normal:.4f}")
+                    speed_crisis = max(speed_crisis, 1.5 * speed_normal)
+                    print(f"    → Enforced minimum: κ_crisis={speed_crisis:.4f} (1.5× normal)")
+                else:
+                    print(f"  AR(1) crisis: φ={phi_c:.4f}, speed κ={speed_crisis:.4f} "
+                          f"(n={len(y_c)}, half-life={np.log(2)/max(speed_crisis,0.01):.1f}mo)")
 
         # 4c. Regime-specific GARCH volatility
         if "henry_hub_spot" in master.columns and "is_ng_crisis" in master.columns:
@@ -5715,6 +6554,36 @@ def step6_monte_carlo(garch, reg_results, event_proj, lng, master=None, reg_v2=N
             elif vdict:
                 crisis_level_shift_hh = float(vdict)
             print(f"  HH crisis level shift: ${crisis_level_shift_hh:+.2f}/MMBtu (H2 interaction)")
+
+    # 4d. Supply-response soft floor estimation
+    # When gas drops below production breakeven (~$1.75), producers cut rigs,
+    # reducing supply and pulling price back toward breakeven.
+    # Estimate supply_speed from AR(1) on log-prices conditional on price < $2.50.
+    if master is not None and "henry_hub_spot" in master.columns:
+        hh_all = master["henry_hub_spot"].dropna()
+        hh_log_all = np.log(hh_all.clip(lower=0.5))
+        # Supply response zone: months where price is below $2.50
+        # (breakeven + buffer — captures recovery dynamics)
+        below_mask = (hh_all < 2.50) & (hh_all.shift(1).notna())
+        below_mask = below_mask & (hh_all.shift(1) < 2.50)
+        y_below = hh_log_all[below_mask].values
+        x_below = hh_log_all.shift(1)[below_mask].values
+        valid_b = ~np.isnan(y_below) & ~np.isnan(x_below)
+        y_below, x_below = y_below[valid_b], x_below[valid_b]
+        if len(y_below) > 5:
+            X_below = np.column_stack([np.ones(len(x_below)), x_below])
+            phi_beta_b = np.linalg.lstsq(X_below, y_below, rcond=None)[0]
+            phi_b = float(phi_beta_b[1])
+            if 0.01 < phi_b < 1.0:
+                supply_speed = float(-np.log(phi_b))
+            # Supply response should be at least as fast as normal mean-reversion
+            supply_speed = max(supply_speed, speed_normal)
+            print(f"  Supply-response floor: φ={phi_b:.4f}, speed={supply_speed:.4f} "
+                  f"(n={len(y_below)} below-$2.50 months, "
+                  f"half-life={np.log(2)/max(supply_speed,0.01):.1f}mo)")
+        else:
+            print(f"  Supply-response floor: insufficient data (n={len(y_below)}), "
+                  f"using fallback speed={supply_speed:.4f}")
 
     # 5a. Basis model for citygate projection
     if master is not None and "california_basis" in master.columns:
@@ -5774,7 +6643,9 @@ def step6_monte_carlo(garch, reg_results, event_proj, lng, master=None, reg_v2=N
     N_SIMS = 10000
     MONTHS = 60
     CAP = 25.0
-    FLOOR = 1.50  # lowest monthly avg HH in 29 years = $1.49 (Mar 2024)
+    BREAKEVEN = 1.75  # marginal Marcellus breakeven ($/MMBtu)
+    ABS_FLOOR = 1.25  # absolute physical minimum (below historical min $1.49)
+    ln_breakeven = np.log(BREAKEVEN)
 
     np.random.seed(42)
     random.seed(42)
@@ -5984,12 +6855,22 @@ def step6_monte_carlo(garch, reg_results, event_proj, lng, master=None, reg_v2=N
             # Convert dollar-denominated event shock to log-space
             ln_event = np.log(max(1.0 + event_shock / price, 0.05))  # floor at -95%
             ln_price = ln_price + speed * (ln_target - ln_price) + shock + ln_event
+            # Supply-response soft floor: when below breakeven, producers cut rigs
+            # creating asymmetric pull back toward breakeven (no density pileup)
+            if ln_price < ln_breakeven:
+                supply_pull = supply_speed * (ln_breakeven - ln_price)
+                ln_price += supply_pull
             ln_price = min(ln_price, np.log(CAP))  # cap at $25
-            ln_price = max(ln_price, np.log(FLOOR))  # reflecting floor at $1.50 (production cost floor)
+            ln_price = max(ln_price, np.log(ABS_FLOOR))  # absolute physical minimum
             price = np.exp(ln_price)
             paths[sim, m + 1] = price
 
-    print("  Simulation complete.")
+    # Supply-response floor diagnostics
+    below_breakeven = (paths[:, 1:] < BREAKEVEN).sum()
+    total_pm = N_SIMS * MONTHS
+    print(f"  Simulation complete.")
+    print(f"  Supply-response floor: {below_breakeven:,} of {total_pm:,} path-months "
+          f"below ${BREAKEVEN:.2f} ({below_breakeven/total_pm*100:.1f}%)")
 
     # ── Citygate gas paths (basis model + bootstrapped noise) ──
     citygate_paths = None
@@ -6052,6 +6933,40 @@ def step6_monte_carlo(garch, reg_results, event_proj, lng, master=None, reg_v2=N
             annual_fc[yr_s]["regime_fraction_normal"] = regime_fractions[yr_s]["normal"]
             annual_fc[yr_s]["regime_fraction_ng_crisis"] = regime_fractions[yr_s]["ng_crisis"]
 
+    # Conditional means by regime (for decomposed risk output in step11)
+    normal_conditional = {}
+    crisis_conditional = {}
+    for yr_off in range(5):
+        yr = 2026 + yr_off
+        yr_s = str(yr)
+        s_m, e_m = yr_off * 12, min((yr_off + 1) * 12, MONTHS)
+        s_p, e_p = s_m + 1, e_m + 1
+        yr_prices = paths[:, s_p:e_p]
+        yr_regimes = regime_tracker[:, s_m:e_m]
+        # Masked means: average gas price when in normal vs crisis regime
+        normal_mask = yr_regimes == 0
+        crisis_mask = yr_regimes == 1
+        if normal_mask.any():
+            normal_conditional[yr_s] = float(np.mean(yr_prices[normal_mask]))
+        else:
+            normal_conditional[yr_s] = float(annual_fc[yr_s]["mean"])
+        if crisis_mask.any():
+            crisis_conditional[yr_s] = float(np.mean(yr_prices[crisis_mask]))
+        else:
+            crisis_conditional[yr_s] = 0.0
+        annual_fc[yr_s]["normal_conditional_mean"] = round(normal_conditional[yr_s], 4)
+        annual_fc[yr_s]["crisis_conditional_mean"] = round(crisis_conditional[yr_s], 4)
+
+    print(f"\n  Gas conditional means (MC):")
+    for yr_s in sorted(normal_conditional.keys()):
+        nc = normal_conditional[yr_s]
+        cc = crisis_conditional[yr_s]
+        rf = regime_fractions.get(yr_s, {})
+        p_ng = rf.get("ng_crisis", 0)
+        premium = p_ng * (cc - nc) if cc > 0 else 0
+        print(f"    {yr_s}: normal=${nc:.2f}, crisis=${cc:.2f}, "
+              f"premium=${premium:.2f} (p_ng={p_ng:.1%})")
+
     # Citygate annual forecasts
     citygate_fc = {}
     if citygate_paths is not None:
@@ -6097,6 +7012,8 @@ def step6_monte_carlo(garch, reg_results, event_proj, lng, master=None, reg_v2=N
             "Data-estimated AR(1) mean-reversion speeds per regime",
             "Regime-specific GARCH volatility (normal from step3, crisis empirical)",
             "Citygate gas paths from basis model + bootstrapped residuals",
+            "Supply-response soft floor at $1.75 breakeven (replaces hard $1.50 floor)",
+            "Regime-conditional gas price means for risk decomposition",
         ],
         "lng_capacity_curve": old_mc.get("lng_capacity_curve", {}),
         "annual_forecasts": annual_fc,
@@ -6104,8 +7021,21 @@ def step6_monte_carlo(garch, reg_results, event_proj, lng, master=None, reg_v2=N
         "regime_fractions": regime_fractions,
         "regime_params": {
             "speed_normal": speed_normal, "speed_crisis": speed_crisis,
+            "supply_speed": supply_speed,
             "crisis_level_shift": crisis_level_shift_hh,
             "uncond_var_normal": uncond_var_normal, "uncond_var_crisis": uncond_var_crisis,
+        },
+        "supply_floor": {
+            "breakeven": BREAKEVEN,
+            "supply_speed": supply_speed,
+            "abs_floor": ABS_FLOOR,
+            "pct_below_breakeven": round(below_breakeven / total_pm * 100, 2),
+        },
+        "conditional_means": {
+            yr_s: {
+                "normal": round(normal_conditional.get(yr_s, 0), 4),
+                "ng_crisis": round(crisis_conditional.get(yr_s, 0), 4),
+            } for yr_s in sorted(regime_fractions.keys())
         },
         "spike_probabilities": spikes,
         "confidence_bands": bands,
@@ -6849,7 +7779,7 @@ def step10_chord_diagram(reg_results):
 # ============================================================================
 # STEP 11: FUTURE PROJECTION RELATIONSHIP MAP (2025-2035)
 # ============================================================================
-def step11_projection_map(reg_results, mc_results, evt_results, master, reg_v2=None):
+def step11_projection_map(reg_results, mc_results, evt_results, master, reg_v2=None, all_projections=None):
     banner("STEP 11: Build future projection relationship map (2025-2035)")
 
     # ── Helper: extract coefficient from regression results ────────────
@@ -6987,103 +7917,107 @@ def step11_projection_map(reg_results, mc_results, evt_results, master, reg_v2=N
         if ercot_crisis_shift != 0:
             print(f"  ERCOT crisis shift: ${ercot_crisis_shift:+.2f}/MWh (H2 interaction)")
 
+    # ── ERCOT elec-crisis from H3 scarcity scaling model ──────────────
+    ercot_elec_crisis_mean = 0.0
+    p_elec_monthly = 0.0
+    if reg_v2 and isinstance(reg_v2, dict) and "regime_models" in reg_v2:
+        rm = reg_v2["regime_models"]
+        scaling = rm.get("ercot_H_crisis_scaling", {})
+        if scaling:
+            scarcity_emp = scaling.get("scarcity_empirical", {})
+            if scarcity_emp:
+                fitted_prices = [v["fitted"] for v in scarcity_emp.values()]
+                ercot_elec_crisis_mean = float(np.mean(fitted_prices))
+                n_elec_months = len(scarcity_emp)
+                # Monthly fraction: n events in ~28 years of monthly data
+                total_hist_months = 28 * 12
+                p_elec_monthly = n_elec_months / total_hist_months
+                print(f"  ERCOT elec-crisis: E[price]=${ercot_elec_crisis_mean:.0f}/MWh "
+                      f"(from {n_elec_months} scarcity months), "
+                      f"p_elec={p_elec_monthly:.4f}/month ({p_elec_monthly*12:.3f}/year)")
+
+    # ── MC conditional gas means (from step6 output) ──────────────────
+    mc_conditional_means = {}
+    if isinstance(mc_results, dict):
+        mc_conditional_means = mc_results.get("conditional_means", {})
+
     # ── Variable projections 2025-2035 ─────────────────────────────────
+    # All projections read from centralized data-driven fits (computed once
+    # in _build_all_projections). Fallbacks used only if all_projections
+    # is None (e.g., step11 called standalone without main()).
     years = list(range(2025, 2036))
 
-    # GDP growth: trend from 2.8% → 2.2% (CBO-like trajectory)
-    gdp_proj = {yr: round(2.8 - 0.06 * (yr - 2025), 2) for yr in years}
+    def _ap(key, fallback_val=0):
+        """Safely get projection dict from all_projections."""
+        if all_projections and key in all_projections:
+            return all_projections[key]
+        return {yr: fallback_val for yr in years}
 
-    # Industrial production index: slow growth from 103.5
-    indprod_proj = {yr: round(103.5 + 0.8 * (yr - 2025), 1) for yr in years}
+    # Category D: Exogenous macro inputs
+    gdp_proj = _ap("us_gdp_growth_pct", 2.5)
+    indprod_proj = _ap("us_industrial_prod_index", 103.5)
+    elec_proj = _ap("electric_power_bcfd", 35.5)
 
-    # Data center TWh (US): CAGR 8.47% from 200 TWh
-    dc_proj = {yr: round(200 * (1.0847 ** (yr - 2024)), 1) for yr in years}
+    # Category A: Trend-fit from data — demand
+    dc_proj = _ap("us_data_center_twh", 200)
+    tx_dc_proj = _ap("tx_data_center_twh", 50)
+    ca_dc_proj = _ap("ca_data_center_twh", 3)
+    tx_demand_proj = _ap("tx_ercot_demand_twh", 450)
+    ca_demand_proj = _ap("ca_caiso_demand_twh", 270)
 
-    # TX data center TWh: 6.2 → ~20 TWh by 2030, ~35 TWh by 2035
-    tx_dc_proj = {yr: round(6.2 * (1.18 ** (yr - 2024)), 1) for yr in years}
+    # Category A: Trend-fit from data — generation mix movers
+    tx_wind_proj = _ap("tx_wind_gen_pct", 22)
+    tx_solar_proj = _ap("tx_solar_gen_pct", 7)
+    tx_coal_proj = _ap("tx_coal_gen_pct", 7)
+    ca_solar_proj = _ap("ca_solar_gen_pct", 17)
+    ca_wind_proj = _ap("ca_wind_gen_pct", 5)
 
-    # Electric power demand (Bcf/d): slow growth with electrification
-    elec_proj = {yr: round(35.5 + 0.4 * (yr - 2025), 1) for yr in years}
+    # Category A-residual: Gas gen % (derived so gen mix sums to ~100%)
+    tx_gas_proj = _ap("tx_gas_gen_pct", 45)
+    ca_gas_proj = _ap("ca_gas_gen_pct", 35)
+    renew_pct_proj = _ap("tx_renewable_pct", 29)
 
-    # Queue backlog (GW): peaks ~3200 by 2027 then slowly declines with FERC reforms
-    queue_proj = {}
-    for yr in years:
-        if yr <= 2027:
-            queue_proj[yr] = round(2600 + 200 * (yr - 2025), 0)
-        else:
-            queue_proj[yr] = round(3000 - 100 * (yr - 2027), 0)
-
-    # FERC reforms: 12 now, +1-2 per year
-    ferc_proj = {yr: min(12 + (yr - 2025), 22) for yr in years}
-
-    # ITC/PTC rate projections (shared across markets)
-    itc_proj = {yr: 30.0 if yr <= 2032 else max(10, 30 - 4 * (yr - 2032)) for yr in years}
-    ptc_proj = {yr: 2.75 if yr <= 2032 else max(0.5, 2.75 - 0.5 * (yr - 2032)) for yr in years}
-
-    # LNG utilization % projection: grows from ~65% toward 85-90% as capacity fills
-    lng_util_proj = {yr: round(min(92, 65 + 3.0 * (yr - 2025)), 1) for yr in years}
-
-    # IRA/OBBBA active: base case stays active, with rollback scenario
-    ira_proj_base = {yr: 1 for yr in years}
-    ira_proj_rollback = {yr: 0 if yr >= 2027 else 1 for yr in years}
-
-    # CA Generation Mix projections
-    ca_gas_proj = {yr: round(max(20, 40.5 - 1.8 * (yr - 2025)), 1) for yr in years}
-    ca_wind_proj = {yr: round(min(12, 4.0 + 0.7 * (yr - 2025)), 1) for yr in years}
-    ca_solar_proj = {yr: round(min(40, 17.0 + 2.0 * (yr - 2025)), 1) for yr in years}
-
-    # CA-specific policy projections
-    ca_rps_proj = {yr: round(min(100, 60 + 4 * (yr - 2025)), 1) for yr in years}
-    ca_allowance_proj = {yr: round(min(60, 40 + 2.0 * (yr - 2025)), 1) for yr in years}
-    n_rps_proj = {yr: min(12, 9 + max(0, yr - 2027)) for yr in years}
-
-    # CA battery capacity (GW): ~14 GW in 2024, +5 GW/yr
+    # Category A: Trend-fit — battery storage
+    tx_batt_proj = _ap("tx_battery_capacity_gw", 8)
+    ca_batt_proj = _ap("ca_battery_capacity_gw", 14)
     ca_batt_base = float(latest.get("ca_battery_capacity_gw", 14.1))
-    ca_batt_proj = {yr: round(ca_batt_base + 5.0 * (yr - 2025), 1) for yr in years}
 
-    # CA curtailment: grows with solar penetration
-    ca_curtail_proj = {yr: round(min(3000, 800 + 200 * (yr - 2025)), 0) for yr in years}
+    # Category A: Trend-fit — LNG and grid metrics
+    lng_util_proj = _ap("lng_utilization_pct", 65)
+    ca_curtail_proj = _ap("caiso_total_curtail_gwh", 800)
+    caiso_neg_hours_proj = _ap("caiso_monthly_negative_hours", 50)
+    caiso_congestion_proj = _ap("caiso_monthly_congestion_avg", 3)
+    tx_congestion_proj = _ap("ercot_congestion_per_mwh", 5)
+    tx_spike_proj = _ap("ercot_spike_count", 100)
 
-    # CA demand (TWh): slow growth
-    ca_demand_proj = {yr: round(270 + 3.0 * (yr - 2025), 1) for yr in years}
+    # Category B: Policy/legislation assumptions
+    queue_proj = _ap("queue_backlog_gw", 2600)
+    ferc_proj = _ap("cumulative_ferc_reforms", 14)
+    itc_proj = _ap("itc_rate_pct", 30)
+    ptc_proj = _ap("ptc_rate_cents_kwh", 2.75)
+    ira_proj_base = _ap("ira_active_base", 1)
+    ira_proj_rollback = _ap("ira_active_rollback", 0)
+    ca_rps_proj = _ap("ca_rps_target_pct", 60)
+    ca_allowance_proj = _ap("ca_allowance_price_per_ton", 40)
+    ca_allowance_spread_proj = _ap("ca_allowance_spread", 12)
+    n_rps_proj = _ap("n_rps_states", 9)
+    ira_credits_proj = _ap("n_ira_credits", 12)
 
-    # TX Generation Mix projections
-    tx_gas_proj = {yr: round(max(35, 51.8 - 1.5 * (yr - 2025)), 1) for yr in years}
-    tx_wind_proj = {yr: round(min(35, 21.9 + 1.2 * (yr - 2025)), 1) for yr in years}
-    tx_solar_proj = {yr: round(min(20, 7.2 + 1.3 * (yr - 2025)), 1) for yr in years}
-    tx_coal_proj = {yr: round(max(0, 6.8 - 0.8 * (yr - 2025)), 1) for yr in years}
-
-    # Renewable intermittency (from event projections)
-    renew_pct_proj = {yr: round(min(55, 29.1 + 2.15 * (yr - 2025)), 1) for yr in years}
-
-    # TX battery capacity (GW): ~5 GW in 2024, growing ~3 GW/yr
-    tx_batt_base = float(latest.get("tx_battery_capacity_gw", 5.0))
-    tx_batt_proj = {yr: round(tx_batt_base + 3.0 * (yr - 2025), 1) for yr in years}
-
-    # TX demand (TWh): growing with data centers and electrification
-    tx_demand_proj = {yr: round(425 + 8 * (yr - 2025), 0) for yr in years}
-
-    # ERCOT congestion ($/MWh): rises with renewable growth and load growth
-    tx_congestion_proj = {yr: round(min(15, 5.0 + 0.5 * (yr - 2025)), 1) for yr in years}
-
-    # ERCOT spike count: expected to moderate with battery storage
-    tx_spike_proj = {yr: round(max(50, 150 - 10 * (yr - 2025)), 0) for yr in years}
-
-    # HDD/CDD annual mean monthly values (for annual projection equations)
-    # Use recent historical average as "normal weather" for all projection years
+    # Category C: Weather normals — constant projections
     _hdd_cdd_avg = {}
     for col in ["us_hdd", "us_cdd", "tx_hdd", "tx_cdd", "ca_hdd", "ca_cdd"]:
-        if col in master.columns:
+        if all_projections and col in all_projections:
+            _hdd_cdd_avg[col] = all_projections[col].get(2025, 0)
+        elif col in master.columns:
             _hdd_cdd_avg[col] = float(master[col].dropna().mean())
         else:
             _hdd_cdd_avg[col] = 0
-    # Constant projections: normal weather every year
-    us_hdd_proj = {yr: round(_hdd_cdd_avg.get("us_hdd", 0), 0) for yr in years}
-    us_cdd_proj = {yr: round(_hdd_cdd_avg.get("us_cdd", 0), 0) for yr in years}
-    tx_hdd_proj = {yr: round(_hdd_cdd_avg.get("tx_hdd", 0), 0) for yr in years}
-    tx_cdd_proj = {yr: round(_hdd_cdd_avg.get("tx_cdd", 0), 0) for yr in years}
-    ca_hdd_proj = {yr: round(_hdd_cdd_avg.get("ca_hdd", 0), 0) for yr in years}
-    ca_cdd_proj = {yr: round(_hdd_cdd_avg.get("ca_cdd", 0), 0) for yr in years}
+    us_hdd_proj = _ap("us_hdd", _hdd_cdd_avg.get("us_hdd", 0))
+    us_cdd_proj = _ap("us_cdd", _hdd_cdd_avg.get("us_cdd", 0))
+    tx_hdd_proj = _ap("tx_hdd", _hdd_cdd_avg.get("tx_hdd", 0))
+    tx_cdd_proj = _ap("tx_cdd", _hdd_cdd_avg.get("tx_cdd", 0))
+    ca_hdd_proj = _ap("ca_hdd", _hdd_cdd_avg.get("ca_hdd", 0))
+    ca_cdd_proj = _ap("ca_cdd", _hdd_cdd_avg.get("ca_cdd", 0))
 
     # ── Compute projected gas price impacts from each driver ───────────
     # delta_gas = sum(coef * delta_variable) for each year
@@ -7102,12 +8036,10 @@ def step11_projection_map(reg_results, mc_results, evt_results, master, reg_v2=N
     if base_vals.get("electric_power_bcfd", 0) == 0:
         base_vals["electric_power_bcfd"] = 35.5
 
-    # Storage deviation: project normal levels (0% deviation from 5yr avg)
-    storage_proj = {yr: 0.0 for yr in years}
-
-    # HDD/CDD departure: project normal weather (0% departure)
-    hdd_dep_proj = {yr: 0.0 for yr in years}
-    cdd_dep_proj = {yr: 0.0 for yr in years}
+    # Storage deviation and weather departures: normal conditions
+    storage_proj = _ap("us_ng_storage_vs_5yr_pct", 0.0)
+    hdd_dep_proj = _ap("us_hdd_departure_pct", 0.0)
+    cdd_dep_proj = _ap("us_cdd_departure_pct", 0.0)
 
     # All HH regression variable projections (must match step6 MC projections)
     all_hh_projections = {
@@ -7170,9 +8102,6 @@ def step11_projection_map(reg_results, mc_results, evt_results, master, reg_v2=N
     for yr in years:
         # Queue was ~230 GW in 2024, growing with data center/industrial demand
         ercot_queue_proj[yr] = round(230 + 15 * (yr - 2024), 0)
-
-    # IRA tax credit count
-    ira_credits_proj = {yr: min(15, 11 + (yr - 2024)) for yr in years}
 
     # Historical means for interaction term centering (from master data)
     hh_hist_mean = float(latest.get("henry_hub_spot", 3.5))
@@ -7292,28 +8221,60 @@ def step11_projection_map(reg_results, mc_results, evt_results, master, reg_v2=N
         cg_p10 = cg_data.get("p5", gas_p10 + 0.5)
         cg_p90 = cg_data.get("p95", gas_p90 + 0.5)
 
-        # ERCOT: Regime-weighted delta method
-        # e_mean = (1-p_crisis)*e_normal + p_crisis*(e_normal + crisis_shift)
+        # ERCOT: Regime-weighted delta method with decomposed risk output
+        # e_mean = p_normal*e_normal + p_ng*e_ng_crisis + p_elec*e_elec_crisis
         if yr == 2025:
+            e_normal = latest_ercot_obs
             e_mean = latest_ercot_obs
             e_low = latest_ercot_obs * 0.85
             e_high = latest_ercot_obs * 1.15
+            p_ng = 0.0
+            p_elec = 0.0
         else:
             e_normal = latest_ercot_obs + (_ercot_predict(gas_mean, yr) - ercot_base_pred)
             e_low = latest_ercot_obs + (_ercot_predict(gas_p10, yr) - ercot_base_pred)
             e_high = latest_ercot_obs + (_ercot_predict(gas_p90, yr) - ercot_base_pred)
-            # Apply regime weighting (unconditional expected value)
+            # Regime probabilities
             p_ng = mc_regime_fracs.get(str(yr), {}).get("ng_crisis", 0)
-            e_mean = e_normal + p_ng * ercot_crisis_shift
-            e_low = e_low + p_ng * ercot_crisis_shift
-            e_high = e_high + p_ng * ercot_crisis_shift
+            p_elec = p_elec_monthly  # from scarcity model (monthly fraction)
+            # Conditional prices by regime
+            e_ng_crisis = e_normal + ercot_crisis_shift
+            e_elec_crisis = ercot_elec_crisis_mean if ercot_elec_crisis_mean > 0 else e_normal
+            # Crisis premiums (contribution of each regime to expected value)
+            crisis_prem_ng = p_ng * (e_ng_crisis - e_normal)
+            crisis_prem_elec = p_elec * (e_elec_crisis - e_normal)
+            crisis_prem_total = crisis_prem_ng + crisis_prem_elec
+            # Unconditional mean (expected value across all regimes)
+            p_normal = max(0, 1.0 - p_ng - p_elec)
+            e_mean = p_normal * e_normal + p_ng * e_ng_crisis + p_elec * e_elec_crisis
+            e_low = e_low + crisis_prem_total
+            e_high = e_high + crisis_prem_total
 
+        # Build output with decomposed risk components
+        _p_ng = p_ng
+        _p_elec = p_elec
+        _p_normal = max(0, 1.0 - _p_ng - _p_elec)
+        _e_ng = (e_normal + ercot_crisis_shift) if yr > 2025 else e_normal
+        _e_elec = ercot_elec_crisis_mean if (yr > 2025 and ercot_elec_crisis_mean > 0) else e_normal
+        _cprem_ng = _p_ng * (_e_ng - e_normal)
+        _cprem_elec = _p_elec * (_e_elec - e_normal)
+        _cprem_total = _cprem_ng + _cprem_elec
         ercot_proj[yr] = {
             "mean": round(max(0, e_mean), 2),
             "low": round(max(0, e_low), 2),
             "high": round(max(0, e_high), 2),
             "gas_component": round(ercot_model_coefs.get("henry_hub_spot", ercot_gas_passthrough) * gas_mean, 2),
-            "regime_fraction_ng_crisis": round(mc_regime_fracs.get(str(yr), {}).get("ng_crisis", 0), 4),
+            "regime_fraction_ng_crisis": round(_p_ng, 4),
+            # Decomposed risk output
+            "mean_normal": round(max(0, e_normal), 2),
+            "mean_ng_crisis": round(max(0, _e_ng), 2),
+            "mean_elec_crisis": round(max(0, _e_elec), 2),
+            "p_normal": round(_p_normal, 4),
+            "p_ng_crisis": round(_p_ng, 4),
+            "p_elec_crisis": round(_p_elec, 4),
+            "crisis_premium_ng": round(_cprem_ng, 2),
+            "crisis_premium_elec": round(_cprem_elec, 2),
+            "crisis_premium_total": round(_cprem_total, 2),
         }
 
         # CAISO: use step2b variant A (VIF-pruned baseline — most stable)
@@ -7358,16 +8319,16 @@ def step11_projection_map(reg_results, mc_results, evt_results, master, reg_v2=N
                 "ca_gas_gen_pct": ca_gas_proj.get(yr, 35),
                 "ca_wind_gen_pct": ca_wind_proj.get(yr, 8),
                 "ca_solar_gen_pct": ca_solar_proj.get(yr, 25),
-                "ca_data_center_twh": round(3.0 * (1.15 ** (yr - 2024)), 1),
-                "ca_caiso_demand_twh": ca_demand_proj.get(yr, 280),
-                "caiso_total_curtail_gwh": ca_curtail_proj.get(yr, 1000),
-                "caiso_monthly_negative_hours": round(min(200, 50 + 15 * (yr - 2025)), 0),
-                "caiso_monthly_congestion_avg": round(min(10, 3 + 0.5 * (yr - 2025)), 1),
+                "ca_data_center_twh": ca_dc_proj.get(yr, 3),
+                "ca_caiso_demand_twh": ca_demand_proj.get(yr, 270),
+                "caiso_total_curtail_gwh": ca_curtail_proj.get(yr, 800),
+                "caiso_monthly_negative_hours": caiso_neg_hours_proj.get(yr, 50),
+                "caiso_monthly_congestion_avg": caiso_congestion_proj.get(yr, 3),
                 "itc_rate_pct": itc_proj.get(yr, 30),
                 "ptc_rate_cents_kwh": ptc_proj.get(yr, 2.75),
                 "ca_rps_target_pct": ca_rps_proj.get(yr, 80),
                 "ca_allowance_price_per_ton": ca_allowance_proj.get(yr, 45),
-                "ca_allowance_spread": round(min(20, 12 + 0.8 * (yr - 2025)), 1),
+                "ca_allowance_spread": ca_allowance_spread_proj.get(yr, 12),
                 "ca_nem_compensation_level": 3,  # reduced NEM 3.0
                 "queue_backlog_gw": queue_proj.get(yr, 2600),
                 "n_rps_states": n_rps_proj.get(yr, 9),
@@ -7416,9 +8377,9 @@ def step11_projection_map(reg_results, mc_results, evt_results, master, reg_v2=N
                 "ca_rps_target_pct": ca_rps_proj.get(yr, 80),
                 "ca_allowance_price_per_ton": ca_allowance_proj.get(yr, 45),
                 "ca_battery_capacity_gw": ca_batt_proj.get(yr, ca_batt_base),
-                "ca_data_center_twh": round(3.0 * (1.15 ** (yr - 2024)), 1),
-                "ca_caiso_demand_twh": ca_demand_proj.get(yr, 280),
-                "caiso_total_curtail_gwh": ca_curtail_proj.get(yr, 1000),
+                "ca_data_center_twh": ca_dc_proj.get(yr, 3),
+                "ca_caiso_demand_twh": ca_demand_proj.get(yr, 270),
+                "caiso_total_curtail_gwh": ca_curtail_proj.get(yr, 800),
                 "itc_rate_pct": itc_proj.get(yr, 30),
                 "ptc_rate_cents_kwh": ptc_proj.get(yr, 2.75),
             }
@@ -7486,6 +8447,28 @@ def step11_projection_map(reg_results, mc_results, evt_results, master, reg_v2=N
         else:
             ira_rollback_impact[yr] = {"gas_delta": 0, "ercot_delta": 0, "caiso_delta": 0}
 
+    # ── ERCOT decomposed risk output diagnostics ──────────────────────
+    print(f"\n  ERCOT Price Decomposition:")
+    print(f"  {'Year':<6} {'Mean':>7} {'Normal':>8} {'NG Cris':>8} {'Elec Cr':>8} "
+          f"{'p_ng':>6} {'p_elec':>6} {'Prem_NG':>8} {'Prem_El':>8} {'Check':>7}")
+    print(f"  {'-'*80}")
+    for yr in sorted(ercot_proj.keys()):
+        ep = ercot_proj[yr]
+        mn = ep.get("mean_normal", ep["mean"])
+        mng = ep.get("mean_ng_crisis", mn)
+        mel = ep.get("mean_elec_crisis", mn)
+        pn = ep.get("p_normal", 1.0)
+        png = ep.get("p_ng_crisis", 0.0)
+        pel = ep.get("p_elec_crisis", 0.0)
+        cpn = ep.get("crisis_premium_ng", 0.0)
+        cpe = ep.get("crisis_premium_elec", 0.0)
+        # Verification identity: mean ≈ p_normal*normal + p_ng*ng_crisis + p_elec*elec_crisis
+        check = pn * mn + png * mng + pel * mel
+        ok = "OK" if abs(check - ep["mean"]) < 0.1 else f"DIFF={check - ep['mean']:.2f}"
+        print(f"  {yr:<6} ${ep['mean']:>6.1f} ${mn:>6.1f}  ${mng:>6.1f}  "
+              f"${mel:>6.1f}  {png:>5.1%} {pel:>5.1%}  "
+              f"${cpn:>6.2f}  ${cpe:>6.2f}   {ok}")
+
     # ── Build the projection map JSON ──────────────────────────────────
     proj_map = {
         "metadata": {
@@ -7521,6 +8504,7 @@ def step11_projection_map(reg_results, mc_results, evt_results, master, reg_v2=N
                 "us_industrial_prod_index": indprod_proj[yr],
                 "us_data_center_twh": dc_proj[yr],
                 "tx_data_center_twh": tx_dc_proj[yr],
+                "ca_data_center_twh": ca_dc_proj.get(yr, 3),
                 "electric_power_bcfd": elec_proj[yr],
                 "queue_backlog_gw": queue_proj[yr],
                 "cumulative_ferc_reforms": ferc_proj[yr],
@@ -7530,6 +8514,14 @@ def step11_projection_map(reg_results, mc_results, evt_results, master, reg_v2=N
                 "tx_solar_gen_pct": tx_solar_proj[yr],
                 "tx_coal_gen_pct": tx_coal_proj[yr],
                 "tx_renewable_pct": renew_pct_proj[yr],
+                "ca_gas_gen_pct": ca_gas_proj.get(yr, 35),
+                "ca_wind_gen_pct": ca_wind_proj.get(yr, 5),
+                "ca_solar_gen_pct": ca_solar_proj.get(yr, 17),
+                "tx_battery_capacity_gw": tx_batt_proj.get(yr, 8),
+                "ca_battery_capacity_gw": ca_batt_proj.get(yr, 14),
+                "tx_ercot_demand_twh": tx_demand_proj.get(yr, 450),
+                "ca_caiso_demand_twh": ca_demand_proj.get(yr, 270),
+                "lng_utilization_pct": lng_util_proj.get(yr, 65),
             } for yr in years
         },
         "driver_impacts_on_gas": {
@@ -7573,6 +8565,19 @@ def step11_projection_map(reg_results, mc_results, evt_results, master, reg_v2=N
             {"risk": "LNG export surge", "probability": "High",
              "mechanism": "14→30 Bcf/d by 2035, tightens domestic supply"},
         ],
+        "risk_decomposition": {
+            "description": "Decomposed ERCOT electricity price by regime",
+            "methodology": "mean = p_normal*mean_normal + p_ng*mean_ng_crisis + p_elec*mean_elec_crisis",
+            "crisis_premium_note": "Premium = p_regime * (mean_regime - mean_normal). Total premium = sum of NG and elec premiums.",
+            "ercot_crisis_shift_mwh": round(ercot_crisis_shift, 2),
+            "ercot_elec_crisis_mean_mwh": round(ercot_elec_crisis_mean, 2),
+            "p_elec_monthly": round(p_elec_monthly, 4),
+            "use_cases": {
+                "hedger": "Apply crisis_decay_rate=0.08-0.10 to discount distant crisis premiums",
+                "infrastructure_investor": "Use mean_normal for base case, crisis_premium_total for risk loading",
+                "risk_manager": "Use raw mean (crisis_decay_rate=0) — full unconditional expected value",
+            },
+        },
     }
 
     with open(PROJECTION_JSON, "w") as f:
@@ -7583,7 +8588,9 @@ def step11_projection_map(reg_results, mc_results, evt_results, master, reg_v2=N
     _render_projection_chart(years, gas_forecasts, ercot_proj, caiso_proj,
                              driver_impacts, dc_proj, queue_proj,
                              renew_pct_proj, hh_coefs, ercot_gas_passthrough,
-                             reg_results, gdp_proj, ferc_proj)
+                             reg_results, gdp_proj, ferc_proj,
+                             tx_gas_proj=tx_gas_proj, tx_wind_proj=tx_wind_proj,
+                             tx_solar_proj=tx_solar_proj, tx_coal_proj=tx_coal_proj)
 
     return proj_map
 
@@ -7591,7 +8598,9 @@ def step11_projection_map(reg_results, mc_results, evt_results, master, reg_v2=N
 def _render_projection_chart(years, gas_fc, ercot_p, caiso_p,
                              driver_imp, dc_proj, queue_proj,
                              renew_proj, hh_coefs, ercot_pt, reg,
-                             gdp_proj, ferc_proj):
+                             gdp_proj, ferc_proj,
+                             tx_gas_proj=None, tx_wind_proj=None,
+                             tx_solar_proj=None, tx_coal_proj=None):
     """Render a multi-panel projection chart."""
     try:
         import matplotlib
@@ -7689,10 +8698,10 @@ def _render_projection_chart(years, gas_fc, ercot_p, caiso_p,
 
     # ── Panel 5: TX Generation Mix Transition ──────────────────────────
     ax5 = axes[2, 0]
-    gas_pct = [max(35, 51.8 - 1.5 * (y - 2025)) for y in years]
-    wind_pct = [min(35, 21.9 + 1.2 * (y - 2025)) for y in years]
-    solar_pct = [min(20, 7.2 + 1.3 * (y - 2025)) for y in years]
-    coal_pct = [max(0, 6.8 - 0.8 * (y - 2025)) for y in years]
+    gas_pct = [tx_gas_proj.get(y, 45) for y in years] if tx_gas_proj else [45] * len(years)
+    wind_pct = [tx_wind_proj.get(y, 22) for y in years] if tx_wind_proj else [22] * len(years)
+    solar_pct = [tx_solar_proj.get(y, 7) for y in years] if tx_solar_proj else [7] * len(years)
+    coal_pct = [tx_coal_proj.get(y, 7) for y in years] if tx_coal_proj else [7] * len(years)
     other_pct = [100 - g - w - s - c for g, w, s, c in zip(gas_pct, wind_pct, solar_pct, coal_pct)]
     ax5.stackplot(years, gas_pct, wind_pct, solar_pct, coal_pct, other_pct,
                   labels=['Gas', 'Wind', 'Solar', 'Coal', 'Other'],
@@ -9149,16 +10158,21 @@ def main():
     # Step 2B: Enhanced regression — 6 variants per market
     reg_v2, diag = step2b_enhanced_regression(master_v8)
 
+    # Build all data-driven projections ONCE from master dataset
+    all_projections, projection_diagnostics = _build_all_projections(master_v8)
+
     # Steps 3-12: Original pipeline (using original reg for backward compat)
     garch = step3_garch(reg, master=master_v8)
     evt = step4_events(master)
     lng = step5_lng(master)
-    mc = step6_monte_carlo(garch, reg, evt, lng, master=master_v8, reg_v2=reg_v2)
+    mc = step6_monte_carlo(garch, reg, evt, lng, master=master_v8, reg_v2=reg_v2,
+                           all_projections=all_projections)
     step7_validate(reg, garch, mc)
     step8_params(reg, garch)
     step9_relationship_graph(reg)
     step10_chord_diagram(reg)
-    step11_projection_map(reg, mc, evt, master, reg_v2=reg_v2)
+    step11_projection_map(reg, mc, evt, master, reg_v2=reg_v2,
+                          all_projections=all_projections)
 
     # Step 12: Use enhanced models if available
     # Merge best variant results into reg for Step 12 consumption

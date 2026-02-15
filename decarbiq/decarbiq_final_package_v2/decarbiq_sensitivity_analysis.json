@@ -2,7 +2,7 @@
   "metadata": {
     "name": "DecarbIQ Sensitivity Analysis",
     "version": "1.0",
-    "created": "2026-02-14 16:04",
+    "created": "2026-02-14 23:31",
     "pipeline_stages": [
       "SaturationFilter",
       "LagFilter",
@@ -4031,8 +4031,8 @@
       ],
       "data_quality_flags": [
         "ptc_rate_cents_kwh NOT significant in caiso_full (p=0.12999801601141936)",
-        "itc_rate_pct NOT significant in caiso_full (p=0.057341653497847256)",
-        "Feedback 'policy_stabilizer' uses estimated strength (data_quality=low)"
+        "Feedback 'policy_stabilizer' uses estimated strength (data_quality=low)",
+        "itc_rate_pct NOT significant in caiso_full (p=0.057341653497847256)"
       ]
     },
     {

@@ -1,0 +1,562 @@
+{
+  "_metadata": {
+    "description": "Complete catalog of all projection assumptions in the DecarbIQ pipeline",
+    "pipeline_file": "decarbiq_policy_regulation_update_pipeline.py",
+    "generated": "2026-02-11",
+    "notes": "None of these variable projections have documented external sources or uncertainty ranges. All are hardcoded trends in step6 (MC) and step11 (projection map). Assumptions are duplicated in both steps to ensure consistency."
+  },
+
+  "monte_carlo_parameters": {
+    "description": "Core MC simulation parameters (step6, lines 6118-6124)",
+    "N_SIMS": {
+      "value": 10000,
+      "line": 6118,
+      "source": "Hardcoded"
+    },
+    "MONTHS": {
+      "value": 60,
+      "description": "5-year simulation horizon (2026-2030)",
+      "line": 6119,
+      "source": "Hardcoded"
+    },
+    "CAP": {
+      "value": 25.0,
+      "unit": "$/MMBtu",
+      "description": "Hard ceiling on gas price — reflecting floor in log-space",
+      "line": 6120,
+      "source": "Hardcoded (historical max monthly avg was ~$9 in 2022, $15.39 in 2005)"
+    },
+    "FLOOR": {
+      "value": 1.50,
+      "unit": "$/MMBtu",
+      "description": "Production cost floor — reflecting floor in log-space",
+      "line": 6121,
+      "source": "Lowest monthly avg HH in 29 years = $1.49 (Mar 2024)"
+    },
+    "START": {
+      "value": "latest observed HH price (dynamic)",
+      "description": "Pulled from master dataset at runtime, not hardcoded",
+      "line": "5849-5853",
+      "source": "Data-driven"
+    },
+    "random_seed": {
+      "value": 42,
+      "line": "6123-6124",
+      "source": "Hardcoded"
+    }
+  },
+
+  "mean_reversion": {
+    "description": "Schwartz (1997) one-factor model: d(ln P) = κ(ln θ − ln P)dt + σ dW",
+    "speed_normal": {
+      "fallback_value": 0.15,
+      "actual": "Data-estimated from AR(1) on log-prices, normal months (line 5998-6011)",
+      "description": "Monthly mean-reversion speed κ. AR(1): log(P_t) = c + φ × log(P_{t-1}) + ε; κ = -ln(φ)",
+      "line": "5978, 5998-6011",
+      "source": "Fallback hardcoded; actual estimated from data"
+    },
+    "speed_crisis": {
+      "fallback_value": 0.25,
+      "actual": "Data-estimated from AR(1) on ALL transitions involving crisis months (entry + within + exit), not just crisis-crisis pairs",
+      "description": "Higher speed = faster reversion from extreme levels during crises. Enforced minimum: 1.5× speed_normal (physical constraint: crises are temporary)",
+      "methodology_change": "v2: expanded AR(1) sample from crisis-crisis pairs only to all pairs where at least one month is crisis. Captures entry/exit dynamics. Added floor at 1.5× normal speed.",
+      "line": "5979, 6013-6032",
+      "source": "Data-driven with physical constraint (crisis events have bounded duration)"
+    }
+  },
+
+  "garch_era_structure": {
+    "description": "3-era GARCH estimation with materiality test (step3, lines 5276-5389)",
+    "eras": {
+      "pre_shale": {"period": "before 2009", "description": "Tight supply, weather-driven spikes, high vol (~52%)"},
+      "post_shale": {"period": "2009-2019", "description": "Abundant shale gas supply, lower vol (~46%)"},
+      "post_covid": {"period": "2020+", "description": "LNG exports, geopolitical shocks, intermediate vol (~66%)"}
+    },
+    "selection_logic": {
+      "materiality_test": "If |post_shale_vol - post_covid_vol| > 15% OR |persistence_diff| > 0.03 → eras are materially different → use post_covid",
+      "current_result": "vol_diff ≈ 20% > 15% → post_covid selected",
+      "fallback": "If similar → combine into 'modern_2009plus'"
+    },
+    "source": "Data-driven selection at lines 5341-5389"
+  },
+
+  "regime_switching": {
+    "description": "Event-driven regime classification (no Markov chain)",
+    "gas_regime_classification": {
+      "rule": "If any active event has type in (hurricane, polar_vortex, geopolitical) AND |gas_price_impact| >= 1.5 → ng_crisis; else → normal",
+      "threshold": 1.5,
+      "threshold_source": "Derived from disruptions catalog — events below 1.5 are minor",
+      "line": "6176-6183"
+    },
+    "crisis_level_shift_hh": {
+      "value": "Data-estimated from H2 interaction model is_ng_crisis coefficient",
+      "fallback": 0.0,
+      "line": "6052-6061",
+      "source": "Regression-estimated"
+    },
+    "crisis_garch": {
+      "method": "Constant variance (empirical) because n≈38 < 50 threshold for GARCH convergence",
+      "line": "6043-6048",
+      "source": "Data-driven with statistical threshold"
+    }
+  },
+
+  "event_model": {
+    "description": "Multi-month event draws in MC simulation loop (step6, lines 6205-6323)",
+    "general_notes": "Frequencies from 29-year named event catalog. Duration = persistence × magnitude. Linear decay over duration.",
+
+    "positive_events": {
+      "hurricane": {
+        "frequency": "0.172/yr (5 events in 29 years)",
+        "season": "Aug-Oct (divided by 3 for monthly probability)",
+        "magnitude_range": [1.50, 4.60],
+        "magnitude_unit": "$/MMBtu",
+        "persistence": "1.86 months per dollar of severity",
+        "duration_formula": "max(1, round(1.86 × magnitude))",
+        "climate_scaling": "Scaled by hurricane_model projections annual_rate / 2.0",
+        "line": "6236-6244",
+        "source": "Empirical from 29-year catalog (henry_hub_historical_price_incidents.json)"
+      },
+      "polar_vortex": {
+        "frequency": "0.172/yr (5 events in 29 years)",
+        "season": "Dec-Feb (divided by 3 for monthly probability)",
+        "magnitude_range": [1.30, 4.80],
+        "magnitude_unit": "$/MMBtu",
+        "persistence": "1.33 months per dollar of severity",
+        "duration_formula": "max(1, round(1.33 × magnitude))",
+        "scaling": "Scaled by polar_vortex_model projections annual_rate / 0.6",
+        "line": "6246-6254",
+        "source": "Empirical from 29-year catalog"
+      },
+      "uri_type_extreme": {
+        "frequency": "0.01/yr (~1 in 100 years)",
+        "season": "Dec-Feb (divided by 3 for monthly probability)",
+        "magnitude_range": [8.0, 14.0],
+        "magnitude_unit": "$/MMBtu",
+        "persistence": "1.33 months per dollar",
+        "line": "6255-6259",
+        "source": "Hardcoded judgment — Uri was 1-in-100-year event"
+      },
+      "geopolitical": {
+        "frequency": "0.034/yr (1 event in 29 years — only Russia-Ukraine 2022 qualified)",
+        "season": "Any month (divided by 12)",
+        "magnitude_range": [2.00, 5.00],
+        "magnitude_unit": "$/MMBtu",
+        "persistence": "0.99 months per dollar",
+        "scaling": "Scaled by geopolitical_model p_disruption / 0.50 (2024 baseline), clamped [0.5, 2.0]",
+        "line": "6261-6271",
+        "source": "Empirical from 29-year catalog"
+      },
+      "demand_shock": {
+        "frequency": "0.069/yr (2 events in 29 years)",
+        "season": "Any month (divided by 12)",
+        "magnitude_range": [0.80, 1.50],
+        "magnitude_unit": "$/MMBtu",
+        "persistence": "1.27 months per dollar",
+        "scaling": "Scaled by demand_shock_model demand_spike_probability / 0.05, clamped [0.5, 2.0]",
+        "line": "6273-6282",
+        "source": "Empirical from 29-year catalog"
+      },
+      "policy_shock": {
+        "frequency": "0.034/yr (1 event in 29 years)",
+        "season": "Any month (divided by 12)",
+        "magnitude_range": [0.30, 1.50],
+        "magnitude_unit": "$/MMBtu",
+        "persistence": "1.27 months per dollar",
+        "line": "6284-6289",
+        "source": "Empirical from 29-year catalog"
+      }
+    },
+
+    "negative_events": {
+      "mild_winter": {
+        "frequency": "0.172/yr (5 events in 29 years)",
+        "season": "Dec-Feb (monthly prob = 0.057 = 0.172/3)",
+        "magnitude_range": [0.66, 1.30],
+        "magnitude_unit": "$/MMBtu (applied as negative)",
+        "persistence": "4.94 months per dollar",
+        "line": "6293-6299",
+        "source": "Empirical from 29-year catalog"
+      },
+      "storage_surplus": {
+        "frequency": "0.138/yr (4 events in 29 years)",
+        "season": "Sep-Nov (monthly prob = 0.046 = 0.138/3)",
+        "magnitude_range": [0.30, 1.50],
+        "magnitude_unit": "$/MMBtu (applied as negative)",
+        "persistence": "9.52 months per dollar",
+        "line": "6301-6307",
+        "source": "Empirical from 29-year catalog"
+      },
+      "macro_recession": {
+        "frequency": "0.207/yr (6 events in 29 years)",
+        "season": "Any month (monthly prob = 0.017 = 0.207/12)",
+        "magnitude_range": [0.54, 2.25],
+        "magnitude_unit": "$/MMBtu (applied as negative)",
+        "persistence": "10.86 months per dollar (longest lasting)",
+        "line": "6309-6314",
+        "source": "Empirical from 29-year catalog"
+      },
+      "renewable_overbuild": {
+        "frequency": "0.069/yr base (2 events in 29 years), growing +0.001/yr",
+        "season": "Any month",
+        "monthly_probability_formula": "0.006 + 0.001 × max(0, yr - 2025)",
+        "magnitude_range": [0.51, 1.03],
+        "magnitude_unit": "$/MMBtu (applied as negative)",
+        "persistence": "2.46 months per dollar",
+        "line": "6316-6323",
+        "source": "Empirical base + hardcoded growth rate assumption"
+      }
+    },
+
+    "expected_monthly_impulse": {
+      "positive": "+$0.30/month",
+      "negative": "-$0.27/month",
+      "net": "+$0.03/month",
+      "source": "Computed from empirical frequencies × magnitudes × durations"
+    }
+  },
+
+  "policy_risk_model": {
+    "description": "Policy event probabilities for MC overlay (step4, lines 5648-5681)",
+    "ira_rollback_probability": {
+      "formula": "min(0.6, 0.05 + 0.03 × (yr - 2022) × election_proximity)",
+      "election_proximity": "1.0 in even years (election), 0.5 in odd years",
+      "range_2026_2035": "0.09 to 0.60",
+      "source": "Hardcoded judgment"
+    },
+    "ira_rollback_gas_impact": {
+      "formula": "$0.5 + $0.1 × (yr - 2022) per MMBtu upward pressure",
+      "unit": "$/MMBtu",
+      "description": "Impact if IRA rolls back: no ITC/PTC → less renewable buildout → more gas dependence",
+      "source": "Hardcoded judgment"
+    },
+    "queue_delay_probability": {
+      "formula": "min(0.9, 0.3 + 0.05 × (yr - 2024))",
+      "range_2026_2035": "0.40 to 0.85",
+      "source": "Hardcoded judgment based on queue growth trend"
+    },
+    "queue_capacity_shortfall_gw": {
+      "formula": "max(0, 5 + 3 × (yr - 2025)) GW per year",
+      "source": "Hardcoded judgment"
+    },
+    "rps_shortfall_probability": {
+      "formula": "min(0.5, 0.1 + 0.03 × (yr - 2025))",
+      "source": "Hardcoded judgment"
+    },
+    "nem_reform_states": {
+      "formula": "min(20, 3 + 2 × (yr - 2024))",
+      "description": "Number of states following CA NEM 3.0 model",
+      "source": "Hardcoded judgment"
+    }
+  },
+
+  "variable_projections_step11": {
+    "description": "All hardcoded trend formulas for 21+ variables projected 2025-2035 (step11, lines 7337-7414). Duplicated in step6 projected_vars (lines 5860-5895) for MC targets.",
+
+    "macroeconomic": {
+      "us_gdp_growth_pct": {
+        "formula": "2.8 - 0.06 × (yr - 2025)",
+        "range": "2.8% (2025) → 2.2% (2035)",
+        "description": "CBO-like trajectory — gradual slowdown",
+        "line_step11": 7338,
+        "line_step6": 5866,
+        "source": "No source cited. Hardcoded."
+      },
+      "us_industrial_prod_index": {
+        "formula": "103.5 + 0.8 × (yr - 2025)",
+        "range": "103.5 (2025) → 111.5 (2035)",
+        "unit": "Index",
+        "line_step11": 7341,
+        "line_step6": 5868,
+        "source": "No source cited. Hardcoded."
+      }
+    },
+
+    "energy_demand": {
+      "us_data_center_twh": {
+        "formula": "200 × 1.0847^(yr - 2024)",
+        "cagr": "8.47%",
+        "range": "217 TWh (2025) → 442 TWh (2035)",
+        "line_step11": 7344,
+        "line_step6": 5870,
+        "source": "No source cited. CAGR appears to reference EIA/McKinsey estimates."
+      },
+      "tx_data_center_twh": {
+        "formula": "min(580, 6.2 + 2.0 × (yr - 2024) + 4.7 × (yr - 2024)²)",
+        "type": "Quadratic buildout with cap",
+        "range": "12.9 TWh / 1.7 GW (2025) → 187 TWh / 25 GW (2030) → 580 TWh / 78 GW (2035 cap)",
+        "conversion": "1 GW data center ≈ 7.45 TWh/yr at 85% capacity factor",
+        "line_step11": 7347,
+        "source": "CNBC/ERCOT: 20-30 GW realistic by 2030, 78 GW ERCOT high forecast"
+      },
+      "electric_power_bcfd": {
+        "formula": "35.5 + 0.4 × (yr - 2025)",
+        "range": "35.5 Bcf/d (2025) → 39.5 Bcf/d (2035)",
+        "description": "Gas demand for electric power, slow growth with electrification",
+        "line_step11": 7350,
+        "line_step6": 5872,
+        "source": "No source cited. Hardcoded."
+      },
+      "ca_demand_twh": {
+        "formula": "270 + 3.0 × (yr - 2025)",
+        "range": "270 TWh (2025) → 300 TWh (2035)",
+        "line_step11": 7392,
+        "source": "No source cited. Hardcoded."
+      },
+      "tx_demand_twh": {
+        "formula": "Compound growth: 14% declining by 1%/yr to 7% floor",
+        "growth_rate": "max(7%, 14% - 1% × (yr - 2026))",
+        "range": "425 TWh (2025) → 750 TWh (2030) → 1082 TWh (2035)",
+        "line_step11": 7408,
+        "source": "ERCOT/CNBC: 7-14% annual demand growth driven by data centers, electrification, industrial expansion"
+      }
+    },
+
+    "lng_and_gas_supply": {
+      "lng_utilization_pct": {
+        "formula": "min(92, 65 + 3.0 × (yr - 2025))",
+        "range": "65% (2025) → 92% cap (2034+)",
+        "description": "LNG export facility utilization grows as capacity fills",
+        "line_step11": 7368,
+        "line_step6": 5882,
+        "source": "No source cited. Hardcoded growth rate and cap."
+      },
+      "us_ng_storage_vs_5yr_pct": {
+        "formula": "0.0 for all years",
+        "description": "Assumes normal storage levels (no deviation from 5-year avg)",
+        "line_step11": 7450,
+        "line_step6": 5884,
+        "source": "Assumption: normal weather/supply conditions"
+      }
+    },
+
+    "policy_and_regulation": {
+      "itc_rate_pct": {
+        "formula": "30.0 if yr <= 2032 else max(10, 30 - 4 × (yr - 2032))",
+        "range": "30% through 2032, then phasedown 4%/yr to 10% floor",
+        "line_step11": 7364,
+        "line_step6": 5874,
+        "source": "IRA legislation (known schedule through 2032); post-2032 phasedown is assumption"
+      },
+      "ptc_rate_cents_kwh": {
+        "formula": "2.75 if yr <= 2032 else max(0.5, 2.75 - 0.5 × (yr - 2032))",
+        "range": "2.75 ¢/kWh through 2032, then phasedown",
+        "line_step11": 7365,
+        "line_step6": 5876,
+        "source": "IRA legislation (known schedule through 2032); post-2032 phasedown is assumption"
+      },
+      "queue_backlog_gw": {
+        "formula": "if yr <= 2027: 2600 + 200 × (yr - 2025); else: 3000 - 100 × (yr - 2027)",
+        "range": "2600 GW (2025) → 3000 GW (2027) → 2200 GW (2035)",
+        "description": "Peaks ~3000 GW by 2027 then slowly declines with FERC reforms",
+        "line_step11": "7353-7358",
+        "line_step6": 5878,
+        "source": "No source cited. Hardcoded."
+      },
+      "cumulative_ferc_reforms": {
+        "formula": "min(12 + (yr - 2025), 22)",
+        "range": "12 (2025) → 22 (2035)",
+        "description": "Number of FERC reform actions, +1 per year, cap at 22",
+        "line_step11": 7361,
+        "line_step6": 5880,
+        "source": "No source cited. Hardcoded."
+      },
+      "ira_active": {
+        "base_case": "1 (active) for all years",
+        "rollback_scenario": "0 if yr >= 2027 else 1",
+        "line_step11": "7371-7372",
+        "source": "Assumption: IRA stays active in base case"
+      },
+      "ca_rps_target_pct": {
+        "formula": "min(100, 60 + 4 × (yr - 2025))",
+        "range": "60% (2025) → 100% (2035)",
+        "line_step11": 7380,
+        "source": "California SB 100 legislation (known trajectory)"
+      },
+      "ca_allowance_price": {
+        "formula": "min(60, 40 + 2.0 × (yr - 2025))",
+        "range": "$40 (2025) → $60 cap (2035)",
+        "unit": "$/ton CO2",
+        "line_step11": 7381,
+        "source": "No source cited. Hardcoded."
+      },
+      "n_rps_states": {
+        "formula": "min(12, 9 + max(0, yr - 2027))",
+        "range": "9 (2025-2027) → 12 (2028+)",
+        "line_step11": 7382,
+        "source": "No source cited. Hardcoded."
+      }
+    },
+
+    "generation_mix_california": {
+      "ca_gas_gen_pct": {
+        "formula": "max(20, 40.5 - 1.8 × (yr - 2025))",
+        "range": "40.5% (2025) → 22.5% (2035, floored at 20%)",
+        "decline_rate": "1.8 percentage points per year",
+        "line_step11": 7375,
+        "source": "No source cited. Hardcoded."
+      },
+      "ca_wind_gen_pct": {
+        "formula": "min(12, 4.0 + 0.7 × (yr - 2025))",
+        "range": "4.0% (2025) → 11.0% (2035, capped at 12%)",
+        "line_step11": 7376,
+        "source": "No source cited. Hardcoded."
+      },
+      "ca_solar_gen_pct": {
+        "formula": "min(40, 17.0 + 2.0 × (yr - 2025))",
+        "range": "17.0% (2025) → 37.0% (2035, capped at 40%)",
+        "line_step11": 7377,
+        "source": "No source cited. Hardcoded."
+      },
+      "ca_battery_capacity_gw": {
+        "formula": "ca_batt_base + 5.0 × (yr - 2025)",
+        "base": "14.1 GW (from latest observed, dynamic)",
+        "growth": "+5.0 GW per year",
+        "range": "~14 GW (2025) → ~64 GW (2035)",
+        "line_step11": "7385-7386",
+        "source": "No source cited. Hardcoded growth rate."
+      },
+      "caiso_total_curtail_gwh": {
+        "formula": "min(3000, 800 + 200 × (yr - 2025))",
+        "range": "800 GWh (2025) → 2800 GWh (2035, capped at 3000)",
+        "description": "Grows with solar penetration",
+        "line_step11": 7389,
+        "source": "No source cited. Hardcoded."
+      }
+    },
+
+    "generation_mix_texas": {
+      "tx_gas_gen_pct": {
+        "formula": "max(35, 51.8 - 1.5 × (yr - 2025))",
+        "range": "51.8% (2025) → 36.8% (2035, floored at 35%)",
+        "decline_rate": "1.5 percentage points per year",
+        "line_step11": 7395,
+        "source": "No source cited. Hardcoded."
+      },
+      "tx_wind_gen_pct": {
+        "formula": "min(35, 21.9 + 1.2 × (yr - 2025))",
+        "range": "21.9% (2025) → 33.9% (2035, capped at 35%)",
+        "line_step11": 7396,
+        "source": "No source cited. Hardcoded."
+      },
+      "tx_solar_gen_pct": {
+        "formula": "min(20, 7.2 + 1.3 × (yr - 2025))",
+        "range": "7.2% (2025) → 20.0% (2035, capped at 20%)",
+        "line_step11": 7397,
+        "source": "No source cited. Hardcoded."
+      },
+      "tx_coal_gen_pct": {
+        "formula": "max(0, 6.8 - 0.8 × (yr - 2025))",
+        "range": "6.8% (2025) → 0% (~2034)",
+        "decline_rate": "0.8 percentage points per year",
+        "line_step11": 7398,
+        "source": "No source cited. Hardcoded."
+      },
+      "tx_renewables_total_pct": {
+        "formula": "min(55, 29.1 + 2.15 × (yr - 2025))",
+        "range": "29.1% (2025) → 50.6% (2035, capped at 55%)",
+        "line_step11": 7401,
+        "source": "No source cited. Hardcoded."
+      },
+      "tx_battery_capacity_gw": {
+        "formula": "Piecewise: 13.9 GW through 2026, +11 GW/yr to 2029, +5 GW/yr after",
+        "base": "13.9 GW Jan 2026 operational (Modo Energy)",
+        "milestones": "13.9 GW (2026) → 46.9 GW (2029) → 76.9 GW (2035)",
+        "line_step11": "7403-7412",
+        "source": "Modo Energy: 13.9 GW operational Jan 2026, 40-55 GW projected by 2029"
+      },
+      "ercot_congestion_avg": {
+        "formula": "min(15, 5.0 + 0.5 × (yr - 2025))",
+        "range": "$5.0/MWh (2025) → $10.0/MWh (2035, capped at $15)",
+        "description": "Rises with renewable growth and load growth",
+        "line_step11": 7411,
+        "source": "No source cited. Hardcoded."
+      },
+      "ercot_spike_count": {
+        "formula": "max(50, 150 - 10 × (yr - 2025))",
+        "range": "150 (2025) → 50 (2035)",
+        "description": "Expected to moderate with battery storage growth",
+        "line_step11": 7414,
+        "source": "No source cited. Hardcoded."
+      }
+    },
+
+    "weather_climate": {
+      "all_hdd_cdd": {
+        "method": "Constant — use historical average for all projection years",
+        "variables": ["us_hdd", "us_cdd", "tx_hdd", "tx_cdd", "ca_hdd", "ca_cdd"],
+        "description": "Normal weather every year (no trend)",
+        "line_step11": "7416-7430",
+        "source": "Historical average from master dataset"
+      },
+      "us_hdd_departure_pct": {
+        "value": "0.0 for all years",
+        "description": "Assumes normal weather (no departure from average)",
+        "line_step11": 7453,
+        "source": "Assumption"
+      },
+      "us_cdd_departure_pct": {
+        "value": "0.0 for all years",
+        "description": "Assumes normal weather (no departure from average)",
+        "line_step11": 7454,
+        "source": "Assumption"
+      }
+    }
+  },
+
+  "basis_model_citygate": {
+    "description": "California citygate gas price = HH + basis. Basis modeled by OLS (step6, lines 6063-6116)",
+    "candidate_variables": ["ca_gas_gen_pct", "ca_cdd", "ca_hydro_vs_normal_pct", "_trend"],
+    "noise_method": "Bootstrap from actual OLS residuals (NOT fitted normal — captures fat right tail to $25+)",
+    "fallback": "If model fails: constant basis = recent 24-month mean",
+    "source": "Data-driven regression"
+  },
+
+  "variable_delta_caps": {
+    "description": "Each variable's delta (projection minus latest) is capped at ±2σ of in-sample range to prevent extrapolation (lines 5900-5910, 7472-7479)",
+    "cap_formula": "2.0 × in-sample standard deviation",
+    "rationale": "Regression coefficients only valid within observed variation range",
+    "source": "Statistical guard — hardcoded 2σ threshold"
+  },
+
+  "scarcity_model_ercot": {
+    "description": "Log-log scaling model for electricity scarcity pricing (Variant H3, used in step11)",
+    "model": "log(ercot_price) = α + β × log(scarcity_pct) + ε",
+    "scarcity_pct_definition": "scarcity_intensity / ercot_price_cap_mwh",
+    "normalization_rationale": "ERCOT reduced VOLL cap from $9,000 to $5,000 in June 2022 — raw values not comparable",
+    "current_voll_cap": 5000,
+    "observed_data_points": [
+      {"event": "Groundhog Day Feb 2011", "scarcity_pct": 0.063, "price": 50},
+      {"event": "Aug 2011", "scarcity_pct": 0.236, "price": 153},
+      {"event": "Aug 2019", "scarcity_pct": 0.337, "price": 126},
+      {"event": "Uri Feb 2021", "scarcity_pct": 3.531, "price": 1485},
+      {"event": "Jul 2022", "scarcity_pct": 0.531, "price": 122},
+      {"event": "Aug 2023", "scarcity_pct": 0.867, "price": 263}
+    ],
+    "mc_scarcity_draw_pools": {
+      "cold_weather": [0.063, 3.531],
+      "summer_heat": [0.236, 0.337, 0.531, 0.867],
+      "draw_method": "Uniform at random within pool"
+    },
+    "scarcity_event_frequencies": {
+      "winter": "0.172/yr (polar vortex/cold snap from event catalog)",
+      "summer": "~0.10/yr (3 events in 29 years, concentrated Jul-Aug)"
+    },
+    "source": "Data-driven from 6 observed scarcity months"
+  },
+
+  "key_concerns": [
+    "No external source citations for most variable projection slopes (GDP, gen mix, LNG)",
+    "No uncertainty ranges on any projection trend",
+    "CA battery +5 GW/yr appears aggressive vs literature (EIA/BNEF: +2.5-3 GW/yr)",
+    "TX data center quadratic growth assumes massive buildout — 25 GW by 2030, 78 GW by 2035 (ERCOT high forecast). If queue delays or permitting slow builds, actual could be much lower",
+    "TX demand 7-14% growth is historically unprecedented for a major grid — assumes sustained data center + industrial expansion",
+    "TX battery 11 GW/yr buildout (Modo Energy) is 3-4× current annual US battery additions — supply chain and permitting risks",
+    "LNG utilization linear growth to 92% may be optimistic given permitting headwinds",
+    "Weather is assumed 'normal' every year — no climate trend in CDD/HDD",
+    "Uri-type extreme (1-in-100-yr) probability is hardcoded judgment, not actuarially derived",
+    "Post-2032 ITC/PTC phasedown schedule is speculative",
+    "IRA rollback probability formula is subjective (no polling/legislative model basis)",
+    "TX data center TWh may exceed TX total demand TWh at high end — consistency check needed"
+  ]
+}

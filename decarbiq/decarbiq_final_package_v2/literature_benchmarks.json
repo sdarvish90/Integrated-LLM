@@ -308,15 +308,62 @@
 
   "battery_storage_capacity": {
     "description": "US utility-scale battery storage deployment trajectory",
-    "source": "EIA Electric Power Monthly, BNEF",
+    "source": "EIA Annual Energy Outlook 2025, BNEF New Energy Outlook 2024",
     "capacity_gw": {
       "us": {"2020": 1.5, "2022": 8.0, "2024": 20.0, "2026": 35.0, "2028": 55.0, "2030": 80.0},
       "california": {"2020": 0.5, "2022": 4.5, "2024": 10.0, "2026": 15.0, "2028": 20.0, "2030": 25.0},
       "texas": {"2020": 0.2, "2022": 2.0, "2024": 5.0, "2026": 10.0, "2028": 16.0, "2030": 22.0}
     },
+    "texas_reference_note": "EIA AEO + BNEF consensus. Modo Energy reports 13.9 GW operational Jan 2026, 40-55 GW by 2029 — higher than EIA/BNEF baseline. Model projects independently from data; literature serves as validation check.",
     "price_impact": {
       "mechanism": "Reduces gas peaker dispatch, compresses peak-to-off-peak spread",
       "notes": "Each GW of 4-hour storage displaces ~1 GW of gas peaker capacity. Deflationary for peak electricity prices."
     }
+  },
+
+  "carbon_emission_factors": {
+    "description": "EPA eGRID emission factors by fuel type for carbon intensity computation",
+    "source": "EPA eGRID 2022, US national average",
+    "lbs_co2_per_mwh": {
+      "coal": 2000,
+      "gas_ccgt": 900,
+      "gas_peaker": 1200,
+      "wind": 0,
+      "solar": 0,
+      "nuclear": 0,
+      "hydro": 0,
+      "other": 200
+    },
+    "us_grid_average_2024": 800,
+    "ercot_2024": 750,
+    "caiso_2024": 450,
+    "notes": "Coal includes sub-bituminous and bituminous. Gas CCGT is marginal fleet average. Other includes biomass, geothermal."
+  },
+
+  "generation_mix_benchmarks": {
+    "description": "EIA AEO 2025 reference case generation shares for cross-check",
+    "source": "EIA Annual Energy Outlook 2025",
+    "ercot_2030": {
+      "gas_pct": [40, 50],
+      "wind_pct": [25, 35],
+      "solar_pct": [10, 20],
+      "coal_pct": [0, 5]
+    },
+    "caiso_2030": {
+      "gas_pct": [25, 35],
+      "solar_pct": [30, 40],
+      "wind_pct": [5, 12]
+    },
+    "notes": "Ranges reflect reference case +/- side cases. ERCOT coal retirement trend suggests 0% by mid-2030s."
+  },
+
+  "grid_reliability_benchmarks": {
+    "description": "NERC/ERCOT reliability planning standards and recent metrics",
+    "source": "NERC Long-Term Reliability Assessment 2024, ERCOT CDR",
+    "ercot_planning_reserve_margin_pct": 13.75,
+    "lole_standard_days_per_year": 0.1,
+    "ercot_reserve_margin_2024_pct": 18.0,
+    "caiso_planning_reserve_margin_pct": 15.0,
+    "notes": "ERCOT target 13.75% reserve margin. LOLE 1-in-10 standard (0.1 days/year). Battery storage improving effective reserve margins."
   }
 }
