@@ -1,0 +1,32 @@
+# Refractory Materials — Demo Client Configuration
+# =================================================
+# This YAML configures the RefractoryClientExtension for the
+# Blue H2/Ammonia Intelligence Monitor.
+#
+# Cost defaults from: Harbison-Walker "Handbook of Refractory Practice" (2019)
+# with CEPCI 2024 adjustment. Set a number to override; null uses literature default.
+
+extension: RefractoryClientExtension
+name: "Refractory Materials - Demo Client"
+
+# Cost overrides ($/MTPA H2 capacity). Set to null to use literature defaults.
+cost_overrides:
+  smr_primary_reformer: null      # default: $45,000/MTPA
+  smr_secondary_reformer: null    # default: $20,000/MTPA
+  atr_reformer: null              # default: $55,000/MTPA
+  ammonia_converter: null         # default: $15,000/MTPA NH3
+  total_smr_h2_plant: null        # default: $65,000/MTPA (all refractory)
+  total_atr_h2_plant: null        # default: $75,000/MTPA (all refractory)
+
+# Pipeline filters
+filters:
+  min_capacity_mtpa: 0.1          # ignore projects < 100 KTPA
+  regions: null                   # null = all regions; or list e.g. ['Gulf Coast TX', 'Gulf Coast LA']
+  technologies: ['SMR', 'ATR']    # null = all; or filter to specific tech
+  min_fid_probability: 0.10       # minimum FID probability threshold
+
+# Report options
+report_options:
+  include_timeline_chart: true
+  include_market_map: true
+  currency: USD

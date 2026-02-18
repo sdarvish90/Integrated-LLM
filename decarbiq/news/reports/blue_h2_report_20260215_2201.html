@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blue H2/Ammonia Market Intelligence — February 15, 2026</title>
+<style>
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0; padding: 0; background: #f4f6f9; color: #2d3436;
+}
+.container { max-width: 1100px; margin: 0 auto; padding: 20px; }
+header {
+    background: linear-gradient(135deg, #0c2340, #1a5276);
+    color: #fff; padding: 30px 40px; border-radius: 0 0 8px 8px;
+}
+header h1 { margin: 0 0 6px; font-size: 1.8em; }
+header p { margin: 0; opacity: 0.85; font-size: 0.95em; }
+h2 {
+    color: #1a5276; border-bottom: 2px solid #3498db;
+    padding-bottom: 6px; margin-top: 32px;
+}
+h3 { color: #2c3e50; margin-top: 24px; }
+table {
+    width: 100%; border-collapse: collapse; margin: 12px 0;
+    font-size: 0.9em;
+}
+th {
+    background: #1a5276; color: #fff; padding: 10px 8px;
+    text-align: left; font-weight: 600;
+}
+td { padding: 8px; border-bottom: 1px solid #ddd; }
+tr:nth-child(even) { background: #f8f9fa; }
+tr:hover { background: #edf2f7; }
+.stat-grid {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 14px; margin: 16px 0;
+}
+.stat-card {
+    background: #fff; border-radius: 8px; padding: 16px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08); text-align: center;
+}
+.stat-card .value { font-size: 1.6em; font-weight: 700; color: #1a5276; }
+.stat-card .label { font-size: 0.85em; color: #636e72; margin-top: 4px; }
+.badge {
+    display: inline-block; padding: 2px 8px; border-radius: 10px;
+    font-size: 0.8em; font-weight: 600;
+}
+.badge-high { background: #e74c3c; color: #fff; }
+.badge-medium { background: #f39c12; color: #fff; }
+.badge-low { background: #27ae60; color: #fff; }
+.evidence-box {
+    background: #f8f9fa; border-left: 3px solid #3498db;
+    padding: 10px 14px; margin: 8px 0; font-size: 0.85em;
+    font-family: monospace; white-space: pre-wrap;
+}
+.section { background: #fff; border-radius: 8px; padding: 20px 24px;
+    margin: 16px 0; box-shadow: 0 2px 6px rgba(0,0,0,0.06); }
+.note { font-size: 0.85em; color: #636e72; font-style: italic; }
+footer {
+    text-align: center; padding: 20px; font-size: 0.8em; color: #95a5a6;
+    margin-top: 30px;
+}
+</style>
+</head>
+<body>
+<header>
+    <h1>Blue H2 / Ammonia Market Intelligence</h1>
+    <p>Generated February 15, 2026 at 22:01 | DecarbIQ Model v2</p>
+</header>
+<div class="container">
+
+<div class="section">
+<h2>1. Executive Summary</h2>
+<div class="stat-grid">
+    <div class="stat-card">
+        <div class="value">13</div>
+        <div class="label">Active Projects</div>
+    </div>
+    <div class="stat-card">
+        <div class="value">0.62</div>
+        <div class="label">Total Pipeline (MTPA H2)</div>
+    </div>
+    <div class="stat-card">
+        <div class="value">0.59</div>
+        <div class="label">Prob-Weighted Cap (MTPA)</div>
+    </div>
+    <div class="stat-card">
+        <div class="value">0.092</div>
+        <div class="label">Weighted Gas Demand (bcf/d)</div>
+    </div>
+    <div class="stat-card">
+        <div class="value">$0.0041</div>
+        <div class="label">Gas Price Impact ($/MMBtu)</div>
+    </div>
+</div>
+<p><strong>By status:</strong> Operational: 4 | Commissioning: 1 | Construction: 1 | Announced: 7</p>
+</div>
+<div class="section">
+<h2>2. Gas Price Outlook (Henry Hub, $/MMBtu)</h2>
+<p class="note">Source: DecarbIQ Monte Carlo (10,000 paths, regime-switching GARCH)</p>
+<table>
+<tr><th>Year</th><th>P10</th><th>P50</th><th>P90</th><th>Mean</th></tr>
+<tr>
+                <td>2026</td>
+                <td>2.51</td>
+                <td><strong>3.71</strong></td>
+                <td>5.80</td>
+                <td>4.02</td>
+            </tr><tr>
+                <td>2027</td>
+                <td>2.32</td>
+                <td><strong>4.09</strong></td>
+                <td>7.00</td>
+                <td>4.50</td>
+            </tr><tr>
+                <td>2028</td>
+                <td>2.33</td>
+                <td><strong>4.20</strong></td>
+                <td>7.41</td>
+                <td>4.64</td>
+            </tr><tr>
+                <td>2029</td>
+                <td>2.39</td>
+                <td><strong>4.48</strong></td>
+                <td>7.87</td>
+                <td>4.92</td>
+            </tr><tr>
+                <td>2030</td>
+                <td>2.43</td>
+                <td><strong>4.78</strong></td>
+                <td>8.32</td>
+                <td>5.18</td>
+            </tr>
+</table>
+</div>
+<div class="section">
+<h2>3. Project Pipeline</h2>
+<table>
+<tr><th>Project</th><th>Developer</th><th>Capacity (MTPA H2)</th><th>Technology</th>
+<th>Product</th><th>Status</th><th>FID Prob</th><th>Region</th><th>EPC</th></tr>
+<tr>
+                <td>Ammonia Project</td>
+                <td>yara</td>
+                <td>0.267</td>
+                <td>Electrolysis</td>
+                <td>Ammonia</td>
+                <td><span style="color:#27ae60;font-weight:600;">Operational</span></td>
+                <td>100%</td>
+                <td>US Other</td>
+                <td>technip energies</td>
+            </tr><tr>
+                <td>Bp Methanol Project</td>
+                <td>bp</td>
+                <td>N/A</td>
+                <td>Unknown</td>
+                <td>Methanol</td>
+                <td><span style="color:#27ae60;font-weight:600;">Operational</span></td>
+                <td>100%</td>
+                <td>Gulf Coast LA</td>
+                <td>N/A</td>
+            </tr><tr>
+                <td>Air Products Ammonia Project</td>
+                <td>air products</td>
+                <td>N/A</td>
+                <td>Unknown</td>
+                <td>Ammonia</td>
+                <td><span style="color:#27ae60;font-weight:600;">Operational</span></td>
+                <td>100%</td>
+                <td>N/A</td>
+                <td>kbr</td>
+            </tr><tr>
+                <td>Unknown Project</td>
+                <td>N/A</td>
+                <td>0.300</td>
+                <td>Unknown</td>
+                <td>Hydrogen</td>
+                <td><span style="color:#27ae60;font-weight:600;">Operational</span></td>
+                <td>100%</td>
+                <td>N/A</td>
+                <td>N/A</td>
+            </tr><tr>
+                <td>Methanol Project</td>
+                <td>N/A</td>
+                <td>N/A</td>
+                <td>Electrolysis</td>
+                <td>Methanol</td>
+                <td><span style="color:#2ecc71;font-weight:600;">Commissioning</span></td>
+                <td>98%</td>
+                <td>US Other</td>
+                <td>N/A</td>
+            </tr><tr>
+                <td>SAF Project</td>
+                <td>N/A</td>
+                <td>0.022</td>
+                <td>Electrolysis</td>
+                <td>SAF</td>
+                <td><span style="color:#3498db;font-weight:600;">Construction</span></td>
+                <td>95%</td>
+                <td>Gulf Coast TX</td>
+                <td>N/A</td>
+            </tr><tr>
+                <td>Shell SAF Project</td>
+                <td>shell</td>
+                <td>N/A</td>
+                <td>Unknown</td>
+                <td>SAF</td>
+                <td><span style="color:#95a5a6;font-weight:600;">Announced</span></td>
+                <td>10%</td>
+                <td>US Other</td>
+                <td>N/A</td>
+            </tr><tr>
+                <td>Linde Project</td>
+                <td>linde</td>
+                <td>N/A</td>
+                <td>Unknown</td>
+                <td>Hydrogen</td>
+                <td><span style="color:#95a5a6;font-weight:600;">Announced</span></td>
+                <td>10%</td>
+                <td>N/A</td>
+                <td>linde engineering</td>
+            </tr><tr>
+                <td>Exxonmobil Project</td>
+                <td>exxonmobil</td>
+                <td>N/A</td>
+                <td>Unknown</td>
+                <td>Hydrogen</td>
+                <td><span style="color:#95a5a6;font-weight:600;">Announced</span></td>
+                <td>10%</td>
+                <td>N/A</td>
+                <td>N/A</td>
+            </tr><tr>
+                <td>Dow Project</td>
+                <td>dow</td>
+                <td>N/A</td>
+                <td>Unknown</td>
+                <td>Hydrogen</td>
+                <td><span style="color:#95a5a6;font-weight:600;">Announced</span></td>
+                <td>10%</td>
+                <td>N/A</td>
+                <td>N/A</td>
+            </tr><tr>
+                <td>Eni Hydrogen Project</td>
+                <td>eni</td>
+                <td>0.030</td>
+                <td>Unknown</td>
+                <td>Hydrogen</td>
+                <td><span style="color:#95a5a6;font-weight:600;">Announced</span></td>
+                <td>10%</td>
+                <td>International</td>
+                <td>N/A</td>
+            </tr><tr>
+                <td>Plug Power Project</td>
+                <td>plug power</td>
+                <td>N/A</td>
+                <td>Unknown</td>
+                <td>Hydrogen</td>
+                <td><span style="color:#95a5a6;font-weight:600;">Announced</span></td>
+                <td>10%</td>
+                <td>N/A</td>
+                <td>N/A</td>
+            </tr><tr>
+                <td>Thyssenkrupp Project</td>
+                <td>thyssenkrupp</td>
+                <td>N/A</td>
+                <td>Unknown</td>
+                <td>Hydrogen</td>
+                <td><span style="color:#95a5a6;font-weight:600;">Announced</span></td>
+                <td>10%</td>
+                <td>N/A</td>
+                <td>thyssenkrupp</td>
+            </tr>
+</table>
+</div>
+<div class="section">
+<h2>4. Market Assessments (Top 20)</h2>
+<p class="note">Each assessment traces through DecarbIQ model coefficients. Click "Model Evidence Trail" for audit.</p>
+
+<div style="margin-bottom:16px; padding:12px; border:1px solid #e0e0e0; border-radius:6px;">
+    <h3 style="margin-top:0;">Wabash and AM Green: breaking ground for low-emission ammonia projects in Indiana & India <span class="badge badge-high">HIGH</span></h3>
+    <p><strong>Developer:</strong> yara |
+       <strong>Status:</strong> <span style="color:#3498db;font-weight:600;">Construction</span> |
+       <strong>Capacity:</strong> 0.267 MTPA H2 |
+       <strong>Impact year:</strong> 2027</p>
+    <p><strong>Market Impact:</strong><br>Gas demand: +0.0414 bcf/d<br>HH gas price: +$0.00178/MMBtu<br>ERCOT electricity: +$0.0123/MWh<br>Blue H2 LCOH: +$0.00025/kg</p>
+    <p><strong>Notes:</strong><br>Gas demand delta 0.039 bcf/d = 0.0 sigma<br>Capacity: 0.267 MTPA H2 (Electrolysis)<br>Gas feedstock rate: 0.155 bcf/d per MTPA (Electrolysis)<br>EPC contractor identified: technip energies<br>EPC award is a strong construction confirmation signal</p>
+    <details><summary>Model Evidence Trail</summary>
+    <div class="evidence-box">  year_of_impact: 2027
+  sensitivity_variable: electric_power_bcfd
+  coefficient_used: -0.0452
+  coefficient_source: decarbiq_projection_map.json -> coefficients.hh_full.electric_power_bcfd
+  gas_demand_bcfd_raw: 0.041385000000000005
+  gas_demand_bcfd_weighted: 0.039315750000000003
+  fid_probability_applied: 0.95
+  sigma_1_used: 8.6045
+  sigma_source: decarbiq_sensitivity_analysis.json -> variable_catalog.electric_power_bcfd
+  passthrough_ercot: 6.94
+  passthrough_caiso: 9.51
+  passthrough_source: decarbiq_projection_map.json -> coefficients
+  gas_to_lcoh_rate: 0.14
+  projection_map_year: 2027
+  projection_map_key: variable_projections.2027.gas_price.p50
+  baseline_p50_gas: 4.08969070447093</div>
+    </details>
+</div>
+<div style="margin-bottom:16px; padding:12px; border:1px solid #e0e0e0; border-radius:6px;">
+    <h3 style="margin-top:0;">Envision & KBR: AI optimized ammonia production <span class="badge badge-low">LOW</span></h3>
+    <p><strong>Developer:</strong> air products |
+       <strong>Status:</strong> <span style="color:#27ae60;font-weight:600;">Operational</span> |
+       <strong>Capacity:</strong> N/A |
+       <strong>Impact year:</strong> 2026</p>
+    <p><strong>Market Impact:</strong><br>No quantifiable impact</p>
+    <p><strong>Notes:</strong><br>EPC contractor identified: kbr<br>EPC award is a strong construction confirmation signal</p>
+    <details><summary>Model Evidence Trail</summary>
+    <div class="evidence-box">  year_of_impact: 2026
+  projection_map_year: 2026
+  projection_map_key: variable_projections.2026.gas_price.p50
+  baseline_p50_gas: 3.713322780367032</div>
+    </details>
+</div>
+<div style="margin-bottom:16px; padding:12px; border:1px solid #e0e0e0; border-radius:6px;">
+    <h3 style="margin-top:0;">Linde 8-K Filing: FORM 8-K <span class="badge badge-low">LOW</span></h3>
+    <p><strong>Developer:</strong> linde |
+       <strong>Status:</strong> <span style="color:#95a5a6;font-weight:600;">Announced</span> |
+       <strong>Capacity:</strong> N/A |
+       <strong>Impact year:</strong> 2031</p>
+    <p><strong>Market Impact:</strong><br>No quantifiable impact</p>
+    <p><strong>Notes:</strong><br>EPC contractor identified: linde engineering<br>EPC award is a strong construction confirmation signal</p>
+    <details><summary>Model Evidence Trail</summary>
+    <div class="evidence-box">  year_of_impact: 2031
+  projection_map_year: 2031
+  projection_map_key: variable_projections.2031.gas_price.p50
+  baseline_p50_gas: 4.775626007654705</div>
+    </details>
+</div>
+<div style="margin-bottom:16px; padding:12px; border:1px solid #e0e0e0; border-radius:6px;">
+    <h3 style="margin-top:0;">Shell’s Canada CCS Bet: 650,000 Tons Annually <span class="badge badge-low">LOW</span></h3>
+    <p><strong>Developer:</strong> shell |
+       <strong>Status:</strong> <span style="color:#95a5a6;font-weight:600;">Announced</span> |
+       <strong>Capacity:</strong> N/A |
+       <strong>Impact year:</strong> 2031</p>
+    <p><strong>Market Impact:</strong><br>No quantifiable impact</p>
+    
+    <details><summary>Model Evidence Trail</summary>
+    <div class="evidence-box">  year_of_impact: 2031
+  projection_map_year: 2031
+  projection_map_key: variable_projections.2031.gas_price.p50
+  baseline_p50_gas: 4.775626007654705</div>
+    </details>
+</div>
+<div style="margin-bottom:16px; padding:12px; border:1px solid #e0e0e0; border-radius:6px;">
+    <h3 style="margin-top:0;">Dow 8-K Filing: 8-K <span class="badge badge-low">LOW</span></h3>
+    <p><strong>Developer:</strong> dow |
+       <strong>Status:</strong> <span style="color:#95a5a6;font-weight:600;">Announced</span> |
+       <strong>Capacity:</strong> N/A |
+       <strong>Impact year:</strong> 2031</p>
+    <p><strong>Market Impact:</strong><br>No quantifiable impact</p>
+    
+    <details><summary>Model Evidence Trail</summary>
+    <div class="evidence-box">  year_of_impact: 2031
+  projection_map_year: 2031
+  projection_map_key: variable_projections.2031.gas_price.p50
+  baseline_p50_gas: 4.775626007654705</div>
+    </details>
+</div>
+<div style="margin-bottom:16px; padding:12px; border:1px solid #e0e0e0; border-radius:6px;">
+    <h3 style="margin-top:0;">Nebraska's 3-Plant Ethanol CCS Gamble Pays Off Big <span class="badge badge-medium">MEDIUM</span></h3>
+    <p><strong>Developer:</strong> N/A |
+       <strong>Status:</strong> <span style="color:#3498db;font-weight:600;">Construction</span> |
+       <strong>Capacity:</strong> 0.022 MTPA H2 |
+       <strong>Impact year:</strong> 2028</p>
+    <p><strong>Market Impact:</strong><br>Gas demand: +0.0035 bcf/d<br>HH gas price: +$0.00015/MMBtu<br>ERCOT electricity: +$0.0010/MWh<br>Blue H2 LCOH: +$0.00002/kg</p>
+    <p><strong>Notes:</strong><br>Gas demand delta 0.003 bcf/d = 0.0 sigma<br>Capacity: 0.022 MTPA H2 (Electrolysis)<br>Gas feedstock rate: 0.155 bcf/d per MTPA (Electrolysis)</p>
+    <details><summary>Model Evidence Trail</summary>
+    <div class="evidence-box">  year_of_impact: 2028
+  sensitivity_variable: electric_power_bcfd
+  coefficient_used: -0.0452
+  coefficient_source: decarbiq_projection_map.json -> coefficients.hh_full.electric_power_bcfd
+  gas_demand_bcfd_raw: 0.0034874999999999997
+  gas_demand_bcfd_weighted: 0.0033131249999999997
+  fid_probability_applied: 0.95
+  sigma_1_used: 8.6045
+  sigma_source: decarbiq_sensitivity_analysis.json -> variable_catalog.electric_power_bcfd
+  passthrough_ercot: 6.94
+  passthrough_caiso: 9.51
+  passthrough_source: decarbiq_projection_map.json -> coefficients
+  gas_to_lcoh_rate: 0.14
+  projection_map_year: 2028
+  projection_map_key: variable_projections.2028.gas_price.p50
+  baseline_p50_gas: 4.203764420378921</div>
+    </details>
+</div>
+<div style="margin-bottom:16px; padding:12px; border:1px solid #e0e0e0; border-radius:6px;">
+    <h3 style="margin-top:0;">Air Products 8-K Filing: FORM 8-K <span class="badge badge-low">LOW</span></h3>
+    <p><strong>Developer:</strong> air products |
+       <strong>Status:</strong> <span style="color:#95a5a6;font-weight:600;">Announced</span> |
+       <strong>Capacity:</strong> N/A |
+       <strong>Impact year:</strong> 2031</p>
+    <p><strong>Market Impact:</strong><br>No quantifiable impact</p>
+    
+    <details><summary>Model Evidence Trail</summary>
+    <div class="evidence-box">  year_of_impact: 2031
+  projection_map_year: 2031
+  projection_map_key: variable_projections.2031.gas_price.p50
+  baseline_p50_gas: 4.775626007654705</div>
+    </details>
+</div>
+<div style="margin-bottom:16px; padding:12px; border:1px solid #e0e0e0; border-radius:6px;">
+    <h3 style="margin-top:0;">ExxonMobil 8-K Filing: FORM 8-K <span class="badge badge-low">LOW</span></h3>
+    <p><strong>Developer:</strong> exxonmobil |
+       <strong>Status:</strong> <span style="color:#95a5a6;font-weight:600;">Announced</span> |
+       <strong>Capacity:</strong> N/A |
+       <strong>Impact year:</strong> 2031</p>
+    <p><strong>Market Impact:</strong><br>No quantifiable impact</p>
+    
+    <details><summary>Model Evidence Trail</summary>
+    <div class="evidence-box">  year_of_impact: 2031
+  projection_map_year: 2031
+  projection_map_key: variable_projections.2031.gas_price.p50
+  baseline_p50_gas: 4.775626007654705</div>
+    </details>
+</div>
+<div style="margin-bottom:16px; padding:12px; border:1px solid #e0e0e0; border-radius:6px;">
+    <h3 style="margin-top:0;">Air Products 8-K Filing: 8-K <span class="badge badge-low">LOW</span></h3>
+    <p><strong>Developer:</strong> air products |
+       <strong>Status:</strong> <span style="color:#95a5a6;font-weight:600;">Announced</span> |
+       <strong>Capacity:</strong> N/A |
+       <strong>Impact year:</strong> 2031</p>
+    <p><strong>Market Impact:</strong><br>No quantifiable impact</p>
+    
+    <details><summary>Model Evidence Trail</summary>
+    <div class="evidence-box">  year_of_impact: 2031
+  projection_map_year: 2031
+  projection_map_key: variable_projections.2031.gas_price.p50
+  baseline_p50_gas: 4.775626007654705</div>
+    </details>
+</div>
+<div style="margin-bottom:16px; padding:12px; border:1px solid #e0e0e0; border-radius:6px;">
+    <h3 style="margin-top:0;">Dow 8-K Filing: 8-K <span class="badge badge-low">LOW</span></h3>
+    <p><strong>Developer:</strong> dow |
+       <strong>Status:</strong> <span style="color:#95a5a6;font-weight:600;">Announced</span> |
+       <strong>Capacity:</strong> N/A |
+       <strong>Impact year:</strong> 2031</p>
+    <p><strong>Market Impact:</strong><br>No quantifiable impact</p>
+    
+    <details><summary>Model Evidence Trail</summary>
+    <div class="evidence-box">  year_of_impact: 2031
+  projection_map_year: 2031
+  projection_map_key: variable_projections.2031.gas_price.p50
+  baseline_p50_gas: 4.775626007654705</div>
+    </details>
+</div>
+<div style="margin-bottom:16px; padding:12px; border:1px solid #e0e0e0; border-radius:6px;">
+    <h3 style="margin-top:0;">Inside America’s Carbon Capture Reality Check <span class="badge badge-low">LOW</span></h3>
+    <p><strong>Developer:</strong> bp |
+       <strong>Status:</strong> <span style="color:#27ae60;font-weight:600;">Operational</span> |
+       <strong>Capacity:</strong> N/A |
+       <strong>Impact year:</strong> 2026</p>
+    <p><strong>Market Impact:</strong><br>No quantifiable impact</p>
+    
+    <details><summary>Model Evidence Trail</summary>
+    <div class="evidence-box">  year_of_impact: 2026
+  projection_map_year: 2026
+  projection_map_key: variable_projections.2026.gas_price.p50
+  baseline_p50_gas: 3.713322780367032</div>
+    </details>
+</div>
+<div style="margin-bottom:16px; padding:12px; border:1px solid #e0e0e0; border-radius:6px;">
+    <h3 style="margin-top:0;">Three Nebraska Plants Prove Ethanol CCS Actually Works <span class="badge badge-low">LOW</span></h3>
+    <p><strong>Developer:</strong> N/A |
+       <strong>Status:</strong> <span style="color:#2ecc71;font-weight:600;">Commissioning</span> |
+       <strong>Capacity:</strong> N/A |
+       <strong>Impact year:</strong> 2027</p>
+    <p><strong>Market Impact:</strong><br>No quantifiable impact</p>
+    
+    <details><summary>Model Evidence Trail</summary>
+    <div class="evidence-box">  year_of_impact: 2027
+  projection_map_year: 2027
+  projection_map_key: variable_projections.2027.gas_price.p50
+  baseline_p50_gas: 4.08969070447093</div>
+    </details>
+</div>
+<div style="margin-bottom:16px; padding:12px; border:1px solid #e0e0e0; border-radius:6px;">
+    <h3 style="margin-top:0;">Thyssenkrupp Nucera AG & Co. KGaA, Q1 2026 Earnings Call, Feb 11, 2026 <span class="badge badge-low">LOW</span></h3>
+    <p><strong>Developer:</strong> thyssenkrupp |
+       <strong>Status:</strong> <span style="color:#95a5a6;font-weight:600;">Announced</span> |
+       <strong>Capacity:</strong> N/A |
+       <strong>Impact year:</strong> 2031</p>
+    <p><strong>Market Impact:</strong><br>No quantifiable impact</p>
+    <p><strong>Notes:</strong><br>EPC contractor identified: thyssenkrupp<br>EPC award is a strong construction confirmation signal</p>
+    <details><summary>Model Evidence Trail</summary>
+    <div class="evidence-box">  year_of_impact: 2031
+  projection_map_year: 2031
+  projection_map_key: variable_projections.2031.gas_price.p50
+  baseline_p50_gas: 4.775626007654705</div>
+    </details>
+</div>
+<div style="margin-bottom:16px; padding:12px; border:1px solid #e0e0e0; border-radius:6px;">
+    <h3 style="margin-top:0;">Cryogenic Hydrogen Pumping Milestone Points to Lower-Cost Large-Scale Supply <span class="badge badge-low">LOW</span></h3>
+    <p><strong>Developer:</strong> eni |
+       <strong>Status:</strong> <span style="color:#95a5a6;font-weight:600;">Announced</span> |
+       <strong>Capacity:</strong> N/A |
+       <strong>Impact year:</strong> 2031</p>
+    <p><strong>Market Impact:</strong><br>No quantifiable impact</p>
+    
+    <details><summary>Model Evidence Trail</summary>
+    <div class="evidence-box">  year_of_impact: 2031
+  projection_map_year: 2031
+  projection_map_key: variable_projections.2031.gas_price.p50
+  baseline_p50_gas: 4.775626007654705</div>
+    </details>
+</div>
+<div style="margin-bottom:16px; padding:12px; border:1px solid #e0e0e0; border-radius:6px;">
+    <h3 style="margin-top:0;">InterContinental Energy secures new funding for Australian Renewable Energy Hub <span class="badge badge-low">LOW</span></h3>
+    <p><strong>Developer:</strong> N/A |
+       <strong>Status:</strong> <span style="color:#95a5a6;font-weight:600;">Announced</span> |
+       <strong>Capacity:</strong> 1.600 MTPA H2 |
+       <strong>Impact year:</strong> 2031</p>
+    <p><strong>Market Impact:</strong><br>Gas demand: +0.2480 bcf/d<br>HH gas price: +$0.00112/MMBtu<br>ERCOT electricity: +$0.0078/MWh<br>Blue H2 LCOH: +$0.00016/kg</p>
+    <p><strong>Notes:</strong><br>Gas demand delta 0.025 bcf/d = 0.0 sigma<br>Capacity: 1.600 MTPA H2 (Unknown)<br>Gas feedstock rate: 0.155 bcf/d per MTPA (Unknown)</p>
+    <details><summary>Model Evidence Trail</summary>
+    <div class="evidence-box">  year_of_impact: 2031
+  sensitivity_variable: electric_power_bcfd
+  coefficient_used: -0.0452
+  coefficient_source: decarbiq_projection_map.json -> coefficients.hh_full.electric_power_bcfd
+  gas_demand_bcfd_raw: 0.248
+  gas_demand_bcfd_weighted: 0.024800000000000003
+  fid_probability_applied: 0.1
+  sigma_1_used: 8.6045
+  sigma_source: decarbiq_sensitivity_analysis.json -> variable_catalog.electric_power_bcfd
+  passthrough_ercot: 6.94
+  passthrough_caiso: 9.51
+  passthrough_source: decarbiq_projection_map.json -> coefficients
+  gas_to_lcoh_rate: 0.14
+  projection_map_year: 2031
+  projection_map_key: variable_projections.2031.gas_price.p50
+  baseline_p50_gas: 4.775626007654705</div>
+    </details>
+</div>
+<div style="margin-bottom:16px; padding:12px; border:1px solid #e0e0e0; border-radius:6px;">
+    <h3 style="margin-top:0;">GCMD: ammonia transfers technically and operationally feasible within Singapore’s port waters <span class="badge badge-low">LOW</span></h3>
+    <p><strong>Developer:</strong> N/A |
+       <strong>Status:</strong> <span style="color:#27ae60;font-weight:600;">Operational</span> |
+       <strong>Capacity:</strong> N/A |
+       <strong>Impact year:</strong> 2026</p>
+    <p><strong>Market Impact:</strong><br>No quantifiable impact</p>
+    
+    <details><summary>Model Evidence Trail</summary>
+    <div class="evidence-box">  year_of_impact: 2026
+  projection_map_year: 2026
+  projection_map_key: variable_projections.2026.gas_price.p50
+  baseline_p50_gas: 3.713322780367032</div>
+    </details>
+</div>
+<div style="margin-bottom:16px; padding:12px; border:1px solid #e0e0e0; border-radius:6px;">
+    <h3 style="margin-top:0;">Plug Power CEO Andy Marsh to Host Reddit AMA on January 22, 2026 <span class="badge badge-low">LOW</span></h3>
+    <p><strong>Developer:</strong> plug power |
+       <strong>Status:</strong> <span style="color:#95a5a6;font-weight:600;">Announced</span> |
+       <strong>Capacity:</strong> N/A |
+       <strong>Impact year:</strong> 2031</p>
+    <p><strong>Market Impact:</strong><br>No quantifiable impact</p>
+    
+    <details><summary>Model Evidence Trail</summary>
+    <div class="evidence-box">  year_of_impact: 2031
+  projection_map_year: 2031
+  projection_map_key: variable_projections.2031.gas_price.p50
+  baseline_p50_gas: 4.775626007654705</div>
+    </details>
+</div>
+<div style="margin-bottom:16px; padding:12px; border:1px solid #e0e0e0; border-radius:6px;">
+    <h3 style="margin-top:0;">Hy2gen and City of Oulu Sign LOI to Develop 200MW Hydrogen E-Fuel Plant <span class="badge badge-low">LOW</span></h3>
+    <p><strong>Developer:</strong> N/A |
+       <strong>Status:</strong> <span style="color:#95a5a6;font-weight:600;">Announced</span> |
+       <strong>Capacity:</strong> 0.030 MTPA H2 |
+       <strong>Impact year:</strong> 2031</p>
+    <p><strong>Market Impact:</strong><br>Gas demand: +0.0046 bcf/d<br>HH gas price: +$0.00002/MMBtu<br>ERCOT electricity: +$0.0001/MWh<br>Blue H2 LCOH: +$0.00000/kg</p>
+    <p><strong>Notes:</strong><br>Gas demand delta 0.000 bcf/d = 0.0 sigma<br>Capacity: 0.030 MTPA H2 (Unknown)<br>Gas feedstock rate: 0.155 bcf/d per MTPA (Unknown)</p>
+    <details><summary>Model Evidence Trail</summary>
+    <div class="evidence-box">  year_of_impact: 2031
+  sensitivity_variable: electric_power_bcfd
+  coefficient_used: -0.0452
+  coefficient_source: decarbiq_projection_map.json -> coefficients.hh_full.electric_power_bcfd
+  gas_demand_bcfd_raw: 0.00465
+  gas_demand_bcfd_weighted: 0.00046499999999999997
+  fid_probability_applied: 0.1
+  sigma_1_used: 8.6045
+  sigma_source: decarbiq_sensitivity_analysis.json -> variable_catalog.electric_power_bcfd
+  passthrough_ercot: 6.94
+  passthrough_caiso: 9.51
+  passthrough_source: decarbiq_projection_map.json -> coefficients
+  gas_to_lcoh_rate: 0.14
+  projection_map_year: 2031
+  projection_map_key: variable_projections.2031.gas_price.p50
+  baseline_p50_gas: 4.775626007654705</div>
+    </details>
+</div>
+<div style="margin-bottom:16px; padding:12px; border:1px solid #e0e0e0; border-radius:6px;">
+    <h3 style="margin-top:0;">HRSG condenser performance monitoring (Part 3) <span class="badge badge-low">LOW</span></h3>
+    <p><strong>Developer:</strong> N/A |
+       <strong>Status:</strong> <span style="color:#27ae60;font-weight:600;">Operational</span> |
+       <strong>Capacity:</strong> N/A |
+       <strong>Impact year:</strong> 2026</p>
+    <p><strong>Market Impact:</strong><br>No quantifiable impact</p>
+    
+    <details><summary>Model Evidence Trail</summary>
+    <div class="evidence-box">  year_of_impact: 2026
+  projection_map_year: 2026
+  projection_map_key: variable_projections.2026.gas_price.p50
+  baseline_p50_gas: 3.713322780367032</div>
+    </details>
+</div>
+<div style="margin-bottom:16px; padding:12px; border:1px solid #e0e0e0; border-radius:6px;">
+    <h3 style="margin-top:0;">Burckhardt: compression technology supply to new Singapore-based ammonia bunkering vessel <span class="badge badge-low">LOW</span></h3>
+    <p><strong>Developer:</strong> N/A |
+       <strong>Status:</strong> <span style="color:#3498db;font-weight:600;">Construction</span> |
+       <strong>Capacity:</strong> N/A |
+       <strong>Impact year:</strong> 2030</p>
+    <p><strong>Market Impact:</strong><br>No quantifiable impact</p>
+    
+    <details><summary>Model Evidence Trail</summary>
+    <div class="evidence-box">  year_of_impact: 2030
+  projection_map_year: 2030
+  projection_map_key: variable_projections.2030.gas_price.p50
+  baseline_p50_gas: 4.775626007654705</div>
+    </details>
+</div>
+</div>
+<div class="section">
+<h2>5. Competitive Landscape</h2>
+
+<h3>By Developer</h3>
+<table>
+<tr><th>Developer</th><th>Projects</th><th>Total Cap (MTPA)</th><th>Weighted Cap</th><th>Regions</th></tr>
+<tr>
+                <td>Unknown</td>
+                <td>3</td>
+                <td>0.323</td>
+                <td>0.321</td>
+                <td>Gulf Coast TX, US Other, Unknown</td>
+            </tr><tr>
+                <td>Yara</td>
+                <td>1</td>
+                <td>0.267</td>
+                <td>0.267</td>
+                <td>US Other</td>
+            </tr><tr>
+                <td>Eni</td>
+                <td>1</td>
+                <td>0.030</td>
+                <td>0.003</td>
+                <td>International</td>
+            </tr><tr>
+                <td>Bp</td>
+                <td>1</td>
+                <td>0.000</td>
+                <td>0.000</td>
+                <td>Gulf Coast LA</td>
+            </tr><tr>
+                <td>Air Products</td>
+                <td>1</td>
+                <td>0.000</td>
+                <td>0.000</td>
+                <td>Unknown</td>
+            </tr><tr>
+                <td>Shell</td>
+                <td>1</td>
+                <td>0.000</td>
+                <td>0.000</td>
+                <td>US Other</td>
+            </tr><tr>
+                <td>Linde</td>
+                <td>1</td>
+                <td>0.000</td>
+                <td>0.000</td>
+                <td>Unknown</td>
+            </tr><tr>
+                <td>Exxonmobil</td>
+                <td>1</td>
+                <td>0.000</td>
+                <td>0.000</td>
+                <td>Unknown</td>
+            </tr><tr>
+                <td>Dow</td>
+                <td>1</td>
+                <td>0.000</td>
+                <td>0.000</td>
+                <td>Unknown</td>
+            </tr><tr>
+                <td>Plug Power</td>
+                <td>1</td>
+                <td>0.000</td>
+                <td>0.000</td>
+                <td>Unknown</td>
+            </tr><tr>
+                <td>Thyssenkrupp</td>
+                <td>1</td>
+                <td>0.000</td>
+                <td>0.000</td>
+                <td>Unknown</td>
+            </tr>
+</table>
+
+<h3>By Region</h3>
+<table>
+<tr><th>Region</th><th>Projects</th><th>Total Cap (MTPA)</th><th>Weighted Cap</th></tr>
+<tr>
+                <td>Unknown</td>
+                <td>7</td>
+                <td>0.300</td>
+                <td>0.300</td>
+            </tr><tr>
+                <td>US Other</td>
+                <td>3</td>
+                <td>0.267</td>
+                <td>0.267</td>
+            </tr><tr>
+                <td>International</td>
+                <td>1</td>
+                <td>0.030</td>
+                <td>0.003</td>
+            </tr><tr>
+                <td>Gulf Coast TX</td>
+                <td>1</td>
+                <td>0.022</td>
+                <td>0.021</td>
+            </tr><tr>
+                <td>Gulf Coast LA</td>
+                <td>1</td>
+                <td>0.000</td>
+                <td>0.000</td>
+            </tr>
+</table>
+</div>
+<div class="section">
+<h2>6. Client Extension: Refractory Materials</h2>
+<p class="note">Addressable market for refractory lining in blue H2/ammonia reformers.
+Cost basis: Harbison-Walker (2019) + CEPCI 2024 adjustment. Client overrides applied where provided.</p>
+
+<h3>Q1: Which projects are likely to proceed? (FID prob &ge; 25%)</h3>
+<table>
+<tr><th>Project</th><th>Developer</th><th>Capacity (MTPA)</th><th>Status</th><th>FID Prob</th><th>Region</th></tr>
+
+</table>
+
+<h3>Q2: When to expect refractory lining orders?</h3>
+<p class="note">Lead time source: Wood Mackenzie "Blue Hydrogen Guide" (2023); Technip Energies project data</p>
+<table>
+<tr><th>Project</th><th>Developer</th><th>Tech</th><th>Lead Time</th><th>Est. Order Year</th><th>FID Prob</th><th>Capacity</th></tr>
+
+</table>
+
+<h3>Q3: Which regions to prioritize?</h3>
+<table>
+<tr><th>Region</th><th>Projects</th><th>Total Cap (MTPA)</th><th>Weighted Cap</th><th>Expected Value</th></tr>
+
+</table>
+
+<h3>Q4: EPC contractors to partner with</h3>
+<table>
+<tr><th>Contractor</th><th>Projects</th><th>Total Cap (MTPA)</th></tr>
+
+</table>
+
+<h3>Q5: Addressable Market Size</h3>
+<div class="stat-grid">
+    <div class="stat-card">
+        <div class="value">$0</div>
+        <div class="label">P10 (Conservative)</div>
+    </div>
+    <div class="stat-card">
+        <div class="value">$0</div>
+        <div class="label">P50 (Base Case)</div>
+    </div>
+    <div class="stat-card">
+        <div class="value">$0</div>
+        <div class="label">P90 (Optimistic)</div>
+    </div>
+</div>
+<p class="note">P90 = all pipeline at face value; P50 = FID-probability-weighted; P10 = only projects with FID prob >= 75%<br>
+Projects counted: 0 | Harbison-Walker (2019) + CEPCI 2024, with client overrides where provided</p>
+
+</div>
+<div class="section">
+<h2>7. Methodology & Sources</h2>
+
+<h3>Model Components Used</h3>
+<ul>
+    <li><strong>DecarbIQ Projection Map</strong> — P10/P50/P90 gas &amp; electricity, 2025-2035, trained regression coefficients</li>
+    <li><strong>Monte Carlo LNG v8</strong> — 10,000-path regime-switching GARCH simulation for Henry Hub</li>
+    <li><strong>Sensitivity Analysis</strong> — 28 variables, 68 shocks, 9-stage pipeline with feedback rules</li>
+    <li><strong>Event Frequency Model</strong> — Probability-weighted disruption scenarios (hurricane, polar vortex, geopolitical)</li>
+</ul>
+
+<h3>Key Coefficients</h3>
+<table>
+<tr><th>Parameter</th><th>Value</th><th>Source</th></tr>
+<tr><td>HH gas demand coefficient</td><td>-0.0452 $/MMBtu per bcf/d</td><td>DecarbIQ regression (hh_full)</td></tr>
+<tr><td>ERCOT gas passthrough</td><td>$6.94/MWh per $/MMBtu</td><td>DecarbIQ regression</td></tr>
+<tr><td>CAISO gas passthrough</td><td>$9.51/MWh per $/MMBtu</td><td>DecarbIQ regression</td></tr>
+<tr><td>SMR gas consumption</td><td>0.155 bcf/d per MTPA H2</td><td>NETL (2010) Table 3-1</td></tr>
+<tr><td>ATR gas consumption</td><td>0.135 bcf/d per MTPA H2</td><td>IEAGHG (2017)</td></tr>
+<tr><td>Gas → LCOH sensitivity</td><td>$0.14/kg per $/MMBtu</td><td>NETL H2A (2022)</td></tr>
+<tr><td>NH3 → H2 mass ratio</td><td>0.178</td><td>IEA "Future of Hydrogen" (2019)</td></tr>
+<tr><td>45Q credit impact</td><td>$0.79/kg H2</td><td>IRC §45Q; IEAGHG (2017)</td></tr>
+</table>
+
+<h3>Literature Sources Cited in Assessments</h3>
+<ul>
+<li>NETL (2010) Table 3-1 — Electrolysis gas consumption</li>
+<li>NETL (2010) Table 3-1 — Unknown gas consumption</li>
+<li>NETL H2A Analysis (2022) — $0.14/kg per $/MMBtu</li>
+</ul>
+
+<h3>FID Probability by Status</h3>
+<table>
+<tr><th>Status</th><th>FID Probability</th><th>Source</th></tr>
+<tr><td>Operational</td><td>100%</td><td>Hydrogen Council/McKinsey (2024); IEA GHR 2024</td></tr><tr><td>Commissioning</td><td>98%</td><td>Hydrogen Council/McKinsey (2024); IEA GHR 2024</td></tr><tr><td>Construction</td><td>95%</td><td>Hydrogen Council/McKinsey (2024); IEA GHR 2024</td></tr><tr><td>EPC Award</td><td>90%</td><td>Hydrogen Council/McKinsey (2024); IEA GHR 2024</td></tr><tr><td>FID</td><td>75%</td><td>Hydrogen Council/McKinsey (2024); IEA GHR 2024</td></tr><tr><td>FEED</td><td>40%</td><td>Hydrogen Council/McKinsey (2024); IEA GHR 2024</td></tr><tr><td>Pre-FEED</td><td>25%</td><td>Hydrogen Council/McKinsey (2024); IEA GHR 2024</td></tr><tr><td>Delayed</td><td>15%</td><td>Hydrogen Council/McKinsey (2024); IEA GHR 2024</td></tr><tr><td>Announced</td><td>10%</td><td>Hydrogen Council/McKinsey (2024); IEA GHR 2024</td></tr><tr><td>Unknown</td><td>10%</td><td>Hydrogen Council/McKinsey (2024); IEA GHR 2024</td></tr><tr><td>Cancelled</td><td>0%</td><td>Hydrogen Council/McKinsey (2024); IEA GHR 2024</td></tr>
+</table>
+
+<p class="note">All model outputs reference specific JSON keys in the DecarbIQ package.
+Each assessment includes a "Model Evidence Trail" with exact coefficient sources.</p>
+</div>
+</div>
+<footer>
+    Generated by Blue H2 Intelligence Monitor &mdash; powered by DecarbIQ Market Analyzer<br>
+    All projections use trained model coefficients. See Methodology section for sources.
+</footer>
+</body>
+</html>

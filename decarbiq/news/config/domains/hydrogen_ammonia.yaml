@@ -1,0 +1,268 @@
+# =============================================================================
+# Domain Configuration: Blue Hydrogen / Ammonia Intelligence
+# =============================================================================
+# Used by the 5-layer semantic pipeline (semantic_classifier, entity_extractor)
+# to classify articles, extract entities, and score relevance.
+
+# ---- Embedding Classifier (Layer 1) ----------------------------------------
+# Positive examples: titles/snippets that ARE relevant to blue H2/ammonia
+# Used to build the domain centroid embedding
+positive_examples:
+  - "Air Products announces FID for $4.5 billion blue hydrogen complex in Louisiana"
+  - "ExxonMobil Baytown blue hydrogen plant reaches final investment decision"
+  - "CF Industries to build 1.2 MTPA blue ammonia plant at Donaldsonville complex"
+  - "Chevron awards EPC contract to Worley for Gulf Coast hydrogen project"
+  - "Technip Energies wins FEED contract for blue ammonia facility in Texas"
+  - "DOE announces $1.2 billion loan guarantee for hydrogen hub project"
+  - "Blue hydrogen project breaks ground near Lake Charles, Louisiana"
+  - "Shell and Equinor joint venture to develop ATR hydrogen plant in Appalachia"
+  - "INEOS signs 15-year offtake agreement for Gulf Coast blue ammonia"
+  - "KBR selected as EPC contractor for 750 TPD blue hydrogen facility"
+  - "45Q tax credits drive wave of carbon capture hydrogen projects"
+  - "Texas blue hydrogen pipeline network receives FERC approval"
+  - "Linde to supply SMR technology for new blue hydrogen production facility"
+  - "OCI NV plans major expansion of blue ammonia capacity in Beaumont, Texas"
+  - "McDermott awarded front-end engineering contract for hydrogen complex"
+  - "Freeport LNG hydrogen integration project reaches commercial operation"
+  - "Port Arthur blue hydrogen facility targets 2027 commercial operation date"
+  - "Bechtel begins construction on Gulf Coast ammonia export terminal"
+  - "Japan signs binding offtake for 500,000 tons of US blue ammonia annually"
+  - "New CCS hub in Louisiana to store CO2 from multiple hydrogen plants"
+  - "Fluor wins engineering contract for autothermal reformer hydrogen project"
+  - "NextDecade blue ammonia project at Port of Brownsville gets financial close"
+  - "Appalachia hydrogen hub consortium selects ATR technology for Phase 1"
+  - "DOE OCED awards $750 million to Gulf Coast clean hydrogen hub"
+  - "Samsung Engineering to build blue ammonia plant for export to Korea"
+  - "BP and Linde partner on 1 GW electrolyzer plus blue hydrogen backup facility"
+  - "IRA Inflation Reduction Act boosts economics for blue hydrogen production"
+  - "EPC award for world's largest autothermal reformer in the Gulf Coast"
+  - "Corpus Christi blue ammonia project secures $2 billion in project financing"
+  - "Air Liquide to build steam methane reformer with carbon capture in Texas"
+  - "Wood Group wins pre-FEED study for Ohio Valley blue hydrogen complex"
+  - "Denbury CO2 pipeline expansion supports new hydrogen projects in Louisiana"
+  - "First production from Gulf Coast blue hydrogen facility exceeds nameplate"
+  - "Mitsubishi signs blue ammonia purchase agreement with Texas producer"
+  - "Construction permit issued for 500 TPD hydrogen plant in Lake Charles"
+  - "Clean hydrogen production tax credit 45V regulations finalized"
+  - "Blue hydrogen plant connects to existing natural gas pipeline infrastructure"
+  - "Saline aquifer CO2 sequestration site approved for hydrogen CCS project"
+  - "EPC consortium formed for $3 billion integrated hydrogen-ammonia complex"
+  - "Hydrogen pipeline project in Texas receives regulatory approval"
+  - "Blue ammonia capacity additions in US Gulf Coast reach 5 MTPA planned"
+  - "Notice to proceed issued for Beaumont blue hydrogen facility"
+  - "South Korea LG and SK Group sign blue ammonia import deal with US producer"
+  - "DOE loan programs office finalizes conditional commitment for H2 project"
+  - "World's first large-scale ATR with CCS targets FID in Q3 2026"
+  - "Equinor and partners advance blue hydrogen project to FEED stage"
+  - "Gulf Coast hydrogen hub selected for $1.5B federal cost-share award"
+  - "Air Products NEOM green ammonia not relevant but blue hydrogen in Louisiana is"
+  - "Chevron Phillips Chemical exploring blue hydrogen feedstock for ethylene"
+  - "Natural gas price drop improves blue hydrogen economics versus green"
+  - "Venture Global and Air Products exploring blue hydrogen at Plaquemines"
+
+# Negative examples: titles/snippets that are NOT relevant
+# Used for improved discrimination (negative centroid)
+negative_examples:
+  - "Tesla stock price rises 5% on strong Q4 earnings"
+  - "Apple announces new iPhone 17 with improved battery life"
+  - "Federal Reserve raises interest rates by 25 basis points"
+  - "NFL playoffs bracket update and Super Bowl predictions"
+  - "New study finds link between coffee consumption and longevity"
+  - "SpaceX successfully launches 22 Starlink satellites"
+  - "Amazon Prime Day deals you shouldn't miss this summer"
+  - "Housing market shows signs of cooling in major US cities"
+  - "Green hydrogen electrolyzer costs drop 40% in solar-rich regions"
+  - "Wind farm capacity additions in Europe reach record levels"
+  - "Electric vehicle sales in China surpass 10 million units"
+  - "Lithium battery recycling plant opens in Nevada"
+  - "Oil prices fall on OPEC+ production increase concerns"
+  - "Natural gas spot price volatile amid seasonal demand shifts"
+  - "General hydrogen fuel cell vehicle technology review"
+  - "Academic paper on theoretical hydrogen storage in metal hydrides"
+  - "Residential solar panel installation guide for homeowners"
+  - "Nuclear fusion breakthrough at Princeton Plasma Physics Lab"
+  - "Geothermal energy project in Iceland reaches 100 MW milestone"
+  - "Cryptocurrency Bitcoin reaches new all-time high above $100,000"
+  - "European carbon border adjustment mechanism CBAM implementation update"
+  - "Gray hydrogen from unabated natural gas reforming pollutes environment"
+  - "Pink hydrogen from nuclear electrolysis pilot in France"
+
+# ---- Relevance Threshold ---------------------------------------------------
+relevance_threshold: 0.55
+borderline_low: 0.45
+borderline_high: 0.65
+
+# ---- Entity Types (GLiNER Layer 2) -----------------------------------------
+entity_types:
+  - company
+  - project_name
+  - capacity
+  - technology
+  - product
+  - location
+  - status
+  - epc_contractor
+  - date
+  - money
+
+# ---- Relation Types (GLiREL Layer 3) ---------------------------------------
+relation_types:
+  - develops
+  - located_in
+  - capacity_of
+  - uses_technology
+  - contracted_by
+  - produces
+  - invested_in
+
+# ---- Technology Normalization -----------------------------------------------
+technology_patterns:
+  SMR:
+    - "steam methane reform"
+    - "SMR"
+    - "steam reform"
+  ATR:
+    - "autothermal reform"
+    - "ATR"
+    - "auto-thermal"
+  Electrolysis:
+    - "electrolyz"
+    - "electrolyser"
+    - "PEM"
+    - "alkaline electrolysis"
+    - "SOEC"
+  CCUS:
+    - "carbon capture"
+    - "CCS"
+    - "CCUS"
+    - "CO2 capture"
+    - "carbon sequestration"
+
+# ---- Status Normalization ---------------------------------------------------
+status_patterns:
+  Announced:
+    - "announced"
+    - "plans to"
+    - "proposed"
+    - "planning"
+    - "exploring"
+    - "considering"
+  Pre-FEED:
+    - "pre-FEED"
+    - "pre-front-end"
+    - "conceptual design"
+    - "feasibility study"
+  FEED:
+    - "FEED"
+    - "front-end engineering"
+    - "basic engineering"
+  FID:
+    - "FID"
+    - "final investment decision"
+    - "financial close"
+    - "sanctioned"
+  EPC Award:
+    - "EPC award"
+    - "EPC contract"
+    - "engineering procurement construction"
+    - "notice to proceed"
+    - "NTP"
+  Construction:
+    - "construction"
+    - "groundbreaking"
+    - "under construction"
+    - "building"
+    - "broke ground"
+  Operational:
+    - "operational"
+    - "first production"
+    - "commercial operation"
+    - "online"
+    - "producing"
+    - "COD"
+  Cancelled:
+    - "cancelled"
+    - "canceled"
+    - "abandoned"
+    - "terminated"
+    - "withdrawn"
+  Delayed:
+    - "delayed"
+    - "postponed"
+    - "deferred"
+    - "pushed back"
+    - "setback"
+
+# ---- Capacity Conversion Factors --------------------------------------------
+capacity_conversions:
+  TPD_H2_to_MTPA: 0.000365       # 1 TPD H2 = 0.000365 MTPA H2
+  MTPA_NH3_to_MTPA_H2: 0.178     # 1 MTPA NH3 = 0.178 MTPA H2 equivalent
+  GW_electrolyzer_to_MTPA_H2: 0.16  # 1 GW electrolyzer = 0.16 MTPA H2 (50% CF)
+  MW_electrolyzer_to_MTPA_H2: 0.00016  # 1 MW = 0.00016 MTPA H2
+
+# ---- Region Classification -------------------------------------------------
+regions:
+  "Gulf Coast TX":
+    states: ["Texas"]
+    cities: ["Houston", "Baytown", "Freeport", "Port Arthur", "Beaumont",
+             "Corpus Christi", "Texas City", "Galveston", "Brownsville",
+             "La Porte", "Pasadena", "Deer Park", "Mont Belvieu"]
+  "Gulf Coast LA":
+    states: ["Louisiana"]
+    cities: ["Lake Charles", "Baton Rouge", "New Orleans", "Westlake",
+             "Geismar", "Donaldsonville", "Plaquemines", "Cameron",
+             "Port Fourchon", "Hackberry"]
+  "Appalachia":
+    states: ["Ohio", "West Virginia", "Pennsylvania", "Kentucky"]
+    cities: ["Moundsville", "Clarksburg", "Pittsburgh", "Marietta",
+             "Wheeling", "Charleston"]
+  "West Coast":
+    states: ["California"]
+    cities: ["Los Angeles", "Long Beach", "Richmond", "Martinez",
+             "Carson", "Wilmington"]
+  "Pacific Northwest":
+    states: ["Washington", "Oregon"]
+    cities: ["Longview", "Kalama", "Portland", "Tacoma"]
+  "Midwest":
+    states: ["Illinois", "Indiana", "Michigan", "Wisconsin", "Minnesota", "Iowa"]
+    cities: ["Chicago", "Whiting", "Joliet", "Lima"]
+  "Mountain West":
+    states: ["Utah", "Wyoming", "Colorado", "Montana"]
+    cities: ["Salt Lake City", "Cheyenne", "Delta"]
+  "Southeast":
+    states: ["Alabama", "Mississippi", "Florida", "Georgia", "Tennessee",
+             "North Carolina", "South Carolina", "Virginia"]
+    cities: ["Mobile", "Pascagoula", "Savannah"]
+  "Northeast":
+    states: ["New York", "New Jersey", "Connecticut", "Massachusetts",
+             "Maryland", "Delaware"]
+    cities: ["Linden", "Philadelphia", "Marcus Hook", "Delaware City"]
+  "Plains":
+    states: ["Oklahoma", "Kansas", "Nebraska", "North Dakota", "South Dakota"]
+    cities: ["Enid", "Coffeyville", "Ponca City"]
+
+# ---- Priority Score Calculation ---------------------------------------------
+priority_scoring:
+  base_multiplier: 50         # relevance_score * 50 = 0-50 base
+  developer_bonus: 10         # Known developer detected
+  fid_epc_bonus: 15           # FID or EPC Award status
+  feed_prefeed_bonus: 10      # FEED or Pre-FEED status
+  capacity_bonus: 10          # Capacity value detected
+  high_deal_bonus: 10         # deal_value > $100M
+
+# ---- Market Impact Classification -------------------------------------------
+market_impact:
+  HIGH:
+    triggers_llm: true
+    conditions:
+      - "status in ['FID', 'EPC Award']"
+      - "deal_value_usd > 500000000"
+  MEDIUM:
+    triggers_llm: false
+    conditions:
+      - "status in ['Construction', 'FEED']"
+      - "capacity_mtpa_h2 is not None"
+  LOW:
+    triggers_llm: false
+    conditions:
+      - "everything else"
