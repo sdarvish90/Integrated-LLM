@@ -4,6 +4,10 @@ Layer 1 — Semantic Embedding Classifier
 Uses sentence-transformers (all-MiniLM-L6-v2, ~80MB) to classify articles
 by cosine similarity to a pre-built domain centroid.
 
+Now delegates embedding and scoring to :class:`DomainModel` for persistent,
+continuously-learning domain understanding while keeping the original API
+intact for all existing callers.
+
 Performance: ~5ms per article on CPU.
 """
 from __future__ import annotations
@@ -15,6 +19,8 @@ from typing import Dict, List, Optional
 import numpy as np
 import yaml
 
+from .domain_model import DomainModel
+
 logger = logging.getLogger(__name__)
 
 _HERE = Path(__file__).resolve().parent
@@ -23,20 +29,27 @@ _DEFAULT_MODEL = 'all-MiniLM-L6-v2'
 
 
 class SemanticClassifier:
-    """Embedding-based article relevance classifier."""
+    """Embedding-based article relevance classifier.
+
+    Under the hood, classification and embedding are delegated to a
+    :class:`DomainModel` instance.  All original public methods remain
+    unchanged so existing callers (``blue_h2_news_collector``,
+    ``article_store``, etc.) continue to work unmodified.
+    """
 
     def __init__(self, domain_config: str = 'hydrogen_ammonia',
-                 model_name: str = _DEFAULT_MODEL):
+                 model_name: str = _DEFAULT_MODEL,
+                 domain_model: Optional[DomainModel] = None):
         self._model_name = model_name
         self._domain_config = domain_config
-        self._model = None  # lazy load
-        self._positive_centroid: Optional[np.ndarray] = None
-        self._negative_centroid: Optional[np.ndarray] = None
+
+        # Thresholds (read from config, may be overridden by DomainModel)
         self._threshold: float = 0.55
         self._borderline_low: float = 0.45
         self._borderline_high: float = 0.65
 
-        # Load config
+        # Load YAML config (still needed for entity/relation types used by
+        # other pipeline layers)
         config_path = _CONFIG_DIR / f'{domain_config}.yaml'
         if config_path.exists():
             with open(config_path, 'r') as f:
@@ -48,72 +61,74 @@ class SemanticClassifier:
             logger.warning(f"Domain config not found: {config_path}")
             self._config = {}
 
-    def _load_model(self):
-        """Lazy-load sentence-transformers model on first use."""
-        if self._model is not None:
-            return
-        from sentence_transformers import SentenceTransformer
-        logger.info(f"Loading embedding model: {self._model_name}")
-        self._model = SentenceTransformer(self._model_name)
-        self._build_centroids()
-
-    def _build_centroids(self):
-        """Compute domain centroids from config examples."""
-        pos_examples = self._config.get('positive_examples', [])
-        neg_examples = self._config.get('negative_examples', [])
-
-        if pos_examples:
-            pos_embeddings = self._model.encode(pos_examples,
-                                                 normalize_embeddings=True,
-                                                 show_progress_bar=False)
-            self._positive_centroid = np.mean(pos_embeddings, axis=0)
-            norm = np.linalg.norm(self._positive_centroid)
-            if norm > 0:
-                self._positive_centroid /= norm
-            logger.info(f"Built positive centroid from {len(pos_examples)} examples")
-
-        if neg_examples:
-            neg_embeddings = self._model.encode(neg_examples,
-                                                 normalize_embeddings=True,
-                                                 show_progress_bar=False)
-            self._negative_centroid = np.mean(neg_embeddings, axis=0)
-            norm = np.linalg.norm(self._negative_centroid)
-            if norm > 0:
-                self._negative_centroid /= norm
-            logger.info(f"Built negative centroid from {len(neg_examples)} examples")
-
-    def _score_embedding(self, emb: np.ndarray) -> float:
-        """Compute relevance score from embedding vs centroids."""
-        if self._positive_centroid is not None:
-            pos_score = float(np.dot(emb, self._positive_centroid))
+        # --- DomainModel integration ---
+        if domain_model is not None:
+            self.domain_model = domain_model
         else:
-            return 0.5
-        score = pos_score
-        if self._negative_centroid is not None:
-            neg_score = float(np.dot(emb, self._negative_centroid))
-            score = pos_score - 0.3 * neg_score
-            score = max(0.0, min(1.0, score))
-        return score
+            self.domain_model = DomainModel(
+                model_dir='models/domain',
+                embedding_model=model_name,
+            )
+            # Try to load persisted model first
+            if not self.domain_model.load():
+                # No persisted model — bootstrap from existing YAML config
+                if config_path.exists():
+                    self.domain_model.load_existing_config(domain_config)
+
+    # ------------------------------------------------------------------
+    # Lazy model access (delegates to DomainModel)
+    # ------------------------------------------------------------------
+
+    def _load_model(self):
+        """Ensure the underlying embedding model is loaded."""
+        # DomainModel lazy-loads internally; this is a no-op compatibility shim
+        # that triggers the load so _score_embedding can work.
+        self.domain_model._load_model()
+
+    # ------------------------------------------------------------------
+    # Embedding (public API — unchanged)
+    # ------------------------------------------------------------------
 
     def embed(self, text: str) -> np.ndarray:
         """Encode text to normalized embedding vector."""
-        self._load_model()
-        return self._model.encode(text, normalize_embeddings=True,
-                                   show_progress_bar=False)
+        return self.domain_model._encode(text)
 
     def embed_batch(self, texts: List[str], batch_size: int = 64) -> np.ndarray:
         """Encode a batch of texts. Returns (N, dim) array."""
-        self._load_model()
-        return self._model.encode(texts, normalize_embeddings=True,
-                                   batch_size=batch_size,
-                                   show_progress_bar=False)
+        return self.domain_model._encode_batch(texts)
+
+    # ------------------------------------------------------------------
+    # Scoring (delegates to DomainModel centroids)
+    # ------------------------------------------------------------------
+
+    def _score_embedding(self, emb: np.ndarray) -> float:
+        """Compute relevance score from embedding vs domain centroids."""
+        domain_name = self._domain_config
+        if domain_name in self.domain_model._domains:
+            state = self.domain_model._domains[domain_name]
+            return self.domain_model._score(emb, state)
+        # Fallback: no domain loaded yet
+        return 0.5
+
+    # ------------------------------------------------------------------
+    # Article classification (public API — unchanged)
+    # ------------------------------------------------------------------
 
     def classify_article(self, title: str, snippet: str = '',
-                         full_text: str = '') -> Dict:
+                         full_text: str = '',
+                         document_type: str = 'news') -> Dict:
         """Classify a single article for domain relevance.
 
         The returned embedding is always from title+snippet (never full_text)
         so all embeddings in ChromaDB are comparable.
+
+        Args:
+            title: Article title.
+            snippet: Article snippet/description.
+            full_text: Full article body (used only for borderline rescoring).
+            document_type: Document type hint (news, sec_filing, epa_permit,
+                doe_award).  Currently used for logging; may drive
+                type-specific adjustments in the future.
 
         Returns:
             {
@@ -146,12 +161,17 @@ class SemanticClassifier:
             'embedding': embedding,
         }
 
-    def classify_batch(self, articles: List[dict]) -> List[Dict]:
+    def classify_batch(self, articles: List[dict],
+                       document_type: str = 'news') -> List[Dict]:
         """Classify a batch of articles efficiently.
 
         Each article dict should have 'title' and optionally 'snippet'.
         Performs borderline rescoring for articles in the 0.45-0.65 range
         that have 'full_text' or 'snippet' available.
+
+        Args:
+            articles: List of article dicts with 'title', 'snippet', 'full_text'.
+            document_type: Document type hint for all articles in the batch.
 
         Returns list of classification results (same order).
         """
@@ -199,6 +219,15 @@ class SemanticClassifier:
             })
 
         return results
+
+    # ------------------------------------------------------------------
+    # Continuous learning (NEW)
+    # ------------------------------------------------------------------
+
+    def add_feedback(self, text: str, is_relevant: bool,
+                     document_type: str = 'news') -> None:
+        """Forward feedback to domain model for continuous learning."""
+        self.domain_model.add_feedback(text, is_relevant, document_type)
 
 
 # ---------------------------------------------------------------------------

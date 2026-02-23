@@ -1066,6 +1066,9 @@ class BlueH2Intelligence:
         self.fid_engine = FIDProbabilityEngine()
         self.extension: Optional[ClientExtension] = None
 
+        # NLP Intelligence Pipeline (lazy-loaded)
+        self._pipeline = None
+
         # Background collection thread
         self._bg_stop = threading.Event()
         self._bg_thread: Optional[threading.Thread] = None
@@ -1078,6 +1081,18 @@ class BlueH2Intelligence:
             self.extension = load_extension_from_yaml(str(default_cfg))
             if self.extension:
                 print(f"  Auto-loaded extension: {self.extension.name}")
+
+    # -- NLP Intelligence Pipeline (lazy) -----------------------------------
+    @property
+    def pipeline(self):
+        """Lazy-loaded IntelligencePipeline, shares collector + fid_engine."""
+        if self._pipeline is None:
+            from intelligence_pipeline import IntelligencePipeline
+            self._pipeline = IntelligencePipeline(
+                collector=self.collector,
+                fid_engine=self.fid_engine,
+            )
+        return self._pipeline
 
     # -- Collector helper ----------------------------------------------------
     def _run_collector(self, label: str, collector_fn):
@@ -1282,6 +1297,13 @@ class BlueH2Intelligence:
 --- CLIENT EXTENSIONS [{ext_name}] ---
  16. Configure client extension module
 
+--- NLP INTELLIGENCE PIPELINE ---
+ 17. Run full pipeline (LEARN -> RECOGNIZE -> CONNECT)
+ 18. Targeted company deep-dive
+ 19. Fill evidence gaps (auto-targeted)
+ 20. Pipeline status & project summary
+ 21. Bootstrap existing data into unified projects
+
   0. Exit"""
 
     def _dispatch(self, choice: str):
@@ -1302,6 +1324,11 @@ class BlueH2Intelligence:
             '14': self._generate_html_report,
             '15': self._generate_extension_report,
             '16': self._configure_extension,
+            '17': self._nlp_full_pipeline,
+            '18': self._nlp_targeted,
+            '19': self._nlp_gap_fill,
+            '20': self._nlp_status,
+            '21': self._nlp_bootstrap,
         }
         fn = handlers.get(choice)
         if fn:
@@ -2111,6 +2138,121 @@ class BlueH2Intelligence:
             print("  Extension cleared.\n")
         else:
             print("  Invalid option.\n")
+
+    # -- 17. NLP Full Pipeline -----------------------------------------------
+    def _nlp_full_pipeline(self):
+        print("\n  Resume options: [a]ll stages / [r]ecognize (skip LEARN) / [c]onnect (skip LEARN+RECOGNIZE)")
+        choice = input("  Start from [a]: ").strip().lower()
+        resume_map = {'r': 'recognize', 'c': 'connect'}
+        resume_from = resume_map.get(choice)
+        dry = input("  Dry run (no DB writes)? [y/N]: ").strip().lower() == 'y'
+        print()
+        result = self.pipeline.run_full_pipeline(resume_from=resume_from, dry_run=dry)
+        print(result.summary_text())
+
+    # -- 18. NLP Targeted Deep-Dive ------------------------------------------
+    def _nlp_targeted(self):
+        company = input("\n  Company name: ").strip()
+        if not company:
+            print("  (cancelled)\n")
+            return
+        dry = input("  Dry run? [y/N]: ").strip().lower() == 'y'
+        print()
+        result = self.pipeline.run_targeted_pipeline(company, dry_run=dry)
+        print(result.summary_text())
+
+    # -- 19. NLP Gap Fill ----------------------------------------------------
+    def _nlp_gap_fill(self):
+        max_proj = _ask_int("  Max projects to target", 10)
+        dry = input("  Dry run? [y/N]: ").strip().lower() == 'y'
+
+        # Preview top gaps before executing
+        gaps = self.pipeline.find_gaps()
+        if not gaps:
+            print("\n  No projects with evidence gaps.\n")
+            return
+        preview = gaps[:max_proj]
+        print(f"\n  Will target {len(preview)} projects:")
+        for g in preview:
+            gap_list = ', '.join(g.get('gaps', [])[:3])
+            more = len(g.get('gaps', [])) - 3
+            suffix = f" +{more} more" if more > 0 else ''
+            print(f"    - {g.get('project_name', '?')} "
+                  f"({g.get('gap_count', 0)} gaps: {gap_list}{suffix})")
+
+        confirm = input("\n  Proceed? [Y/n]: ").strip().lower()
+        if confirm == 'n':
+            print("  (cancelled)\n")
+            return
+        print()
+        result = self.pipeline.run_gap_pipeline(max_projects=max_proj, dry_run=dry)
+        print(result.summary_text())
+
+    # -- 20. NLP Pipeline Status ---------------------------------------------
+    def _nlp_status(self):
+        status = self.pipeline.status()
+        summary = status.get('data', {})
+
+        print(f"\n  ─── NLP Pipeline Status ───")
+        print(f"  LLM backend: {status.get('llm_backend', 'none')}")
+        print(f"  Domain model: {'loaded' if status.get('domain_model_loaded') else 'not loaded'}")
+        print(f"  Adapters: {', '.join(status.get('adapters', []))}")
+        print(f"\n  ─── Data Summary ───")
+        print(f"  Projects: {summary.get('total_projects', 0)}")
+        print(f"  Evidence links: {summary.get('total_evidence_links', 0)}")
+        print(f"  Avg evidence/project: {summary.get('avg_evidence_per_project', 0):.1f}")
+
+        by_stage = summary.get('by_stage', {})
+        if by_stage:
+            print(f"\n  By stage:")
+            for stage, count in by_stage.items():
+                print(f"    {stage}: {count}")
+
+        by_vc = summary.get('by_value_chain', {})
+        if by_vc:
+            print(f"\n  By value chain:")
+            for vc, count in by_vc.items():
+                print(f"    {vc}: {count}")
+
+        by_eu = summary.get('by_end_use_sector', {})
+        if by_eu:
+            print(f"\n  By end-use sector:")
+            for eu, count in by_eu.items():
+                print(f"    {eu}: {count}")
+
+        # Top gaps
+        gaps = self.pipeline.find_gaps()
+        if gaps:
+            print(f"\n  ─── Top 5 Evidence Gaps ───")
+            for g in gaps[:5]:
+                gap_list = ', '.join(g.get('gaps', [])[:3])
+                print(f"    {g.get('project_name', '?')} — "
+                      f"{g.get('gap_count', 0)} gaps: {gap_list}")
+        print()
+
+    # -- 21. NLP Bootstrap ---------------------------------------------------
+    def _nlp_bootstrap(self):
+        print("\n  This will import existing regulatory_evidence + articles")
+        print("  into the unified project system.")
+        confirm = input("  Continue? [y/N]: ").strip().lower()
+        if confirm != 'y':
+            print("  (cancelled)\n")
+            return
+        dry = input("  Dry run? [y/N]: ").strip().lower() == 'y'
+        print()
+        result = self.pipeline.connect_bootstrap(dry_run=dry)
+        reg = result.get('regulatory', {})
+        art = result.get('articles', {})
+        reclass = result.get('reclassify', {})
+        print(f"\n  ─── Bootstrap Results ───")
+        print(f"  Regulatory: ingested={reg.get('ingested', 0)}, "
+              f"new_projects={reg.get('new_projects', 0)}, "
+              f"skipped={reg.get('skipped', 0)}")
+        print(f"  Articles: ingested={art.get('ingested', 0)}, "
+              f"new_projects={art.get('new_projects', 0)}, "
+              f"skipped={art.get('skipped', 0)}")
+        print(f"  Reclassify: value_chain={reclass.get('value_chain_set', 0)}, "
+              f"end_use={reclass.get('end_use_set', 0)}\n")
 
 
 # ============================================================================

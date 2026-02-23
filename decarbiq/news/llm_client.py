@@ -36,7 +36,7 @@ GROQ_TIMEOUT = 60
 # Ollama local fallback
 OLLAMA_MODEL = 'llama3.1:8b'
 OLLAMA_URL = 'http://localhost:11434/api/generate'
-OLLAMA_TIMEOUT = 600  # 10 min — llama3.1:8b on CPU needs more time
+OLLAMA_TIMEOUT = 300   # 5 min — with 6K char text limit, CPU should finish in <3 min
 
 
 # ---------------------------------------------------------------------------
@@ -80,6 +80,7 @@ class LLMClient:
         self._groq_key = self._load_groq_key()
         self._rate_limiter = RateLimiter(28)   # 28/min to stay safely under Groq's 30
         self._groq_resume_at = None            # set when daily limit hit
+        self._groq_disabled = False            # set True on 401 (invalid key)
         self.total_tokens: int = 0
         self.total_calls: int = 0
 
@@ -155,8 +156,8 @@ class LLMClient:
         backend = self.check()
         self.total_calls += 1
 
-        # -- Groq (skip if daily limit hit until reset) --
-        groq_ok = backend == 'groq' or self._groq_key
+        # -- Groq (skip if disabled or daily limit hit until reset) --
+        groq_ok = (backend == 'groq' or self._groq_key) and not self._groq_disabled
         if groq_ok and self._groq_resume_at:
             from datetime import datetime as _dt, timezone as _tz
             if _dt.now(_tz.utc) >= self._groq_resume_at:
@@ -198,8 +199,13 @@ class LLMClient:
         except Exception as e:
             err_str = str(e)
             logger.warning(f"Groq error: {e}")
+            # Auth error — disable Groq entirely (key invalid/revoked)
+            if '401' in err_str or 'auth' in err_str.lower() or 'invalid' in err_str.lower():
+                self._groq_disabled = True
+                print(f"  Groq API key invalid (401) — disabled for this session. "
+                      f"Using Ollama only.")
             # Daily rate limit — use Ollama until next UTC midnight reset
-            if '429' in err_str and 'per day' in err_str:
+            elif '429' in err_str and 'per day' in err_str:
                 from datetime import datetime as _dt, timezone as _tz, timedelta as _td
                 now_utc = _dt.now(_tz.utc)
                 self._groq_resume_at = (now_utc.replace(hour=0, minute=0, second=0, microsecond=0)
@@ -220,7 +226,11 @@ class LLMClient:
                 'model': OLLAMA_MODEL,
                 'prompt': f"{system_prompt}\n\n{user_prompt}",
                 'stream': False,
-                'options': {'temperature': 0.2, 'num_predict': max_tokens}
+                'options': {
+                    'temperature': 0.2,
+                    'num_predict': max_tokens,
+                    'num_ctx': 8192,   # llama3.1 supports up to 128K; 8K is safe on CPU
+                }
             }
             resp = requests.post(OLLAMA_URL, json=payload, timeout=OLLAMA_TIMEOUT)
             if resp.status_code == 200:
