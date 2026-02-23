@@ -85,20 +85,28 @@ _H2_KEYWORDS = [
     'hydrogen hub', 'clean energy',
 ]
 
-# Evidence type priority for ranking
+# Evidence type priority for ranking — reranked to favor high-signal docs
 _TYPE_PRIORITY = {
-    '8-K': 1.0, '8-K/A': 1.0,
-    '10-K': 0.8, '10-Q': 0.7,
-    'S-1': 0.6, 'S-4': 0.6,
-    'facility': 0.5,
-    'lpo_mention': 0.6,
-    'puc_reference': 0.3,
-    'award': 0.7,              # DOE USASpending award
-    'lpo_project': 0.8,        # DOE LPO portfolio project
+    'EX-99.1': 1.0,            # Press releases: FID, capex, project names
+    'EX-99.2': 0.95,           # Investor presentations
+    'EX-10.1': 0.95,           # Material contracts: offtake, JV
+    'EX-96.3': 0.90,           # Technical reports
     'h2hub_project': 0.85,     # DOE H2Hub — strong government backing
-    'press_release': 0.5,      # DOE press release
-    'ferc_filing': 0.6,        # FERC regulatory filing
+    'lpo_project': 0.80,       # DOE LPO portfolio project
+    '10-K': 0.75, '10-K/A': 0.75,
+    '10-Q': 0.70,
+    'award': 0.70,             # DOE USASpending award
+    'S-1': 0.60, 'S-4': 0.60,
+    'lpo_mention': 0.60,
+    'ferc_filing': 0.60,       # FERC regulatory filing
     'regulatory_notice': 0.55, # EPA/DOE/PHMSA regulatory notice
+    'facility': 0.50,
+    'press_release': 0.50,     # DOE press release
+    'puc_reference': 0.30,
+    '8-K': 0.15, '8-K/A': 0.15,  # Cover forms — almost never have content
+    'EX-21.1': 0.0,            # Subsidiary list — zero signal
+    'EX-23.1': 0.0,            # Auditor consent
+    'EX-31': 0.0, 'EX-32': 0.0,  # SOX certifications
 }
 
 # ---------------------------------------------------------------------------
@@ -536,10 +544,18 @@ STAGE DEFINITIONS (use ONLY these):
 - "Operational": Producing product commercially (look for: "commenced operations", "first production", "commercial operations")
 - "Cancelled": Project terminated (look for: "cancelled", "shelved", "abandoned", "write-down", "indefinitely delayed")
 
+CRITICAL — DOE AWARD CANCELLATIONS (Jan 2025 onwards):
+- The Trump administration cancelled ~$23B in Biden-era DOE clean energy grants starting May 2025.
+- If a DOE award (source=doe_usaspending) is present but the text does NOT mention active disbursement or construction progress, the award may have been cancelled.
+- Cancelled DOE awards are NOT positive FID signals. Do NOT count them as government backing.
+- If the only positive signal for a project is a DOE award with no independent corroboration (SEC filings, permits, construction activity), treat the stage as uncertain and lower the probability accordingly.
+- Hydrogen hubs (H2Hubs, ARCHES, PNW, HyVelocity, MACH2, Heartland, Midwest Alliance) are at elevated cancellation risk.
+
 PROBABILITY GUIDELINES:
 - Strong evidence from multiple sources = higher probability
 - Single source or vague language = lower probability
-- Government backing (DOE LPO) or active EPA permits = positive signal
+- Government backing (DOE LPO) or active EPA permits = positive signal ONLY if award is confirmed active
+- DOE awards without independent corroboration post-Jan 2025 = uncertain signal (do NOT count as positive)
 - Old filings with no recent activity = negative signal
 
 Respond in EXACTLY this JSON format (no other text):
@@ -743,16 +759,89 @@ class FIDProbabilityEngine:
             logger.error(f"CIK lookup error: {e}")
         return None
 
+    def _resolve_primary_doc_from_index(self, cik: str,
+                                        accession: str) -> str:
+        """Fetch the filing index page and return the primary document filename.
+
+        SEC EDGAR provides a predictable index at
+        ``/Archives/edgar/data/{cik}/{accession}/{accession}-index.htm``
+        that lists all documents in the filing.  The primary 8-K / 10-K body
+        is typically the first ``.htm`` link whose description contains the
+        form type, or simply the first ``.htm`` that isn't an exhibit/graphic.
+
+        Returns the filename (e.g. ``d912345d8k.htm``) or empty string on failure.
+        """
+        acc_nodash = accession.replace('-', '')
+        index_url = (
+            f"https://www.sec.gov/Archives/edgar/data/"
+            f"{cik}/{acc_nodash}/{accession}-index.htm"
+        )
+        try:
+            resp = self.session.get(index_url, timeout=30)
+            time.sleep(_SEC_SLEEP)
+            if resp.status_code != 200:
+                return ''
+            soup = BeautifulSoup(resp.text, 'html.parser')
+
+            # The index page has a table with columns: Seq | Description | Document | …
+            # Walk all <a> links in the table and pick the best primary doc.
+            # Only consider links that point into the filing's accession folder.
+            best = ''
+            for a_tag in soup.find_all('a', href=True):
+                href = a_tag['href'].strip()
+                # Skip anchors, XML schemas, graphics, R-files
+                if not href.endswith(('.htm', '.html')):
+                    continue
+                # Only links inside the accession directory (contains acc_nodash)
+                if acc_nodash not in href and not href.startswith(acc_nodash):
+                    # Could be a relative filename — accept if no '/' (bare name)
+                    if '/' in href:
+                        continue
+                fname = href.rsplit('/', 1)[-1]
+                # Skip index pages and SEC chrome
+                if 'index' in fname.lower():
+                    continue
+                if fname.lower() in ('companysearch.html', 'searchedgar.html'):
+                    continue
+                # Prefer the first non-exhibit .htm file (exhibits usually
+                # have "ex" prefix or "_ex" in the name)
+                is_exhibit = bool(re.search(r'(?:^ex|_ex|exhibit)', fname,
+                                            re.IGNORECASE))
+                if not is_exhibit:
+                    return fname  # first non-exhibit .htm is the body
+                if not best:
+                    best = fname  # keep as fallback
+            return best
+        except Exception as e:
+            logger.debug(f"Index resolution error for {accession}: {e}")
+            return ''
+
     def _fetch_sec_filing_text(self, cik: str, accession: str,
                                primary_doc: str) -> str:
         """Fetch and extract relevant sections from an SEC filing document.
 
         Returns structured text excerpt (max MAX_EXCERPT_CHARS).
         Handles .htm/.html, .txt, and falls back to raw truncation.
+        When *primary_doc* is empty or points to a non-document (PDF, XML),
+        the method resolves the actual primary document via the filing index.
         """
-        # Build URL: accession numbers have dashes, but the path uses no dashes
         acc_nodash = accession.replace('-', '')
-        url = f"https://www.sec.gov/Archives/edgar/data/{cik}/{acc_nodash}/{primary_doc}"
+        base_url = f"https://www.sec.gov/Archives/edgar/data/{cik}/{acc_nodash}"
+
+        # ── Step 1: resolve primary_doc if missing or non-text ──────────
+        if not primary_doc or primary_doc.endswith(('.pdf', '.xml', '.xsd',
+                                                     '.json', '.zip')):
+            resolved = self._resolve_primary_doc_from_index(cik, accession)
+            if resolved:
+                logger.debug(f"Resolved primary doc: {resolved} "
+                             f"(was: {primary_doc!r})")
+                primary_doc = resolved
+            elif not primary_doc:
+                logger.warning(f"No primary doc and index resolution failed "
+                               f"for {accession}")
+                return ''
+
+        url = f"{base_url}/{primary_doc}"
 
         try:
             resp = self.session.get(url, timeout=60)
@@ -762,7 +851,31 @@ class FIDProbabilityEngine:
                 return ''
 
             raw = resp.text
-            # Detect format
+
+            # ── Step 2: detect directory/index landing pages ────────────
+            if ('Directory List' in raw[:500]
+                    or 'Filing Detail' in raw[:500]
+                    or ('<title>EDGAR' in raw[:500]
+                        and 'Index' in raw[:500])):
+                resolved = self._resolve_primary_doc_from_index(cik, accession)
+                if not resolved:
+                    logger.warning(f"Landed on index page, could not resolve "
+                                   f"primary doc for {accession}")
+                    return ''
+                primary_doc = resolved
+                url = f"{base_url}/{primary_doc}"
+                resp = self.session.get(url, timeout=60)
+                time.sleep(_SEC_SLEEP)
+                if resp.status_code != 200:
+                    return ''
+                raw = resp.text
+
+            # ── Step 3: detect binary / PDF content ─────────────────────
+            if raw.startswith('%PDF') or '\x00' in raw[:200]:
+                logger.debug(f"Binary content detected, skipping: {url}")
+                return ''
+
+            # ── Step 4: parse by format ─────────────────────────────────
             if primary_doc.endswith(('.htm', '.html')):
                 return self._parse_html_sections(raw)
             elif primary_doc.endswith('.txt'):
@@ -957,6 +1070,75 @@ class FIDProbabilityEngine:
             conn.close()
         except Exception as e:
             logger.warning(f"Amendment stale-mark error: {e}")
+
+    def apply_doe_cancellations(self) -> dict:
+        """Mark DOE awards as stale based on doe_award_status column.
+
+        After running doe_award_status.py --check-all --update-db, this method
+        reads the doe_award_status column and marks terminated/reduced/uncertain
+        awards as stale in regulatory_evidence. It also invalidates cached
+        fid_assessments for affected companies so the next scoring run uses
+        fresh data without the cancelled award as a positive signal.
+
+        Returns dict with counts of staled evidence and invalidated assessments.
+        """
+        try:
+            conn = sqlite3.connect(self.db_path)
+            conn.row_factory = sqlite3.Row
+
+            # Check if doe_award_status column exists
+            try:
+                conn.execute("SELECT doe_award_status FROM regulatory_evidence LIMIT 1")
+            except sqlite3.OperationalError:
+                conn.close()
+                return {'error': 'doe_award_status column not found — run doe_award_status.py --check-all --update-db first'}
+
+            # Find DOE awards that are terminated/reduced/uncertain but not yet stale
+            cancelled = conn.execute("""
+                SELECT id, company_name, document_id, doe_award_status, doe_termination_date
+                FROM regulatory_evidence
+                WHERE source = 'doe_usaspending'
+                AND doe_award_status IN ('terminated', 'reduced', 'uncertain')
+                AND (stale = 0 OR stale IS NULL)
+            """).fetchall()
+
+            staled_evidence = 0
+            affected_companies = set()
+
+            for row in cancelled:
+                reason = (f"DOE award {row['doe_award_status']}: "
+                          f"{row['doe_termination_date'] or 'post-Jan 2025 administration change'}")
+                conn.execute(
+                    "UPDATE regulatory_evidence SET stale=1, stale_reason=? WHERE id=?",
+                    (reason, row['id']))
+                staled_evidence += 1
+                affected_companies.add(row['company_name'])
+
+            # Invalidate cached assessments for affected companies
+            invalidated_assessments = 0
+            for company in affected_companies:
+                cur = conn.execute(
+                    "UPDATE fid_assessments SET stale=1, stale_reason='doe_award_cancelled' "
+                    "WHERE company_name=? AND stale=0",
+                    (company,))
+                invalidated_assessments += cur.rowcount
+
+            conn.commit()
+            conn.close()
+
+            logger.info(
+                f"DOE cancellations applied: {staled_evidence} evidence entries staled, "
+                f"{invalidated_assessments} assessments invalidated for {len(affected_companies)} companies")
+
+            return {
+                'staled_evidence': staled_evidence,
+                'invalidated_assessments': invalidated_assessments,
+                'affected_companies': len(affected_companies),
+                'company_names': sorted(affected_companies),
+            }
+        except Exception as e:
+            logger.error(f"DOE cancellation apply error: {e}")
+            return {'error': str(e)}
 
     # ===================================================================
     # EFTS Broad Filing Discovery
@@ -1536,16 +1718,26 @@ class FIDProbabilityEngine:
 
     def _load_evidence(self, company_name: str,
                        max_age_days: int = EVIDENCE_MAX_AGE_DAYS) -> List[Dict]:
-        """Load non-stale evidence within freshness window."""
+        """Load non-stale evidence within freshness window.
+
+        Uses LIKE matching on the first two words of the company name to catch
+        variants like 'air products' vs 'Air Products & Chemicals' without
+        false positives (e.g. 'air' matching 'Air Hydrogen Recovery').
+        """
         cutoff = (datetime.now() - timedelta(days=max_age_days)).isoformat()
+        # Use first two words for LIKE match to catch name variants
+        words = company_name.strip().split()
+        prefix = ' '.join(words[:2]) if len(words) >= 2 else words[0] if words else company_name
+        like_pattern = f'{prefix}%'
         try:
             conn = sqlite3.connect(self.db_path)
             conn.row_factory = sqlite3.Row
             rows = conn.execute(
                 "SELECT * FROM regulatory_evidence "
-                "WHERE company_name=? AND stale=0 AND fetched_date>=? "
+                "WHERE LOWER(company_name) LIKE LOWER(?) "
+                "AND stale=0 AND fetched_date>=? "
                 "ORDER BY document_date DESC",
-                (company_name, cutoff)).fetchall()
+                (like_pattern, cutoff)).fetchall()
             conn.close()
             return [dict(r) for r in rows]
         except Exception as e:
@@ -1607,14 +1799,42 @@ class FIDProbabilityEngine:
     # ===================================================================
 
     def _rank_evidence(self, evidence: List[Dict]) -> List[Dict]:
-        """Rank evidence by relevance: type priority × recency. Top 10."""
+        """Rank evidence by relevance: type priority × recency. Top 10.
+
+        Filters out:
+        - Zero-signal types (EX-21.1, EX-23.1, certifications)
+        - 8-K cover forms that only contain exhibit-only items
+        - DOE awards with terminated/reduced/uncertain status (heavily penalized)
+        """
+        from sec_evidence_fixes_v2 import score_8k_usefulness
+
+        ranked = []
         for e in evidence:
+            doc_type = e.get('document_type', '')
+            type_score = _TYPE_PRIORITY.get(doc_type, 0.3)
+
+            # Skip zero-signal types entirely
+            if type_score == 0.0:
+                continue
+
+            # Skip useless 8-K cover forms
+            if doc_type in ('8-K', '8-K/A'):
+                if score_8k_usefulness(e.get('raw_text_excerpt', '')) == 0:
+                    continue
+
             days = _days_since(e.get('document_date', ''))
-            recency = max(0, 1.0 - (days / 365) * 0.3)  # recent = higher
-            type_score = _TYPE_PRIORITY.get(e.get('document_type', ''), 0.3)
+            recency = max(0, 1.0 - (days / 365) * 0.3)
+
+            # Penalize cancelled/uncertain DOE awards
+            doe_status = e.get('doe_award_status')
+            if doe_status in ('terminated', 'reduced', 'uncertain'):
+                type_score *= 0.1
+
             e['_relevance'] = type_score * recency
-        evidence.sort(key=lambda x: -x.get('_relevance', 0))
-        return evidence[:10]
+            ranked.append(e)
+
+        ranked.sort(key=lambda x: -x.get('_relevance', 0))
+        return ranked[:10]
 
     # ===================================================================
     # LLM assessment
@@ -1701,7 +1921,11 @@ class FIDProbabilityEngine:
         """Send all evidence to LLM for unified stage determination.
 
         Returns list of per-project assessment dicts.
+        Uses extract_signal_text() to strip SEC boilerplate and extract
+        the most signal-rich paragraphs for the LLM.
         """
+        from sec_evidence_fixes_v2 import extract_signal_text, DOMAIN_TERMS
+
         # Build evidence blocks
         source_types = set()
         evidence_blocks = ''
@@ -1709,12 +1933,35 @@ class FIDProbabilityEngine:
         for i, e in enumerate(evidence, 1):
             source_types.add(e.get('source', 'unknown'))
             evidence_ids.append(e.get('id', 0))
+            # Annotate DOE awards with cancellation status if available
+            doe_status_line = ''
+            if e.get('source') == 'doe_usaspending' and e.get('doe_award_status'):
+                status_val = e['doe_award_status']
+                if status_val in ('terminated', 'reduced', 'uncertain'):
+                    doe_status_line = (
+                        f"⚠ DOE AWARD STATUS: {status_val.upper()} "
+                        f"(as of {e.get('doe_status_checked_at', 'unknown')[:10]})"
+                        f" — {e.get('doe_status_reasoning', 'cancelled post-Jan 2025')}\n"
+                        f"⚠ DO NOT count this as a positive government backing signal.\n"
+                    )
+                elif status_val == 'active':
+                    doe_status_line = (
+                        f"DOE AWARD STATUS: ACTIVE (verified {e.get('doe_status_checked_at', 'unknown')[:10]})\n"
+                    )
+            # Extract signal text instead of raw boilerplate
+            raw_text = e.get('raw_text_excerpt', '(no text)')
+            doc_type = e.get('document_type', '')
+            signal_text = extract_signal_text(raw_text, doc_type, keywords=DOMAIN_TERMS, max_chars=2500)
+            if not signal_text:
+                signal_text = raw_text[:2000]
+
             evidence_blocks += (
                 f"\n--- Evidence #{i} ---\n"
-                f"Source: {e.get('source', '?')} ({e.get('document_type', '?')})\n"
+                f"Source: {e.get('source', '?')} ({doc_type})\n"
                 f"Date: {e.get('document_date', '?')}\n"
                 f"URL: {e.get('document_url', 'N/A')}\n"
-                f"Text:\n{e.get('raw_text_excerpt', '(no text)')}\n"
+                f"{doe_status_line}"
+                f"Text:\n{signal_text}\n"
                 f"---\n"
             )
 
@@ -2087,11 +2334,13 @@ class FIDProbabilityEngine:
                   f"{filing['form_type']} | {filing['filing_date']} | "
                   f"{filing['_strategy']}")
 
-            # Fetch filing text via existing method
+            # Fetch filing text — _fetch_sec_filing_text now handles
+            # empty/missing filenames via index-page resolution
             text = ''
-            if filing['cik'] and filing['accession'] and filing['filename']:
+            if filing['cik'] and filing['accession']:
                 text = self._fetch_sec_filing_text(
-                    filing['cik'], filing['accession'], filing['filename'])
+                    filing['cik'], filing['accession'],
+                    filing.get('filename', ''))
             if not text:
                 text = filing.get('file_description', '')
 
@@ -2118,11 +2367,16 @@ class FIDProbabilityEngine:
             if filing['form_type'] in ('8-K/A',):
                 self._mark_amended_stale(normalized, filing['accession'])
 
-            # Build doc URL
+            # Build doc URL — use resolved filename when available
             acc_nodash = filing['accession'].replace('-', '')
+            fname = filing.get('filename', '')
+            if not fname:
+                # Attempt to resolve via index if we haven't already
+                fname = self._resolve_primary_doc_from_index(
+                    filing['cik'], filing['accession'])
             doc_url = (
                 f"https://www.sec.gov/Archives/edgar/data/"
-                f"{filing['cik']}/{acc_nodash}/{filing['filename']}"
+                f"{filing['cik']}/{acc_nodash}/{fname}"
             )
 
             # Store evidence
@@ -3086,14 +3340,25 @@ class FIDProbabilityEngine:
     # ===================================================================
 
     def _format_evidence_summary(self, items: list, max_items: int = 5) -> str:
-        """Format evidence items for synthesis prompt."""
+        """Format evidence items for synthesis prompt.
+
+        Uses extract_signal_text() to provide meaningful excerpts
+        instead of raw SEC boilerplate.
+        """
+        from sec_evidence_fixes_v2 import extract_signal_text, DOMAIN_TERMS
+
         if not items:
             return '  (none)'
         lines = []
         for e in items[:max_items]:
             stage_str = f" | Stage: {e.get('stage', '?')}" if e.get('stage') else ''
-            lines.append(f"  - [{e.get('document_type', '?')}] {e.get('document_date', '?')}: "
-                         f"{e.get('raw_text_excerpt', '')[:200]}...{stage_str}")
+            doc_type = e.get('document_type', '?')
+            raw = e.get('raw_text_excerpt', '')
+            excerpt = extract_signal_text(raw, doc_type, keywords=DOMAIN_TERMS, max_chars=300)
+            if not excerpt:
+                excerpt = raw[:200]
+            lines.append(f"  - [{doc_type}] {e.get('document_date', '?')}: "
+                         f"{excerpt[:200]}...{stage_str}")
         if len(items) > max_items:
             lines.append(f"  ... and {len(items) - max_items} more")
         return '\n'.join(lines)
@@ -3159,7 +3424,38 @@ class FIDProbabilityEngine:
             source, llm_backend, evidence_count
         For multi-project companies, returns assessment for the first/best match.
         Full list available via assess_project_multi().
+
+        Projects whose ``fid_status`` is ``fid_achieved`` or ``cancelled``
+        are returned immediately with a fixed probability — no LLM call.
         """
+        # 0. Skip post-FID / cancelled projects (no LLM scoring needed)
+        if status in ('Operational', 'Commissioning'):
+            return {
+                'project_name': project_name or 'Primary Hydrogen Project',
+                'probability': 1.0,
+                'stage': status,
+                'confidence': 'HIGH',
+                'evidence_details': [f'{status} — past FID, scoring skipped'],
+                'reasoning': f'{company_name} is {status.lower()}; FID already achieved.',
+                'source': 'fid_status_override',
+                'llm_backend': '',
+                'evidence_count': 0,
+                'fid_status': 'fid_achieved',
+            }
+        if status == 'Cancelled':
+            return {
+                'project_name': project_name or 'Primary Hydrogen Project',
+                'probability': 0.0,
+                'stage': 'Cancelled',
+                'confidence': 'HIGH',
+                'evidence_details': ['Project cancelled — scoring skipped'],
+                'reasoning': f'{company_name} project is cancelled.',
+                'source': 'fid_status_override',
+                'llm_backend': '',
+                'evidence_count': 0,
+                'fid_status': 'cancelled',
+            }
+
         # 1. Check cached assessment
         cached = self._load_cached_assessment(company_name)
         if cached:

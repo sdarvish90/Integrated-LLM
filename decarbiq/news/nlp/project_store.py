@@ -67,6 +67,99 @@ class EndUseSector(Enum):
     UNKNOWN = "unknown"
 
 
+# ---------------------------------------------------------------------------
+# Entity Quality Filter
+# ---------------------------------------------------------------------------
+
+# Known legitimate company nouns (lowercase) — names containing one of these
+# are likely real entities even if short.
+_COMPANY_NOUNS = {
+    'inc', 'corp', 'corporation', 'ltd', 'llc', 'llp', 'plc', 'sa', 'ag',
+    'gmbh', 'co', 'company', 'holdings', 'group', 'energy', 'power',
+    'industries', 'international', 'chemicals', 'petroleum', 'resources',
+    'partners', 'ventures', 'capital', 'fund', 'solutions', 'technologies',
+    'products', 'systems', 'services',
+}
+
+# Words that signal a headline/sentence fragment rather than a project name
+_HEADLINE_SIGNALS = {
+    'breaking', 'begins', 'secures', 'advances', 'announces', 'reports',
+    'signs', 'launches', 'completes', 'receives', 'targets', 'seeks',
+    'develops', 'expands', 'plans', 'largest', 'biggest', 'first',
+    'world', 'after', 'before', 'during', 'according',
+}
+
+
+def check_entity_quality(project_name: str,
+                         developer_name: str = '') -> Optional[str]:
+    """Return a quarantine reason if the entity fails quality checks, else None.
+
+    Rules:
+    1. Names shorter than 3 characters → quarantine
+    2. Names that are 1-2 words AND lack a company noun → quarantine
+    3. Names with headline-signal verbs → quarantine (headline fragment)
+    4. Names that start with a lowercase preposition/article → quarantine
+    5. Developer == project_name (not a real project name) and is generic → quarantine
+    6. Generic descriptive names (e.g. "blue hydrogen project") → quarantine
+    7. Names > 8 words (likely full headlines) → quarantine
+    """
+    name = project_name.strip()
+    if not name:
+        return 'empty_name'
+
+    words = name.split()
+    name_lower = name.lower()
+
+    # Rule 1: too short
+    if len(name) < 3:
+        return 'name_too_short'
+
+    # Rule 2: 1-2 words without a company noun
+    lower_words = {w.lower().rstrip('.,') for w in words}
+    has_company_noun = bool(lower_words & _COMPANY_NOUNS)
+    if len(words) <= 2 and not has_company_noun:
+        return 'name_too_short_no_company'
+
+    # Rule 3: headline fragment (contains present-tense verbs)
+    headline_words_found = lower_words & _HEADLINE_SIGNALS
+    if headline_words_found:
+        # For longer names (> 5 words), always quarantine if no company noun
+        if len(words) > 5 and not has_company_noun:
+            return 'headline_fragment'
+        # Check if verb appears at position 1+ (e.g. "INERATEC advances PtL")
+        for i, w in enumerate(words):
+            if i > 0 and w.lower() in _HEADLINE_SIGNALS:
+                return 'headline_fragment'
+
+    # Rule 4: starts with lowercase preposition/article
+    if words[0].lower() in ('for', 'the', 'a', 'an', 'in', 'of', 'with',
+                             'after', 'before', 'during'):
+        return 'starts_with_preposition'
+
+    # Rule 5: developer_name == project_name and is generic
+    if (developer_name and developer_name.strip() == name
+            and not has_company_noun
+            and 'project' not in name_lower
+            and 'facility' not in name_lower):
+        return 'developer_as_project_name'
+
+    # Rule 6: generic descriptive names without a proper noun
+    _GENERIC_PATTERNS = [
+        r'^(?:blue|green|clean|low[- ]carbon)\s+(?:hydrogen|ammonia|h2)\s+project$',
+        r'^(?:hydrogen|ammonia)\s+(?:project|facility|plant)$',
+    ]
+    for pat in _GENERIC_PATTERNS:
+        if re.match(pat, name_lower):
+            return 'generic_descriptor'
+
+    # Rule 7: very long names (> 8 words) are likely headlines
+    if len(words) > 8:
+        if not re.search(r'\b(?:project|facility|plant|hub)\b', name_lower):
+            return 'name_too_long_likely_headline'
+
+    return None
+
+
 SOURCE_AUTHORITY = {
     'sec_filing': 0.95,
     'sec_edgar': 0.95,
@@ -139,6 +232,7 @@ class Project:
     # Stage & probability
     stage: StageAssessment = field(default_factory=StageAssessment)
     fid_probability: Optional[float] = None
+    fid_status: str = "pre_fid"   # pre_fid | fid_achieved | cancelled
 
     # Key players
     epc_contractor: Optional[str] = None
@@ -185,12 +279,15 @@ CREATE TABLE IF NOT EXISTS unified_projects (
     stage_reasoning TEXT,
     stage_latest_evidence_date TEXT,
     fid_probability REAL,
+    fid_status TEXT DEFAULT 'pre_fid',
     epc_contractor TEXT,
     co_developers_json TEXT DEFAULT '[]',
     fid_date TEXT,
     cod_date TEXT,
     construction_start TEXT,
     evidence_gap_flags_json TEXT DEFAULT '[]',
+    quarantined INTEGER DEFAULT 0,
+    quarantine_reason TEXT,
     created_at TEXT,
     updated_at TEXT,
     last_evidence_date TEXT,
@@ -239,6 +336,9 @@ CREATE INDEX IF NOT EXISTS idx_pal_project ON project_audit_log(project_id);
 _MIGRATIONS = [
     "ALTER TABLE unified_projects ADD COLUMN value_chain TEXT DEFAULT 'unknown'",
     "ALTER TABLE unified_projects ADD COLUMN end_use_sector TEXT DEFAULT 'unknown'",
+    "ALTER TABLE unified_projects ADD COLUMN fid_status TEXT DEFAULT 'pre_fid'",
+    "ALTER TABLE unified_projects ADD COLUMN quarantined INTEGER DEFAULT 0",
+    "ALTER TABLE unified_projects ADD COLUMN quarantine_reason TEXT",
 ]
 
 # Post-migration indexes (run after migrations ensure columns exist)
@@ -374,6 +474,43 @@ class ProjectStore:
         finally:
             conn.close()
 
+    def quarantine_low_quality(self, dry_run: bool = False) -> Dict[str, Any]:
+        """Scan all projects and quarantine those with low-quality names.
+
+        Returns dict with 'quarantined' count and 'details' list.
+        """
+        conn = self._conn()
+        try:
+            rows = conn.execute(
+                "SELECT project_id, project_name, developer_name "
+                "FROM unified_projects WHERE quarantined = 0"
+            ).fetchall()
+
+            results: Dict[str, Any] = {'quarantined': 0, 'details': []}
+            for row in rows:
+                reason = check_entity_quality(row['project_name'],
+                                              row['developer_name'] or '')
+                if reason:
+                    results['details'].append({
+                        'project_id': row['project_id'],
+                        'project_name': row['project_name'],
+                        'reason': reason,
+                    })
+                    if not dry_run:
+                        conn.execute(
+                            "UPDATE unified_projects "
+                            "SET quarantined = 1, quarantine_reason = ? "
+                            "WHERE project_id = ?",
+                            (reason, row['project_id']),
+                        )
+                    results['quarantined'] += 1
+
+            if not dry_run:
+                conn.commit()
+            return results
+        finally:
+            conn.close()
+
     def upsert_project(self, record: Project) -> str:
         """Insert or update a project record. Returns project_id."""
         if not record.project_id:
@@ -392,14 +529,14 @@ class ProjectStore:
                     value_chain, end_use_sector,
                     stage, stage_confidence, stage_evidence_count, stage_reasoning,
                     stage_latest_evidence_date,
-                    fid_probability, epc_contractor, co_developers_json,
+                    fid_probability, fid_status, epc_contractor, co_developers_json,
                     fid_date, cod_date, construction_start,
                     evidence_gap_flags_json,
                     created_at, updated_at, last_evidence_date, source_count
                 ) VALUES (
                     ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?,
                     ?, ?,
-                    ?, ?, ?, ?, ?, ?, ?, ?,
+                    ?, ?, ?, ?, ?, ?, ?, ?, ?,
                     ?, ?, ?, ?, ?, ?, ?, ?
                 )
                 ON CONFLICT(project_id) DO UPDATE SET
@@ -420,6 +557,7 @@ class ProjectStore:
                     stage_reasoning = excluded.stage_reasoning,
                     stage_latest_evidence_date = excluded.stage_latest_evidence_date,
                     fid_probability = COALESCE(excluded.fid_probability, unified_projects.fid_probability),
+                    fid_status = excluded.fid_status,
                     epc_contractor = COALESCE(excluded.epc_contractor, unified_projects.epc_contractor),
                     co_developers_json = excluded.co_developers_json,
                     fid_date = COALESCE(excluded.fid_date, unified_projects.fid_date),
@@ -439,7 +577,8 @@ class ProjectStore:
                 record.stage.stage.value, record.stage.confidence,
                 record.stage.evidence_count, record.stage.reasoning,
                 record.stage.latest_evidence_date,
-                record.fid_probability, record.epc_contractor,
+                record.fid_probability, record.fid_status,
+                record.epc_contractor,
                 json.dumps(record.co_developers),
                 record.fid_date, record.cod_date, record.construction_start,
                 json.dumps(record.evidence_gap_flags),

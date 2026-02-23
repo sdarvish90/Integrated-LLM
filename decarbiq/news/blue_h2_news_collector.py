@@ -1317,16 +1317,32 @@ def _fetch_sec_filing_text(url: str, timeout: int = 15) -> Optional[dict]:
         # the primary document link and follow it
         if 'Directory List' in html or 'Filing Detail' in html:
             soup = BeautifulSoup(html, 'html.parser')
-            # Look for the primary document link in the filing table
+            # Walk links and pick the best primary doc (skip exhibits)
+            best_href = ''
             for a_tag in soup.find_all('a', href=True):
-                href = a_tag['href']
-                # Primary docs are usually .htm files (not .xml, .xsd, .json)
-                if href.endswith(('.htm', '.html')):
-                    doc_url = urljoin(url + '/', href)
-                    resp = requests.get(doc_url, headers=_SEC_HEADERS, timeout=timeout)
-                    resp.raise_for_status()
-                    html = resp.text
-                    break
+                href = a_tag['href'].strip()
+                if not href.endswith(('.htm', '.html')):
+                    continue
+                fname = href.rsplit('/', 1)[-1]
+                if 'index' in fname.lower():
+                    continue
+                # Skip SEC chrome links (not part of the filing)
+                if fname.lower() in ('companysearch.html', 'searchedgar.html'):
+                    continue
+                if '/' in href and '/Archives/edgar/' not in href:
+                    continue
+                is_exhibit = bool(re.search(r'(?:^ex|_ex|exhibit)',
+                                            fname, re.IGNORECASE))
+                if not is_exhibit:
+                    best_href = href
+                    break  # first non-exhibit .htm is the body
+                if not best_href:
+                    best_href = href  # fallback to first .htm
+            if best_href:
+                doc_url = urljoin(url + '/', best_href)
+                resp = requests.get(doc_url, headers=_SEC_HEADERS, timeout=timeout)
+                resp.raise_for_status()
+                html = resp.text
             else:
                 return None  # Could not find a document link
 
