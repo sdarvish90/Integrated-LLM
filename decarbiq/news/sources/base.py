@@ -320,6 +320,88 @@ class _RegulatoryEvidenceAdapter(SourceAdapter):
 
 
 # ======================================================================
+# News Article Cache — shared persistence for all news adapters
+# ======================================================================
+
+import hashlib as _hashlib
+
+_NEWS_DB_PATH = "blue_h2_intelligence.db"
+
+
+def _news_save(articles: list, adapter_name: str) -> int:
+    """Persist raw news article dicts to the articles table. Returns rows inserted."""
+    conn = sqlite3.connect(_NEWS_DB_PATH)
+    saved = 0
+    for art in articles:
+        url = art.get("url", "")
+        if not url:
+            continue
+        url_hash = _hashlib.md5(url.encode()).hexdigest()
+        try:
+            conn.execute(
+                """INSERT OR IGNORE INTO articles
+                   (title, url, url_hash, source, snippet, full_text, category,
+                    priority_score, published_date, fetched_date, region)
+                   VALUES (?,?,?,?,?,?,?,?,?,?,?)""",
+                (
+                    art.get("title", "")[:500],
+                    url,
+                    url_hash,
+                    art.get("source", adapter_name),
+                    (art.get("snippet", "") or "")[:500],
+                    art.get("full_text", "") or "",
+                    art.get("category", ""),
+                    art.get("priority_score", 0),
+                    art.get("published", "") or art.get("published_date", ""),
+                    datetime.now().isoformat(),
+                    art.get("region", ""),
+                ),
+            )
+            saved += conn.execute("SELECT changes()").fetchone()[0]
+        except Exception:
+            pass
+    conn.commit()
+    conn.close()
+    return saved
+
+
+def _news_load(adapter_name: str) -> list:
+    """Load cached article dicts from the articles table for a given adapter."""
+    conn = sqlite3.connect(_NEWS_DB_PATH)
+    conn.row_factory = sqlite3.Row
+    # Map adapter name → source column patterns
+    source_map = {
+        "news_rss": (
+            "Ammonia Energy RSS", "EIA Today in Energy RSS", "EIA Press Releases",
+            "DOE News RSS", "Hydrogen Central RSS", "FuelCellsWorks RSS",
+            "Utility Dive RSS", "Power Engineering RSS", "decarbonfuse",
+        ),
+        "news_search": ("Google News",),
+        "news_scraper": ("H2 Insight", "DecarbonFuse", "recharge", "Hydrogen Insight"),
+    }
+    sources = source_map.get(adapter_name, ())
+    if not sources:
+        # Fallback: load everything not from regulatory sources
+        rows = conn.execute(
+            "SELECT * FROM articles ORDER BY fetched_date DESC LIMIT 2000"
+        ).fetchall()
+    else:
+        placeholders = ",".join("?" * len(sources))
+        rows = conn.execute(
+            f"SELECT * FROM articles WHERE source IN ({placeholders})"
+            f" ORDER BY fetched_date DESC LIMIT 2000",
+            sources,
+        ).fetchall()
+    conn.close()
+    result = []
+    for r in rows:
+        d = dict(r)
+        d["published"] = d.get("published_date", "")  # normalise field name
+        result.append(d)
+    return result
+
+
+# ======================================================================
 # Source Registry
 # ======================================================================
 

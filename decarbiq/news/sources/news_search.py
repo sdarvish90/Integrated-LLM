@@ -7,7 +7,7 @@ import time
 from typing import List, Optional
 
 from nlp.schema import DocumentType, ProcessedDocument, RawDocument
-from .base import AdapterOutputType, FetchError, FetchResult, SourceAdapter
+from .base import AdapterOutputType, FetchError, FetchResult, SourceAdapter, _news_save, _news_load
 
 
 class NewsSearchAdapter(SourceAdapter):
@@ -39,10 +39,24 @@ class NewsSearchAdapter(SourceAdapter):
             from blue_h2_news_collector import BlueH2NewsCollector
             self._collector = BlueH2NewsCollector()
 
-    def fetch(self, queries: Optional[List[str]] = None, **kwargs) -> FetchResult:
+    def fetch(self, queries: Optional[List[str]] = None, refresh: bool = True, **kwargs) -> FetchResult:
         start = time.time()
-        self._ensure_collector()
 
+        if not refresh:
+            articles = _news_load("news_search")
+            raw_docs = self._to_raw_docs(articles)
+            elapsed = int((time.time() - start) * 1000)
+            return FetchResult(
+                adapter_name=self.name,
+                output_type=self.output_type,
+                raw_documents=raw_docs,
+                fetched_count=len(raw_docs),
+                fetch_time_ms=elapsed,
+                fetch_params={**kwargs, "queries": queries},
+                from_cache=True,
+            )
+
+        self._ensure_collector()
         try:
             articles = self._collector.collect_search(queries=queries)
         except Exception as exc:
@@ -54,6 +68,21 @@ class NewsSearchAdapter(SourceAdapter):
                 fetch_params=kwargs,
             )
 
+        _news_save(articles, "news_search")
+        raw_docs = self._to_raw_docs(articles)
+        elapsed = int((time.time() - start) * 1000)
+        return FetchResult(
+            adapter_name=self.name,
+            output_type=self.output_type,
+            raw_documents=raw_docs,
+            fetched_count=len(raw_docs),
+            fetch_time_ms=elapsed,
+            fetch_params={**kwargs, "queries": queries},
+            cache_key="news_search:all",
+            cache_ttl_seconds=900,
+        )
+
+    def _to_raw_docs(self, articles: list) -> list:
         raw_docs = []
         for art in articles:
             text = art.get("full_text") or art.get("snippet", "")
@@ -75,15 +104,4 @@ class NewsSearchAdapter(SourceAdapter):
                 },
                 fetch_method="web_search",
             ))
-
-        elapsed = int((time.time() - start) * 1000)
-        return FetchResult(
-            adapter_name=self.name,
-            output_type=self.output_type,
-            raw_documents=raw_docs,
-            fetched_count=len(raw_docs),
-            fetch_time_ms=elapsed,
-            fetch_params={**kwargs, "queries": queries},
-            cache_key="news_search:all",
-            cache_ttl_seconds=900,
-        )
+        return raw_docs

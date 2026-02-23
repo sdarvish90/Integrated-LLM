@@ -723,7 +723,7 @@ class FIDProbabilityEngine:
             resp = self.session.get(
                 'https://efts.sec.gov/LATEST/search-index',
                 params={'q': company_name, 'forms': '8-K,10-K'},
-                timeout=10)
+                timeout=60)
             time.sleep(_SEC_SLEEP)
         except Exception:
             pass
@@ -733,7 +733,7 @@ class FIDProbabilityEngine:
             resp = self.session.get(
                 'https://www.sec.gov/cgi-bin/browse-edgar',
                 params={'action': 'getcompany', 'company': company_name, 'output': 'xml'},
-                timeout=10)
+                timeout=60)
             if resp.status_code == 200:
                 match = re.search(r'<CIK>(\d+)</CIK>', resp.text)
                 if match:
@@ -755,7 +755,7 @@ class FIDProbabilityEngine:
         url = f"https://www.sec.gov/Archives/edgar/data/{cik}/{acc_nodash}/{primary_doc}"
 
         try:
-            resp = self.session.get(url, timeout=15)
+            resp = self.session.get(url, timeout=60)
             time.sleep(_SEC_SLEEP)
             if resp.status_code != 200:
                 logger.warning(f"SEC fetch {resp.status_code}: {url}")
@@ -880,7 +880,7 @@ class FIDProbabilityEngine:
             cik_padded = cik.zfill(10)
             resp = self.session.get(
                 f"https://data.sec.gov/submissions/CIK{cik_padded}.json",
-                timeout=10)
+                timeout=60)
             time.sleep(_SEC_SLEEP)
 
             if resp.status_code != 200:
@@ -1064,7 +1064,7 @@ class FIDProbabilityEngine:
                     SEC_RSS_URL,
                     params={'action': 'getcurrent', 'type': form_type,
                             'count': '100', 'output': 'atom'},
-                    timeout=15)
+                    timeout=60)
                 time.sleep(_SEC_SLEEP)
                 if resp.status_code != 200:
                     continue
@@ -1268,7 +1268,7 @@ class FIDProbabilityEngine:
                 'https://echodata.epa.gov/echo/rest_services.get_facilities',
                 params={'output': 'JSON', 'p_fn': company_name,
                         'p_st': state, 'responseset': '20'},
-                timeout=10)
+                timeout=60)
             time.sleep(0.5)
 
             if resp.status_code != 200:
@@ -1318,7 +1318,7 @@ class FIDProbabilityEngine:
             resp = self.session.get(
                 'https://echodata.epa.gov/echo/rest_services.get_facility_info',
                 params={'p_id': registry_id, 'output': 'JSON'},
-                timeout=10)
+                timeout=60)
             time.sleep(0.5)
 
             if resp.status_code != 200:
@@ -1360,7 +1360,7 @@ class FIDProbabilityEngine:
         for prog_name, url in programs:
             time.sleep(1)
             try:
-                resp = self.session.get(url, timeout=10)
+                resp = self.session.get(url, timeout=60)
                 if resp.status_code != 200:
                     continue
                 if company_name.lower() not in resp.text.lower():
@@ -2206,7 +2206,7 @@ class FIDProbabilityEngine:
         params['output'] = 'JSON'
         for attempt in range(EPA_RETRY_COUNT):
             try:
-                resp = self.session.get(EPA_ECHO_FACILITIES, params=params, timeout=15)
+                resp = self.session.get(EPA_ECHO_FACILITIES, params=params, timeout=60)
                 time.sleep(EPA_SLEEP)
                 if resp.status_code == 200:
                     results = resp.json().get('Results', {})
@@ -2226,7 +2226,7 @@ class FIDProbabilityEngine:
                 resp = self.session.get(EPA_ECHO_QID,
                     params={'output': 'JSON', 'qid': qid,
                             'pageno': str(page), 'pagesize': str(EPA_PAGE_SIZE)},
-                    timeout=15)
+                    timeout=60)
                 time.sleep(EPA_SLEEP)
                 if resp.status_code == 200:
                     return resp.json().get('Results', {}).get('Facilities', [])

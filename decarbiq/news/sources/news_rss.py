@@ -7,7 +7,7 @@ import time
 from typing import List, Optional
 
 from nlp.schema import DocumentType, ProcessedDocument, RawDocument
-from .base import AdapterOutputType, FetchError, FetchResult, SourceAdapter
+from .base import AdapterOutputType, FetchError, FetchResult, SourceAdapter, _news_save, _news_load
 
 
 class NewsRSSAdapter(SourceAdapter):
@@ -40,11 +40,25 @@ class NewsRSSAdapter(SourceAdapter):
             from blue_h2_news_collector import BlueH2NewsCollector
             self._collector = BlueH2NewsCollector()
 
-    def fetch(self, **kwargs) -> FetchResult:
+    def fetch(self, refresh: bool = True, **kwargs) -> FetchResult:
         start = time.time()
-        self._ensure_collector()
         errors: List[FetchError] = []
 
+        if not refresh:
+            articles = _news_load("news_rss")
+            raw_docs = self._to_raw_docs(articles)
+            elapsed = int((time.time() - start) * 1000)
+            return FetchResult(
+                adapter_name=self.name,
+                output_type=self.output_type,
+                raw_documents=raw_docs,
+                fetched_count=len(raw_docs),
+                fetch_time_ms=elapsed,
+                fetch_params=kwargs,
+                from_cache=True,
+            )
+
+        self._ensure_collector()
         try:
             articles = self._collector.collect_rss()
         except Exception as exc:
@@ -56,6 +70,23 @@ class NewsRSSAdapter(SourceAdapter):
                 fetch_params=kwargs,
             )
 
+        _news_save(articles, "news_rss")
+        raw_docs = self._to_raw_docs(articles)
+        elapsed = int((time.time() - start) * 1000)
+        return FetchResult(
+            adapter_name=self.name,
+            output_type=self.output_type,
+            raw_documents=raw_docs,
+            fetched_count=len(raw_docs),
+            error_count=len(errors),
+            errors=errors,
+            fetch_time_ms=elapsed,
+            fetch_params=kwargs,
+            cache_key="news_rss:all",
+            cache_ttl_seconds=900,
+        )
+
+    def _to_raw_docs(self, articles: list) -> list:
         raw_docs = []
         for art in articles:
             text = art.get("full_text") or art.get("snippet", "")
@@ -77,17 +108,4 @@ class NewsRSSAdapter(SourceAdapter):
                 },
                 fetch_method="rss_feed",
             ))
-
-        elapsed = int((time.time() - start) * 1000)
-        return FetchResult(
-            adapter_name=self.name,
-            output_type=self.output_type,
-            raw_documents=raw_docs,
-            fetched_count=len(raw_docs),
-            error_count=len(errors),
-            errors=errors,
-            fetch_time_ms=elapsed,
-            fetch_params=kwargs,
-            cache_key="news_rss:all",
-            cache_ttl_seconds=900,
-        )
+        return raw_docs
