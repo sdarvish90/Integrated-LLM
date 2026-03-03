@@ -1,0 +1,643 @@
+{
+  "schema_version": "1.0.0",
+  "source_id": "iea_weo",
+  "source_name": "IEA World Energy Outlook",
+  "publisher": "International Energy Agency",
+  "scenario_name": "steps",
+  "scenario_description": "Stated Policies \u2014 existing laws and implemented measures (~2.4\u00b0C)",
+  "base_year": 2024,
+  "horizon": 2050,
+  "dollar_year": 2022,
+  "extraction_metadata": {
+    "extracted_at": "2026-03-03T02:50:50.472122+00:00",
+    "extraction_method": "excel_parse",
+    "confidence_score": 0.9,
+    "source_document": "WEO2024_Free_vs_Extended_Data.xlsx",
+    "notes": "WEO 2024 free dataset. Dollar-year adjusted from 2023$ to 2024$ (deflator=1.0250). Snapshot years interpolated linearly to annual.",
+    "weo_scenario": "STEPS",
+    "interpolation_method": "linear",
+    "snapshot_years": [
+      2023,
+      2030,
+      2035,
+      2040,
+      2045,
+      2050
+    ]
+  },
+  "variables": {
+    "brent_crude_price": {
+      "unit": "$/barrel (real 2024 USD)",
+      "description": "Brent crude oil international benchmark spot price",
+      "category": "commodity_prices",
+      "annual": {}
+    },
+    "henry_hub_ng_price": {
+      "unit": "$/MMBtu (real 2024 USD)",
+      "description": "Henry Hub natural gas spot price benchmark",
+      "category": "commodity_prices",
+      "annual": {}
+    },
+    "ng_price_europe": {
+      "unit": "$/MMBtu (real 2024 USD)",
+      "description": "European natural gas benchmark (TTF / avg import)",
+      "category": "commodity_prices",
+      "annual": {}
+    },
+    "ng_price_asia_lng": {
+      "unit": "$/MMBtu (real 2024 USD)",
+      "description": "Asian LNG import price (Japan/Korea marker)",
+      "category": "commodity_prices",
+      "annual": {}
+    },
+    "steam_coal_price_intl": {
+      "unit": "$/tonne (real 2024 USD)",
+      "description": "International steam coal benchmark price",
+      "category": "commodity_prices",
+      "annual": {}
+    },
+    "carbon_price_us": {
+      "unit": "$/tonne CO2 (real 2024 USD)",
+      "description": "U.S. carbon price / social cost of carbon",
+      "category": "commodity_prices",
+      "annual": {}
+    },
+    "carbon_price_eu_ets": {
+      "unit": "$/tonne CO2 (real 2024 USD)",
+      "description": "EU Emissions Trading System carbon allowance price",
+      "category": "commodity_prices",
+      "annual": {}
+    },
+    "carbon_price_advanced_economies": {
+      "unit": "$/tonne CO2 (real 2024 USD)",
+      "description": "Carbon price in advanced economies (IEA aggregate)",
+      "category": "commodity_prices",
+      "annual": {}
+    },
+    "hydrogen_price_delivered": {
+      "unit": "$/kg H2 (real 2024 USD)",
+      "description": "Delivered hydrogen price (including transport/storage)",
+      "category": "commodity_prices",
+      "annual": {}
+    },
+    "solar_pv_utility_capex": {
+      "unit": "$/kW (real 2024 USD)",
+      "description": "Utility-scale solar PV overnight capital cost (tracking)",
+      "category": "technology_costs",
+      "annual": {}
+    },
+    "solar_pv_utility_lcoe": {
+      "unit": "$/MWh (real 2024 USD)",
+      "description": "Utility-scale solar PV levelized cost of energy",
+      "category": "technology_costs",
+      "annual": {}
+    },
+    "wind_onshore_capex": {
+      "unit": "$/kW (real 2024 USD)",
+      "description": "Land-based wind overnight capital cost",
+      "category": "technology_costs",
+      "annual": {}
+    },
+    "wind_onshore_lcoe": {
+      "unit": "$/MWh (real 2024 USD)",
+      "description": "Land-based wind levelized cost of energy",
+      "category": "technology_costs",
+      "annual": {}
+    },
+    "wind_offshore_fixed_capex": {
+      "unit": "$/kW (real 2024 USD)",
+      "description": "Offshore wind (fixed-bottom) capital cost",
+      "category": "technology_costs",
+      "annual": {}
+    },
+    "wind_offshore_fixed_lcoe": {
+      "unit": "$/MWh (real 2024 USD)",
+      "description": "Offshore wind (fixed-bottom) LCOE",
+      "category": "technology_costs",
+      "annual": {}
+    },
+    "ngcc_ccs_capex": {
+      "unit": "$/kW (real 2024 USD)",
+      "description": "Natural gas CC with CCS (90% capture) capital cost",
+      "category": "technology_costs",
+      "annual": {}
+    },
+    "nuclear_conventional_capex": {
+      "unit": "$/kW (real 2024 USD)",
+      "description": "Conventional nuclear (Gen III+ LWR) overnight capital cost",
+      "category": "technology_costs",
+      "annual": {}
+    },
+    "nuclear_lcoe": {
+      "unit": "$/MWh (real 2024 USD)",
+      "description": "Nuclear LCOE (conventional large reactor)",
+      "category": "technology_costs",
+      "annual": {}
+    },
+    "electrolyzer_pem_capex": {
+      "unit": "$/kW (real 2024 USD)",
+      "description": "PEM electrolyzer capital cost",
+      "category": "technology_costs",
+      "annual": {}
+    },
+    "electrolyzer_efficiency": {
+      "unit": "kWh/kg H2",
+      "description": "Electrolyzer system efficiency (electricity per kg H2)",
+      "category": "technology_costs",
+      "annual": {}
+    },
+    "lcoh_green_electrolysis": {
+      "unit": "$/kg H2 (real 2024 USD)",
+      "description": "Levelized cost of green hydrogen (electrolysis)",
+      "category": "technology_costs",
+      "annual": {}
+    },
+    "lcoh_blue_smr_ccs": {
+      "unit": "$/kg H2 (real 2024 USD)",
+      "description": "Levelized cost of blue hydrogen (SMR + CCS)",
+      "category": "technology_costs",
+      "annual": {}
+    },
+    "generation_total": {
+      "unit": "TWh",
+      "description": "Total electricity generation",
+      "category": "electricity",
+      "annual": {}
+    },
+    "generation_natural_gas": {
+      "unit": "TWh",
+      "description": "Electricity generation from natural gas",
+      "category": "electricity",
+      "annual": {}
+    },
+    "generation_coal": {
+      "unit": "TWh",
+      "description": "Electricity generation from coal",
+      "category": "electricity",
+      "annual": {}
+    },
+    "generation_nuclear": {
+      "unit": "TWh",
+      "description": "Electricity generation from nuclear",
+      "category": "electricity",
+      "annual": {}
+    },
+    "generation_wind": {
+      "unit": "TWh",
+      "description": "Electricity generation from wind (onshore + offshore)",
+      "category": "electricity",
+      "annual": {}
+    },
+    "generation_solar": {
+      "unit": "TWh",
+      "description": "Electricity generation from solar (utility + distributed)",
+      "category": "electricity",
+      "annual": {}
+    },
+    "generation_hydro": {
+      "unit": "TWh",
+      "description": "Electricity generation from hydroelectric",
+      "category": "electricity",
+      "annual": {}
+    },
+    "generation_biomass": {
+      "unit": "TWh",
+      "description": "Electricity generation from biomass/biopower",
+      "category": "electricity",
+      "annual": {}
+    },
+    "generation_geothermal": {
+      "unit": "TWh",
+      "description": "Electricity generation from geothermal",
+      "category": "electricity",
+      "annual": {}
+    },
+    "generation_hydrogen_ammonia": {
+      "unit": "TWh",
+      "description": "Electricity generation from hydrogen/ammonia combustion",
+      "category": "electricity",
+      "annual": {}
+    },
+    "renewable_share_generation": {
+      "unit": "fraction (0-1)",
+      "description": "Share of renewables in total electricity generation",
+      "category": "electricity",
+      "annual": {}
+    },
+    "capacity_total": {
+      "unit": "GW",
+      "description": "Total installed electricity generating capacity",
+      "category": "electricity",
+      "annual": {}
+    },
+    "capacity_solar_pv": {
+      "unit": "GW",
+      "description": "Installed solar PV capacity (utility + distributed)",
+      "category": "electricity",
+      "annual": {}
+    },
+    "capacity_wind_onshore": {
+      "unit": "GW",
+      "description": "Installed onshore wind capacity",
+      "category": "electricity",
+      "annual": {}
+    },
+    "capacity_wind_offshore": {
+      "unit": "GW",
+      "description": "Installed offshore wind capacity",
+      "category": "electricity",
+      "annual": {}
+    },
+    "capacity_battery_storage": {
+      "unit": "GW",
+      "description": "Installed battery storage capacity (power)",
+      "category": "electricity",
+      "annual": {}
+    },
+    "capacity_natural_gas": {
+      "unit": "GW",
+      "description": "Installed natural gas generating capacity",
+      "category": "electricity",
+      "annual": {}
+    },
+    "capacity_coal": {
+      "unit": "GW",
+      "description": "Installed coal generating capacity",
+      "category": "electricity",
+      "annual": {}
+    },
+    "capacity_nuclear": {
+      "unit": "GW",
+      "description": "Installed nuclear generating capacity",
+      "category": "electricity",
+      "annual": {}
+    },
+    "capacity_additions_annual": {
+      "unit": "GW",
+      "description": "Annual new capacity additions by technology",
+      "category": "electricity",
+      "annual": {}
+    },
+    "electricity_demand_total": {
+      "unit": "TWh",
+      "description": "Total electricity demand (sales + T&D losses)",
+      "category": "electricity",
+      "annual": {}
+    },
+    "grid_emissions_intensity": {
+      "unit": "g CO2/kWh",
+      "description": "Average CO2 intensity of electricity generation",
+      "category": "electricity",
+      "annual": {}
+    },
+    "demand_total_primary": {
+      "unit": "EJ",
+      "description": "Total primary energy demand",
+      "category": "energy_demand",
+      "annual": {}
+    },
+    "demand_residential": {
+      "unit": "EJ",
+      "description": "Total residential sector energy consumption",
+      "category": "energy_demand",
+      "annual": {}
+    },
+    "demand_commercial": {
+      "unit": "EJ",
+      "description": "Total commercial sector energy consumption",
+      "category": "energy_demand",
+      "annual": {}
+    },
+    "demand_industrial": {
+      "unit": "EJ",
+      "description": "Total industrial sector energy consumption",
+      "category": "energy_demand",
+      "annual": {}
+    },
+    "demand_transport": {
+      "unit": "EJ",
+      "description": "Total transportation sector energy consumption",
+      "category": "energy_demand",
+      "annual": {}
+    },
+    "demand_natural_gas": {
+      "unit": "EJ",
+      "description": "Total natural gas consumption (all sectors)",
+      "category": "energy_demand",
+      "annual": {}
+    },
+    "demand_oil": {
+      "unit": "Mb/d",
+      "description": "Total oil consumption (all sectors)",
+      "category": "energy_demand",
+      "annual": {}
+    },
+    "demand_coal": {
+      "unit": "EJ",
+      "description": "Total coal consumption (all sectors)",
+      "category": "energy_demand",
+      "annual": {}
+    },
+    "demand_electricity_total": {
+      "unit": "TWh",
+      "description": "Total electricity consumption across all end-use sectors",
+      "category": "energy_demand",
+      "annual": {}
+    },
+    "demand_hydrogen": {
+      "unit": "Mt H2/yr",
+      "description": "Total hydrogen demand across all sectors",
+      "category": "energy_demand",
+      "annual": {}
+    },
+    "demand_bioenergy": {
+      "unit": "EJ",
+      "description": "Total bioenergy consumption",
+      "category": "energy_demand",
+      "annual": {}
+    },
+    "h2_production_total": {
+      "unit": "Mt H2/yr",
+      "description": "Total hydrogen production",
+      "category": "hydrogen",
+      "annual": {}
+    },
+    "h2_production_electrolysis": {
+      "unit": "Mt H2/yr",
+      "description": "Green hydrogen production via electrolysis",
+      "category": "hydrogen",
+      "annual": {}
+    },
+    "h2_production_smr": {
+      "unit": "Mt H2/yr",
+      "description": "Gray hydrogen production via unabated SMR",
+      "category": "hydrogen",
+      "annual": {}
+    },
+    "h2_production_smr_ccs": {
+      "unit": "Mt H2/yr",
+      "description": "Blue hydrogen production via SMR with CCS",
+      "category": "hydrogen",
+      "annual": {}
+    },
+    "h2_demand_industrial": {
+      "unit": "Mt H2/yr",
+      "description": "Hydrogen demand from industrial sector (refining, ammonia, steel, chemicals)",
+      "category": "hydrogen",
+      "annual": {}
+    },
+    "h2_demand_transport": {
+      "unit": "Mt H2/yr",
+      "description": "Hydrogen demand from transport sector (FCEVs, trucks, shipping, aviation)",
+      "category": "hydrogen",
+      "annual": {}
+    },
+    "h2_demand_power": {
+      "unit": "Mt H2/yr",
+      "description": "Hydrogen demand for power generation (gas turbines, fuel cells)",
+      "category": "hydrogen",
+      "annual": {}
+    },
+    "h2_demand_buildings": {
+      "unit": "Mt H2/yr",
+      "description": "Hydrogen demand from buildings sector (blending, heating)",
+      "category": "hydrogen",
+      "annual": {}
+    },
+    "electrolyzer_capacity_installed": {
+      "unit": "GW",
+      "description": "Cumulative installed electrolyzer capacity",
+      "category": "hydrogen",
+      "annual": {}
+    },
+    "ccus_capture_total": {
+      "unit": "Mt CO2/yr",
+      "description": "Total CO2 captured annually",
+      "category": "ccus",
+      "annual": {}
+    },
+    "ccus_capture_power": {
+      "unit": "Mt CO2/yr",
+      "description": "CO2 captured from power sector",
+      "category": "ccus",
+      "annual": {}
+    },
+    "ccus_capture_industrial": {
+      "unit": "Mt CO2/yr",
+      "description": "CO2 captured from industrial processes (cement, steel, chemicals)",
+      "category": "ccus",
+      "annual": {}
+    },
+    "ccus_capture_dac": {
+      "unit": "Mt CO2/yr",
+      "description": "CO2 captured via direct air capture (DAC)",
+      "category": "ccus",
+      "annual": {}
+    },
+    "ccus_stored_geological": {
+      "unit": "Mt CO2/yr",
+      "description": "CO2 stored in geological formations (saline)",
+      "category": "ccus",
+      "annual": {}
+    },
+    "ccus_cost_capture": {
+      "unit": "$/tonne CO2 (real 2024 USD)",
+      "description": "Cost of CO2 capture per tonne",
+      "category": "ccus",
+      "annual": {}
+    },
+    "emissions_co2_total": {
+      "unit": "Mt CO2",
+      "description": "Total energy-related CO2 emissions",
+      "category": "emissions",
+      "annual": {}
+    },
+    "emissions_co2_power": {
+      "unit": "Mt CO2",
+      "description": "CO2 emissions from electric power sector",
+      "category": "emissions",
+      "annual": {}
+    },
+    "emissions_co2_industry": {
+      "unit": "Mt CO2",
+      "description": "CO2 emissions from industrial sector",
+      "category": "emissions",
+      "annual": {}
+    },
+    "emissions_co2_transport": {
+      "unit": "Mt CO2",
+      "description": "CO2 emissions from transportation sector",
+      "category": "emissions",
+      "annual": {}
+    },
+    "emissions_co2_buildings": {
+      "unit": "Mt CO2",
+      "description": "CO2 emissions from buildings (residential + commercial)",
+      "category": "emissions",
+      "annual": {}
+    },
+    "emissions_co2_per_capita": {
+      "unit": "t CO2/person",
+      "description": "CO2 emissions per capita",
+      "category": "emissions",
+      "annual": {}
+    },
+    "emissions_co2_per_gdp": {
+      "unit": "kg CO2/$ GDP",
+      "description": "CO2 emissions per unit GDP",
+      "category": "emissions",
+      "annual": {}
+    },
+    "emissions_methane_energy": {
+      "unit": "Mt CH4",
+      "description": "Energy-sector methane emissions",
+      "category": "emissions",
+      "annual": {}
+    },
+    "ev_sales_share_ldv": {
+      "unit": "fraction (0-1)",
+      "description": "Electric vehicle share of new light-duty vehicle sales",
+      "category": "transport",
+      "annual": {}
+    },
+    "ev_stock_ldv": {
+      "unit": "million vehicles",
+      "description": "Light-duty electric vehicle stock (BEV + PHEV)",
+      "category": "transport",
+      "annual": {}
+    },
+    "ev_stock_trucks": {
+      "unit": "million vehicles",
+      "description": "Electric truck stock (medium + heavy duty)",
+      "category": "transport",
+      "annual": {}
+    },
+    "fcev_stock": {
+      "unit": "million vehicles",
+      "description": "Fuel cell electric vehicle stock",
+      "category": "transport",
+      "annual": {}
+    },
+    "transport_electricity_demand": {
+      "unit": "TWh",
+      "description": "Electricity demand from transportation sector (EV charging)",
+      "category": "transport",
+      "annual": {}
+    },
+    "heat_pump_stock": {
+      "unit": "million units",
+      "description": "Heat pump installed stock",
+      "category": "buildings",
+      "annual": {}
+    },
+    "buildings_electrification_rate": {
+      "unit": "fraction (0-1)",
+      "description": "Share of building heating demand met by electricity (heat pumps + resistance)",
+      "category": "buildings",
+      "annual": {}
+    },
+    "investment_clean_energy_total": {
+      "unit": "$ billion (real 2024 USD)",
+      "description": "Total clean energy investment",
+      "category": "investment",
+      "annual": {}
+    },
+    "investment_fossil_fuel_supply": {
+      "unit": "$ billion (real 2024 USD)",
+      "description": "Total fossil fuel supply investment (upstream oil, gas, coal)",
+      "category": "investment",
+      "annual": {}
+    },
+    "investment_renewables": {
+      "unit": "$ billion (real 2024 USD)",
+      "description": "Investment in renewable energy (solar, wind, hydro, etc.)",
+      "category": "investment",
+      "annual": {}
+    },
+    "investment_grids": {
+      "unit": "$ billion (real 2024 USD)",
+      "description": "Investment in electricity grids (T&D)",
+      "category": "investment",
+      "annual": {}
+    },
+    "investment_battery_storage": {
+      "unit": "$ billion (real 2024 USD)",
+      "description": "Investment in battery energy storage",
+      "category": "investment",
+      "annual": {}
+    },
+    "investment_hydrogen": {
+      "unit": "$ billion (real 2024 USD)",
+      "description": "Investment in hydrogen production infrastructure",
+      "category": "investment",
+      "annual": {}
+    },
+    "investment_evs": {
+      "unit": "$ billion (real 2024 USD)",
+      "description": "Investment in electric vehicles and charging infrastructure",
+      "category": "investment",
+      "annual": {}
+    },
+    "gdp_real": {
+      "unit": "$ trillion (real 2024 USD)",
+      "description": "Real GDP",
+      "category": "macro",
+      "annual": {}
+    },
+    "gdp_growth_rate": {
+      "unit": "fraction (annual)",
+      "description": "Annual real GDP growth rate",
+      "category": "macro",
+      "annual": {}
+    },
+    "population": {
+      "unit": "million persons",
+      "description": "Total population",
+      "category": "macro",
+      "annual": {}
+    },
+    "energy_intensity_gdp": {
+      "unit": "MJ/$ GDP (real 2024 USD)",
+      "description": "Primary energy consumption per unit of GDP",
+      "category": "macro",
+      "annual": {}
+    },
+    "saf_production": {
+      "unit": "billion gallons/yr",
+      "description": "Sustainable aviation fuel production",
+      "category": "biofuels",
+      "annual": {}
+    },
+    "mineral_demand_lithium": {
+      "unit": "kt/yr",
+      "description": "Lithium demand from clean energy technologies",
+      "category": "minerals",
+      "annual": {}
+    },
+    "mineral_demand_cobalt": {
+      "unit": "kt/yr",
+      "description": "Cobalt demand from clean energy technologies",
+      "category": "minerals",
+      "annual": {}
+    },
+    "mineral_demand_nickel": {
+      "unit": "kt/yr",
+      "description": "Nickel demand from clean energy technologies",
+      "category": "minerals",
+      "annual": {}
+    },
+    "mineral_demand_copper": {
+      "unit": "kt/yr",
+      "description": "Copper demand from clean energy technologies",
+      "category": "minerals",
+      "annual": {}
+    },
+    "mineral_demand_rare_earths": {
+      "unit": "kt/yr",
+      "description": "Rare earth elements demand from clean energy technologies",
+      "category": "minerals",
+      "annual": {}
+    }
+  },
+  "cross_correlations": {}
+}

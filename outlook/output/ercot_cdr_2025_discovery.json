@@ -1,0 +1,1121 @@
+{
+  "cdr_year": 2025,
+  "cdr_edition": "May",
+  "file": "data/CapacityDemandandReservesReport_May2025_Revised.xlsx",
+  "sheets": [
+    {
+      "name": "TitlePage",
+      "max_row": 42,
+      "max_column": 22,
+      "sample_headers": [],
+      "year_columns": {}
+    },
+    {
+      "name": "Contents",
+      "max_row": 18,
+      "max_column": 3,
+      "sample_headers": [
+        {
+          "row": 1,
+          "values": [
+            "Table of Contents"
+          ]
+        },
+        {
+          "row": 3,
+          "values": [
+            "Tab",
+            "Notes"
+          ]
+        },
+        {
+          "row": 4,
+          "values": [
+            "Disclaimer",
+            "Please read"
+          ]
+        },
+        {
+          "row": 5,
+          "values": [
+            "MAIN REPORT"
+          ]
+        },
+        {
+          "row": 6,
+          "values": [
+            "Findings & Discussion",
+            "Overview and highlights of the CDR"
+          ]
+        },
+        {
+          "row": 7,
+          "values": [
+            "Load-Resource Scenarios",
+            "Presents condensed demand-resource summaries for the summer and winter seasons based on alternative peak demand and/or resource scenarios"
+          ]
+        },
+        {
+          "row": 8,
+          "values": [
+            "Seasonal Summary",
+            "Shows load forecasts, resource capacities and reserve margins for the next five summer, winter, spring, fall seasons, for both the expected Peak Load hour and Peak Net Load Hour"
+          ]
+        },
+        {
+          "row": 9,
+          "values": [
+            "DATA TABLES"
+          ]
+        },
+        {
+          "row": 10,
+          "values": [
+            "Unit Details",
+            "List of registered resources and capabilities used in determining the capacity contributions by Season"
+          ]
+        }
+      ],
+      "year_columns": {}
+    },
+    {
+      "name": "Disclaimer",
+      "max_row": 7,
+      "max_column": 5,
+      "sample_headers": [
+        {
+          "row": 1,
+          "values": [
+            "Disclaimer"
+          ]
+        },
+        {
+          "row": 3,
+          "values": [
+            "FOR PLANNING PURPOSES ONLY"
+          ]
+        },
+        {
+          "row": 5,
+          "values": [
+            "This CDR report has been prepared using data provided by ERCOT and Market Participants. The data may contain errors or become obsolete and thereby affect the accuracy of report results.  ERCOT MAKES NO WARRANTY, EXPRESS OR IMPLIED, INCLUDING ANY WARRANTY OF MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE, AND DISCLAIMS ANY AND ALL LIABILITY WITH RESPECT TO THE ACCURACY OF SAME OR THE FITNESS OR APPROPRIATENESS OF SAME FOR ANY PARTICULAR USE.  THIS ERCOT REPORT IS SUPPLIED WITH ALL FAULTS.  The specific suitability for any use of the CDR report and its accuracy should be confirmed by each ERCOT Market Participant that contributed data."
+          ]
+        }
+      ],
+      "year_columns": {}
+    },
+    {
+      "name": "Main Report-------->",
+      "max_row": 1,
+      "max_column": 1,
+      "sample_headers": [],
+      "year_columns": {}
+    },
+    {
+      "name": "Findings & Discussion",
+      "max_row": 133,
+      "max_column": 23,
+      "sample_headers": [
+        {
+          "row": 2,
+          "values": [
+            "CDR - Findings & Discussion"
+          ]
+        },
+        {
+          "row": 4,
+          "values": [
+            "Overview"
+          ]
+        },
+        {
+          "row": 6,
+          "values": [
+            "\u25cf",
+            "This CDR reflects a late April 2025 snapshot of expected resources and loads based on prescriptive rules (ERCOT Protocols), load forecasting methodologies, and information from resource developers/owners and transmission companies. The CDR provides a deterministic view of future resource adequacy along with several alternative load and planned resource scenarios designed to capture a range of potential reserve margin outcomes. Since the CDR is based on forecasted information as of a certain point in time, state/federal policy changes, economic developments, market design initiatives, evolving grid management practices, and technology improvements, can significantly alter the long-term resource adequacy outcome as reflected in this CDR. Nevertheless, the CDR signals an indicative trend of eroding resource adequacy (planning reserve margins) in the absence of major mitigating factors."
+          ]
+        },
+        {
+          "row": 7,
+          "values": [
+            "A description of the most significant load and resource uncertainties and how they are addressed through alternative deterministic scenarios is provided in the Load/Resource Forecast Uncertainty section below."
+          ]
+        },
+        {
+          "row": 8,
+          "values": [
+            "\u25cf",
+            "One scenario in this CDR\u2014using \"Protocol Prescribed\" capacity resources and the new ERCOT Adjusted Load Forecast\u2014indicates that summer Planning Reserve Margins for 2026 through 2030 decrease significantly from year to year, and cross over to negative values in 2028. (In contrast, for the last CDR released in February 2025, the crossover occurred in 2026/2027. The improved reserve margin outlook is mainly due to the updated load forecast described below.) The summer Margins for the peak Net Load hours are lower than for the peak Load hours due mainly to decreasing solar generation availability in the early evening when loads are still high."
+          ]
+        },
+        {
+          "row": 10,
+          "values": [
+            "CDR Methodology Changes"
+          ]
+        }
+      ],
+      "year_columns": {}
+    },
+    {
+      "name": "Load-Resource Scenarios",
+      "max_row": 50,
+      "max_column": 27,
+      "sample_headers": [
+        {
+          "row": 1,
+          "values": [
+            "Peak Load Hour Scenarios: Summer and Winter",
+            "Peak Net Load Hour Scenarios: Summer and Winter"
+          ]
+        },
+        {
+          "row": 2,
+          "values": [
+            "Peak Load Hour",
+            "Peak Net Load Hour"
+          ]
+        },
+        {
+          "row": 3,
+          "values": [
+            "Table 1: Summer Load and Resource Scenarios",
+            "2026",
+            "2027",
+            "2028",
+            "2029",
+            "2030",
+            "Table 1: Summer Load and Resource Scenarios",
+            "2026",
+            "2027",
+            "2028",
+            "2029",
+            "2030",
+            "Summer table inputs"
+          ]
+        },
+        {
+          "row": 4,
+          "values": [
+            "Firm Peak Load -- ERCOT Adjusted, MW",
+            "89666.53480062599",
+            "98768.96293351505",
+            "115919.46320207087",
+            "122949.62122902066",
+            "133054.77788080915",
+            "Firm Peak Net Load -- ERCOT Adjusted, MW",
+            "76918.94719513197",
+            "86132.51670560804",
+            "103358.74685928535",
+            "110576.66855467546",
+            "121242.32765045526",
+            "Load Forecast Scenarios",
+            "Adj. %",
+            "2026",
+            "2027"
+          ]
+        },
+        {
+          "row": 5,
+          "values": [
+            "TSP Officer Letter Load Scenario 1: 50% of TSP Officer Letter Loads replaces ERCOT Adjusted TSP Officer Letter Loads",
+            "93140.25568886199",
+            "107753.32909995105",
+            "129747.71140804287",
+            "142136.13216381666",
+            "149904.73197142917",
+            "TSP Officer Letter Load Scenario 1: 50% of TSP Officer Letter Loads replaces ERCOT Adjusted TSP Officer Letter Loads",
+            "80392.66808336797",
+            "95116.88287204404",
+            "117186.99506525736",
+            "129763.17948947144",
+            "138092.28174107528",
+            "ERCOT Adjusted Officer Letter Loads",
+            "2733.468611764",
+            "7420.348333564"
+          ]
+        },
+        {
+          "row": 6,
+          "values": [
+            "TSP Officer Letter Load Scenario 2: 100% of TSP Officer Letter Loads replaces ERCOT Adjusted TSP Officer Letter Loads",
+            "99347.445188862",
+            "124158.04359995105",
+            "160368.32340804287",
+            "182555.30816381663",
+            "194977.72797142918",
+            "TSP Officer Letter Load Scenario 2: 100% of TSP Officer Letter Loads replaces ERCOT Adjusted TSP Officer Letter Loads",
+            "86599.85758336798",
+            "111521.59737204404",
+            "147807.60706525735",
+            "170182.35548947143",
+            "183165.2777410753",
+            "Scenario 1: 50% of TSP Officer Letter Loads Included in the Forecast",
+            "0.5",
+            "6207.189500000004",
+            "16404.7145"
+          ]
+        },
+        {
+          "row": 7,
+          "values": [
+            "Total Capacity -- Protocol Prescribed, MW",
+            "105074.71231167273",
+            "107629.2824820494",
+            "110868.39077091226",
+            "110474.75695298097",
+            "110762.75695298097",
+            "Total Capacity for the Peak Net Load Hour -- Protocol Prescribed, MW",
+            "91898.30903980807",
+            "92093.44262981712",
+            "94062.85727343871",
+            "93387.63087534634",
+            "93675.63087534634",
+            "Scenario 2: 100% of TSP Officer Letter Loads Included in the Forecast",
+            "12414.379000000008",
+            "32809.429"
+          ]
+        },
+        {
+          "row": 8,
+          "values": [
+            "TEF Capacity Scenario 3: Includes all Texas Energy Fund projects not already in the CDR that are currently in the interconnection queue",
+            "106178.71231167273",
+            "109079.5824820494",
+            "116315.69077091226",
+            "117312.05695298097",
+            "117600.05695298097",
+            "TEF Capacity Scenario 3: Includes all Texas Energy Fund projects not already in the CDR that are currently in the interconnection queue",
+            "93002.30903980807",
+            "93543.74262981712",
+            "99510.15727343872",
+            "100224.93087534634",
+            "100512.93087534634"
+          ]
+        },
+        {
+          "row": 9,
+          "values": [
+            "TEF Capacity Scenario 4: Includes only Texas Energy Fund (TEF) projects for which an FIS has been requested",
+            "105074.71231167273",
+            "107975.5824820494",
+            "113245.69077091226",
+            "114242.05695298097",
+            "114530.05695298097",
+            "TEF Capacity Scenario 4: Includes only Texas Energy Fund (TEF) projects for which an FIS has been requested",
+            "91898.30903980807",
+            "92439.74262981712",
+            "96440.15727343872",
+            "97154.93087534634",
+            "97442.93087534634",
+            "Differences, ERCOT Adjusted and 50% TSP Officer Letter Load",
+            "-3473.720888236004",
+            "-8984.366166435997"
+          ]
+        },
+        {
+          "row": 10,
+          "values": [
+            "Differences, ERCOT Adjusted and 100% TSP Officer Letter Load",
+            "-9680.910388236009",
+            "-25389.080666435995"
+          ]
+        }
+      ],
+      "year_columns": {
+        "header_row": 3,
+        "years": [
+          2026,
+          2027,
+          2028,
+          2029,
+          2030
+        ]
+      }
+    },
+    {
+      "name": "Seasonal Summary",
+      "max_row": 66,
+      "max_column": 75,
+      "sample_headers": [
+        {
+          "row": 1,
+          "values": [
+            "Seasonal Summary"
+          ]
+        },
+        {
+          "row": 2,
+          "values": [
+            "Summer",
+            "Winter"
+          ]
+        },
+        {
+          "row": 3,
+          "values": [
+            "2026",
+            "2027",
+            "2028",
+            "2029",
+            "2030",
+            "2026/2027"
+          ]
+        },
+        {
+          "row": 4,
+          "values": [
+            "Peak Load Hour:",
+            "Peak Net Load Hour:",
+            "Difference\n[1] less [2]",
+            "Peak Load Hour:",
+            "Peak Net Load Hour:",
+            "Difference\n[4] less [5]",
+            "Peak Load Hour:",
+            "Peak Net Load Hour:",
+            "Difference\n[7] less [8]",
+            "Peak Load Hour:",
+            "Peak Net Load Hour:",
+            "Difference\n[10] less [11]",
+            "Peak Load Hour:",
+            "Peak Net Load Hour:",
+            "Difference\n[13] less [14]",
+            "Peak Load Hour:"
+          ]
+        },
+        {
+          "row": 5,
+          "values": [
+            "17",
+            "21",
+            "17",
+            "21",
+            "17",
+            "21",
+            "17",
+            "21",
+            "17",
+            "21",
+            "8"
+          ]
+        },
+        {
+          "row": 6,
+          "values": [
+            "[1]",
+            "[2]",
+            "[3]",
+            "[4]",
+            "[5]",
+            "[6]",
+            "[7]",
+            "[8]",
+            "[9]",
+            "[10]",
+            "[11]",
+            "[12]",
+            "[13]",
+            "[14]",
+            "[15]",
+            "[16]"
+          ]
+        },
+        {
+          "row": 7,
+          "values": [
+            "Load Forecast and Adjustments, MW:"
+          ]
+        },
+        {
+          "row": 8,
+          "values": [
+            "Total Seasonal Load based on normal weather conditions*",
+            "95419.42689039312",
+            "81472.40191462875",
+            "13947.024975764376",
+            "105405.66779934584",
+            "91169.66651473162",
+            "14236.00128461422",
+            "123088.85605830186",
+            "108421.91988295445",
+            "14666.936175347408",
+            "130782.96346697125",
+            "115672.2791614954",
+            "15110.68430547585",
+            "141703.70549374598",
+            "126377.78751280984",
+            "15325.917980936138",
+            "84057.29840185336"
+          ]
+        },
+        {
+          "row": 9,
+          "values": [
+            "less:  Incremental Rooftop PV Forecast",
+            "-1260.369733815955",
+            "-60.93236354559055",
+            "-1199.4373702703645",
+            "-1681.022815129857",
+            "-81.4677584226456",
+            "-1599.5550567072114",
+            "-2213.710805530052",
+            "-107.4909729681484",
+            "-2106.2198325619033",
+            "-2877.660187249659",
+            "-139.9285561189988",
+            "-2737.7316311306604",
+            "-3693.245562235888",
+            "-179.7778116536298",
+            "-3513.4677505822583",
+            "-36.94051044344656"
+          ]
+        },
+        {
+          "row": 10,
+          "values": [
+            "less:  Load Resources providing Responsive Reserves",
+            "-975.12",
+            "-975.12",
+            "0",
+            "-975.12",
+            "-975.12",
+            "0",
+            "-975.12",
+            "-975.12",
+            "0",
+            "-975.12",
+            "-975.12",
+            "0",
+            "-975.12",
+            "-975.12",
+            "0",
+            "-1498.38"
+          ]
+        }
+      ],
+      "year_columns": {
+        "header_row": 3,
+        "years": [
+          2026,
+          2027,
+          2028,
+          2029,
+          2030
+        ]
+      }
+    },
+    {
+      "name": "Data Tables-------->",
+      "max_row": 1,
+      "max_column": 1,
+      "sample_headers": [],
+      "year_columns": {}
+    },
+    {
+      "name": "Unit Details",
+      "max_row": 1702,
+      "max_column": 32,
+      "sample_headers": [
+        {
+          "row": 2,
+          "values": [
+            "NOTES"
+          ]
+        },
+        {
+          "row": 3,
+          "values": [
+            "See the Acronym tab for terms associated with the Technology, Fuel, Status and CDR Resource Attribute columns below."
+          ]
+        },
+        {
+          "row": 4,
+          "values": [
+            "Installed capacity ratings are based on the maximum power that a generating unit can produce during normal sustained operating conditions as specified by the equipment manufacturer. These ratings reflect the latest information in the Resource Integration and Ongoing Operations - Resources Services (RIOO-RS) system."
+          ]
+        },
+        {
+          "row": 5,
+          "values": [
+            "Seasonal Capabilities are based on the reported Seasonal Net Sustained Capabilities in RIOO-RS. For planned projects, if Net Sustained Capabilities are not available, then the maximum capacities reported in the RIOO-Information Services (RIOO-RS) system are used."
+          ]
+        },
+        {
+          "row": 6,
+          "values": [
+            "Capacity changes due to planned repower/upgrade projects are reflected in the operational units' ratings upon receipt and ERCOT approval of updated resource registration system information. Interconnection requests for existing resources that involve MW capacity changes are indicated with a code in the \u201cGeneration Interconnection Project Code\u201d column."
+          ]
+        },
+        {
+          "row": 7,
+          "values": [
+            "The capacities of planned projects that have been approved for Initial Synchronization at the time of report creation are assumed to be available for the season regardless of their projected Commercial Operations Dates.",
+            "HIGHEST-RISK SEASONS"
+          ]
+        },
+        {
+          "row": 8,
+          "values": [
+            "Summer Capabilities, MW\n(As of the Season Start Date, June 1)",
+            "Winter Capabilities, MW\n(As of the Season Start Date, December 1)"
+          ]
+        },
+        {
+          "row": 9,
+          "values": [
+            "UNIT NAME",
+            "INTERCONNECTION REQUEST\n NUMBER (INR)",
+            "UNIT CODE",
+            "TECHNOLOGY",
+            "FUEL",
+            "CDR STATUS",
+            "CDR RESOURCE ATTRIBUTE",
+            "COUNTY",
+            "ZONE",
+            "IN-SERVICE\nDATE",
+            "INSTALLED CAPACITY\n(MW)",
+            "2026",
+            "2027",
+            "2028",
+            "2029",
+            "2030",
+            "2026/2027",
+            "2027/2028",
+            "2028/2029"
+          ]
+        },
+        {
+          "row": 10,
+          "values": [
+            "COMANCHE PEAK U1",
+            "CPSES_UNIT1",
+            "ST",
+            "NUCLEAR",
+            "OPER",
+            "CONV",
+            "SOMERVELL",
+            "NORTH",
+            "1990-08-13 00:00:00",
+            "1269",
+            "1205",
+            "1205",
+            "1205",
+            "1205",
+            "1205",
+            "1235",
+            "1235",
+            "1235"
+          ]
+        }
+      ],
+      "year_columns": {
+        "header_row": 9,
+        "years": [
+          2026,
+          2027,
+          2028,
+          2029,
+          2030
+        ]
+      }
+    },
+    {
+      "name": "Capacity by Resource Type",
+      "max_row": 63,
+      "max_column": 188,
+      "sample_headers": [
+        {
+          "row": 2,
+          "values": [
+            "Operational Resources, MW [1]",
+            "Installed Capacity Rating [2]"
+          ]
+        },
+        {
+          "row": 3,
+          "values": [
+            "Summer 2026",
+            "Summer 2030",
+            "Winter 2026/27",
+            "Winter 2030/31",
+            "Spring 2026",
+            "Spring 2030",
+            "Fall 2026",
+            "Fall 2030"
+          ]
+        },
+        {
+          "row": 4,
+          "values": [
+            "Thermal, Fossil Fuel and Nuclear",
+            "85750.866",
+            "84769.866",
+            "86620.116",
+            "84883.116",
+            "87673.116",
+            "85409.116",
+            "87011.116",
+            "85151.116"
+          ]
+        },
+        {
+          "row": 5,
+          "values": [
+            "Natural Gas",
+            "65769.476",
+            "66925.476",
+            "66638.726",
+            "67038.726",
+            "67691.726",
+            "67564.726",
+            "67029.726",
+            "67306.726"
+          ]
+        },
+        {
+          "row": 6,
+          "values": [
+            "Combined-cycle",
+            "42862.12899999999",
+            "43741.12899999999",
+            "43562.12899999999",
+            "43741.12899999999",
+            "44141.12899999999",
+            "44141.12899999999",
+            "44141.12899999999",
+            "44141.12899999999"
+          ]
+        },
+        {
+          "row": 7,
+          "values": [
+            "Combustion Turbine",
+            "11182.871999999998",
+            "11182.871999999998",
+            "11384.871999999998",
+            "11384.871999999998",
+            "11788.871999999998",
+            "11384.871999999998",
+            "11182.871999999998",
+            "11182.871999999998"
+          ]
+        },
+        {
+          "row": 8,
+          "values": [
+            "Internal Combustion Engine",
+            "732.3199999999998",
+            "732.3199999999998",
+            "844.3199999999998",
+            "788.3199999999998",
+            "788.3199999999998",
+            "788.3199999999998",
+            "732.3199999999998",
+            "732.3199999999998"
+          ]
+        },
+        {
+          "row": 9,
+          "values": [
+            "Steam Turbine",
+            "10992.155000000002",
+            "11269.155000000002",
+            "10847.405000000002",
+            "11124.405000000002",
+            "10973.405000000002",
+            "11250.405000000002",
+            "10973.405000000002",
+            "11250.405000000002"
+          ]
+        },
+        {
+          "row": 10,
+          "values": [
+            "Compressed Air Energy Storage",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      ],
+      "year_columns": {}
+    },
+    {
+      "name": "ELCCs",
+      "max_row": 145,
+      "max_column": 87,
+      "sample_headers": [
+        {
+          "row": 1,
+          "values": [
+            "What is an Effective Load Carrying Capability?"
+          ]
+        },
+        {
+          "row": 3,
+          "values": [
+            "ELCC measures the effectiveness of a resource type\u2014wind, solar and battery energy storage\u2014in maintaining a resource portfolio\u2019s reliability level over a given period. Reliability is measured as the expected frequency of loss-of-load (LOL) events, where an event represents an hourly period when rotating load shed is necessary to maintain overall grid reliability. The availability of the resource type when LOL events are more likely to occur determines the ELCC. ELCC is not a direct measure of generation output available for a given period, but rather an indicator of the expected reliability benefit of the capacity for the given period."
+          ]
+        },
+        {
+          "row": 4,
+          "values": [
+            "ELCCs estimated for the CDR reflect the resource reliability benefit for a given multi-hour \"risk period\" rather than an individual hour. The reason is that loss-of-load events can span multiple hours, which makes it impractical to calculate ELCCs for just a given hour."
+          ]
+        },
+        {
+          "row": 5,
+          "values": [
+            "Why has ERCOT changed its method for calculating the capacity contribution of wind and solar resources?"
+          ]
+        },
+        {
+          "row": 6,
+          "values": [
+            "ELCCs estimated for wind, solar and battery energy storage\u2014Inverter Based Resources, or IBRs\u2014are now being used for ERCOT\u2019s CDR. ELCCs replace a methodology whereby average historical wind and solar capacity availability is estimated for a sample of the highest peak load hours during past seasons. This prior approach fails to account for the expected reliability impacts of increasing wind and solar penetration, resulting in reserve margins that belie the increased reliability risk for these intermittent resources. Importantly, the ELCC method aligns the CDR with how IBRs are represented in the probabilistic simulation model to be used to support analysis for the Texas Public Utility Commission\u2019s new Reliability Standard."
+          ]
+        },
+        {
+          "row": 7,
+          "values": [
+            "How are ELCCs Estimated?"
+          ]
+        },
+        {
+          "row": 8,
+          "values": [
+            "A resource type\u2019s ELCC is gauged against so-called \u201cperfect capacity,\u201d which is hypothetical generation capacity that is available 100% of the time when the capacity is needed. For example, a wind ELCC of 25% means that the resource portfolio\u2019s wind capacity is only 25% as effective as perfect capacity in maintaining the portfolio\u2019s reliability level for the given period. The associated ELCC capacity is the ELCC percentage multiplied by the resource type\u2019s aggregate installed capacity in megawatts (MW).\n\nELCCs are determined by running a probabilistic reliability model for a future year. The model produces many reliability outcomes for the forecast year based on simulating grid conditions with variations in load and resource availabilities. ELCCs account for a resource type\u2019s average reliability contribution across all the simulation outcomes.\nThe basic process for estimating ELCCs is as follows:\n1. The future-year resource portfolio is first modified to meet a reliability level based on the reliability criteria established for a prevailing reliability standard. \n2. All the capacity for the resource type is then removed and replaced with perfect capacity until the reliability level is again reached based on simulation results. (The perfect capacity is a gas turbine plant with a zero-percent outage rate).\n3. The final step is to divide the perfect capacity added by the capacity of the resource type removed. The result is the ELCC percentage. ELCCs will aways be less than 100%."
+          ]
+        },
+        {
+          "row": 9,
+          "values": [
+            "ELCC study reports are available in the \"Wind, Solar and Energy Storage Resources\" section of the",
+            "ERCOT Resource Adequacy webpage."
+          ]
+        },
+        {
+          "row": 10,
+          "values": [
+            "Key Attributes of ELCCs"
+          ]
+        }
+      ],
+      "year_columns": {}
+    },
+    {
+      "name": "New CDR-Eligible Resources",
+      "max_row": 65,
+      "max_column": 34,
+      "sample_headers": [
+        {
+          "row": 1,
+          "values": [
+            "New Planned Resources Eligible for CDR Report since the Last CDR Report, Published Feb. 2025"
+          ]
+        },
+        {
+          "row": 3,
+          "values": [
+            "The table below lists the planned resources that have met certain ERCOT Planning Guide criteria necessary for the resources to be included in this CDR report. These criteria are as follows:"
+          ]
+        },
+        {
+          "row": 4,
+          "values": [
+            "Large Generators\n1. For all resource types a signed Standard Generation Interconnection Agreement (SGIA) or other binding agreement (for municipally-owned utilities or electric cooperatives).\n2. Air permits required by the Texas Commission on Environmental Quality (TCEQ) or notice that air permits are not required.\n3. Submission of a \"Declaration of Adequate Water Supplies\" and proof that the resource has sufficient water supplies for electricity generation. Solar, wind, and Energy Storage Resources are exempt from this requirement.\n4. Provided the required financial security for interconnection facility construction and that the TDSP has received a notice to proceed with interconnection construction. \n\nSee ERCOT Planning Guide Section 6.9(1)(d)(ii)(B)."
+          ]
+        },
+        {
+          "row": 5,
+          "values": [
+            "Small Generators\n1. ERCOT has determined that all data submission requirements for Resource Registration have been met and the generator is added to the ERCOT Network Operations Model. These requirement are met when the Small Generator has been issued a Model Ready Date."
+          ]
+        },
+        {
+          "row": 7,
+          "values": [
+            "Notes"
+          ]
+        },
+        {
+          "row": 8,
+          "values": [
+            "Year of Projected Commercial Operations: The year is based on the projected Commercial Operations Date (COD) reported by the project developer.\n\nPlanned projects with a \"(DGR)\" suffix indicate that the resource is a Distributed Generation Resource as defined in the ERCOT Nodal Protocols (Section 2.1).\n\nProjects ending with 'SLF' represent Battery Energy Storage Systems that are Self-Limiting Facilities (SLFs), where the MW capacities are reported as zero to reflect projects for which the battery system is sized to be less than the total nameplate capacity of all registered generators at the facility. Other generators at the facility typically include one or more inverter-based resources, such as solar."
+          ]
+        },
+        {
+          "row": 10,
+          "values": [
+            "UNIT NAME",
+            "INTERCONNECTION REQUEST\n NUMBER (INR)",
+            "UNIT CODE",
+            "TECHNOLOGY",
+            "FUEL",
+            "CDR STATUS",
+            "CDR RESOURCE ATTRIBUTE",
+            "COUNTY",
+            "ZONE",
+            "IN-SERVICE\nDATE",
+            "INSTALLED CAPACITY\n(MW)"
+          ]
+        }
+      ],
+      "year_columns": {}
+    },
+    {
+      "name": "Documentation----->",
+      "max_row": 1,
+      "max_column": 1,
+      "sample_headers": [],
+      "year_columns": {}
+    },
+    {
+      "name": "Acronyms",
+      "max_row": 73,
+      "max_column": 7,
+      "sample_headers": [
+        {
+          "row": 1,
+          "values": [
+            "Acronyms"
+          ]
+        },
+        {
+          "row": 2,
+          "values": [
+            "General"
+          ]
+        },
+        {
+          "row": 3,
+          "values": [
+            "GIM = Generator Interconnection or Modification request"
+          ]
+        },
+        {
+          "row": 4,
+          "values": [
+            "CDR = Capacity, Demand and Reserves Report"
+          ]
+        },
+        {
+          "row": 5,
+          "values": [
+            "COD = Commercial Operations Date"
+          ]
+        },
+        {
+          "row": 6,
+          "values": [
+            "ELCC = Effective Load Carrying Capability"
+          ]
+        },
+        {
+          "row": 7,
+          "values": [
+            "HE = Hour Ending"
+          ]
+        },
+        {
+          "row": 8,
+          "values": [
+            "INR = Interconnection Request Number"
+          ]
+        },
+        {
+          "row": 9,
+          "values": [
+            "RIOO-IS = \"Resource Integration and Ongoing Operations - Integration Services\" system"
+          ]
+        },
+        {
+          "row": 10,
+          "values": [
+            "RIOO-RS = \"Resource Integration and Ongoing Operations - Registration Services\" system"
+          ]
+        }
+      ],
+      "year_columns": {}
+    },
+    {
+      "name": "Definitions",
+      "max_row": 124,
+      "max_column": 10,
+      "sample_headers": [
+        {
+          "row": 1,
+          "values": [
+            "Definitions"
+          ]
+        },
+        {
+          "row": 3,
+          "values": [
+            "Available Mothballed Capacity based on Owner's Return Probability"
+          ]
+        },
+        {
+          "row": 4,
+          "values": [
+            "Mothballed capacity with a return-to-service probability of 50% or greater for a given season of the year, as provided by its owner, constitutes available mothballed generation. Return probabilities for individual units are considered protected information under the ERCOT Protocols and therefore are not included in this report."
+          ]
+        },
+        {
+          "row": 7,
+          "values": [
+            "Capacity Pending Retirement"
+          ]
+        },
+        {
+          "row": 8,
+          "values": [
+            "Announced retired capacity that is undergoing ERCOT grid reliability reviews pursuant to Nodal Protocol Section 3.14.1.2."
+          ]
+        },
+        {
+          "row": 10,
+          "values": [
+            "Contracted / Non-Contracted TSP Loads"
+          ]
+        }
+      ],
+      "year_columns": {}
+    },
+    {
+      "name": "Wind-Solar Region Mapping",
+      "max_row": 258,
+      "max_column": 5,
+      "sample_headers": [
+        {
+          "row": 1,
+          "values": [
+            "The tables below show what counties in the ERCOT region are mapped to the CDR Wind and Solar Regions."
+          ]
+        },
+        {
+          "row": 2,
+          "values": [
+            "Note: The CDR Wind and Solar Regions are intended to facilitate calculation of geographic-based Effective Load Carrying Capabilities (ELCCs) that represent wind and solar availabilities for Planning Reserve Margin calculation purposes. These are distinct from ERCOT zone definitions defined for other uses, such as the zones used for wind and solar production forecasting and reporting."
+          ]
+        },
+        {
+          "row": 4,
+          "values": [
+            "CDR Wind Region",
+            "County",
+            "CDR Solar Region",
+            "County"
+          ]
+        },
+        {
+          "row": 5,
+          "values": [
+            "Coastal",
+            "Aransas",
+            "West",
+            "Archer"
+          ]
+        },
+        {
+          "row": 6,
+          "values": [
+            "Coastal",
+            "Brazoria",
+            "West",
+            "Baylor"
+          ]
+        },
+        {
+          "row": 7,
+          "values": [
+            "Coastal",
+            "Calhoun",
+            "West",
+            "Borden"
+          ]
+        },
+        {
+          "row": 8,
+          "values": [
+            "Coastal",
+            "Cameron",
+            "West",
+            "Callahan"
+          ]
+        },
+        {
+          "row": 9,
+          "values": [
+            "Coastal",
+            "Chambers",
+            "West",
+            "Clay"
+          ]
+        },
+        {
+          "row": 10,
+          "values": [
+            "Coastal",
+            "Galveston",
+            "West",
+            "Coke"
+          ]
+        }
+      ],
+      "year_columns": {}
+    },
+    {
+      "name": "Background",
+      "max_row": 28,
+      "max_column": 20,
+      "sample_headers": [
+        {
+          "row": 2,
+          "values": [
+            "CDR Report Background"
+          ]
+        },
+        {
+          "row": 4,
+          "values": [
+            "The main purpose of the CDR is to provide forecasted Planning Reserve Margins by season and year. The Planning Reserve Margin represents the percentage of resource capacity, in excess of firm electricity demand, available to cover uncertainty in future demand, generator availability and new resource supply. Firm demand accounts for load reductions available through interruptible load programs controlled by ERCOT as well as incremental load reductions from rooftop solar systems. The methodologies used to develop Planning Reserve Margins and other elements of the CDR are outlined in the ERCOT Nodal Protocols, Section 3.2.6 (See https://www.ercot.com/mktrules/nprotocols/current). ERCOT's load forecasts are based on normal weather conditions and determined by the methodologies described in the methodology documents posted to the Load Forecast webpage, https://www.ercot.com/gridinfo/load/forecast. The CDR also conforms to requirements for resource adequacy reporting specified by the Public Utility Commission of Texas in their Substantive Rules, \u00a725.505(b)."
+          ]
+        },
+        {
+          "row": 6,
+          "values": [
+            "Resource data comes from generation capacity developers (Interconnecting Entities, IEs) and owners as reported in ERCOT's Resource Integration and Ongoing Operations (RIOO) system, as well as other data collection mechanisms described in the ERCOT Nodal Protocols."
+          ]
+        },
+        {
+          "row": 7,
+          "values": [
+            "Note that the CDR is not intended for characterizing the risk of capacity scarcity conditions from a real-time operations perspective."
+          ]
+        },
+        {
+          "row": 9,
+          "values": [
+            "Report Changes Introduced by Nodal Protocol Revision Requests 1219 and 945"
+          ]
+        }
+      ],
+      "year_columns": {}
+    }
+  ],
+  "tab_mapping": {
+    "load_resource_scenarios": "Load-Resource Scenarios",
+    "capacity_by_resource": "Capacity by Resource Type",
+    "seasonal_summary": "Seasonal Summary",
+    "unit_details": "Unit Details",
+    "elcc": "ELCCs",
+    "new_cdr_eligible": "New CDR-Eligible Resources",
+    "findings": "Findings & Discussion"
+  }
+}

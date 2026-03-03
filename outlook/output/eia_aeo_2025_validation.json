@@ -1,0 +1,929 @@
+{
+  "reference": {
+    "scenario": "reference",
+    "total_variables": 101,
+    "populated": 79,
+    "partial": 0,
+    "empty": 22,
+    "completeness_pct": 78.2,
+    "priority_1": {
+      "total": 58,
+      "populated": 51,
+      "pct": 87.9,
+      "target": "95%"
+    },
+    "priority_2": {
+      "total": 33,
+      "populated": 25,
+      "pct": 75.8,
+      "target": "80%"
+    },
+    "priority_3": {
+      "total": 10,
+      "populated": 3,
+      "pct": 30.0,
+      "target": "N/A"
+    },
+    "issues": [
+      {
+        "level": "WARNING",
+        "var": "lng_export_price",
+        "msg": "P2 variable empty"
+      },
+      {
+        "level": "ERROR",
+        "var": "ngcc_capex",
+        "msg": "P1 variable empty"
+      },
+      {
+        "level": "ERROR",
+        "var": "ngcc_heat_rate",
+        "msg": "P1 variable empty"
+      },
+      {
+        "level": "ERROR",
+        "var": "ngcc_lcoe",
+        "msg": "P1 variable empty"
+      },
+      {
+        "level": "WARNING",
+        "var": "ngct_capex",
+        "msg": "P2 variable empty"
+      },
+      {
+        "level": "ERROR",
+        "var": "ngcc_ccs_capex",
+        "msg": "P1 variable empty"
+      },
+      {
+        "level": "WARNING",
+        "var": "nuclear_conventional_capex",
+        "msg": "P2 variable empty"
+      },
+      {
+        "level": "WARNING",
+        "var": "capacity_battery_storage_energy",
+        "msg": "P2 variable empty"
+      },
+      {
+        "level": "ERROR",
+        "var": "peak_demand",
+        "msg": "P1 variable empty"
+      },
+      {
+        "level": "ERROR",
+        "var": "h2_carbon_intensity_by_pathway",
+        "msg": "P1 variable empty"
+      },
+      {
+        "level": "ERROR",
+        "var": "ccus_capture_total",
+        "msg": "P1 variable empty"
+      },
+      {
+        "level": "WARNING",
+        "var": "ccus_capture_power",
+        "msg": "P2 variable empty"
+      },
+      {
+        "level": "WARNING",
+        "var": "ccus_capture_industrial",
+        "msg": "P2 variable empty"
+      },
+      {
+        "level": "WARNING",
+        "var": "ccus_stored_geological",
+        "msg": "P2 variable empty"
+      },
+      {
+        "level": "WARNING",
+        "var": "rps_target",
+        "msg": "P2 variable empty"
+      }
+    ]
+  },
+  "high_oil_price": {
+    "scenario": "high_oil_price",
+    "total_variables": 101,
+    "populated": 79,
+    "partial": 0,
+    "empty": 22,
+    "completeness_pct": 78.2,
+    "priority_1": {
+      "total": 58,
+      "populated": 51,
+      "pct": 87.9,
+      "target": "95%"
+    },
+    "priority_2": {
+      "total": 33,
+      "populated": 25,
+      "pct": 75.8,
+      "target": "80%"
+    },
+    "priority_3": {
+      "total": 10,
+      "populated": 3,
+      "pct": 30.0,
+      "target": "N/A"
+    },
+    "issues": [
+      {
+        "level": "WARNING",
+        "var": "lng_export_price",
+        "msg": "P2 variable empty"
+      },
+      {
+        "level": "ERROR",
+        "var": "ngcc_capex",
+        "msg": "P1 variable empty"
+      },
+      {
+        "level": "ERROR",
+        "var": "ngcc_heat_rate",
+        "msg": "P1 variable empty"
+      },
+      {
+        "level": "ERROR",
+        "var": "ngcc_lcoe",
+        "msg": "P1 variable empty"
+      },
+      {
+        "level": "WARNING",
+        "var": "ngct_capex",
+        "msg": "P2 variable empty"
+      },
+      {
+        "level": "ERROR",
+        "var": "ngcc_ccs_capex",
+        "msg": "P1 variable empty"
+      },
+      {
+        "level": "WARNING",
+        "var": "nuclear_conventional_capex",
+        "msg": "P2 variable empty"
+      },
+      {
+        "level": "WARNING",
+        "var": "capacity_battery_storage_energy",
+        "msg": "P2 variable empty"
+      },
+      {
+        "level": "ERROR",
+        "var": "peak_demand",
+        "msg": "P1 variable empty"
+      },
+      {
+        "level": "ERROR",
+        "var": "h2_carbon_intensity_by_pathway",
+        "msg": "P1 variable empty"
+      },
+      {
+        "level": "ERROR",
+        "var": "ccus_capture_total",
+        "msg": "P1 variable empty"
+      },
+      {
+        "level": "WARNING",
+        "var": "ccus_capture_power",
+        "msg": "P2 variable empty"
+      },
+      {
+        "level": "WARNING",
+        "var": "ccus_capture_industrial",
+        "msg": "P2 variable empty"
+      },
+      {
+        "level": "WARNING",
+        "var": "ccus_stored_geological",
+        "msg": "P2 variable empty"
+      },
+      {
+        "level": "WARNING",
+        "var": "rps_target",
+        "msg": "P2 variable empty"
+      }
+    ]
+  },
+  "low_oil_price": {
+    "scenario": "low_oil_price",
+    "total_variables": 101,
+    "populated": 79,
+    "partial": 0,
+    "empty": 22,
+    "completeness_pct": 78.2,
+    "priority_1": {
+      "total": 58,
+      "populated": 51,
+      "pct": 87.9,
+      "target": "95%"
+    },
+    "priority_2": {
+      "total": 33,
+      "populated": 25,
+      "pct": 75.8,
+      "target": "80%"
+    },
+    "priority_3": {
+      "total": 10,
+      "populated": 3,
+      "pct": 30.0,
+      "target": "N/A"
+    },
+    "issues": [
+      {
+        "level": "WARNING",
+        "var": "lng_export_price",
+        "msg": "P2 variable empty"
+      },
+      {
+        "level": "ERROR",
+        "var": "ngcc_capex",
+        "msg": "P1 variable empty"
+      },
+      {
+        "level": "ERROR",
+        "var": "ngcc_heat_rate",
+        "msg": "P1 variable empty"
+      },
+      {
+        "level": "ERROR",
+        "var": "ngcc_lcoe",
+        "msg": "P1 variable empty"
+      },
+      {
+        "level": "WARNING",
+        "var": "ngct_capex",
+        "msg": "P2 variable empty"
+      },
+      {
+        "level": "ERROR",
+        "var": "ngcc_ccs_capex",
+        "msg": "P1 variable empty"
+      },
+      {
+        "level": "WARNING",
+        "var": "nuclear_conventional_capex",
+        "msg": "P2 variable empty"
+      },
+      {
+        "level": "WARNING",
+        "var": "capacity_battery_storage_energy",
+        "msg": "P2 variable empty"
+      },
+      {
+        "level": "ERROR",
+        "var": "peak_demand",
+        "msg": "P1 variable empty"
+      },
+      {
+        "level": "ERROR",
+        "var": "h2_carbon_intensity_by_pathway",
+        "msg": "P1 variable empty"
+      },
+      {
+        "level": "ERROR",
+        "var": "ccus_capture_total",
+        "msg": "P1 variable empty"
+      },
+      {
+        "level": "WARNING",
+        "var": "ccus_capture_power",
+        "msg": "P2 variable empty"
+      },
+      {
+        "level": "WARNING",
+        "var": "ccus_capture_industrial",
+        "msg": "P2 variable empty"
+      },
+      {
+        "level": "WARNING",
+        "var": "ccus_stored_geological",
+        "msg": "P2 variable empty"
+      },
+      {
+        "level": "WARNING",
+        "var": "rps_target",
+        "msg": "P2 variable empty"
+      }
+    ]
+  },
+  "high_oil_gas_supply": {
+    "scenario": "high_oil_gas_supply",
+    "total_variables": 101,
+    "populated": 79,
+    "partial": 0,
+    "empty": 22,
+    "completeness_pct": 78.2,
+    "priority_1": {
+      "total": 58,
+      "populated": 51,
+      "pct": 87.9,
+      "target": "95%"
+    },
+    "priority_2": {
+      "total": 33,
+      "populated": 25,
+      "pct": 75.8,
+      "target": "80%"
+    },
+    "priority_3": {
+      "total": 10,
+      "populated": 3,
+      "pct": 30.0,
+      "target": "N/A"
+    },
+    "issues": [
+      {
+        "level": "WARNING",
+        "var": "lng_export_price",
+        "msg": "P2 variable empty"
+      },
+      {
+        "level": "ERROR",
+        "var": "ngcc_capex",
+        "msg": "P1 variable empty"
+      },
+      {
+        "level": "ERROR",
+        "var": "ngcc_heat_rate",
+        "msg": "P1 variable empty"
+      },
+      {
+        "level": "ERROR",
+        "var": "ngcc_lcoe",
+        "msg": "P1 variable empty"
+      },
+      {
+        "level": "WARNING",
+        "var": "ngct_capex",
+        "msg": "P2 variable empty"
+      },
+      {
+        "level": "ERROR",
+        "var": "ngcc_ccs_capex",
+        "msg": "P1 variable empty"
+      },
+      {
+        "level": "WARNING",
+        "var": "nuclear_conventional_capex",
+        "msg": "P2 variable empty"
+      },
+      {
+        "level": "WARNING",
+        "var": "capacity_battery_storage_energy",
+        "msg": "P2 variable empty"
+      },
+      {
+        "level": "ERROR",
+        "var": "peak_demand",
+        "msg": "P1 variable empty"
+      },
+      {
+        "level": "ERROR",
+        "var": "h2_carbon_intensity_by_pathway",
+        "msg": "P1 variable empty"
+      },
+      {
+        "level": "ERROR",
+        "var": "ccus_capture_total",
+        "msg": "P1 variable empty"
+      },
+      {
+        "level": "WARNING",
+        "var": "ccus_capture_power",
+        "msg": "P2 variable empty"
+      },
+      {
+        "level": "WARNING",
+        "var": "ccus_capture_industrial",
+        "msg": "P2 variable empty"
+      },
+      {
+        "level": "WARNING",
+        "var": "ccus_stored_geological",
+        "msg": "P2 variable empty"
+      },
+      {
+        "level": "WARNING",
+        "var": "rps_target",
+        "msg": "P2 variable empty"
+      }
+    ]
+  },
+  "low_oil_gas_supply": {
+    "scenario": "low_oil_gas_supply",
+    "total_variables": 101,
+    "populated": 79,
+    "partial": 0,
+    "empty": 22,
+    "completeness_pct": 78.2,
+    "priority_1": {
+      "total": 58,
+      "populated": 51,
+      "pct": 87.9,
+      "target": "95%"
+    },
+    "priority_2": {
+      "total": 33,
+      "populated": 25,
+      "pct": 75.8,
+      "target": "80%"
+    },
+    "priority_3": {
+      "total": 10,
+      "populated": 3,
+      "pct": 30.0,
+      "target": "N/A"
+    },
+    "issues": [
+      {
+        "level": "WARNING",
+        "var": "lng_export_price",
+        "msg": "P2 variable empty"
+      },
+      {
+        "level": "ERROR",
+        "var": "ngcc_capex",
+        "msg": "P1 variable empty"
+      },
+      {
+        "level": "ERROR",
+        "var": "ngcc_heat_rate",
+        "msg": "P1 variable empty"
+      },
+      {
+        "level": "ERROR",
+        "var": "ngcc_lcoe",
+        "msg": "P1 variable empty"
+      },
+      {
+        "level": "WARNING",
+        "var": "ngct_capex",
+        "msg": "P2 variable empty"
+      },
+      {
+        "level": "ERROR",
+        "var": "ngcc_ccs_capex",
+        "msg": "P1 variable empty"
+      },
+      {
+        "level": "WARNING",
+        "var": "nuclear_conventional_capex",
+        "msg": "P2 variable empty"
+      },
+      {
+        "level": "WARNING",
+        "var": "capacity_battery_storage_energy",
+        "msg": "P2 variable empty"
+      },
+      {
+        "level": "ERROR",
+        "var": "peak_demand",
+        "msg": "P1 variable empty"
+      },
+      {
+        "level": "ERROR",
+        "var": "h2_carbon_intensity_by_pathway",
+        "msg": "P1 variable empty"
+      },
+      {
+        "level": "ERROR",
+        "var": "ccus_capture_total",
+        "msg": "P1 variable empty"
+      },
+      {
+        "level": "WARNING",
+        "var": "ccus_capture_power",
+        "msg": "P2 variable empty"
+      },
+      {
+        "level": "WARNING",
+        "var": "ccus_capture_industrial",
+        "msg": "P2 variable empty"
+      },
+      {
+        "level": "WARNING",
+        "var": "ccus_stored_geological",
+        "msg": "P2 variable empty"
+      },
+      {
+        "level": "WARNING",
+        "var": "rps_target",
+        "msg": "P2 variable empty"
+      }
+    ]
+  },
+  "high_ztc": {
+    "scenario": "high_ztc",
+    "total_variables": 101,
+    "populated": 79,
+    "partial": 0,
+    "empty": 22,
+    "completeness_pct": 78.2,
+    "priority_1": {
+      "total": 58,
+      "populated": 51,
+      "pct": 87.9,
+      "target": "95%"
+    },
+    "priority_2": {
+      "total": 33,
+      "populated": 25,
+      "pct": 75.8,
+      "target": "80%"
+    },
+    "priority_3": {
+      "total": 10,
+      "populated": 3,
+      "pct": 30.0,
+      "target": "N/A"
+    },
+    "issues": [
+      {
+        "level": "WARNING",
+        "var": "lng_export_price",
+        "msg": "P2 variable empty"
+      },
+      {
+        "level": "ERROR",
+        "var": "ngcc_capex",
+        "msg": "P1 variable empty"
+      },
+      {
+        "level": "ERROR",
+        "var": "ngcc_heat_rate",
+        "msg": "P1 variable empty"
+      },
+      {
+        "level": "ERROR",
+        "var": "ngcc_lcoe",
+        "msg": "P1 variable empty"
+      },
+      {
+        "level": "WARNING",
+        "var": "ngct_capex",
+        "msg": "P2 variable empty"
+      },
+      {
+        "level": "ERROR",
+        "var": "ngcc_ccs_capex",
+        "msg": "P1 variable empty"
+      },
+      {
+        "level": "WARNING",
+        "var": "nuclear_conventional_capex",
+        "msg": "P2 variable empty"
+      },
+      {
+        "level": "WARNING",
+        "var": "capacity_battery_storage_energy",
+        "msg": "P2 variable empty"
+      },
+      {
+        "level": "ERROR",
+        "var": "peak_demand",
+        "msg": "P1 variable empty"
+      },
+      {
+        "level": "ERROR",
+        "var": "h2_carbon_intensity_by_pathway",
+        "msg": "P1 variable empty"
+      },
+      {
+        "level": "ERROR",
+        "var": "ccus_capture_total",
+        "msg": "P1 variable empty"
+      },
+      {
+        "level": "WARNING",
+        "var": "ccus_capture_power",
+        "msg": "P2 variable empty"
+      },
+      {
+        "level": "WARNING",
+        "var": "ccus_capture_industrial",
+        "msg": "P2 variable empty"
+      },
+      {
+        "level": "WARNING",
+        "var": "ccus_stored_geological",
+        "msg": "P2 variable empty"
+      },
+      {
+        "level": "WARNING",
+        "var": "rps_target",
+        "msg": "P2 variable empty"
+      }
+    ]
+  },
+  "low_ztc": {
+    "scenario": "low_ztc",
+    "total_variables": 101,
+    "populated": 79,
+    "partial": 0,
+    "empty": 22,
+    "completeness_pct": 78.2,
+    "priority_1": {
+      "total": 58,
+      "populated": 51,
+      "pct": 87.9,
+      "target": "95%"
+    },
+    "priority_2": {
+      "total": 33,
+      "populated": 25,
+      "pct": 75.8,
+      "target": "80%"
+    },
+    "priority_3": {
+      "total": 10,
+      "populated": 3,
+      "pct": 30.0,
+      "target": "N/A"
+    },
+    "issues": [
+      {
+        "level": "WARNING",
+        "var": "lng_export_price",
+        "msg": "P2 variable empty"
+      },
+      {
+        "level": "ERROR",
+        "var": "ngcc_capex",
+        "msg": "P1 variable empty"
+      },
+      {
+        "level": "ERROR",
+        "var": "ngcc_heat_rate",
+        "msg": "P1 variable empty"
+      },
+      {
+        "level": "ERROR",
+        "var": "ngcc_lcoe",
+        "msg": "P1 variable empty"
+      },
+      {
+        "level": "WARNING",
+        "var": "ngct_capex",
+        "msg": "P2 variable empty"
+      },
+      {
+        "level": "ERROR",
+        "var": "ngcc_ccs_capex",
+        "msg": "P1 variable empty"
+      },
+      {
+        "level": "WARNING",
+        "var": "nuclear_conventional_capex",
+        "msg": "P2 variable empty"
+      },
+      {
+        "level": "WARNING",
+        "var": "capacity_battery_storage_energy",
+        "msg": "P2 variable empty"
+      },
+      {
+        "level": "ERROR",
+        "var": "peak_demand",
+        "msg": "P1 variable empty"
+      },
+      {
+        "level": "ERROR",
+        "var": "h2_carbon_intensity_by_pathway",
+        "msg": "P1 variable empty"
+      },
+      {
+        "level": "ERROR",
+        "var": "ccus_capture_total",
+        "msg": "P1 variable empty"
+      },
+      {
+        "level": "WARNING",
+        "var": "ccus_capture_power",
+        "msg": "P2 variable empty"
+      },
+      {
+        "level": "WARNING",
+        "var": "ccus_capture_industrial",
+        "msg": "P2 variable empty"
+      },
+      {
+        "level": "WARNING",
+        "var": "ccus_stored_geological",
+        "msg": "P2 variable empty"
+      },
+      {
+        "level": "WARNING",
+        "var": "rps_target",
+        "msg": "P2 variable empty"
+      }
+    ]
+  },
+  "high_economic_growth": {
+    "scenario": "high_economic_growth",
+    "total_variables": 101,
+    "populated": 79,
+    "partial": 0,
+    "empty": 22,
+    "completeness_pct": 78.2,
+    "priority_1": {
+      "total": 58,
+      "populated": 51,
+      "pct": 87.9,
+      "target": "95%"
+    },
+    "priority_2": {
+      "total": 33,
+      "populated": 25,
+      "pct": 75.8,
+      "target": "80%"
+    },
+    "priority_3": {
+      "total": 10,
+      "populated": 3,
+      "pct": 30.0,
+      "target": "N/A"
+    },
+    "issues": [
+      {
+        "level": "WARNING",
+        "var": "lng_export_price",
+        "msg": "P2 variable empty"
+      },
+      {
+        "level": "ERROR",
+        "var": "ngcc_capex",
+        "msg": "P1 variable empty"
+      },
+      {
+        "level": "ERROR",
+        "var": "ngcc_heat_rate",
+        "msg": "P1 variable empty"
+      },
+      {
+        "level": "ERROR",
+        "var": "ngcc_lcoe",
+        "msg": "P1 variable empty"
+      },
+      {
+        "level": "WARNING",
+        "var": "ngct_capex",
+        "msg": "P2 variable empty"
+      },
+      {
+        "level": "ERROR",
+        "var": "ngcc_ccs_capex",
+        "msg": "P1 variable empty"
+      },
+      {
+        "level": "WARNING",
+        "var": "nuclear_conventional_capex",
+        "msg": "P2 variable empty"
+      },
+      {
+        "level": "WARNING",
+        "var": "capacity_battery_storage_energy",
+        "msg": "P2 variable empty"
+      },
+      {
+        "level": "ERROR",
+        "var": "peak_demand",
+        "msg": "P1 variable empty"
+      },
+      {
+        "level": "ERROR",
+        "var": "h2_carbon_intensity_by_pathway",
+        "msg": "P1 variable empty"
+      },
+      {
+        "level": "ERROR",
+        "var": "ccus_capture_total",
+        "msg": "P1 variable empty"
+      },
+      {
+        "level": "WARNING",
+        "var": "ccus_capture_power",
+        "msg": "P2 variable empty"
+      },
+      {
+        "level": "WARNING",
+        "var": "ccus_capture_industrial",
+        "msg": "P2 variable empty"
+      },
+      {
+        "level": "WARNING",
+        "var": "ccus_stored_geological",
+        "msg": "P2 variable empty"
+      },
+      {
+        "level": "WARNING",
+        "var": "rps_target",
+        "msg": "P2 variable empty"
+      }
+    ]
+  },
+  "low_economic_growth": {
+    "scenario": "low_economic_growth",
+    "total_variables": 101,
+    "populated": 79,
+    "partial": 0,
+    "empty": 22,
+    "completeness_pct": 78.2,
+    "priority_1": {
+      "total": 58,
+      "populated": 51,
+      "pct": 87.9,
+      "target": "95%"
+    },
+    "priority_2": {
+      "total": 33,
+      "populated": 25,
+      "pct": 75.8,
+      "target": "80%"
+    },
+    "priority_3": {
+      "total": 10,
+      "populated": 3,
+      "pct": 30.0,
+      "target": "N/A"
+    },
+    "issues": [
+      {
+        "level": "WARNING",
+        "var": "lng_export_price",
+        "msg": "P2 variable empty"
+      },
+      {
+        "level": "ERROR",
+        "var": "ngcc_capex",
+        "msg": "P1 variable empty"
+      },
+      {
+        "level": "ERROR",
+        "var": "ngcc_heat_rate",
+        "msg": "P1 variable empty"
+      },
+      {
+        "level": "ERROR",
+        "var": "ngcc_lcoe",
+        "msg": "P1 variable empty"
+      },
+      {
+        "level": "WARNING",
+        "var": "ngct_capex",
+        "msg": "P2 variable empty"
+      },
+      {
+        "level": "ERROR",
+        "var": "ngcc_ccs_capex",
+        "msg": "P1 variable empty"
+      },
+      {
+        "level": "WARNING",
+        "var": "nuclear_conventional_capex",
+        "msg": "P2 variable empty"
+      },
+      {
+        "level": "WARNING",
+        "var": "capacity_battery_storage_energy",
+        "msg": "P2 variable empty"
+      },
+      {
+        "level": "ERROR",
+        "var": "peak_demand",
+        "msg": "P1 variable empty"
+      },
+      {
+        "level": "ERROR",
+        "var": "h2_carbon_intensity_by_pathway",
+        "msg": "P1 variable empty"
+      },
+      {
+        "level": "ERROR",
+        "var": "ccus_capture_total",
+        "msg": "P1 variable empty"
+      },
+      {
+        "level": "WARNING",
+        "var": "ccus_capture_power",
+        "msg": "P2 variable empty"
+      },
+      {
+        "level": "WARNING",
+        "var": "ccus_capture_industrial",
+        "msg": "P2 variable empty"
+      },
+      {
+        "level": "WARNING",
+        "var": "ccus_stored_geological",
+        "msg": "P2 variable empty"
+      },
+      {
+        "level": "WARNING",
+        "var": "rps_target",
+        "msg": "P2 variable empty"
+      }
+    ]
+  }
+}

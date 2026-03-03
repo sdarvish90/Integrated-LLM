@@ -1,0 +1,4374 @@
+{
+  "atb_year": 2024,
+  "csv_url": "https://oedi-data-lake.s3.amazonaws.com/ATB/electricity/csv/2024/v3.0.0/ATBe.csv",
+  "total_rows": 572232,
+  "format": "long",
+  "available_years": [
+    2022,
+    2023,
+    2024,
+    2025,
+    2026,
+    2027,
+    2028,
+    2029,
+    2030,
+    2031,
+    2032,
+    2033,
+    2034,
+    2035,
+    2036,
+    2037,
+    2038,
+    2039,
+    2040,
+    2041,
+    2042,
+    2043,
+    2044,
+    2045,
+    2046,
+    2047,
+    2048,
+    2049,
+    2050
+  ],
+  "column_map": {
+    "technology": "technology",
+    "techdetail": "techdetail",
+    "scenario": "scenario",
+    "metric": "core_metric_parameter",
+    "financial_case": "core_metric_case",
+    "units": "units",
+    "year": "core_metric_variable",
+    "value": "value"
+  },
+  "summary": {
+    "technologies": [
+      "Biopower",
+      "CSP",
+      "Coal_FE",
+      "Coal_Retrofits",
+      "CommPV",
+      "Commercial Battery Storage",
+      "DistributedWind",
+      "Geothermal",
+      "Hydropower",
+      "LandbasedWind",
+      "NaturalGas_FE",
+      "NaturalGas_Retrofits",
+      "Nuclear",
+      "OffShoreWind",
+      "Pumped Storage Hydropower",
+      "ResPV",
+      "Residential Battery Storage",
+      "Utility-Scale Battery Storage",
+      "Utility-Scale PV-Plus-Battery",
+      "UtilityPV"
+    ],
+    "techdetails": [
+      "",
+      "*",
+      "10Hr Battery Storage",
+      "1Hr Battery Storage",
+      "2Hr Battery Storage",
+      "4Hr Battery Storage",
+      "5kW/20kWh Battery Storage",
+      "6Hr Battery Storage",
+      "8Hr Battery Storage",
+      "Class1",
+      "Class10",
+      "Class11",
+      "Class12",
+      "Class13",
+      "Class14",
+      "Class2",
+      "Class3",
+      "Class4",
+      "Class5",
+      "Class6",
+      "Class7",
+      "Class8",
+      "Class9",
+      "Coal-95%-CCS",
+      "Coal-99%-CCS",
+      "Coal-IGCC",
+      "Coal-IGCC-90%-CCS",
+      "Coal-new",
+      "CommercialScaleClass1",
+      "CommercialScaleClass10",
+      "CommercialScaleClass2",
+      "CommercialScaleClass3",
+      "CommercialScaleClass4",
+      "CommercialScaleClass5",
+      "CommercialScaleClass6",
+      "CommercialScaleClass7",
+      "CommercialScaleClass8",
+      "CommercialScaleClass9",
+      "Dedicated",
+      "DeepEGSBinary",
+      "DeepEGSFlash",
+      "F-Frame CC 90%-CCS",
+      "F-Frame CC 95%-CCS",
+      "H-Frame CC 90%-CCS",
+      "H-Frame CC 95%-CCS",
+      "HydroBinary",
+      "HydroFlash",
+      "LargeScaleClass1",
+      "LargeScaleClass10",
+      "LargeScaleClass2",
+      "LargeScaleClass3",
+      "LargeScaleClass4",
+      "LargeScaleClass5",
+      "LargeScaleClass6",
+      "LargeScaleClass7",
+      "LargeScaleClass8",
+      "LargeScaleClass9",
+      "MidsizeScaleClass1",
+      "MidsizeScaleClass10",
+      "MidsizeScaleClass2",
+      "MidsizeScaleClass3",
+      "MidsizeScaleClass4",
+      "MidsizeScaleClass5",
+      "MidsizeScaleClass6",
+      "MidsizeScaleClass7",
+      "MidsizeScaleClass8",
+      "MidsizeScaleClass9",
+      "NFEGSBinary",
+      "NFEGSFlash",
+      "NG 1-on-1 Combined Cycle (H-Frame)",
+      "NG 1-on-1 Combined Cycle (H-Frame) 95% CCS",
+      "NG 1-on-1 Combined Cycle (H-Frame) 97% CCS",
+      "NG 2-on-1 Combined Cycle (F-Frame)",
+      "NG 2-on-1 Combined Cycle (F-Frame) 95% CCS",
+      "NG 2-on-1 Combined Cycle (F-Frame) 97% CCS",
+      "NG 2-on-1 Combined Cycle (H-Frame)",
+      "NG 2-on-1 Combined Cycle (H-Frame) 95% CCS",
+      "NG 2-on-1 Combined Cycle (H-Frame) 97% CCS",
+      "NG Combustion Turbine (F-Frame)",
+      "NG Fuel Cell",
+      "NG Fuel Cell 98% CCS",
+      "NPD1",
+      "NPD2",
+      "NPD3",
+      "NPD4",
+      "NPD5",
+      "NPD6",
+      "NPD7",
+      "NPD8",
+      "NSD1",
+      "NSD2",
+      "NSD3",
+      "NSD4",
+      "NatlClass1",
+      "NatlClass10",
+      "NatlClass11",
+      "NatlClass12",
+      "NatlClass13",
+      "NatlClass14",
+      "NatlClass15",
+      "NatlClass1ONR",
+      "NatlClass2",
+      "NatlClass3",
+      "NatlClass3ONR",
+      "NatlClass4",
+      "NatlClass4ONR",
+      "NatlClass5",
+      "NatlClass5ONR",
+      "NatlClass6",
+      "NatlClass7",
+      "NatlClass8",
+      "NatlClass9",
+      "Nuclear - Large",
+      "Nuclear - Small",
+      "ResidentialScaleClass1",
+      "ResidentialScaleClass10",
+      "ResidentialScaleClass2",
+      "ResidentialScaleClass3",
+      "ResidentialScaleClass4",
+      "ResidentialScaleClass5",
+      "ResidentialScaleClass6",
+      "ResidentialScaleClass7",
+      "ResidentialScaleClass8",
+      "ResidentialScaleClass9",
+      "ShortDurationResStorage"
+    ],
+    "metrics": [
+      "Additional OCC",
+      "CAPEX",
+      "CF",
+      "CFC",
+      "CRF",
+      "Calculated Interest Rate Real",
+      "Calculated Rate of Return on Equity Real",
+      "Debt Fraction",
+      "FCR",
+      "Fixed O&M",
+      "Fuel",
+      "GCC",
+      "Heat Rate",
+      "Heat Rate Penalty",
+      "Inflation Rate",
+      "Interest During Construction - Nominal",
+      "Interest Rate Nominal",
+      "LCOE",
+      "Net Output Penalty",
+      "OCC",
+      "Rate of Return on Equity Nominal",
+      "Tax Rate (Federal and State)",
+      "Variable O&M",
+      "WACC Nominal",
+      "WACC Real"
+    ],
+    "scenarios": [
+      "*",
+      "Advanced",
+      "Conservative",
+      "Moderate"
+    ],
+    "financial_cases": [
+      "Market",
+      "R&D"
+    ],
+    "units": [
+      ""
+    ]
+  },
+  "technology_tree": {
+    "Biopower": {
+      "*": {
+        "metrics": [
+          "CRF",
+          "Calculated Interest Rate Real",
+          "Calculated Rate of Return on Equity Real",
+          "Debt Fraction",
+          "FCR",
+          "Inflation Rate",
+          "Interest During Construction - Nominal",
+          "Interest Rate Nominal",
+          "Rate of Return on Equity Nominal",
+          "Tax Rate (Federal and State)",
+          "WACC Nominal",
+          "WACC Real"
+        ],
+        "scenarios": [
+          "*",
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Dedicated": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "Fuel",
+          "GCC",
+          "Heat Rate",
+          "LCOE",
+          "OCC",
+          "Variable O&M"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      }
+    },
+    "CSP": {
+      "*": {
+        "metrics": [
+          "CRF",
+          "Calculated Interest Rate Real",
+          "Calculated Rate of Return on Equity Real",
+          "Debt Fraction",
+          "FCR",
+          "Inflation Rate",
+          "Interest During Construction - Nominal",
+          "Interest Rate Nominal",
+          "Rate of Return on Equity Nominal",
+          "Tax Rate (Federal and State)",
+          "WACC Nominal",
+          "WACC Real"
+        ],
+        "scenarios": [
+          "*",
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Class2": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "GCC",
+          "LCOE",
+          "OCC",
+          "Variable O&M"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Class3": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "GCC",
+          "LCOE",
+          "OCC",
+          "Variable O&M"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Class8": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "GCC",
+          "LCOE",
+          "OCC",
+          "Variable O&M"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      }
+    },
+    "Coal_FE": {
+      "*": {
+        "metrics": [
+          "Calculated Interest Rate Real",
+          "Calculated Rate of Return on Equity Real",
+          "Debt Fraction",
+          "Inflation Rate",
+          "Interest During Construction - Nominal",
+          "Interest Rate Nominal",
+          "Rate of Return on Equity Nominal",
+          "Tax Rate (Federal and State)",
+          "WACC Nominal",
+          "WACC Real"
+        ],
+        "scenarios": [
+          "*",
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Coal-95%-CCS": {
+        "metrics": [
+          "CAPEX",
+          "CFC",
+          "Fixed O&M",
+          "GCC",
+          "Heat Rate",
+          "OCC",
+          "Variable O&M"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Coal-99%-CCS": {
+        "metrics": [
+          "CAPEX",
+          "CFC",
+          "Fixed O&M",
+          "GCC",
+          "Heat Rate",
+          "OCC",
+          "Variable O&M"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Coal-IGCC": {
+        "metrics": [
+          "CAPEX",
+          "CFC",
+          "Fixed O&M",
+          "GCC",
+          "Heat Rate",
+          "OCC",
+          "Variable O&M"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Coal-IGCC-90%-CCS": {
+        "metrics": [
+          "CAPEX",
+          "CFC",
+          "Fixed O&M",
+          "GCC",
+          "Heat Rate",
+          "OCC",
+          "Variable O&M"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Coal-new": {
+        "metrics": [
+          "CAPEX",
+          "CFC",
+          "Fixed O&M",
+          "GCC",
+          "Heat Rate",
+          "OCC",
+          "Variable O&M"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      }
+    },
+    "Coal_Retrofits": {
+      "": {
+        "metrics": [
+          "Additional OCC",
+          "Fixed O&M",
+          "Heat Rate",
+          "Heat Rate Penalty",
+          "Net Output Penalty",
+          "Variable O&M"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      }
+    },
+    "CommPV": {
+      "*": {
+        "metrics": [
+          "CRF",
+          "Calculated Interest Rate Real",
+          "Calculated Rate of Return on Equity Real",
+          "Debt Fraction",
+          "FCR",
+          "Inflation Rate",
+          "Interest During Construction - Nominal",
+          "Interest Rate Nominal",
+          "Rate of Return on Equity Nominal",
+          "Tax Rate (Federal and State)",
+          "WACC Nominal",
+          "WACC Real"
+        ],
+        "scenarios": [
+          "*",
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Class1": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Class10": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Class2": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Class3": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Class4": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Class5": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Class6": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Class7": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Class8": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Class9": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      }
+    },
+    "Commercial Battery Storage": {
+      "1Hr Battery Storage": {
+        "metrics": [
+          "CAPEX",
+          "CFC",
+          "Fixed O&M",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "2Hr Battery Storage": {
+        "metrics": [
+          "CAPEX",
+          "CFC",
+          "Fixed O&M",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "4Hr Battery Storage": {
+        "metrics": [
+          "CAPEX",
+          "CFC",
+          "Fixed O&M",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "6Hr Battery Storage": {
+        "metrics": [
+          "CAPEX",
+          "CFC",
+          "Fixed O&M",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "8Hr Battery Storage": {
+        "metrics": [
+          "CAPEX",
+          "CFC",
+          "Fixed O&M",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      }
+    },
+    "DistributedWind": {
+      "*": {
+        "metrics": [
+          "CRF",
+          "Calculated Interest Rate Real",
+          "Calculated Rate of Return on Equity Real",
+          "Debt Fraction",
+          "FCR",
+          "Inflation Rate",
+          "Interest During Construction - Nominal",
+          "Interest Rate Nominal",
+          "Rate of Return on Equity Nominal",
+          "Tax Rate (Federal and State)",
+          "WACC Nominal",
+          "WACC Real"
+        ],
+        "scenarios": [
+          "*",
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "CommercialScaleClass1": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "CommercialScaleClass10": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "CommercialScaleClass2": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "CommercialScaleClass3": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "CommercialScaleClass4": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "CommercialScaleClass5": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "CommercialScaleClass6": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "CommercialScaleClass7": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "CommercialScaleClass8": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "CommercialScaleClass9": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "LargeScaleClass1": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "LargeScaleClass10": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "LargeScaleClass2": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "LargeScaleClass3": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "LargeScaleClass4": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "LargeScaleClass5": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "LargeScaleClass6": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "LargeScaleClass7": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "LargeScaleClass8": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "LargeScaleClass9": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "MidsizeScaleClass1": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "MidsizeScaleClass10": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "MidsizeScaleClass2": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "MidsizeScaleClass3": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "MidsizeScaleClass4": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "MidsizeScaleClass5": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "MidsizeScaleClass6": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "MidsizeScaleClass7": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "MidsizeScaleClass8": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "MidsizeScaleClass9": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "ResidentialScaleClass1": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "ResidentialScaleClass10": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "ResidentialScaleClass2": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "ResidentialScaleClass3": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "ResidentialScaleClass4": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "ResidentialScaleClass5": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "ResidentialScaleClass6": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "ResidentialScaleClass7": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "ResidentialScaleClass8": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "ResidentialScaleClass9": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      }
+    },
+    "Geothermal": {
+      "*": {
+        "metrics": [
+          "CRF",
+          "Calculated Interest Rate Real",
+          "Calculated Rate of Return on Equity Real",
+          "Debt Fraction",
+          "FCR",
+          "Inflation Rate",
+          "Interest During Construction - Nominal",
+          "Interest Rate Nominal",
+          "Rate of Return on Equity Nominal",
+          "Tax Rate (Federal and State)",
+          "WACC Nominal",
+          "WACC Real"
+        ],
+        "scenarios": [
+          "*",
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "DeepEGSBinary": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "GCC",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "DeepEGSFlash": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "GCC",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "HydroBinary": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "GCC",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "HydroFlash": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "GCC",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "NFEGSBinary": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "GCC",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "NFEGSFlash": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "GCC",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      }
+    },
+    "Hydropower": {
+      "*": {
+        "metrics": [
+          "CRF",
+          "Calculated Interest Rate Real",
+          "Calculated Rate of Return on Equity Real",
+          "Debt Fraction",
+          "FCR",
+          "Inflation Rate",
+          "Interest During Construction - Nominal",
+          "Interest Rate Nominal",
+          "Rate of Return on Equity Nominal",
+          "Tax Rate (Federal and State)",
+          "WACC Nominal",
+          "WACC Real"
+        ],
+        "scenarios": [
+          "*",
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "NPD1": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "NPD2": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "GCC",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "NPD3": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "GCC",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "NPD4": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "GCC",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "NPD5": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "GCC",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "NPD6": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "GCC",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "NPD7": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "GCC",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "NPD8": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "GCC",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "NSD1": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "GCC",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "NSD2": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "GCC",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "NSD3": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "GCC",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "NSD4": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "GCC",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      }
+    },
+    "LandbasedWind": {
+      "*": {
+        "metrics": [
+          "CRF",
+          "Calculated Interest Rate Real",
+          "Calculated Rate of Return on Equity Real",
+          "Debt Fraction",
+          "FCR",
+          "Inflation Rate",
+          "Interest During Construction - Nominal",
+          "Interest Rate Nominal",
+          "Rate of Return on Equity Nominal",
+          "Tax Rate (Federal and State)",
+          "WACC Nominal",
+          "WACC Real"
+        ],
+        "scenarios": [
+          "*",
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Class1": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "GCC",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Class10": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "GCC",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Class2": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "GCC",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Class3": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "GCC",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Class4": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "GCC",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Class5": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "GCC",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Class6": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "GCC",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Class7": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "GCC",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Class8": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "GCC",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Class9": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "GCC",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      }
+    },
+    "NaturalGas_FE": {
+      "*": {
+        "metrics": [
+          "Calculated Interest Rate Real",
+          "Calculated Rate of Return on Equity Real",
+          "Debt Fraction",
+          "Inflation Rate",
+          "Interest During Construction - Nominal",
+          "Interest Rate Nominal",
+          "Rate of Return on Equity Nominal",
+          "Tax Rate (Federal and State)",
+          "WACC Nominal",
+          "WACC Real"
+        ],
+        "scenarios": [
+          "*",
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "NG 1-on-1 Combined Cycle (H-Frame)": {
+        "metrics": [
+          "CAPEX",
+          "CFC",
+          "Fixed O&M",
+          "GCC",
+          "Heat Rate",
+          "OCC",
+          "Variable O&M"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "NG 1-on-1 Combined Cycle (H-Frame) 95% CCS": {
+        "metrics": [
+          "CAPEX",
+          "CFC",
+          "Fixed O&M",
+          "GCC",
+          "Heat Rate",
+          "OCC",
+          "Variable O&M"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "NG 1-on-1 Combined Cycle (H-Frame) 97% CCS": {
+        "metrics": [
+          "CAPEX",
+          "CFC",
+          "Fixed O&M",
+          "GCC",
+          "Heat Rate",
+          "OCC",
+          "Variable O&M"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "NG 2-on-1 Combined Cycle (F-Frame)": {
+        "metrics": [
+          "CAPEX",
+          "CFC",
+          "Fixed O&M",
+          "GCC",
+          "Heat Rate",
+          "OCC",
+          "Variable O&M"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "NG 2-on-1 Combined Cycle (F-Frame) 95% CCS": {
+        "metrics": [
+          "CAPEX",
+          "CFC",
+          "Fixed O&M",
+          "GCC",
+          "Heat Rate",
+          "OCC",
+          "Variable O&M"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "NG 2-on-1 Combined Cycle (F-Frame) 97% CCS": {
+        "metrics": [
+          "CAPEX",
+          "CFC",
+          "Fixed O&M",
+          "GCC",
+          "Heat Rate",
+          "OCC",
+          "Variable O&M"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "NG 2-on-1 Combined Cycle (H-Frame)": {
+        "metrics": [
+          "CAPEX",
+          "CFC",
+          "Fixed O&M",
+          "GCC",
+          "Heat Rate",
+          "OCC",
+          "Variable O&M"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "NG 2-on-1 Combined Cycle (H-Frame) 95% CCS": {
+        "metrics": [
+          "CAPEX",
+          "CFC",
+          "Fixed O&M",
+          "GCC",
+          "Heat Rate",
+          "OCC",
+          "Variable O&M"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "NG 2-on-1 Combined Cycle (H-Frame) 97% CCS": {
+        "metrics": [
+          "CAPEX",
+          "CFC",
+          "Fixed O&M",
+          "GCC",
+          "Heat Rate",
+          "OCC",
+          "Variable O&M"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "NG Combustion Turbine (F-Frame)": {
+        "metrics": [
+          "CAPEX",
+          "CFC",
+          "Fixed O&M",
+          "GCC",
+          "Heat Rate",
+          "OCC",
+          "Variable O&M"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "NG Fuel Cell": {
+        "metrics": [
+          "CAPEX",
+          "CFC",
+          "Fixed O&M",
+          "GCC",
+          "Heat Rate",
+          "OCC",
+          "Variable O&M"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "NG Fuel Cell 98% CCS": {
+        "metrics": [
+          "CAPEX",
+          "CFC",
+          "Fixed O&M",
+          "GCC",
+          "Heat Rate",
+          "OCC",
+          "Variable O&M"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      }
+    },
+    "NaturalGas_Retrofits": {
+      "F-Frame CC 90%-CCS": {
+        "metrics": [
+          "Additional OCC",
+          "Fixed O&M",
+          "Heat Rate",
+          "Heat Rate Penalty",
+          "Net Output Penalty",
+          "Variable O&M"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "F-Frame CC 95%-CCS": {
+        "metrics": [
+          "Additional OCC",
+          "Fixed O&M",
+          "Heat Rate",
+          "Heat Rate Penalty",
+          "Net Output Penalty",
+          "Variable O&M"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "H-Frame CC 90%-CCS": {
+        "metrics": [
+          "Additional OCC",
+          "Fixed O&M",
+          "Heat Rate",
+          "Heat Rate Penalty",
+          "Net Output Penalty",
+          "Variable O&M"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "H-Frame CC 95%-CCS": {
+        "metrics": [
+          "Additional OCC",
+          "Fixed O&M",
+          "Heat Rate",
+          "Heat Rate Penalty",
+          "Net Output Penalty",
+          "Variable O&M"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      }
+    },
+    "Nuclear": {
+      "*": {
+        "metrics": [
+          "CRF",
+          "Calculated Interest Rate Real",
+          "Calculated Rate of Return on Equity Real",
+          "Debt Fraction",
+          "FCR",
+          "Inflation Rate",
+          "Interest During Construction - Nominal",
+          "Interest Rate Nominal",
+          "Rate of Return on Equity Nominal",
+          "Tax Rate (Federal and State)",
+          "WACC Nominal",
+          "WACC Real"
+        ],
+        "scenarios": [
+          "*",
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Nuclear - Large": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "Fuel",
+          "GCC",
+          "Heat Rate",
+          "LCOE",
+          "OCC",
+          "Variable O&M"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Nuclear - Small": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "Fuel",
+          "GCC",
+          "Heat Rate",
+          "LCOE",
+          "OCC",
+          "Variable O&M"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      }
+    },
+    "OffShoreWind": {
+      "*": {
+        "metrics": [
+          "CRF",
+          "Calculated Interest Rate Real",
+          "Calculated Rate of Return on Equity Real",
+          "Debt Fraction",
+          "FCR",
+          "Inflation Rate",
+          "Interest During Construction - Nominal",
+          "Interest Rate Nominal",
+          "Rate of Return on Equity Nominal",
+          "Tax Rate (Federal and State)",
+          "WACC Nominal",
+          "WACC Real"
+        ],
+        "scenarios": [
+          "*",
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Class1": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "GCC",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Class10": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "GCC",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Class11": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "GCC",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Class12": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "GCC",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Class13": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "GCC",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Class14": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "GCC",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Class2": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "GCC",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Class3": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "GCC",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Class4": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "GCC",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Class5": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "GCC",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Class6": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "GCC",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Class7": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "GCC",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Class8": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "GCC",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Class9": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "GCC",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      }
+    },
+    "Pumped Storage Hydropower": {
+      "*": {
+        "metrics": [
+          "Calculated Interest Rate Real",
+          "Calculated Rate of Return on Equity Real",
+          "Debt Fraction",
+          "Inflation Rate",
+          "Interest During Construction - Nominal",
+          "Interest Rate Nominal",
+          "Rate of Return on Equity Nominal",
+          "Tax Rate (Federal and State)",
+          "WACC Nominal",
+          "WACC Real"
+        ],
+        "scenarios": [
+          "*",
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "NatlClass1": {
+        "metrics": [
+          "CAPEX",
+          "CFC",
+          "Fixed O&M",
+          "OCC",
+          "Variable O&M"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "NatlClass10": {
+        "metrics": [
+          "CAPEX",
+          "CFC",
+          "Fixed O&M",
+          "OCC",
+          "Variable O&M"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "NatlClass11": {
+        "metrics": [
+          "CAPEX",
+          "CFC",
+          "Fixed O&M",
+          "OCC",
+          "Variable O&M"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "NatlClass12": {
+        "metrics": [
+          "CAPEX",
+          "CFC",
+          "Fixed O&M",
+          "OCC",
+          "Variable O&M"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "NatlClass13": {
+        "metrics": [
+          "CAPEX",
+          "CFC",
+          "Fixed O&M",
+          "OCC",
+          "Variable O&M"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "NatlClass14": {
+        "metrics": [
+          "CAPEX",
+          "CFC",
+          "Fixed O&M",
+          "OCC",
+          "Variable O&M"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "NatlClass15": {
+        "metrics": [
+          "CAPEX",
+          "CFC",
+          "Fixed O&M",
+          "OCC",
+          "Variable O&M"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "NatlClass1ONR": {
+        "metrics": [
+          "CAPEX",
+          "CFC",
+          "Fixed O&M",
+          "OCC",
+          "Variable O&M"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "NatlClass2": {
+        "metrics": [
+          "CAPEX",
+          "CFC",
+          "Fixed O&M",
+          "OCC",
+          "Variable O&M"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "NatlClass3": {
+        "metrics": [
+          "CAPEX",
+          "CFC",
+          "Fixed O&M",
+          "OCC",
+          "Variable O&M"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "NatlClass3ONR": {
+        "metrics": [
+          "CAPEX",
+          "CFC",
+          "Fixed O&M",
+          "OCC",
+          "Variable O&M"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "NatlClass4": {
+        "metrics": [
+          "CAPEX",
+          "CFC",
+          "Fixed O&M",
+          "OCC",
+          "Variable O&M"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "NatlClass4ONR": {
+        "metrics": [
+          "CAPEX",
+          "CFC",
+          "Fixed O&M",
+          "OCC",
+          "Variable O&M"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "NatlClass5": {
+        "metrics": [
+          "CAPEX",
+          "CFC",
+          "Fixed O&M",
+          "OCC",
+          "Variable O&M"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "NatlClass5ONR": {
+        "metrics": [
+          "CAPEX",
+          "CFC",
+          "Fixed O&M",
+          "OCC",
+          "Variable O&M"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "NatlClass6": {
+        "metrics": [
+          "CAPEX",
+          "CFC",
+          "Fixed O&M",
+          "OCC",
+          "Variable O&M"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "NatlClass7": {
+        "metrics": [
+          "CAPEX",
+          "CFC",
+          "Fixed O&M",
+          "OCC",
+          "Variable O&M"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "NatlClass8": {
+        "metrics": [
+          "CAPEX",
+          "CFC",
+          "Fixed O&M",
+          "OCC",
+          "Variable O&M"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "NatlClass9": {
+        "metrics": [
+          "CAPEX",
+          "CFC",
+          "Fixed O&M",
+          "OCC",
+          "Variable O&M"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      }
+    },
+    "ResPV": {
+      "*": {
+        "metrics": [
+          "CRF",
+          "Calculated Interest Rate Real",
+          "Calculated Rate of Return on Equity Real",
+          "Debt Fraction",
+          "FCR",
+          "Inflation Rate",
+          "Interest During Construction - Nominal",
+          "Interest Rate Nominal",
+          "Rate of Return on Equity Nominal",
+          "Tax Rate (Federal and State)",
+          "WACC Nominal",
+          "WACC Real"
+        ],
+        "scenarios": [
+          "*",
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Class1": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "FCR",
+          "Fixed O&M",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Class10": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "FCR",
+          "Fixed O&M",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Class2": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "FCR",
+          "Fixed O&M",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Class3": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "FCR",
+          "Fixed O&M",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Class4": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "FCR",
+          "Fixed O&M",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Class5": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "FCR",
+          "Fixed O&M",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Class6": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "FCR",
+          "Fixed O&M",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Class7": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "FCR",
+          "Fixed O&M",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Class8": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "FCR",
+          "Fixed O&M",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Class9": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "FCR",
+          "Fixed O&M",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      }
+    },
+    "Residential Battery Storage": {
+      "5kW/20kWh Battery Storage": {
+        "metrics": [
+          "CAPEX",
+          "CFC",
+          "Fixed O&M",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "ShortDurationResStorage": {
+        "metrics": [
+          "CAPEX",
+          "CFC",
+          "Fixed O&M",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      }
+    },
+    "Utility-Scale Battery Storage": {
+      "10Hr Battery Storage": {
+        "metrics": [
+          "CAPEX",
+          "CFC",
+          "Fixed O&M",
+          "GCC",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "2Hr Battery Storage": {
+        "metrics": [
+          "CAPEX",
+          "CFC",
+          "Fixed O&M",
+          "GCC",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "4Hr Battery Storage": {
+        "metrics": [
+          "CAPEX",
+          "CFC",
+          "Fixed O&M",
+          "GCC",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "6Hr Battery Storage": {
+        "metrics": [
+          "CAPEX",
+          "CFC",
+          "Fixed O&M",
+          "GCC",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "8Hr Battery Storage": {
+        "metrics": [
+          "CAPEX",
+          "CFC",
+          "Fixed O&M",
+          "GCC",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      }
+    },
+    "Utility-Scale PV-Plus-Battery": {
+      "*": {
+        "metrics": [
+          "Calculated Interest Rate Real",
+          "Calculated Rate of Return on Equity Real",
+          "Debt Fraction",
+          "Inflation Rate",
+          "Interest During Construction - Nominal",
+          "Interest Rate Nominal",
+          "Rate of Return on Equity Nominal",
+          "Tax Rate (Federal and State)",
+          "WACC Nominal",
+          "WACC Real"
+        ],
+        "scenarios": [
+          "*",
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Class1": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "Fixed O&M",
+          "GCC",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Class10": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "Fixed O&M",
+          "GCC",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Class2": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "Fixed O&M",
+          "GCC",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Class3": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "Fixed O&M",
+          "GCC",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Class4": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "Fixed O&M",
+          "GCC",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Class5": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "Fixed O&M",
+          "GCC",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Class6": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "Fixed O&M",
+          "GCC",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Class7": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "Fixed O&M",
+          "GCC",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Class8": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "Fixed O&M",
+          "GCC",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Class9": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "Fixed O&M",
+          "GCC",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      }
+    },
+    "UtilityPV": {
+      "*": {
+        "metrics": [
+          "CRF",
+          "Calculated Interest Rate Real",
+          "Calculated Rate of Return on Equity Real",
+          "Debt Fraction",
+          "FCR",
+          "Inflation Rate",
+          "Interest During Construction - Nominal",
+          "Interest Rate Nominal",
+          "Rate of Return on Equity Nominal",
+          "Tax Rate (Federal and State)",
+          "WACC Nominal",
+          "WACC Real"
+        ],
+        "scenarios": [
+          "*",
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Class1": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "GCC",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Class10": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "GCC",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Class2": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "GCC",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Class3": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "GCC",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Class4": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "GCC",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Class5": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "GCC",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Class6": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "GCC",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Class7": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "GCC",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Class8": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "GCC",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      },
+      "Class9": {
+        "metrics": [
+          "CAPEX",
+          "CF",
+          "CFC",
+          "FCR",
+          "Fixed O&M",
+          "GCC",
+          "LCOE",
+          "OCC"
+        ],
+        "scenarios": [
+          "Advanced",
+          "Conservative",
+          "Moderate"
+        ],
+        "units": [
+          ""
+        ]
+      }
+    }
+  },
+  "variable_coverage": {
+    "matched": [
+      {
+        "variable": "solar_pv_utility_capex",
+        "priority": 1,
+        "matched_rows": 58,
+        "sample_value": 1372.376824191861,
+        "technology": "UtilityPV",
+        "techdetail": "Class5",
+        "metric": "CAPEX"
+      },
+      {
+        "variable": "solar_pv_utility_fom",
+        "priority": 1,
+        "matched_rows": 58,
+        "sample_value": 19.79141685802126,
+        "technology": "UtilityPV",
+        "techdetail": "Class5",
+        "metric": "Fixed O&M"
+      },
+      {
+        "variable": "solar_pv_utility_lcoe",
+        "priority": 1,
+        "matched_rows": 58,
+        "sample_value": 50.84556875177862,
+        "technology": "UtilityPV",
+        "techdetail": "Class5",
+        "metric": "LCOE"
+      },
+      {
+        "variable": "solar_pv_utility_cf",
+        "priority": 1,
+        "matched_rows": 58,
+        "sample_value": 0.27083808091407174,
+        "technology": "UtilityPV",
+        "techdetail": "Class5",
+        "metric": "CF"
+      },
+      {
+        "variable": "solar_pv_commercial_capex",
+        "priority": 2,
+        "matched_rows": 58,
+        "sample_value": 1643.271729676459,
+        "technology": "CommPV",
+        "techdetail": "Class5",
+        "metric": "CAPEX"
+      },
+      {
+        "variable": "solar_pv_residential_capex",
+        "priority": 3,
+        "matched_rows": 58,
+        "sample_value": 2355.751476544394,
+        "technology": "ResPV",
+        "techdetail": "Class5",
+        "metric": "CAPEX"
+      },
+      {
+        "variable": "wind_onshore_capex",
+        "priority": 1,
+        "matched_rows": 58,
+        "sample_value": 1504.6407335100548,
+        "technology": "LandbasedWind",
+        "techdetail": "Class4",
+        "metric": "CAPEX"
+      },
+      {
+        "variable": "wind_onshore_fom",
+        "priority": 1,
+        "matched_rows": 58,
+        "sample_value": 30.4560009423051,
+        "technology": "LandbasedWind",
+        "techdetail": "Class4",
+        "metric": "Fixed O&M"
+      },
+      {
+        "variable": "wind_onshore_lcoe",
+        "priority": 1,
+        "matched_rows": 58,
+        "sample_value": 35.220679607753205,
+        "technology": "LandbasedWind",
+        "techdetail": "Class4",
+        "metric": "LCOE"
+      },
+      {
+        "variable": "wind_onshore_cf",
+        "priority": 1,
+        "matched_rows": 58,
+        "sample_value": 0.465186,
+        "technology": "LandbasedWind",
+        "techdetail": "Class4",
+        "metric": "CF"
+      },
+      {
+        "variable": "wind_offshore_fixed_capex",
+        "priority": 2,
+        "matched_rows": 58,
+        "sample_value": 5709.944589182579,
+        "technology": "OffShoreWind",
+        "techdetail": "Class3",
+        "metric": "CAPEX"
+      },
+      {
+        "variable": "wind_offshore_fixed_lcoe",
+        "priority": 2,
+        "matched_rows": 58,
+        "sample_value": 128.11611202704506,
+        "technology": "OffShoreWind",
+        "techdetail": "Class3",
+        "metric": "LCOE"
+      },
+      {
+        "variable": "wind_offshore_floating_capex",
+        "priority": 3,
+        "matched_rows": 42,
+        "sample_value": 9016.15411716568,
+        "technology": "OffShoreWind",
+        "techdetail": "Class11",
+        "metric": "CAPEX"
+      },
+      {
+        "variable": "battery_utility_capex_power",
+        "priority": 1,
+        "matched_rows": 58,
+        "sample_value": 1659.3941388521046,
+        "technology": "Utility-Scale Battery Storage",
+        "techdetail": "4Hr Battery Storage",
+        "metric": "CAPEX"
+      },
+      {
+        "variable": "ngcc_capex",
+        "priority": 1,
+        "matched_rows": 87,
+        "sample_value": 1451.3357846414772,
+        "technology": "NaturalGas_FE",
+        "techdetail": "NG 2-on-1 Combined Cycle (F-Frame)",
+        "metric": "CAPEX"
+      },
+      {
+        "variable": "ngcc_heat_rate",
+        "priority": 1,
+        "matched_rows": 87,
+        "sample_value": 6.3,
+        "technology": "NaturalGas_FE",
+        "techdetail": "NG 2-on-1 Combined Cycle (F-Frame)",
+        "metric": "Heat Rate"
+      },
+      {
+        "variable": "ngct_capex",
+        "priority": 2,
+        "matched_rows": 87,
+        "sample_value": 1309.589844986689,
+        "technology": "NaturalGas_FE",
+        "techdetail": "NG Combustion Turbine (F-Frame)",
+        "metric": "CAPEX"
+      },
+      {
+        "variable": "ngcc_ccs_capex",
+        "priority": 1,
+        "matched_rows": 87,
+        "sample_value": 2845.839470836459,
+        "technology": "NaturalGas_FE",
+        "techdetail": "NG 2-on-1 Combined Cycle (F-Frame) 95% CCS",
+        "metric": "CAPEX"
+      },
+      {
+        "variable": "nuclear_conventional_capex",
+        "priority": 2,
+        "matched_rows": 63,
+        "sample_value": 7616.358969954001,
+        "technology": "Nuclear",
+        "techdetail": "Nuclear - Large",
+        "metric": "CAPEX"
+      },
+      {
+        "variable": "nuclear_smr_capex",
+        "priority": 2,
+        "matched_rows": 63,
+        "sample_value": 9650.0006770512,
+        "technology": "Nuclear",
+        "techdetail": "Nuclear - Small",
+        "metric": "CAPEX"
+      },
+      {
+        "variable": "nuclear_lcoe",
+        "priority": 2,
+        "matched_rows": 63,
+        "sample_value": 112.15173152881528,
+        "technology": "Nuclear",
+        "techdetail": "Nuclear - Large",
+        "metric": "LCOE"
+      },
+      {
+        "variable": "csp_capex",
+        "priority": 3,
+        "matched_rows": 58,
+        "sample_value": 7912.019603207439,
+        "technology": "CSP",
+        "techdetail": "Class2",
+        "metric": "CAPEX"
+      },
+      {
+        "variable": "geothermal_capex",
+        "priority": 3,
+        "matched_rows": 58,
+        "sample_value": 6711.564109663961,
+        "technology": "Geothermal",
+        "techdetail": "HydroFlash",
+        "metric": "CAPEX"
+      },
+      {
+        "variable": "coal_ccs_capex",
+        "priority": 3,
+        "matched_rows": 87,
+        "sample_value": 6377.789059427821,
+        "technology": "Coal_FE",
+        "techdetail": "Coal-95%-CCS",
+        "metric": "CAPEX"
+      }
+    ],
+    "unmatched": [],
+    "partial": [
+      {
+        "variable": "battery_utility_capex_energy",
+        "priority": 1,
+        "note": "Derived: capex_energy_from_power"
+      }
+    ],
+    "not_in_csv": [
+      {
+        "variable": "battery_utility_lcos",
+        "priority": 1,
+        "note": "Derived: battery_lcos_from_components"
+      },
+      {
+        "variable": "battery_utility_rte",
+        "priority": 2,
+        "note": "Derived: battery_rte_static_curve"
+      },
+      {
+        "variable": "ngcc_lcoe",
+        "priority": 1,
+        "note": "Derived: ngcc_lcoe_from_components"
+      },
+      {
+        "variable": "ngcc_ccs_lcoe",
+        "priority": 1,
+        "note": "Derived: ngcc_ccs_lcoe_from_components"
+      },
+      {
+        "variable": "electrolyzer_pem_capex",
+        "priority": 1,
+        "note": "Static fallback (DOE targets)"
+      },
+      {
+        "variable": "electrolyzer_alkaline_capex",
+        "priority": 1,
+        "note": "Static fallback (DOE targets)"
+      },
+      {
+        "variable": "electrolyzer_soec_capex",
+        "priority": 2,
+        "note": "Static fallback (DOE targets)"
+      },
+      {
+        "variable": "electrolyzer_efficiency",
+        "priority": 1,
+        "note": "Static fallback (DOE targets)"
+      },
+      {
+        "variable": "lcoh_green_electrolysis",
+        "priority": 1,
+        "note": "Derived: hydrogen_transport_atb"
+      },
+      {
+        "variable": "lcoh_blue_smr_ccs",
+        "priority": 1,
+        "note": "Derived: hydrogen_transport_atb"
+      },
+      {
+        "variable": "lcoh_gray_smr",
+        "priority": 1,
+        "note": "Derived: hydrogen_transport_atb"
+      },
+      {
+        "variable": "lcoh_atr_ccs",
+        "priority": 2,
+        "note": "Not in electricity CSV"
+      },
+      {
+        "variable": "ccus_cost_transport_storage",
+        "priority": 2,
+        "note": "Static fallback (DOE targets)"
+      },
+      {
+        "variable": "ira_itc_rate",
+        "priority": 1,
+        "note": "Static fallback (DOE targets)"
+      },
+      {
+        "variable": "ira_ptc_value",
+        "priority": 1,
+        "note": "Static fallback (DOE targets)"
+      }
+    ]
+  }
+}

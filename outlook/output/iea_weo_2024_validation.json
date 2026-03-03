@@ -1,0 +1,134 @@
+{
+  "steps": {
+    "scenario": "steps",
+    "weo_edition": "2024",
+    "validated_at": "2026-03-03T02:50:51.436086+00:00",
+    "summary": {
+      "total_canonical_weo_vars": 102,
+      "total_mapped": 54,
+      "total_populated": 0,
+      "coverage_pct": 0.0
+    },
+    "by_priority": {
+      "P1": {
+        "total": 35,
+        "populated": 0,
+        "partial": 0,
+        "empty": 35,
+        "pct": 0.0
+      },
+      "P2": {
+        "total": 16,
+        "populated": 0,
+        "partial": 0,
+        "empty": 16,
+        "pct": 0.0
+      },
+      "P3": {
+        "total": 3,
+        "populated": 0,
+        "partial": 0,
+        "empty": 3,
+        "pct": 0.0
+      }
+    },
+    "issues": [
+      {
+        "level": "ERROR",
+        "message": "P1 coverage below 80%: 0.0%"
+      },
+      {
+        "level": "WARNING",
+        "message": "P2 coverage below 50%: 0.0%"
+      }
+    ]
+  },
+  "aps": {
+    "scenario": "aps",
+    "weo_edition": "2024",
+    "validated_at": "2026-03-03T02:50:51.436487+00:00",
+    "summary": {
+      "total_canonical_weo_vars": 102,
+      "total_mapped": 54,
+      "total_populated": 0,
+      "coverage_pct": 0.0
+    },
+    "by_priority": {
+      "P1": {
+        "total": 35,
+        "populated": 0,
+        "partial": 0,
+        "empty": 35,
+        "pct": 0.0
+      },
+      "P2": {
+        "total": 16,
+        "populated": 0,
+        "partial": 0,
+        "empty": 16,
+        "pct": 0.0
+      },
+      "P3": {
+        "total": 3,
+        "populated": 0,
+        "partial": 0,
+        "empty": 3,
+        "pct": 0.0
+      }
+    },
+    "issues": [
+      {
+        "level": "ERROR",
+        "message": "P1 coverage below 80%: 0.0%"
+      },
+      {
+        "level": "WARNING",
+        "message": "P2 coverage below 50%: 0.0%"
+      }
+    ]
+  },
+  "nze": {
+    "scenario": "nze",
+    "weo_edition": "2024",
+    "validated_at": "2026-03-03T02:50:51.436862+00:00",
+    "summary": {
+      "total_canonical_weo_vars": 102,
+      "total_mapped": 54,
+      "total_populated": 0,
+      "coverage_pct": 0.0
+    },
+    "by_priority": {
+      "P1": {
+        "total": 35,
+        "populated": 0,
+        "partial": 0,
+        "empty": 35,
+        "pct": 0.0
+      },
+      "P2": {
+        "total": 16,
+        "populated": 0,
+        "partial": 0,
+        "empty": 16,
+        "pct": 0.0
+      },
+      "P3": {
+        "total": 3,
+        "populated": 0,
+        "partial": 0,
+        "empty": 3,
+        "pct": 0.0
+      }
+    },
+    "issues": [
+      {
+        "level": "ERROR",
+        "message": "P1 coverage below 80%: 0.0%"
+      },
+      {
+        "level": "WARNING",
+        "message": "P2 coverage below 50%: 0.0%"
+      }
+    ]
+  }
+}

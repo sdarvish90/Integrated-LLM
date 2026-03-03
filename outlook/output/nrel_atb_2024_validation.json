@@ -1,0 +1,161 @@
+{
+  "conservative": {
+    "scenario": "conservative",
+    "total_variables": 40,
+    "populated": 35,
+    "partial": 4,
+    "empty": 1,
+    "completeness_pct": 87.5,
+    "priority_1": {
+      "total": 24,
+      "populated": 24,
+      "pct": 100.0,
+      "target": "95%"
+    },
+    "priority_2": {
+      "total": 11,
+      "populated": 7,
+      "pct": 63.6,
+      "target": "90%"
+    },
+    "priority_3": {
+      "total": 5,
+      "populated": 4,
+      "pct": 80.0,
+      "target": "N/A"
+    },
+    "issues": [
+      {
+        "level": "WARNING",
+        "var": "wind_offshore_floating_capex",
+        "msg": "Only 21/27 years populated"
+      },
+      {
+        "level": "WARNING",
+        "var": "nuclear_conventional_capex",
+        "msg": "Only 21/27 years populated"
+      },
+      {
+        "level": "WARNING",
+        "var": "nuclear_smr_capex",
+        "msg": "Only 21/27 years populated"
+      },
+      {
+        "level": "WARNING",
+        "var": "nuclear_lcoe",
+        "msg": "Only 21/27 years populated"
+      },
+      {
+        "level": "WARNING",
+        "var": "lcoh_atr_ccs",
+        "msg": "P2 variable empty"
+      }
+    ]
+  },
+  "moderate": {
+    "scenario": "moderate",
+    "total_variables": 40,
+    "populated": 35,
+    "partial": 4,
+    "empty": 1,
+    "completeness_pct": 87.5,
+    "priority_1": {
+      "total": 24,
+      "populated": 24,
+      "pct": 100.0,
+      "target": "95%"
+    },
+    "priority_2": {
+      "total": 11,
+      "populated": 7,
+      "pct": 63.6,
+      "target": "90%"
+    },
+    "priority_3": {
+      "total": 5,
+      "populated": 4,
+      "pct": 80.0,
+      "target": "N/A"
+    },
+    "issues": [
+      {
+        "level": "WARNING",
+        "var": "wind_offshore_floating_capex",
+        "msg": "Only 21/27 years populated"
+      },
+      {
+        "level": "WARNING",
+        "var": "nuclear_conventional_capex",
+        "msg": "Only 21/27 years populated"
+      },
+      {
+        "level": "WARNING",
+        "var": "nuclear_smr_capex",
+        "msg": "Only 21/27 years populated"
+      },
+      {
+        "level": "WARNING",
+        "var": "nuclear_lcoe",
+        "msg": "Only 21/27 years populated"
+      },
+      {
+        "level": "WARNING",
+        "var": "lcoh_atr_ccs",
+        "msg": "P2 variable empty"
+      }
+    ]
+  },
+  "advanced": {
+    "scenario": "advanced",
+    "total_variables": 40,
+    "populated": 35,
+    "partial": 4,
+    "empty": 1,
+    "completeness_pct": 87.5,
+    "priority_1": {
+      "total": 24,
+      "populated": 24,
+      "pct": 100.0,
+      "target": "95%"
+    },
+    "priority_2": {
+      "total": 11,
+      "populated": 7,
+      "pct": 63.6,
+      "target": "90%"
+    },
+    "priority_3": {
+      "total": 5,
+      "populated": 4,
+      "pct": 80.0,
+      "target": "N/A"
+    },
+    "issues": [
+      {
+        "level": "WARNING",
+        "var": "wind_offshore_floating_capex",
+        "msg": "Only 21/27 years populated"
+      },
+      {
+        "level": "WARNING",
+        "var": "nuclear_conventional_capex",
+        "msg": "Only 21/27 years populated"
+      },
+      {
+        "level": "WARNING",
+        "var": "nuclear_smr_capex",
+        "msg": "Only 21/27 years populated"
+      },
+      {
+        "level": "WARNING",
+        "var": "nuclear_lcoe",
+        "msg": "Only 21/27 years populated"
+      },
+      {
+        "level": "WARNING",
+        "var": "lcoh_atr_ccs",
+        "msg": "P2 variable empty"
+      }
+    ]
+  }
+}

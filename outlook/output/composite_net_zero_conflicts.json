@@ -1,0 +1,861 @@
+{
+  "summary": {
+    "total_variables": 176,
+    "populated": 134,
+    "coverage_pct": 76.1,
+    "by_primary_source": {
+      "eia_aeo": 78,
+      "nrel_atb": 37,
+      "iea_weo": 11,
+      "ercot": 8
+    },
+    "by_priority": {
+      "P1": {
+        "populated": 86,
+        "total": 95
+      },
+      "P2": {
+        "populated": 38,
+        "total": 59
+      },
+      "P3": {
+        "populated": 10,
+        "total": 0
+      }
+    },
+    "conflicts_total": 36,
+    "conflicts_error": 29,
+    "conflicts_warning": 7,
+    "avg_confidence": 0.938
+  },
+  "conflicts": [
+    {
+      "variable": "solar_pv_utility_cf",
+      "category": "technology_costs",
+      "priority": 1,
+      "primary_source": "nrel_atb",
+      "max_divergence_pct": 32.2,
+      "worst_year": "2050",
+      "values_by_source": {
+        "2030": {
+          "eia_aeo": 0.2265,
+          "nrel_atb": 0.286746
+        },
+        "2040": {
+          "eia_aeo": 0.2159,
+          "nrel_atb": 0.305098
+        },
+        "2050": {
+          "eia_aeo": 0.2123,
+          "nrel_atb": 0.313128
+        }
+      },
+      "level": "WARNING"
+    },
+    {
+      "variable": "generation_total",
+      "category": "electricity",
+      "priority": 1,
+      "primary_source": "eia_aeo",
+      "max_divergence_pct": 32.1,
+      "worst_year": "2050",
+      "values_by_source": {
+        "2030": {
+          "eia_aeo": 4710.291504,
+          "iea_weo": 4564.0
+        },
+        "2040": {
+          "eia_aeo": 5840.576172,
+          "iea_weo": 4564.0
+        },
+        "2050": {
+          "eia_aeo": 6726.549316,
+          "iea_weo": 4564.0
+        }
+      },
+      "level": "WARNING"
+    },
+    {
+      "variable": "generation_natural_gas",
+      "category": "electricity",
+      "priority": 1,
+      "primary_source": "eia_aeo",
+      "max_divergence_pct": 112.3,
+      "worst_year": "2050",
+      "values_by_source": {
+        "2030": {
+          "eia_aeo": 1750.59436,
+          "iea_weo": 1929.37
+        },
+        "2040": {
+          "eia_aeo": 999.307312,
+          "iea_weo": 1929.37
+        },
+        "2050": {
+          "eia_aeo": 908.859802,
+          "iea_weo": 1929.37
+        }
+      },
+      "level": "ERROR"
+    },
+    {
+      "variable": "generation_coal",
+      "category": "electricity",
+      "priority": 1,
+      "primary_source": "eia_aeo",
+      "max_divergence_pct": 10701.5,
+      "worst_year": "2050",
+      "values_by_source": {
+        "2030": {
+          "eia_aeo": 328.393951,
+          "iea_weo": 717.4
+        },
+        "2040": {
+          "eia_aeo": 20.176289,
+          "iea_weo": 717.4
+        },
+        "2050": {
+          "eia_aeo": 6.641697,
+          "iea_weo": 717.4
+        }
+      },
+      "level": "ERROR"
+    },
+    {
+      "variable": "generation_nuclear",
+      "category": "electricity",
+      "priority": 1,
+      "primary_source": "eia_aeo",
+      "max_divergence_pct": 25.5,
+      "worst_year": "2040",
+      "values_by_source": {
+        "2030": {
+          "eia_aeo": 789.051636,
+          "iea_weo": 815.49
+        },
+        "2040": {
+          "eia_aeo": 649.716675,
+          "iea_weo": 815.49
+        },
+        "2050": {
+          "eia_aeo": 775.901062,
+          "iea_weo": 815.49
+        }
+      },
+      "level": "WARNING"
+    },
+    {
+      "variable": "generation_wind",
+      "category": "electricity",
+      "priority": 1,
+      "primary_source": "eia_aeo",
+      "max_divergence_pct": 79.9,
+      "worst_year": "2050",
+      "values_by_source": {
+        "2030": {
+          "eia_aeo": 722.335022,
+          "iea_weo": 458.62
+        },
+        "2040": {
+          "eia_aeo": 1993.13623,
+          "iea_weo": 458.62
+        },
+        "2050": {
+          "eia_aeo": 2276.057129,
+          "iea_weo": 458.62
+        }
+      },
+      "level": "ERROR"
+    },
+    {
+      "variable": "generation_solar",
+      "category": "electricity",
+      "priority": 1,
+      "primary_source": "eia_aeo",
+      "max_divergence_pct": 88.6,
+      "worst_year": "2050",
+      "values_by_source": {
+        "2030": {
+          "eia_aeo": 747.412476,
+          "iea_weo": 278.77
+        },
+        "2040": {
+          "eia_aeo": 1827.739746,
+          "iea_weo": 278.77
+        },
+        "2050": {
+          "eia_aeo": 2436.015869,
+          "iea_weo": 278.77
+        }
+      },
+      "level": "ERROR"
+    },
+    {
+      "variable": "generation_hydro",
+      "category": "electricity",
+      "priority": 2,
+      "primary_source": "eia_aeo",
+      "max_divergence_pct": 2781.5,
+      "worst_year": "2050",
+      "values_by_source": {
+        "2030": {
+          "eia_aeo": 284.83551,
+          "iea_weo": 5197.62
+        },
+        "2040": {
+          "eia_aeo": 261.593353,
+          "iea_weo": 6505.97
+        },
+        "2050": {
+          "eia_aeo": 256.744171,
+          "iea_weo": 7398.17
+        }
+      },
+      "level": "ERROR"
+    },
+    {
+      "variable": "generation_biomass",
+      "category": "electricity",
+      "priority": 3,
+      "primary_source": "eia_aeo",
+      "max_divergence_pct": 10528.6,
+      "worst_year": "2050",
+      "values_by_source": {
+        "2030": {
+          "eia_aeo": 25.31566,
+          "iea_weo": 1328.374545
+        },
+        "2040": {
+          "eia_aeo": 26.449587,
+          "iea_weo": 2315.33
+        },
+        "2050": {
+          "eia_aeo": 27.442282,
+          "iea_weo": 2916.72
+        }
+      },
+      "level": "ERROR"
+    },
+    {
+      "variable": "renewable_share_generation",
+      "category": "electricity",
+      "priority": 1,
+      "primary_source": "eia_aeo",
+      "max_divergence_pct": 69.2,
+      "worst_year": "2050",
+      "values_by_source": {
+        "2030": {
+          "eia_aeo": 0.3823,
+          "iea_weo": 0.230918
+        },
+        "2040": {
+          "eia_aeo": 0.7105,
+          "iea_weo": 0.230918
+        },
+        "2050": {
+          "eia_aeo": 0.7504,
+          "iea_weo": 0.230918
+        }
+      },
+      "level": "ERROR"
+    },
+    {
+      "variable": "capacity_total",
+      "category": "electricity",
+      "priority": 1,
+      "primary_source": "eia_aeo",
+      "max_divergence_pct": 1391.3,
+      "worst_year": "2050",
+      "values_by_source": {
+        "2030": {
+          "eia_aeo": 1419.62561,
+          "iea_weo": 19141.310909
+        },
+        "2040": {
+          "eia_aeo": 2467.209473,
+          "iea_weo": 34595.93
+        },
+        "2050": {
+          "eia_aeo": 2984.652344,
+          "iea_weo": 44510.5
+        }
+      },
+      "level": "ERROR"
+    },
+    {
+      "variable": "capacity_solar_pv",
+      "category": "electricity",
+      "priority": 1,
+      "primary_source": "eia_aeo",
+      "max_divergence_pct": 1971.2,
+      "worst_year": "2030",
+      "values_by_source": {
+        "2030": {
+          "eia_aeo": 376.629272,
+          "iea_weo": 7800.788182
+        },
+        "2040": {
+          "eia_aeo": 966.410767,
+          "iea_weo": 17847.46
+        },
+        "2050": {
+          "eia_aeo": 1309.844116,
+          "iea_weo": 24201.19
+        }
+      },
+      "level": "ERROR"
+    },
+    {
+      "variable": "capacity_wind_onshore",
+      "category": "electricity",
+      "priority": 1,
+      "primary_source": "eia_aeo",
+      "max_divergence_pct": 1415.8,
+      "worst_year": "2030",
+      "values_by_source": {
+        "2030": {
+          "eia_aeo": 195.6241,
+          "iea_weo": 2965.195455
+        },
+        "2040": {
+          "eia_aeo": 555.855225,
+          "iea_weo": 6029.54
+        },
+        "2050": {
+          "eia_aeo": 607.793152,
+          "iea_weo": 8000.52
+        }
+      },
+      "level": "ERROR"
+    },
+    {
+      "variable": "capacity_battery_storage",
+      "category": "electricity",
+      "priority": 1,
+      "primary_source": "eia_aeo",
+      "max_divergence_pct": 3313.7,
+      "worst_year": "2030",
+      "values_by_source": {
+        "2030": {
+          "eia_aeo": 48.31411,
+          "iea_weo": 1649.314545
+        },
+        "2040": {
+          "eia_aeo": 127.128677,
+          "iea_weo": 4120.05
+        },
+        "2050": {
+          "eia_aeo": 318.283356,
+          "iea_weo": 5715.78
+        }
+      },
+      "level": "ERROR"
+    },
+    {
+      "variable": "capacity_natural_gas",
+      "category": "electricity",
+      "priority": 1,
+      "primary_source": "eia_aeo",
+      "max_divergence_pct": 514.8,
+      "worst_year": "2030",
+      "values_by_source": {
+        "2030": {
+          "eia_aeo": 288.622681,
+          "iea_weo": 1774.380909
+        },
+        "2040": {
+          "eia_aeo": 317.204956,
+          "iea_weo": 1215.53
+        },
+        "2050": {
+          "eia_aeo": 303.564209,
+          "iea_weo": 807.97
+        }
+      },
+      "level": "ERROR"
+    },
+    {
+      "variable": "capacity_coal",
+      "category": "electricity",
+      "priority": 2,
+      "primary_source": "eia_aeo",
+      "max_divergence_pct": 37172.9,
+      "worst_year": "2050",
+      "values_by_source": {
+        "2030": {
+          "eia_aeo": 76.064911,
+          "iea_weo": 1701.858182
+        },
+        "2040": {
+          "eia_aeo": 3.9033,
+          "iea_weo": 713.77
+        },
+        "2050": {
+          "eia_aeo": 0.6087,
+          "iea_weo": 226.88
+        }
+      },
+      "level": "ERROR"
+    },
+    {
+      "variable": "capacity_nuclear",
+      "category": "electricity",
+      "priority": 2,
+      "primary_source": "eia_aeo",
+      "max_divergence_pct": 937.3,
+      "worst_year": "2050",
+      "values_by_source": {
+        "2030": {
+          "eia_aeo": 95.399704,
+          "iea_weo": 580.575455
+        },
+        "2040": {
+          "eia_aeo": 87.982208,
+          "iea_weo": 891.66
+        },
+        "2050": {
+          "eia_aeo": 103.981064,
+          "iea_weo": 1078.56
+        }
+      },
+      "level": "ERROR"
+    },
+    {
+      "variable": "grid_emissions_intensity",
+      "category": "electricity",
+      "priority": 1,
+      "primary_source": "eia_aeo",
+      "max_divergence_pct": 108.0,
+      "worst_year": "2050",
+      "values_by_source": {
+        "2030": {
+          "eia_aeo": 208.84,
+          "iea_weo": 242.04
+        },
+        "2040": {
+          "eia_aeo": 60.74,
+          "iea_weo": 3.93
+        },
+        "2050": {
+          "eia_aeo": 48.6,
+          "iea_weo": -3.87
+        }
+      },
+      "level": "ERROR"
+    },
+    {
+      "variable": "demand_residential",
+      "category": "energy_demand",
+      "priority": 2,
+      "primary_source": "eia_aeo",
+      "max_divergence_pct": 39.3,
+      "worst_year": "2050",
+      "values_by_source": {
+        "2030": {
+          "eia_aeo": 17.946768,
+          "iea_weo": 20.46
+        },
+        "2040": {
+          "eia_aeo": 14.697384,
+          "iea_weo": 20.46
+        },
+        "2050": {
+          "eia_aeo": 14.685314,
+          "iea_weo": 20.46
+        }
+      },
+      "level": "WARNING"
+    },
+    {
+      "variable": "demand_industrial",
+      "category": "energy_demand",
+      "priority": 1,
+      "primary_source": "eia_aeo",
+      "max_divergence_pct": 55.5,
+      "worst_year": "2050",
+      "values_by_source": {
+        "2030": {
+          "eia_aeo": 33.000404,
+          "iea_weo": 15.41
+        },
+        "2040": {
+          "eia_aeo": 32.818972,
+          "iea_weo": 15.41
+        },
+        "2050": {
+          "eia_aeo": 34.658684,
+          "iea_weo": 15.41
+        }
+      },
+      "level": "ERROR"
+    },
+    {
+      "variable": "demand_oil",
+      "category": "energy_demand",
+      "priority": 1,
+      "primary_source": "eia_aeo",
+      "max_divergence_pct": 53.1,
+      "worst_year": "2030",
+      "values_by_source": {
+        "2030": {
+          "eia_aeo": 38.564696,
+          "iea_weo": 18.1
+        },
+        "2040": {
+          "eia_aeo": 33.228428,
+          "iea_weo": 18.1
+        },
+        "2050": {
+          "eia_aeo": 31.712966,
+          "iea_weo": 18.1
+        }
+      },
+      "level": "ERROR"
+    },
+    {
+      "variable": "demand_coal",
+      "category": "energy_demand",
+      "priority": 2,
+      "primary_source": "eia_aeo",
+      "max_divergence_pct": 1192.3,
+      "worst_year": "2050",
+      "values_by_source": {
+        "2030": {
+          "eia_aeo": 4.335501,
+          "iea_weo": 8.2068
+        },
+        "2040": {
+          "eia_aeo": 0.941566,
+          "iea_weo": 8.2068
+        },
+        "2050": {
+          "eia_aeo": 0.635037,
+          "iea_weo": 8.2068
+        }
+      },
+      "level": "ERROR"
+    },
+    {
+      "variable": "demand_electricity_total",
+      "category": "energy_demand",
+      "priority": 1,
+      "primary_source": "eia_aeo",
+      "max_divergence_pct": 29.4,
+      "worst_year": "2050",
+      "values_by_source": {
+        "2030": {
+          "eia_aeo": 4196.350586,
+          "iea_weo": 4102.28
+        },
+        "2040": {
+          "eia_aeo": 5132.517578,
+          "iea_weo": 4102.28
+        },
+        "2050": {
+          "eia_aeo": 5812.529785,
+          "iea_weo": 4102.28
+        }
+      },
+      "level": "WARNING"
+    },
+    {
+      "variable": "demand_hydrogen",
+      "category": "energy_demand",
+      "priority": 1,
+      "primary_source": "eia_aeo",
+      "max_divergence_pct": 90.3,
+      "worst_year": "2050",
+      "values_by_source": {
+        "2030": {
+          "eia_aeo": 10.018377,
+          "iea_weo": 1.611
+        },
+        "2040": {
+          "eia_aeo": 14.350348,
+          "iea_weo": 1.611
+        },
+        "2050": {
+          "eia_aeo": 16.629437,
+          "iea_weo": 1.611
+        }
+      },
+      "level": "ERROR"
+    },
+    {
+      "variable": "h2_production_total",
+      "category": "hydrogen",
+      "priority": 1,
+      "primary_source": "eia_aeo",
+      "max_divergence_pct": 110.1,
+      "worst_year": "2050",
+      "values_by_source": {
+        "2030": {
+          "eia_aeo": 10.018377,
+          "iea_weo": 6.345364
+        },
+        "2040": {
+          "eia_aeo": 14.350348,
+          "iea_weo": 20.571
+        },
+        "2050": {
+          "eia_aeo": 16.629437,
+          "iea_weo": 34.939
+        }
+      },
+      "level": "ERROR"
+    },
+    {
+      "variable": "emissions_co2_total",
+      "category": "emissions",
+      "priority": 1,
+      "primary_source": "eia_aeo",
+      "max_divergence_pct": 39.9,
+      "worst_year": "2050",
+      "values_by_source": {
+        "2030": {
+          "eia_aeo": 4347.722168,
+          "iea_weo": 4521.18
+        },
+        "2040": {
+          "eia_aeo": 3356.392578,
+          "iea_weo": 4521.18
+        },
+        "2050": {
+          "eia_aeo": 3230.6604,
+          "iea_weo": 4521.18
+        }
+      },
+      "level": "WARNING"
+    },
+    {
+      "variable": "emissions_co2_power",
+      "category": "emissions",
+      "priority": 1,
+      "primary_source": "eia_aeo",
+      "max_divergence_pct": 355.8,
+      "worst_year": "2050",
+      "values_by_source": {
+        "2030": {
+          "eia_aeo": 983.717102,
+          "iea_weo": 1490.0
+        },
+        "2040": {
+          "eia_aeo": 354.785309,
+          "iea_weo": 1490.0
+        },
+        "2050": {
+          "eia_aeo": 326.877197,
+          "iea_weo": 1490.0
+        }
+      },
+      "level": "ERROR"
+    },
+    {
+      "variable": "emissions_co2_industry",
+      "category": "emissions",
+      "priority": 1,
+      "primary_source": "eia_aeo",
+      "max_divergence_pct": 485.7,
+      "worst_year": "2030",
+      "values_by_source": {
+        "2030": {
+          "eia_aeo": 1289.709229,
+          "iea_weo": 7553.637273
+        },
+        "2040": {
+          "eia_aeo": 1149.401367,
+          "iea_weo": 3831.4
+        },
+        "2050": {
+          "eia_aeo": 1194.574707,
+          "iea_weo": 452.39
+        }
+      },
+      "level": "ERROR"
+    },
+    {
+      "variable": "emissions_co2_transport",
+      "category": "emissions",
+      "priority": 1,
+      "primary_source": "eia_aeo",
+      "max_divergence_pct": 273.2,
+      "worst_year": "2030",
+      "values_by_source": {
+        "2030": {
+          "eia_aeo": 1784.460327,
+          "iea_weo": 6660.298182
+        },
+        "2040": {
+          "eia_aeo": 1407.654785,
+          "iea_weo": 3254.48
+        },
+        "2050": {
+          "eia_aeo": 1265.618042,
+          "iea_weo": 892.73
+        }
+      },
+      "level": "ERROR"
+    },
+    {
+      "variable": "emissions_co2_buildings",
+      "category": "emissions",
+      "priority": 2,
+      "primary_source": "eia_aeo",
+      "max_divergence_pct": 93.6,
+      "worst_year": "2050",
+      "values_by_source": {
+        "2030": {
+          "eia_aeo": 1273.552307,
+          "iea_weo": 2057.351818
+        },
+        "2040": {
+          "eia_aeo": 799.3364260000001,
+          "iea_weo": 745.2
+        },
+        "2050": {
+          "eia_aeo": 770.467956,
+          "iea_weo": 49.63
+        }
+      },
+      "level": "ERROR"
+    },
+    {
+      "variable": "emissions_co2_per_capita",
+      "category": "emissions",
+      "priority": 2,
+      "primary_source": "eia_aeo",
+      "max_divergence_pct": 95.7,
+      "worst_year": "2030",
+      "values_by_source": {
+        "2030": {
+          "eia_aeo": 12.329004,
+          "iea_weo": 0.533125
+        },
+        "2040": {
+          "eia_aeo": 9.237518,
+          "iea_weo": 0.497226
+        },
+        "2050": {
+          "eia_aeo": 8.758249,
+          "iea_weo": 0.472331
+        }
+      },
+      "level": "ERROR"
+    },
+    {
+      "variable": "emissions_co2_per_gdp",
+      "category": "emissions",
+      "priority": 2,
+      "primary_source": "eia_aeo",
+      "max_divergence_pct": 100.0,
+      "worst_year": "2030",
+      "values_by_source": {
+        "2030": {
+          "eia_aeo": 131.5378,
+          "iea_weo": 0.01909
+        },
+        "2040": {
+          "eia_aeo": 85.6226,
+          "iea_weo": 0.014703
+        },
+        "2050": {
+          "eia_aeo": 70.1138,
+          "iea_weo": 0.011754
+        }
+      },
+      "level": "ERROR"
+    },
+    {
+      "variable": "gdp_real",
+      "category": "macro",
+      "priority": 1,
+      "primary_source": "eia_aeo",
+      "max_divergence_pct": 734.8,
+      "worst_year": "2050",
+      "values_by_source": {
+        "2030": {
+          "eia_aeo": 33.053036,
+          "iea_weo": 236.832973
+        },
+        "2040": {
+          "eia_aeo": 39.199863,
+          "iea_weo": 307.5102
+        },
+        "2050": {
+          "eia_aeo": 46.077372,
+          "iea_weo": 384.6352
+        }
+      },
+      "level": "ERROR"
+    },
+    {
+      "variable": "gdp_growth_rate",
+      "category": "macro",
+      "priority": 1,
+      "primary_source": "eia_aeo",
+      "max_divergence_pct": 60.7,
+      "worst_year": "2030",
+      "values_by_source": {
+        "2030": {
+          "eia_aeo": 0.018254,
+          "iea_weo": 0.029328
+        },
+        "2040": {
+          "eia_aeo": 0.017711,
+          "iea_weo": 0.024615
+        },
+        "2050": {
+          "eia_aeo": 0.017024,
+          "iea_weo": 0.020462
+        }
+      },
+      "level": "ERROR"
+    },
+    {
+      "variable": "population",
+      "category": "macro",
+      "priority": 1,
+      "primary_source": "eia_aeo",
+      "max_divergence_pct": 2495.0,
+      "worst_year": "2050",
+      "values_by_source": {
+        "2030": {
+          "eia_aeo": 352.641785,
+          "iea_weo": 8480.519091
+        },
+        "2040": {
+          "eia_aeo": 363.343536,
+          "iea_weo": 9092.81
+        },
+        "2050": {
+          "eia_aeo": 368.870575,
+          "iea_weo": 9572.05
+        }
+      },
+      "level": "ERROR"
+    },
+    {
+      "variable": "energy_intensity_gdp",
+      "category": "macro",
+      "priority": 2,
+      "primary_source": "eia_aeo",
+      "max_divergence_pct": 42.0,
+      "worst_year": "2050",
+      "values_by_source": {
+        "2030": {
+          "eia_aeo": 3.755216,
+          "iea_weo": 2.664545
+        },
+        "2040": {
+          "eia_aeo": 2.920681,
+          "iea_weo": 1.79
+        },
+        "2050": {
+          "eia_aeo": 2.553624,
+          "iea_weo": 1.48
+        }
+      },
+      "level": "WARNING"
+    }
+  ]
+}

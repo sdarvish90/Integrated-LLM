@@ -1,0 +1,474 @@
+region,category,level,parent,display_name,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025
+advanced_economies,battery_storage,2,power,Battery storage,0.40,0.90,1.50,2.50,2.30,3.80,7.50,16.30,27.90,34.70,44.40
+advanced_economies,clean_energy,1,total,of which: Clean energy,571.80,574.60,586.30,606.00,627.10,662.40,741.50,829.00,934.70,992.50,1065.80
+advanced_economies,clean_fuels,2,fuels,Clean Fuels,2.80,3.00,3.40,3.30,3.40,3.70,4.10,5.90,8.70,11.00,13.80
+advanced_economies,direct_air_capture,2,fuels,Direct Air Capture,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.10,0.20,0.20,0.60
+advanced_economies,efficiency_buildings,3,energy_efficiency,Efficiency: Buildings,130.90,136.20,145.40,147.40,152.20,153.00,162.50,172.10,181.00,182.70,179.40
+advanced_economies,efficiency_industry,3,energy_efficiency,Efficiency: Industry,7.60,7.50,7.10,6.80,8.30,9.10,10.40,11.20,11.90,10.40,12.00
+advanced_economies,efficiency_transport,3,energy_efficiency,Efficiency: Transport,7.50,12.30,12.00,14.30,13.70,13.00,14.60,15.80,18.50,20.80,19.60
+advanced_economies,electricity_networks,2,power,Electricity networks,139.70,140.50,144.10,147.40,151.70,159.00,171.50,177.00,200.40,221.40,236.10
+advanced_economies,end_use,1,,End-use,208.40,225.40,247.80,256.50,272.00,290.20,323.00,354.50,392.80,399.50,410.70
+advanced_economies,energy_efficiency,2,end_use,Energy efficiency,146.00,156.00,164.40,168.50,174.20,175.10,187.60,199.00,211.30,213.90,211.00
+advanced_economies,fossil_coal,3,fossil_fuels,Coal,14.60,12.30,17.70,16.80,17.80,14.20,13.60,13.90,14.70,14.00,13.30
+advanced_economies,fossil_fuels,2,fuels,Fossil fuels,550.80,402.30,425.70,441.50,404.10,290.80,319.20,373.20,391.70,376.90,342.80
+advanced_economies,fossil_gas,3,fossil_fuels,Gas,197.80,150.80,140.30,136.40,121.80,102.20,108.90,124.60,132.70,131.70,132.60
+advanced_economies,fossil_oil,3,fossil_fuels,Oil,338.40,239.20,267.70,288.30,264.50,174.40,196.70,234.70,244.40,231.20,196.80
+advanced_economies,fuels,1,,Fuels,553.70,405.30,429.10,444.80,407.40,294.60,323.30,379.20,400.70,388.10,357.20
+advanced_economies,gen_coal_unabated,3,generation,Coal (unabated),14.40,12.10,10.50,10.70,10.30,8.70,6.90,4.60,2.70,1.90,1.60
+advanced_economies,gen_fossil_ccus,3,generation,Fossil fuels with CCUS,0.90,0.60,0.20,0.00,0.00,0.00,0.00,0.00,0.00,0.30,4.70
+advanced_economies,gen_nuclear,3,generation,Nuclear,21.80,20.20,16.90,15.80,16.30,19.20,28.30,33.00,30.10,29.10,27.70
+advanced_economies,gen_oil_gas_unabated,3,generation,Oil & natural gas (unabated),40.40,40.00,34.30,26.70,21.30,20.50,20.40,23.50,26.50,27.50,21.10
+advanced_economies,gen_other_clean,3,generation,Other clean power,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,1.40
+advanced_economies,gen_other_clean_ammonia,4,gen_other_clean,Ammonia,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+advanced_economies,gen_other_clean_heat_pumps,4,gen_other_clean,Large scale heat pumps,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,1.40
+advanced_economies,gen_other_clean_hydrogen,4,gen_other_clean,Hydrogen,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+advanced_economies,gen_renewables,3,generation,Renewables,197.10,183.30,171.80,179.90,180.70,185.50,205.90,240.40,273.30,293.40,320.30
+advanced_economies,gen_renewables_other,4,gen_renewables,Other renewables,33.60,30.70,29.40,26.90,24.40,22.50,22.20,25.70,30.60,36.20,40.80
+advanced_economies,gen_renewables_solar,4,gen_renewables,Solar,84.80,82.00,75.90,93.20,103.20,107.40,124.10,152.40,178.60,175.50,171.10
+advanced_economies,gen_renewables_wind,4,gen_renewables,Wind,78.80,70.60,66.50,59.80,53.00,55.60,59.50,62.40,64.20,81.80,108.40
+advanced_economies,gen_waste_nonrenewable,3,generation,Waste: non-renewable,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.20,0.60,1.10,1.50
+advanced_economies,generation,2,power,Generation,274.70,256.30,233.60,233.00,228.50,233.90,261.50,301.80,333.20,354.30,378.40
+advanced_economies,memo_oil_gas_upstream,0,,Memo: Oil & gas upstream,394.80,241.00,257.50,296.20,287.50,186.10,196.90,243.90,272.70,253.50,231.90
+advanced_economies,memo_transitional_fossil,0,,Memo: Transitional fossil fuels,0.50,0.50,0.60,0.60,0.70,0.90,1.30,1.70,1.20,1.60,4.30
+advanced_economies,other_end_use,2,end_use,Other end-use,62.40,69.50,83.40,88.00,97.80,115.10,135.40,155.50,181.50,185.60,199.70
+advanced_economies,other_end_use_buildings,3,other_end_use,Other end-use: Buildings,41.00,44.80,53.00,52.70,61.60,64.10,62.50,58.50,69.40,78.20,89.70
+advanced_economies,other_end_use_industry,3,other_end_use,Other end-use: Industry,1.20,2.00,2.20,1.60,1.80,2.50,3.40,2.60,2.30,3.70,4.00
+advanced_economies,other_end_use_renewables,2,end_use,Other end-use renewables,25.72,24.49,23.46,23.56,23.15,21.71,21.71,23.46,24.28,25.21,
+advanced_economies,other_end_use_transport,3,other_end_use,Other end-use: Transport,20.20,22.70,28.20,33.70,34.30,48.60,69.50,94.40,109.70,103.70,105.90
+advanced_economies,power,1,,Power,414.80,397.70,379.30,382.90,382.50,396.70,440.40,495.10,561.50,610.40,658.80
+advanced_economies,supply_by_type,1,,Supply (by type),897.14,812.06,844.37,846.52,831.44,724.82,806.67,902.53,954.22,,
+advanced_economies,supply_electricity_networks,1,,Supply: Electricity networks,147.55,148.63,151.86,156.16,161.55,170.17,184.17,194.94,192.78,,
+advanced_economies,supply_fossil_no_ccus,2,supply_by_type,Supply: Fossil fuels (no CCUS),540.65,455.57,487.88,477.11,439.42,306.94,347.87,389.87,387.72,,
+advanced_economies,supply_other,1,,Supply: Other,16.59,23.05,26.71,25.31,23.26,25.74,31.77,43.30,66.34,,
+advanced_economies,supply_renewables,1,,Supply: Renewables,191.71,184.17,176.63,188.47,206.78,222.94,243.40,274.63,305.87,,
+advanced_economies,total,0,,Total,1176.90,1028.40,1056.20,1084.20,1061.90,981.40,1086.70,1228.80,1355.00,1398.00,1426.70
+africa,battery_storage,2,power,Battery storage,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+africa,clean_energy,1,total,of which: Clean energy,28.70,29.20,27.20,26.10,24.70,25.20,29.90,35.90,40.40,47.40,50.20
+africa,clean_fuels,2,fuels,Clean Fuels,0.30,0.40,0.40,0.20,0.10,0.10,0.00,0.10,0.10,0.10,0.10
+africa,direct_air_capture,2,fuels,Direct Air Capture,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+africa,efficiency_buildings,3,energy_efficiency,Efficiency: Buildings,3.50,3.80,4.10,4.30,4.60,4.80,5.20,5.60,6.70,7.70,7.90
+africa,efficiency_industry,3,energy_efficiency,Efficiency: Industry,0.70,0.80,0.90,0.90,0.80,0.90,1.00,1.00,1.10,1.30,1.30
+africa,efficiency_transport,3,energy_efficiency,Efficiency: Transport,0.20,1.10,1.10,1.10,1.60,1.60,2.70,3.00,3.50,4.10,2.70
+africa,electricity_networks,2,power,Electricity networks,12.20,12.00,11.10,10.00,8.00,6.60,7.80,9.20,9.10,12.80,13.70
+africa,end_use,1,,End-use,4.90,6.30,6.60,6.90,7.50,8.00,9.40,10.10,12.00,14.20,13.60
+africa,energy_efficiency,2,end_use,Energy efficiency,4.40,5.70,6.00,6.40,6.90,7.40,9.00,9.60,11.30,13.00,11.90
+africa,fossil_coal,3,fossil_fuels,Coal,1.90,2.40,2.50,2.10,2.10,1.50,1.70,1.70,1.70,1.80,1.80
+africa,fossil_fuels,2,fuels,Fossil fuels,111.90,86.20,72.30,66.80,64.60,46.50,47.90,52.00,62.70,64.80,53.20
+africa,fossil_gas,3,fossil_fuels,Gas,28.90,26.10,24.60,20.30,22.20,16.20,16.30,15.60,17.40,18.40,15.10
+africa,fossil_oil,3,fossil_fuels,Oil,81.00,57.70,45.30,44.40,40.30,28.70,29.90,34.80,43.60,44.60,36.30
+africa,fuels,1,,Fuels,112.10,86.60,72.70,67.00,64.70,46.60,47.90,52.10,62.80,64.90,53.30
+africa,gen_coal_unabated,3,generation,Coal (unabated),2.00,2.10,2.10,1.70,1.50,1.60,1.30,0.90,0.70,0.30,0.00
+africa,gen_fossil_ccus,3,generation,Fossil fuels with CCUS,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+africa,gen_nuclear,3,generation,Nuclear,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.40,0.70,0.70,1.10
+africa,gen_oil_gas_unabated,3,generation,Oil & natural gas (unabated),10.90,11.40,9.90,6.60,4.80,3.10,3.70,3.60,3.80,4.30,1.70
+africa,gen_other_clean,3,generation,Other clean power,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+africa,gen_other_clean_ammonia,4,gen_other_clean,Ammonia,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+africa,gen_other_clean_heat_pumps,4,gen_other_clean,Large scale heat pumps,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+africa,gen_other_clean_hydrogen,4,gen_other_clean,Hydrogen,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+africa,gen_renewables,3,generation,Renewables,11.40,10.50,9.00,8.90,9.20,10.50,12.70,16.10,18.40,19.50,21.00
+africa,gen_renewables_other,4,gen_renewables,Other renewables,6.40,5.80,4.70,4.30,4.30,5.00,5.90,6.30,6.20,5.90,5.60
+africa,gen_renewables_solar,4,gen_renewables,Solar,2.80,3.10,3.30,3.90,3.50,3.90,5.40,7.90,9.10,9.30,10.30
+africa,gen_renewables_wind,4,gen_renewables,Wind,2.20,1.60,1.00,0.80,1.30,1.60,1.40,1.90,3.10,4.30,5.10
+africa,gen_waste_nonrenewable,3,generation,Waste: non-renewable,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+africa,generation,2,power,Generation,24.30,24.00,21.00,17.20,15.50,15.20,17.70,20.90,23.60,24.80,23.90
+africa,memo_oil_gas_upstream,0,,Memo: Oil & gas upstream,96.90,71.40,58.50,53.40,50.00,30.90,31.80,34.50,42.20,47.70,42.20
+africa,memo_transitional_fossil,0,,Memo: Transitional fossil fuels,0.00,0.00,0.10,0.10,0.10,0.00,0.00,0.00,0.00,0.10,0.70
+africa,other_end_use,2,end_use,Other end-use,0.50,0.50,0.60,0.50,0.50,0.60,0.40,0.60,0.60,1.10,1.70
+africa,other_end_use_buildings,3,other_end_use,Other end-use: Buildings,0.20,0.20,0.20,0.20,0.20,0.20,0.20,0.20,0.30,0.50,0.70
+africa,other_end_use_industry,3,other_end_use,Other end-use: Industry,0.10,0.20,0.20,0.30,0.30,0.40,0.20,0.20,0.10,0.30,0.20
+africa,other_end_use_renewables,2,end_use,Other end-use renewables,0.23,0.52,0.50,0.37,0.39,0.33,0.33,0.34,0.36,0.37,
+africa,other_end_use_transport,3,other_end_use,Other end-use: Transport,0.10,0.10,0.10,0.00,0.00,0.00,0.10,0.10,0.20,0.20,0.80
+africa,power,1,,Power,36.40,36.00,32.10,27.30,23.50,21.80,25.50,30.10,32.70,37.60,37.50
+africa,supply_by_type,1,,Supply (by type),136.78,116.32,115.24,113.08,67.74,57.83,59.67,67.74,75.61,,
+africa,supply_electricity_networks,1,,Supply: Electricity networks,12.82,12.60,11.74,10.54,8.39,6.93,8.16,9.70,9.97,,
+africa,supply_fossil_no_ccus,2,supply_by_type,Supply: Fossil fuels (no CCUS),112.01,93.05,94.35,93.38,49.11,38.66,36.51,39.63,43.40,,
+africa,supply_other,1,,Supply: Other,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.48,0.91,,
+africa,supply_renewables,1,,Supply: Renewables,11.52,10.99,9.64,9.73,10.50,12.39,15.08,17.88,21.32,,
+africa,total,0,,Total,153.40,128.80,111.40,101.20,95.60,76.30,82.80,92.30,107.50,116.70,104.40
+asia_pacific,battery_storage,2,power,Battery storage,0.10,0.40,0.70,1.80,1.30,2.20,2.50,6.80,12.60,23.70,23.50
+asia_pacific,clean_energy,1,total,of which: Clean energy,515.30,568.90,589.80,585.90,579.90,571.80,593.10,729.80,851.90,915.90,946.60
+asia_pacific,clean_fuels,2,fuels,Clean Fuels,2.20,2.30,2.00,1.90,2.20,2.10,2.90,6.30,5.00,6.00,10.00
+asia_pacific,direct_air_capture,2,fuels,Direct Air Capture,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+asia_pacific,efficiency_buildings,3,energy_efficiency,Efficiency: Buildings,75.00,77.50,80.60,81.10,83.60,82.50,86.30,86.60,92.00,96.40,97.10
+asia_pacific,efficiency_industry,3,energy_efficiency,Efficiency: Industry,18.90,16.50,15.70,12.70,10.80,8.60,8.30,7.80,8.10,11.10,13.70
+asia_pacific,efficiency_transport,3,energy_efficiency,Efficiency: Transport,9.60,22.10,23.70,25.10,26.10,24.70,21.70,19.30,22.10,23.50,21.10
+asia_pacific,electricity_networks,2,power,Electricity networks,152.90,161.30,154.40,149.80,132.80,123.60,123.20,132.20,132.00,146.00,155.70
+asia_pacific,end_use,1,,End-use,165.60,196.80,207.40,194.30,178.70,178.70,203.70,235.00,235.80,243.30,260.70
+asia_pacific,energy_efficiency,2,end_use,Energy efficiency,103.50,116.10,119.90,118.90,120.50,115.70,116.40,113.70,122.10,131.10,131.90
+asia_pacific,fossil_coal,3,fossil_fuels,Coal,103.50,82.00,88.20,90.20,109.50,104.00,109.50,124.50,133.20,140.90,147.50
+asia_pacific,fossil_fuels,2,fuels,Fossil fuels,333.50,268.80,258.70,266.20,274.10,247.00,259.80,284.30,294.60,302.80,321.40
+asia_pacific,fossil_gas,3,fossil_fuels,Gas,120.80,91.90,71.70,70.60,66.20,62.60,64.30,74.90,73.80,70.70,80.10
+asia_pacific,fossil_oil,3,fossil_fuels,Oil,109.20,95.00,98.80,105.40,98.50,80.40,86.00,84.80,87.60,91.30,93.80
+asia_pacific,fuels,1,,Fuels,335.70,271.20,260.70,268.00,276.30,249.10,262.70,290.60,299.50,308.80,331.40
+asia_pacific,gen_coal_unabated,3,generation,Coal (unabated),78.60,71.50,66.00,63.30,60.60,55.80,57.30,59.90,60.90,66.90,71.50
+asia_pacific,gen_fossil_ccus,3,generation,Fossil fuels with CCUS,0.00,0.00,0.00,0.00,0.00,0.10,0.10,0.30,0.60,0.70,0.70
+asia_pacific,gen_nuclear,3,generation,Nuclear,20.90,20.20,17.40,16.70,17.10,17.80,20.30,22.40,26.90,32.40,34.20
+asia_pacific,gen_oil_gas_unabated,3,generation,Oil & natural gas (unabated),27.80,26.90,25.40,22.40,19.40,15.60,17.10,21.40,28.30,32.80,22.90
+asia_pacific,gen_other_clean,3,generation,Other clean power,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.90,1.70
+asia_pacific,gen_other_clean_ammonia,4,gen_other_clean,Ammonia,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+asia_pacific,gen_other_clean_heat_pumps,4,gen_other_clean,Large scale heat pumps,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.90,1.70
+asia_pacific,gen_other_clean_hydrogen,4,gen_other_clean,Hydrogen,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+asia_pacific,gen_renewables,3,generation,Renewables,173.50,187.70,207.70,221.30,247.50,247.10,240.20,326.40,438.70,462.10,458.20
+asia_pacific,gen_renewables_other,4,gen_renewables,Other renewables,35.80,39.00,45.80,53.30,56.60,56.60,54.20,49.60,46.60,45.80,47.20
+asia_pacific,gen_renewables_solar,4,gen_renewables,Solar,81.70,107.30,109.80,101.90,99.10,94.60,108.30,184.00,267.90,277.60,265.10
+asia_pacific,gen_renewables_wind,4,gen_renewables,Wind,56.00,41.40,52.10,66.10,91.80,95.90,77.60,92.80,124.20,138.70,145.80
+asia_pacific,gen_waste_nonrenewable,3,generation,Waste: non-renewable,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.10,0.60,1.00,1.30
+asia_pacific,generation,2,power,Generation,300.90,306.30,316.60,323.70,344.50,336.30,335.10,430.60,555.90,596.80,590.40
+asia_pacific,memo_oil_gas_upstream,0,,Memo: Oil & gas upstream,148.20,102.50,86.00,93.60,102.30,90.10,91.20,93.00,95.60,97.30,97.60
+asia_pacific,memo_transitional_fossil,0,,Memo: Transitional fossil fuels,0.10,0.10,0.10,0.20,0.20,0.20,0.10,0.30,0.40,0.80,1.50
+asia_pacific,other_end_use,2,end_use,Other end-use,62.00,80.70,87.40,75.30,58.10,63.00,87.40,121.30,113.70,112.20,128.80
+asia_pacific,other_end_use_buildings,3,other_end_use,Other end-use: Buildings,24.20,26.50,28.40,29.90,29.80,28.50,26.60,25.40,24.70,25.90,27.80
+asia_pacific,other_end_use_industry,3,other_end_use,Other end-use: Industry,1.60,1.90,5.90,4.30,1.10,0.70,1.80,1.90,2.50,5.50,9.50
+asia_pacific,other_end_use_renewables,2,end_use,Other end-use renewables,31.59,31.80,33.75,35.60,37.25,37.35,43.32,48.05,48.67,49.39,
+asia_pacific,other_end_use_transport,3,other_end_use,Other end-use: Transport,36.20,52.30,53.20,41.10,27.20,33.70,58.90,94.10,86.50,80.70,91.40
+asia_pacific,power,1,,Power,453.80,468.00,471.70,475.30,478.70,462.20,460.80,569.60,700.50,766.50,769.60
+asia_pacific,supply_by_type,1,,Supply (by type),756.05,722.67,718.36,729.13,806.67,788.36,801.29,899.29,968.22,,
+asia_pacific,supply_electricity_networks,1,,Supply: Electricity networks,161.55,171.24,163.70,158.32,143.24,132.47,132.47,148.63,147.55,,
+asia_pacific,supply_fossil_no_ccus,2,supply_by_type,Supply: Fossil fuels (no CCUS),414.64,354.33,331.72,329.56,360.79,323.10,339.25,353.26,366.18,,
+asia_pacific,supply_other,1,,Supply: Other,13.79,0.00,0.00,0.00,0.00,0.00,0.00,0.00,9.14,,
+asia_pacific,supply_renewables,1,,Supply: Renewables,166.94,231.55,256.33,271.40,330.64,354.33,347.87,401.72,445.88,,
+asia_pacific,total,0,,Total,955.10,935.90,939.70,937.60,933.70,890.00,927.20,1095.20,1235.90,1318.60,1361.60
+central_south_america,battery_storage,2,power,Battery storage,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.30,0.40,0.40
+central_south_america,clean_energy,1,total,of which: Clean energy,48.50,47.40,41.90,41.40,40.70,43.50,47.10,50.40,61.30,56.20,59.00
+central_south_america,clean_fuels,2,fuels,Clean Fuels,1.00,0.80,0.80,1.00,1.40,1.20,1.50,1.50,2.50,2.80,3.40
+central_south_america,direct_air_capture,2,fuels,Direct Air Capture,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+central_south_america,efficiency_buildings,3,energy_efficiency,Efficiency: Buildings,4.60,4.90,5.20,5.40,5.90,6.10,6.80,7.50,8.00,8.50,8.70
+central_south_america,efficiency_industry,3,energy_efficiency,Efficiency: Industry,1.10,1.00,1.00,0.70,0.40,0.80,1.20,1.30,1.60,1.90,2.20
+central_south_america,efficiency_transport,3,energy_efficiency,Efficiency: Transport,0.30,1.40,1.50,2.30,2.50,2.30,2.60,3.20,3.10,3.20,3.10
+central_south_america,electricity_networks,2,power,Electricity networks,13.40,14.00,13.70,12.70,11.70,9.70,10.20,8.50,17.20,10.70,11.40
+central_south_america,end_use,1,,End-use,7.50,11.00,9.50,10.00,10.20,14.00,12.60,14.20,15.30,18.10,19.30
+central_south_america,energy_efficiency,2,end_use,Energy efficiency,6.00,7.30,7.70,8.40,8.80,9.20,10.70,12.00,12.70,13.50,14.00
+central_south_america,fossil_coal,3,fossil_fuels,Coal,3.30,2.80,1.90,1.70,0.80,0.40,0.40,0.40,0.40,0.40,0.60
+central_south_america,fossil_fuels,2,fuels,Fossil fuels,95.00,73.90,59.60,54.20,53.10,43.20,55.90,61.80,73.10,75.20,74.30
+central_south_america,fossil_gas,3,fossil_fuels,Gas,17.70,14.50,11.90,10.10,9.60,8.20,10.70,9.50,10.40,10.70,10.50
+central_south_america,fossil_oil,3,fossil_fuels,Oil,73.90,56.60,45.80,42.50,42.70,34.60,44.80,51.90,62.30,64.10,63.10
+central_south_america,fuels,1,,Fuels,96.00,74.70,60.40,55.20,54.40,44.30,57.40,63.30,75.50,78.00,77.70
+central_south_america,gen_coal_unabated,3,generation,Coal (unabated),1.10,0.90,0.80,0.70,0.40,0.20,0.10,0.10,0.10,0.10,0.20
+central_south_america,gen_fossil_ccus,3,generation,Fossil fuels with CCUS,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+central_south_america,gen_nuclear,3,generation,Nuclear,0.30,0.20,0.00,0.00,0.00,0.00,0.00,0.50,0.90,0.90,0.80
+central_south_america,gen_oil_gas_unabated,3,generation,Oil & natural gas (unabated),4.30,4.50,4.40,4.10,3.60,2.50,2.80,2.80,3.20,3.80,2.30
+central_south_america,gen_other_clean,3,generation,Other clean power,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+central_south_america,gen_other_clean_ammonia,4,gen_other_clean,Ammonia,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+central_south_america,gen_other_clean_heat_pumps,4,gen_other_clean,Large scale heat pumps,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+central_south_america,gen_other_clean_hydrogen,4,gen_other_clean,Hydrogen,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+central_south_america,gen_renewables,3,generation,Renewables,26.30,21.30,17.70,17.50,17.20,18.40,22.40,25.10,24.70,22.60,21.40
+central_south_america,gen_renewables_other,4,gen_renewables,Other renewables,13.60,9.90,6.40,5.90,5.80,5.60,5.70,6.00,6.40,6.50,6.80
+central_south_america,gen_renewables_solar,4,gen_renewables,Solar,4.30,4.30,4.80,6.20,6.30,7.00,10.10,12.10,11.90,10.20,8.40
+central_south_america,gen_renewables_wind,4,gen_renewables,Wind,8.40,7.10,6.40,5.50,5.10,5.90,6.60,6.90,6.30,5.90,6.20
+central_south_america,gen_waste_nonrenewable,3,generation,Waste: non-renewable,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+central_south_america,generation,2,power,Generation,32.00,26.80,22.90,22.40,21.30,21.20,25.30,28.40,28.80,27.40,24.60
+central_south_america,memo_oil_gas_upstream,0,,Memo: Oil & gas upstream,82.00,61.70,48.60,44.30,42.10,30.20,38.50,43.30,54.90,57.70,56.80
+central_south_america,memo_transitional_fossil,0,,Memo: Transitional fossil fuels,0.00,0.00,0.10,0.10,0.20,0.20,0.40,0.60,0.50,0.60,2.20
+central_south_america,other_end_use,2,end_use,Other end-use,1.50,3.70,1.80,1.60,1.40,4.80,1.90,2.20,2.60,4.60,5.40
+central_south_america,other_end_use_buildings,3,other_end_use,Other end-use: Buildings,0.90,1.00,1.00,1.00,0.90,0.80,0.60,0.60,0.70,0.90,1.10
+central_south_america,other_end_use_industry,3,other_end_use,Other end-use: Industry,0.50,2.70,0.70,0.40,0.20,3.70,0.90,0.80,0.40,1.10,1.10
+central_south_america,other_end_use_renewables,2,end_use,Other end-use renewables,0.52,0.47,0.46,0.46,0.48,0.51,0.60,0.67,0.69,0.71,
+central_south_america,other_end_use_transport,3,other_end_use,Other end-use: Transport,0.10,0.10,0.10,0.20,0.30,0.20,0.40,0.80,1.50,2.60,3.20
+central_south_america,power,1,,Power,45.40,40.90,36.60,35.00,33.00,30.90,35.50,37.00,46.30,38.60,36.50
+central_south_america,supply_by_type,1,,Supply (by type),140.01,110.93,105.44,112.01,95.10,88.96,103.61,106.73,99.84,,
+central_south_america,supply_electricity_networks,1,,Supply: Electricity networks,14.11,14.75,14.43,13.35,12.28,10.20,10.77,9.01,10.13,,
+central_south_america,supply_fossil_no_ccus,2,supply_by_type,Supply: Fossil fuels (no CCUS),99.95,75.50,72.70,79.59,59.77,49.87,53.96,55.47,53.53,,
+central_south_america,supply_other,1,,Supply: Other,0.00,0.20,0.28,0.53,0.90,0.80,1.20,1.59,3.00,,
+central_south_america,supply_renewables,1,,Supply: Renewables,26.17,21.00,17.99,18.74,22.19,28.11,37.59,40.60,33.28,,
+central_south_america,total,0,,Total,148.90,126.60,106.60,100.30,97.60,89.20,105.50,114.50,137.20,134.70,133.50
+china,battery_storage,2,power,Battery storage,0.00,0.10,0.20,0.60,0.70,1.30,1.80,5.90,11.10,21.60,19.30
+china,clean_energy,1,total,of which: Clean energy,318.40,366.10,380.90,366.00,370.60,371.60,377.00,485.60,590.50,625.30,627.80
+china,clean_fuels,2,fuels,Clean Fuels,0.90,1.10,1.40,1.00,0.70,0.60,1.70,3.90,2.70,3.50,6.20
+china,direct_air_capture,2,fuels,Direct Air Capture,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+china,efficiency_buildings,3,energy_efficiency,Efficiency: Buildings,47.80,48.50,50.00,49.00,50.60,50.40,52.10,50.50,53.20,55.80,55.00
+china,efficiency_industry,3,energy_efficiency,Efficiency: Industry,14.80,12.90,11.90,8.60,6.10,3.80,2.50,2.00,2.60,5.30,7.10
+china,efficiency_transport,3,energy_efficiency,Efficiency: Transport,4.60,10.50,11.50,12.50,14.20,14.70,11.50,8.00,10.30,9.60,9.10
+china,electricity_networks,2,power,Electricity networks,79.30,92.00,87.00,84.60,77.30,74.60,70.90,76.60,76.60,83.10,88.60
+china,end_use,1,,End-use,114.90,137.20,142.80,128.00,115.30,111.00,126.00,147.30,149.70,151.50,162.30
+china,energy_efficiency,2,end_use,Energy efficiency,67.20,72.00,73.40,70.20,70.90,68.90,66.10,60.50,66.10,70.70,71.20
+china,fossil_coal,3,fossil_fuels,Coal,86.60,65.10,62.10,63.90,80.40,78.80,83.60,97.00,102.90,109.50,113.70
+china,fossil_fuels,2,fuels,Fossil fuels,164.30,132.80,137.80,153.00,178.10,164.70,177.00,193.50,202.70,195.10,199.90
+china,fossil_gas,3,fossil_fuels,Gas,21.80,20.50,21.20,24.70,26.30,26.80,28.60,36.40,37.00,29.40,27.50
+china,fossil_oil,3,fossil_fuels,Oil,55.80,47.20,54.40,64.40,71.50,59.10,64.80,60.20,62.80,56.20,58.80
+china,fuels,1,,Fuels,165.10,134.00,139.10,154.00,178.90,165.30,178.70,197.40,205.40,198.60,206.10
+china,gen_coal_unabated,3,generation,Coal (unabated),44.10,39.40,35.80,32.80,31.10,27.40,28.20,32.60,36.40,45.40,53.90
+china,gen_fossil_ccus,3,generation,Fossil fuels with CCUS,0.00,0.00,0.00,0.00,0.00,0.10,0.10,0.30,0.60,0.70,0.70
+china,gen_nuclear,3,generation,Nuclear,13.70,12.50,10.30,8.70,8.30,9.10,10.40,11.90,14.90,19.00,21.90
+china,gen_oil_gas_unabated,3,generation,Oil & natural gas (unabated),8.50,9.30,10.40,10.30,9.10,7.40,7.80,10.40,15.00,17.70,10.70
+china,gen_other_clean,3,generation,Other clean power,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.90,1.70
+china,gen_other_clean_ammonia,4,gen_other_clean,Ammonia,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+china,gen_other_clean_heat_pumps,4,gen_other_clean,Large scale heat pumps,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.90,1.70
+china,gen_other_clean_hydrogen,4,gen_other_clean,Hydrogen,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+china,gen_renewables,3,generation,Renewables,109.60,123.10,139.10,143.00,168.10,174.90,166.10,239.30,334.60,344.60,326.70
+china,gen_renewables_other,4,gen_renewables,Other renewables,19.70,24.50,32.30,40.10,43.00,40.40,34.70,27.30,22.10,18.70,17.40
+china,gen_renewables_solar,4,gen_renewables,Solar,41.10,66.40,65.40,46.70,43.30,48.70,65.60,135.50,211.70,218.90,203.90
+china,gen_renewables_wind,4,gen_renewables,Wind,48.70,32.20,41.40,56.10,81.90,85.80,65.80,76.40,100.80,107.00,105.40
+china,gen_waste_nonrenewable,3,generation,Waste: non-renewable,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.20,0.50,0.80
+china,generation,2,power,Generation,175.90,184.30,195.60,194.70,216.70,218.70,212.60,294.60,401.60,428.80,416.40
+china,memo_oil_gas_upstream,0,,Memo: Oil & gas upstream,54.20,38.90,41.70,49.60,60.00,53.30,56.80,58.40,58.70,57.30,55.20
+china,memo_transitional_fossil,0,,Memo: Transitional fossil fuels,0.00,0.10,0.10,0.10,0.10,0.10,0.10,0.30,0.30,0.30,0.30
+china,other_end_use,2,end_use,Other end-use,47.70,65.20,69.50,57.80,44.40,42.00,59.90,86.80,83.60,80.90,91.10
+china,other_end_use_buildings,3,other_end_use,Other end-use: Buildings,18.10,20.30,22.10,23.60,23.00,21.90,20.20,19.50,18.50,18.80,19.60
+china,other_end_use_industry,3,other_end_use,Other end-use: Industry,0.00,1.10,4.40,2.10,0.40,0.30,0.90,0.30,0.90,3.30,4.50
+china,other_end_use_renewables,2,end_use,Other end-use renewables,28.30,28.61,30.66,32.83,34.57,34.68,40.44,45.07,45.69,46.41,
+china,other_end_use_transport,3,other_end_use,Other end-use: Transport,29.60,43.80,42.90,32.10,21.00,19.80,38.70,67.00,64.20,58.70,67.00
+china,power,1,,Power,255.20,276.40,282.80,280.00,294.60,294.60,285.30,377.10,489.30,533.50,524.40
+china,supply_by_type,1,,Supply (by type),397.41,401.72,410.34,424.34,511.57,522.35,528.81,599.89,654.82,,
+china,supply_electricity_networks,1,,Supply: Electricity networks,83.58,98.01,92.41,89.82,84.54,80.24,76.90,89.28,89.71,,
+china,supply_fossil_no_ccus,2,supply_by_type,Supply: Fossil fuels (no CCUS),200.32,174.47,168.01,180.94,227.25,213.25,222.94,225.09,236.94,,
+china,supply_other,1,,Supply: Other,10.37,9.60,8.54,8.05,8.56,10.59,12.60,22.19,33.49,,
+china,supply_renewables,1,,Supply: Renewables,103.07,119.55,142.16,145.39,190.63,218.63,216.48,262.79,294.02,,
+china,total,0,,Total,535.30,547.60,564.80,561.90,588.80,570.90,589.90,721.80,844.40,883.60,892.80
+emde,battery_storage,2,power,Battery storage,0.00,0.10,0.20,0.70,0.80,1.40,1.90,6.20,11.40,22.50,21.10
+emde,clean_energy,1,total,of which: Clean energy,580.40,636.30,639.10,614.60,605.60,601.80,632.60,769.00,902.40,967.20,1009.20
+emde,clean_fuels,2,fuels,Clean Fuels,3.40,3.60,3.20,2.90,3.50,3.10,4.30,7.70,7.10,9.10,14.20
+emde,direct_air_capture,2,fuels,Direct Air Capture,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+emde,efficiency_buildings,3,energy_efficiency,Efficiency: Buildings,68.50,70.80,73.40,73.40,76.00,75.30,79.40,80.20,86.50,92.70,94.20
+emde,efficiency_industry,3,energy_efficiency,Efficiency: Industry,22.30,20.60,20.50,17.00,13.70,11.80,11.00,10.30,11.10,15.90,18.60
+emde,efficiency_transport,3,energy_efficiency,Efficiency: Transport,6.90,20.70,23.40,26.10,28.30,27.40,26.60,25.50,28.10,30.00,26.80
+emde,electricity_networks,2,power,Electricity networks,191.80,201.80,188.20,175.30,150.30,139.70,138.70,145.40,155.80,166.20,177.20
+emde,end_use,1,,End-use,183.90,216.40,220.70,192.80,175.40,178.10,205.00,234.40,240.00,257.00,283.30
+emde,energy_efficiency,2,end_use,Energy efficiency,97.70,112.20,117.30,116.60,118.00,114.50,117.00,116.00,125.70,138.60,139.70
+emde,fossil_coal,3,fossil_fuels,Coal,111.20,90.60,95.70,97.00,115.20,107.60,114.20,129.00,136.60,144.00,150.20
+emde,fossil_fuels,2,fuels,Fossil fuels,728.60,616.30,589.30,596.80,606.80,542.10,574.70,583.30,610.40,627.50,637.20
+emde,fossil_gas,3,fossil_fuels,Gas,178.70,161.30,146.80,143.00,142.30,128.60,136.80,140.70,145.60,149.00,157.70
+emde,fossil_oil,3,fossil_fuels,Oil,438.70,364.40,346.80,356.80,349.30,305.90,323.70,313.60,328.30,334.50,329.30
+emde,fuels,1,,Fuels,732.00,619.90,592.50,599.70,610.30,545.20,578.90,591.00,617.50,636.60,651.30
+emde,gen_coal_unabated,3,generation,Coal (unabated),76.10,68.30,63.10,59.40,55.90,52.50,56.30,61.50,65.00,72.60,77.70
+emde,gen_fossil_ccus,3,generation,Fossil fuels with CCUS,0.00,0.00,0.00,0.00,0.00,0.10,0.10,0.30,0.60,0.70,0.70
+emde,gen_nuclear,3,generation,Nuclear,23.70,22.50,20.40,21.60,25.30,28.20,31.20,33.60,37.70,43.00,46.10
+emde,gen_oil_gas_unabated,3,generation,Oil & natural gas (unabated),55.30,57.40,55.40,47.20,40.80,31.30,35.90,42.50,54.50,65.00,47.90
+emde,gen_other_clean,3,generation,Other clean power,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.90,1.70
+emde,gen_other_clean_ammonia,4,gen_other_clean,Ammonia,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+emde,gen_other_clean_heat_pumps,4,gen_other_clean,Large scale heat pumps,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.90,1.70
+emde,gen_other_clean_hydrogen,4,gen_other_clean,Hydrogen,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+emde,gen_renewables,3,generation,Renewables,177.00,191.30,205.60,220.60,249.30,250.30,249.70,339.50,448.50,466.20,459.70
+emde,gen_renewables_other,4,gen_renewables,Other renewables,55.20,54.30,55.70,61.40,64.50,65.00,63.40,59.70,56.80,55.10,56.40
+emde,gen_renewables_solar,4,gen_renewables,Solar,57.50,89.00,91.60,88.10,87.80,82.90,103.60,184.20,268.90,279.70,269.70
+emde,gen_renewables_wind,4,gen_renewables,Wind,64.20,48.00,58.30,71.10,97.00,102.40,82.70,95.60,122.80,131.40,133.60
+emde,gen_waste_nonrenewable,3,generation,Waste: non-renewable,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.70,1.70,2.20,1.80
+emde,generation,2,power,Generation,332.00,339.50,344.40,348.90,371.30,362.40,373.10,478.10,608.10,650.50,635.60
+emde,memo_oil_gas_upstream,0,,Memo: Oil & gas upstream,473.70,378.50,342.90,350.20,348.50,282.20,290.60,294.00,320.80,339.60,335.20
+emde,memo_transitional_fossil,0,,Memo: Transitional fossil fuels,0.60,0.60,0.80,0.80,1.00,0.90,1.80,1.90,1.30,1.70,5.20
+emde,other_end_use,2,end_use,Other end-use,86.10,104.20,103.40,76.20,57.40,63.70,88.00,118.40,114.30,118.40,143.60
+emde,other_end_use_buildings,3,other_end_use,Other end-use: Buildings,22.70,24.90,26.80,28.20,27.90,26.80,25.00,24.00,24.60,27.40,30.90
+emde,other_end_use_industry,3,other_end_use,Other end-use: Industry,2.30,4.90,6.50,5.10,1.80,4.80,4.40,3.80,2.80,6.60,10.80
+emde,other_end_use_renewables,2,end_use,Other end-use renewables,2.84,4.14,4.18,3.70,3.77,3.65,3.82,3.99,4.13,4.26,
+emde,other_end_use_transport,3,other_end_use,Other end-use: Transport,61.10,74.40,70.00,42.90,27.80,32.10,58.60,90.60,87.00,84.40,101.90
+emde,power,1,,Power,523.80,541.40,532.90,524.80,522.40,503.40,513.70,629.70,775.30,839.20,833.90
+emde,supply_by_type,1,,Supply (by type),845.44,723.74,695.74,691.43,632.20,540.65,583.73,645.12,693.59,,
+emde,supply_electricity_networks,1,,Supply: Electricity networks,118.47,115.24,106.41,95.31,76.79,68.50,71.30,72.59,73.77,,
+emde,supply_fossil_no_ccus,2,supply_by_type,Supply: Fossil fuels (no CCUS),651.58,532.04,512.65,506.19,446.95,358.64,390.95,438.34,476.03,,
+emde,supply_other,1,,Supply: Other,7.35,8.82,10.18,11.09,13.46,14.97,15.40,17.02,21.22,,
+emde,supply_renewables,1,,Supply: Renewables,68.39,68.17,65.91,78.41,94.78,97.68,105.87,117.39,122.78,,
+emde,total,0,,Total,1439.70,1377.60,1346.10,1317.30,1308.20,1226.80,1297.60,1455.20,1632.80,1732.80,1768.60
+eurasia,battery_storage,2,power,Battery storage,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+eurasia,clean_energy,1,total,of which: Clean energy,42.90,40.60,35.40,23.00,26.00,27.90,36.40,32.30,33.90,36.60,43.20
+eurasia,clean_fuels,2,fuels,Clean Fuels,0.00,0.10,0.00,0.00,0.00,0.00,0.00,0.00,0.10,0.10,0.10
+eurasia,direct_air_capture,2,fuels,Direct Air Capture,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+eurasia,efficiency_buildings,3,energy_efficiency,Efficiency: Buildings,2.30,2.30,2.20,2.10,2.10,2.20,2.50,2.70,3.10,3.30,3.70
+eurasia,efficiency_industry,3,energy_efficiency,Efficiency: Industry,0.50,0.70,0.80,0.70,0.60,0.90,0.90,0.80,1.00,1.30,1.00
+eurasia,efficiency_transport,3,energy_efficiency,Efficiency: Transport,0.20,0.60,1.00,1.10,1.20,1.80,2.30,2.40,2.10,2.10,2.50
+eurasia,electricity_networks,2,power,Electricity networks,9.20,9.40,9.30,8.80,8.60,7.60,7.90,6.00,7.10,7.70,8.20
+eurasia,end_use,1,,End-use,28.70,26.30,21.10,6.70,6.10,7.40,14.60,13.50,14.40,15.60,20.60
+eurasia,energy_efficiency,2,end_use,Energy efficiency,3.00,3.60,4.00,3.90,3.90,4.90,5.70,5.90,6.20,6.70,7.20
+eurasia,fossil_coal,3,fossil_fuels,Coal,9.40,9.00,10.90,10.70,11.70,9.30,9.80,9.70,9.50,9.00,5.50
+eurasia,fossil_fuels,2,fuels,Fossil fuels,138.50,131.10,139.70,137.30,130.90,110.20,110.00,92.60,90.50,81.50,82.00
+eurasia,fossil_gas,3,fossil_fuels,Gas,44.10,43.20,41.00,38.00,35.00,32.60,35.00,29.20,28.60,26.40,27.70
+eurasia,fossil_oil,3,fossil_fuels,Oil,85.00,78.90,87.80,88.60,84.20,68.30,65.20,53.70,52.30,46.20,48.80
+eurasia,fuels,1,,Fuels,138.50,131.20,139.80,137.30,130.90,110.20,110.00,92.60,90.50,81.60,82.10
+eurasia,gen_coal_unabated,3,generation,Coal (unabated),1.50,1.00,0.70,0.50,0.50,1.10,2.20,3.40,4.70,5.60,5.90
+eurasia,gen_fossil_ccus,3,generation,Fossil fuels with CCUS,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+eurasia,gen_nuclear,3,generation,Nuclear,2.20,1.60,1.30,2.60,5.30,7.50,8.70,8.20,8.10,8.80,8.80
+eurasia,gen_oil_gas_unabated,3,generation,Oil & natural gas (unabated),7.50,8.60,8.30,6.30,4.80,3.40,5.20,7.60,11.20,14.30,13.50
+eurasia,gen_other_clean,3,generation,Other clean power,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+eurasia,gen_other_clean_ammonia,4,gen_other_clean,Ammonia,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+eurasia,gen_other_clean_heat_pumps,4,gen_other_clean,Large scale heat pumps,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+eurasia,gen_other_clean_hydrogen,4,gen_other_clean,Hydrogen,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+eurasia,gen_renewables,3,generation,Renewables,2.70,3.00,3.40,4.60,5.70,5.00,4.00,3.70,3.80,4.00,4.50
+eurasia,gen_renewables_other,4,gen_renewables,Other renewables,2.30,2.50,2.20,1.90,1.80,1.50,1.30,1.20,1.20,1.30,1.50
+eurasia,gen_renewables_solar,4,gen_renewables,Solar,0.20,0.30,0.90,2.00,2.20,1.50,1.30,1.40,1.50,1.70,1.90
+eurasia,gen_renewables_wind,4,gen_renewables,Wind,0.10,0.20,0.30,0.70,1.70,2.10,1.40,1.20,1.10,1.00,1.10
+eurasia,gen_waste_nonrenewable,3,generation,Waste: non-renewable,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.60,1.20,1.20,0.60
+eurasia,generation,2,power,Generation,13.80,14.20,13.70,14.00,16.20,17.10,20.10,23.60,28.90,33.90,33.40
+eurasia,memo_oil_gas_upstream,0,,Memo: Oil & gas upstream,99.20,88.60,93.20,95.00,93.40,76.40,73.40,61.60,57.60,51.30,54.20
+eurasia,memo_transitional_fossil,0,,Memo: Transitional fossil fuels,0.20,0.20,0.20,0.20,0.30,0.20,1.10,0.80,0.50,0.40,0.90
+eurasia,other_end_use,2,end_use,Other end-use,25.70,22.70,17.10,2.80,2.20,2.50,8.90,7.60,8.20,8.80,13.50
+eurasia,other_end_use_buildings,3,other_end_use,Other end-use: Buildings,0.20,0.10,0.10,0.10,0.20,0.30,0.40,0.40,1.00,1.60,2.10
+eurasia,other_end_use_industry,3,other_end_use,Other end-use: Industry,0.10,0.20,0.20,0.30,0.20,0.10,1.70,0.40,0.00,0.20,0.30
+eurasia,other_end_use_renewables,2,end_use,Other end-use renewables,0.25,0.53,0.50,0.35,0.35,0.32,0.31,0.34,0.34,0.35,
+eurasia,other_end_use_transport,3,other_end_use,Other end-use: Transport,25.40,22.30,16.80,2.40,1.90,2.20,6.80,6.70,7.20,7.10,11.10
+eurasia,power,1,,Power,23.00,23.60,23.00,22.90,24.90,24.70,28.10,29.60,36.00,41.60,41.60
+eurasia,supply_by_type,1,,Supply (by type),179.86,150.78,148.63,135.70,113.08,100.27,105.12,99.84,100.27,,
+eurasia,supply_electricity_networks,1,,Supply: Electricity networks,9.63,9.88,9.83,9.29,9.09,8.03,8.35,6.37,6.32,,
+eurasia,supply_fossil_no_ccus,2,supply_by_type,Supply: Fossil fuels (no CCUS),163.70,135.70,132.47,117.39,93.27,81.10,86.38,82.71,81.74,,
+eurasia,supply_other,1,,Supply: Other,3.34,2.40,2.65,3.67,4.79,5.50,5.93,6.53,7.91,,
+eurasia,supply_renewables,1,,Supply: Renewables,2.58,3.33,3.72,5.24,6.44,5.60,4.54,4.24,4.32,,
+eurasia,total,0,,Total,190.20,181.10,183.90,166.90,161.90,142.30,152.70,135.80,140.90,138.80,144.30
+europe,battery_storage,2,power,Battery storage,0.20,0.40,0.60,0.90,0.90,1.20,3.10,6.80,13.30,16.00,21.10
+europe,clean_energy,1,total,of which: Clean energy,247.60,249.20,260.70,273.00,279.10,304.00,355.60,404.90,448.30,462.10,494.40
+europe,clean_fuels,2,fuels,Clean Fuels,1.20,1.30,1.50,1.60,1.50,1.60,2.00,2.20,3.50,4.80,6.50
+europe,direct_air_capture,2,fuels,Direct Air Capture,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+europe,efficiency_buildings,3,energy_efficiency,Efficiency: Buildings,54.10,57.20,61.60,63.60,65.40,65.90,71.50,77.90,82.60,83.20,82.40
+europe,efficiency_industry,3,energy_efficiency,Efficiency: Industry,4.90,4.70,4.60,4.20,4.60,5.40,5.90,5.80,5.80,4.10,5.10
+europe,efficiency_transport,3,energy_efficiency,Efficiency: Transport,1.60,3.20,4.40,6.60,6.30,5.90,6.40,6.30,7.00,7.60,7.30
+europe,electricity_networks,2,power,Electricity networks,54.10,53.00,53.30,54.90,55.00,56.80,61.00,61.20,74.80,83.60,89.10
+europe,end_use,1,,End-use,93.60,102.50,115.80,123.00,129.10,144.40,163.50,184.20,200.90,201.50,206.20
+europe,energy_efficiency,2,end_use,Energy efficiency,60.50,65.20,70.60,74.40,76.20,77.20,83.90,90.00,95.30,94.90,94.70
+europe,fossil_coal,3,fossil_fuels,Coal,2.80,2.00,3.90,3.60,3.60,2.50,2.70,2.80,3.00,2.80,5.20
+europe,fossil_fuels,2,fuels,Fossil fuels,102.60,79.20,78.00,76.60,75.00,61.70,66.00,62.70,66.40,69.20,75.40
+europe,fossil_gas,3,fossil_fuels,Gas,44.80,35.60,33.90,33.40,33.90,30.40,32.90,31.50,35.50,37.80,43.60
+europe,fossil_oil,3,fossil_fuels,Oil,55.00,41.60,40.20,39.70,37.50,28.80,30.40,28.40,27.90,28.60,26.60
+europe,fuels,1,,Fuels,103.80,80.50,79.50,78.30,76.50,63.30,68.00,64.90,69.90,74.00,81.90
+europe,gen_coal_unabated,3,generation,Coal (unabated),7.30,5.00,4.00,3.80,3.10,2.30,2.00,1.40,1.00,1.20,1.20
+europe,gen_fossil_ccus,3,generation,Fossil fuels with CCUS,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.20,1.10
+europe,gen_nuclear,3,generation,Nuclear,6.40,6.20,5.20,6.20,9.70,15.60,23.80,26.00,19.80,16.20,17.30
+europe,gen_oil_gas_unabated,3,generation,Oil & natural gas (unabated),11.90,11.60,10.40,9.20,8.50,8.00,9.00,9.90,11.00,12.00,6.20
+europe,gen_other_clean,3,generation,Other clean power,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,1.40
+europe,gen_other_clean_ammonia,4,gen_other_clean,Ammonia,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+europe,gen_other_clean_heat_pumps,4,gen_other_clean,Large scale heat pumps,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,1.40
+europe,gen_other_clean_hydrogen,4,gen_other_clean,Hydrogen,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+europe,gen_renewables,3,generation,Renewables,92.00,85.70,84.00,86.10,82.40,84.00,102.00,124.20,135.40,138.10,149.90
+europe,gen_renewables_other,4,gen_renewables,Other renewables,23.70,23.20,21.30,18.20,15.40,13.20,12.40,14.60,17.80,21.60,24.20
+europe,gen_renewables_solar,4,gen_renewables,Solar,16.80,14.60,15.90,30.20,37.80,38.70,50.80,67.90,77.20,68.10,64.40
+europe,gen_renewables_wind,4,gen_renewables,Wind,51.50,47.90,46.80,37.70,29.10,32.10,38.80,41.70,40.40,48.30,61.20
+europe,gen_waste_nonrenewable,3,generation,Waste: non-renewable,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.10,0.20,0.30,0.30
+europe,generation,2,power,Generation,117.60,108.40,103.60,105.30,103.80,109.90,136.80,161.70,167.60,169.10,177.40
+europe,memo_oil_gas_upstream,0,,Memo: Oil & gas upstream,73.60,51.90,42.00,44.20,45.80,38.00,37.70,34.20,35.70,39.40,41.20
+europe,memo_transitional_fossil,0,,Memo: Transitional fossil fuels,0.20,0.20,0.30,0.30,0.30,0.40,0.10,0.30,0.40,0.40,0.50
+europe,other_end_use,2,end_use,Other end-use,33.10,37.30,45.20,48.60,52.90,67.20,79.60,94.30,105.60,106.60,111.50
+europe,other_end_use_buildings,3,other_end_use,Other end-use: Buildings,17.30,19.40,21.60,23.30,26.10,27.80,27.80,29.00,32.70,37.80,42.40
+europe,other_end_use_industry,3,other_end_use,Other end-use: Industry,0.80,1.00,0.90,1.30,1.60,1.10,1.50,2.20,0.80,1.50,1.70
+europe,other_end_use_renewables,2,end_use,Other end-use renewables,20.99,20.48,19.65,19.86,19.65,18.42,18.32,18.93,19.86,20.89,
+europe,other_end_use_transport,3,other_end_use,Other end-use: Transport,15.00,16.90,22.70,24.00,25.20,38.30,50.40,63.00,72.00,67.30,67.50
+europe,power,1,,Power,171.80,161.80,157.50,161.10,159.80,168.00,200.90,229.70,255.80,268.70,287.60
+europe,supply_by_type,1,,Supply (by type),275.71,247.71,252.02,250.94,294.02,278.94,318.79,352.18,385.57,,
+europe,supply_electricity_networks,1,,Supply: Electricity networks,57.30,56.11,56.33,58.05,58.80,61.50,66.45,70.11,70.87,,
+europe,supply_fossil_no_ccus,2,supply_by_type,Supply: Fossil fuels (no CCUS),123.85,95.21,98.98,94.35,135.70,108.78,119.55,127.09,142.16,,
+europe,supply_other,1,,Supply: Other,8.27,0.00,0.00,0.00,0.00,0.00,1.84,5.51,9.73,,
+europe,supply_renewables,1,,Supply: Renewables,86.38,105.76,104.15,104.36,105.98,112.01,130.32,148.63,162.63,,
+europe,total,0,,Total,369.30,344.70,352.80,362.30,365.50,375.60,432.40,478.80,526.60,544.20,575.80
+middle_east,battery_storage,2,power,Battery storage,0.00,0.00,0.00,0.00,0.10,0.00,0.00,0.00,0.00,0.00,0.00
+middle_east,clean_energy,1,total,of which: Clean energy,30.90,33.70,30.30,26.50,22.10,24.10,22.20,23.90,28.30,33.00,40.70
+middle_east,clean_fuels,2,fuels,Clean Fuels,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.10,0.20,0.70,1.60
+middle_east,direct_air_capture,2,fuels,Direct Air Capture,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+middle_east,efficiency_buildings,3,energy_efficiency,Efficiency: Buildings,1.80,1.90,1.90,2.00,2.00,1.80,1.90,2.10,2.30,2.50,2.60
+middle_east,efficiency_industry,3,energy_efficiency,Efficiency: Industry,1.80,2.20,2.50,2.70,2.60,2.10,1.60,1.60,1.40,2.00,2.60
+middle_east,efficiency_transport,3,energy_efficiency,Efficiency: Transport,0.80,1.60,1.10,1.20,1.20,1.10,1.10,1.20,1.40,1.20,1.60
+middle_east,electricity_networks,2,power,Electricity networks,20.60,21.90,18.00,13.50,9.90,13.20,11.10,11.90,12.60,13.30,14.20
+middle_east,end_use,1,,End-use,5.70,6.90,6.50,6.90,6.70,6.10,5.70,6.20,10.00,12.10,14.80
+middle_east,energy_efficiency,2,end_use,Energy efficiency,4.30,5.70,5.50,5.90,5.80,5.10,4.60,4.90,5.00,5.70,6.80
+middle_east,fossil_coal,3,fossil_fuels,Coal,0.10,0.10,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.30
+middle_east,fossil_fuels,2,fuels,Fossil fuels,135.00,116.30,107.70,112.80,114.20,118.60,124.60,121.30,119.20,131.30,133.60
+middle_east,fossil_gas,3,fossil_fuels,Gas,27.40,24.30,23.10,22.00,20.00,18.90,20.20,23.40,28.90,36.20,40.80
+middle_east,fossil_oil,3,fossil_fuels,Oil,107.50,91.90,84.60,90.80,94.10,99.70,104.40,97.80,90.30,95.10,92.50
+middle_east,fuels,1,,Fuels,135.00,116.30,107.70,112.80,114.20,118.60,124.60,121.40,119.40,132.00,135.20
+middle_east,gen_coal_unabated,3,generation,Coal (unabated),0.00,0.00,0.00,0.00,0.00,0.10,0.20,0.20,0.20,0.20,0.20
+middle_east,gen_fossil_ccus,3,generation,Fossil fuels with CCUS,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+middle_east,gen_nuclear,3,generation,Nuclear,2.50,2.50,2.50,2.50,2.50,2.10,1.50,1.00,0.70,1.10,1.40
+middle_east,gen_oil_gas_unabated,3,generation,Oil & natural gas (unabated),11.70,11.60,11.30,9.90,9.10,7.20,7.80,9.00,10.60,12.20,10.80
+middle_east,gen_other_clean,3,generation,Other clean power,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+middle_east,gen_other_clean_ammonia,4,gen_other_clean,Ammonia,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+middle_east,gen_other_clean_heat_pumps,4,gen_other_clean,Large scale heat pumps,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+middle_east,gen_other_clean_hydrogen,4,gen_other_clean,Hydrogen,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+middle_east,gen_renewables,3,generation,Renewables,1.90,2.20,3.10,3.50,2.70,2.50,3.60,4.60,4.80,5.90,8.70
+middle_east,gen_renewables_other,4,gen_renewables,Other renewables,0.50,0.40,0.30,0.30,0.80,1.20,1.40,1.50,1.00,0.60,0.70
+middle_east,gen_renewables_solar,4,gen_renewables,Solar,1.20,1.50,2.10,2.40,1.40,0.80,1.90,3.10,3.70,4.70,6.10
+middle_east,gen_renewables_wind,4,gen_renewables,Wind,0.20,0.30,0.70,0.70,0.50,0.50,0.30,0.10,0.10,0.60,1.80
+middle_east,gen_waste_nonrenewable,3,generation,Waste: non-renewable,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+middle_east,generation,2,power,Generation,16.10,16.30,16.80,15.80,14.20,11.90,13.10,14.80,16.30,19.40,21.10
+middle_east,memo_oil_gas_upstream,0,,Memo: Oil & gas upstream,92.20,79.20,74.10,79.50,73.60,64.70,66.40,75.00,85.50,98.00,95.80
+middle_east,memo_transitional_fossil,0,,Memo: Transitional fossil fuels,0.30,0.30,0.20,0.20,0.20,0.20,0.20,0.20,0.00,0.00,0.10
+middle_east,other_end_use,2,end_use,Other end-use,1.40,1.20,1.00,0.90,0.90,0.90,1.10,1.30,5.00,6.40,8.00
+middle_east,other_end_use_buildings,3,other_end_use,Other end-use: Buildings,1.30,1.20,1.00,0.90,0.90,0.90,1.00,1.10,1.80,2.70,3.80
+middle_east,other_end_use_industry,3,other_end_use,Other end-use: Industry,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+middle_east,other_end_use_renewables,2,end_use,Other end-use renewables,0.06,0.38,0.36,0.21,0.21,0.16,0.15,0.16,0.17,0.17,
+middle_east,other_end_use_transport,3,other_end_use,Other end-use: Transport,0.00,0.00,0.00,0.00,0.00,0.10,0.10,0.30,3.20,3.70,4.20
+middle_east,power,1,,Power,36.70,38.20,34.80,29.30,24.30,25.00,24.20,26.70,29.00,32.60,35.20
+middle_east,supply_by_type,1,,Supply (by type),185.24,150.78,135.70,138.93,162.63,123.85,140.01,180.94,215.40,,
+middle_east,supply_electricity_networks,1,,Supply: Electricity networks,21.65,22.94,18.96,14.22,10.47,13.89,11.74,12.49,12.49,,
+middle_east,supply_fossil_no_ccus,2,supply_by_type,Supply: Fossil fuels (no CCUS),160.47,123.85,112.01,119.55,147.55,105.44,122.78,162.63,196.01,,
+middle_east,supply_other,1,,Supply: Other,0.66,0.80,1.35,1.51,1.70,1.24,0.40,0.00,0.56,,
+middle_east,supply_renewables,1,,Supply: Renewables,1.88,2.49,3.20,3.82,3.77,3.73,5.16,5.62,5.68,,
+middle_east,total,0,,Total,177.40,161.40,149.00,149.00,145.10,149.70,154.50,154.30,158.40,176.70,185.20
+north_america,battery_storage,2,power,Battery storage,0.20,0.20,0.30,0.50,0.70,1.70,3.80,8.80,13.10,17.00,20.40
+north_america,clean_energy,1,total,of which: Clean energy,238.20,242.00,240.10,244.70,260.30,267.70,289.80,320.70,373.20,408.60,441.00
+north_america,clean_fuels,2,fuels,Clean Fuels,1.60,1.70,1.90,1.50,1.70,1.90,1.80,3.40,4.40,5.50,6.30
+north_america,direct_air_capture,2,fuels,Direct Air Capture,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.10,0.20,0.20,0.60
+north_america,efficiency_buildings,3,energy_efficiency,Efficiency: Buildings,58.20,59.30,63.20,62.30,64.60,64.90,67.70,69.90,72.90,73.80,71.10
+north_america,efficiency_industry,3,energy_efficiency,Efficiency: Industry,1.90,2.10,2.10,1.90,2.30,2.00,2.40,3.20,4.00,4.60,4.90
+north_america,efficiency_transport,3,energy_efficiency,Efficiency: Transport,1.80,3.00,2.80,3.00,3.20,3.00,4.30,5.90,7.40,9.00,8.20
+north_america,electricity_networks,2,power,Electricity networks,69.20,70.80,72.60,73.00,75.80,81.10,88.80,93.30,103.30,113.50,121.00
+north_america,end_use,1,,End-use,86.40,92.10,101.60,101.50,109.10,109.80,118.50,125.70,144.50,151.70,158.80
+north_america,energy_efficiency,2,end_use,Energy efficiency,61.90,64.50,68.00,67.20,70.10,70.00,74.40,79.00,84.30,87.40,84.20
+north_america,fossil_coal,3,fossil_fuels,Coal,4.80,4.70,5.90,5.40,5.30,4.00,3.70,3.70,3.40,3.20,2.60
+north_america,fossil_fuels,2,fuels,Fossil fuels,362.90,263.00,298.90,324.30,299.00,205.80,229.70,281.80,295.80,279.70,240.00
+north_america,fossil_gas,3,fossil_fuels,Gas,92.70,76.40,81.00,85.20,77.20,61.90,66.30,81.20,83.80,80.60,72.40
+north_america,fossil_oil,3,fossil_fuels,Oil,265.40,182.00,212.10,233.70,216.50,139.80,159.70,197.00,208.60,195.90,165.00
+north_america,fuels,1,,Fuels,364.50,264.70,300.80,325.80,300.70,207.70,231.60,285.30,300.40,285.40,246.90
+north_america,gen_coal_unabated,3,generation,Coal (unabated),0.00,0.00,0.00,0.10,0.10,0.10,0.10,0.10,0.20,0.20,0.30
+north_america,gen_fossil_ccus,3,generation,Fossil fuels with CCUS,0.90,0.60,0.20,0.00,0.00,0.00,0.00,0.00,0.00,0.00,3.60
+north_america,gen_nuclear,3,generation,Nuclear,13.20,12.00,10.80,9.40,7.00,4.40,5.10,8.20,10.70,12.00,10.20
+north_america,gen_oil_gas_unabated,3,generation,Oil & natural gas (unabated),21.50,22.90,20.10,15.60,11.80,12.00,10.70,11.80,12.70,13.00,11.60
+north_america,gen_other_clean,3,generation,Other clean power,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+north_america,gen_other_clean_ammonia,4,gen_other_clean,Ammonia,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+north_america,gen_other_clean_heat_pumps,4,gen_other_clean,Large scale heat pumps,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+north_america,gen_other_clean_hydrogen,4,gen_other_clean,Hydrogen,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+north_america,gen_renewables,3,generation,Renewables,66.30,64.20,52.40,58.40,65.40,68.20,70.60,79.80,96.10,107.40,116.40
+north_america,gen_renewables_other,4,gen_renewables,Other renewables,6.60,4.20,4.40,4.30,4.20,4.30,4.70,6.30,8.10,9.60,11.10
+north_america,gen_renewables_solar,4,gen_renewables,Solar,35.10,39.80,30.70,34.70,40.70,43.80,49.70,60.20,76.20,83.50,84.50
+north_america,gen_renewables_wind,4,gen_renewables,Wind,24.70,20.20,17.40,19.40,20.50,20.10,16.10,13.40,11.80,14.30,20.80
+north_america,gen_waste_nonrenewable,3,generation,Waste: non-renewable,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.10,0.30,0.80,1.20
+north_america,generation,2,power,Generation,102.00,99.80,83.50,83.40,84.30,84.70,86.50,100.00,120.10,133.40,143.30
+north_america,memo_oil_gas_upstream,0,,Memo: Oil & gas upstream,276.50,164.30,198.00,236.50,228.80,138.00,148.40,196.30,222.00,201.70,179.20
+north_america,memo_transitional_fossil,0,,Memo: Transitional fossil fuels,0.30,0.30,0.30,0.30,0.40,0.50,1.10,1.40,0.80,1.20,3.60
+north_america,other_end_use,2,end_use,Other end-use,24.40,27.60,33.60,34.30,39.10,39.70,44.10,46.70,60.20,64.30,74.60
+north_america,other_end_use_buildings,3,other_end_use,Other end-use: Buildings,19.60,21.40,27.50,25.40,31.40,32.40,31.10,25.80,32.80,36.30,42.70
+north_america,other_end_use_industry,3,other_end_use,Other end-use: Industry,0.30,0.90,0.80,0.10,0.20,1.10,1.70,0.90,1.20,1.60,2.20
+north_america,other_end_use_renewables,2,end_use,Other end-use renewables,3.17,3.10,3.09,3.15,3.16,2.89,3.07,4.00,4.04,4.09,
+north_america,other_end_use_transport,3,other_end_use,Other end-use: Transport,4.50,5.30,5.30,8.80,7.50,6.20,11.30,20.00,26.20,26.40,29.60
+north_america,power,1,,Power,171.40,170.80,156.40,156.90,160.70,167.50,179.10,202.20,236.50,263.90,284.70
+north_america,supply_by_type,1,,Supply (by type),467.42,436.19,473.88,482.50,435.11,350.02,390.95,441.57,458.80,,
+north_america,supply_electricity_networks,1,,Supply: Electricity networks,73.13,74.74,76.57,77.01,80.45,86.38,94.35,100.81,99.62,,
+north_america,supply_fossil_no_ccus,2,supply_by_type,Supply: Fossil fuels (no CCUS),318.79,283.25,326.33,331.72,269.25,172.32,202.48,231.55,218.63,,
+north_america,supply_other,1,,Supply: Other,8.16,11.20,12.82,8.35,7.35,8.27,10.88,18.31,35.43,,
+north_america,supply_renewables,1,,Supply: Renewables,67.74,66.77,57.40,65.48,78.41,83.14,82.50,90.68,104.36,,
+north_america,total,0,,Total,622.30,527.60,558.80,584.20,570.60,485.00,529.20,613.10,681.40,701.00,690.40
+world,battery_storage,2,power,Battery storage,0.50,1.00,1.70,3.20,3.10,5.20,9.40,22.50,39.30,57.20,65.50
+world,clean_energy,1,total,of which: Clean energy,1209.90,1262.50,1285.10,1282.70,1287.80,1267.80,1392.60,1630.20,1870.20,2032.50,2154.50
+world,clean_fuels,2,fuels,Clean Fuels,6.30,6.60,6.60,6.20,6.90,6.80,8.30,13.60,15.80,20.20,28.10
+world,direct_air_capture,2,fuels,Direct Air Capture,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.10,0.20,0.20,0.60
+world,efficiency_buildings,3,energy_efficiency,Efficiency: Buildings,199.40,207.00,218.80,220.80,228.20,228.30,242.00,252.20,267.50,275.50,273.60
+world,efficiency_industry,3,energy_efficiency,Efficiency: Industry,29.90,28.10,27.50,23.90,22.00,20.80,21.40,21.50,23.00,26.20,30.70
+world,efficiency_transport,3,energy_efficiency,Efficiency: Transport,72.20,84.70,95.20,102.50,97.00,44.00,59.70,73.40,79.60,123.10,124.90
+world,electricity_networks,2,power,Electricity networks,331.50,342.30,332.40,322.70,302.00,298.60,310.10,322.40,356.20,387.60,413.30
+world,end_use,1,,End-use,450.10,493.50,528.20,511.40,502.40,472.00,546.50,621.10,665.90,729.10,773.40
+world,energy_efficiency,2,end_use,Energy efficiency,301.50,319.80,341.50,347.20,347.20,293.20,323.10,347.20,370.10,424.80,429.20
+world,fossil_coal,3,fossil_fuels,Coal,131.00,109.30,118.50,119.20,138.40,126.80,132.70,147.80,156.50,163.50,168.70
+world,fossil_fuels,2,fuels,Fossil fuels,1308.30,1050.20,1045.60,1067.80,1038.70,860.60,921.60,984.80,1030.40,1033.00,1008.30
+world,fossil_gas,3,fossil_fuels,Gas,384.00,320.90,296.60,287.70,270.90,237.70,254.00,274.10,286.50,288.80,298.30
+world,fossil_oil,3,fossil_fuels,Oil,793.20,620.00,630.60,660.90,629.50,496.10,534.80,562.90,587.40,580.70,541.30
+world,fuels,1,,Fuels,1314.60,1056.80,1052.30,1074.00,1045.60,867.40,929.90,998.50,1046.40,1053.40,1037.00
+world,gen_coal_unabated,3,generation,Coal (unabated),90.50,80.40,73.60,70.10,66.20,61.10,63.20,66.10,67.70,74.50,79.20
+world,gen_fossil_ccus,3,generation,Fossil fuels with CCUS,0.90,0.60,0.20,0.00,0.00,0.10,0.10,0.30,0.60,0.90,5.40
+world,gen_nuclear,3,generation,Nuclear,45.50,42.70,37.30,37.40,41.60,47.40,59.50,66.60,67.80,72.10,73.80
+world,gen_oil_gas_unabated,3,generation,Oil & natural gas (unabated),95.70,97.40,89.70,73.90,62.10,51.80,56.30,66.10,81.00,92.50,69.00
+world,gen_other_clean,3,generation,Other clean power,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.90,3.10
+world,gen_other_clean_ammonia,4,gen_other_clean,Ammonia,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+world,gen_other_clean_heat_pumps,4,gen_other_clean,Large scale heat pumps,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.90,3.10
+world,gen_other_clean_hydrogen,4,gen_other_clean,Hydrogen,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+world,gen_renewables,3,generation,Renewables,374.10,374.60,377.40,400.50,430.00,435.80,455.60,579.90,721.90,759.60,780.00
+world,gen_renewables_other,4,gen_renewables,Other renewables,88.80,85.00,85.10,88.30,88.90,87.40,85.70,85.40,87.30,91.20,97.10
+world,gen_renewables_solar,4,gen_renewables,Solar,142.30,171.00,167.50,181.30,191.00,190.30,227.70,336.60,447.50,455.20,440.80
+world,gen_renewables_wind,4,gen_renewables,Wind,143.10,118.70,124.70,130.90,150.10,158.10,142.20,157.90,187.00,213.20,242.00
+world,gen_waste_nonrenewable,3,generation,Waste: non-renewable,0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,2.30,3.30,3.30
+world,generation,2,power,Generation,606.70,595.80,578.10,581.80,599.90,596.20,634.60,779.90,941.30,1004.80,1013.90
+world,memo_oil_gas_upstream,0,,Memo: Oil & gas upstream,868.50,619.50,600.40,646.40,636.00,468.30,487.40,537.90,593.50,593.20,567.10
+world,memo_transitional_fossil,0,,Memo: Transitional fossil fuels,1.10,1.20,1.30,1.40,1.70,1.80,3.10,3.60,2.50,3.40,9.40
+world,other_end_use,2,end_use,Other end-use,148.60,173.70,186.70,164.20,155.20,178.80,223.40,273.90,295.80,304.40,344.30
+world,other_end_use_buildings,3,other_end_use,Other end-use: Buildings,63.70,69.80,79.80,80.90,89.50,90.90,87.60,82.50,94.00,105.60,120.60
+world,other_end_use_industry,3,other_end_use,Other end-use: Industry,3.50,6.80,8.70,6.70,3.60,7.20,7.80,6.40,5.10,10.30,14.90
+world,other_end_use_renewables,2,end_use,Other end-use renewables,56.90,57.21,58.34,59.99,61.43,59.99,66.06,72.44,74.19,75.94,
+world,other_end_use_transport,3,other_end_use,Other end-use: Transport,81.40,97.10,98.20,76.60,62.10,80.70,128.00,185.00,196.70,188.50,208.80
+world,power,1,,Power,938.60,939.10,912.20,907.70,904.90,900.00,954.10,1124.80,1336.80,1449.60,1492.80
+world,supply_by_type,1,,Supply (by type),2168.00,1966.60,1981.68,1992.45,2008.61,1812.59,1942.91,2174.46,2332.78,,
+world,supply_electricity_networks,1,,Supply: Electricity networks,350.02,361.87,351.10,341.41,323.10,318.79,331.72,357.56,356.49,,
+world,supply_fossil_no_ccus,2,supply_by_type,Supply: Fossil fuels (no CCUS),1420.56,1190.09,1200.86,1194.39,1148.08,903.60,985.45,1080.23,1131.93,,
+world,supply_other,1,,Supply: Other,34.25,41.46,45.45,44.48,45.23,51.27,59.88,82.50,120.62,,
+world,supply_renewables,1,,Supply: Renewables,362.95,372.64,384.49,412.49,493.27,538.50,565.42,654.82,723.74,,
+world,total,0,,Total,2703.30,2489.40,2492.70,2493.10,2452.90,2239.50,2430.50,2744.50,3049.10,3232.20,3303.20

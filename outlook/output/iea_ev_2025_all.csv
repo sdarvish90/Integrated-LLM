@@ -1,0 +1,1482 @@
+country,parameter,mode,powertrain,unit,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2030
+USA,battery_demand,2_3_wheelers,EV_total,GWh,,,0.0014,0.002,0.0023,0.0032,0.0051,0.0068,0.0084,0.019,0.024,0.027,0.029,0.023,0.022,0.11
+USA,battery_demand,buses,EV_total,GWh,,,,,0.0065,0.041,0.06,0.046,0.13,0.2,0.17,0.15,0.25,0.96,0.61,4.0
+USA,battery_demand,cars,EV_total,GWh,0.053,0.52,1.1,2.7,3.4,3.6,6.0,7.6,19.0,19.0,18.0,38.0,69.0,96.0,110.0,250.0
+USA,battery_demand,trucks,EV_total,GWh,,,,,,,,,,,,,,,,19.0
+USA,battery_demand,vans,EV_total,GWh,0.0003,0.0053,0.025,0.032,0.044,0.041,,,,,,0.0018,0.76,1.5,5.3,16.0
+USA,electricity_demand,2_3_wheelers,EV_total,GWh,,,,,,,,,,,,,,,14.0,39.0
+USA,electricity_demand,buses,EV_total,GWh,,,,,,,,,,,,,,,500.0,2800.0
+USA,electricity_demand,cars,EV_total,GWh,,,,,,,,,,,,,,,24000.0,70000.0
+USA,electricity_demand,trucks,EV_total,GWh,,,,,,,,,,,,,,,,13000.0
+USA,electricity_demand,vans,EV_total,GWh,,,,,,,,,,,,,,,750.0,5600.0
+USA,ev_charging_points,ev_total,charging_fast,charging points,,,,,,3500.0,3800.0,5600.0,11000.0,13000.0,17000.0,22000.0,29000.0,40000.0,53000.0,220000.0
+USA,ev_charging_points,ev_total,charging_slow,charging points,480.0,3900.0,12000.0,15000.0,20000.0,28000.0,35000.0,40000.0,50000.0,64000.0,81000.0,91000.0,100000.0,120000.0,140000.0,330000.0
+USA,ev_sales,2_3_wheelers,BEV,Vehicles,,,460.0,650.0,780.0,1100.0,1700.0,2300.0,2800.0,6300.0,8000.0,8900.0,9600.0,7800.0,7100.0,30000.0
+USA,ev_sales,buses,BEV,Vehicles,,,,,21.0,44.0,330.0,150.0,470.0,560.0,660.0,500.0,1000.0,3600.0,2200.0,13000.0
+USA,ev_sales,buses,FCEV,Vehicles,,,,,,,,,,,22.0,15.0,140.0,120.0,180.0,2100.0
+USA,ev_sales,buses,PHEV,Vehicles,,,,,,550.0,,,,,,,,,,170.0
+USA,ev_sales,cars,BEV,Vehicles,1200.0,9800.0,15000.0,48000.0,63000.0,71000.0,87000.0,100000.0,240000.0,240000.0,230000.0,470000.0,800000.0,1100000.0,1200000.0,2700000.0
+USA,ev_sales,cars,FCEV,Vehicles,,,,,55.0,100.0,1100.0,2300.0,2700.0,2000.0,1200.0,3100.0,2700.0,3000.0,630.0,1500.0
+USA,ev_sales,cars,PHEV,Vehicles,,8000.0,39000.0,49000.0,55000.0,43000.0,73000.0,94000.0,120000.0,85000.0,64000.0,160000.0,190000.0,290000.0,320000.0,670000.0
+USA,ev_sales,trucks,BEV,Vehicles,,,,,,,,,,,,,,,,62000.0
+USA,ev_sales,trucks,FCEV,Vehicles,,,,,,,,,,,,,,,,12000.0
+USA,ev_sales,trucks,PHEV,Vehicles,,,,,,,,,,,,,,,,4800.0
+USA,ev_sales,vans,BEV,Vehicles,10.0,180.0,820.0,1100.0,1500.0,1100.0,,,,,,15.0,9000.0,17000.0,26000.0,180000.0
+USA,ev_sales,vans,FCEV,Vehicles,,,,49.0,81.0,81.0,,,,,,,,,,19000.0
+USA,ev_sales,vans,PHEV,Vehicles,,,,,,550.0,,,,,,,,,,9500.0
+USA,ev_sales_share,2_3_wheelers,EV_total,percent,,,0.099,0.14,0.16,0.2,0.32,0.44,0.57,1.3,1.7,1.6,1.6,1.3,1.2,
+USA,ev_sales_share,buses,EV_total,percent,,,,,0.022,0.62,0.19,0.12,0.38,0.6,0.8,0.63,1.1,4.6,2.8,13.0
+USA,ev_sales_share,cars,EV_total,percent,0.012,0.15,0.42,0.71,0.77,0.7,0.99,1.3,2.3,2.1,2.3,4.7,7.4,9.5,10.0,21.0
+USA,ev_sales_share,trucks,EV_total,percent,,,,,,,,,,,,,,,,8.0
+USA,ev_sales_share,vans,EV_total,percent,0.0018,0.034,0.12,0.19,0.18,0.18,,,,,,0.0015,1.1,2.9,4.6,18.0
+USA,ev_stock,2_3_wheelers,BEV,Vehicles,,,460.0,1100.0,1900.0,2900.0,4600.0,6900.0,9700.0,16000.0,23000.0,32000.0,41000.0,49000.0,56000.0,160000.0
+USA,ev_stock,buses,BEV,Vehicles,,190.0,200.0,210.0,230.0,310.0,820.0,1000.0,1600.0,2200.0,2700.0,2700.0,3700.0,7300.0,9500.0,50000.0
+USA,ev_stock,buses,FCEV,Vehicles,,,,,,24.0,21.0,26.0,32.0,42.0,64.0,79.0,220.0,340.0,520.0,8100.0
+USA,ev_stock,buses,PHEV,Vehicles,,,,,,550.0,550.0,550.0,550.0,550.0,550.0,550.0,550.0,550.0,550.0,1100.0
+USA,ev_stock,cars,BEV,Vehicles,3800.0,14000.0,28000.0,76000.0,140000.0,210000.0,300000.0,400000.0,640000.0,880000.0,1100000.0,1500000.0,2100000.0,3500000.0,4700000.0,17000000.0
+USA,ev_stock,cars,FCEV,Vehicles,,,,,55.0,160.0,1200.0,3500.0,6200.0,8200.0,9200.0,12000.0,15000.0,18000.0,19000.0,21000.0
+USA,ev_stock,cars,PHEV,Vehicles,,8000.0,47000.0,96000.0,150000.0,190000.0,270000.0,360000.0,480000.0,570000.0,640000.0,720000.0,910000.0,1300000.0,1600000.0,4500000.0
+USA,ev_stock,trucks,BEV,Vehicles,,,,,,,,,,,,,,,,190000.0
+USA,ev_stock,trucks,FCEV,Vehicles,,,,,,,,,,,,,,,,37000.0
+USA,ev_stock,trucks,PHEV,Vehicles,,,,,,,,,,,,,,,,11000.0
+USA,ev_stock,vans,BEV,Vehicles,10.0,190.0,1000.0,2100.0,3600.0,4700.0,4700.0,4700.0,4700.0,4700.0,4700.0,4700.0,14000.0,30000.0,56000.0,700000.0
+USA,ev_stock,vans,FCEV,Vehicles,,,,49.0,81.0,81.0,81.0,81.0,81.0,81.0,81.0,81.0,81.0,81.0,210.0,62000.0
+USA,ev_stock,vans,PHEV,Vehicles,,,,,,550.0,550.0,550.0,550.0,550.0,550.0,550.0,550.0,550.0,550.0,33000.0
+USA,ev_stock_share,2_3_wheelers,EV_total,percent,,,0.0054,0.013,0.022,0.034,0.053,0.078,0.11,0.18,0.28,0.32,0.42,0.48,0.57,
+USA,ev_stock_share,buses,EV_total,percent,,0.029,0.026,0.024,0.027,0.097,0.14,0.16,0.22,0.31,0.34,0.35,0.45,0.84,1.1,6.0
+USA,ev_stock_share,cars,EV_total,percent,0.0017,0.0099,0.034,0.078,0.14,0.19,0.26,0.33,0.48,0.62,0.78,0.97,1.4,2.1,2.7,8.0
+USA,ev_stock_share,trucks,EV_total,percent,,,,,,,,,,,,,,,,1.0
+USA,ev_stock_share,vans,EV_total,percent,5.5e-05,0.0011,0.0059,0.013,0.023,0.036,0.037,0.04,0.042,0.044,0.049,0.054,0.16,0.35,0.67,8.0
+USA,oil_displacement_lge,2_3_wheelers,EV_total,"Oil displacement, million lge",,,0.073,0.18,0.31,0.48,0.74,0.97,1.3,2.2,2.9,4.5,5.8,6.7,7.5,20.0
+USA,oil_displacement_lge,buses,EV_total,"Oil displacement, million lge",,,,,0.28,1.7,5.5,6.7,12.0,16.0,20.0,24.0,32.0,65.0,77.0,400.0
+USA,oil_displacement_lge,cars,EV_total,"Oil displacement, million lge",9.4,37.0,87.0,240.0,460.0,630.0,880.0,1100.0,1700.0,2300.0,2500.0,4000.0,6200.0,9300.0,12000.0,35000.0
+USA,oil_displacement_lge,trucks,EV_total,"Oil displacement, million lge",,,,,,,,,,,,,,,,2700.0
+USA,oil_displacement_lge,vans,EV_total,"Oil displacement, million lge",,0.8,4.3,8.8,15.0,21.0,20.0,18.0,16.0,14.0,11.0,9.9,46.0,110.0,360.0,2600.0
+USA,oil_displacement_mbd,2_3_wheelers,EV_total,Million barrels per day,,,1.3e-06,3.1e-06,5.4e-06,8.3e-06,1.3e-05,1.7e-05,2.3e-05,3.8e-05,5e-05,7.8e-05,0.0001,0.00012,0.00013,0.00035
+USA,oil_displacement_mbd,buses,EV_total,Million barrels per day,,,,,4.9e-06,3e-05,9.6e-05,0.00012,0.0002,0.00027,0.00034,0.00041,0.00056,0.0011,0.0013,0.007
+USA,oil_displacement_mbd,cars,EV_total,Million barrels per day,0.00016,0.00064,0.0015,0.0042,0.0079,0.011,0.015,0.02,0.03,0.04,0.044,0.07,0.11,0.16,0.22,0.6
+USA,oil_displacement_mbd,trucks,EV_total,Million barrels per day,,,,,,,,,,,,,,,,0.047
+USA,oil_displacement_mbd,vans,EV_total,Million barrels per day,,1.4e-05,7.4e-05,0.00015,0.00026,0.00037,0.00035,0.00031,0.00028,0.00025,0.00019,0.00017,0.00081,0.002,0.0063,0.046
+Canada,ev_charging_points,ev_total,charging_fast,charging points,,,2.0,7.0,55.0,63.0,140.0,480.0,840.0,840.0,2300.0,3000.0,4300.0,5100.0,6600.0,
+Canada,ev_charging_points,ev_total,charging_slow,charging points,,,720.0,1200.0,2300.0,3400.0,3900.0,5200.0,7100.0,8000.0,11000.0,12000.0,17000.0,22000.0,26000.0,
+Canada,ev_sales,2_3_wheelers,BEV,Vehicles,,,6.0,11.0,14.0,18.0,44.0,60.0,50.0,80.0,110.0,180.0,180.0,130.0,170.0,
+Canada,ev_sales,buses,BEV,Vehicles,,,,,,,5.0,11.0,19.0,49.0,63.0,250.0,190.0,790.0,210.0,
+Canada,ev_sales,buses,FCEV,Vehicles,,,,,,,,,,,,,10.0,,13.0,
+Canada,ev_sales,cars,BEV,Vehicles,,220.0,620.0,1600.0,2800.0,4400.0,5200.0,8700.0,23000.0,32000.0,37000.0,59000.0,91000.0,130000.0,190000.0,
+Canada,ev_sales,cars,FCEV,Vehicles,,,,,,,,,,79.0,16.0,130.0,19.0,13.0,20.0,
+Canada,ev_sales,cars,PHEV,Vehicles,,300.0,1300.0,1500.0,2300.0,2400.0,6400.0,8000.0,21000.0,19000.0,14000.0,28000.0,24000.0,41000.0,62000.0,
+Canada,ev_sales,trucks,BEV,Vehicles,1.0,2.0,3.0,8.0,6.0,9.0,,,7.0,,,30.0,830.0,2000.0,2000.0,
+Canada,ev_sales,trucks,FCEV,Vehicles,,,,,,,,,,,7.0,28.0,18.0,15.0,6.0,
+Canada,ev_sales,vans,BEV,Vehicles,,,,,,1.0,,,,,1600.0,2600.0,7000.0,9100.0,11000.0,
+Canada,ev_sales,vans,FCEV,Vehicles,,,,,,9.0,,,,,7.0,28.0,18.0,10.0,,
+Canada,ev_sales,vans,PHEV,Vehicles,,,,,,5.0,,,,,1400.0,2600.0,3100.0,4100.0,6400.0,
+Canada,ev_sales_share,2_3_wheelers,EV_total,percent,,,0.0048,0.0087,0.011,0.014,0.033,0.043,0.038,0.061,0.15,0.22,0.26,0.19,0.24,
+Canada,ev_sales_share,buses,EV_total,percent,,,,,,,0.12,0.25,0.44,1.3,2.3,6.9,6.8,24.0,5.9,
+Canada,ev_sales_share,cars,EV_total,percent,,0.041,0.14,0.22,0.35,0.45,0.76,1.0,2.8,3.4,4.2,6.4,9.5,13.0,17.0,
+Canada,ev_sales_share,trucks,EV_total,percent,0.0011,0.0018,0.0027,0.0074,0.0049,0.0075,,,0.0056,,,0.031,0.6,1.3,1.2,
+Canada,ev_sales_share,vans,EV_total,percent,,,,,,0.0024,,,,,1.4,1.8,5.1,5.5,7.0,
+Canada,ev_stock,2_3_wheelers,BEV,Vehicles,,,6.0,17.0,31.0,49.0,93.0,150.0,200.0,280.0,330.0,430.0,480.0,520.0,690.0,
+Canada,ev_stock,buses,BEV,Vehicles,,,,,,,,,19.0,68.0,270.0,430.0,690.0,1600.0,2200.0,
+Canada,ev_stock,buses,FCEV,Vehicles,,,,,,,,,,,,,,10.0,23.0,
+Canada,ev_stock,cars,BEV,Vehicles,,250.0,830.0,2400.0,5400.0,9900.0,15000.0,25000.0,45000.0,76000.0,130000.0,190000.0,280000.0,380000.0,620000.0,
+Canada,ev_stock,cars,FCEV,Vehicles,5.0,5.0,5.0,5.0,5.0,5.0,5.0,5.0,5.0,96.0,130.0,250.0,300.0,320.0,320.0,
+Canada,ev_stock,cars,PHEV,Vehicles,,300.0,1600.0,3100.0,5300.0,7700.0,14000.0,22000.0,42000.0,60000.0,82000.0,110000.0,130000.0,170000.0,240000.0,
+Canada,ev_stock,trucks,BEV,Vehicles,,2.0,5.0,13.0,19.0,28.0,28.0,28.0,35.0,35.0,4.8,16.0,780.0,2400.0,5300.0,
+Canada,ev_stock,trucks,FCEV,Vehicles,,,,,,,,,,,,,,5.0,11.0,
+Canada,ev_stock,vans,BEV,Vehicles,,,,,,1.0,1.0,1.0,1.0,1.0,1600.0,4200.0,11000.0,20000.0,31000.0,
+Canada,ev_stock,vans,FCEV,Vehicles,,,,,,9.0,9.0,9.0,9.0,9.0,16.0,44.0,44.0,72.0,72.0,
+Canada,ev_stock,vans,PHEV,Vehicles,,,,,,5.0,5.0,5.0,5.0,5.0,1400.0,4000.0,7100.0,11000.0,18000.0,
+Canada,ev_stock_share,2_3_wheelers,EV_total,percent,,,0.00062,0.0019,0.0036,0.0058,0.011,0.02,0.026,0.037,0.044,0.052,0.057,0.061,0.081,
+Canada,ev_stock_share,buses,EV_total,percent,,,,,,,,,0.029,0.1,0.37,0.6,0.97,2.4,3.3,
+Canada,ev_stock_share,cars,EV_total,percent,,0.0029,0.013,0.027,0.053,0.084,0.13,0.21,0.39,0.6,0.83,1.2,1.7,2.3,4.2,
+Canada,ev_stock_share,trucks,EV_total,percent,,0.00022,0.00052,0.0013,0.0018,0.0027,0.0027,0.0026,0.0032,0.0031,0.00036,0.0011,0.055,0.17,0.44,
+Canada,ev_stock_share,vans,EV_total,percent,,,,,,0.00021,0.0002,0.00019,0.00018,0.00017,0.085,0.23,0.49,0.84,1.3,
+Mexico,ev_charging_points,ev_total,charging_fast,charging points,,,,,,,6.0,50.0,76.0,76.0,76.0,150.0,220.0,200.0,250.0,
+Mexico,ev_charging_points,ev_total,charging_slow,charging points,,,,,,83.0,240.0,700.0,1100.0,1100.0,1100.0,1100.0,1300.0,1400.0,1600.0,
+Mexico,ev_sales,2_3_wheelers,BEV,Vehicles,,,320.0,290.0,400.0,420.0,72.0,180.0,1800.0,3700.0,2500.0,3100.0,3600.0,4100.0,4800.0,
+Mexico,ev_sales,cars,BEV,Vehicles,,3.0,88.0,12.0,48.0,92.0,250.0,230.0,200.0,290.0,1800.0,3000.0,4400.0,14000.0,20000.0,
+Mexico,ev_sales,cars,PHEV,Vehicles,,,,,,7.0,520.0,970.0,1600.0,1400.0,2000.0,3500.0,4000.0,2100.0,7100.0,
+Mexico,ev_sales_share,2_3_wheelers,EV_total,percent,,,0.073,0.073,0.071,0.069,0.01,0.024,0.2,0.38,0.25,0.25,0.26,0.3,0.35,
+Mexico,ev_sales_share,cars,EV_total,percent,,0.0004,0.01,0.0013,0.005,0.0086,0.056,0.091,0.15,0.15,0.49,0.78,0.96,1.5,2.2,
+Mexico,ev_stock,2_3_wheelers,BEV,Vehicles,,,320.0,610.0,1000.0,1400.0,1500.0,1700.0,3500.0,7200.0,9700.0,13000.0,16000.0,21000.0,25000.0,
+Mexico,ev_stock,cars,BEV,Vehicles,,3.0,91.0,100.0,150.0,240.0,500.0,730.0,930.0,1200.0,3100.0,6100.0,10000.0,25000.0,45000.0,
+Mexico,ev_stock,cars,PHEV,Vehicles,,,,,,7.0,530.0,1500.0,3100.0,4400.0,6400.0,9900.0,14000.0,16000.0,23000.0,
+Mexico,ev_stock_share,2_3_wheelers,EV_total,percent,,,0.013,0.022,0.03,0.037,0.033,0.032,0.056,0.1,0.12,0.14,0.16,0.17,0.19,
+Mexico,ev_stock_share,cars,EV_total,percent,,2.1e-05,0.0006,0.00066,0.00093,0.0015,0.0057,0.012,0.02,0.028,0.046,0.076,0.11,0.18,0.3,
+China,battery_demand,2_3_wheelers,EV_total,GWh,,,2.6,3.0,3.6,4.0,4.7,6.0,9.4,13.0,20.0,28.0,23.0,23.0,22.0,46.0
+China,battery_demand,buses,EV_total,GWh,0.2,0.1,0.32,0.53,1.2,9.8,16.0,18.0,16.0,16.0,12.0,9.5,9.1,6.6,8.6,33.0
+China,battery_demand,cars,EV_total,GWh,0.036,0.14,0.28,0.43,1.7,5.0,10.0,17.0,36.0,45.0,50.0,140.0,270.0,380.0,490.0,1200.0
+China,battery_demand,trucks,EV_total,GWh,,,,,,1.7,5.6,8.5,4.4,2.7,2.0,1.9,7.8,11.0,20.0,180.0
+China,battery_demand,vans,EV_total,GWh,0.0037,0.0046,0.02,0.023,0.015,0.46,0.32,2.4,2.2,1.2,1.3,3.5,8.3,12.0,28.0,57.0
+China,electricity_demand,2_3_wheelers,EV_total,GWh,,,,,,,,,,,,,,,8400.0,15000.0
+China,electricity_demand,buses,EV_total,GWh,,,,,,,,,,,,,,,16000.0,45000.0
+China,electricity_demand,cars,EV_total,GWh,,,,,,,,,,,,,,,53000.0,210000.0
+China,electricity_demand,trucks,EV_total,GWh,,,,,,,,,,,,,,,23000.0,120000.0
+China,electricity_demand,vans,EV_total,GWh,,,,,,,,,,,,,,,3100.0,11000.0
+China,ev_charging_points,ev_total,charging_fast,charging points,,,,,,,,,110000.0,210000.0,310000.0,470000.0,760000.0,1200000.0,1600000.0,6600000.0
+China,ev_charging_points,ev_total,charging_slow,charging points,,,,,21000.0,47000.0,86000.0,130000.0,160000.0,300000.0,500000.0,680000.0,1000000.0,1500000.0,1900000.0,6000000.0
+China,ev_sales,2_3_wheelers,BEV,Vehicles,,,1700000.0,2000000.0,2400000.0,2700000.0,2800000.0,3200000.0,4500000.0,5800000.0,8200000.0,11000000.0,8000000.0,7800000.0,7200000.0,13000000.0
+China,ev_sales,buses,BEV,Vehicles,970.0,440.0,1400.0,2000.0,4000.0,43000.0,76000.0,88000.0,83000.0,68000.0,55000.0,42000.0,44000.0,31000.0,48000.0,130000.0
+China,ev_sales,buses,FCEV,Vehicles,,,,,,,,380.0,890.0,1100.0,1200.0,900.0,1300.0,1200.0,1100.0,4500.0
+China,ev_sales,buses,PHEV,Vehicles,,160.0,510.0,1800.0,6000.0,13000.0,7600.0,240.0,1200.0,1300.0,1800.0,860.0,1100.0,1300.0,,2100.0
+China,ev_sales,cars,BEV,Vehicles,1100.0,4800.0,9600.0,15000.0,49000.0,150000.0,260000.0,470000.0,820000.0,830000.0,920000.0,2700000.0,4400000.0,5400000.0,6400000.0,13000000.0
+China,ev_sales,cars,FCEV,Vehicles,,,,,,,,,,,,19.0,240.0,520.0,62.0,25000.0
+China,ev_sales,cars,PHEV,Vehicles,340.0,320.0,260.0,730.0,24000.0,61000.0,79000.0,110000.0,270000.0,230000.0,220000.0,550000.0,1500000.0,2700000.0,4900000.0,8200000.0
+China,ev_sales,trucks,BEV,Vehicles,,,,,,17000.0,46000.0,71000.0,36000.0,24000.0,17000.0,12000.0,27000.0,36000.0,76000.0,600000.0
+China,ev_sales,trucks,FCEV,Vehicles,,,,,,,,,400.0,2000.0,1300.0,1200.0,2700.0,3400.0,4400.0,19000.0
+China,ev_sales,trucks,PHEV,Vehicles,,,,,,,,,,31.0,27.0,520.0,260.0,320.0,,7500.0
+China,ev_sales,vans,BEV,Vehicles,120.0,150.0,670.0,750.0,480.0,15000.0,11000.0,68000.0,54000.0,27000.0,26000.0,71000.0,170000.0,240000.0,450000.0,850000.0
+China,ev_sales,vans,FCEV,Vehicles,,,,,,,,,,,,3.0,810.0,1900.0,2300.0,25000.0
+China,ev_sales,vans,PHEV,Vehicles,,,,,,,,,,27.0,1.0,160.0,1500.0,,,45000.0
+China,ev_sales_share,2_3_wheelers,EV_total,percent,,,13.0,15.0,16.0,18.0,18.0,20.0,32.0,37.0,45.0,55.0,43.0,43.0,46.0,
+China,ev_sales_share,buses,EV_total,percent,0.19,0.53,1.3,2.6,8.0,38.0,53.0,60.0,64.0,61.0,66.0,56.0,66.0,55.0,64.0,74.0
+China,ev_sales_share,cars,EV_total,percent,0.01,0.034,0.073,0.095,0.4,1.0,1.5,2.4,4.7,5.0,5.7,15.0,29.0,38.0,48.0,82.0
+China,ev_sales_share,trucks,EV_total,percent,,,,,,1.4,3.0,3.5,1.8,1.1,0.6,0.5,1.9,2.2,4.4,32.0
+China,ev_sales_share,vans,EV_total,percent,0.0097,0.015,0.066,0.069,0.041,1.3,0.82,4.6,3.3,1.5,1.4,4.1,11.0,15.0,33.0,52.0
+China,ev_stock,2_3_wheelers,BEV,Vehicles,,,1700000.0,3700000.0,6100000.0,8800000.0,12000000.0,15000000.0,19000000.0,26000000.0,33000000.0,42000000.0,46000000.0,60000000.0,67000000.0,91000000.0
+China,ev_stock,buses,BEV,Vehicles,1900.0,4100.0,5900.0,7600.0,22000.0,98000.0,190000.0,280000.0,360000.0,430000.0,480000.0,530000.0,570000.0,600000.0,650000.0,1500000.0
+China,ev_stock,buses,FCEV,Vehicles,,,,,,,1.0,340.0,1200.0,2300.0,3300.0,4200.0,5400.0,6600.0,8000.0,35000.0
+China,ev_stock,buses,PHEV,Vehicles,,160.0,680.0,2400.0,8400.0,22000.0,29000.0,30000.0,31000.0,32000.0,34000.0,35000.0,36000.0,37000.0,37000.0,39000.0
+China,ev_stock,cars,BEV,Vehicles,1600.0,6300.0,16000.0,31000.0,59000.0,210000.0,460000.0,930000.0,1700000.0,2600000.0,3500000.0,6200000.0,11000000.0,16000000.0,23000000.0,82000000.0
+China,ev_stock,cars,FCEV,Vehicles,,,,,,,,,,,,19.0,240.0,760.0,820.0,78000.0
+China,ev_stock,cars,PHEV,Vehicles,340.0,660.0,920.0,1600.0,26000.0,87000.0,170000.0,280000.0,540000.0,770000.0,990000.0,1600000.0,3100000.0,5800000.0,11000000.0,56000000.0
+China,ev_stock,trucks,BEV,Vehicles,16.0,120.0,540.0,1400.0,1700.0,17000.0,64000.0,130000.0,170000.0,190000.0,210000.0,220000.0,250000.0,290000.0,360000.0,2400000.0
+China,ev_stock,trucks,FCEV,Vehicles,,,,,,,,1.0,400.0,1800.0,3200.0,4300.0,7000.0,10000.0,16000.0,86000.0
+China,ev_stock,trucks,PHEV,Vehicles,,,,,,,,,,31.0,58.0,580.0,840.0,1200.0,1200.0,16000.0
+China,ev_stock,vans,BEV,Vehicles,400.0,700.0,1200.0,1800.0,2500.0,15000.0,53000.0,120000.0,200000.0,250000.0,270000.0,330000.0,460000.0,680000.0,1100000.0,4700000.0
+China,ev_stock,vans,FCEV,Vehicles,,,,,,,,,,,,3.0,810.0,2700.0,5000.0,94000.0
+China,ev_stock,vans,PHEV,Vehicles,,,,,,17.0,17.0,17.0,17.0,44.0,77.0,230.0,1700.0,1700.0,1700.0,190000.0
+China,ev_stock_share,2_3_wheelers,EV_total,percent,,,1.1,2.5,4.1,6.0,7.9,10.0,13.0,17.0,21.0,26.0,28.0,35.0,39.0,
+China,ev_stock_share,buses,EV_total,percent,0.056,0.12,0.19,0.3,0.91,3.6,6.7,9.6,13.0,15.0,18.0,20.0,23.0,26.0,30.0,60.0
+China,ev_stock_share,cars,EV_total,percent,0.0031,0.0091,0.019,0.031,0.07,0.21,0.39,0.65,1.1,1.5,1.9,3.0,5.0,7.5,11.0,36.0
+China,ev_stock_share,trucks,EV_total,percent,0.00011,0.00078,0.0033,0.0077,0.0088,0.086,0.3,0.59,0.71,0.76,0.77,0.76,0.85,0.96,1.2,7.0
+China,ev_stock_share,vans,EV_total,percent,0.0053,0.0086,0.014,0.019,0.024,0.14,0.45,0.95,1.5,1.7,1.7,2.0,2.6,3.7,5.8,23.0
+China,oil_displacement_lge,2_3_wheelers,EV_total,"Oil displacement, million lge",,,360.0,740.0,1300.0,2000.0,1400.0,1600.0,2000.0,2300.0,3000.0,4100.0,3800.0,5000.0,5400.0,8700.0
+China,oil_displacement_lge,buses,EV_total,"Oil displacement, million lge",49.0,35.0,37.0,54.0,100.0,640.0,800.0,1800.0,2500.0,2600.0,2600.0,2900.0,3200.0,3300.0,3400.0,9300.0
+China,oil_displacement_lge,cars,EV_total,"Oil displacement, million lge",5.5,15.0,27.0,51.0,150.0,480.0,620.0,1500.0,2900.0,3900.0,4500.0,8800.0,14000.0,22000.0,31000.0,120000.0
+China,oil_displacement_lge,trucks,EV_total,"Oil displacement, million lge",,,,,,700.0,1800.0,1800.0,2300.0,2100.0,1900.0,2100.0,3200.0,3300.0,4100.0,21000.0
+China,oil_displacement_lge,vans,EV_total,"Oil displacement, million lge",2.2,2.0,3.2,5.0,6.6,56.0,47.0,300.0,270.0,270.0,270.0,390.0,580.0,910.0,1700.0,5700.0
+China,oil_displacement_mbd,2_3_wheelers,EV_total,Million barrels per day,,,0.006,0.012,0.022,0.033,0.023,0.026,0.033,0.039,0.05,0.068,0.063,0.084,0.09,0.14
+China,oil_displacement_mbd,buses,EV_total,Million barrels per day,0.00081,0.00059,0.00062,0.00091,0.0017,0.011,0.013,0.03,0.042,0.044,0.044,0.049,0.054,0.056,0.057,0.16
+China,oil_displacement_mbd,cars,EV_total,Million barrels per day,9.2e-05,0.00025,0.00045,0.00086,0.0025,0.0081,0.01,0.024,0.049,0.065,0.076,0.15,0.23,0.37,0.51,2.0
+China,oil_displacement_mbd,trucks,EV_total,Million barrels per day,,,,,,0.012,0.031,0.029,0.038,0.035,0.032,0.035,0.053,0.056,0.068,0.35
+China,oil_displacement_mbd,vans,EV_total,Million barrels per day,3.7e-05,3.4e-05,5.4e-05,8.3e-05,0.00011,0.00094,0.00078,0.0049,0.0045,0.0046,0.0044,0.0066,0.0097,0.015,0.028,0.096
+Japan,ev_charging_points,ev_total,charging_fast,charging points,310.0,800.0,1400.0,1800.0,2900.0,6000.0,7100.0,7300.0,7700.0,7900.0,7900.0,8000.0,8400.0,9600.0,10000.0,
+Japan,ev_charging_points,ev_total,charging_slow,charging points,,,,,8600.0,16000.0,17000.0,22000.0,22000.0,23000.0,22000.0,21000.0,21000.0,22000.0,24000.0,
+Japan,ev_sales,2_3_wheelers,BEV,Vehicles,,,,,,,,,1300.0,1800.0,2200.0,6400.0,16000.0,21000.0,27000.0,
+Japan,ev_sales,cars,BEV,Vehicles,2400.0,13000.0,13000.0,15000.0,16000.0,10000.0,15000.0,18000.0,27000.0,21000.0,15000.0,22000.0,59000.0,88000.0,60000.0,
+Japan,ev_sales,cars,FCEV,Vehicles,2.0,,1.0,4.0,7.0,390.0,1100.0,850.0,610.0,670.0,490.0,2500.0,990.0,320.0,660.0,
+Japan,ev_sales,cars,PHEV,Vehicles,,15.0,11000.0,14000.0,16000.0,14000.0,9400.0,36000.0,23000.0,18000.0,15000.0,23000.0,38000.0,52000.0,43000.0,
+Japan,ev_sales,trucks,BEV,Vehicles,,,,,,,,,5.0,50.0,35.0,3.0,10.0,50.0,450.0,
+Japan,ev_sales,trucks,FCEV,Vehicles,,,,,,,,,,,,,,,6.0,
+Japan,ev_sales,vans,BEV,Vehicles,,850.0,2500.0,2100.0,1000.0,830.0,320.0,320.0,280.0,520.0,1500.0,920.0,1600.0,2800.0,4600.0,
+Japan,ev_sales_share,2_3_wheelers,EV_total,percent,,,,,,,,,0.33,0.46,0.55,1.4,3.9,4.6,7.2,
+Japan,ev_sales_share,cars,EV_total,percent,0.058,0.31,0.53,0.63,0.69,0.58,0.6,1.2,1.1,0.9,0.77,1.2,2.8,3.5,2.8,
+Japan,ev_sales_share,trucks,EV_total,percent,,,,,,,,,0.0028,0.027,0.022,0.0019,0.0082,0.035,0.34,
+Japan,ev_sales_share,vans,EV_total,percent,,0.15,0.38,0.31,0.15,0.13,0.051,0.05,0.04,0.075,0.24,0.15,0.25,0.43,0.85,
+Japan,ev_stock,2_3_wheelers,BEV,Vehicles,,,,,,,,,1300.0,3100.0,5300.0,12000.0,27000.0,48000.0,75000.0,
+Japan,ev_stock,cars,BEV,Vehicles,3500.0,16000.0,30000.0,44000.0,70000.0,79000.0,88000.0,100000.0,110000.0,120000.0,140000.0,160000.0,210000.0,290000.0,340000.0,
+Japan,ev_stock,cars,FCEV,Vehicles,,,,,,400.0,1400.0,2300.0,2900.0,3600.0,4100.0,6600.0,7600.0,7900.0,8100.0,
+Japan,ev_stock,cars,PHEV,Vehicles,,15.0,11000.0,25000.0,41000.0,55000.0,65000.0,100000.0,120000.0,140000.0,160000.0,180000.0,200000.0,250000.0,280000.0,
+Japan,ev_stock,trucks,BEV,Vehicles,,,,,,,,,5.0,55.0,55.0,55.0,55.0,150.0,410.0,
+Japan,ev_stock,trucks,FCEV,Vehicles,,,,,,,,,,,,,,,6.0,
+Japan,ev_stock,vans,BEV,Vehicles,,850.0,3300.0,5400.0,6400.0,7300.0,7600.0,7900.0,8200.0,8700.0,10000.0,11000.0,39000.0,15000.0,20000.0,
+Japan,ev_stock,vans,FCEV,Vehicles,,,,,,,,,,,,,,,100.0,
+Japan,ev_stock_share,2_3_wheelers,EV_total,percent,,,,,,,,,0.012,0.03,0.051,0.11,0.26,0.5,0.75,
+Japan,ev_stock_share,cars,EV_total,percent,0.0061,0.027,0.068,0.12,0.18,0.22,0.25,0.31,0.36,0.41,0.45,0.51,0.63,0.84,1.0,
+Japan,ev_stock_share,trucks,EV_total,percent,,,,,,,,,0.00021,0.0023,0.0023,0.0022,0.0022,0.0094,0.017,
+Japan,ev_stock_share,vans,EV_total,percent,,0.0061,0.024,0.04,0.048,0.054,0.057,0.06,0.062,0.067,0.078,0.085,0.3,0.13,0.15,
+Korea,ev_charging_points,ev_total,charging_fast,charging points,,,120.0,180.0,240.0,340.0,490.0,490.0,9100.0,9100.0,9100.0,9100.0,21000.0,34000.0,47000.0,
+Korea,ev_charging_points,ev_total,charging_slow,charging points,,350.0,760.0,1000.0,1400.0,1300.0,1100.0,10000.0,22000.0,37000.0,54000.0,92000.0,180000.0,270000.0,370000.0,
+Korea,ev_sales,2_3_wheelers,BEV,Vehicles,,,,,,,,960.0,1100.0,5200.0,13000.0,12000.0,22000.0,8300.0,7300.0,
+Korea,ev_sales,buses,BEV,Vehicles,5.0,4.0,2.0,6.0,3.0,2.0,30.0,,50.0,550.0,1000.0,1300.0,2100.0,2800.0,2800.0,
+Korea,ev_sales,buses,FCEV,Vehicles,,,,,,,,,,,37.0,77.0,150.0,370.0,350.0,
+Korea,ev_sales,cars,BEV,Vehicles,61.0,270.0,510.0,600.0,1300.0,3100.0,4700.0,14000.0,55000.0,33000.0,31000.0,72000.0,120000.0,120000.0,120000.0,
+Korea,ev_sales,cars,FCEV,Vehicles,,,,,,29.0,58.0,75.0,910.0,4200.0,5000.0,9200.0,10000.0,4300.0,2800.0,
+Korea,ev_sales,cars,PHEV,Vehicles,,,,,,250.0,330.0,670.0,4400.0,2700.0,8700.0,19000.0,11000.0,12000.0,7900.0,
+Korea,ev_sales,vans,BEV,Vehicles,,,,,,18.0,14.0,,300.0,1500.0,14000.0,28000.0,38000.0,44000.0,21000.0,
+Korea,ev_sales,vans,FCEV,Vehicles,,,,,,,,,2.0,15.0,60.0,54.0,,,,
+Korea,ev_sales_share,2_3_wheelers,EV_total,percent,,,,,,,,1.1,1.3,6.2,14.0,11.0,10.0,6.1,5.8,
+Korea,ev_sales_share,buses,EV_total,percent,0.007,0.0054,0.0029,0.0081,0.0039,0.0027,0.042,,0.067,0.86,1.5,2.2,3.8,5.4,6.5,
+Korea,ev_sales_share,cars,EV_total,percent,0.005,0.023,0.041,0.048,0.092,0.22,0.33,0.96,3.9,2.4,2.5,6.3,9.6,8.7,9.2,
+Korea,ev_sales_share,vans,EV_total,percent,,,,,,0.011,0.0094,,0.14,0.73,6.9,14.0,17.0,20.0,12.0,
+Korea,ev_stock,2_3_wheelers,BEV,Vehicles,,,,,,,,,1100.0,6300.0,19000.0,31000.0,53000.0,62000.0,69000.0,
+Korea,ev_stock,buses,BEV,Vehicles,5.0,9.0,11.0,17.0,20.0,22.0,52.0,52.0,100.0,220.0,1800.0,3100.0,5200.0,8000.0,11000.0,
+Korea,ev_stock,buses,FCEV,Vehicles,,,,,,,,,,15.0,52.0,130.0,280.0,650.0,1000.0,
+Korea,ev_stock,cars,BEV,Vehicles,61.0,340.0,850.0,1400.0,2700.0,5800.0,10000.0,24000.0,55000.0,89000.0,120000.0,190000.0,300000.0,420000.0,540000.0,
+Korea,ev_stock,cars,FCEV,Vehicles,,,,,,12.0,46.0,100.0,900.0,5100.0,10000.0,19000.0,29000.0,34000.0,36000.0,
+Korea,ev_stock,cars,PHEV,Vehicles,,,,,,250.0,580.0,1300.0,5600.0,11000.0,24000.0,44000.0,57000.0,69000.0,77000.0,
+Korea,ev_stock,vans,BEV,Vehicles,,,,,,18.0,32.0,32.0,330.0,1900.0,16000.0,45000.0,81000.0,130000.0,150000.0,
+Korea,ev_stock,vans,FCEV,Vehicles,,,,,,,,,,,,,,,130.0,
+Korea,ev_stock_share,2_3_wheelers,EV_total,percent,,,,,,,,,0.045,0.27,0.84,1.4,2.3,2.7,3.0,
+Korea,ev_stock_share,buses,EV_total,percent,0.00044,0.00084,0.0011,0.0018,0.0022,0.0025,0.0062,0.0063,0.012,0.027,0.23,0.41,0.69,1.1,1.6,
+Korea,ev_stock_share,cars,EV_total,percent,0.00037,0.002,0.005,0.0084,0.015,0.033,0.059,0.13,0.31,0.49,0.69,1.1,1.7,2.2,2.8,
+Korea,ev_stock_share,vans,EV_total,percent,,,,,,0.00076,0.0014,0.0013,0.013,0.074,0.64,1.7,3.0,4.5,5.2,
+India,battery_demand,2_3_wheelers,EV_total,GWh,0.12,0.09,0.56,0.64,0.77,0.021,0.15,0.26,0.38,0.49,0.36,0.95,2.9,4.4,7.0,32.0
+India,battery_demand,buses,EV_total,GWh,,,,,,0.025,0.0057,0.0041,0.05,0.11,0.51,0.28,0.45,0.55,0.81,9.6
+India,battery_demand,cars,EV_total,GWh,0.0045,0.014,0.0019,0.0041,0.01,0.0045,0.0073,0.0099,0.017,0.023,0.11,0.37,1.6,2.8,3.2,40.0
+India,battery_demand,trucks,EV_total,GWh,,,,,,,,,,,,,,,,2.0
+India,battery_demand,vans,EV_total,GWh,,,,,,,0.0053,0.037,0.045,0.024,0.051,0.1,0.033,0.0098,0.13,4.0
+India,electricity_demand,2_3_wheelers,EV_total,GWh,,,,,,,,,,,,,,,1600.0,11000.0
+India,electricity_demand,buses,EV_total,GWh,,,,,,,,,,,,,,,440.0,5200.0
+India,electricity_demand,cars,EV_total,GWh,,,,,,,,,,,,,,,710.0,6500.0
+India,electricity_demand,trucks,EV_total,GWh,,,,,,,,,,,,,,,,1100.0
+India,electricity_demand,vans,EV_total,GWh,,,,,,,,,,,,,,,88.0,1500.0
+India,ev_charging_points,ev_total,charging_fast,charging points,,,,,,,,,25.0,2000.0,2900.0,4000.0,4100.0,14000.0,28000.0,160000.0
+India,ev_charging_points,ev_total,charging_slow,charging points,,,,,,,,220.0,330.0,330.0,330.0,910.0,6800.0,23000.0,47000.0,220000.0
+India,ev_sales,2_3_wheelers,BEV,Vehicles,40000.0,30000.0,190000.0,210000.0,260000.0,6900.0,49000.0,85000.0,130000.0,160000.0,120000.0,320000.0,980000.0,1500000.0,1900000.0,9000000.0
+India,ev_sales,buses,BEV,Vehicles,,,,,,100.0,25.0,20.0,210.0,460.0,2200.0,1200.0,2000.0,2300.0,3200.0,38000.0
+India,ev_sales,buses,FCEV,Vehicles,,,,,,,,,,,49.0,,49.0,2.0,,1400.0
+India,ev_sales,buses,PHEV,Vehicles,,,,,,,,,,,,,,,,24.0
+India,ev_sales,cars,BEV,Vehicles,450.0,1400.0,190.0,410.0,1000.0,450.0,730.0,920.0,920.0,680.0,3100.0,12000.0,48000.0,82000.0,92000.0,610000.0
+India,ev_sales,cars,FCEV,Vehicles,,,,,,,,,,,,1.0,2.0,,,
+India,ev_sales,cars,PHEV,Vehicles,,,,,,,,,,7.0,43.0,50.0,23.0,270.0,95.0,110000.0
+India,ev_sales,trucks,BEV,Vehicles,,,,,,,,,,,,,,,,5400.0
+India,ev_sales,trucks,FCEV,Vehicles,,,,,,,,,,,,,,,,520.0
+India,ev_sales,trucks,PHEV,Vehicles,,,,,,,,,,,,,,,,4700.0
+India,ev_sales,vans,BEV,Vehicles,,,,,,,180.0,1200.0,1500.0,790.0,1000.0,1700.0,510.0,360.0,6000.0,57000.0
+India,ev_sales,vans,FCEV,Vehicles,,,,,,,,,,,,,,,,340.0
+India,ev_sales,vans,PHEV,Vehicles,,,,,,,,,,,,,,,,3000.0
+India,ev_sales_share,2_3_wheelers,EV_total,percent,0.34,0.22,1.2,1.3,1.5,0.04,0.26,0.41,0.56,0.85,0.82,2.1,5.9,7.9,9.1,
+India,ev_sales_share,buses,EV_total,percent,,,,,,0.11,0.027,0.023,0.28,0.69,6.0,7.2,6.7,4.2,5.7,25.0
+India,ev_sales_share,cars,EV_total,percent,0.021,0.056,0.0072,0.016,0.038,0.017,0.026,0.031,0.03,0.024,0.12,0.41,1.4,2.1,2.1,14.0
+India,ev_sales_share,trucks,EV_total,percent,,,,,,,,,,,,,,,,2.0
+India,ev_sales_share,vans,EV_total,percent,,,,,,,0.056,0.31,0.29,0.16,0.23,0.42,0.098,0.064,1.1,9.0
+India,ev_stock,2_3_wheelers,BEV,Vehicles,40000.0,70000.0,170000.0,210000.0,230000.0,250000.0,260000.0,770000.0,1500000.0,2000000.0,2200000.0,2700000.0,3200000.0,4700000.0,6600000.0,43000000.0
+India,ev_stock,buses,BEV,Vehicles,,,,,,100.0,100.0,100.0,100.0,550.0,3000.0,4100.0,6100.0,8400.0,12000.0,140000.0
+India,ev_stock,buses,FCEV,Vehicles,,,,,,,,,,,,,,100.0,100.0,4300.0
+India,ev_stock,buses,PHEV,Vehicles,,,,,,,,,,,,,,,,110.0
+India,ev_stock,cars,BEV,Vehicles,880.0,1300.0,2800.0,2900.0,3400.0,4400.0,4800.0,7000.0,7900.0,8600.0,12000.0,23000.0,72000.0,150000.0,240000.0,2300000.0
+India,ev_stock,cars,FCEV,Vehicles,,,,,,,,,,,,1.0,3.0,3.0,3.0,
+India,ev_stock,cars,PHEV,Vehicles,,,,,,,,,,7.0,50.0,100.0,120.0,390.0,480.0,190000.0
+India,ev_stock,trucks,BEV,Vehicles,,,,,,,,,,,,,,,,14000.0
+India,ev_stock,trucks,FCEV,Vehicles,,,,,,,,,,,,,,,,1100.0
+India,ev_stock,trucks,PHEV,Vehicles,,,,,,,,,,,,,,,,9400.0
+India,ev_stock,vans,BEV,Vehicles,,,,,,,180.0,1400.0,2900.0,3700.0,4700.0,6400.0,6900.0,7300.0,13000.0,220000.0
+India,ev_stock,vans,FCEV,Vehicles,,,,,,,,,,,,,,,,1100.0
+India,ev_stock,vans,PHEV,Vehicles,,,,,,,,,,,,,,,,11000.0
+India,ev_stock_share,2_3_wheelers,EV_total,percent,0.046,0.073,0.16,0.18,0.17,0.17,0.17,0.45,0.8,0.98,1.1,1.3,1.5,2.1,2.8,
+India,ev_stock_share,buses,EV_total,percent,,,,,,0.0054,0.0052,0.0051,0.005,0.027,0.15,0.21,0.32,0.44,0.61,6.0
+India,ev_stock_share,cars,EV_total,percent,0.0051,0.0067,0.012,0.012,0.013,0.015,0.015,0.021,0.022,0.022,0.029,0.055,0.16,0.31,0.48,3.0
+India,ev_stock_share,trucks,EV_total,percent,,,,,,,,,,,,,,,,0.36
+India,ev_stock_share,vans,EV_total,percent,,,,,,,0.0032,0.024,0.046,0.055,0.066,0.086,0.088,0.087,0.15,2.0
+India,oil_displacement_lge,2_3_wheelers,EV_total,"Oil displacement, million lge",3.5,5.7,25.0,45.0,70.0,70.0,71.0,78.0,83.0,94.0,92.0,130.0,220.0,370.0,590.0,4200.0
+India,oil_displacement_lge,buses,EV_total,"Oil displacement, million lge",,,,,,1.2,1.4,1.5,3.8,8.6,29.0,40.0,59.0,78.0,110.0,1200.0
+India,oil_displacement_lge,cars,EV_total,"Oil displacement, million lge",1.4,2.7,2.7,3.0,3.9,4.4,5.1,6.1,6.9,7.4,8.9,22.0,79.0,170.0,260.0,2500.0
+India,oil_displacement_lge,trucks,EV_total,"Oil displacement, million lge",,,,,,,,,,,,,,,,220.0
+India,oil_displacement_lge,vans,EV_total,"Oil displacement, million lge",,,,,,,0.54,4.3,8.3,9.6,10.0,14.0,16.0,15.0,30.0,490.0
+India,oil_displacement_mbd,2_3_wheelers,EV_total,Million barrels per day,6e-05,9.8e-05,0.00044,0.00079,0.0012,0.0012,0.0012,0.0014,0.0014,0.0016,0.0016,0.0022,0.0038,0.0065,0.01,0.073
+India,oil_displacement_mbd,buses,EV_total,Million barrels per day,,,,,,2.2e-05,2.4e-05,2.6e-05,6.6e-05,0.00015,0.00051,0.0007,0.001,0.0014,0.0019,0.021
+India,oil_displacement_mbd,cars,EV_total,Million barrels per day,2.4e-05,4.7e-05,4.7e-05,5.2e-05,6.7e-05,7.7e-05,8.8e-05,0.00011,0.00012,0.00013,0.00016,0.00038,0.0014,0.0029,0.0045,0.044
+India,oil_displacement_mbd,trucks,EV_total,Million barrels per day,,,,,,,,,,,,,,,,0.0039
+India,oil_displacement_mbd,vans,EV_total,Million barrels per day,,,,,,,9.3e-06,7.5e-05,0.00014,0.00017,0.00018,0.00025,0.00027,0.00027,0.00053,0.0085
+Indonesia,ev_charging_points,ev_total,charging_fast,charging points,,,,,,,,,,,,130.0,440.0,770.0,2300.0,
+Indonesia,ev_charging_points,ev_total,charging_slow,charging points,,,,,,,,,,,,54.0,180.0,310.0,940.0,
+Indonesia,ev_sales,2_3_wheelers,BEV,Vehicles,,,,,,8.0,24.0,3800.0,13000.0,35000.0,41000.0,80000.0,120000.0,63000.0,100000.0,
+Indonesia,ev_sales,cars,BEV,Vehicles,,2.0,,2.0,,,,,,29.0,340.0,730.0,11000.0,17000.0,49000.0,
+Indonesia,ev_sales,cars,FCEV,Vehicles,,,,,,,,,,,,1.0,2.0,,,
+Indonesia,ev_sales,cars,PHEV,Vehicles,,,,,,,,27.0,2.0,62.0,23.0,31.0,79.0,160.0,150.0,
+Indonesia,ev_sales,trucks,BEV,Vehicles,,,,,,,,,,,,,,,1.0,
+Indonesia,ev_sales_share,2_3_wheelers,EV_total,percent,,,,,,0.00012,0.0004,0.063,0.21,0.52,1.1,1.5,2.2,1.0,1.6,
+Indonesia,ev_sales_share,cars,EV_total,percent,,0.00034,,0.00024,,,,0.0032,0.00023,0.012,0.096,0.12,1.4,2.2,7.3,
+Indonesia,ev_sales_share,trucks,EV_total,percent,,,,,,,,,,,,,,,0.0015,
+Indonesia,ev_stock,2_3_wheelers,BEV,Vehicles,,,,,,8.0,32.0,3800.0,17000.0,52000.0,93000.0,170000.0,290000.0,350000.0,460000.0,
+Indonesia,ev_stock,cars,BEV,Vehicles,,,,,,,,,,29.0,370.0,1700.0,12000.0,29000.0,78000.0,
+Indonesia,ev_stock,cars,PHEV,Vehicles,,,,,,,,,,20.0,26.0,61.0,140.0,390.0,540.0,
+Indonesia,ev_stock,trucks,BEV,Vehicles,,,,,,,,,,,,5.0,,,1.0,
+Indonesia,ev_stock_share,2_3_wheelers,EV_total,percent,,,,,,9e-06,3.4e-05,0.0038,0.016,0.047,0.082,0.15,0.24,0.28,0.35,
+Indonesia,ev_stock_share,cars,EV_total,percent,,,,,,,,,,0.00044,0.0035,0.015,0.1,0.23,0.59,
+Indonesia,ev_stock_share,trucks,EV_total,percent,,,,,,,,,,,,0.00029,,,5.4e-05,
+Thailand,ev_charging_points,ev_total,charging_fast,charging points,,,,,,,,8.0,8.0,69.0,710.0,770.0,1600.0,5800.0,8700.0,
+Thailand,ev_charging_points,ev_total,charging_slow,charging points,,,,,,,,88.0,88.0,750.0,1200.0,1500.0,1600.0,4700.0,4700.0,
+Thailand,ev_sales,2_3_wheelers,BEV,Vehicles,590.0,260.0,70.0,26.0,130.0,11.0,33.0,8.0,170.0,840.0,1700.0,4000.0,9200.0,22000.0,23000.0,
+Thailand,ev_sales,cars,BEV,Vehicles,1.0,9.0,7.0,13.0,6.0,14.0,2.0,27.0,110.0,700.0,1300.0,1900.0,9900.0,77000.0,71000.0,
+Thailand,ev_sales,cars,FCEV,Vehicles,,,,,,,,,,,,1.0,,,,
+Thailand,ev_sales,cars,PHEV,Vehicles,,,,,63.0,23.0,37.0,140.0,8500.0,9600.0,7800.0,7100.0,11000.0,12000.0,9400.0,
+Thailand,ev_sales_share,2_3_wheelers,EV_total,percent,0.03,0.012,0.0031,0.0012,0.0072,0.0006,0.0017,0.0004,0.0087,0.044,0.098,0.23,0.46,1.1,1.2,
+Thailand,ev_sales_share,cars,EV_total,percent,0.00013,0.001,0.00055,0.001,0.0076,0.0046,0.0048,0.018,0.87,1.0,1.1,1.2,2.3,11.0,13.0,
+Thailand,ev_stock,2_3_wheelers,BEV,Vehicles,7700.0,6300.0,4600.0,3200.0,2400.0,1700.0,1400.0,1200.0,1200.0,1800.0,3400.0,7000.0,17000.0,39000.0,63000.0,
+Thailand,ev_stock,cars,BEV,Vehicles,4.0,13.0,18.0,30.0,36.0,50.0,55.0,82.0,190.0,890.0,2200.0,4100.0,14000.0,91000.0,160000.0,
+Thailand,ev_stock,cars,PHEV,Vehicles,,,,,63.0,320.0,320.0,320.0,8500.0,18000.0,24000.0,31000.0,42000.0,56000.0,65000.0,
+Thailand,ev_stock_share,2_3_wheelers,EV_total,percent,0.043,0.034,0.023,0.015,0.011,0.0079,0.0062,0.0055,0.0052,0.008,0.015,0.031,0.075,0.17,0.28,
+Thailand,ev_stock_share,cars,EV_total,percent,4.1e-05,0.00012,0.00016,0.00024,0.00075,0.0027,0.0027,0.0027,0.057,0.12,0.16,0.21,0.32,0.82,1.2,
+Germany,ev_charging_points,ev_total,charging_fast,charging points,,,18.0,47.0,120.0,470.0,1700.0,2200.0,2900.0,3200.0,6300.0,9500.0,15000.0,23000.0,37000.0,
+Germany,ev_charging_points,ev_total,charging_slow,charging points,,,1500.0,2400.0,2600.0,4600.0,5800.0,9400.0,17000.0,26000.0,37000.0,50000.0,71000.0,87000.0,120000.0,
+Germany,ev_sales,2_3_wheelers,BEV,Vehicles,,,500.0,680.0,1200.0,1200.0,1700.0,2100.0,3100.0,4500.0,4600.0,7000.0,34000.0,17000.0,8000.0,
+Germany,ev_sales,2_3_wheelers,PHEV,Vehicles,,,,,,,,,,,,2.0,3.0,,,
+Germany,ev_sales,buses,BEV,Vehicles,,,,,,,110.0,29.0,43.0,190.0,390.0,610.0,630.0,830.0,880.0,
+Germany,ev_sales,buses,FCEV,Vehicles,,,,,,,16.0,8.0,,,38.0,33.0,21.0,43.0,170.0,
+Germany,ev_sales,buses,PHEV,Vehicles,,,,,,,120.0,,,,,5.0,15.0,5.0,,
+Germany,ev_sales,cars,BEV,Vehicles,140.0,1400.0,2200.0,5200.0,9100.0,12000.0,11000.0,25000.0,36000.0,63000.0,190000.0,360000.0,470000.0,520000.0,380000.0,
+Germany,ev_sales,cars,FCEV,Vehicles,,,,,3.0,72.0,49.0,82.0,110.0,200.0,370.0,440.0,750.0,270.0,390.0,
+Germany,ev_sales,cars,PHEV,Vehicles,,240.0,1200.0,1600.0,4400.0,11000.0,13000.0,29000.0,31000.0,45000.0,200000.0,330000.0,360000.0,180000.0,190000.0,
+Germany,ev_sales,trucks,BEV,Vehicles,,,,,,,,,280.0,620.0,860.0,1000.0,1100.0,2200.0,3400.0,
+Germany,ev_sales,trucks,FCEV,Vehicles,,,,,,,,,,,,,,27.0,110.0,
+Germany,ev_sales,trucks,PHEV,Vehicles,,,,,,,,,,,,,,4.0,,
+Germany,ev_sales,vans,BEV,Vehicles,170.0,280.0,950.0,600.0,720.0,1000.0,2400.0,4500.0,6000.0,6700.0,8800.0,13000.0,18000.0,19000.0,13000.0,
+Germany,ev_sales,vans,FCEV,Vehicles,2.0,,,,,,,,,,,5.0,,48.0,,
+Germany,ev_sales,vans,PHEV,Vehicles,,,,2.0,,2.0,,,,,180.0,310.0,770.0,360.0,230.0,
+Germany,ev_sales_share,2_3_wheelers,EV_total,percent,,,0.28,0.4,0.67,0.64,0.81,1.2,1.7,2.3,1.9,3.2,15.0,7.5,3.6,
+Germany,ev_sales_share,buses,EV_total,percent,,,,,,,3.4,0.43,0.64,3.1,6.1,9.5,13.0,15.0,16.0,
+Germany,ev_sales_share,cars,EV_total,percent,0.0049,0.052,0.11,0.23,0.45,0.73,0.74,1.6,2.0,3.0,14.0,26.0,31.0,24.0,19.0,
+Germany,ev_sales_share,trucks,EV_total,percent,,,,,,,,,0.3,0.63,1.1,1.3,1.5,2.3,3.9,
+Germany,ev_sales_share,vans,EV_total,percent,0.087,0.12,0.43,0.29,0.32,0.44,0.97,1.7,2.2,2.3,3.5,5.1,8.3,7.5,4.9,
+Germany,ev_stock,2_3_wheelers,BEV,Vehicles,,,500.0,1200.0,2400.0,3600.0,5200.0,7300.0,10000.0,15000.0,20000.0,27000.0,60000.0,77000.0,85000.0,
+Germany,ev_stock,2_3_wheelers,PHEV,Vehicles,,,,,,,,,,,,2.0,5.0,5.0,5.0,
+Germany,ev_stock,buses,BEV,Vehicles,,,,,,,110.0,140.0,160.0,380.0,760.0,1300.0,1700.0,2800.0,3700.0,
+Germany,ev_stock,buses,FCEV,Vehicles,,,,,,,,,,24.0,49.0,87.0,68.0,160.0,330.0,
+Germany,ev_stock,buses,PHEV,Vehicles,,,,,,,120.0,120.0,120.0,120.0,130.0,130.0,130.0,140.0,140.0,
+Germany,ev_stock,cars,BEV,Vehicles,250.0,1600.0,3900.0,9200.0,18000.0,26000.0,34000.0,54000.0,83000.0,140000.0,310000.0,620000.0,1000000.0,1500000.0,1900000.0,
+Germany,ev_stock,cars,FCEV,Vehicles,,,,,,86.0,49.0,310.0,470.0,640.0,1000.0,1500.0,2200.0,2100.0,2300.0,
+Germany,ev_stock,cars,PHEV,Vehicles,,240.0,1400.0,3000.0,7400.0,19000.0,32000.0,50000.0,82000.0,100000.0,300000.0,630000.0,860000.0,1000000.0,1200000.0,
+Germany,ev_stock,trucks,BEV,Vehicles,,,,,,,,,280.0,,,770.0,900.0,6100.0,9500.0,
+Germany,ev_stock,trucks,FCEV,Vehicles,,,,,,,,,,,,,,27.0,140.0,
+Germany,ev_stock,trucks,PHEV,Vehicles,,,,,,,,,,,,,,4.0,4.0,
+Germany,ev_stock,vans,BEV,Vehicles,220.0,500.0,1400.0,2000.0,2800.0,3800.0,6200.0,11000.0,17000.0,22000.0,25000.0,41000.0,53000.0,83000.0,96000.0,
+Germany,ev_stock,vans,FCEV,Vehicles,2.0,2.0,2.0,2.0,2.0,2.0,,,,,16.0,16.0,16.0,55.0,55.0,
+Germany,ev_stock,vans,PHEV,Vehicles,,,,2.0,2.0,4.0,4.0,4.0,4.0,4.0,190.0,500.0,770.0,1600.0,1900.0,
+Germany,ev_stock_share,2_3_wheelers,EV_total,percent,,,0.0085,0.02,0.04,0.059,0.085,0.12,0.17,0.25,0.33,0.46,1.1,1.4,1.6,
+Germany,ev_stock_share,buses,EV_total,percent,,,,,,,0.29,0.33,0.35,0.63,1.2,1.8,2.2,3.6,4.6,
+Germany,ev_stock_share,cars,EV_total,percent,0.00058,0.0044,0.012,0.028,0.056,0.097,0.14,0.22,0.35,0.5,1.3,2.6,3.8,5.2,6.5,
+Germany,ev_stock_share,trucks,EV_total,percent,,,,,,,,,0.03,,,0.08,0.091,0.59,0.92,
+Germany,ev_stock_share,vans,EV_total,percent,0.012,0.024,0.067,0.093,0.12,0.16,0.25,0.44,0.61,0.77,0.84,1.3,1.7,2.5,2.9,
+France,ev_charging_points,ev_total,charging_fast,charging points,,,9.0,100.0,110.0,580.0,1000.0,1000.0,2300.0,2700.0,3300.0,4900.0,17000.0,20000.0,32000.0,
+France,ev_charging_points,ev_total,charging_slow,charging points,,,800.0,1700.0,1700.0,9900.0,19000.0,20000.0,23000.0,28000.0,31000.0,50000.0,74000.0,99000.0,120000.0,
+France,ev_sales,2_3_wheelers,BEV,Vehicles,,,1300.0,1100.0,1500.0,1800.0,2900.0,6200.0,10000.0,15000.0,13000.0,22000.0,29000.0,24000.0,31000.0,
+France,ev_sales,buses,BEV,Vehicles,16.0,21.0,25.0,24.0,40.0,51.0,74.0,17.0,95.0,280.0,180.0,620.0,800.0,740.0,660.0,
+France,ev_sales,buses,FCEV,Vehicles,,,,,,,,,,,,1.0,,22.0,20.0,
+France,ev_sales,buses,PHEV,Vehicles,,,,,,,1.0,,,,,,2.0,,,
+France,ev_sales,cars,BEV,Vehicles,190.0,2600.0,5700.0,8900.0,11000.0,18000.0,23000.0,26000.0,33000.0,45000.0,110000.0,170000.0,210000.0,310000.0,300000.0,
+France,ev_sales,cars,FCEV,Vehicles,,,,1.0,1.0,10.0,34.0,46.0,10.0,60.0,210.0,21.0,190.0,370.0,640.0,
+France,ev_sales,cars,PHEV,Vehicles,82.0,56.0,660.0,850.0,2100.0,5800.0,7600.0,12000.0,15000.0,19000.0,75000.0,140000.0,130000.0,160000.0,150000.0,
+France,ev_sales,trucks,BEV,Vehicles,21.0,8.0,6.0,7.0,12.0,1.0,6.0,17.0,26.0,22.0,19.0,49.0,490.0,3200.0,1600.0,
+France,ev_sales,trucks,FCEV,Vehicles,,,,,,,,,,,,,,5.0,5.0,
+France,ev_sales,trucks,PHEV,Vehicles,,,,,,,,,,,,10.0,,,,
+France,ev_sales,vans,BEV,Vehicles,280.0,1200.0,3400.0,5200.0,4500.0,4800.0,5400.0,5200.0,7000.0,6600.0,6400.0,8600.0,13000.0,21000.0,19000.0,
+France,ev_sales,vans,FCEV,Vehicles,,,,1.0,4.0,53.0,99.0,25.0,92.0,,,20.0,,,250.0,
+France,ev_sales,vans,PHEV,Vehicles,,,,,,10.0,,,,4.0,,800.0,520.0,220.0,240.0,
+France,ev_sales_share,2_3_wheelers,EV_total,percent,,,0.43,0.4,0.56,0.72,1.1,2.2,3.9,5.0,4.3,7.0,10.0,8.5,10.0,
+France,ev_sales_share,buses,EV_total,percent,0.29,0.33,0.43,0.37,0.7,0.7,1.2,0.27,1.6,4.2,2.9,9.2,14.0,13.0,11.0,
+France,ev_sales_share,cars,EV_total,percent,0.012,0.12,0.33,0.53,0.69,1.2,1.4,1.7,2.0,2.7,11.0,17.0,20.0,25.0,24.0,
+France,ev_sales_share,trucks,EV_total,percent,0.062,0.017,0.014,0.016,0.033,0.0024,0.013,0.034,0.048,0.039,0.045,0.13,1.1,6.2,3.2,
+France,ev_sales_share,vans,EV_total,percent,0.07,0.29,0.91,1.5,1.2,1.5,1.8,1.6,2.0,1.8,2.0,2.8,5.0,7.2,6.5,
+France,ev_stock,2_3_wheelers,BEV,Vehicles,,,1300.0,2400.0,1800.0,4000.0,7800.0,15000.0,27000.0,44000.0,57000.0,82000.0,110000.0,150000.0,180000.0,
+France,ev_stock,buses,BEV,Vehicles,44.0,64.0,92.0,120.0,150.0,190.0,250.0,300.0,340.0,570.0,690.0,1300.0,1700.0,2100.0,2700.0,
+France,ev_stock,buses,FCEV,Vehicles,,,,,,,,,,,3.0,4.0,1.0,23.0,43.0,
+France,ev_stock,buses,PHEV,Vehicles,,,,,,,1.0,1.0,1.0,1.0,,70.0,70.0,3.0,3.0,
+France,ev_stock,cars,BEV,Vehicles,300.0,2900.0,8600.0,17000.0,28000.0,45000.0,67000.0,93000.0,120000.0,170000.0,280000.0,440000.0,620000.0,980000.0,1100000.0,
+France,ev_stock,cars,FCEV,Vehicles,,,,,,10.0,34.0,29.0,90.0,380.0,380.0,400.0,590.0,960.0,1600.0,
+France,ev_stock,cars,PHEV,Vehicles,,96.0,700.0,1500.0,3600.0,9300.0,17000.0,54000.0,68000.0,85000.0,160000.0,300000.0,430000.0,590000.0,650000.0,
+France,ev_stock,trucks,BEV,Vehicles,62.0,65.0,64.0,69.0,72.0,58.0,58.0,67.0,83.0,78.0,70.0,79.0,440.0,3800.0,5400.0,
+France,ev_stock,trucks,FCEV,Vehicles,,,,,,,,,,,,,,5.0,10.0,
+France,ev_stock,trucks,PHEV,Vehicles,,,,,,,,10.0,20.0,10.0,10.0,,,10.0,10.0,
+France,ev_stock,vans,BEV,Vehicles,1500.0,3200.0,6800.0,12000.0,16000.0,21000.0,27000.0,33000.0,41000.0,49000.0,58000.0,69000.0,74000.0,81000.0,110000.0,
+France,ev_stock,vans,FCEV,Vehicles,,,1.0,1.0,2.0,55.0,150.0,180.0,270.0,270.0,270.0,290.0,270.0,290.0,540.0,
+France,ev_stock,vans,PHEV,Vehicles,210.0,260.0,300.0,360.0,430.0,630.0,1000.0,1600.0,2500.0,4200.0,4200.0,1500.0,990.0,1600.0,1900.0,
+France,ev_stock_share,2_3_wheelers,EV_total,percent,,,0.041,0.078,0.06,0.14,0.29,0.48,0.9,1.4,1.8,2.6,3.4,4.4,5.4,
+France,ev_stock_share,buses,EV_total,percent,0.046,0.067,0.099,0.12,0.16,0.2,0.25,0.3,0.39,0.64,0.77,1.5,1.9,2.2,2.8,
+France,ev_stock_share,cars,EV_total,percent,0.00096,0.0095,0.029,0.052,0.086,0.15,0.22,0.38,0.5,0.66,1.1,1.9,2.7,4.0,4.4,
+France,ev_stock_share,trucks,EV_total,percent,0.014,0.012,0.012,0.013,0.013,0.01,0.0099,0.013,0.017,0.015,0.013,0.013,0.072,0.6,0.85,
+France,ev_stock_share,vans,EV_total,percent,0.036,0.059,0.12,0.21,0.28,0.36,0.46,0.56,0.7,0.89,1.0,1.1,1.2,1.3,1.8,
+United Kingdom,ev_charging_points,ev_total,charging_fast,charging points,,,,80.0,250.0,540.0,780.0,920.0,1100.0,1100.0,4700.0,5500.0,7800.0,12000.0,17000.0,
+United Kingdom,ev_charging_points,ev_total,charging_slow,charging points,,1500.0,2800.0,5400.0,7200.0,8200.0,11000.0,13000.0,15000.0,14000.0,18000.0,29000.0,44000.0,60000.0,71000.0,
+United Kingdom,ev_sales,2_3_wheelers,BEV,Vehicles,550.0,420.0,150.0,87.0,170.0,290.0,400.0,300.0,560.0,1500.0,1800.0,4900.0,6200.0,3900.0,3600.0,
+United Kingdom,ev_sales,2_3_wheelers,PHEV,Vehicles,,,,,17.0,18.0,11.0,,,,,,,,,
+United Kingdom,ev_sales,buses,BEV,Vehicles,4.0,2.0,14.0,23.0,47.0,24.0,59.0,39.0,89.0,120.0,300.0,540.0,440.0,1400.0,2000.0,
+United Kingdom,ev_sales,buses,FCEV,Vehicles,,,,,,,20.0,5.0,10.0,,18.0,15.0,65.0,40.0,72.0,
+United Kingdom,ev_sales,buses,PHEV,Vehicles,,,,,,,140.0,18.0,65.0,,,,,,,
+United Kingdom,ev_sales,cars,BEV,Vehicles,240.0,1200.0,1600.0,2600.0,6700.0,10000.0,10000.0,14000.0,16000.0,38000.0,110000.0,190000.0,270000.0,310000.0,380000.0,
+United Kingdom,ev_sales,cars,FCEV,Vehicles,,,,,,11.0,10.0,34.0,36.0,68.0,57.0,12.0,7.0,25.0,,
+United Kingdom,ev_sales,cars,PHEV,Vehicles,21.0,7.0,970.0,1100.0,7800.0,19000.0,29000.0,35000.0,46000.0,37000.0,68000.0,120000.0,100000.0,140000.0,170000.0,
+United Kingdom,ev_sales,trucks,BEV,Vehicles,9.0,5.0,6.0,,8.0,3.0,8.0,4.0,12.0,20.0,16.0,140.0,510.0,1500.0,1900.0,
+United Kingdom,ev_sales,trucks,FCEV,Vehicles,,,,,,,,,,,,,,,14.0,
+United Kingdom,ev_sales,vans,BEV,Vehicles,230.0,220.0,410.0,290.0,790.0,960.0,1000.0,1300.0,1500.0,3500.0,5700.0,12000.0,17000.0,22000.0,21000.0,
+United Kingdom,ev_sales,vans,PHEV,Vehicles,,,,,4.0,98.0,78.0,94.0,150.0,210.0,560.0,1200.0,410.0,110.0,2100.0,
+United Kingdom,ev_sales_share,2_3_wheelers,EV_total,percent,0.57,0.44,0.16,0.094,0.18,0.26,0.31,0.27,0.51,1.4,1.7,4.1,5.3,3.4,3.3,
+United Kingdom,ev_sales_share,buses,EV_total,percent,0.042,0.026,0.15,0.26,0.54,0.14,1.2,0.47,1.0,1.4,11.0,8.7,7.6,18.0,23.0,
+United Kingdom,ev_sales_share,cars,EV_total,percent,0.013,0.062,0.13,0.16,0.59,1.1,1.4,1.9,2.6,3.3,11.0,19.0,23.0,24.0,28.0,
+United Kingdom,ev_sales_share,trucks,EV_total,percent,0.025,0.012,0.014,,0.021,0.006,0.015,0.0077,0.024,0.036,0.033,0.34,1.1,2.8,3.6,
+United Kingdom,ev_sales_share,vans,EV_total,percent,0.1,0.085,0.17,0.11,0.25,0.28,0.29,0.37,0.45,0.97,2.1,3.8,6.0,6.5,6.6,
+United Kingdom,ev_stock,2_3_wheelers,BEV,Vehicles,1700.0,1700.0,1500.0,1100.0,1100.0,1100.0,1200.0,1200.0,1600.0,3000.0,4900.0,9400.0,13000.0,23000.0,26000.0,
+United Kingdom,ev_stock,2_3_wheelers,PHEV,Vehicles,,,,,,27.0,,,,,,,,46.0,46.0,
+United Kingdom,ev_stock,buses,BEV,Vehicles,80.0,88.0,100.0,120.0,170.0,200.0,260.0,300.0,400.0,510.0,820.0,1400.0,1800.0,3100.0,5000.0,
+United Kingdom,ev_stock,buses,FCEV,Vehicles,,,,,,,,,10.0,,,,37.0,170.0,240.0,
+United Kingdom,ev_stock,buses,PHEV,Vehicles,,,,,,,140.0,150.0,220.0,220.0,220.0,220.0,220.0,220.0,220.0,
+United Kingdom,ev_stock,cars,BEV,Vehicles,1500.0,2600.0,4100.0,6200.0,12000.0,21000.0,30000.0,42000.0,56000.0,91000.0,190000.0,380000.0,550000.0,980000.0,1400000.0,
+United Kingdom,ev_stock,cars,FCEV,Vehicles,,,,,,,,34.0,70.0,170.0,230.0,240.0,190.0,260.0,260.0,
+United Kingdom,ev_stock,cars,PHEV,Vehicles,21.0,28.0,990.0,2000.0,9700.0,27000.0,55000.0,87000.0,130000.0,160000.0,220000.0,330000.0,400000.0,600000.0,770000.0,
+United Kingdom,ev_stock,trucks,BEV,Vehicles,940.0,860.0,700.0,570.0,500.0,410.0,400.0,350.0,320.0,340.0,320.0,450.0,1100.0,2400.0,4300.0,
+United Kingdom,ev_stock,trucks,FCEV,Vehicles,,,,,,,,,,,,,,,14.0,
+United Kingdom,ev_stock,vans,BEV,Vehicles,3700.0,3600.0,3700.0,3600.0,4100.0,4600.0,5300.0,6300.0,7500.0,10000.0,16000.0,28000.0,39000.0,68000.0,89000.0,
+United Kingdom,ev_stock,vans,FCEV,Vehicles,4.0,4.0,4.0,4.0,4.0,4.0,3.0,4.0,3.0,4.0,4.0,5.0,5.0,,,
+United Kingdom,ev_stock,vans,PHEV,Vehicles,,,,,4.0,100.0,180.0,220.0,410.0,590.0,1100.0,2300.0,2700.0,2900.0,5000.0,
+United Kingdom,ev_stock_share,2_3_wheelers,EV_total,percent,0.12,0.12,0.11,0.085,0.086,0.088,0.094,0.096,0.13,0.23,0.38,0.74,1.0,1.8,2.1,
+United Kingdom,ev_stock_share,buses,EV_total,percent,0.071,0.079,0.09,0.11,0.15,0.17,0.35,0.41,0.56,0.66,1.1,1.6,2.0,3.1,4.9,
+United Kingdom,ev_stock_share,cars,EV_total,percent,0.0053,0.009,0.017,0.027,0.072,0.16,0.27,0.4,0.56,0.76,1.3,2.1,2.8,4.7,6.4,
+United Kingdom,ev_stock_share,trucks,EV_total,percent,0.19,0.15,0.13,0.1,0.088,0.07,0.066,0.058,0.054,0.055,0.044,0.061,0.15,0.3,0.55,
+United Kingdom,ev_stock_share,vans,EV_total,percent,0.11,0.099,0.1,0.097,0.11,0.12,0.13,0.15,0.18,0.24,0.32,0.56,0.76,1.3,1.7,
+Norway,ev_charging_points,ev_total,charging_fast,charging points,,18.0,58.0,96.0,110.0,330.0,500.0,920.0,1200.0,4000.0,5300.0,6700.0,10000.0,12000.0,13000.0,
+Norway,ev_charging_points,ev_total,charging_slow,charging points,2800.0,3100.0,3700.0,4500.0,5200.0,5200.0,7000.0,8300.0,9300.0,10000.0,12000.0,13000.0,15000.0,16000.0,18000.0,
+Norway,ev_sales,2_3_wheelers,BEV,Vehicles,,,98.0,54.0,47.0,120.0,140.0,210.0,180.0,540.0,890.0,940.0,1300.0,660.0,650.0,
+Norway,ev_sales,buses,BEV,Vehicles,,,,,,,13.0,18.0,12.0,160.0,230.0,99.0,310.0,540.0,360.0,
+Norway,ev_sales,buses,PHEV,Vehicles,,,,,,,,,,,63.0,5.0,,,,
+Norway,ev_sales,cars,BEV,Vehicles,360.0,2000.0,3900.0,7900.0,20000.0,26000.0,24000.0,33000.0,46000.0,60000.0,77000.0,110000.0,140000.0,100000.0,110000.0,
+Norway,ev_sales,cars,FCEV,Vehicles,,,,,4.0,9.0,20.0,30.0,45.0,29.0,16.0,39.0,27.0,6.0,9.0,
+Norway,ev_sales,cars,PHEV,Vehicles,,,320.0,340.0,1700.0,7900.0,21000.0,29000.0,27000.0,19000.0,29000.0,38000.0,16000.0,10000.0,3500.0,
+Norway,ev_sales,trucks,BEV,Vehicles,,,,,,,,2.0,,3.0,26.0,110.0,530.0,700.0,700.0,
+Norway,ev_sales,trucks,FCEV,Vehicles,,,,,,,,,,,3.0,,,,,
+Norway,ev_sales,trucks,PHEV,Vehicles,,,,,,,,,,,1.0,,,,,
+Norway,ev_sales,vans,BEV,Vehicles,1.0,42.0,61.0,340.0,560.0,710.0,640.0,770.0,1800.0,2000.0,2600.0,1600.0,7000.0,8800.0,6600.0,
+Norway,ev_sales,vans,PHEV,Vehicles,,,,,,,,,,,11.0,58.0,220.0,130.0,330.0,
+Norway,ev_sales_share,2_3_wheelers,EV_total,percent,,,0.76,0.47,0.4,0.91,1.2,1.8,1.5,4.6,7.3,7.6,12.0,7.0,5.4,
+Norway,ev_sales_share,buses,EV_total,percent,,,,,,,0.93,1.5,1.2,7.0,21.0,9.0,48.0,53.0,42.0,
+Norway,ev_sales_share,cars,EV_total,percent,0.28,1.4,3.1,5.8,15.0,22.0,29.0,39.0,49.0,56.0,75.0,86.0,89.0,90.0,92.0,
+Norway,ev_sales_share,trucks,EV_total,percent,,,,,,,,0.032,,0.041,0.45,1.8,9.3,11.0,11.0,
+Norway,ev_sales_share,vans,EV_total,percent,0.0034,0.12,0.19,1.2,2.0,2.3,1.9,2.2,5.1,5.6,8.5,5.6,24.0,30.0,25.0,
+Norway,ev_stock,2_3_wheelers,BEV,Vehicles,,,98.0,150.0,200.0,320.0,450.0,660.0,840.0,1400.0,2300.0,3200.0,3800.0,4000.0,5800.0,
+Norway,ev_stock,buses,BEV,Vehicles,,,,,,,13.0,31.0,43.0,200.0,420.0,520.0,830.0,1200.0,1700.0,
+Norway,ev_stock,buses,FCEV,Vehicles,,,,,,,,,,,5.0,,10.0,,,
+Norway,ev_stock,buses,PHEV,Vehicles,,,,,,,,,,,63.0,70.0,69.0,68.0,68.0,
+Norway,ev_stock,cars,BEV,Vehicles,2700.0,3900.0,8000.0,15000.0,33000.0,59000.0,83000.0,120000.0,160000.0,220000.0,340000.0,450000.0,590000.0,690000.0,750000.0,
+Norway,ev_stock,cars,FCEV,Vehicles,,,,,4.0,13.0,40.0,70.0,120.0,180.0,200.0,230.0,260.0,290.0,230.0,
+Norway,ev_stock,cars,PHEV,Vehicles,2.0,3.0,340.0,660.0,2300.0,10000.0,31000.0,60000.0,87000.0,110000.0,150000.0,180000.0,200000.0,210000.0,210000.0,
+Norway,ev_stock,trucks,BEV,Vehicles,,,,,,,,2.0,2.0,2.0,18.0,96.0,220.0,1200.0,2100.0,
+Norway,ev_stock,trucks,FCEV,Vehicles,,,,,,,,,,,,,,,3.0,
+Norway,ev_stock,trucks,PHEV,Vehicles,,,,,,,,,,,1.0,2.0,5.0,1.0,1.0,
+Norway,ev_stock,vans,BEV,Vehicles,,1.0,5.0,5.0,560.0,1300.0,2000.0,2900.0,4700.0,6700.0,9700.0,11000.0,21000.0,30000.0,34000.0,
+Norway,ev_stock,vans,FCEV,Vehicles,,,,,,,,,,,1.0,1.0,1.0,1.0,,
+Norway,ev_stock,vans,PHEV,Vehicles,,,,,,,,10.0,10.0,10.0,43.0,310.0,500.0,660.0,750.0,
+Norway,ev_stock_share,2_3_wheelers,EV_total,percent,,,0.026,0.041,0.053,0.085,0.12,0.18,0.23,0.38,0.62,0.89,1.1,1.2,1.7,
+Norway,ev_stock_share,buses,EV_total,percent,,,,,,,0.1,0.24,0.34,1.5,3.4,4.2,6.7,9.9,14.0,
+Norway,ev_stock_share,cars,EV_total,percent,0.12,0.17,0.35,0.63,1.4,2.6,4.2,6.4,8.9,12.0,17.0,22.0,26.0,30.0,32.0,
+Norway,ev_stock_share,trucks,EV_total,percent,,,,,,,,0.0024,0.0024,0.0023,0.022,0.11,0.27,1.4,2.3,
+Norway,ev_stock_share,vans,EV_total,percent,,0.00021,0.001,0.001,0.11,0.25,0.39,0.56,0.88,1.2,1.8,2.2,4.1,5.7,6.4,
+Netherlands,ev_charging_points,ev_total,charging_fast,charging points,,,21.0,21.0,120.0,220.0,400.0,410.0,820.0,1300.0,2300.0,2800.0,4500.0,5000.0,8000.0,
+Netherlands,ev_charging_points,ev_total,charging_slow,charging points,400.0,400.0,2800.0,5800.0,12000.0,18000.0,32000.0,33000.0,36000.0,46000.0,63000.0,81000.0,120000.0,140000.0,180000.0,
+Netherlands,ev_sales,2_3_wheelers,BEV,Vehicles,,,3300.0,2300.0,2100.0,5800.0,5200.0,7500.0,8600.0,13000.0,23000.0,31000.0,34000.0,19000.0,16000.0,
+Netherlands,ev_sales,buses,BEV,Vehicles,,,,5.0,7.0,12.0,80.0,150.0,110.0,370.0,450.0,150.0,95.0,180.0,410.0,
+Netherlands,ev_sales,buses,FCEV,Vehicles,,,,,,,1.0,3.0,,,,,37.0,14.0,9.0,
+Netherlands,ev_sales,cars,BEV,Vehicles,120.0,860.0,790.0,2600.0,2700.0,3400.0,4000.0,8000.0,24000.0,61000.0,72000.0,63000.0,73000.0,110000.0,130000.0,
+Netherlands,ev_sales,cars,FCEV,Vehicles,,,,,2.2,19.0,7.0,5.0,13.0,160.0,150.0,120.0,95.0,40.0,39.0,
+Netherlands,ev_sales,cars,PHEV,Vehicles,,17.0,4300.0,20000.0,12000.0,12000.0,39000.0,18000.0,3600.0,5500.0,15000.0,31000.0,34000.0,46000.0,52000.0,
+Netherlands,ev_sales,trucks,BEV,Vehicles,,,,,,4.0,26.0,15.0,30.0,130.0,49.0,68.0,120.0,1200.0,960.0,
+Netherlands,ev_sales,trucks,FCEV,Vehicles,,,,,,,,,,3.0,3.0,8.0,14.0,7.0,11.0,
+Netherlands,ev_sales,trucks,PHEV,Vehicles,,,,,,13.0,3.0,4.0,4.0,4.0,3.0,6.0,8.0,25.0,20.0,
+Netherlands,ev_sales,vans,BEV,Vehicles,39.0,72.0,340.0,180.0,590.0,260.0,290.0,610.0,970.0,1300.0,1600.0,3100.0,4700.0,9900.0,11000.0,
+Netherlands,ev_sales,vans,FCEV,Vehicles,,,,,,,,1.0,2.0,,9.0,,3.0,6.0,16.0,
+Netherlands,ev_sales,vans,PHEV,Vehicles,,,,,,,,,1.0,,27.0,46.0,36.0,10.0,450.0,
+Netherlands,ev_sales_share,2_3_wheelers,EV_total,percent,,,4.2,3.4,3.0,7.5,6.5,7.5,12.0,17.0,22.0,33.0,41.0,34.0,28.0,
+Netherlands,ev_sales_share,buses,EV_total,percent,,,,0.84,1.0,3.7,9.8,16.0,19.0,41.0,71.0,45.0,44.0,46.0,47.0,
+Netherlands,ev_sales_share,cars,EV_total,percent,0.025,0.16,1.0,5.5,3.9,3.5,11.0,6.4,6.2,15.0,25.0,29.0,35.0,44.0,48.0,
+Netherlands,ev_sales_share,trucks,EV_total,percent,,,,,,0.12,0.18,0.11,0.21,0.83,0.49,0.61,0.97,7.2,4.8,
+Netherlands,ev_sales_share,vans,EV_total,percent,0.079,0.12,0.59,0.35,1.1,0.47,0.43,0.85,1.3,1.7,2.9,4.9,8.4,15.0,9.3,
+Netherlands,ev_stock,2_3_wheelers,BEV,Vehicles,,17000.0,21000.0,23000.0,28000.0,32000.0,36000.0,42000.0,49000.0,61000.0,82000.0,110000.0,140000.0,150000.0,160000.0,
+Netherlands,ev_stock,buses,BEV,Vehicles,15.0,22.0,23.0,39.0,46.0,92.0,170.0,250.0,380.0,750.0,1200.0,1300.0,1400.0,1600.0,2000.0,
+Netherlands,ev_stock,buses,FCEV,Vehicles,,,,,,2.0,3.0,6.0,6.0,7.0,5.0,41.0,55.0,64.0,64.0,
+Netherlands,ev_stock,buses,PHEV,Vehicles,,,,,,12.0,13.0,13.0,13.0,110.0,110.0,100.0,100.0,100.0,98.0,
+Netherlands,ev_stock,cars,BEV,Vehicles,270.0,1100.0,1900.0,4200.0,6800.0,9400.0,13000.0,21000.0,45000.0,110000.0,180000.0,250000.0,340000.0,460000.0,590000.0,
+Netherlands,ev_stock,cars,FCEV,Vehicles,,,,,2.2,26.0,33.0,39.0,50.0,210.0,380.0,540.0,640.0,700.0,710.0,
+Netherlands,ev_stock,cars,PHEV,Vehicles,11.0,26.0,4400.0,24000.0,37000.0,79000.0,99000.0,97000.0,98000.0,97000.0,110000.0,140000.0,190000.0,270000.0,390000.0,
+Netherlands,ev_stock,trucks,BEV,Vehicles,23.0,29.0,57.0,70.0,76.0,77.0,94.0,100.0,120.0,220.0,210.0,270.0,380.0,1500.0,2500.0,
+Netherlands,ev_stock,trucks,FCEV,Vehicles,,,,,,5.0,2.0,2.0,2.0,5.0,9.0,17.0,30.0,37.0,51.0,
+Netherlands,ev_stock,trucks,PHEV,Vehicles,,,,,,36.0,39.0,42.0,46.0,47.0,41.0,48.0,56.0,73.0,120.0,
+Netherlands,ev_stock,vans,BEV,Vehicles,86.0,160.0,490.0,670.0,1300.0,1500.0,1600.0,2200.0,3200.0,4500.0,6100.0,9200.0,14000.0,24000.0,36000.0,
+Netherlands,ev_stock,vans,FCEV,Vehicles,,,,,,4.0,5.0,3.0,5.0,5.0,13.0,13.0,16.0,22.0,39.0,
+Netherlands,ev_stock,vans,PHEV,Vehicles,,,,,,2.0,2.0,2.0,10.0,10.0,30.0,83.0,130.0,160.0,650.0,
+Netherlands,ev_stock_share,2_3_wheelers,EV_total,percent,,0.92,1.1,1.3,1.6,1.7,1.9,2.1,2.5,3.0,3.9,5.1,6.4,7.1,7.5,
+Netherlands,ev_stock_share,buses,EV_total,percent,0.15,0.22,0.24,0.43,0.53,1.1,1.8,2.7,3.7,8.1,13.0,15.0,16.0,18.0,21.0,
+Netherlands,ev_stock_share,cars,EV_total,percent,0.0036,0.015,0.079,0.36,0.55,1.1,1.4,1.4,1.7,2.4,3.3,4.5,6.0,8.2,11.0,
+Netherlands,ev_stock_share,trucks,EV_total,percent,0.016,0.018,0.037,0.046,0.048,0.068,0.078,0.087,0.1,0.16,0.15,0.19,0.25,0.91,1.4,
+Netherlands,ev_stock_share,vans,EV_total,percent,0.0099,0.017,0.054,0.075,0.14,0.16,0.17,0.23,0.33,0.46,0.61,0.9,1.4,2.3,3.3,
+Sweden,ev_charging_points,ev_total,charging_fast,charging points,,,,,,,520.0,190.0,1000.0,1200.0,1400.0,1700.0,2600.0,7800.0,6600.0,
+Sweden,ev_charging_points,ev_total,charging_slow,charging points,,,,5.0,1000.0,1100.0,1700.0,3400.0,5500.0,7800.0,9800.0,12000.0,15000.0,30000.0,38000.0,
+Sweden,ev_sales,2_3_wheelers,BEV,Vehicles,,,,,3.0,4.0,120.0,72.0,520.0,3100.0,4700.0,3700.0,4600.0,2800.0,3500.0,
+Sweden,ev_sales,buses,BEV,Vehicles,,,,,,9.0,33.0,12.0,36.0,98.0,160.0,180.0,210.0,310.0,250.0,
+Sweden,ev_sales,buses,FCEV,Vehicles,,,,,,,,,,,,2.0,,8.0,,
+Sweden,ev_sales,buses,PHEV,Vehicles,,,,,,5.0,17.0,,,,,,,,,
+Sweden,ev_sales,cars,BEV,Vehicles,4.0,180.0,270.0,430.0,1200.0,3000.0,2900.0,4400.0,7100.0,16000.0,28000.0,57000.0,96000.0,110000.0,94000.0,
+Sweden,ev_sales,cars,FCEV,Vehicles,,,,3.0,,1.0,3.0,14.0,,2.0,5.0,16.0,2.0,2.0,2.0,
+Sweden,ev_sales,cars,PHEV,Vehicles,,,660.0,1100.0,3400.0,5700.0,10000.0,16000.0,22000.0,25000.0,66000.0,78000.0,67000.0,61000.0,63000.0,
+Sweden,ev_sales,trucks,BEV,Vehicles,,,,,,,,,2.0,2.0,17.0,50.0,160.0,290.0,460.0,
+Sweden,ev_sales,trucks,FCEV,Vehicles,,,,,,,,,,,,,,,1.0,
+Sweden,ev_sales,trucks,PHEV,Vehicles,,,,,,,,,,,,,7.0,,,
+Sweden,ev_sales,vans,BEV,Vehicles,,9.0,280.0,210.0,280.0,320.0,45.0,200.0,760.0,1400.0,2100.0,2600.0,5000.0,8700.0,8500.0,
+Sweden,ev_sales,vans,PHEV,Vehicles,,,,,,7.0,,,9.0,,,,,5.0,270.0,
+Sweden,ev_sales_share,2_3_wheelers,EV_total,percent,,,,,0.034,0.04,0.89,0.73,4.7,13.0,13.0,18.0,21.0,14.0,17.0,
+Sweden,ev_sales_share,buses,EV_total,percent,,,,,,1.1,3.6,0.87,3.9,7.1,9.4,24.0,16.0,25.0,32.0,
+Sweden,ev_sales_share,cars,EV_total,percent,0.0013,0.054,0.31,0.53,1.4,2.4,3.4,5.1,7.6,11.0,32.0,43.0,54.0,60.0,58.0,
+Sweden,ev_sales_share,trucks,EV_total,percent,,,,,,,,,0.023,0.022,0.25,0.65,2.1,3.4,8.0,
+Sweden,ev_sales_share,vans,EV_total,percent,,0.019,0.7,0.55,0.66,0.72,0.084,0.34,1.3,2.5,6.1,6.8,13.0,19.0,18.0,
+Sweden,ev_stock,2_3_wheelers,BEV,Vehicles,,,,,3.0,7.0,130.0,200.0,720.0,3800.0,8300.0,12000.0,17000.0,28000.0,23000.0,
+Sweden,ev_stock,buses,BEV,Vehicles,,,6.0,8.0,11.0,20.0,42.0,54.0,90.0,190.0,350.0,530.0,920.0,1200.0,1500.0,
+Sweden,ev_stock,buses,FCEV,Vehicles,,,,,,,,,,,,2.0,2.0,10.0,10.0,
+Sweden,ev_stock,buses,PHEV,Vehicles,,,,,,5.0,22.0,32.0,93.0,93.0,93.0,93.0,93.0,22.0,22.0,
+Sweden,ev_stock,cars,BEV,Vehicles,4.0,180.0,600.0,1000.0,2200.0,4800.0,7500.0,11000.0,17000.0,30000.0,56000.0,110000.0,200000.0,290000.0,360000.0,
+Sweden,ev_stock,cars,FCEV,Vehicles,,,,3.0,3.0,4.0,7.0,21.0,21.0,42.0,47.0,63.0,65.0,48.0,50.0,
+Sweden,ev_stock,cars,PHEV,Vehicles,,,650.0,1600.0,4900.0,9800.0,19000.0,32000.0,49000.0,67000.0,120000.0,190000.0,240000.0,270000.0,310000.0,
+Sweden,ev_stock,trucks,BEV,Vehicles,,,,,,,,1.0,4.0,11.0,58.0,140.0,290.0,740.0,990.0,
+Sweden,ev_stock,trucks,FCEV,Vehicles,,,,,,,,,,,,,,,1.0,
+Sweden,ev_stock,trucks,PHEV,Vehicles,,,,,,,,,,,,,8.0,7.0,7.0,
+Sweden,ev_stock,vans,BEV,Vehicles,,9.0,370.0,550.0,830.0,1200.0,1600.0,1900.0,2700.0,3900.0,5900.0,8400.0,13000.0,21000.0,28000.0,
+Sweden,ev_stock,vans,PHEV,Vehicles,,,,,,7.0,7.0,7.0,16.0,4.0,880.0,160.0,420.0,430.0,640.0,
+Sweden,ev_stock_share,2_3_wheelers,EV_total,percent,,,,,0.00082,0.0019,0.034,0.052,0.19,0.97,2.0,2.8,3.9,6.4,5.5,
+Sweden,ev_stock_share,buses,EV_total,percent,,,0.047,0.063,0.086,0.19,0.51,0.65,1.4,2.1,3.8,5.2,8.0,8.8,10.0,
+Sweden,ev_stock_share,cars,EV_total,percent,9.2e-05,0.0041,0.028,0.058,0.15,0.31,0.55,0.92,1.3,2.0,3.6,6.0,8.7,11.0,13.0,
+Sweden,ev_stock_share,trucks,EV_total,percent,,,,,,,,0.0012,0.0049,0.013,0.071,0.17,0.35,0.85,1.1,
+Sweden,ev_stock_share,vans,EV_total,percent,,0.0019,0.076,0.11,0.17,0.24,0.29,0.35,0.47,0.68,1.1,1.4,2.2,3.4,4.7,
+Italy,ev_charging_points,ev_total,charging_fast,charging points,,,,,10.0,70.0,170.0,460.0,700.0,1100.0,1500.0,2200.0,7000.0,8100.0,11000.0,
+Italy,ev_charging_points,ev_total,charging_slow,charging points,,,1400.0,1400.0,1400.0,1700.0,2300.0,2400.0,2900.0,8300.0,12000.0,20000.0,31000.0,40000.0,49000.0,
+Italy,ev_sales,2_3_wheelers,BEV,Vehicles,,,960.0,750.0,810.0,730.0,770.0,1400.0,3100.0,5100.0,9900.0,10000.0,16000.0,12000.0,10000.0,
+Italy,ev_sales,buses,BEV,Vehicles,,,,,,,38.0,29.0,60.0,65.0,97.0,180.0,120.0,410.0,1200.0,
+Italy,ev_sales,buses,FCEV,Vehicles,,,,,,,,,,,,,,14.0,40.0,
+Italy,ev_sales,cars,BEV,Vehicles,40.0,110.0,460.0,860.0,1000.0,1500.0,1400.0,2000.0,5000.0,11000.0,33000.0,67000.0,49000.0,66000.0,66000.0,
+Italy,ev_sales,cars,FCEV,Vehicles,,,,,10.0,1.0,,,1.0,17.0,7.0,10.0,11.0,2.0,1.0,
+Italy,ev_sales,cars,PHEV,Vehicles,,,,180.0,340.0,740.0,1300.0,2900.0,4700.0,6500.0,27000.0,71000.0,65000.0,70000.0,52000.0,
+Italy,ev_sales,vans,BEV,Vehicles,210.0,84.0,360.0,180.0,270.0,420.0,780.0,500.0,640.0,1000.0,1200.0,3100.0,4100.0,7200.0,4200.0,
+Italy,ev_sales,vans,PHEV,Vehicles,,,3.0,1.0,,,,2.0,,,53.0,380.0,610.0,1000.0,170.0,
+Italy,ev_sales_share,2_3_wheelers,EV_total,percent,,,0.37,0.4,0.43,0.37,0.34,0.59,1.3,2.0,4.1,3.5,5.6,3.6,2.9,
+Italy,ev_sales_share,buses,EV_total,percent,,,,,,,1.4,0.91,1.4,1.6,3.1,5.2,3.7,8.0,18.0,
+Italy,ev_sales_share,cars,EV_total,percent,0.002,0.0065,0.033,0.08,0.1,0.14,0.15,0.25,0.5,0.88,4.2,9.1,8.5,9.2,7.9,
+Italy,ev_sales_share,vans,EV_total,percent,0.12,0.049,0.31,0.2,0.25,0.35,0.43,0.28,0.39,0.61,0.88,1.9,3.0,4.2,2.2,
+Italy,ev_stock,2_3_wheelers,BEV,Vehicles,,,,740.0,1600.0,2300.0,3000.0,4400.0,7600.0,13000.0,23000.0,33000.0,35000.0,63000.0,73000.0,
+Italy,ev_stock,buses,BEV,Vehicles,,,,,,,38.0,46.0,110.0,540.0,590.0,670.0,790.0,1000.0,2200.0,
+Italy,ev_stock,buses,FCEV,Vehicles,,,,,,11.0,13.0,13.0,13.0,13.0,13.0,13.0,13.0,14.0,54.0,
+Italy,ev_stock,cars,BEV,Vehicles,650.0,760.0,1200.0,2000.0,3100.0,4400.0,5800.0,7800.0,13000.0,23000.0,55000.0,120000.0,170000.0,240000.0,300000.0,
+Italy,ev_stock,cars,FCEV,Vehicles,,,,,10.0,11.0,11.0,11.0,12.0,28.0,35.0,45.0,56.0,59.0,60.0,
+Italy,ev_stock,cars,PHEV,Vehicles,,,,180.0,520.0,1300.0,2700.0,5600.0,10000.0,17000.0,44000.0,110000.0,180000.0,250000.0,300000.0,
+Italy,ev_stock,vans,BEV,Vehicles,820.0,910.0,1300.0,1400.0,1700.0,2100.0,2900.0,3200.0,3900.0,4900.0,6300.0,9400.0,13000.0,21000.0,25000.0,
+Italy,ev_stock,vans,PHEV,Vehicles,,,,,,,,,,43.0,98.0,490.0,1100.0,2100.0,2300.0,
+Italy,ev_stock_share,2_3_wheelers,EV_total,percent,,,,0.0087,0.018,0.026,0.035,0.051,0.086,0.18,0.32,0.46,0.49,0.85,1.0,
+Italy,ev_stock_share,buses,EV_total,percent,,,,,,,0.039,0.048,0.11,0.55,0.6,0.69,0.82,1.0,2.2,
+Italy,ev_stock_share,cars,EV_total,percent,0.0017,0.002,0.0032,0.0058,0.0094,0.015,0.022,0.034,0.058,0.1,0.25,0.6,0.89,1.2,1.5,
+Italy,ev_stock_share,vans,EV_total,percent,0.022,0.023,0.034,0.038,0.044,0.054,0.073,0.078,0.094,0.12,0.15,0.23,0.33,0.55,0.65,
+Spain,ev_charging_points,ev_total,charging_fast,charging points,,,,91.0,110.0,240.0,360.0,440.0,440.0,,2700.0,2700.0,2200.0,6600.0,13000.0,
+Spain,ev_charging_points,ev_total,charging_slow,charging points,,,400.0,800.0,800.0,1400.0,3300.0,4300.0,4400.0,4500.0,6000.0,5600.0,10000.0,19000.0,28000.0,
+Spain,ev_sales,2_3_wheelers,BEV,Vehicles,,,2400.0,1700.0,740.0,640.0,1100.0,2400.0,7200.0,11000.0,14000.0,11000.0,16000.0,14000.0,11000.0,
+Spain,ev_sales,buses,BEV,Vehicles,,,,,11.0,2.0,27.0,8.0,30.0,100.0,51.0,150.0,250.0,520.0,620.0,
+Spain,ev_sales,buses,FCEV,Vehicles,,,,,,,,,,,,,6.0,13.0,52.0,
+Spain,ev_sales,buses,PHEV,Vehicles,,,,,,,,5.0,8.0,6.0,7.0,16.0,1.0,29.0,,
+Spain,ev_sales,cars,BEV,Vehicles,76.0,390.0,430.0,810.0,1400.0,1300.0,2000.0,3900.0,6000.0,10000.0,18000.0,24000.0,33000.0,57000.0,62000.0,
+Spain,ev_sales,cars,FCEV,Vehicles,,,,,,,,,1.0,1.0,7.0,10.0,4.0,4.0,7.0,
+Spain,ev_sales,cars,PHEV,Vehicles,,8.0,110.0,72.0,330.0,780.0,1500.0,3500.0,5600.0,7400.0,24000.0,43000.0,49000.0,65000.0,66000.0,
+Spain,ev_sales,trucks,BEV,Vehicles,,,,,,,13.0,2.0,,7.0,8.0,23.0,210.0,440.0,380.0,
+Spain,ev_sales,trucks,FCEV,Vehicles,,,,,,,,,,,,,,,2.0,
+Spain,ev_sales,vans,BEV,Vehicles,,24.0,200.0,72.0,360.0,540.0,720.0,840.0,1800.0,1900.0,2000.0,2300.0,3500.0,5300.0,4200.0,
+Spain,ev_sales,vans,PHEV,Vehicles,,,,,,,,,,,,46.0,94.0,5.0,200.0,
+Spain,ev_sales_share,2_3_wheelers,EV_total,percent,,,1.1,0.87,0.56,0.43,0.65,1.5,4.0,5.7,7.4,5.6,8.0,6.1,4.2,
+Spain,ev_sales_share,buses,EV_total,percent,,,,,0.41,0.059,0.65,0.3,0.91,2.7,2.0,6.1,8.1,13.0,15.0,
+Spain,ev_sales_share,cars,EV_total,percent,0.0077,0.049,0.076,0.12,0.19,0.2,0.29,0.56,0.81,1.3,4.5,7.3,8.9,12.0,11.0,
+Spain,ev_sales_share,trucks,EV_total,percent,,,,,,,0.052,0.0081,,0.028,0.041,0.11,0.9,1.5,1.2,
+Spain,ev_sales_share,vans,EV_total,percent,,0.023,0.27,0.084,0.31,0.37,0.47,0.51,0.96,1.1,1.5,1.6,3.0,3.8,2.7,
+Spain,ev_stock,2_3_wheelers,BEV,Vehicles,,,2400.0,4100.0,4800.0,5500.0,6600.0,4800.0,11000.0,22000.0,37000.0,48000.0,68000.0,82000.0,87000.0,
+Spain,ev_stock,buses,BEV,Vehicles,,,,,,,,100.0,130.0,240.0,240.0,350.0,610.0,1200.0,1800.0,
+Spain,ev_stock,buses,FCEV,Vehicles,,,,,,,,,,,,,6.0,19.0,74.0,
+Spain,ev_stock,buses,PHEV,Vehicles,,,,,,,,42.0,50.0,56.0,63.0,100.0,100.0,72.0,72.0,
+Spain,ev_stock,cars,BEV,Vehicles,76.0,460.0,890.0,1700.0,3100.0,4400.0,6500.0,10000.0,16000.0,26000.0,45000.0,69000.0,96000.0,160000.0,210000.0,
+Spain,ev_stock,cars,FCEV,Vehicles,,,,,,,,,1.0,2.0,9.0,19.0,23.0,27.0,34.0,
+Spain,ev_stock,cars,PHEV,Vehicles,,8.0,120.0,190.0,520.0,1300.0,2800.0,6300.0,12000.0,19000.0,43000.0,86000.0,130000.0,200000.0,240000.0,
+Spain,ev_stock,trucks,BEV,Vehicles,,,,,,,,,,5.0,13.0,29.0,200.0,700.0,900.0,
+Spain,ev_stock,trucks,FCEV,Vehicles,,,,,,,,,,,,,,,2.0,
+Spain,ev_stock,vans,BEV,Vehicles,,,,,,1100.0,2100.0,3000.0,4800.0,6300.0,7900.0,10000.0,14000.0,20000.0,24000.0,
+Spain,ev_stock,vans,PHEV,Vehicles,,,,,,,,,,8.0,8.0,46.0,200.0,210.0,340.0,
+Spain,ev_stock_share,2_3_wheelers,EV_total,percent,,,0.047,0.082,0.096,0.11,0.13,0.09,0.21,0.4,0.68,0.89,1.3,1.4,1.5,
+Spain,ev_stock_share,buses,EV_total,percent,,,,,,,,0.23,0.29,0.46,0.49,0.73,1.1,1.8,2.7,
+Spain,ev_stock_share,cars,EV_total,percent,0.00034,0.0021,0.0045,0.0086,0.016,0.026,0.04,0.071,0.12,0.19,0.36,0.62,0.94,1.4,1.8,
+Spain,ev_stock_share,trucks,EV_total,percent,,,,,,,,,,0.00084,0.0022,0.005,0.034,0.12,0.17,
+Spain,ev_stock_share,vans,EV_total,percent,,,,,,0.024,0.061,0.084,0.13,0.17,0.21,0.27,0.35,0.5,0.63,
+Poland,ev_charging_points,ev_total,charging_fast,charging points,,,,,4.0,8.0,12.0,43.0,110.0,120.0,520.0,1500.0,520.0,1500.0,3000.0,
+Poland,ev_charging_points,ev_total,charging_slow,charging points,,,,,120.0,290.0,290.0,410.0,490.0,530.0,1000.0,2300.0,4000.0,4400.0,6200.0,
+Poland,ev_sales,2_3_wheelers,BEV,Vehicles,,,59.0,130.0,92.0,170.0,240.0,650.0,1600.0,3100.0,1800.0,2500.0,1900.0,2500.0,2300.0,
+Poland,ev_sales,buses,BEV,Vehicles,,,,,,,,89.0,72.0,68.0,200.0,220.0,170.0,340.0,190.0,
+Poland,ev_sales,buses,FCEV,Vehicles,,,,,,,,,,,,,,34.0,15.0,
+Poland,ev_sales,buses,PHEV,Vehicles,,,,,,,,,38.0,1.0,,1.0,1.0,3.0,6.0,
+Poland,ev_sales,cars,BEV,Vehicles,15.0,43.0,44.0,31.0,140.0,70.0,110.0,440.0,620.0,1500.0,3700.0,7200.0,14000.0,17000.0,17000.0,
+Poland,ev_sales,cars,FCEV,Vehicles,,,,,,,,,1.0,,,78.0,46.0,83.0,7.0,
+Poland,ev_sales,cars,PHEV,Vehicles,1.0,,4.0,6.0,61.0,150.0,400.0,640.0,760.0,1200.0,4500.0,9100.0,11000.0,13000.0,15000.0,
+Poland,ev_sales,vans,BEV,Vehicles,3.0,3.0,16.0,10.0,8.0,13.0,16.0,28.0,42.0,130.0,220.0,840.0,1100.0,2400.0,1900.0,
+Poland,ev_sales,vans,PHEV,Vehicles,,,,,,2.0,,,,,2.0,1.0,1.0,,,
+Poland,ev_sales_share,2_3_wheelers,EV_total,percent,,,0.088,0.23,0.18,0.32,0.49,1.4,5.1,7.9,4.6,7.2,5.8,7.6,5.8,
+Poland,ev_sales_share,buses,EV_total,percent,,,,,,,,1.6,1.9,1.5,39.0,16.0,21.0,19.0,8.4,
+Poland,ev_sales_share,cars,EV_total,percent,0.0048,0.014,0.018,0.013,0.072,0.061,0.12,0.22,0.26,0.48,1.9,3.6,5.9,6.4,5.7,
+Poland,ev_sales_share,vans,EV_total,percent,0.0078,0.0066,0.042,0.025,0.018,0.028,0.027,0.047,0.061,0.19,0.37,1.1,1.8,3.8,2.5,
+Poland,ev_stock,2_3_wheelers,BEV,Vehicles,,,,,,,100.0,880.0,2500.0,5600.0,8200.0,11000.0,15000.0,15000.0,17000.0,
+Poland,ev_stock,buses,BEV,Vehicles,,,,,,,,,160.0,230.0,430.0,600.0,820.0,1200.0,1300.0,
+Poland,ev_stock,buses,FCEV,Vehicles,,,,,,,,,,,,,,34.0,49.0,
+Poland,ev_stock,buses,PHEV,Vehicles,,,,,,14.0,34.0,34.0,38.0,38.0,38.0,38.0,38.0,44.0,50.0,
+Poland,ev_stock,cars,BEV,Vehicles,,,,,,2500.0,2600.0,3100.0,3700.0,4800.0,9400.0,18000.0,31000.0,52000.0,67000.0,
+Poland,ev_stock,cars,FCEV,Vehicles,,,,,,,,14.0,28.0,34.0,28.0,91.0,130.0,210.0,220.0,
+Poland,ev_stock,cars,PHEV,Vehicles,,,,,,,,,,3800.0,8300.0,19000.0,30000.0,47000.0,52000.0,
+Poland,ev_stock,vans,BEV,Vehicles,,,,,,18.0,27.0,34.0,120.0,490.0,810.0,1500.0,3100.0,5800.0,6800.0,
+Poland,ev_stock,vans,PHEV,Vehicles,,,,,,,,,,3.0,8.0,4.0,5.0,6.0,6.0,
+Poland,ev_stock_share,2_3_wheelers,EV_total,percent,,,,,,,0.0066,0.057,0.16,0.38,0.58,0.82,1.1,1.1,1.3,
+Poland,ev_stock_share,buses,EV_total,percent,,,,,,0.024,0.057,0.054,0.3,0.39,0.71,0.96,1.3,1.8,2.2,
+Poland,ev_stock_share,cars,EV_total,percent,,,,,,0.012,0.017,0.014,0.021,0.047,0.095,0.19,0.31,0.49,1.1,
+Poland,ev_stock_share,vans,EV_total,percent,,,,,,0.00074,0.0011,0.0013,0.0058,0.022,0.036,0.063,0.13,0.24,0.56,
+Belgium,ev_charging_points,ev_total,charging_fast,charging points,,,,47.0,55.0,100.0,140.0,300.0,320.0,490.0,740.0,720.0,1200.0,2000.0,2600.0,
+Belgium,ev_charging_points,ev_total,charging_slow,charging points,,,,330.0,560.0,1300.0,1500.0,1500.0,2700.0,6100.0,8000.0,12000.0,23000.0,42000.0,72000.0,
+Belgium,ev_sales,2_3_wheelers,BEV,Vehicles,,,60.0,45.0,170.0,240.0,220.0,640.0,1200.0,3500.0,3900.0,5500.0,4300.0,3000.0,3400.0,
+Belgium,ev_sales,buses,BEV,Vehicles,,,,,3.0,,,,14.0,37.0,12.0,220.0,42.0,250.0,190.0,
+Belgium,ev_sales,buses,PHEV,Vehicles,,,,,,,,2.0,,11.0,43.0,22.0,25.0,84.0,89.0,
+Belgium,ev_sales,cars,BEV,Vehicles,48.0,280.0,570.0,500.0,1300.0,1400.0,2100.0,2700.0,3600.0,8800.0,15000.0,23000.0,38000.0,93000.0,130000.0,
+Belgium,ev_sales,cars,FCEV,Vehicles,,,,,,2.0,7.0,11.0,13.0,12.0,4.0,21.0,20.0,9.0,3.0,
+Belgium,ev_sales,cars,PHEV,Vehicles,8.0,16.0,340.0,60.0,650.0,2500.0,7100.0,12000.0,9600.0,8900.0,32000.0,48000.0,59000.0,100000.0,67000.0,
+Belgium,ev_sales,vans,BEV,Vehicles,7.0,25.0,260.0,110.0,99.0,68.0,140.0,130.0,260.0,400.0,470.0,640.0,1800.0,3100.0,2000.0,
+Belgium,ev_sales,vans,PHEV,Vehicles,,,,,,,,1.0,2.0,,26.0,39.0,98.0,26.0,200.0,
+Belgium,ev_sales_share,2_3_wheelers,EV_total,percent,,,0.17,0.16,0.53,0.72,0.65,1.8,3.2,8.8,9.4,14.0,11.0,7.9,8.1,
+Belgium,ev_sales_share,buses,EV_total,percent,,,,,0.26,,,0.23,1.4,3.7,7.0,26.0,11.0,45.0,33.0,
+Belgium,ev_sales_share,cars,EV_total,percent,0.01,0.052,0.19,0.11,0.41,0.76,1.7,2.6,2.4,3.2,11.0,18.0,26.0,41.0,43.0,
+Belgium,ev_sales_share,vans,EV_total,percent,0.013,0.039,0.46,0.19,0.18,0.11,0.21,0.17,0.34,0.49,0.7,0.88,3.4,4.6,2.9,
+Belgium,ev_stock,2_3_wheelers,BEV,Vehicles,110.0,200.0,620.0,730.0,1000.0,1700.0,5100.0,12000.0,23000.0,40000.0,54000.0,69000.0,87000.0,23000.0,26000.0,
+Belgium,ev_stock,buses,BEV,Vehicles,3.0,3.0,3.0,3.0,7.0,7.0,7.0,10.0,21.0,59.0,75.0,100.0,150.0,580.0,770.0,
+Belgium,ev_stock,buses,FCEV,Vehicles,,,,,,,,,,1.0,2.0,3.0,6.0,,,
+Belgium,ev_stock,buses,PHEV,Vehicles,,,,,32.0,80.0,110.0,130.0,140.0,160.0,200.0,220.0,180.0,190.0,280.0,
+Belgium,ev_stock,cars,BEV,Vehicles,61.0,320.0,830.0,1200.0,2200.0,3300.0,5200.0,7500.0,11000.0,19000.0,32000.0,52000.0,90000.0,190000.0,320000.0,
+Belgium,ev_stock,cars,FCEV,Vehicles,1.0,1.0,1.0,1.0,2.0,8.0,20.0,31.0,44.0,41.0,64.0,85.0,80.0,99.0,100.0,
+Belgium,ev_stock,cars,PHEV,Vehicles,9.0,26.0,350.0,590.0,1500.0,3800.0,11000.0,23000.0,33000.0,41000.0,73000.0,120000.0,180000.0,280000.0,350000.0,
+Belgium,ev_stock,vans,BEV,Vehicles,62.0,79.0,330.0,430.0,520.0,570.0,690.0,780.0,1000.0,1400.0,1800.0,2400.0,4100.0,7500.0,9500.0,
+Belgium,ev_stock,vans,FCEV,Vehicles,,,,,,,,,,,,1.0,1.0,,,
+Belgium,ev_stock,vans,PHEV,Vehicles,,,,,,,1.0,4.0,7.0,13.0,50.0,110.0,240.0,190.0,400.0,
+Belgium,ev_stock_share,2_3_wheelers,EV_total,percent,0.026,0.048,0.14,0.16,0.22,0.35,0.88,1.9,3.4,5.7,7.3,9.2,12.0,3.0,3.4,
+Belgium,ev_stock_share,buses,EV_total,percent,0.019,0.019,0.019,0.019,0.24,0.52,0.74,0.89,1.1,1.5,1.7,2.1,2.1,5.1,7.3,
+Belgium,ev_stock_share,cars,EV_total,percent,0.0013,0.0065,0.022,0.033,0.067,0.13,0.28,0.53,0.75,1.0,1.8,2.9,4.5,7.8,11.0,
+Belgium,ev_stock_share,vans,EV_total,percent,0.01,0.013,0.052,0.067,0.079,0.085,0.098,0.11,0.13,0.17,0.22,0.3,0.51,0.86,1.1,
+Austria,ev_charging_points,ev_total,charging_fast,charging points,,,,,,,,,,22.0,1500.0,1500.0,,3600.0,6300.0,
+Austria,ev_charging_points,ev_total,charging_slow,charging points,,,,,,,,,,3700.0,7100.0,8900.0,13000.0,15000.0,21000.0,
+Austria,ev_sales,2_3_wheelers,BEV,Vehicles,,,610.0,310.0,410.0,400.0,1200.0,1300.0,1900.0,2200.0,2600.0,3600.0,3800.0,2800.0,3500.0,
+Austria,ev_sales,cars,BEV,Vehicles,,,,650.0,1700.0,1700.0,3800.0,5400.0,6800.0,9300.0,16000.0,33000.0,34000.0,48000.0,45000.0,
+Austria,ev_sales,cars,FCEV,Vehicles,,,,,6.0,4.0,,2.0,7.0,19.0,14.0,14.0,14.0,10.0,1.0,
+Austria,ev_sales,cars,PHEV,Vehicles,,,,,,1100.0,1200.0,1700.0,2300.0,2200.0,7600.0,15000.0,13000.0,17000.0,17000.0,
+Austria,ev_sales_share,2_3_wheelers,EV_total,percent,,,1.3,0.72,1.0,1.0,2.7,3.2,4.9,5.3,5.6,7.8,8.4,6.0,5.9,
+Austria,ev_sales_share,cars,EV_total,percent,,,,0.2,0.57,0.9,1.5,2.0,2.6,3.5,9.5,20.0,22.0,27.0,24.0,
+Austria,ev_stock,2_3_wheelers,BEV,Vehicles,,,610.0,920.0,1300.0,1700.0,5800.0,6100.0,7600.0,9400.0,11000.0,14000.0,17000.0,20000.0,22000.0,
+Austria,ev_stock,cars,BEV,Vehicles,350.0,990.0,1400.0,2100.0,3400.0,5000.0,9100.0,15000.0,21000.0,30000.0,45000.0,77000.0,110000.0,160000.0,200000.0,
+Austria,ev_stock,cars,FCEV,Vehicles,,,,,3.0,6.0,13.0,19.0,24.0,41.0,45.0,55.0,62.0,62.0,62.0,
+Austria,ev_stock,cars,PHEV,Vehicles,,,140.0,410.0,780.0,1500.0,2300.0,3900.0,5700.0,8000.0,15000.0,29000.0,42000.0,58000.0,75000.0,
+Austria,ev_stock_share,2_3_wheelers,EV_total,percent,,,0.084,0.12,0.18,0.21,0.71,0.73,0.89,1.1,1.3,1.6,1.9,2.2,2.4,
+Austria,ev_stock_share,cars,EV_total,percent,0.0079,0.022,0.033,0.053,0.089,0.14,0.24,0.38,0.53,0.75,1.2,2.1,3.0,4.1,5.3,
+Australia,ev_charging_points,ev_total,charging_fast,charging points,,,,,,,,40.0,61.0,260.0,480.0,770.0,1200.0,810.0,3900.0,
+Australia,ev_charging_points,ev_total,charging_slow,charging points,,,,,,,,440.0,670.0,1700.0,2000.0,2000.0,2100.0,2200.0,2800.0,
+Australia,ev_sales,2_3_wheelers,BEV,Vehicles,,,,,,,480.0,720.0,1000.0,1300.0,2400.0,1600.0,2100.0,8100.0,6800.0,
+Australia,ev_sales,cars,BEV,Vehicles,,49.0,170.0,190.0,370.0,760.0,670.0,1200.0,1800.0,6300.0,5200.0,17000.0,33000.0,87000.0,91000.0,
+Australia,ev_sales,cars,FCEV,Vehicles,,,,,,,,,,,,44.0,15.0,6.0,24.0,
+Australia,ev_sales,cars,PHEV,Vehicles,,,80.0,100.0,950.0,1000.0,700.0,1100.0,1800.0,2900.0,1700.0,3400.0,5900.0,11000.0,21000.0,
+Australia,ev_sales_share,2_3_wheelers,EV_total,percent,,,,,,,0.42,0.69,1.0,1.5,2.1,1.3,2.1,7.3,7.0,
+Australia,ev_sales_share,cars,EV_total,percent,,0.0061,0.029,0.033,0.15,0.19,0.15,0.25,0.41,1.2,1.1,2.8,5.0,12.0,13.0,
+Australia,ev_stock,2_3_wheelers,BEV,Vehicles,,,,,,,,,1000.0,2300.0,4700.0,6300.0,8400.0,18000.0,24000.0,
+Australia,ev_stock,cars,BEV,Vehicles,,49.0,220.0,410.0,780.0,1500.0,2200.0,3400.0,5200.0,12000.0,17000.0,34000.0,67000.0,150000.0,250000.0,
+Australia,ev_stock,cars,FCEV,Vehicles,,,,,,,,,,,,44.0,100.0,65.0,89.0,
+Australia,ev_stock,cars,PHEV,Vehicles,,,80.0,180.0,1100.0,2100.0,2800.0,3900.0,5700.0,8600.0,10000.0,14000.0,21000.0,31000.0,52000.0,
+Australia,ev_stock_share,2_3_wheelers,EV_total,percent,,,,,,,,,0.11,0.26,0.51,0.66,0.86,1.8,2.5,
+Australia,ev_stock_share,cars,EV_total,percent,,0.00039,0.0024,0.0046,0.014,0.027,0.037,0.052,0.077,0.14,0.18,0.32,0.59,1.2,1.9,
+Brazil,ev_charging_points,ev_total,charging_fast,charging points,,,,,,,,,4.9,5.0,5.0,130.0,150.0,450.0,600.0,
+Brazil,ev_charging_points,ev_total,charging_slow,charging points,,,,,,,,,26.0,220.0,400.0,800.0,3000.0,4300.0,12000.0,
+Brazil,ev_sales,2_3_wheelers,BEV,Vehicles,,,,,,,,,,,1200.0,820.0,4200.0,4100.0,3500.0,
+Brazil,ev_sales,cars,BEV,Vehicles,10.0,8.0,22.0,39.0,61.0,61.0,130.0,140.0,180.0,540.0,800.0,2900.0,8500.0,19000.0,62000.0,
+Brazil,ev_sales,cars,FCEV,Vehicles,,,,,,,,,,,,1.0,2.0,,,
+Brazil,ev_sales,cars,PHEV,Vehicles,,,18.0,33.0,,28.0,47.0,290.0,230.0,1400.0,1800.0,11000.0,10000.0,33000.0,63000.0,
+Brazil,ev_sales,vans,BEV,Vehicles,,,,7.0,13.0,3.0,6.0,18.0,5.0,14.0,58.0,150.0,520.0,810.0,2200.0,
+Brazil,ev_sales_share,2_3_wheelers,EV_total,percent,,,,,,,,,,,0.1,0.066,0.33,0.26,0.19,
+Brazil,ev_sales_share,cars,EV_total,percent,0.00035,0.00028,0.0013,0.0024,0.0022,0.0042,0.011,0.023,0.02,0.084,0.16,0.92,1.2,3.0,6.4,
+Brazil,ev_sales_share,vans,EV_total,percent,,,,0.0014,0.0026,0.00092,0.0022,0.0061,0.0014,0.0038,0.019,0.036,0.15,0.19,0.41,
+Brazil,ev_stock,2_3_wheelers,BEV,Vehicles,,,,,,,,,,,1200.0,2000.0,6300.0,10000.0,14000.0,
+Brazil,ev_stock,cars,BEV,Vehicles,,,,,61.0,120.0,250.0,320.0,350.0,890.0,1600.0,4400.0,13000.0,33000.0,94000.0,
+Brazil,ev_stock,cars,FCEV,Vehicles,,,,,,,,,,,,1.0,3.0,3.0,3.0,
+Brazil,ev_stock,cars,PHEV,Vehicles,,,,,,28.0,75.0,360.0,700.0,2100.0,3800.0,15000.0,26000.0,59000.0,120000.0,
+Brazil,ev_stock,vans,BEV,Vehicles,,,,,,,,,4.0,15.0,27.0,170.0,1100.0,1600.0,3800.0,
+Brazil,ev_stock_share,2_3_wheelers,EV_total,percent,,,,,,,,,,,0.0087,0.015,0.048,0.078,0.1,
+Brazil,ev_stock_share,cars,EV_total,percent,,,,,0.0002,0.00048,0.001,0.0022,0.0034,0.0094,0.017,0.063,0.12,0.3,0.7,
+Brazil,ev_stock_share,vans,EV_total,percent,,,,,,,,,4.9e-05,0.00018,0.00031,0.002,0.013,0.018,0.042,
+Chile,ev_charging_points,ev_total,charging_fast,charging points,,1.0,4.0,5.0,5.0,5.0,5.0,6.0,8.0,42.0,99.0,140.0,220.0,330.0,610.0,
+Chile,ev_charging_points,ev_total,charging_slow,charging points,,1.0,6.0,8.0,13.0,22.0,22.0,35.0,61.0,130.0,240.0,360.0,440.0,740.0,1200.0,
+Chile,ev_sales,2_3_wheelers,BEV,Vehicles,,,,,,,,4100.0,7600.0,650.0,3600.0,3200.0,720.0,1300.0,1300.0,
+Chile,ev_sales,cars,BEV,Vehicles,,6.0,5.0,5.0,5.0,13.0,22.0,120.0,130.0,220.0,160.0,560.0,1300.0,1600.0,4500.0,
+Chile,ev_sales,cars,FCEV,Vehicles,,,,,,,,,,,,1.0,1.0,,,
+Chile,ev_sales,cars,PHEV,Vehicles,,,,,14.0,23.0,9.0,15.0,68.0,85.0,79.0,300.0,470.0,510.0,1100.0,
+Chile,ev_sales_share,2_3_wheelers,EV_total,percent,,,,,,,,14.0,26.0,2.5,23.0,17.0,1.8,4.9,6.6,
+Chile,ev_sales_share,cars,EV_total,percent,,0.0024,0.002,0.0019,0.0079,0.019,0.015,0.064,0.08,0.14,0.2,0.29,0.6,0.75,2.1,
+Chile,ev_stock,2_3_wheelers,BEV,Vehicles,,,,,,,,4100.0,12000.0,12000.0,16000.0,19000.0,20000.0,21000.0,22000.0,
+Chile,ev_stock,cars,BEV,Vehicles,,6.0,11.0,16.0,19.0,32.0,54.0,170.0,280.0,440.0,550.0,820.0,1700.0,4100.0,8600.0,
+Chile,ev_stock,cars,FCEV,Vehicles,,,,,,,,,,,,1.0,2.0,2.0,2.0,
+Chile,ev_stock,cars,PHEV,Vehicles,,,,,14.0,37.0,46.0,61.0,130.0,210.0,290.0,590.0,1200.0,1600.0,2700.0,
+Chile,ev_stock_share,2_3_wheelers,EV_total,percent,,,,,,,,1.8,4.7,4.7,6.1,7.3,7.1,7.4,7.9,
+Chile,ev_stock_share,cars,EV_total,percent,,0.00028,0.00047,0.00062,0.0012,0.0023,0.0032,0.0069,0.011,0.017,0.022,0.034,0.068,0.13,0.26,
+South Africa,ev_charging_points,ev_total,charging_fast,charging points,,,,,,,,37.0,81.0,130.0,160.0,160.0,180.0,180.0,190.0,
+South Africa,ev_charging_points,ev_total,charging_slow,charging points,,,,,,,,87.0,160.0,110.0,140.0,140.0,150.0,170.0,190.0,
+South Africa,ev_sales,2_3_wheelers,BEV,Vehicles,,,,,,80.0,45.0,60.0,12.0,44.0,69.0,110.0,320.0,640.0,1400.0,
+South Africa,ev_sales,buses,BEV,Vehicles,,,,,,,,,11.0,,,,2.0,1.0,20.0,
+South Africa,ev_sales,cars,BEV,Vehicles,,,,34.0,14.0,120.0,100.0,68.0,66.0,160.0,92.0,220.0,500.0,810.0,1200.0,
+South Africa,ev_sales,cars,FCEV,Vehicles,,,,,,,,,,,,1.0,2.0,,,
+South Africa,ev_sales,cars,PHEV,Vehicles,,,,,1.0,120.0,280.0,130.0,82.0,72.0,150.0,51.0,120.0,270.0,740.0,
+South Africa,ev_sales,trucks,BEV,Vehicles,,,,,,,,,,,,,,7.0,260.0,
+South Africa,ev_sales,vans,BEV,Vehicles,,,,34.0,14.0,120.0,100.0,68.0,66.0,160.0,92.0,,6.0,22.0,270.0,
+South Africa,ev_sales_share,2_3_wheelers,EV_total,percent,,,,,,0.36,0.21,0.37,0.07,0.24,0.37,0.48,1.1,2.4,4.3,
+South Africa,ev_sales_share,buses,EV_total,percent,,,,,,,,,0.07,,,,0.049,0.016,0.34,
+South Africa,ev_sales_share,cars,EV_total,percent,,,,0.0075,0.0034,0.058,0.1,0.053,0.041,0.064,0.098,0.088,0.17,0.3,0.61,
+South Africa,ev_sales_share,trucks,EV_total,percent,,,,,,,,,,,,,,0.022,0.89,
+South Africa,ev_sales_share,vans,EV_total,percent,,,,0.025,0.01,0.084,0.081,0.053,0.046,0.11,0.088,,0.0045,0.015,0.25,
+South Africa,ev_stock,2_3_wheelers,BEV,Vehicles,,,,,,,,,,,,,,1400.0,2700.0,
+South Africa,ev_stock,buses,BEV,Vehicles,,,,,,,,,11.0,11.0,11.0,11.0,2.0,14.0,34.0,
+South Africa,ev_stock,cars,BEV,Vehicles,,,,34.0,48.0,160.0,260.0,330.0,400.0,560.0,640.0,860.0,1400.0,2200.0,3300.0,
+South Africa,ev_stock,cars,FCEV,Vehicles,,,,,,,,,,,,1.0,3.0,3.0,3.0,
+South Africa,ev_stock,cars,PHEV,Vehicles,,,,,1.0,120.0,400.0,530.0,610.0,680.0,830.0,880.0,820.0,1300.0,1800.0,
+South Africa,ev_stock,trucks,BEV,Vehicles,,,,,,,,,,,,,,7.0,270.0,
+South Africa,ev_stock,vans,BEV,Vehicles,,,,,48.0,130.0,220.0,170.0,130.0,220.0,250.0,92.0,6.0,680.0,950.0,
+South Africa,ev_stock_share,2_3_wheelers,EV_total,percent,,,,,,,,,,,,,,0.4,0.76,
+South Africa,ev_stock_share,buses,EV_total,percent,,,,,,,,,0.0022,0.0022,0.0023,0.0024,0.00045,0.0033,0.0085,
+South Africa,ev_stock_share,cars,EV_total,percent,,,,0.00054,0.00074,0.0042,0.0095,0.012,0.014,0.016,0.019,0.023,0.028,0.044,0.066,
+South Africa,ev_stock_share,trucks,EV_total,percent,,,,,,,,,,,,,,0.0016,0.06,
+South Africa,ev_stock_share,vans,EV_total,percent,,,,,0.0019,0.005,0.0083,0.0064,0.005,0.0083,0.0093,0.0034,0.00022,0.025,0.036,
+Africa,ev_sales,2_3_wheelers,BEV,Vehicles,,,,,,80.0,45.0,60.0,12.0,240.0,940.0,1400.0,6100.0,6900.0,9400.0,
+Africa,ev_sales,buses,BEV,Vehicles,,,,,,,,,26.0,4.0,7.0,3.0,13.0,140.0,40.0,
+Africa,ev_sales,cars,BEV,Vehicles,,,,34.0,14.0,120.0,100.0,72.0,100.0,290.0,220.0,900.0,2100.0,3100.0,8400.0,
+Africa,ev_sales,cars,FCEV,Vehicles,,,,,,,,,,,,1.0,2.0,,,
+Africa,ev_sales,cars,PHEV,Vehicles,,,,,1.0,120.0,280.0,130.0,130.0,160.0,210.0,170.0,460.0,690.0,2100.0,
+Africa,ev_sales,trucks,BEV,Vehicles,,,,,,,,,,,,,,8.0,260.0,
+Africa,ev_sales,vans,BEV,Vehicles,,,,34.0,14.0,120.0,100.0,68.0,66.0,160.0,98.0,23.0,37.0,52.0,300.0,
+Africa,ev_sales_share,2_3_wheelers,EV_total,percent,,,,,,0.0041,0.0024,0.0034,0.00064,0.012,0.044,0.064,0.33,0.37,0.4,
+Africa,ev_sales_share,buses,EV_total,percent,,,,,,,,,0.0038,0.00058,0.0013,0.00057,0.0025,0.028,0.008,
+Africa,ev_sales_share,cars,EV_total,percent,,,,0.0019,0.00078,0.013,0.022,0.012,0.013,0.026,0.029,0.062,0.15,0.23,0.62,
+Africa,ev_sales_share,trucks,EV_total,percent,,,,,,,,,,,,,,0.006,0.19,
+Africa,ev_sales_share,vans,EV_total,percent,,,,0.0069,0.0027,0.021,0.021,0.013,0.013,0.03,0.022,0.0049,0.0062,0.0089,0.057,
+Africa,ev_stock,2_3_wheelers,BEV,Vehicles,,,,,,,,,,200.0,1100.0,2400.0,8100.0,16000.0,25000.0,
+Africa,ev_stock,buses,BEV,Vehicles,,,,,,,,,26.0,30.0,36.0,39.0,40.0,190.0,230.0,
+Africa,ev_stock,cars,BEV,Vehicles,,,,34.0,48.0,160.0,260.0,340.0,440.0,730.0,940.0,1800.0,3900.0,7000.0,15000.0,
+Africa,ev_stock,cars,FCEV,Vehicles,,,,,,,,,,,,1.0,3.0,3.0,3.0,
+Africa,ev_stock,cars,PHEV,Vehicles,,,,,1.0,120.0,400.0,530.0,660.0,820.0,1000.0,1200.0,1500.0,2300.0,4200.0,
+Africa,ev_stock,trucks,BEV,Vehicles,,,,,,,,,,,,,,8.0,270.0,
+Africa,ev_stock,vans,BEV,Vehicles,,,,,48.0,130.0,220.0,170.0,130.0,220.0,250.0,120.0,65.0,760.0,1100.0,
+Africa,ev_stock_share,2_3_wheelers,EV_total,percent,,,,,,,,,,0.0011,0.0057,0.013,0.043,0.084,0.13,
+Africa,ev_stock_share,buses,EV_total,percent,,,,,,,,,0.00074,0.00084,0.0011,0.0012,0.0013,0.0061,0.0075,
+Africa,ev_stock_share,cars,EV_total,percent,,,,0.00014,0.00019,0.001,0.0023,0.0029,0.0036,0.0048,0.0059,0.0089,0.015,0.026,0.054,
+Africa,ev_stock_share,trucks,EV_total,percent,,,,,,,,,,,,,,0.00027,0.0089,
+Africa,ev_stock_share,vans,EV_total,percent,,,,,0.00066,0.0018,0.0029,0.0022,0.0017,0.0028,0.0032,0.0015,0.00079,0.009,0.012,
+Asia Pacific,ev_sales,2_3_wheelers,BEV,Vehicles,41000.0,30000.0,2000000.0,2300000.0,2700000.0,2700000.0,3000000.0,3500000.0,5000000.0,6400000.0,8700000.0,11000000.0,9600000.0,9800000.0,9700000.0,
+Asia Pacific,ev_sales,2_3_wheelers,FCEV,Vehicles,,,,,,,,,,,,2.0,,,,
+Asia Pacific,ev_sales,2_3_wheelers,PHEV,Vehicles,,,,,,,,,,,1.0,,,,,
+Asia Pacific,ev_sales,buses,BEV,Vehicles,970.0,450.0,1400.0,2000.0,4000.0,43000.0,76000.0,88000.0,83000.0,69000.0,58000.0,44000.0,49000.0,38000.0,56000.0,
+Asia Pacific,ev_sales,buses,FCEV,Vehicles,,,,,,,,380.0,890.0,1100.0,1400.0,970.0,1500.0,1600.0,1400.0,
+Asia Pacific,ev_sales,buses,PHEV,Vehicles,,160.0,510.0,1800.0,6000.0,13000.0,7600.0,240.0,1200.0,1300.0,1800.0,860.0,1100.0,1300.0,32.0,
+Asia Pacific,ev_sales,cars,BEV,Vehicles,4100.0,19000.0,24000.0,31000.0,68000.0,160000.0,280000.0,510000.0,910000.0,900000.0,990000.0,2900000.0,4800000.0,6000000.0,7000000.0,
+Asia Pacific,ev_sales,cars,FCEV,Vehicles,2.0,,1.0,4.0,7.0,420.0,1100.0,920.0,1500.0,4900.0,5500.0,12000.0,11000.0,5100.0,3500.0,
+Asia Pacific,ev_sales,cars,PHEV,Vehicles,340.0,340.0,11000.0,15000.0,42000.0,76000.0,90000.0,160000.0,310000.0,260000.0,260000.0,610000.0,1600000.0,2800000.0,5000000.0,
+Asia Pacific,ev_sales,trucks,BEV,Vehicles,,,,,,17000.0,46000.0,71000.0,36000.0,24000.0,17000.0,12000.0,27000.0,37000.0,77000.0,
+Asia Pacific,ev_sales,trucks,FCEV,Vehicles,,,,,,,,,400.0,2000.0,1300.0,1200.0,2700.0,3400.0,4500.0,
+Asia Pacific,ev_sales,trucks,PHEV,Vehicles,,,,,,,,,,31.0,27.0,540.0,260.0,320.0,,
+Asia Pacific,ev_sales,vans,BEV,Vehicles,120.0,1000.0,3200.0,2800.0,1500.0,16000.0,11000.0,70000.0,56000.0,30000.0,43000.0,100000.0,210000.0,290000.0,490000.0,
+Asia Pacific,ev_sales,vans,FCEV,Vehicles,,,,,,,,,2.0,15.0,60.0,57.0,810.0,1900.0,2300.0,
+Asia Pacific,ev_sales,vans,PHEV,Vehicles,,,,,,,,,,27.0,2.0,180.0,1500.0,15.0,3.0,
+Asia Pacific,ev_sales_share,2_3_wheelers,EV_total,percent,0.099,0.071,4.2,4.8,5.5,5.6,5.8,6.2,8.7,12.0,18.0,22.0,18.0,18.0,18.0,
+Asia Pacific,ev_sales_share,buses,EV_total,percent,0.12,0.15,0.44,0.91,2.5,13.0,19.0,20.0,21.0,20.0,21.0,19.0,20.0,14.0,20.0,
+Asia Pacific,ev_sales_share,cars,EV_total,percent,0.017,0.073,0.13,0.16,0.35,0.72,1.0,1.7,3.3,3.3,3.8,10.0,19.0,24.0,31.0,
+Asia Pacific,ev_sales_share,trucks,EV_total,percent,,,,,,0.76,1.7,2.3,1.1,0.78,0.47,0.36,1.1,1.3,2.7,
+Asia Pacific,ev_sales_share,vans,EV_total,percent,0.0038,0.033,0.096,0.088,0.046,0.49,0.33,1.9,1.4,0.71,1.1,2.6,5.3,7.2,13.0,
+Asia Pacific,ev_stock,2_3_wheelers,BEV,Vehicles,48000.0,77000.0,2000000.0,4100000.0,6600000.0,9300000.0,12000000.0,16000000.0,22000000.0,29000000.0,37000000.0,47000000.0,52000000.0,68000000.0,77000000.0,
+Asia Pacific,ev_stock,2_3_wheelers,FCEV,Vehicles,,,,,,,,,,,,2.0,2.0,2.0,2.0,
+Asia Pacific,ev_stock,2_3_wheelers,PHEV,Vehicles,,,,,,,,,,1.0,1.0,1.0,1.0,1.0,1.0,
+Asia Pacific,ev_stock,buses,BEV,Vehicles,2000.0,4200.0,6000.0,7700.0,22000.0,98000.0,190000.0,280000.0,360000.0,430000.0,490000.0,530000.0,580000.0,620000.0,680000.0,
+Asia Pacific,ev_stock,buses,FCEV,Vehicles,,,,,,,1.0,340.0,1200.0,2300.0,3300.0,4300.0,5700.0,7500.0,9200.0,
+Asia Pacific,ev_stock,buses,PHEV,Vehicles,,160.0,680.0,2400.0,8400.0,22000.0,29000.0,30000.0,31000.0,32000.0,34000.0,35000.0,36000.0,37000.0,37000.0,
+Asia Pacific,ev_stock,cars,BEV,Vehicles,6000.0,24000.0,50000.0,80000.0,140000.0,300000.0,570000.0,1100000.0,1900000.0,2800000.0,3800000.0,6700000.0,11000000.0,17000000.0,24000000.0,
+Asia Pacific,ev_stock,cars,FCEV,Vehicles,,,,,,410.0,1500.0,2400.0,3800.0,8700.0,14000.0,26000.0,37000.0,42000.0,45000.0,
+Asia Pacific,ev_stock,cars,PHEV,Vehicles,340.0,680.0,12000.0,27000.0,69000.0,150000.0,240000.0,390000.0,700000.0,960000.0,1200000.0,1900000.0,3500000.0,6200000.0,11000000.0,
+Asia Pacific,ev_stock,trucks,BEV,Vehicles,37.0,140.0,560.0,1400.0,1700.0,17000.0,64000.0,130000.0,170000.0,190000.0,210000.0,220000.0,250000.0,290000.0,360000.0,
+Asia Pacific,ev_stock,trucks,FCEV,Vehicles,,,,,,,,1.0,400.0,1800.0,3200.0,4300.0,7000.0,10000.0,16000.0,
+Asia Pacific,ev_stock,trucks,PHEV,Vehicles,,,,,,,,,,31.0,58.0,600.0,850.0,1200.0,1200.0,
+Asia Pacific,ev_stock,vans,BEV,Vehicles,410.0,1600.0,4500.0,7200.0,9000.0,22000.0,61000.0,130000.0,220000.0,260000.0,310000.0,400000.0,590000.0,830000.0,1300000.0,
+Asia Pacific,ev_stock,vans,FCEV,Vehicles,,,,,,,,,,,,9.0,820.0,2700.0,5300.0,
+Asia Pacific,ev_stock,vans,PHEV,Vehicles,,,,,,17.0,17.0,17.0,17.0,44.0,78.0,260.0,1800.0,1700.0,1800.0,
+Asia Pacific,ev_stock_share,2_3_wheelers,EV_total,percent,0.012,0.019,0.45,0.89,1.4,1.9,2.3,2.9,3.7,4.7,5.8,7.2,7.7,9.7,11.0,
+Asia Pacific,ev_stock_share,buses,EV_total,percent,0.027,0.058,0.088,0.14,0.4,1.6,2.9,4.1,5.2,6.2,7.2,8.0,9.0,9.9,11.0,
+Asia Pacific,ev_stock_share,cars,EV_total,percent,0.0031,0.011,0.025,0.04,0.071,0.14,0.24,0.39,0.66,0.89,1.1,1.8,3.0,4.6,6.7,
+Asia Pacific,ev_stock_share,trucks,EV_total,percent,0.00015,0.00053,0.002,0.0048,0.0055,0.053,0.19,0.37,0.45,0.49,0.5,0.51,0.56,0.64,0.78,
+Asia Pacific,ev_stock_share,vans,EV_total,percent,0.0011,0.0042,0.012,0.018,0.021,0.051,0.14,0.28,0.44,0.52,0.58,0.73,1.1,1.5,2.2,
+Bulgaria,ev_sales,cars,BEV,Vehicles,,,,,,21.0,5.0,68.0,190.0,180.0,140.0,430.0,1000.0,1800.0,1700.0,
+Bulgaria,ev_sales,cars,PHEV,Vehicles,,,,,,,8.0,38.0,26.0,56.0,41.0,120.0,140.0,360.0,470.0,
+Bulgaria,ev_sales_share,cars,EV_total,percent,,,,,,0.09,0.05,0.34,0.64,0.67,,2.2,4.0,5.8,5.0,
+Central and South America,ev_sales,2_3_wheelers,BEV,Vehicles,,,15000.0,15000.0,15000.0,16000.0,110000.0,120000.0,130000.0,120000.0,11000.0,13000.0,11000.0,13000.0,11000.0,
+Central and South America,ev_sales,buses,BEV,Vehicles,3.0,3.0,94.0,120.0,,13.0,16.0,7.0,110.0,470.0,590.0,170.0,1300.0,1800.0,750.0,
+Central and South America,ev_sales,buses,FCEV,Vehicles,,,,,,,,,,,1.0,,2.0,,4.0,
+Central and South America,ev_sales,buses,PHEV,Vehicles,,,,,,,,,,,,,5.0,,1.0,
+Central and South America,ev_sales,cars,BEV,Vehicles,10.0,15.0,53.0,66.0,93.0,110.0,210.0,390.0,810.0,2000.0,2400.0,7200.0,18000.0,36000.0,98000.0,
+Central and South America,ev_sales,cars,FCEV,Vehicles,,,,,,,,,,,,2.0,3.0,,,
+Central and South America,ev_sales,cars,PHEV,Vehicles,,,18.0,34.0,14.0,66.0,170.0,410.0,740.0,2000.0,2500.0,14000.0,14000.0,37000.0,69000.0,
+Central and South America,ev_sales,trucks,BEV,Vehicles,,,,,,,,,40.0,23.0,16.0,290.0,710.0,390.0,620.0,
+Central and South America,ev_sales,trucks,FCEV,Vehicles,,,,,,,,,,,,,,1.0,1.0,
+Central and South America,ev_sales,vans,BEV,Vehicles,,6.0,5.0,12.0,16.0,35.0,44.0,56.0,72.0,210.0,260.0,460.0,840.0,1200.0,3200.0,
+Central and South America,ev_sales,vans,PHEV,Vehicles,,,,,14.0,23.0,9.0,15.0,,,,,,,,
+Central and South America,ev_sales_share,2_3_wheelers,EV_total,percent,,,0.47,0.5,0.49,0.56,4.3,4.7,4.7,4.4,0.39,0.4,0.3,0.34,0.25,
+Central and South America,ev_sales_share,buses,EV_total,percent,0.0024,0.0023,0.074,0.1,,0.014,0.019,0.0084,0.13,0.5,1.1,0.34,2.2,2.9,1.1,
+Central and South America,ev_sales_share,cars,EV_total,percent,0.00026,0.00037,0.0016,0.0024,0.0028,0.0057,0.014,0.028,0.05,0.13,0.21,0.83,1.2,2.6,5.4,
+Central and South America,ev_sales_share,trucks,EV_total,percent,,,,,,,,,0.023,0.011,0.0082,0.1,0.26,0.16,0.23,
+Central and South America,ev_sales_share,vans,EV_total,percent,,0.00078,0.00062,0.0014,0.0034,0.0085,0.0083,0.011,0.0099,0.027,0.046,0.053,0.097,0.13,0.33,
+Central and South America,ev_stock,2_3_wheelers,BEV,Vehicles,,,15000.0,30000.0,44000.0,59000.0,170000.0,290000.0,410000.0,530000.0,530000.0,530000.0,530000.0,540000.0,540000.0,
+Central and South America,ev_stock,buses,BEV,Vehicles,,,,,,230.0,250.0,250.0,360.0,860.0,1400.0,1700.0,3000.0,4900.0,5600.0,
+Central and South America,ev_stock,buses,FCEV,Vehicles,,,,,,,,,,,1.0,1.0,2.0,3.0,7.0,
+Central and South America,ev_stock,buses,PHEV,Vehicles,,,,,,,,,,,,,5.0,4.9,5.8,
+Central and South America,ev_stock,cars,BEV,Vehicles,,6.0,38.0,65.0,160.0,270.0,470.0,790.0,1400.0,3400.0,5700.0,13000.0,30000.0,67000.0,170000.0,
+Central and South America,ev_stock,cars,FCEV,Vehicles,,,,,,,,,,,,2.0,5.0,5.0,5.0,
+Central and South America,ev_stock,cars,PHEV,Vehicles,,,,1.0,15.0,81.0,250.0,660.0,1500.0,3500.0,6000.0,20000.0,34000.0,71000.0,140000.0,
+Central and South America,ev_stock,trucks,BEV,Vehicles,,,,,,,,,41.0,65.0,81.0,390.0,1200.0,1500.0,2100.0,
+Central and South America,ev_stock,trucks,FCEV,Vehicles,,,,,,,,,,,,,,1.0,2.0,
+Central and South America,ev_stock,vans,BEV,Vehicles,,,,,,19.0,35.0,73.0,140.0,360.0,570.0,1300.0,2700.0,3100.0,6400.0,
+Central and South America,ev_stock,vans,PHEV,Vehicles,,,,,14.0,37.0,46.0,61.0,61.0,61.0,61.0,61.0,61.0,61.0,61.0,
+Central and South America,ev_stock_share,2_3_wheelers,EV_total,percent,,,0.048,0.093,0.13,0.17,0.48,0.81,1.1,1.4,1.4,1.4,1.3,1.3,1.2,
+Central and South America,ev_stock_share,buses,EV_total,percent,,,,,,0.015,0.016,0.016,0.023,0.056,0.095,0.11,0.21,0.36,0.42,
+Central and South America,ev_stock_share,cars,EV_total,percent,,1.6e-05,9.3e-05,0.00015,0.00038,0.00076,0.0015,0.0031,0.0061,0.014,0.024,0.066,0.13,0.28,0.61,
+Central and South America,ev_stock_share,trucks,EV_total,percent,,,,,,,,,0.0011,0.0018,0.0022,0.01,0.029,0.035,0.05,
+Central and South America,ev_stock_share,vans,EV_total,percent,,,,,0.00013,0.00048,0.00067,0.0011,0.0015,0.003,0.0046,0.0096,0.019,0.021,0.041,
+Colombia,ev_charging_points,ev_total,charging_fast,charging points,,,,,,,,,,,,57.0,84.0,160.0,120.0,
+Colombia,ev_charging_points,ev_total,charging_slow,charging points,,,,,,,,,,,,390.0,610.0,880.0,980.0,
+Colombia,ev_sales,2_3_wheelers,BEV,Vehicles,,,,,,240.0,500.0,400.0,1600.0,2500.0,1900.0,2700.0,350.0,1600.0,740.0,
+Colombia,ev_sales,cars,BEV,Vehicles,,1.0,26.0,22.0,27.0,39.0,28.0,92.0,250.0,760.0,670.0,840.0,1900.0,3600.0,11000.0,
+Colombia,ev_sales,cars,PHEV,Vehicles,,,,1.0,,3.0,25.0,56.0,320.0,450.0,470.0,1700.0,2400.0,2000.0,2100.0,
+Colombia,ev_sales_share,2_3_wheelers,EV_total,percent,,,,,,0.036,0.087,0.087,0.31,0.49,0.31,0.35,0.042,0.24,0.095,
+Colombia,ev_sales_share,cars,EV_total,percent,,0.00042,0.012,0.012,0.014,0.024,0.033,0.1,0.36,0.78,0.94,1.7,2.9,3.9,7.4,
+Colombia,ev_stock,2_3_wheelers,BEV,Vehicles,,,,,,240.0,740.0,1100.0,2800.0,5300.0,7200.0,9800.0,10000.0,12000.0,13000.0,
+Colombia,ev_stock,cars,BEV,Vehicles,,,27.0,49.0,76.0,120.0,140.0,240.0,490.0,1200.0,1900.0,2800.0,4700.0,8200.0,19000.0,
+Colombia,ev_stock,cars,PHEV,Vehicles,,,,1.0,1.0,4.0,29.0,85.0,400.0,850.0,1300.0,3000.0,5400.0,7400.0,9500.0,
+Colombia,ev_stock_share,2_3_wheelers,EV_total,percent,,,,,,0.0035,0.01,0.015,0.034,0.061,0.078,0.1,0.097,0.11,0.11,
+Colombia,ev_stock_share,cars,EV_total,percent,,,0.00088,0.0016,0.0024,0.0036,0.0052,0.0097,0.027,0.062,0.096,0.17,0.29,0.44,0.79,
+Costa Rica,ev_charging_points,ev_total,charging_fast,charging points,,,,,,,,,,,,,,170.0,170.0,
+Costa Rica,ev_charging_points,ev_total,charging_slow,charging points,,,,,,,,,,,,600.0,750.0,840.0,1200.0,
+Costa Rica,ev_sales,2_3_wheelers,BEV,Vehicles,,,,,27.0,27.0,32.0,180.0,300.0,310.0,500.0,1900.0,190.0,160.0,110.0,
+Costa Rica,ev_sales,cars,BEV,Vehicles,,,,,,,22.0,14.0,230.0,350.0,590.0,1000.0,2600.0,5800.0,11000.0,
+Costa Rica,ev_sales,cars,PHEV,Vehicles,,,,,,12.0,85.0,20.0,54.0,31.0,16.0,130.0,61.0,37.0,22.0,
+Costa Rica,ev_sales_share,2_3_wheelers,EV_total,percent,,,,,0.052,0.042,0.054,0.35,0.69,0.87,1.5,5.5,0.58,0.38,0.17,
+Costa Rica,ev_sales_share,cars,EV_total,percent,,,,,,0.029,0.22,0.082,0.84,1.2,2.5,3.6,7.6,13.0,15.0,
+Costa Rica,ev_stock,2_3_wheelers,BEV,Vehicles,,,,,27.0,54.0,86.0,270.0,570.0,870.0,1400.0,3300.0,3500.0,3700.0,3800.0,
+Costa Rica,ev_stock,cars,BEV,Vehicles,,,,,,,22.0,36.0,260.0,610.0,1200.0,2200.0,4800.0,11000.0,22000.0,
+Costa Rica,ev_stock,cars,PHEV,Vehicles,,,,,,12.0,97.0,120.0,170.0,200.0,220.0,350.0,410.0,440.0,470.0,
+Costa Rica,ev_stock_share,2_3_wheelers,EV_total,percent,,,,,0.0099,0.017,0.025,0.072,0.15,0.23,0.36,0.87,0.94,0.98,0.97,
+Costa Rica,ev_stock_share,cars,EV_total,percent,,,,,,0.0014,0.013,0.016,0.043,0.079,0.14,0.24,0.48,0.97,1.9,
+Croatia,ev_sales,cars,BEV,Vehicles,,,,,,,,,,190.0,530.0,1400.0,1400.0,1600.0,1800.0,
+Croatia,ev_sales,cars,PHEV,Vehicles,,,,,,,,,,67.0,140.0,400.0,840.0,990.0,1400.0,
+Croatia,ev_sales_share,cars,EV_total,percent,,,,,,,,,,0.41,1.9,3.8,5.0,4.6,4.9,
+Cyprus,ev_sales,cars,BEV,Vehicles,,,,,,,,,,23.0,42.0,84.0,400.0,790.0,1200.0,
+Cyprus,ev_sales,cars,PHEV,Vehicles,,,,,,,,,,,83.0,98.0,230.0,510.0,660.0,
+Cyprus,ev_sales_share,cars,EV_total,percent,,,,,,,,,,0.19,1.4,1.7,5.4,8.8,12.0,
+Czech Republic,ev_sales,cars,BEV,Vehicles,,,,,,300.0,200.0,390.0,700.0,760.0,3300.0,2700.0,3900.0,6700.0,11000.0,
+Czech Republic,ev_sales,cars,PHEV,Vehicles,,,,,,,,,280.0,470.0,2000.0,3700.0,3600.0,5300.0,4800.0,
+Czech Republic,ev_sales_share,cars,EV_total,percent,,,,,,0.13,0.08,0.14,0.38,0.49,2.5,3.1,3.9,5.4,6.8,
+Denmark,ev_charging_points,ev_total,charging_fast,charging points,,,,56.0,110.0,300.0,340.0,390.0,400.0,460.0,870.0,890.0,1400.0,3000.0,6400.0,
+Denmark,ev_charging_points,ev_total,charging_slow,charging points,,,900.0,990.0,1600.0,2100.0,4200.0,4200.0,4300.0,4500.0,,,10000.0,14000.0,27000.0,
+Denmark,ev_sales,2_3_wheelers,BEV,Vehicles,,,310.0,59.0,110.0,300.0,180.0,500.0,560.0,1400.0,2800.0,3900.0,3800.0,3600.0,2700.0,
+Denmark,ev_sales,2_3_wheelers,FCEV,Vehicles,,,,,,,,,,2.0,1.0,1.0,,,,
+Denmark,ev_sales,buses,BEV,Vehicles,,1.0,1.0,2.0,,,3.0,,2.0,80.0,1.0,220.0,380.0,200.0,370.0,
+Denmark,ev_sales,buses,FCEV,Vehicles,,,,,,,,,,,3.0,,,,,
+Denmark,ev_sales,buses,PHEV,Vehicles,,,,,,,,,,17.0,,,,,,
+Denmark,ev_sales,cars,BEV,Vehicles,,420.0,490.0,500.0,1600.0,4300.0,1300.0,710.0,1500.0,5500.0,14000.0,25000.0,31000.0,63000.0,89000.0,
+Denmark,ev_sales,cars,FCEV,Vehicles,,,,15.0,1.0,38.0,14.0,15.0,5.0,8.0,45.0,78.0,6.0,1.0,,
+Denmark,ev_sales,cars,PHEV,Vehicles,,2.0,12.0,10.0,90.0,420.0,570.0,620.0,3100.0,3900.0,18000.0,40000.0,26000.0,17000.0,7100.0,
+Denmark,ev_sales,trucks,BEV,Vehicles,4.0,,1.0,1.0,,,,1.0,3.0,3.0,28.0,50.0,100.0,320.0,450.0,
+Denmark,ev_sales,trucks,FCEV,Vehicles,,,,,,,,,,1.0,1.0,1.0,,,,
+Denmark,ev_sales,vans,BEV,Vehicles,6.0,23.0,130.0,100.0,47.0,260.0,57.0,70.0,220.0,270.0,620.0,1500.0,1900.0,2900.0,4300.0,
+Denmark,ev_sales,vans,FCEV,Vehicles,,,,,,,,,,,,2.0,,,,
+Denmark,ev_sales,vans,PHEV,Vehicles,,,8.0,2.0,2.0,85.0,81.0,24.0,31.0,34.0,160.0,320.0,370.0,410.0,650.0,
+Denmark,ev_sales_share,2_3_wheelers,EV_total,percent,,,2.3,0.58,1.1,3.2,1.9,3.2,6.5,15.0,25.0,36.0,40.0,36.0,26.0,
+Denmark,ev_sales_share,buses,EV_total,percent,,0.12,0.13,0.27,,,0.3,,0.15,6.4,0.49,18.0,32.0,20.0,73.0,
+Denmark,ev_sales_share,cars,EV_total,percent,,0.25,0.29,0.28,0.91,2.3,0.84,0.6,2.1,4.2,16.0,35.0,38.0,46.0,56.0,
+Denmark,ev_sales_share,trucks,EV_total,percent,0.14,,0.027,0.016,,,,0.014,0.043,0.044,0.56,0.82,2.1,6.4,9.3,
+Denmark,ev_sales_share,vans,EV_total,percent,0.037,0.097,0.56,0.44,0.17,1.1,0.38,0.26,0.75,0.91,2.5,5.7,8.6,13.0,18.0,
+Denmark,ev_stock,2_3_wheelers,BEV,Vehicles,,,1400.0,1300.0,1300.0,1600.0,1600.0,1900.0,2200.0,3200.0,5800.0,9400.0,13000.0,18000.0,20000.0,
+Denmark,ev_stock,2_3_wheelers,FCEV,Vehicles,,,,,,4.0,7.0,15.0,14.0,12.0,14.0,12.0,12.0,11.0,4.0,
+Denmark,ev_stock,buses,BEV,Vehicles,,1.0,2.0,4.0,4.0,4.0,6.0,6.0,8.0,83.0,88.0,310.0,700.0,920.0,1300.0,
+Denmark,ev_stock,buses,FCEV,Vehicles,,,,,,,,,,,3.0,4.0,4.0,3.0,3.0,
+Denmark,ev_stock,buses,PHEV,Vehicles,,,,,,,,,,24.0,23.0,24.0,26.0,17.0,17.0,
+Denmark,ev_stock,cars,BEV,Vehicles,59.0,480.0,1200.0,1500.0,2900.0,7900.0,8700.0,8800.0,10000.0,16000.0,32000.0,67000.0,110000.0,200000.0,340000.0,
+Denmark,ev_stock,cars,FCEV,Vehicles,,,,,,37.0,68.0,83.0,88.0,100.0,150.0,230.0,230.0,230.0,230.0,
+Denmark,ev_stock,cars,PHEV,Vehicles,20.0,20.0,14.0,14.0,100.0,570.0,1100.0,1800.0,5200.0,9900.0,30000.0,78000.0,100000.0,110000.0,120000.0,
+Denmark,ev_stock,trucks,BEV,Vehicles,9.0,10.0,10.0,11.0,11.0,11.0,8.0,8.0,8.0,13.0,28.0,56.0,99.0,460.0,960.0,
+Denmark,ev_stock,trucks,FCEV,Vehicles,,,,,,,,,,,,,,3.0,3.0,
+Denmark,ev_stock,vans,BEV,Vehicles,6.0,29.0,220.0,310.0,350.0,590.0,620.0,510.0,670.0,900.0,1300.0,2600.0,4400.0,7300.0,12000.0,
+Denmark,ev_stock,vans,FCEV,Vehicles,,,,,,,,,,,1.0,3.0,2.0,2.0,2.0,
+Denmark,ev_stock,vans,PHEV,Vehicles,,,9.0,12.0,14.0,100.0,180.0,200.0,230.0,260.0,430.0,780.0,1200.0,1500.0,2200.0,
+Denmark,ev_stock_share,2_3_wheelers,EV_total,percent,,,0.51,0.48,0.49,0.58,0.57,0.67,0.78,1.2,2.2,3.5,4.6,6.4,7.4,
+Denmark,ev_stock_share,buses,EV_total,percent,,0.011,0.023,0.048,0.047,0.047,0.07,0.071,0.065,0.89,0.94,3.0,7.2,8.9,12.0,
+Denmark,ev_stock_share,cars,EV_total,percent,0.0037,0.023,0.056,0.068,0.13,0.35,0.4,0.42,0.59,0.96,2.3,5.2,7.8,11.0,17.0,
+Denmark,ev_stock_share,trucks,EV_total,percent,0.02,0.023,0.024,0.027,0.027,0.027,0.019,0.017,0.017,0.027,0.058,0.11,0.2,0.92,2.2,
+Denmark,ev_stock_share,vans,EV_total,percent,0.0014,0.0068,0.055,0.08,0.092,0.17,0.2,0.18,0.23,0.31,0.47,0.92,1.5,2.3,4.1,
+EU27,ev_charging_points,ev_total,charging_fast,charging points,,6.0,55.0,400.0,680.0,2200.0,4800.0,5700.0,9400.0,11000.0,22000.0,31000.0,55000.0,88000.0,130000.0,
+EU27,ev_charging_points,ev_total,charging_slow,charging points,400.0,1500.0,8900.0,15000.0,23000.0,42000.0,72000.0,81000.0,99000.0,140000.0,180000.0,250000.0,390000.0,510000.0,690000.0,
+EU27,ev_sales,2_3_wheelers,BEV,Vehicles,,,10000.0,7600.0,7500.0,12000.0,14000.0,24000.0,39000.0,66000.0,84000.0,110000.0,160000.0,110000.0,100000.0,
+EU27,ev_sales,2_3_wheelers,FCEV,Vehicles,,,,,,,,,,2.0,1.0,1.0,,,,
+EU27,ev_sales,2_3_wheelers,PHEV,Vehicles,,,,,,,,,,,,2.0,3.0,,,
+EU27,ev_sales,buses,BEV,Vehicles,130.0,36.0,47.0,68.0,220.0,140.0,470.0,420.0,640.0,1600.0,1800.0,3100.0,3600.0,5100.0,6500.0,
+EU27,ev_sales,buses,FCEV,Vehicles,,,,,,,27.0,11.0,,,51.0,38.0,78.0,160.0,320.0,
+EU27,ev_sales,buses,PHEV,Vehicles,,,,,2.0,5.0,150.0,34.0,54.0,51.0,67.0,140.0,72.0,140.0,140.0,
+EU27,ev_sales,cars,BEV,Vehicles,1100.0,7100.0,12000.0,21000.0,33000.0,49000.0,54000.0,84000.0,130000.0,250000.0,540000.0,890000.0,1100000.0,1600000.0,1500000.0,
+EU27,ev_sales,cars,FCEV,Vehicles,,,,19.0,23.0,170.0,180.0,270.0,160.0,480.0,810.0,810.0,1200.0,810.0,1100.0,
+EU27,ev_sales,cars,PHEV,Vehicles,91.0,360.0,7500.0,24000.0,24000.0,43000.0,86000.0,100000.0,110000.0,140000.0,510000.0,870000.0,880000.0,820000.0,770000.0,
+EU27,ev_sales,trucks,BEV,Vehicles,26.0,11.0,10.0,16.0,32.0,18.0,54.0,41.0,380.0,790.0,1000.0,1400.0,2400.0,8200.0,8100.0,
+EU27,ev_sales,trucks,FCEV,Vehicles,,,,,,,,,,4.0,4.0,9.0,14.0,41.0,140.0,
+EU27,ev_sales,trucks,PHEV,Vehicles,,,,,,13.0,3.0,4.0,4.0,4.0,3.0,16.0,15.0,37.0,21.0,
+EU27,ev_sales,vans,BEV,Vehicles,780.0,1800.0,6300.0,6600.0,6900.0,7800.0,10000.0,13000.0,19000.0,21000.0,26000.0,41000.0,60000.0,92000.0,80000.0,
+EU27,ev_sales,vans,FCEV,Vehicles,2.0,,,1.0,4.0,53.0,99.0,26.0,94.0,,9.0,27.0,3.0,64.0,270.0,
+EU27,ev_sales,vans,PHEV,Vehicles,,,11.0,5.0,2.0,110.0,81.0,27.0,43.0,41.0,520.0,2100.0,2600.0,2100.0,3000.0,
+EU27,ev_sales_share,2_3_wheelers,EV_total,percent,,,0.76,0.66,0.69,1.0,1.2,2.0,3.3,5.0,6.1,7.5,11.0,7.4,6.3,
+EU27,ev_sales_share,buses,EV_total,percent,0.4,0.11,0.15,0.22,0.7,0.39,1.7,1.2,1.7,4.0,6.4,10.0,12.0,15.0,18.0,
+EU27,ev_sales_share,cars,EV_total,percent,0.01,0.066,0.19,0.47,0.56,0.81,1.1,1.5,1.9,2.9,10.0,18.0,21.0,22.0,21.0,
+EU27,ev_sales_share,trucks,EV_total,percent,0.012,0.004,0.0039,0.0062,0.013,0.011,0.018,0.014,0.11,0.23,0.4,0.47,0.79,2.3,2.4,
+EU27,ev_sales_share,vans,EV_total,percent,0.063,0.13,0.56,0.61,0.58,0.63,0.74,0.88,1.2,1.3,2.0,2.9,5.2,6.8,5.4,
+EU27,ev_stock,2_3_wheelers,BEV,Vehicles,110.0,17000.0,28000.0,36000.0,43000.0,54000.0,73000.0,98000.0,150000.0,220000.0,320000.0,430000.0,600000.0,660000.0,740000.0,
+EU27,ev_stock,2_3_wheelers,FCEV,Vehicles,,,,,,4.0,7.0,15.0,14.0,12.0,14.0,12.0,12.0,11.0,4.0,
+EU27,ev_stock,2_3_wheelers,PHEV,Vehicles,,,,,,,,,,,,2.0,5.0,5.0,5.0,
+EU27,ev_stock,buses,BEV,Vehicles,1900.0,1900.0,1500.0,1000.0,810.0,1200.0,1500.0,1900.0,1900.0,3800.0,5700.0,8200.0,11000.0,17000.0,23000.0,
+EU27,ev_stock,buses,FCEV,Vehicles,,,,,,13.0,26.0,19.0,19.0,45.0,90.0,170.0,180.0,360.0,670.0,
+EU27,ev_stock,buses,PHEV,Vehicles,,,,,32.0,110.0,310.0,400.0,500.0,690.0,710.0,940.0,910.0,790.0,860.0,
+EU27,ev_stock,cars,BEV,Vehicles,4900.0,12000.0,23000.0,44000.0,75000.0,120000.0,170000.0,250000.0,370000.0,610000.0,1100000.0,2000000.0,3000000.0,4700000.0,6000000.0,
+EU27,ev_stock,cars,FCEV,Vehicles,1.0,1.0,1.0,4.0,20.0,210.0,320.0,730.0,840.0,1500.0,2200.0,3000.0,4100.0,4600.0,5400.0,
+EU27,ev_stock,cars,PHEV,Vehicles,40.0,430.0,7900.0,33000.0,57000.0,130000.0,190000.0,290000.0,390000.0,500000.0,1000000.0,1900000.0,2700000.0,3500000.0,4200000.0,
+EU27,ev_stock,trucks,BEV,Vehicles,97.0,110.0,140.0,160.0,170.0,160.0,210.0,250.0,540.0,380.0,500.0,1500.0,2700.0,14000.0,22000.0,
+EU27,ev_stock,trucks,FCEV,Vehicles,,,,,,5.0,2.0,2.0,2.0,5.0,9.0,17.0,30.0,73.0,220.0,
+EU27,ev_stock,trucks,PHEV,Vehicles,,,,,,36.0,39.0,52.0,66.0,57.0,51.0,48.0,64.0,100.0,150.0,
+EU27,ev_stock,vans,BEV,Vehicles,2900.0,5100.0,12000.0,18000.0,25000.0,34000.0,45000.0,59000.0,78000.0,99000.0,120000.0,170000.0,210000.0,300000.0,390000.0,
+EU27,ev_stock,vans,FCEV,Vehicles,2.0,2.0,3.0,3.0,4.0,61.0,160.0,180.0,280.0,280.0,300.0,320.0,310.0,380.0,640.0,
+EU27,ev_stock,vans,PHEV,Vehicles,210.0,260.0,310.0,370.0,450.0,740.0,1200.0,1800.0,2700.0,4600.0,6100.0,4100.0,5600.0,8500.0,11000.0,
+EU27,ev_stock_share,2_3_wheelers,EV_total,percent,0.00033,0.052,0.086,0.11,0.13,0.16,0.22,0.29,0.44,0.71,1.0,1.4,1.9,2.1,2.3,
+EU27,ev_stock_share,buses,EV_total,percent,0.3,0.3,0.24,0.17,0.14,0.21,0.29,0.36,0.38,0.71,1.0,1.5,2.0,2.7,3.7,
+EU27,ev_stock_share,cars,EV_total,percent,0.0024,0.006,0.015,0.035,0.06,0.11,0.16,0.23,0.33,0.48,0.91,1.6,2.4,3.4,4.4,
+EU27,ev_stock_share,trucks,EV_total,percent,0.0022,0.0024,0.003,0.0035,0.0038,0.0044,0.0053,0.0059,0.012,0.0087,0.011,0.031,0.052,0.27,0.45,
+EU27,ev_stock_share,vans,EV_total,percent,0.013,0.021,0.047,0.074,0.1,0.13,0.18,0.23,0.31,0.39,0.48,0.63,0.79,1.1,1.5,
+Estonia,ev_sales,cars,BEV,Vehicles,,,,,,34.0,35.0,26.0,85.0,80.0,340.0,480.0,730.0,1400.0,1300.0,
+Estonia,ev_sales,cars,PHEV,Vehicles,,,,,,,,20.0,33.0,17.0,75.0,240.0,430.0,560.0,1300.0,
+Estonia,ev_sales_share,cars,EV_total,percent,,,,,,0.16,0.15,0.18,0.46,0.36,1.8,3.2,5.4,8.8,10.0,
+Europe,battery_demand,2_3_wheelers,EV_total,GWh,0.0017,0.0014,0.035,0.025,0.028,0.043,0.057,0.092,0.14,0.23,0.29,0.38,0.56,0.61,0.7,3.4
+Europe,battery_demand,buses,EV_total,GWh,0.029,0.0091,0.015,0.026,0.053,0.047,0.16,0.14,0.25,0.63,0.69,1.3,1.6,2.5,2.9,14.0
+Europe,battery_demand,cars,EV_total,GWh,0.06,0.38,0.73,1.4,2.5,3.8,4.7,7.5,11.0,23.0,51.0,87.0,120.0,160.0,170.0,660.0
+Europe,battery_demand,trucks,EV_total,GWh,0.0036,0.0018,0.0019,0.0023,0.0048,0.0031,0.0092,0.0073,0.049,0.086,0.14,0.26,0.65,1.9,2.4,52.0
+Europe,battery_demand,vans,EV_total,GWh,0.035,0.056,0.16,0.17,0.19,0.23,0.27,0.38,0.79,1.0,1.5,2.9,5.1,8.7,6.8,65.0
+Europe,electricity_demand,2_3_wheelers,EV_total,GWh,,,,,,,,,,,,,,,180.0,830.0
+Europe,electricity_demand,buses,EV_total,GWh,,,,,,,,,,,,,,,1700.0,11000.0
+Europe,electricity_demand,cars,EV_total,GWh,,,,,,,,,,,,,,,26000.0,82000.0
+Europe,electricity_demand,trucks,EV_total,GWh,,,,,,,,,,,,,,,2100.0,44000.0
+Europe,electricity_demand,vans,EV_total,GWh,,,,,,,,,,,,,,,4100.0,30000.0
+Europe,ev_charging_points,ev_total,charging_fast,charging points,,24.0,120.0,600.0,1100.0,3300.0,6500.0,8200.0,13000.0,17000.0,33000.0,45000.0,77000.0,120000.0,180000.0,710000.0
+Europe,ev_charging_points,ev_total,charging_slow,charging points,3200.0,6100.0,16000.0,25000.0,37000.0,59000.0,94000.0,110000.0,130000.0,170000.0,220000.0,300000.0,460000.0,610000.0,810000.0,1600000.0
+Europe,ev_sales,2_3_wheelers,BEV,Vehicles,560.0,480.0,12000.0,8400.0,9400.0,14000.0,19000.0,31000.0,47000.0,76000.0,96000.0,120000.0,180000.0,200000.0,230000.0,970000.0
+Europe,ev_sales,2_3_wheelers,FCEV,Vehicles,,,,,,,,,,2.0,1.0,1.0,,,,
+Europe,ev_sales,2_3_wheelers,PHEV,Vehicles,,,,,17.0,18.0,11.0,,,,,2.0,3.0,,,
+Europe,ev_sales,buses,BEV,Vehicles,130.0,38.0,68.0,120.0,310.0,190.0,570.0,570.0,800.0,2000.0,2400.0,3900.0,4900.0,8300.0,9600.0,46000.0
+Europe,ev_sales,buses,FCEV,Vehicles,,,,,,,52.0,16.0,20.0,,69.0,53.0,140.0,210.0,400.0,1700.0
+Europe,ev_sales,buses,PHEV,Vehicles,,,,,2.0,5.0,280.0,52.0,140.0,94.0,130.0,140.0,73.0,140.0,150.0,420.0
+Europe,ev_sales,cars,BEV,Vehicles,1700.0,11000.0,19000.0,33000.0,62000.0,89000.0,93000.0,140000.0,200000.0,360000.0,750000.0,1200000.0,1600000.0,2200000.0,2200000.0,8000000.0
+Europe,ev_sales,cars,FCEV,Vehicles,11.0,,,19.0,27.0,200.0,230.0,330.0,280.0,600.0,890.0,920.0,1300.0,870.0,1100.0,4400.0
+Europe,ev_sales,cars,PHEV,Vehicles,110.0,410.0,9200.0,26000.0,34000.0,73000.0,140000.0,180000.0,190000.0,210000.0,630000.0,1100000.0,1000000.0,1000000.0,980000.0,1500000.0
+Europe,ev_sales,trucks,BEV,Vehicles,36.0,18.0,19.0,24.0,46.0,30.0,62.0,47.0,390.0,850.0,1100.0,1800.0,3600.0,11000.0,12000.0,130000.0
+Europe,ev_sales,trucks,FCEV,Vehicles,,,,,,,,,,4.0,27.0,69.0,16.0,41.0,160.0,4200.0
+Europe,ev_sales,trucks,PHEV,Vehicles,,,,,,13.0,3.0,4.0,4.0,4.0,4.0,16.0,15.0,37.0,21.0,6300.0
+Europe,ev_sales,vans,BEV,Vehicles,1000.0,2000.0,6900.0,7400.0,8300.0,9600.0,12000.0,15000.0,23000.0,27000.0,35000.0,57000.0,86000.0,130000.0,110000.0,930000.0
+Europe,ev_sales,vans,FCEV,Vehicles,2.0,,,1.0,4.0,53.0,99.0,26.0,94.0,,9.0,27.0,3.0,64.0,270.0,16000.0
+Europe,ev_sales,vans,PHEV,Vehicles,,,11.0,5.0,6.0,200.0,160.0,120.0,190.0,260.0,1100.0,3500.0,3300.0,2400.0,5500.0,54000.0
+Europe,ev_sales_share,2_3_wheelers,EV_total,percent,0.028,0.026,0.68,0.56,0.64,0.94,1.2,1.9,3.0,4.5,5.3,6.5,9.4,8.0,8.0,
+Europe,ev_sales_share,buses,EV_total,percent,0.19,0.05,0.088,0.14,0.36,0.18,0.92,0.67,1.1,2.8,4.7,6.7,9.3,11.0,13.0,40.0
+Europe,ev_sales_share,cars,EV_total,percent,0.012,0.074,0.2,0.43,0.68,1.0,1.4,1.8,2.3,3.3,10.0,17.0,21.0,22.0,22.0,58.0
+Europe,ev_sales_share,trucks,EV_total,percent,0.011,0.0042,0.0049,0.0061,0.012,0.0099,0.014,0.011,0.086,0.19,0.29,0.41,0.8,2.0,2.3,24.0
+Europe,ev_sales_share,vans,EV_total,percent,0.057,0.1,0.41,0.45,0.48,0.51,0.58,0.7,1.1,1.3,2.0,2.8,5.1,6.3,5.3,50.0
+Europe,ev_stock,2_3_wheelers,BEV,Vehicles,1800.0,19000.0,31000.0,39000.0,48000.0,61000.0,85000.0,120000.0,170000.0,260000.0,360000.0,500000.0,690000.0,840000.0,1000000.0,5000000.0
+Europe,ev_stock,2_3_wheelers,FCEV,Vehicles,,,,,,4.0,7.0,15.0,14.0,12.0,14.0,12.0,12.0,11.0,4.0,
+Europe,ev_stock,2_3_wheelers,PHEV,Vehicles,,,,,,27.0,,,,,,2.0,5.0,51.0,51.0,
+Europe,ev_stock,buses,BEV,Vehicles,6300.0,6400.0,5700.0,5200.0,4500.0,4600.0,5100.0,2700.0,2900.0,5100.0,7600.0,10000.0,15000.0,23000.0,33000.0,210000.0
+Europe,ev_stock,buses,FCEV,Vehicles,6.0,,,,,13.0,30.0,29.0,49.0,65.0,120.0,190.0,250.0,560.0,950.0,6500.0
+Europe,ev_stock,buses,PHEV,Vehicles,,,,,32.0,110.0,450.0,560.0,740.0,970.0,1000.0,1300.0,1300.0,1100.0,1200.0,3000.0
+Europe,ev_stock,cars,BEV,Vehicles,9800.0,20000.0,37000.0,68000.0,130000.0,210000.0,300000.0,430000.0,620000.0,970000.0,1700000.0,2900000.0,4400000.0,6700000.0,8700000.0,35000000.0
+Europe,ev_stock,cars,FCEV,Vehicles,21.0,21.0,21.0,22.0,27.0,240.0,400.0,870.0,1100.0,2000.0,2700.0,3600.0,4800.0,5400.0,6100.0,32000.0
+Europe,ev_stock,cars,PHEV,Vehicles,63.0,510.0,9700.0,36000.0,70000.0,170000.0,290000.0,450000.0,630000.0,800000.0,1400000.0,2500000.0,3400000.0,4500000.0,5400000.0,15000000.0
+Europe,ev_stock,trucks,BEV,Vehicles,1000.0,970.0,860.0,760.0,690.0,600.0,630.0,630.0,910.0,760.0,880.0,2200.0,4400.0,19000.0,30000.0,460000.0
+Europe,ev_stock,trucks,FCEV,Vehicles,,,,,,5.0,2.0,2.0,2.0,5.0,9.0,17.0,30.0,160.0,320.0,17000.0
+Europe,ev_stock,trucks,PHEV,Vehicles,,,,,,36.0,39.0,52.0,66.0,57.0,52.0,50.0,69.0,100.0,160.0,12000.0
+Europe,ev_stock,vans,BEV,Vehicles,6700.0,8700.0,15000.0,22000.0,30000.0,40000.0,53000.0,69000.0,92000.0,120000.0,150000.0,210000.0,280000.0,410000.0,530000.0,3900000.0
+Europe,ev_stock,vans,FCEV,Vehicles,6.0,6.0,7.0,7.0,8.0,65.0,160.0,190.0,280.0,280.0,310.0,330.0,320.0,380.0,640.0,55000.0
+Europe,ev_stock,vans,PHEV,Vehicles,210.0,260.0,310.0,370.0,450.0,840.0,1400.0,2000.0,3200.0,5200.0,7300.0,6900.0,9000.0,12000.0,17000.0,210000.0
+Europe,ev_stock_share,2_3_wheelers,EV_total,percent,0.0045,0.047,0.078,0.098,0.12,0.15,0.21,0.28,0.42,0.66,0.93,1.3,1.7,2.1,2.6,
+Europe,ev_stock_share,buses,EV_total,percent,0.45,0.45,0.4,0.37,0.32,0.31,0.37,0.21,0.24,0.4,0.58,0.78,1.1,1.6,2.2,12.0
+Europe,ev_stock_share,cars,EV_total,percent,0.0038,0.0076,0.017,0.038,0.071,0.13,0.21,0.3,0.43,0.6,1.1,1.8,2.5,3.6,4.7,15.0
+Europe,ev_stock_share,trucks,EV_total,percent,0.016,0.014,0.013,0.011,0.01,0.0095,0.0098,0.0095,0.014,0.011,0.013,0.03,0.061,0.25,0.42,5.0
+Europe,ev_stock_share,vans,EV_total,percent,0.023,0.028,0.049,0.069,0.091,0.12,0.16,0.2,0.27,0.35,0.43,0.58,0.76,1.1,1.4,10.0
+Europe,oil_displacement_lge,2_3_wheelers,EV_total,"Oil displacement, million lge",0.21,0.24,1.4,2.2,3.0,4.8,6.9,8.2,12.0,18.0,23.0,34.0,50.0,73.0,92.0,410.0
+Europe,oil_displacement_lge,buses,EV_total,"Oil displacement, million lge",6.4,6.4,6.5,8.0,13.0,15.0,25.0,29.0,39.0,64.0,86.0,140.0,200.0,300.0,410.0,2600.0
+Europe,oil_displacement_lge,cars,EV_total,"Oil displacement, million lge",5.5,17.0,37.0,73.0,150.0,270.0,450.0,660.0,920.0,1400.0,2000.0,3800.0,5700.0,8900.0,10000.0,30000.0
+Europe,oil_displacement_lge,trucks,EV_total,"Oil displacement, million lge",1.5,1.5,1.6,1.8,2.3,2.6,3.7,4.0,8.6,19.0,32.0,60.0,130.0,280.0,480.0,8500.0
+Europe,oil_displacement_lge,vans,EV_total,"Oil displacement, million lge",11.0,18.0,39.0,60.0,83.0,110.0,140.0,190.0,250.0,320.0,350.0,540.0,770.0,1100.0,1300.0,8500.0
+Europe,oil_displacement_mbd,2_3_wheelers,EV_total,Million barrels per day,3.6e-06,4.1e-06,2.4e-05,3.8e-05,5.2e-05,8.2e-05,0.00012,0.00014,0.0002,0.00031,0.0004,0.00059,0.00087,0.0013,0.0016,0.007
+Europe,oil_displacement_mbd,buses,EV_total,Million barrels per day,0.00011,0.00011,0.00011,0.00014,0.00022,0.00026,0.00043,0.00051,0.00066,0.0011,0.0015,0.0025,0.0035,0.0052,0.0071,0.044
+Europe,oil_displacement_mbd,cars,EV_total,Million barrels per day,9.5e-05,0.00029,0.00064,0.0013,0.0025,0.0047,0.0077,0.011,0.016,0.024,0.035,0.066,0.098,0.15,0.18,0.52
+Europe,oil_displacement_mbd,trucks,EV_total,Million barrels per day,2.5e-05,2.5e-05,2.8e-05,3.1e-05,4e-05,4.5e-05,6.4e-05,6.8e-05,0.00015,0.00033,0.00054,0.001,0.0022,0.0049,0.0083,0.15
+Europe,oil_displacement_mbd,vans,EV_total,Million barrels per day,0.0002,0.00031,0.00067,0.001,0.0014,0.0019,0.0025,0.0033,0.0043,0.0054,0.0061,0.0092,0.013,0.018,0.022,0.15
+Finland,ev_charging_points,ev_total,charging_fast,charging points,,,,17.0,26.0,130.0,140.0,140.0,220.0,390.0,430.0,790.0,1700.0,2900.0,4400.0,
+Finland,ev_charging_points,ev_total,charging_slow,charging points,,,,250.0,360.0,710.0,710.0,710.0,2000.0,3100.0,3900.0,5800.0,7700.0,9300.0,12000.0,
+Finland,ev_sales,2_3_wheelers,BEV,Vehicles,,,150.0,88.0,47.0,81.0,190.0,470.0,450.0,810.0,940.0,750.0,1200.0,840.0,880.0,
+Finland,ev_sales,buses,BEV,Vehicles,,,,,,,,2.0,1.0,40.0,25.0,190.0,280.0,110.0,320.0,
+Finland,ev_sales,cars,BEV,Vehicles,,30.0,51.0,50.0,180.0,240.0,220.0,500.0,780.0,1900.0,4200.0,10000.0,15000.0,30000.0,22000.0,
+Finland,ev_sales,cars,FCEV,Vehicles,,,,,,,,,,,,1.0,,,,
+Finland,ev_sales,cars,PHEV,Vehicles,,,130.0,170.0,260.0,420.0,1200.0,2600.0,4900.0,6000.0,13000.0,20000.0,16000.0,18000.0,15000.0,
+Finland,ev_sales,trucks,BEV,Vehicles,,,,,,,,2.0,,2.0,5.0,3.0,19.0,76.0,62.0,
+Finland,ev_sales,vans,BEV,Vehicles,,,,,,,,49.0,55.0,60.0,170.0,340.0,680.0,1600.0,1300.0,
+Finland,ev_sales,vans,PHEV,Vehicles,,,,,,,,,,,39.0,38.0,27.0,14.0,21.0,
+Finland,ev_sales_share,2_3_wheelers,EV_total,percent,,,0.83,0.71,0.43,0.78,2.2,4.5,5.5,9.3,8.8,9.2,14.0,13.0,13.0,
+Finland,ev_sales_share,buses,EV_total,percent,,,,,,,,0.39,0.2,6.8,8.8,49.0,66.0,43.0,57.0,
+Finland,ev_sales_share,cars,EV_total,percent,,0.025,0.17,0.21,0.41,0.6,1.2,2.5,4.6,6.7,18.0,30.0,37.0,54.0,50.0,
+Finland,ev_sales_share,trucks,EV_total,percent,,,,,,,,0.05,,0.043,0.13,0.076,0.57,1.9,1.8,
+Finland,ev_sales_share,vans,EV_total,percent,,,,,,,,0.32,0.35,0.41,1.6,2.8,6.4,15.0,11.0,
+Finland,ev_stock,2_3_wheelers,BEV,Vehicles,,,,88.0,140.0,220.0,410.0,880.0,1300.0,2700.0,3500.0,4200.0,4700.0,6000.0,6900.0,
+Finland,ev_stock,buses,BEV,Vehicles,,,,,,,13.0,22.0,21.0,62.0,87.0,270.0,550.0,640.0,960.0,
+Finland,ev_stock,buses,PHEV,Vehicles,,,,,,,13.0,22.0,21.0,62.0,,2.0,2.0,2.0,,
+Finland,ev_stock,cars,BEV,Vehicles,,56.0,110.0,170.0,360.0,610.0,840.0,1400.0,2400.0,4700.0,9700.0,23000.0,45000.0,84000.0,110000.0,
+Finland,ev_stock,cars,FCEV,Vehicles,,,,,,,,,,1.0,1.0,1.0,2.0,2.0,1.0,
+Finland,ev_stock,cars,PHEV,Vehicles,,,130.0,300.0,570.0,970.0,2400.0,5700.0,13000.0,25000.0,46000.0,77000.0,100000.0,140000.0,150000.0,
+Finland,ev_stock,trucks,BEV,Vehicles,,,,,,,,,,2.0,7.0,9.0,25.0,110.0,170.0,
+Finland,ev_stock,vans,BEV,Vehicles,,,,,,,,210.0,260.0,310.0,440.0,800.0,1600.0,3200.0,4200.0,
+Finland,ev_stock,vans,PHEV,Vehicles,,,,,,,,,,39.0,110.0,180.0,260.0,290.0,140.0,
+Finland,ev_stock_share,2_3_wheelers,EV_total,percent,,,,0.021,0.033,0.052,0.098,0.21,0.32,0.64,0.83,1.0,1.2,1.5,1.8,
+Finland,ev_stock_share,buses,EV_total,percent,,,,,,,0.24,0.41,0.38,1.1,0.78,2.4,4.9,5.8,8.6,
+Finland,ev_stock_share,cars,EV_total,percent,,0.0019,0.008,0.016,0.032,0.054,0.11,0.24,0.51,0.95,1.8,3.2,4.7,7.0,8.3,
+Finland,ev_stock_share,trucks,EV_total,percent,,,,,,,,,,0.0023,0.0081,0.01,0.029,0.12,0.19,
+Finland,ev_stock_share,vans,EV_total,percent,,,,,,,,0.067,0.081,0.11,0.17,0.3,0.57,1.1,1.4,
+Greece,ev_charging_points,ev_total,charging_fast,charging points,,,,,2.0,2.0,,,1.0,1.0,8.0,28.0,280.0,260.0,1000.0,
+Greece,ev_charging_points,ev_total,charging_slow,charging points,,,,,120.0,14.0,15.0,22.0,31.0,63.0,220.0,1200.0,2800.0,4900.0,5000.0,
+Greece,ev_sales,2_3_wheelers,BEV,Vehicles,,,36.0,23.0,30.0,19.0,28.0,30.0,32.0,120.0,160.0,660.0,1100.0,950.0,1100.0,
+Greece,ev_sales,cars,BEV,Vehicles,,,,3.0,39.0,35.0,41.0,50.0,88.0,190.0,680.0,2200.0,2800.0,7000.0,8700.0,
+Greece,ev_sales,cars,PHEV,Vehicles,,,,,,22.0,56.0,140.0,210.0,290.0,1500.0,4800.0,5500.0,10000.0,8300.0,
+Greece,ev_sales_share,2_3_wheelers,EV_total,percent,,,0.079,0.059,0.076,0.046,0.061,0.093,0.092,0.3,0.46,1.5,2.0,1.5,1.5,
+Greece,ev_sales_share,cars,EV_total,percent,,,,0.0051,0.055,0.075,0.12,0.22,0.29,0.42,2.7,6.9,7.9,13.0,12.0,
+Greece,ev_stock,2_3_wheelers,BEV,Vehicles,,,36.0,59.0,89.0,110.0,140.0,170.0,200.0,320.0,480.0,1100.0,2200.0,3200.0,4200.0,
+Greece,ev_stock,cars,BEV,Vehicles,,,,3.0,42.0,97.0,140.0,190.0,280.0,470.0,1100.0,3300.0,7400.0,13000.0,18000.0,
+Greece,ev_stock,cars,PHEV,Vehicles,,,,,,22.0,78.0,220.0,440.0,730.0,2200.0,7000.0,12000.0,21000.0,27000.0,
+Greece,ev_stock_share,2_3_wheelers,EV_total,percent,,,0.002,0.0033,0.0049,0.0058,0.0074,0.0092,0.012,0.018,0.028,0.068,0.13,0.2,0.27,
+Greece,ev_stock_share,cars,EV_total,percent,,,,6.8e-05,0.00096,0.0027,0.005,0.0096,0.017,0.029,0.083,0.26,0.52,0.89,1.2,
+Hungary,ev_sales,cars,BEV,Vehicles,,,,,,120.0,170.0,750.0,1300.0,1800.0,3000.0,4300.0,4700.0,5800.0,8600.0,
+Hungary,ev_sales,cars,PHEV,Vehicles,,,,,,15.0,170.0,440.0,770.0,1100.0,3000.0,4200.0,4900.0,5500.0,5700.0,
+Hungary,ev_sales_share,cars,EV_total,percent,,,,,,0.17,0.36,1.0,1.5,1.9,4.7,7.0,8.6,11.0,12.0,
+Iceland,ev_charging_points,ev_total,charging_fast,charging points,,,,,,20.0,40.0,36.0,55.0,150.0,210.0,120.0,180.0,410.0,940.0,
+Iceland,ev_charging_points,ev_total,charging_slow,charging points,,,,,,11.0,11.0,32.0,40.0,110.0,290.0,560.0,850.0,1400.0,2100.0,
+Iceland,ev_sales,2_3_wheelers,BEV,Vehicles,1.0,2.0,6.0,,,1.0,6.0,8.0,1.0,25.0,300.0,61.0,37.0,41.0,27.0,
+Iceland,ev_sales,cars,BEV,Vehicles,,,17.0,80.0,200.0,390.0,380.0,840.0,780.0,1100.0,2500.0,4200.0,6900.0,10000.0,2700.0,
+Iceland,ev_sales,cars,FCEV,Vehicles,11.0,,,,,,,,16.0,7.0,1.0,3.0,,1.0,,
+Iceland,ev_sales,cars,PHEV,Vehicles,,,9.0,23.0,29.0,170.0,780.0,2200.0,2900.0,2000.0,2400.0,4900.0,5100.0,2400.0,1600.0,
+Iceland,ev_sales_share,2_3_wheelers,EV_total,percent,0.088,0.17,2.1,,,0.25,3.0,2.9,0.33,11.0,56.0,16.0,9.1,5.0,4.5,
+Iceland,ev_sales_share,cars,EV_total,percent,,,0.33,1.4,2.4,3.9,6.3,14.0,20.0,26.0,52.0,70.0,69.0,71.0,42.0,
+Iceland,ev_stock,2_3_wheelers,BEV,Vehicles,29.0,31.0,37.0,37.0,37.0,37.0,42.0,48.0,49.0,83.0,390.0,460.0,490.0,520.0,550.0,
+Iceland,ev_stock,cars,BEV,Vehicles,14.0,14.0,31.0,110.0,240.0,570.0,960.0,1700.0,2400.0,3500.0,5400.0,8500.0,14000.0,22000.0,25000.0,
+Iceland,ev_stock,cars,FCEV,Vehicles,20.0,20.0,20.0,18.0,3.0,4.0,3.0,2.0,17.0,31.0,30.0,31.0,31.0,27.0,,
+Iceland,ev_stock,cars,PHEV,Vehicles,,,9.0,32.0,52.0,140.0,600.0,2200.0,5600.0,7500.0,9600.0,13000.0,19000.0,22000.0,28000.0,
+Iceland,ev_stock_share,2_3_wheelers,EV_total,percent,0.2,0.21,0.25,0.26,0.26,0.26,0.31,0.35,0.37,0.63,3.0,3.4,3.7,3.8,4.1,
+Iceland,ev_stock_share,cars,EV_total,percent,0.0067,0.0067,0.019,0.067,0.15,0.36,0.75,1.7,3.4,4.7,6.5,9.3,14.0,18.0,18.0,
+Ireland,ev_sales,cars,BEV,Vehicles,,,,,,470.0,390.0,620.0,1200.0,3400.0,4000.0,8600.0,16000.0,23000.0,17000.0,
+Ireland,ev_sales,cars,PHEV,Vehicles,,,,,,120.0,300.0,330.0,740.0,1300.0,2500.0,7900.0,7700.0,10000.0,13000.0,
+Ireland,ev_sales_share,cars,EV_total,percent,,,,,,0.47,0.47,0.72,1.6,4.1,7.4,16.0,22.0,27.0,25.0,
+Israel,ev_charging_points,ev_total,charging_fast,charging points,,,,,,,,,,,,,260.0,710.0,2600.0,
+Israel,ev_charging_points,ev_total,charging_slow,charging points,,,,,,,,,,,,,2500.0,4200.0,6500.0,
+Israel,ev_sales,2_3_wheelers,BEV,Vehicles,11.0,61.0,140.0,150.0,150.0,140.0,140.0,280.0,380.0,250.0,360.0,450.0,470.0,830.0,1300.0,
+Israel,ev_sales,buses,BEV,Vehicles,,,,0.001,,,5.0,40.0,23.0,16.0,24.0,33.0,480.0,450.0,500.0,
+Israel,ev_sales,cars,BEV,Vehicles,,3.0,600.0,460.0,6.0,3.0,5.0,130.0,130.0,850.0,1500.0,11000.0,27000.0,49000.0,69000.0,
+Israel,ev_sales,cars,PHEV,Vehicles,,,1.0,17.0,52.0,65.0,63.0,1500.0,3600.0,3900.0,5400.0,13000.0,16000.0,16000.0,7400.0,
+Israel,ev_sales,vans,BEV,Vehicles,,,,,,,,,,,45.0,76.0,87.0,90.0,180.0,
+Israel,ev_sales,vans,PHEV,Vehicles,,,,,,,,,,,,2.0,18.0,,,
+Israel,ev_sales_share,2_3_wheelers,EV_total,percent,0.061,0.33,0.77,0.81,0.78,0.71,0.64,1.2,1.6,1.1,1.5,1.7,1.7,3.1,3.9,
+Israel,ev_sales_share,buses,EV_total,percent,,,,3.2e-05,,,0.11,0.95,0.61,0.37,0.87,0.78,10.0,9.0,12.0,
+Israel,ev_sales_share,cars,EV_total,percent,,0.0013,0.27,0.21,0.022,0.024,0.022,0.52,1.2,1.6,2.6,6.9,12.0,17.0,21.0,
+Israel,ev_sales_share,vans,EV_total,percent,,,,,,,,,,,0.36,0.49,0.69,0.62,1.3,
+Israel,ev_stock,2_3_wheelers,BEV,Vehicles,11.0,72.0,210.0,360.0,530.0,710.0,880.0,1200.0,1600.0,1800.0,2200.0,2700.0,3200.0,3800.0,4100.0,
+Israel,ev_stock,buses,BEV,Vehicles,,,,,,,5.0,45.0,78.0,94.0,120.0,150.0,620.0,1100.0,2000.0,
+Israel,ev_stock,buses,FCEV,Vehicles,3.0,,,,,,,,,,,,,,,
+Israel,ev_stock,cars,BEV,Vehicles,6.0,85.0,610.0,1000.0,1200.0,1200.0,1200.0,1400.0,1500.0,2200.0,3800.0,15000.0,44000.0,91000.0,160000.0,
+Israel,ev_stock,cars,PHEV,Vehicles,,,1.0,18.0,70.0,140.0,200.0,1700.0,5300.0,9200.0,15000.0,28000.0,44000.0,60000.0,68000.0,
+Israel,ev_stock,vans,BEV,Vehicles,,,,,,,,,,,2.0,26.0,120.0,300.0,480.0,
+Israel,ev_stock,vans,PHEV,Vehicles,,,,,,,,,,,,,,20.0,20.0,
+Israel,ev_stock_share,2_3_wheelers,EV_total,percent,0.01,0.063,0.18,0.29,0.42,0.56,0.66,0.85,1.1,1.2,1.5,1.7,1.9,2.2,2.2,
+Israel,ev_stock_share,buses,EV_total,percent,,,,,,,0.016,0.14,0.23,0.26,0.33,0.4,1.6,2.6,4.7,
+Israel,ev_stock_share,cars,EV_total,percent,0.00033,0.0044,0.03,0.049,0.056,0.056,0.054,0.11,0.23,0.37,0.58,1.3,2.5,4.2,5.9,
+Israel,ev_stock_share,vans,EV_total,percent,,,,,,,,,,,0.0011,0.014,0.062,0.17,0.28,
+Jordan,ev_charging_points,ev_total,charging_fast,charging points,,,,,,,,,,,,80.0,83.0,120.0,180.0,
+Jordan,ev_charging_points,ev_total,charging_slow,charging points,,,,,,,,,,,,510.0,340.0,540.0,720.0,
+Latvia,ev_sales,cars,BEV,Vehicles,,,,,,17.0,22.0,22.0,73.0,86.0,310.0,410.0,1100.0,1700.0,1300.0,
+Latvia,ev_sales,cars,PHEV,Vehicles,,,,,,9.0,18.0,18.0,17.0,12.0,73.0,140.0,300.0,350.0,800.0,
+Latvia,ev_sales_share,cars,EV_total,percent,,,,,,0.19,0.24,0.24,0.53,0.54,2.6,3.9,8.1,11.0,12.0,
+Lithuania,ev_sales,cars,BEV,Vehicles,,,,,,37.0,64.0,52.0,140.0,160.0,450.0,1200.0,1400.0,2100.0,1800.0,
+Lithuania,ev_sales,cars,PHEV,Vehicles,,,,,,,,,,,,400.0,670.0,1100.0,1700.0,
+Lithuania,ev_sales_share,cars,EV_total,percent,,,,,,0.22,0.32,0.2,,0.35,1.1,5.0,7.9,11.0,12.0,
+Luxembourg,ev_sales,cars,BEV,Vehicles,,,,,,,,,,990.0,2500.0,4600.0,6400.0,11000.0,13000.0,
+Luxembourg,ev_sales,cars,PHEV,Vehicles,,,,,,,,,,910.0,2700.0,4400.0,3800.0,4800.0,3800.0,
+Luxembourg,ev_sales_share,cars,EV_total,percent,,,,,,,,,,3.5,11.0,20.0,24.0,32.0,36.0,
+Malaysia,ev_charging_points,ev_total,charging_fast,charging points,,,,,,,,,,,,,,1100.0,1300.0,
+Malaysia,ev_charging_points,ev_total,charging_slow,charging points,,,,,,,,,,,,300.0,440.0,540.0,710.0,
+Malaysia,ev_sales,2_3_wheelers,BEV,Vehicles,,,,72.0,70.0,140.0,190.0,260.0,410.0,1000.0,2200.0,2500.0,4200.0,780.0,3200.0,
+Malaysia,ev_sales,buses,BEV,Vehicles,,,,,,,15.0,,3.0,1.0,,,,,,
+Malaysia,ev_sales,cars,BEV,Vehicles,,,10.0,2.0,15.0,37.0,110.0,140.0,62.0,42.0,87.0,290.0,1300.0,9200.0,26000.0,
+Malaysia,ev_sales,cars,FCEV,Vehicles,,,,,,,,,,,,1.0,2.0,,,
+Malaysia,ev_sales,cars,PHEV,Vehicles,,,,,,,,8100.0,8000.0,2500.0,580.0,960.0,1900.0,1900.0,1300.0,
+Malaysia,ev_sales,trucks,BEV,Vehicles,,,,,,,,,,,,,,,1.0,
+Malaysia,ev_sales,vans,BEV,Vehicles,,,,,,,,,,,,,,,160.0,
+Malaysia,ev_sales_share,2_3_wheelers,EV_total,percent,,,,0.014,0.016,0.038,0.05,0.063,0.089,0.2,0.46,0.53,0.63,0.15,0.64,
+Malaysia,ev_sales_share,buses,EV_total,percent,,,,,,,0.32,,0.075,0.025,,,,,,
+Malaysia,ev_sales_share,cars,EV_total,percent,,,0.0018,0.00035,0.0025,0.0063,0.021,1.6,1.5,0.46,0.14,0.28,0.49,1.5,3.6,
+Malaysia,ev_sales_share,trucks,EV_total,percent,,,,,,,,,,,,,,,0.003,
+Malaysia,ev_sales_share,vans,EV_total,percent,,,,,,,,,,,,,,,1.1,
+Malaysia,ev_stock,2_3_wheelers,BEV,Vehicles,,270.0,270.0,340.0,410.0,550.0,740.0,1000.0,1400.0,2500.0,4700.0,7200.0,11000.0,12000.0,15000.0,
+Malaysia,ev_stock,buses,BEV,Vehicles,,,,,,17.0,32.0,32.0,35.0,36.0,36.0,36.0,36.0,19.0,19.0,
+Malaysia,ev_stock,buses,FCEV,Vehicles,,,,,,,,,,3.0,3.0,,,,,
+Malaysia,ev_stock,cars,BEV,Vehicles,,,26.0,14.0,27.0,55.0,32.0,25.0,11.0,52.0,140.0,430.0,1700.0,11000.0,37000.0,
+Malaysia,ev_stock,cars,FCEV,Vehicles,,,,,,,,,,,,,,3.0,3.0,
+Malaysia,ev_stock,cars,PHEV,Vehicles,,,,,,24.0,1800.0,8300.0,9300.0,6600.0,7200.0,8200.0,10000.0,24000.0,25000.0,
+Malaysia,ev_stock,trucks,BEV,Vehicles,,,,,,,,,,,,,,,1.0,
+Malaysia,ev_stock,vans,BEV,Vehicles,,,,,,,,,,,,,,,160.0,
+Malaysia,ev_stock_share,2_3_wheelers,EV_total,percent,,0.0034,0.0032,0.004,0.0047,0.0062,0.0082,0.011,0.015,0.026,0.048,0.073,0.11,0.11,0.14,
+Malaysia,ev_stock_share,buses,EV_total,percent,,,,,,0.02,0.037,0.037,0.041,0.042,0.043,0.044,0.045,0.024,0.025,
+Malaysia,ev_stock_share,cars,EV_total,percent,,,0.00033,0.00017,0.0003,0.00084,0.019,0.082,0.089,0.062,0.067,0.077,0.1,0.29,0.5,
+Malaysia,ev_stock_share,trucks,EV_total,percent,,,,,,,,,,,,,,,0.00016,
+Malaysia,ev_stock_share,vans,EV_total,percent,,,,,,,,,,,,,,,0.052,
+Middle East and Caspian,ev_sales,2_3_wheelers,BEV,Vehicles,,,,,4900.0,4300.0,,19.0,8.0,7.0,1.0,8.0,,,,
+Middle East and Caspian,ev_sales,buses,BEV,Vehicles,,,,,,,,,100.0,130.0,860.0,780.0,840.0,440.0,680.0,
+Middle East and Caspian,ev_sales,buses,FCEV,Vehicles,,,,,,,,,,,,2.0,,,,
+Middle East and Caspian,ev_sales,cars,BEV,Vehicles,,41.0,49.0,,,110.0,350.0,350.0,300.0,720.0,1300.0,3400.0,3600.0,10000.0,37000.0,
+Middle East and Caspian,ev_sales,cars,PHEV,Vehicles,,,,2.0,36.0,310.0,180.0,210.0,1200.0,1300.0,1100.0,1600.0,650.0,10000.0,55000.0,
+Middle East and Caspian,ev_sales,trucks,BEV,Vehicles,,,,,,,,,,,,,,50.0,1.0,
+Middle East and Caspian,ev_sales,trucks,FCEV,Vehicles,,,,,,,,,,,,,,,1.0,
+Middle East and Caspian,ev_sales,vans,BEV,Vehicles,,,,,,,2.0,2.0,6.0,7.0,2.0,1.0,1.0,25.0,57.0,
+Middle East and Caspian,ev_sales_share,2_3_wheelers,EV_total,percent,,,,,0.62,0.67,,0.0058,0.0026,0.0019,0.00022,0.0017,,,,
+Middle East and Caspian,ev_sales_share,buses,EV_total,percent,,,,,,,,,0.064,0.092,0.58,0.51,0.57,0.28,0.4,
+Middle East and Caspian,ev_sales_share,cars,EV_total,percent,,0.00074,0.00085,3.8e-05,0.00069,0.0096,0.013,0.014,0.038,0.054,0.075,0.15,0.15,0.62,2.7,
+Middle East and Caspian,ev_sales_share,trucks,EV_total,percent,,,,,,,,,,,,,,0.011,0.00021,
+Middle East and Caspian,ev_sales_share,vans,EV_total,percent,,,,,,,0.00028,0.00028,0.00088,0.00099,0.0003,0.00014,0.00013,0.0033,0.0076,
+Middle East and Caspian,ev_stock,2_3_wheelers,BEV,Vehicles,,,,,4900.0,9200.0,9200.0,9200.0,9200.0,9200.0,9200.0,9200.0,9200.0,9200.0,9200.0,
+Middle East and Caspian,ev_stock,buses,BEV,Vehicles,180.0,120.0,120.0,,,,,,,100.0,760.0,1400.0,2200.0,920.0,1300.0,
+Middle East and Caspian,ev_stock,buses,FCEV,Vehicles,,,,,,,,,,,,2.0,2.0,1.9,1.9,
+Middle East and Caspian,ev_stock,cars,BEV,Vehicles,,200.0,190.0,190.0,220.0,990.0,1300.0,1600.0,1800.0,2400.0,3100.0,6500.0,10000.0,20000.0,55000.0,
+Middle East and Caspian,ev_stock,cars,PHEV,Vehicles,,,,2.0,38.0,350.0,520.0,720.0,1900.0,3200.0,4300.0,5800.0,6400.0,17000.0,72000.0,
+Middle East and Caspian,ev_stock,trucks,BEV,Vehicles,,,,,,,,,,,,,,50.0,50.0,
+Middle East and Caspian,ev_stock,trucks,FCEV,Vehicles,,,,,,,,,,,,,,,1.0,
+Middle East and Caspian,ev_stock,vans,BEV,Vehicles,,,,,,,2.0,4.0,10.0,17.0,19.0,20.0,21.0,46.0,100.0,
+Middle East and Caspian,ev_stock_share,2_3_wheelers,EV_total,percent,,,,,0.025,0.048,0.049,0.051,0.054,0.056,0.058,0.06,0.062,0.064,0.066,
+Middle East and Caspian,ev_stock_share,buses,EV_total,percent,0.0093,0.0058,0.0051,,,,,,,0.004,0.031,0.06,0.095,0.042,0.061,
+Middle East and Caspian,ev_stock_share,cars,EV_total,percent,,0.00027,0.00025,0.00025,0.00033,0.0016,0.0022,0.0028,0.0045,0.0066,0.0088,0.015,0.019,0.044,0.15,
+Middle East and Caspian,ev_stock_share,trucks,EV_total,percent,,,,,,,,,,,,,,0.0012,0.0012,
+Middle East and Caspian,ev_stock_share,vans,EV_total,percent,,,,,,,2.5e-05,5e-05,0.00012,0.00021,0.0003,0.00031,0.00031,0.00067,0.0012,
+New Zealand,ev_charging_points,ev_total,charging_fast,charging points,,,,,,,,100.0,200.0,3.0,320.0,430.0,480.0,860.0,1100.0,
+New Zealand,ev_charging_points,ev_total,charging_slow,charging points,,,,,,,,,89.0,130.0,150.0,170.0,220.0,280.0,340.0,
+New Zealand,ev_sales,2_3_wheelers,BEV,Vehicles,14.0,17.0,9.0,10.0,10.0,47.0,15.0,41.0,41.0,280.0,340.0,600.0,860.0,760.0,360.0,
+New Zealand,ev_sales,2_3_wheelers,FCEV,Vehicles,,,,,,,,,,,,2.0,,,,
+New Zealand,ev_sales,2_3_wheelers,PHEV,Vehicles,,,,,,,,,,,1.0,,,,,
+New Zealand,ev_sales,buses,BEV,Vehicles,,2.0,1.0,,,,,1.0,11.0,13.0,17.0,75.0,110.0,100.0,170.0,
+New Zealand,ev_sales,buses,PHEV,Vehicles,,,,,,,,,,,,1.0,,,,
+New Zealand,ev_sales,cars,BEV,Vehicles,10.0,13.0,22.0,30.0,110.0,300.0,1200.0,2900.0,4400.0,5300.0,3900.0,6800.0,19000.0,21000.0,6300.0,
+New Zealand,ev_sales,cars,FCEV,Vehicles,,,,,,,,,,2.0,3.0,1.0,10.0,4.0,19.0,
+New Zealand,ev_sales,cars,PHEV,Vehicles,,2.0,5.0,6.0,210.0,200.0,340.0,540.0,1200.0,1600.0,1500.0,3500.0,9200.0,9000.0,3400.0,
+New Zealand,ev_sales,vans,BEV,Vehicles,,,,,,,,,,70.0,78.0,140.0,420.0,500.0,180.0,
+New Zealand,ev_sales,vans,PHEV,Vehicles,,,,,,,,,,,1.0,22.0,50.0,15.0,3.0,
+New Zealand,ev_sales_share,2_3_wheelers,EV_total,percent,0.16,0.19,0.11,0.11,0.098,0.53,0.18,0.42,0.38,2.3,3.0,4.3,7.8,8.0,3.9,
+New Zealand,ev_sales_share,buses,EV_total,percent,,0.25,0.12,,,,,0.04,0.43,0.53,0.9,2.9,6.0,5.4,6.6,
+New Zealand,ev_sales_share,cars,EV_total,percent,0.015,0.022,0.033,0.041,0.34,0.6,1.7,3.4,4.9,5.9,5.4,7.6,18.0,27.0,11.0,
+New Zealand,ev_sales_share,vans,EV_total,percent,,,,,,,,,,0.17,0.25,0.35,1.2,1.7,0.55,
+New Zealand,ev_stock,2_3_wheelers,BEV,Vehicles,140.0,150.0,160.0,170.0,180.0,230.0,240.0,280.0,330.0,700.0,1000.0,1600.0,2200.0,2900.0,2900.0,
+New Zealand,ev_stock,2_3_wheelers,FCEV,Vehicles,,,,,,,,,,,,2.0,2.0,2.0,2.0,
+New Zealand,ev_stock,2_3_wheelers,PHEV,Vehicles,,,,,,,,,,1.0,1.0,1.0,1.0,1.0,1.0,
+New Zealand,ev_stock,buses,BEV,Vehicles,62.0,64.0,65.0,65.0,65.0,65.0,65.0,66.0,77.0,100.0,120.0,170.0,260.0,370.0,610.0,
+New Zealand,ev_stock,buses,PHEV,Vehicles,,,,,,,,,,,,1.0,1.0,1.0,1.0,
+New Zealand,ev_stock,cars,BEV,Vehicles,14.0,27.0,49.0,79.0,190.0,490.0,1600.0,4600.0,8900.0,13000.0,17000.0,26000.0,46000.0,65000.0,78000.0,
+New Zealand,ev_stock,cars,FCEV,Vehicles,,,,,,,,,,2.0,5.0,6.0,16.0,20.0,38.0,
+New Zealand,ev_stock,cars,PHEV,Vehicles,,2.0,7.0,13.0,220.0,420.0,760.0,1300.0,2500.0,4400.0,5900.0,9400.0,19000.0,27000.0,35000.0,
+New Zealand,ev_stock,vans,BEV,Vehicles,,,,,,,,,,780.0,850.0,980.0,1400.0,1800.0,2000.0,
+New Zealand,ev_stock,vans,FCEV,Vehicles,,,,,,,,,,,,6.0,6.0,,,
+New Zealand,ev_stock,vans,PHEV,Vehicles,,,,,,,,,,,1.0,25.0,74.0,88.0,150.0,
+New Zealand,ev_stock_share,2_3_wheelers,EV_total,percent,0.09,0.096,0.097,0.097,0.097,0.12,0.12,0.15,0.17,0.35,0.49,0.74,1.0,1.3,1.3,
+New Zealand,ev_stock_share,buses,EV_total,percent,0.29,0.3,0.3,0.3,0.29,0.28,0.27,0.25,0.28,0.36,0.41,0.57,0.84,1.1,1.0,
+New Zealand,ev_stock_share,cars,EV_total,percent,0.00048,0.001,0.0019,0.0032,0.014,0.03,0.079,0.19,0.36,0.56,0.74,1.1,2.0,2.6,3.3,
+New Zealand,ev_stock_share,vans,EV_total,percent,,,,,,,,,,0.13,0.14,0.15,0.22,0.26,0.28,
+North America,ev_sales,2_3_wheelers,BEV,Vehicles,,,780.0,940.0,1200.0,1500.0,1800.0,2400.0,4600.0,10000.0,11000.0,12000.0,13000.0,12000.0,12000.0,
+North America,ev_sales,buses,BEV,Vehicles,,,,,21.0,44.0,330.0,150.0,470.0,620.0,680.0,540.0,1000.0,3700.0,2900.0,
+North America,ev_sales,buses,FCEV,Vehicles,,,,,,,,,,,22.0,15.0,140.0,120.0,180.0,
+North America,ev_sales,buses,PHEV,Vehicles,,,,,,550.0,,,,,,,,,,
+North America,ev_sales,cars,BEV,Vehicles,1200.0,9800.0,15000.0,48000.0,63000.0,71000.0,87000.0,100000.0,240000.0,240000.0,230000.0,470000.0,800000.0,1100000.0,1300000.0,
+North America,ev_sales,cars,FCEV,Vehicles,,,,,55.0,100.0,1100.0,2300.0,2700.0,2000.0,1200.0,3100.0,2700.0,3000.0,630.0,
+North America,ev_sales,cars,PHEV,Vehicles,,8000.0,39000.0,49000.0,55000.0,43000.0,73000.0,95000.0,120000.0,86000.0,66000.0,170000.0,190000.0,300000.0,330000.0,
+North America,ev_sales,trucks,BEV,Vehicles,,180.0,6.0,8.0,3.0,30.0,130.0,23.0,90.0,180.0,240.0,240.0,420.0,1900.0,1800.0,
+North America,ev_sales,trucks,FCEV,Vehicles,,,,,,,,,,,,,,95.0,170.0,
+North America,ev_sales,trucks,PHEV,Vehicles,,,,,,,,,,,,,,1.0,1.0,
+North America,ev_sales,vans,BEV,Vehicles,10.0,180.0,820.0,1100.0,1500.0,1100.0,,,,,57.0,510.0,9600.0,18000.0,29000.0,
+North America,ev_sales,vans,FCEV,Vehicles,,,,49.0,81.0,81.0,,,,,,,,,,
+North America,ev_sales,vans,PHEV,Vehicles,,,,,,550.0,,,,,,,,,,
+North America,ev_sales_share,2_3_wheelers,EV_total,percent,,,0.086,0.11,0.11,0.13,0.15,0.19,0.33,0.69,0.7,0.67,0.67,0.6,0.6,
+North America,ev_sales_share,buses,EV_total,percent,,,,,0.021,0.57,0.19,0.11,0.35,0.61,0.78,0.64,1.0,4.3,3.3,
+North America,ev_sales_share,cars,EV_total,percent,0.011,0.14,0.4,0.66,0.73,0.66,0.91,1.2,2.1,2.0,2.2,4.5,7.0,8.9,9.7,
+North America,ev_sales_share,trucks,EV_total,percent,,0.032,0.00096,0.0012,0.00042,0.0038,0.017,0.0029,0.01,0.02,0.03,0.027,0.046,0.21,0.19,
+North America,ev_sales_share,vans,EV_total,percent,0.0014,0.026,0.1,0.15,0.15,0.15,,,,,0.0048,0.042,0.97,2.2,3.5,
+North America,ev_stock,2_3_wheelers,BEV,Vehicles,,,780.0,1700.0,2900.0,4400.0,6100.0,8600.0,13000.0,23000.0,33000.0,45000.0,57000.0,69000.0,81000.0,
+North America,ev_stock,buses,BEV,Vehicles,,190.0,200.0,210.0,230.0,310.0,820.0,1000.0,1600.0,2200.0,2800.0,2900.0,3900.0,7500.0,9500.0,
+North America,ev_stock,buses,FCEV,Vehicles,,,,12.0,60.0,180.0,330.0,480.0,490.0,500.0,520.0,540.0,680.0,790.0,520.0,
+North America,ev_stock,buses,PHEV,Vehicles,,,,,,550.0,550.0,550.0,550.0,550.0,550.0,550.0,550.0,550.0,550.0,
+North America,ev_stock,cars,BEV,Vehicles,3800.0,14000.0,28000.0,76000.0,140000.0,210000.0,300000.0,400000.0,640000.0,880000.0,1100000.0,1500000.0,2100000.0,3500000.0,4800000.0,
+North America,ev_stock,cars,FCEV,Vehicles,,,,,55.0,160.0,1200.0,3500.0,6200.0,8200.0,9200.0,12000.0,15000.0,18000.0,19000.0,
+North America,ev_stock,cars,PHEV,Vehicles,,8000.0,47000.0,96000.0,150000.0,190000.0,270000.0,360000.0,490000.0,570000.0,650000.0,730000.0,920000.0,1300000.0,1600000.0,
+North America,ev_stock,trucks,BEV,Vehicles,,180.0,180.0,190.0,190.0,220.0,350.0,380.0,470.0,650.0,890.0,1100.0,1500.0,3400.0,220.0,
+North America,ev_stock,trucks,FCEV,Vehicles,,,,,,,,,,,,,,95.0,95.0,
+North America,ev_stock,trucks,PHEV,Vehicles,,,,,,,,,,,,,,1.0,,
+North America,ev_stock,vans,BEV,Vehicles,10.0,190.0,1000.0,2100.0,3600.0,4700.0,4700.0,4700.0,4700.0,4700.0,4700.0,5200.0,15000.0,33000.0,62000.0,
+North America,ev_stock,vans,FCEV,Vehicles,,,,49.0,81.0,81.0,81.0,81.0,81.0,81.0,81.0,81.0,81.0,81.0,210.0,
+North America,ev_stock,vans,PHEV,Vehicles,,,,,,550.0,550.0,550.0,550.0,550.0,550.0,550.0,550.0,550.0,550.0,
+North America,ev_stock_share,2_3_wheelers,EV_total,percent,,,0.0071,0.015,0.025,0.035,0.046,0.061,0.088,0.14,0.2,0.23,0.28,0.32,0.36,
+North America,ev_stock_share,buses,EV_total,percent,,0.023,0.021,0.019,0.022,0.078,0.11,0.13,0.18,0.25,0.27,0.28,0.36,0.68,0.88,
+North America,ev_stock_share,cars,EV_total,percent,0.0016,0.0092,0.032,0.073,0.13,0.17,0.24,0.31,0.45,0.57,0.72,0.9,1.2,1.9,2.5,
+North America,ev_stock_share,trucks,EV_total,percent,,0.0018,0.0018,0.0018,0.0017,0.0019,0.0029,0.003,0.0036,0.0048,0.0064,0.0079,0.01,0.023,0.0015,
+North America,ev_stock_share,vans,EV_total,percent,4.2e-05,0.0008,0.0044,0.0094,0.016,0.025,0.026,0.027,0.028,0.029,0.032,0.037,0.1,0.23,0.43,
+Portugal,ev_charging_points,ev_total,charging_fast,charging points,,6.0,7.0,17.0,17.0,22.0,41.0,150.0,180.0,360.0,720.0,1400.0,1600.0,3800.0,3800.0,
+Portugal,ev_charging_points,ev_total,charging_slow,charging points,,1100.0,1100.0,1200.0,1200.0,1200.0,1300.0,1500.0,1600.0,1600.0,2200.0,2800.0,4000.0,5600.0,9300.0,
+Portugal,ev_sales,2_3_wheelers,BEV,Vehicles,,,31.0,5.0,10.0,18.0,3.0,8.0,25.0,89.0,21.0,240.0,1700.0,1500.0,430.0,
+Portugal,ev_sales,buses,BEV,Vehicles,,,,,1.0,,1.0,,27.0,33.0,24.0,37.0,64.0,360.0,79.0,
+Portugal,ev_sales,buses,FCEV,Vehicles,,,,,,,,,,,,,,1.0,,
+Portugal,ev_sales,buses,PHEV,Vehicles,,,,,2.0,,,2.0,,10.0,,2.0,,,,
+Portugal,ev_sales,cars,BEV,Vehicles,13.0,170.0,54.0,150.0,190.0,670.0,800.0,1900.0,4300.0,6800.0,7800.0,13000.0,18000.0,36000.0,42000.0,
+Portugal,ev_sales,cars,FCEV,Vehicles,,,,,,,,,,,,1.0,,2.0,,
+Portugal,ev_sales,cars,PHEV,Vehicles,,2.0,30.0,35.0,98.0,430.0,1000.0,2500.0,3900.0,5800.0,12000.0,16000.0,16000.0,27000.0,28000.0,
+Portugal,ev_sales,vans,BEV,Vehicles,,,,27.0,26.0,,,200.0,260.0,230.0,270.0,360.0,1000.0,2500.0,2100.0,
+Portugal,ev_sales,vans,PHEV,Vehicles,,,,,,,,,,,,7.0,2.0,,5.0,
+Portugal,ev_sales_share,2_3_wheelers,EV_total,percent,,,0.15,0.029,0.056,0.089,0.013,0.029,0.081,0.28,0.066,0.66,4.3,3.4,0.9,
+Portugal,ev_sales_share,buses,EV_total,percent,,,,,1.3,,0.25,0.52,5.0,7.8,5.4,6.3,4.2,36.0,9.3,
+Portugal,ev_sales_share,cars,EV_total,percent,0.0058,0.11,0.088,0.17,0.2,0.62,0.87,1.9,3.6,5.6,13.0,20.0,22.0,32.0,33.0,
+Portugal,ev_sales_share,vans,EV_total,percent,,,,0.15,0.1,,,0.56,0.67,0.62,0.99,1.3,4.3,8.6,6.4,
+Portugal,ev_stock,2_3_wheelers,BEV,Vehicles,,,31.0,36.0,46.0,64.0,67.0,75.0,100.0,190.0,210.0,450.0,6200.0,3600.0,4000.0,
+Portugal,ev_stock,buses,BEV,Vehicles,,,,,,,,23.0,33.0,50.0,60.0,100.0,250.0,570.0,620.0,
+Portugal,ev_stock,buses,FCEV,Vehicles,,,,,,,,,,,,2.0,3.0,1.0,1.0,
+Portugal,ev_stock,buses,PHEV,Vehicles,,,,,,,,,,10.0,10.0,12.0,12.0,16.0,16.0,
+Portugal,ev_stock,cars,BEV,Vehicles,720.0,910.0,960.0,1100.0,1300.0,2000.0,2800.0,4700.0,8700.0,16000.0,23000.0,37000.0,54000.0,91000.0,130000.0,
+Portugal,ev_stock,cars,FCEV,Vehicles,,,,,,,,,,,,3.0,3.0,3.0,3.0,
+Portugal,ev_stock,cars,PHEV,Vehicles,,,,37.0,46.0,530.0,1600.0,4100.0,8000.0,14000.0,26000.0,41000.0,57000.0,84000.0,110000.0,
+Portugal,ev_stock,vans,BEV,Vehicles,,,,,,,,76.0,330.0,540.0,1900.0,2300.0,3300.0,4800.0,6900.0,
+Portugal,ev_stock,vans,PHEV,Vehicles,,,,,,,,,,,,7.0,9.0,9.0,14.0,
+Portugal,ev_stock_share,2_3_wheelers,EV_total,percent,,,0.0062,0.0071,0.009,0.012,0.012,0.013,0.016,0.03,0.035,0.075,1.0,0.6,0.65,
+Portugal,ev_stock_share,buses,EV_total,percent,,,,,,,,0.16,0.23,0.41,0.49,0.81,1.7,3.8,4.2,
+Portugal,ev_stock_share,cars,EV_total,percent,0.015,0.019,0.023,0.027,0.029,0.053,0.089,0.17,0.32,0.54,0.87,1.4,1.9,3.0,4.2,
+Portugal,ev_stock_share,vans,EV_total,percent,,,,,,,,0.0069,0.029,0.048,0.17,0.2,0.28,0.43,0.65,
+Rest of the world,battery_demand,2_3_wheelers,EV_total,GWh,0.0018,0.00084,0.19,0.26,0.27,0.3,0.81,0.93,1.3,1.8,1.3,1.6,1.8,1.7,2.0,27.0
+Rest of the world,battery_demand,buses,EV_total,GWh,0.002,0.0027,0.025,0.033,0.0022,0.0059,0.027,0.019,0.16,0.45,0.78,0.73,1.6,1.9,2.1,29.0
+Rest of the world,battery_demand,cars,EV_total,GWh,0.067,0.36,0.57,0.69,0.87,0.96,1.3,2.6,6.5,7.3,8.0,16.0,30.0,51.0,69.0,380.0
+Rest of the world,battery_demand,trucks,EV_total,GWh,,0.0002,0.0003,0.0008,0.0006,0.0009,,,0.0097,0.01,0.014,0.058,0.28,0.56,0.54,12.0
+Rest of the world,battery_demand,vans,EV_total,GWh,,0.019,0.056,0.047,0.024,0.024,0.013,0.012,0.025,0.13,1.0,1.9,2.9,3.8,2.3,32.0
+Rest of the world,electricity_demand,2_3_wheelers,EV_total,GWh,,,,,,,,,,,,,,,1000.0,8100.0
+Rest of the world,electricity_demand,buses,EV_total,GWh,,,,,,,,,,,,,,,1400.0,17000.0
+Rest of the world,electricity_demand,cars,EV_total,GWh,,,,,,,,,,,,,,,9200.0,58000.0
+Rest of the world,electricity_demand,trucks,EV_total,GWh,,,,,,,,,,,,,,,440.0,6800.0
+Rest of the world,electricity_demand,vans,EV_total,GWh,,,,,,,,,,,,,,,1100.0,9400.0
+Rest of the world,ev_charging_points,ev_total,charging_fast,charging points,,,,,,,,,,,21000.0,850.0,1700.0,3300.0,4000.0,280000.0
+Rest of the world,ev_charging_points,ev_total,charging_slow,charging points,,,,,,,,,,,92000.0,3500.0,4700.0,6300.0,8400.0,860000.0
+Rest of the world,ev_sales,2_3_wheelers,BEV,Vehicles,,,62000.0,86000.0,83000.0,90000.0,230000.0,260000.0,310000.0,370000.0,150000.0,170000.0,170000.0,180000.0,180000.0,7800000.0
+Rest of the world,ev_sales,2_3_wheelers,FCEV,Vehicles,,,,,,,,,,,,2.0,,,,
+Rest of the world,ev_sales,2_3_wheelers,PHEV,Vehicles,,,,,,,,,,,1.0,,,,,
+Rest of the world,ev_sales,buses,BEV,Vehicles,110.0,9.0,13.0,46.0,200.0,79.0,100.0,180.0,370.0,320.0,560.0,730.0,1400.0,1200.0,2200.0,110000.0
+Rest of the world,ev_sales,buses,FCEV,Vehicles,,,,,,,10.0,,,,10.0,4.0,7.0,11.0,3.0,9400.0
+Rest of the world,ev_sales,buses,PHEV,Vehicles,,,,,,,8.0,25.0,25.0,49.0,17.0,2.0,7.0,18.0,33.0,5400.0
+Rest of the world,ev_sales,cars,BEV,Vehicles,450.0,570.0,1200.0,490.0,1300.0,1600.0,1800.0,4700.0,8000.0,14000.0,29000.0,50000.0,82000.0,130000.0,190000.0,4300000.0
+Rest of the world,ev_sales,cars,FCEV,Vehicles,,,,,,24.0,62.0,93.0,,,1.0,5.0,14.0,20.0,3500.0,11000.0
+Rest of the world,ev_sales,cars,PHEV,Vehicles,,17.0,95.0,20.0,110.0,1500.0,1100.0,3400.0,4300.0,7200.0,15000.0,31000.0,33000.0,51000.0,69000.0,1500000.0
+Rest of the world,ev_sales,trucks,BEV,Vehicles,,,,,5.0,4.0,8.0,4.0,30.0,4.0,15.0,47.0,43.0,210.0,180.0,38000.0
+Rest of the world,ev_sales,trucks,FCEV,Vehicles,,,,,,,,,,,7.0,33.0,18.0,38.0,1.0,520.0
+Rest of the world,ev_sales,trucks,PHEV,Vehicles,,,,,,,,,,,,13.0,,,,6800.0
+Rest of the world,ev_sales,vans,BEV,Vehicles,25.0,9.0,120.0,16.0,50.0,100.0,140.0,290.0,380.0,810.0,1300.0,2400.0,2800.0,5000.0,5600.0,420000.0
+Rest of the world,ev_sales,vans,FCEV,Vehicles,,,,,,,,,,,67.0,82.0,18.0,10.0,1.0,16000.0
+Rest of the world,ev_sales,vans,PHEV,Vehicles,,,,,,,,,,3.0,31.0,59.0,60.0,36.0,290.0,31000.0
+Rest of the world,ev_sales_share,2_3_wheelers,EV_total,percent,,,0.88,1.2,1.1,1.2,2.5,2.6,2.8,3.3,1.5,1.5,1.7,1.9,1.9,
+Rest of the world,ev_sales_share,buses,EV_total,percent,0.013,0.0011,0.0016,0.0056,0.024,0.0092,0.013,0.023,0.044,0.041,0.084,0.12,0.21,0.18,0.33,7.0
+Rest of the world,ev_sales_share,cars,EV_total,percent,0.0071,0.0086,0.019,0.0081,0.022,0.044,0.042,0.11,0.17,0.32,0.76,1.3,1.7,2.7,3.8,18.0
+Rest of the world,ev_sales_share,trucks,EV_total,percent,,,,,0.00076,0.0006,0.0012,0.00055,0.004,0.00054,0.002,0.0055,0.0051,0.023,0.019,2.0
+Rest of the world,ev_sales_share,vans,EV_total,percent,0.0018,0.00061,0.0078,0.001,0.0031,0.006,0.0079,0.016,0.022,0.044,0.081,0.14,0.14,0.25,0.29,9.0
+Rest of the world,ev_stock,2_3_wheelers,BEV,Vehicles,,,62000.0,150000.0,230000.0,310000.0,540000.0,790000.0,1100000.0,1400000.0,1600000.0,1700000.0,1800000.0,2000000.0,2100000.0,31000000.0
+Rest of the world,ev_stock,2_3_wheelers,FCEV,Vehicles,,,,,,,,,,,,2.0,2.0,2.0,2.0,
+Rest of the world,ev_stock,2_3_wheelers,PHEV,Vehicles,,,,,,,,,,,1.0,1.0,1.0,1.0,1.0,
+Rest of the world,ev_stock,buses,BEV,Vehicles,6200.0,6200.0,5400.0,4800.0,4000.0,3900.0,4000.0,1200.0,940.0,1100.0,1800.0,1800.0,3100.0,4500.0,6300.0,370000.0
+Rest of the world,ev_stock,buses,FCEV,Vehicles,,,,,,,10.0,,,,15.0,17.0,19.0,30.0,39.0,40000.0
+Rest of the world,ev_stock,buses,PHEV,Vehicles,,,,,,,,12.0,40.0,89.0,2.0,4.0,9.0,8.9,42.0,21000.0
+Rest of the world,ev_stock,cars,BEV,Vehicles,2900.0,3100.0,2100.0,2600.0,4600.0,7100.0,9700.0,16000.0,25000.0,43000.0,73000.0,130000.0,220000.0,360000.0,540000.0,18000000.0
+Rest of the world,ev_stock,cars,FCEV,Vehicles,,,,,,24.0,83.0,180.0,12.0,2.9,3.9,9.9,23.0,41.0,41.0,87000.0
+Rest of the world,ev_stock,cars,PHEV,Vehicles,,17.0,98.0,150.0,570.0,1500.0,2600.0,6200.0,11000.0,19000.0,34000.0,69000.0,110000.0,150000.0,210000.0,6600000.0
+Rest of the world,ev_stock,trucks,BEV,Vehicles,,,,12.0,2.0,6.0,33.0,62.0,41.0,42.0,70.0,120.0,140.0,400.0,590.0,130000.0
+Rest of the world,ev_stock,trucks,FCEV,Vehicles,,,,,,,,,,,,5.0,5.0,33.0,1.0,1400.0
+Rest of the world,ev_stock,trucks,PHEV,Vehicles,,,,,,,,,,,,13.0,13.0,13.0,13.0,9300.0
+Rest of the world,ev_stock,vans,BEV,Vehicles,180.0,140.0,250.0,290.0,340.0,460.0,670.0,1000.0,1500.0,2300.0,3200.0,5100.0,7200.0,12000.0,14000.0,1600000.0
+Rest of the world,ev_stock,vans,FCEV,Vehicles,,,,,,,,,,,16.0,50.0,50.0,10.0,300.0,59000.0
+Rest of the world,ev_stock,vans,PHEV,Vehicles,,,,,,,,,,,180.0,220.0,300.0,310.0,460.0,140000.0
+Rest of the world,ev_stock_share,2_3_wheelers,EV_total,percent,,,0.082,0.19,0.28,0.37,0.61,0.85,1.1,1.4,0.65,0.77,0.9,1.0,1.1,
+Rest of the world,ev_stock_share,buses,EV_total,percent,0.12,0.12,0.1,0.087,0.072,0.069,0.07,0.021,0.017,0.02,0.032,0.035,0.06,0.085,0.12,3.0
+Rest of the world,ev_stock_share,cars,EV_total,percent,0.0031,0.0033,0.0022,0.0027,0.0049,0.0079,0.011,0.019,0.03,0.05,0.086,0.15,0.25,0.38,0.56,5.0
+Rest of the world,ev_stock_share,trucks,EV_total,percent,,,,0.0002,3.2e-05,9.4e-05,0.0005,0.00093,0.0006,0.00062,0.00092,0.0016,0.0019,0.0054,0.0076,0.39
+Rest of the world,ev_stock_share,vans,EV_total,percent,0.0011,0.00083,0.0015,0.0017,0.0019,0.0025,0.0036,0.0052,0.0077,0.011,0.017,0.025,0.034,0.053,0.065,2.0
+Rest of the world,oil_displacement_lge,2_3_wheelers,EV_total,"Oil displacement, million lge",0.1,0.13,9.8,24.0,37.0,52.0,92.0,140.0,190.0,270.0,300.0,360.0,440.0,500.0,570.0,4100.0
+Rest of the world,oil_displacement_lge,buses,EV_total,"Oil displacement, million lge",0.88,0.93,2.1,3.3,2.6,2.2,2.9,3.1,8.7,25.0,47.0,73.0,140.0,210.0,280.0,3600.0
+Rest of the world,oil_displacement_lge,cars,EV_total,"Oil displacement, million lge",3.6,17.0,33.0,52.0,72.0,100.0,140.0,210.0,410.0,600.0,710.0,1100.0,1800.0,3000.0,4400.0,27000.0
+Rest of the world,oil_displacement_lge,trucks,EV_total,"Oil displacement, million lge",,,0.071,0.15,0.18,0.22,0.17,0.14,0.99,2.2,2.9,8.3,30.0,59.0,97.0,1400.0
+Rest of the world,oil_displacement_lge,vans,EV_total,"Oil displacement, million lge",,1.8,6.9,11.0,12.0,14.0,14.0,13.0,15.0,22.0,76.0,180.0,350.0,510.0,600.0,4500.0
+Rest of the world,oil_displacement_mbd,2_3_wheelers,EV_total,Million barrels per day,1.7e-06,2.2e-06,0.00017,0.00041,0.00063,0.00088,0.0016,0.0024,0.0033,0.0047,0.0051,0.0062,0.0075,0.0086,0.0098,0.071
+Rest of the world,oil_displacement_mbd,buses,EV_total,Million barrels per day,1.5e-05,1.6e-05,3.5e-05,5.6e-05,4.5e-05,3.8e-05,5e-05,5.3e-05,0.00015,0.00042,0.00081,0.0013,0.0024,0.0037,0.0047,0.062
+Rest of the world,oil_displacement_mbd,cars,EV_total,Million barrels per day,6.3e-05,0.0003,0.00057,0.00089,0.0012,0.0017,0.0024,0.0037,0.0071,0.01,0.012,0.019,0.03,0.052,0.076,0.47
+Rest of the world,oil_displacement_mbd,trucks,EV_total,Million barrels per day,,,1.2e-06,2.6e-06,3.1e-06,3.9e-06,2.9e-06,2.4e-06,1.7e-05,3.7e-05,4.9e-05,0.00014,0.00052,0.001,0.0017,0.024
+Rest of the world,oil_displacement_mbd,vans,EV_total,Million barrels per day,,3.1e-05,0.00012,0.00019,0.00021,0.00024,0.00024,0.00023,0.00025,0.00038,0.0013,0.0032,0.0061,0.0088,0.01,0.079
+Romania,ev_sales,cars,BEV,Vehicles,,,,,,24.0,74.0,190.0,600.0,1500.0,2800.0,6300.0,12000.0,15000.0,9800.0,
+Romania,ev_sales,cars,PHEV,Vehicles,,,,,,,,,,,1000.0,,,,,
+Romania,ev_sales_share,cars,EV_total,percent,,,,,,0.03,0.08,0.18,0.46,0.93,3.1,5.2,9.0,11.0,6.5,
+Russia,ev_charging_points,ev_total,charging_fast,charging points,,,,,,,,,,,,1600.0,2200.0,5700.0,5700.0,
+Russia,ev_charging_points,ev_total,charging_slow,charging points,,,,,,,,,,,,3100.0,3200.0,4800.0,4900.0,
+Russia,ev_sales,2_3_wheelers,BEV,Vehicles,,,,,4900.0,4300.0,,19.0,8.0,7.0,1.0,8.0,,,,
+Russia,ev_sales,buses,BEV,Vehicles,,,,,,,,,,100.0,660.0,420.0,140.0,5.0,,
+Russia,ev_sales,cars,BEV,Vehicles,,41.0,49.0,,,110.0,350.0,110.0,140.0,350.0,780.0,1300.0,760.0,1900.0,4600.0,
+Russia,ev_sales,cars,PHEV,Vehicles,,,,,,55.0,22.0,32.0,1000.0,900.0,710.0,740.0,37.0,460.0,28000.0,
+Russia,ev_sales,vans,BEV,Vehicles,,,,,,,2.0,2.0,6.0,7.0,2.0,1.0,,,,
+Russia,ev_sales_share,2_3_wheelers,EV_total,percent,,,,,4.6,7.7,,0.32,0.047,0.033,0.004,0.042,,,,
+Russia,ev_sales_share,buses,EV_total,percent,,,,,,,,,,0.22,1.5,0.93,0.32,0.0094,,
+Russia,ev_sales_share,cars,EV_total,percent,,0.0015,0.0017,,,0.01,0.026,0.0093,0.067,0.073,0.1,0.13,0.13,0.22,2.9,
+Russia,ev_sales_share,vans,EV_total,percent,,,,,,,0.0018,0.0018,0.0043,0.0052,0.0019,0.0007,,,,
+Russia,ev_stock,2_3_wheelers,BEV,Vehicles,,,,,4900.0,9200.0,9200.0,9200.0,9200.0,9200.0,9200.0,9200.0,9200.0,9200.0,9200.0,
+Russia,ev_stock,buses,BEV,Vehicles,,,,,,,,,,100.0,760.0,1200.0,1300.0,,,
+Russia,ev_stock,cars,BEV,Vehicles,,,90.0,90.0,90.0,200.0,550.0,660.0,800.0,1100.0,1900.0,3200.0,3900.0,5900.0,10000.0,
+Russia,ev_stock,cars,PHEV,Vehicles,,,,,,55.0,77.0,110.0,1100.0,2000.0,2700.0,3500.0,3500.0,4000.0,32000.0,
+Russia,ev_stock,vans,BEV,Vehicles,,,,,,,2.0,4.0,10.0,17.0,19.0,20.0,20.0,20.0,20.0,
+Russia,ev_stock_share,2_3_wheelers,EV_total,percent,,,,,0.093,0.19,0.21,0.24,0.27,0.3,0.34,0.38,0.43,0.49,0.55,
+Russia,ev_stock_share,buses,EV_total,percent,,,,,,,,,,0.0072,0.058,0.098,0.12,,,
+Russia,ev_stock_share,cars,EV_total,percent,,,0.00021,0.00021,0.0002,0.00057,0.0014,0.0017,0.0043,0.007,0.01,0.015,0.017,0.022,0.096,
+Russia,ev_stock_share,vans,EV_total,percent,,,,,,,5.3e-05,0.0001,0.00026,0.00043,0.0009,0.00089,0.00086,0.00083,0.00051,
+Seychelles,ev_sales,cars,BEV,Vehicles,,,,,,3.0,12.0,30.0,32.0,37.0,26.0,61.0,37.0,100.0,,
+Seychelles,ev_sales_share,cars,EV_total,percent,,,,,,0.15,0.63,2.0,2.3,2.6,3.3,4.2,1.7,5.0,,
+Slovakia,ev_sales,cars,BEV,Vehicles,,,,,,52.0,59.0,210.0,290.0,160.0,920.0,1100.0,1400.0,2300.0,2200.0,
+Slovakia,ev_sales,cars,PHEV,Vehicles,,,,,,,,,,200.0,860.0,1200.0,1600.0,3000.0,2200.0,
+Slovakia,ev_sales_share,cars,EV_total,percent,,,,,,0.07,0.07,0.22,0.3,0.36,2.3,3.0,3.7,6.1,4.8,
+Slovenia,ev_sales,cars,BEV,Vehicles,,,,,,,140.0,290.0,470.0,190.0,1600.0,1700.0,2300.0,4300.0,3100.0,
+Slovenia,ev_sales,cars,PHEV,Vehicles,,,,,,,46.0,170.0,190.0,28.0,39.0,310.0,590.0,1200.0,1200.0,
+Slovenia,ev_sales_share,cars,EV_total,percent,,,,,,,0.32,0.64,0.91,0.29,3.1,3.8,6.2,11.0,8.1,
+Switzerland,ev_charging_points,ev_total,charging_fast,charging points,,,4.0,27.0,99.0,260.0,350.0,580.0,740.0,920.0,1000.0,1900.0,2200.0,2800.0,4200.0,
+Switzerland,ev_charging_points,ev_total,charging_slow,charging points,,,400.0,600.0,1300.0,3400.0,3500.0,3500.0,4400.0,5400.0,6700.0,8200.0,10000.0,13000.0,15000.0,
+Switzerland,ev_sales,2_3_wheelers,BEV,Vehicles,,,980.0,420.0,380.0,430.0,520.0,,860.0,1300.0,1200.0,2100.0,4300.0,4000.0,3200.0,
+Switzerland,ev_sales,buses,BEV,Vehicles,,,,,,,5.0,2.0,18.0,10.0,22.0,55.0,110.0,770.0,160.0,
+Switzerland,ev_sales,buses,FCEV,Vehicles,,,,,,,5.0,,10.0,,,,,4.0,,
+Switzerland,ev_sales,buses,PHEV,Vehicles,,,,,,,,,,,,,1.0,,,
+Switzerland,ev_sales,cars,BEV,Vehicles,,400.0,340.0,1200.0,2700.0,3300.0,3300.0,4800.0,5100.0,13000.0,20000.0,32000.0,40000.0,53000.0,46000.0,
+Switzerland,ev_sales,cars,FCEV,Vehicles,,,,,,10.0,26.0,1.0,22.0,25.0,,56.0,72.0,27.0,12.0,
+Switzerland,ev_sales,cars,PHEV,Vehicles,,41.0,400.0,170.0,200.0,2400.0,2800.0,3600.0,4400.0,4300.0,14000.0,22000.0,19000.0,23000.0,21000.0,
+Switzerland,ev_sales,trucks,BEV,Vehicles,,,,,,,,,,36.0,62.0,110.0,180.0,390.0,580.0,
+Switzerland,ev_sales,trucks,FCEV,Vehicles,,,,,,,,,,,20.0,60.0,,,,
+Switzerland,ev_sales,vans,BEV,Vehicles,,,120.0,110.0,52.0,160.0,85.0,220.0,300.0,580.0,780.0,1300.0,2400.0,3900.0,2300.0,
+Switzerland,ev_sales,vans,PHEV,Vehicles,,,,,,,,,,,9.0,170.0,4.0,,160.0,
+Switzerland,ev_sales_share,2_3_wheelers,EV_total,percent,,,2.1,0.94,0.83,0.86,1.1,,2.0,3.1,2.5,3.9,9.0,8.3,5.2,
+Switzerland,ev_sales_share,buses,EV_total,percent,,,,,,,0.61,0.25,2.3,1.3,3.3,6.8,20.0,65.0,27.0,
+Switzerland,ev_sales_share,cars,EV_total,percent,,0.14,0.23,0.42,0.94,1.7,1.9,2.6,3.1,5.5,14.0,21.0,25.0,30.0,28.0,
+Switzerland,ev_sales_share,trucks,EV_total,percent,,,,,,,,,,0.8,1.6,2.8,4.7,8.3,12.0,
+Switzerland,ev_sales_share,vans,EV_total,percent,,,0.38,0.38,0.18,0.51,0.28,0.67,0.9,1.6,2.8,3.9,9.6,13.0,8.6,
+Switzerland,ev_stock,2_3_wheelers,BEV,Vehicles,,,980.0,1400.0,1800.0,2200.0,2700.0,2700.0,3600.0,4900.0,6000.0,8200.0,12000.0,16000.0,20000.0,
+Switzerland,ev_stock,buses,BEV,Vehicles,,,,,,,5.0,7.0,25.0,35.0,57.0,110.0,230.0,1000.0,1200.0,
+Switzerland,ev_stock,buses,FCEV,Vehicles,,,,,,,4.0,10.0,20.0,20.0,20.0,20.0,20.0,19.0,19.0,
+Switzerland,ev_stock,buses,PHEV,Vehicles,,,,,,,,,,,,,1.0,1.0,1.0,
+Switzerland,ev_stock,cars,BEV,Vehicles,,400.0,740.0,1900.0,4600.0,7800.0,11000.0,16000.0,21000.0,34000.0,54000.0,86000.0,130000.0,180000.0,220000.0,
+Switzerland,ev_stock,cars,FCEV,Vehicles,,,,,,10.0,36.0,37.0,59.0,84.0,84.0,140.0,210.0,240.0,250.0,
+Switzerland,ev_stock,cars,PHEV,Vehicles,,41.0,440.0,600.0,810.0,3200.0,5000.0,9000.0,14000.0,16000.0,30000.0,53000.0,71000.0,96000.0,120000.0,
+Switzerland,ev_stock,trucks,BEV,Vehicles,,,,,,,,,,,,,360.0,680.0,1300.0,
+Switzerland,ev_stock,trucks,FCEV,Vehicles,,,,,,,,,,,,,,80.0,80.0,
+Switzerland,ev_stock,vans,BEV,Vehicles,,,120.0,230.0,290.0,440.0,540.0,620.0,1000.0,1600.0,2400.0,3700.0,6500.0,10000.0,12000.0,
+Switzerland,ev_stock,vans,FCEV,Vehicles,,,,,,,,,,,,,10.0,,,
+Switzerland,ev_stock,vans,PHEV,Vehicles,,,,,,,,,,,9.0,180.0,190.0,190.0,350.0,
+Switzerland,ev_stock_share,2_3_wheelers,EV_total,percent,,,0.15,0.21,0.26,0.32,0.39,0.39,0.5,0.68,0.84,1.1,1.7,2.3,2.5,
+Switzerland,ev_stock_share,buses,EV_total,percent,,,,,,,0.041,0.053,0.18,0.24,0.37,0.69,1.4,5.6,4.9,
+Switzerland,ev_stock_share,cars,EV_total,percent,,0.01,0.028,0.058,0.12,0.25,0.36,0.54,0.77,1.1,1.8,2.9,4.2,5.8,7.3,
+Switzerland,ev_stock_share,trucks,EV_total,percent,,,,,,,,,,,,,0.61,1.2,2.3,
+Switzerland,ev_stock_share,vans,EV_total,percent,,,0.04,0.072,0.085,0.13,0.15,0.17,0.26,0.41,0.58,0.92,1.6,2.3,2.9,
+Turkiye,ev_charging_points,ev_total,charging_fast,charging points,,,,,,,,,,,61.0,170.0,360.0,3100.0,5900.0,
+Turkiye,ev_charging_points,ev_total,charging_slow,charging points,,,,,,,11.0,69.0,69.0,150.0,1200.0,1800.0,1800.0,7000.0,6000.0,
+Turkiye,ev_sales,2_3_wheelers,BEV,Vehicles,,,73.0,140.0,1100.0,1400.0,3600.0,6000.0,5400.0,6000.0,6700.0,9700.0,15000.0,76000.0,120000.0,
+Turkiye,ev_sales,buses,BEV,Vehicles,,,,,,,,,,20.0,,,,,2.0,
+Turkiye,ev_sales,cars,BEV,Vehicles,,,92.0,,46.0,120.0,44.0,77.0,190.0,230.0,890.0,3000.0,7000.0,66000.0,99000.0,
+Turkiye,ev_sales,cars,PHEV,Vehicles,,,,1.0,22.0,110.0,83.0,34.0,45.0,94.0,400.0,920.0,540.0,2700.0,6700.0,
+Turkiye,ev_sales,vans,BEV,Vehicles,,,,,,,,,,,,,,240.0,460.0,
+Turkiye,ev_sales_share,2_3_wheelers,EV_total,percent,,,0.04,0.072,0.61,0.82,2.2,3.5,3.4,3.8,3.2,3.9,4.7,10.0,12.0,
+Turkiye,ev_sales_share,buses,EV_total,percent,,,,,,,,,,0.15,,,,,0.0093,
+Turkiye,ev_sales_share,cars,EV_total,percent,,,0.016,0.00015,0.012,0.03,0.017,0.015,0.045,0.084,0.21,0.63,1.3,7.2,11.0,
+Turkiye,ev_sales_share,vans,EV_total,percent,,,,,,,,,,,,,,0.1,0.2,
+Turkiye,ev_stock,2_3_wheelers,BEV,Vehicles,,,73.0,210.0,1300.0,2700.0,6300.0,12000.0,18000.0,24000.0,30000.0,40000.0,55000.0,130000.0,250000.0,
+Turkiye,ev_stock,buses,BEV,Vehicles,,,,,,,,,,,,,10.0,20.0,22.0,
+Turkiye,ev_stock,cars,BEV,Vehicles,,,,230.0,260.0,370.0,420.0,500.0,650.0,1300.0,2900.0,6800.0,14000.0,77000.0,180000.0,
+Turkiye,ev_stock,cars,PHEV,Vehicles,,,,,,,210.0,240.0,280.0,540.0,1000.0,1800.0,2300.0,4900.0,12000.0,
+Turkiye,ev_stock,vans,BEV,Vehicles,,,,,,,,,,,,,,240.0,700.0,
+Turkiye,ev_stock_share,2_3_wheelers,EV_total,percent,,,0.0031,0.0085,0.051,0.1,0.23,0.42,0.59,0.76,0.93,1.2,1.5,3.0,4.8,
+Turkiye,ev_stock_share,buses,EV_total,percent,,,,,,,,,,,,,0.0016,0.0032,0.0035,
+Turkiye,ev_stock_share,cars,EV_total,percent,,,,0.0026,0.0027,0.0038,0.0062,0.0069,0.0086,0.017,0.035,0.074,0.14,0.66,1.4,
+Turkiye,ev_stock_share,vans,EV_total,percent,,,,,,,,,,,,,,0.0067,0.019,
+Uzbekistan,ev_sales,buses,BEV,Vehicles,,,,,,,,,,,,,,300.0,200.0,
+Uzbekistan,ev_sales,cars,BEV,Vehicles,,,,,,,,,,,,,,760.0,5600.0,
+Uzbekistan,ev_sales,cars,PHEV,Vehicles,,,,,,,,,,,,,,9200.0,17000.0,
+Uzbekistan,ev_sales_share,buses,EV_total,percent,,,,,,,,,,,,,,3.5,2.1,
+Uzbekistan,ev_sales_share,cars,EV_total,percent,,,,,,,,,,,,,,2.2,5.0,
+Uzbekistan,ev_stock,cars,BEV,Vehicles,,,,,,,,,,,,,,760.0,6400.0,
+Uzbekistan,ev_stock,cars,PHEV,Vehicles,,,,,,,,,,,,,,9200.0,26000.0,
+Uzbekistan,ev_stock_share,cars,EV_total,percent,,,,,,,,,,,,,,0.34,0.87,
+Viet Nam,ev_charging_points,ev_total,charging_fast,charging points,,,,,,,,,,,,,,3300.0,4000.0,
+Viet Nam,ev_charging_points,ev_total,charging_slow,charging points,,,,,,,,,,,,,,1600.0,2100.0,
+Viet Nam,ev_sales,2_3_wheelers,BEV,Vehicles,,,,,1400.0,4200.0,35000.0,42000.0,96000.0,190000.0,210000.0,250000.0,260000.0,250000.0,250000.0,
+Viet Nam,ev_sales,buses,BEV,Vehicles,,,,,,,,,,,,1.0,,,,
+Viet Nam,ev_sales,cars,BEV,Vehicles,,,,,,,,,3.0,,,85.0,7300.0,32000.0,69000.0,
+Viet Nam,ev_sales,cars,PHEV,Vehicles,,,,,,,,,,,,,19.0,64.0,84.0,
+Viet Nam,ev_sales_share,2_3_wheelers,EV_total,percent,,,,,0.045,0.13,1.1,1.3,2.7,5.3,7.1,9.0,7.9,8.9,9.4,
+Viet Nam,ev_sales_share,buses,EV_total,percent,,,,,,,,,,,,0.041,,,,
+Viet Nam,ev_sales_share,cars,EV_total,percent,,,,,,,,,0.0016,,,0.041,2.5,9.8,17.0,
+Viet Nam,ev_stock,2_3_wheelers,BEV,Vehicles,,,,,1400.0,5600.0,40000.0,82000.0,180000.0,360000.0,570000.0,820000.0,1100000.0,1300000.0,1600000.0,
+Viet Nam,ev_stock,buses,BEV,Vehicles,,,,,,,,,,,,1.0,1.0,,,
+Viet Nam,ev_stock,cars,BEV,Vehicles,,,,,,,,,3.0,3.0,3.0,88.0,7400.0,39000.0,110000.0,
+Viet Nam,ev_stock,cars,PHEV,Vehicles,,,,,,,,,,,,,19.0,83.0,170.0,
+Viet Nam,ev_stock_share,2_3_wheelers,EV_total,percent,,,,,0.0038,0.014,0.096,0.18,0.37,0.71,1.1,1.5,1.9,2.2,2.6,
+Viet Nam,ev_stock_share,buses,EV_total,percent,,,,,,,,,,,,0.00098,0.00099,,,
+Viet Nam,ev_stock_share,cars,EV_total,percent,,,,,,,,,0.0002,0.00018,0.00017,0.0046,0.35,1.8,4.6,
+World,battery_demand,2_3_wheelers,EV_total,GWh,0.12,0.092,3.4,3.9,4.7,4.4,5.7,7.3,11.0,16.0,22.0,31.0,28.0,30.0,32.0,110.0
+World,battery_demand,buses,EV_total,GWh,0.23,0.11,0.36,0.59,1.3,9.9,16.0,18.0,16.0,17.0,14.0,12.0,13.0,13.0,15.0,89.0
+World,battery_demand,cars,EV_total,GWh,0.22,1.4,2.7,5.2,8.5,13.0,22.0,34.0,73.0,95.0,130.0,290.0,490.0,690.0,840.0,2600.0
+World,battery_demand,trucks,EV_total,GWh,0.0036,0.02,0.0028,0.0039,0.0057,1.7,5.6,8.5,4.5,2.8,2.3,2.3,8.8,14.0,24.0,260.0
+World,battery_demand,vans,EV_total,GWh,0.038,0.085,0.26,0.27,0.27,0.75,0.61,2.8,3.1,2.4,3.9,8.5,17.0,26.0,42.0,170.0
+World,electricity_demand,2_3_wheelers,EV_total,GWh,,,,,,,,,,,,,,,11000.0,34000.0
+World,electricity_demand,buses,EV_total,GWh,,,,,,,,,,,,,,,20000.0,80000.0
+World,electricity_demand,cars,EV_total,GWh,,,,,,,,,,,,,,,110000.0,420000.0
+World,electricity_demand,trucks,EV_total,GWh,,,,,,,,,,,,,,,26000.0,190000.0
+World,electricity_demand,vans,EV_total,GWh,,,,,,,,,,,,,,,9100.0,57000.0
+World,ev_charging_points,ev_total,charging_fast,charging points,310.0,830.0,1600.0,2600.0,4300.0,13000.0,18000.0,22000.0,150000.0,270000.0,380000.0,570000.0,910000.0,1400000.0,2000000.0,8000000.0
+World,ev_charging_points,ev_total,charging_slow,charging points,3700.0,10000.0,29000.0,42000.0,90000.0,150000.0,240000.0,310000.0,400000.0,610000.0,890000.0,1200000.0,1800000.0,2600000.0,3400000.0,9100000.0
+World,ev_sales,2_3_wheelers,BEV,Vehicles,41000.0,31000.0,2000000.0,2300000.0,2800000.0,2800000.0,3100000.0,3600000.0,5200000.0,6700000.0,8800000.0,11000000.0,9800000.0,10000000.0,10000000.0,31000000.0
+World,ev_sales,2_3_wheelers,FCEV,Vehicles,,,,,,,,,,2.0,1.0,3.0,,,,
+World,ev_sales,2_3_wheelers,PHEV,Vehicles,,,,,17.0,18.0,11.0,,,,1.0,2.0,3.0,,,
+World,ev_sales,buses,BEV,Vehicles,1100.0,490.0,1600.0,2200.0,4300.0,44000.0,77000.0,89000.0,85000.0,72000.0,63000.0,50000.0,57000.0,53000.0,70000.0,330000.0
+World,ev_sales,buses,FCEV,Vehicles,,,,,,,52.0,390.0,910.0,1100.0,1500.0,1000.0,1800.0,1900.0,2000.0,19000.0
+World,ev_sales,buses,PHEV,Vehicles,,160.0,510.0,1800.0,6000.0,14000.0,7900.0,290.0,1300.0,1400.0,1900.0,1000.0,1200.0,1400.0,180.0,8100.0
+World,ev_sales,cars,BEV,Vehicles,7000.0,40000.0,58000.0,110000.0,200000.0,330000.0,470000.0,760000.0,1400000.0,1500000.0,2000000.0,4700000.0,7300000.0,9500000.0,11000000.0,28000000.0
+World,ev_sales,cars,FCEV,Vehicles,13.0,,1.0,23.0,89.0,720.0,2400.0,3500.0,4500.0,7500.0,7600.0,16000.0,15000.0,9000.0,5300.0,42000.0
+World,ev_sales,cars,PHEV,Vehicles,450.0,9000.0,60000.0,91000.0,130000.0,190000.0,310000.0,440000.0,650000.0,580000.0,970000.0,1900000.0,2900000.0,4200000.0,6500000.0,12000000.0
+World,ev_sales,trucks,BEV,Vehicles,37.0,200.0,28.0,40.0,55.0,17000.0,47000.0,71000.0,37000.0,25000.0,18000.0,14000.0,33000.0,52000.0,93000.0,840000.0
+World,ev_sales,trucks,FCEV,Vehicles,,,,,,,,,400.0,2000.0,1400.0,1300.0,2800.0,3600.0,4800.0,36000.0
+World,ev_sales,trucks,PHEV,Vehicles,,,,,,13.0,3.0,4.0,4.0,35.0,31.0,550.0,270.0,360.0,22.0,30000.0
+World,ev_sales,vans,BEV,Vehicles,1100.0,3200.0,11000.0,11000.0,11000.0,27000.0,23000.0,85000.0,79000.0,58000.0,80000.0,160000.0,310000.0,450000.0,640000.0,2400000.0
+World,ev_sales,vans,FCEV,Vehicles,2.0,,,50.0,85.0,140.0,99.0,26.0,96.0,15.0,76.0,110.0,830.0,2000.0,2600.0,76000.0
+World,ev_sales,vans,PHEV,Vehicles,,,11.0,5.0,20.0,780.0,170.0,140.0,190.0,280.0,2500.0,6300.0,7900.0,6500.0,12000.0,140000.0
+World,ev_sales_share,2_3_wheelers,EV_total,percent,0.083,0.059,3.6,4.1,4.7,4.9,5.2,5.7,7.9,10.0,15.0,19.0,15.0,15.0,15.0,
+World,ev_sales_share,buses,EV_total,percent,0.056,0.04,0.12,0.23,0.63,3.5,5.0,5.6,5.6,5.0,5.6,4.6,5.2,4.7,6.0,17.0
+World,ev_sales_share,cars,EV_total,percent,0.012,0.073,0.18,0.29,0.44,0.68,0.96,1.5,2.5,2.7,4.4,9.3,15.0,18.0,22.0,42.0
+World,ev_sales_share,trucks,EV_total,percent,0.00087,0.0039,0.00061,0.00082,0.0012,0.42,1.0,1.4,0.71,0.49,0.33,0.26,0.7,1.0,1.7,13.0
+World,ev_sales_share,vans,EV_total,percent,0.015,0.041,0.14,0.14,0.13,0.33,0.27,0.92,0.82,0.58,0.93,1.8,3.5,4.8,7.1,24.0
+World,ev_stock,2_3_wheelers,BEV,Vehicles,50000.0,96000.0,2000000.0,4100000.0,6700000.0,9400000.0,13000000.0,17000000.0,22000000.0,30000000.0,38000000.0,48000000.0,53000000.0,69000000.0,79000000.0,170000000.0
+World,ev_stock,2_3_wheelers,FCEV,Vehicles,,,,,,4.0,7.0,15.0,14.0,12.0,14.0,14.0,14.0,13.0,6.0,
+World,ev_stock,2_3_wheelers,PHEV,Vehicles,,,,,,27.0,,,,1.0,1.0,3.0,6.0,52.0,52.0,
+World,ev_stock,buses,BEV,Vehicles,8500.0,11000.0,12000.0,13000.0,27000.0,100000.0,190000.0,280000.0,370000.0,440000.0,500000.0,550000.0,610000.0,660000.0,730000.0,2200000.0
+World,ev_stock,buses,FCEV,Vehicles,6.0,,,12.0,60.0,190.0,360.0,850.0,1800.0,2900.0,4000.0,5000.0,6600.0,8900.0,11000.0,94000.0
+World,ev_stock,buses,PHEV,Vehicles,,160.0,680.0,2400.0,8500.0,22000.0,30000.0,31000.0,32000.0,34000.0,35000.0,36000.0,38000.0,39000.0,39000.0,64000.0
+World,ev_stock,cars,BEV,Vehicles,20000.0,58000.0,120000.0,230000.0,410000.0,730000.0,1200000.0,1900000.0,3200000.0,4800000.0,6800000.0,11000000.0,18000000.0,28000000.0,39000000.0,150000000.0
+World,ev_stock,cars,FCEV,Vehicles,26.0,26.0,26.0,27.0,87.0,810.0,3100.0,6800.0,11000.0,19000.0,26000.0,42000.0,57000.0,66000.0,70000.0,220000.0
+World,ev_stock,cars,PHEV,Vehicles,400.0,9500.0,70000.0,160000.0,300000.0,520000.0,800000.0,1200000.0,1900000.0,2400000.0,3400000.0,5300000.0,8000000.0,12000000.0,19000000.0,82000000.0
+World,ev_stock,trucks,BEV,Vehicles,1100.0,1300.0,1600.0,2400.0,2600.0,18000.0,65000.0,140000.0,170000.0,200000.0,210000.0,230000.0,260000.0,310000.0,400000.0,3200000.0
+World,ev_stock,trucks,FCEV,Vehicles,,,,,,5.0,2.0,3.0,400.0,1800.0,3200.0,4300.0,7100.0,11000.0,16000.0,140000.0
+World,ev_stock,trucks,PHEV,Vehicles,,,,,,36.0,39.0,52.0,66.0,88.0,110.0,650.0,920.0,1300.0,1300.0,58000.0
+World,ev_stock,vans,BEV,Vehicles,7100.0,10000.0,21000.0,31000.0,43000.0,67000.0,120000.0,200000.0,310000.0,390000.0,460000.0,620000.0,900000.0,1300000.0,1900000.0,11000000.0
+World,ev_stock,vans,FCEV,Vehicles,6.0,6.0,7.0,56.0,89.0,160.0,250.0,280.0,370.0,370.0,400.0,460.0,1300.0,3300.0,6200.0,270000.0
+World,ev_stock,vans,PHEV,Vehicles,210.0,260.0,310.0,370.0,460.0,1500.0,2000.0,2700.0,3800.0,5800.0,9500.0,12000.0,18000.0,26000.0,37000.0,580000.0
+World,ev_stock_share,2_3_wheelers,EV_total,percent,0.0099,0.018,0.36,0.72,1.1,1.5,1.9,2.4,3.2,4.0,5.0,6.1,6.6,8.3,9.2,
+World,ev_stock_share,buses,EV_total,percent,0.052,0.066,0.074,0.09,0.2,0.7,1.2,1.7,2.2,2.6,3.1,3.5,3.9,4.3,4.9,11.0
+World,ev_stock_share,cars,EV_total,percent,0.0024,0.0077,0.021,0.041,0.073,0.12,0.19,0.29,0.45,0.62,0.86,1.4,2.1,3.2,4.5,15.0
+World,ev_stock_share,trucks,EV_total,percent,0.0022,0.0025,0.0029,0.0041,0.0044,0.029,0.1,0.2,0.25,0.27,0.28,0.29,0.33,0.39,0.5,3.0
+World,ev_stock_share,vans,EV_total,percent,0.0063,0.0091,0.018,0.026,0.034,0.054,0.093,0.16,0.24,0.29,0.34,0.45,0.65,0.91,1.3,7.0
+World,oil_displacement_lge,2_3_wheelers,EV_total,"Oil displacement, million lge",3.8,6.0,400.0,810.0,1400.0,2100.0,1500.0,1800.0,2300.0,2700.0,3400.0,4600.0,4500.0,6000.0,6600.0,17000.0
+World,oil_displacement_lge,buses,EV_total,"Oil displacement, million lge",56.0,42.0,46.0,66.0,120.0,660.0,840.0,1800.0,2600.0,2700.0,2800.0,3200.0,3700.0,4000.0,4300.0,17000.0
+World,oil_displacement_lge,cars,EV_total,"Oil displacement, million lge",25.0,88.0,190.0,420.0,830.0,1500.0,2100.0,3500.0,6000.0,8100.0,9800.0,18000.0,28000.0,43000.0,58000.0,210000.0
+World,oil_displacement_lge,trucks,EV_total,"Oil displacement, million lge",1.5,3.8,3.8,4.1,4.5,710.0,1900.0,1800.0,2300.0,2100.0,2000.0,2200.0,3400.0,3800.0,4800.0,34000.0
+World,oil_displacement_lge,vans,EV_total,"Oil displacement, million lge",14.0,22.0,53.0,84.0,120.0,200.0,220.0,520.0,550.0,640.0,710.0,1100.0,1800.0,2600.0,3900.0,22000.0
+World,oil_displacement_mbd,2_3_wheelers,EV_total,Million barrels per day,6.6e-05,0.0001,0.0066,0.014,0.024,0.035,0.026,0.03,0.038,0.045,0.057,0.077,0.075,0.1,0.11,0.3
+World,oil_displacement_mbd,buses,EV_total,Million barrels per day,0.00094,0.00071,0.00077,0.0011,0.002,0.011,0.014,0.031,0.043,0.046,0.047,0.054,0.061,0.067,0.072,0.29
+World,oil_displacement_mbd,cars,EV_total,Million barrels per day,0.00044,0.0015,0.0032,0.0072,0.014,0.026,0.036,0.059,0.1,0.14,0.17,0.3,0.47,0.74,0.99,3.6
+World,oil_displacement_mbd,trucks,EV_total,Million barrels per day,2.5e-05,6.6e-05,6.6e-05,7.2e-05,7.8e-05,0.012,0.031,0.03,0.038,0.035,0.033,0.036,0.056,0.063,0.08,0.57
+World,oil_displacement_mbd,vans,EV_total,Million barrels per day,0.00023,0.00039,0.00092,0.0015,0.002,0.0035,0.0039,0.0088,0.0094,0.011,0.012,0.019,0.03,0.045,0.067,0.38

@@ -1,0 +1,218 @@
+{
+  "2024": {
+    "solar_pv_utility_capex|solar_pv_utility_lcoe": 1.0,
+    "wind_onshore_capex|wind_onshore_lcoe": 0.9804,
+    "battery_utility_capex_power|battery_utility_lcos": 1.0,
+    "ngcc_capex|ngcc_lcoe": 0.9999,
+    "solar_pv_utility_capex|battery_utility_capex_power": 0.9995,
+    "solar_pv_utility_lcoe|wind_onshore_lcoe": 0.9989
+  },
+  "2025": {
+    "solar_pv_utility_capex|solar_pv_utility_lcoe": 1.0,
+    "wind_onshore_capex|wind_onshore_lcoe": 0.9821,
+    "battery_utility_capex_power|battery_utility_lcos": 1.0,
+    "ngcc_capex|ngcc_lcoe": 0.9998,
+    "solar_pv_utility_capex|battery_utility_capex_power": 1.0,
+    "solar_pv_utility_lcoe|wind_onshore_lcoe": 0.9991
+  },
+  "2026": {
+    "solar_pv_utility_capex|solar_pv_utility_lcoe": 0.9999,
+    "wind_onshore_capex|wind_onshore_lcoe": 0.9835,
+    "battery_utility_capex_power|battery_utility_lcos": 1.0,
+    "ngcc_capex|ngcc_lcoe": 0.9997,
+    "solar_pv_utility_capex|battery_utility_capex_power": 0.9999,
+    "solar_pv_utility_lcoe|wind_onshore_lcoe": 0.9993
+  },
+  "2027": {
+    "solar_pv_utility_capex|solar_pv_utility_lcoe": 0.9999,
+    "wind_onshore_capex|wind_onshore_lcoe": 0.9846,
+    "battery_utility_capex_power|battery_utility_lcos": 1.0,
+    "ngcc_capex|ngcc_lcoe": 1.0,
+    "solar_pv_utility_capex|battery_utility_capex_power": 0.9994,
+    "solar_pv_utility_lcoe|wind_onshore_lcoe": 0.9994
+  },
+  "2028": {
+    "solar_pv_utility_capex|solar_pv_utility_lcoe": 0.9999,
+    "wind_onshore_capex|wind_onshore_lcoe": 0.9856,
+    "battery_utility_capex_power|battery_utility_lcos": 1.0,
+    "ngcc_capex|ngcc_lcoe": 1.0,
+    "solar_pv_utility_capex|battery_utility_capex_power": 0.9985,
+    "solar_pv_utility_lcoe|wind_onshore_lcoe": 0.9995
+  },
+  "2029": {
+    "solar_pv_utility_capex|solar_pv_utility_lcoe": 0.9998,
+    "wind_onshore_capex|wind_onshore_lcoe": 0.9865,
+    "battery_utility_capex_power|battery_utility_lcos": 1.0,
+    "ngcc_capex|ngcc_lcoe": 1.0,
+    "solar_pv_utility_capex|battery_utility_capex_power": 0.997,
+    "solar_pv_utility_lcoe|wind_onshore_lcoe": 0.9996
+  },
+  "2030": {
+    "solar_pv_utility_capex|solar_pv_utility_lcoe": 0.9998,
+    "wind_onshore_capex|wind_onshore_lcoe": 0.9873,
+    "battery_utility_capex_power|battery_utility_lcos": 1.0,
+    "ngcc_capex|ngcc_lcoe": 1.0,
+    "solar_pv_utility_capex|battery_utility_capex_power": 0.9948,
+    "solar_pv_utility_lcoe|wind_onshore_lcoe": 0.9996
+  },
+  "2031": {
+    "solar_pv_utility_capex|solar_pv_utility_lcoe": 0.9997,
+    "wind_onshore_capex|wind_onshore_lcoe": 0.9871,
+    "battery_utility_capex_power|battery_utility_lcos": 1.0,
+    "ngcc_capex|ngcc_lcoe": 1.0,
+    "solar_pv_utility_capex|battery_utility_capex_power": 0.9959,
+    "solar_pv_utility_lcoe|wind_onshore_lcoe": 0.9995
+  },
+  "2032": {
+    "solar_pv_utility_capex|solar_pv_utility_lcoe": 0.9996,
+    "wind_onshore_capex|wind_onshore_lcoe": 0.9868,
+    "battery_utility_capex_power|battery_utility_lcos": 1.0,
+    "ngcc_capex|ngcc_lcoe": 1.0,
+    "solar_pv_utility_capex|battery_utility_capex_power": 0.9968,
+    "solar_pv_utility_lcoe|wind_onshore_lcoe": 0.9992
+  },
+  "2033": {
+    "solar_pv_utility_capex|solar_pv_utility_lcoe": 0.9995,
+    "wind_onshore_capex|wind_onshore_lcoe": 0.9866,
+    "battery_utility_capex_power|battery_utility_lcos": 1.0,
+    "ngcc_capex|ngcc_lcoe": 1.0,
+    "solar_pv_utility_capex|battery_utility_capex_power": 0.9976,
+    "solar_pv_utility_lcoe|wind_onshore_lcoe": 0.999
+  },
+  "2034": {
+    "solar_pv_utility_capex|solar_pv_utility_lcoe": 0.9994,
+    "wind_onshore_capex|wind_onshore_lcoe": 0.9863,
+    "battery_utility_capex_power|battery_utility_lcos": 1.0,
+    "ngcc_capex|ngcc_lcoe": 1.0,
+    "solar_pv_utility_capex|battery_utility_capex_power": 0.9982,
+    "solar_pv_utility_lcoe|wind_onshore_lcoe": 0.9987
+  },
+  "2035": {
+    "solar_pv_utility_capex|solar_pv_utility_lcoe": 0.9994,
+    "wind_onshore_capex|wind_onshore_lcoe": 0.9861,
+    "battery_utility_capex_power|battery_utility_lcos": 1.0,
+    "ngcc_capex|ngcc_lcoe": 1.0,
+    "solar_pv_utility_capex|battery_utility_capex_power": 0.9988,
+    "solar_pv_utility_lcoe|wind_onshore_lcoe": 0.9984
+  },
+  "2036": {
+    "solar_pv_utility_capex|solar_pv_utility_lcoe": 0.9994,
+    "wind_onshore_capex|wind_onshore_lcoe": 0.9858,
+    "battery_utility_capex_power|battery_utility_lcos": 1.0,
+    "ngcc_capex|ngcc_lcoe": 1.0,
+    "solar_pv_utility_capex|battery_utility_capex_power": 0.9991,
+    "solar_pv_utility_lcoe|wind_onshore_lcoe": 0.9982
+  },
+  "2037": {
+    "solar_pv_utility_capex|solar_pv_utility_lcoe": 0.9995,
+    "wind_onshore_capex|wind_onshore_lcoe": 0.9856,
+    "battery_utility_capex_power|battery_utility_lcos": 1.0,
+    "ngcc_capex|ngcc_lcoe": 1.0,
+    "solar_pv_utility_capex|battery_utility_capex_power": 0.9993,
+    "solar_pv_utility_lcoe|wind_onshore_lcoe": 0.9979
+  },
+  "2038": {
+    "solar_pv_utility_capex|solar_pv_utility_lcoe": 0.9995,
+    "wind_onshore_capex|wind_onshore_lcoe": 0.9853,
+    "battery_utility_capex_power|battery_utility_lcos": 1.0,
+    "ngcc_capex|ngcc_lcoe": 1.0,
+    "solar_pv_utility_capex|battery_utility_capex_power": 0.9996,
+    "solar_pv_utility_lcoe|wind_onshore_lcoe": 0.9976
+  },
+  "2039": {
+    "solar_pv_utility_capex|solar_pv_utility_lcoe": 0.9995,
+    "wind_onshore_capex|wind_onshore_lcoe": 0.9851,
+    "battery_utility_capex_power|battery_utility_lcos": 1.0,
+    "ngcc_capex|ngcc_lcoe": 1.0,
+    "solar_pv_utility_capex|battery_utility_capex_power": 0.9997,
+    "solar_pv_utility_lcoe|wind_onshore_lcoe": 0.9973
+  },
+  "2040": {
+    "solar_pv_utility_capex|solar_pv_utility_lcoe": 0.9996,
+    "wind_onshore_capex|wind_onshore_lcoe": 0.9849,
+    "battery_utility_capex_power|battery_utility_lcos": 1.0,
+    "ngcc_capex|ngcc_lcoe": 1.0,
+    "solar_pv_utility_capex|battery_utility_capex_power": 0.9998,
+    "solar_pv_utility_lcoe|wind_onshore_lcoe": 0.9969
+  },
+  "2041": {
+    "solar_pv_utility_capex|solar_pv_utility_lcoe": 0.9996,
+    "wind_onshore_capex|wind_onshore_lcoe": 0.9846,
+    "battery_utility_capex_power|battery_utility_lcos": 1.0,
+    "ngcc_capex|ngcc_lcoe": 1.0,
+    "solar_pv_utility_capex|battery_utility_capex_power": 0.9999,
+    "solar_pv_utility_lcoe|wind_onshore_lcoe": 0.9966
+  },
+  "2042": {
+    "solar_pv_utility_capex|solar_pv_utility_lcoe": 0.9997,
+    "wind_onshore_capex|wind_onshore_lcoe": 0.9844,
+    "battery_utility_capex_power|battery_utility_lcos": 1.0,
+    "ngcc_capex|ngcc_lcoe": 1.0,
+    "solar_pv_utility_capex|battery_utility_capex_power": 1.0,
+    "solar_pv_utility_lcoe|wind_onshore_lcoe": 0.9962
+  },
+  "2043": {
+    "solar_pv_utility_capex|solar_pv_utility_lcoe": 0.9997,
+    "wind_onshore_capex|wind_onshore_lcoe": 0.9842,
+    "battery_utility_capex_power|battery_utility_lcos": 1.0,
+    "ngcc_capex|ngcc_lcoe": 1.0,
+    "solar_pv_utility_capex|battery_utility_capex_power": 1.0,
+    "solar_pv_utility_lcoe|wind_onshore_lcoe": 0.9957
+  },
+  "2044": {
+    "solar_pv_utility_capex|solar_pv_utility_lcoe": 0.9997,
+    "wind_onshore_capex|wind_onshore_lcoe": 0.984,
+    "battery_utility_capex_power|battery_utility_lcos": 1.0,
+    "ngcc_capex|ngcc_lcoe": 1.0,
+    "solar_pv_utility_capex|battery_utility_capex_power": 1.0,
+    "solar_pv_utility_lcoe|wind_onshore_lcoe": 0.9952
+  },
+  "2045": {
+    "solar_pv_utility_capex|solar_pv_utility_lcoe": 0.9998,
+    "wind_onshore_capex|wind_onshore_lcoe": 0.9837,
+    "battery_utility_capex_power|battery_utility_lcos": 1.0,
+    "ngcc_capex|ngcc_lcoe": 1.0,
+    "solar_pv_utility_capex|battery_utility_capex_power": 1.0,
+    "solar_pv_utility_lcoe|wind_onshore_lcoe": 0.9947
+  },
+  "2046": {
+    "solar_pv_utility_capex|solar_pv_utility_lcoe": 0.9998,
+    "wind_onshore_capex|wind_onshore_lcoe": 0.9835,
+    "battery_utility_capex_power|battery_utility_lcos": 1.0,
+    "ngcc_capex|ngcc_lcoe": 1.0,
+    "solar_pv_utility_capex|battery_utility_capex_power": 1.0,
+    "solar_pv_utility_lcoe|wind_onshore_lcoe": 0.9941
+  },
+  "2047": {
+    "solar_pv_utility_capex|solar_pv_utility_lcoe": 0.9998,
+    "wind_onshore_capex|wind_onshore_lcoe": 0.9833,
+    "battery_utility_capex_power|battery_utility_lcos": 1.0,
+    "ngcc_capex|ngcc_lcoe": 1.0,
+    "solar_pv_utility_capex|battery_utility_capex_power": 1.0,
+    "solar_pv_utility_lcoe|wind_onshore_lcoe": 0.9935
+  },
+  "2048": {
+    "solar_pv_utility_capex|solar_pv_utility_lcoe": 0.9999,
+    "wind_onshore_capex|wind_onshore_lcoe": 0.9831,
+    "battery_utility_capex_power|battery_utility_lcos": 1.0,
+    "ngcc_capex|ngcc_lcoe": 1.0,
+    "solar_pv_utility_capex|battery_utility_capex_power": 0.9999,
+    "solar_pv_utility_lcoe|wind_onshore_lcoe": 0.9928
+  },
+  "2049": {
+    "solar_pv_utility_capex|solar_pv_utility_lcoe": 0.9999,
+    "wind_onshore_capex|wind_onshore_lcoe": 0.9829,
+    "battery_utility_capex_power|battery_utility_lcos": 1.0,
+    "ngcc_capex|ngcc_lcoe": 1.0,
+    "solar_pv_utility_capex|battery_utility_capex_power": 0.9999,
+    "solar_pv_utility_lcoe|wind_onshore_lcoe": 0.9921
+  },
+  "2050": {
+    "solar_pv_utility_capex|solar_pv_utility_lcoe": 0.9999,
+    "wind_onshore_capex|wind_onshore_lcoe": 0.9827,
+    "battery_utility_capex_power|battery_utility_lcos": 1.0,
+    "ngcc_capex|ngcc_lcoe": 1.0,
+    "solar_pv_utility_capex|battery_utility_capex_power": 0.9999,
+    "solar_pv_utility_lcoe|wind_onshore_lcoe": 0.9913
+  }
+}

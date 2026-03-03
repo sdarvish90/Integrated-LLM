@@ -1,0 +1,44 @@
+{
+  "base": {
+    "scenario": "base",
+    "total_ercot_variables": 13,
+    "populated": 8,
+    "partial": 0,
+    "empty": 5,
+    "completeness_pct": 61.5,
+    "priority_1": {
+      "total": 13,
+      "populated": 8,
+      "pct": 61.5
+    },
+    "cdr_horizon": "2026\u20132030",
+    "extrapolated_to": 2050,
+    "issues": [
+      {
+        "level": "ERROR",
+        "var": "electricity_price_wholesale",
+        "msg": "P1 variable empty"
+      },
+      {
+        "level": "ERROR",
+        "var": "electricity_demand_total",
+        "msg": "P1 variable empty"
+      },
+      {
+        "level": "ERROR",
+        "var": "peak_demand",
+        "msg": "P1 variable empty"
+      },
+      {
+        "level": "ERROR",
+        "var": "ercot_energy_demand",
+        "msg": "P1 variable empty"
+      },
+      {
+        "level": "ERROR",
+        "var": "ercot_wholesale_price",
+        "msg": "P1 variable empty"
+      }
+    ]
+  }
+}
