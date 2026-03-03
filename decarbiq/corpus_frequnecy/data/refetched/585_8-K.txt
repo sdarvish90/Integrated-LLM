@@ -1,0 +1,790 @@
+8-K 
+ 
+ 
+ ENBRIDGE INC false 0000895728 0000895728 2023-05-03 2023-05-03 UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, D.C. 20549 FORM 8-K CURRENT REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 Date of report (Date of earliest event reported): May 3, 2023 
+ ENBRIDGE INC. (Exact Name of Registrant as Specified in Charter) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Canada 
+ 
+ 001-15254 
+ 
+ 98-0377957 
+ 
+ (State or Other Jurisdiction of Incorporation) 
+ 
+ (Commission File Number) 
+ 
+ (IRS Employer Identification No.) 200 , 425 - 1st Street S.W. Calgary , Alberta , Canada T2P 3L8 (Address of Principal Executive Offices) (Zip Code) 1-403 - 231-3900 (Registrants telephone number, including area code) Not Applicable (Former Name or Former Address, if Changed Since Last Report) Check the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions: 
+ 
+ 
+ 
+ Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425) 
+ 
+ 
+ 
+ Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12) 
+ 
+ 
+ 
+ Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b)) 
+ 
+ 
+ 
+ Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c)) Indicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (230.405 of this chapter) or Rule 12b-2 of the Securities Exchange Act of 1934 (240.12b-2 of this chapter). Emerging growth company If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. Securities registered pursuant to Section 12(b) of the Act: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Title of each class 
+ 
+ Trading Symbol(s) 
+ 
+ Name of each exchange on which registered 
+ 
+ Common Shares 
+ 
+ ENB 
+ 
+ New York Stock Exchange 
+
+ 
+ 
+
+ 
+
+ 
+ 
+ Item1.01 
+ Entry into a Material Definitive Agreement Shareholder Rights Plan At the 2023 Annual Meeting of Shareholders held on May3, 2023 (the Annual Meeting), the holders of common shares of Enbridge Inc. (the Corporation) voted to amend, reconfirm and approve the Corporations shareholder rights plan (the Rights Plan) under the terms of an agreement between the Corporation and Computershare Trust Company of Canada (Computershare), as rights agent. The Rights Plan originally became effective on November9, 1995, and pursuant to its terms is required to be reconfirmed and approved by a majority of shareholders every three years or it will be terminated and cease to have effect. The amendments to the Rights Plan approved at the Annual Meeting provide that the Rights Plan must next be approved at the annual meeting of shareholders held three years after the Annual Meeting or the Rights Plan will cease to have effect, and include certain other non-material changes to the Rights Plan. The Rights Plan is designed to encourage the fair treatment of shareholders in connection with any take-over bid for the Corporation. Rights issued under the Rights Plan become exercisable when a person and any related parties acquires or announces the intention to acquire 20% or more of the Corporations outstanding common shares without complying with certain provisions set out in the Rights Plan or without approval of the board of directors of the Corporation (the Board). Should such an acquisition or announcement occur, each rights holder, other than the acquiring person and its related parties, will have the right to purchase common shares of the Corporation at a 50% discount to the market price at that time. The foregoing summary of the Rights Plan and the amendments thereto does not purport to be complete and is subject to, and qualified in its entirety by, the full text of the Rights Plan, which is attached as Exhibit 4.1 to this Current Report on Form 8-K and is incorporated herein by reference. 
+ 
+ 
+ Item3.03 
+ Material Modification to Rights of Security Holders The information set forth in Item 1.01 of this Current Report on Form 8-K is incorporated into this Item 3.03 by reference. 
+ 
+ 
+ Item5.07. 
+ Submission of Matters to a Vote of Security Holders At the Annual Meeting, the holders of common shares of the Corporation voted on: (1) 11 director nominees to be elected to the Board to serve until the close of the Corporations next annual meeting of shareholders or until their respective successors have been appointed; (2)the appointment of PricewaterhouseCoopers LLP as auditors of the Corporation until the close of the Corporations next annual meeting of shareholders at such remuneration to be fixed by the Board; (3)an advisory vote on the Corporations approach to executive compensation (a Say on Pay vote); (4) the amendment, reconfirmation and approval of the Rights Plan under the terms of an agreement between the Corporation and Computershare; (5)a shareholder proposal regarding the Corporations lobbying and political donations in the U.S., submitted by DI Foundation, represented by Investors for Paris Compliance (shareholder proposal #1); and (6)a shareholder proposal regarding disclosure of the Corporations scope 3 emissions, submitted by DI Foundation, represented by Investors for Paris Compliance (shareholder proposal #2). The items of business are further described in the Corporations management information circular (the Circular) filed as Exhibit 99.1 to the Corporations Current Report on Form 8-K filed with the U.S. Securities and Exchange Commission on March6, 2023. 
+ 
+
+ 
+ 
+
+ 
+ The tables below set forth the number of votes cast for, against or withheld, and the number of abstentions and broker non-votes, for each matter voted on by the Corporations shareholders. 
+ 
+ 
+ 1. 
+ Election of Directors Each of the 11 nominees listed below was elected as Director of the Corporation to hold office until the Corporations next annual meeting of shareholders or until their successor is duly appointed. 
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ Name of Nominee 
+ 
+ Votes For 
+ 
+ 
+ Votes Against 
+ 
+ 
+ Broker Non-Votes 
+ 
+ 
+ 
+ 
+ Number 
+ 
+ 
+ Percentage 
+ 
+ 
+ Number 
+ 
+ 
+ Percentage 
+ 
+ 
+ Number 
+ 
+
+ 
+ Mayank M. Ashar 
+ 
+ 
+ 1,092,093,753 
+ 
+ 
+ 
+ 97.13 
+ 
+ 
+ 
+ 32,306,445 
+ 
+ 
+ 
+ 2.87 
+ 
+ 
+ 
+ 176,541,773 
+ 
+ 
+ Gaurdie E. Banister 
+ 
+ 
+ 1,101,302,262 
+ 
+ 
+ 
+ 97.94 
+ 
+ 
+ 
+ 23,107,585 
+ 
+ 
+ 
+ 2.06 
+ 
+ 
+ 
+ 176,532,124 
+ 
+ 
+ Pamela L. Carter 
+ 
+ 
+ 991,212,800 
+ 
+ 
+ 
+ 88.15 
+ 
+ 
+ 
+ 133,197,349 
+ 
+ 
+ 
+ 11.85 
+ 
+ 
+ 
+ 176,532,521 
+ 
+ 
+ Susan M. Cunningham 
+ 
+ 
+ 1,003,808,338 
+ 
+ 
+ 
+ 89.27 
+ 
+ 
+ 
+ 120,602,209 
+ 
+ 
+ 
+ 10.73 
+ 
+ 
+ 
+ 176,532,123 
+ 
+ 
+ Gregory L. Ebel 
+ 
+ 
+ 1,086,511,838 
+ 
+ 
+ 
+ 96.63 
+ 
+ 
+ 
+ 37,898,712 
+ 
+ 
+ 
+ 3.37 
+ 
+ 
+ 
+ 176,532,120 
+ 
+ 
+ Jason B. Few 
+ 
+ 
+ 1,100,272,840 
+ 
+ 
+ 
+ 97.85 
+ 
+ 
+ 
+ 24,137,661 
+ 
+ 
+ 
+ 2.15 
+ 
+ 
+ 
+ 176,532,120 
+ 
+ 
+ Teresa S. Madden 
+ 
+ 
+ 1,095,319,865 
+ 
+ 
+ 
+ 97.41 
+ 
+ 
+ 
+ 29,089,940 
+ 
+ 
+ 
+ 2.59 
+ 
+ 
+ 
+ 176,532,865 
+ 
+ 
+ Stephen S. Poloz 
+ 
+ 
+ 1,098,524,019 
+ 
+ 
+ 
+ 97.70 
+ 
+ 
+ 
+ 25,886,530 
+ 
+ 
+ 
+ 2.30 
+ 
+ 
+ 
+ 176,532,121 
+ 
+ 
+ S. Jane Rowe 
+ 
+ 
+ 1,094,988,525 
+ 
+ 
+ 
+ 97.38 
+ 
+ 
+ 
+ 29,421,823 
+ 
+ 
+ 
+ 2.62 
+ 
+ 
+ 
+ 176,532,322 
+ 
+ 
+ Dan C. Tutcher 
+ 
+ 
+ 1,097,307,202 
+ 
+ 
+ 
+ 97.59 
+ 
+ 
+ 
+ 27,103,311 
+ 
+ 
+ 
+ 2.41 
+ 
+ 
+ 
+ 176,532,157 
+ 
+ 
+ Steven W. Williams 
+ 
+ 
+ 1,071,333,442 
+ 
+ 
+ 
+ 95.28 
+ 
+ 
+ 
+ 53,075,437 
+ 
+ 
+ 
+ 4.72 
+ 
+ 
+ 
+ 176,533,791 
+ 
+ 
+ 
+ 
+ 2. 
+ Appoint PricewaterhouseCoopers LLP as Auditors The shareholders approved the appointment of PricewaterhouseCoopers LLP as auditors of the Corporation until the close of the Corporations next annual meeting of shareholders at such remuneration to be fixed by the Board. 
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+ Votes For 
+ 
+ Votes Withheld 
+ 
+ BrokerNon-Votes 
+ 
+ Number 
+ 
+ Percentage 
+ 
+ Number 
+ 
+ Percentage 
+ 
+ Number 
+
+ 
+ 1,164,813,933 
+ 
+ 89.54 
+ 
+ 136,128,257 
+ 
+ 10.46 
+ 
+ 480 
+ 
+ 
+ 
+ 3. 
+ Advisory Vote on the Corporations Approach to Executive Compensation The shareholders accepted the Corporations approach to executive compensation, as disclosed in the Circular. 
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+ Votes For 
+ 
+ Votes Against 
+ 
+ Abstentions 
+ 
+ BrokerNon-Votes 
+ 
+ Number 
+ 
+ Percentage 
+ 
+ Number 
+ 
+ Percentage 
+ 
+ Number 
+ 
+ Percentage 
+ 
+ Number 
+
+ 
+ 1,020,360,419 
+ 
+ 90.75 
+ 
+ 94,556,759 
+ 
+ 8.41 
+ 
+ 9,491,156 
+ 
+ 0.84 
+ 
+ 176,534,336 
+ 
+ 
+ 
+ 4. 
+ Amendment, Reconfirmation and Approval of the Shareholder Rights Plan The shareholders amended, reconfirmed and approved the Rights Plan under the terms of an agreement between the Corporation and Computershare. 
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+ Votes For 
+ 
+ Votes Against 
+ 
+ Abstentions 
+ 
+ BrokerNon-Votes 
+ 
+ Number 
+ 
+ Percentage 
+ 
+ Number 
+ 
+ Percentage 
+ 
+ Number 
+ 
+ Percentage 
+ 
+ Number 
+
+ 
+ 1,100,879,197 
+ 
+ 97.91 
+ 
+ 20,555,577 
+ 
+ 1.83 
+ 
+ 2,974,355 
+ 
+ 0.26 
+ 
+ 176,533,541 
+ 
+ 
+ 
+ 5. 
+ Shareholder Proposal #1 Shareholders voted against shareholder proposal #1. 
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+ Votes For 
+ 
+ Votes Against 
+ 
+ Abstentions 
+ 
+ BrokerNon-Votes 
+ 
+ Number 
+ 
+ Percentage 
+ 
+ Number 
+ 
+ Percentage 
+ 
+ Number 
+ 
+ Percentage 
+ 
+ Number 
+
+ 
+ 207,995,778 
+ 
+ 18.50 
+ 
+ 900,108,306 
+ 
+ 80.05 
+ 
+ 16,305,194 
+ 
+ 1.45 
+ 
+ 176,533,392 
+ 
+ 
+ 
+ 6. 
+ Shareholder Proposal #2 Shareholders voted against shareholder proposal #2. 
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+ Votes For 
+ 
+ Votes Against 
+ 
+ Abstentions 
+ 
+ BrokerNon-Votes 
+ 
+ Number 
+ 
+ Percentage 
+ 
+ Number 
+ 
+ Percentage 
+ 
+ Number 
+ 
+ Percentage 
+ 
+ Number 
+
+ 
+ 274,835,349 
+ 
+ 24.44 
+ 
+ 804,245,894 
+ 
+ 71.53 
+ 
+ 45,329,272 
+ 
+ 4.03 
+ 
+ 176,532,155 
+ Item8.01 Other Events. On May3, 2023, the Corporation issued a news release announcing the election of director voting results from the Annual Meeting. A copy of the news release is attached as Exhibit 99.1 to this Current Report on Form 8-K. Item9.01 Financial Statements and Exhibits. (d) Exhibits 
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ Exhibit Number 
+ 
+ Description 
+
+ 
+ 
+ 
+ 
+ 4.1 
+ 
+ Shareholder Rights Plan Agreement between Enbridge Inc. and Computershare Trust Company of Canada dated as of November9, 1995 and Amended and Restated as of May3, 2023 
+ 
+ 
+ 
+ 
+ 99.1 
+ 
+ New Release dated May3, 2023 
+ 
+ 
+ 
+ 
+ 104 
+ 
+ Cover Page Interactive Data File (embedded within the Inline XBRL document) 
+ 
+ 
+
+ 
+ 
+
+ 
+ SIGNATURES Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized. 
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ ENBRIDGE INC. (Registrant) 
+ 
+ 
+ 
+ 
+ 
+ 
+ Date: May4, 2023 
+ 
+ 
+ 
+ By: 
+ 
+ /s/ Karen K.L. Uehara 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Karen K.L. Uehara Vice President& Corporate Secretary ( Duly Authorized Officer )

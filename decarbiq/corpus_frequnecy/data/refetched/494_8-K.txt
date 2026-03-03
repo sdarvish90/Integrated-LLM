@@ -1,0 +1,491 @@
+8-K
+ 1
+ ea142913-8k_riceacq2.htm
+ CURRENT REPORT
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ UNITED STATES 
+SECURITIES AND EXCHANGE COMMISSION 
+ Washington, D.C. 20549 
+
+ 
+
+ FORM 8-K 
+
+ 
+
+ CURRENT REPORT 
+
+ Pursuant to Section 13 or 15(d) of the Securities
+Exchange Act of 1934 
+
+ 
+
+ Date of Report
+(Date of earliest event reported): June 18, 2021 
+
+ 
+
+ RICE ACQUISITION CORP. II 
+
+ (Exact name of registrant as specified in its charter) 
+
+ 
+
+ 
+ 
+ Cayman Islands 
+ 
+ 001-40503 
+ 
+ 98-1580612 
+ 
+ (State or other jurisdiction 
+ 
+ (Commission File Number) 
+ 
+ (I.R.S. Employer 
+ 
+ of incorporation) 
+ 
+ 
+ 
+ Identification No.) 
+ 
+ 
+
+ 102 East Main Street, Second Story 
+Carnegie, Pennsylvania 15106 
+ (Address of principal executive offices, including zip code) 
+
+ 
+
+ (713) 446-6259 
+ (Registrant&rsquo;s telephone number, including area code) 
+
+ 
+
+ Not Applicable 
+ (Former name or former address, if changed since last report) 
+
+ 
+
+ Check the appropriate box below if the Form 8-K is
+intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions: 
+
+ 
+
+ 
+ Written communications pursuant to Rule 425 under the Securities
+Act (17 CFR 230.425) 
+ 
+
+ 
+
+ 
+ Soliciting material pursuant to Rule 14a-12 under the Exchange
+Act (17 CFR 240.14a-12) 
+ 
+
+ 
+
+ 
+ Pre-commencement communications pursuant to Rule 14d-2(b)
+under the Exchange Act (17 CFR 240.14d-2(b)) 
+ 
+
+ 
+
+ 
+ Pre-commencement communications pursuant to Rule 13e-4(c)
+under the Exchange Act (17 CFR 240.13e-4(c)) 
+ 
+
+ 
+
+ Securities registered pursuant to Section 12(b) of the Act: 
+
+ 
+
+ 
+ 
+ Title of each class registered 
+ Trading Symbol(s) 
+ Name of each exchange on which registered 
+ 
+ Units, each consisting of one Class A ordinary share, $0.0001 par value, and one-fourth of one redeemable warrant 
+ RONI U 
+ The New York Stock Exchange 
+ 
+ Class A ordinary shares, par value $0.0001 per share 
+ RONI 
+ The New York Stock Exchange 
+ 
+ Warrants, exercisable for one Class A ordinary share at an exercise price of $11.50 per share 
+ RONI WS 
+ The New York Stock Exchange 
+ 
+
+ 
+
+ Indicate by check mark whether the registrant is
+an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (&sect;230.405 of this chapter) or Rule 12b-2 of the Securities
+Exchange Act of 1934 (&sect;240.12b-2 of this chapter). 
+
+ 
+
+ Emerging growth company 
+
+ 
+
+ If an emerging growth company, indicate by check
+mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting
+standards provided pursuant to Section 13(a) of the Exchange Act. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+
+ Item
+1.01. Entry into a Material Definitive Agreement. 
+
+ 
+
+ On
+June 15, 2021, Rice Acquisition Corp. II (the &ldquo; Company &rdquo;) and Rice Acquisition Holdings II LLC (&ldquo; Opco &rdquo;)
+entered into an Underwriting Agreement (the &ldquo; Underwriting Agreement &rdquo;) with Citigroup Global Markets Inc. and Barclays
+Capital Inc., as representatives of the several underwriters named therein (the &ldquo; Underwriters &rdquo;), relating to the offer
+and sale (the &ldquo; IPO &rdquo;) of the Company&rsquo;s units (the &ldquo; Units &rdquo;). Each Unit had an offering price
+of $10.00 and consists of one Class A ordinary share of the Company, par value $0.0001 per share (the &ldquo; Class A Ordinary Shares &rdquo;),
+and one-fourth of one redeemable warrant of the Company (each such whole warrant, a &ldquo; Public Warrant &rdquo;). Each Public
+Warrant entitles the holder thereof to purchase one Class A Ordinary Share at a price of $11.50 per share. 
+
+ 
+
+ The
+Underwriting Agreement provides for the offer and sale of 30,000,000 Units (&ldquo; Firm Units &rdquo;) at a price to the public
+of $10.00 per Unit. Pursuant to the Underwriting Agreement, the Company granted the Underwriters a 45-day option to purchase up to an
+aggregate of 4,500,000 additional Units (&ldquo; Additional Units &rdquo;) to cover over-allotments, if any. The purchase price payable
+by the Underwriters for both the Firm Units and any Additional Units is $9.80 per Unit, except that the purchase price payable by the
+Underwriters for any Firm Units or Additional Units sold by the Underwriters to Rice Investment Group (the &ldquo; RIG Units &rdquo;)
+shall be $10.00 per Unit. In addition, the Company agreed to pay to the Underwriters a deferred discount (the &ldquo; Deferred Discount &rdquo;)
+of $0.35 per Unit (including both Firm Units and Additional Units, but not including the RIG Units); provided that that if no Business
+Combination (as defined in the Underwriting Agreement) is consummated within the time period provided in the Investment Management Trust
+Agreement, dated June 15, 2021 (the &ldquo; Trust Agreement &rdquo;), between the Company, Opco and Continental Stock Transfer &
+Trust Company, as trustee, and the funds held under the Trust Agreement are distributed to the holders of the Class A Ordinary Shares
+included in the Units sold pursuant to the Underwriting Agreement (the &ldquo; Public Shareholders &rdquo;), (a) the Underwriters
+will forfeit any rights or claims to the Deferred Discount and (b) the trustee under the Trust Agreement is authorized to distribute the
+Deferred Discount to the Public Shareholders on a pro rata basis. The full text of the Trust Agreement is filed as Exhibit 10.2 to this
+Current Report on Form 8-K. 
+
+ 
+
+ The
+Underwriting Agreement contains customary representations and warranties, agreements and obligations, closing conditions and termination
+provisions. The Company has agreed to indemnify the Underwriters against certain liabilities, including liabilities under the Securities
+Act of 1933, as amended (the &ldquo; Securities Act &rdquo;), and to contribute to payments the Underwriters may be required to make
+because of any of those liabilities. 
+
+ 
+
+ On June 18, 2021, the Company
+completed its IPO of 34,500,000 Units, including 4,500,000 Units that were issued pursuant to the underwriters&rsquo; exercise in full
+of their over-allotment option, and the Company received total gross proceeds of $345,000,000, before deducting underwriting discounts
+and commissions and other offering expenses. 
+
+ 
+
+ Of the net proceeds of the
+IPO and the sale of the Private Placement Warrants (described and defined below), $345,026,000, including $11,721,500 which constitutes
+the Deferred Discount, has been deposited into a U.S.-based trust account at J.P. Morgan Chase Bank, N.A., with Continental Stock Transfer
+& Trust Company acting as trustee. Except with respect to interest earned on the funds held in the trust account that may be released
+to pay franchise and income tax obligations of either the Company or Opco, the proceeds from the IPO and the portion of proceeds from
+the sale of the Private Placement Warrants held in the trust account will not be released from the trust account until the earliest to
+occur of (a) the completion of the Company&rsquo;s initial business combination (including the release of funds to pay any amounts due
+to any public shareholders who properly exercise their redemption rights in connection therewith), (b) the redemption of any shares issued
+in the IPO and properly submitted in connection with a shareholder vote to approve an amendment to the Articles (as defined below) that
+would affect the substance or timing of the obligation to redeem 100% of the Class A Ordinary Shares and Class A units of Opco if the
+Company has not consummated an initial business combination within 24 months from the closing of the IPO, and (c) the redemption of the
+outstanding Class A Ordinary Shares and Class A units of Opco if the Company does not complete its business combination within 24 months
+from the closing of the IPO, subject to applicable law. 
+
+ 
+
+ The
+material terms of the IPO are described in the prospectus, dated June 15, 2021 (the &ldquo; Prospectus &rdquo;), filed by the Company
+with the Securities and Exchange Commission (the &ldquo; Commission &rdquo;) on June 17, 2021, pursuant to Rule 424(b) under the
+Securities Act. The Offering was registered with the Commission pursuant to a Registration Statement on Form S-1, as amended (File No.
+333-254080) (the &ldquo; Registration Statement &rdquo;), initially filed by the Company on March 10, 2021. 
+
+ 
+
+ 
+
+ 
+ 1 
+ 
+ 
+
+ 
+
+ The
+foregoing summary of the Underwriting Agreement does not purport to be complete and is subject to, and qualified in its entirety by, the
+full text of the Underwriting Agreement, which is filed as Exhibit 1.1 to this Current Report on Form 8-K and incorporated in this Item
+1.01 by reference. 
+
+ 
+
+ The
+Underwriters and their affiliates have engaged in, and may in the future engage in, investment banking and other commercial dealings in
+the ordinary course of business with the Company or its affiliates. They have received, or may in the future receive, customary fees and
+commissions for these transactions. In addition, in the ordinary course of their business activities, the Underwriters and their affiliates
+may make or hold a broad array of investments and actively trade debt and equity securities (or related derivative securities) and financial
+instruments (including bank loans) for their own account and for the accounts of their customers. Such investments and securities activities
+may involve securities and/or instruments of the Company or its affiliates. The Underwriters and their affiliates may also make investment
+recommendations and/or publish or express independent research views in respect of such securities or financial instruments and may hold,
+or recommend to clients that they acquire, long and/or short positions in such securities and instruments. 
+
+ 
+
+ Item
+3.02 Unregistered Sales of Equity Securities. 
+
+ 
+
+ On June 18, 2021, substantially
+concurrently with the closing of the IPO and pursuant to the Private Placement Warrants and Warrant Rights Agreement, dated June 15, 2021,
+by and among the Company, Opco and Rice Acquisition Sponsor II LLC (the &ldquo; Sponsor &rdquo;), the Company completed the private
+sale of an aggregate of 10,900,000 warrants (the &ldquo; Private Placement Warrants &rdquo;) at a purchase price of $1.00 per Private
+Placement Warrant to the Sponsor, generating gross proceeds of $10,900,000. Each Private Placement Warrant is exercisable to purchase
+for $11.50 one Class A Ordinary Share or, in certain circumstances, one Class A unit of Opco, together with a corresponding Class B ordinary
+share of the Company, par value $0.0001 per share (the &ldquo; Class B Ordinary Shares &rdquo;). The issuance of the Private Placement
+Warrants was made pursuant to the exemption from registration contained in Section 4(a)(2) of the Securities Act. 
+
+ 
+
+ Item
+3.03 Material Modification to Rights of Security Holders. 
+
+ 
+
+ The
+information provided in Item 5.03 of this Current Report on Form 8-K is incorporated in this Item 3.03 by reference. 
+
+ 
+
+ Item
+5.02 Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers; Compensatory Arrangements of
+Certain Officers. 
+
+ 
+
+ On June 15, 2021, J. Kyle
+Derham, Jide Famuagun, Carrie Fox and James Lytal were appointed as members of the board of directors of the Company (the &ldquo; Board &rdquo;).
+The Board has determined that Mr. Famuagun, Ms. Fox and Mr. Lytal are &ldquo;independent directors&rdquo; as defined in the New York Stock
+Exchange listing standards and applicable Securities and Exchange Commission (the &ldquo; Commission &rdquo;) rules and will serve
+on the audit, compensation and nominating committees of the Board with Mr. Lytal serving as chair of the audit committee, Mr. Famuagun
+serving as chair of the compensation committee and Ms. Fox serving as chair of the nominating committee. 
+
+ 
+
+ In June 2021, the Sponsor
+forfeited 90,000 Class B units of Opco, and 30,000 Class B units of Opco were issued to each of Mr. Famuagun, Ms. Fox and Mr. Lytal. The
+Sponsor also transferred a corresponding number of shares of Class B Ordinary Shares to each of Mr. Famuagun, Ms. Fox and Mr. Lytal. 
+
+ 
+
+ On June 15, 2021, the Company
+entered into indemnification agreements with its directors and executive officers (i.e., Daniel Joseph Rice, IV, J. Kyle Derham, James
+Wilmot Rogers, Jide Famuagun, Carrie Fox and James Lytal) that require the Company to indemnify each of them to the fullest extent permitted
+by applicable law and to advance expenses incurred as a result of any proceeding against them as to which they could be indemnified. The
+foregoing summary of the indemnification agreements does not purport to be complete and is subject to, and qualified in its entirety by,
+the full text of the form of indemnification agreement, which is filed as Exhibit 10.7 to this Current Report on Form 8-K and incorporated
+in this Item 5.02 by reference. 
+
+ 
+
+ 
+
+ 
+ 2 
+ 
+ 
+
+ 
+
+ Item
+5.03 Amendments to Articles of Incorporation or Bylaws; Change in Fiscal Year. 
+
+ 
+
+ The Company&rsquo;s Amended
+and Restated Memorandum and Articles of Association (the &ldquo; Articles &rdquo;) were approved on June 15, 2021. A description
+of the Certificate is contained in the Prospectus under the section titled &ldquo;Description of Securities&rdquo; and is incorporated
+herein by reference. The description is qualified in its entirety by reference to the full text of the Articles, which are attached as
+Exhibit 3.1 to this Current Report on Form 8-K and are incorporated into this Item 5.03 by reference. 
+
+ 
+
+ Item
+8.01 Other Events. 
+
+ 
+
+ In connection with the IPO,
+the Company entered into the following agreements, forms of which were previously filed as exhibits to the Registration Statement: 
+
+ 
+
+ 
+ A Warrant Agreement, dated June 15, 2021, between the Company, Opco and Continental Stock Transfer&
+Trust Company, as warrant agent; 
+
+ 
+
+ 
+ A Letter Agreement, dated June 15, 2021, among the Company, its officers and directors and the Sponsor; 
+
+ 
+
+ 
+ A Registration Rights Agreement, dated June 15, 2021, among the Company, the Sponsor and certain other
+security holders named therein; 
+
+ 
+
+ 
+ An Administrative Services Agreement, dated June 15, 2021 between the Company, Opco and the Sponsor; and 
+
+ 
+
+ 
+ An Amended and Restated Limited Liability Company Agreement of Opco, dated June 15, 2021, by and among
+Opco and the members thereto. 
+
+ 
+
+ Item
+9.01 Financial Statements and Exhibits. 
+
+ 
+
+ (d) Exhibits.
+The following exhibits are filed with this Current Report on Form 8-K: 
+
+ 
+
+ 
+ 
+ Exhibit 
+No. 
+ 
+ Description of Exhibits 
+ 
+ 1.1 
+ 
+ Underwriting Agreement, dated as of June 15, 2021, by and between the Company, Opco and Citigroup Global Markets Inc. and Barclays Capital Inc., as representatives of the several underwriters named therein. 
+ 
+ 3.1 
+ 
+ Amended and Restated Memorandum and Articles of Association, dated June 15, 2021, of the Company. 
+ 
+ 4.1 
+ 
+ Warrant Agreement, dated June 15, 2021, between the Company, Opco and Continental Stock Transfer& Trust Company, as warrant agent. 
+ 
+ 10.1 
+ 
+ Letter Agreement, dated June 15, 2021, among the Company, its officers and directors and the Sponsor. 
+ 
+ 10.2 
+ 
+ Investment Management Trust Agreement, dated June 15, 2021, between the Company, Opco and Continental Stock Transfer& Trust Company, as trustee. 
+ 
+ 10.3 
+ 
+ Registration Rights Agreement, dated June 15, 2021, among the Company, the Sponsor, and certain other security holders named therein. 
+ 
+ 10.4 
+ 
+ Administrative Services Agreement, dated June 15, 2021, between the Company, Opco and the Sponsor. 
+ 
+ 10.5 
+ 
+ Private Placement Warrants Purchase Agreement, dated June 15, 2021, between the Company, Opco and the Sponsor. 
+ 
+ 10.6 
+ 
+ Amended and Restated Limited Liability Company Agreement of Opco, dated June 15, 2021, by and among Opco and the members thereto. 
+ 
+ 10.7 
+ 
+ Form of Indemnification Agreement (incorporated by reference to Exhibit 10.4 to the Company&rsquo;s Registration Statement on Form S-1, as amended (File No. 333-254080), filed on June 3, 2021). 
+ 
+
+ 
+
+ 
+ 3 
+ 
+ 
+
+ 
+
+ SIGNATURES 
+
+ 
+
+ Pursuant to the requirements
+of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned hereunto
+duly authorized. 
+
+ 
+
+ 
+ 
+ 
+ RICE ACQUISITION CORP. II 
+ 
+ 
+ 
+ 
+ 
+ Date: June 21, 2021 
+ By: 
+ /s/ James Wilmot Rogers 
+ 
+ 
+ Name: 
+ James Wilmot Rogers 
+ 
+ 
+ Title: 
+ Chief Accounting Officer 
+ 
+ 
+
+ 
+
+ 4

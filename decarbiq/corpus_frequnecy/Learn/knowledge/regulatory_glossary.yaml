@@ -1,0 +1,1120 @@
+# =============================================================================
+# DecarbIQ Regulatory Glossary
+# =============================================================================
+#
+# PURPOSE: Interpretive context for the query_db.py natural language interface.
+#          These definitions help the LLM explain what database fields and values
+#          mean — they are NOT a standalone data source.
+#
+# RULES FOR EDITORS:
+#   1. Every entry MUST have an effective_date (when the definition became true)
+#   2. Every entry MUST have a source (URL, regulation, or authority)
+#   3. Frame definitions as "what this means for interpreting DB data"
+#   4. When a definition is superseded, add superseded_date — do NOT delete
+#   5. Use ISO 8601 dates: YYYY-MM-DD
+#
+# LAST REVIEWED: 2026-03-03
+# =============================================================================
+
+version: "2.0"
+last_updated: "2026-03-03"
+
+# =============================================================================
+# PERMITS & REGULATORY FRAMEWORK
+# =============================================================================
+permits:
+
+  - id: permit_001
+    topic: "EPA UIC Class VI Permits"
+    definition: |
+      When a project in the database has source_system='epa_uic' with Class VI
+      permit claims, it means the project has applied for or received an EPA
+      Underground Injection Control Class VI permit for CO2 geologic sequestration
+      under the Safe Drinking Water Act. Class VI is the most stringent UIC permit
+      class, requiring Area of Review modeling, financial assurance for 50-year
+      post-injection site care, continuous monitoring, and emergency response plans.
+      Having a Class VI permit or application signals at minimum feasibility stage —
+      the permitting process takes 2-4 years and millions of dollars in engineering.
+      DURATION: EPA Class VI permits currently take 3-5 years to process due to
+      backlog. The permit is valid for the life of the project plus 50 years of
+      mandatory post-injection site care.
+    effective_date: "2010-12-10"
+    source: "40 CFR Parts 144, 145, 146, 147"
+    tags: [class_vi, epa, uic, ccs, duration]
+
+  - id: permit_002
+    topic: "Class VI vs Class II Permits"
+    definition: |
+      In the database, Class II and Class VI permits serve different purposes.
+      Class II covers wells for enhanced oil recovery (EOR) using CO2 injection —
+      these are routine oilfield operations. Class VI is specifically for permanent
+      geologic sequestration of CO2 and carries far stricter requirements: 50-year
+      post-injection site care, computational plume modeling, and quarterly EPA
+      reporting. A project with Class VI claims is a dedicated CCS project; a
+      project with only Class II claims may be EOR, not permanent storage.
+    effective_date: "2010-12-10"
+    source: "40 CFR 146 Subpart H (Class VI) vs 40 CFR 146 Subpart C (Class II)"
+    tags: [class_vi, class_ii, comparison]
+
+  - id: permit_003
+    topic: "State Primacy for Class VI"
+    definition: |
+      States can obtain "primacy" to administer the Class VI program instead of
+      EPA. In the database, the source_system indicates which authority issued
+      the permit. States with primacy and their effective dates:
+        - North Dakota: Apr 24, 2018 (ND Dept of Mineral Resources) — applied ~2013, ~5 years
+        - Wyoming: Oct 1, 2020 (WY Dept of Environmental Quality) — applied ~2018, ~2 years
+        - Louisiana: Jan 18, 2023 (LA Dept of Natural Resources) — applied ~2020, ~3 years
+        - Texas: Dec 15, 2025 (TX Railroad Commission) — applied ~2021, ~4 years
+      Projects in primacy states have state-issued Class VI permits; projects in
+      other states go through EPA. The requirements are the same either way.
+      DURATION: State primacy applications take 2-5 years to process.
+    effective_date: "2010-12-10"
+    source: "EPA UIC Program; state primacy grants"
+    tags: [primacy, class_vi, states, duration]
+
+  - id: permit_004
+    topic: "Texas Class VI Primacy — interpreting source_system"
+    definition: |
+      Texas received Class VI primacy on December 15, 2025. In the database,
+      source_system='tx_rrc' indicates permits issued by the TX Railroad
+      Commission under state authority. source_system='epa_uic' for TX projects
+      indicates permits filed before primacy transfer (with EPA Region 6) or
+      applications that were transferred to TX RRC. A Texas CCS project does NOT
+      need both permits — it needs one Class VI permit, now issued by TX RRC.
+      The first TX RRC Class VI permit was for Oxy Low Carbon Ventures (Brown
+      Pelican CO2 Sequestration, Ector County, Permit #55294).
+      DURATION: TX RRC Class VI permits are expected to take ~12-18 months,
+      significantly faster than EPA's 3-5 year backlog.
+    effective_date: "2025-12-15"
+    source: "EPA primacy grant; TX RRC CO2 program"
+    tags: [texas, primacy, rrc, class_vi, duration]
+
+  - id: permit_005
+    topic: "What a Class VI Permit Signals About Project Stage"
+    definition: |
+      The presence of Class VI permit claims in the database indicates project
+      maturity. Mapping to database stage values:
+        - Class VI application filed → stage should be at least 'feasibility'
+        - Class VI under EPA/state review → 'feasibility' transitioning to 'fid'
+        - Class VI permit approved → 'permitted' or 'fid' (ready for construction)
+        - Class VI + construction claims → 'construction'
+      If a project has Class VI claims but stage='unknown', the stage field is
+      likely stale — the permit evidence suggests at least feasibility.
+    effective_date: "2010-12-10"
+    source: "DecarbIQ project tracking methodology"
+    tags: [class_vi, stages, interpretation]
+
+  - id: permit_006
+    topic: "TCEQ Air Quality Permits"
+    definition: |
+      In the database, source_system='tceq' indicates Texas Commission on
+      Environmental Quality air permits (6,189 documents — the largest source
+      system). These are standard industrial air quality permits (Title V,
+      NSR/PSD) required for any facility with emissions — refineries, chemical
+      plants, power plants. Having TCEQ permits alone does NOT indicate a
+      hydrogen or CCS project. TCEQ permits become relevant to CCS when
+      combined with Class VI permits: the capture facility needs TCEQ air
+      permits, while the injection wells need Class VI.
+      DURATION: New TCEQ air permits take 6-12 months; amendments 3-6 months.
+    effective_date: "2000-01-01"
+    source: "TCEQ permitting authority; Texas Clean Air Act"
+    tags: [tceq, texas, air_quality, duration]
+
+  - id: permit_007
+    topic: "Full Permit Stack for a Texas CCS Project"
+    definition: |
+      A complete Texas CCS project may appear in the database with claims from
+      multiple source systems, each representing a different permit:
+        - tx_rrc (or epa_uic): Class VI permit for CO2 injection wells
+        - tceq: Air quality permits for the capture facility
+        - phmsa: Pipeline permits for CO2 transport (if applicable)
+        - epa_echo: EPA compliance/enforcement records
+        - epa_ghgrp: Greenhouse gas reporting (mandatory for large emitters)
+      The more source systems a project has, the more mature and well-documented
+      it is. The crossref_source_count field in unified_projects tracks this.
+    effective_date: "2025-12-15"
+    source: "TX regulatory framework"
+    tags: [texas, permits, full_stack]
+
+  - id: permit_008
+    topic: "PHMSA CO2 Pipeline Permits"
+    definition: |
+      In the database, source_system='phmsa' indicates Pipeline and Hazardous
+      Materials Safety Administration records (49 documents). For CCS projects,
+      PHMSA regulates CO2 transport pipelines under 49 CFR Part 195. A project
+      with PHMSA claims is transporting CO2 by pipeline, which indicates
+      significant infrastructure investment and at least construction or
+      operational stage.
+      DURATION: CO2 pipeline permitting takes 2-3 years (including NEPA review
+      if on federal land). Ongoing compliance monitoring is required.
+    effective_date: "2000-01-01"
+    source: "49 CFR Part 195; PHMSA pipeline safety regulations"
+    tags: [phmsa, pipelines, co2_transport, duration]
+
+  - id: permit_009
+    topic: "EPA GHGRP Reporting"
+    definition: |
+      In the database, source_system='epa_ghgrp' indicates EPA Greenhouse Gas
+      Reporting Program records (1,552 documents). Facilities that emit 25,000+
+      metric tons CO2e per year must report under 40 CFR Part 98. For hydrogen
+      production facilities, GHGRP data confirms the facility is operational and
+      producing at industrial scale. GHGRP records alone indicate an existing
+      industrial facility, not necessarily a new hydrogen/CCS project announcement.
+      REPORTING CYCLE: Annual, due March 31 for the previous calendar year's data.
+    effective_date: "2010-01-01"
+    source: "40 CFR Part 98; EPA GHGRP"
+    tags: [epa, ghgrp, emissions]
+
+  - id: permit_010
+    topic: "EPA ECHO — Enforcement & Compliance History"
+    definition: |
+      In the database, source_system='epa_echo' indicates EPA Enforcement and
+      Compliance History Online records (854 documents). ECHO aggregates
+      compliance data from Clean Air Act, Clean Water Act, and RCRA programs.
+      For interpreting DB data:
+        - epa_compliance claims show inspection results and compliance status
+        - violation_date claims indicate enforcement actions
+        - A facility with many ECHO records is under active EPA oversight
+        - ECHO violations do NOT mean the project is failing — most are minor
+          paperwork/reporting issues. Serious violations (consent decrees,
+          penalties > $100K) are more significant.
+        - A facility with ECHO records but no Class VI claims is an existing
+          industrial facility, not necessarily a CCS project.
+    effective_date: "2002-01-01"
+    source: "EPA ECHO system; Clean Air Act, Clean Water Act, RCRA"
+    tags: [epa, echo, compliance, enforcement]
+
+  - id: permit_011
+    topic: "RRC UIC Wells — Class II (not Class VI)"
+    definition: |
+      In the database, source_system='rrc_uic' indicates TX Railroad Commission
+      Underground Injection Control well records (1,260 documents — distinct from
+      the 13 'tx_rrc' Class VI records). These are primarily Class II injection
+      wells used for:
+        - Enhanced oil recovery (EOR) with CO2 or water injection
+        - Saltwater disposal from oil/gas operations
+        - Hydrocarbon storage
+      Class II wells are routine oilfield operations — having rrc_uic claims
+      alone does NOT indicate a CCS project. However, companies operating many
+      Class II CO2 injection wells (like Denbury, Oxy) have subsurface expertise
+      relevant to Class VI CCS. Check for co-occurring Class VI permits to
+      distinguish EOR from permanent storage.
+    effective_date: "2000-01-01"
+    source: "TX RRC UIC program; 16 TAC Chapter 3"
+    tags: [rrc, uic, class_ii, texas, eor]
+
+  - id: permit_012
+    topic: "NSR/PSD Air Quality Permits — pre-construction signal"
+    definition: |
+      New Source Review (NSR) and Prevention of Significant Deterioration (PSD)
+      permits are required under the Clean Air Act before constructing or
+      modifying a major stationary source of air pollution. In the database,
+      these appear as TCEQ claims (in Texas) or in FRS crosswalk records with
+      pgm_sys_acrnm='AIR' or 'RBLC'. A PSD permit is a strong pre-construction
+      signal — the facility has completed air quality modeling and received
+      approval to build. PSD permits require Best Available Control Technology
+      (BACT) determinations, tracked in the RBLC clearinghouse (7 FRS entries).
+      DURATION: NSR/PSD permits take 12-18 months to process. Valid for the
+      life of the facility (with modifications for significant changes).
+    effective_date: "1977-08-07"
+    source: "Clean Air Act Section 165; 40 CFR 52.21"
+    tags: [nsr, psd, bact, clean_air_act, duration]
+
+  - id: permit_013
+    topic: "Title V Operating Permits"
+    definition: |
+      Title V of the Clean Air Act requires operating permits for major sources
+      (emitting >100 tons/year of any criteria pollutant). In the database,
+      Title V permits appear in TCEQ records and FRS crosswalk entries with
+      pgm_sys_acrnm='AIR'. A Title V permit signals the facility is operational
+      or about to be — it is an operating permit, not a construction permit.
+      For hydrogen/CCS facilities, a Title V permit confirms industrial-scale
+      operations with significant emissions.
+      DURATION: Initial Title V permits take 12-18 months to process. Valid
+      for 5 years, then must be renewed.
+    effective_date: "1990-11-15"
+    source: "Clean Air Act Title V; 40 CFR Part 70"
+    tags: [title_v, operating_permit, clean_air_act, duration]
+
+  - id: permit_014
+    topic: "NPDES Water Discharge Permits"
+    definition: |
+      National Pollutant Discharge Elimination System (NPDES) permits are
+      required under the Clean Water Act for any facility discharging pollutants
+      to waters of the United States. In the database, NPDES appears in FRS
+      crosswalk records (56 entries, pgm_sys_acrnm='NPDES'). For CCS projects,
+      NPDES permits are relevant for:
+        - Produced water from CO2 injection operations
+        - Cooling water discharges from hydrogen production facilities
+        - Stormwater from construction sites
+      An NPDES permit signals the facility handles water discharges — common
+      for industrial-scale operations.
+      DURATION: NPDES permits take 6-12 months to process. Valid for 5 years.
+    effective_date: "1972-10-18"
+    source: "Clean Water Act Section 402; 33 USC 1342"
+    tags: [npdes, clean_water_act, water_discharge, duration]
+
+  - id: permit_015
+    topic: "RCRA Hazardous Waste Permits"
+    definition: |
+      Resource Conservation and Recovery Act (RCRA) permits regulate hazardous
+      waste treatment, storage, and disposal. In the database, RCRA appears in
+      FRS crosswalk records (49 entries, pgm_sys_acrnm='RCRAINFO'). For CCS
+      projects, RCRA is relevant because:
+        - CO2 streams from capture may contain trace hazardous constituents
+        - EPA has specific RCRA exemptions for CO2 injection under 40 CFR 261.4
+        - Hydrogen production from SMR generates catalyst waste
+      A facility with RCRA records handles industrial materials at scale.
+      DURATION: RCRA permits take 12-24 months to process. Valid for 10 years.
+    effective_date: "1976-10-21"
+    source: "40 CFR Parts 260-270; RCRA"
+    tags: [rcra, hazardous_waste, duration]
+
+  - id: permit_016
+    topic: "NEPA Environmental Reviews — EIS vs EA"
+    definition: |
+      The National Environmental Policy Act (NEPA) requires federal agencies to
+      assess environmental impacts before major actions. All DOE-funded projects
+      (including OCED/H2Hubs awards in the database) must complete NEPA review:
+        - EIS (Environmental Impact Statement): Full review for major projects
+          with significant environmental impact. Signals a large-scale project.
+        - EA (Environmental Assessment): Shorter review for smaller projects or
+          those with limited environmental impact.
+        - Categorical Exclusion (CatEx): Minimal review for routine actions.
+      In the database, DOE-funded projects with doe_award_status='active' have
+      completed or are undergoing NEPA review. NEPA completion is required
+      before DOE funds can be disbursed for construction.
+      DURATION: EIS takes 2-4.5 years (historical average ~4.5 years). EA takes
+      6-12 months. CatEx takes days to weeks. NEPA review often runs concurrent
+      with DOE award negotiation.
+    effective_date: "1970-01-01"
+    source: "42 USC 4321-4347; 40 CFR Parts 1500-1508; CEQ regulations"
+    tags: [nepa, eis, ea, doe, environmental_review, duration]
+
+  - id: permit_017
+    topic: "OSHA PSM — Process Safety Management for Hydrogen"
+    definition: |
+      OSHA Process Safety Management (PSM) under 29 CFR 1910.119 applies to
+      facilities handling highly hazardous chemicals above threshold quantities.
+      For hydrogen facilities: PSM applies when handling >10,000 lbs of H2.
+      In the database, a facility subject to PSM (identifiable via FRS crosswalk
+      pgm_sys_acrnm='OSHA-OIS', 21 entries) is operating at industrial scale
+      with hydrogen or other hazardous materials. PSM-covered facilities require
+      Process Hazard Analysis, Management of Change procedures, and mechanical
+      integrity programs — indicators of mature, operating facilities.
+    effective_date: "1992-02-24"
+    source: "29 CFR 1910.119; OSHA PSM standard"
+    tags: [osha, psm, hydrogen, safety]
+
+  - id: permit_018
+    topic: "Federal Register Entries — Rulemaking Notices"
+    definition: |
+      In the database, source_system='federal_register' indicates Federal Register
+      notices (12 documents). These are official government publications covering:
+        - Proposed rules and final rules affecting CCS/hydrogen regulation
+        - Notices of permit applications (EPA publishes Class VI applications)
+        - Environmental Impact Statement notices under NEPA
+        - DOE funding opportunity announcements
+      A project appearing in the Federal Register has reached a level of federal
+      regulatory significance. For Class VI permits, EPA publishes draft permit
+      notices in the Federal Register for public comment — this signals the
+      permit is nearing approval (after years of review).
+    effective_date: "2000-01-01"
+    source: "44 USC Chapter 15; Federal Register Act"
+    tags: [federal_register, rulemaking, public_notice]
+
+# =============================================================================
+# SOURCE SYSTEMS — NON-PERMIT
+# =============================================================================
+source_systems:
+
+  - id: src_001
+    topic: "EDGAR / EDGAR 8-K — SEC Filings in the Database"
+    definition: |
+      In the database, source_system='edgar' (367 documents) and 'edgar_8k'
+      (233 documents) indicate SEC filings from the Electronic Data Gathering,
+      Analysis, and Retrieval system. These contain corporate disclosures:
+        - 8-K filings: Material event disclosures filed within 4 business days.
+          In the database, these capture FID announcements, M&A transactions,
+          project cancellations, financing closings, and partnership agreements.
+          An 8-K is a real-time corporate signal — the most timely source of
+          project status changes.
+        - 10-K filings: Annual reports (due 60 days after fiscal year-end for
+          large accelerated filers). Contain detailed project descriptions,
+          capacity figures, risk factors, and capital expenditure plans.
+        - 10-Q filings: Quarterly updates with interim financial data.
+      Claims from EDGAR sources include: corporate_governance, financing,
+      legal_financial, parent_company, entity_status. These are valuable for
+      understanding ownership, project economics, and corporate strategy.
+    effective_date: "1996-01-01"
+    source: "SEC EDGAR system; Securities Exchange Act of 1934"
+    tags: [edgar, sec, 8k, 10k, corporate, filings]
+
+  - id: src_002
+    topic: "ERCOT GIS — Grid Interconnection Studies"
+    definition: |
+      In the database, source_system='ercot_gis' indicates ERCOT Generation
+      Interconnection Study records (80 documents). ERCOT manages the Texas
+      electric grid. A project in the ERCOT GIS queue has applied to connect
+      to the grid, which signals:
+        - The project requires significant electric power (electrolyzers for
+          green hydrogen, compressors for CCS, DAC facilities)
+        - The project has progressed beyond announcement to engineering — GIS
+          applications require technical specifications, site plans, and fees
+        - GIS study completion is a pre-construction milestone
+      An ERCOT GIS entry is a strong pre-construction signal. Projects in the
+      GIS queue are typically at 'feasibility' or 'fid' stage. Combined with
+      Class VI or TCEQ permits, an ERCOT GIS entry confirms a project is
+      actively progressing toward construction.
+      DURATION: ERCOT GIS studies take 6-12 months. Full interconnection
+      agreement can take 18-24 months from initial application.
+    effective_date: "2020-01-01"
+    source: "ERCOT Planning Guide Section 5; ERCOT GIS process"
+    tags: [ercot, grid, interconnection, texas, duration]
+
+  - id: src_003
+    topic: "EIA-860M — Monthly Generator Inventory"
+    definition: |
+      In the database, source_system='eia_860m' indicates EIA Form 860M records
+      (70 documents). EIA-860M is a monthly update to the annual EIA-860 survey
+      of electric generators. For interpreting DB data:
+        - A project with EIA-860M records has registered with the US Energy
+          Information Administration as a planned or existing generator
+        - EIA-860M tracks: nameplate capacity, fuel type, planned operation date,
+          current status (planned, under construction, operational, retired)
+        - This is an independent confirmation of project parameters — EIA data
+          comes from mandatory utility/generator filings, not press releases
+        - technology values like 'Natural Gas Fired Combined Cycle', 'Batteries',
+          'Solar Photovoltaic' in the database often originate from EIA-860M
+      REPORTING CYCLE: Monthly updates, published ~2 months after reporting period.
+    effective_date: "2001-01-01"
+    source: "EIA Form 860M; Federal Energy Administration Act"
+    tags: [eia, generator, capacity, reporting]
+
+  - id: src_004
+    topic: "DOE OCED Detail Records"
+    definition: |
+      In the database, source_system='doe_oced_detail' (70 documents) and
+      'doe_oced' (1 document) indicate DOE Office of Clean Energy Demonstrations
+      project records. These contain detailed project information from DOE's
+      public announcements and award documentation, including project descriptions,
+      expected capacity, technology type, and location. These records complement
+      the doe_status table (which tracks award financial status from USAspending).
+      A project with both doe_oced_detail and doe_status records has both the
+      technical description and financial tracking data.
+    effective_date: "2021-11-15"
+    source: "DOE OCED; Bipartisan Infrastructure Law"
+    tags: [doe, oced, source_system]
+
+# =============================================================================
+# GHGRP REPORTING SUBPARTS
+# =============================================================================
+ghgrp_subparts:
+
+  - id: ghgrp_001
+    topic: "Subpart RR — Geologic Sequestration of CO2"
+    definition: |
+      40 CFR Part 98 Subpart RR is the mandatory GHGRP reporting rule for
+      facilities that inject CO2 for long-term geologic sequestration. In the
+      database, ghgrp_reporting claims referencing Subpart RR confirm the
+      project is doing PERMANENT CO2 storage (not EOR). Subpart RR requires:
+        - A Monitoring, Reporting, and Verification (MRV) plan approved by EPA
+        - Annual reporting of CO2 injected, stored, and any surface leakage
+        - Mass balance calculations for the entire injection/storage system
+      A project reporting under Subpart RR has an approved MRV plan AND is
+      actively injecting CO2 — this is an OPERATIONAL signal. If a project
+      has Subpart RR claims, its stage should be 'operational' or at minimum
+      'construction' (if MRV plan was pre-approved).
+      DURATION: MRV plan approval takes 6-12 months. Must be approved before
+      injection begins. Annual reports due March 31.
+    effective_date: "2010-12-01"
+    source: "40 CFR Part 98 Subpart RR; EPA GHGRP"
+    tags: [subpart_rr, ghgrp, co2_sequestration, operational_signal, duration]
+
+  - id: ghgrp_002
+    topic: "Subpart UU — Injection of CO2 (EOR)"
+    definition: |
+      40 CFR Part 98 Subpart UU covers facilities that inject CO2 underground
+      for purposes OTHER than geologic sequestration — primarily Enhanced Oil
+      Recovery (EOR). In the database, Subpart UU reporting signals:
+        - The facility injects CO2 but under Class II permits (not Class VI)
+        - The primary purpose is oil production, not permanent CO2 storage
+        - The facility may still store some CO2 incidentally (EOR+ or CCUS)
+      Subpart UU reporters are NOT the same as Subpart RR reporters. If a
+      project has Subpart UU but not Subpart RR claims, it is EOR, not
+      dedicated CCS. Some companies (e.g., Denbury/Oxy) may operate both
+      EOR (Subpart UU) and dedicated storage (Subpart RR) at different sites.
+      REPORTING CYCLE: Annual, due March 31.
+    effective_date: "2010-12-01"
+    source: "40 CFR Part 98 Subpart UU; EPA GHGRP"
+    tags: [subpart_uu, ghgrp, eor, co2_injection]
+
+  - id: ghgrp_003
+    topic: "Subpart PP — Suppliers of CO2"
+    definition: |
+      40 CFR Part 98 Subpart PP covers facilities that capture and supply CO2
+      to other facilities or for geologic sequestration. In the database,
+      Subpart PP reporting signals:
+        - The facility is a CO2 capture plant (point source capture)
+        - It produces and transfers CO2 to pipelines or injection sites
+        - The facility is OPERATIONAL — actively capturing CO2
+      Subpart PP reporters are the "supply side" of CCS: they capture CO2 that
+      Subpart RR or UU reporters inject. A project with both Subpart PP and
+      Subpart RR claims is an integrated capture-and-storage operation.
+      REPORTING CYCLE: Annual, due March 31.
+    effective_date: "2010-12-01"
+    source: "40 CFR Part 98 Subpart PP; EPA GHGRP"
+    tags: [subpart_pp, ghgrp, co2_capture, supplier]
+
+  - id: ghgrp_004
+    topic: "Subpart W — Petroleum and Natural Gas Systems"
+    definition: |
+      40 CFR Part 98 Subpart W covers methane and CO2 emissions reporting
+      from petroleum and natural gas systems. In the database, Subpart W is
+      relevant to:
+        - Steam methane reforming (SMR) hydrogen plants — report methane
+          emissions from natural gas processing
+        - Natural gas processing plants that may be CCS candidates
+        - Refineries with hydrogen production units
+      A facility reporting under Subpart W is in the oil & gas or petrochemical
+      sector. Combined with technology='hydrogen_production' or 'steam_methane_
+      reforming', it confirms a fossil-based hydrogen production facility.
+      REPORTING CYCLE: Annual, due March 31.
+    effective_date: "2010-12-01"
+    source: "40 CFR Part 98 Subpart W; EPA GHGRP"
+    tags: [subpart_w, ghgrp, methane, natural_gas]
+
+# =============================================================================
+# CLAIM TYPES — INTERPRETING DATABASE FIELDS
+# =============================================================================
+claim_types:
+
+  - id: claim_001
+    topic: "injection_zone — Geological Formation Claims"
+    definition: |
+      In the database, claim_type='injection_zone' (668 claims) identifies the
+      geological formation targeted for CO2 injection. Common formations in
+      CCS projects:
+        - Mt. Simon Sandstone: Major saline aquifer in the Illinois Basin,
+          used by ADM Decatur and other Midwest CCS projects
+        - Frio Formation: Gulf Coast Texas sandstone, one of the earliest
+          CO2 injection test sites
+        - Paluxy Formation: East Texas sandstone, targeted by several TX CCS projects
+        - Arbuckle Group: Oklahoma/Kansas carbonate formation
+        - Rodessa Formation: East Texas/Louisiana limestone
+      The injection zone is specified in Class VI permit applications and
+      determines the depth, pressure limits, and storage capacity. Projects
+      targeting the same formation in the same area may share an Area of Review.
+    effective_date: "2010-12-10"
+    source: "Class VI permit applications; NETL Carbon Storage Atlas"
+    tags: [injection_zone, geology, formations, ccs]
+
+  - id: claim_002
+    topic: "epa_naics_sic — Industry Classification Codes"
+    definition: |
+      In the database, claim_type='epa_naics_sic' (868 claims) contains NAICS
+      (North American Industry Classification System) and SIC (Standard Industrial
+      Classification) codes from EPA records. Key codes for interpreting projects:
+        - NAICS 325120: Industrial Gas Manufacturing (hydrogen production)
+        - NAICS 325110: Petrochemical Manufacturing
+        - NAICS 324110: Petroleum Refineries (potential blue H2 / CCS candidates)
+        - NAICS 325311: Nitrogenous Fertilizer Manufacturing (ammonia)
+        - NAICS 221112: Fossil Fuel Electric Power Generation
+        - NAICS 213112: Support Activities for Oil and Gas (EOR/injection)
+        - SIC 2813: Industrial Gases (legacy code for hydrogen)
+      NAICS/SIC codes help identify the facility's primary business. A facility
+      with NAICS 325120 is more likely a hydrogen project than one with 324110
+      (which is a refinery that may produce hydrogen as a byproduct).
+    effective_date: "2000-01-01"
+    source: "US Census Bureau NAICS; EPA facility registration"
+    tags: [naics, sic, industry_classification]
+
+  - id: claim_003
+    topic: "max_pressure — Injection Pressure Limits"
+    definition: |
+      In the database, claim_type='max_pressure' (329 claims) specifies the
+      maximum allowable injection pressure for UIC wells, set in the permit
+      to prevent fracturing the confining formation above the injection zone.
+      This is a technical parameter from Class II and Class VI permits. Higher
+      pressures generally indicate deeper injection zones. Max pressure is
+      expressed in psi (pounds per square inch) at the wellhead. Exceeding
+      max_pressure is a permit violation that triggers enforcement action.
+    effective_date: "2010-12-10"
+    source: "40 CFR 146.88; UIC permit conditions"
+    tags: [max_pressure, injection, technical, uic]
+
+# =============================================================================
+# TECHNOLOGY CLASSIFICATIONS
+# =============================================================================
+technology:
+
+  - id: tech_001
+    topic: "Blue vs Green Hydrogen — interpreting technology field"
+    definition: |
+      In the database, technology values map to hydrogen production pathways:
+        - 'hydrogen_production' or 'steam_methane_reforming' or
+          'autothermal_reforming' → blue hydrogen (natural gas + CCS)
+        - 'electrolysis' or 'green_hydrogen' → green hydrogen (water + renewable power)
+      Blue hydrogen projects typically also have CCS-related claims (Class VI
+      permits, CO2 storage capacity). Green hydrogen projects typically have
+      electrolyzer capacity claims and renewable energy sourcing claims.
+      The database does not have a 'blue' or 'green' label — it must be
+      inferred from the technology and associated claims.
+    effective_date: "2020-01-01"
+    source: "IEA hydrogen taxonomy"
+    tags: [hydrogen, blue, green, technology]
+
+  - id: tech_002
+    topic: "CCS vs CCUS vs DAC — interpreting technology field"
+    definition: |
+      In the database, these technology values map to carbon management approaches:
+        - 'point_source_ccs' (60 projects) → captures CO2 from industrial
+          facilities (power plants, refineries, cement, steel) and stores
+          geologically
+        - 'direct_air_capture' (1 project) → captures CO2 directly from the
+          atmosphere (e.g., Oxy STRATOS DAC project)
+        - 'co2_transport_storage' (168 projects) → pipeline/infrastructure for
+          moving and storing CO2 (often paired with point_source_ccs)
+        - 'co2_processing' (20 projects) → compression, dehydration, and
+          purification of CO2 before transport or injection
+        - 'co2_utilization' (1 project) → using captured CO2 for products
+          (mineralization, chemicals, building materials)
+      All approaches that include geologic storage require Class VI permits.
+      DAC projects receive higher 45Q tax credits ($180/tonne vs $85/tonne).
+    effective_date: "2020-01-01"
+    source: "DOE/NETL technology classifications"
+    tags: [ccs, ccus, dac, technology]
+
+  - id: tech_003
+    topic: "Ammonia Production in the Database"
+    definition: |
+      In the database, technology='ammonia_production' (17 projects) indicates
+      facilities producing ammonia (NH3), typically as a hydrogen carrier or for
+      fertilizer. Blue ammonia uses blue hydrogen as feedstock; green ammonia
+      uses green hydrogen. The database does not distinguish blue vs green
+      ammonia — check associated claims for production pathway. Ammonia
+      projects may also appear with project_name LIKE '%ammonia%'.
+    effective_date: "2020-01-01"
+    source: "Industry classification"
+    tags: [ammonia, technology]
+
+  - id: tech_004
+    topic: "co2_processing vs co2_transport_storage"
+    definition: |
+      In the database, these two technology values represent different parts of
+      the CCS value chain:
+        - 'co2_processing' (20 projects): CO2 compression, dehydration, and
+          purification facilities. These prepare captured CO2 for transport.
+          A co2_processing facility sits between the capture plant and the
+          pipeline — it is midstream infrastructure.
+        - 'co2_transport_storage' (168 projects): CO2 pipeline networks and
+          injection/storage sites. These move CO2 from source to sink and
+          inject it underground. Many of these are infrastructure companies
+          (like Denbury, Summit Carbon Solutions) that serve multiple capture
+          facilities.
+      A project with co2_transport_storage is a pipeline/storage operator. A
+      project with co2_processing is a midstream facility. Both need to be
+      paired with point_source_ccs or direct_air_capture for the full CCS chain.
+    effective_date: "2020-01-01"
+    source: "DOE/NETL CCS value chain taxonomy"
+    tags: [co2_processing, co2_transport_storage, midstream, infrastructure]
+
+  - id: tech_005
+    topic: "Hydrogen Storage — Salt Caverns and Hub Infrastructure"
+    definition: |
+      In the database, technology='hydrogen_storage' (5 projects) indicates
+      facilities for large-scale hydrogen storage, typically underground salt
+      caverns. Salt cavern hydrogen storage is critical for hydrogen hub
+      operations — it enables buffering between intermittent production
+      (electrolysis from renewables) and steady demand. Key indicators:
+        - Located in regions with salt geology (Gulf Coast TX/LA, Kansas)
+        - Often associated with H2Hub or DOE-funded projects
+        - Storage capacity measured in metric tons or GWh
+      A hydrogen_storage project signals hub-scale infrastructure investment,
+      typically at 'feasibility' or later stage.
+    effective_date: "2020-01-01"
+    source: "DOE Hydrogen Storage R&D; salt cavern geology"
+    tags: [hydrogen_storage, salt_cavern, hub, infrastructure]
+
+  - id: tech_006
+    topic: "Gasification — Coal/Biomass to Hydrogen"
+    definition: |
+      In the database, technology='gasification' (3 projects) indicates
+      facilities that convert solid feedstocks (coal, petroleum coke, biomass,
+      or municipal solid waste) into synthesis gas (syngas) containing hydrogen
+      and CO. Gasification can produce:
+        - Hydrogen (when paired with water-gas shift and CO2 capture)
+        - Synthetic natural gas
+        - Chemicals (methanol, ammonia)
+      Gasification with CCS is sometimes called "turquoise hydrogen" when
+      using biomass (BECCS) or is simply blue hydrogen when using coal/petcoke.
+      These projects typically have both gasification technology claims and
+      CCS-related permits (Class VI for CO2 storage).
+    effective_date: "2000-01-01"
+    source: "DOE/NETL gasification technology program"
+    tags: [gasification, coal, biomass, syngas]
+
+  - id: tech_007
+    topic: "Nuclear SMR — Small Modular Reactors for Hydrogen"
+    definition: |
+      In the database, technology='nuclear_smr' (1 project) indicates a small
+      modular nuclear reactor project, potentially coupled with hydrogen
+      production. Nuclear-powered hydrogen is sometimes called "pink hydrogen."
+      SMRs (< 300 MWe) can provide:
+        - High-temperature steam for thermochemical hydrogen production
+        - Baseload electricity for electrolysis
+        - Process heat for industrial applications
+      Nuclear hydrogen projects undergo NRC (Nuclear Regulatory Commission)
+      licensing — a separate, extensive regulatory process not tracked in this
+      database's permit sources. SMR projects are at very early stages (most
+      are pre-NRC approval as of 2026).
+    effective_date: "2020-01-01"
+    source: "NRC SMR licensing; DOE Advanced Reactor program"
+    tags: [nuclear, smr, pink_hydrogen]
+
+  - id: tech_008
+    topic: "Hydrogen DRI — Direct Reduced Iron for Steel"
+    definition: |
+      In the database, technology='hydrogen_dri' (1 project) indicates a
+      Direct Reduced Iron facility using hydrogen instead of coal/coke to
+      reduce iron ore. This is a key steel decarbonization pathway:
+        - Traditional steelmaking uses coke (coal) in blast furnaces
+        - H2-DRI uses hydrogen as the reducing agent, producing water instead of CO2
+        - Requires large volumes of clean hydrogen (green or blue)
+      H2-DRI projects are industrial demand anchors for hydrogen production —
+      a single DRI plant can consume 50,000-100,000+ tonnes of hydrogen per year.
+      These projects signal serious hydrogen offtake commitments.
+    effective_date: "2020-01-01"
+    source: "DOE Industrial Decarbonization program; steel industry"
+    tags: [hydrogen_dri, steel, industrial_demand, decarbonization]
+
+# =============================================================================
+# DOE FUNDING PROGRAMS & TAX CREDITS
+# =============================================================================
+funding:
+
+  - id: fund_001
+    topic: "DOE Award Status — interpreting doe_status table"
+    definition: |
+      In the database, the doe_status table tracks DOE award status from
+      USAspending.gov. Values in doe_award_status:
+        - 'active' (141 records) → award is current, funds are flowing
+          (doe_pct_disbursed shows how much has been spent)
+        - 'terminated' (148 records) → award was cancelled or project withdrew
+        - 'reduced' (3 records) → award amount was reduced (partial termination,
+          scope reduction, or budget cuts)
+        - 'at_risk' (4 records) → award flagged for potential issues (missed
+          milestones, compliance concerns, or political/policy uncertainty)
+        - 'uncertain' (1 record) → award status unclear (pending review or
+          transition between administrations)
+      An active DOE award is a strong signal of project legitimacy — it means
+      the project passed DOE's technical and financial review. Projects with
+      doe_pct_disbursed > 50% are well into execution.
+    effective_date: "2021-11-15"
+    source: "USAspending.gov; DOE award tracking"
+    tags: [doe, funding, status]
+
+  - id: fund_002
+    topic: "OCED and Regional Clean Hydrogen Hubs"
+    definition: |
+      DOE's Office of Clean Energy Demonstrations (OCED), created by the
+      Bipartisan Infrastructure Law (Nov 2021), funds large-scale clean energy
+      projects. In the database, DOE-funded projects appear in doe_status with
+      award IDs starting with 'DE'. The H2Hubs program selected 7 Regional
+      Clean Hydrogen Hubs for up to $7 billion total (Oct 2023). Hub projects
+      may appear with technology='hydrogen_production' or 'electrolysis' and
+      DOE award status='active'.
+      DURATION — DOE Award Lifecycle:
+        - Selection → Negotiation: 6-12 months
+        - Negotiation → Final award: 6-18 months
+        - NEPA review (concurrent): 12-24 months
+        - Full cycle (selection → construction start): 2-4 years
+        - H2Hubs specifically: Selected Oct 2023, most still in negotiation
+          as of early 2026
+    effective_date: "2021-11-15"
+    source: "DOE OCED; Bipartisan Infrastructure Law"
+    tags: [doe, oced, hydrogen_hubs, duration]
+
+  - id: fund_003
+    topic: "45Q Tax Credits — Carbon Capture (IRC Section 45Q)"
+    definition: |
+      Section 45Q provides federal tax credits for carbon capture, enhanced by
+      the Inflation Reduction Act (Aug 16, 2022). Current rates:
+        - $85/tonne for CO2 in dedicated geologic storage
+        - $60/tonne for CO2 used in EOR or utilization
+        - $180/tonne for direct air capture with geologic storage
+        - $130/tonne for DAC with utilization
+      In the database, projects with technology='point_source_ccs' or
+      'direct_air_capture' are likely pursuing 45Q credits. The credit
+      differential explains why DAC projects (like Oxy STRATOS) attract
+      significant investment despite higher capture costs.
+      DURATION: 12-year credit period from the date facility is placed in
+      service. Must begin construction by January 1, 2033.
+    effective_date: "2022-08-16"
+    source: "IRC Section 45Q; Inflation Reduction Act of 2022"
+    tags: [45q, tax_credit, ccs, ira, duration]
+
+  - id: fund_004
+    topic: "45V Tax Credits — Clean Hydrogen Production (IRC Section 45V)"
+    definition: |
+      Section 45V, created by the Inflation Reduction Act (Aug 16, 2022),
+      provides production tax credits for clean hydrogen based on lifecycle
+      carbon intensity. Credit tiers:
+        - $3.00/kg H2: lifecycle emissions < 0.45 kg CO2e/kg H2 (green H2
+          from renewables, nuclear H2)
+        - $1.00/kg H2: emissions 0.45-1.5 kg CO2e/kg H2 (blue H2 with
+          high capture rates)
+        - $0.75/kg H2: emissions 1.5-2.5 kg CO2e/kg H2
+        - $0.60/kg H2: emissions 2.5-4.0 kg CO2e/kg H2
+      In the database, projects with technology='electrolysis' or
+      'green_hydrogen' are likely targeting the top $3.00/kg tier. Projects
+      with 'hydrogen_production' + CCS may target the $1.00/kg tier. Treasury
+      proposed rules require hourly matching of renewable energy and
+      additionality for the top tier — this has delayed many green H2 projects.
+      DURATION: 10-year credit period from placed-in-service date. Must begin
+      construction by January 1, 2033. Cannot be claimed simultaneously with
+      45Q for the same facility.
+    effective_date: "2022-08-16"
+    source: "IRC Section 45V; Inflation Reduction Act of 2022; Treasury proposed rules"
+    tags: [45v, tax_credit, hydrogen, ira, duration]
+
+  - id: fund_005
+    topic: "48C Tax Credits — Advanced Energy Manufacturing (IRC Section 48C)"
+    definition: |
+      Section 48C provides a 30% investment tax credit for manufacturing
+      facilities that produce clean energy components. Relevant to the database:
+        - Electrolyzer manufacturing facilities
+        - Carbon capture equipment manufacturing
+        - Battery and energy storage component manufacturing
+      In the database, projects with technology='electrolysis' or CCS-related
+      technologies may have associated 48C-eligible manufacturing facilities.
+      48C is allocated in competitive rounds — DOE/IRS evaluate applications
+      and award a limited pool of credits. Round 1 (2024) allocated $4 billion;
+      Round 2 allocated $6 billion.
+      Unlike 45Q/45V (production credits), 48C is a one-time investment tax
+      credit for building the manufacturing facility itself.
+    effective_date: "2022-08-16"
+    source: "IRC Section 48C; Inflation Reduction Act of 2022"
+    tags: [48c, tax_credit, manufacturing, ira]
+
+# =============================================================================
+# PROJECT STAGES & SIGNALS
+# =============================================================================
+stages:
+
+  - id: stage_001
+    topic: "Project Stage Values — what each means"
+    definition: |
+      The stage field in unified_projects uses these values:
+        - 'announced' (87 projects) → public statement of intent, initial
+          feasibility studies
+        - 'feasibility' (1 project) → pre-FEED studies, site characterization,
+          permit applications filed
+        - 'fid' (1 project) → Final Investment Decision taken, board/management
+          approval, financing secured
+        - 'permitted' (4 projects) → key permits (Class VI, air quality) received
+        - 'awarded' (31 projects) → DOE award received but pre-construction
+          (still in NEPA review or negotiation)
+        - 'construction' (27 projects) → EPC contract awarded, physical
+          construction underway
+        - 'operational' (100 projects) → facility producing hydrogen or
+          injecting CO2
+        - 'on_hold' (2 projects) → project paused but not cancelled
+        - 'inactive' (1 project) → project no longer progressing
+        - 'cancelled' (181 projects) → project terminated or indefinitely shelved
+        - 'unknown' (1,910 projects) → insufficient data to determine stage
+          (common for auto-created facility records from single regulatory sources)
+      Stage='unknown' does not mean the project is inactive — check claims
+      for permit_status, construction, or operational signals.
+    effective_date: "2024-01-01"
+    source: "DecarbIQ project tracking methodology"
+    tags: [stages, methodology]
+
+  - id: stage_002
+    topic: "FID Signals in Database Claims"
+    definition: |
+      Final Investment Decision (FID) signals in the database include claim
+      types like: 'final_investment_decision', 'construction_commencement',
+      'financing_commitments', 'bond_closing', 'equity_interest'. For
+      DOE-funded projects, FID may be conditional on DOE award finalization
+      (check doe_award_status='active' with high doe_pct_disbursed). EPC
+      contract award claims also signal FID has been taken. If a project
+      has these claims but stage='unknown', the stage field needs updating.
+    effective_date: "2024-01-01"
+    source: "DecarbIQ claim type vocabulary; industry conventions"
+    tags: [fid, signals, claims]
+
+  - id: stage_003
+    topic: "Typical Project Timeline — Permit to Operations"
+    definition: |
+      For interpreting project timelines in the database, typical durations
+      from key milestones to commercial operations:
+        HYDROGEN PRODUCTION (blue, SMR/ATR):
+          - Feasibility/FEED: 12-18 months
+          - Permitting (air quality + Class VI if CCS): 12-24 months
+          - Construction: 24-36 months
+          - Total announced → operational: 4-6 years
+        GREEN HYDROGEN (electrolysis):
+          - Feasibility/FEED: 6-12 months
+          - Permitting (simpler, no Class VI needed): 6-12 months
+          - Equipment procurement (electrolyzer lead time): 12-18 months
+          - Construction: 12-24 months
+          - Total announced → operational: 3-5 years
+        CCS (point source capture + storage):
+          - Class VI permit: 12-60 months (TX RRC: 12-18; EPA: 36-60)
+          - Capture facility permitting (air quality): 12-18 months
+          - Construction: 24-36 months
+          - Total announced → operational: 4-8 years
+        DIRECT AIR CAPTURE:
+          - Class VI permit: 12-60 months
+          - NEPA review (if DOE-funded): 24-54 months
+          - Construction: 36-48 months
+          - Total announced → operational: 6-10 years
+      These timelines help evaluate whether a project's stage is consistent
+      with its announcement date and permit history.
+    effective_date: "2024-01-01"
+    source: "Industry project tracking; DOE milestone analysis"
+    tags: [timeline, duration, milestone, interpretation]
+
+  - id: stage_004
+    topic: "How to Investigate and Explain Stage Assignments"
+    definition: |
+      When asked WHY a project is at a certain stage, or to justify/explain stage
+      assignments, do NOT just re-query the stage field. Instead, investigate the
+      EVIDENCE by querying the project's claims and source systems:
+
+      STEP 1 — Check what claims exist for the project:
+        SELECT c.claim_type, COUNT(*) cnt
+        FROM project_claims pc
+        JOIN claims c ON pc.claim_id = c.claim_id
+        WHERE pc.project_id = '<project_id>'
+        GROUP BY c.claim_type ORDER BY cnt DESC
+
+      STEP 2 — Check which source systems have data:
+        SELECT cd.source_system, COUNT(*) cnt
+        FROM project_claims pc
+        JOIN claims c ON pc.claim_id = c.claim_id
+        JOIN cleaned_documents cd ON c.source_id = cd.source_id
+        WHERE pc.project_id = '<project_id>'
+        GROUP BY cd.source_system ORDER BY cnt DESC
+
+      STEP 3 — Interpret using the glossary. Stage evidence signals:
+        'announced': Only TCEQ/ERCOT filings, EIA-860M planned status, press
+          releases, or EDGAR 8-K announcements. No construction or permit claims.
+        'feasibility': Class VI application filed, PSD/NSR permit application,
+          DOE OCED award in negotiation, FEED study claims.
+        'awarded': DOE award received (doe_award_status='active') but no
+          construction claims yet. NEPA review may still be pending.
+        'fid': FID announcement in EDGAR 8-K, financing claims, EPC contract.
+        'permitted': Class VI permit approved, Title V operating permit issued.
+        'construction': Construction claims, equipment delivery, workforce claims.
+        'operational': GHGRP Subpart RR/PP reporting, production capacity claims,
+          operational status in EIA-860M.
+
+      For BULK queries (e.g., "list all announced TX projects and explain why"):
+        SELECT up.project_name, up.stage,
+               COUNT(DISTINCT cd.source_system) as source_count,
+               GROUP_CONCAT(DISTINCT cd.source_system) as sources
+        FROM unified_projects up
+        LEFT JOIN project_claims pc ON up.project_id = pc.project_id
+        LEFT JOIN claims c ON pc.claim_id = c.claim_id
+        LEFT JOIN cleaned_documents cd ON c.source_id = cd.source_id
+        WHERE up.stage = 'announced' AND up.state = 'TX'
+        GROUP BY up.project_id
+        ORDER BY source_count DESC
+
+      This shows WHAT evidence exists for each project, enabling you to explain
+      WHY each project is at its current stage.
+    effective_date: "2024-01-01"
+    source: "DecarbIQ stage investigation methodology"
+    tags: [stages, investigation, reasoning, methodology]
+
+# =============================================================================
+# ENTITY RESOLUTION & DATA QUALITY
+# =============================================================================
+data_quality:
+
+  - id: dq_001
+    topic: "Entity Alias Types — Corporate Structure in the Database"
+    definition: |
+      The entity_aliases table maps corporate relationships. The alias_type
+      field indicates the relationship between entities:
+        - 'subsidiary' (278 entries): Company A is a subsidiary of Company B.
+          Common for project-specific LLCs (e.g., "Oxy Low Carbon Ventures"
+          is a subsidiary of "Occidental Petroleum")
+        - 'legal_name' (56): The official legal/registered name of the entity
+        - 'epa_parent_company' (40): Parent company as identified by EPA records
+        - 'epa_operator_name' (19): Operator name in EPA permits (may differ
+          from corporate parent)
+        - 'epa_llc_entity' (16): LLC entity named in EPA permits
+        - 'assumed_name' (15): Texas "assumed name" / DBA filing
+        - 'dba' (3): Doing Business As name
+        - 'parent' (8): Direct parent company
+        - 'merged_into' (5): Company was merged into another entity
+        - 'acquired_by' (4): Company was acquired by another entity
+      Understanding alias types is critical for avoiding double-counting:
+      a project may appear under its LLC name, operator name, AND parent
+      company name. Use entity_aliases to resolve these to one entity.
+    effective_date: "2024-01-01"
+    source: "DecarbIQ entity resolution methodology"
+    tags: [entity, alias, corporate_structure, deduplication]
+
+  - id: dq_002
+    topic: "Quarantine Codes — Why Projects Are Quarantined"
+    definition: |
+      The quarantine_reason field in unified_projects explains why a project
+      was flagged as low-quality or non-relevant. Quarantine codes:
+        - 'E1: no city, state, capacity, or technology data' (1,404 projects):
+          The project record has minimal identifying information — likely an
+          auto-created stub from a single regulatory record. May be a real
+          project with insufficient data, or may be a non-project entity.
+        - 'E2: 0 resolved claims, N data fields' (86 projects): The project
+          has few or no resolved claims from the learning pipeline.
+        - 'E5: single source system: [name]' (612 projects): The project
+          appears in only one regulatory system. Single-source projects are
+          lower confidence — real projects typically appear in 2+ systems.
+          Exception: EPA UIC or TX RRC Class VI single-source projects ARE
+          legitimate (Class VI is strong enough signal alone).
+        - 'A2: shares entity with [name]' (various): The project shares a
+          corporate entity with another project and may be a duplicate.
+        - 'non_project_entity' (3): The record represents a company or
+          facility, not a specific hydrogen/CCS project.
+        - 'Not H2/CCS: [reason]' (18): Facility is confirmed as non-relevant
+          (pipeline terminal, office building, plastics plant, etc.)
+      Quarantined=1 does not mean the project is fake — it means the data
+      quality did not meet the threshold for high-confidence inclusion.
+    effective_date: "2024-01-01"
+    source: "DecarbIQ data quality pipeline"
+    tags: [quarantine, data_quality, filtering]
+
+  - id: dq_003
+    topic: "Bootstrap Source — How Project Records Were Created"
+    definition: |
+      The bootstrap_source field in unified_projects indicates how the project
+      record was originally created:
+        - 'claims' (1,444 projects): Created from the claims extraction pipeline
+          — the LLM read regulatory documents and extracted project information.
+          Highest confidence origin.
+        - 'auto_create' (474 projects): Automatically created when a regulatory
+          document referenced a facility not yet in the database. Lower confidence
+          — the record may have minimal data until claims are resolved against it.
+        - 'migration' (298 projects): Migrated from an earlier version of the
+          database. Data quality varies.
+        - 'migration_ghgrp' (124 projects): Migrated specifically from EPA GHGRP
+          data. These are existing industrial facilities that may or may not be
+          hydrogen/CCS projects.
+        - 'corporate_events_migration' (5 projects): Created from SEC/EDGAR
+          corporate event data.
+      When evaluating data quality, 'claims' > 'migration' > 'auto_create'.
+      Auto-created records with E1 quarantine are the most likely to be stubs.
+    effective_date: "2024-01-01"
+    source: "DecarbIQ database build pipeline"
+    tags: [bootstrap, data_origin, quality]
+
+  - id: dq_004
+    topic: "Facility Crossref Match Methods"
+    definition: |
+      The facility_crossref table links the same physical facility across
+      different regulatory systems. The match_method field indicates how the
+      link was established:
+        - 'spatial' (217 matches): Lat/lon proximity matching — two records
+          from different systems are within a threshold distance of each other.
+          Most common method; generally reliable but can false-match in
+          industrial clusters.
+        - 'frs_crosswalk' (35 matches): Matched via EPA's Facility Registry
+          Service crosswalk table, which maps EPA registry_id to program-
+          specific IDs. High confidence — EPA maintains this mapping.
+        - 'frs_id' (24 matches): Direct FRS registry_id match between systems.
+          Highest confidence.
+        - 'operator_name' (14 matches): Matched by operator/company name
+          similarity. Lower confidence — company names can be ambiguous.
+        - 'name_county' (6 matches): Matched by facility name + county.
+          Moderate confidence.
+      Higher-confidence matches (frs_id, frs_crosswalk) are more reliable
+      than name-based matches. The crossref is how we know that a TCEQ air
+      permit and an EPA UIC Class VI permit belong to the same physical site.
+    effective_date: "2024-01-01"
+    source: "DecarbIQ facility matching methodology"
+    tags: [crossref, matching, spatial, frs]
+
+# =============================================================================
+# EPA FACILITY REGISTRY & PROGRAM ACRONYMS
+# =============================================================================
+epa_programs:
+
+  - id: epa_001
+    topic: "FRS — EPA Facility Registry Service"
+    definition: |
+      The EPA Facility Registry Service (FRS) is the master index of all
+      EPA-regulated facilities. In the database, the frs_crosswalk table maps
+      EPA registry_id values to program-specific IDs (pgm_sys_acrnm + pgm_sys_id).
+      Each pgm_sys_acrnm represents a different EPA program:
+        - TX-TCEQ ACR (79 entries): Texas TCEQ air permits cross-referenced to EPA
+        - TSCA (63): Toxic Substances Control Act — chemical manufacturing
+        - NPDES (56): Clean Water Act discharge permits
+        - RCRAINFO (49): Hazardous waste (RCRA) facilities
+        - ICIS (39): Integrated Compliance Information System — enforcement data
+        - AIR (38): Clean Air Act stationary source permits
+        - CEDRI (32): Compliance and Emissions Data Reporting Interface
+        - AIRS/AFS (32): Aerometric Information Retrieval System — air quality
+        - TRIS (31): Toxics Release Inventory — annual chemical release reports
+        - NCDB (31): National Compliance Database
+        - OTAQREG (24): Transportation and Air Quality Registry
+        - EIS (23): Emissions Inventory System
+        - OSHA-OIS (21): OSHA inspection records
+        - E-GGRT (19): Electronic Greenhouse Gas Reporting Tool
+        - SFDW (10): Safe Drinking Water (UIC program)
+        - EIA-860 (6): Energy Information Administration generator data
+        - EGRID (6): Emissions & Generation Resource Integrated Database
+        - RBLC (7): RACT/BACT/LAER Clearinghouse — air permit technology standards
+        - CAMDBS (3): Clean Air Markets Division — emissions trading
+        - SEMS (2): Superfund Enterprise Management System
+        - RFS (2): Renewable Fuel Standard program
+      The NUMBER of FRS program linkages for a facility indicates its regulatory
+      footprint. A facility appearing in 5+ programs is a major industrial site.
+    effective_date: "2000-01-01"
+    source: "EPA FRS; various EPA programs"
+    tags: [frs, epa, programs, crosswalk]
+
+# =============================================================================
+# TCEQ-SPECIFIC IDENTIFIERS
+# =============================================================================
+tceq:
+
+  - id: tceq_001
+    topic: "TCEQ CN and RN Numbers"
+    definition: |
+      In the database, TCEQ-related claims include two key identifiers:
+        - CN (Customer Number) — claim_types 'cn_number' (293) and 'cn' (245):
+          Identifies the REGULATED ENTITY OWNER (person or company). One company
+          may have multiple CNs for different divisions. The CN links to the
+          company, not the facility.
+        - RN (Regulated Entity Number) — claim_type 'rn_number' (189):
+          Identifies the PHYSICAL SITE/FACILITY. Each distinct facility location
+          gets its own RN. The RN links to the facility, not the company.
+      Together, CN + RN uniquely identify "who operates what facility" in Texas.
+      To find all facilities owned by a company, search by CN. To find all
+      permits for a site, search by RN.
+    effective_date: "2000-01-01"
+    source: "TCEQ Central Registry; 30 TAC Chapter 3"
+    tags: [tceq, cn, rn, identifiers, texas]
+
+  - id: tceq_002
+    topic: "TCEQ Regions and Investigations"
+    definition: |
+      In the database, claim_type='tceq_region' (258 claims) identifies which
+      of TCEQ's 16 regional offices has jurisdiction over a facility. This is
+      a geographic indicator — TCEQ regions roughly correspond to Texas regions.
+      Investigation-related claims include:
+        - 'investigation_approved' (244 claims): A TCEQ investigation has been
+          authorized for the facility — this may be routine compliance checking
+          or response to a complaint. Does NOT necessarily indicate a violation.
+        - 'investigation_number' (184 claims): TCEQ's tracking number for the
+          investigation.
+      Facilities with investigation claims are under active TCEQ oversight.
+      For CCS/hydrogen projects, investigations are often routine inspections
+      of air permits during construction or early operations.
+    effective_date: "2000-01-01"
+    source: "TCEQ regional offices; TCEQ compliance program"
+    tags: [tceq, regions, investigations, compliance, texas]

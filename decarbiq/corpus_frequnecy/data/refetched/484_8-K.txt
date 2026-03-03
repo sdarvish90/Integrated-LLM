@@ -1,0 +1,1022 @@
+0001845437 
+ false 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 0001845437 
+ 
+ 
+ 2023-06-06 
+ 2023-06-06 
+ 
+ 
+ 
+ 
+ 0001845437 
+ 
+ RONI:UnitsEachConsistingOfOneClassOrdinaryShare0.0001ParValueAndOnefourthOfOneRedeemableWarrantMember 
+ 
+ 
+ 
+ 2023-06-06 
+ 2023-06-06 
+ 
+ 
+ 
+ 
+ 0001845437 
+ 
+ RONI:ClassOrdinarySharesParValue0.0001PerShareMember 
+ 
+ 
+ 
+ 2023-06-06 
+ 2023-06-06 
+ 
+ 
+ 
+ 
+ 0001845437 
+ 
+ RONI:WarrantsExercisableForOneClassOrdinaryShareAtExercisePriceOf11.50PerShareMember 
+ 
+ 
+ 
+ 2023-06-06 
+ 2023-06-06 
+ 
+ 
+ 
+ iso4217:USD 
+ 
+ 
+ xbrli:shares 
+ 
+ 
+ 
+ 
+ iso4217:USD 
+ 
+ 
+ xbrli:shares 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ UNITED
+STATES 
+
+ SECURITIES
+AND EXCHANGE COMMISSION 
+
+ Washington,
+D.C. 20549 
+
+ 
+
+ FORM
+ 8-K 
+
+ 
+
+ CURRENT
+REPORT 
+
+ Pursuant
+to Section 13 or Section 15(d) of the Securities Exchange Act of 1934 
+
+ 
+
+ Date
+of Report (Date of earliest event reported): June 6,
+2023 
+
+ 
+
+ RICE
+ACQUISITION CORP. II 
+
+ (Exact
+name of registrant as specified in its charter) 
+
+ 
+
+ 
+ 
+ Cayman
+ Islands 
+ 
+ 001-40503 
+ 
+ 98-1580612 
+ 
+ (State
+ or other jurisdiction of 
+ incorporation or organization) 
+ 
+ (Commission
+ File Number) 
+ 
+ (I.R.S.
+ Employer 
+ Identification Number) 
+ 
+ 
+
+ 
+ 
+ 102
+ East Main Street ,
+ Second
+ Story 
+ Carnegie ,
+ Pennsylvania 
+ 
+ 15106 
+ 
+ (Address
+ of principal executive offices) 
+ 
+ (Zip
+ Code) 
+ 
+ 
+
+ ( 713 )
+ 446-6259 
+
+ (Registrants
+telephone number, including area code) 
+
+ 
+
+ Not
+Applicable 
+
+ (Former
+name or former address, if changed since last report) 
+
+ 
+
+ Check
+the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation to the registrant under
+any of the following provisions: 
+
+ 
+
+ 
+ Written
+ communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425) 
+ 
+ 
+
+ 
+ Soliciting
+ material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12) 
+ 
+ 
+
+ 
+ Pre-commencement
+ communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b)) 
+ 
+ 
+
+ 
+ Pre-commencement
+ communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c)) 
+ 
+ 
+
+ Securities
+registered pursuant to Section 12(b) of the Act: 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Title
+ of each class 
+ 
+ Trading
+ Symbol(s) 
+ 
+ 
+ Name
+ of each exchange 
+ on which registered 
+ 
+ Units,
+ each consisting of one Class A ordinary share, $0.0001 par value, and one-fourth of one redeemable warrant 
+ 
+ RONI
+ U 
+ 
+ The
+ New York Stock Exchange 
+ 
+ Class
+ A ordinary shares, par value $0.0001 per share 
+ 
+ RONI 
+ 
+ The
+ New York Stock Exchange 
+ 
+ Warrants,
+ exercisable for one Class A ordinary share at an exercise price of $11.50 per share 
+ 
+ RONI
+ WS 
+ 
+ The
+ New York Stock Exchange 
+ 
+ 
+
+ Indicate
+by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (230.405
+of this chapter) or Rule 12b-2 of the Securities Exchange Act of 1934 (240.12b-2 of this chapter). 
+
+ 
+
+ Emerging
+growth company 
+
+ 
+
+ If
+an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying
+with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+
+ Item
+5.02 Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers; Compensatory Arrangements of
+Certain Officers. 
+
+ 
+
+ As
+previously disclosed, on December 13, 2022, Rice Acquisition Corp. II, a Cayman Islands corporation (RONI and, after the
+Domestication as defined below, NET Power Inc.), entered into that certain Business Combination Agreement (as amended,
+supplemented or otherwise modified from time to time, the Business Combination Agreement and the transactions contemplated
+thereby, the Business Combination) by and among RONI, Rice Acquisition Holdings II LLC, a Cayman Islands limited liability
+company and direct subsidiary of RONI (RONI Opco), Topo Buyer Co, LLC, a Delaware limited liability company and a direct,
+wholly owned subsidiary of RONI Opco (the Buyer), Topo Merger Sub, LLC, a Delaware limited liability company and a direct,
+wholly owned subsidiary of the Buyer (Merger Sub), and NET Power, LLC, a Delaware limited liability company (NET
+Power), pursuant to which, among other things, following the de-registration of RONI as an exempted company in the Cayman Islands
+and the continuation and domestication of RONI as a corporation in the State of Delaware with the name NET Power Inc. (the
+Domestication), (i) Merger Sub will merge with and into NET Power (the Merger), with NET Power surviving
+the Merger and becoming a direct, wholly owned subsidiary of the Buyer and (ii) at the time that the Merger becomes effective (the Effective
+Time), all of the issued and outstanding equity interests of NET Power (other than any such equity interests held in the treasury
+of NET Power or owned by any subsidiary of NET Power immediately prior to the Effective Time) will be canceled and converted into the
+right to receive an aggregate of 137,192,563 Class A units of RONI Opco and an equivalent number of shares of Class B common stock, par
+value $0.0001 per share, of NET Power Inc. (Class B Common Stock), subject to adjustment for (a) NET Power units issued
+pursuant to the amended and restated joint development agreement, dated as of December 13, 2022 (as amended, supplemented or otherwise
+modified from time to time in accordance with its terms), by and among RONI, NET Power, RONI Opco, Nuovo Pignone International, S.r.l.,
+an Italian limited liability company that is an affiliate of Baker Hughes Company, and Nuovo Pignone Tecnologie S.r.l., an Italian limited
+liability company that is also an affiliate of Baker Hughes Company, between the date of such agreement and the date on which the Business
+Combination is consummated (the Closing Date) and (b) cash funding raised by NET Power following entry into the Business
+Combination Agreement and retained on its books as of the Closing Date in an aggregate amount not to exceed $25,000,000. 
+
+ 
+
+ On
+June 6, 2023, RONI held an extraordinary general meeting of shareholders (the extraordinary general meeting) to approve
+the Business Combination and certain other proposals related thereto. As further described below in Item 5.07, at the extraordinary general
+meeting, RONIs shareholders approved and adopted the NET Power Inc. 2023 Omnibus Incentive Plan (the Incentive Plan).
+Previously, RONIs board of directors approved the Incentive Plan, subject to the approval by RONIs shareholders at the
+extraordinary general meeting and subject to, and conditioned upon, the consummation of the Business Combination. 
+
+ 
+
+ The
+Incentive Plan, which shall become effective as of the Closing Date, will provide for the grant of options, stock appreciation rights,
+restricted stock, restricted stock units, performance awards, stock awards, dividend equivalents, other stock-based awards, cash awards
+and substitute awards intended to align the interests of NET Power Inc.s service providers with those of its stockholders. Subject
+to adjustment in the event of certain transactions or changes of capitalization in accordance with the Incentive Plan, 20,468,545 shares
+of Class A common stock, par value $0.0001 per share, of NET Power Inc. (Class A Common Stock), which represents approximately
+9% of the shares of Class A Common Stock and Class B Common Stock that will be outstanding following the consummation of the Business
+Combination (assuming that no RONI public shareholders exercise redemption rights with respect to their shares), will initially be reserved
+for issuance pursuant to awards under the Incentive Plan. The number of shares available for issuance under the Incentive Plan will be
+subject to an annual increase on the first day of each calendar year beginning January 1, 2024, and ending and including January 1, 2033,
+equal to the lesser of (i) 5% of the aggregate number of shares outstanding on December 31 of the immediately preceding calendar year
+and (ii) any such smaller number of shares as is determined by the board of directors of NET Power Inc. (the NET Power Inc. Board). 
+
+ 
+
+ A
+summary of the Incentive Plan is included in the section entitled Incentive Plan Proposal beginning on page 158 of RONIs
+definitive proxy statement/prospectus filed with the Securities and Exchange Commission on May 10, 2023 (the Proxy Statement/Prospectus),
+which is incorporated herein by reference, and such summary is qualified in all respects by the full text of the Incentive Plan, the
+form of which is included as Annex J to the Proxy Statement/Prospectus and is incorporated herein by reference. 
+
+ 
+
+ 
+
+ 
+ 1 
+ 
+ 
+
+ 
+
+ Item
+5.07 Submission of Matters to a Vote of Security Holders. 
+
+ 
+
+ On
+June 6, 2023, RONI held the extraordinary general meeting to approve the Business Combination and certain other proposals related thereto.
+As of the close of business on April 18, 2023, the record date for the extraordinary general meeting, there were 34,502,500 shares of
+Class A ordinary shares, par value $0.0001 per share, of RONI (Class A Shares) and 8,625,000 Class B ordinary shares, par
+value $0.0001 per share, of RONI (Class B Shares and, together with Class A Shares, Ordinary Shares) issued
+and outstanding. A total of 34,883,754 Ordinary Shares (consisting of 26,258,754 Class A Shares and 8,625,000 Class B Shares) were present
+or represented by proxy at the extraordinary general meeting, which constituted a quorum to conduct business thereat. 
+ 
+
+ Set
+forth below are the final voting results on the proposals considered and voted upon at the extraordinary general meeting, each of which
+is more fully described in the Proxy Statement/Prospectus and each of which was approved by the shareholders at the extraordinary general
+meeting: 
+
+ 
+
+ The
+Business Combination Proposal To approve as an ordinary resolution and to adopt the Business Combination Agreement, including
+the Merger, and the transactions contemplated thereby (the Business Combination Proposal): 
+
+ 
+
+ 
+ 
+ Ordinary
+ Share Votes 
+ For 
+ 
+ Ordinary
+ Share Votes 
+ Against 
+ 
+ Ordinary
+ Share 
+ Abstentions 
+ 
+ Broker
+ 
+ Non-Votes 
+ 
+ 32,545,406 
+ 
+ 2,337,148 
+ 
+ 1,200 
+ 
+ 0 
+ 
+ 
+
+ The
+Domestication Proposal To approve as a special resolution that RONI be de-registered in the Cayman Islands pursuant to
+article 47 of its articles of association and registered by way of continuation as a corporation under the laws of the state of Delaware
+pursuant to PartXII of the Companies Act (As Revised) of the Cayman Islands and, conditional upon, and with effect from, the registration
+of RONI as a corporation in the State of Delaware, the name of RONI be changed from Rice Acquisition Corp.II to NET
+Power Inc.: 
+
+ 
+
+ 
+ 
+ Ordinary
+ Share Votes 
+ For 
+ 
+ Ordinary
+ Share Votes 
+ Against 
+ 
+ Ordinary
+ Share 
+ Abstentions 
+ 
+ Broker 
+ Non-Votes 
+ 
+ 32,545,436 
+ 
+ 2,337,118 
+ 
+ 1,200 
+ 
+ 0 
+ 
+ 
+
+ The
+Charter Proposal To approve as a special resolution that, upon the Domestication, the amended and restated memorandum
+and articles of association of RONI (the Existing Governing Documents) be amended and restated by the proposed new certificate
+of incorporation of NET Power Inc. (the Proposed Certificate of Incorporation) and the proposed new bylaws of NET Power
+Inc. (the Proposed Bylaws), including authorization of the change in authorized share capital as indicated therein and
+the change of name of Rice Acquisition Corp. II to NET Power Inc. in connection with the Business Combination: 
+
+ 
+
+ 
+ 
+ Ordinary
+ Share Votes 
+ For 
+ 
+ Ordinary
+ Share Votes 
+ Against 
+ 
+ Ordinary
+ Share 
+ Abstentions 
+ 
+ Broker 
+ Non-Votes 
+ 
+ 32,545,436 
+ 
+ 2,337,117 
+ 
+ 1,201 
+ 
+ 0 
+ 
+ 
+
+ The
+Governing Documents Proposals To consider and vote upon, on a non-binding advisory basis, the following: 
+
+ 
+
+ Governing
+Documents Proposal A To approve as an ordinary resolution, upon the Domestication, to change the authorized share capital
+of RONI from (i)300,000,000 ClassA Shares, (ii)30,000,000 ClassB Shares, and (iii)1,000,000 preference
+shares, par value $0.0001, to (A) 520,000,000 shares of Class A Common Stock, (B) 310,000,000 shares of Class B Common Stock and (C)
+1,000,000 shares of preferred stock, par value $0.0001 per share, of NET Power Inc. (NET Power Inc. preferred stock): 
+
+ 
+
+ 
+ 
+ Ordinary
+ Share Votes 
+ For 
+ 
+ Ordinary
+ Share Votes 
+ Against 
+ 
+ Ordinary
+ Share 
+ Abstentions 
+ 
+ Broker 
+ Non-Votes 
+ 
+ 29,683,857 
+ 
+ 4,962,402 
+ 
+ 237,495 
+ 
+ 0 
+ 
+ 
+
+ 
+
+ 
+ 2 
+ 
+ 
+
+ 
+
+ Governing
+Documents Proposal B To approve as an ordinary resolution, upon the Domestication, the authorization to the NET Power
+Inc. Board to issue any or all shares of NET Power Inc. preferred stock in one or more classes or series, with such terms and conditions
+as may be expressly determined by the NET Power Inc. Board and as may be permitted by the Delaware General Corporation Law: 
+
+ 
+
+ 
+ 
+ Ordinary
+ Share Votes 
+ For 
+ 
+ Ordinary
+ Share Votes 
+ Against 
+ 
+ Ordinary
+ Share 
+ Abstentions 
+ 
+ Broker 
+ Non-Votes 
+ 
+ 30,464,385 
+ 
+ 4,178,373 
+ 
+ 240,996 
+ 
+ 0 
+ 
+ 
+
+ Governing
+Documents Proposal C To approve as an ordinary resolution, upon the Domestication, the provision that certain provisions
+of the Proposed Certificate of Incorporation are subject to the Stockholders Agreement (as defined in the Proxy Statement/Prospectus): 
+
+ 
+
+ 
+ 
+ Ordinary
+ Share Votes 
+ For 
+ 
+ Ordinary
+ Share Votes 
+ Against 
+ 
+ Ordinary
+ Share 
+ Abstentions 
+ 
+ Broker 
+ Non-Votes 
+ 
+ 32,306,878 
+ 
+ 2,337,781 
+ 
+ 239,095 
+ 
+ 0 
+ 
+ 
+
+ Governing
+Documents Proposal D To approve as an ordinary resolution, upon the Domestication, the provision that removes the ability
+of NET Power Inc. stockholders to take action by written consent in lieu of a meeting: 
+
+ 
+
+ 
+ 
+ Ordinary
+ Share Votes 
+ For 
+ 
+ Ordinary
+ Share Votes 
+ Against 
+ 
+ Ordinary
+ Share 
+ Abstentions 
+ 
+ Broker 
+ Non-Votes 
+ 
+ 29,927,968 
+ 
+ 4,716,891 
+ 
+ 238,895 
+ 
+ 0 
+ 
+ 
+
+ Governing
+Documents Proposal E To approve as an ordinary resolution, upon the Domestication, the provision that any
+director or the entire NET Power Inc. Board may be removed from office, but only for cause and only by the affirmative vote of the holders
+of a majority of the then-outstandingshares of stock of NET Power Inc. entitled to vote generally for the election of directors: 
+
+ 
+
+ 
+ 
+ Ordinary
+ Share Votes 
+ For 
+ 
+ Ordinary
+ Share Votes 
+ Against 
+ 
+ Ordinary
+ Share 
+ Abstentions 
+ 
+ Broker 
+ Non-Votes 
+ 
+ 29,931,293 
+ 
+ 4,715,170 
+ 
+ 237,291 
+ 
+ 0 
+ 
+
+ 
+
+ Governing
+Documents Proposal F To approve as an ordinary resolution, upon the Domestication, all other changes necessary or desirable
+in connection with the replacement of Existing Governing Documents with the Proposed Certificate of Incorporation and Proposed Bylaws
+as part of the Domestication, including (i)changing the post-BusinessCombination corporate name from Rice Acquisition
+Corp.II to NET Power Inc. (which is expected to occur upon the consummation of the Domestication), (ii)making
+NET Power Inc.s corporate existence perpetual, (iii)adopting Delaware as the exclusive forum for certain stockholder litigation
+and the UnitedStates District Courts as the exclusive forum for litigation arising out of federal securities laws and (iv)removing
+certain provisions related to RONIs status as a blank check company that will no longer be applicable upon consummation of the
+Business Combination: 
+
+ 
+
+ 
+ 
+ Ordinary
+ Share Votes 
+ For 
+ 
+ Ordinary
+ Share Votes 
+ Against 
+ 
+ Ordinary
+ Share 
+ Abstentions 
+ 
+ Broker 
+ Non-Votes 
+ 
+ 30,488,931 
+ 
+ 4,157,708 
+ 
+ 237,115 
+ 
+ 0 
+ 
+
+ 
+
+ The
+Director Election Proposal To approve as an ordinary resolution, the election, effective immediately in connection with
+the consummation of the Business Combination, of Ralph Alexander, Frederick A. Forthuber, Carol Peterson and Eunkyung Sung to serve as
+Class I directors until the 2024 annual meeting of stockholders, Peter J. (Jeff) Bennett, J. Kyle Derham and Alejandra Veltmann to serve
+as Class II directors until the 2025 annual meeting of stockholders and Joseph T. Kelliher, Brad Pollack and Daniel Joseph Rice, IV to
+serve as Class III directors until the 2026 annual meetings of stockholders, each until his or her respective successor is duly elected
+and qualified, subject to such directors earlier death, resignation, retirement, disqualification or removal: 
+
+ 
+
+ 
+
+ 
+ 
+ Nominee 
+ 
+ Class
+ B 
+ Share Votes 
+ For 
+ 
+ 
+ Class
+ B 
+ Share Votes 
+ Withheld 
+ 
+ 
+ Broker 
+ Non-Votes 
+ 
+ 
+ Ralph Alexander 
+ 
+ 
+ 8,625,000 
+ 
+ 
+ 0 
+ 
+ 
+ 0 
+ 
+ 
+ Peter J. (Jeff) Bennett 
+ 
+ 
+ 8,625,000 
+ 
+ 
+ 0 
+ 
+ 
+ 0 
+ 
+ 
+ J. Kyle Derham 
+ 
+ 
+ 8,625,000 
+ 
+ 
+ 0 
+ 
+ 
+ 0 
+ 
+ 
+ Frederick A. Forthuber 
+ 
+ 
+ 8,625,000 
+ 
+ 
+ 0 
+ 
+ 
+ 0 
+ 
+ 
+ Joseph T. Kelliher 
+ 
+ 
+ 8,625,000 
+ 
+ 
+ 0 
+ 
+ 
+ 0 
+ 
+ 
+ Carol Peterson 
+ 
+ 
+ 8,625,000 
+ 
+ 
+ 0 
+ 
+ 
+ 0 
+ 
+ 
+ Brad Pollack 
+ 
+ 
+ 8,625,000 
+ 
+ 
+ 0 
+ 
+ 
+ 0 
+ 
+ 
+ Daniel Joseph Rice, IV 
+ 
+ 
+ 8,625,000 
+ 
+ 
+ 0 
+ 
+ 
+ 0 
+ 
+ 
+ Eunkyung Sung 
+ 
+ 
+ 8,625,000 
+ 
+ 
+ 0 
+ 
+ 
+ 0 
+ 
+ 
+ Alejandra Veltmann 
+ 
+ 
+ 8,625,000 
+ 
+ 
+ 0 
+ 
+ 
+ 0 
+ 
+ 
+ 
+
+ 
+
+ 
+ 3 
+ 
+ 
+
+ 
+
+ The
+NYSE Proposal To approve as an ordinary resolution, assuming the Business Combination Proposal is approved and adopted,
+for purposes of complying with the applicable provisions of Section312.03 of the New York Stock Exchanges Listed Company
+Manual, the issuance of more than 20% of RONIs common stock in the Business Combination and the PIPE Financing (as defined in
+the Proxy Statement/Prospectus, as supplemented on May 26, 2023): 
+
+ 
+
+ 
+ 
+ Ordinary
+ Share Votes 
+ For 
+ 
+ Ordinary
+ Share Votes 
+ Against 
+ 
+ Ordinary
+ Share 
+ Abstentions 
+ 
+ Broker 
+ Non-Votes 
+ 
+ 32,432,839 
+ 
+ 2,339,467 
+ 
+ 111,448 
+ 
+ 0 
+ 
+
+ 
+
+ The
+Incentive Plan Proposal To approve as an ordinary resolution the Incentive Plan: 
+
+ 
+
+ 
+ 
+ Ordinary
+ Share Votes 
+ For 
+ 
+ Ordinary
+ Share Votes 
+ Against 
+ 
+ Ordinary
+ Share 
+ Abstentions 
+ 
+ Broker 
+ Non-Votes 
+ 
+ 30,090,397 
+ 
+ 4,517,095 
+ 
+ 276,262 
+ 
+ 0 
+ 
+
+ 
+
+ As
+it was determined to not be necessary, the proposal to approve as an ordinary resolution the adjournment of the extraordinary general
+meeting to a later date or dates, as described in the Proxy Statement/Prospectus, was not put to a vote of the shareholders at the extraordinary
+general meeting. 
+
+ 
+
+ Item
+8.01 Other Events. 
+
+ 
+
+ As
+described in the Proxy Statement/Prospectus, RONI provided its public shareholders (as defined therein) with the opportunity to have
+all or a portion of their Class A Shares redeemed for cash upon the closing of the Business Combination. Holders of 21,195,224 Class
+A Shares, or approximately 61% of the Class A Shares, have exercised their redemption rights. As a result, the Business Combination is
+expected to raise more than $675 million in gross proceeds through a combination of an approximately $540 million fully committed PIPE
+and more than $135 million of cash held in trust. 
+ 
+
+ The
+Business Combination is expected to be consummated on June 8, 2023, subject to the satisfaction or waiver of certain closing conditions
+as described in the Proxy Statement/Prospectus. Following the consummation of the Business Combination, the Class A Common Stock and
+the warrants exercisable for Class A Common Stock are expected to begin trading on the New York Stock Exchange under the symbols NPWR
+and NPWR WS, respectively, on June 9, 2023. 
+
+ 
+
+ 
+
+ 
+ 4 
+ 
+ 
+
+ 
+
+ SIGNATURES
+ 
+
+ 
+
+ Pursuant
+to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by
+the undersigned hereunto duly authorized. 
+
+ 
+
+ Dated:
+June 7, 2023 
+
+ 
+
+ 
+ 
+ 
+ RICE
+ ACQUISITION CORP. II 
+ 
+ 
+ 
+ 
+ 
+ 
+ By: 
+ /s/
+ James Wilmot Rogers 
+ 
+ 
+ Name: 
+ James
+ Wilmot Rogers 
+ 
+ 
+ Title: 
+ Chief
+ Financial Officer and Chief Accounting Officer 
+ 
+
+ 
+
+ 
+
+ 5

@@ -1,0 +1,546 @@
+================================================================================
+  DECARBIQ — EXHAUSTIVE DATA QUALITY AUDIT
+  Date: 2026-03-03
+  Database: core_database.db (201 MB)
+================================================================================
+
+TABLE INVENTORY (28 tables)
+───────────────────────────────────────────────────────────────────────────────
+  cleaned_documents          10,819 rows
+  claims                     94,579 rows
+  unified_projects            2,345 rows (712 active, 1,633 quarantined)
+  regulatory_evidence        10,819 rows
+  epa_permits                   306 rows
+  tceq_permits                5,930 rows
+  rrc_uic_wells               1,260 rows
+  frs_crosswalk                 584 rows
+  facility_crossref             321 rows
+  entities                    1,309 rows
+  entity_aliases                533 rows
+  project_claims             94,579 rows
+  project_signal_accumulator  1,842 rows
+  companies                   1,478 rows
+  pipeline_infrastructure        49 rows
+  doe_status                    367 rows
+  article_source_map            189 rows
+  company_classifications     1,912 rows
+  read_pass_log              10,819 rows
+  contradiction_log             427 rows
+  scheme_frequency            5,475 rows
+  document_chunks             9,836 rows
+  singleton_review            2,267 rows
+  claim_type_mapping          1,124 rows
+  corporate_events               59 rows
+  project_events                402 rows
+  citation_audit_log         89,391 rows
+  epa_compliance_summary         84 rows
+
+================================================================================
+  SECTION 1: REFERENTIAL INTEGRITY
+================================================================================
+
+  CHECK                              STATUS     COUNT
+  ─────────────────────────────────────────────────────
+  Orphaned claims (no document)      PASS       0
+  Orphaned project_claims            PASS       0
+  project_claims → bad project_id    PASS       0
+  project_claims → bad entity_id     PASS       0
+  entity_aliases → bad entity_id     PASS       0
+  crossref → bad project_a_id        PASS       0
+  crossref → bad project_b_id        PASS       0
+  corp_events → bad parent_company   PASS       0
+  document_chunks → orphaned         PASS       0
+  read_pass_log → orphaned           PASS       0
+  docs ↔ regulatory_evidence 1:1     PASS       0 mismatches
+
+  ISSUES FOUND:
+  ─────────────────────────────────────────────────────
+  projects → bad company_id          WARNING    3 records
+    - CF Industries (17bd8137e071)
+    - CLEAN HYDROGEN WORKS LA-1 LLC (f59c9fd7cc73)
+    - DELEK US HOLDINGS, INC (caaf0efff5f8)
+    → company_id matches project_id, not a real companies.company_id
+
+  project_events → missing project   WARNING    10 records
+    - 428aec53ac9d: cod_date, construction_start, evidence dates
+    - 453854b2d854, b8295becc69e604e, f50796027e1f38bc, etc.
+    → These projects were likely quarantined/deleted after events were created
+
+  accumulator → missing project      WARNING    27 records
+    - ef8bf51fb863: stage=fid, stage=construction, capacity
+    - 428aec53ac9d: stage=operational, capacity
+    - Multiple location signals for 850cdbfb1767, 313afdcbbbf1, etc.
+    → Orphaned from quarantined projects; accumulator not cleaned up
+
+  doe_status → unmatched CIK         INFO       32 records
+    - Air Products (CIK 0000002969): 3 DOE awards
+    - Plug Power (CIK 0001093691): 3 DOE awards
+    - CF Industries (CIK 1324404): 2 DOE awards
+    - Eagle Nuclear (CIK 2089283): 3 DOE awards
+    → CIKs from SEC filings; companies table uses different ID scheme
+
+================================================================================
+  SECTION 2: DATA QUALITY — NULLS & MISSING DATA
+================================================================================
+
+  CRITICAL FIELDS (no nulls found):
+  ─────────────────────────────────────────────────────
+  claims.claim_text               PASS   0 nulls
+  claims.claim_type               PASS   0 nulls
+  claims.company_name             PASS   0 nulls
+  claims.source_id                PASS   0 nulls
+  claims.confidence               PASS   0 nulls
+  projects.project_name           PASS   0 nulls
+  projects.developer_name         PASS   0 nulls
+  projects.stage                  PASS   0 nulls
+  entities.canonical_name         PASS   0 nulls
+  companies.company_name          PASS   0 nulls
+  epa_permits.registry_id         PASS   0 nulls
+  tceq_permits.rn_number          PASS   0 nulls
+  tceq_permits.entity_name        PASS   0 nulls
+
+  HIGH NULL RATES:
+  ─────────────────────────────────────────────────────
+  unified_projects.technology      1,675 null/empty (71.4% of all projects)
+  unified_projects.state           1,364 null/empty (58.2% of all projects)
+
+  → Among 712 active projects:
+    583 have stage='unknown' (81.9%)
+    Most active projects are auto_create (453) or migration (145)
+
+================================================================================
+  SECTION 3: DUPLICATES & CONSISTENCY
+================================================================================
+
+  DUPLICATE ENTITY NAMES (case-insensitive): 15 pairs
+  ─────────────────────────────────────────────────────
+  "ascend performance materials holdings inc" → 3 entity IDs
+  "phillips 66" → 2 entity IDs
+  "par pacific holdings inc" → 2 entity IDs
+  "motiva enterprises llc" → 2 entity IDs
+  "marathon petroleum corp" → 2 entity IDs
+  "linde inc" → 2 entity IDs
+  "linde gas north america, llc" vs "linde gas north america llc" → 2 each
+  "exxon mobil corporation" → 2 entity IDs
+  "evonik industries" → 2 entity IDs
+  "evonik corporation" → 2 entity IDs
+  "ergon inc" → 2 entity IDs
+  "bp products north america inc" → 2 entity IDs
+  "san joaquin refining company, inc." → 2 entity IDs
+  "ascend performance materials llc" → 2 entity IDs
+  "celanese corporation" → 2 entity IDs
+  → NEEDS DEDUP: Same companies with different entity UUIDs
+
+  DUPLICATE COMPANY NAMES: 8 pairs
+  ─────────────────────────────────────────────────────
+  united refining, pbf energy, olin, lion oil, hess, evonik,
+  enterprise products partners, celanese → 2 company IDs each
+
+  DUPLICATE CLAIM TEXTS: 5,032 unique texts appear 2+ times
+  ─────────────────────────────────────────────────────
+  Top offenders (TCEQ permit data shredded into repetitive claims):
+    EXXONMOBIL BEAUMONT REFINERY — "Industry: 32411" repeated 707 times
+    EXXONMOBIL BEAUMONT REFINERY — "Address: 1795 BURT ST" repeated 682 times
+    PORT ARTHUR REFINERY — "Industry: 324110" repeated 664 times
+    PORT NECHES OPERATIONS — "Industry: 325110" repeated 476 times
+  → TCEQ extraction is generating per-permit-row claims for static facility data
+  → 56,686 claims from 6,188 TCEQ documents (9.2 claims/doc avg)
+
+  DUPLICATE PROJECT NAME+DEVELOPER: 1 pair (not severe)
+
+  VALUE RANGE CHECKS:
+  ─────────────────────────────────────────────────────
+  claims.confidence outside [0,1]          PASS   0
+  projects.stage_confidence outside [0,1]  PASS   0
+  projects.fid_probability outside [0,1]   PASS   0
+
+  SUSPICIOUS ENTITY ALIASES:
+  ─────────────────────────────────────────────────────
+  5 aliases where alias = "Parent Company" (generic placeholder)
+    - Air Products, Praxair, Linde Gas NA, PDV Holding, Chevron
+    → alias_type=legal_name but alias text is literally "Parent Company"
+
+  Multiple aliases with "(100%)" suffix from EPA parent company extraction:
+    - "AIR PRODUCTS & CHEMICALS INC (100%)", "EXXON MOBIL CORP (100%)", etc.
+    → ownership percentage baked into alias string
+
+================================================================================
+  SECTION 4: DATE ANOMALIES
+================================================================================
+
+  Future-dated claims (>2026-03-03):        1,045
+  ─────────────────────────────────────────────────────
+  LEGITIMATE — These are planned/projected dates:
+    - ERCOT GIS queue entries with expected COD (2030-2032)
+    - EIA-860M planned generators
+    - Examples: Tenaska Prairie Ridge (2032-06-01), Lightsource Solar (2031-12-01)
+
+  Very old claims (<2000-01-01):            99
+  ─────────────────────────────────────────────────────
+  LEGITIMATE — Historical EPA/RCRA permits from the 1980s-90s:
+    - UNION CARBIDE CORP LINDE DIV — RCRA permit from 1984-10-15
+    - TEXAS CITY REFINING INC — EPA facility from 1986-11-17
+
+  Future-dated regulatory evidence:         139
+  ─────────────────────────────────────────────────────
+  LEGITIMATE — Same source (ERCOT GIS, EIA-860M planned generators)
+
+  Date logic checks (FID after COD, etc.):  0 violations
+
+================================================================================
+  SECTION 5: SOURCE CONSISTENCY
+================================================================================
+
+  Claims by source system:
+  ─────────────────────────────────────────────────────
+    tceq         56,686 claims   409 companies   6,188 docs
+    epa_ghgrp    16,272 claims   163 companies   1,552 docs
+    rrc_uic       9,451 claims   133 companies   1,260 docs
+    epa_echo      7,624 claims   683 companies     848 docs
+    edgar         1,298 claims   236 companies     361 docs
+    edgar_8k        739 claims     5 companies     216 docs
+    ercot_gis       649 claims    65 companies      80 docs
+    eia_860m        488 claims    61 companies      70 docs
+    doe_oced        413 claims    16 companies      43 docs
+    phmsa           404 claims    18 companies      47 docs
+    epa_uic         382 claims    31 companies      36 docs
+    federal_reg      89 claims     4 companies      12 docs
+    tx_rrc           84 claims     4 companies       7 docs
+
+  TCEQ dominance: 59.9% of all claims from TCEQ permits alone
+
+  cleaned_documents ↔ regulatory_evidence: PERFECT 1:1 (all 13 source systems match)
+
+  Companies with claims but no project:  412
+    → Many are small TCEQ/EPA registrants that don't warrant a project entry
+
+  Active projects with no claims:  11
+    - PHILLIPS 66 (awarded, no claims)
+    - HEIDELBERG MATERIALS US (cancelled)
+    - PACCAR (cancelled)
+    - 3 Calumet Specialty Products migration_ghgrp entries
+    - Air Liquide La Porte SMR (operational, migration_ghgrp)
+    - HF Sinclair HollyFrontier Cheyenne (migration_ghgrp)
+    - CHEVRON U.S.A MABEE CO2 FLOOD (migration)
+    - Shell MARTINEZ REFINING (migration_ghgrp)
+    - Motiva Enterprises Norco (migration_ghgrp)
+    → migration_ghgrp projects were created from GHGRP but never got claims linked
+
+  FRS crosswalk vs EPA permits: ALL 33 TCEQ RNs map to "NO EPA PERMIT"
+    → FRS registry IDs found via API don't match any epa_permits.registry_id
+    → This is expected: epa_permits table was loaded from ECHO (different EPA system)
+       and uses different registry IDs than FRS. The crosswalk links them.
+
+  EPA compliance vs permits: 18 registries have permits but no compliance records
+    (0 have compliance but no permits — good)
+
+================================================================================
+  SECTION 6: STRUCTURAL CONCERNS
+================================================================================
+
+  Active project breakdown by bootstrap_source:
+  ─────────────────────────────────────────────────────
+    auto_create        453 (63.6%)  — Created from EPA/TCEQ facility names
+    migration          145 (20.4%)  — Migrated from old pipeline
+    migration_ghgrp     78 (10.9%)  — From GHGRP emissions data
+    claims              36 (5.1%)   — From extracted claims
+
+  Stage distribution of 712 active projects:
+  ─────────────────────────────────────────────────────
+    unknown            583 (81.9%)
+    cancelled           64 (9.0%)
+    operational         39 (5.5%)
+    awarded             18 (2.5%)
+    construction         3 (0.4%)
+    announced            2 (0.3%)
+    on_hold              1 (0.1%)
+    fid                  1 (0.1%)
+    feasibility          1 (0.1%)
+
+  → 81.9% of active projects have unknown stage — most are auto-created
+    facility records that haven't been enriched with stage data
+
+  Capacity data: Only 2 active projects have capacity_mtpa_h2:
+    - CF Industries: 10.0 MTPA (ammonia, not H2 — units suspicious)
+    - NextDecade Corp: 6.0 MTPA (LNG, not H2 — misclassified)
+
+  Multi-state developers (potential corporate-vs-project confusion):
+    - Linde: 11 projects across 10 states
+    - Air Products: 9 projects across 9 states
+    - Valero Energy: 5 projects across 5 states
+    → These are real: multi-facility operators with site-level projects
+
+================================================================================
+  SECTION 7: SUSPICIOUS SAMPLES FOR EXTERNAL CROSS-CHECKING
+================================================================================
+
+  Instructions: Verify each sample against the cited external source.
+  Mark VERIFIED / INCORRECT / STALE / CANNOT VERIFY.
+
+  ─── SAMPLE A: Active Projects (verify existence, stage, developer) ────────
+
+  A1. PLAQUEMINE HYDROGEN PURIFICATION
+      Developer: PLAQUEMINE HYDROGEN PURIFICATION
+      State: LA | Stage: announced | Tech: hydrogen_production
+      Sources: 1 | Bootstrap: claims
+      ✓ VERIFY: Does this project exist? Is it actually announced?
+
+  A2. OCI CLEAN AMMONIA PRODUCTION FACILITY
+      Developer: OCI CLEAN AMMONIA PRODUCTION FACILITY
+      State: TX | Stage: construction | Tech: ammonia_production
+      Sources: 4 | Bootstrap: claims
+      ✓ VERIFY: Is OCI building this in TX? Is it under construction?
+
+  A3. TEXAS CITY HYDROGEN PIPELINE PROJECT
+      Developer: TEXAS CITY HYDROGEN PIPELINE PROJECT
+      State: TX | Stage: operational
+      Sources: 2 | Bootstrap: claims
+      ✓ VERIFY: Is there an operational H2 pipeline in Texas City?
+
+  A4. CF Industries
+      Developer: CF Industries
+      Stage: (active, no claims linked)
+      Capacity: 10 MTPA (capacity_mtpa_h2 = 10.0)
+      ✓ VERIFY: 10 MTPA is ammonia, not H2. Is this correct for CF?
+
+  A5. NextDecade Corp
+      Developer: NextDecade Corp
+      Capacity: 6 MTPA (capacity_mtpa_h2 = 6.0)
+      ✓ VERIFY: This is LNG capacity (Rio Grande LNG). Misclassified as H2.
+
+  ─── SAMPLE B: Operational Projects (verify they are actually running) ──────
+
+  B1. Air Products - AIR PRODUCTS LLC (PORT ARTHUR I)
+      State: TX | Tech: carbon_capture, hydrogen_production
+      Sources: 0 | Bootstrap: migration
+      ✓ VERIFY: Is Air Products Port Arthur I operational?
+
+  B2. Air Products - AIR PRODUCTS TEXAS CITY SMR
+      State: TX | Tech: co2_transport_storage
+      Sources: 0 | Bootstrap: migration
+      ✓ VERIFY: Air Products Texas City SMR — tech says co2_transport_storage
+        but this is likely an H2 SMR plant. Technology mismatch?
+
+  B3. Air Liquide - La Porte Steam Methane Reformer
+      State: TX | Tech: hydrogen_production
+      Sources: 0 | Bootstrap: migration_ghgrp
+      ✓ VERIFY: Is there an Air Liquide SMR in La Porte, TX?
+
+  B4. Energy Transfer - BROOKELAND GAS PLANT
+      State: (none) | Tech: co2_transport_storage
+      Sources: 13 | Bootstrap: (unknown)
+      ✓ VERIFY: Is Brookeland a CO2 transport facility or a gas processing plant?
+
+  B5. Kinder Morgan - SNYDER GAS PLANT
+      State: (none) | Tech: co2_transport_storage
+      Sources: 19 | Bootstrap: (unknown)
+      ✓ VERIFY: Is Snyder CO2 transport or gas processing?
+
+  ─── SAMPLE C: DOE Awards (verify against USAspending.gov / DOE OCED) ──────
+
+  C1. ORSTED STAR P2X | Status: terminated | Disbursed: 0.5%
+      URL: https://www.usaspending.gov/award/DECD0000081
+      ✓ VERIFY: Was Ørsted Star P2X DOE award terminated?
+
+  C2. WSP USA ENVIRONMENT & INFRASTRUCTURE | Status: active | Disbursed: 100%
+      URL: https://www.usaspending.gov/award/DEFE0032142
+      ✓ VERIFY: WSP award fully disbursed?
+
+  C3. CHEMTRONERGY | Status: terminated | Disbursed: 28.2%
+      URL: https://www.usaspending.gov/award/DEEE0011325
+      ✓ VERIFY: Chemtronergy terminated with partial disbursement?
+
+  C4. ENTERGY SERVICES | Status: terminated | Disbursed: 27.3%
+      URL: https://www.usaspending.gov/award/DECD0000006
+      ✓ VERIFY: Entergy CCS project terminated?
+
+  C5. THE GREENE COUNTY INDUSTRIAL DEVELOPMENTS | Status: active | Disbursed: 0%
+      URL: https://www.usaspending.gov/award/DEFE0032323
+      ✓ VERIFY: Greene County award active but no disbursement yet?
+
+  ─── SAMPLE D: FRS Crosswalk (verify TCEQ RN → EPA Registry linkage) ──────
+
+  D1. RN100209451 → 110000464024 (PORT ARTHUR REFINERY)
+      Linked programs: AIR, AIRS/AFS, CEDRI, E-GGRT, EGRID, EIA-860, EIS,
+                       ICIS, NCDB, NPDES, OSHA-OIS, OTAQREG, RBLC,
+                       RCRAINFO, TRIS, TSCA, TX-TCEQ ACR
+      ✓ VERIFY at: https://data.epa.gov/efservice/FRS_PROGRAM_FACILITY/REGISTRY_ID/110000464024/JSON
+
+  D2. RN103919817 → 110007177768 (CHEVRON PHILLIPS CHEMICAL CEDAR BAYOU PLANT)
+      Linked: AIR, AIRS/AFS, CEDRI, E-GGRT, NCDB, NPDES, RCRAINFO, TRIS, TSCA
+      ✓ VERIFY at: https://data.epa.gov/efservice/FRS_PROGRAM_FACILITY/REGISTRY_ID/110007177768/JSON
+
+  D3. RN100218569 → 110034285226 (DALLAS CLEAN ENERGY FACILITY)
+      Linked: BR, CEDRI, ICIS, RCRAINFO
+      ✓ VERIFY: Is Dallas Clean Energy in TCEQ as RN100218569?
+
+  D4. RN100849397 → 110008160952 (GARDEN VILLE FERTILIZER)
+      Linked: RCRAINFO only
+      ✓ VERIFY: Is this a valid TCEQ/EPA mapping for a fertilizer facility?
+
+  D5. RN102450756 → 110041990913 (EXXONMOBIL BEAUMONT REFINERY)
+      ✓ VERIFY: Compare against TCEQ Central Registry for RN102450756
+
+  ─── SAMPLE E: Facility Crossrefs (verify linkages are correct) ────────────
+
+  E1. tceq RN103080487 ↔ epa_echo 110067040703
+      Method: frs_crosswalk | Confidence: 0.99
+      FRS says: LINDE GAS CLEAR LAKE PLANT
+      ✓ VERIFY: Is TCEQ RN103080487 the same as EPA 110067040703?
+
+  E2. rrc_uic 000005705 ↔ epa_echo 110043790001
+      Method: spatial | Confidence: 0.72
+      Detail: distance 1.83 mi, well_operator="RRC Operator 257097",
+              epa_facility="AIR SEPARATION FACILITY", name_overlap=0.0
+      ✓ VERIFY: Is this UIC well near the Air Separation Facility?
+
+  E3. rrc_uic 000064468 ↔ epa_echo 110005184497
+      Method: spatial | Confidence: 0.63
+      Detail: distance 3.1 mi, well_operator="U.S. Department of Energy",
+              epa_facility="AIR LIQUIDE - FREEPORT HYCO PLANT"
+      ✓ VERIFY: DOE UIC well near Air Liquide Freeport — related?
+
+  E4. rrc_uic 000104017 ↔ epa_echo 110012181824
+      Method: spatial | Confidence: 0.57
+      Detail: distance 4.06 mi, well_operator="Phillips 66",
+              epa_facility="AIR LIQUIDE AMERICA BORGER CO2 PLANT"
+      ✓ SUSPICIOUS: Phillips 66 well matched to Air Liquide CO2 plant
+        at 4 miles with 0 name overlap. Likely FALSE POSITIVE.
+
+  E5. rrc_uic 000114389 ↔ epa_echo 110002339586
+      Method: spatial | Confidence: 0.50
+      Detail: distance 4.99 mi, well_operator="RRC Operator 100949",
+              epa_facility="AIR LIQUIDE AMERICA CORP"
+      ✓ SUSPICIOUS: At 5 miles with 0 name overlap, this is likely
+        a FALSE POSITIVE from spatial matching.
+
+  ─── SAMPLE F: Entity Aliases (verify corporate relationships) ─────────────
+
+  F1. Merger Sub 1 → SVII (merged_into)
+      Excerpt: "Merger Sub 1 will merge (the First Merger) with and into SVI"
+      ✓ VERIFY: What is "SVII" and "Merger Sub 1"? Is this a real merger?
+
+  F2. Praxair, Inc. → Linde (parent_company)
+      ✓ VERIFY: Praxair merged with Linde in 2018. Relationship correct
+        but direction may be reversed (Linde acquired Praxair).
+
+  F3. OCI Partners → "OCI PARTNERS LP (100%)" (epa_parent_company)
+      Confidence: 0.85
+      ✓ VERIFY: OCI Partners LP is the parent of OCI Beaumont?
+
+  F4. HollyFrontier Corporation → NAVAJO REFINING COMPANY, LLC (subsidiary)
+      ✓ VERIFY: Is Navajo Refining a HollyFrontier subsidiary?
+        Note: HollyFrontier rebranded to HF Sinclair in 2022.
+
+  F5. "Parent Company" aliases (literal string "Parent Company"):
+      - Air Products → "Parent Company" (legal_name)
+      - Praxair → "Parent Company" (legal_name)
+      - Linde Gas NA → "Parent Company" (legal_name)
+      ✓ DATA BUG: Alias text is literally "Parent Company" — should be
+        the actual parent company name. Extraction artifact.
+
+  ─── SAMPLE G: Lowest-Confidence Spatial Crossrefs (likely false positives) ─
+
+  G1. RRC Operator 100949 ↔ AIR LIQUIDE AMERICA CORP (4.99 mi, conf 0.50)
+  G2. RRC Operator 100949 ↔ CHEMOURS - BEAUMONT WORKS (4.99 mi, conf 0.50)
+  G3. Phillips 66 ↔ CARDOX CORP (4.22 mi, conf 0.55)
+  G4. Phillips 66 ↔ AIR LIQUIDE AMERICA BORGER CO2 PLANT (4.22 mi, conf 0.55)
+      ✓ ALL LIKELY FALSE POSITIVES: >4 miles, 0 name overlap
+      → Spatial matching at 5-mile radius captures unrelated facilities
+
+  ─── SAMPLE H: Auto-Created Projects (verify these should be tracked) ──────
+
+  H1. AVINGER GAS PROCESSING PLANT (TX, unknown, 0 sources)
+  H2. MEADOWS COMPRESSOR STATION (TX, unknown, 0 sources)
+  H3. ET GATHERING & PROCESSING - MIDLAND COUNTY (TX, unknown, 0 sources)
+  H4. HEMPHILL GAS PLANT (TX, unknown, 0 sources)
+  H5. CARTHAGE GAS PLANT (TX, unknown, 0 sources)
+      ✓ VERIFY: Are these gas processing/compressor facilities relevant
+        to H2/CCS/ammonia tracking? Most appear to be standard O&G midstream.
+        → Should likely be quarantined as non-H2/CCS infrastructure.
+
+  H6. Hackberry Carbon Sequestration LLC (LA, unknown, CCS, 0 sources)
+      ✓ VERIFY: Legitimate CCS project? Worth tracking?
+
+  H7. Gulf Coast Sequestration (LA, unknown, CCS, 0 sources)
+      ✓ VERIFY: Legitimate CCS company/project?
+
+  H8. Archer Daniels Midland CCS2 (IL, unknown, CCS, 0 sources)
+      ✓ VERIFY: ADM has CCS at Decatur, IL. Is "CCS2" a real second project?
+
+================================================================================
+  SECTION 8: SUMMARY OF KEY FINDINGS
+================================================================================
+
+  SEVERITY: HIGH
+  ──────────────────
+  1. MASSIVE CLAIM DUPLICATION from TCEQ (56,686 claims, many repeated 400-700x)
+     → Static facility attributes (address, NAICS, status) extracted as separate
+       claims for each of hundreds of permit rows per facility
+     → Inflates claim counts, distorts statistics, wastes storage
+
+  2. 81.9% of active projects have stage='unknown'
+     → Most auto_create and migration projects lack stage enrichment
+     → Makes the project database nearly useless for stage-based analysis
+
+  3. 453 auto_create projects with 0 sources, stage=unknown, no technology
+     → Many are gas plants, compressor stations, generic O&G infrastructure
+     → Should be quarantined or enriched with stage/technology data
+
+  SEVERITY: MEDIUM
+  ──────────────────
+  4. 15 duplicate entity pairs (same name, different UUIDs)
+     → Fragments entity resolution; same company tracked as 2+ entities
+
+  5. 8 duplicate company pairs
+     → Same issue at company level
+
+  6. 5 "Parent Company" literal-string aliases (extraction bug)
+     → Parser captured the label "Parent Company" instead of actual name
+
+  7. 27 orphaned accumulator entries (project deleted, signal remains)
+     → Not harmful but adds noise to queries
+
+  8. 11 active projects with 0 claims linked
+     → 8 are migration_ghgrp with no claims extraction yet
+
+  9. Capacity field misuse: CF Industries 10 MTPA is ammonia (not H2),
+     NextDecade 6 MTPA is LNG — field is capacity_mtpa_h2
+
+  10. Low-confidence spatial crossrefs (0.50-0.57): likely false positives
+      at >4 miles with 0 name overlap. ~10-20 crossrefs affected.
+
+  SEVERITY: LOW
+  ──────────────────
+  11. DOE CIKs don't match companies table (different ID scheme) — 32 records
+  12. 18 EPA permit registries have no compliance summary (expected for some)
+  13. Future-dated claims (1,045) are legitimate ERCOT/EIA planned entries
+  14. Pre-2000 claims (99) are legitimate historical EPA/RCRA permits
+  15. 412 companies with claims but no project (small TCEQ/EPA registrants)
+
+================================================================================
+  SECTION 9: RECOMMENDED ACTIONS
+================================================================================
+
+  IMMEDIATE:
+  1. Quarantine auto_create gas plants/compressor stations (est. ~300 projects)
+  2. Deduplicate entities (merge 15 pairs)
+  3. Deduplicate companies (merge 8 pairs)
+  4. Fix "Parent Company" literal aliases
+  5. Clean up 27 orphaned accumulator entries
+  6. Fix capacity_mtpa_h2 for CF Industries (ammonia) and NextDecade (LNG)
+
+  SHORT-TERM:
+  7. Reduce TCEQ claim duplication (deduplicate static facility attributes)
+  8. Enrich migration_ghgrp projects with claims
+  9. Review and potentially remove low-confidence spatial crossrefs (<0.60)
+  10. Add stage enrichment pipeline for unknown-stage projects
+
+  MONITORING:
+  11. Set up periodic audit checks for new data ingestion
+  12. Track claim duplication ratios by source system
+  13. Monitor quarantine-to-active ratio over time
+
+================================================================================
+  END OF AUDIT
+================================================================================

@@ -1,0 +1,98 @@
+======================================================================
+  DecarbIQ — EXHAUSTIVE AUDIT REPORT
+  Date: 2026-03-03T18:59:12.962019+00:00
+  Database: /Users/Shadi/Dropbox/Knowledge base/decarbiq/decarbiq/corpus_frequnecy/data/core_database.db
+======================================================================
+
+
+── Phase 1: DB Internal Consistency ──
+  PASS                         11
+  WARN                          1
+  INFO                          1
+  TOTAL                        13
+
+── Phase 2: FRS Crosswalk vs EPA Envirofacts ──
+  VERIFIED                     32
+  TOTAL                        32
+
+── Phase 3: DOE Status vs USAspending.gov ──
+  VERIFIED                    297
+  TOTAL                       297
+
+── Phase 4: TCEQ Permits vs SODA API ──
+  VERIFIED                    374
+  NOT_FOUND                    22
+  TOTAL                       396
+
+  Issues:
+    [NOT_FOUND] tceq_RN110961067: RN RN110961067 not found in SODA dataset north_tx
+    [NOT_FOUND] tceq_RN110962479: RN RN110962479 not found in SODA dataset north_tx
+    [NOT_FOUND] tceq_RN111126124: RN RN111126124 not found in SODA dataset dallas_fw
+    [NOT_FOUND] tceq_RN111391629: RN RN111391629 not found in SODA dataset dallas_fw
+    [NOT_FOUND] tceq_RN111423638: RN RN111423638 not found in SODA dataset north_tx
+    [NOT_FOUND] tceq_RN111474490: RN RN111474490 not found in SODA dataset dallas_fw
+    [NOT_FOUND] tceq_RN111612131: RN RN111612131 not found in SODA dataset north_tx
+    [NOT_FOUND] tceq_RN111613022: RN RN111613022 not found in SODA dataset north_tx
+    [NOT_FOUND] tceq_RN111637773: RN RN111637773 not found in SODA dataset north_tx
+    [NOT_FOUND] tceq_RN111637914: RN RN111637914 not found in SODA dataset north_tx
+    [NOT_FOUND] tceq_RN111637922: RN RN111637922 not found in SODA dataset north_tx
+    [NOT_FOUND] tceq_RN111637955: RN RN111637955 not found in SODA dataset north_tx
+    [NOT_FOUND] tceq_RN111637963: RN RN111637963 not found in SODA dataset north_tx
+    [NOT_FOUND] tceq_RN111637971: RN RN111637971 not found in SODA dataset north_tx
+    [NOT_FOUND] tceq_RN111865937: RN RN111865937 not found in SODA dataset dallas_fw
+    [NOT_FOUND] tceq_RN112122437: RN RN112122437 not found in SODA dataset north_tx
+    [NOT_FOUND] tceq_RN112168042: RN RN112168042 not found in SODA dataset north_tx
+    [NOT_FOUND] tceq_RN112211719: RN RN112211719 not found in SODA dataset dallas_fw
+    [NOT_FOUND] tceq_RN112211743: RN RN112211743 not found in SODA dataset dallas_fw
+    [NOT_FOUND] tceq_RN112275003: RN RN112275003 not found in SODA dataset dallas_fw
+    ... and 2 more
+
+── Phase 5: EPA Permits vs ECHO API ──
+  VERIFIED                     58
+  MISMATCH                      1
+  TOTAL                        59
+
+  Issues:
+    [MISMATCH] epa_110034393378: Name mismatch: DB=CHEMOURS - BEAUMONT WORKS (BEAUMONT, JEFFERSON County, TX), AP
+
+── Phase 6: Entity Aliases & Crossrefs ──
+  LOW_CONFIDENCE              141
+  VERIFIED                     70
+  SUSPICIOUS                   65
+  PASS                          3
+  TOTAL                       279
+
+  Issues:
+    [SUSPICIOUS] spatial_33: dist=3.0mi, overlap=0.0, conf=0.64
+    [SUSPICIOUS] spatial_34: dist=3.1mi, overlap=0.0, conf=0.63
+    [SUSPICIOUS] spatial_35: dist=3.0mi, overlap=0.0, conf=0.64
+    [SUSPICIOUS] spatial_49: dist=3.1mi, overlap=0.0, conf=0.63
+    [SUSPICIOUS] spatial_50: dist=3.1mi, overlap=0.0, conf=0.63
+    [SUSPICIOUS] spatial_51: dist=3.0mi, overlap=0.0, conf=0.64
+    [SUSPICIOUS] spatial_52: dist=3.0mi, overlap=0.0, conf=0.64
+    [SUSPICIOUS] spatial_53: dist=3.5mi, overlap=0.0, conf=0.60
+    [SUSPICIOUS] spatial_54: dist=3.5mi, overlap=0.0, conf=0.60
+    [SUSPICIOUS] spatial_55: dist=3.5mi, overlap=0.0, conf=0.60
+    [SUSPICIOUS] spatial_56: dist=3.5mi, overlap=0.0, conf=0.60
+    [SUSPICIOUS] spatial_57: dist=3.6mi, overlap=0.0, conf=0.60
+    [SUSPICIOUS] spatial_58: dist=3.6mi, overlap=0.0, conf=0.60
+    [SUSPICIOUS] spatial_59: dist=3.6mi, overlap=0.0, conf=0.60
+    [SUSPICIOUS] spatial_60: dist=3.6mi, overlap=0.0, conf=0.60
+    [SUSPICIOUS] spatial_61: dist=3.4mi, overlap=0.0, conf=0.61
+    [SUSPICIOUS] spatial_62: dist=3.4mi, overlap=0.0, conf=0.61
+    [SUSPICIOUS] spatial_63: dist=3.4mi, overlap=0.0, conf=0.61
+    [SUSPICIOUS] spatial_64: dist=3.4mi, overlap=0.0, conf=0.61
+    [SUSPICIOUS] spatial_65: dist=3.3mi, overlap=0.0, conf=0.62
+    ... and 45 more
+
+── Phase 7: Claims Completeness ──
+  PASS                          3
+  TOTAL                         3
+
+======================================================================
+  GRAND SUMMARY
+======================================================================
+  Total checks:        1079
+  Verified/Pass:        848  (78.6%)
+  Issues:                23  (2.1%)
+  Other (warn/info):    208  (19.3%)

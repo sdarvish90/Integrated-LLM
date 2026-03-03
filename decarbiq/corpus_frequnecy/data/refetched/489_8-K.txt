@@ -1,0 +1,929 @@
+0001845437 
+ false 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 0001845437 
+ 
+ 
+ 2022-12-13 
+ 2022-12-13 
+ 
+ 
+ 
+ 
+ 0001845437 
+ 
+ RONI:UnitsEachConsistingOfOneClassOrdinaryShare0.0001ParValueAndOnefourthOfOneRedeemableWarrantMember 
+ 
+ 
+ 
+ 2022-12-13 
+ 2022-12-13 
+ 
+ 
+ 
+ 
+ 0001845437 
+ 
+ RONI:ClassOrdinarySharesParValue0.0001PerShareMember 
+ 
+ 
+ 
+ 2022-12-13 
+ 2022-12-13 
+ 
+ 
+ 
+ 
+ 0001845437 
+ 
+ RONI:WarrantsExercisableForOneClassOrdinaryShareAtExercisePriceOf11.50PerShareMember 
+ 
+ 
+ 
+ 2022-12-13 
+ 2022-12-13 
+ 
+ 
+ 
+ iso4217:USD 
+ 
+ 
+ xbrli:shares 
+ 
+ 
+ 
+ 
+ iso4217:USD 
+ 
+ 
+ xbrli:shares 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ UNITED STATES 
+SECURITIES AND EXCHANGE COMMISSION 
+
+ Washington, D.C. 20549 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ FORM 8-K 
+
+ 
+
+ 
+
+ 
+
+ Current
+Report 
+Pursuant to Section 13 or 15(d) of the securities exchange act of 1934 
+
+ 
+
+ Date of Report (Date of earliest event reported):
+ December 13, 2022 
+
+ 
+
+ RICE ACQUISITION CORP. II 
+
+ (Exact name of registrant as specified in its charter) 
+
+ 
+
+ 
+ 
+ Cayman Islands 
+ 
+ 001-40503 
+ 
+ 98-1580612 
+ 
+ (State or other jurisdiction 
+of incorporation) 
+ 
+ (Commission File Number) 
+ 
+ (IRS Employer 
+Identification No.) 
+ 
+ 
+
+ 
+ 
+ 102 East Main Street , Second Story 
+ Carnegie , Pennsylvania 15106 
+ 
+ 15106 
+ 
+ (Address of principal executive offices) 
+ 
+ (Zip Code) 
+ 
+ 
+
+ ( 713 ) 446-6259 
+ (Registrants telephone number, including area code) 
+
+ 
+
+ Not applicable 
+(Former name or former address, if changed since last report) 
+
+ 
+
+ 
+
+ 
+
+ Check the appropriate box below if the Form 8-K filing is intended
+to simultaneously satisfy the filing obligation of the registrant under any of the following provisions: 
+
+ 
+
+ 
+ 
+ 
+ Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425) 
+ 
+ 
+ 
+ 
+ 
+ Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12) 
+ 
+ 
+ 
+ 
+ 
+ Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b)) 
+ 
+ 
+ 
+ 
+ 
+ Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c)) 
+ 
+ 
+
+ Securities registered pursuant to Section 12(b)
+of the Act: 
+
+ 
+
+ 
+ 
+ Title of each class 
+ 
+ Trading Symbol(s) 
+ 
+ Name of each exchange on which registered 
+ 
+ Units, each consisting of one Class A ordinary share, $0.0001 par value, and one-fourth of one redeemable warrant 
+ 
+ RONI U 
+ 
+ The New York Stock Exchange 
+ 
+ Class A ordinary shares, par value $0.0001 per share 
+ 
+ RONI 
+ 
+ The New York Stock Exchange 
+ 
+ Warrants, exercisable for one Class A ordinary share at an exercise price of $11.50 per share 
+ 
+ RONI WS 
+ 
+ The New York Stock Exchange 
+ 
+ 
+
+ Indicate by check mark whether the registrant
+is an emerging growth company as defined in Rule405 of the Securities Act of 1933 (230.405 of this chapter) or Rule12b-2
+of the Securities Exchange Act of 1934 (240.12b-2 of this chapter). 
+
+ 
+
+ Emerging growth company 
+
+ 
+
+ If an emerging growth company, indicate by check
+mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting
+standards provided pursuant to Section 13(a) of the Exchange Act. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+
+ Item 1.01 Entry into a Material Definitive Agreement. 
+
+ 
+
+ Business Combination Agreement 
+
+ 
+
+ On December 13, 2022, Rice
+Acquisition Corp. II, a Cayman Islands exempted company (RONI), entered into a Business Combination Agreement (as may be
+amended, supplemented or otherwise modified from time to time, the Business Combination Agreement and the transactions contemplated
+thereby, collectively, the Business Combination), by and among RONI, Rice Acquisition Holdings II LLC, a Cayman Islands
+exempted company and majority-owned and controlled operating subsidiary of RONI (RONI
+Opco), Topo Buyer Co, LLC, a Delaware limited liability company and a direct, wholly-owned subsidiary of RONI Opco (RONI
+Buyer), Topo Merger Sub, LLC, a Delaware limited liability company and a direct, wholly-owned subsidiary of RONI Buyer (Merger
+Sub), and NET Power, LLC, a Delaware limited liability company (NET Power). Pursuant to the Business Combination
+Agreement, among other things: 
+
+ 
+
+ 
+ 
+ 
+ (i) 
+ RONI will change its jurisdiction of incorporation by deregistering as a Cayman Islands exempted company and continuing and domesticating as a corporation incorporated under the laws of the State of Delaware, upon which, (a) RONI will change its name to NET Power Inc. (the combined company), (b) each then issued and outstanding Class A ordinary share of a par value $0.0001 each in the capital of RONI will convert automatically, on a one-for-one basis, to a share of Class A common stock, par value $0.0001 per share, of RONI (Class A Common Stock), (c) each then issued and outstanding Class B ordinary share of a par value $0.0001 each in the capital of RONI will convert automatically, on a one-for-one basis, to a share of Class B common stock, par value $0.0001 per share, of RONI (Class B Common Stock), and (d) each issued and outstanding warrant to purchase one Class A ordinary share in the capital of RONI at a price of $11.50 per share will convert automatically, on a one-for-one basis, into a whole warrant exercisable for one share of Class A Common Stock ; 
+ 
+ 
+
+ 
+ 
+ 
+ (ii) 
+ Following RONIs domestication, RONI Opco will change its jurisdiction of formation by deregistering as a Cayman Islands limited liability company and continuing and domesticating as a limited liability company formed under the laws of the State of Delaware (together with RONIs domestication, the Domestications), upon which, (a) RONI Opco will change its name to NET Power Holdings LLC , (b) each then issued and outstanding Class A Unit of RONI Opco will convert automatically, on a one-for-one basis, to a Class A Unit of RONI Opco as issued and outstanding pursuant to the terms of A&R LLC Agreement (as defined below), and (c) each then issued and outstanding Class B Unit of RONI Opco will convert automatically, on a one-for-one basis, to either (i) a Class A Unit of RONI Opco as issued and outstanding pursuant to the A&R LLC Agreement or (ii) a Class B Unit of RONI Opco as issued and outstanding pursuant to the terms of the A&R LLC Agreement ; and 
+ 
+ 
+
+ 
+ 
+ 
+ (iii) 
+ Following the Domestications, Merger Sub will merge with and into NET Power, with NET Power surviving the merger as a direct, wholly-owned subsidiary of RONI Buyer, on the terms and subject to the conditions of the certificate of merger, pursuant to which (a) all of the equity interests of NET Power that are issued and outstanding immediately prior to the Business Combination will, in connection with the Business Combination, be cancelled, cease to exist and be converted into the right to receive an aggregate of 135,698,078 Class A Units of RONI Opco and an equivalent number of shares of Class B Common Stock (one share of Class B Common Stock together with one Class A Unit or Class B Unit of RONI Opco, a RONI Interest), subject to adjustment for (i) NET Power shares issued pursuant to the Amended and Restated JDA (as defined below) as of the Closing Date and (ii) cash funding raised by NET Power following entry into the Business Combination Agreement and retained on its books as of the Closing Date, as allocated pursuant to the Business Combination Agreement, and (b) any equity interests of NET Power that are held in the treasury of NET Power or owned by any subsidiary of NET Power immediately prior to the Business Combination will be cancelled and cease to exist. 
+ 
+ 
+
+ Following the Business Combination,
+holders of Class A Units of RONI Opco (other than RONI) will have the right (an exchange right), subject to certain limitations,
+to exchange RONI Interests for, at RONIs option, (i) shares of Class A Common Stock on a one-for-one basis, subject to adjustment
+for stock splits, stock dividends, reorganizations, recapitalizations and the like (collectively, adjustments), or (ii)
+a corresponding amount of cash. RONIs decision to make a cash payment or issue shares upon an exercise of an exchange right will
+be made by RONIs independent directors, and such decision will be based on facts in existence at the time of the decision, which
+RONI expects would include the relative value of the Class A Common Stock (including trading prices for the Class A Common Stock at the
+time), the cash purchase price, the availability of other sources of liquidity (such as an issuance of preferred stock) to acquire the
+Class A Units of RONI Opco and alternative uses for such cash, among other considerations. 
+
+ 
+
+ 
+
+ 
+ 1 
+ 
+ 
+
+ 
+
+ Holders of Class A Units of
+RONI Opco (other than RONI) will generally be permitted to exercise the exchange right on a quarterly basis, subject to certain de minimis
+allowances. In addition, additional exchanges may occur in connection with certain specified events, and any exchanges involving more
+than a specified number of Class A Units of RONI Opco (subject to RONIs discretion to permit exchanges of a lower number of units)
+may occur at any time upon ten business days advanced notice. The exchange rights will be subject to certain limitations and restrictions
+intended to reduce the administrative burden of exchanges upon RONI and ensure that RONI Opco will continue to be treated as a partnership
+for U.S. federal income tax purposes. 
+
+ 
+
+ Representations and Warranties 
+
+ 
+
+ The Business Combination Agreement
+contains customary representations and warranties of the parties thereto with respect to, among other things: entity organization and
+formation; non-contravention; capital structure; authorization to enter into the Business Combination Agreement; licenses and permits;
+taxes; financial statements; real property; material contracts; intellectual property; title to and sufficiency of assets; absence of
+material changes following the most recent audited financial statements, undisclosed liabilities, and any material adverse effect; labor
+matters; employee benefit plans; insurance; compliance with laws; environmental matters; litigation; brokerage fees and commissions; transactions
+with affiliates; trade and anti-corruption compliance; data protection; information technology; and regulatory matters. The representations
+and warranties of the parties do not survive the closing of the Business Combination (Closing). 
+
+ 
+
+ Covenants 
+
+ 
+
+ The Business Combination
+Agreement includes covenants of NET Power with respect to the operation of the business prior to consummation of the Business Combination.
+The Business Combination Agreement also contains additional covenants of the parties, including, among others, those relating to (a)
+the use of reasonable best efforts to consummate the Business Combination and (b) the preparation and filing of a registration statement
+on Form S-4 relating to the Business Combination and containing a prospectus and proxy statement of RONI, among other filings, with the
+U.S. Securities and Exchange Commission (the SEC). The Business Combination Agreement also contains exclusivity provisions
+prohibiting NET Power and its subsidiaries and affiliates, on the one hand, and RONI, on the other hand, from initiating, soliciting,
+entertaining or otherwise encouraging a competing transaction (as more specifically described in the Business Combination Agreement)
+or entering into any contracts or agreements in connection therewith. 
+
+ 
+
+ Conditions to Consummation of the Business
+Combination 
+
+ 
+
+ Consummation of the Business
+Combination is generally subject to customary conditions of the respective parties and conditions customary to special purpose acquisition
+companies, including (i) expiration or termination of all applicable waiting periods under the Hart-Scott-Rodino Antitrust Improvements
+Act of 1976, (ii) the absence of any law or governmental order, threatened or pending, preventing the consummation of the Business Combination,
+(iii) receipt of requisite approval for consummation of the Business Combination from RONIs and NET Powers shareholders,
+(iv) RONIs possession of at least $5,000,001 of net tangible assets, as determined in accordance with Rule 3a51-1(g)(1) of the
+Securities Exchange Act of 1934, as amended, immediately after giving effect to the Business Combination and (v) approval of the RONI
+shares being issued in connection with the Business Combination (including the PIPE Financing (as defined below)) for listing on the New
+York Stock Exchange. 
+
+ 
+
+ Additionally, t he
+obligation of NET Power to consummate the Business Combination is further conditioned upon the sum of (i) the aggregate cash proceeds
+available for release from RONIs trust account (after giving effect to the exercise of redemption rights by RONI stockholders),
+plus (ii) the amount received in respect of the PIPE Financing (whether funded by a current NET Power shareholder or by a third-party
+investor, and inclusive of funds raised by NET Power during the period between signing and Closing), minus (iii) transaction expenses
+(for RONI and for NET Power), plus (iv) all cash on the consolidated balance sheet of RONI and its subsidiaries, in the aggregate, exceeding
+$200,000,000 as of immediately prior to the Closing. 
+ 
+
+ 
+
+ 
+ 2 
+ 
+ 
+
+ 
+
+ Termination 
+
+ 
+
+ The Business Combination Agreement
+may be terminated by the parties thereto under certain customary and limited circumstances at any time prior to Closing, including, without
+limitation, by mutual written consent or if the Business Combination has not been consummated on or before August 31, 2023, which date
+will be extended automatically for up to 30 days to the extent the Parties are continuing to work in good faith toward Closing. 
+
+ 
+
+ A copy of the Business Combination
+Agreement is filed with this Current Report on Form 8-K as Exhibit 2.1 and is incorporated herein by reference. The foregoing description
+of the Business Combination Agreement and the Business Combination is not complete and is subject to, and qualified in its entirety by,
+reference to the actual agreement. The Business Combination Agreement contains representations, warranties and covenants that the respective
+parties made to each other as of the date of the Business Combination Agreement or other specific dates. The assertions embodied in those
+representations, warranties and covenants were made for purposes of the contract among the respective parties and are subject to important
+qualifications and limitations agreed to by the parties in connection with negotiating such agreement. They are not intended to provide
+any other factual information about the parties to the Business Combination Agreement. In particular, the assertions embodied in the representations
+and warranties in the Business Combination Agreement were made as of a specified date, may be modified or qualified by information in
+one or more confidential disclosure letters prepared in connection with the execution and delivery of the Business Combination Agreement,
+may be subject to a contractual standard of materiality different from what might be viewed as material to investors, or may have been
+used for the purpose of allocating risk between the parties. Accordingly, the representations and warranties in the Business Combination
+Agreement are not necessarily characterizations of the actual state of facts about RONI, NET Power or the other parties at the time they
+were made or otherwise and should only be read in conjunction with the other information that RONI makes publicly available in reports,
+statements and other documents filed with the SEC. 
+
+ 
+
+ Sponsor Letter Agreement 
+
+ 
+
+ In connection with signing
+the Business Combination Agreement, RONI, Rice Acquisition Sponsor II LLC, a Delaware limited liability company (RONI Sponsor),
+RONI Opco, NET Power and certain members of RONIs board of directors and/or management (collectively, the Insiders)
+entered into a letter agreement, dated December 13, 2022 (the Sponsor Letter Agreement), pursuant to which RONI Sponsor
+and the Insiders agreed to (i) vote all of their shares of RONI in favor of the Business Combination Agreement; (ii) be bound by certain
+transfer restrictions in advance of Closing in respect of the shares of RONI each presently holds; and (iii) waive certain of the anti-dilution
+and conversion rights with respect to their shares of RONI and RONI Holdings units, which had been granted in connection with RONIs
+initial public offering. 
+ 
+
+ Pursuant to the Sponsor Letter
+Agreement, 1,000,000 RONI Interests held by RONI Sponsor will be forfeited and cancelled for no further consideration. Additionally, (a)
+1,000,000 of RONI Sponsors RONI Interests will be subject to forfeiture, and vest, incrementally, if the gross proceeds raised
+by RONI in connection with the Business Combination exceed $300,000,000 as of the Closing (incrementally vesting until the gross proceeds
+exceed $397,500,000); (b) 552,536 of RONI Sponsors RONI Interests will be subject to forfeiture, and vest if the gross proceeds
+exceed $397,500,000 as of the Closing; and (c) 986,775 of RONI Sponsors RONI Interests will be subject to forfeiture, and vest
+in equal one-third increments if, over any 20 trading days within any 30 consecutive trading-day period during the three years following
+the Closing, the trading share price of Class A Common Stock equals or exceeds $12.00 per share, $14.00 per share and $16.00 per share,
+respectively (or if RONI consummates a sale that would value such shares at the aforementioned thresholds). 
+ 
+
+ RONI Sponsor and RONIs
+independent directors also agreed to be bound by certain lock-up provisions, pursuant to the terms and conditions of the
+Sponsor Letter Agreement, as follows: (i) 3,510,643 of Sponsors and the Insiders RONI Interests will be restricted from
+transfer for a period of one year following the Closing and (ii) 1,575,045 of Sponsors RONI Interests will be restricted from transfer
+for a period of three years following the Closing, in each case, subject to customary exceptions and potential early-release based on
+the stock price sustaining specified price thresholds for 20 trading days within any 30 consecutive trading-day period. 
+
+ 
+
+ The foregoing description
+of the Sponsor Letter Agreement is qualified in its entirety by reference to the full text of the Sponsor Letter Agreement, a copy of
+which is filed as Exhibit 10.1 to this Current Report on Form 8-K and is incorporated herein by reference. 
+
+ 
+
+ 
+
+ 
+ 3 
+ 
+ 
+
+ 
+
+ Support Agreement 
+
+ 
+
+ Concurrently with the execution
+of the Business Combination Agreement, RONI, RONI Sponsor, NET Power and certain holders of NET Power equity (collectively, the Company
+Unitholders) entered into a Support Agreement (the Support Agreement), pursuant to which each Company Unitholder
+agreed to, among other things, (i) retain their respective equity interests, (ii) vote in favor of the Business Combination Agreement
+and the transactions contemplated thereby and (iii) be bound by certain other covenants and agreements related to the Business Combination. 
+ 
+
+ The foregoing description
+of the Support Agreement does not purport to be complete and is qualified in its entirety by the terms and conditions of the Support Agreement,
+a copy of which is filed as Exhibit 10.2 to this Current Report on Form 8-K and is incorporated herein by reference. 
+
+ 
+
+ Subscription Agreements 
+
+ 
+
+ On December 13, 2022, RONI
+entered into subscription agreements (each, a Subscription Agreement) with certain investors (the PIPE Investors)
+pursuant to which, among other things, the PIPE Investors have agreed to subscribe for and purchase, and RONI has agreed to issue and
+sell to the PIPE Investors, an aggregate of 22,545,000 shares of Class A Common Stock following its Domestication for an aggregate purchase
+price of $225,450,000, on the terms and subject to the conditions set forth therein (the PIPE Financing). Each Subscription
+Agreement contains customary representations and warranties of RONI, on the one hand, and the PIPE Investor, on the other hand, and customary
+conditions to closing, including the consummation of the Business Combination immediately following the consummation of the PIPE Financing.
+The form of the Subscription Agreement is attached as Exhibit 10.3 hereto and is incorporated herein by reference. The foregoing description
+of the Subscription Agreement is not complete and is subject to, and qualified in its entirety by, reference to the form filed herewith. 
+ 
+
+ Amended and Restated Joint Development Agreement 
+
+ 
+
+ On December 13, 2022, RONI
+entered into an amended and restated joint development agreement (the Amended and Restated JDA) with NET Power, RONI Opco,
+Nuovo Pignone International, S.r.l., an Italian limited liability company (BH), and Nuovo Pignone Tecnologie S.r.l., an
+Italian limited liability company (NPT). The Amended and Restated JDA amends and restates an earlier joint development agreement
+dated February 3, 2022, by and among NET Power, BH and NPT (the Original JDA), which was entered into in connection with
+a capital investment by Baker Hughes Energy Services LLC, an affiliate of BH, into NET Power, to allow for the joint development of a
+turbo expander prototype for use in Power Plants (as defined in the Amended and Restated JDA), including a combustor. 
+
+ 
+
+ The development work to
+be undertaken by BH and related milestones are described in statements of work. Subject to limited exceptions, NET Power shall be
+required to reimburse BH for all costs associated with the performance of its obligations under the applicable statement of work. A
+percentage of such reimbursement, to be selected by NET Power prior to Closing in accordance with the terms of the Amended and
+Restated JDA, will be paid in cash with the remaining amount being paid via issuance of additional Class A Units of RONI Opco and
+Class B Common Stock to BH or its designee. Similarly, NET Power shall be required to reimburse BH for certain cost overruns through
+a combination of cash and issuance of securities, as provided in the Amended and Restated JDA. Furthermore, BH or its designee shall
+receive additional Class A Units of RONI Opco and Class B Common Stock of RONI in up to an amount equal to the product of 111,799
+and the Exchange Ratio (as defined in the Amended and Restated JDA), upon the achievement of certain milestones and the occurrence
+of certain other events. 
+ 
+
+ 
+
+ 
+ 4 
+ 
+ 
+
+ 
+
+ 
+
+ The Amended and Restated JDA
+is subject to customary covenants, representations and warranties. The term of the Amended and Restated JDA expires on the later of February
+3, 2027 or the completion or termination of the statements of work, unless terminated earlier in accordance with the agreement. Either
+of NET Power or BH may terminate the Amended and Restated JDA upon 15 days prior notice to the other parties in the event of occurrence
+or continuation of certain events or material breaches of the terms of the Amended and Restated JDA. Furthermore, BH may terminate the
+Amended and Restated JDA upon the occurrence of a change of control, other than the Business Combination. 
+ 
+
+ The foregoing description
+of the Amended and Restated JDA is qualified in its entirety by reference to the full text of the Amended and Restated JDA, a copy of
+which will be filed with the Proxy Statement/Prospectus (defined below) as well as RONIs next periodic report to be filed with
+the SEC. 
+
+ 
+
+ Agreements to be Executed at Closing 
+
+ 
+
+ The Business Combination Agreement
+also contemplates the execution by the parties of various agreements at Closing, including, among others, the agreements described below. 
+
+ 
+
+ Stockholders Agreement 
+
+ 
+
+ In connection with Closing,
+RONI, RONI Opco, RONI Sponsor, and certain holders of NET Power equity (the NET Power Holders) will enter into a stockholders
+agreement (the Stockholders Agreement), which provides that, among other things, the board of directors of the combined
+company is expected to initially consist of nine directors (which may be increased to comply with independence requirements), including
+a minimum of four independent directors. The Stockholders Agreement further grants certain board designation rights, subject to equity
+ownership thresholds in the combined company, as follows: (i) OLCV NET Power, LLC will have the right to designate two directors; (ii)
+RONI Sponsor will have the right to designate one director; (iii) 8 Rivers Capital, LLC (through an entity controlled by it) will have
+the right to designate one director; and (iv) Constellation Energy Generation, LLC will have the right to designate one independent director. 
+ 
+
+ Additionally, pursuant to
+the terms of the Stockholders Agreement, the NET Power Holders will be granted certain customary registration rights and will agree not
+to effect any sale or distribution of certain RONI equity securities received in connection with the Business Combination subject to the
+conditions of and during the lock-up periods described therein. 
+
+ 
+
+ The foregoing description
+of the Stockholders Agreement is qualified in its entirety by reference to the full text of the form of Stockholders Agreement, a copy
+of which is filed as Exhibit 10.4 to this Current Report on Form 8-K and is incorporated herein by reference. 
+
+ 
+
+ Tax Receivable Agreement 
+
+ 
+
+ Concurrently with the completion
+of the Business Combination, RONI will enter into the tax receivable agreement (the Tax Receivable Agreement). Pursuant
+to the Tax Receivable Agreement, RONI will be required to pay to certain RONI Opco unitholders 75% of the tax savings that RONI realizes
+as a result of increases in tax basis in RONI Opcos assets resulting from the future exchange of RONI Opco units for shares of
+Class A Common Stock (or cash) pursuant to the A&R LLC Agreement, as well as certain other tax benefits, including tax benefits attributable
+to payments under the Tax Receivable Agreement. 
+ 
+
+ 
+
+ 
+ 5 
+ 
+ 
+
+ 
+
+ The foregoing description
+of the Tax Receivable Agreement is qualified in its entirety by reference to the full text of the form of Tax Receivable Agreement, a
+copy of which is filed as Exhibit 10.5 to this Current Report on Form 8-K and is incorporated herein by reference. 
+
+ 
+
+ Amended and Restated Limited Liability Company
+Agreement 
+
+ 
+
+ Following the Business Combination,
+the combined company will be organized in an Up-C structure, such that RONI and the subsidiaries of RONI will hold and operate
+substantially all of the assets and business of NET Power, and RONI will be a publicly listed holding company that will hold equity interests
+in NET Power. At Closing, RONI Opco will amend and restate its limited liability company agreement (as amended, the A&R LLC
+Agreement) in its entirety to, among other things, provide its equityholders with the right to redeem their Units for cash or,
+at RONIs option, Class A Common Stock, in each case, subject to certain restrictions set forth therein. 
+ 
+
+ The foregoing description
+of the A&R LLC Agreement is qualified in its entirety by reference to the full text of the form of the agreement, a copy of which
+is filed as Exhibit 10.6 to this Current Report on Form 8-K and is incorporated herein by reference. 
+
+ 
+
+ Item 3.02 Unregistered Sales of Equity Securities. 
+
+ 
+
+ The securities to be issued
+pursuant to the Business Combination Agreement, the Class A Common Stock to be issued and sold to the PIPE Investors, as well as the securities
+to be issued to BH or its designee pursuant to the Amended and Restated JDA, will not be registered under the Securities Act of 1933,
+as amended (the Securities Act), and will be issued in reliance on the exemption from registration requirements thereof
+provided by Section 4(a)(2) of the Securities Act and/or Regulation D promulgated thereunder as a transaction by an issuer not involving
+a public offering. The disclosure set forth above in Item 1.01 of this Current Report on Form 8-K is incorporated by reference into this
+Item 3.02. 
+
+ 
+
+ Item 7.01 Regulation FD Disclosure. 
+
+ 
+
+ On December 14, 2022, RONI
+and NET Power issued a press release announcing the execution of the Business Combination Agreement, the Subscription Agreements and the
+Sponsor Letter Agreement. The press release is furnished as Exhibit 99.1 to this Current Report on Form 8-K. 
+
+ 
+
+ Also, on December 14, 2022,
+RONI posted an investor presentation relating to the Business Combination on its website at https://ricespac.com. This presentation is
+furnished as Exhibit 99.2 to this Current Report on Form 8-K. A substantially similar presentation was also used by RONI in connection
+with the PIPE Financing. In addition, RONI posted a recorded presentation from management discussing the Business Combination on its website
+at https://ricespac.com. A transcript of this presentation is furnished as Exhibit 99.3 to this Current Report on Form 8-K. Notwithstanding
+the foregoing, information contained on RONIs website and the websites of NET Power or any of its affiliates referenced in Exhibit
+99.1, 99.2 or 99.3 or linked therein or otherwise connected thereto does not constitute part of, nor is it incorporated by reference into,
+this Current Report on Form 8-K. 
+ 
+
+ Forward-Looking Statements 
+
+ 
+
+ This Current Report on Form
+8-K may contain certain forward-looking statements within the meaning of the federal securities laws with respect to the combined company
+and the proposed transaction between NET Power and RONI. These forward-looking statements generally are identified by the words believe,
+project, expect, anticipate, estimate, intend, strategy,
+future, opportunity, plan, may, should, will, would,
+will be, will continue, will likely result and similar expressions. Forward-looking statements
+are predictions, projections and other statements about future events that are based on current expectations and assumptions and, as a
+result, are subject to risks and uncertainties. 
+
+ 
+
+ 
+
+ 
+ 6 
+ 
+ 
+
+ 
+
+ Many factors could cause actual
+future events to differ materially from the forward-looking statements in this communication, including but not limited to: (i) conditions
+to the completion of the proposed business combination and PIPE Financing, including shareholder approval of the business combination,
+may not be satisfied or the regulatory approvals required for the proposed business combination may not be obtained on the terms expected
+or on the anticipated schedule; (ii) the occurrence of any event, change or other circumstance that could give rise to the termination
+of the business combination agreement between the parties or the termination of any PIPE Investors subscription agreement; (iii)
+the effect of the announcement or pendency of the proposed business combination on NET Powers business relationships, operating
+results, and business generally; (iv) risks that the proposed business combination disrupts NET Powers current plans and operations;
+(v) risks related to diverting managements attention from NET Powers ongoing business operations; (vi) potential litigation
+that may be instituted against RONI or NET Power or their respective directors or officers related to the proposed transaction or the
+Business Combination Agreement or in relation to NET Powers business; (vii) the amount of the costs, fees, expenses and other charges
+related to the proposed business combination and PIPE Financing; (viii) risks relating to the uncertainty of the projected financial information
+with respect to NET Power or the combined company; (ix) NET Powers history of significant losses; (x) the combined companys
+ability to manage future growth effectively; (xi) the combined companys ability to utilize its net operating loss and tax credit
+carryforwards effectively; (xii) NET Powers ability to continue as a going concern if the transactions contemplated herein are
+not completed; (xiii) the capital-intensive nature of NET Powers business model, which may require the combined company to raise
+additional capital in the future; (xiv) barriers the combined company may face in its attempts to deploy and commercialize its technology;
+(xv) the complexity of the machinery NET Power relies on for its operations and development; (xvi) the combined companys ability
+to establish and maintain supply relationships; (xvii) risks related to NET Powers arrangements
+with third parties for the development, commercialization and deployment of technology associated with NET Powers technology; (xviii) risks related to NET Powers other strategic investors and partners; (xix)
+the combined companys ability to successfully commercialize its operations; (xx) the availability and cost of raw materials; (xxi)
+the ability of NET Powers supply base to scale to meet the combined companys anticipated growth; (xxii) risks related to
+NET Powers or the combined companys ability to meet its projections; (xxiii) the combined companys ability to expand
+internationally; (xxiv) the combined companys ability to update the design, construction and operations of the NET Power technology;
+(xxv) the impact of potential delays in discovering manufacturing and construction issues; (xxvi) the possibility of damage to NET Powers
+Texas facilities as a result of natural disasters; (xxvii) the ability of commercial plants using NET Powers technology to efficiently
+provide net power output; (xxviii) the combined companys ability to obtain and retain licenses; (xxix) the combined companys
+ability to establish an initial commercial scale plant; (xxx) the combined companys ability to license to large customers; (xxxi)
+the combined companys or NET Powers ability to accurately estimate future commercial demand; (xxxii) the combined companys
+ability to adapt to the rapidly evolving and competitive natural and renewable power industry; (xxxiii) the combined companys ability
+to comply with all applicable laws and regulations; (xxxiv) the impact of public perception of fossil fuel derived energy on the combined
+companys business; (xxxv) any political or other disruptions in gas producing nations; (xxxvi) the combined companys ability
+to protect its intellectual property and the intellectual property it licenses; (xxxvii) the ability to meet stock exchange listing standards
+following the consummation of the proposed business combination; (xxxviii) changes to the proposed structure of the proposed business
+combination that may be required or appropriate as a result of applicable laws or regulations, including recent proposals by the SEC or
+as a condition to obtaining regulatory approval of the proposed business combination; (xxxix) the impact of the global COVID-19 pandemic
+on any of the foregoing risks; and (xl) such other factors as are set forth in RONIs periodic public filings with the SEC, including
+but not limited to those described under the headings Risk Factors and Cautionary Note Regarding Forward-Looking
+Statements in its Annual Report on Form 10-K for the fiscal year ended December 31, 2021, its subsequent quarterly reports on Form
+10-Q, and in its other filings made with the SEC from time to time, which are available via the SECs website at www.sec.gov. These
+filings identify and address other important risks and uncertainties that could cause actual events and results to differ materially from
+those contained in the forward-looking statements. 
+ 
+
+ Forward-looking statements
+speak only as of the date they are made. Readers are cautioned not to put undue reliance on forward-looking statements, and NET Power
+and RONI assume no obligation and do not intend to update or revise these forward-looking statements, whether as a result of new information,
+future events, or otherwise. Neither NET Power nor RONI gives any assurance that either NET Power or RONI, or the combined company, will
+achieve its expectations. 
+
+ 
+
+ 
+
+ 
+ 7 
+ 
+ 
+
+ 
+
+ Important Information about the Business
+Combination and Where to Find It 
+
+ 
+
+ This Current Report on Form
+8-K relates to a proposed Business Combination transaction involving NET Power and RONI. In connection with the Business Combination,
+RONI intends to file with the SEC a registration statement on Form S-4 that will include a proxy statement and prospectus (the Proxy
+Statement/Prospectus). This Current Report on Form 8-K is not a substitute for the Proxy Statement/Prospectus. The definitive Proxy
+Statement/Prospectus (if and when available) will be delivered to RONIs shareholders. RONI may also file other relevant documents
+regarding the proposed transaction with the SEC. BEFORE MAKING ANY VOTING OR INVESTMENT DECISION, SECURITY HOLDERS OF RONI AND OTHER INTERESTED
+PARTIES ARE URGED TO READ THE PROXY STATEMENT/PROSPECTUS AND ALL OTHER RELEVANT DOCUMENTS THAT ARE FILED OR WILL BE FILED WITH THE SEC
+IN CONNECTION WITH THE TRANSACTION, INCLUDING ANY AMENDMENTS OR SUPPLEMENTS TO THESE DOCUMENTS, CAREFULLY AND IN THEIR ENTIRETY WHEN THEY
+BECOME AVAILABLE BECAUSE THEY WILL CONTAIN IMPORTANT INFORMATION ABOUT RONI, NET POWER, THE BUSINESS COMBINATION AND RELATED MATTERS. 
+ 
+
+ Investors and security holders
+of RONI may obtain free copies of the Proxy Statement/Prospectus, when available, and other documents that are filed or will be filed
+with the SEC by RONI through the website maintained by the SEC at www.sec.gov or at RONIs website at www.ricespac.com/rac-ii. 
+
+ 
+
+ Participants in the Solicitation 
+
+ 
+
+ RONI and NET Power and their
+respective directors and executive officers may be deemed to be participants in the solicitation of proxies from RONIs shareholders
+in connection with the transaction. A list of the names of such directors and executive officers and information regarding their interests
+in the proposed transaction between RONI and NET Power will be contained in the Proxy Statement/Prospectus, when available. You may obtain
+free copies of these documents as described in the preceding paragraph. 
+
+ 
+
+ No Offer or Solicitation 
+
+ 
+
+ This Current Report on Form
+8-K will not constitute a solicitation of a proxy, consent or authorization with respect to any securities or in respect of the Business
+Combination. This Current Report on Form 8-K will also not constitute an offer to sell or the solicitation of an offer to buy any securities,
+nor will there be any sale of securities in any states or jurisdictions in which such offer, solicitation or sale would be unlawful prior
+to registration or qualification under the securities laws of any such jurisdiction. No offering of securities will be made except by
+means of a prospectus meeting the requirements of Section 10 of the Securities Act, or an exemption therefrom. 
+
+ 
+
+ Item 9.01. Financial Statements and Exhibits. 
+
+ 
+
+ (d) Exhibits. 
+
+ 
+
+ 
+ 
+ Exhibit 
+Number 
+ 
+ Description 
+ 
+ 2.1 
+ 
+ Business Combination Agreement 
+ 
+ 10.1 
+ 
+ Sponsor Letter Agreement 
+ 
+ 10.2 
+ 
+ Support Agreement 
+ 
+ 10.3 
+ 
+ Form of Subscription Agreement 
+ 
+ 10.4 
+ 
+ Form of Stockholders Agreement 
+ 
+ 10.5 
+ 
+ Form of Tax Receivables Agreement 
+ 
+ 10.6 
+ 
+ Form of Amended & Restated LLC Agreement 
+ 
+ 99.1 
+ 
+ Press release, dated December 14, 2022 
+ 
+ 99.2 
+ 
+ Investor presentation, dated December 14, 2022 
+ 
+ 99.3 
+ 
+ Transcript of December 14, 2022 management presentation relating to the Business Combination 
+ 
+ 104 
+ 
+ Cover Page Interactive Data File (embedded within the Inline XBRL document) 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+ Certain schedules and similar attachments have been omitted. RONI agrees to furnish supplementally a copy of any omitted schedule or attachment to the SEC upon its request. 
+ 
+ 
+
+ 
+
+ 
+ 8 
+ 
+ 
+
+ 
+
+ SIGNATURES 
+
+ 
+
+ Pursuant to the requirements of the Securities
+Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized. 
+
+ 
+
+ 
+ 
+ 
+ RICE ACQUISITION CORP. II 
+ 
+ 
+ 
+ 
+ 
+ Date: December 14, 2022 
+ By: 
+ /s/ James Wilmot Rogers 
+ 
+ 
+ 
+ Name: 
+ James Wilmot Rogers 
+ 
+ 
+ 
+ Title: 
+ 
+ Chief Financial Officer and 
+ Chief Accounting Officer 
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 9

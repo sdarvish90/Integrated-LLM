@@ -1,0 +1,269 @@
+8-K 
+ 
+ 
+ false 0001333274 0001333274 2023-09-21 2023-09-21 UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, D.C. 20549 FORM 8-K CURRENT REPORT Pursuant to Section 13 or 15(d) of the Securities Exchange Act of 1934 Date of Report (Date of earliest event reported): September 21, 2023 MERCER INTERNATIONAL INC. (Exact name of Registrant as Specified in Its Charter) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Washington 
+ 
+ 000-51826 
+ 
+ 47-0956945 
+ 
+ (State or Other Jurisdiction of Incorporation) 
+ 
+ (Commission File Number) 
+ 
+ (IRS Employer Identification No.) Suite 1120 , 700 West Pender Street , Vancouver , British Columbia , Canada , V6C 1G8 (Address of Principal Executive Offices) Registrants Telephone Number, Including Area Code: (604) 684-1099 Not Applicable (Former Name or Former Address, if Changed Since Last Report) Check the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions (see General Instructions A.2. below): 
+ 
+ 
+ 
+ Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425) 
+ 
+ 
+ 
+ Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12) 
+ 
+ 
+ 
+ Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b)) 
+ 
+ 
+ 
+ Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c)) Securities registered pursuant to Section12(b) of the Act: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Title of each class 
+ 
+ Trading Symbol(s) 
+ 
+ Name of each exchange on which registered 
+ 
+ Common Stock, par value $1.00 per share 
+ 
+ MERC 
+ 
+ NASDAQ Global Select Market Indicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (230.405 of this chapter) or Rule 12b-2 of the Securities Exchange Act of 1934 (240.12b-2 of this chapter). Emerging growth company If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section13(a) of the Exchange Act. 
+
+ 
+ 
+
+ 
+ ITEM1.01. Entry into a Material Definitive Agreement The following summary set forth below in this Item 1.01 is qualified in its entirety by the Indenture (as defined below) which is filed with this Current Report on Form 8-K as Exhibit 4.1 and is incorporated herein by reference. Issuance of Senior Notes On September21, 2023, Mercer International Inc. (the Company) and Computershare Trust Company, N.A., as trustee, entered into an indenture (the Indenture) with respect to the Companys issuance of 12.875% senior notes due 2028 in an aggregate principal amount of $200.0million (the Notes). The Notes are unsecured and rank equally in right of payment with all of the Companys existing and future unsecured senior indebtedness, effectively junior in right of payment to any of the Companys existing and future secured indebtedness to the extent of the assets securing such indebtedness and the indebtedness and other liabilities of subsidiaries of the Company and senior in right of payment to any of the Companys future subordinated indebtedness. Interest and Maturity The Notes will mature on October1, 2028 and interest on the Notes will be payable semi-annually in arrears on each April1 and October1, commencing April1, 2024. Interest will be payable to holders of record of the Notes on the immediately preceding March15 and September15 and will be computed on the basis of a 360-day year consisting of twelve 30-day months. Optional Redemption At any time prior to October1, 2025, the Company may on one or more occasions redeem up to 35% of the aggregate principal amount of the Notes issued under the Indenture at a redemption price of 112.875% of the principal amount of the Notes redeemed, plus accrued and unpaid interest, if any, to, but not including, the redemption date, with the net proceeds of certain equity offerings, provided that: 
+ 
+ 
+ 
+ 
+ 
+ at least 65% of the aggregate principal amount of the Notes issued under the Indenture (excluding Notes held by the Company and its subsidiaries) remains outstanding immediately after the occurrence of such redemption; and 
+ 
+ 
+ 
+ 
+ 
+ the redemption occurs within 90 days of the date of the closing of such sale of equity interests. On or after October1, 2025, the Company may redeem all or a part of the Notes upon not less than 10 nor more than 60 days notice to the holders, at the redemption prices (expressed as percentages of principal amount) set forth below, plus accrued and unpaid interest, if any, to (but not including) the applicable redemption date, on the Notes redeemed to the applicable redemption date, if redeemed during the twelve-month period beginning on October1 of the years indicated below, subject to the rights of holders of such Notes on the relevant record date to receive interest on the relevant interest payment date: Notes 
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ Year 
+ 
+ Percentage 
+ 
+
+ 
+ 2025 
+ 
+ 
+ 106.438 
+ % 
+ 
+ 2026 
+ 
+ 
+ 103.219 
+ % 
+ 
+ 2027 and thereafter 
+ 
+ 
+ 100.000 
+ % 
+ In addition, at any time prior to October1, 2025, the Company may on one or more occasions redeem all or a part of the Notes at the make-whole premium set forth in the applicable Indenture, plus accrued and unpaid interest to (but not including) the redemption date. Certain Covenants The Indenture contains covenants that, among other things, limit the Companys ability and the ability of the Companys restricted subsidiaries to, directly or indirectly: (1)declare or pay any dividends or make any other payment or distribution on account of the Companys or any of its subsidiaries equity interests; (2)purchase, redeem or otherwise retire for value any equity interest of the Company; (3)make any payment on or with respect to or purchase, redeem, defease or otherwise acquire or retire for value any indebtedness of the Company that is contractually subordinated to the Notes; (4)incur, issue, assume or guarantee any indebtedness and issue any shares of preferred stock; (5)create, incur or assume certain liens; (6)consolidate, merge or transfer all or substantially all of the Companys assets, unless certain conditions are met; (7)engage in transactions with affiliates, unless certain conditions are met; (8)guarantee any other indebtedness of the Company, unless certain conditions are met; and (9)designate any restricted subsidiary to be an unrestricted subsidiary, unless such action would not cause an event of default. 
+ 
+
+ 
+ 
+
+ 
+ In the event that the Notes are rated as investment grade debt by Moodys Investors Service, Inc. and Standard& Poors Rating Services, and no event of default has occurred, most of the aforementioned covenants as well as the Companys obligation to offer to repurchase the Notes following certain asset sale events will be suspended. The Indenture provides that if a change of control event occurs (as defined under the applicable Indenture), each holder of Notes of the applicable series may require the Company to repurchase all or a portion of that holders Notes for cash at a price equal to 101% of the aggregate principal amount of the Notes repurchased, plus any accrued but unpaid interest, if any, on the Notes repurchased, to the date of repurchase (subject to the right of holders of record on the relevant record date to receive interest due on the relevant interest payment date). Events of Default In the case of an event of default occurring and continuing, the trustee or the holders of 25% of the principal amount of the then outstanding Notes may declare all Notes to be immediately due and payable, except that a default resulting from a bankruptcy, insolvency or reorganization with respect to the Company, any restricted subsidiary of the Company that is a significant subsidiary or any group of its restricted subsidiaries that, taken together, would constitute a significant subsidiary of the Company, will automatically cause all Notes to become due and payable immediately without further action or notice. Each of the following constitutes an event of default under the Indenture: 
+ 
+ 
+ 
+ (1) 
+ default for 30 days in the payment when due of interest, if any, with respect to the Notes; 
+ 
+ 
+ 
+ (2) 
+ default in payment when due of the principal of, or premium, if any, on the Notes; 
+ 
+ 
+ 
+ (3) 
+ failure by the Company or any of its restricted subsidiaries to comply with certain provisions relating to change in control, asset sales, or mergers, consolidations and sales of assets; 
+ 
+ 
+ 
+ (4) 
+ failure by the Company or any of its restricted subsidiaries for 60 days after notice to the Company by the trustee or the holders of at least 25% in aggregate principal amount of Notes then outstanding voting as a single class to comply with any of the other agreements in the applicable Indenture; 
+ 
+ 
+ 
+ (5) 
+ default under any mortgage, indenture or instrument under which there may be issued or by which there may be secured or evidenced any indebtedness for money borrowed by the Company or any of its restricted subsidiaries, if that default: 
+ 
+ 
+ 
+ a) 
+ is caused by a failure to pay principal of, or interest or premium, if any, on, such indebtedness prior to the expiration of the grace period provided in such indebtedness on the date of such default (a Payment Default); or 
+ 
+ 
+ 
+ b) 
+ results in the acceleration of such indebtedness prior to its express maturity, and, in each case, the principal amount of any such Indebtedness, together with the principal amount of any other such indebtedness under which there has been a Payment Default or the maturity of which has been so accelerated, aggregates $50.0 million or more; 
+ 
+ 
+ 
+ (6) 
+ failure by the Company or any of its subsidiaries to pay final judgments entered by a court or courts of competent jurisdiction aggregating in excess of $50.0 million, which judgments are not paid, discharged or stayed for a period of 60 days; and 
+ 
+ 
+ 
+ (7) 
+ certain events of bankruptcy or insolvency described in the Indenture with respect to the Company or any of its restricted subsidiaries that is a significant subsidiary or any group of subsidiary subsidiaries that, taken together, would constitute a significant subsidiary. ITEM2.03. Creation of a Direct Financial Obligation or an Obligation under an Off-Balance Sheet Arrangement of a Registrant. The information set forth under the heading Issuance of Senior Notes in Item 1.01 of this Current Report on Form 8-K is incorporated by reference into this Item 2.03. 
+ 
+
+ 
+ 
+
+ 
+ ITEM8.01. Other Events. Completion of Notes Offering On September21, 2023, the Company issued a press release announcing the completion of its previously announced offering of the Notes. A copy of such press release is attached hereto as Exhibit 99.1 and is incorporated herein by reference. The Notes were sold to qualified institutional buyers in reliance on Rule 144A under the Securities Act of 1933, as amended. ITEM9.01. Financial Statements and Exhibits. (d) Exhibits. 
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ Exhibit Number 
+ 
+ Description 
+
+ 
+ 
+ 
+ 
+ 4.1 
+ 
+ Indenture, dated September 21, 2023, between Mercer International Inc. and Computershare Trust Company, N.A., as trustee, related to the Notes. 
+ 
+ 
+ 
+ 
+ 4.2 
+ 
+ Form of 12.875% Senior Note due 2028 (included in Exhibit4.1 hereto). 
+ 
+ 
+ 
+ 
+ 99.1 
+ 
+ Press release of the Company, dated September 21, 2023, related to completion of the Notes offering. 
+ 
+ 
+ 
+ 
+ 104 
+ 
+ Cover Page Interactive Data File (embedded within the Inline XBRL document). 
+ 
+ 
+
+ 
+ 
+
+ 
+ SIGNATURES Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned thereunto duly authorized. 
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ MERCER INTERNATIONAL INC. 
+ 
+ 
+ 
+ 
+ 
+ 
+ Date: September 21, 2023 
+ 
+ 
+ 
+ By: 
+ 
+ /s/ Richard Short 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Richard Short 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Chief Financial Officer

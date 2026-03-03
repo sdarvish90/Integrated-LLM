@@ -1,0 +1,728 @@
+next20230712_8k.htm 
+ 
+ 
+ 
+ 
+ 
+ false 
+ 0001612720 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 0001612720 
+ 
+ 
+ 2023-07-12 
+ 2023-07-12 
+ 
+ 
+
+ 
+ 
+ 
+
+ &#xa0; 
+
+ UNITED STATES 
+ SECURITIES AND EXCHANGE COMMISSION 
+ WASHINGTON, D.C. 20549 
+
+ &#xa0; 
+
+ 
+ &#xa0; 
+
+ FORM 8-K 
+ CURRENT REPORT 
+
+ &#xa0; 
+
+ PURSUANT TO SECTION 13 OR 15(D) OF THE 
+ SECURITIES EXCHANGE ACT OF 1934 
+
+ &#xa0; 
+
+ Date of Report (Date of earliest event reported): July 12, 2023 
+
+ &#xa0; 
+
+ NEXTDECADE CORPORATION 
+(Exact Name of Registrant as Specified in Charter) 
+
+ 
+
+ 
+ &#xa0; 
+ &#xa0; 
+ &#xa0; 
+ 
+ 
+ 
+ Delaware 
+ 
+ 
+ 001-36842 
+ 
+ 
+ 46-5723951 
+ 
+ 
+ 
+ 
+ (State or Other Jurisdiction of Incorporation) 
+ 
+ 
+ (Commission File Number) 
+ 
+ 
+ (IRS Employer Identification No.) 
+ 
+ 
+
+ 
+
+ &#xa0; 
+
+ 1000 Louisiana Street, Suite 3900 , Houston , Texas 77002 
+(Address of Principal Executive Offices) (Zip Code) 
+
+ &#xa0; 
+
+ ( 713 ) 574-1880 
+(Registrants Telephone Number, Including Area Code) 
+
+ &#xa0; 
+
+ N/A 
+
+ (Former Name or Former Address, if Changed Since Last Report) 
+
+ &#xa0; 
+
+ Check the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions (see General Instruction A.2. below): 
+
+ 
+
+ 
+ &#xa0; 
+ &#xa0; 
+ &#xa0; 
+ 
+ 
+ &#xa0; 
+ 
+ 
+ 
+ 
+ Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425) 
+ 
+ 
+ 
+ &#xa0; 
+ &#xa0; 
+ &#xa0; 
+ 
+ 
+ &#xa0; 
+ 
+ 
+ 
+ 
+ Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12) 
+ 
+ 
+ 
+ &#xa0; 
+ &#xa0; 
+ &#xa0; 
+ 
+ 
+ &#xa0; 
+ 
+ 
+ 
+ 
+ Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b)) 
+ 
+ 
+ 
+ &#xa0; 
+ &#xa0; 
+ &#xa0; 
+ 
+ 
+ &#xa0; 
+ 
+ 
+ 
+ 
+ Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e 4(c)) 
+ 
+ 
+
+ 
+
+ &#xa0; 
+
+ Securities registered pursuant to Section 12(b) of the Act: 
+
+ 
+
+ 
+ &#xa0; 
+ &#xa0; 
+ &#xa0; 
+ &#xa0; 
+ &#xa0; 
+ 
+ 
+ 
+ Title of each class: 
+ 
+ &#xa0; 
+ 
+ Trading Symbol 
+ 
+ &#xa0; 
+ 
+ Name of each exchange on which registered: 
+ 
+ 
+ 
+ 
+ Common Stock , $0.0001 par value 
+ 
+ &#xa0; 
+ 
+ NEXT 
+ 
+ &#xa0; 
+ 
+ The Nasdaq Stock Market LLC 
+ 
+ 
+
+ 
+
+ &#xa0; 
+
+ Indicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (230.405 of this chapter) or Rule 12b-2 of the Securities Exchange Act of 1934 (240.12b-2 of this chapter). 
+
+ &#xa0; 
+
+ Emerging growth company 
+
+ &#xa0; 
+
+ If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. 
+
+ &#xa0; 
+
+ 
+ &#xa0; 
+
+ 
+ &#xa0; 
+ 
+
+ &#xa0; 
+
+ Item 1.01. Entry into a Material Definitive Agreement. 
+
+ &#xa0; 
+
+ RGLNG FINANCING DOCUMENTS 
+
+ &#xa0; 
+
+ On July 12, 2023 (the FID Date ), Rio Grande LNG, LLC, a Texas limited liability company ( RGLNG ) and an indirect subsidiary of NextDecade Corporation ( NextDecade or the Company ), entered into the P1 Common Terms Agreement, the P1 Equity Contribution Agreement, the P1 Collateral and Intercreditor Agreement, the CD Credit Agreement, the TCF Credit Agreement, the Indenture, the Notes and the Note Purchase Agreement, each as further described below (each, as defined below, and collectively, together with each agreement governing future Senior Secured Debt, the Senior Secured Debt Instruments ). RGLNG also entered into other related security documents described below. The Senior Secured Debt Instruments and certain secured hedge agreements rank pari passu in respect of the collateral and in right of payments, as further described below. Senior Secured Debt as used herein shall mean all: (a)&#xa0;senior loans and indebtedness incurred under the CD Credit Agreement, the TCF Credit Agreement and the Notes issued pursuant to the Indenture and the Note Purchase Agreement; (b)&#xa0;Working Capital Debt; (c)&#xa0;Replacement Debt; (d)&#xa0;Relevering Debt; and (e)&#xa0;Supplemental Debt, each as defined and further described below. The Senior Secured Debt Holder Representatives shall mean (and will include) the Trustee, the P1 Administrative Agent under the CD Credit Agreement, the TCF Administrative Agent under the TCF Credit Agreement (each, as defined below), and any relevant representative of the holders of such Senior Secured Debt under any future Senior Secured Debt Instrument. 
+
+ &#xa0; 
+
+ P1 Common Terms Agreement 
+
+ &#xa0; 
+
+ On the FID Date, RGLNG entered into a Common Terms Agreement (the P1 Common Terms Agreement ) with MUFG Bank, Ltd., as the P1 intercreditor agent (in such capacity, the P1 Intercreditor Agent ), and each current Senior Secured Debt Holder Representative. The P1 Common Terms Agreement sets out certain provisions regarding, among other things: (a)&#xa0;common representations and warranties of RGLNG; (b)&#xa0;common covenants of RGLNG; and (c)&#xa0;common events of default under the Senior Secured Debt Instruments. Any Senior Secured Debt Holder Representative will be required to accede to the P1 Common Terms Agreement. 
+
+ &#xa0; 
+
+ The P1 Common Terms Agreement also provides restrictions and requirements for RGLNGs incurrence of additional Senior Secured Debt, and allows for (subject to any additional requirements under other Senior Secured Debt Instruments) the incurrence of working capital debt, the proceeds of which shall be permitted to be used solely for working capital purposes related to the Rio Grande Facility (as defined below) (the Working Capital Debt ), replacement debt, the proceeds of which, among other things, may be used to refinance the funded or unfunded commitments of existing Senior Secured Debt (other than Working Capital Debt) (the Replacement Debt ), relevering debt, the proceeds of which, among other things, may be used to fund project costs, fund any reserves and to the extent outstanding, fund distributions to the Pledgor (as defined below) (the Relevering Debt ), and supplemental debt, the proceeds of which, among other things, may be used to finance project costs and permitted capital improvements and for other purposes further specified in the P1 Common Terms Agreement (the Supplemental Debt ). 
+
+ &#xa0; 
+
+ P1 Collateral and Intercreditor Agreement 
+
+ &#xa0; 
+
+ On the FID Date, RGLNG entered into a Collateral and Intercreditor Agreement (the P1 Collateral and Intercreditor Agreement ) with the P1 Intercreditor Agent, Mizuho Bank (USA), as the P1 collateral agent (the P1 Collateral Agent ), and each current Senior Secured Debt Holder Representative. The P1 Collateral and Intercreditor Agreement sets forth the intercreditor arrangements that govern the relationships among the holders of the various classes of Senior Secured Debt. In addition, each class of Senior Secured Debt Holders generally is subject to voting arrangements with respect to amendments, supplements, and waivers by such class. The P1 Collateral and Intercreditor Agreement also includes various provisions regarding the collateral granted to all holders of Senior Secured Debt and the application of proceeds thereof prior to and upon the exercise of remedies by the holders of&#xa0;Senior Secured Debt. Any future Senior Secured Debt Holder Representative will be required to accede to the P1 Collateral and Intercreditor Agreement. 
+
+ &#xa0; 
+
+ Security Documents 
+
+ &#xa0; 
+
+ Under the Pledge Agreement dated as of the FID Date, between Rio Grande LNG Holdings, LLC, a Delaware limited liability company (the Pledgor ), and the P1 Collateral Agent, the Pledgor has granted a security interest in favor of the P1 Collateral Agent for the benefit of the holders of the Senior Secured Debt&#xa0;in the limited liability company interest in RGLNG held by the Pledgor. 
+
+ &#xa0; 
+
+ On the FID Date, RGLNG also granted a security interest in favor of the P1 Collateral Agent for the benefit of the holders of the Senior Secured Debt, in substantially all of RGLNGs real and personal property, as well as RGLNGs equity interests in RGLNGs subsidiaries, pursuant to a security agreement and a deed of trust. 
+
+ &#xa0; 
+
+ Accounts Agreement 
+
+ &#xa0; 
+
+ On the FID Date, RGLNG entered into an Accounts Agreement (the P1 Accounts Agreement ) with the P1 Collateral Agent, and JPMorgan Chase Bank, N.A., as the P1 accounts bank. Prior to the project completion date, the P1 Accounts Agreement provides for the funding of engineering, procurement and construction ( EPC ) and similar costs in respect of the first three liquefaction trains and related common facilities (the P1 Train Facilities ) of the multi-plant integrated natural gas and liquefaction and liquefied natural gas ( LNG ) export terminal facility to be located at the Port of Brownsville in southern Texas (the Rio Grande Facility ) through a customary construction account. Following the project completion date, RGLNGs revenues will be applied according to a customary waterfall under the P1 Accounts Agreement. 
+
+ &#xa0; 
+
+ CLOSING DATE SENIOR SECURED DEBT INSTRUMENTS 
+
+ &#xa0; 
+
+ CD Credit Agreement 
+
+ &#xa0; 
+
+ On the FID Date, RGLNG entered into a Credit Agreement (the CD Credit Agreement ) by and among RGLNG, as borrower, MUFG Bank, Ltd., as the administrative agent (in such capacity, the P1 Administrative Agent ), the P1 Collateral Agent, in its capacity as the P1 collateral agent and as the revolving LC issuing bank, and the senior lenders party thereto. The CD Credit Agreement provides for the following facilities: 
+
+ &#xa0; 
+
+ 
+
+ 
+ &#xa0; 
+ 
+ 
+ 
+ 
+ a construction/term loan facility (the CD Construction/Term Loans ) in an amount up to $10.3 billion available to RGLNG in three tranches solely to finance partially the design, engineering, development, procurement, construction, installation, testing, completion, ownership, operation and maintenance of the P1 Train Facilities (the Development ), to pay certain fees and expenses associated with the CD Credit Agreement and the loans made thereunder, and to fund the debt service reserve account relating thereto, up to an amount equal to six months of scheduled debt service; and 
+ 
+ 
+
+ 
+
+ &#xa0; 
+
+ 
+
+ 
+ &#xa0; 
+ 
+ 
+ 
+ 
+ a revolving loan and letter of credit facility (the CD Revolving Loans ) in an amount up to $500 million available to RGLNG to finance certain working capital requirements of RGLNG. 
+ 
+ 
+
+ 
+
+ &#xa0; 
+
+ 
+ 
+ 
+ &#xa0; 
+ 
+ 
+
+ 
+ 
+ 
+ &#xa0; 
+ 
+ 
+ 
+
+ &#xa0; 
+
+ The principal of the CD Construction/Term Loans is repayable&#xa0;in quarterly installments payable each March 31, June 30, September 30, and December 31, beginning on the first such quarterly payment date&#xa0;to occur on or after the date that is ninety days following the project completion date (the Initial Principal Payment Date ). 
+
+ &#xa0; 
+
+ From and after the project completion date, the CD Revolving Loans (other than revolving loans deemed made in connection with letter of credit draws) must be reduced to $0 for a period of five consecutive business days at least once every calendar year. The principal amount of all CD Revolving Loans and any unreimbursed revolving letter of credit disbursements must be paid on the credit agreement maturity date, which is seven years from the closing date of the CD Credit Agreement. 
+
+ &#xa0; 
+
+ RGLNG may make borrowings based on SOFR plus the applicable margin (2.25%) or the base rate plus the applicable margin (1.25%). RGLNG is also required to pay commitment fees on the undrawn amounts (and unused letter of credit commitments) under the CD Construction/Term Loans and the CD Revolving Loans. 
+
+ &#xa0; 
+
+ The CD Credit Agreement includes certain covenants and events of default that are supplemental to the covenants and events of default set forth in the P1 Common Terms Agreement and that are customary for project financing facilities of this type, including a requirement that interest rates for a minimum of 75% of the projected principal amount of Senior Secured Debt outstanding be hedged or have fixed interest rates. In addition, certain covenants and events of default in the CD Credit Agreement are more restrictive than the corresponding covenants and events of default in the P1 Common Terms Agreement, including covenants limiting RGLNGs ability to incur additional indebtedness, make certain investments or pay dividends (which are subject to customary conditions set out in the CD Credit Agreement and certain related financing documents) or distributions on equity interests or subordinated indebtedness or purchase, redeem, or retire equity interests, sell or transfer assets, incur liens, dissolve, liquidate, consolidate, merge, sell, or lease all or substantially all of RGLNGs assets or enter into certain LNG sales contracts. The CD Credit Agreement includes a requirement for RGLNG to maintain a historical debt service coverage ratio of at least 1.10:1.00 at the end of each fiscal quarter starting from the Initial Principal Payment Date, a default of which may be cured with equity contributions. As a result, there may be breaches of covenants and other events of default under the CD Credit Agreement that would not be breaches of covenants or events of default with respect to the Notes (other than by operation of cross default provisions). 
+
+ &#xa0; 
+
+ The CD Credit Agreement provides for mandatory prepayments under customary circumstances, including mandatory prepayments with the proceeds of certain insurance payments and condemnation awards, upon receipt of certain proceeds from asset sales, upon receipt of performance liquidated damages under certain construction contracts, or upon termination of certain LNG sale and purchase agreements. 
+
+ &#xa0; 
+
+ Upon an event of default under the CD Credit Agreement (and after all applicable cure periods have elapsed), the P1 Administrative Agent may, or upon the direction of the required lenders will, accelerate all or any portion of the senior loans and other obligations due and payable under the CD Credit Agreement or terminate all outstanding loan commitments under the CD Credit Agreement, and, with respect to letters of credit outstanding at the time of such event of default, require RGLNG to cash collateralize such letters of credit. Such acceleration or termination is automatic following an event of default under the CD Credit Agreement relating to bankruptcy or insolvency. 
+
+ &#xa0; 
+
+ TCF Credit Agreement 
+
+ &#xa0; 
+
+ On the FID Date, RGLNG entered into a TCF Credit Agreement (the TCF Credit Agreement ) by and among RGLNG, as borrower, TotalEnergies Holdings SAS ( Total Holdings ) (solely for limited purposes in connection with the credit support described below), MUFG Bank, Ltd., as the administrative agent (in such capacity, the TCF Administrative Agent ), the P1 Collateral Agent, and the senior lenders party thereto. The TCF Credit Agreement provides for a two-tranche construction/term loan facility (the TCF Construction/Term Loan ) in an aggregate amount up to $800 million available to RGLNG&#xa0;solely to finance partially the Development, to pay certain fees and expenses associated with the TCF Credit Agreement and the loans made thereunder, and to fund the debt service reserve account relating thereto, up to an amount equal to six months of scheduled debt service. 
+
+ &#xa0; 
+
+ Total Holdings agreed to provide contingent credit support&#xa0;to the lenders under the TCF Credit Agreement pursuant to, and subject to the terms and conditions of,&#xa0;a support agreement entered into at closing, pursuant to which Total Holdings agreed that it will pay past due amounts owing from RGLNG under the TCF Credit Agreement upon demand. 
+
+ &#xa0; 
+
+ The principal of the TCF Construction/Term Loan is repayable&#xa0;in quarterly installments payable each March 31, June 30, September 30, and December 31, beginning on the first such quarterly payment date&#xa0;to occur on or after the date that is ninety days following the project completion date. 
+
+ &#xa0; 
+
+ RGLNG may make borrowings based on SOFR plus the applicable margin (2.25%) or the base rate plus the applicable margin (1.25%). RGLNG is also required to pay commitment fees on the undrawn amounts under the TCF Construction/Term Loan. 
+
+ &#xa0; 
+
+ The TCF Credit Agreement includes certain covenants and events of default that are supplemental to the covenants and events of default set forth in the P1 Common Terms Agreement and that are substantially similar to the covenants and events of default in the CD Credit Agreement. 
+
+ &#xa0; 
+
+ The TCF Credit Agreement provides for mandatory prepayments under customary circumstances that are substantially similar to those in the CD Credit Agreement. 
+
+ &#xa0; 
+
+ Upon an event of default under the TCF Credit Agreement (and after all applicable cure periods have elapsed), the TCF Administrative Agent may, or upon the direction of the required lenders will, accelerate all or any portion of the senior loans and other obligations due and payable under the TCF Credit Agreement or terminate all outstanding loan commitments under the TCF Credit Agreement. Such acceleration or termination is automatic following an event of default under the TCF Credit Agreement relating to bankruptcy or insolvency. 
+
+ &#xa0; 
+
+ Indenture 
+
+ &#xa0; 
+
+ On the FID Date, RGLNG entered into a Note Purchase Agreement (the Note Purchase Agreement ) with the purchasers named therein (the Purchasers ), to issue and sell to the Purchasers $700 million&#xa0;aggregate principal amount of its 6.67% Senior Secured Notes due 2033 (the Notes ). The Notes were issued at par. 
+
+ &#xa0; 
+
+ On the FID Date, RGLNG closed the sale of the Notes pursuant to the Note Purchase Agreement. The sale of the Notes was not registered under the Securities Act of 1933 (the Securities Act ), and the Notes were sold in a private placement in reliance on Section&#xa0;4(a)(2) of the Securities Act. The Notes have not been and will not be registered under the Securities Act or any state securities laws and may not be offered or sold in the United States absent registration or an applicable exemption from the registration requirements of the Securities Act and applicable state laws. 
+
+ &#xa0; 
+
+ 
+ 
+ 
+ &#xa0; 
+ 
+ 
+
+ 
+ 
+ 
+ &#xa0; 
+ 
+ 
+ 
+
+ &#xa0; 
+
+ The Notes were issued on the FID Date pursuant to the indenture, dated as of the FID Date (the Indenture ), between RGLNG and Wilmington Trust, National Association, as Trustee under the Indenture (the Trustee ). 
+
+ &#xa0; 
+
+ Under the terms of the Indenture, the Notes will mature on July 7, 2033 and will accrue interest from July 7, 2023 at a rate equal to 6.67% per annum on the outstanding principal amount, with such interest payable semi-annually, in cash in arrears, on March 30 and September 30 of each year, beginning on September 30, 2023 (or the next succeeding business day).&#xa0; 
+
+ &#xa0; 
+
+ The Notes are senior secured obligations of RGLNG and rank senior in right of payment to any and all of RGLNGs future indebtedness that is subordinated in right of payment to the Notes and pari passu with all of RGLNGs existing and future indebtedness (including all obligations under the other Senior Secured Debt Instruments) that is senior and secured by the same collateral securing the Notes. The Notes are effectively senior to all of RGLNGs senior indebtedness that is unsecured to the extent of the value of the assets constituting the collateral securing the Notes. 
+
+ &#xa0; 
+
+ At any time or from time to time prior to April 7, 2033, RGLNG may redeem all or a part of the Notes, at a redemption price equal to the make-whole price set forth in the Indenture, plus accrued and unpaid interest, if any, to, but excluding, the date of redemption. RGLNG also may, at any time on or after April 7, 2033, redeem the Notes, in whole or in part, at a redemption price equal to 100% of the principal amount of the Notes to be redeemed, plus accrued and unpaid interest, if any, to, but excluding, the date of redemption. 
+
+ &#xa0; 
+
+ The Indenture also contains customary terms and events of default and certain covenants that, among other things, limit RGLNGs ability to incur additional indebtedness, make certain investments or pay dividends or distributions on equity interests or subordinated indebtedness or purchase, redeem, or retire equity interests, sell or transfer assets, incur liens, dissolve, liquidate, consolidate, merge, or sell or lease all or substantially all of RGLNGs assets. The Indenture further requires RGLNG to submit certain reports and information to the Trustee and holders of the Notes, maintain certain LNG offtake agreements, and maintain a debt service coverage ratio of at least 1.10:1.00 at the end of each fiscal quarter starting from the Initial Principal Payment Date. With respect to certain events, including a change of control event and receipt of certain proceeds from asset sales, events of loss or liquidated damages, the Indenture requires RGLNG to make an offer to repurchase the Notes at 101% (with respect to a change of control event) or par (with respect to each other event), in each case&#xa0;on the terms specified in the Indenture. The Indenture covenants are subject to a number of important limitations and exceptions, including the terms and covenants contained in the P1 Common Terms Agreement. 
+
+ &#xa0; 
+
+ JOINT VENTURE AGREEMENT 
+
+ &#xa0; 
+
+ On the FID Date, Rio Grande LNG Intermediate Super Holdings, LLC, a Delaware limited liability company and an indirect subsidiary of Sponsor (as defined below) (the ND Member ), entered into that certain amended and restated limited liability company agreement of Rio Grande LNG Intermediate Holdings, LLC, a Delaware limited liability company and an indirect subsidiary of Sponsor ( JVCo ),&#xa0;(the JV Agreement ) with Global LNG North America Corp., a subsidiary of TotalEnergies SE (the TTE Member ), GIP V Velocity Aggregator, L.P., a Delaware limited partnership (the Financial Investor Member and, collectively with the ND Member and the TTE Member, the JV Members ), and, solely for the purposes set forth therein, the Financial Investor Member Owners (as defined below) party thereto. JVCo indirectly wholly owns RGLNG, which will own the P1 Train Facilities. 
+
+ &#xa0; 
+
+ Except for the Member Reserved Matters (as defined below), the affairs of JVCo will otherwise be managed by a board of managers (the JVCo Board ). The JVCo Board will be composed of up to four managers appointed by the ND Member (the Class A Managers ), including one Class A Manager designated by the TTE&#xa0;Member, and managers appointed by members holding a minimum percentage of the Class B limited liability company interests in JVCo (the Class B Managers ). Approval of any matter by the JVCo Board will require the consent of a majority of the Class A Managers voting on the matter and Class B Managers representing a majority of the Class B limited liability company interests in JVCo for such matter, as applicable; provided that (i) certain specified qualified matters, supermajority matters, and unanimous matters are reserved to the approval of the members of JVCo (the " Member Reserved Matters" ) holding a requisite percentage of the applicable classes of limited liability company interests in JVCo, and (ii) related party transactions will be subject to approval in accordance with the procedures specified in the JV Agreement. 
+
+ &#xa0; 
+
+ The JV Agreement provides for the members of JVCo to make capital contributions to fund a portion of the Development. The ND Member will indemnify the Financial Investor Member for its proportionate share of funding certain cost overrun scenarios. Pursuant to the JV Agreement, the ND Member will be entitled to receive up to approximately 20.8% of distributions of available cash of JVCo to its members during operations; provided, that a majority of the JVCo distributions to which the ND Member is otherwise entitled will be paid for any distribution period only after the Financial Investor Member receives an agreed distribution threshold in respect of such distribution period and certain other deficit payments from prior distribution periods, if any, are made. Any such shortfall in distributions that the ND Member would otherwise have been entitled to will accrue as an arrearage to be paid out in future periods in which JVCo meets the applicable target distribution threshold for the Financial Investor Member. 
+
+ &#xa0; 
+
+ The JV Agreement contains certain restrictions on the ability of the members to transfer their membership interests and other rights and obligations of the members of JVCo in their capacity as such. 
+
+ &#xa0; 
+
+ Item 2.03. Creation of a Direct Financial Obligation or an Obligation under an Off-Balance Sheet Arrangement of a Registrant. 
+
+ &#xa0; 
+
+ The information included in the sections labeled RGLNG FINANCING DOCUMENTS and CLOSING DATE SENIOR SECURED DEBT INSTRUMENTS in Item 1.01 of this Current Report is incorporated by reference into this Item 2.03. 
+
+ &#xa0; 
+
+ Item 7.01 Regulation FD Disclosure. 
+
+ &#xa0; 
+
+ The information in this Item 7.01 of this Current Report is being furnished pursuant to Item 7.01 of Form 8-K and, according to general instruction B.2. thereunder, the information in this Item 7.01 of this Current Report shall not be deemed filed for the purposes of Section 18 of the Securities Exchange Act of 1934 (the Exchange Act ) or otherwise subject to the liabilities of that Section. The information in this Item 7.01 of this Current Report shall not be incorporated by reference into any registration statement pursuant to the Securities Act or the Exchange Act. 
+
+ &#xa0; 
+
+ On the FID Date, NextDecade issued a press release regarding NextDecades positive final investment decision of the P1 Train Facilities and the transactions described above under Item 1.01 of this Current Report. A copy of the press release is attached hereto as Exhibit 99.1 . 
+
+ &#xa0; 
+
+ On the FID Date, NextDecade posted an updated corporate investor presentation on its website at www.next-decade.com. 
+
+ &#xa0; 
+
+ 
+ 
+ 
+ &#xa0; 
+ 
+ 
+
+ 
+ 
+ 
+ &#xa0; 
+ 
+ 
+ 
+
+ &#xa0; 
+
+ Item 8.01 Other Events. 
+
+ &#xa0; 
+
+ ND SUBSCRIPTION AGREEMENT 
+
+ &#xa0; 
+
+ On the FID Date, NextDecade, through its wholly owned subsidiary NextDecade LNG, LLC, a Delaware limited liability company ( Sponsor ), together with the ND Member and JVCo, entered into a Subscription Agreement (the ND Subscription Agreement ) whereby the ND Member committed to make (or is deemed to have made) aggregate cash contributions of approximately $283 million, including approximately $125 million of pre-final investment decision investment, to finance a portion of the Development in exchange for the issuance of Class A limited liability company interests of JVCo and admission as a member of JVCo. NextDecade anticipates funding the remaining portion of the ND Members capital commitment with a portion of the proceeds of the sales of NextDecade common stock to the TTE Member, the first tranche of which was completed on June 14, 2023, the second tranche of which is expected to be completed following the conversion of the Convertible Preferred Stock (as defined below), and the third tranche of which is expected to be completed following and subject to NextDecade stockholder approval, as described below and as further described in NextDecades Current Report on Form 8-K filed with the Securities and Exchange Commission on June 14, 2023 (the Prior 8-K ). 
+
+ &#xa0; 
+
+ The ND Subscription Agreement contains certain customary representations, warranties, covenants and indemnities. In connection with executing the ND Subscription Agreement, the ND Members initial capital contributions were made to JVCo as set forth below. 
+
+ &#xa0; 
+
+ INVESTOR SUBSCRIPTION AGREEMENTS 
+
+ &#xa0; 
+
+ On the FID Date, NextDecade, through Sponsor, together with the ND Member and JVCo, entered into Investor Subscription Agreements (each, an Investor Subscription Agreement ) with (i) the TTE Member and (ii) the Financial Investor Member, together, and solely for the purposes set forth therein, with GIP V Velocity Acquisition Partners, L.P., a Delaware limited partnership ( GIP Acquisition Partners ), and GIM Participation Velocity, L.P., a Delaware limited partnership ( GIM and, together with GIP Acquisition Partners, the GIP Member Owner ), Devonshire Investment Pte. Ltd., a Singapore private company (the GIC Member Owner ), and MIC TI Holding Company 2 RSC Limited, an ADGM Restricted Scope Company (the MIC Member Owner and, together with the GIP Member Owner and the GIC Member Owner, the Financial Investor Member Owners ), whereby the TTE Member and the Financial Investor Member committed to make aggregate cash contributions of up to approximately $5.9 billion (the Committed Amount ) to finance the development of the P1 Train Facilities in exchange for the issuance of Class B limited liability company interests of JVCo and admission as members of JVCo. This aggregate commitment includes $117 million that TTE Member agreed to fund on behalf of the ND Member, which is in addition to the contributions pursuant to the ND Subscription Agreement described above. Approximately $0.3 billion of the Committed Amount has been funded through the date of this Current Report with the remaining amount to be funded pursuant to the terms of the JV Agreement. 
+
+ &#xa0; 
+
+ Each Investor Subscription Agreement contains certain customary representations, warranties and covenants. Pursuant to the Investor Subscription Agreements, and subject to certain limitations set forth therein, (i) Sponsor and the ND Member agreed to indemnify the applicable JV Members (or, in the case of the Financial Investor Member, the Financial Investor Member Owners) from and against losses resulting from any breaches by Sponsor or the ND Member of certain representations, warranties, and covenants under the Investor Subscription Agreements; and (ii) the applicable JV Members (or, in the case of the Financial Investor Member, the Financial Investor Member Owners) and certain related parties have agreed to severally indemnify Sponsor and the ND Member from any losses resulting from the breach of certain fundamental representations and warranties by such applicable JV Member (and, in the case of the Financial Investor Member, the Financial Investor Member Owners) In connection with executing their respective Investor Subscription Agreements, the JV Members will each make certain initial capital contributions to JVCo. 
+
+ &#xa0; 
+
+ FINANCIAL INVESTOR LETTER AGREEMENT 
+
+ &#xa0; 
+
+ On the FID Date, Sponsor and NEXT Carbon Solutions, LLC, a Texas limited liability company ( NEXT Carbon ), entered into a letter agreement with the Financial Investor Member (the Financial Investor Letter Agreement ) and other signatories thereto, pursuant to which the Financial Investor Member will have a right, but not the obligation, to (i) make equity investments in the fourth liquefication train ( Train 4 ) project at the Rio Grande Facility up to 50% of the cash equity required to take a final investment decision on the development of such project, as follows: (A) funding of up to 10% of the required cash equity in exchange for common units in the relevant entity and (B) funding of up to 40% of the required cash equity in exchange for units in the relevant entity that have the same economic rights as the common units provide for the holders thereof until the Financial Investor Member achieves certain return criteria, and thereafter 50% of such economic rights would be provided to Sponsor; (ii) make equity investments in the fifth liquefication train ( Train 5 ) project of the Rio Grande Facility up to 50% of the cash equity required to take a final investment decision on the development of such project, as follows: (A) funding of up to 10% of the required cash equity in exchange for common units in the relevant entity and (B) funding of up to 40% of the required cash equity in exchange for units in the relevant entity that have the same economic rights as the common units provide for the holders thereof until the Financial Investor Member achieves certain return criteria, and thereafter 50% of such economic rights would be provided to Sponsor; and (iii) purchase a percentage, proportionate to its interest in the corresponding train or trains, of cash equity required to take a final investment decision on the development of any carbon capture and storage project deployed at or in connection with the first five liquefaction trains of the Rio Grande Facility (the Rio Grande CCS Project ), in exchange for units in the entity that raises project equity capital and directly or indirectly owns the Rio Grande CCS Project (the CCS Owner ) that have the same economic rights as the class of units issued to the Financial Investor Member in the relevant entity with respect to the Phase 1 project, the Train 4 project or the Train 5 project, as applicable, at which such Rio Grande CCS Project will be deployed. 
+
+ &#xa0; 
+
+ TTE PURCHASER RIGHTS AGREEMENT 
+
+ &#xa0; 
+
+ As previously disclosed in the Prior 8-K, the TTE Member entered into a purchaser rights agreement (the Purchaser Rights Agreement ) that affords the TTE Member a right, but not the obligation, (i) to purchase up to 1.5 million metric tonnes of LNG per year for twenty years supplied from each of Train 4 and Train 5 in connection with a final investment decision on such liquefaction trains (the Train 4 Option and the Train 5 Option , respectively), (ii) provided that the Train 4 Option is exercised, to participate in the funding of 10% of the equity capital required to take a final investment decision on the development of Train 4, (iii) provided that the Train 5 Option is exercised, to participate in the funding of 10% of the equity capital required to take a final investment decision on the development of Train 5, and (iv) to participate in the funding of any Rio Grande CCS Project deployed at or in connection with Phase 1 of the Rio Grande Facility in the same proportion as the TTE Members equity investment in JVCo, and to participate in the funding of 10% of any carbon capture and storage project deployed at or in connection with Train 4 or Train 5 to the extent the TTE Member has participated in the funding of the equity capital of the applicable liquefication train. 
+
+ &#xa0; 
+
+ If the TTE Member exercises its rights in respect of Train 4, Train 5 or a CCS Project in accordance with the Purchaser Rights Agreement, the TTE Member may elect for such investments to be made on the same terms and conditions as the Financial Investor Members equity investment in the same project, as set forth in the applicable Letter Agreement. 
+
+ &#xa0; 
+
+ 
+ 
+ 
+ &#xa0; 
+ 
+ 
+
+ 
+ 
+ 
+ &#xa0; 
+ 
+ 
+ 
+
+ &#xa0; 
+
+ TTE CONTRIBUTION SUPPORT 
+
+ &#xa0; 
+
+ The TTE Member and Total Holdings (together, the Contribution Support Parties ) are providing equity credit support in respect of the TTE Member's committed equity contributions and approximately $150 million of the ND Member's committed equity contributions, in each case,&#xa0;required to be made&#xa0;under the JV Agreement. The portion&#xa0;that relates to commitments of the ND Member is supported by a pledge of a portion of the limited liability company interests of JVCo held by the ND Member. The ND Members equity contribution commitments are expected to be funded by the proceeds of the sales of NextDecade common stock to the TTE Member, as described below and as further described in the Prior 8-K, if consummated, in which case the Contribution Support Parties equity credit support obligations will be reduced proportionately and the pledge of limited liability company interests will be released. 
+
+ &#xa0; 
+
+ P1 EQUITY CONTRIBUTION AGREEMENT 
+
+ &#xa0; 
+
+ On the FID Date, RGLNG, the Pledgor, the P1 Collateral Agent, and the P1 Intercreditor Agent entered into an Equity Contribution Agreement (the P1 Equity Contribution Agreement ), pursuant to which the Pledgor has agreed to make equity contributions to fund project costs. The obligations of the Pledgor under the P1 Equity Contribution Agreement will be at all times backstopped by any one or a combination of a guaranty from an acceptable guarantor, a letter of credit from a commercial bank, or cash collateral, in each case, subject to requirements set forth in the P1 Equity Contribution Agreement. 
+
+ &#xa0; 
+
+ FINAL INVESTMENT DECISION; BECHTEL NOTICE TO PROCEED 
+
+ &#xa0; 
+
+ In connection with the consummation of the transactions referred to in this Current Report, the board of directors of NextDecade approved a final investment decision with respect to the investment in the development, construction and operation of the P1 Train Facilities and issued a final notice to proceed to Bechtel Energy Inc. under the EPC agreements for the P1 Train Facilities. The final EPC lump-sum contract pricing for the P1 Train Facilities is approximately $11.96 billion at the FID Date. The commercial operation date for the first train of the P1 Train Facilities is expected to occur in 2027. 
+
+ &#xa0; 
+
+ CONVERSION OF PREFERRED STOCK 
+
+ &#xa0; 
+
+ The consummation of the transactions on the FID Date described in this Current Report constitute an FID Event as defined under the Certificates of Designations for NextDecades Series A Convertible Preferred Stock, Series B Convertible Preferred Stock and Series C Convertible Preferred Stock (collectively, the Convertible Preferred Stock ). Following the occurrence of the FID Event under such Certificates of Designations, the Convertible Preferred Stock will convert into approximately 59.5 million shares of NextDecade common stock on July 26, 2023. 
+
+ &#xa0; 
+
+ As described in greater detail in the Prior 8-K, the closing of the sale of 22,072,103 shares of NextDecade common stock to the TTE Member at a price of $4.9837 per share (the Tranche 2 Shares ) was conditioned upon, among other items, the conversion of the Convertible Preferred Stock following an FID Event and NextDecade having delivered to the TTE Member executed voting agreements (the Voting Agreements ) among it and certain of its stockholders relating to the issuance and sale of the additional shares of common stock (the Tranche 3 Shares ) that would result in the TTE Member owning 17.5% of NextDecades outstanding common stock. 
+
+ &#xa0; 
+
+ In connection with the transactions described in this Current Report, NextDecade entered into the Voting Agreements with stockholders beneficially owning approximately 56% of the shares of common stock to be outstanding after giving effect to the conversion of the Convertible Preferred Stock (excluding shares beneficially owned by the TTE Member), pursuant to which such stockholders have agreed to vote in favor of approving the issuance and sale of the Tranche 3 Shares. The closing of the Tranche 2 Shares is expected to close shortly after the conversion of the Convertible Preferred Stock. 
+
+ &#xa0; 
+
+ FORWARD-LOOKING STATEMENTS 
+
+ &#xa0; 
+
+ This Current Report includes forward-looking statements within the meaning of Section 27A of the Securities Act and Section 21E of the Exchange Act that are intended to be covered by the safe harbor created by those sections. Such forward-looking statements include, but may not be limited to, statements regarding the cost and timeline to completion of the P1 Train Facilities, cash distributions available to the ND Member and NextDecade, funding of capital contributions by NextDecade and the ND Member, the timing of completing the issuances and sales of common stock, the development of Train 4 and Train 5 at the Rio Grande Facility and the development of any Rio Grande CCS Project. Forward-looking statements are neither historical facts nor assurances of future performance. Instead, these forward-looking statements are based on managements current beliefs, expectations and assumptions and are subject to risks and uncertainties. Considering these risks, uncertainties and assumptions, the forward-looking statements regarding future events and circumstances discussed in this Current Report may not occur, and actual results could differ materially and adversely from those anticipated or implied in the forward-looking statements. You should not rely upon forward-looking statements as predictions of future events. The forward-looking statements included in this report speak only as of the date hereof and, except as required by law, NextDecade undertakes no obligation to update publicly or privately any forward-looking statements, whether written or oral, for any reason after the date of this report to conform these statements to new information, actual results or to changes in its expectations. 
+
+ &#xa0; 
+
+ Item 9.01. Financial Statements and Exhibits. 
+
+ &#xa0; 
+
+ (d) Exhibits. 
+
+ 
+
+ 
+ 
+ 99.1 
+ 
+ 
+ Press Release, dated July 12, 2023. 
+ 
+ 
+ 
+ 104 
+ Cover Page Interactive Data File (embedded within the Inline XBRL document) 
+ 
+
+ 
+
+ &#xa0; 
+
+ 
+ 
+ 
+ &#xa0; 
+ 
+ 
+
+ 
+ 
+ 
+ &#xa0; 
+ 
+ 
+ 
+
+ &#xa0; 
+
+ SIGNATURE 
+
+ &#xa0; 
+
+ Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized. 
+
+ &#xa0; 
+
+ Dated: July 12, 2023 
+
+ 
+
+ 
+ &#xa0; 
+ &#xa0; 
+ &#xa0; 
+ 
+ 
+ &#xa0; 
+ 
+ NEXTDECADE CORPORATION 
+ 
+ 
+ 
+ &#xa0; 
+ &#xa0; 
+ &#xa0; 
+ 
+ 
+ &#xa0; 
+ 
+ By: 
+ 
+ 
+ /s/ Vera de Gyarfas 
+ 
+ 
+ 
+ &#xa0; 
+ &#xa0; 
+ 
+ Name: Vera de Gyarfas 
+ 
+ 
+ 
+ &#xa0; 
+ &#xa0; 
+ 
+ Title: General Counsel 
+ 
+ 
+
+ 
+
+ &#xa0; 
+
+ 
+ 
+ 
+ &#xa0;

@@ -1,0 +1,1918 @@
+0001845437 
+ false 
+ --12-31 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 0001845437 
+ 
+ 
+ 2023-06-08 
+ 2023-06-08 
+ 
+ 
+ 
+ 
+ 0001845437 
+ 
+ NPWR:ClassCommonStockParValue0.0001PerShareMember 
+ 
+ 
+ 
+ 2023-06-08 
+ 2023-06-08 
+ 
+ 
+ 
+ 
+ 0001845437 
+ 
+ NPWR:WarrantsEachExercisableForOneShareOfClassCommonStockAtPriceOf11.50Member 
+ 
+ 
+ 
+ 2023-06-08 
+ 2023-06-08 
+ 
+ 
+ 
+ iso4217:USD 
+ 
+ 
+ xbrli:shares 
+ 
+ 
+ 
+ 
+ iso4217:USD 
+ 
+ 
+ xbrli:shares 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ UNITED
+STATES 
+SECURITIES AND EXCHANGE COMMISSION 
+Washington, D.C. 20549 
+
+ 
+
+ FORM
+ 8-K 
+
+ 
+
+ CURRENT
+REPORT 
+Pursuant to Section 13 or 15(d) of the Securities Exchange Act of 1934 
+
+ 
+
+ Date
+of report (Date of earliest event reported): June 8, 2023 
+
+ 
+
+ NET
+POWER INC. 
+ (Exact name of registrant as specified in its charter) 
+
+ 
+
+ 
+
+ 
+ 
+ Delaware 
+ 
+ 001-40503 
+ 
+ 98-1580612 
+ 
+ (State or other jurisdiction 
+of incorporation) 
+ 
+ (Commission File Number) 
+ 
+ (IRS Employer 
+Identification No.) 
+ 
+ 
+
+ 
+
+ 
+ 
+ 404 Hunt Street , Suite 410 
+ Durham , North Carolina 
+ 
+ 27701 
+ 
+ (Address of principal executive offices) 
+ 
+ (Zip Code) 
+ 
+ 
+
+ ( 919 )
+ 287-4750 
+ (Registrants telephone number,
+including area code) 
+
+ 
+
+ Rice
+Acquisition Corp. II 
+
+ 102
+East Main Street, Second Story 
+
+ Carnegie,
+Pennsylvania 15106 
+
+ (Former
+name or former address, if changed since last report) 
+
+ 
+
+ Check the
+appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any
+of the following provisions: 
+
+ 
+
+ 
+ Written
+ communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425) 
+ 
+ 
+
+ 
+ Soliciting
+ material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12) 
+ 
+ 
+
+ 
+ Pre-commencement
+ communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b)) 
+ 
+ 
+
+ 
+ Pre-commencement
+ communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c)) 
+
+ 
+
+ Securities
+registered pursuant to Section 12(b) of the Act: 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ Title of each class 
+ 
+ Trading
+ Symbol(s) 
+ 
+ Name
+ of each exchange on which registered 
+ 
+ Class A Common Stock, par value $0.0001 per share 
+ 
+ NPWR 
+ 
+ The New York Stock Exchange 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Warrants, each exercisable for one share of Class A Common Stock at a price of $11.50 
+ 
+ NPWR WS 
+ 
+ The New York Stock Exchange 
+ 
+ 
+
+ Indicate
+by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 ( 230.405
+of this chapter) or Rule 12b-2 of the Securities Exchange Act of 1934 ( 240.12b-2 of this chapter). 
+
+ 
+
+ Emerging
+growth company 
+
+ 
+
+ If an emerging
+growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any
+new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+
+ Introductory
+Note 
+
+ 
+
+ On
+June 8, 2023 (the Closing Date), the registrant consummated the previously announced business combination (the Closing)
+pursuant to the Business Combination Agreement, dated December 13, 2022 (as amended, the Business Combination Agreement),
+by and among Rice Acquisition Corp. II, a Cayman Islands exempted company (RONI), Rice Acquisition Holdings II LLC, a
+Cayman Islands exempted company and majority owned and controlled operating subsidiary of RONI (RONI Opco), Topo
+Buyer Co, LLC, a Delaware limited liability company and a direct, wholly owned subsidiary of RONI Opco (the Buyer), Topo
+Merger Sub, LLC, a Delaware limited liability company and a direct, wholly owned subsidiary of the Buyer (Merger Sub),
+and NET Power, LLC, a Delaware limited liability company. The transactions contemplated by the Business Combination Agreement are collectively
+referred to herein as the Business Combination. 
+
+ 
+
+ Immediately prior to the Closing, on June 8, 2023,
+as contemplated by the Business Combination Agreement, RONI became a Delaware corporation named NET Power Inc. (the Domestication),
+and (i) each issued and outstanding Class A ordinary share, par value $0.0001 per share, of RONI (the Class A Shares) was
+automatically converted, on a one-for-one basis, into a share of Class A common stock, par value $0.0001 per share (Class A Common
+Stock), of NET Power Inc., (ii) each issued and outstanding Class B ordinary share, par value $0.0001 per share, of RONI (the Class
+B Shares) was automatically converted, on a one-for-one basis, into a share of Class B common stock, par value $0.0001 per share
+(Class B Common Stock and, together with Class A Common Stock, the Common Stock), of NET Power Inc., and (iii)
+each issued and outstanding warrant of RONI (which was exercisable for a Class A Share) automatically converted into a warrant to purchase
+one share of Class A Common Stock (the NET Power Warrants). Immediately following the Domestication, RONI Opco became a
+Delaware limited liability company (the Opco Domestication and, together with the Domestication, the Domestications)
+and has been renamed NET Power Operations LLC (Opco). 
+ 
+
+ 
+
+ Following
+the Domestications, on June 8, 2023, pursuant to the Business Combination Agreement, Merger Sub merged with and into NET Power, LLC (the
+Merger), with NET Power, LLC surviving the Merger as a direct, wholly owned subsidiary of the Buyer. At the effective time
+of the Merger (the Effective Time), all of the equity interests of NET Power, LLC issued and outstanding immediately prior
+to the Merger (other than any such equity interests held in the treasury of NET Power, LLC or owned by any subsidiary of NET Power, LLC
+immediately prior to the Effective Time) were canceled and converted into the right to receive an aggregate of 137,192,563 Class A units
+of Opco (Opco Class A Units) and an equivalent number of shares of Class B Common Stock. 
+
+ 
+
+ Also
+on June 8, 2023, following the Domestication, the registrant consummated the previously announced issuance and sale of 54,044,995 shares
+of Class A Common Stock for aggregate consideration of $540,449,950 (the PIPE Financing) in private placements pursuant
+to subscription agreements entered into with certain qualified institutional buyers and accredited investors (the PIPE Investors). 
+
+ 
+
+ Prior
+to the extraordinary general meeting of RONI shareholders to approve the Business Combination and other related matters, holders of 21,195,224
+ Class A Shares sold in RONIs initial public offering properly exercised their right to have their shares redeemed for a
+pro rata portion of the trust account holding the proceeds from RONIs initial public offering, calculated as of two business days
+prior to the Closing. As a result, on June 8, 2023, prior to the Domestication, RONI redeemed 21,195,224 Class A Shares for $10.33 per
+share (the public share redemptions). 
+
+ 
+
+ As
+of the Closing Date, following the public share redemptions and the consummation of the PIPE Financing and the Merger, there were (i)
+67,352,271 shares of Class A Common Stock issued and outstanding, (ii) 144,817,563 shares of Class B Common Stock issued and outstanding,
+and (iii) 19,525,000 NET Power Warrants issued and outstanding (exercisable for 19,525,000 shares of Class A Common Stock). The Class
+A Common Stock and NET Power Warrants commenced trading on the New York Stock Exchange (the NYSE) under the symbols NPWR
+and NPWR WS, respectively, on June 9, 2023. 
+
+ 
+
+ 
+
+ 
+ 1 
+ 
+ 
+
+ 
+
+ The
+registrant has retained its up-C structure, whereby all of the equity interests in NET Power, LLC are held by the
+Buyer, all of the equity interests in the Buyer are held by Opco and the registrants only asset is its equity interests in
+Opco. Immediately following the Business Combination, the registrant held 67,352,271 Opco Class A Units, representing approximately
+32% of the total outstanding units of Opco (Opco Units). 
+
+ 
+
+ Unless
+the context otherwise requires, in this Current Report on Form 8-K, the registrant, the Company, we,
+us and our refer to RONI prior to the Closing and to NET Power Inc. and, where appropriate, its subsidiaries
+following the Closing. 
+
+ 
+
+ Item
+1.01 Entry into a Material Definitive Agreement. 
+
+ 
+
+ Stockholders
+Agreement 
+
+ 
+
+ On
+the Closing Date, as contemplated by the Business Combination Agreement, RONI, RONI Opco, Buyer, Rice Acquisition Sponsor II LLC, a Delaware
+limited liability company (Sponsor), and certain holders of NET Power, LLC equity interests prior to the Merger (the Legacy
+NET Power Holders) entered into the Stockholders Agreement, dated June 8, 2023 (the Stockholders Agreement).
+The Legacy NET Power Holders consist of OLCV NET Power, LLC, a Delaware limited liability company (OXY), Baker Hughes Energy
+Services LLC, a Delaware limited liability company (BHES), NPEH, LLC, a Delaware limited liability company (8 Rivers),
+and Constellation Energy Generation, LLC, a Pennsylvania limited liability company (Constellation), and their respective
+Permitted Transferees (as defined in the Stockholders Agreement). 
+
+ 
+
+ The
+Stockholders Agreement provides that, among other things, the board of directors of NET Power Inc. (the Board) will initially
+consist of 10 members and: 
+
+ 
+
+ 
+ the
+ holders of a majority of the Common Stock held by OXY or its Permitted Transferees will have
+ the right to designate three director nominees for appointment or election to Board (the
+ OXY Directors or each, an OXY Director); provided that (i)on
+ the first date after the Closing Date that OXY, together with its Permitted Transferees,
+ fails to hold at least 25% of the issued and outstanding voting interests of the Company,
+ the right of OXY to designate three director nominees shall cease, and the term of one then
+ current OXY Director shall thereupon automatically end, (ii)further, on the first date
+ after the Closing Date that OXY, together with its Permitted Transferees, fails to hold at
+ least 20% of the issued and outstanding voting interests of the Company, the right of OXY
+ to designate two OXY Directors shall cease, and the term of one then current OXY Director
+ shall thereupon automatically end, and (iii) further, on the first date after the Closing
+ Date that OXY, together with its Permitted Transferees, fails to hold at least 10% of the
+ issued and outstanding voting interests of the Company (the Third OXY Fall-Away Date),
+ the right of OXY to designate an OXY Director shall cease, and the term of the then current
+ OXY Director shall thereupon automatically end; 
+
+ 
+
+ 
+ the
+ holders of a majority of the Common Stock held by 8 Rivers or its Permitted Transferees will
+ have the right to designate one director nominee for appointment or election to the Board
+ (the 8 Rivers Director); provided that on the first date (the 8 Rivers
+ Fall-Away Date) after the Closing Date that (i)8 Rivers, together with its Permitted
+ Transferees, fails to hold at least 10% of the issued and outstanding voting interests of
+ the Company and (ii)8 Rivers Percentage Interest (as defined in the Stockholders
+ Agreement) represents less than 50% of its Initial Percentage Interest (as defined in the
+ Stockholders Agreement), the right of 8 Rivers to designate a director shall cease, and the
+ term of the then current 8 Rivers Director shall thereupon automatically end; 
+
+ 
+
+ 
+ the
+ holders of a majority of the Common Stock held by Constellation or its Permitted Transferees
+ will have the right to designate one director nominee, who shall be an independent director
+ for purposes of the applicable stock exchange listing standards, for appointment or election
+ to the Board (the Constellation Director); provided that on the first date
+ (the Constellation Fall-Away Date) after the Closing Date that (i)Constellation,
+ together with its Permitted Transferees, fails to hold at least 10% of the issued and outstanding
+ voting interests of the Company and (ii)Constellations Percentage Interest represents
+ less than 50% of its Initial Percentage Interest, the right of Constellation to designate
+ a director shall cease, and the term of the then current Constellation Director shall thereupon
+ automatically end; 
+
+ 
+
+ 
+
+ 
+ 2 
+ 
+ 
+
+ 
+
+ 
+ the
+ holders of a majority of the Common Stock held by Sponsor or its Permitted Transferees will
+ have the right to designate one director for appointment or election to the Board (the Sponsor
+ Director); provided that on the first date after the Closing Date that (i)Sponsor,
+ together with its Permitted Transferees, fails to hold at least 5% of the issued and outstanding
+ voting interests of the Company and (ii)Sponsors Percentage Interest represents
+ less than 50% of its Initial Percentage Interest, the right of Sponsor to designate a director
+ shall cease, and the term of the then current Sponsor Director shall thereupon automatically
+ end; 
+
+ 
+
+ 
+ the
+ Board will nominate the person then serving as the Chief Executive Officer of the Company
+ for appointment or election to the Board; and 
+
+ 
+
+ 
+ the
+ Board will nominate for appointment or election to the Board a minimum of three independent
+ directors (the Company Directors), and prior to the Third OXY Fall-Away Date,
+ the 8 Rivers Fall-Away Date and the Constellation Fall-Away Date, as applicable, the Board
+ will consult with OXY, 8 Rivers and Constellation, respectively, concerning the persons to
+ be designated by the Board as the Company Directors. 
+
+ 
+
+ As
+of the Closing Date, after consummation of the Business Combination, (i) Peter J. (Jeff) Bennett, Frederick A. Forthuber and Brad Pollack
+serve as the OXY Directors, (ii) Eunkyung Sung serves as the 8 Rivers Director, (iii) Carol Peterson serves as the Constellation Director,
+(iv) J. Kyle Derham serves as the Sponsor Director, (v) Daniel Joseph Rice, IV serves as the Companys Chief Executive Officer
+and as a member of the Board, and (vi) Ralph Alexander, Joseph T. Kelliher and Alejandra Veltmann serve as the Company Directors. 
+
+ 
+
+ Also,
+subject to the terms and conditions and with exceptions as set forth in the Stockholders Agreement, each Legacy NET Power Holder has
+agreed to the following lock-up restrictions: 
+
+ 
+
+ 
+ 33
+ 1 / 3 % of its equity interests in the Company and Opco (Company
+ Interests) that were received pursuant to the Business Combination Agreement as consideration
+ for equity interests in NET Power, LLC (or in the case of BHES, pursuant to the JDA (as defined
+ in the Business Combination Agreement)) (the Price-Based Lock-up Shares) may
+ not be transferred until after the three-year anniversary of the Closing Date; provided,
+ however, that if the last sale price of the Class A Common Stock on the principal exchange
+ on which such securities are then listed or quoted, for any 20 trading days within any 30
+ consecutive trading-day period commencing at least 15 days after the Closing, exceeds (i)
+ $12.00 per share, then one-third of the Price-Based Lock-up Shares will no longer be subject
+ to such lock-up restrictions, (ii) $14.00 per share, then an additional one-third of the
+ Price-Based Lock-up Shares will no longer be subject to such lock-up restrictions, and (iii)
+ $16.00 per share, then all of the Price-Based Lock-up Shares will no longer be subject to
+ such lock-up restrictions; and 
+
+ 
+
+ 
+ 66
+ 2 / 3 % of its Company Interests that were received pursuant to the Business
+ Combination Agreement as consideration for equity interests in NET Power, LLC (or in the
+ case of BHES, pursuant to the JDA) (the Time-Based Lock-up Shares) may not
+ be transferred until after the one-year anniversary of the Closing Date; provided, however,
+ that if the last sale price of the Class A Common Stock on the principal exchange on which
+ such securities are then listed or quoted, for any 20 trading days within any 30 consecutive
+ trading-day period commencing at least six months after the Closing Date, exceeds $12.00
+ per share, then the Time-Based Lock-up Shares will no longer be subject to such lock-up restrictions. 
+
+ 
+
+ Additionally,
+pursuant to the Stockholders Agreement, subject to the terms and conditions and with customary exceptions as set forth therein, the Legacy
+NET Power Holders were granted certain customary registration rights, including, among other things, piggyback registration
+rights that allow them to include their Registrable Securities (as defined in the Stockholders Agreement) in certain registrations initiated
+by the Company. Also, subject to the terms and conditions and with customary exceptions as set forth in the Stockholders Agreement, each
+Legacy NET Power Holder may request to sell all or any portion of its Registrable Securities in an underwritten offering, provided that
+the Company shall only be obligated to effect such an underwritten offering if the total offering price (before deduction of underwriting
+discounts and commissions) of the securities included therein is reasonably expected to exceed, in the aggregate, $25 million or if the
+request is with respect to all of the then outstanding Registrable Securities of such Legacy NET Power Holder. 
+
+ 
+
+ The
+foregoing description of the Stockholders Agreement is not complete and is qualified in its entirety by reference to the copy of the
+Stockholders Agreement filed as Exhibit 10.1 hereto, which is incorporated herein by reference. 
+
+ 
+
+ 
+
+ 
+ 3 
+ 
+ 
+
+ 
+
+ Amended
+and Restated Limited Liability Company Agreement 
+
+ 
+
+ On
+the Closing Date, Opcos existing limited liability company agreement was amended and restated (the Opco LLC Agreement)
+to, among other things, reflect the Business Combination. Pursuant to the Opco LLC Agreement, the Company serves as the sole managing
+member of Opco. The Opco LLC Agreement provides each member of Opco (other than the Company) the right to cause the Company to cause
+Opco to redeem all or a portion of such members Opco Units in exchange for an equal number of shares of Class A Common Stock or,
+at the Companys election under certain circumstances set forth therein, cash, in each case, subject to certain restrictions set
+forth therein. Upon redemption of any Opco Units, an equal number of shares of Class B Common Stock held by the redeeming member of Opco
+shall be canceled. 
+
+ 
+
+ The
+foregoing description of the Opco LLC Agreement is not complete and is qualified in its entirety by reference to the copy of the Opco
+LLC Agreement filed as Exhibit 10.2 hereto, which is incorporated herein by reference. 
+
+ 
+
+ Tax
+Receivable Agreement 
+
+ 
+
+ On
+the Closing Date, as contemplated by the Business Combination Agreement, NET Power Inc. and Opco entered into the Tax Receivable Agreement,
+dated June 8, 2023 (the Tax Receivable Agreement), with Opco unitholders who received Opco Units pursuant to the Business
+Combination Agreement as consideration for equity interests in NET Power, LLC (the TRA Unitholders) and the Agent (as defined
+therein). Pursuant to the Tax Receivable Agreement, the Company will be required to pay to the TRA Unitholders 75% of the tax savings
+that the Company realizes as a result of increases in tax basis in Opcos assets resulting from the future exchange of Opco Unitsfor
+ClassA Common Stock (or cash) pursuant to the Opco LLC Agreement, as well as certain other tax benefits, including tax benefits
+attributable to payments under the Tax Receivable Agreement. Nonpayment of the Companys obligations for a specified period may
+constitute a material breach of a material obligation under the Tax Receivable Agreement and therefore may accelerate payments due under
+the Tax Receivable Agreement resulting in a lump-sumpayment, which may be substantial. 
+
+ 
+
+ The
+term of the Tax Receivable Agreement will continue until all such tax benefits have been utilized or expired, unless the Company exercises
+its right to terminate the Tax Receivable Agreement for an amount representing the present value of all forecasted future payments that
+would have otherwise been made under the Tax Receivable Agreement (subject to certain assumptions), or certain other acceleration events,
+including a Change of Control (as defined in the Tax Receivable Agreement), occur. 
+
+ 
+
+ The
+foregoing description of the Tax Receivable Agreement is not complete and is qualified in its entirety by reference to the copy of the
+Tax Receivable Agreement filed as Exhibit 10.3 hereto, which is incorporated herein by reference. In addition, a summary of the material
+terms of the Tax Receivable Agreement is included in the definitive proxy statement and final prospectus, dated May 10, 2023, and filed
+by RONI with the Securities and Exchange Commission (the SEC) on May 10, 2023 (as supplemented on May 26, 2023, the Proxy
+Statement/Prospectus) in the section titled The Business Combination ProposalRelated AgreementsTax Receivable
+Agreement beginning on page 117 of the Proxy Statement/Prospectus. 
+
+ 
+
+ 
+
+ 
+ 4 
+ 
+ 
+
+ 
+
+ Item
+2.01 Completion of Acquisition or Disposition of Assets. 
+
+ 
+
+ The
+disclosure set forth in the Introductory Note above is incorporated into this Item 2.01 by reference. 
+
+ 
+
+ In
+addition, the material terms of the Business Combination are described in greater detail in the section of the Proxy Statement/Prospectus
+titled The Business Combination ProposalThe Business Combination Agreement beginning on page 87, which information
+is incorporated herein by reference. 
+
+ 
+
+ FORM
+10 INFORMATION 
+
+ 
+
+ Prior
+to the Closing, the Company was a shell company (as defined in Rule 12b-2 of the Securities Exchange Act of 1934, as amended (the Exchange
+Act)) with no operations, formed as a vehicle to effect a business combination with one or more operating businesses. After the
+Closing, the Company became a holding company whose only assets consist of equity interests in Opco. 
+
+ 
+
+ The
+information provided below relates to the Company after the consummation of the Business Combination, unless otherwise specifically indicated
+or the context otherwise requires. 
+
+ 
+
+ Cautionary
+Note Regarding Forward-Looking Statements 
+
+ 
+
+ This
+Current Report on Form 8-K, including the information incorporated herein by reference, contains forward-looking statements
+within the meaning of Section 27A of the Securities Act of 1933, as amended (the Securities Act), and Section 21E of the
+Exchange Act. Statements that do not relate strictly to historical or current facts are forward-looking and usually identified by the
+use of words such as anticipate, believe, could, estimate, expect,
+forecast, future, intend, may, opportunity, plan,
+project, seek, should, strategy, will, will likely result,
+would and other similar words and expressions. Forward-looking statements may relate to the benefits of the Business Combination,
+the development of the Companys technology, the anticipated demand for the Companys technology and the markets in which
+the Company operates, the timing of the deployment of plant deliveries, and the Companys business strategies, capital requirements,
+potential growth opportunities and expectations for future performance (financial or otherwise). Forward looking statements are based
+on current expectations, estimates, projections, targets, opinions and/or beliefs of the Company, and such statements involve known and
+unknown risks, uncertainties and other factors. 
+
+ 
+
+ The
+risks and uncertainties that could cause those actual results to differ materially from those expressed or implied by these forward looking
+statements include, but are not limited to: (i) risks relating to the uncertainty of the projected financial information with respect
+to the Company and risks related to the Companys ability to meet its projections; (ii) the ability to recognize the anticipated
+benefits of the Business Combination, which may be affected by, among other things, competition, the ability of the Company to grow and
+manage growth profitably and the ability of the Company retain its management and key employees; (iii) the Companys ability to
+utilize its net operating loss and tax credit carryforwards effectively; (iv) the capital-intensive nature of the Companys business
+model, which may require the Company to raise additional capital in the future; (v) barriers the Company may face in its attempts to
+deploy and commercialize its technology; (vi) the complexity of the machinery the Company relies on for its operations and development;
+(vii) the Companys ability to establish and maintain supply relationships; (viii) risks related to the Companys arrangements
+with third parties for the development, commercialization and deployment of technology associated with the Companys technology;
+(ix) risks related to the Companys other strategic investors and partners; (x) the Companys ability to successfully commercialize
+its operations; (xi) the availability and cost of raw materials; (xii) the ability of the Companys supply base to scale to meet
+the Companys anticipated growth; (xiii) the Companys ability to expand internationally; (xiv) the Companys ability
+to update the design, construction and operations of its technology; (xv) the impact of potential delays in discovering manufacturing
+and construction issues; (xvi) the possibility of damage to the Companys Texas facilities as a result of natural disasters; (xvii)
+the ability of commercial plants using the Companys technology to efficiently provide net power output; (xviii) the Companys
+ability to obtain and retain licenses; (xix) the Companys ability to establish an initial commercial scale plant; (xx) the Companys
+ability to license to large customers; (xxi) the Companys ability to accurately estimate future commercial demand; (xxii) the
+Companys ability to adapt to the rapidly evolving and competitive natural and renewable power industry; (xxiii) the Companys
+ability to comply with all applicable laws and regulations; (xxiv) the impact of public perception of fossil fuel-derived energy on the
+Companys business; (xxv) any political or other disruptions in gas producing nations; (xxvi) the Companys ability to protect
+its intellectual property and the intellectual property it licenses; (xxvii) the Companys ability to meet stock exchange listing
+standards following the Business Combination; (xxviii) potential litigation that may be instituted against the Company; and (xxix) other
+risks and uncertainties indicated in the Proxy Statement/Prospectus, including those under the section titled Risk Factors,
+and other documents filed or to be filed with the SEC by the Company. 
+
+ 
+
+ 
+
+ Forward-looking
+statements speak only as of the date they are made. Readers are cautioned not to put undue reliance on forward-looking statements, and
+the Company assumes no obligation and does not intend to update or revise forward-looking statements, whether as a result of new information,
+future events, or otherwise. The Company gives no assurance that the Company will achieve its expectations. 
+
+ 
+
+ Business
+and Properties 
+
+ 
+
+ The
+information set forth in the section of the Proxy Statement/Prospectus titled Information About NET Power beginning on
+page 203 is incorporated herein by reference. 
+
+ 
+
+ 
+
+ 
+ 5 
+ 
+ 
+
+ 
+
+ Risk
+Factors 
+
+ 
+
+ The
+information set forth in the section of the Proxy Statement/Prospectus titled Risk Factors beginning on page 27 is incorporated
+herein by reference. 
+
+ 
+
+ Financial
+Information 
+
+ 
+
+ Unaudited
+Condensed Financial Statements 
+
+ 
+
+ The
+unaudited condensed financial statements of NET Power, LLC as of March 31, 2023 and for the three months ended March 31, 2023 and 2022
+set forth in Exhibit 99.1 hereto has been prepared in accordance with U.S. generally accepted accounting principles and pursuant to SEC
+regulations. The condensed financial information reflects, in the opinion of management, all adjustments, consisting of normal recurring
+adjustments, considered necessary for a fair statement of NET Power, LLCs financial position, results of operations and cash flows
+for the periods indicated. The results reported for the interim period presented are not necessarily indicative of results that may be
+expected for the full year. These unaudited condensed financial statements should be read in conjunction with the historical audited
+financial statements of NET Power, LLC as of December 31, 2022 and 2021 and for the years ended December 31, 2022 and 2021, and the related
+notes, included in the Proxy Statement/Prospectus, which are incorporated by reference herein. 
+
+ 
+
+ Unaudited
+Pro Forma Condensed Combined Financial Information 
+
+ 
+
+ The
+unaudited pro forma condensed combined financial information of the Company as of and for the three months ended March 31, 2023 and for
+the year ended December 31, 2022 is set forth in Exhibit 99.2 hereto and is incorporated herein by reference. 
+
+ 
+
+ Managements
+Discussion and Analysis of Financial Condition 
+
+ 
+
+ The
+information set forth in the section of the Proxy Statement/Prospectus titled Managements Discussion and Analysis of Financial
+Condition and Results of Operations of NET Power beginning on page 225 is incorporated herein by reference. The Managements
+Discussion and Analysis of Financial Condition and Results of Operations of NET Power, LLC for the three months ended March 31, 2023
+and 2022 is included in Exhibit 99.3 hereto and incorporated herein by reference. 
+
+ 
+
+ Security
+Ownership of Certain Beneficial Owners and Management 
+
+ 
+
+ The
+following table sets forth information known to the Company regarding beneficial ownership of shares of Common Stock as of the Closing
+Date, following the public share redemptions and the consummation of the PIPE Financing and the Merger, by: 
+
+ 
+
+ 
+ each
+ person known by the Company to be the beneficial owner of more than 5% of any class of the
+ Companys voting securities; 
+
+ 
+
+ 
+
+ 
+ each
+ of the Companys executive officers and directors; and 
+
+ 
+
+ 
+ all
+ of the Companys executive officers and directors as a group. 
+
+ 
+
+ Beneficial
+ownership is determined according to the rules of the SEC, which generally provide that a person has beneficial ownership of a security
+if he, she or it possesses sole or shared voting or investment power over that security, including options, warrants and certain other
+derivative securities that are currently exercisable or will become exercisable within 60 days. Shares subject to warrants that are currently
+exercisable or exercisable within 60 days of the Closing Date are considered outstanding and beneficially owned by the person holding
+such warrants for the purpose of computing the percentage ownership of that person but are not treated as outstanding for the purpose
+of computing the percentage ownership of any other person. 
+
+ 
+
+ Unless
+otherwise indicated and subject to community property laws and similar laws, the Company believes that all parties named in the table
+below have sole voting and investment power with respect to all shares of Common Stock beneficially owned by them. 
+
+ 
+
+ 
+
+ 
+ 6 
+ 
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ Class A Common Stock 
+ Class B Common Stock 
+ Total Common Stock 
+ 
+ NameofBeneficialOwners 
+ Number of Shares 
+ Ownership Percentage (1) 
+ Number of Shares 
+ Ownership Percentage (1) 
+ Number of Shares 
+ Ownership Percentage (1) 
+ 
+ Five Percent Holders: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Baker Hughes Energy Services LLC (2)(3) 
+ 
+ 
+ 7,319,155 
+ 5.1 % 
+ 7,319,155 
+ 3.4 % 
+ 
+ Constellation Energy Generation, LLC (2)(4) 
+ 500,000 
+ * 
+ 36,030,716 
+ 2.5 % 
+ 36,530,716 
+ 17.2 % 
+ 
+ Daniel J. Rice, IV 2018 Irrevocable Trust (5) 
+ 3,510,000 
+ 5.2 % 
+ 
+ 
+ 3,510,000 
+ 1.6 % 
+ 
+ 8 Rivers Capital, LLC and NPEH, LLC (2)(6) 
+ 500,000 
+ * 
+ 30,005,300 
+ 20.7 % 
+ 30,505,300 
+ 14.4 % 
+ 
+ OLCV NET Power, LLC (2)(7) 
+ 33,999,995 
+ 50.5 % 
+ 55,553,247 
+ 38.4 % 
+ 89,553,242 
+ 42.2 % 
+ 
+ Rice Acquisition Sponsor II LLC (2)(8) 
+ 10,902,500 
+ 13.9 % 
+ 7,535,000 
+ 5.2 % 
+ 18,437,500 
+ 8.3 % 
+ 
+ Tillandsia, Inc. (2)(9) 
+ 5,500,000 
+ 8.2 % 
+ 30,005,300 
+ 20.7 % 
+ 35,505,300 
+ 16.7 % 
+ 
+ Directors and Executive Officers: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Ralph Alexander 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Peter J. (Jeff) Bennett 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ J. Kyle Derham (2)(10) 
+ 11,402,500 
+ 14.6 % 
+ 7,535,000 
+ 5.2 % 
+ 18,937,500 
+ 8.5 % 
+ 
+ Frederick A. Forthuber 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Joseph T. Kelliher 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Carol Peterson 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Brad Pollack 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Daniel Joseph Rice, IV (2)(10)(11) 
+ 10,902,500 
+ 13.9 % 
+ 7,535,000 
+ 5.2 % 
+ 18,437,500 
+ 8.3 % 
+ 
+ Eunkyung Sung 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Alejandra Veltmann 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Brian Allen (2)(12) 
+ 
+ 
+ 568,090 
+ * 
+ 568,090 
+ * 
+ 
+ Akash Patel (2)(12) 
+ 
+ 
+ 790,448 
+ * 
+ 790,448 
+ * 
+ 
+ Brock Forrest (2)(12)(13) 
+ 
+ 
+ 596,917 
+ * 
+ 596,917 
+ * 
+ 
+ James Mahon (2)(12) 
+ 
+ 
+ 693,028 
+ * 
+ 693,028 
+ * 
+ 
+ Brandon Heffinger (2)(12) 
+ 
+ 
+ 514,559 
+ * 
+ 514,559 
+ * 
+ 
+ All directors and executive officers as a group (15 individuals) (10) 
+ 11,402,500 
+ 14.6 % 
+ 10,698,042 
+ 7.4 % 
+ 22,100,542 
+ 9.9 % 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ * less
+ than 1% 
+
+ 
+ (1) Based
+on 67,352,271 shares of Class A Common Stock issued and outstanding and 144,817,563 shares of Class B Common Stock issued and outstanding
+for a total of 212,169,834 shares of Common Stock as of the Closing Date, following the public share redemptions and the consummation
+of the PIPE Financing and the Merger. 
+ 
+
+ 
+ (2) Pursuant
+ to the Opco LLC Agreement, at the request of the holder, each Opco Unit may be redeemed for,
+ at the Companys election, a newly-issued share of Class A Common Stock or cash, and
+ upon redemption of such Opco Unit, a share of Class B Common Stock shall be surrendered by
+ the holder and canceled by the Company. 
+
+ 
+ (3) Baker
+ Hughes Energy Services LLC is also the record holder of 7,319,155 Opco Units. The address
+ of Baker Hughes Energy Services LLC is 17021 Aldine Westfield Road, Houston, TX 77073. 
+
+ 
+
+ 
+
+ 
+ 7 
+ 
+ 
+
+ 
+
+ 
+ (4) Constellation
+ Energy Generation, LLC is also the record holder of 36,030,716 Opco Units. The address of
+ Constellation Energy Generation, LLC is 200 Exelon Way, Kennett Square, Pennsylvania 19348. 
+
+ 
+ (5) The
+ number of shares of Class A Common Stock includes 42,500 shares of Class A Common Stock issuable
+ upon the exercise of warrants; such warrants are exercisable beginning on the date that is
+ 30 days after the Closing Date. Andrew L. Share, as trustee of Daniel J. Rice, IV 2018 Irrevocable
+ Trust, has voting and investment power over the reported securities. The address of Daniel
+ J. Rice, IV 2018 Irrevocable Trust is c/o Nixon Peabody LLP, 900 Elm Street, Manchester,
+ New Hampshire 03101-2007. 
+
+ 
+ (6) 8 Rivers Capital, LLC is the record holder of 500,000 shares of Class
+A Common Stock, and NPEH, LLC is the record holder of 30,005,300 shares of Class B Common Stock and 30,005,300 Opco Units. 8 Rivers Capital,
+LLC is the manager of NPEH, LLC and holds a majority of interests in NPEH, LLC. The address of NPEH, LLC and of 8 Rivers Capital, LLC
+is 406 Blackwell Street, 4th Floor, Durham, North Carolina 27701. 
+
+ 
+ (7) OLCV
+ NET Power, LLC is also the record holder of 55,553,247 Opco Units. The address of OLCV NET
+ Power, LLC is 5 Greenway Plaza, Suite 110, Houston, Texas 77046. 
+
+ 
+ (8) The
+ number of shares of Class A Common Stock includes 10,900,000 shares of Class A Common Stock
+ issuable upon the exercise of warrants held of record by Rice Acquisition Sponsor II LLC;
+ such warrants are exercisable beginning on the date that is 30 days after the Closing Date.
+ The number of shares of Class B Common Stock includes 986,775 shares subject to forfeiture
+ or vesting depending on certain share price thresholds of the Class A Common Stock pursuant
+ to the sponsor letter agreement entered into at signing of the Business Combination Agreement
+ (the Sponsor Letter Agreement). See the section titled The Business
+ Combination ProposalRelated AgreementsSponsor Letter Agreement, beginning
+ on page 115 of the Proxy Statement/Prospectus for more information about the Sponsor Letter
+ Agreement. Rice Acquisition Sponsor II LLC is also the record holder of 7,535,000 Opco Units,
+ 986,775 of which are subject to forfeiture or vesting depending on certain share price thresholds
+ of the Class A Common Stock pursuant to the Sponsor Letter Agreement. The address of Rice
+ Acquisition Sponsor II LLC is 102 East Main Street, Second Story, Carnegie, Pennsylvania
+ 15106. 
+
+ 
+ (9) 500,000
+of the shares of Class A Common Stock listed are owned of record by 8 Rivers Capital, LLC, and all of the shares of Class B Common Stock
+listed are owned of record by NPEH, LLC. NPEH, LLC is also the record holder of 30,005,300 Opco Units. NPEH, LLC is controlled by 8 Rivers
+Capital, LLC, which in turn is controlled by an affiliate of Tillandsia, Inc. The address of Tillandsia, Inc. is 55 E. 59 th 
+Street, Floor 11, New York, New York 10022-1112. 
+
+ 
+ (10) The
+ number of shares of Class A Common Stock includes 2,500 shares of Class A Common Stock held
+ of record by Rice Acquisition Sponsor II LLC and 10,900,000 shares of Class A Common Stock
+ issuable upon the exercise of warrants held of record by Rice Acquisition Sponsor II LLC,
+ which are exercisable beginning on the date that is 30 days after the Closing Date. The number
+ of shares of Class B Common Stock consists of 7,535,000 shares held of record by Rice Acquisition
+ Sponsor II LLC, including 986,775 of which are subject to forfeiture or vesting depending
+ on certain share price thresholds of the Class A Common Stock pursuant to the Sponsor Letter
+ Agreement. Rice Acquisition Sponsor II LLC is also the record holder of 7,535,000 Opco Units,
+ 986,775 shares of which are subject to forfeiture or vesting depending on certain share price
+ thresholds of the Class A Common Stock pursuant to the Sponsor Letter Agreement. Messrs.
+ Derham and Rice are the managing members of Rice Acquisition Sponsor II LLC. 
+
+ 
+ (11) Does
+ not include the 3,467,500 shares of Class A Common Stock or 42,500 warrants held of record
+ by Daniel J. Rice IV 2018 Irrevocable Trust because the trustee, rather than Mr. Rice, has
+ voting and investment power over such shares. 
+
+ 
+ (12) The
+ executive officer is also the record holder of a number of Opco Units that is equal to the
+ number of shares of Class B Common Stock held of record by him. 
+
+ 
+ (13) The shares are held by Forrest Family Capital, LLC, which is controlled
+by Mr. Forrest. 
+
+ 
+
+ 
+
+ 
+ 8 
+ 
+ 
+
+ 
+
+ Directors
+and Executive Officers 
+
+ 
+
+ At
+the extraordinary general meeting of RONI shareholders on June 6, 2023, (i) Messrs. Alexander and Forthuber and Mses. Peterson and Sung
+were elected to serve as Class I directors with a term expiring at the Companys 2024 annual meeting of stockholders, (ii) Messrs.
+Bennettand Derham and Ms. Veltmann were elected to serve as Class II directors with a term expiring at the Companys 2025
+annual meeting of stockholders, and (iii) Messrs. Kelliher, Pollack and Rice were elected to serve as Class III directors with a term
+expiring at the Companys 2026 annual meeting of stockholders, in each case, effective immediately in connection with the consummation
+of the Business Combination. 
+
+ 
+
+ Mr. Bennett has been appointed by the Board to serve as its chairperson,
+and Mr. Kelliher has been designated by the Board to serve as the lead non-affiliate independent director. 
+
+ 
+
+ Mr. Alexander and Mses. Peterson and Veltmann serve as members of the Audit Committee of
+the Board, with Ms. Veltmann serving as its chairperson. Messrs. Alexander and Kelliher and Ms. Veltmann serve as members of the Compensation
+Committee of the Board, with Mr. Alexander serving as its chairperson. Messrs. Derham, Kelliher and Pollack and Ms. Peterson serve as
+members of the Nominating and Corporate Governance Committee of the Board, with Mr. Kelliher serving as its chairperson. 
+ 
+
+ 
+
+ Information with respect to the Companys directors after the Closing, including biographical information,
+is set forth in the Proxy Statement/Prospectus in the section titled Management of NET Power Inc. Following the Business Combination
+beginning on page 242, which information is incorporated herein by reference. The information with respect to director designation rights
+set forth in Item 1.01 of this Current Report on Form 8-K under the heading Stockholders Agreement is also incorporated
+herein by reference. 
+
+ 
+
+ 
+
+ On
+June 8, 2023, effective upon the Closing, the following persons were appointed to be executive officers of the Company as set forth below: 
+
+ 
+
+ 
+
+ 
+ 
+ Name 
+ 
+ Position 
+ 
+ Daniel Joseph Rice, IV 
+ 
+ Chief Executive Officer 
+ 
+ Brian Allen 
+ 
+ President and Chief Operating Officer 
+ 
+ Akash Patel 
+ 
+ Chief Financial Officer 
+ 
+ Brock Forrest 
+ 
+ Chief Technology Officer 
+ 
+ James Mahon 
+ 
+ General Counsel 
+ 
+ Brandon Heffinger 
+ 
+ Chief Commercial Officer 
+ 
+ 
+
+ Information
+with respect to the Companys executive officers after the Closing, including biographical information regarding these individuals,
+is set forth in the Proxy Statement/Prospectus in the section titled Management of NET Power Inc. Following the Business Combination
+beginning on page 242, which information is incorporated herein by reference. 
+
+ 
+
+ 
+
+ 
+ 9 
+ 
+ 
+
+ 
+
+ Compensation
+Committee Interlocks and Insider Participation 
+
+ 
+
+ None
+of the Companys executive officers currently serve, or in the past year have served, as members of the board of directors or compensation
+committee of any entity that has one or more executive officers serving on the Board. 
+
+ 
+
+ Executive
+Compensation and Director Compensation 
+
+ 
+
+ The
+compensation of NET Power, LLCs named executive officers before the consummation of the Business Combination is described in the
+Proxy Statement/Prospectus in the section titled NET Powers Executive and Director Compensation beginning on page
+234, which information is incorporated herein by reference. 
+
+ 
+
+ The
+compensation of the managers who served on NET Power, LLCs board of managers before the consummation of the Business Combination
+is described in the Proxy Statement/Prospectus in the section titled NET Powers Executive and Director Compensation
+beginning on page 234, which information is incorporated herein by reference. In connection with the Business Combination, the Company
+expects to adopt a new non-employee director compensation program, which will be designed to provide competitive compensation necessary
+to attract and retain high qualitynon-employeedirectors and to encourage ownership of Company stock to further align their
+interests with those of the Companys stockholders. 
+
+ 
+
+ Certain
+Relationships and Related Transactions 
+
+ 
+
+ The
+information set forth in the section of the Proxy Statement/Prospectus titled Certain Relationships and Related Party Transactions
+beginning on page 249 and the information in Item 1.01 of this Current Report on Form 8-K is incorporated herein by reference. 
+
+ 
+
+ 
+
+ 
+ 10 
+ 
+ 
+
+ 
+
+ Director
+Independence 
+
+ 
+
+ The
+NYSE listing standards require that a majority of the members of the Board be independent. An independent director is defined
+generally as a person who has no material relationship with the listed company (either directly or as a partner, shareholder or officer
+of an organization that has a relationship with the company). The Company currently has eight independent directors as
+defined in the NYSE listing standards and applicable SEC rules and as determined by the Board using its business judgment: Messrs. Alexander,
+Bennett, Derham, Forthuber, Kelliher and Pollack and Mses. Peterson and Veltmann. 
+
+ 
+
+ Legal
+Proceedings 
+
+ 
+
+ Information
+about legal proceedings is set forth in the section of the Proxy Statement/Prospectus titled Information About NET PowerLegal
+Proceedings on page 224, which information is incorporated herein by reference. 
+
+ 
+
+ Market
+Price of and Dividends on the Registrants Common Equity and Related Stockholder Matters 
+
+ 
+
+ Following
+the Closing, on June 9, 2023, the Class A Common Stock and NET Power Warrants were listed on the NYSE under the symbols NPWR
+and NPWR WS, respectively. The public units of RONI automatically separated into the component securities upon consummation
+of the Business Combination and, as a result, no longer trade as a separate security. 
+
+ 
+
+ As of the Closing Date, there were approximately
+28 holders of record of Class A Common Stock, approximately 21 holders of record of Class B Common Stock and two holders of record of
+the NET Power Warrants. Such holder numbers do not include The Depository Trust Company participants
+or beneficial owners holding shares or NET Power Warrants through banks, brokers, other financial institutions or other nominees. 
+ 
+
+ 
+
+ Recent
+Sales of Unregistered Securities 
+
+ 
+
+ The
+information set forth in Item 3.02 of this Current Report on Form 8-K is incorporated herein by reference. Information regarding unregistered
+sales of RONIs securities set forth in Part II, Item 5 of RONIs Annual Report on Form 10-K for the fiscal year ended December
+31, 2022, filed with the SEC on March 1, 2023, is also incorporated herein by reference. 
+
+ 
+
+ Description
+of the Companys Securities 
+
+ 
+
+ Information
+regarding the Class A Common Stock and the NET Power Warrants is included in the section of the Proxy Statement/Prospectus titled Description
+of NET Power Inc. Securities beginning on page 259, which information is incorporated herein by reference. 
+
+ 
+
+ Indemnification
+of Directors and Officers 
+
+ 
+
+ Information about the indemnification of the Companys
+directors and officers is set forth in the section of the Proxy Statement/Prospectus titled Description of NET Power Inc. SecuritiesLimitations
+on Liability and Indemnification of Officers and Directors on page 262, which information is incorporated herein by reference, and
+in Item 5.02 of this Current Report on Form 8-K under the heading Indemnification Agreements, which is also incorporated
+herein by reference. 
+ 
+
+ 
+
+ Changes
+in and Disagreements with Accountants on Accounting and Financial Disclosure 
+
+ 
+
+ The
+information set forth in Item 4.01 of this Current Report on Form 8-K is incorporated herein by reference. 
+
+ 
+
+ Financial
+Statements, Supplementary Data and Exhibits 
+
+ 
+
+ The
+information set forth in Item 9.01 of this Current Report on Form 8-K is incorporated herein by reference. 
+
+ 
+
+ 
+
+ 
+ 11 
+ 
+ 
+
+ 
+
+ Item
+3.02 Unregistered Sales of Equity Securities. 
+
+ 
+
+ Pursuant to the Business Combination Agreement,
+at the Effective Time, all of the equity interests of NET Power, LLC issued and outstanding immediately prior to the Merger (other than
+any such equity interests held in the treasury of NET Power, LLC or owned by any subsidiary of NET Power, LLC immediately prior to the
+Effective Time) were canceled and converted into the right to receive an aggregate of 137,192,563 Opco Class A Units and an equivalent
+number of shares of Class B Common Stock. The issuance of such Opco Class A Units and shares of Class B Common Stock on the Closing Date
+was not registered under the Securities Act and were issued in reliance on the exemption from registration requirements thereof provided
+by Section 4(a)(2) of the Securities Act as a transaction by an issuer not involving a public offering. 
+ 
+
+ 
+
+ Also,
+on the Closing Date, the Company consummated the issuance and sale of 54,044,995 shares of Class A Common Stock for aggregate consideration
+of $540,449,950 (or $10.00 per share) in the PIPE Financing in private placements pursuant to subscription agreements entered into with
+certain qualified institutional buyers and accredited investors. The issuance of such shares was not registered under the Securities
+Act and were issued in reliance on the exemption from registration requirements thereof provided by Section 4(a)(2) of the Securities
+Act as a transaction by an issuer not involving a public offering. Additional information regarding the PIPE Financing, including the
+subscription agreements relating thereto, is included in Supplement No. 1, dated May 26, 2023 and filed with the SEC on such date, to
+the Companys definitive proxy statement and final prospectus, dated May 10, 2023, under the heading PIPE Financing
+and such information is incorporated herein by reference. 
+
+ 
+
+ Item
+3.03 Material Modification to Rights of Security Holders. 
+
+ 
+
+ On
+the Closing Date, in connection with the Business Combination, the Company filed a notice of de-registration with the Cayman Islands
+Registrar of Companies, together with the necessary accompanying documents, and filed a Delaware certificate of incorporation (the Certificate
+of Incorporation) with the Secretary of State of the State of Delaware and adopted bylaws (the Bylaws). The material
+terms of the Certificate of Incorporation and Bylaws and the general effect upon the rights of holders of the Companys capital
+stock are included under the section titled Governing Documents Proposals beginning on page 139 of the Proxy Statement/Prospectus
+and the section titled Comparison of Corporate Governance and Shareholder Rights beginning on page 257 of the Proxy Statement/Prospectus,
+which information is incorporated herein by reference. 
+
+ 
+
+ The
+foregoing description of the Certificate of Incorporation and Bylaws does not purport to be complete and is qualified in its entirety
+by the terms of the Certificate of Incorporation and Bylaws, which are attached hereto as Exhibits 3.1 and 3.2, respectively, and are
+incorporated herein by reference. 
+
+ 
+
+ Item
+5.01 Changes in Control of the Registrant. 
+
+ 
+
+ The
+information set forth in the Introductory Note and in Item 2.01 of this Current Report on Form 8-K is incorporated herein
+by reference. 
+
+ 
+
+ 
+
+ 
+ 12 
+ 
+ 
+
+ 
+
+ Item
+5.02 Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers; Compensatory Arrangements of
+Certain Officers. 
+
+ 
+
+ On
+June 8, 2023, in connection with the Business Combination, and subject to, conditioned upon and effective as of the Domestications, each
+of Jide Famuagun, Carrie M. Fox and James Lytal resigned as a director of RONI. Also on June 8, 2023, in connection with the Business
+Combination, and conditioned upon and effective as of the Closing, J. Kyle Derham resigned as the Companys Chief Executive Officer
+and James Wilmot Rogers resigned as the Companys Chief Financial Officer and Chief Accounting Officer. 
+
+ 
+
+ The
+information regarding the Companys directors and executive officers set forth under the heading Directors and Executive
+Officers in Item 2.01 of this Current Report on Form 8-K is incorporated herein by reference. The information set forth in the
+section of the Proxy Statement/Prospectus titled Certain Relationships and Related Party Transactions beginning on page
+249 is also incorporated herein by reference. 
+
+ 
+
+ On
+the Closing Date, the Company entered into indemnification agreements with each of its directors and executive officers. These indemnification
+agreements require the Company to indemnify its directors and executive officers to the fullest extent permitted by applicable law and
+to advance and reimburse expenses incurred as a result of any proceeding against them as to which they could be indemnified. The foregoing
+summary of the indemnification agreements does not purport to be complete and is subject to, and qualified in its entirety by, the full
+text of the form of indemnification agreement, which is filed as Exhibit 10.4 to this Current Report on Form 8-K and incorporated herein
+by reference. 
+
+ 
+
+ On
+the Closing Date, the NET Power Inc. 2023 Omnibus Incentive Plan (the Incentive Plan) became effective. The Incentive Plan
+will provide for the grant of options, stock appreciation rights, restricted stock, restricted stock units, performance awards, stock
+awards, dividend equivalents, other stock-based awards, cash awards and substitute awards intended to align the interests of NET Power
+Inc.s service providers with those of its stockholders. Subject to adjustment in the event of certain transactions or changes
+of capitalization in accordance with the Incentive Plan, 20,468,545 shares of Class A Common Stock will initially be reserved for issuance
+pursuant to awards under the Incentive Plan. The number of shares available for issuance under the Incentive Plan will be subject to
+an annual increase on the first day of each calendar year beginning January 1, 2024, and ending and including January 1, 2033, equal
+to the lesser of (i) 5% of the aggregate number of shares outstanding on December 31 of the immediately preceding calendar year and (ii)
+any such smaller number of shares as is determined by the Board. The Incentive Plan was approved by the shareholders of RONI at the extraordinary
+general meeting held on June 6, 2023, and prior to that, RONIs board of directors approved the Incentive Plan, subject to the
+approval by RONIs shareholders at the extraordinary general meeting and subject to, and conditioned upon, the consummation of
+the Business Combination. A summary of the Incentive Plan is included in the section entitled Incentive Plan Proposal beginning
+on page 158 of the Proxy Statement/Prospectus, which information is incorporated herein by reference, and such summary is qualified in
+all respects by the full text of the Incentive Plan, which is filed as Exhibit 10.5 to this Current Report on Form 8-K and incorporated
+herein by reference. 
+
+ 
+
+ Item
+5.03 Amendments to Articles of Incorporation or Bylaws; Change in Fiscal Year. 
+
+ 
+
+ The
+information set forth in Item 3.03 of this Current Report on Form 8-K is incorporated herein by reference. 
+
+ 
+
+ Item
+5.05 Amendments to the Registrants Code of Ethics, or Waiver of a Provision of the Code of Ethics. 
+
+ 
+
+ In
+connection with the Business Combination, on June 8, 2023, the Board approved and adopted a new code of ethics that applies to all of
+its directors, executive officers and other employees, which is available on the Companys website, https://ir.netpower.com, under
+Governance. 
+
+ 
+
+ Item
+5.06 Change in Shell Company Status. 
+
+ 
+
+ As
+a result of the Business Combination, the Company ceased to be a shell company upon the Closing. 
+
+ 
+
+ The
+disclosure set forth in the Introductory Note above is incorporated into this Item 2.01 by reference. In addition, the
+material terms of the Business Combination are described in greater detail in the section of the Proxy Statement/Prospectus titled The
+Business Combination ProposalThe Business Combination Agreement beginning on page 87, which information is incorporated
+herein by reference. 
+
+ 
+
+ 
+
+ 
+ 13 
+ 
+ 
+
+ 
+
+ Item
+9.01 Financial Statements and Exhibits. 
+
+ 
+
+ (a)Financial
+statements of businesses or funds acquired. 
+
+ 
+
+ The
+consolidated financial statements of NET Power, LLC, together with the notes thereto, included in the Proxy Statement/Prospectus on pagesF-25
+through F-43 are incorporated by reference into this Current Report on Form8-K. 
+
+ 
+
+ The
+unaudited consolidated financial statements of NET Power, LLC as of and for the three months ended March 31, 2023 and 2022, together
+with the notes thereto, are filed as Exhibit 99.1 and incorporated herein by reference. 
+
+ 
+
+ (b)Pro
+forma financial information. 
+
+ 
+
+ The
+unaudited pro forma condensed combined financial information of the Company as of March 31, 2023 and for the three months ended March
+31, 2023 and for the year ended December 31, 2022 is filed as Exhibit 99.2 and incorporated herein by reference. 
+
+ 
+
+ (d)
+Exhibits. 
+
+ 
+
+ 
+ 
+ Exhibit Number 
+ 
+ Description 
+ 
+ 2.1+ 
+ 
+ Business Combination Agreement, dated as of December 13, 2022, by and among Rice Acquisition Corp. II, Rice Acquisition Holdings II LLC, Topo Buyer Co, LLC, Topo Merger Sub, LLC and NET Power, LLC (incorporated by reference to Exhibit 2.1 to the Companys Current Report on Form 8-K filed with the SEC on December 14, 2022). 
+ 
+ 2.2 
+ 
+ First Amendment to the Business Combination Agreement, dated as of April 23, 2023, by and among Topo Buyer Co, LLC and NET Power, LLC (incorporated by reference to Exhibit 2.1 to the Companys Current Report on Form 8-K filed with the SEC on April 24, 2023). 
+ 
+ 3.1 
+ 
+ Certificate of Incorporation of NET Power Inc. 
+ 
+ 3.2 
+ 
+ Bylaws of NET Power Inc. 
+ 
+ 4.1 
+ 
+ Warrant Agreement, dated June 15, 2021, between Rice Acquisition Corp. II, Rice Acquisition Holdings II LLC and Continental Stock Transfer & Trust Company, as warrant agent (incorporated by reference to Exhibit 4.1 to the Companys Current Report on Form 8-K filed with the SEC on June 21, 2021). 
+ 
+ 10.1 
+ 
+ Stockholders Agreement, dated as of June 8, 2023, by and among Rice Acquisition Corp. II, Rice Acquisition Holdings II LLC, Rice Acquisition Sponsor II LLC and the NET Power Holders (as defined therein). 
+ 
+ 10.2 
+ 
+ Second Amended and Restated Limited Liability Company Agreement of Net Power Operations LLC, dated as of June 8, 2023. 
+ 
+ 10.3 
+ 
+ Tax Receivable Agreement, dated as of June 8, 2023, by and among NET Power Inc., NET Power Operations LLC, certain equityholders of NET Power Operations LLC and the Agent (as defined therein). 
+ 
+ 10.4 
+ 
+ Form of Indemnification Agreement for directors and executive officers of NET Power Inc. 
+ 
+ 10.5 
+ 
+ NET Power Inc. 2023 Omnibus Incentive Plan. 
+ 
+ 10.6 
+ 
+ Letter Agreement, dated June 15, 2021, among Rice Acquisition Corp. II, its officers and directors and Rice Acquisition Sponsor II LLC (incorporated by reference to Exhibit 10.1 to the Companys Current Report on Form 8-K filed with the SEC on June 21, 2021). 
+ 
+
+ 
+
+ 
+
+ 
+ 14 
+ 
+ 
+
+ 
+
+ 
+ 
+ Exhibit Number 
+ 
+ Description 
+
+ 
+ 10.7 
+ 
+ Investment Management Trust Agreement, dated as of June 15, 2021, between Rice Acquisition Corp. II, Rice Acquisition Holdings II LLC and Continental Stock Transfer & Trust Company (incorporated by reference to Exhibit 10.2 to the Current Report on Form 8-K filed by the Registrant on June 21, 2021). 
+ 
+ 10.8 
+ 
+ Registration Rights Agreement, dated June 15, 2021, among Rice Acquisition Corp. II, Rice Acquisition Sponsor II LLC and certain other security holders named therein (incorporated by reference to Exhibit 10.3 to the Current Report on Form 8-K filed by the Registrant on June 21, 2021). 
+ 
+ 10.9 
+ 
+ Administrative Services Agreement, dated as of June 15, 2021, by and between Rice Acquisition Corp. II, Rice Acquisition Holdings II LLC and Rice Acquisition Sponsor II LLC (incorporated by reference to Exhibit 10.4 to the Companys Current Report on Form 8-K filed with the SEC on June 21, 2021). 
+ 
+ 10.10 
+ 
+ Private Placement Warrants Purchase Agreement, dated as of June 15, 2021, by and among Rice Acquisition Corp. II, Rice Acquisition Holdings II LLC and Rice Acquisition Sponsor II LLC (incorporated by reference to Exhibit 10.5 to the Companys Current Report on Form 8-K filed with the SEC on June 21, 2021). 
+ 
+ 10.11 
+ 
+ Sponsor Letter Agreement, dated as of December 13, 2022, by and among Rice Acquisition Corp. II, Rice Acquisition Sponsor II LLC, Rice Acquisition Holdings II LLC, NET Power, LLC and the members of the board of directors or management of Rice Acquisition Corp. II (incorporated by reference to Exhibit 10.1 to the Companys Current Report on Form 8-K filed with the SEC on December 14, 2022). 
+ 
+ 10.12 
+ 
+ Support Agreement, dated December 13, 2022, between Rice Acquisition Corp. II, Rice Acquisition Sponsor II LLC, NET Power, LLC and the other persons whose names appear on the signature pages thereto (incorporated by reference to Exhibit 10.2 to the Companys Current Report on Form 8-K filed with the SEC on December 14, 2022). 
+ 
+ 10.13 
+ 
+ First Amendment to the Support Agreement, dated April 23, 2023, by and among Rice Acquisition Corp. II, Rice Acquisition Sponsor II LLC, NET Power, LLC and the other persons whose names appear on the signature pages thereto (incorporated by reference to Exhibit 10.2 to the Companys Current Report on Form 8-K filed with the SEC on April 24, 2023). 
+ 
+ 10.14 
+ 
+ Form of Subscription Agreement, dated as of December 13, 2022, by and between Rice Acquisition Corp. II and the subscriber named therein (incorporated by reference to Exhibit 10.3 to the Companys Current Report on Form 8-K filed with the SEC on December 14, 2022). 
+ 
+ 10.15 
+ 
+ Subscription Agreement, dated as of May 18, 2023, by and between Rice Acquisition Corp. II and Tillandsia, Inc. (incorporated by reference to Exhibit 10.1 to the Companys Current Report on Form 8-K filed with the SEC on May 24, 2023). 
+ 
+ 10.16++ 
+ 
+ Amended and Restated License Agreement, dated as of August 7, 2014, by and between NET Power, LLC and 8 Rivers Capital, LLC (incorporated by reference to Exhibit 10.12 to the Companys Form S-4/A filed with the SEC on February 2, 2023). 
+ 
+ 10.17++ 
+ 
+ Amended and Restated Joint Development Agreement, dated as of December 13, 2022, by and among NET Power, LLC, Nuovo Pignone International, S.r.l., Nuovo Pignone Tecnologie S.r.l., Rice Acquisition Holdings II LLC and Rice Acquisition Corp. II (incorporated by reference to Exhibit 10.13 to the Companys Form S-4/A filed with the SEC on February 2, 2023). 
+ 
+ 10.18++ 
+ 
+ License Agreement, dated as of February 3, 2022, by and between NET Power, LLC and Nuovo Pignone Tecnologie S.r.l., as amended to date (incorporated by reference to Exhibit 10.14 to the Companys Form S-4/A filed with the SEC on February 2, 2023). 
+ 
+ 10.19++ 
+ 
+ Ground Lease, dated as of April 14, 2015, by and between Air Liquide Large Industries U.S. LP and NET Power, LLC and Amendments No. One, Two, Three and Four thereto (incorporated by reference to Exhibit 10.16 to the Companys Form S-4/A filed with the SEC on April 24, 2023). 
+ 
+ 10.20++ 
+ 
+ Product Supply and Sales Agreement, dated as of July 1, 2015, by and between Air Liquide Large Industries U.S. LP and NET Power, LLC and Amendments No. One, Two and Three thereto (incorporated by reference to Exhibit 10.17 to the Companys Form S-4/A filed with the SEC on April 24, 2023). 
+ 
+ 10.21 
+ 
+ Service Provider Agreement, dated as of October 1, 2021, by and between NET Power, LLC and Ron DeGregorio (incorporated by reference to Exhibit 10.17 to the Companys Form S-4/A filed with the SEC on February 2, 2023). 
+ 
+
+ 
+
+ 
+
+ 
+ 15 
+ 
+ 
+
+ 
+
+ 
+ 
+ Exhibit Number 
+ 
+ Description 
+
+ 
+ 10.22 
+ 
+ Profits Interest Share Award Agreement, dated as of October 1, 2021, by and between NET Power, LLC and Ron DeGregorio (incorporated by reference to Exhibit 10.18 to the Companys Form S-4/A filed with the SEC on February 2, 2023). 
+ 
+ 10.23 
+ 
+ Amendment to the Service Provider Agreement and Profits Interest Share Agreement, dated as of April 28, 2022, by and between NET Power, LLC and Ron DeGregorio (incorporated by reference to Exhibit 10.19 to the Companys Form S-4/A filed with the SEC on February 2, 2023). 
+ 
+ 10.24 
+ 
+ Second Amendment to the Service Provider Agreement and Profits Interest Share Agreement, dated as of December 5, 2022, by and between NET Power, LLC and Ron DeGregorio (incorporated by reference to Exhibit 10.20 to the Companys Form S-4/A filed with the SEC on February 2, 2023). 
+ 
+ 10.25 
+ 
+ Side Letter, dated as of December 2, 2022, by and between NET Power, LLC and Ron DeGregorio (incorporated by reference to Exhibit 10.21 to the Companys Form S-4/A filed with the SEC on February 2, 2023). 
+ 
+ 10.26 
+ 
+ Service Provider Agreement, dated as of October 4, 2021, by and between NET Power, LLC and Akash Patel (incorporated by reference to Exhibit 10.22 to the Companys Form S-4/A filed with the SEC on February 2, 2023). 
+ 
+ 10.27 
+ 
+ Profits Interest Share Award Agreement, dated as of October 4, 2021, by and between NET Power, LLC and Akash Patel (incorporated by reference to Exhibit 10.23 to the Companys Form S-4/A filed with the SEC on February 2, 2023). 
+ 
+ 10.28 
+ 
+ Amendment to the Service Provider Agreement and Profits Interest Share Agreement, dated as of April 27, 2022, by and between NET Power, LLC and Akash Patel (incorporated by reference to Exhibit 10.24 to the Companys Form S-4/A filed with the SEC on February 2, 2023). 
+ 
+ 10.29 
+ 
+ Service Provider Agreement, dated as of March 31, 2022, by and between NET Power, LLC and Brian Allen (incorporated by reference to Exhibit 10.25 to the Companys Form S-4/A filed with the SEC on February 2, 2023). 
+ 
+ 10.30 
+ 
+ Profits Interest Share Award Agreement, dated as of March 31, 2022, by and between NET Power, LLC and Brian Allen (incorporated by reference to Exhibit 10.26 to the Companys Form S-4/A filed with the SEC on February 2, 2023). 
+ 
+ 10.31 
+ 
+ Amendment to the Service Provider Agreement and Profits Interest Share Agreement, dated as of May 2, 2022, by and between NET Power, LLC and Brian Allen (incorporated by reference to Exhibit 10.27 to the Companys Form S-4/A filed with the SEC on February 2, 2023). 
+ 
+ 21.1 
+ 
+ Subsidiaries
+of the Company. 
+ 
+ 99.1 
+ 
+ Unaudited Consolidated Financial Statements of NET Power, LLC and its subsidiaries as of March 31, 2023 and for the three months ended March 31, 2023 and 2022. 
+ 
+ 99.2 
+ 
+ Unaudited Pro Forma Condensed Combined Financial Statements of the Company and its subsidiaries as of March 31, 2023 and for the three months ended March 31, 2023 and the year ended December 31, 2022. 
+ 
+ 99.3 
+ 
+ Managements Discussion and Analysis of Financial Condition and Results of Operations for NET Power, LLC as of March 31, 2023 and for the three months ended March 31, 2023 and 2022. 
+ 
+ 104 
+ 
+ Cover Page Interactive Data File (embedded within the Inline XBRL document). 
+ 
+ 
+
+ 
+
+ 
+
+ 
+ + Certain schedules or similar attachments to
+ this exhibit have been omitted pursuant to Item 601(a)(5) of Regulation S-K. The Company agrees to provide a copy of any omitted
+ schedule or similar attachment to the SEC upon request. 
+ 
+
+ 
+
+ 
+ ++ Certain
+provisions or terms of this exhibit have been omitted pursuant to Regulation S-K Item 601(b)(10)(iv). Redactions and omissions are designated
+with brackets containing asterisks. The Company agrees to provide on a supplement basis an unredacted copy of the exhibit and its materiality
+and privacy or confidentiality analyses to the SEC upon request. 
+ 
+
+ 
+
+ 
+
+ 
+ 16 
+ 
+ 
+
+ 
+
+ SIGNATURE 
+
+ 
+
+ Pursuant
+to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by
+the undersigned hereunto duly authorized. 
+
+ 
+
+ Dated:
+June 14, 2023 
+
+ 
+
+ 
+ 
+ 
+ NET POWER INC. 
+ 
+ 
+ 
+ 
+ 
+ 
+ By: 
+ /s/ Akash Patel 
+ 
+ 
+ Name: 
+ Akash Patel 
+ 
+ 
+ Title: 
+ Chief Financial Officer 
+ 
+ 
+
+ 
+
+ 17

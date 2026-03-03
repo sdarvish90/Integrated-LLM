@@ -1,0 +1,389 @@
+0001845437 
+ false 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 0001845437 
+ 
+ 
+ 2022-02-24 
+ 2022-02-24 
+ 
+ 
+ 
+ 
+ 0001845437 
+ 
+ RONI:UnitsEachConsistingOfOneClassOrdinaryShare0.0001ParValueAndOnefourthOfOneRedeemableWarrantMember 
+ 
+ 
+ 
+ 2022-02-24 
+ 2022-02-24 
+ 
+ 
+ 
+ 
+ 0001845437 
+ 
+ RONI:ClassOrdinarySharesParValue0.0001PerShareMember 
+ 
+ 
+ 
+ 2022-02-24 
+ 2022-02-24 
+ 
+ 
+ 
+ 
+ 0001845437 
+ 
+ RONI:WarrantsExercisableForOneClassOrdinaryShareAtExercisePriceOf11.50PerShareMember 
+ 
+ 
+ 
+ 2022-02-24 
+ 2022-02-24 
+ 
+ 
+ 
+ iso4217:USD 
+ 
+ 
+ xbrli:shares 
+ 
+ 
+ 
+ 
+ iso4217:USD 
+ 
+ 
+ xbrli:shares 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ UNITED
+STATES 
+SECURITIES AND EXCHANGE COMMISSION 
+
+ Washington,
+D.C. 20549 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ FORM
+ 8-K 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ Current
+Report 
+
+ Pursuant to Section 13 or 15(d) of the securities exchange act of 1934 
+
+ 
+
+ Date
+of Report (Date of earliest event reported): February 24, 2022 
+
+ 
+
+ RICE
+ACQUISITION CORP. II 
+ (Exact name of registrant as specified in its charter) 
+
+ 
+
+ 
+ 
+ Cayman
+ Islands 
+ 
+ 001-40503 
+ 
+ 98-1580612 
+ 
+ (State
+ or other jurisdiction 
+ of incorporation) 
+ 
+ (Commission
+ File Number) 
+ 
+ (IRS
+ Employer 
+ Identification No.) 
+ 
+ 
+
+ 
+ 
+ 102
+ East Main Street , Second Story 
+ Carnegie , Pennsylvania 15106 
+ 
+ 15106 
+ 
+ (Address
+ of principal executive offices) 
+ 
+ (Zip
+ Code) 
+ 
+ 
+
+ (713) 
+ 446-6259 
+
+ (Registrants telephone number, including area code) 
+
+ 
+
+ Not
+applicable 
+
+ (Former name or former address, if changed since last report) 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ Check
+the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under
+any of the following provisions: 
+
+ 
+
+ 
+ Written
+communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425) 
+ 
+
+ 
+
+ 
+ Soliciting
+material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12) 
+ 
+
+ 
+
+ 
+ Pre-commencement
+communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b)) 
+ 
+
+ 
+
+ 
+ Pre-commencement
+communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c)) 
+ 
+
+ 
+
+ Securities
+registered pursuant to Section 12(b) of the Act: 
+
+ 
+
+ 
+ 
+ Title
+ of each class 
+ 
+ Trading
+ Symbol(s) 
+ 
+ Name
+ of each exchange on which registered 
+ 
+ Units,
+ each consisting of one Class A ordinary share, $0.0001 par value, and one-fourth of one redeemable warrant 
+ 
+ RONI
+ U 
+ 
+ The
+ New York Stock Exchange 
+ 
+ Class
+ A ordinary shares, par value $0.0001 per share 
+ 
+ RONI 
+ 
+ The
+ New York Stock Exchange 
+ 
+ Warrants,
+ exercisable for one Class A ordinary share at an exercise price of $11.50 per share 
+ 
+ RONI
+ WS 
+ 
+ The
+ New York Stock Exchange 
+ 
+ 
+
+ Indicate
+by check mark whether the registrant is an emerging growth company as defined in Rule405 of the Securities Act of 1933 (230.405
+of this chapter) or Rule12b-2 of the Securities Exchange Act of 1934 (240.12b-2 of this chapter). 
+
+ 
+
+ Emerging
+growth company 
+
+ 
+
+ If
+an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying
+with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+
+ Item
+4.02 Non-Reliance on Previously Issued Financial Statements or a Related Audit Report or Completed Interim Review. 
+
+ 
+
+ On
+November 12, 2021, Rice Acquisition Corp. II (the Company) filed its Quarterly Report on Form 10-Q for the quarterly period
+ending September 30, 2021 (the Q3 2021 Form 10-Q), which included in Note 2, Revision of Previously Issued Financial Statements
+(Note 2), a description of the revision to the Companys classification of its Class A ordinary shares subject to
+redemption (the Public Shares) that were issued as part of the units sold in the its initial public offering (IPO).
+As described in Note 2, upon its IPO, the Company classified a portion of the Public Shares as permanent equity to maintain net tangible
+assets greater than $5,000,000 on the basis that the Company will consummate its initial business combination only if the Company has
+net tangible assets of at least $5,000,001. Subsequently, the Companys management re-evaluated such conclusion and determined
+that the Public Shares included certain provisions that require such shares to be classified as temporary equity regardless of the minimum
+net tangible assets required to complete the Companys initial business combination. As a result, management corrected the error
+by restating all Public Shares as temporary equity. This resulted in an adjustment to the initial carrying value of the Public Shares,
+with the offset recorded to additional paid-in capital (to the extent available), accumulated deficit and Class A ordinary shares. In
+connection with the change in presentation for the Public Shares, the Company revised its earnings per share calculation to allocate
+income and losses shared pro rata between the two classes of shares. This presentation differs from the previously presented method of
+earnings per share, which was similar to the two-class method. 
+
+ 
+
+ At
+the time the Q3 2021 Form 10-Q was filed, the Company determined the changes described above were not qualitatively material to the Companys
+previously issued financial statements and therefore did not restate its financial statements. Instead, the Company revised its previously
+issued financial statements in Note 2. However, upon further consideration, although the qualitative factors assessed tended to support
+a conclusion that the misstatements were not material, the Company determined that these factors were not strong enough to overcome the
+significant quantitative errors in its previously issued financial statements, and the Company should restate its previously issued financial
+statements. 
+
+ 
+
+ As
+such, on February 24, 2022, the Audit Committee of the Companys Board of Directors (the Audit Committee), after
+discussion with the Companys management, concluded that the Companys previously issued (i) audited balance sheet as of
+June 18, 2021, filed with the Securities and Exchange Commission (the SEC) as an exhibit to the Companys Current
+Report on Form8-Kon June 24, 2021 (the June 2021 Form8-K), (ii) unaudited interim financial statements
+as of and for the three months ended June 30, 2021 and for the period from February 2, 2021 (inception) through June 30, 2021 included
+in the Companys Quarterly Report on Form 10-Q for the quarterly period ended June 30, 2021, filed with the SEC on August 12, 2021,
+and (iii) unaudited interim financial statements as of and for the three months ended September 30, 2021 and for the period from February
+2, 2021 (inception) to September 30, 2021 included in the Q3 2021 Form 10-Q, filed with the SEC on November 12, 2021, should be restated
+to report all of the Public Shares as temporary equity, and as a result, such financial statements, as well as portions of any communication
+that describe or are based on such financial statements, should no longer be relied upon. The Company plans to restate such financial
+statements in an amendment to the Q3 2021 Form 10-Q and, with respect to the audited balance sheet filed as an exhibit to the June 2021
+Form 8-K, in the Annual Report on Form 10-K for the period ended December 31, 2021. The restatement will not have an impact on the Companys
+cash position or cash held in the trust account established in connection with the IPO. 
+
+ 
+
+ The
+Audit Committee has discussed the matters disclosed in this Current Report on Form 8-K with WithumSmith+Brown, PC, the Companys
+independent registered public accounting firm. 
+
+ 
+
+ 
+ 1 
+ 
+ 
+
+ 
+
+ SIGNATURES 
+
+ 
+
+ Pursuant
+to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by
+the undersigned hereunto duly authorized. 
+
+ 
+
+ 
+ 
+ 
+ RICE ACQUISITION CORP. II 
+ 
+ 
+ 
+ 
+ 
+ Date: February 24, 2022 
+ By: 
+ /s/ James Wilmot Rogers 
+ 
+ 
+ 
+ Name: 
+ James Wilmot Rogers 
+ 
+ 
+ 
+ Title: 
+ Chief Accounting Officer 
+ 
+ 
+
+ 
+
+ 2

@@ -1,0 +1,379 @@
+next20230202_8k.htm 
+
+ 
+ 
+ 
+ 
+ 
+ false 
+ 0001612720 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 0001612720 
+ 
+ 
+ 2023-02-03 
+ 2023-02-03 
+ 
+ 
+
+ 
+ 
+ 
+
+ &#xa0; 
+
+ UNITED STATES 
+ SECURITIES AND EXCHANGE COMMISSION 
+ WASHINGTON, D.C. 20549 
+
+ &#xa0; 
+
+ FORM &#xa0; 8-K 
+ CURRENT REPORT 
+
+ &#xa0; 
+
+ PURSUANT TO SECTION &#xa0; 13 OR 15(D) OF THE 
+ SECURITIES EXCHANGE ACT OF 1934 
+
+ &#xa0; 
+
+ Date of Report (Date of earliest event reported): February 3, 2023 
+
+ &#xa0; 
+
+ NEXTDECADE CORPORATION 
+(Exact Name of Registrant as Specified in Charter) 
+
+ &#xa0; 
+
+ 
+
+ 
+ &#xa0; 
+ &#xa0; 
+ &#xa0; 
+ 
+ 
+ 
+ Delaware 
+ 
+ 
+ 001-36842 
+ 
+ 
+ 46-5723951 
+ 
+ 
+ 
+ 
+ (State or Other Jurisdiction of Incorporation) 
+ 
+ 
+ (Commission File Number) 
+ 
+ 
+ (IRS Employer Identification No.) 
+ 
+ 
+
+ 
+
+ &#xa0; 
+
+ 1000 Louisiana Street, Suite 3900 , Houston , Texas 77002 
+(Address of Principal Executive Offices) (Zip Code) 
+
+ &#xa0; 
+
+ ( 713 ) 574-1880 
+(Registrants Telephone Number, Including Area Code) 
+
+ &#xa0; 
+
+ N/A 
+(Former Name or Former Address, if Changed Since Last Report) 
+
+ &#xa0; 
+
+ Check the appropriate box below if the Form&#xa0;8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions (see General Instruction&#xa0;A.2. below): 
+
+ &#xa0; 
+
+ 
+
+ 
+ &#xa0; 
+ &#xa0; 
+ &#xa0; 
+ 
+ 
+ &#xa0; 
+ 
+ 
+ 
+ 
+ Written communications pursuant to Rule&#xa0;425 under the Securities Act (17&#xa0;CFR&#xa0;230.425) 
+ 
+ 
+ 
+ &#xa0; 
+ &#xa0; 
+ &#xa0; 
+ 
+ 
+ &#xa0; 
+ 
+ 
+ 
+ 
+ Soliciting material pursuant to Rule&#xa0;14a-12 under the Exchange Act (17&#xa0;CFR&#xa0;240.14a-12) 
+ 
+ 
+ 
+ &#xa0; 
+ &#xa0; 
+ &#xa0; 
+ 
+ 
+ &#xa0; 
+ 
+ 
+ 
+ 
+ Pre-commencement communications pursuant to Rule&#xa0;14d-2(b) under the Exchange Act (17&#xa0;CFR&#xa0;240.14d-2(b)) 
+ 
+ 
+ 
+ &#xa0; 
+ &#xa0; 
+ &#xa0; 
+ 
+ 
+ &#xa0; 
+ 
+ 
+ 
+ 
+ Pre-commencement communications pursuant to Rule&#xa0;13e-4(c) under the Exchange Act (17&#xa0;CFR&#xa0;240.13e&#xa0;4(c)) 
+ 
+ 
+
+ 
+
+ &#xa0; 
+
+ Securities registered pursuant to Section 12(b) of the Act: 
+
+ 
+
+ 
+ &#xa0; 
+ &#xa0; 
+ &#xa0; 
+ &#xa0; 
+ &#xa0; 
+ 
+ 
+ 
+ Title &#xa0; of &#xa0; each &#xa0; class: 
+ 
+ &#xa0; 
+ 
+ Trading Symbol 
+ 
+ &#xa0; 
+ 
+ Name &#xa0; of &#xa0; each &#xa0; exchange &#xa0; on &#xa0; which &#xa0; registered: 
+ 
+ 
+ 
+ 
+ Common Stock , $0.0001 par value 
+ 
+ &#xa0; 
+ 
+ NEXT 
+ 
+ &#xa0; 
+ 
+ The Nasdaq Stock Market LLC 
+ 
+ 
+
+ 
+
+ &#xa0; 
+
+ Indicate by check mark whether the registrant is an emerging growth company as defined in Rule&#xa0;405 of the Securities Act of 1933 (230.405 of this chapter) or Rule&#xa0;12b-2 of the Securities Exchange Act of 1934 (240.12b-2 of this chapter). 
+
+ &#xa0; 
+
+ Emerging growth company&#xa0; 
+
+ &#xa0; 
+
+ If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section&#xa0;13(a) of the Exchange Act.&#xa0; 
+
+ 
+ &#xa0; 
+
+ 
+ &#xa0; 
+ 
+
+ &#xa0; 
+
+ &#xa0; 
+
+ &#xa0; 
+
+ Item 1.01. Entry into a Material Definitive Agreement. 
+
+ &#xa0; 
+
+ On February 3, 2023,&#xa0;NextDecade Corporation (the Company ) entered into a common stock purchase agreement (the Stock Purchase Agreement ) for a private placement (the Private Placement ) with HGC NEXT INV LLC and Ninteenth Investment Company LLC (each a Purchaser and collectively, the Purchasers ), pursuant to which the Company agreed to sell, and&#xa0;the Purchasers severally agreed to purchase, an aggregate of 5,835,277 shares of the Companys common stock, par value $0.0001 per share (the Common Stock ), at a purchase price of $5.998 per share, representing the average closing trading price of the Common Stock for the five trading days immediately preceding signing the Stock Purchase Agreement, for an aggregate&#xa0;purchase price of approximately $35.0 million.&#xa0; The Private Placement will close on or about February 8, 2023 (the Closing Date ). Each Purchaser is a stockholder of the Company that has the right to nominate a director to the Companys Board of Directors, and the directors nominated by the Purchasers did not participate in the approval of the Private Placement by the Companys Board of Directors. The Company will use the proceeds of the private placement to continue development activity in preparation for its anticipated positive final investment decision on the first three trains at its Rio Grande LNG project. 
+
+ &#xa0; 
+
+ The Stock Purchase Agreement includes customary representations, warranties and covenants from the Company and the Purchasers. Pursuant to the Stock Purchase Agreement, the Company agreed to indemnify the Purchasers and their respective affiliates (collectively, the Indemnified Parties ) from and against all claims, damages, losses and expenses (including fees and disbursements of counsel) incurred by the Indemnified Parties&#xa0;arising out of the Stock Purchase Agreement, except to the extent such claim, damages, loss or expense is found in a final order to have resulted from such Indemnified Partys bad faith, actual fraud, gross negligence or willful misconduct. 
+
+ &#xa0; 
+
+ Pursuant to the Stock Purchase Agreement, the Company will provide registration rights to the Purchasers substantially similar to the registration rights provided to each Purchaser under such Purchaser's existing Registration Rights Agreement, dated as of October 28, 2019 and April 6, 2022, respectively, by and between the Company and the respective Purchaser. Pursuant to the registration rights granted to the Purchasers, the Company will be required to file a registration statement within 90 days after the Closing Date with respect to the resale of shares of Common Stock held by the Purchasers. Additionally, the Purchasers may in certain instances elect to dispose of shares of Common Stock pursuant to an underwritten offering or engage in an underwritten block trade. The Purchasers will also have demand and piggy-back registration rights covering any shares of Common Stock held by the Purchasers. 
+
+ &#xa0; 
+
+ The shares to be issued to the Purchasers under the Stock Purchase Agreement were issued pursuant to an exemption from registration provided for under Section&#xa0;4(a)(2) of the Securities Act of 1933, as amended (the Securities Act ). 
+
+ &#xa0; 
+
+ The foregoing summary of the Stock Purchase Agreement does not purport to be complete and is qualified in its entirety by reference to the full text of the Stock Purchase Agreement, which is filed as Exhibit 10.1 hereto and incorporated herein by reference. 
+
+ &#xa0; 
+
+ No Offer or Solicitation 
+
+ &#xa0; 
+
+ THE INFORMATION CONTAINED IN THIS CURRENT REPORT ON FORM 8-K IS NOT AN OFFER TO SELL OR THE SOLICITATION OF AN OFFER TO BUY SHARES OF COMMON STOCK OR ANY OTHER SECURITIES OF THE COMPANY. THE SHARES OF COMMON STOCK HAVE NOT BEEN REGISTERED UNDER THE SECURITIES ACT AND MAY NOT BE OFFERED OR SOLD IN THE UNITED STATES ABSENT REGISTRATION UNDER THE SECURITIES ACT OR AN APPLICABLE EXEMPTION FROM THE REGISTRATION REQUIREMENTS OF THE SECURITIES ACT. THE COMPANY IS FILING THIS CURRENT REPORT ON FORM 8-K WITH THE UNITED STATES SECURITIES AND EXCHANGE COMMISSION FOR THE SOLE PURPOSE OF REPORTING ITS ENTRY INTO THE AGREEMENTS REFERENCED ABOVE, AS REQUIRED BY THE RULES AND REGULATIONS OF THE COMMISSION. 
+
+ &#xa0; 
+
+ &#xa0; 
+
+ Item 9.01. Financial Statements and Exhibits. 
+
+ &#xa0; 
+
+ (d) Exhibits. 
+
+ &#xa0; 
+
+ 
+
+ 
+ 
+ 10.1 
+ 
+ 
+ Common Stock Purchase Agreement, dated as of February 3, 2023, by and between the Company and the Purchasers. 
+ 
+ 
+ 
+ 
+ 104 
+ 
+ 
+ Cover Page Interactive Data File (embedded within the Inline XBRL document). 
+ 
+ 
+
+ 
+
+ &#xa0; 
+
+ &#xa0; 
+
+ 
+ &#xa0; 
+
+ 
+ &#xa0; 
+ 
+
+ &#xa0; 
+
+ &#xa0; 
+
+ SIGNATURE 
+
+ &#xa0; 
+
+ Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized. 
+
+ &#xa0; 
+
+ Dated: February 3,&#xa0;2023 
+
+ &#xa0; 
+
+ 
+
+ 
+ &#xa0; 
+ &#xa0; 
+ &#xa0; 
+ 
+ 
+ &#xa0; 
+ 
+ NEXTDECADE CORPORATION 
+ 
+ 
+ 
+ &#xa0; 
+ &#xa0; 
+ &#xa0; 
+ 
+ 
+ &#xa0; 
+ 
+ By: 
+ 
+ 
+ /s/ Vera de Gyarfas 
+ 
+ 
+ 
+ &#xa0; 
+ &#xa0; 
+ 
+ Name: Vera de Gyarfas 
+ 
+ 
+ 
+ &#xa0; 
+ &#xa0; 
+ 
+ Title: General Counsel 
+ 
+ 
+
+ 
+
+ &#xa0; 
+
+ &#xa0; 
+
+ 
+ 
+ 
+ &#xa0;

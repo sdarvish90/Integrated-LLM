@@ -1,0 +1,168 @@
+8-K 
+ 
+ 
+ false 0001333274 0001333274 2023-09-19 2023-09-19 UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, D.C. 20549 FORM 8-K CURRENT REPORT Pursuant to Section13 or 15(d) of the Securities Exchange Act of 1934 Date of Report (Date of earliest event reported): September 19, 2023 MERCER INTERNATIONAL INC. (Exact name of Registrant as Specified in Its Charter) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Washington 
+ 
+ 000-51826 
+ 
+ 47-0956945 
+ 
+ (State or Other Jurisdiction of Incorporation) 
+ 
+ (Commission File Number) 
+ 
+ (IRS Employer Identification No.) Suite 1120 , 700 West Pender Street , Vancouver , British Columbia , Canada , V6C 1G8 (Address of Principal Executive Offices) Registrants Telephone Number, Including Area Code: (604) 684-1099 Not Applicable (Former Name or Former Address, if Changed Since Last Report) Check the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions (see General Instructions A.2. below): 
+ 
+ 
+ 
+ Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425) 
+ 
+ 
+ 
+ Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12) 
+ 
+ 
+ 
+ Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b)) 
+ 
+ 
+ 
+ Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c)) Securities registered pursuant to Section12(b) of the Act: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Title of each class 
+ 
+ Trading Symbol(s) 
+ 
+ Name of each exchange on which registered 
+ 
+ Common Stock, par value $1.00 per share 
+ 
+ MERC 
+ 
+ NASDAQ Global Select Market Indicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (230.405 of this chapter) or Rule 12b-2 of the Securities Exchange Act of 1934 (240.12b-2 of this chapter). Emerging growth company If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section13(a) of the Exchange Act. 
+
+ 
+ 
+
+ 
+
+ 
+ 
+ ITEM2.02. 
+ Results of Operations and Financial Condition. In connection with a proposed private offering of senior notes described in Item 8.01 below, Mercer International Inc. (Mercer or the Company) prepared a preliminary offering memorandum that is being disseminated only to eligible investors, in which it provided the following information under the heading Recent Developments. Current Market Environment As at June30, 2023, NBSK list prices in Europe and North America were approximately $1,200 per ADMT and $1,420 per ADMT, respectively and NBSK net prices in China were approximately $648 per ADMT. Prices for China are net of discounts, allowances and rebates. Pulp prices are highly cyclical and subject to fluctuations. As at June30, 2023, the U.S. benchmark lumber prices for Western SPF No.2 and better was approximately $420 per Mfbm. There is no similar or common pricing metric quoted in the European market. In the third quarter of 2023 to date, the U.S. benchmark lumber prices for Western SPF No.2 and better after initially modestly increasing have settled back to be largely unchanged at $420 per Mfbm at the end of August. In the third quarter of 2023 to date, NBSK list prices have increased in China and averaged $670 per ADMT in August. NBSK pulp prices in Europe and North America were slightly lower in August. In the same period, NBHK list prices have increased in China to $530 per ADMT in August from $495 per ADMT in June. The Company currently expects to have a total of 37 days of downtime (approximately, 45,350 ADMTs) at its pulp mills in the third quarter of 2023, comprised of 14 days of annual maintenance downtime and an aggregate of approximately 23 days downtime. The Company does not currently expect any downtime at its solid wood facilities in the third quarter of 2023. The third quarter of 2023 has not yet completed and the actual amount of downtime may differ from the above due to developments that may arise between now and the end of the quarter. In addition, the Companys expectations regarding pulp and lumber prices are based on information currently available to us and are subject to change. Actual prices and trends may be materially different from the Companys current expectations. Expansion of Pan-German Revolving Credit Facility In September 2023, the Company received commitments from the lending syndicate for its German revolving credit facility to increase it by 70million to 370million from 300million. The Company expects to complete the formal amendment to the facility shortly. 
+ 
+ 
+ ITEM8.01. 
+ Other Events. On September 19, 2023, the Company issued a press release announcing its proposed offering (the Note Offering) of an aggregate of $200.0million principal amount of senior notes due 2028 (the 2028 Notes). The Company intends to use the net proceeds of the Note Offering to pay down borrowings under its Canadian revolving credit facility, and for working capital and general corporate purposes, including discretionary capital projects at its facilities. The 2028 Notes will be offered and sold to qualified institutional buyers in reliance on Rule 144A under the Securities Act of 1933, as amended (the Securities Act), and outside the United States to non-U.S. persons in reliance on Regulation S under the Securities Act. The Companys press release dated September 19, 2023 is attached hereto as Exhibit 99.1 and is incorporated herein by reference. The information contained in Item 2.02 and this Item 8.01 in this Current Report on Form 8-K, including Exhibit 99.1 is being furnished and shall not be deemed to be filed for the purposes of Section18 of the Securities Exchange Act of 1934, as amended (the Exchange Act) or otherwise be subject to the liabilities of that section, and shall not be deemed to be incorporated by reference into any of the Companys filings under the Securities Act or the Exchange Act, whether made before or after the date hereof and regardless of any general incorporation language in such filings, except to the extent expressly set forth by specific reference in such a filing. This Current Report on Form 8-K does not constitute an offer to sell, or a solicitation of an offer to buy, the 2028 Notes or any security, and shall not constitute an offer, solicitation or sale in any jurisdiction in which such offering would be unlawful. 
+ 
+
+ 
+ 
+
+ 
+ Forward-Looking Statements This Current Report on Form 8-K contains forward looking statements within the meaning of federal securities laws and is intended to qualify for the safe harbor from liability established by the Private Securities Litigation Reform Act of 1995. Forward looking statements generally can be identified by the use of forward looking terminology such as assumptions, expects, anticipates, projects, intends, designed, will, believes, estimates, may, could, plans (or the negative of other derivatives of each of these terms) or similar terminology and involve unknown risks and uncertainties which may cause the Companys actual results in future periods to differ materially from forecasted results. The forward looking statements include, without limitation, statements regarding estimated downtime at the Companys facilities, the Companys expectations regarding the expansion of its German revolving credit facility and the Companys intentions regarding the consummation of the offering of the 2028 Notes and the intended use of proceeds. These statements are based on the Companys managements estimates and assumptions with respect to future events, which include uncertainty as to its ability to consummate the proposed offering of debt securities, which estimates are believed to be reasonable, though are inherently uncertain and difficult to predict. A discussion of factors that could cause actual results to vary is included in the Companys Annual Report on Form 10-K, as amended, and other periodic reports filed with the Securities and Exchange Commission. 
+ 
+ 
+ ITEM9.01. 
+ Financial Statements and Exhibits. (d) Exhibits. 
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ Exhibit Number 
+ 
+ Description 
+
+ 
+ 
+ 
+ 
+ 99.1 
+ 
+ Press release of the Company dated September 19, 2023. 
+ 
+ 
+ 
+ 
+ 104 
+ 
+ Cover Page Interactive Data File (embedded within the Inline XBRL document). 
+ 
+ 
+
+ 
+ 
+
+ 
+ SIGNATURES Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned thereunto duly authorized. 
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ MERCER INTERNATIONAL INC. 
+ 
+ 
+ 
+ 
+ 
+ 
+ Date: September 19, 2023 
+ 
+ 
+ 
+ By: 
+ 
+ /s/ Richard Short 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Richard Short 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Chief Financial Officer

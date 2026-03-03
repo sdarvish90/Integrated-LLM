@@ -1,0 +1,4335 @@
+{
+  "phases": {
+    "phase1": {
+      "orphaned_claims_no_document": {
+        "verdict": "PASS",
+        "detail": "0 orphaned"
+      },
+      "project_claims_bad_project": {
+        "verdict": "PASS",
+        "detail": "0 broken"
+      },
+      "project_claims_bad_claim": {
+        "verdict": "PASS",
+        "detail": "0 broken"
+      },
+      "entity_aliases_bad_entity": {
+        "verdict": "PASS",
+        "detail": "0 broken"
+      },
+      "duplicate_entities": {
+        "verdict": "PASS",
+        "detail": "0 duplicate groups"
+      },
+      "duplicate_companies": {
+        "verdict": "PASS",
+        "detail": "0 duplicate groups"
+      },
+      "future_dated_claims": {
+        "verdict": "WARN",
+        "detail": "769 claims"
+      },
+      "orphaned_accumulators": {
+        "verdict": "PASS",
+        "detail": "0 orphaned"
+      },
+      "parent_company_literals": {
+        "verdict": "PASS",
+        "detail": "0 found"
+      },
+      "active_projects_no_claims": {
+        "verdict": "INFO",
+        "detail": "0 projects"
+      },
+      "claims_pc_count_match": {
+        "verdict": "PASS",
+        "detail": "claims=31934, project_claims=31934"
+      },
+      "duplicate_claims": {
+        "verdict": "PASS",
+        "detail": "0 duplicate groups"
+      },
+      "false_positive_crossrefs": {
+        "verdict": "PASS",
+        "detail": "0 false positives"
+      }
+    },
+    "phase2": {
+      "frs_110000460885": {
+        "verdict": "VERIFIED",
+        "detail": "VALERO PARTNERS HOUSTON \u2014 34 DB programs, 34 API programs"
+      },
+      "frs_110000462776": {
+        "verdict": "VERIFIED",
+        "detail": "SYNGENTA CROP PROTECTION \u2014 12 DB programs, 12 API programs"
+      },
+      "frs_110000463212": {
+        "verdict": "VERIFIED",
+        "detail": "EQUISTAR CHEMICALS CHANNELVIEW COMPLEX \u2014 22 DB programs, 22 API programs"
+      },
+      "frs_110000463686": {
+        "verdict": "VERIFIED",
+        "detail": "DOW CHEMICAL LA PORTE SITE \u2014 12 DB programs, 12 API programs"
+      },
+      "frs_110000463828": {
+        "verdict": "VERIFIED",
+        "detail": "UNION CARBIDE \u2014 28 DB programs, 28 API programs"
+      },
+      "frs_110000464006": {
+        "verdict": "VERIFIED",
+        "detail": "VALERO PORT ARTHUR REFINERY \u2014 25 DB programs, 25 API programs"
+      },
+      "frs_110000464024": {
+        "verdict": "VERIFIED",
+        "detail": "PORT ARTHUR REFINERY \u2014 45 DB programs, 45 API programs"
+      },
+      "frs_110000499050": {
+        "verdict": "VERIFIED",
+        "detail": "GEO SPECIALTY CHEMICALS \u2014 20 DB programs, 20 API programs"
+      },
+      "frs_110000505524": {
+        "verdict": "VERIFIED",
+        "detail": "UNION CARBIDE TEXAS CITY \u2014 26 DB programs, 26 API programs"
+      },
+      "frs_110000606835": {
+        "verdict": "VERIFIED",
+        "detail": "NALCO CHAMPION CORSICANA FACILITY \u2014 21 DB programs, 21 API programs"
+      },
+      "frs_110000743900": {
+        "verdict": "VERIFIED",
+        "detail": "BEAUMONT PLANT \u2014 11 DB programs, 11 API programs"
+      },
+      "frs_110001870002": {
+        "verdict": "VERIFIED",
+        "detail": "NORTH TERMINAL \u2014 9 DB programs, 9 API programs"
+      },
+      "frs_110001875695": {
+        "verdict": "VERIFIED",
+        "detail": "PORT ARTHUR TANK FARM \u2014 8 DB programs, 8 API programs"
+      },
+      "frs_110007175154": {
+        "verdict": "VERIFIED",
+        "detail": "UCC SEADRIFT OPERATIONS \u2014 27 DB programs, 27 API programs"
+      },
+      "frs_110007177768": {
+        "verdict": "VERIFIED",
+        "detail": "CHEVRON PHILLIPS CHEMICAL CEDAR BAYOU PLANT \u2014 15 DB programs, 15 API programs"
+      },
+      "frs_110008160952": {
+        "verdict": "VERIFIED",
+        "detail": "GARDEN VILLE FERTILIZER \u2014 2 DB programs, 2 API programs"
+      },
+      "frs_110015743301": {
+        "verdict": "VERIFIED",
+        "detail": "TEPPCO CEDAR BAYOU TERMINAL \u2014 22 DB programs, 22 API programs"
+      },
+      "frs_110028187049": {
+        "verdict": "VERIFIED",
+        "detail": "BP AMOCO TEXAS CITY CHEMICAL PLANT DOCKS \u2014 29 DB programs, 29 API programs"
+      },
+      "frs_110031389192": {
+        "verdict": "VERIFIED",
+        "detail": "CELANESE BAY CITY PLANT \u2014 25 DB programs, 25 API programs"
+      },
+      "frs_110033818723": {
+        "verdict": "VERIFIED",
+        "detail": "KEMIRON GULF \u2014 1 DB programs, 1 API programs"
+      },
+      "frs_110034207686": {
+        "verdict": "VERIFIED",
+        "detail": "ENERGY TRANSFER FUEL AUBREY COMPRESSOR STATION \u2014 1 DB programs, 1 API programs"
+      },
+      "frs_110034280524": {
+        "verdict": "VERIFIED",
+        "detail": "LONE STAR NGL MONT BELVIEU PRODUCTS TERMINAL \u2014 2 DB programs, 2 API programs"
+      },
+      "frs_110034285226": {
+        "verdict": "VERIFIED",
+        "detail": "DALLAS CLEAN ENERGY FACILITY \u2014 5 DB programs, 5 API programs"
+      },
+      "frs_110035131728": {
+        "verdict": "VERIFIED",
+        "detail": "SHELL PIPELINE EL VISTA TANK FARM \u2014 3 DB programs, 3 API programs"
+      },
+      "frs_110037976946": {
+        "verdict": "VERIFIED",
+        "detail": "PORT ARTHUR REFINERY \u2014 2 DB programs, 2 API programs"
+      },
+      "frs_110041990913": {
+        "verdict": "VERIFIED",
+        "detail": "EXXONMOBIL BEAUMONT REFINERY \u2014 30 DB programs, 30 API programs"
+      },
+      "frs_110056967368": {
+        "verdict": "VERIFIED",
+        "detail": "MARATHON PETROLEUM TEXAS CITY REFINERY \u2014 11 DB programs, 11 API programs"
+      },
+      "frs_110067040703": {
+        "verdict": "VERIFIED",
+        "detail": "PRAXAIR CLEAR LAKE PLANT \u2014 60 DB programs, 60 API programs"
+      },
+      "frs_110070934284": {
+        "verdict": "VERIFIED",
+        "detail": "PEROXYCHEM BAYPORT TEXAS FACILITY \u2014 15 DB programs, 15 API programs"
+      },
+      "frs_110071046351": {
+        "verdict": "VERIFIED",
+        "detail": "ETHANE CRACKER \u2014 10 DB programs, 10 API programs"
+      },
+      "frs_110071719487": {
+        "verdict": "VERIFIED",
+        "detail": "WESTERN REFINING EL PASO ALL SITES \u2014 43 DB programs, 43 API programs"
+      },
+      "frs_110072129444": {
+        "verdict": "VERIFIED",
+        "detail": "HUNTSMAN PORT NECHES \u2014 8 DB programs, 8 API programs"
+      }
+    },
+    "phase3": {
+      "doe_DECD0000106": {
+        "verdict": "VERIFIED",
+        "detail": "CLEVELAND-CLIFFS STEEL \u2192 API: CLEVELAND-CLIFFS STEEL CORPORATION, $500,000,000, name_match=True"
+      },
+      "doe_DECD0000108": {
+        "verdict": "VERIFIED",
+        "detail": "EXXON MOBIL \u2192 API: EXXON MOBIL CORPORATION, $331,885,548, name_match=True"
+      },
+      "doe_DECD0000080": {
+        "verdict": "VERIFIED",
+        "detail": "TECHNIP ENERGIES USA \u2192 API: TECHNIP ENERGIES USA, INC., $200,000,000, name_match=True"
+      },
+      "doe_DECD0000081": {
+        "verdict": "VERIFIED",
+        "detail": "ORSTED STAR P2X \u2192 API: ORSTED STAR P2X LLC, $99,000,000, name_match=True"
+      },
+      "doe_DECD0000099": {
+        "verdict": "VERIFIED",
+        "detail": "CONSTELLIUM ROLLED PRODUCTS RAVENSWOOD \u2192 API: CONSTELLIUM ROLLED PRODUCTS RAVENSWOOD, LLC, $75,000,000, name_match=True"
+      },
+      "doe_DECD0000094": {
+        "verdict": "VERIFIED",
+        "detail": "REAL ALLOY RECYCLING, LLC. \u2192 API: REAL ALLOY RECYCLING, LLC., $67,314,320, name_match=True"
+      },
+      "doe_DEEE0011302": {
+        "verdict": "VERIFIED",
+        "detail": "PROTON ENERGY SYSTEMS \u2192 API: PROTON ENERGY SYSTEMS INC, $49,550,000, name_match=True"
+      },
+      "doe_DECD0000041": {
+        "verdict": "VERIFIED",
+        "detail": "ARCHES H2 \u2192 API: ARCHES H2 LLC, $30,000,000, name_match=True"
+      },
+      "doe_DEEE0011342": {
+        "verdict": "VERIFIED",
+        "detail": "BALLARD US \u2192 API: BALLARD US INC., $29,800,000, name_match=True"
+      },
+      "doe_DECD0000043": {
+        "verdict": "VERIFIED",
+        "detail": "BATTELLE MEMORIAL INSTITUTE \u2192 API: BATTELLE MEMORIAL INSTITUTE, $29,681,912, name_match=True"
+      },
+      "doe_DECD0000040": {
+        "verdict": "VERIFIED",
+        "detail": "PACIFIC NORTHWEST HYDROGEN ASSOCIATION \u2192 API: PACIFIC NORTHWEST HYDROGEN ASSOCIATION, $27,500,000, name_match=True"
+      },
+      "doe_DEEE0009860": {
+        "verdict": "VERIFIED",
+        "detail": "DAIMLER TRUCK NORTH AMERICA \u2192 API: DAIMLER TRUCK NORTH AMERICA LLC, $23,291,563, name_match=True"
+      },
+      "doe_DECD0000039": {
+        "verdict": "VERIFIED",
+        "detail": "MIDWEST ALLIANCE FOR CLEAN HYDROGEN \u2192 API: MIDWEST ALLIANCE FOR CLEAN HYDROGEN, LLC, $22,248,698, name_match=True"
+      },
+      "doe_DECD0000038": {
+        "verdict": "VERIFIED",
+        "detail": "HYVELOCITY \u2192 API: HYVELOCITY, LLC, $21,962,062, name_match=True"
+      },
+      "doe_DECD0000042": {
+        "verdict": "VERIFIED",
+        "detail": "HEARTLAND HYDROGEN HUB \u2192 API: HEARTLAND HYDROGEN HUB, LLC, $20,000,000, name_match=True"
+      },
+      "doe_DECD0000044": {
+        "verdict": "VERIFIED",
+        "detail": "MID-ATLANTIC CLEAN HYDROGEN HUB \u2192 API: MID-ATLANTIC CLEAN HYDROGEN HUB, INC., $18,817,369, name_match=True"
+      },
+      "doe_DESC0023450": {
+        "verdict": "VERIFIED",
+        "detail": "NORTHWESTERN UNIVERSITY \u2192 API: NORTHWESTERN UNIVERSITY, $10,350,000, name_match=True"
+      },
+      "doe_DEEE0011312": {
+        "verdict": "VERIFIED",
+        "detail": "MOTT \u2192 API: MOTT CORP, $10,000,000, name_match=True"
+      },
+      "doe_DEEE0011523": {
+        "verdict": "VERIFIED",
+        "detail": "FIRSTELEMENT FUEL \u2192 API: FIRSTELEMENT FUEL INC., $9,550,000, name_match=True"
+      },
+      "doe_DEEE0011525": {
+        "verdict": "VERIFIED",
+        "detail": "LINDE \u2192 API: LINDE INC., $9,500,000, name_match=True"
+      },
+      "doe_DEEE0011351": {
+        "verdict": "VERIFIED",
+        "detail": "MATERIC \u2192 API: MATERIC LLC, $9,250,000, name_match=True"
+      },
+      "doe_DESC0002106": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF ROCHESTER \u2192 API: UNIVERSITY OF ROCHESTER, $8,990,000, name_match=True"
+      },
+      "doe_DEEE0010843": {
+        "verdict": "VERIFIED",
+        "detail": "PURDUE UNIVERSITY \u2192 API: PURDUE UNIVERSITY, $8,861,243, name_match=True"
+      },
+      "doe_DEEE0011318": {
+        "verdict": "VERIFIED",
+        "detail": "POWER TO HYDROGEN \u2192 API: POWER TO HYDROGEN LLC, $6,602,155, name_match=True"
+      },
+      "doe_DEFE0032173": {
+        "verdict": "VERIFIED",
+        "detail": "GE VERNOVA OPERATIONS \u2192 API: GE VERNOVA OPERATIONS LLC, $6,564,013, name_match=True"
+      },
+      "doe_DEEE0011314": {
+        "verdict": "VERIFIED",
+        "detail": "ESPIN TECHNOLOGIES \u2192 API: ESPIN TECHNOLOGIES, INC., $6,344,564, name_match=True"
+      },
+      "doe_DEEE0011105": {
+        "verdict": "VERIFIED",
+        "detail": "LINDE ENGINEERING NORTH AMERICA \u2192 API: LINDE ENGINEERING NORTH AMERICA LLC, $5,461,173, name_match=True"
+      },
+      "doe_DEEE0011496": {
+        "verdict": "VERIFIED",
+        "detail": "WEST VIRGINIA UNIVERSITY RESEARCH \u2192 API: WEST VIRGINIA UNIVERSITY RESEARCH CORPORATION, $5,000,000, name_match=True"
+      },
+      "doe_DEEE0011331": {
+        "verdict": "VERIFIED",
+        "detail": "TETRAMER TECHNOLOGIES \u2192 API: TETRAMER TECHNOLOGIES LLC, $4,999,994, name_match=True"
+      },
+      "doe_DEFE0032337": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF WYOMING \u2192 API: UNIVERSITY OF WYOMING, $4,997,679, name_match=True"
+      },
+      "doe_DEEE0011323": {
+        "verdict": "VERIFIED",
+        "detail": "CLEMSON UNIVERSITY \u2192 API: CLEMSON UNIVERSITY, $4,902,057, name_match=True"
+      },
+      "doe_DEEE0011326": {
+        "verdict": "VERIFIED",
+        "detail": "PROTON ENERGY SYSTEMS \u2192 API: PROTON ENERGY SYSTEMS INC, $4,900,000, name_match=True"
+      },
+      "doe_DEFE0032171": {
+        "verdict": "VERIFIED",
+        "detail": "RTX \u2192 API: RTX CORPORATION, $4,797,615, name_match=True"
+      },
+      "doe_DEEE0009422": {
+        "verdict": "VERIFIED",
+        "detail": "CATERPILLAR \u2192 API: CATERPILLAR, INC, $4,550,000, name_match=True"
+      },
+      "doe_DEEE0011203": {
+        "verdict": "VERIFIED",
+        "detail": "NOBLE THERMODYNAMIC SYSTEMS \u2192 API: NOBLE THERMODYNAMIC SYSTEMS INC, $4,250,647, name_match=True"
+      },
+      "doe_DEEE0011334": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF NORTH DAKOTA \u2192 API: UNIVERSITY OF NORTH DAKOTA, $4,199,888, name_match=True"
+      },
+      "doe_DESC0005404": {
+        "verdict": "VERIFIED",
+        "detail": "MONTANA STATE UNIVERSITY \u2192 API: MONTANA STATE UNIVERSITY, $4,132,238, name_match=True"
+      },
+      "doe_DEFG0205ER15731": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF WISCONSIN SYSTEM \u2192 API: UNIVERSITY OF WISCONSIN SYSTEM, $4,070,000, name_match=True"
+      },
+      "doe_DEEE0008851": {
+        "verdict": "VERIFIED",
+        "detail": "ORLANDO UTILITIES COMMISSION \u2192 API: ORLANDO UTILITIES COMMISSION, $4,000,000, name_match=True"
+      },
+      "doe_DEEE0010996": {
+        "verdict": "VERIFIED",
+        "detail": "CITY OF ST CLOUD \u2192 API: CITY OF ST CLOUD, $3,675,000, name_match=True"
+      },
+      "doe_DEEE0009250": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF MISSOURI SYSTEM \u2192 API: UNIVERSITY OF MISSOURI SYSTEM, $3,619,426, name_match=True"
+      },
+      "doe_DEFG0205ER15712": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF NEW MEXICO \u2192 API: UNIVERSITY OF NEW MEXICO, $3,615,000, name_match=True"
+      },
+      "doe_DEEE0011101": {
+        "verdict": "VERIFIED",
+        "detail": "RTX \u2192 API: RTX CORPORATION, $3,549,497, name_match=True"
+      },
+      "doe_DESC0024724": {
+        "verdict": "VERIFIED",
+        "detail": "ARIZONA STATE UNIVERSITY \u2192 API: ARIZONA STATE UNIVERSITY, $3,500,000, name_match=True"
+      },
+      "doe_DEFE0032276": {
+        "verdict": "VERIFIED",
+        "detail": "COLORADO STATE UNIVERSITY \u2192 API: COLORADO STATE UNIVERSITY, $3,468,844, name_match=True"
+      },
+      "doe_DEFG0203ER15411": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF HAWAII \u2192 API: UNIVERSITY OF HAWAII, $3,449,509, name_match=True"
+      },
+      "doe_DEAR0001567": {
+        "verdict": "VERIFIED",
+        "detail": "THE TRUSTEES OF COLUMBIA UNIVERSITY IN THE CITY OF NEW YORK \u2192 API: THE TRUSTEES OF COLUMBIA UNIVERSITY IN THE CITY OF NEW YORK, $3,403,712, name_match=True"
+      },
+      "doe_DESC0023357": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF MARYLAND, COLLEGE PARK \u2192 API: UNIVERSITY OF MARYLAND, COLLEGE PARK, $3,388,000, name_match=True"
+      },
+      "doe_DEAR0002076": {
+        "verdict": "VERIFIED",
+        "detail": "WASHINGTON STATE UNIVERSITY \u2192 API: WASHINGTON STATE UNIVERSITY, $3,322,415, name_match=True"
+      },
+      "doe_DEEE0010606": {
+        "verdict": "VERIFIED",
+        "detail": "CATERPILLAR \u2192 API: CATERPILLAR, INC, $3,268,784, name_match=True"
+      },
+      "doe_DESC0023376": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF SOUTH CAROLINA \u2192 API: UNIVERSITY OF SOUTH CAROLINA, $3,181,725, name_match=True"
+      },
+      "doe_DEEE0011336": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF OKLAHOMA \u2192 API: UNIVERSITY OF OKLAHOMA, $3,141,250, name_match=True"
+      },
+      "doe_DEAR0001019": {
+        "verdict": "VERIFIED",
+        "detail": "THE JOHNS HOPKINS UNIVERSITY \u2192 API: THE JOHNS HOPKINS UNIVERSITY, $3,120,065, name_match=True"
+      },
+      "doe_DEEE0010842": {
+        "verdict": "VERIFIED",
+        "detail": "CARNEGIE MELLON UNIVERSITY \u2192 API: CARNEGIE MELLON UNIVERSITY, $3,109,435, name_match=True"
+      },
+      "doe_DEFG0202ER15296": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF ILLINOIS \u2192 API: UNIVERSITY OF ILLINOIS, $3,010,255, name_match=True"
+      },
+      "doe_DEFE0031986": {
+        "verdict": "VERIFIED",
+        "detail": "NEXTECH MATERIALS \u2192 API: NEXTECH MATERIALS, LTD., $3,000,000, name_match=True"
+      },
+      "doe_DEEE0010706": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF TOLEDO \u2192 API: UNIVERSITY OF TOLEDO, $3,000,000, name_match=True"
+      },
+      "doe_DEFE0031975": {
+        "verdict": "VERIFIED",
+        "detail": "PHILLIPS 66 \u2192 API: PHILLIPS 66 COMPANY, $2,986,549, name_match=True"
+      },
+      "doe_DEFE0032542": {
+        "verdict": "VERIFIED",
+        "detail": "LEHIGH UNIVERSITY \u2192 API: LEHIGH UNIVERSITY, $2,954,021, name_match=True"
+      },
+      "doe_DEEE0011439": {
+        "verdict": "VERIFIED",
+        "detail": "CLEMSON UNIVERSITY \u2192 API: CLEMSON UNIVERSITY, $2,900,000, name_match=True"
+      },
+      "doe_DEFG0207ER46431": {
+        "verdict": "VERIFIED",
+        "detail": "TRUSTEES OF THE UNIVERSITY OF PENNSYLVANIA, THE \u2192 API: TRUSTEES OF THE UNIVERSITY OF PENNSYLVANIA, THE, $2,845,000, name_match=True"
+      },
+      "doe_DESC0023465": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF PITTSBURGH - OF THE COMMONWEALTH SYSTEM OF HIGHER EDUCATION \u2192 API: UNIVERSITY OF PITTSBURGH - OF THE COMMONWEALTH SYSTEM OF HIGHER EDUCATION, $2,746,043, name_match=True"
+      },
+      "doe_DEEE0011177": {
+        "verdict": "VERIFIED",
+        "detail": "DUMAREY USA \u2192 API: DUMAREY USA LLC, $2,734,162, name_match=True"
+      },
+      "doe_DEEE0011200": {
+        "verdict": "VERIFIED",
+        "detail": "COMBUSTION SCIENCE & ENGINEERING \u2192 API: COMBUSTION SCIENCE & ENGINEERING, INC., $2,602,145, name_match=True"
+      },
+      "doe_DEEE0011325": {
+        "verdict": "VERIFIED",
+        "detail": "CHEMTRONERGY \u2192 API: CHEMTRONERGY LLC, $2,600,196, name_match=True"
+      },
+      "doe_DEEE0011175": {
+        "verdict": "VERIFIED",
+        "detail": "PACCAR \u2192 API: PACCAR INC, $2,585,000, name_match=True"
+      },
+      "doe_DEEE0010604": {
+        "verdict": "VERIFIED",
+        "detail": "MICHIGAN TECHNOLOGICAL UNIVERSITY \u2192 API: MICHIGAN TECHNOLOGICAL UNIVERSITY, $2,540,848, name_match=True"
+      },
+      "doe_DEAR0001981": {
+        "verdict": "VERIFIED",
+        "detail": "SERINUS LABS \u2192 API: SERINUS LABS, INC., $2,540,659, name_match=True"
+      },
+      "doe_DEEE0011102": {
+        "verdict": "VERIFIED",
+        "detail": "KOMATSU AMERICA \u2192 API: KOMATSU AMERICA CORP, $2,520,955, name_match=True"
+      },
+      "doe_DESC0021783": {
+        "verdict": "VERIFIED",
+        "detail": "MAAT ENERGY CO \u2192 API: MAAT ENERGY CO, $2,500,000, name_match=True"
+      },
+      "doe_DESC0026131": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF SOUTH CAROLINA \u2192 API: UNIVERSITY OF SOUTH CAROLINA, $2,499,999, name_match=True"
+      },
+      "doe_DEFE0032361": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF TEXAS AT AUSTIN \u2192 API: UNIVERSITY OF TEXAS AT AUSTIN, $2,476,301, name_match=True"
+      },
+      "doe_DESC0020557": {
+        "verdict": "VERIFIED",
+        "detail": "AMSEN TECHNOLOGIES \u2192 API: AMSEN TECHNOLOGIES LLC, $2,467,403, name_match=True"
+      },
+      "doe_DEEE0011653": {
+        "verdict": "VERIFIED",
+        "detail": "DRG TECHNICAL SOLUTIONS \u2192 API: DRG TECHNICAL SOLUTIONS LLC, $2,440,998, name_match=True"
+      },
+      "doe_DEAR0001982": {
+        "verdict": "VERIFIED",
+        "detail": "NORTHEASTERN UNIVERSITY \u2192 API: NORTHEASTERN UNIVERSITY, $2,430,000, name_match=True"
+      },
+      "doe_DESC0015303": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF NORTH CAROLINA AT CHAPEL HILL \u2192 API: UNIVERSITY OF NORTH CAROLINA AT CHAPEL HILL, $2,392,372, name_match=True"
+      },
+      "doe_DEEE0010992": {
+        "verdict": "VERIFIED",
+        "detail": "CAROLLO ENGINEERS \u2192 API: CAROLLO ENGINEERS INC, $2,314,000, name_match=True"
+      },
+      "doe_DESC0019981": {
+        "verdict": "VERIFIED",
+        "detail": "TDA RESEARCH \u2192 API: TDA RESEARCH, INC., $2,198,569, name_match=True"
+      },
+      "doe_DEEE0010280": {
+        "verdict": "VERIFIED",
+        "detail": "COLORADO STATE UNIVERSITY \u2192 API: COLORADO STATE UNIVERSITY, $2,193,685, name_match=True"
+      },
+      "doe_DEEE0010849": {
+        "verdict": "VERIFIED",
+        "detail": "WEST VIRGINIA UNIVERSITY RESEARCH \u2192 API: WEST VIRGINIA UNIVERSITY RESEARCH CORPORATION, $2,166,000, name_match=True"
+      },
+      "doe_DESC0018222": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF MISSOURI SYSTEM \u2192 API: UNIVERSITY OF MISSOURI SYSTEM, $2,113,606, name_match=True"
+      },
+      "doe_DEEE0009802": {
+        "verdict": "VERIFIED",
+        "detail": "TEXAS TECH UNIVERSITY SYSTEM \u2192 API: TEXAS TECH UNIVERSITY SYSTEM, $2,036,276, name_match=True"
+      },
+      "doe_DEEE0010747": {
+        "verdict": "VERIFIED",
+        "detail": "OCO \u2192 API: OCO, INC, $2,031,989, name_match=True"
+      },
+      "doe_DEEE0010213": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF SOUTHERN CALIFORNIA \u2192 API: UNIVERSITY OF SOUTHERN CALIFORNIA, $2,000,000, name_match=True"
+      },
+      "doe_DEEE0008315": {
+        "verdict": "VERIFIED",
+        "detail": "ECOCATALYTIC \u2192 API: ECOCATALYTIC INC, $2,000,000, name_match=True"
+      },
+      "doe_DESC0023354": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF ROCHESTER \u2192 API: UNIVERSITY OF ROCHESTER, $1,986,800, name_match=True"
+      },
+      "doe_DEEE0010302": {
+        "verdict": "VERIFIED",
+        "detail": "WASHINGTON STATE UNIVERSITY \u2192 API: WASHINGTON STATE UNIVERSITY, $1,975,000, name_match=True"
+      },
+      "doe_DEFE0031930": {
+        "verdict": "VERIFIED",
+        "detail": "MEDIA AND PROCESS TECHNOLOGY \u2192 API: MEDIA AND PROCESS TECHNOLOGY INC, $1,909,350, name_match=True"
+      },
+      "doe_DEAR0001192": {
+        "verdict": "VERIFIED",
+        "detail": "THE LELAND STANFORD JUNIOR UNIVERSITY \u2192 API: THE LELAND STANFORD JUNIOR UNIVERSITY, $1,875,744, name_match=True"
+      },
+      "doe_DEEE0008421": {
+        "verdict": "VERIFIED",
+        "detail": "PLUG POWER \u2192 API: PLUG POWER INC., $1,797,216, name_match=True"
+      },
+      "doe_DESC0026089": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF ROCHESTER \u2192 API: UNIVERSITY OF ROCHESTER, $1,746,383, name_match=True"
+      },
+      "doe_DESC0023679": {
+        "verdict": "VERIFIED",
+        "detail": "FLORIDA A & M UNIVERSITY \u2192 API: FLORIDA A & M UNIVERSITY, $1,695,000, name_match=True"
+      },
+      "doe_DEEE0010870": {
+        "verdict": "VERIFIED",
+        "detail": "HERTHA METALS \u2192 API: HERTHA METALS, INC., $1,651,316, name_match=True"
+      },
+      "doe_DEFE0032183": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF NORTH DAKOTA \u2192 API: UNIVERSITY OF NORTH DAKOTA, $1,600,000, name_match=True"
+      },
+      "doe_DEFE0032178": {
+        "verdict": "VERIFIED",
+        "detail": "WASHINGTON UNIVERSITY, THE \u2192 API: WASHINGTON UNIVERSITY, THE, $1,600,000, name_match=True"
+      },
+      "doe_DEFE0032175": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF UTAH \u2192 API: UNIVERSITY OF UTAH, $1,593,376, name_match=True"
+      },
+      "doe_DEFE0032214": {
+        "verdict": "VERIFIED",
+        "detail": "AUBURN UNIVERSITY \u2192 API: AUBURN UNIVERSITY, $1,574,002, name_match=True"
+      },
+      "doe_DEAR0001843": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF ALASKA FAIRBANKS \u2192 API: UNIVERSITY OF ALASKA FAIRBANKS, $1,572,942, name_match=True"
+      },
+      "doe_DEAR0001571": {
+        "verdict": "VERIFIED",
+        "detail": "GE VERNOVA OPERATIONS \u2192 API: GE VERNOVA OPERATIONS LLC, $1,567,813, name_match=True"
+      },
+      "doe_DEFE0032477": {
+        "verdict": "VERIFIED",
+        "detail": "TEXAS TECH UNIVERSITY SYSTEM \u2192 API: TEXAS TECH UNIVERSITY SYSTEM, $1,500,000, name_match=True"
+      },
+      "doe_DEFE0032358": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF NORTH DAKOTA \u2192 API: UNIVERSITY OF NORTH DAKOTA, $1,500,000, name_match=True"
+      },
+      "doe_DEEE0010218": {
+        "verdict": "VERIFIED",
+        "detail": "MASSACHUSETTS INSTITUTE OF TECHNOLOGY \u2192 API: MASSACHUSETTS INSTITUTE OF TECHNOLOGY, $1,500,000, name_match=True"
+      },
+      "doe_DEFE0032484": {
+        "verdict": "VERIFIED",
+        "detail": "THE UNIVERSITY OF TEXAS AT EL PASO \u2192 API: THE UNIVERSITY OF TEXAS AT EL PASO, $1,499,999, name_match=True"
+      },
+      "doe_DEFE0032479": {
+        "verdict": "VERIFIED",
+        "detail": "THE LELAND STANFORD JUNIOR UNIVERSITY \u2192 API: THE LELAND STANFORD JUNIOR UNIVERSITY, $1,499,995, name_match=True"
+      },
+      "doe_DEFE0032327": {
+        "verdict": "VERIFIED",
+        "detail": "VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY \u2192 API: VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY, $1,499,990, name_match=True"
+      },
+      "doe_DEEE0010745": {
+        "verdict": "VERIFIED",
+        "detail": "SRI \u2192 API: SRI INTERNATIONAL, $1,499,799, name_match=True"
+      },
+      "doe_DEFE0032191": {
+        "verdict": "VERIFIED",
+        "detail": "WEST VIRGINIA UNIVERSITY RESEARCH \u2192 API: WEST VIRGINIA UNIVERSITY RESEARCH CORPORATION, $1,498,751, name_match=True"
+      },
+      "doe_DEFE0032349": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF TEXAS AT AUSTIN \u2192 API: UNIVERSITY OF TEXAS AT AUSTIN, $1,483,490, name_match=True"
+      },
+      "doe_DEEE0010214": {
+        "verdict": "VERIFIED",
+        "detail": "WEST VIRGINIA UNIVERSITY RESEARCH \u2192 API: WEST VIRGINIA UNIVERSITY RESEARCH CORPORATION, $1,449,876, name_match=True"
+      },
+      "doe_DEAR0001978": {
+        "verdict": "VERIFIED",
+        "detail": "COLORADO STATE UNIVERSITY \u2192 API: COLORADO STATE UNIVERSITY, $1,429,931, name_match=True"
+      },
+      "doe_DESC0023787": {
+        "verdict": "VERIFIED",
+        "detail": "KEPNER PRODUCTS CO \u2192 API: KEPNER PRODUCTS CO, $1,350,000, name_match=True"
+      },
+      "doe_DESC0023918": {
+        "verdict": "VERIFIED",
+        "detail": "KALSI ENGINEERING \u2192 API: KALSI ENGINEERING, INC, $1,349,797, name_match=True"
+      },
+      "doe_DESC0023826": {
+        "verdict": "VERIFIED",
+        "detail": "ION POWER \u2192 API: ION POWER, INC, $1,349,792, name_match=True"
+      },
+      "doe_DEAR0001991": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF CALIFORNIA, SAN DIEGO \u2192 API: UNIVERSITY OF CALIFORNIA, SAN DIEGO, $1,345,309, name_match=True"
+      },
+      "doe_DEEE0007275": {
+        "verdict": "VERIFIED",
+        "detail": "ELECTRICORE \u2192 API: ELECTRICORE INC, $1,318,250, name_match=True"
+      },
+      "doe_DEFE0032125": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF KENTUCKY RESEARCH FOUNDATION, THE \u2192 API: UNIVERSITY OF KENTUCKY RESEARCH FOUNDATION, THE, $1,313,886, name_match=True"
+      },
+      "doe_DEEE0010742": {
+        "verdict": "VERIFIED",
+        "detail": "IOWA STATE UNIVERSITY OF SCIENCE AND TECHNOLOGY \u2192 API: IOWA STATE UNIVERSITY OF SCIENCE AND TECHNOLOGY, $1,299,931, name_match=True"
+      },
+      "doe_DEEE0009629": {
+        "verdict": "VERIFIED",
+        "detail": "STRATEGIC ANALYSIS \u2192 API: STRATEGIC ANALYSIS, INC., $1,299,924, name_match=True"
+      },
+      "doe_DEEE0010744": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF MISSOURI SYSTEM \u2192 API: UNIVERSITY OF MISSOURI SYSTEM, $1,295,844, name_match=True"
+      },
+      "doe_DEFE0032328": {
+        "verdict": "VERIFIED",
+        "detail": "TDA RESEARCH \u2192 API: TDA RESEARCH, INC., $1,250,000, name_match=True"
+      },
+      "doe_DEEE0010721": {
+        "verdict": "VERIFIED",
+        "detail": "THE UNIVERSITY OF TULSA \u2192 API: THE UNIVERSITY OF TULSA, $1,250,000, name_match=True"
+      },
+      "doe_DEEE0010645": {
+        "verdict": "VERIFIED",
+        "detail": "CALSTART \u2192 API: CALSTART, INC., $1,250,000, name_match=True"
+      },
+      "doe_DEAR0002052": {
+        "verdict": "VERIFIED",
+        "detail": "THE REGENTS OF THE UNIVERSITY OF COLORADO \u2192 API: THE REGENTS OF THE UNIVERSITY OF COLORADO, $1,242,054, name_match=True"
+      },
+      "doe_DEAR0001894": {
+        "verdict": "VERIFIED",
+        "detail": "THE PENNSYLVANIA STATE UNIVERSITY \u2192 API: THE PENNSYLVANIA STATE UNIVERSITY, $1,200,000, name_match=True"
+      },
+      "doe_DESC0019148": {
+        "verdict": "VERIFIED",
+        "detail": "REGENTS OF THE UNIVERSITY OF MINNESOTA \u2192 API: REGENTS OF THE UNIVERSITY OF MINNESOTA, $1,196,220, name_match=True"
+      },
+      "doe_DESC0023040": {
+        "verdict": "VERIFIED",
+        "detail": "WEST VIRGINIA UNIVERSITY RESEARCH \u2192 API: WEST VIRGINIA UNIVERSITY RESEARCH CORPORATION, $1,193,452, name_match=True"
+      },
+      "doe_DEAR0001872": {
+        "verdict": "VERIFIED",
+        "detail": "TEXAS TECH UNIVERSITY SYSTEM \u2192 API: TEXAS TECH UNIVERSITY SYSTEM, $1,178,740, name_match=True"
+      },
+      "doe_DESC0022053": {
+        "verdict": "VERIFIED",
+        "detail": "THE PENNSYLVANIA STATE UNIVERSITY \u2192 API: THE PENNSYLVANIA STATE UNIVERSITY, $1,150,000, name_match=True"
+      },
+      "doe_DEEE0010741": {
+        "verdict": "VERIFIED",
+        "detail": "INDRIO TECHNOLOGIES \u2192 API: INDRIO TECHNOLOGIES INC, $1,097,958, name_match=True"
+      },
+      "doe_DEEE0010739": {
+        "verdict": "VERIFIED",
+        "detail": "SAINT-GOBAIN CERAMICS & PLASTICS \u2192 API: SAINT-GOBAIN CERAMICS & PLASTICS, INC., $1,071,977, name_match=True"
+      },
+      "doe_DEAR0002045": {
+        "verdict": "VERIFIED",
+        "detail": "THE LELAND STANFORD JUNIOR UNIVERSITY \u2192 API: THE LELAND STANFORD JUNIOR UNIVERSITY, $1,050,000, name_match=True"
+      },
+      "doe_DEAR0001867": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF SOUTHERN CALIFORNIA \u2192 API: UNIVERSITY OF SOUTHERN CALIFORNIA, $1,030,000, name_match=True"
+      },
+      "doe_DESC0019094": {
+        "verdict": "VERIFIED",
+        "detail": "TEXAS TECH UNIVERSITY SYSTEM \u2192 API: TEXAS TECH UNIVERSITY SYSTEM, $1,010,000, name_match=True"
+      },
+      "doe_DEFE0032475": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF WYOMING \u2192 API: UNIVERSITY OF WYOMING, $1,000,000, name_match=True"
+      },
+      "doe_DEEE0011441": {
+        "verdict": "VERIFIED",
+        "detail": "THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK \u2192 API: THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK, $1,000,000, name_match=True"
+      },
+      "doe_DEEE0011185": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF TENNESSEE \u2192 API: UNIVERSITY OF TENNESSEE, $1,000,000, name_match=True"
+      },
+      "doe_DEEE0010738": {
+        "verdict": "VERIFIED",
+        "detail": "WILLIAM MARSH RICE UNIVERSITY \u2192 API: WILLIAM MARSH RICE UNIVERSITY, $1,000,000, name_match=True"
+      },
+      "doe_DEEE0010737": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF HAWAII \u2192 API: UNIVERSITY OF HAWAII, $1,000,000, name_match=True"
+      },
+      "doe_DEEE0010736": {
+        "verdict": "VERIFIED",
+        "detail": "CALIFORNIA INSTITUTE OF TECHNOLOGY \u2192 API: CALIFORNIA INSTITUTE OF TECHNOLOGY, $1,000,000, name_match=True"
+      },
+      "doe_DEEE0010732": {
+        "verdict": "VERIFIED",
+        "detail": "ARIZONA STATE UNIVERSITY \u2192 API: ARIZONA STATE UNIVERSITY, $1,000,000, name_match=True"
+      },
+      "doe_DEEE0010731": {
+        "verdict": "VERIFIED",
+        "detail": "THE REGENTS OF THE UNIVERSITY OF COLORADO \u2192 API: THE REGENTS OF THE UNIVERSITY OF COLORADO, $1,000,000, name_match=True"
+      },
+      "doe_DEEE0010153": {
+        "verdict": "VERIFIED",
+        "detail": "ITHACA, CITY OF \u2192 API: ITHACA, CITY OF, $1,000,000, name_match=True"
+      },
+      "doe_DEEE0008846": {
+        "verdict": "VERIFIED",
+        "detail": "THE REGENTS OF THE UNIVERSITY OF COLORADO \u2192 API: THE REGENTS OF THE UNIVERSITY OF COLORADO, $1,000,000, name_match=True"
+      },
+      "doe_DEEE0008839": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF CALIFORNIA, SAN DIEGO \u2192 API: UNIVERSITY OF CALIFORNIA, SAN DIEGO, $1,000,000, name_match=True"
+      },
+      "doe_DEAR0001985": {
+        "verdict": "VERIFIED",
+        "detail": "2WITECH SOLUTIONS \u2192 API: 2WITECH SOLUTIONS LLC, $1,000,000, name_match=True"
+      },
+      "doe_DEEE0011094": {
+        "verdict": "VERIFIED",
+        "detail": "LOUISIANA STATE UNIVERSITY \u2192 API: LOUISIANA STATE UNIVERSITY, $999,975, name_match=True"
+      },
+      "doe_DEEE0010122": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF HAWAII \u2192 API: UNIVERSITY OF HAWAII, $999,838, name_match=True"
+      },
+      "doe_DEEE0010743": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF GEORGIA RESEARCH FOUNDATION \u2192 API: UNIVERSITY OF GEORGIA RESEARCH FOUNDATION, INC., $999,611, name_match=True"
+      },
+      "doe_DEEE0011536": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF HOUSTON SYSTEM \u2192 API: UNIVERSITY OF HOUSTON SYSTEM, $999,604, name_match=True"
+      },
+      "doe_DEFE0032105": {
+        "verdict": "VERIFIED",
+        "detail": "OXEON ENERGY \u2192 API: OXEON ENERGY LLC, $999,526, name_match=True"
+      },
+      "doe_DEEE0010733": {
+        "verdict": "VERIFIED",
+        "detail": "WASHINGTON UNIVERSITY, THE \u2192 API: WASHINGTON UNIVERSITY, THE, $998,860, name_match=True"
+      },
+      "doe_DEEE0009624": {
+        "verdict": "VERIFIED",
+        "detail": "SOUTHERN COMPANY SERVICES \u2192 API: SOUTHERN COMPANY SERVICES, INC., $997,897, name_match=True"
+      },
+      "doe_DEFE0032001": {
+        "verdict": "VERIFIED",
+        "detail": "WE NEW ENERGY \u2192 API: WE NEW ENERGY, INC., $997,326, name_match=True"
+      },
+      "doe_DEEE0008088": {
+        "verdict": "VERIFIED",
+        "detail": "THE REGENTS OF THE UNIVERSITY OF COLORADO \u2192 API: THE REGENTS OF THE UNIVERSITY OF COLORADO, $994,811, name_match=True"
+      },
+      "doe_DEEE0010216": {
+        "verdict": "VERIFIED",
+        "detail": "GENERAL ELECTRIC \u2192 API: GENERAL ELECTRIC COMPANY, $968,825, name_match=True"
+      },
+      "doe_DESC0018757": {
+        "verdict": "VERIFIED",
+        "detail": "TDA RESEARCH \u2192 API: TDA RESEARCH, INC., $949,557, name_match=True"
+      },
+      "doe_DESC0026033": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF WISCONSIN SYSTEM \u2192 API: UNIVERSITY OF WISCONSIN SYSTEM, $927,891, name_match=True"
+      },
+      "doe_DESC0023421": {
+        "verdict": "VERIFIED",
+        "detail": "RECTOR & VISITORS OF THE UNIVERSITY OF VIRGINIA \u2192 API: RECTOR & VISITORS OF THE UNIVERSITY OF VIRGINIA, $925,882, name_match=True"
+      },
+      "doe_DEEE0007849": {
+        "verdict": "VERIFIED",
+        "detail": "LIOX POWER \u2192 API: LIOX POWER, INC., $904,000, name_match=True"
+      },
+      "doe_DEAR0001874": {
+        "verdict": "VERIFIED",
+        "detail": "EDEN GEOPOWER \u2192 API: EDEN GEOPOWER INC, $900,000, name_match=True"
+      },
+      "doe_DEEE0010627": {
+        "verdict": "VERIFIED",
+        "detail": "KERN COMMUNITY COLLEGE DISTRICT \u2192 API: KERN COMMUNITY COLLEGE DISTRICT, $847,404, name_match=True"
+      },
+      "doe_DESC0025170": {
+        "verdict": "VERIFIED",
+        "detail": "THE PENNSYLVANIA STATE UNIVERSITY \u2192 API: THE PENNSYLVANIA STATE UNIVERSITY, $831,915, name_match=True"
+      },
+      "doe_DEFE0032231": {
+        "verdict": "VERIFIED",
+        "detail": "CLEMSON UNIVERSITY \u2192 API: CLEMSON UNIVERSITY, $800,000, name_match=True"
+      },
+      "doe_DEFE0032227": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF MARYLAND, COLLEGE PARK \u2192 API: UNIVERSITY OF MARYLAND, COLLEGE PARK, $800,000, name_match=True"
+      },
+      "doe_DEFE0032074": {
+        "verdict": "VERIFIED",
+        "detail": "PURDUE UNIVERSITY \u2192 API: PURDUE UNIVERSITY, $800,000, name_match=True"
+      },
+      "doe_DEAR0001864": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF TEXAS AT AUSTIN \u2192 API: UNIVERSITY OF TEXAS AT AUSTIN, $800,000, name_match=True"
+      },
+      "doe_DEFE0032225": {
+        "verdict": "VERIFIED",
+        "detail": "RTX \u2192 API: RTX CORPORATION, $799,674, name_match=True"
+      },
+      "doe_DESC0024085": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF DELAWARE \u2192 API: UNIVERSITY OF DELAWARE, $790,437, name_match=True"
+      },
+      "doe_DEEE0010634": {
+        "verdict": "VERIFIED",
+        "detail": "INTERSTATE RENEWABLE ENERGY COUNCIL \u2192 API: INTERSTATE RENEWABLE ENERGY COUNCIL INC, $755,208, name_match=True"
+      },
+      "doe_DESC0021115": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF CALIFORNIA, SANTA BARBARA \u2192 API: UNIVERSITY OF CALIFORNIA, SANTA BARBARA, $750,000, name_match=True"
+      },
+      "doe_DESC0019134": {
+        "verdict": "VERIFIED",
+        "detail": "RESEARCH FOUNDATION OF THE CITY UNIVERSITY OF NEW YORK \u2192 API: RESEARCH FOUNDATION OF THE CITY UNIVERSITY OF NEW YORK, $750,000, name_match=True"
+      },
+      "doe_DEEE0011529": {
+        "verdict": "VERIFIED",
+        "detail": "INTERNATIONAL CODE COUNCIL \u2192 API: INTERNATIONAL CODE COUNCIL, INC., $750,000, name_match=True"
+      },
+      "doe_DESC0023424": {
+        "verdict": "VERIFIED",
+        "detail": "THE REGENTS OF THE UNIVERSITY OF COLORADO \u2192 API: THE REGENTS OF THE UNIVERSITY OF COLORADO, $749,999, name_match=True"
+      },
+      "doe_DESC0023005": {
+        "verdict": "VERIFIED",
+        "detail": "AUBURN UNIVERSITY \u2192 API: AUBURN UNIVERSITY, $749,999, name_match=True"
+      },
+      "doe_DEFE0032473": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF HOUSTON SYSTEM \u2192 API: UNIVERSITY OF HOUSTON SYSTEM, $749,999, name_match=True"
+      },
+      "doe_DESC0022949": {
+        "verdict": "VERIFIED",
+        "detail": "REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE \u2192 API: REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE, $749,959, name_match=True"
+      },
+      "doe_DESC0023489": {
+        "verdict": "VERIFIED",
+        "detail": "WEST VIRGINIA UNIVERSITY RESEARCH \u2192 API: WEST VIRGINIA UNIVERSITY RESEARCH CORPORATION, $749,904, name_match=True"
+      },
+      "doe_DEFE0032471": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF ALASKA FAIRBANKS \u2192 API: UNIVERSITY OF ALASKA FAIRBANKS, $749,165, name_match=True"
+      },
+      "doe_DEEE0011535": {
+        "verdict": "VERIFIED",
+        "detail": "WAYNE STATE UNIVERSITY \u2192 API: WAYNE STATE UNIVERSITY, $748,858, name_match=True"
+      },
+      "doe_DESC0020213": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF HAWAII \u2192 API: UNIVERSITY OF HAWAII, $748,796, name_match=True"
+      },
+      "doe_DEFE0032482": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF HOUSTON SYSTEM \u2192 API: UNIVERSITY OF HOUSTON SYSTEM, $704,489, name_match=True"
+      },
+      "doe_DEEE0009623": {
+        "verdict": "VERIFIED",
+        "detail": "THE PENNSYLVANIA STATE UNIVERSITY \u2192 API: THE PENNSYLVANIA STATE UNIVERSITY, $700,000, name_match=True"
+      },
+      "doe_DEEE0008844": {
+        "verdict": "VERIFIED",
+        "detail": "OREGON STATE UNIVERSITY \u2192 API: OREGON STATE UNIVERSITY, $699,882, name_match=True"
+      },
+      "doe_DESC0024118": {
+        "verdict": "VERIFIED",
+        "detail": "THE REGENTS OF THE UNIVERSITY OF COLORADO \u2192 API: THE REGENTS OF THE UNIVERSITY OF COLORADO, $690,000, name_match=True"
+      },
+      "doe_DEAR0001873": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF TEXAS AT AUSTIN \u2192 API: UNIVERSITY OF TEXAS AT AUSTIN, $675,000, name_match=True"
+      },
+      "doe_DEEE0011096": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF SOUTHERN CALIFORNIA \u2192 API: UNIVERSITY OF SOUTHERN CALIFORNIA, $660,000, name_match=True"
+      },
+      "doe_DEFE0032109": {
+        "verdict": "VERIFIED",
+        "detail": "PHILLIPS 66 \u2192 API: PHILLIPS 66 COMPANY, $633,208, name_match=True"
+      },
+      "doe_DESC0026022": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF CALIFORNIA, SANTA BARBARA \u2192 API: UNIVERSITY OF CALIFORNIA, SANTA BARBARA, $625,000, name_match=True"
+      },
+      "doe_DESC0022536": {
+        "verdict": "VERIFIED",
+        "detail": "RESEARCH FOUNDATION OF THE CITY UNIVERSITY OF NEW YORK \u2192 API: RESEARCH FOUNDATION OF THE CITY UNIVERSITY OF NEW YORK, $624,000, name_match=True"
+      },
+      "doe_DEFE0032080": {
+        "verdict": "VERIFIED",
+        "detail": "SAN DIEGO STATE UNIVERSITY FOUNDATION \u2192 API: SAN DIEGO STATE UNIVERSITY FOUNDATION, $616,000, name_match=True"
+      },
+      "doe_DESC0025804": {
+        "verdict": "VERIFIED",
+        "detail": "TEXAS A&M UNIVERSITY-CORPUS CHRISTI \u2192 API: TEXAS A&M UNIVERSITY-CORPUS CHRISTI, $600,000, name_match=True"
+      },
+      "doe_DEFE0032022": {
+        "verdict": "VERIFIED",
+        "detail": "WIRETOUGH CYLINDERS \u2192 API: WIRETOUGH CYLINDERS LLC, $579,890, name_match=True"
+      },
+      "doe_DESC0024491": {
+        "verdict": "VERIFIED",
+        "detail": "RESEARCH FOUNDATION OF THE CITY UNIVERSITY OF NEW YORK \u2192 API: RESEARCH FOUNDATION OF THE CITY UNIVERSITY OF NEW YORK, $562,500, name_match=True"
+      },
+      "doe_DESC0026247": {
+        "verdict": "VERIFIED",
+        "detail": "THE PENNSYLVANIA STATE UNIVERSITY \u2192 API: THE PENNSYLVANIA STATE UNIVERSITY, $560,000, name_match=True"
+      },
+      "doe_DEFE0032205": {
+        "verdict": "VERIFIED",
+        "detail": "CLARKSON UNIVERSITY \u2192 API: CLARKSON UNIVERSITY, $535,000, name_match=True"
+      },
+      "doe_DEEE0011443": {
+        "verdict": "VERIFIED",
+        "detail": "KIT CARSON ELECTRIC COOPERATIVE \u2192 API: KIT CARSON ELECTRIC COOPERATIVE, INC., $500,000, name_match=True"
+      },
+      "doe_DEEE0010715": {
+        "verdict": "VERIFIED",
+        "detail": "SOUTH COAST AIR QUALITY MANAGEMENT DISTRICT \u2192 API: SOUTH COAST AIR QUALITY MANAGEMENT DISTRICT, $500,000, name_match=True"
+      },
+      "doe_DEEE0010164": {
+        "verdict": "VERIFIED",
+        "detail": "SAN JUAN COLLEGE \u2192 API: SAN JUAN COLLEGE, $500,000, name_match=True"
+      },
+      "doe_DEEE0008841": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF OREGON \u2192 API: UNIVERSITY OF OREGON, $500,000, name_match=True"
+      },
+      "doe_DEAR0001670": {
+        "verdict": "VERIFIED",
+        "detail": "VERNE \u2192 API: VERNE INC, $499,684, name_match=True"
+      },
+      "doe_DENA0004032": {
+        "verdict": "VERIFIED",
+        "detail": "REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE \u2192 API: REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE, $497,499, name_match=True"
+      },
+      "doe_DESC0025948": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF CALIFORNIA, DAVIS \u2192 API: UNIVERSITY OF CALIFORNIA, DAVIS, $400,000, name_match=True"
+      },
+      "doe_DEFE0032415": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF TENNESSEE \u2192 API: UNIVERSITY OF TENNESSEE, $399,999, name_match=True"
+      },
+      "doe_DEFE0032092": {
+        "verdict": "VERIFIED",
+        "detail": "HOWARD UNIVERSITY \u2192 API: HOWARD UNIVERSITY, $399,935, name_match=True"
+      },
+      "doe_DEFE0032061": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF NORTH DAKOTA \u2192 API: UNIVERSITY OF NORTH DAKOTA, $398,969, name_match=True"
+      },
+      "doe_DEEE0010243": {
+        "verdict": "VERIFIED",
+        "detail": "ARIZONA STATE UNIVERSITY \u2192 API: ARIZONA STATE UNIVERSITY, $398,647, name_match=True"
+      },
+      "doe_DEEE0010430": {
+        "verdict": "VERIFIED",
+        "detail": "CAL STATE LA UNIVERSITY AUXILIARY SERVICES \u2192 API: CAL STATE LA UNIVERSITY AUXILIARY SERVICES INC, $300,000, name_match=True"
+      },
+      "doe_DEEE0010429": {
+        "verdict": "VERIFIED",
+        "detail": "THE UNIVERSITY OF TEXAS AT EL PASO \u2192 API: THE UNIVERSITY OF TEXAS AT EL PASO, $300,000, name_match=True"
+      },
+      "doe_DEAR0001979": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF PITTSBURGH - OF THE COMMONWEALTH SYSTEM OF HIGHER EDUCATION \u2192 API: UNIVERSITY OF PITTSBURGH - OF THE COMMONWEALTH SYSTEM OF HIGHER EDUCATION, $300,000, name_match=True"
+      },
+      "doe_DEEE0010249": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF DELAWARE \u2192 API: UNIVERSITY OF DELAWARE, $299,896, name_match=True"
+      },
+      "doe_DENA0004233": {
+        "verdict": "VERIFIED",
+        "detail": "PURDUE UNIVERSITY \u2192 API: PURDUE UNIVERSITY, $299,492, name_match=True"
+      },
+      "doe_DEEE0008810": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF NORTH TEXAS \u2192 API: UNIVERSITY OF NORTH TEXAS, $274,252, name_match=True"
+      },
+      "doe_DEFE0032526": {
+        "verdict": "VERIFIED",
+        "detail": "WEST VIRGINIA OFFICE OF ENERGY \u2192 API: WEST VIRGINIA OFFICE OF ENERGY, $270,000, name_match=True"
+      },
+      "doe_DEAR0001868": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF MISSOURI SYSTEM \u2192 API: UNIVERSITY OF MISSOURI SYSTEM, $265,994, name_match=True"
+      },
+      "doe_DEEE0010674": {
+        "verdict": "VERIFIED",
+        "detail": "THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK \u2192 API: THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK, $250,000, name_match=True"
+      },
+      "doe_DEFE0032501": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF KENTUCKY RESEARCH FOUNDATION, THE \u2192 API: UNIVERSITY OF KENTUCKY RESEARCH FOUNDATION, THE, $249,989, name_match=True"
+      },
+      "doe_DEFE0032497": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF ALABAMA \u2192 API: UNIVERSITY OF ALABAMA, $249,771, name_match=True"
+      },
+      "doe_DEEE0010248": {
+        "verdict": "VERIFIED",
+        "detail": "ADVANCED MATERIALS SCIENTIA \u2192 API: ADVANCED MATERIALS SCIENTIA LLC, $223,183, name_match=True"
+      },
+      "doe_DESC0025786": {
+        "verdict": "VERIFIED",
+        "detail": "PRECISION COMBUSTION \u2192 API: PRECISION COMBUSTION, INC., $206,451, name_match=True"
+      },
+      "doe_DEAR0001877": {
+        "verdict": "VERIFIED",
+        "detail": "EDEN GEOPOWER \u2192 API: EDEN GEOPOWER INC, $136,046, name_match=True"
+      },
+      "doe_DEEE0011306": {
+        "verdict": "VERIFIED",
+        "detail": "NEXTECH MATERIALS \u2192 API: NEXTECH MATERIALS, LTD., $0, name_match=True"
+      },
+      "doe_DEEE0011100": {
+        "verdict": "VERIFIED",
+        "detail": "GENERAL ELECTRIC \u2192 API: GENERAL ELECTRIC COMPANY, $0, name_match=True"
+      },
+      "doe_DEEE0010748": {
+        "verdict": "VERIFIED",
+        "detail": "GKN HYDROGEN \u2192 API: GKN HYDROGEN CORP., $0, name_match=True"
+      },
+      "doe_DEAR0001951": {
+        "verdict": "VERIFIED",
+        "detail": "WASHINGTON STATE UNIVERSITY \u2192 API: WASHINGTON STATE UNIVERSITY, $0, name_match=True"
+      },
+      "doe_DECD0000107": {
+        "verdict": "VERIFIED",
+        "detail": "NATIONAL CEMENT COMPANY OF CALIFORNIA \u2192 API: NATIONAL CEMENT COMPANY OF CALIFORNIA, INC., $500,000,000, name_match=True"
+      },
+      "doe_DECD0000090": {
+        "verdict": "VERIFIED",
+        "detail": "HEIDELBERG MATERIALS US \u2192 API: HEIDELBERG MATERIALS US INC, $500,000,000, name_match=True"
+      },
+      "doe_DEFE0022596": {
+        "verdict": "VERIFIED",
+        "detail": "SOUTHERN COMPANY SERVICES \u2192 API: SOUTHERN COMPANY SERVICES, INC., $251,005,250, name_match=True"
+      },
+      "doe_DECD0000053": {
+        "verdict": "VERIFIED",
+        "detail": "DELEK US \u2192 API: DELEK US HOLDINGS, INC, $95,000,000, name_match=True"
+      },
+      "doe_DECD0000052": {
+        "verdict": "VERIFIED",
+        "detail": "KENTUCKY UTILITIES \u2192 API: KENTUCKY UTILITIES COMPANY, $72,016,473, name_match=True"
+      },
+      "doe_DEFE0032441": {
+        "verdict": "VERIFIED",
+        "detail": "SOUTHERN STATES ENERGY BOARD \u2192 API: SOUTHERN STATES ENERGY BOARD, $55,248,172, name_match=True"
+      },
+      "doe_DEFE0032438": {
+        "verdict": "VERIFIED",
+        "detail": "ADVANCED RESOURCES \u2192 API: ADVANCED RESOURCES INTERNATIONAL, INC, $20,909,305, name_match=True"
+      },
+      "doe_DEFE0032340": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF ILLINOIS \u2192 API: UNIVERSITY OF ILLINOIS, $20,541,757, name_match=True"
+      },
+      "doe_DEFE0031995": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF ILLINOIS \u2192 API: UNIVERSITY OF ILLINOIS, $20,458,990, name_match=True"
+      },
+      "doe_DEFE0031998": {
+        "verdict": "VERIFIED",
+        "detail": "CORE NATURAL RESOURCES \u2192 API: CORE NATURAL RESOURCES, INC., $15,007,045, name_match=True"
+      },
+      "doe_DEFE0031838": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF NORTH DAKOTA \u2192 API: UNIVERSITY OF NORTH DAKOTA, $15,000,000, name_match=True"
+      },
+      "doe_DEFE0031944": {
+        "verdict": "VERIFIED",
+        "detail": "CHEVRON U.S.A \u2192 API: CHEVRON U.S.A INC, $13,000,000, name_match=True"
+      },
+      "doe_DECD0000046": {
+        "verdict": "VERIFIED",
+        "detail": "CALPINE TEXAS CCUS \u2192 API: CALPINE TEXAS CCUS HOLDINGS, LLC, $12,500,000, name_match=True"
+      },
+      "doe_DEFE0031922": {
+        "verdict": "VERIFIED",
+        "detail": "PARAMETRIC SOLUTIONS \u2192 API: PARAMETRIC SOLUTIONS INC., $12,000,000, name_match=True"
+      },
+      "doe_DEFE0032393": {
+        "verdict": "VERIFIED",
+        "detail": "CARBON CAPTURE \u2192 API: CARBON CAPTURE INC, $10,414,990, name_match=True"
+      },
+      "doe_DEFE0031845": {
+        "verdict": "VERIFIED",
+        "detail": "MINNKOTA POWER COOPERATIVE \u2192 API: MINNKOTA POWER COOPERATIVE, INC., $9,821,578, name_match=True"
+      },
+      "doe_DEFE0032264": {
+        "verdict": "VERIFIED",
+        "detail": "ADVANCED RESOURCES \u2192 API: ADVANCED RESOURCES INTERNATIONAL, INC, $9,312,293, name_match=True"
+      },
+      "doe_DECD0000006": {
+        "verdict": "VERIFIED",
+        "detail": "ENTERGY SERVICES \u2192 API: ENTERGY SERVICES, LLC, $9,221,328, name_match=True"
+      },
+      "doe_DEFE0031603": {
+        "verdict": "VERIFIED",
+        "detail": "TDA RESEARCH \u2192 API: TDA RESEARCH, INC., $9,198,799, name_match=True"
+      },
+      "doe_DEFE0032449": {
+        "verdict": "VERIFIED",
+        "detail": "BATTELLE MEMORIAL INSTITUTE \u2192 API: BATTELLE MEMORIAL INSTITUTE, $8,998,442, name_match=True"
+      },
+      "doe_DECD0000045": {
+        "verdict": "VERIFIED",
+        "detail": "SUTTER CCUS \u2192 API: SUTTER CCUS LLC, $8,632,119, name_match=True"
+      },
+      "doe_DECD0000005": {
+        "verdict": "VERIFIED",
+        "detail": "DUKE ENERGY INDIANA \u2192 API: DUKE ENERGY INDIANA, LLC, $8,192,430, name_match=True"
+      },
+      "doe_DEFE0032312": {
+        "verdict": "VERIFIED",
+        "detail": "BATTELLE MEMORIAL INSTITUTE \u2192 API: BATTELLE MEMORIAL INSTITUTE, $8,135,244, name_match=True"
+      },
+      "doe_DECD0000010": {
+        "verdict": "VERIFIED",
+        "detail": "SOUTHERN STATES ENERGY BOARD \u2192 API: SOUTHERN STATES ENERGY BOARD, $7,581,354, name_match=True"
+      },
+      "doe_DEFE0032465": {
+        "verdict": "VERIFIED",
+        "detail": "CALPINE CALIFORNIA CCUS \u2192 API: CALPINE CALIFORNIA CCUS HOLDINGS LLC, $7,000,000, name_match=True"
+      },
+      "doe_DEFE0032463": {
+        "verdict": "VERIFIED",
+        "detail": "OHIO STATE UNIVERSITY, THE \u2192 API: OHIO STATE UNIVERSITY, THE, $7,000,000, name_match=True"
+      },
+      "doe_DECD0000004": {
+        "verdict": "VERIFIED",
+        "detail": "NAVAJO TRANSITIONAL ENERGY \u2192 API: NAVAJO TRANSITIONAL ENERGY COMPANY, LLC, $6,556,328, name_match=True"
+      },
+      "doe_DEFE0032192": {
+        "verdict": "VERIFIED",
+        "detail": "DASTUR \u2192 API: DASTUR INTERNATIONAL INC, $5,994,689, name_match=True"
+      },
+      "doe_DEFE0032148": {
+        "verdict": "VERIFIED",
+        "detail": "SUSTAINABLE ENERGY SOLUTIONS \u2192 API: SUSTAINABLE ENERGY SOLUTIONS, INC., $5,895,276, name_match=True"
+      },
+      "doe_DEFE0032181": {
+        "verdict": "VERIFIED",
+        "detail": "ELECTRICORE \u2192 API: ELECTRICORE INC, $5,878,261, name_match=True"
+      },
+      "doe_DEFE0031840": {
+        "verdict": "VERIFIED",
+        "detail": "ION CLEAN ENERGY \u2192 API: ION CLEAN ENERGY INC, $5,393,486, name_match=True"
+      },
+      "doe_DECD0000009": {
+        "verdict": "VERIFIED",
+        "detail": "HEIDELBERG MATERIALS US \u2192 API: HEIDELBERG MATERIALS US INC, $4,992,811, name_match=True"
+      },
+      "doe_DEFE0032461": {
+        "verdict": "VERIFIED",
+        "detail": "SUSTEON \u2192 API: SUSTEON INC, $4,793,680, name_match=True"
+      },
+      "doe_DECD0000007": {
+        "verdict": "VERIFIED",
+        "detail": "TAMPA ELECTRIC \u2192 API: TAMPA ELECTRIC COMPANY, $4,719,722, name_match=True"
+      },
+      "doe_DECD0000015": {
+        "verdict": "VERIFIED",
+        "detail": "MEMBRANE TECHNOLOGY AND RESEARCH \u2192 API: MEMBRANE TECHNOLOGY AND RESEARCH, INC., $4,652,288, name_match=True"
+      },
+      "doe_DECD0000047": {
+        "verdict": "VERIFIED",
+        "detail": "DCC EAST PROJECT \u2192 API: DCC EAST PROJECT LLC, $4,199,672, name_match=True"
+      },
+      "doe_DEFE0032136": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF ILLINOIS \u2192 API: UNIVERSITY OF ILLINOIS, $3,999,585, name_match=True"
+      },
+      "doe_DEFE0032221": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF ILLINOIS \u2192 API: UNIVERSITY OF ILLINOIS, $3,959,328, name_match=True"
+      },
+      "doe_DEFE0032154": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF ILLINOIS \u2192 API: UNIVERSITY OF ILLINOIS, $3,459,548, name_match=True"
+      },
+      "doe_DEFE0031600": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF ILLINOIS \u2192 API: UNIVERSITY OF ILLINOIS, $3,384,529, name_match=True"
+      },
+      "doe_DEFE0032347": {
+        "verdict": "VERIFIED",
+        "detail": "CARBON SOLUTIONS \u2192 API: CARBON SOLUTIONS LLC, $3,000,000, name_match=True"
+      },
+      "doe_DEFE0031734": {
+        "verdict": "VERIFIED",
+        "detail": "TDA RESEARCH \u2192 API: TDA RESEARCH, INC., $3,000,000, name_match=True"
+      },
+      "doe_DEFE0032381": {
+        "verdict": "VERIFIED",
+        "detail": "LOUISIANA STATE UNIVERSITY \u2192 API: LOUISIANA STATE UNIVERSITY, $2,999,960, name_match=True"
+      },
+      "doe_DEFE0031596": {
+        "verdict": "VERIFIED",
+        "detail": "MEMBRANE TECHNOLOGY AND RESEARCH \u2192 API: MEMBRANE TECHNOLOGY AND RESEARCH, INC., $2,905,620, name_match=True"
+      },
+      "doe_DEAR0001540": {
+        "verdict": "VERIFIED",
+        "detail": "ESPIN TECHNOLOGIES \u2192 API: ESPIN TECHNOLOGIES, INC., $2,687,668, name_match=True"
+      },
+      "doe_DEFE0032151": {
+        "verdict": "VERIFIED",
+        "detail": "TDA RESEARCH \u2192 API: TDA RESEARCH, INC., $2,500,000, name_match=True"
+      },
+      "doe_DEFE0031961": {
+        "verdict": "VERIFIED",
+        "detail": "SOUTHERN STATES ENERGY BOARD \u2192 API: SOUTHERN STATES ENERGY BOARD, $2,500,000, name_match=True"
+      },
+      "doe_DEFE0032407": {
+        "verdict": "VERIFIED",
+        "detail": "BATTELLE MEMORIAL INSTITUTE \u2192 API: BATTELLE MEMORIAL INSTITUTE, $2,499,665, name_match=True"
+      },
+      "doe_DEFE0028193": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF TEXAS AT AUSTIN \u2192 API: UNIVERSITY OF TEXAS AT AUSTIN, $2,498,355, name_match=True"
+      },
+      "doe_DEFE0032134": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF KENTUCKY RESEARCH FOUNDATION, THE \u2192 API: UNIVERSITY OF KENTUCKY RESEARCH FOUNDATION, THE, $2,452,268, name_match=True"
+      },
+      "doe_DEFE0032142": {
+        "verdict": "VERIFIED",
+        "detail": "WSP USA ENVIRONMENT & INFRASTRUCTURE \u2192 API: WSP USA ENVIRONMENT & INFRASTRUCTURE INC., $2,393,374, name_match=True"
+      },
+      "doe_DECD0000054": {
+        "verdict": "VERIFIED",
+        "detail": "TDA RESEARCH \u2192 API: TDA RESEARCH, INC., $1,923,578, name_match=True"
+      },
+      "doe_DEEE0010206": {
+        "verdict": "VERIFIED",
+        "detail": "FORD MOTOR \u2192 API: FORD MOTOR COMPANY, $1,493,748, name_match=True"
+      },
+      "doe_DEEE0009277": {
+        "verdict": "VERIFIED",
+        "detail": "LUMEN BIOSCIENCE \u2192 API: LUMEN BIOSCIENCE, INC, $1,368,000, name_match=True"
+      },
+      "doe_DEFE0032362": {
+        "verdict": "VERIFIED",
+        "detail": "OKLAHOMA STATE UNIVERSITY \u2192 API: OKLAHOMA STATE UNIVERSITY, $1,357,710, name_match=True"
+      },
+      "doe_DESC0023814": {
+        "verdict": "VERIFIED",
+        "detail": "IVY CAPTURE \u2192 API: IVY CAPTURE INC., $1,349,677, name_match=True"
+      },
+      "doe_DEAR0001285": {
+        "verdict": "VERIFIED",
+        "detail": "THE TRUSTEES OF PRINCETON UNIVERSITY \u2192 API: THE TRUSTEES OF PRINCETON UNIVERSITY, $1,084,780, name_match=True"
+      },
+      "doe_DEEE0009413": {
+        "verdict": "VERIFIED",
+        "detail": "NORTH CAROLINA STATE UNIVERSITY \u2192 API: NORTH CAROLINA STATE UNIVERSITY, $1,014,054, name_match=True"
+      },
+      "doe_DEFE0032370": {
+        "verdict": "VERIFIED",
+        "detail": "ALASKA DEPARTMENT OF NATURAL RESOURCES \u2192 API: ALASKA DEPARTMENT OF NATURAL RESOURCES, $1,000,000, name_match=True"
+      },
+      "doe_DEFE0032365": {
+        "verdict": "VERIFIED",
+        "detail": "TRUSTEES OF INDIANA UNIVERSITY \u2192 API: TRUSTEES OF INDIANA UNIVERSITY, $1,000,000, name_match=True"
+      },
+      "doe_DEFE0032245": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF HAWAII \u2192 API: UNIVERSITY OF HAWAII, $1,000,000, name_match=True"
+      },
+      "doe_DEFE0032478": {
+        "verdict": "VERIFIED",
+        "detail": "REGENTS OF THE UNIVERSITY OF CALIFORNIA AT RIVERSIDE \u2192 API: REGENTS OF THE UNIVERSITY OF CALIFORNIA AT RIVERSIDE, $999,990, name_match=True"
+      },
+      "doe_DEFE0031918": {
+        "verdict": "VERIFIED",
+        "detail": "NORTH CAROLINA STATE UNIVERSITY \u2192 API: NORTH CAROLINA STATE UNIVERSITY, $999,916, name_match=True"
+      },
+      "doe_DEFE0032373": {
+        "verdict": "VERIFIED",
+        "detail": "GEOLOGICAL SURVEY OF ALABAMA \u2192 API: GEOLOGICAL SURVEY OF ALABAMA, $958,735, name_match=True"
+      },
+      "doe_DEFE0032368": {
+        "verdict": "VERIFIED",
+        "detail": "WESTERN MICHIGAN UNIVERSITY \u2192 API: WESTERN MICHIGAN UNIVERSITY, $856,585, name_match=True"
+      },
+      "doe_DEFE0032323": {
+        "verdict": "VERIFIED",
+        "detail": "THE GREENE COUNTY INDUSTRIAL DEVELOPMENTS \u2192 API: THE GREENE COUNTY INDUSTRIAL DEVELOPMENTS INC, $500,000, name_match=True"
+      },
+      "doe_DEAR0001923": {
+        "verdict": "VERIFIED",
+        "detail": "DUKE UNIVERSITY \u2192 API: DUKE UNIVERSITY, $500,000, name_match=True"
+      },
+      "doe_DEFE0032412": {
+        "verdict": "VERIFIED",
+        "detail": "WEST VIRGINIA UNIVERSITY RESEARCH \u2192 API: WEST VIRGINIA UNIVERSITY RESEARCH CORPORATION, $400,000, name_match=True"
+      },
+      "doe_DEFE0032193": {
+        "verdict": "VERIFIED",
+        "detail": "UNIVERSITY OF WYOMING \u2192 API: UNIVERSITY OF WYOMING, $399,284, name_match=True"
+      },
+      "doe_DEFE0032507": {
+        "verdict": "VERIFIED",
+        "detail": "CATALYTIC AND REDOX SOLUTIONS \u2192 API: CATALYTIC AND REDOX SOLUTIONS LLC, $249,999, name_match=True"
+      },
+      "doe_DEFE0032500": {
+        "verdict": "VERIFIED",
+        "detail": "OHIO STATE UNIVERSITY, THE \u2192 API: OHIO STATE UNIVERSITY, THE, $249,778, name_match=True"
+      },
+      "doe_DESC0024974": {
+        "verdict": "VERIFIED",
+        "detail": "MAX-IR LABS \u2192 API: MAX-IR LABS INCORPORATED, $206,500, name_match=True"
+      },
+      "doe_DEFE0032406": {
+        "verdict": "VERIFIED",
+        "detail": "ADVANCED COOLING TECHNOLOGIES \u2192 API: ADVANCED COOLING TECHNOLOGIES INC, $199,883, name_match=True"
+      }
+    },
+    "phase4": {
+      "tceq_RN100209451": {
+        "verdict": "VERIFIED",
+        "detail": "PORT ARTHUR REFINERY: DB=355 permits, API=1000 permits"
+      },
+      "tceq_RN100210608": {
+        "verdict": "VERIFIED",
+        "detail": "BLANCHARD REFINING GALVESTON BAY REFINERY: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN100213016": {
+        "verdict": "VERIFIED",
+        "detail": "MARATHON EL PASO REFINERY: DB=231 permits, API=1000 permits"
+      },
+      "tceq_RN100215417": {
+        "verdict": "VERIFIED",
+        "detail": "BAYPORT FACILITY: DB=51 permits, API=159 permits"
+      },
+      "tceq_RN100218569": {
+        "verdict": "VERIFIED",
+        "detail": "MCCOMMAS BLUFF LFG PROCESSING FACILITY: DB=27 permits, API=429 permits"
+      },
+      "tceq_RN100219070": {
+        "verdict": "VERIFIED",
+        "detail": "GEO SPECIALTY CHEMICALS: DB=30 permits, API=150 permits"
+      },
+      "tceq_RN100219252": {
+        "verdict": "VERIFIED",
+        "detail": "PORT NECHES OPERATIONS: DB=499 permits, API=1000 permits"
+      },
+      "tceq_RN100219351": {
+        "verdict": "VERIFIED",
+        "detail": "UNION CARBIDE: DB=461 permits, API=1000 permits"
+      },
+      "tceq_RN100219716": {
+        "verdict": "VERIFIED",
+        "detail": "SHELL PIPELINE EL VISTA TANK FARM: DB=21 permits, API=84 permits"
+      },
+      "tceq_RN100258060": {
+        "verdict": "VERIFIED",
+        "detail": "CELANESE BAY CITY PLANT: DB=185 permits, API=1000 permits"
+      },
+      "tceq_RN100542281": {
+        "verdict": "VERIFIED",
+        "detail": "EQUISTAR CHEMICALS CHANNELVIEW COMPLEX: DB=386 permits, API=1000 permits"
+      },
+      "tceq_RN100756287": {
+        "verdict": "VERIFIED",
+        "detail": "TREMCO CPG MANUFACTURING: DB=121 permits, API=540 permits"
+      },
+      "tceq_RN100849397": {
+        "verdict": "VERIFIED",
+        "detail": "GARDEN-VILLE FERTILIZER: DB=11 permits, API=36 permits"
+      },
+      "tceq_RN101954394": {
+        "verdict": "VERIFIED",
+        "detail": "PORT ARTHUR STATION: DB=22 permits, API=44 permits"
+      },
+      "tceq_RN102181526": {
+        "verdict": "VERIFIED",
+        "detail": "UCC SEADRIFT OPERATIONS: DB=412 permits, API=1000 permits"
+      },
+      "tceq_RN102344355": {
+        "verdict": "VERIFIED",
+        "detail": "SYNGENTA CROP PROTECTION: DB=18 permits, API=90 permits"
+      },
+      "tceq_RN102414232": {
+        "verdict": "VERIFIED",
+        "detail": "DOW CHEMICAL LA PORTE SITE: DB=161 permits, API=322 permits"
+      },
+      "tceq_RN102450756": {
+        "verdict": "VERIFIED",
+        "detail": "EXXONMOBIL BEAUMONT REFINERY: DB=678 permits, API=1000 permits"
+      },
+      "tceq_RN102457520": {
+        "verdict": "VERIFIED",
+        "detail": "PORT ARTHUR REFINERY: DB=274 permits, API=1000 permits"
+      },
+      "tceq_RN102510104": {
+        "verdict": "VERIFIED",
+        "detail": "KEMIRON GULF: DB=17 permits, API=57 permits"
+      },
+      "tceq_RN102536307": {
+        "verdict": "VERIFIED",
+        "detail": "INEOS US CHEMICALS: DB=125 permits, API=127 permits"
+      },
+      "tceq_RN102559291": {
+        "verdict": "VERIFIED",
+        "detail": "BEAUMONT PLANT: DB=55 permits, API=413 permits"
+      },
+      "tceq_RN102575925": {
+        "verdict": "VERIFIED",
+        "detail": "MB NORTH TERMINAL: DB=29 permits, API=174 permits"
+      },
+      "tceq_RN102584026": {
+        "verdict": "VERIFIED",
+        "detail": "VALERO PORT ARTHUR REFINERY: DB=208 permits, API=1000 permits"
+      },
+      "tceq_RN102802113": {
+        "verdict": "VERIFIED",
+        "detail": "SEAWAY TEXAS CITY DOCK: DB=2 permits, API=4 permits"
+      },
+      "tceq_RN103919817": {
+        "verdict": "VERIFIED",
+        "detail": "CHEVRON PHILLIPS CHEMICAL CEDAR BAYOU PLANT: DB=384 permits, API=1000 permits"
+      },
+      "tceq_RN104989041": {
+        "verdict": "VERIFIED",
+        "detail": "ENERGY TRANSFER FUEL AUBREY COMPRESSOR STATION: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN105087829": {
+        "verdict": "VERIFIED",
+        "detail": "UNION CARBIDE: DB=12 permits, API=60 permits"
+      },
+      "tceq_RN105231831": {
+        "verdict": "VERIFIED",
+        "detail": "MB CEDAR BAYOU TERMINAL: DB=45 permits, API=255 permits"
+      },
+      "tceq_RN105791701": {
+        "verdict": "VERIFIED",
+        "detail": "TEPPCO CEDAR BAYOU TERMINAL: DB=6 permits, API=18 permits"
+      },
+      "tceq_RN105975981": {
+        "verdict": "VERIFIED",
+        "detail": "CHEMICALS INCORPORATED BAY CITY SITE: DB=18 permits, API=54 permits"
+      },
+      "tceq_RN106079569": {
+        "verdict": "VERIFIED",
+        "detail": "UNION PLASTIC & METAL RECYCLNG: DB=7 permits, API=21 permits"
+      },
+      "tceq_RN106433279": {
+        "verdict": "VERIFIED",
+        "detail": "FORT BEND LANDFILL GAS TREATMENT FACILITY: DB=3 permits, API=3 permits"
+      },
+      "tceq_RN109290692": {
+        "verdict": "VERIFIED",
+        "detail": "VALERO PARTNERS HOUSTON: DB=36 permits, API=72 permits"
+      },
+      "tceq_RN109394619": {
+        "verdict": "VERIFIED",
+        "detail": "EXXONMOBILE PIPELINE MONT BELVIEU PLASTICS PLANT METER STATION: DB=3 permits, API=3 permits"
+      },
+      "tceq_RN109477679": {
+        "verdict": "VERIFIED",
+        "detail": "STRATAS FOODS HOUSTON: DB=4 permits, API=4 permits"
+      },
+      "tceq_RN109503698": {
+        "verdict": "VERIFIED",
+        "detail": "PRAXAIR CLEAR LAKE PLANT: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN109845768": {
+        "verdict": "VERIFIED",
+        "detail": "BAYPORT POLYMERS: DB=26 permits, API=114 permits"
+      },
+      "tceq_RN110049871": {
+        "verdict": "VERIFIED",
+        "detail": "VALERO PARTNERS PORT ARTHUR: DB=6 permits, API=18 permits"
+      },
+      "tceq_RN110238607": {
+        "verdict": "VERIFIED",
+        "detail": "MISSOURI CITY STATION: DB=1 permits, API=2 permits"
+      },
+      "tceq_RN110929411": {
+        "verdict": "VERIFIED",
+        "detail": "BIG LAKE COMPRESSOR STATION: DB=2 permits, API=2 permits"
+      },
+      "tceq_RN110930765": {
+        "verdict": "VERIFIED",
+        "detail": "FORT BEND POWER PRODUCERS: DB=4 permits, API=4 permits"
+      },
+      "tceq_RN110933520": {
+        "verdict": "VERIFIED",
+        "detail": "CHENIERE CORPUS CHRISTI PIPELINE: DB=2 permits, API=6 permits"
+      },
+      "tceq_RN110933538": {
+        "verdict": "VERIFIED",
+        "detail": "CHENIERE CORPUS CHRISTI PIPELINE: DB=2 permits, API=6 permits"
+      },
+      "tceq_RN110934684": {
+        "verdict": "VERIFIED",
+        "detail": "PRAHA COMPRESSOR STATION: DB=4 permits, API=4 permits"
+      },
+      "tceq_RN110934692": {
+        "verdict": "VERIFIED",
+        "detail": "JUNCTION COMPRESSOR STATION: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN110934700": {
+        "verdict": "VERIFIED",
+        "detail": "PHP 285 COMPRESSOR STATION: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN110958139": {
+        "verdict": "VERIFIED",
+        "detail": "ETC PIPELINE ARANSAS COUNTY: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN110958220": {
+        "verdict": "VERIFIED",
+        "detail": "ETC PIPELINE BEE COUNTY: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN110958253": {
+        "verdict": "VERIFIED",
+        "detail": "ETC PIPELINE CALHOUN COUNTY: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN110958345": {
+        "verdict": "VERIFIED",
+        "detail": "ETC PIPELINE GOLIAD COUNTY: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN110958360": {
+        "verdict": "VERIFIED",
+        "detail": "ETC PIPELINE JACKSON COUNTY: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN110958402": {
+        "verdict": "VERIFIED",
+        "detail": "ETC PIPELINE JIM WELLS COUNTY: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN110958436": {
+        "verdict": "VERIFIED",
+        "detail": "ETC PIPELINE KLEBERG COUNTY: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN110958469": {
+        "verdict": "VERIFIED",
+        "detail": "ETC PIPELINE LIVE OAK COUNTY: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN110958493": {
+        "verdict": "VERIFIED",
+        "detail": "ETC PIPELINE NUECES COUNTY: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN110958519": {
+        "verdict": "VERIFIED",
+        "detail": "ETC PIPELINE REFUGIO COUNTY: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN110958568": {
+        "verdict": "VERIFIED",
+        "detail": "ETC PIPELINE SAN PATRICIO COUNTY: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN110958576": {
+        "verdict": "VERIFIED",
+        "detail": "ETC PIPELINE VICTORIA COUNTY: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN110961067": {
+        "verdict": "NOT_FOUND",
+        "detail": "RN RN110961067 not found in SODA dataset north_tx"
+      },
+      "tceq_RN110962479": {
+        "verdict": "NOT_FOUND",
+        "detail": "RN RN110962479 not found in SODA dataset north_tx"
+      },
+      "tceq_RN110966314": {
+        "verdict": "VERIFIED",
+        "detail": "GOLDEN PASS LNG: DB=10 permits, API=60 permits"
+      },
+      "tceq_RN110966884": {
+        "verdict": "VERIFIED",
+        "detail": "DIAMOND GREEN DIESEL PORT ARTHUR FACILITY: DB=38 permits, API=152 permits"
+      },
+      "tceq_RN110983418": {
+        "verdict": "VERIFIED",
+        "detail": "SOUTH TEXAS CNG HUB: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN110984739": {
+        "verdict": "VERIFIED",
+        "detail": "BASF AMMONIA PIPELINE BRAZORIA COUNTY VS3: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN110984747": {
+        "verdict": "VERIFIED",
+        "detail": "BASF AMMONIA PIPELINE BRAZORIA COUNTY VS4: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN110984754": {
+        "verdict": "VERIFIED",
+        "detail": "BASF AMMONIA PIPELINE BRAZORIA COUNTY VS5: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN110984762": {
+        "verdict": "VERIFIED",
+        "detail": "BASF AMMONIA PIPELINE BRAZORIA COUNTY VS7: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN110984770": {
+        "verdict": "VERIFIED",
+        "detail": "BASF AMMONIA PIPELINE BRAZORIA COUNTY VS8: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN110995396": {
+        "verdict": "VERIFIED",
+        "detail": "MESSER: DB=6 permits, API=12 permits"
+      },
+      "tceq_RN110997046": {
+        "verdict": "VERIFIED",
+        "detail": "ORLA CNG HUB: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN110997053": {
+        "verdict": "VERIFIED",
+        "detail": "GARDEN CITY CNG HUB: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111002531": {
+        "verdict": "VERIFIED",
+        "detail": "AGUA DULCE COMPRESSOR STATION: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111014155": {
+        "verdict": "VERIFIED",
+        "detail": "CANYON LAND CNG STATION: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111015442": {
+        "verdict": "VERIFIED",
+        "detail": "TGP METER STATION: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111020061": {
+        "verdict": "VERIFIED",
+        "detail": "SHERIDAN BOOSTER STATION: DB=3 permits, API=3 permits"
+      },
+      "tceq_RN111025094": {
+        "verdict": "VERIFIED",
+        "detail": "OAK POINT RESERVE: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111029104": {
+        "verdict": "VERIFIED",
+        "detail": "STEAMBOAT FUELS: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111029146": {
+        "verdict": "VERIFIED",
+        "detail": "DEXCO POLYMERS: DB=3 permits, API=6 permits"
+      },
+      "tceq_RN111032447": {
+        "verdict": "VERIFIED",
+        "detail": "RATLIFF GATHERING FACILITY: DB=3 permits, API=6 permits"
+      },
+      "tceq_RN111039418": {
+        "verdict": "VERIFIED",
+        "detail": "GIBSON ENERGY - POWDER HORN STATION: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111039426": {
+        "verdict": "VERIFIED",
+        "detail": "GIBSON ENERGY - CHAPO STATION: DB=1 permits, API=2 permits"
+      },
+      "tceq_RN111056842": {
+        "verdict": "VERIFIED",
+        "detail": "DIAMONDBACK RILEY FACILITY: DB=1 permits, API=2 permits"
+      },
+      "tceq_RN111056859": {
+        "verdict": "VERIFIED",
+        "detail": "ENERGEN SMITH FACILITY: DB=1 permits, API=2 permits"
+      },
+      "tceq_RN111056867": {
+        "verdict": "VERIFIED",
+        "detail": "HINTON RNG PROCESSING FACILITY: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111056875": {
+        "verdict": "VERIFIED",
+        "detail": "XTO MARTIN COUNTY SOUTH STRAIN FACILITY: DB=1 permits, API=2 permits"
+      },
+      "tceq_RN111060547": {
+        "verdict": "VERIFIED",
+        "detail": "RIO GRANDE TRUCK TERMINAL: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111074027": {
+        "verdict": "VERIFIED",
+        "detail": "OXY BB KING: DB=1 permits, API=2 permits"
+      },
+      "tceq_RN111074035": {
+        "verdict": "VERIFIED",
+        "detail": "CONCHO MONGO FACILITY: DB=1 permits, API=2 permits"
+      },
+      "tceq_RN111075065": {
+        "verdict": "VERIFIED",
+        "detail": "NEUAG: DB=3 permits, API=3 permits"
+      },
+      "tceq_RN111077590": {
+        "verdict": "VERIFIED",
+        "detail": "SHEPHERD BOOSTER STATION: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111102133": {
+        "verdict": "VERIFIED",
+        "detail": "AIR PRODUCTS HELIUM BEAUMONT TX: DB=6 permits, API=10 permits"
+      },
+      "tceq_RN111120432": {
+        "verdict": "VERIFIED",
+        "detail": "CCCS2 SLUDGE SITE: DB=1 permits, API=4 permits"
+      },
+      "tceq_RN111126124": {
+        "verdict": "NOT_FOUND",
+        "detail": "RN RN111126124 not found in SODA dataset dallas_fw"
+      },
+      "tceq_RN111128518": {
+        "verdict": "VERIFIED",
+        "detail": "CCCS1: DB=1 permits, API=4 permits"
+      },
+      "tceq_RN111134847": {
+        "verdict": "VERIFIED",
+        "detail": "GRAY OAK PIPELINE: DB=4 permits, API=24 permits"
+      },
+      "tceq_RN111147864": {
+        "verdict": "VERIFIED",
+        "detail": "FUELX INNOVATION: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111149449": {
+        "verdict": "VERIFIED",
+        "detail": "NGPL METER STATION: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111151015": {
+        "verdict": "VERIFIED",
+        "detail": "TARZAN CNG STATION: DB=2 permits, API=2 permits"
+      },
+      "tceq_RN111163846": {
+        "verdict": "VERIFIED",
+        "detail": "ALMEDA LATERAL: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111183042": {
+        "verdict": "VERIFIED",
+        "detail": "BRINE POND 1A: DB=3 permits, API=18 permits"
+      },
+      "tceq_RN111190302": {
+        "verdict": "VERIFIED",
+        "detail": "GRAY OAK PIPELINE: DB=5 permits, API=30 permits"
+      },
+      "tceq_RN111191011": {
+        "verdict": "VERIFIED",
+        "detail": "GRAY OAK PIPELINE REAGAN COUNTY: DB=4 permits, API=24 permits"
+      },
+      "tceq_RN111193785": {
+        "verdict": "VERIFIED",
+        "detail": "RENEWABLE GASOLINE PRODUCTION FACILITY: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111194916": {
+        "verdict": "VERIFIED",
+        "detail": "NACERO PENWELL FACILITY: DB=4 permits, API=4 permits"
+      },
+      "tceq_RN111195392": {
+        "verdict": "VERIFIED",
+        "detail": "GRAY OAK PIPELINE - LIVE OAK COUNTY: DB=6 permits, API=36 permits"
+      },
+      "tceq_RN111195400": {
+        "verdict": "VERIFIED",
+        "detail": "GRAY OAK PIPELINE - SAN PATRICIO COUNTY: DB=6 permits, API=36 permits"
+      },
+      "tceq_RN111195418": {
+        "verdict": "VERIFIED",
+        "detail": "GRAY OAK PIPELINE - CROCKETT COUNTY: DB=5 permits, API=30 permits"
+      },
+      "tceq_RN111195459": {
+        "verdict": "VERIFIED",
+        "detail": "GRAY OAK PIPELINE - SUTTON COUNTY: DB=6 permits, API=36 permits"
+      },
+      "tceq_RN111195467": {
+        "verdict": "VERIFIED",
+        "detail": "GRAY OAK PIPELINE - FRIO COUNTY: DB=5 permits, API=30 permits"
+      },
+      "tceq_RN111195475": {
+        "verdict": "VERIFIED",
+        "detail": "GRAY OAK PIPELINE - UPTON COUNTY: DB=5 permits, API=30 permits"
+      },
+      "tceq_RN111195491": {
+        "verdict": "VERIFIED",
+        "detail": "GRAY OAK PIPELINE - ZAVALA COUNTY: DB=6 permits, API=36 permits"
+      },
+      "tceq_RN111195509": {
+        "verdict": "VERIFIED",
+        "detail": "GRAY OAK PIPELINE - LOVING COUNTY: DB=6 permits, API=36 permits"
+      },
+      "tceq_RN111195574": {
+        "verdict": "VERIFIED",
+        "detail": "GRAY OAK PIPELINE - CRANE COUNTY: DB=6 permits, API=36 permits"
+      },
+      "tceq_RN111195855": {
+        "verdict": "VERIFIED",
+        "detail": "GRAY OAK PIPELINE - MATAGORDA COUNTY: DB=5 permits, API=30 permits"
+      },
+      "tceq_RN111195863": {
+        "verdict": "VERIFIED",
+        "detail": "GRAY OAK PIPELINE - GOLIAD COUNTY: DB=5 permits, API=30 permits"
+      },
+      "tceq_RN111195871": {
+        "verdict": "VERIFIED",
+        "detail": "GRAY OAK PIPELINE - JACKSON COUNTY: DB=5 permits, API=30 permits"
+      },
+      "tceq_RN111195897": {
+        "verdict": "VERIFIED",
+        "detail": "GRAY OAK PIPELINE - MCMULLEN COUNTY: DB=6 permits, API=36 permits"
+      },
+      "tceq_RN111196002": {
+        "verdict": "VERIFIED",
+        "detail": "GRAY OAK PIPELINE - VICTORIA COUNTY: DB=5 permits, API=30 permits"
+      },
+      "tceq_RN111196010": {
+        "verdict": "VERIFIED",
+        "detail": "GRAY OAK PIPELINE - WINKLER COUNTY: DB=6 permits, API=36 permits"
+      },
+      "tceq_RN111196028": {
+        "verdict": "VERIFIED",
+        "detail": "GRAY OAK PIPELINE - KARNES COUNTY: DB=6 permits, API=36 permits"
+      },
+      "tceq_RN111196036": {
+        "verdict": "VERIFIED",
+        "detail": "GRAY OAK PIPELINE - BEE COUNTY: DB=5 permits, API=30 permits"
+      },
+      "tceq_RN111196085": {
+        "verdict": "VERIFIED",
+        "detail": "GRAY OAK PIPELINE - WHARTON COUNTY: DB=6 permits, API=36 permits"
+      },
+      "tceq_RN111210670": {
+        "verdict": "VERIFIED",
+        "detail": "POST STATION: DB=1 permits, API=2 permits"
+      },
+      "tceq_RN111224341": {
+        "verdict": "VERIFIED",
+        "detail": "EQUISTAR PIPELINES 30-05 ETHYLENE METER: DB=2 permits, API=2 permits"
+      },
+      "tceq_RN111238721": {
+        "verdict": "VERIFIED",
+        "detail": "KARNES COMPRESSOR STATION: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111248118": {
+        "verdict": "VERIFIED",
+        "detail": "LANTANA POINT RESERVE: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111256434": {
+        "verdict": "VERIFIED",
+        "detail": "DIAL PUMP STATION: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111258877": {
+        "verdict": "VERIFIED",
+        "detail": "ROEHM AMERICA BAY CITY SITE: DB=12 permits, API=12 permits"
+      },
+      "tceq_RN111267068": {
+        "verdict": "VERIFIED",
+        "detail": "BARSTOW TRUCKING STATION: DB=1 permits, API=2 permits"
+      },
+      "tceq_RN111270542": {
+        "verdict": "VERIFIED",
+        "detail": "GROOM PUMP STATION: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111275392": {
+        "verdict": "VERIFIED",
+        "detail": "PORT ARTHUR HYDROGEN OFF GAS RECOVERY FACILITY: DB=3 permits, API=3 permits"
+      },
+      "tceq_RN111280681": {
+        "verdict": "VERIFIED",
+        "detail": "MUSTANG SPRINGS STATION: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111281713": {
+        "verdict": "VERIFIED",
+        "detail": "MIDLAND PLAINS SOUTH INTERCONNECT: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111303046": {
+        "verdict": "VERIFIED",
+        "detail": "VIGAVI 225: DB=1 permits, API=2 permits"
+      },
+      "tceq_RN111317665": {
+        "verdict": "VERIFIED",
+        "detail": "EASTMAN CHEMICAL TEXAS CITY: DB=3 permits, API=3 permits"
+      },
+      "tceq_RN111319448": {
+        "verdict": "VERIFIED",
+        "detail": "EDGE GATHERING LPI LNG PLANT: DB=1 permits, API=2 permits"
+      },
+      "tceq_RN111319992": {
+        "verdict": "VERIFIED",
+        "detail": "SWEENY HYDROGEN PRODUCTION PLANT: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111328274": {
+        "verdict": "VERIFIED",
+        "detail": "MONT BELVIEU METER STATION: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111330346": {
+        "verdict": "VERIFIED",
+        "detail": "SANDHILLS COMPRESSOR STATION: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111341830": {
+        "verdict": "VERIFIED",
+        "detail": "CCSJ 0265-07-051: DB=2 permits, API=4 permits"
+      },
+      "tceq_RN111347100": {
+        "verdict": "VERIFIED",
+        "detail": "VIDOR COMPRESSOR STATION: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111355251": {
+        "verdict": "VERIFIED",
+        "detail": "WAHA GAS STORAGE FACILITY: DB=1 permits, API=2 permits"
+      },
+      "tceq_RN111360525": {
+        "verdict": "VERIFIED",
+        "detail": "TEXAS INTERNATIONAL REFINING: DB=5 permits, API=5 permits"
+      },
+      "tceq_RN111372785": {
+        "verdict": "VERIFIED",
+        "detail": "DEER PARK OIL REFINERY: DB=195 permits, API=1000 permits"
+      },
+      "tceq_RN111378238": {
+        "verdict": "VERIFIED",
+        "detail": "BROCKMAN COMPRESSOR STATION: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111380515": {
+        "verdict": "VERIFIED",
+        "detail": "SKYLINE RNG PROJECT: DB=3 permits, API=3 permits"
+      },
+      "tceq_RN111391629": {
+        "verdict": "NOT_FOUND",
+        "detail": "RN RN111391629 not found in SODA dataset dallas_fw"
+      },
+      "tceq_RN111407102": {
+        "verdict": "VERIFIED",
+        "detail": "SEMPRA LNG: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111408027": {
+        "verdict": "VERIFIED",
+        "detail": "ENTACT - GOLDEN PASS LNG SITE: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111408035": {
+        "verdict": "VERIFIED",
+        "detail": "ENTACT - GOLDEN PASS LNG SITE: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111410866": {
+        "verdict": "VERIFIED",
+        "detail": "COLOSSUS COMPRESSOR STATION: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111423638": {
+        "verdict": "NOT_FOUND",
+        "detail": "RN RN111423638 not found in SODA dataset north_tx"
+      },
+      "tceq_RN111437083": {
+        "verdict": "VERIFIED",
+        "detail": "IMCP GARDENDALE FACILITY: DB=2 permits, API=2 permits"
+      },
+      "tceq_RN111455887": {
+        "verdict": "VERIFIED",
+        "detail": "WEATHERFORD PUMP STATION: DB=3 permits, API=3 permits"
+      },
+      "tceq_RN111474490": {
+        "verdict": "NOT_FOUND",
+        "detail": "RN RN111474490 not found in SODA dataset dallas_fw"
+      },
+      "tceq_RN111475174": {
+        "verdict": "VERIFIED",
+        "detail": "CONAN STATION: DB=1 permits, API=2 permits"
+      },
+      "tceq_RN111475182": {
+        "verdict": "VERIFIED",
+        "detail": "SONORA PUMP STATION: DB=1 permits, API=2 permits"
+      },
+      "tceq_RN111475190": {
+        "verdict": "VERIFIED",
+        "detail": "EOG SOUTH EF STATION: DB=1 permits, API=2 permits"
+      },
+      "tceq_RN111475208": {
+        "verdict": "VERIFIED",
+        "detail": "ENLINK HIGH LONESOME STATION: DB=1 permits, API=2 permits"
+      },
+      "tceq_RN111479408": {
+        "verdict": "VERIFIED",
+        "detail": "LINDE TAYLOR FACILITY: DB=6 permits, API=6 permits"
+      },
+      "tceq_RN111479713": {
+        "verdict": "VERIFIED",
+        "detail": "LA PRYOR PUMP STATION: DB=1 permits, API=2 permits"
+      },
+      "tceq_RN111479721": {
+        "verdict": "VERIFIED",
+        "detail": "SWEENY MIDPOINT PUMP STATION: DB=1 permits, API=2 permits"
+      },
+      "tceq_RN111482782": {
+        "verdict": "VERIFIED",
+        "detail": "RED BALL OXYGEN: DB=2 permits, API=6 permits"
+      },
+      "tceq_RN111486221": {
+        "verdict": "VERIFIED",
+        "detail": "GATTEFOSSE - 62 000 MANUFACTURING FACILITY: DB=6 permits, API=20 permits"
+      },
+      "tceq_RN111496576": {
+        "verdict": "VERIFIED",
+        "detail": "HAT CREEK COMPRESSOR STATION: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111496931": {
+        "verdict": "VERIFIED",
+        "detail": "K-SOLV FUEL SERVICES: DB=5 permits, API=5 permits"
+      },
+      "tceq_RN111501722": {
+        "verdict": "VERIFIED",
+        "detail": "POTTER COUNTY COMPRESSOR STATION: DB=1 permits, API=2 permits"
+      },
+      "tceq_RN111508172": {
+        "verdict": "VERIFIED",
+        "detail": "BLUEPRINT MINING I: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111509147": {
+        "verdict": "VERIFIED",
+        "detail": "CEDAR BAYOU HYDROGEN FACILITY: DB=7 permits, API=7 permits"
+      },
+      "tceq_RN111510020": {
+        "verdict": "VERIFIED",
+        "detail": "LA PORTE CONDUCTIVE ADDITIVES PLANT: DB=3 permits, API=3 permits"
+      },
+      "tceq_RN111518387": {
+        "verdict": "VERIFIED",
+        "detail": "AIR LIQUIDE - PORT ARTHUR HPU: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111533774": {
+        "verdict": "VERIFIED",
+        "detail": "NFE ZERO PERMITS NEDERLAND FACILITY: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111536215": {
+        "verdict": "VERIFIED",
+        "detail": "MONUMENT COMPRESSOR STATION: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111536462": {
+        "verdict": "VERIFIED",
+        "detail": "ENERGY TRANSFER GC NGL PIPELINES HARRIS COUNTY: DB=5 permits, API=13 permits"
+      },
+      "tceq_RN111536918": {
+        "verdict": "VERIFIED",
+        "detail": "BEAUMONT NEW AMMONIA: DB=12 permits, API=12 permits"
+      },
+      "tceq_RN111545661": {
+        "verdict": "VERIFIED",
+        "detail": "CORPUS CHRISTI LNG: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111563144": {
+        "verdict": "VERIFIED",
+        "detail": "GLOBALWAFERS AMERICA: DB=8 permits, API=16 permits"
+      },
+      "tceq_RN111575270": {
+        "verdict": "VERIFIED",
+        "detail": "SHERHAN PLANT METER STATION: DB=2 permits, API=4 permits"
+      },
+      "tceq_RN111578977": {
+        "verdict": "VERIFIED",
+        "detail": "LIMESTONE GREEN HYDROGEN FACILITY: DB=4 permits, API=12 permits"
+      },
+      "tceq_RN111583027": {
+        "verdict": "VERIFIED",
+        "detail": "BORGER MAINTENANCE OFFICE: DB=2 permits, API=2 permits"
+      },
+      "tceq_RN111583514": {
+        "verdict": "VERIFIED",
+        "detail": "EXXON ECTOR STATION: DB=2 permits, API=2 permits"
+      },
+      "tceq_RN111591772": {
+        "verdict": "VERIFIED",
+        "detail": "SCION TECHNOLOGIES: DB=4 permits, API=4 permits"
+      },
+      "tceq_RN111594925": {
+        "verdict": "VERIFIED",
+        "detail": "FERTI TECHNOLOGIES: DB=2 permits, API=4 permits"
+      },
+      "tceq_RN111596409": {
+        "verdict": "VERIFIED",
+        "detail": "ENERGY TRANSFER PETROCHEMICALS COMPLEX: DB=4 permits, API=4 permits"
+      },
+      "tceq_RN111600045": {
+        "verdict": "VERIFIED",
+        "detail": "SUMIKA TEXAS IPA PLANT: DB=6 permits, API=6 permits"
+      },
+      "tceq_RN111605036": {
+        "verdict": "VERIFIED",
+        "detail": "CONTINENTAL CARBONIC PRODUCTS: DB=10 permits, API=32 permits"
+      },
+      "tceq_RN111606711": {
+        "verdict": "VERIFIED",
+        "detail": "TESLA: DB=14 permits, API=44 permits"
+      },
+      "tceq_RN111612131": {
+        "verdict": "NOT_FOUND",
+        "detail": "RN RN111612131 not found in SODA dataset north_tx"
+      },
+      "tceq_RN111613022": {
+        "verdict": "NOT_FOUND",
+        "detail": "RN RN111613022 not found in SODA dataset north_tx"
+      },
+      "tceq_RN111614376": {
+        "verdict": "VERIFIED",
+        "detail": "PALNG SUBSTATION: DB=2 permits, API=2 permits"
+      },
+      "tceq_RN111617718": {
+        "verdict": "VERIFIED",
+        "detail": "WAKA PIT: DB=4 permits, API=16 permits"
+      },
+      "tceq_RN111618179": {
+        "verdict": "VERIFIED",
+        "detail": "AEROPRES VICTORIA LPG TRANSFER FACILITY: DB=2 permits, API=2 permits"
+      },
+      "tceq_RN111625059": {
+        "verdict": "VERIFIED",
+        "detail": "PORT ARTHUR LNG TEMPORARY CBP: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111637690": {
+        "verdict": "VERIFIED",
+        "detail": "DOUBLE E PIPELINE IN LOVING: DB=4 permits, API=12 permits"
+      },
+      "tceq_RN111637708": {
+        "verdict": "VERIFIED",
+        "detail": "MAGELLAN PIPELINE SEGMENT IN TAYLOR COUNTY: DB=4 permits, API=12 permits"
+      },
+      "tceq_RN111637716": {
+        "verdict": "VERIFIED",
+        "detail": "MAGELLAN PIPELINE SEGMENT IN NOLAN COUNTY: DB=3 permits, API=9 permits"
+      },
+      "tceq_RN111637724": {
+        "verdict": "VERIFIED",
+        "detail": "MAGELLAN PIPELINE SEGMENT IN MIDLAND COUNTY: DB=4 permits, API=12 permits"
+      },
+      "tceq_RN111637773": {
+        "verdict": "NOT_FOUND",
+        "detail": "RN RN111637773 not found in SODA dataset north_tx"
+      },
+      "tceq_RN111637898": {
+        "verdict": "VERIFIED",
+        "detail": "MAGELLAN PIPELINE SEGMENT IN HARRIS COUNTY: DB=5 permits, API=15 permits"
+      },
+      "tceq_RN111637914": {
+        "verdict": "NOT_FOUND",
+        "detail": "RN RN111637914 not found in SODA dataset north_tx"
+      },
+      "tceq_RN111637922": {
+        "verdict": "NOT_FOUND",
+        "detail": "RN RN111637922 not found in SODA dataset north_tx"
+      },
+      "tceq_RN111637930": {
+        "verdict": "VERIFIED",
+        "detail": "MAGELLAN PIPELINE SEGMENT IN ERATH COUNTY: DB=4 permits, API=12 permits"
+      },
+      "tceq_RN111637948": {
+        "verdict": "VERIFIED",
+        "detail": "MAGELLAN PIPELINE SEGMENT IN ECTOR COUNTY: DB=4 permits, API=12 permits"
+      },
+      "tceq_RN111637955": {
+        "verdict": "NOT_FOUND",
+        "detail": "RN RN111637955 not found in SODA dataset north_tx"
+      },
+      "tceq_RN111637963": {
+        "verdict": "NOT_FOUND",
+        "detail": "RN RN111637963 not found in SODA dataset north_tx"
+      },
+      "tceq_RN111637971": {
+        "verdict": "NOT_FOUND",
+        "detail": "RN RN111637971 not found in SODA dataset north_tx"
+      },
+      "tceq_RN111639878": {
+        "verdict": "VERIFIED",
+        "detail": "ELDORADO COMPRESSOR STATION: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111642070": {
+        "verdict": "VERIFIED",
+        "detail": "DOUBLE E PIPELINE IN REEVES: DB=4 permits, API=12 permits"
+      },
+      "tceq_RN111642088": {
+        "verdict": "VERIFIED",
+        "detail": "DOUBLE E PIPELINE IN WARD: DB=4 permits, API=12 permits"
+      },
+      "tceq_RN111646782": {
+        "verdict": "VERIFIED",
+        "detail": "MCCAMEY COMPRESSOR STATION: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111646790": {
+        "verdict": "VERIFIED",
+        "detail": "HARPER COMPRESSOR STATION: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111648002": {
+        "verdict": "VERIFIED",
+        "detail": "MAGELLAN CRUDE PIPELINE SEGMENT IN HARRIS: DB=2 permits, API=6 permits"
+      },
+      "tceq_RN111648010": {
+        "verdict": "VERIFIED",
+        "detail": "MAGELLAN CRUDE PIPELINE SEGMENT IN GALVESTON: DB=2 permits, API=6 permits"
+      },
+      "tceq_RN111648481": {
+        "verdict": "VERIFIED",
+        "detail": "LOCKHART COMPRESSOR STATION: DB=4 permits, API=4 permits"
+      },
+      "tceq_RN111648960": {
+        "verdict": "VERIFIED",
+        "detail": "FREER COMPRESSOR STATION: DB=2 permits, API=12 permits"
+      },
+      "tceq_RN111663910": {
+        "verdict": "VERIFIED",
+        "detail": "JERA POINT BLANK FACILITY: DB=3 permits, API=5 permits"
+      },
+      "tceq_RN111677217": {
+        "verdict": "VERIFIED",
+        "detail": "OZONA COMPRESSOR STATION: DB=2 permits, API=12 permits"
+      },
+      "tceq_RN111677225": {
+        "verdict": "VERIFIED",
+        "detail": "UVALDE COMPRESSOR STATION: DB=2 permits, API=12 permits"
+      },
+      "tceq_RN111679767": {
+        "verdict": "VERIFIED",
+        "detail": "DSM SEMICHEM PLAINVIEW FACILITY: DB=4 permits, API=4 permits"
+      },
+      "tceq_RN111684676": {
+        "verdict": "VERIFIED",
+        "detail": "TEXAS BELLE: DB=2 permits, API=4 permits"
+      },
+      "tceq_RN111687224": {
+        "verdict": "VERIFIED",
+        "detail": "CEA DAIRY RNG TEXAS: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111687232": {
+        "verdict": "VERIFIED",
+        "detail": "CEA DAIRY RNG TEXAS: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111699963": {
+        "verdict": "VERIFIED",
+        "detail": "PORT ARTHUR LNG RMX: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111700829": {
+        "verdict": "VERIFIED",
+        "detail": "WONDERCIDE: DB=2 permits, API=2 permits"
+      },
+      "tceq_RN111701637": {
+        "verdict": "VERIFIED",
+        "detail": "WAHA COMPRESSOR STATION: DB=2 permits, API=8 permits"
+      },
+      "tceq_RN111701645": {
+        "verdict": "VERIFIED",
+        "detail": "RANKIN COMPRESSOR STATION: DB=2 permits, API=12 permits"
+      },
+      "tceq_RN111701652": {
+        "verdict": "VERIFIED",
+        "detail": "FLORENCE COMPRESSOR STATION: DB=4 permits, API=18 permits"
+      },
+      "tceq_RN111701660": {
+        "verdict": "VERIFIED",
+        "detail": "EDEN COMPRESSOR STATION: DB=6 permits, API=16 permits"
+      },
+      "tceq_RN111702924": {
+        "verdict": "VERIFIED",
+        "detail": "COMPRESSOR STATION 33: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111706313": {
+        "verdict": "VERIFIED",
+        "detail": "CPNID-SST DISCHARGE: DB=2 permits, API=4 permits"
+      },
+      "tceq_RN111706685": {
+        "verdict": "VERIFIED",
+        "detail": "LUBBOCK COMPRESSOR STATION: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111716205": {
+        "verdict": "VERIFIED",
+        "detail": "ROCKWALL REFINERY: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111723136": {
+        "verdict": "VERIFIED",
+        "detail": "ENDEAVOR INTERSTATE 8-5 PUMP STATION: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111735171": {
+        "verdict": "VERIFIED",
+        "detail": "CORPUS CHRISTI RENEWABLE NATURAL GAS FACILITY: DB=2 permits, API=2 permits"
+      },
+      "tceq_RN111735213": {
+        "verdict": "VERIFIED",
+        "detail": "SANDPIPER BLUE METHANOL PLANT: DB=2 permits, API=2 permits"
+      },
+      "tceq_RN111741765": {
+        "verdict": "VERIFIED",
+        "detail": "WATERFLEET-CORPUS CHRISTI LNG: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111745634": {
+        "verdict": "VERIFIED",
+        "detail": "AMMONIA POWERPACK R&D AND MANUFACTURING: DB=2 permits, API=2 permits"
+      },
+      "tceq_RN111758488": {
+        "verdict": "VERIFIED",
+        "detail": "BIG WELLS TERMINAL: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111760104": {
+        "verdict": "VERIFIED",
+        "detail": "GOLDEN TRIANGLE RENEWABLE NATURAL GAS RNG FACILITY: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111765459": {
+        "verdict": "VERIFIED",
+        "detail": "TEXOMA RNG FACILITY: DB=2 permits, API=2 permits"
+      },
+      "tceq_RN111767125": {
+        "verdict": "VERIFIED",
+        "detail": "SAND VIPER COMPRESSOR STATION: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111769253": {
+        "verdict": "VERIFIED",
+        "detail": "CHEMARIS ACETYLS: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111782223": {
+        "verdict": "VERIFIED",
+        "detail": "TEXAROME CEDAR OIL MILL: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111794533": {
+        "verdict": "VERIFIED",
+        "detail": "RIO GRANDE LNG TERMINAL PROJECT: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111797163": {
+        "verdict": "VERIFIED",
+        "detail": "STONE PUMP STATION: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111807731": {
+        "verdict": "VERIFIED",
+        "detail": "EQUISTAR PIPELINES - LONESTAR ISOBUTANE VALVE SITE NEAR MBO: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111807921": {
+        "verdict": "VERIFIED",
+        "detail": "CONROE PUMP STATION: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111819926": {
+        "verdict": "VERIFIED",
+        "detail": "DILLON GAGE METALS: DB=4 permits, API=4 permits"
+      },
+      "tceq_RN111824660": {
+        "verdict": "VERIFIED",
+        "detail": "PAX ESSENTIAL JUNCTION FACILITY: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111834859": {
+        "verdict": "VERIFIED",
+        "detail": "FARMERSVILLE REFINERY: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111840401": {
+        "verdict": "VERIFIED",
+        "detail": "ENLINK PERMIAN PIPELINES ANDREWS COUNTY: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111852430": {
+        "verdict": "VERIFIED",
+        "detail": "BAYOU BEND CCS: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111857413": {
+        "verdict": "VERIFIED",
+        "detail": "GIBSON ENERGY WEST PYOTE TRUCK STATION: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111857504": {
+        "verdict": "VERIFIED",
+        "detail": "RIO GRANDE LNG TERMINAL PROJECT: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111861076": {
+        "verdict": "VERIFIED",
+        "detail": "TX-226A JONES CREEK HYDROTEST: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111865937": {
+        "verdict": "NOT_FOUND",
+        "detail": "RN RN111865937 not found in SODA dataset dallas_fw"
+      },
+      "tceq_RN111867412": {
+        "verdict": "VERIFIED",
+        "detail": "NUECES GREEN AMMONIA PLANT: DB=2 permits, API=4 permits"
+      },
+      "tceq_RN111870150": {
+        "verdict": "VERIFIED",
+        "detail": "SQM HOUSTON FACILITY: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111873873": {
+        "verdict": "VERIFIED",
+        "detail": "MENTONE WEST GAS PLANT: DB=4 permits, API=4 permits"
+      },
+      "tceq_RN111884086": {
+        "verdict": "VERIFIED",
+        "detail": "BOARDWALK PURITY PIPELINE HARRIS COUNTY: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111884235": {
+        "verdict": "VERIFIED",
+        "detail": "BOARDWALK PURITY PIPELINE CHAMBERS COUNTY: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111884839": {
+        "verdict": "VERIFIED",
+        "detail": "BOARDWALK ETHANE PIPELINE JEFFERSON COUNTY: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111885489": {
+        "verdict": "VERIFIED",
+        "detail": "BOARDWALK ETHANE PIPELINE CHAMBERS COUNTY: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111888632": {
+        "verdict": "VERIFIED",
+        "detail": "SEASIDE LNG GALVESTON PIER 37 VCU: DB=2 permits, API=2 permits"
+      },
+      "tceq_RN111892097": {
+        "verdict": "VERIFIED",
+        "detail": "EASTON ENERGY MATAGORDA COUNTY PIPELINES: DB=1 permits, API=2 permits"
+      },
+      "tceq_RN111909503": {
+        "verdict": "VERIFIED",
+        "detail": "CLEAR LAKE PLANT: DB=19 permits, API=57 permits"
+      },
+      "tceq_RN111923439": {
+        "verdict": "VERIFIED",
+        "detail": "AUSTIN SERVICE CENTER: DB=2 permits, API=2 permits"
+      },
+      "tceq_RN111928776": {
+        "verdict": "VERIFIED",
+        "detail": "TX-226A JONES CREEK HYDROTEST: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111934956": {
+        "verdict": "VERIFIED",
+        "detail": "VIVAVENTURES RPC FACILITY: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111936027": {
+        "verdict": "VERIFIED",
+        "detail": "ROSE CCS PROJECT INJECTION WELL NO 02: DB=4 permits, API=4 permits"
+      },
+      "tceq_RN111941597": {
+        "verdict": "VERIFIED",
+        "detail": "SILVER FUELS WHGU FACILITY: DB=2 permits, API=2 permits"
+      },
+      "tceq_RN111945333": {
+        "verdict": "VERIFIED",
+        "detail": "HEMPSTEAD TO HUNSTVILLE LINE SEGMENT: DB=1 permits, API=2 permits"
+      },
+      "tceq_RN111946984": {
+        "verdict": "VERIFIED",
+        "detail": "P66 APACHE BRAHANEY: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111947701": {
+        "verdict": "VERIFIED",
+        "detail": "SBR CO2 SEQUESTRATION AND WWW PIPELINES: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111951083": {
+        "verdict": "VERIFIED",
+        "detail": "WEBB COUNTY EXTENSION FACILITY: DB=4 permits, API=4 permits"
+      },
+      "tceq_RN111957346": {
+        "verdict": "VERIFIED",
+        "detail": "LACUNA OIL: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111960100": {
+        "verdict": "VERIFIED",
+        "detail": "GALVESTON LNG BUNKER PORT: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111970554": {
+        "verdict": "VERIFIED",
+        "detail": "APT DALLAS COUNTY PIPELINE SEGMENTS: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111970588": {
+        "verdict": "VERIFIED",
+        "detail": "APT WISE COUNTY PIPELINE SEGMENTS: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111976494": {
+        "verdict": "VERIFIED",
+        "detail": "LAKEVIEW PIPELINE PIERCE RANCH: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN111982559": {
+        "verdict": "VERIFIED",
+        "detail": "FARMERSVILLE JUNCTION: DB=2 permits, API=2 permits"
+      },
+      "tceq_RN111992749": {
+        "verdict": "VERIFIED",
+        "detail": "JOHN COCKERILL HYDROGEN ELECTROLYZER GIGAFACTORY: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112001805": {
+        "verdict": "VERIFIED",
+        "detail": "DANEVANG PUMP STATION: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112014543": {
+        "verdict": "VERIFIED",
+        "detail": "DYER STREET LOCATION BRIDGE LUBRICANTS: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112014873": {
+        "verdict": "VERIFIED",
+        "detail": "FORMER HEARNE PIPELINE: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112019195": {
+        "verdict": "VERIFIED",
+        "detail": "WONDERCIDE: DB=4 permits, API=4 permits"
+      },
+      "tceq_RN112027016": {
+        "verdict": "VERIFIED",
+        "detail": "DFW RNG PLANT: DB=3 permits, API=3 permits"
+      },
+      "tceq_RN112047576": {
+        "verdict": "VERIFIED",
+        "detail": "KARNES TRUCK STATION: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112055488": {
+        "verdict": "VERIFIED",
+        "detail": "EVADALE COMPRESSOR STATION: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112055496": {
+        "verdict": "VERIFIED",
+        "detail": "BURLEIGH COMPRESSOR STATION: DB=4 permits, API=4 permits"
+      },
+      "tceq_RN112055504": {
+        "verdict": "VERIFIED",
+        "detail": "BATSON COMPRESSOR STATION: DB=2 permits, API=2 permits"
+      },
+      "tceq_RN112058540": {
+        "verdict": "VERIFIED",
+        "detail": "AMMONIA STORAGE FACILITY: DB=1 permits, API=2 permits"
+      },
+      "tceq_RN112058920": {
+        "verdict": "VERIFIED",
+        "detail": "FIRST AMMONIA VICTORIA: DB=2 permits, API=2 permits"
+      },
+      "tceq_RN112066162": {
+        "verdict": "VERIFIED",
+        "detail": "SOUTH FORK RENEWABLE ENERGY: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112066923": {
+        "verdict": "VERIFIED",
+        "detail": "M771 CONSTRUCTION SITE: DB=2 permits, API=2 permits"
+      },
+      "tceq_RN112067384": {
+        "verdict": "VERIFIED",
+        "detail": "HONDO PASS CCS: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112072525": {
+        "verdict": "VERIFIED",
+        "detail": "ETC PIPELINE SEGMENTS MARTIN COUNTY: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112072988": {
+        "verdict": "VERIFIED",
+        "detail": "ETC PIPELINE SEGMENTS BORDEN COUNTY: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112073093": {
+        "verdict": "VERIFIED",
+        "detail": "ETC PIPELINE SEGMENTS GLASSCOCK COUNTY: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112073127": {
+        "verdict": "VERIFIED",
+        "detail": "ETC PIPELINE SEGMENTS HOWARD COUNTY: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112073135": {
+        "verdict": "VERIFIED",
+        "detail": "ETC PIPELINE SEGMENTS MIDLAND COUNTY: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112073168": {
+        "verdict": "VERIFIED",
+        "detail": "ETC PIPELINE SEGMENTS UPTON COUNTY: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112073176": {
+        "verdict": "VERIFIED",
+        "detail": "BGICO RNG FACILITY: DB=2 permits, API=2 permits"
+      },
+      "tceq_RN112078266": {
+        "verdict": "VERIFIED",
+        "detail": "WEST TEXAS GAINES COUNTY PIPELINE SEGMENT: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112078282": {
+        "verdict": "VERIFIED",
+        "detail": "WEST TEXAS MIDLAND COUNTY PIPELINE SEGMENT: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112078308": {
+        "verdict": "VERIFIED",
+        "detail": "WEST TEXAS HOWARD COUNTY PIPELINE SEGMENT: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112078357": {
+        "verdict": "VERIFIED",
+        "detail": "WEST TEXAS ECTOR COUNTY PIPELINE SEGMENT: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112078365": {
+        "verdict": "VERIFIED",
+        "detail": "WEST TEXAS DAWSON COUNTY PIPELINE SEGMENT: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112078399": {
+        "verdict": "VERIFIED",
+        "detail": "WEST TEXAS MARTIN COUNTY PIPELINE SEGMENT: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112081690": {
+        "verdict": "VERIFIED",
+        "detail": "BARNHART COMPRESSOR STATION: DB=1 permits, API=2 permits"
+      },
+      "tceq_RN112081708": {
+        "verdict": "VERIFIED",
+        "detail": "LINCOLN COMPRESSOR STATION: DB=1 permits, API=2 permits"
+      },
+      "tceq_RN112082854": {
+        "verdict": "VERIFIED",
+        "detail": "GCC - REWORLD FACILITY: DB=2 permits, API=2 permits"
+      },
+      "tceq_RN112085196": {
+        "verdict": "VERIFIED",
+        "detail": "APT CALDWELL COUNTY PIPELINE SEGMENT: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112086228": {
+        "verdict": "VERIFIED",
+        "detail": "TIRCO REWORLD FACILITY: DB=2 permits, API=2 permits"
+      },
+      "tceq_RN112087010": {
+        "verdict": "VERIFIED",
+        "detail": "WT-2 PUMP STATION: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112105093": {
+        "verdict": "VERIFIED",
+        "detail": "HOLLY ENERGY PARTNERS OP TRUST X6 BIG SPRING TO TYE: DB=3 permits, API=3 permits"
+      },
+      "tceq_RN112105655": {
+        "verdict": "VERIFIED",
+        "detail": "POV ELECTROLYTE PLANT: DB=4 permits, API=4 permits"
+      },
+      "tceq_RN112107891": {
+        "verdict": "VERIFIED",
+        "detail": "LINDE FREEPORT: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112112669": {
+        "verdict": "VERIFIED",
+        "detail": "APT MIDLAND COUNTY PIPELINE SEGMENT: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112122437": {
+        "verdict": "NOT_FOUND",
+        "detail": "RN RN112122437 not found in SODA dataset north_tx"
+      },
+      "tceq_RN112126347": {
+        "verdict": "VERIFIED",
+        "detail": "GOLDEN PASS LNG EXPANSION: DB=9 permits, API=27 permits"
+      },
+      "tceq_RN112135132": {
+        "verdict": "VERIFIED",
+        "detail": "TARZAN COMPRESSOR STATION: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112145289": {
+        "verdict": "VERIFIED",
+        "detail": "APT CRANE COUNTY PIPELINE SEGMENT: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112145305": {
+        "verdict": "VERIFIED",
+        "detail": "APT GLASSCOCK COUNTY PIPELINE SEGMENT: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112145321": {
+        "verdict": "VERIFIED",
+        "detail": "APT PECOS COUNTY PIPELINE SEGMENT: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112145362": {
+        "verdict": "VERIFIED",
+        "detail": "APT REEVES COUNTY PIPELINE SEGMENT: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112145370": {
+        "verdict": "VERIFIED",
+        "detail": "APT UPTON COUNTY PIPELINE SEGMENT: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112145388": {
+        "verdict": "VERIFIED",
+        "detail": "APT WARD COUNTY PIPELINE SEGMENT: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112147616": {
+        "verdict": "VERIFIED",
+        "detail": "APT BANDERA COUNTY PIPELINE SEGMENT: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112147699": {
+        "verdict": "VERIFIED",
+        "detail": "MID-TEX GILLESPIE COUNTY PIPELINE SEGMENT: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112147731": {
+        "verdict": "VERIFIED",
+        "detail": "MID-TEX KENDALL COUNTY PIPELINE SEGMENT: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112147772": {
+        "verdict": "VERIFIED",
+        "detail": "MID-TEX KERR COUNTY PIPELINE SEGMENT: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112148861": {
+        "verdict": "VERIFIED",
+        "detail": "ALL BUNKERING: DB=3 permits, API=3 permits"
+      },
+      "tceq_RN112168042": {
+        "verdict": "NOT_FOUND",
+        "detail": "RN RN112168042 not found in SODA dataset north_tx"
+      },
+      "tceq_RN112171871": {
+        "verdict": "VERIFIED",
+        "detail": "APT WILLIAMSON COUNTY PIPELINE SEGMENT: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112171913": {
+        "verdict": "VERIFIED",
+        "detail": "MID-TEX BURNET COUNTY PIPELINE SEGMENT: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112171921": {
+        "verdict": "VERIFIED",
+        "detail": "MID-TEX LEE COUNTY PIPELINE SEGMENT: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112171939": {
+        "verdict": "VERIFIED",
+        "detail": "MID-TEX LLANO COUNTY PIPELINE SEGMENT: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112172069": {
+        "verdict": "VERIFIED",
+        "detail": "MID-TEX TRAVIS COUNTY PIPELINE SEGMENT: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112172101": {
+        "verdict": "VERIFIED",
+        "detail": "MID-TEX WILLIAMSON COUNTY PIPELINE SEGMENT: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112172127": {
+        "verdict": "VERIFIED",
+        "detail": "APT TRAVIS COUNTY PIPELINE SEGMENT: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112174784": {
+        "verdict": "VERIFIED",
+        "detail": "CHEVERON PIPE LINE 12 INCH PP MIX LINE: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112184031": {
+        "verdict": "VERIFIED",
+        "detail": "INEOS STYROLUTION AMERICA: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112185202": {
+        "verdict": "VERIFIED",
+        "detail": "THROCKMORTON STATION: DB=7 permits, API=7 permits"
+      },
+      "tceq_RN112189964": {
+        "verdict": "VERIFIED",
+        "detail": "BLUEBONNET SEQUESTRATION HUB: DB=2 permits, API=2 permits"
+      },
+      "tceq_RN112190038": {
+        "verdict": "VERIFIED",
+        "detail": "MIDLAND LATERAL COMPRESSOR STATION: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112194493": {
+        "verdict": "VERIFIED",
+        "detail": "SAN ANTONIO EAST GATE STATION: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112197629": {
+        "verdict": "VERIFIED",
+        "detail": "HOLLY ENERGY PARTNERS-OPERATING LP: DB=3 permits, API=3 permits"
+      },
+      "tceq_RN112199468": {
+        "verdict": "VERIFIED",
+        "detail": "MID-TEX HOOD COUNTY PIPELINE SEGMENT: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112199476": {
+        "verdict": "VERIFIED",
+        "detail": "MID-TEX GRAYSON COUNTY PIPELINE SEGMENT: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112199484": {
+        "verdict": "VERIFIED",
+        "detail": "MID-TEX ELLIS COUNTY PIPELINE SEGMENT: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112199492": {
+        "verdict": "VERIFIED",
+        "detail": "MID-TEX COOKE COUNTY PIPELINE SEGMENT: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112199500": {
+        "verdict": "VERIFIED",
+        "detail": "APT COLLIN COUNTY PIPELINE SEGMENT: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112199740": {
+        "verdict": "VERIFIED",
+        "detail": "APT DENTON COUNTY PIPELINE SEGMENT: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112199765": {
+        "verdict": "VERIFIED",
+        "detail": "APT ELLIS COUNTY PIPELINE SEGMENT: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112199781": {
+        "verdict": "VERIFIED",
+        "detail": "APT FANNIN COUNTHY PIPELINE SEGMENT: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112211719": {
+        "verdict": "NOT_FOUND",
+        "detail": "RN RN112211719 not found in SODA dataset dallas_fw"
+      },
+      "tceq_RN112211743": {
+        "verdict": "NOT_FOUND",
+        "detail": "RN RN112211743 not found in SODA dataset dallas_fw"
+      },
+      "tceq_RN112215207": {
+        "verdict": "VERIFIED",
+        "detail": "PETRA OIL: DB=2 permits, API=2 permits"
+      },
+      "tceq_RN112217468": {
+        "verdict": "VERIFIED",
+        "detail": "CHINA LAKE COMPRESSOR STATION: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112218565": {
+        "verdict": "VERIFIED",
+        "detail": "WHARTON AD 1: DB=2 permits, API=4 permits"
+      },
+      "tceq_RN112218664": {
+        "verdict": "VERIFIED",
+        "detail": "CISCO COMPRESSOR STATION: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112220801": {
+        "verdict": "VERIFIED",
+        "detail": "CLAYTON COMPRESSOR STATION: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112224365": {
+        "verdict": "VERIFIED",
+        "detail": "TXDOT - BRAZORIA SH35 - CCSJ 6376-75-001: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112232418": {
+        "verdict": "VERIFIED",
+        "detail": "HOWARD COUNTY TERMINAL: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112232699": {
+        "verdict": "VERIFIED",
+        "detail": "OZONA COMPRESSOR STATION: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112235841": {
+        "verdict": "VERIFIED",
+        "detail": "TILDEN COMPRESSOR STATION: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112235866": {
+        "verdict": "VERIFIED",
+        "detail": "SPOFFORD COMPRESSOR STATION: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112241815": {
+        "verdict": "VERIFIED",
+        "detail": "KINDER MORGAN TEXAS PIPELINE SHERIDAN SLUG CATCHER STATION: DB=2 permits, API=2 permits"
+      },
+      "tceq_RN112246897": {
+        "verdict": "VERIFIED",
+        "detail": "TCX DOCK 4243: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112257258": {
+        "verdict": "VERIFIED",
+        "detail": "TRUNKLINE INTERCONNECT STATION: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112257266": {
+        "verdict": "VERIFIED",
+        "detail": "COASTAL BEND HEADER INTERCONNECT STATION: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112266010": {
+        "verdict": "VERIFIED",
+        "detail": "AGUA DULCE COMPRESSOR STATION: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112267695": {
+        "verdict": "VERIFIED",
+        "detail": "HASTING PIPELINE STATION: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112275003": {
+        "verdict": "NOT_FOUND",
+        "detail": "RN RN112275003 not found in SODA dataset dallas_fw"
+      },
+      "tceq_RN112287073": {
+        "verdict": "VERIFIED",
+        "detail": "HOWARD COUNTY PIPELINE SEGMENTS: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112292321": {
+        "verdict": "NOT_FOUND",
+        "detail": "RN RN112292321 not found in SODA dataset dallas_fw"
+      },
+      "tceq_RN112295274": {
+        "verdict": "VERIFIED",
+        "detail": "ONEOK STERLING III PIPELINE LIBERTY COUNTY PIPELINES: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112296587": {
+        "verdict": "VERIFIED",
+        "detail": "345KV HONEY MESQUITE ADDITION: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112306121": {
+        "verdict": "VERIFIED",
+        "detail": "CHEVRON PIPE LINE DOW PROPYLENE LATERAL: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112306972": {
+        "verdict": "VERIFIED",
+        "detail": "RAYMONDVILLE COMPRESSOR STATION: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112308630": {
+        "verdict": "VERIFIED",
+        "detail": "TRIDENT PORT ARTHUR COMPRESSOR STATION: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112311063": {
+        "verdict": "VERIFIED",
+        "detail": "TRAVERSE AGUA DULCE COMPRESSOR STATION: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112313986": {
+        "verdict": "VERIFIED",
+        "detail": "COTTON COVE CCS 1: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112314869": {
+        "verdict": "VERIFIED",
+        "detail": "EQUALIZER: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112318316": {
+        "verdict": "VERIFIED",
+        "detail": "BLCCS INVESTEMENTS: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112339718": {
+        "verdict": "VERIFIED",
+        "detail": "AMERESCO GRAND PRAIRIE RNG: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112341235": {
+        "verdict": "VERIFIED",
+        "detail": "TXDOT-HARRIS-IH10 CCSJ 0508-01-400: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112344536": {
+        "verdict": "VERIFIED",
+        "detail": "PORTABLE CRUSHER 1400CCS: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112345277": {
+        "verdict": "VERIFIED",
+        "detail": "SWEETWATER COMPRESSOR STATION: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112346275": {
+        "verdict": "VERIFIED",
+        "detail": "WEST FORK RENEWABLE NATURAL GAS FACILITY: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112347422": {
+        "verdict": "VERIFIED",
+        "detail": "LIMA TANGO CCS 1: DB=4 permits, API=10 permits"
+      },
+      "tceq_RN112363700": {
+        "verdict": "VERIFIED",
+        "detail": "STRATTON RIDGE PUMP STATION: DB=2 permits, API=2 permits"
+      },
+      "tceq_RN112372057": {
+        "verdict": "VERIFIED",
+        "detail": "LONESOME DOVE II CDP: DB=1 permits, API=1 permits"
+      },
+      "tceq_RN112395330": {
+        "verdict": "NOT_FOUND",
+        "detail": "RN RN112395330 not found in SODA dataset north_tx"
+      }
+    },
+    "phase5": {
+      "epa_110000457773": {
+        "verdict": "VERIFIED",
+        "detail": "AIR LIQUIDE AMERICA L P \u2192 API: AIR LIQUIDE AMERICA L P, DALLAS, 5 programs, 6 DB permits"
+      },
+      "epa_110000458166": {
+        "verdict": "VERIFIED",
+        "detail": "AIR LIQUIDE AMERICA CORPORATION \u2192 API: LONGVIEW ASU ALAC, LONGVIEW, 5 programs, 8 DB permits"
+      },
+      "epa_110000462758": {
+        "verdict": "VERIFIED",
+        "detail": "AIR LIQUIDE AMERICA CORPORATION \u2192 API: AIR LIQUIDE LARGE INDUSTRIES BAYPORT, PASADENA, 9 programs, 10 DB permits"
+      },
+      "epa_110000463098": {
+        "verdict": "VERIFIED",
+        "detail": "AIR PRODUCTS BAYTOWN 3 FACILITY \u2192 API: BAYTOWN PLANT, BAYTOWN, 13 programs, 27 DB permits"
+      },
+      "epa_110000463114": {
+        "verdict": "VERIFIED",
+        "detail": "B.O.C. GASES \u2192 API: AIRCO INDUSTRIES GASES, BAYTOWN, 10 programs, 7 DB permits"
+      },
+      "epa_110000463622": {
+        "verdict": "VERIFIED",
+        "detail": "AIR PRODUCTS LA PORTE PLANT \u2192 API: ALTERNATIVE FUELS DEV, HOUSTON, 12 programs, 17 DB permits"
+      },
+      "epa_110000506239": {
+        "verdict": "VERIFIED",
+        "detail": "AIRGAS SPECIALITY GASES, INC. \u2192 API: ROBIN BLVD FACILITY, HOUSTON, 6 programs, 5 DB permits"
+      },
+      "epa_110000917090": {
+        "verdict": "VERIFIED",
+        "detail": "AIR LIQUIDE - VICTORIA ASU \u2192 API: AIR LIQUIDE LARGE INDUSTRIES US VICTORIA, BLOOMINGTON, 5 programs, 7 DB permits"
+      },
+      "epa_110001867846": {
+        "verdict": "VERIFIED",
+        "detail": "BAYOU COGENERATION PLANT \u2192 API: BAYOU COGENERATION PLANT, PASADENA, 8 programs, 4 DB permits"
+      },
+      "epa_110002132610": {
+        "verdict": "VERIFIED",
+        "detail": "AIR PRODUCTS INC  CORP \u2192 API: AIR PRODUCTS MIDLOTHIAN PLANT, MIDLOTHIAN, 4 programs, 4 DB permits"
+      },
+      "epa_110002134155": {
+        "verdict": "VERIFIED",
+        "detail": "AIR LIQUIDE AMERICA CORP \u2192 API: AIR LIQUIDE AMERICA CORP, OYSTER CREEK, 6 programs, 6 DB permits"
+      },
+      "epa_110002134226": {
+        "verdict": "VERIFIED",
+        "detail": "AIR LIQUIDE LARGE INDUSTRIES NEDERLAND \u2192 API: AIR LIQUIDE NEDERLAND AIR SEPARATION UNIT, JEFFERSON COUNTY, 4 programs, 4 DB permits"
+      },
+      "epa_110002135172": {
+        "verdict": "VERIFIED",
+        "detail": "CARDOX CORP \u2192 API: CARDOX CORP, BORGER, 1 programs, 2 DB permits"
+      },
+      "epa_110002135412": {
+        "verdict": "VERIFIED",
+        "detail": "AIR LIQUIDE LARGE INDUSTRIES ODESSA \u2192 API: AIR LIQUIDE LARGE INDUSTRIES ODESSA, ODESSA, 3 programs, 3 DB permits"
+      },
+      "epa_110002339586": {
+        "verdict": "VERIFIED",
+        "detail": "AIR LIQUIDE AMERICA CORP \u2192 API: AIR LIQUIDE AMERICA CORP, BEAUMONT, 1 programs, 2 DB permits"
+      },
+      "epa_110002468534": {
+        "verdict": "VERIFIED",
+        "detail": "AIR LIQUIDE AMERICA \u2192 API: AIR LIQUIDE AMERICA, INGLESIDE, 2 programs, 3 DB permits"
+      },
+      "epa_110005184497": {
+        "verdict": "VERIFIED",
+        "detail": "AIR LIQUIDE - FREEPORT HYCO PLANT \u2192 API: AIR LIQUIDE FREEPORT HYCO, FREEPORT, 9 programs, 7 DB permits"
+      },
+      "epa_110005191078": {
+        "verdict": "VERIFIED",
+        "detail": "AIR LIQUID LARGE INDUSTRIES CORPUS SMR \u2192 API: AIR LIQUID LARGE INDUSTRIES CORPUS SMR, CORPUS CHRISTI, 9 programs, 9 DB permits"
+      },
+      "epa_110006171953": {
+        "verdict": "VERIFIED",
+        "detail": "BOC GASES JEWETT PLANT \u2192 API: LINDE WWTP, JEWETT, 2 programs, 2 DB permits"
+      },
+      "epa_110006179134": {
+        "verdict": "VERIFIED",
+        "detail": "AIR PRODUCTS GRUVER PLANT \u2192 API: AIR PRODUCTS GRUVER PLANT, GRUVER, 2 programs, 3 DB permits"
+      },
+      "epa_110008060560": {
+        "verdict": "VERIFIED",
+        "detail": "AIRGAS SOUTHWEST \u2192 API: AIRGAS USA LLC, HOUSTON, 1 programs, 2 DB permits"
+      },
+      "epa_110008060775": {
+        "verdict": "VERIFIED",
+        "detail": "AIRGAS SOUTHWEST \u2192 API: AIRGAS USA LLC, CORPUS CHRISTI, 2 programs, 3 DB permits"
+      },
+      "epa_110008060819": {
+        "verdict": "VERIFIED",
+        "detail": "AIRGAS USA LLC \u2192 API: AIRGAS USA LLC, SAN ANTONIO, 1 programs, 2 DB permits"
+      },
+      "epa_110008060935": {
+        "verdict": "VERIFIED",
+        "detail": "AIRGAS SOUTHWEST \u2192 API: AIRGAS SOUTHWEST, ABILENE, 2 programs, 2 DB permits"
+      },
+      "epa_110009493654": {
+        "verdict": "VERIFIED",
+        "detail": "AIR LIQUIDE LARGE INDUSTRIES CHANNELVIEW \u2192 API: AIR LIQUIDE LARGE INDUSTRIES CHANNELVIEW, CHANNELVIEW, 3 programs, 3 DB permits"
+      },
+      "epa_110009498132": {
+        "verdict": "VERIFIED",
+        "detail": "AIR LIQUIDE AMERICA GRAND PRAIRIE ASU ALAC \u2192 API: ALAC DALLAS ASU, GRAND PRAIRIE, 3 programs, 3 DB permits"
+      },
+      "epa_110010578188": {
+        "verdict": "VERIFIED",
+        "detail": "ALAC PORT NECHES ASU \u2192 API: ALAC PORT NECHES ASU, PORT NECHES, 1 programs, 2 DB permits"
+      },
+      "epa_110012181824": {
+        "verdict": "VERIFIED",
+        "detail": "AIR LIQUIDE AMERICA BORGER CO2 PLANT \u2192 API: MATHESON TRI GAS INC , BORGER, 3 programs, 3 DB permits"
+      },
+      "epa_110012703002": {
+        "verdict": "VERIFIED",
+        "detail": "AIRGAS-SOUTHWEST INC \u2192 API: AIRGAS SOUTHWEST, MERKEL, 2 programs, 2 DB permits"
+      },
+      "epa_110012710423": {
+        "verdict": "VERIFIED",
+        "detail": "AIR PRODUCTS BAYTOWN II PLANT \u2192 API: AIR PRODUCTS BAYTOWN PLANT, BAYTOWN, 9 programs, 8 DB permits"
+      },
+      "epa_110016668319": {
+        "verdict": "VERIFIED",
+        "detail": "AIR LIQUIDE \u2192 API: BIG THREE INDUSTRIAL GAS INC LA PORTE LAB, LA PORTE, 5 programs, 7 DB permits"
+      },
+      "epa_110020515227": {
+        "verdict": "VERIFIED",
+        "detail": "AIRGAS SOUTHWEST \u2192 API: AIR PRODUCTS AND CHEMICALS BANNING ST, DALLAS, 3 programs, 2 DB permits"
+      },
+      "epa_110025317315": {
+        "verdict": "VERIFIED",
+        "detail": "AIRGAS MID SOUTH INC \u2192 API: AIRGAS MID SOUTH INC , TEXARKANA, 1 programs, 2 DB permits"
+      },
+      "epa_110033254369": {
+        "verdict": "VERIFIED",
+        "detail": "AIR LIQUIDE AMERICA LONGVIEW \u2192 API: AIR LIQUIDE LARGE INDUSTRIES US LP, LONGVIEW, 4 programs, 3 DB permits"
+      },
+      "epa_110033536573": {
+        "verdict": "VERIFIED",
+        "detail": "AIR LIQUIDE - LA PORTE ASU \u2192 API: BIG THREE INDUSTRIES INC, LA PORTE, 6 programs, 8 DB permits"
+      },
+      "epa_110034393378": {
+        "verdict": "MISMATCH",
+        "detail": "Name mismatch: DB=CHEMOURS - BEAUMONT WORKS (BEAUMONT, JEFFERSON County, TX), API=CHEMOURS BEAUMONT WORKS INDUSTRIAL PARK (NEDERLAND)"
+      },
+      "epa_110034702132": {
+        "verdict": "VERIFIED",
+        "detail": "CLIFFSIDE GAS FIELD \u2192 API: CLIFFSIDE GAS FIELD, AMARILLO, 4 programs, 5 DB permits"
+      },
+      "epa_110035420746": {
+        "verdict": "VERIFIED",
+        "detail": "CALPINE CLEAR LAKE COGENERATION \u2192 API: PRAXAIR CLEAR LAKE HYCO PLANT, PASADENA, 7 programs, 7 DB permits"
+      },
+      "epa_110037850974": {
+        "verdict": "VERIFIED",
+        "detail": "AIRGAS DRY ICE \u2192 API: CARBONIC APPLICATIONS, LA PORTE, 3 programs, 3 DB permits"
+      },
+      "epa_110043790001": {
+        "verdict": "VERIFIED",
+        "detail": "AIR SEPARATION FACILITY \u2192 API: PRAXAIR NITROGEN, HAWKINS, 4 programs, 4 DB permits"
+      },
+      "epa_110043802819": {
+        "verdict": "VERIFIED",
+        "detail": "AIR PRODUCTS LLC \u2192 API: AIR PRODUCTS PORT ARTHUR PLANT, PORT ARTHUR, 12 programs, 12 DB permits"
+      },
+      "epa_110046424598": {
+        "verdict": "VERIFIED",
+        "detail": "AIR LIQUIDE - SMR FACILITY \u2192 API: AIR LIQUIDE LARGE INDUSTRIES US LP, PASADENA, 6 programs, 7 DB permits"
+      },
+      "epa_110055506796": {
+        "verdict": "VERIFIED",
+        "detail": "A-GAS AMERICAS \u2192 API: A GAS AMERICAS, MAGNOLIA, 3 programs, 3 DB permits"
+      },
+      "epa_110056955610": {
+        "verdict": "VERIFIED",
+        "detail": "AIR LIQUID LARGE INDUSTRIES US POX ASU4 LONGVIEW \u2192 API: LONGVIEW POX ASU PLT, LONGVIEW, 7 programs, 8 DB permits"
+      },
+      "epa_110056955647": {
+        "verdict": "VERIFIED",
+        "detail": "AIR LIQUIDE FREEPORT HPU PLANT \u2192 API: AIR LIQUIDE FREEPORT HPU PLANT, FREEPORT, 2 programs, 4 DB permits"
+      },
+      "epa_110059763000": {
+        "verdict": "VERIFIED",
+        "detail": "AIR PRODUCTS AND CHEMICALS, PASADENA PUI \u2192 API: AIR PRODUCTS LLC PASADENA SMR, PASADENA, 3 programs, 5 DB permits"
+      },
+      "epa_110067124258": {
+        "verdict": "VERIFIED",
+        "detail": "AIR PRODUCTS LLC \u2192 API: AIR PRODUCTS LLC, CORPUS CHRISTI, 2 programs, 2 DB permits"
+      },
+      "epa_110070200837": {
+        "verdict": "VERIFIED",
+        "detail": "AIR PRODUCTS BAYTOWN 3 FACILITY \u2192 API: AIR PRODUCTS BAYTOWN 3 FACILITY, BAYTOWN, 5 programs, 7 DB permits"
+      },
+      "epa_110070375269": {
+        "verdict": "VERIFIED",
+        "detail": "AIR LIQUIDE LA PORTE SMR \u2192 API: AIR LIQUIDE LA PORTE SMR, LA PORTE, 4 programs, 4 DB permits"
+      },
+      "epa_110070569460": {
+        "verdict": "VERIFIED",
+        "detail": "AIRGAS ALVIN PLANT \u2192 API: AIRGAS ALVIN PLANT, ALVIN, 2 programs, 3 DB permits"
+      },
+      "epa_110070737672": {
+        "verdict": "VERIFIED",
+        "detail": "AIR LIQUIDE BAYPORT COMPL \u2192 API: AIR LIQUIDE BAYPORT COMPL, PASADENA, 3 programs, 3 DB permits"
+      },
+      "epa_110070863208": {
+        "verdict": "VERIFIED",
+        "detail": "AIR LIQUIDE BAY CITY LMA \u2192 API: AIR LIQUIDE BAY CITY LMA, BAY CITY, 1 programs, 2 DB permits"
+      },
+      "epa_110071160491": {
+        "verdict": "VERIFIED",
+        "detail": "CHEMOURS - CORPUS CHRISTI PLANT \u2192 API: CHEMOURS CORPUS CHRISTI PLANT, GREGORY, 2 programs, 3 DB permits"
+      },
+      "epa_110071358879": {
+        "verdict": "VERIFIED",
+        "detail": "AIR PRODUCTS \u2192 API: AIR PRODUCTS, TEXAS CITY, 2 programs, 3 DB permits"
+      },
+      "epa_110071410764": {
+        "verdict": "VERIFIED",
+        "detail": "CLIFFSIDE CRUDE HELIUM ENRICHMENT UNIT \u2192 API: CLIFFSIDE HELIUM PLANT, AMARILLO, 2 programs, 3 DB permits"
+      },
+      "epa_110071855620": {
+        "verdict": "VERIFIED",
+        "detail": "CONTINENTAL CARBONIC PRODUCTS \u2192 API: CONTINENTAL CARBONIC PRODUCTS, BRIDGEPORT, 1 programs, 3 DB permits"
+      },
+      "epa_110071885850": {
+        "verdict": "VERIFIED",
+        "detail": "CONTINENTAL CARBONIC PRODUCTS \u2192 API: CONTINENTAL CARBONIC PRODUCTS, BRIDGEPORT, 1 programs, 3 DB permits"
+      },
+      "epa_110072061306": {
+        "verdict": "VERIFIED",
+        "detail": "DAC-1 \u2192 API: DAC 1, NOTREES, 1 programs, 2 DB permits"
+      },
+      "epa_110072061727": {
+        "verdict": "VERIFIED",
+        "detail": "A GAS US \u2192 API: A GAS US, RHOME, 2 programs, 4 DB permits"
+      }
+    },
+    "phase6": {
+      "aliases_fk_integrity": {
+        "verdict": "PASS",
+        "detail": "451 aliases, 0 orphaned"
+      },
+      "empty_aliases": {
+        "verdict": "PASS",
+        "detail": "0 empty aliases"
+      },
+      "duplicate_aliases": {
+        "verdict": "PASS",
+        "detail": "0 duplicate alias pairs"
+      },
+      "xref_311": {
+        "verdict": "VERIFIED",
+        "detail": "RN100217231 \u2194 110000463828 confirmed in FRS"
+      },
+      "xref_312": {
+        "verdict": "VERIFIED",
+        "detail": "RN105087829 \u2194 110000463828 confirmed in FRS"
+      },
+      "xref_313": {
+        "verdict": "VERIFIED",
+        "detail": "RN105092787 \u2194 110000463828 confirmed in FRS"
+      },
+      "xref_314": {
+        "verdict": "VERIFIED",
+        "detail": "RN100209451 \u2194 110000464024 confirmed in FRS"
+      },
+      "xref_315": {
+        "verdict": "VERIFIED",
+        "detail": "RN102543261 \u2194 110000464024 confirmed in FRS"
+      },
+      "xref_316": {
+        "verdict": "VERIFIED",
+        "detail": "RN104988217 \u2194 110000464024 confirmed in FRS"
+      },
+      "xref_317": {
+        "verdict": "VERIFIED",
+        "detail": "RN105103345 \u2194 110000464024 confirmed in FRS"
+      },
+      "xref_318": {
+        "verdict": "VERIFIED",
+        "detail": "RN105132153 \u2194 110000464024 confirmed in FRS"
+      },
+      "xref_319": {
+        "verdict": "VERIFIED",
+        "detail": "RN105245229 \u2194 110000464024 confirmed in FRS"
+      },
+      "xref_320": {
+        "verdict": "VERIFIED",
+        "detail": "RN105308621 \u2194 110000464024 confirmed in FRS"
+      },
+      "xref_321": {
+        "verdict": "VERIFIED",
+        "detail": "RN100219351 \u2194 110000505524 confirmed in FRS"
+      },
+      "xref_322": {
+        "verdict": "VERIFIED",
+        "detail": "RN102559291 \u2194 110000743900 confirmed in FRS"
+      },
+      "xref_323": {
+        "verdict": "VERIFIED",
+        "detail": "RN101462281 \u2194 110028187049 confirmed in FRS"
+      },
+      "xref_324": {
+        "verdict": "VERIFIED",
+        "detail": "RN102536307 \u2194 110028187049 confirmed in FRS"
+      },
+      "xref_325": {
+        "verdict": "VERIFIED",
+        "detail": "RN102909579 \u2194 110028187049 confirmed in FRS"
+      },
+      "xref_326": {
+        "verdict": "VERIFIED",
+        "detail": "RN104579487 \u2194 110028187049 confirmed in FRS"
+      },
+      "xref_327": {
+        "verdict": "VERIFIED",
+        "detail": "RN104914080 \u2194 110028187049 confirmed in FRS"
+      },
+      "xref_328": {
+        "verdict": "VERIFIED",
+        "detail": "RN105075626 \u2194 110028187049 confirmed in FRS"
+      },
+      "xref_329": {
+        "verdict": "VERIFIED",
+        "detail": "RN105160659 \u2194 110028187049 confirmed in FRS"
+      },
+      "xref_330": {
+        "verdict": "VERIFIED",
+        "detail": "RN100218569 \u2194 110034285226 confirmed in FRS"
+      },
+      "xref_331": {
+        "verdict": "VERIFIED",
+        "detail": "RN102450756 \u2194 110041990913 confirmed in FRS"
+      },
+      "xref_332": {
+        "verdict": "VERIFIED",
+        "detail": "RN104575808 \u2194 110041990913 confirmed in FRS"
+      },
+      "xref_333": {
+        "verdict": "VERIFIED",
+        "detail": "RN105188940 \u2194 110041990913 confirmed in FRS"
+      },
+      "xref_334": {
+        "verdict": "VERIFIED",
+        "detail": "RN105389431 \u2194 110041990913 confirmed in FRS"
+      },
+      "xref_335": {
+        "verdict": "VERIFIED",
+        "detail": "RN105669360 \u2194 110041990913 confirmed in FRS"
+      },
+      "xref_336": {
+        "verdict": "VERIFIED",
+        "detail": "RN105677595 \u2194 110041990913 confirmed in FRS"
+      },
+      "xref_337": {
+        "verdict": "VERIFIED",
+        "detail": "RN100210608 \u2194 110056967368 confirmed in FRS"
+      },
+      "xref_338": {
+        "verdict": "VERIFIED",
+        "detail": "RN100227016 \u2194 110067040703 confirmed in FRS"
+      },
+      "xref_339": {
+        "verdict": "VERIFIED",
+        "detail": "RN103080487 \u2194 110067040703 confirmed in FRS"
+      },
+      "xref_340": {
+        "verdict": "VERIFIED",
+        "detail": "RN104150123 \u2194 110067040703 confirmed in FRS"
+      },
+      "xref_341": {
+        "verdict": "VERIFIED",
+        "detail": "RN104541743 \u2194 110067040703 confirmed in FRS"
+      },
+      "xref_342": {
+        "verdict": "VERIFIED",
+        "detail": "RN105499420 \u2194 110067040703 confirmed in FRS"
+      },
+      "xref_343": {
+        "verdict": "VERIFIED",
+        "detail": "RN105922876 \u2194 110067040703 confirmed in FRS"
+      },
+      "xref_344": {
+        "verdict": "VERIFIED",
+        "detail": "RN109503698 \u2194 110067040703 confirmed in FRS"
+      },
+      "xref_345": {
+        "verdict": "VERIFIED",
+        "detail": "RN100215417 \u2194 110070934284 confirmed in FRS"
+      },
+      "xref_1": {
+        "verdict": "VERIFIED",
+        "detail": "epa_ghgrp:110000462758 \u2194 epa_echo:110000462758 \u2014 registry exists in FRS (11 programs)"
+      },
+      "xref_2": {
+        "verdict": "VERIFIED",
+        "detail": "epa_ghgrp:110000465719 \u2194 epa_echo:110000465719 \u2014 registry exists in FRS (25 programs)"
+      },
+      "xref_3": {
+        "verdict": "VERIFIED",
+        "detail": "epa_ghgrp:110000825037 \u2194 epa_echo:110000825037 \u2014 registry exists in FRS (12 programs)"
+      },
+      "xref_4": {
+        "verdict": "VERIFIED",
+        "detail": "epa_ghgrp:110005184497 \u2194 epa_echo:110005184497 \u2014 registry exists in FRS (11 programs)"
+      },
+      "xref_5": {
+        "verdict": "VERIFIED",
+        "detail": "epa_ghgrp:110005191078 \u2194 epa_echo:110005191078 \u2014 registry exists in FRS (10 programs)"
+      },
+      "xref_6": {
+        "verdict": "VERIFIED",
+        "detail": "epa_ghgrp:110012710423 \u2194 epa_echo:110012710423 \u2014 registry exists in FRS (9 programs)"
+      },
+      "xref_7": {
+        "verdict": "VERIFIED",
+        "detail": "epa_ghgrp:110031267064 \u2194 epa_echo:110031267064 \u2014 registry exists in FRS (76 programs)"
+      },
+      "xref_8": {
+        "verdict": "VERIFIED",
+        "detail": "epa_ghgrp:110033536573 \u2194 epa_echo:110033536573 \u2014 registry exists in FRS (9 programs)"
+      },
+      "xref_9": {
+        "verdict": "VERIFIED",
+        "detail": "epa_ghgrp:110035420746 \u2194 epa_echo:110035420746 \u2014 registry exists in FRS (9 programs)"
+      },
+      "xref_10": {
+        "verdict": "VERIFIED",
+        "detail": "epa_ghgrp:110041624873 \u2194 epa_echo:110041624873 \u2014 registry exists in FRS (5 programs)"
+      },
+      "xref_11": {
+        "verdict": "VERIFIED",
+        "detail": "epa_ghgrp:110042005843 \u2194 epa_echo:110042005843 \u2014 registry exists in FRS (38 programs)"
+      },
+      "xref_12": {
+        "verdict": "VERIFIED",
+        "detail": "epa_ghgrp:110043802819 \u2194 epa_echo:110043802819 \u2014 registry exists in FRS (13 programs)"
+      },
+      "xref_13": {
+        "verdict": "VERIFIED",
+        "detail": "epa_ghgrp:110056955610 \u2194 epa_echo:110056955610 \u2014 registry exists in FRS (8 programs)"
+      },
+      "xref_14": {
+        "verdict": "VERIFIED",
+        "detail": "epa_ghgrp:110059763000 \u2194 epa_echo:110059763000 \u2014 registry exists in FRS (4 programs)"
+      },
+      "xref_15": {
+        "verdict": "VERIFIED",
+        "detail": "epa_ghgrp:110060241885 \u2194 epa_echo:110060241885 \u2014 registry exists in FRS (8 programs)"
+      },
+      "xref_16": {
+        "verdict": "VERIFIED",
+        "detail": "epa_ghgrp:110067040703 \u2194 epa_echo:110067040703 \u2014 registry exists in FRS (60 programs)"
+      },
+      "xref_17": {
+        "verdict": "VERIFIED",
+        "detail": "epa_ghgrp:110067124258 \u2194 epa_echo:110067124258 \u2014 registry exists in FRS (2 programs)"
+      },
+      "xref_18": {
+        "verdict": "VERIFIED",
+        "detail": "epa_ghgrp:110067130660 \u2194 epa_echo:110067130660 \u2014 registry exists in FRS (3 programs)"
+      },
+      "xref_19": {
+        "verdict": "VERIFIED",
+        "detail": "epa_ghgrp:110070081820 \u2194 epa_echo:110070081820 \u2014 registry exists in FRS (3 programs)"
+      },
+      "xref_20": {
+        "verdict": "VERIFIED",
+        "detail": "epa_ghgrp:110070200837 \u2194 epa_echo:110070200837 \u2014 registry exists in FRS (5 programs)"
+      },
+      "xref_21": {
+        "verdict": "VERIFIED",
+        "detail": "epa_ghgrp:110070519769 \u2194 epa_echo:110070519769 \u2014 registry exists in FRS (21 programs)"
+      },
+      "xref_22": {
+        "verdict": "VERIFIED",
+        "detail": "epa_ghgrp:110070828261 \u2194 epa_echo:110070828261 \u2014 registry exists in FRS (14 programs)"
+      },
+      "xref_23": {
+        "verdict": "VERIFIED",
+        "detail": "epa_ghgrp:110071232224 \u2194 epa_echo:110071232224 \u2014 registry exists in FRS (2 programs)"
+      },
+      "xref_24": {
+        "verdict": "VERIFIED",
+        "detail": "epa_ghgrp:110071664886 \u2194 epa_echo:110071664886 \u2014 registry exists in FRS (1 programs)"
+      },
+      "spatial_31": {
+        "verdict": "VERIFIED",
+        "detail": "dist=1.8mi, overlap=0.0, conf=0.72"
+      },
+      "spatial_32": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=3.0mi, overlap=0.0, conf=0.64"
+      },
+      "spatial_33": {
+        "verdict": "SUSPICIOUS",
+        "detail": "dist=3.0mi, overlap=0.0, conf=0.64"
+      },
+      "spatial_34": {
+        "verdict": "SUSPICIOUS",
+        "detail": "dist=3.1mi, overlap=0.0, conf=0.63"
+      },
+      "spatial_35": {
+        "verdict": "SUSPICIOUS",
+        "detail": "dist=3.0mi, overlap=0.0, conf=0.64"
+      },
+      "spatial_36": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.4mi, overlap=0.0, conf=0.68"
+      },
+      "spatial_37": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.7mi, overlap=0.0, conf=0.66"
+      },
+      "spatial_38": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.6mi, overlap=0.0, conf=0.67"
+      },
+      "spatial_39": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.5mi, overlap=0.0, conf=0.68"
+      },
+      "spatial_40": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.5mi, overlap=0.0, conf=0.68"
+      },
+      "spatial_41": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.6mi, overlap=0.0, conf=0.67"
+      },
+      "spatial_42": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.5mi, overlap=0.0, conf=0.67"
+      },
+      "spatial_43": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.6mi, overlap=0.0, conf=0.67"
+      },
+      "spatial_44": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.3mi, overlap=0.0, conf=0.69"
+      },
+      "spatial_45": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.6mi, overlap=0.0, conf=0.67"
+      },
+      "spatial_47": {
+        "verdict": "VERIFIED",
+        "detail": "dist=1.1mi, overlap=0.0, conf=0.78"
+      },
+      "spatial_48": {
+        "verdict": "VERIFIED",
+        "detail": "dist=1.1mi, overlap=0.0, conf=0.77"
+      },
+      "spatial_49": {
+        "verdict": "SUSPICIOUS",
+        "detail": "dist=3.1mi, overlap=0.0, conf=0.63"
+      },
+      "spatial_50": {
+        "verdict": "SUSPICIOUS",
+        "detail": "dist=3.1mi, overlap=0.0, conf=0.63"
+      },
+      "spatial_51": {
+        "verdict": "SUSPICIOUS",
+        "detail": "dist=3.0mi, overlap=0.0, conf=0.64"
+      },
+      "spatial_52": {
+        "verdict": "SUSPICIOUS",
+        "detail": "dist=3.0mi, overlap=0.0, conf=0.64"
+      },
+      "spatial_53": {
+        "verdict": "SUSPICIOUS",
+        "detail": "dist=3.5mi, overlap=0.0, conf=0.60"
+      },
+      "spatial_54": {
+        "verdict": "SUSPICIOUS",
+        "detail": "dist=3.5mi, overlap=0.0, conf=0.60"
+      },
+      "spatial_55": {
+        "verdict": "SUSPICIOUS",
+        "detail": "dist=3.5mi, overlap=0.0, conf=0.60"
+      },
+      "spatial_56": {
+        "verdict": "SUSPICIOUS",
+        "detail": "dist=3.5mi, overlap=0.0, conf=0.60"
+      },
+      "spatial_57": {
+        "verdict": "SUSPICIOUS",
+        "detail": "dist=3.6mi, overlap=0.0, conf=0.60"
+      },
+      "spatial_58": {
+        "verdict": "SUSPICIOUS",
+        "detail": "dist=3.6mi, overlap=0.0, conf=0.60"
+      },
+      "spatial_59": {
+        "verdict": "SUSPICIOUS",
+        "detail": "dist=3.6mi, overlap=0.0, conf=0.60"
+      },
+      "spatial_60": {
+        "verdict": "SUSPICIOUS",
+        "detail": "dist=3.6mi, overlap=0.0, conf=0.60"
+      },
+      "spatial_61": {
+        "verdict": "SUSPICIOUS",
+        "detail": "dist=3.4mi, overlap=0.0, conf=0.61"
+      },
+      "spatial_62": {
+        "verdict": "SUSPICIOUS",
+        "detail": "dist=3.4mi, overlap=0.0, conf=0.61"
+      },
+      "spatial_63": {
+        "verdict": "SUSPICIOUS",
+        "detail": "dist=3.4mi, overlap=0.0, conf=0.61"
+      },
+      "spatial_64": {
+        "verdict": "SUSPICIOUS",
+        "detail": "dist=3.4mi, overlap=0.0, conf=0.61"
+      },
+      "spatial_65": {
+        "verdict": "SUSPICIOUS",
+        "detail": "dist=3.3mi, overlap=0.0, conf=0.62"
+      },
+      "spatial_66": {
+        "verdict": "SUSPICIOUS",
+        "detail": "dist=3.3mi, overlap=0.0, conf=0.62"
+      },
+      "spatial_67": {
+        "verdict": "SUSPICIOUS",
+        "detail": "dist=3.7mi, overlap=0.0, conf=0.59"
+      },
+      "spatial_68": {
+        "verdict": "SUSPICIOUS",
+        "detail": "dist=3.7mi, overlap=0.0, conf=0.59"
+      },
+      "spatial_69": {
+        "verdict": "SUSPICIOUS",
+        "detail": "dist=3.7mi, overlap=0.0, conf=0.59"
+      },
+      "spatial_70": {
+        "verdict": "SUSPICIOUS",
+        "detail": "dist=3.7mi, overlap=0.0, conf=0.59"
+      },
+      "spatial_71": {
+        "verdict": "SUSPICIOUS",
+        "detail": "dist=3.8mi, overlap=0.0, conf=0.58"
+      },
+      "spatial_72": {
+        "verdict": "SUSPICIOUS",
+        "detail": "dist=3.8mi, overlap=0.0, conf=0.58"
+      },
+      "spatial_73": {
+        "verdict": "SUSPICIOUS",
+        "detail": "dist=3.8mi, overlap=0.0, conf=0.58"
+      },
+      "spatial_74": {
+        "verdict": "SUSPICIOUS",
+        "detail": "dist=3.8mi, overlap=0.0, conf=0.58"
+      },
+      "spatial_75": {
+        "verdict": "SUSPICIOUS",
+        "detail": "dist=3.9mi, overlap=0.0, conf=0.58"
+      },
+      "spatial_76": {
+        "verdict": "SUSPICIOUS",
+        "detail": "dist=3.9mi, overlap=0.0, conf=0.58"
+      },
+      "spatial_77": {
+        "verdict": "SUSPICIOUS",
+        "detail": "dist=3.9mi, overlap=0.0, conf=0.58"
+      },
+      "spatial_78": {
+        "verdict": "SUSPICIOUS",
+        "detail": "dist=3.9mi, overlap=0.0, conf=0.58"
+      },
+      "spatial_79": {
+        "verdict": "SUSPICIOUS",
+        "detail": "dist=3.9mi, overlap=0.0, conf=0.58"
+      },
+      "spatial_80": {
+        "verdict": "SUSPICIOUS",
+        "detail": "dist=3.9mi, overlap=0.0, conf=0.58"
+      },
+      "spatial_81": {
+        "verdict": "SUSPICIOUS",
+        "detail": "dist=4.0mi, overlap=0.0, conf=0.57"
+      },
+      "spatial_82": {
+        "verdict": "SUSPICIOUS",
+        "detail": "dist=4.0mi, overlap=0.0, conf=0.57"
+      },
+      "spatial_85": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=3.0mi, overlap=0.0, conf=0.64"
+      },
+      "spatial_86": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=3.0mi, overlap=0.0, conf=0.64"
+      },
+      "spatial_87": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.9mi, overlap=0.0, conf=0.65"
+      },
+      "spatial_88": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.9mi, overlap=0.0, conf=0.65"
+      },
+      "spatial_89": {
+        "verdict": "SUSPICIOUS",
+        "detail": "dist=3.0mi, overlap=0.0, conf=0.64"
+      },
+      "spatial_90": {
+        "verdict": "SUSPICIOUS",
+        "detail": "dist=3.0mi, overlap=0.0, conf=0.64"
+      },
+      "spatial_91": {
+        "verdict": "VERIFIED",
+        "detail": "dist=1.3mi, overlap=0.0, conf=0.76"
+      },
+      "spatial_92": {
+        "verdict": "VERIFIED",
+        "detail": "dist=1.5mi, overlap=0.0, conf=0.75"
+      },
+      "spatial_93": {
+        "verdict": "VERIFIED",
+        "detail": "dist=1.6mi, overlap=0.0, conf=0.74"
+      },
+      "spatial_94": {
+        "verdict": "VERIFIED",
+        "detail": "dist=1.7mi, overlap=0.0, conf=0.73"
+      },
+      "spatial_95": {
+        "verdict": "VERIFIED",
+        "detail": "dist=1.3mi, overlap=0.0, conf=0.76"
+      },
+      "spatial_98": {
+        "verdict": "SUSPICIOUS",
+        "detail": "dist=3.2mi, overlap=0.0, conf=0.62"
+      },
+      "spatial_99": {
+        "verdict": "SUSPICIOUS",
+        "detail": "dist=3.2mi, overlap=0.0, conf=0.62"
+      },
+      "spatial_100": {
+        "verdict": "SUSPICIOUS",
+        "detail": "dist=3.3mi, overlap=0.0, conf=0.62"
+      },
+      "spatial_101": {
+        "verdict": "SUSPICIOUS",
+        "detail": "dist=3.3mi, overlap=0.0, conf=0.62"
+      },
+      "spatial_102": {
+        "verdict": "SUSPICIOUS",
+        "detail": "dist=3.5mi, overlap=0.0, conf=0.60"
+      },
+      "spatial_103": {
+        "verdict": "SUSPICIOUS",
+        "detail": "dist=3.5mi, overlap=0.0, conf=0.60"
+      },
+      "spatial_106": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.7mi, overlap=0.0, conf=0.66"
+      },
+      "spatial_107": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.7mi, overlap=0.0, conf=0.66"
+      },
+      "spatial_108": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.7mi, overlap=0.0, conf=0.66"
+      },
+      "spatial_109": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.9mi, overlap=0.0, conf=0.64"
+      },
+      "spatial_110": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.9mi, overlap=0.0, conf=0.64"
+      },
+      "spatial_111": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.9mi, overlap=0.0, conf=0.64"
+      },
+      "spatial_112": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.9mi, overlap=0.0, conf=0.64"
+      },
+      "spatial_113": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.9mi, overlap=0.0, conf=0.64"
+      },
+      "spatial_114": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.9mi, overlap=0.0, conf=0.64"
+      },
+      "spatial_115": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.8mi, overlap=0.0, conf=0.66"
+      },
+      "spatial_116": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.8mi, overlap=0.0, conf=0.66"
+      },
+      "spatial_117": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.8mi, overlap=0.0, conf=0.66"
+      },
+      "spatial_118": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.6mi, overlap=0.0, conf=0.67"
+      },
+      "spatial_119": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.6mi, overlap=0.0, conf=0.67"
+      },
+      "spatial_120": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.6mi, overlap=0.0, conf=0.67"
+      },
+      "spatial_121": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.5mi, overlap=0.0, conf=0.68"
+      },
+      "spatial_122": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.5mi, overlap=0.0, conf=0.68"
+      },
+      "spatial_123": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.5mi, overlap=0.0, conf=0.68"
+      },
+      "spatial_124": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.5mi, overlap=0.0, conf=0.68"
+      },
+      "spatial_125": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.5mi, overlap=0.0, conf=0.68"
+      },
+      "spatial_126": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.5mi, overlap=0.0, conf=0.68"
+      },
+      "spatial_127": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.4mi, overlap=0.0, conf=0.68"
+      },
+      "spatial_128": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.4mi, overlap=0.0, conf=0.68"
+      },
+      "spatial_129": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.4mi, overlap=0.0, conf=0.68"
+      },
+      "spatial_130": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.4mi, overlap=0.0, conf=0.68"
+      },
+      "spatial_131": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.4mi, overlap=0.0, conf=0.68"
+      },
+      "spatial_132": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.4mi, overlap=0.0, conf=0.68"
+      },
+      "spatial_133": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.4mi, overlap=0.0, conf=0.68"
+      },
+      "spatial_134": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.4mi, overlap=0.0, conf=0.68"
+      },
+      "spatial_135": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.4mi, overlap=0.0, conf=0.68"
+      },
+      "spatial_136": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.4mi, overlap=0.0, conf=0.68"
+      },
+      "spatial_137": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.4mi, overlap=0.0, conf=0.68"
+      },
+      "spatial_138": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.4mi, overlap=0.0, conf=0.68"
+      },
+      "spatial_139": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.5mi, overlap=0.0, conf=0.67"
+      },
+      "spatial_140": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.5mi, overlap=0.0, conf=0.67"
+      },
+      "spatial_141": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.5mi, overlap=0.0, conf=0.67"
+      },
+      "spatial_142": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.6mi, overlap=0.0, conf=0.67"
+      },
+      "spatial_143": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.6mi, overlap=0.0, conf=0.67"
+      },
+      "spatial_144": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.6mi, overlap=0.0, conf=0.67"
+      },
+      "spatial_145": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.8mi, overlap=0.0, conf=0.65"
+      },
+      "spatial_146": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.8mi, overlap=0.0, conf=0.65"
+      },
+      "spatial_147": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.8mi, overlap=0.0, conf=0.65"
+      },
+      "spatial_148": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.8mi, overlap=0.0, conf=0.66"
+      },
+      "spatial_149": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.8mi, overlap=0.0, conf=0.66"
+      },
+      "spatial_150": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.8mi, overlap=0.0, conf=0.66"
+      },
+      "spatial_151": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.7mi, overlap=0.0, conf=0.66"
+      },
+      "spatial_152": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.7mi, overlap=0.0, conf=0.66"
+      },
+      "spatial_153": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.7mi, overlap=0.0, conf=0.66"
+      },
+      "spatial_154": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.9mi, overlap=0.0, conf=0.65"
+      },
+      "spatial_155": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.9mi, overlap=0.0, conf=0.65"
+      },
+      "spatial_156": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.9mi, overlap=0.0, conf=0.65"
+      },
+      "spatial_157": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.9mi, overlap=0.0, conf=0.65"
+      },
+      "spatial_158": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.9mi, overlap=0.0, conf=0.65"
+      },
+      "spatial_159": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.9mi, overlap=0.0, conf=0.65"
+      },
+      "spatial_160": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.9mi, overlap=0.0, conf=0.65"
+      },
+      "spatial_161": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.9mi, overlap=0.0, conf=0.65"
+      },
+      "spatial_162": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.9mi, overlap=0.0, conf=0.65"
+      },
+      "spatial_163": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.9mi, overlap=0.0, conf=0.65"
+      },
+      "spatial_164": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.9mi, overlap=0.0, conf=0.65"
+      },
+      "spatial_165": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.9mi, overlap=0.0, conf=0.65"
+      },
+      "spatial_166": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.9mi, overlap=0.0, conf=0.65"
+      },
+      "spatial_167": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.9mi, overlap=0.0, conf=0.65"
+      },
+      "spatial_168": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.9mi, overlap=0.0, conf=0.65"
+      },
+      "spatial_169": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.9mi, overlap=0.0, conf=0.65"
+      },
+      "spatial_170": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.9mi, overlap=0.0, conf=0.65"
+      },
+      "spatial_171": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.9mi, overlap=0.0, conf=0.65"
+      },
+      "spatial_172": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.2mi, overlap=0.0, conf=0.69"
+      },
+      "spatial_173": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.2mi, overlap=0.0, conf=0.69"
+      },
+      "spatial_174": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.2mi, overlap=0.0, conf=0.69"
+      },
+      "spatial_175": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=3.0mi, overlap=0.0, conf=0.64"
+      },
+      "spatial_176": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=3.0mi, overlap=0.0, conf=0.64"
+      },
+      "spatial_177": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=3.0mi, overlap=0.0, conf=0.64"
+      },
+      "spatial_178": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.9mi, overlap=0.0, conf=0.64"
+      },
+      "spatial_179": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.9mi, overlap=0.0, conf=0.64"
+      },
+      "spatial_180": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.9mi, overlap=0.0, conf=0.64"
+      },
+      "spatial_181": {
+        "verdict": "SUSPICIOUS",
+        "detail": "dist=3.1mi, overlap=0.0, conf=0.63"
+      },
+      "spatial_182": {
+        "verdict": "SUSPICIOUS",
+        "detail": "dist=3.1mi, overlap=0.0, conf=0.63"
+      },
+      "spatial_183": {
+        "verdict": "SUSPICIOUS",
+        "detail": "dist=3.1mi, overlap=0.0, conf=0.63"
+      },
+      "spatial_184": {
+        "verdict": "SUSPICIOUS",
+        "detail": "dist=3.1mi, overlap=0.0, conf=0.63"
+      },
+      "spatial_185": {
+        "verdict": "SUSPICIOUS",
+        "detail": "dist=3.1mi, overlap=0.0, conf=0.63"
+      },
+      "spatial_186": {
+        "verdict": "SUSPICIOUS",
+        "detail": "dist=3.1mi, overlap=0.0, conf=0.63"
+      },
+      "spatial_187": {
+        "verdict": "SUSPICIOUS",
+        "detail": "dist=3.1mi, overlap=0.0, conf=0.63"
+      },
+      "spatial_188": {
+        "verdict": "SUSPICIOUS",
+        "detail": "dist=3.1mi, overlap=0.0, conf=0.63"
+      },
+      "spatial_189": {
+        "verdict": "SUSPICIOUS",
+        "detail": "dist=3.1mi, overlap=0.0, conf=0.63"
+      },
+      "spatial_190": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.7mi, overlap=0.0, conf=0.66"
+      },
+      "spatial_191": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.7mi, overlap=0.0, conf=0.66"
+      },
+      "spatial_192": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.7mi, overlap=0.0, conf=0.66"
+      },
+      "spatial_193": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.8mi, overlap=0.0, conf=0.66"
+      },
+      "spatial_194": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.8mi, overlap=0.0, conf=0.66"
+      },
+      "spatial_195": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.8mi, overlap=0.0, conf=0.66"
+      },
+      "spatial_196": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.8mi, overlap=0.0, conf=0.65"
+      },
+      "spatial_197": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.8mi, overlap=0.0, conf=0.65"
+      },
+      "spatial_198": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.8mi, overlap=0.0, conf=0.65"
+      },
+      "spatial_199": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.5mi, overlap=0.0, conf=0.67"
+      },
+      "spatial_200": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.5mi, overlap=0.0, conf=0.67"
+      },
+      "spatial_201": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.5mi, overlap=0.0, conf=0.67"
+      },
+      "spatial_202": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.5mi, overlap=0.0, conf=0.67"
+      },
+      "spatial_203": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.5mi, overlap=0.0, conf=0.67"
+      },
+      "spatial_204": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.5mi, overlap=0.0, conf=0.67"
+      },
+      "spatial_205": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.6mi, overlap=0.0, conf=0.67"
+      },
+      "spatial_206": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.6mi, overlap=0.0, conf=0.67"
+      },
+      "spatial_207": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.6mi, overlap=0.0, conf=0.67"
+      },
+      "spatial_208": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.8mi, overlap=0.0, conf=0.65"
+      },
+      "spatial_209": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.8mi, overlap=0.0, conf=0.65"
+      },
+      "spatial_210": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.8mi, overlap=0.0, conf=0.65"
+      },
+      "spatial_211": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.8mi, overlap=0.0, conf=0.65"
+      },
+      "spatial_212": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.8mi, overlap=0.0, conf=0.65"
+      },
+      "spatial_213": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.8mi, overlap=0.0, conf=0.65"
+      },
+      "spatial_214": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.8mi, overlap=0.0, conf=0.66"
+      },
+      "spatial_215": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.8mi, overlap=0.0, conf=0.66"
+      },
+      "spatial_216": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.8mi, overlap=0.0, conf=0.66"
+      },
+      "spatial_217": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.8mi, overlap=0.0, conf=0.66"
+      },
+      "spatial_218": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.8mi, overlap=0.0, conf=0.66"
+      },
+      "spatial_219": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.8mi, overlap=0.0, conf=0.66"
+      },
+      "spatial_220": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.6mi, overlap=0.0, conf=0.66"
+      },
+      "spatial_221": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.6mi, overlap=0.0, conf=0.66"
+      },
+      "spatial_222": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.6mi, overlap=0.0, conf=0.66"
+      },
+      "spatial_223": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.6mi, overlap=0.0, conf=0.66"
+      },
+      "spatial_224": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.6mi, overlap=0.0, conf=0.66"
+      },
+      "spatial_225": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.6mi, overlap=0.0, conf=0.66"
+      },
+      "spatial_226": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.2mi, overlap=0.0, conf=0.69"
+      },
+      "spatial_227": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.2mi, overlap=0.0, conf=0.69"
+      },
+      "spatial_228": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.2mi, overlap=0.0, conf=0.69"
+      },
+      "spatial_229": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.9mi, overlap=0.0, conf=0.64"
+      },
+      "spatial_230": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.9mi, overlap=0.0, conf=0.64"
+      },
+      "spatial_231": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.9mi, overlap=0.0, conf=0.64"
+      },
+      "spatial_232": {
+        "verdict": "SUSPICIOUS",
+        "detail": "dist=3.1mi, overlap=0.0, conf=0.63"
+      },
+      "spatial_233": {
+        "verdict": "SUSPICIOUS",
+        "detail": "dist=3.1mi, overlap=0.0, conf=0.63"
+      },
+      "spatial_234": {
+        "verdict": "SUSPICIOUS",
+        "detail": "dist=3.1mi, overlap=0.0, conf=0.63"
+      },
+      "spatial_235": {
+        "verdict": "SUSPICIOUS",
+        "detail": "dist=3.1mi, overlap=0.0, conf=0.63"
+      },
+      "spatial_236": {
+        "verdict": "SUSPICIOUS",
+        "detail": "dist=3.1mi, overlap=0.0, conf=0.63"
+      },
+      "spatial_237": {
+        "verdict": "SUSPICIOUS",
+        "detail": "dist=3.1mi, overlap=0.0, conf=0.63"
+      },
+      "spatial_238": {
+        "verdict": "SUSPICIOUS",
+        "detail": "dist=3.1mi, overlap=0.0, conf=0.63"
+      },
+      "spatial_239": {
+        "verdict": "SUSPICIOUS",
+        "detail": "dist=3.1mi, overlap=0.0, conf=0.63"
+      },
+      "spatial_240": {
+        "verdict": "SUSPICIOUS",
+        "detail": "dist=3.1mi, overlap=0.0, conf=0.63"
+      },
+      "spatial_241": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.6mi, overlap=0.0, conf=0.67"
+      },
+      "spatial_242": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.6mi, overlap=0.0, conf=0.67"
+      },
+      "spatial_243": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.6mi, overlap=0.0, conf=0.67"
+      },
+      "spatial_244": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.6mi, overlap=0.0, conf=0.67"
+      },
+      "spatial_245": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.6mi, overlap=0.0, conf=0.67"
+      },
+      "spatial_246": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=2.6mi, overlap=0.0, conf=0.67"
+      },
+      "spatial_247": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=3.0mi, overlap=0.0, conf=0.64"
+      },
+      "spatial_248": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=3.0mi, overlap=0.0, conf=0.64"
+      },
+      "spatial_249": {
+        "verdict": "LOW_CONFIDENCE",
+        "detail": "dist=3.0mi, overlap=0.0, conf=0.64"
+      },
+      "spatial_250": {
+        "verdict": "VERIFIED",
+        "detail": "dist=1.2mi, overlap=0.0, conf=0.77"
+      },
+      "spatial_251": {
+        "verdict": "VERIFIED",
+        "detail": "dist=1.2mi, overlap=0.0, conf=0.76"
+      },
+      "spatial_252": {
+        "verdict": "VERIFIED",
+        "detail": "dist=1.1mi, overlap=0.0, conf=0.78"
+      },
+      "spatial_263": {
+        "verdict": "SUSPICIOUS",
+        "detail": "dist=3.9mi, overlap=0.0, conf=0.58"
+      },
+      "spatial_264": {
+        "verdict": "SUSPICIOUS",
+        "detail": "dist=3.9mi, overlap=0.0, conf=0.58"
+      }
+    },
+    "phase7": {
+      "claims_valid_source": {
+        "verdict": "PASS",
+        "detail": "0 claims with invalid source_id"
+      },
+      "source_system_coverage": {
+        "verdict": "PASS",
+        "detail": "13 systems with claims"
+      },
+      "null_claim_fields": {
+        "verdict": "PASS",
+        "detail": "0 null types, 0 null texts"
+      }
+    }
+  },
+  "errors": []
+}

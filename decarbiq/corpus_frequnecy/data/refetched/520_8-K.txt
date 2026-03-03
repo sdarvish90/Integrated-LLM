@@ -1,0 +1,381 @@
+8-K
+ 1
+ next20230918_8k.htm
+ FORM 8-K
+ 
+ 
+ next20230918_8k.htm 
+ 
+ 
+ 
+ 
+
+ 
+
+ UNITED STATES 
+ SECURITIES AND EXCHANGE COMMISSION 
+ WASHINGTON, D.C. 20549 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ FORM 8-K 
+ CURRENT REPORT 
+
+ 
+
+ PURSUANT TO SECTION 13 OR 15(D) OF THE 
+ SECURITIES EXCHANGE ACT OF 1934 
+
+ 
+
+ Date of Report (Date of earliest event reported): September 15, 2023 
+
+ 
+
+ NEXTDECADE CORPORATION 
+(Exact Name of Registrant as Specified in Charter) 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Delaware 
+ 
+ 
+ 001-36842 
+ 
+ 
+ 46-5723951 
+ 
+ 
+ 
+ 
+ (State or Other Jurisdiction of Incorporation) 
+ 
+ 
+ (Commission File Number) 
+ 
+ 
+ (IRS Employer Identification No.) 
+ 
+ 
+
+ 
+
+ 
+
+ 1000 Louisiana Street, Suite 3900, Houston, Texas 77002 
+(Address of Principal Executive Offices) (Zip Code) 
+
+ 
+
+ (713) 574-1880 
+(Registrants Telephone Number, Including Area Code) 
+
+ 
+
+ N/A 
+(Former Name or Former Address, if Changed Since Last Report) 
+
+ 
+
+ Check the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions (see General Instruction A.2. below): 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b)) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e 4(c)) 
+ 
+ 
+
+ 
+
+ Securities registered pursuant to Section 12(b) of the Act: 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Title of each class: 
+ 
+ 
+ 
+ Trading Symbol 
+ 
+ 
+ 
+ Name of each exchange on which registered: 
+ 
+ 
+ 
+ 
+ Common Stock, $0.0001 par value 
+ 
+ 
+ 
+ NEXT 
+ 
+ 
+ 
+ The Nasdaq Stock Market LLC 
+ 
+ 
+
+ 
+
+ 
+
+ Indicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (230.405 of this chapter) or Rule 12b-2 of the Securities Exchange Act of 1934 (240.12b-2 of this chapter). 
+
+ 
+
+ Emerging growth company 
+
+ 
+
+ If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. 
+
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ Item 1.01 Entry into a Material Definitive Agreement. 
+
+ 
+
+ On September 15, 2023, Rio Grande LNG, LLC, a Texas limited liability company ( RGLNG ) and an indirect subsidiary of NextDecade Corporation ( NextDecade or the Company ) entered into a Credit Agreement (the Credit Agreement ) by and among RGLNG, as borrower, Wilmington Trust, National Association, as the administrative agent (in such capacity, the Administrative Agent ), Mizuho Bank (USA), as the P1 collateral agent (the P1 Collateral Agent ), and the senior lenders party thereto (the Senior Lenders ). The Credit Agreement provides for a term loan facility (the Senior Loans ) in an amount of $356 million to finance a portion of Rio Grande LNG Trains 1, 2 and 3 and related common facilities and to pay certain fees and expenses associated with the Credit Agreement and the Senior Loans made thereunder. 
+
+ 
+
+ The Senior Loans were disbursed in one advance for the full amount of $356 million on September 15, 2023, which resulted in a reduction in the commitments outstanding under RGLNGs existing term loan facilities for Phase 1 from $11.1 billion to under $10.8 billion. 
+
+ 
+
+ The Senior Loans will mature on July 7, 2033 and will accrue interest at a rate equal to 6.72% per annum on the outstanding principal amount, with such interest payable semi-annually, in cash in arrears, on March 30 and September 30 of each year, beginning on March 30, 2024 (or the next succeeding business day). 
+
+ 
+
+ The Credit Agreement is a senior secured debt instrument under the Common Terms Agreement, dated as of July 12, 2023 (the Common Terms Agreement ), by and among RGLNG, each senior secured debt holder representative that is a party thereto, and MUFG Bank, Ltd., as the P1 intercreditor agent. The Senior Loans are senior secured obligations of RGLNG and rank pari passu with all of RGLNGs existing and future indebtedness that is senior and secured by the same collateral securing the Senior Loans, including all obligations under the other senior secured debt instruments pursuant to the Common Terms Agreement. 
+
+ 
+
+ At any time or from time to time prior to April 7, 2033, RGLNG may prepay all or a part of the Senior Loans by paying the principal of the Senior Loans to be prepaid plus the make-whole amount set forth in the Credit Agreement plus accrued and unpaid interest. RGLNG may also, at any time on or after April 7, 2033, prepay the Senior Loans by paying the principal of the Senior Loans to be prepaid plus accrued and unpaid interest. 
+
+ 
+
+ The Credit Agreement contains customary terms and events of default and certain covenants that, among other things, limit RGLNGs ability to incur additional indebtedness, make certain investments or pay dividends or distributions on equity interests or subordinated indebtedness or purchase, redeem, or retire equity interests, sell or transfer assets, incur liens, dissolve, liquidate, consolidate, merge, or sell or lease all or substantially all of RGLNGs assets. The Credit Agreement further requires RGLNG to submit certain reports and information to the Administrative Agent and the Senior Lenders, maintain certain LNG offtake agreements, and maintain a debt service coverage ratio of at least 1.10:1.00 at the end of each fiscal quarter starting from the first quarterly payment date to occur on or after the date that is ninety days following the project completion date. With respect to certain events, including a change of control event and receipt of certain proceeds from asset sales, events of loss or liquidated damages, the Credit Agreement requires RGLNG to make an offer to the Senior Lenders to have their Senior Loans prepaid at 101% (with respect to a change of control event) or par (with respect to each other event), in each case, on the terms specified in the Credit Agreement. The Credit Agreement covenants are subject to a number of important limitations and exceptions, including the terms and covenants contained in the Common Terms Agreement. 
+
+ 
+
+ Item 2.03. Creation of a Direct Financial Obligation or an Obligation under an Off-Balance Sheet Arrangement of a Registrant. 
+
+ 
+
+ The information included in Item 1.01 of this Current Report is incorporated by reference into this Item 2.03. 
+
+ 
+
+ Item 7.01. Regulation FD Disclosure. 
+
+ 
+
+ The information in this Item 7.01 of this Current Report is being furnished pursuant to Item 7.01 of Form 8-K and, according to general instruction B.2. thereunder, the information in this Item 7.01 of this Current Report shall not be deemed filed for the purposes of Section 18 of the Securities Exchange Act of 1934 (the Exchange Act ) or otherwise subject to the liabilities of that Section. The information in this Item 7.01 of this Current Report shall not be incorporated by reference into any registration statement pursuant to the Securities Act or the Exchange Act. 
+
+ 
+
+ On September 20, 2023, the Company issued a press release regarding RGLNG's entry into the Credit Agreement and the disbursement of the Senior Loans thereunder. A copy of the press release is attached hereto as Exhibit 99.1. 
+
+ 
+
+ Item 9.01. Financial Statements and Exhibits. 
+
+ 
+
+ (d) Exhibits. 
+
+ 
+
+ 
+
+ 
+ 
+ 99.1 
+ 
+ 
+ Press Release issued by the Company on September 20, 2023. 
+ 
+ 
+ 
+ 
+ 104 
+ 
+ 
+ Cover Page Interactive Data File (embedded within the Inline XBRL document). 
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ SIGNATURE 
+
+ 
+
+ Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized. 
+
+ 
+
+ Dated: September 20, 2023 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ NEXTDECADE CORPORATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ By: 
+ 
+ 
+ /s/ Vera de Gyarfas 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Name: Vera de Gyarfas 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Title: General Counsel

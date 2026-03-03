@@ -1,0 +1,554 @@
+0001845437 
+ false 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 0001845437 
+ 
+ 
+ 2023-04-23 
+ 2023-04-23 
+ 
+ 
+ 
+ 
+ 0001845437 
+ 
+ RONI:UnitsEachConsistingOfOneClassOrdinaryShare0.0001ParValueAndOnefourthOfOneRedeemableWarrantMember 
+ 
+ 
+ 
+ 2023-04-23 
+ 2023-04-23 
+ 
+ 
+ 
+ 
+ 0001845437 
+ 
+ RONI:ClassOrdinarySharesParValue0.0001PerShareMember 
+ 
+ 
+ 
+ 2023-04-23 
+ 2023-04-23 
+ 
+ 
+ 
+ 
+ 0001845437 
+ 
+ RONI:WarrantsExercisableForOneClassOrdinaryShareAtExercisePriceOf11.50PerShareMember 
+ 
+ 
+ 
+ 2023-04-23 
+ 2023-04-23 
+ 
+ 
+ 
+ iso4217:USD 
+ 
+ 
+ xbrli:shares 
+ 
+ 
+ 
+ 
+ iso4217:USD 
+ 
+ 
+ xbrli:shares 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ UNITED STATES 
+SECURITIES AND EXCHANGE COMMISSION 
+
+ Washington, D.C. 20549 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ FORM
+ 8-K 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ Current
+Report 
+Pursuant to Section 13 or 15(d) of the securities exchange act of 1934 
+
+ 
+
+ Date of Report (Date of earliest event reported):
+ April 23, 2023 
+
+ 
+
+ RICE
+ACQUISITION CORP. II 
+ (Exact name of registrant as specified in its charter) 
+
+ 
+
+ 
+ 
+ Cayman Islands 
+ 
+ 001-40503 
+ 
+ 98-1580612 
+ 
+ (State or other jurisdiction 
+of incorporation) 
+ 
+ (Commission File Number) 
+ 
+ (IRS Employer 
+Identification No.) 
+ 
+
+ 
+
+ 
+ 
+ 102 East Main Street , Second Story 
+ Carnegie , Pennsylvania 15106 
+ 
+ 15106 
+ 
+ (Address of principal executive offices) 
+ 
+ (Zip Code) 
+ 
+ 
+
+ ( 713 ) 446-6259 
+ (Registrants telephone number, including area code) 
+
+ 
+
+ Not applicable 
+(Former name or former address, if changed since last report) 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ Check the appropriate box below if the Form 8-K filing is intended
+to simultaneously satisfy the filing obligation of the registrant under any of the following provisions: 
+
+ 
+
+ 
+ Written communications pursuant
+to Rule 425 under the Securities Act (17 CFR 230.425) 
+ 
+
+ 
+
+ 
+ Soliciting material pursuant to
+Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12) 
+ 
+
+ 
+
+ 
+ Pre-commencement communications
+pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b)) 
+ 
+
+ 
+
+ 
+ Pre-commencement communications
+pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c)) 
+ 
+
+ 
+
+ Securities registered pursuant to Section 12(b) of the Act: 
+
+ 
+
+ 
+ 
+ 
+ Title of each
+ class 
+ 
+ 
+ Trading Symbol(s) 
+ 
+ 
+ Name of each
+ exchange on which registered 
+ 
+ Units, each consisting of one Class A ordinary share, $0.0001 par value, and one-fourth of one redeemable warrant 
+ 
+ RONI U 
+ 
+ The New York Stock Exchange 
+ 
+ Class A ordinary shares, par value $0.0001 per share 
+ 
+ RONI 
+ 
+ The New York Stock Exchange 
+ 
+ Warrants, exercisable for one Class A ordinary share at an exercise price of $11.50 per share 
+ 
+ RONI WS 
+ 
+ The New York Stock Exchange 
+ 
+ 
+
+ Indicate by check mark whether the registrant
+is an emerging growth company as defined in Rule405 of the Securities Act of 1933 (230.405 of this chapter) or Rule12b-2
+of the Securities Exchange Act of 1934 (240.12b-2 of this chapter). 
+
+ 
+
+ Emerging growth company
+ 
+
+ 
+
+ If an emerging growth company, indicate
+by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial
+accounting standards provided pursuant to Section 13(a) of the Exchange Act. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+
+ Item 1.01 Entry into a Material Definitive Agreement. 
+
+ 
+
+ As previously disclosed, on
+December 13, 2022, Rice Acquisition Corp. II, a Cayman Islands exempted company (RONI), Rice Acquisition Holdings II LLC,
+a Cayman Islands exempted company and majority owned and controlled operating subsidiary of RONI (RONI Opco), Topo Buyer
+Co, LLC, a Delaware limited liability company and a direct, wholly owned subsidiary of RONI Opco (RONI Buyer), and Topo
+Merger Sub, LLC, a Delaware limited liability company and a direct, wholly owned subsidiary of RONI Buyer (Merger Sub),
+entered into a Business Combination Agreement (the Original Business Combination Agreement) with NET Power, LLC, a Delaware
+limited liability company (NET Power), pursuant to which, among other things, Merger Sub will merge with and into NET Power
+(the Merger), with NET Power surviving the Merger and becoming a direct, wholly owned subsidiary of RONI Buyer, on the terms
+and subject to the conditions set forth therein. 
+
+ 
+
+ Additional PIPE Subscriptions 
+
+ 
+
+ Also as previously disclosed,
+concurrently with the execution of the Original Business Combination Agreement, on December 13, 2022, RONI entered into subscription agreements
+(each, a 2022 Subscription Agreement) with certain investors (the 2022 PIPE Investors) pursuant to which,
+among other things, the 2022 PIPE Investors agreed to subscribe for and purchase, and RONI has agreed to issue and sell to the 2022 PIPE
+Investors, an aggregate of 22,545,000 shares of Class A common stock, par value $0.0001 per share, of RONI (Class A Common Stock)
+for an aggregate purchase price of $225,450,000, on the terms and subject to the conditions set forth therein (the 2022 PIPE Financing).
+Each 2022 Subscription Agreement contains customary representations and warranties of RONI, on the one hand, and the 2022 PIPE Investor,
+on the other hand, and customary conditions to closing, including the consummation of the transactions contemplated by the Original Business
+Combination Agreement immediately following the consummation of the 2022 PIPE Financing. 
+
+ 
+
+ On April 23, 2023, RONI and
+OLCV NET Power, LLC, a Delaware limited liability company and one of the 2022 PIPE Investors who is also a holder of NET Power equity
+(OXY), entered into a subscription agreement (the OXY PIPE Subscription Agreement), pursuant to which, among
+other things, OXY agreed to subscribe for and purchase, and RONI has agreed to issue and sell to OXY 25,000,000 shares of Class A Common
+Stock for a purchase price of $250.0 million, on the terms and subject to the conditions set forth therein (the OXY PIPE Financing).
+The OXY Subscription Agreement is substantially similar to the 2022 Subscription Agreements, the form of which was attached as Exhibit
+10.3 to the Current Report on Form 8-K filed by RONI on December 14, 2022. In addition to such subscription, on April 23, 2023, OXY entered
+into a subscription agreement with NET Power (the OXY Interim Financing Subscription Agreement and, together with the OXY
+PIPE Subscription Agreement, the OXY Subscription Agreements), pursuant to which OXY agreed to purchase, and NET Power agreed
+to issue, 31,328 NET Power units to OXY for a purchase price of $10.0 million, which will ultimately convert into 1,000,000 Class A Units
+of RONI Opco and an equivalent number of shares of Class B common stock, par value $0.0001 per share, of RONI upon consummation of the
+transactions contemplated by the Business Combination Agreement. 
+
+ 
+
+ Also on April 23, 2023, four
+trusts, the beneficiaries of which are members of the Rice family (together with OXY, the 2023 PIPE Investors), have agreed
+to subscribe for and purchase, and RONI agreed to issue and sell to them, an aggregate of 2,500,000 shares of Class A Common Stock for
+an aggregate purchase price of $25.0 million, pursuant to a subscription agreement between each such trust and RONI, o n
+the terms and subject to the conditions set forth therein (together with the OXY 2023 PIPE Financing, the 2023 PIPE Financing) .
+These subscription agreements are substantially similar to the 2022 Subscription Agreements, the form of which was attached as Exhibit
+10.3 to the Current Report on Form 8-K filed by RONI on December 14, 2022. The foregoing description of these subscription agreements
+and the OXY PIPE Subscription Agreement is not complete and is subject to, and qualified in its entirety by, reference to such previously
+filed form. 
+
+ 
+
+ 
+ 1 
+ 
+ 
+
+ 
+
+ BCA Amendment 
+
+ 
+
+ On April 23, 2023, in connection
+with the entry into the OXY Subscription Agreements, RONI Buyer and NET Power entered into the First Amendment to the Business Combination
+Agreement (the BCA Amendment; the Original Business Combination Agreement, as amended by the BCA Amendment, the Business
+Combination Agreement). Pursuant to the BCA Amendment, among other things, the form of the certificate of incorporation of RONI
+(the RONI Charter) to be adopted upon the closing of the transactions contemplated by the Business Combination Agreement
+(the Closing) and the form of the stockholders agreement (the Stockholders Agreement) to be entered into by
+RONI, RONI Opco, Rice Acquisition Sponsor II LLC, a Delaware limited liability company (RONI Sponsor), and certain holders
+of NET Power equity, including OXY, in connection with the Closing have been replaced with the forms included in Exhibit A and Exhibit
+B, respectively, of the BCA Amendment. 
+
+ 
+
+ The form of the Stockholders
+Agreement included in the Original Business Combination Agreement provided that, among other things, the board of directors of the combined
+company is expected to initially consist of nine directors (which may be increased to comply with independence requirements). The prior
+form of the Stockholders Agreement further contemplated the granting of certain board designation rights, subject to equity ownership
+thresholds in the combined company, as follows: (i) OXY would have the right to designate two directors; (ii) RONI Sponsor would have
+the right to designate one director; (iii) 8 Rivers Capital, LLC (through an entity controlled by it) would have the right to designate
+one director; and (iv) Constellation Energy Generation, LLC would have the right to designate one independent director. 
+
+ 
+
+ Pursuant to the BCA Amendment,
+the Stockholders Agreement will, among other things, provide that the board of directors of the combined company is expected to initially
+consist of ten directors (which may be increased to comply with independence requirements). In addition, the board designation rights
+set forth in the form of Stockholders Agreement contained in the BCA Amendment provides OXY with the right to designate three, instead
+of two, directors. The form of RONI Charter contained in the BCA Amendment has been modified to reflect, among other things, OXYs
+increased board designation rights. 
+
+ 
+
+ Further, on April 23, 2023,
+to reflect that the BCA Amendment replaced the form of Stockholders Agreement, RONI, RONI Sponsor, NET Power and certain holders of NET
+Power equity (collectively, the Company Unitholders) entered into the First Amendment to the Support Agreement (the Support
+Agreement Amendment) pursuant to which, among other things, each Company Unitholder agreed to enter into such modified Stockholders
+Agreement in connection with the Closing. 
+
+ 
+
+ The foregoing description
+of the BCA Amendment, the form of Stockholders Agreement and the Support Agreement Amendment does not purport to be complete and is qualified
+in its entirety by the full text of the BCA Amendment, the form of Stockholders Agreement and the Support Agreement Amendment, copies
+of which are filed as Exhibits 2.1, 10.1 and 10.2, respectively, to this Current Report on Form 8-K and are incorporated herein by reference. 
+
+ 
+
+ Item 3.02 Unregistered Sales of Equity Securities. 
+
+ 
+
+ The Class A Common Stock to
+be issued and sold to the 2023 PIPE Investors will not be registered under the Securities Act of 1933, as amended (the Securities
+Act), and will be issued in reliance on the exemption from registration requirements thereof provided by Section 4(a)(2) of the
+Securities Act and/or Regulation D promulgated thereunder as a transaction by an issuer not involving a public offering. The disclosure
+set forth above in Item 1.01 of this Current Report on Form 8-K is incorporated by reference into this Item 3.02. 
+
+ 
+
+ Item 7.01 Regulation FD Disclosure. 
+
+ 
+
+ On April 24, 2023, RONI and
+NET Power issued a press release announcing the 2023 PIPE Financing, among other things. The press release is furnished as Exhibit 99.1
+to this Current Report on Form 8-K. 
+
+ 
+
+ Also, on April 24, 2023, RONI
+posted a presentation relating to the transactions contemplated by the Business Combination Agreement, including the 2022 PIPE Financing
+and the 2023 PIPE Financing, on its website at https://ricespac.com. This presentation is furnished as Exhibit 99.2 to this Current Report
+on Form 8-K. 
+
+ 
+
+ 
+ 2 
+ 
+ 
+
+ 
+
+ Important Information about the Business Combination and Where to
+Find It 
+
+ 
+
+ This Current Report on Form
+8-K is being made in respect of the proposed business combination transaction involving RONI and NET Power. RONI has filed a registration
+statement on Form S-4 (as amended from time to time, the registration statement) with the U.S. Securities and Exchange Commission
+(the SEC) on December 23, 2022, which includes a preliminary proxy statement/prospectus, and RONI may file other documents
+with the SEC regarding the proposed transaction. The information in the preliminary proxy statement/prospectus is not complete and may
+be changed. After the registration statement is declared effective by the SEC, a definitive proxy statement/prospectus will be sent to
+the shareholders of RONI. Before making any voting or investment decision, investors and security holders of RONI are urged to carefully
+read the entire registration statement and definitive proxy statement/prospectus, when they become available, and any other relevant documents
+filed with the SEC, as well as any amendments or supplements to these documents, because they will contain important information about
+the proposed transaction. The documents filed by RONI with the SEC may be obtained free of charge at the SECs website at www.sec.gov.
+In addition, the documents filed by RONI may be obtained free of charge from RONI at www.ricespac.com/rac-ii. 
+
+ 
+
+ Participants in Solicitation 
+
+ 
+
+ RONI and NET Power and certain
+of their respective directors and executive officers may be deemed to be participants in the solicitation of proxies from the shareholders
+of RONI, in favor of the approval of the proposed transaction. For information regarding RONIs directors and executive officers,
+please see RONIs Annual Report on Form 10-K for the year ended December 31, 2022 filed with the SEC on March 2, 2023. Additional
+information regarding the interests of those participants and other persons who may be deemed participants in the transaction may be obtained
+by reading the registration statement and the proxy statement/prospectus, as they may be amended, and other relevant documents filed with
+the SEC when they become available. Free copies of these documents may be obtained as described in the preceding section. 
+
+ 
+
+ No Offer or Solicitation 
+
+ 
+
+ This Current Report on Form
+8-K shall not constitute a solicitation of a proxy, consent or authorization with respect to any securities or in respect of the business
+combination transaction. This Current Report on Form 8-K shall also not constitute an offer to sell or the solicitation of an offer to
+buy any securities, nor shall there be any sale of securities in any states or jurisdictions in which such offer, solicitation or sale
+would be unlawful prior to registration or qualification under the securities laws of any such jurisdiction. No offering of securities
+shall be made except by means of a prospectus meeting the requirements of Section 10 of the Securities Act or an exemption therefrom. 
+
+ 
+
+ Item 9.01. Financial Statements and Exhibits. 
+
+ 
+
+ (d) Exhibits. 
+
+ 
+
+ 
+ 
+ 
+ Exhibit 
+ Number 
+ 
+ 
+ Description 
+ 
+ 2.1 
+ 
+ BCA Amendment 
+ 
+ 10.1 
+ 
+ Form of Stockholders Agreement 
+ 
+ 10.2 
+ 
+ Support Agreement Amendment 
+ 
+ 99.1 
+ 
+ Press release, dated April 24, 2023 
+ 
+ 99.2 
+ 
+ Investor presentation, dated April 24, 2023 
+ 
+ 104 
+ 
+ Cover Page Interactive Data File (embedded within the Inline XBRL document) 
+ 
+ 
+
+ 
+ 3 
+ 
+ 
+
+ 
+
+ SIGNATURES 
+
+ 
+
+ Pursuant to the requirements of the Securities
+Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized. 
+
+ 
+
+ 
+ 
+ 
+ RICE ACQUISITION CORP. II 
+ 
+ 
+ 
+ 
+ 
+ Date: April 24, 2023 
+ By: 
+ /s/ James Wilmot Rogers 
+ 
+ 
+ 
+ Name: 
+ James Wilmot Rogers 
+ 
+ 
+ 
+ Title: 
+ 
+ Chief Financial Officer and 
+ Chief Accounting Officer 
+ 
+ 
+
+ 
+
+ 4

@@ -1,0 +1,44 @@
+=== TABLES & ROW COUNTS ===
+  article_source_map                          189
+  citation_audit_log                          806
+  claims                                     3146
+  cleaned_documents                           439
+  company_classifications                     206
+  contradiction_log                           427
+  doe_status                                  411
+  entities                                     47
+  entity_aliases                               28
+  project_claims                             3116
+  project_signal_accumulator                   18
+  read_pass_log                               436
+  resolution_config                             7
+  scheme_frequency                           2204
+  sqlite_sequence                               5
+  unified_projects                            138
+
+=== DOE_STATUS ===
+  rows=411  cik=40  state=360  terminated=174
+
+=== ARTICLE_SOURCE_MAP ===
+  FAILED       3
+  FULLTEXT     15
+  REFETCHED    170
+  SNIPPET      1
+  claims from articles: 1683  companies: 33
+
+=== UNIFIED_PROJECTS ===
+  total: 138
+  source=claims               127
+  source=old_pipeline_stub    11
+  stage=unknown              132
+  stage=construction         3
+  stage=operational          2
+  stage=fid                  1
+  field fill: {'state': 98, 'technology': 3, 'capacity_mtpa_h2': 2, 'stage': 6}
+
+=== COMPANY_CLASSIFICATIONS ===
+  project_developer         131
+  out_of_scope              38
+  university                18
+  contractor                10
+  government_agency         9

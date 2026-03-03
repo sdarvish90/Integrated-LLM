@@ -1,0 +1,80 @@
+=== ACTUAL STAGE-SIGNAL CLAIM TYPES (FID_SIGNAL tier) ===
+     3  construction_commencement
+     2  commercial_support
+     2  construction_commenced
+     2  equity_interest
+     2  final_investment_decision
+     2  loan_terms
+     1  bond_closing
+     1  final_investment_decision_made
+     1  financing_arrangements
+     1  financing_commitments
+     1  financing_structure
+     1  note_offering
+     1  registration_statement_filing
+
+=== ACTUAL TECHNOLOGY CLAIM TYPES ===
+     4  carbon_capture_project
+     3  opec_production_increase
+     3  product_description
+     3  production_capacity
+     3  project_technology
+     3  technology_development
+     3  technology_partnership
+     2  carbon_capture_deployment
+     2  co2_capture_operational
+     2  electrolyser_capacity
+     2  hydrogen_production_target
+     2  production_target
+     2  technology_focus_area
+     1  2025_annual_production_record
+     1  adnoc_ammonia_production_project_investment
+     1  alaska_production_forecast
+     1  alaska_production_historical_decline
+     1  alaska_production_level_forecast
+     1  ammonia_annual_production
+     1  ammonia_production_facility_capacity
+
+=== ACTUAL CAPACITY CLAIM TYPES ===
+     3  opec_production_increase
+     3  production_capacity
+     3  project_capacity
+     3  project_milestone
+     2  electrolyser_capacity
+     2  hydrogen_production_target
+     2  production_target
+     2  project_capacity_specification
+     1  2025_annual_production_record
+     1  abu_dhabi_facility_storage_capacity
+     1  additional_gas_capacity_evaluation
+     1  adnoc_ammonia_production_project_investment
+     1  advisory_capacity
+     1  alaska_production_forecast
+     1  alaska_production_historical_decline
+     1  alaska_production_level_forecast
+     1  ammonia_annual_production
+     1  ammonia_production_facility_capacity
+     1  ammonia_production_milestone
+     1  ammonia_production_outlook
+
+=== ACTUAL STAGE/CONSTRUCTION CLAIM TYPES ===
+     5  support_facility_construction
+     5  support_facility_construction_completed
+     3  construction_commencement
+     2  business_operations
+     2  co2_capture_operational
+     2  construction_commenced
+     2  site_construction_completed
+     1  2025_operating_margin
+     1  2025_recurring_operating_income
+     1  adjusted_operating_income
+     1  alternative_tariff_policy_announced
+     1  bilateral_hydrogen_cooperation_statement_signed
+     1  blue_point_joint_venture_announced
+     1  ceo_retirement_announcement
+     1  coal_plant_operational_status_decision
+     1  commercial_operations_commenced
+     1  commercial_project_under_construction
+     1  community_first_ai_infrastructure_plan_announcement
+     1  company_operating_history
+     1  company_operational_history

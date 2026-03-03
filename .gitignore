@@ -1,1 +1,5 @@
 decarbiq/news/groq_api_token.txt
+decarbiq/corpus_frequnecy/data/core_database.db
+decarbiq/corpus_frequnecy/data/core_database_backup_pre_unquarantine.db
+decarbiq/corpus_frequnecy/anthropic_api_token.txt
+decarbiq/corpus_frequnecy/groq_api_token.txt

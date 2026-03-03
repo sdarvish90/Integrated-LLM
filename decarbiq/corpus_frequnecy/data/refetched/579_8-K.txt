@@ -1,0 +1,606 @@
+0000895728 
+ false 
+ Z4 
+ AB 
+ CA 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 0000895728 
+ 
+ 
+ 2023-09-05 
+ 2023-09-05 
+ 
+ 
+ 
+ iso4217:USD 
+ 
+ 
+ xbrli:shares 
+ 
+ 
+ 
+ 
+ iso4217:USD 
+ 
+ 
+ xbrli:shares 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ UNITED STATES 
+
+ SECURITIES AND EXCHANGE COMMISSION 
+
+ WASHINGTON, D.C. 20549 
+
+ 
+
+ 
+
+ FORM 8-K 
+
+ 
+
+ CURRENT REPORT 
+
+ PURSUANT TO SECTION 13 OR 15(d) 
+
+ OF THE SECURITIES EXCHANGE ACT OF 1934 
+
+ 
+
+ 
+
+ Date of report (Date of earliest event
+reported): September 5, 2023 
+
+ 
+
+ 
+
+ 
+
+ ENBRIDGE INC. 
+
+ (Exact Name of Registrant as Specified
+in Charter) 
+
+ 
+
+ 
+
+ 
+ 
+ CANADA 
+ 001-15254 
+ 98-0377957 
+ 
+ 
+ (State or Other Jurisdiction 
+ of Incorporation) 
+ 
+ (Commission 
+ File Number) 
+ 
+ (IRS Employer 
+ Identification No.) 
+ 
+ 
+
+ 200 , 425 - 1ST STREET S.W. 
+
+ CALGARY , ALBERTA , CANADA T2P 3L8 
+
+ (Address of Principal Executive Offices)
+(Zip Code) 
+
+ 
+
+ 1 ( 403 ) 231-3900 
+
+ (Registrants telephone number,
+including area code) 
+
+ 
+
+ Not Applicable 
+
+ (Former Name or Former Address, if Changed
+Since Last Report) 
+
+ 
+
+ 
+
+ Securities registered pursuant to Section 12(b) of the Act: 
+
+ 
+
+ 
+ 
+ Title of each class 
+ 
+ Trading 
+ Symbol(s) 
+ 
+ Name of each exchange 
+ on which registered 
+ 
+ Common Shares 
+ 
+ ENB 
+ 
+ New York Stock Exchange 
+ 
+
+ 
+
+ 
+
+ Check the appropriate box below if the Form 8-K filing is intended
+to simultaneously satisfy the filing obligation of the registrant under any of the following provisions: 
+
+ 
+
+ 
+Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425) 
+
+ 
+
+ 
+Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12) 
+
+ 
+
+ 
+Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b)) 
+
+ 
+
+ 
+Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c)) 
+
+ 
+
+ Indicate
+by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (230.405
+of this chapter) or Rule12b-2of the Securities Exchange Act of 1934(240.12b-2of this chapter). 
+
+ 
+
+ Emerging
+growth company 
+
+ 
+
+ If
+an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying
+with any new or revised financial accounting standards provided pursuant to Section13(a) of the Exchange Act. 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+
+ Item 1.01 Entry into a Material Definitive
+Agreement. 
+
+ 
+
+ On September5, 2023, subsidiaries of Enbridge
+Inc., a Canadian corporation (Enbridge), entered into three separate purchase and sale agreements with Dominion Energy,Inc.,
+a Virginia corporation (Dominion), to acquire all of the outstanding equity interests in (i)Dominion Energy Questar
+Corporation, Dominion Energy Gas Distribution, LLC, The East Ohio Gas Company and DEO Alternative Fuel, LLC (collectively, EOG),
+(ii) Questar Gas Company (Questar Gas), Wexpro Company, Wexpro II Company, Wexpro Development Co. and Dominion Energy
+Wexpro Services Co. (collectively, the Wexpro Companies), and each of Dominion Gas Projects Co., LLC and Questar InfoComm
+Inc. (collectively with Questar Gas and the Wexpro Companies, Questar), and (iii)Public Service Company of North Carolina,Incorporated
+(PSNC). The acquisitions are not cross-conditioned on one another. The material terms of each of the agreements are summarized
+below. 
+
+ 
+
+ EOG Purchase and Sale Agreement 
+
+ 
+
+ On September5, 2023, a wholly owned subsidiary
+of Enbridge (EOG Buyer) entered into a purchase and sale agreement (the EOG Purchase Agreement) with Dominion
+to acquire all of the outstanding equity interests in EOG for approximately US$6.6 billion, consisting of cash consideration of approximately
+US$4.3 billion and assumed debt of approximately US$2.3 billion, subject to customary purchase price adjustments. Enbridge has agreed
+to guarantee the obligations of EOG Buyer under the EOG Purchase Agreement. 
+
+ 
+
+ EOG Buyers acquisition of EOG (the EOG
+Acquisition) is subject to the satisfaction of customary conditions, including (i)the absence of any governmental order prohibiting
+the consummation of the EOG Acquisition, (ii)the expiration of the waiting period under the Hart-Scott-Rodino Antitrust Improvements
+Act of 1976 (the HSR Act), (iii)Federal Communications Commission (FCC) approval of the change of control
+of FCC licenses, (iv)clearance by the Committee on Foreign Investment in the United States (CFIUS) and (v)a
+notice to the Public Utility Commission of Ohio. Subject to the satisfaction or waiver of the foregoing conditions and the other terms
+and conditions of the EOG Purchase Agreement, the EOG Acquisition is expected to close in 2024. 
+
+ 
+
+ The EOG Purchase Agreement contains customary
+representations, warranties and covenants of EOG Buyer and Dominion, including covenants by Dominion to conduct the business of EOG in
+the ordinary course during the interim period between the execution of the EOG Purchase Agreement and the consummation of the EOG Acquisition. 
+
+ 
+
+ The EOG Purchase Agreement contains customary
+termination rights, including if the closing of the EOG Acquisition has not occurred by September5, 2024, subject to an extension
+by either party to December4, 2024 if the required regulatory approvals have not yet been obtained. If the EOG Purchase Agreement
+is terminated under certain circumstances relating to failure to obtain required regulatory approvals, Enbridge may be required to pay
+Dominion a termination fee of approximately US$154.8 million. 
+
+ 
+
+ At the closing of the EOG Acquisition, Dominion
+and EOG will enter into a transition services agreement, pursuant to which Dominion will provide certain transition services to EOG, subject
+to the terms and conditions set forth therein. 
+
+ 
+
+ A copy of the EOG Purchase Agreement will be filed
+as an exhibit to Enbridges Quarterly Report on Form10-Q for the fiscal quarter ending September30, 2023. 
+
+ 
+
+ Questar Purchase and Sale Agreement 
+
+ 
+
+ On September5, 2023, a wholly owned subsidiary
+of Enbridge (Questar Buyer) entered into a purchase and sale agreement (the Questar Purchase Agreement) with
+Dominion to acquire all of the outstanding equity interests in Questar for approximately US$4.3 billion, consisting of cash consideration
+of approximately US$3.0 billion and assumed debt of approximately US$1.3 billion, subject to customary purchase price adjustments. Enbridge
+has agreed to guarantee the obligations of Questar Buyer under the Questar Purchase Agreement. 
+
+ 
+
+ Questar Buyers acquisition of Questar (the
+Questar Acquisition) is subject to the satisfaction of customary conditions, including (i)the absence of any governmental
+order prohibiting the consummation of the Questar Acquisition, (ii)the expiration of the waiting period under the HSR Act, (iii)FCC
+approval of the change of control of FCC licenses, (iv)clearance by CFIUS and (v)the approval of the Utah Public Services
+Commission and the Wyoming Public Services Commission (and notice to the Idaho Public Utilities Commission). Subject to the satisfaction
+or waiver of the foregoing conditions and the other terms and conditions of the Questar Purchase Agreement, the Questar Acquisition is
+expected to close in 2024. 
+
+ 
+
+ The Questar Purchase Agreement contains customary
+representations, warranties and covenants of Questar Buyer and Dominion, including covenants by Dominion to conduct the business of Questar
+in the ordinary course during the interim period between the execution of the Questar Purchase Agreement and the consummation of the Questar
+Acquisition. 
+
+ 
+
+ The Questar Purchase Agreement contains customary
+termination rights, including if the closing of the Questar Acquisition has not occurred by September5, 2024, subject to an extension
+by either party to December4, 2024 if the required regulatory approvals have not yet been obtained. If the Questar Purchase Agreement
+is terminated under certain circumstances relating to failure to obtain required regulatory approvals, Enbridge may be required to pay
+Dominion a termination fee of approximately US$106.9 million. 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+
+ At the closing of the Questar Acquisition, Dominion
+and Questar will enter into a transition services agreement, pursuant to which Dominion will provide certain transition services to Questar,
+subject to the terms and conditions set forth therein. 
+
+ 
+
+ A copy of the Questar Purchase Agreement will
+be filed as an exhibit to Enbridges Quarterly Report on Form10-Q for the fiscal quarter ending September30, 2023. 
+
+ 
+
+ PSNC Purchase and Sale Agreement 
+
+ 
+
+ On September5, 2023, a wholly owned subsidiary
+of Enbridge (PSNC Buyer) entered into a purchase and sale agreement (the PSNC Purchase Agreement) with Dominion
+to acquire all of the outstanding equity interests in PSNC for approximately US$3.1 billion, consisting of cash consideration of approximately
+US$2.2 billion and assumed debt of approximately US$1.0 billion, subject to customary purchase price adjustments. Enbridge has agreed
+to guarantee the obligations of PSNC Buyer under the PSNC Purchase Agreement. 
+
+ 
+
+ PSNC Buyers acquisition of PSNC (the PSNC
+Acquisition) is subject to the satisfaction of customary conditions, including (i)the absence of any governmental order prohibiting
+the consummation of the PSNC Acquisition, (ii)the expiration of the waiting period under the HSR Act, (iii)FCC approval of
+the change of control of FCC licenses, (iv)clearance by CFIUS and (v)the approval of the North Carolina Utilities Commission.
+Subject to the satisfaction or waiver of the foregoing conditions and the other terms and conditions of the PSNC Purchase Agreement, the
+PSNC Acquisition is expected to close in 2024. 
+
+ 
+
+ The PSNC Purchase Agreement contains customary
+representations, warranties and covenants of PSNC Buyer and Dominion, including covenants by Dominion to conduct the business of PNSC
+in the ordinary course during the interim period between the execution of the PSNC Purchase Agreement and the consummation of the PSNC
+Acquisition. 
+
+ 
+
+ The PSNC Purchase Agreement contains customary
+termination rights, including if the closing of the PSNC Acquisition has not occurred by September5, 2024, subject to an extension
+by either party to December4, 2024 if the required regulatory approvals have not yet been obtained. If the PSNC Purchase Agreement
+is terminated under certain circumstances relating to failure to obtain required regulatory approvals, Enbridge may be required to pay
+Dominion a termination fee of approximately US$78.3 million. 
+
+ 
+
+ At the closing of the PSNC Acquisition, Dominion
+and PSNC will enter into a transition services agreement, pursuant to which Dominion will provide certain transition services to PSNC,
+subject to the terms and conditions set forth therein. 
+
+ 
+
+ A copy of the PSNC Purchase Agreement will be
+filed as an exhibit to Enbridges Quarterly Report on Form10-Q for the fiscal quarter ending September30, 2023. 
+
+ 
+
+ Bridge Facility Commitment Letter 
+
+ 
+
+ On
+September5, 2023, Enbridge, Morgan Stanley Senior Funding,Inc. and Royal Bank of Canada (together, the Commitment Parties)
+entered into a financing commitment letter (the Commitment Letter) for a 364-day senior unsecured bridge facility (the Bridge
+Facility) in an aggregate initial principal amount of US$9.4 billion, which may be borrowed as three separate loans on each applicable
+closing date for each of the EOG Acquisition, the Questar Acquisition and the PSNC Acquisition (together, the Acquisitions).
+The commitments under the Bridge Facility will be reduced by the net proceeds received by Enbridge from the Offering (as defined under
+Item 7.01) and are expected to be further reduced by the net proceeds received from other sources, including, but not limited to, issuances
+of hybrid notes and/or senior unsecured notes, asset sales, the potential reinstatement of our dividend reinvestment and share purchase
+plan and/or at-the-market offerings of Enbridge common shares, prior to the expected closings of the Acquisitions. However, these sources
+are subject to change, based on market conditions and other factors. Enbridge expects to reduce the commitments under the Bridge Facility
+to zero from these other sources before any funding under the Bridge Facility would be required; however, to the extent Enbridge does
+not finance any part of the purchase price through the other means described above, Enbridge may borrow under the Bridge Facility. 
+
+ 
+
+ The commitments under the Commitment Letter are
+subject to customary conditions, including the execution and delivery of definitive documentation with respect to the Bridge Facility
+in accordance with the terms set forth in the Commitment Letter. 
+
+ 
+
+ If Enbridge draws on the Bridge Facility to fund
+any part of the cash portion of the aggregate purchase price for the Acquisitions, Enbridge will seek to repay the Bridge Facility following
+completion of the Acquisitions with various sources, including the permanent financing solutions mentioned above. 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+
+ Item 7.01 Regulation FD Disclosure. 
+
+ 
+
+ On September5, 2023, Enbridge issued press
+releases announcing (1)the Acquisitions described in Item 1.01 above and (2)a bought-deal offering of Enbridge
+common shares (the Offering). Copies of the press releases are attached hereto as Exhibits 99.1 and 99.2 and are incorporated
+herein by reference. 
+
+ 
+
+ In connection with the bought-deal
+equity offering, Enbridge is making investor presentations to certain existing and potential investors. The investor presentation is attached
+hereto as Exhibit99.3. 
+
+ 
+
+ The information contained under this Item 7.01
+in this Current Report on Form8-K, including Exhibits 99.1, 99.2 and 99.3, is being furnished and shall not be deemed filed
+for purposes of Section18 of the Securities Exchange Act of 1934 (the Exchange Act) or otherwise subject to the liabilities
+under that Sectionand shall not be deemed to be incorporated by reference into any filing of Enbridge under the Securities Act of
+1933 or the Exchange Act. 
+
+ 
+
+ This Current Report on Form8-K does not
+constitute an offer to sell or the solicitation of an offer to buy any security and shall not constitute an offer, solicitation or sale
+of any security in any jurisdiction in which such offering, solicitation or sale would be unlawful. 
+
+ 
+
+ Item 9.01 Financial Statements and Exhibits. 
+
+ 
+
+ (d)Exhibits 
+
+ 
+
+ 
+ 
+ 
+ Exhibit 
+ Number 
+ 
+ Description 
+ 
+ 99.1 
+ 
+ News Release dated September5, 2023 regarding the Acquisitions* 
+ 
+ 
+ 
+ 
+ 
+ 99.2 
+ 
+ News Release dated September5, 2023 regarding the bought-deal offering* 
+ 
+ 
+ 
+ 
+ 
+ 99.3 
+ 
+ Investor Presentation* 
+ 
+ 
+ 
+ 
+ 
+ 104 
+ 
+ Cover PageInteractive Data File (embedded within the Inline XBRL document) 
+ 
+ 
+
+ * Furnished herewith. 
+
+ 
+
+ Forward-Looking Information 
+
+ 
+
+ This communication contains both historical and
+forward-looking statements within the meaning of Section27A of the U.S. Securities Act of 1933, as amended, and Section21E
+of the U.S. Securities Exchange Act of 1934, as amended, and forward-looking information within the meaning of Canadian securities laws
+(collectively, forward-looking statements). Forward-looking statements have been included to provide potential investors
+with information about Enbridge. This information may not be appropriate for other purposes. Forward-looking statements are typically
+identified by words such as anticipate, believe, estimate, expect, forecast,
+intend, likely, plan, project, target and similar words suggesting
+future outcomes or statements regarding an outlook. Forward-looking statements included in this Current Report on Form8-K, including
+the exhibits hereto, include, but are not limited to, statements with respect to the following: anticipated benefits of the Acquisitions,
+timing of closing of the Acquisitions, management expectations, strategic objectives, strategic opportunities, growth opportunities, business
+prospects, regulatory proceedings and other similar matters. 
+
+ 
+
+ Although Enbridge believes these forward-looking
+statements are reasonable based on the information available on the date such statements are made and processes used to prepare the information,
+such statements are not guarantees of future events and readers are cautioned against placing undue reliance on forward-looking statements.
+By their nature, these statements involve a variety of assumptions, known and unknown risks and uncertainties and other factors, which
+may cause actual events to differ materially from those expressed or implied by such statements. Enbridge cautions readers not to place
+undue reliance on these statements, as a number of important factors could cause actual results to differ materially from the expectations
+expressed in such forward-looking statements. 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+
+ Enbridges forward-looking statements are
+subject to risks and uncertainties, including, but not limited to the possibility that the Acquisitions do not close when expected, or
+at all, because required regulatory approvals and other conditions to closing are not received or satisfied on a timely basis; that the
+anticipated benefits of the Acquisitions are not realized or will not be realized within the expected time period; general business and
+economic conditions in Canada and the U.S.; the impact of the movement of the Canadian dollar relative to other currencies, particularly
+the U.S. dollar; the effects of competition in the markets in which Enbridge operates; the impact of changes in the laws and regulations
+regulating the oil and gas or natural gas utilities industries or affecting domestic and foreign operations; judicial or regulatory judgments
+and legal proceedings; reputational risks; the outcome of various litigation and proceedings in which Enbridge is involved and the adequacy
+of reserves maintained therefor; other factors that may affect future results of Enbridge, including changes in trade policies, timely
+development and introduction of new products and services, changes in tax laws, technological and regulatory changes, and adverse developments
+in general market, business, economic, labor, regulatory and political conditions; and those other risks and uncertainties disclosed in
+Enbridges other filings with Canadian and United States securities regulators. The impact of any one risk, uncertainty or factor
+on a particular forward-looking statement is not determinable with certainty as these are interdependent and Enbridges future course
+of action depends on managements assessment of all information available at the relevant time. Except to the extent required by
+applicable law, Enbridge assumes no obligation to publicly update or revise any forward-looking statements made in this Current Report
+on Form8-K or the exhibits hereto or otherwise, whether as a result of new information, future events or otherwise. All subsequent
+forward-looking statements, whether written or oral, attributable to Enbridge or persons acting on its behalf, are expressly qualified
+in their entirety by these cautionary statements. 
+
+ 
+
+ Enbridge cautions that the foregoing list of important
+factors is not exhaustive and other factors could also adversely affect the closing of the financial sources, the use of proceeds of the
+financial sources, the Acquisitions and the future results of Enbridge. The forward-looking statements speak only as of the date of this
+Current Report on Form8-K,. When relying on Enbridges forward-looking statements to make decisions with respect to Enbridge,
+investors and others should carefully consider the foregoing factors and other uncertainties and potential events. 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+
+ SIGNATURES 
+
+ 
+
+ Pursuant to the requirements
+of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned, thereunto
+duly authorized. 
+
+ 
+
+ 
+ 
+ 
+ ENBRIDGE INC. (Registrant) 
+ 
+ 
+ 
+ 
+ 
+ Date: September5, 2023 
+ By: 
+ /s/ Karen K.L. Uehara 
+ 
+ 
+ 
+ Karen K.L. Uehara 
+Vice President, Corporate& Corporate Secretary (Duly Authorized Officer)

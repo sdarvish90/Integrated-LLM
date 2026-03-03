@@ -1,0 +1,492 @@
+8-K
+ 1
+ next20220302_8k.htm
+ FORM 8-K
+ 
+ 
+ next20220302_8k.htm 
+ 
+ 
+ 
+ 
+
+ 
+
+ UNITED STATES 
+ SECURITIES AND EXCHANGE COMMISSION 
+ WASHINGTON, D.C. 20549 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ FORM 8-K 
+ CURRENT REPORT 
+
+ 
+
+ PURSUANT TO SECTION 13 OR 15(D) OF THE 
+ SECURITIES EXCHANGE ACT OF 1934 
+
+ 
+
+ Date of Report (Date of earliest event reported): February 28, 2022 
+
+ 
+
+ NEXTDECADE CORPORATION 
+(Exact Name of Registrant as Specified in Charter) 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Delaware 
+ 
+ 
+ 001-36842 
+ 
+ 
+ 46-5723951 
+ 
+ 
+ 
+ 
+ (State or Other Jurisdiction of Incorporation) 
+ 
+ 
+ (Commission File Number) 
+ 
+ 
+ (IRS Employer Identification No.) 
+ 
+ 
+
+ 
+
+ 
+
+ 1000 Louisiana Street, Suite 3900, Houston, Texas 77002 
+(Address of Principal Executive Offices) (Zip Code) 
+
+ 
+
+ (713) 574-1880 
+(Registrants Telephone Number, Including Area Code) 
+
+ 
+
+ N/A 
+(Former Name or Former Address, if Changed Since Last Report) 
+
+ 
+
+ Check the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions (see General Instruction A.2. below): 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b)) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e 4(c)) 
+ 
+ 
+
+ 
+
+ 
+
+ Securities registered pursuant to Section 12(b) of the Act: 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Title of each class: 
+ 
+ 
+ 
+ Trading Symbol 
+ 
+ 
+ 
+ Name of each exchange on which registered: 
+ 
+ 
+ 
+ 
+ Common Stock, $0.0001 par value 
+ 
+ 
+ 
+ NEXT 
+ 
+ 
+ 
+ The Nasdaq Stock Market LLC 
+ 
+ 
+
+ 
+
+ 
+
+ Indicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (230.405 of this chapter) or Rule 12b-2 of the Securities Exchange Act of 1934 (240.12b-2 of this chapter). 
+
+ 
+
+ Emerging growth company 
+
+ 
+
+ If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. 
+
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ Item 1.01. Entry into a Material Definitive Agreement. 
+
+ 
+
+ Series C Convertible Preferred Stock Purchase Agreement 
+
+ 
+
+ On February 28, 2022, NextDecade Corporation (the Company ) entered into a Series C Convertible Preferred Stock Purchase Agreement (the Series C Stock Purchase Agreement ) with TEP Next Decade, LLC, an affiliate of Energy & Power Transition Partners, LLC ( TEP Next Decade ), pursuant to which the Company sold, and TEP Next Decade purchased, shares of the Companys Series C Convertible Preferred Stock, par value $0.0001 per share (the Series C Preferred Stock ), together with associated Warrants (as defined below), for a purchase price of $5 million. The consummation of the transactions contemplated by the Series C Stock Purchase Agreement occurred on March 3, 2022. 
+
+ 
+
+ The Company conducted the offering of the Series C Preferred Stock (the Offering ) in reliance on the exemption from registration requirements provided by Regulation D promulgated under the Securities Act of 1933, as amended (the Securities Act ), or any other applicable Securities Act exemptions available to the Company. 
+
+ 
+
+ The following summary of the material terms of the Series C Stock Purchase Agreement does not purport to be complete and is qualified in its entirety by reference to the full text of the Form of Series C Convertible Preferred Stock Purchase Agreement, which is filed as Exhibit 10.1 hereto and incorporated herein by reference. 
+
+ 
+
+ Purchase Price . The purchase price of the shares of Series C Preferred Stock was $1,000 per share, for a total purchase price of $5 million (the Aggregate Purchase Price ). 
+
+ 
+
+ Number of Shares of Series C Preferred Stock . TEP Next Decade purchased an aggregate of 5,000 shares of Series C Preferred Stock for the Aggregate Purchase Price, excluding additional shares of Series C Preferred Stock issued to TEP Next Decade as an origination fee for the Offering (described below). 
+
+ 
+
+ Origination Fee. The Company issued as an origination fee to TEP Next Decade a number of additional shares of Series C Preferred Stock equal to approximately two percent (2%) of the shares of Series C Preferred Stock purchased by TEP Next Decade under the Series C Stock Purchase Agreement. TEP Next Decade received 100 shares of Series C Preferred Stock as an origination fee. 
+
+ 
+
+ Representations, Warranties and Covenants . The Series C Stock Purchase Agreement contains customary representations, warranties and covenants from the Company and TEP Next Decade. 
+
+ 
+
+ Other Agreements . A Warrant Agreement and a Registration Rights Agreement were executed and delivered on February 28, 2022. Forms of these agreements are summarized below and filed as exhibits hereto. 
+
+ 
+
+ Certificate of Designations of Series C Preferred Stock 
+
+ 
+
+ The rights and designations of the Series C Preferred Stock are set forth in the Certificate of Designations of Series C Convertible Preferred Stock (the Series C Certificate of Designations ). Pursuant to the Series C Certificate of Designations, the Company is authorized to issue up to 166,364 shares of Series C Preferred Stock. Following the Offering, 48,977 shares of Series C Preferred Stock are outstanding. 
+
+ 
+
+ The following summary of the material terms of the Series C Certificate of Designations does not purport to be complete and is qualified in its entirety by reference to the full text of the Series C Certificate of Designations, which is filed as Exhibit 3.1 hereto and incorporated herein by reference. 
+
+ 
+
+ Optional Conversion . The Company has the option to convert all, but not less than all, of the Series C Preferred Stock into shares of common stock, par value $0.0001 per share (the Common Stock ), at the conversion price set forth in the applicable Series C Stock Purchase Agreement (the Conversion Price ) on any date on which the volume weighted average trading price of shares of Common Stock for each trading day during any sixty (60) of the prior ninety (90) trading days is equal to or greater than 175% of the conversion price of the Companys Series A Convertible Preferred Stock (the Series A Preferred Stock ) and Series B Convertible Preferred Stock (the Series B Preferred Stock ), in each case subject to certain terms and conditions. Of the 48,977 shares of Series C Preferred Stock that are outstanding following the closing of the transactions contemplated by the Series C Stock Purchase Agreement, 38,515 shares have a current Conversion Price of $2.9632, the 5,362 shares of Series C Preferred Stock held by TEP NextDecade prior to the Offering have a current Conversion Price of $5.6216, and the 5,100 shares of Series C Preferred Stock issued to TEP Next Decade pursuant to the Series C Convertible Preferred Stock Purchase Agreement have a current Conversion Price of $3.4056. In the event that the Company elects to convert the Series C Preferred Stock, the Company must also convert each series of then-issued and outstanding Parity Stock (as defined in the Series C Certificate of Designations) at the same time (if, with respect to Parity Stock issued after the Original Issue Date (as defined in the Series C Certificate of Designations) such forced conversion is permitted in accordance with the terms of and with respect to such Parity Stock). 
+
+ 
+
+ Mandatory Conversion . The Company must convert all of the Series C Preferred Stock into shares of Common Stock at the Conversion Price on the earlier of (i) ten (10) Business Days (as defined in the Series C Certificate of Designations) following a FID Event (as defined in the Series C Certificate of Designations) and (ii) March 17, 2031, the tenth (10th) anniversary of the date of the Series C Certificate of Designations. 
+
+ 
+
+ Dividends . The Series C Preferred Stock accrues dividends on the Series C Liquidation Preference (as defined in the Series C Certificate of Designations), which are cumulative and accrue at a rate of twelve percent (12%) per annum. The dividends will be payable quarterly in cash or in-kind, at the Companys option. The Series C Preferred Stock will also participate, on an as-converted basis, in any dividends paid to the holders of shares of Common Stock. The Company currently anticipates that it will continue to elect to pay dividends on the Series C Preferred Stock in-kind, rather than in cash. 
+
+ 
+
+ Anti-Dilution . The Conversion Price and the exercise price for the Warrants (as described below) will be subject to proportional adjustment for certain transactions relating to the Companys capital stock, including stock splits, stock dividends and similar transactions and the Conversion Price will be subject to adjustments to reflect additional issuances of Common Stock, subject to certain exceptions. 
+
+ 
+
+ Warrant Agreement 
+
+ 
+
+ The following summary of the material terms of the Warrant Agreement does not purport to be complete and is qualified in its entirety by reference to the full text of the Form of Warrant Agreement, which is filed as Exhibit 4.1 hereto and is incorporated herein by reference. 
+
+ 
+
+ Warrants . The shares of Series C Preferred Stock issued to TEP Next Decade in the Offering were issued with detached warrants (the Warrants ). The Warrants represent the right to acquire in the aggregate a number of shares of Common Stock equal to approximately 7.1 basis points (0.071%) of all outstanding shares of Common Stock, measured on a fully diluted basis, on the exercise date for an exercise price of $0.01 per share. The Warrants have a fixed three-year term commencing on February 28, 2022. 
+
+ 
+
+ Warrant Exercise . The Warrants may only be exercised by holder of the Warrants at the expiration of such three-year term, except that the Company can force exercise of the Warrants prior to the expiration of the term if (i) the volume weighted average trading price of shares of Common Stock for each trading day during any sixty (60) of the prior ninety (90) trading days is equal to or greater than 175% of the conversion price of the Series A Preferred Stock and the Series B Preferred Stock and (ii) the Company simultaneously elects to force a mandatory exercise of all other warrants then-outstanding and unexercised and held by any holder of Parity Stock (as defined in the Series C Certificate of Designations). 
+
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ Registration Rights Agreement 
+
+ 
+
+ TEP Next Decade will have customary demand and piggy-back registration rights covering shares of Common Stock underlying (i) its shares of Series C Preferred Stock (including any Common Stock underlying such Series C Preferred Stock issued (a) as PIK Shares, and (b) in respect of the origination fees), and (ii) the Warrants pursuant to the Registration Rights Agreement. The foregoing summary of the material terms of the Registration Rights Agreement does not purport to be complete and is qualified in its entirety by reference to the full text of the Form of Registration Rights Agreement, which is filed as Exhibit 10.2 hereto and incorporated herein by reference. 
+
+ 
+
+ No Offer or Solicitation 
+
+ 
+
+ THE INFORMATION CONTAINED IN THIS CURRENT REPORT ON FORM 8-K IS NOT AN OFFER TO SELL OR THE SOLICITATION OF AN OFFER TO BUY SHARES OF SERIES C PREFERRED STOCK OR ANY OTHER SECURITIES OF THE COMPANY. THE SHARES OF SERIES C PREFERRED STOCK AND THE WARRANTS HAVE NOT BEEN REGISTERED UNDER THE SECURITIES ACT AND MAY NOT BE OFFERED OR SOLD IN THE UNITED STATES ABSENT REGISTRATION UNDER THE SECURITIES ACT OR AN APPLICABLE EXEMPTION FROM THE REGISTRATION REQUIREMENTS OF THE SECURITIES ACT. THE COMPANY IS FILING THIS CURRENT REPORT ON FORM 8-K WITH THE UNITED STATES SECURITIES AND EXCHANGE COMMISSION FOR THE SOLE PURPOSE OF REPORTING ITS ENTRY INTO THE SERIES C STOCK PURCHASE AGREEMENT, AS REQUIRED BY THE RULES AND REGULATIONS OF THE COMMISSION. 
+
+ 
+
+ Item 3.02. Unregistered Sales of Equity Securities. 
+
+ 
+
+ The information set forth in Item 1.01 of this Current Report on Form 8-K is incorporated herein by reference in response to this Item 3.02. 
+
+ 
+
+ Item 9.01. Financial Statements and Exhibits. 
+
+ 
+
+ (d) Exhibits. 
+
+ 
+
+ 
+
+ 
+ 
+ 3.1(1) 
+ 
+ 
+ Certificate of Designations of Series C Convertible Preferred Stock, dated as of March 17, 2021 
+ 
+ 
+ 
+ 
+ 4.1(2) 
+ 
+ 
+ Form of Warrant 
+ 
+ 
+ 
+ 
+ 10.1(3) 
+ 
+ 
+ Form of S eries C Convertible Preferred Stock Purchase Agreement 
+ 
+ 
+ 
+ 
+ 10.2(4) 
+ 
+ 
+ Form of Registration Rights Agreement 
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+ (1) 
+ 
+ 
+ Incorporated by reference to Exhibit 3.1 of the Company's Current Report on Form 8-K, filed March 18, 2021. 
+ 
+ 
+ 
+ 
+ (2) 
+ 
+ 
+ Incorporated by reference to Exhibit 4.1 of the Company's Current Report on Form 8-K, filed March 18, 2021. 
+ 
+ 
+ 
+ 
+ (3) 
+ 
+ 
+ Incorporated by reference to Exhibit 10.1 of the Company's Current Report on Form 8-K, filed March 18, 2021. 
+ 
+ 
+ 
+ 
+ (4) 
+ 
+ 
+ Incorporated by reference to Exhibit 10.2 of the Company's Current Report on Form 8-K, filed March 18, 2021. 
+ 
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+
+ SIGNATURE 
+
+ 
+
+ Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized. 
+
+ 
+
+ Dated: March 4, 2022 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ NEXTDECADE CORPORATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ By: 
+ 
+ 
+ /s/ Vera de Gyarfas 
+ 
+ 
+ 
+ 
+ 
+ 
+ Name: Vera de Gyarfas 
+ 
+ 
+ 
+ 
+ 
+ 
+ Title: General Counsel

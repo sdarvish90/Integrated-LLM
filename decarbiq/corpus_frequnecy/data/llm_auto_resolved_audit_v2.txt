@@ -1,0 +1,1712 @@
+LLM AUTO-RESOLVED CONTRADICTIONS — v2 (32 pairs)
+================================================================================
+Pipeline re-run with: no char limit (step1), full-sentence extraction (step3),
+LLM pre-check with source context (step5).
+Includes source context sent to LLM for each claim.
+
+[ 1] CF Industries Holdings
+     Type: dividend_payment  |  Detected: VALUE_CHANGE  |  LLM decision: KEEP_BOTH
+     SOURCE 46 (2026-02-18, source_id=46):
+       Claim: "On January 27, 2026, CF Industries Board of Directors declared a quarterly dividend of $0.50 per common share"
+       Source context sent to LLM:
+         [sentence 152/214, showing 147–157, overlap=0.76, doc_len=53810]
+         A reconciliation of adjusted gross margin, adjusted gross margin as a percent of net sales and
+         adjusted gross margin per product ton and per nutrient ton to gross margin, the most directly
+         comparable GAAP measure, is provided in the table above. See Note Regarding Non-GAAP Financial
+         Measures in this release. Comparison of 2025 to 2024 Other sales volumes for 2025 were similar to
+         2024. Other average selling prices increased for 2025 compared to 2024 due to strong global
+         nitrogen demand and supply disruptions from geopolitical issues and natural gas availability.
+         Other adjusted gross margin per ton was higher for 2025 compared to 2024 due primarily to higher
+         average selling prices partially offset by higher realized natural gas costs. 11 Dividend Payment
+         On January27, 2026, CF Industries Board of Directors declared a quarterly dividend of $0.50 per
+         common share. The dividend will be paid on February27, 2026 to stockholders of record as of
+         February13, 2026. Conference Call CF Industries will hold a conference call to discuss its full
+         year and fourth quarter 2025 results at 1100 a.m. ET on Thursday, February19, 2026. This
+         conference call will include discussion of CF Industries business environment and outlook.
+         Investors can access the call and find dial-in information on the Investor Relations section of
+         the Companys website at www.cfindustries.com .
+     SOURCE 47 (2026-02-18, source_id=47):
+       Claim: "The Company paid $326M in dividends."
+       Source context sent to LLM:
+         [sentence 17/84, showing 12–22, overlap=0.16, doc_len=31985]
+         Import ant factors that could cause actual results to differ materially from those in the forward
+         - looking statements include, among others: the Companys ability to complete the projects at its
+         Blue Point Complex, including the construction of a low - carbon ammonia production facility with
+         its joint venture partners and s calable infrastructure on schedule and on budget or at all; the
+         Companys ability to fund the capital expenditure needs related to the joint venture at it s Blue
+         Point Complex, which may exceed its current estimates; the cyclical nature of the Companys
+         business and the impact of global supply and demand on the Companys selling prices and operating
+         results; the global commodity nature of the Companys nitrogen products, the conditions in the
+         global ma rke t for nitrogen products, and the intense global competition from other producers;
+         announced or future tariffs, retaliatory measures, and global trade relations, including the
+         potential impact of tariffs and retaliatory measures on the price and availability of materials
+         for its capital projects and mai ntenance; conditions in the United States, Europe and other
+         agricultural areas, including the influence of governmental policies and technological develo pme
+         nts on the demand for its fertilizer products; the volatility of natural gas prices in North
+         America and globally; weather conditions and the impact of ad verse weather events; the
+         seasonality of the fertilizer business; the impact of changing market conditions on the Companys
+         forward sales programs; dif fic ulties in securing the supply and delivery of raw materials or
+         utilities, increases in their costs or delays or interruptions in their delivery; rel ian ce on
+         third party providers of transportation services and equipment; the Companys reliance on a limited
+         number of key facilities; risks associated with cy ber security; acts of terrorism and regulations
+         to combat terrorism; the significant risks and hazards involved in producing and handling the
+         Companys produ cts against which the Company may not be fully insured; risks associated with
+         international operations; the Companys ability to manage its indebte dne ss and any additional
+         indebtedness that may be incurred; risks associated with changes in tax laws and adverse
+         determinations by taxing authorities , including any potential changes in tax regulations and its
+         qualification for tax credits ; risks involving derivatives and the effectiveness of the Companys
+         risk management and hedging activities; potential liabilities and expenditures related to
+         environmental, health and safety laws and regulations a nd permitting requirements; regulatory
+         restrictions and requirements related to greenhouse gas emissions, including announced or future
+         changes in enviro nme ntal or climate change laws; the development and growth of the market for
+         low - carbon ammonia and the risks and uncertainties relating to the developmen t and
+         implementation of the Companys low - carbon ammonia projects; risks associated with investments in
+         and expansions of the Companys business, inc luding unanticipated adverse consequences and the
+         significant resources that could be required; and failure of technologies to perform, develop or
+         be available as expected, including the low - carbon ATR ammonia production facility with carbon
+         capture and sequestration technologies being constructed at its Blue Point Complex. More detailed
+         information about factors that may affect the Companys performance and could cause actual results
+         to dif fer materially from those in any forward - looking statements may be found in CF Industries
+         Holdings, Inc.s filings with the Securities and Exchange Commis sion, including CF Industries
+         Holdings, Inc.s most recent annual and quarterly reports on Form 10 - K and Form 10 - Q, which are
+         available in the Inve stor Relations section of the Companys web site. It is not possible to
+         predict or identify all risks and uncertainties that might affect the accuracy of our forward -
+         looking statements and, consequently, our descriptions of such risks and uncertainties should not
+         be considered exhaustive. There is no guarante e t hat any of the events, plans or goals
+         anticipated by these forward - looking statements will occur, and if any of the events do occur,
+         there is no guaran tee what effect they will have on our business, results of operations, cash
+         flows, financial condition and future prospects. Forward - looking statements are giv en only as
+         of the date of this presentation and the Company disclaims any obligation to update or revise the
+         forward - looking statements, whether as a result of new information, future events or otherwise,
+         except as required by law. Note regarding non - GAAP financial measures The Company reports its
+         financial results in accordance with U.S. generally accepted accounting principles (GAAP).
+         Management believes that EBITDA, adjusted EBITDA, free cash flow, free cash flow to adjusted
+         EBITDA conversion, free cash flow yield and market cap to free cash flow, which are non - GAAP
+         financial measures, provide additional meaningful information regarding the Company's performance
+         and financial strength. Non - GAAP financial measures should be viewed in addition to, and not as
+         an alternative for, the Companys reported results prepared in accordance with GAAP. In addition,
+         because not all companies use identical calculations, EBITDA, adjusted EBITDA, free cash flow,
+         free cash flow to adjusted EBITDA conversion, free cash flow yi eld and market cap to free cash
+         flow included in this presentation may not be comparable to similarly titled measures of other
+         companies. Reconciliations of EBITDA, adjusted EBITDA, free cash flow and free cash flow yield to
+         the most directly comparabl e GAAP measures are provided in the tables accompanying this
+         presentation.
+     Reasoning:
+       The two claims describe different aspects of dividend payments, with claim A
+       announcing a quarterly dividend and claim B reporting the total amount paid in
+       dividends. Claim A provides specific details about the declaration of a quarterly
+       dividend, including the amount and payment date, while claim B offers a broader
+       overview of the company's dividend payments, stating the total amount paid. These
+       claims complement each other, providing a more complete picture of the company's
+       dividend activities. As they describe different facts, both claims are valid and
+       should be kept.
+
+[ 2] CF Industries Holdings
+     Type: financial_results  |  Detected: VALUE_CHANGE  |  LLM decision: KEEP_BOTH
+     OLDER (2025-11-05, source_id=10):
+       Claim: "Net sales $ 1,659, Gross margin 632, Net earnings attributable to common stockholders $ 353"
+       Source context sent to LLM:
+         [sentence 521/655, showing 516–526, overlap=0.50, doc_len=29302]
+         Financial results &#x2013; third quarter and first nine months 2025 In millions, except
+         percentages, per MMBtu and EPS Q3 2025 Q3 2024 9M 2025 9M 2024 Net sales $ 1,659 $ 1,370 $ 5,212 $
+         4,412 Gross margin 632 444 1,959 1,532 -As a percentage of net sales 38.1 % 32.4 % 37.6 % 34.7 %
+         Net earnings attributable to common stockholders $ 353 $ 276 $ 1,051 $ 890 Net earnings per
+         diluted share 2.19 1.55 6.39 4.86 EBITDA(1) 671 509 2,045 1,749 Adjusted EBITDA(1) 667 511 2,072
+         1,722 Diluted weighted-average common shares outstanding 161.2 178.6 164.3 183.1 Natural gas costs
+         in cost of sales (per MMBtu)(2) $ 2.96 $ 2.09 $ 3.35 $ 2.23
+     NEWER (2026-02-18, source_id=47):
+       Claim: "The Company reported net earnings of $1,218 and $1,455 for FY 2024 and FY 2025, respectively."
+       Source context sent to LLM:
+         [sentence 66/84, showing 61–71, overlap=0.17, doc_len=31985]
+         Table output assumes 1.4M MT CO2 captured via Donaldsonville CCS (2) Assumes that a $50 per ton
+         change in urea prices is also applied proportionally to all nitrogen products and is equivalent to
+         a $34.78 per ton change in UAN price, $36.96 per ton change in AN price, $89.14 per ton change in
+         ammonia price, and $21.20 per ton change in the price of the Other segment Adjusted EBITDA
+         Sensitivity to Natural Gas and Urea Prices (1) $ billions CF Realized Natural Gas Cost ($/MMBtu)
+         CF Realized Urea Price ($/ton) (2) 15 Estimated Blue Point project cost $3.7B Construction costs
+         and ammonia offtake allocated according to JV equity ownership percentage CFs estimated project
+         cost: ~$2B ($1.5B for production facility, $550M scalable infrastructure) CF will operate the
+         production and common facilities with production expected in 2029 Blue Point JV is consolidated
+         into CFs financials (1) Annual dollar amounts and relative percentages for Blue Point Project
+         Phasing and Scalable Infrastructure Phasing are project ed estimates and are subject to change (2)
+         Includes $500M contingency allocated in years 2027 - 2029 Project Highlights: Total 2029F 2028F
+         2027F 2026F 2025A $Millions (1) ~15% ~25% ~35% ~20% 8% Blue Point Project Phasing $3,700 $593
+         $1,000 $1,200 $600 $307 Blue Point JV Total (2) $1,480 $237 $400 $480 $240 $123 CF (40%) ~15% ~25%
+         ~35% ~25% 2% Scalable Infrastructure Phasing $550 $66 $125 $200 $150 $9 CF (100%) $2,030 $303 $525
+         $680 $390 $132 CF Blue Point Total Appendix 17 Adjusted EBITDA favorable driven by constructive
+         global nitrogen dynamics (1) See appendix for reconciliation of adjusted EBITDA to the most
+         directly comparable GAAP measure 17 Q4 2025 vs Q4 2024 Adjusted EBITDA $562 $ 398 $( 34 ) $( 67 )
+         $ 821 Adj. EBITDA Q4 2024 (1) Price Volume Realized Gas Cost Adj. EBITDA Q4 2025 (1) $ millions $(
+         38 ) Other FY 2025 vs FY 2024 Adjusted EBITDA Adj. EBITDA FY 2024 (1) Price Volume Realized Gas
+         Cost Adj. EBITDA FY 2025 (1) Other $2,284 $1,055 $ 79 $( 316 ) $2,893 $(209) $ millions 18 Strong
+         cash generation with significant return to shareholders (1) Represents the cash and cash
+         equivalents balance on the Company's Consolidated Balance Sheet at the end of each respective pe
+         rio d (2) Consists of 60% the total Blue Point JV capex of ~$94M of Blue Point JV capex in Q4 2025
+         and $307M in FY 2025 (3) Includes Blue Point JV capex of ~$38M in Q4 2025 and $123M in FY 2025,
+         which represents the 40% attributable to CF (4) Represents share repurchases and dividends paid in
+         Q4 2025 and FY 2025 as reflected on the Companys Consolidated Statements of Cash Flows (5)
+         Includes issuance in November 2025 of $1.0 billion aggregate principal amount of 5.300% senior
+         notes due 2035 and redemption in December 2025 of $750 million outstanding principal amount of
+         4.500% senior secured notes due 2026 (6) Semi - annual distribution(s) paid to noncontrolling
+         interest (CHS Inc.) in FY 2025 $1,838 Cash Q3 2025 (1) Cash from Operations Return to Shareholders
+         (4) Other (5) Cash Q4 2025 (1) $1,982 $( 423 ) $539 $(56) Cash 2024 (1) Cash from Operations CHS
+         Distributions (6) Return to Shareholders (4) Other (5) Cash 2025 (1) JERA & Mitsui Blue Point JV
+         Capital Contributions $1,614 $2,752 $291 $(766) $(304) $(1,691) $1,982 $ millions $ millions Q4
+         2025 Cash Sources and Uses FY 2025 Cash Sources and Uses $254 $ 270 $(170 ) $( 184) Capex Funded
+         by JERA & Mitsui (2) Funded by CF (3) Capex Funded by JERA & Mitsui (2) Funded by CF (3) $(226)
+         $(950) Consolidated CF Capex Consolidated CF Capex 19 LTM Free Cash Flow (millions) C F Industries
+         Free Cash Flow and Shares Outstanding as of Period End Shares Outstanding (millions) $2,165 $2,783
+         $1,799 $1,445 $1,789 208 196 188 170 154 125 135 145 155 165 175 185 195 205 215 $0 $500 $1,000
+         $1,500 $2,000 $2,500 $3,000 2021 2022 2023 2024 2025 Continued robust free cash flow participation
+         Non - GAAP reconciliation: Cash from Operations to Free Cash Flow (millions) $2,752 $2,271 $2,757
+         $3,855 $2,873 (950) (518) (499) (453) (514) (304) (308) (459) (619) (194) 291 - - - - 1,789 $1,445
+         $1,799 $2,783 $2,165 154 170 188 196 208 End of period shares outstanding Cash from Operations
+         Capital expenditures Distributions to noncontrolling interests Free Cash Flow Contributions from
+         noncontrolling interests 20 Annual Average Energy Cost 2026F (3) Current (2) 2025E (1) Source
+         Location Gas Prices ($/MMBtu) 3.33 3.09 3.23 NYMEX Henry Hub 9.21 10.56 12.60 ICE TTF 8.95 10.90
+         12.87 ICE NBP 9.48 9.55 13.35 ICE JKM Oil ($/ Bbl ) 62 64 77 NYMEX Brent Crude China Coal ($/
+         tonne ) 77 84 103 SX Coal/ Woodmac Thermal 119 118 157 Anthracite Powder 147 156 185 Anthracite
+         Exchange Rates 7.11 6.97 6.88 Bloomberg Composite RMB/USD 1.16 1.16 1.12 Bloomberg Composite
+         USD/EUR 1.33 1.34 1.30 Bloomberg Composite USD/GBP Notes: Market prices updated as of 1/14/2026;
+         Coal prices as of 1/2/2026 (1) 2025E represents assumptions from October 2024 forecast cost curve,
+         published in the CF Industries 3Q 2024 Earnings presentat ion (2) Observed values as of January
+         14, 2026; Chinese coal prices reflected 2025 Dec monthly average (3) Observed values in forward
+         energy strips as of January 12, 2026 and Woodmac forecast.
+     Reasoning:
+       Claim A and Claim B describe different financial results and time periods, making
+       them distinct and valid pieces of intelligence. Claim A provides net sales, gross
+       margin, and net earnings for the third quarter and first nine months of 2025, while
+       Claim B reports net earnings for the full years 2024 and 2025. These claims offer
+       complementary information about the company's financial performance over different
+       periods. As a result, both claims are relevant and should be retained as separate
+       pieces of intelligence.
+
+[ 3] CF Industries Holdings
+     Type: free_cash_flow  |  Detected: VALUE_CHANGE  |  LLM decision: KEEP_BOTH
+     OLDER (2025-11-05, source_id=10):
+       Claim: "Q3 2025 LTM Free Cash Flow divided by Q3 2025 LTM adjusted EBITDA; see appendix for reconciliations of free cash flow and adjusted EBITDA to the most directly comparable GAAP measures"
+       Source context sent to LLM:
+         [sentence 107/655, showing 102–112, overlap=0.68, doc_len=29302]
+         (3) Includes the cash inflows and outflows associated with the Blue Point joint venture. See
+         appendix for reconciliation of free cash flow to the most directly comparable GAAP measure (4) As
+         of September 30, 2025 through 2029 (5) Per 200,000 work hours as of September 30, 2025 (6)
+         Represents Q3 2025 LTM free cash flow divided by Q3 2025 LTM adjusted EBITDA; see appendix for
+         reconciliations of free cash flow and adjusted EBITDA to the most directly comparable GAAP
+         measures 97% 9M 2025 Capacity Utilization 0.37
+     NEWER (2026-02-18, source_id=47):
+       Claim: "The Company reported free cash flow of $1,445 and $1,789 for FY 2024 and FY 2025, respectively."
+       Source context sent to LLM:
+         [sentence 48/84, showing 43–53, overlap=0.25, doc_len=31985]
+         S ee appendix for reconciliations of free cash flow and adjusted EBITDA to the most directly
+         comparable GAAP measures (2) Sourced from Bloomberg as of 2/16/2026 for 12 - month period ended
+         12/31/2025 . Calculation methods for similarly titled measures used by cited indices may differ
+         from CFs free cash flow and adjusted EBITDA calculations CF Industries (1) S&P 500 Materials (2)
+         S&P 500 Industrials (2) 11 14.7% 16.7% 12.0% 10.0% 15.1% 2021 2022 2023 2024 2025 Sustained FCF
+         strength points to an undervalued equity relative to fundamentals Free Cash Flow Yield (1) FCF/Adj
+         EBITDA conversion % (4) 62% 63% 65% 47% 79% (1) Represents annual free cash flow divided by market
+         value of equity (market cap) as of December 31 st of each year for 2021 2025. See appendix for
+         reconciliation of free cash flow to the most directly comparable GAAP measure and calculation of
+         market cap (2) Represents market value of equity (market cap) divided by annual free cash flow.
+         Market cap as of December 31 st of each year for 2021 2025. See appendix for reconciliation of
+         free cash flow to the most directly comparable GAAP measure and calculation of market cap. (3) S&P
+         500 Materials and Industrials FCF yield sourced from Bloomberg as of December 31 st of each year
+         for 2021 2024, and FCF yield as of 12/31/2025 is sourced as of 2/16/2026. Calculation method for
+         similarly titled measure used by cited indices may differ from CFs free cash flow calculation (4)
+         Represents annual free cash flow divided by annual adjusted EBITDA . S ee appendix for
+         reconciliations of free cash flow and adjusted EBITDA to the most directly comparable GAAP
+         measures (5) Includes the cash inflows and outflows associated with the Blue Point joint venture,
+         which includes a net cash inflow of ~$10 0M representing contributions from JERA and Mitsui
+         ($291M) less Capex funded by JERA and Mitsui (60% of $307M). See appendix for reconciliation of
+         free cash flow to the most directly comparable G AAP measure (5) S&P 500 Materials 2021 2025 LTM
+         average FCF yield 3.8% = 26.3x market cap/FCF (3) S&P 500 Industrials 2021 2025 LTM average FCF
+         yield 3.3% = 30.0x market cap/FCF (3) CF 2021 2025 average FCF yield 13.7% = 7.6x market cap/FCF
+         (2) 12 Strong track record of returning significant portion of free cash flow to shareholders
+         while investing in growth (1) Growth Capex includes decarbonization and margin enhancing projects
+         (2) Inorganic Growth represents the Waggaman acquisition 0% 10% 20% 30% 40% 50% 60% 70% 80% 90%
+         100% 1Y 3Y 5Y Dividends Share Repurchases Inorganic Growth (2) Growth Capex (1) 77% returned to
+         shareholders $2.1B $6.3B $8.9B 1, 3, 5 - year Free Cash Flow Allocation
+     Reasoning:
+       The two claims describe different aspects of free cash flow, with Claim A providing
+       a ratio of free cash flow to adjusted EBITDA and Claim B reporting the absolute
+       values of free cash flow for specific years. Claim A focuses on the relationship
+       between free cash flow and adjusted EBITDA, while Claim B provides historical data
+       on free cash flow for FY 2024 and FY 2025, making them complementary pieces of
+       information. They do not supersede or render each other redundant, as they serve
+       distinct purposes in analyzing the company's financial performance. Therefore,
+       keeping both claims is necessary for a comprehensive understanding of CF
+       Industries' financial situation.
+
+[ 4] CF Industries Holdings
+     Type: net_earnings_reported  |  Detected: VALUE_CHANGE  |  LLM decision: SUPERSEDE
+     OLDER (2025-11-05, source_id=8):
+       Claim: "CF Industries Holdings, Inc. Reports First Nine Months 2025 Net Earnings of $1.05 Billion, Adjusted EBITDA of $2.07 Billion"
+       Source context sent to LLM:
+         [sentence 14/195, showing 9–19, overlap=0.38, doc_len=52627]
+         We also reached a milestone in our clean energy strategy by both capturing a premium price for our
+         first cargoes of certified low-carbon ammonia and earning 45Q tax credits as expected. The
+         financial benefits from our investments in low-carbon ammonia and decarbonization projects are
+         earning a very high rate of return for our shareholders. Operations Overview As of September 30,
+         2025, the Companys 12-month rolling average recordable incident rate was 0.37 incidents per
+         200,000 work hours. Gross ammonia production for the first nine months and third quarter of 2025
+         was approximately 7.6 million and 2.4million tons, respectively, compared to 7.2 million and 2.4
+         million tons in the first nine months and third quarter, respectively, of 2024. The Company
+         expects gross ammonia production for the full year 2025 to be approximately 10 million tons. 1
+         Financial Results Overview First Nine Months 2025 Financial Results For the first nine months of
+         2025, net earnings attributable to common stockholders were $1.05 billion, or $6.39 per diluted
+         share, EBITDA was $2.05 billion, and adjusted EBITDA was $2.07 billion. These results compare to
+         first nine months of 2024 net earnings attributable to common stockholders of $890 million, or
+         $4.86 per diluted share, EBITDA of $1.75 billion, and adjusted EBITDA of $1.72 billion. Net sales
+         in the first nine months of 2025 were $5.21 billion compared to $4.41 billion in the first nine
+         months of 2024. Average selling prices for the first nine months of 2025 were higher for all
+         segments than in the first nine months of 2024 due to strong global nitrogen demand, supply
+         disruptions due to geopolitical issues, and higher global energy costs that raised the global
+         market clearing price required to meet global demand. Sales volumes in the first nine months of
+         2025 were higher than in the first nine months of 2024 due primarily to greater ammonia supply
+         availability as a result of increased production in the first quarter of 2025 compared to the
+         first quarter of 2024, which was adversely impacted by production outages from a winter storm in
+         January 2024. Cost of sales for the first nine months of 2025 was higher compared to the first
+         nine months of 2024 due primarily to higher realized natural gas costs and higher sales volumes.
+     NEWER (2026-02-18, source_id=46):
+       Claim: "CF Industries Holdings, Inc. Reports Full Year 2025 Net Earnings of $1.46 Billion, Adjusted EBITDA of $2.89 Billion"
+       Source context sent to LLM:
+         [sentence 6/214, showing 1–11, overlap=0.46, doc_len=53810]
+         EX-99.1 2 cf-02182026_ex991xearnings.htm EX-99.1 Document 2375 Waterview Drive Northbrook, IL
+         60062 www.cfindustries.com CF Industries Holdings, Inc. Reports Full Year 2025 Net Earnings of
+         $1.46 Billion, Adjusted EBITDA of $2.89 Billion Operational Excellence, Constructive Global
+         Nitrogen Environment Drive Strong Results $1.7 Billion Returned to Shareholders in 2025
+         NORTHBROOK, Ill.February 18, 2026CF Industries Holdings, Inc. (NYSE CF), a leading global
+         manufacturer of hydrogen and nitrogen products, today announced results for the full year and
+         fourth quarter ended December 31, 2025. Highlights Full year 2025 net earnings (1) of $1.46
+         billion, or $8.97 per diluted share, EBITDA (2) of $2.78 billion, and adjusted EBITDA (2) of $2.89
+         billion Fourth quarter 2025 net earnings of $404 million, or $2.59 per diluted share, EBITDA of
+         $731 million, and adjusted EBITDA of $821 million Full year 2025 net cash from operating
+         activities of $2.75 billion free cash flow (3) of $1.79billion for same period, which includes
+         cash inflows and outflows associated with the Blue Point joint venture Repurchased 16.6 million
+         shares for $1.34 billion during 2025, reducing the Companys outstanding share count by
+         approximately 10% compared to the end of 2024 CF Industries delivered outstanding results in 2025,
+         demonstrating the strength of our business and of our team, said Chris Bohn, president and chief
+         executive officer, CF Industries Holdings, Inc. We remain committed to creating long-term value
+         for our shareholders through accretive investments both within our cost-advantaged North American
+         manufacturing and distribution network and across our clean energy growth platform as well as
+         through returning capital to shareholders. Operations Overview The Companys full year 2025
+         recordable incident rate was 0.26 incidents per 200,000 work hours. Gross ammonia production for
+         the full year and fourth quarter of 2025 was approximately 10.1 million and 2.5million tons,
+         respectively, compared to 9.8 million and 2.6 million tons in the full year and fourth quarter,
+         respectively, of 2024.
+     Reasoning:
+       Claim B provides a full-year update that includes and expands upon the information
+       in Claim A, making Claim A outdated. Claim A reports net earnings for the first
+       nine months of 2025, while Claim B reports the full-year 2025 net earnings,
+       including the fourth quarter. The full-year report in Claim B supersedes the
+       partial-year report in Claim A. The information in Claim B is more comprehensive
+       and up-to-date, making it the preferred choice for current intelligence.
+
+[ 5] CF Industries Holdings
+     Type: nitrogen_market_outlook  |  Detected: UNKNOWN  |  LLM decision: KEEP_BOTH
+     OLDER (2025-11-05, source_id=8):
+       Claim: "Global nitrogen pricing was supported into the start of the third quarter of 2025 by strong global demand led by North America, India and Brazil and constrained supply availability due to outages in the quarter and earlier in the year."
+       Source context sent to LLM:
+         [sentence 48/195, showing 43–53, overlap=0.91, doc_len=52627]
+         Since 2010, CF Industries has repurchased 215.8 million shares for approximately $11.3 billion and
+         reduced the outstanding share count by 56%. CHS Inc. Distribution CHS Inc. (CHS) is entitled to
+         semi-annual distributions resulting from its minority equity investment in CF Industries Nitrogen,
+         LLC (CFN). The estimate of the partnership distribution earned by CHS, but not yet declared, for
+         the third quarter of 2025 is approximately $106million. Nitrogen Market Outlook Global nitrogen
+         pricing was supported into the start of the third quarter of 2025 by strong global demand led by
+         North America, India and Brazil and constrained supply availability due to outages in the quarter
+         and earlier in the 3 year. Global urea pricing moderated through the third quarter as is typical
+         for this period though global ammonia pricing strengthened due to scheduled and unscheduled
+         outages as well as steady demand. In the near-term, management expects the global nitrogen supply-
+         demand balance to remain constructive due to Continued strong global nitrogen demand Management
+         expects continued positive global nitrogen demand through the end of 2025 and into 2026. India is
+         projected to be the largest importer of urea in the world in 2025, with 7.3 million metric tons
+         secured through urea tenders through the third quarter of 2025, with only another 430,000 metric
+         tons secured in its October 2025 urea tender. The Company expects India to tender for urea
+         frequently through March 2026 due to lower-than-expected domestic production and low inventory.
+         Brazil is projected to require an additional 3 million metric tons of urea imports through the end
+         of the year, supported by strong planted corn acreage.
+     NEWER (2026-02-18, source_id=46):
+       Claim: "Management expects the global nitrogen supply-demand balance to remain constructive due to Resilient global nitrogen demand"
+       Source context sent to LLM:
+         [sentence 65/214, showing 60–70, overlap=0.52, doc_len=53810]
+         Distribution 3 On January 30, 2026, the Board of Managers of CF Industries Nitrogen, LLC (CFN)
+         approved a semi-annual distribution payment to CHS Inc. (CHS) of $201million for the distribution
+         period ended December 31, 2025. The distribution was paid on January 30, 2026. Distributions to
+         CHS pertaining to 2025 distribution periods were approximately $304million. Nitrogen Market
+         Outlook The second half of 2025 saw global nitrogen values remain supported due to constrained
+         ammonia supply availability from global production outages and natural gas availability in
+         Trinidad, strong urea import demand led by India and Brazil, limited urea exports from China, and
+         reduced supply from Iran on geopolitical and natural gas availability-related curtailments. In the
+         near-term, management expects the global nitrogen supply-demand balance to remain constructive due
+         to Resilient global nitrogen demand Management expects nitrogen demand in North America to be
+         positive through the spring 2026 application season. Based on the fall 2025 ammonia application
+         season and strong corn demand, the Company expects another year of high planted acres of corn in
+         the United States in 2026. Management believes that nitrogen channel inventory remains lower than
+         historical averages. Globally, Brazil and India are expected to remain the worlds largest
+         importers of urea driven by increased domestic demand. Continued global supply constraints
+         Management expects continued tight supply conditions for upgraded nitrogen products with loosening
+         conditions for ammonia. Nitrogen exports from Russia, while still above pre-war levels, continue
+         to face interrupted supply and export flows due to the ongoing conflict in the region.
+     Reasoning:
+       The claims describe the nitrogen market outlook at different points in time, with
+       claim A focusing on the third quarter of 2025 and claim B discussing the near-term
+       outlook and expectations for 2026. Claim A provides information on the strong
+       global demand and constrained supply availability in the third quarter of 2025,
+       while claim B offers an updated perspective on the global nitrogen supply-demand
+       balance and expectations for resilient demand in 2026. The two claims complement
+       each other, with claim B building upon the foundation established in claim A. As a
+       result, both claims are valid and provide unique insights into the nitrogen market
+       outlook at different times.
+
+[ 6] CF Industries Holdings
+     Type: project_milestone  |  Detected: UNKNOWN  |  LLM decision: KEEP_BOTH
+     OLDER (2025-11-05, source_id=10):
+       Claim: "The Company has completed a nitric acid plant abatement project at Verdigris, OK facility, in October, that is expected to reduce CO2-e emissions by over 600,000 metric tons per year, on track to reduce CO2-e emissions per ton of product by 25% by 2030"
+       Source context sent to LLM:
+         [sentence 149/655, showing 144–154, overlap=0.44, doc_len=29302]
+         Q3 2025 Net Earnings 5 Highlights and Outlook Highlights: Sold cargoes of certified low-carbon
+         ammonia at a premium to customers in Africa and Europe Completed a nitric acid plant abatement
+         project at Verdigris, OK facility, in October, that is expected to reduce CO2-e emissions by over
+         600,000 metric tons per year, on track to reduce CO2-e emissions per ton of product by 25% by 2030
+         9M 2025 returned ~$1.3 billion to shareholders through share repurchases and dividends - Completed
+         $3 billion share repurchase authorization in October 2025 - Commenced repurchase authorization of
+         $2 billion expiring in December 2029
+     NEWER (2026-02-18, source_id=47):
+       Claim: "Positive Blue Point FID, JERA and Mitsui confirm offtake for new demand in power generation and other industrial uses."
+       Source context sent to LLM:
+         [sentence 37/84, showing 32–42, overlap=0.20, doc_len=31985]
+         The Company has presented free cash flow, free cash flow to adjusted EBITDA conversion, free cash
+         flow yield and market cap to free cash flow because management uses these measures and believes
+         they are useful to investors, as an indicati on of the strength of the Company and its ability to
+         generate cash and to evaluate the Companys cash generation ability relativ e t o its industry
+         competitors. It should not be inferred that the entire free cash flow amount is available for
+         discretionary expendit ure s. 4 Constructive global nitrogen dynamics and operational excellence
+         deliver strong results (1) See appendix for reconciliation of adjusted EBITDA to the most directly
+         comparable GAAP measure (2) Represents last twelve months share repurchases and dividends paid
+         through December 31, 2025 (3) Includes the cash inflows and outflows associated with the Blue
+         Point joint venture, which includes a net cash inflow of ~$10 0M representing contributions from
+         JERA and Mitsui ($291M) less Capex funded by JERA and Mitsui (60% of $307M). See appendix for
+         reconciliation of free cash flow to the most di rec tly comparable GAAP measure (4) As of December
+         31, 2025; share repurchase authorization runs through 2029 (5) Per 200,000 work hours as of
+         December 31, 2025 (6) Represents FY 2025 free cash flow divided by FY 2025 adjusted EBITDA. See
+         appendix for reconciliations of free cash flow and adj usted EBITDA to the most directly
+         comparable GAAP measures (7) Sourced from CRU Ammonia Database on December 22, 2025 97% FY 2025
+         Capacity Utilization 0.26 FY 2025 Recordable Incident Rate (5) 62% FY 2025 FCF/Adj EBITDA
+         Conversion (6) $821M Q4 2025 Adjusted EBITDA (1) $ 2.9 B FY 2025 Adjusted EBITDA (1) $2 .8 B FY
+         2025 Cash from Operations $1.8B FY 2025 Free Cash Flow (3) $1.7B FY 2025 Capital Returned to
+         Shareholders (2) $ 1 .7B Remaining in Current $2B Share Repurchase Authorization (4) $ 1.5B FY
+         2025 Net Earnings $404 M Q4 2025 Net Earnings 10% Greater Capacity Utilization than North America
+         Peers (7) 5 - year rolling average ending 2025 5 Advancing our strategy through disciplined
+         capital allocation Pathways to grow shareholder value Return capital to shareholders Disciplined
+         growth initiatives & clean energy Invest in high return projects within our network 2025 Execution
+         Positive Blue Point FID JERA & Mitsui confirm offtake for new demand in power generation and other
+         industrial uses Developing a low - carbon ammonia supply chain through partnerships such as POET
+         and Trafigura $1.3B to repurchase 16.6M shares representing 10% of shares outstanding since end of
+         2024 $326M dividends paid Donaldsonville CCS project start - up Generating 45Q tax credits and low
+         - carbon ammonia price premiums First low - carbon ammonia shipments DEF load capacity expansion 6
+         On track to deliver 20% mid - cycle EBITDA growth Current Mid - Cycle EBITDA Monetizing
+         Decarbonization Blue Point Expected Mid - Cycle EBITDA ~2030 $ millions +20% $2,500 $200 $300
+         ~$3,000 45Q tax credit generation Low - carbon price premium Verdigris N 2 O abatement Yazoo City
+         CCS - expected 2028 Positive Blue Point FID JV formed with JERA & Mitsui Monetizing
+         decarbonization through structural benefits and CF market opportunities Permits - expected 1H 2026
+         Commissioning - expected 2029 Begin construction - expected 2026 JERA & Mitsui awarded contract
+         for difference from Japanese government 7 Management Outlook 2026 Outlook : Tight supply - demand
+         balance due to strong global demand, delayed startups, geopolitical uncertainty, gas availability,
+         and European closures Gross ammonia production in 2026 expected to be ~9.5 million tons due to the
+         ongoing outage at the Yazoo City Complex Total capital expenditures expected to be ~$1.3 billion,
+         of which ~$600 million is for the Blue Point JV - CF capital expenditures expected to be ~$950M
+         excluding the portion funded by JERA and Mitsui ~$550M for the existing network ~$400M for the
+         Blue Point JV and the Common Facilities Long - term Outlook: Global supply - demand balance
+         expected to tighten further as demand outpaces global nitrogen capacity growth Continued interest
+         in low - carbon nitrogen products Strategic initiatives driving growth and margin expansion today
+         and positioned to achieve expected 2030 mid - cycle targets: - ~$3B EBITDA, growth of 20% - ~$2B
+         FCF, growth of 33% 8 2021 2022 2023 2024 2025 2026F Near - term global nitrogen supply - demand
+         dynamics Sources: Industry Publications, CRU Urea Market Outlook as of December 2025, CF Analysis
+         India Urea Imports 9.3 MMT ~8 - 10 MMT 2021 2022 2023 2024 2025 2026F China Urea Exports Million
+         metric tons 4.9 MMT ~4 - 6 MMT 2021 2022 2023 2024 2025 2026F Brazil Urea Imports 7.7 MMT Nitrogen
+         Market Outlook Continued strong global demand driven by India and Brazil Above average planted
+         corn acres expected in North America Geopolitical and gas - related supply disruptions likely to
+         continue Seasonal Chinese urea exports expected under strict quota Russian nitrogen exports above
+         pre - war levels Impact of new North American ammonia supply dependent on operating rates ~7 - 8
+         MMT 260k MT Near - term global nitrogen market remains constructive 9 17 30 39 2010 2015 2020 2025
+         8.2 8.2 7.0 (2) 6.0 (1) Production Capacity millions (nutrient tons) Annual Nitrogen Equivalent
+         Tons per 1,000 Shares Outstanding Delivering value by increasing nitrogen participation per share
+         Million Shares Outstanding (3) Since 2010: Increased production capacity 36% Decreased share count
+         57% 153.6 214.0 233.1 356.3 +16% (35)% +18% (8)% (28)% UK NH 3 closed Waggaman acquired Notes:
+         Beginning in 2015 includes incremental 50% interest in CF Fertilisers UK acquired from Yara
+         Beginning in 2016 excludes nitrogen equivalent of 1.1 million tons of urea and 0.58 million tons
+         of UAN under CHS supply agreement and includes expansion project capacity at Donaldsonville and
+         Port Neal Beginning in 2018 includes incremental 15% of Verdigris production to reflect CFs
+         acquisition of publicly traded TNH units Beginning in 2022 includes decrease in production
+         capacity due to Ince plant closure Beginning in 2023 includes decrease in production capacity due
+         to Billingham NH 3 plant closure and additional production capacity from Waggaman ammonia
+         production complex All N production numbers based on year end figures per 10 - K filings (1)
+         Beginning in 2010 includes capacity from Terra Industries acquisition (2) Beginning in 2013
+         includes incremental 34% of Medicine Hat production to reflect CF acquisition of Viterra's
+         interests (3) Share count based on end of period common shares outstanding; share count prior to
+         2015 based on 5 - for - 1 split - adjusted shares 53 10 62% 28% 51% CF Industries S&P 500
+         Materials S&P 500 Industrials CF 2025 FCF to Adjusted EBITDA conversion outpaces sector averages
+         FCF to Adjusted EBITDA conversion (1) Represents FY 2025 free cash flow divided by FY 2025
+         adjusted EBITDA .
+     Reasoning:
+       The two claims describe different projects and initiatives by CF Industries
+       Holdings, with Claim A focusing on a nitric acid plant abatement project and Claim
+       B discussing the Blue Point FID and partnerships for low-carbon ammonia supply
+       chains. Claim A highlights the completion of a project at the Verdigris, OK
+       facility aimed at reducing CO2-e emissions, while Claim B announces the positive
+       Final Investment Decision (FID) for the Blue Point project and confirms offtake
+       agreements with JERA and Mitsui for new demand in power generation and industrial
+       uses. These are distinct events and projects, both relevant to the company's
+       strategic initiatives and growth plans. The difference in content and focus
+       indicates that both claims provide unique intelligence and should be retained.
+
+[ 7] CF Industries Holdings
+     Type: share_repurchase  |  Detected: VALUE_CHANGE  |  LLM decision: KEEP_BOTH
+     OLDER (2025-11-05, source_id=10):
+       Claim: "9M 2025 returned ~$1.3 billion to shareholders through share repurchases and dividends"
+       Source context sent to LLM:
+         [sentence 152/655, showing 147–157, overlap=1.00, doc_len=29302]
+         Highlights: Sold cargoes of certified low-carbon ammonia at a premium to customers in Africa and
+         Europe Completed a nitric acid plant abatement project at Verdigris, OK facility, in October, that
+         is expected to reduce CO2-e emissions by over 600,000 metric tons per year, on track to reduce
+         CO2-e emissions per ton of product by 25% by 2030 9M 2025 returned ~$1.3 billion to shareholders
+         through share repurchases and dividends - Completed $3 billion share repurchase authorization in
+         October 2025 - Commenced repurchase authorization of $2 billion expiring in December 2029 9M 2025
+         Adjusted EBITDA up 20% vs 9M 2024, driven by higher average selling price and sales volumes,
+         partially offset by higher natural gas costs 2025 Outlook:
+     NEWER (2026-02-18, source_id=47):
+       Claim: "The Company repurchased $1.3B or 16.6M shares, representing 10% of shares outstanding since the end of 2024."
+       Source context sent to LLM:
+         [sentence 37/84, showing 32–42, overlap=0.13, doc_len=31985]
+         The Company has presented free cash flow, free cash flow to adjusted EBITDA conversion, free cash
+         flow yield and market cap to free cash flow because management uses these measures and believes
+         they are useful to investors, as an indicati on of the strength of the Company and its ability to
+         generate cash and to evaluate the Companys cash generation ability relativ e t o its industry
+         competitors. It should not be inferred that the entire free cash flow amount is available for
+         discretionary expendit ure s. 4 Constructive global nitrogen dynamics and operational excellence
+         deliver strong results (1) See appendix for reconciliation of adjusted EBITDA to the most directly
+         comparable GAAP measure (2) Represents last twelve months share repurchases and dividends paid
+         through December 31, 2025 (3) Includes the cash inflows and outflows associated with the Blue
+         Point joint venture, which includes a net cash inflow of ~$10 0M representing contributions from
+         JERA and Mitsui ($291M) less Capex funded by JERA and Mitsui (60% of $307M). See appendix for
+         reconciliation of free cash flow to the most di rec tly comparable GAAP measure (4) As of December
+         31, 2025; share repurchase authorization runs through 2029 (5) Per 200,000 work hours as of
+         December 31, 2025 (6) Represents FY 2025 free cash flow divided by FY 2025 adjusted EBITDA. See
+         appendix for reconciliations of free cash flow and adj usted EBITDA to the most directly
+         comparable GAAP measures (7) Sourced from CRU Ammonia Database on December 22, 2025 97% FY 2025
+         Capacity Utilization 0.26 FY 2025 Recordable Incident Rate (5) 62% FY 2025 FCF/Adj EBITDA
+         Conversion (6) $821M Q4 2025 Adjusted EBITDA (1) $ 2.9 B FY 2025 Adjusted EBITDA (1) $2 .8 B FY
+         2025 Cash from Operations $1.8B FY 2025 Free Cash Flow (3) $1.7B FY 2025 Capital Returned to
+         Shareholders (2) $ 1 .7B Remaining in Current $2B Share Repurchase Authorization (4) $ 1.5B FY
+         2025 Net Earnings $404 M Q4 2025 Net Earnings 10% Greater Capacity Utilization than North America
+         Peers (7) 5 - year rolling average ending 2025 5 Advancing our strategy through disciplined
+         capital allocation Pathways to grow shareholder value Return capital to shareholders Disciplined
+         growth initiatives & clean energy Invest in high return projects within our network 2025 Execution
+         Positive Blue Point FID JERA & Mitsui confirm offtake for new demand in power generation and other
+         industrial uses Developing a low - carbon ammonia supply chain through partnerships such as POET
+         and Trafigura $1.3B to repurchase 16.6M shares representing 10% of shares outstanding since end of
+         2024 $326M dividends paid Donaldsonville CCS project start - up Generating 45Q tax credits and low
+         - carbon ammonia price premiums First low - carbon ammonia shipments DEF load capacity expansion 6
+         On track to deliver 20% mid - cycle EBITDA growth Current Mid - Cycle EBITDA Monetizing
+         Decarbonization Blue Point Expected Mid - Cycle EBITDA ~2030 $ millions +20% $2,500 $200 $300
+         ~$3,000 45Q tax credit generation Low - carbon price premium Verdigris N 2 O abatement Yazoo City
+         CCS - expected 2028 Positive Blue Point FID JV formed with JERA & Mitsui Monetizing
+         decarbonization through structural benefits and CF market opportunities Permits - expected 1H 2026
+         Commissioning - expected 2029 Begin construction - expected 2026 JERA & Mitsui awarded contract
+         for difference from Japanese government 7 Management Outlook 2026 Outlook : Tight supply - demand
+         balance due to strong global demand, delayed startups, geopolitical uncertainty, gas availability,
+         and European closures Gross ammonia production in 2026 expected to be ~9.5 million tons due to the
+         ongoing outage at the Yazoo City Complex Total capital expenditures expected to be ~$1.3 billion,
+         of which ~$600 million is for the Blue Point JV - CF capital expenditures expected to be ~$950M
+         excluding the portion funded by JERA and Mitsui ~$550M for the existing network ~$400M for the
+         Blue Point JV and the Common Facilities Long - term Outlook: Global supply - demand balance
+         expected to tighten further as demand outpaces global nitrogen capacity growth Continued interest
+         in low - carbon nitrogen products Strategic initiatives driving growth and margin expansion today
+         and positioned to achieve expected 2030 mid - cycle targets: - ~$3B EBITDA, growth of 20% - ~$2B
+         FCF, growth of 33% 8 2021 2022 2023 2024 2025 2026F Near - term global nitrogen supply - demand
+         dynamics Sources: Industry Publications, CRU Urea Market Outlook as of December 2025, CF Analysis
+         India Urea Imports 9.3 MMT ~8 - 10 MMT 2021 2022 2023 2024 2025 2026F China Urea Exports Million
+         metric tons 4.9 MMT ~4 - 6 MMT 2021 2022 2023 2024 2025 2026F Brazil Urea Imports 7.7 MMT Nitrogen
+         Market Outlook Continued strong global demand driven by India and Brazil Above average planted
+         corn acres expected in North America Geopolitical and gas - related supply disruptions likely to
+         continue Seasonal Chinese urea exports expected under strict quota Russian nitrogen exports above
+         pre - war levels Impact of new North American ammonia supply dependent on operating rates ~7 - 8
+         MMT 260k MT Near - term global nitrogen market remains constructive 9 17 30 39 2010 2015 2020 2025
+         8.2 8.2 7.0 (2) 6.0 (1) Production Capacity millions (nutrient tons) Annual Nitrogen Equivalent
+         Tons per 1,000 Shares Outstanding Delivering value by increasing nitrogen participation per share
+         Million Shares Outstanding (3) Since 2010: Increased production capacity 36% Decreased share count
+         57% 153.6 214.0 233.1 356.3 +16% (35)% +18% (8)% (28)% UK NH 3 closed Waggaman acquired Notes:
+         Beginning in 2015 includes incremental 50% interest in CF Fertilisers UK acquired from Yara
+         Beginning in 2016 excludes nitrogen equivalent of 1.1 million tons of urea and 0.58 million tons
+         of UAN under CHS supply agreement and includes expansion project capacity at Donaldsonville and
+         Port Neal Beginning in 2018 includes incremental 15% of Verdigris production to reflect CFs
+         acquisition of publicly traded TNH units Beginning in 2022 includes decrease in production
+         capacity due to Ince plant closure Beginning in 2023 includes decrease in production capacity due
+         to Billingham NH 3 plant closure and additional production capacity from Waggaman ammonia
+         production complex All N production numbers based on year end figures per 10 - K filings (1)
+         Beginning in 2010 includes capacity from Terra Industries acquisition (2) Beginning in 2013
+         includes incremental 34% of Medicine Hat production to reflect CF acquisition of Viterra's
+         interests (3) Share count based on end of period common shares outstanding; share count prior to
+         2015 based on 5 - for - 1 split - adjusted shares 53 10 62% 28% 51% CF Industries S&P 500
+         Materials S&P 500 Industrials CF 2025 FCF to Adjusted EBITDA conversion outpaces sector averages
+         FCF to Adjusted EBITDA conversion (1) Represents FY 2025 free cash flow divided by FY 2025
+         adjusted EBITDA .
+     Reasoning:
+       Claim A and Claim B describe related but distinct aspects of the company's share
+       repurchase activities, with Claim A focusing on the total amount returned to
+       shareholders and Claim B providing more detailed information on the number of
+       shares repurchased and their percentage of total shares outstanding. Claim A
+       mentions that the company returned ~$1.3 billion to shareholders through share
+       repurchases and dividends in 9M 2025, while Claim B specifies that $1.3B was used
+       to repurchase 16.6M shares, representing 10% of shares outstanding since the end of
+       2024. These claims complement each other, offering a more comprehensive
+       understanding of the company's share repurchase program. The difference in context
+       and detail between the two claims justifies keeping both as valid intelligence.
+
+[ 8] CMS ENERGY CORP
+     Type: assumed_names  |  Detected: UNKNOWN  |  LLM decision: KEEP_BOTH
+     CLAIM A (2026-02-10, source_id=36):
+       Claim: "NorthStar Clean Energy Company conducts business under the following assumed names: CMS Enterprises, CMS Enterprises Company, NorthStar Clean Energy, NorthStar Clean Energy, A CMS Company, and NorthStar Clean Energy, A CMS Energy Company."
+       Source context sent to LLM:
+         [sentence 10/34, showing 5–15, overlap=0.31, doc_len=7135]
+         Document Exhibit21.1 For the purpose of this filing, information is organized under the headings
+         of CMSEnergy Corporation (Tier1), CMSCapital,L.L.C. (Tier2), NorthStar Clean Energy Company,
+         formerly known as CMSEnterprises Company (Tier2), CMSTreasury Services,LLC (Tier2), and Consumers
+         Energy Company (Tier2). As set forth in detail below, CMSEnergy Corporation is the parent company
+         of CMSCapital,L.L.C., NorthStar Clean Energy Company, CMSTreasury Services,LLC, and Consumers
+         Energy Company. All ownership interests are 100percent unless indicated parenthetically to the
+         contrary and are accurate as of December31,2025. NAME of COMPANY JURISDICTION of ORGANIZATION 01
+         CMS ENERGY CORPORATION Michigan 02 CMS Capital, L.L.C. Michigan 03 CMS Land Company Michigan 02
+         NorthStar Clean Energy Company Michigan Conducts business under the following assumed names CMS
+         Enterprises CMS Enterprises Company NorthStar Clean Energy NorthStar Clean Energy, A CMS Company
+         NorthStar Clean Energy, A CMS Energy Company 03 Genesee Solar Energy Holding Company, LLC Michigan
+         03 NSCE Development Company, LLC (99%) Michigan 04 Filer City Carbon Capture, LLC Michigan 04
+         Nymphaea Solar, LLC Delaware 04 Lake Iris Solar, LLC Delaware 04 Hart Solar Partners, LLC Delaware
+         04 Michigan Carbon Free Energy Michigan 03 NSCE DevCo Partner, LLC Michigan 04 NSCE Development
+         Company, LLC (1%) Michigan 03 Dearborn Industrial Energy, L.L.C. Michigan 04 Dearborn Industrial
+         Generation, L.L.C. Michigan 03 CMS Energy Resource Management Company Michigan 04 CMS ERM Michigan
+         LLC Michigan 03 CMS Enterprises Sustainable Energy, LLC Michigan 04 NorthStar Onsite, LLC Delaware
+         04 Grand River Solar, LLC Michigan 05 Michigan Solar Holdings, LLC Michigan 06 BG Solar Equity
+         Holdings, LLC Michigan 07 BG Solar Holdings I, LLC Michigan 08 BG Solar Holdings, LLC Michigan 09
+         Branch Solar, LLC Delaware 08 Genesee Solar Holdings Partnership Michigan 09 Genesee Solar Energy,
+         LLC Delaware 06 HL Solar Equity Holdings, LLC Delaware 07 HL Solar Holdings II, LLC Delaware 07 HL
+         Solar Holdings I, LLC Delaware 07 HL Solar Holdings, LLC Delaware NAME of COMPANY JURISDICTION of
+         ORGANIZATION 05 Delta Solar Equity Holdings, LLC (50%) Delaware 06 Delta Solar Power I, LLC
+         Michigan 06 Delta Solar Power II, LLC Michigan 05 Hart Solar Holdings II, LLC Delaware 06 Hart
+         Solar Holdings I, LLC Delaware 05 Newport Solar Equity Holdings, LLC Delaware 06 Newport Solar
+         Holdings II, LLC (99%) Delaware 07 Newport Solar Holdings I, LLC Delaware 06 Newport Solar
+         Holdings III, LLC Delaware 07 Newport Solar, LLC Delaware 06 Newport Solar Holdings IV, Inc.
+         Delaware 07 Newport Solar Holdings II, LLC (1%) Delaware 05 Hercules Solar, LLC Delaware 05
+         Diamond Solar, LLC Missouri 05 Allegan Solar, LLC Michigan 04 Grand River Wind, LLC Michigan 05
+         NWO Wind Equity Holdings, LLC (50%) Delaware 06 NWO Holdco I, LLC Delaware 07 NWO Holdco, L.L.C.
+         Delaware 08 Northwest Ohio Wind, LLC Ohio 09 Northwest Ohio IA, LLC (97%) Delaware 05 Northwest
+         Ohio Solar, LLC Delaware 06 Northwest Ohio IA, LLC (3%) Delaware 05 Aviator Wind Equity Holdings,
+         LLC (51%) Delaware 06 AW Holdings III, LLC Delaware 07 AW Holdings II, LLC Delaware 08 AW Holdings
+         I, LLC Delaware 09 Aviator Wind Holdings, LLC Delaware 10 Aviator Wind, LLC Delaware 03 CMS Gas
+         Transmission Company Michigan 04 CMS International Ventures, L.L.C. (37.01%) (See Exhibit A for
+         list of subsidiaries) Michigan 03 CMS International Ventures, L.L.C.
+     CLAIM B (2026-02-10, source_id=36):
+       Claim: "Consumers Energy Company conducts business under the following assumed names: Consumers Business Energy Services, Consumers Energy, Consumers Energy Business Services, Consumers Energy Consultants, Consumers Energy Contractor Network, Consumers Energy Dealer Network, Consumers Energy Finance, Consumers Energy Fitness Audits, Consumers Energy Group, Consumers Energy HouseCall, Consumers Energy HouseCall Services, Consumers Energy Management, Consumers Energy Resources, Consumers Energy Security Services, Consumers Energy Services, Consumers Energy Systems, Consumers Energy Traders, Consumers Power, and Consumers Power Company."
+       Source context sent to LLM:
+         [sentence 17/34, showing 12–22, overlap=0.47, doc_len=7135]
+         Michigan 03 CMS Energy Resource Management Company Michigan 04 CMS ERM Michigan LLC Michigan 03
+         CMS Enterprises Sustainable Energy, LLC Michigan 04 NorthStar Onsite, LLC Delaware 04 Grand River
+         Solar, LLC Michigan 05 Michigan Solar Holdings, LLC Michigan 06 BG Solar Equity Holdings, LLC
+         Michigan 07 BG Solar Holdings I, LLC Michigan 08 BG Solar Holdings, LLC Michigan 09 Branch Solar,
+         LLC Delaware 08 Genesee Solar Holdings Partnership Michigan 09 Genesee Solar Energy, LLC Delaware
+         06 HL Solar Equity Holdings, LLC Delaware 07 HL Solar Holdings II, LLC Delaware 07 HL Solar
+         Holdings I, LLC Delaware 07 HL Solar Holdings, LLC Delaware NAME of COMPANY JURISDICTION of
+         ORGANIZATION 05 Delta Solar Equity Holdings, LLC (50%) Delaware 06 Delta Solar Power I, LLC
+         Michigan 06 Delta Solar Power II, LLC Michigan 05 Hart Solar Holdings II, LLC Delaware 06 Hart
+         Solar Holdings I, LLC Delaware 05 Newport Solar Equity Holdings, LLC Delaware 06 Newport Solar
+         Holdings II, LLC (99%) Delaware 07 Newport Solar Holdings I, LLC Delaware 06 Newport Solar
+         Holdings III, LLC Delaware 07 Newport Solar, LLC Delaware 06 Newport Solar Holdings IV, Inc.
+         Delaware 07 Newport Solar Holdings II, LLC (1%) Delaware 05 Hercules Solar, LLC Delaware 05
+         Diamond Solar, LLC Missouri 05 Allegan Solar, LLC Michigan 04 Grand River Wind, LLC Michigan 05
+         NWO Wind Equity Holdings, LLC (50%) Delaware 06 NWO Holdco I, LLC Delaware 07 NWO Holdco, L.L.C.
+         Delaware 08 Northwest Ohio Wind, LLC Ohio 09 Northwest Ohio IA, LLC (97%) Delaware 05 Northwest
+         Ohio Solar, LLC Delaware 06 Northwest Ohio IA, LLC (3%) Delaware 05 Aviator Wind Equity Holdings,
+         LLC (51%) Delaware 06 AW Holdings III, LLC Delaware 07 AW Holdings II, LLC Delaware 08 AW Holdings
+         I, LLC Delaware 09 Aviator Wind Holdings, LLC Delaware 10 Aviator Wind, LLC Delaware 03 CMS Gas
+         Transmission Company Michigan 04 CMS International Ventures, L.L.C. (37.01%) (See Exhibit A for
+         list of subsidiaries) Michigan 03 CMS International Ventures, L.L.C. (61.49%) (See Exhibit A for
+         list of subsidiaries) Michigan 03 HYDRACO Enterprises, Inc. (See Exhibit B for list of
+         subsidiaries) New York 02 CMS Treasury Services, LLC Michigan 02 Consumers Energy Company Michigan
+         Conducts business under the following assumed names Consumers Business Energy Services Consumers
+         Energy Consumers Energy Business Services Consumers Energy Consultants NAME of COMPANY
+         JURISDICTION of ORGANIZATION Consumers Energy Contractor Network Consumers Energy Dealer Network
+         Consumers Energy Finance Consumers Energy Fitness Audits Consumers Energy Group Consumers Energy
+         HouseCall Consumers Energy HouseCall Services Consumers Energy Management Consumers Energy
+         Resources Consumers Energy Security Services Consumers Energy Services Consumers Energy Systems
+         Consumers Energy Traders Consumers Power Consumers Power Company Laboratory Commercial Services
+         Laboratory Services Michigan Gas Storage Michigan Gas Storage Company Technical Training Centers
+         Zeeland Power Company 03 CMS Engineering Co. Michigan 03 Consumers 2014 Securitization Funding LLC
+         Delaware 03 Consumers Campus Holdings, LLC Michigan 03 Consumers Receivables Funding II, LLC
+         Delaware 03 ES Services Company Michigan 03 Consumers 2023 Securitization Funding LLC Delaware
+         Exhibit A Subsidiaries of CMS International Ventures, L.L.C. (98.5%) NAME of COMPANY JURISDICTION
+         of ORGANIZATION 04 CMS Electric Gas, L.L.C. Michigan 05 CMS Venezuela, S.A. Venezuela 05 ENELMAR
+         S.A. Venezuela Exhibit B Subsidiaries of HYDRACO Enterprises, Inc.
+     Reasoning:
+       The two claims describe different companies conducting business under various
+       assumed names, indicating distinct facts. Claim A pertains to NorthStar Clean
+       Energy Company and its assumed names, while Claim B pertains to Consumers Energy
+       Company and its assumed names. These are separate entities with different lists of
+       assumed names, making them distinct intelligence. Since they provide different
+       information and are not sequential steps or corrections, both claims are valid and
+       should be kept.
+
+[ 9] CMS ENERGY CORP
+     Type: subsidiary_list  |  Detected: UNKNOWN  |  LLM decision: KEEP_BOTH
+     CLAIM A (2026-02-10, source_id=36):
+       Claim: "The subsidiaries of CMSEnergy Corporation include CMS Capital, L.L.C., NorthStar Clean Energy Company, CMSTreasury Services,LLC, and Consumers Energy Company, as well as other companies listed in the exhibit."
+       Source context sent to LLM:
+         [sentence 7/34, showing 2–12, overlap=0.52, doc_len=7135]
+         7 cms10k20251231_ex21-1.htm EXHIBIT 21.1 - SUBSIDIARIES (CMS ENERGY AND CONSUMERS) Document
+         Exhibit21.1 For the purpose of this filing, information is organized under the headings of
+         CMSEnergy Corporation (Tier1), CMSCapital,L.L.C. (Tier2), NorthStar Clean Energy Company, formerly
+         known as CMSEnterprises Company (Tier2), CMSTreasury Services,LLC (Tier2), and Consumers Energy
+         Company (Tier2). As set forth in detail below, CMSEnergy Corporation is the parent company of
+         CMSCapital,L.L.C., NorthStar Clean Energy Company, CMSTreasury Services,LLC, and Consumers Energy
+         Company. All ownership interests are 100percent unless indicated parenthetically to the contrary
+         and are accurate as of December31,2025. NAME of COMPANY JURISDICTION of ORGANIZATION 01 CMS ENERGY
+         CORPORATION Michigan 02 CMS Capital, L.L.C. Michigan 03 CMS Land Company Michigan 02 NorthStar
+         Clean Energy Company Michigan Conducts business under the following assumed names CMS Enterprises
+         CMS Enterprises Company NorthStar Clean Energy NorthStar Clean Energy, A CMS Company NorthStar
+         Clean Energy, A CMS Energy Company 03 Genesee Solar Energy Holding Company, LLC Michigan 03 NSCE
+         Development Company, LLC (99%) Michigan 04 Filer City Carbon Capture, LLC Michigan 04 Nymphaea
+         Solar, LLC Delaware 04 Lake Iris Solar, LLC Delaware 04 Hart Solar Partners, LLC Delaware 04
+         Michigan Carbon Free Energy Michigan 03 NSCE DevCo Partner, LLC Michigan 04 NSCE Development
+         Company, LLC (1%) Michigan 03 Dearborn Industrial Energy, L.L.C. Michigan 04 Dearborn Industrial
+         Generation, L.L.C. Michigan 03 CMS Energy Resource Management Company Michigan 04 CMS ERM Michigan
+         LLC Michigan 03 CMS Enterprises Sustainable Energy, LLC Michigan 04 NorthStar Onsite, LLC Delaware
+         04 Grand River Solar, LLC Michigan 05 Michigan Solar Holdings, LLC Michigan 06 BG Solar Equity
+         Holdings, LLC Michigan 07 BG Solar Holdings I, LLC Michigan 08 BG Solar Holdings, LLC Michigan 09
+         Branch Solar, LLC Delaware 08 Genesee Solar Holdings Partnership Michigan 09 Genesee Solar Energy,
+         LLC Delaware 06 HL Solar Equity Holdings, LLC Delaware 07 HL Solar Holdings II, LLC Delaware 07 HL
+         Solar Holdings I, LLC Delaware 07 HL Solar Holdings, LLC Delaware NAME of COMPANY JURISDICTION of
+         ORGANIZATION 05 Delta Solar Equity Holdings, LLC (50%) Delaware 06 Delta Solar Power I, LLC
+         Michigan 06 Delta Solar Power II, LLC Michigan 05 Hart Solar Holdings II, LLC Delaware 06 Hart
+         Solar Holdings I, LLC Delaware 05 Newport Solar Equity Holdings, LLC Delaware 06 Newport Solar
+         Holdings II, LLC (99%) Delaware 07 Newport Solar Holdings I, LLC Delaware 06 Newport Solar
+         Holdings III, LLC Delaware 07 Newport Solar, LLC Delaware 06 Newport Solar Holdings IV, Inc.
+     CLAIM B (2026-02-10, source_id=36):
+       Claim: "The subsidiaries of CMS International Ventures, L.L.C. include CMS Electric Gas, L.L.C., CMS Venezuela, S.A., and ENELMAR S.A., as listed in Exhibit A."
+       Source context sent to LLM:
+         [sentence 15/34, showing 10–20, overlap=0.33, doc_len=7135]
+         Michigan 03 CMS Land Company Michigan 02 NorthStar Clean Energy Company Michigan Conducts business
+         under the following assumed names CMS Enterprises CMS Enterprises Company NorthStar Clean Energy
+         NorthStar Clean Energy, A CMS Company NorthStar Clean Energy, A CMS Energy Company 03 Genesee
+         Solar Energy Holding Company, LLC Michigan 03 NSCE Development Company, LLC (99%) Michigan 04
+         Filer City Carbon Capture, LLC Michigan 04 Nymphaea Solar, LLC Delaware 04 Lake Iris Solar, LLC
+         Delaware 04 Hart Solar Partners, LLC Delaware 04 Michigan Carbon Free Energy Michigan 03 NSCE
+         DevCo Partner, LLC Michigan 04 NSCE Development Company, LLC (1%) Michigan 03 Dearborn Industrial
+         Energy, L.L.C. Michigan 04 Dearborn Industrial Generation, L.L.C. Michigan 03 CMS Energy Resource
+         Management Company Michigan 04 CMS ERM Michigan LLC Michigan 03 CMS Enterprises Sustainable
+         Energy, LLC Michigan 04 NorthStar Onsite, LLC Delaware 04 Grand River Solar, LLC Michigan 05
+         Michigan Solar Holdings, LLC Michigan 06 BG Solar Equity Holdings, LLC Michigan 07 BG Solar
+         Holdings I, LLC Michigan 08 BG Solar Holdings, LLC Michigan 09 Branch Solar, LLC Delaware 08
+         Genesee Solar Holdings Partnership Michigan 09 Genesee Solar Energy, LLC Delaware 06 HL Solar
+         Equity Holdings, LLC Delaware 07 HL Solar Holdings II, LLC Delaware 07 HL Solar Holdings I, LLC
+         Delaware 07 HL Solar Holdings, LLC Delaware NAME of COMPANY JURISDICTION of ORGANIZATION 05 Delta
+         Solar Equity Holdings, LLC (50%) Delaware 06 Delta Solar Power I, LLC Michigan 06 Delta Solar
+         Power II, LLC Michigan 05 Hart Solar Holdings II, LLC Delaware 06 Hart Solar Holdings I, LLC
+         Delaware 05 Newport Solar Equity Holdings, LLC Delaware 06 Newport Solar Holdings II, LLC (99%)
+         Delaware 07 Newport Solar Holdings I, LLC Delaware 06 Newport Solar Holdings III, LLC Delaware 07
+         Newport Solar, LLC Delaware 06 Newport Solar Holdings IV, Inc. Delaware 07 Newport Solar Holdings
+         II, LLC (1%) Delaware 05 Hercules Solar, LLC Delaware 05 Diamond Solar, LLC Missouri 05 Allegan
+         Solar, LLC Michigan 04 Grand River Wind, LLC Michigan 05 NWO Wind Equity Holdings, LLC (50%)
+         Delaware 06 NWO Holdco I, LLC Delaware 07 NWO Holdco, L.L.C. Delaware 08 Northwest Ohio Wind, LLC
+         Ohio 09 Northwest Ohio IA, LLC (97%) Delaware 05 Northwest Ohio Solar, LLC Delaware 06 Northwest
+         Ohio IA, LLC (3%) Delaware 05 Aviator Wind Equity Holdings, LLC (51%) Delaware 06 AW Holdings III,
+         LLC Delaware 07 AW Holdings II, LLC Delaware 08 AW Holdings I, LLC Delaware 09 Aviator Wind
+         Holdings, LLC Delaware 10 Aviator Wind, LLC Delaware 03 CMS Gas Transmission Company Michigan 04
+         CMS International Ventures, L.L.C. (37.01%) (See Exhibit A for list of subsidiaries) Michigan 03
+         CMS International Ventures, L.L.C. (61.49%) (See Exhibit A for list of subsidiaries) Michigan 03
+         HYDRACO Enterprises, Inc. (See Exhibit B for list of subsidiaries) New York 02 CMS Treasury
+         Services, LLC Michigan 02 Consumers Energy Company Michigan Conducts business under the following
+         assumed names Consumers Business Energy Services Consumers Energy Consumers Energy Business
+         Services Consumers Energy Consultants NAME of COMPANY JURISDICTION of ORGANIZATION Consumers
+         Energy Contractor Network Consumers Energy Dealer Network Consumers Energy Finance Consumers
+         Energy Fitness Audits Consumers Energy Group Consumers Energy HouseCall Consumers Energy HouseCall
+         Services Consumers Energy Management Consumers Energy Resources Consumers Energy Security Services
+         Consumers Energy Services Consumers Energy Systems Consumers Energy Traders Consumers Power
+         Consumers Power Company Laboratory Commercial Services Laboratory Services Michigan Gas Storage
+         Michigan Gas Storage Company Technical Training Centers Zeeland Power Company 03 CMS Engineering
+         Co. Michigan 03 Consumers 2014 Securitization Funding LLC Delaware 03 Consumers Campus Holdings,
+         LLC Michigan 03 Consumers Receivables Funding II, LLC Delaware 03 ES Services Company Michigan 03
+         Consumers 2023 Securitization Funding LLC Delaware Exhibit A Subsidiaries of CMS International
+         Ventures, L.L.C. (98.5%) NAME of COMPANY JURISDICTION of ORGANIZATION 04 CMS Electric Gas, L.L.C.
+         Michigan 05 CMS Venezuela, S.A.
+     Reasoning:
+       The two claims describe different subsidiaries under different parent companies,
+       CMS Energy Corporation and CMS International Ventures, L.L.C. Claim A lists
+       subsidiaries of CMS Energy Corporation, including CMS Capital, L.L.C. and Consumers
+       Energy Company, while Claim B lists subsidiaries of CMS International Ventures,
+       L.L.C., including CMS Electric Gas, L.L.C. and CMS Venezuela, S.A. These are
+       distinct sets of subsidiaries, indicating that both claims provide unique
+       intelligence. The difference in parent companies and subsidiary lists justifies
+       keeping both claims as they offer complementary information.
+
+[10] CMS ENERGY CORP
+     Type: subsidiary_list  |  Detected: UNKNOWN  |  LLM decision: KEEP_BOTH
+     CLAIM A (2026-02-10, source_id=36):
+       Claim: "The subsidiaries of CMSEnergy Corporation include CMS Capital, L.L.C., NorthStar Clean Energy Company, CMSTreasury Services,LLC, and Consumers Energy Company, as well as other companies listed in the exhibit."
+       Source context sent to LLM:
+         [sentence 7/34, showing 2–12, overlap=0.52, doc_len=7135]
+         7 cms10k20251231_ex21-1.htm EXHIBIT 21.1 - SUBSIDIARIES (CMS ENERGY AND CONSUMERS) Document
+         Exhibit21.1 For the purpose of this filing, information is organized under the headings of
+         CMSEnergy Corporation (Tier1), CMSCapital,L.L.C. (Tier2), NorthStar Clean Energy Company, formerly
+         known as CMSEnterprises Company (Tier2), CMSTreasury Services,LLC (Tier2), and Consumers Energy
+         Company (Tier2). As set forth in detail below, CMSEnergy Corporation is the parent company of
+         CMSCapital,L.L.C., NorthStar Clean Energy Company, CMSTreasury Services,LLC, and Consumers Energy
+         Company. All ownership interests are 100percent unless indicated parenthetically to the contrary
+         and are accurate as of December31,2025. NAME of COMPANY JURISDICTION of ORGANIZATION 01 CMS ENERGY
+         CORPORATION Michigan 02 CMS Capital, L.L.C. Michigan 03 CMS Land Company Michigan 02 NorthStar
+         Clean Energy Company Michigan Conducts business under the following assumed names CMS Enterprises
+         CMS Enterprises Company NorthStar Clean Energy NorthStar Clean Energy, A CMS Company NorthStar
+         Clean Energy, A CMS Energy Company 03 Genesee Solar Energy Holding Company, LLC Michigan 03 NSCE
+         Development Company, LLC (99%) Michigan 04 Filer City Carbon Capture, LLC Michigan 04 Nymphaea
+         Solar, LLC Delaware 04 Lake Iris Solar, LLC Delaware 04 Hart Solar Partners, LLC Delaware 04
+         Michigan Carbon Free Energy Michigan 03 NSCE DevCo Partner, LLC Michigan 04 NSCE Development
+         Company, LLC (1%) Michigan 03 Dearborn Industrial Energy, L.L.C. Michigan 04 Dearborn Industrial
+         Generation, L.L.C. Michigan 03 CMS Energy Resource Management Company Michigan 04 CMS ERM Michigan
+         LLC Michigan 03 CMS Enterprises Sustainable Energy, LLC Michigan 04 NorthStar Onsite, LLC Delaware
+         04 Grand River Solar, LLC Michigan 05 Michigan Solar Holdings, LLC Michigan 06 BG Solar Equity
+         Holdings, LLC Michigan 07 BG Solar Holdings I, LLC Michigan 08 BG Solar Holdings, LLC Michigan 09
+         Branch Solar, LLC Delaware 08 Genesee Solar Holdings Partnership Michigan 09 Genesee Solar Energy,
+         LLC Delaware 06 HL Solar Equity Holdings, LLC Delaware 07 HL Solar Holdings II, LLC Delaware 07 HL
+         Solar Holdings I, LLC Delaware 07 HL Solar Holdings, LLC Delaware NAME of COMPANY JURISDICTION of
+         ORGANIZATION 05 Delta Solar Equity Holdings, LLC (50%) Delaware 06 Delta Solar Power I, LLC
+         Michigan 06 Delta Solar Power II, LLC Michigan 05 Hart Solar Holdings II, LLC Delaware 06 Hart
+         Solar Holdings I, LLC Delaware 05 Newport Solar Equity Holdings, LLC Delaware 06 Newport Solar
+         Holdings II, LLC (99%) Delaware 07 Newport Solar Holdings I, LLC Delaware 06 Newport Solar
+         Holdings III, LLC Delaware 07 Newport Solar, LLC Delaware 06 Newport Solar Holdings IV, Inc.
+     CLAIM B (2026-02-10, source_id=36):
+       Claim: "The subsidiaries of HYDRACO Enterprises, Inc. include CMS Generation Filer City, Inc., T.E.S. Filer City Station Limited Partnership, CMS Generation Filer City Operating LLC, CMS Generation Genesee Company, Genesee Power Station Limited Partnership, CMS Generation Grayling Company, Grayling Generating Station Limited Partnership, AJD Forest Products Limited Partnership, GGS Holdings Company, Grayling Partners Land Development, L.L.C., CMS Generation Grayling Holdings Company, and other companies listed in Exhibit B."
+       Source context sent to LLM:
+         [sentence 25/34, showing 20–30, overlap=0.44, doc_len=7135]
+         Michigan 05 CMS Venezuela, S.A. Venezuela 05 ENELMAR S.A. Venezuela Exhibit B Subsidiaries of
+         HYDRACO Enterprises, Inc. NAME of COMPANY JURISDICTION of ORGANIZATION 04 CMS Generation Filer
+         City, Inc. Michigan 05 T.E.S. Filer City Station Limited Partnership (50%) Michigan 04 CMS
+         Generation Filer City Operating LLC Michigan 04 CMS Generation Genesee Company Michigan 05 Genesee
+         Power Station Limited Partnership (1% GP) Delaware 04 CMS Generation Grayling Company Michigan 05
+         Grayling Generating Station Limited Partnership (1% GP) Michigan 06 AJD Forest Products Limited
+         Partnership (49.5% LP) Michigan 06 GGS Holdings Company Michigan 07 AJD Forest Products Limited
+         Partnership (0.5% GP) Michigan 05 Grayling Partners Land Development, L.L.C. (1%) Michigan 04 CMS
+         Generation Grayling Holdings Company Michigan 05 Grayling Generating Station Limited Partnership
+         (49% LP) Michigan 06 AJD Forest Products Limited Partnership (49.5%LP) Michigan 06 GGS Holdings
+         Company Michigan 07 AJD Forest Products Limited Partnership (0.5% GP) Michigan 05 Grayling
+         Partners Land Development, L.L.C. (49%) Michigan 04 CMS Generation Holdings Company Michigan 05
+         Genesee Power Station Limited Partnership (48.75% LP) Delaware 05 GPS Newco, L.L.C. (50%) Kansas
+         06 Genesee Power Station Limited Partnership (0.5% LP) Delaware 04 CMS Generation Michigan Power
+         L.L.C. Michigan 05 Kalamazoo Holdco, LLC Michigan 05 Kalamazoo Generating Station, LLC Michigan 05
+         Livingston Holdco, LLC Michigan 05 Livingston Generating Station, LLC Michigan 04 CMS Generation
+         Operating Company II, Inc. New York 04 CMS Generation Operating LLC Michigan 04 CMS Generation
+         Recycling Company Michigan 05 Mid-Michigan Recycling, L.C.
+     Reasoning:
+       The two claims describe different subsidiaries of different parent companies,
+       CMSEnergy Corporation and HYDRACO Enterprises, Inc. Claim A lists subsidiaries of
+       CMSEnergy Corporation, including CMS Capital, L.L.C. and Consumers Energy Company,
+       while Claim B lists subsidiaries of HYDRACO Enterprises, Inc., including CMS
+       Generation Filer City, Inc. and Grayling Generating Station Limited Partnership.
+       These are distinct sets of companies, indicating that the claims are describing
+       different facts. The context and content of the claims are distinct, with no
+       indication that one claim supersedes or corrects the other.
+
+[11] CMS ENERGY CORP
+     Type: subsidiary_list  |  Detected: UNKNOWN  |  LLM decision: KEEP_BOTH
+     CLAIM A (2026-02-10, source_id=36):
+       Claim: "The subsidiaries of CMS International Ventures, L.L.C. include CMS Electric Gas, L.L.C., CMS Venezuela, S.A., and ENELMAR S.A., as listed in Exhibit A."
+       Source context sent to LLM:
+         [sentence 15/34, showing 10–20, overlap=0.33, doc_len=7135]
+         Michigan 03 CMS Land Company Michigan 02 NorthStar Clean Energy Company Michigan Conducts business
+         under the following assumed names CMS Enterprises CMS Enterprises Company NorthStar Clean Energy
+         NorthStar Clean Energy, A CMS Company NorthStar Clean Energy, A CMS Energy Company 03 Genesee
+         Solar Energy Holding Company, LLC Michigan 03 NSCE Development Company, LLC (99%) Michigan 04
+         Filer City Carbon Capture, LLC Michigan 04 Nymphaea Solar, LLC Delaware 04 Lake Iris Solar, LLC
+         Delaware 04 Hart Solar Partners, LLC Delaware 04 Michigan Carbon Free Energy Michigan 03 NSCE
+         DevCo Partner, LLC Michigan 04 NSCE Development Company, LLC (1%) Michigan 03 Dearborn Industrial
+         Energy, L.L.C. Michigan 04 Dearborn Industrial Generation, L.L.C. Michigan 03 CMS Energy Resource
+         Management Company Michigan 04 CMS ERM Michigan LLC Michigan 03 CMS Enterprises Sustainable
+         Energy, LLC Michigan 04 NorthStar Onsite, LLC Delaware 04 Grand River Solar, LLC Michigan 05
+         Michigan Solar Holdings, LLC Michigan 06 BG Solar Equity Holdings, LLC Michigan 07 BG Solar
+         Holdings I, LLC Michigan 08 BG Solar Holdings, LLC Michigan 09 Branch Solar, LLC Delaware 08
+         Genesee Solar Holdings Partnership Michigan 09 Genesee Solar Energy, LLC Delaware 06 HL Solar
+         Equity Holdings, LLC Delaware 07 HL Solar Holdings II, LLC Delaware 07 HL Solar Holdings I, LLC
+         Delaware 07 HL Solar Holdings, LLC Delaware NAME of COMPANY JURISDICTION of ORGANIZATION 05 Delta
+         Solar Equity Holdings, LLC (50%) Delaware 06 Delta Solar Power I, LLC Michigan 06 Delta Solar
+         Power II, LLC Michigan 05 Hart Solar Holdings II, LLC Delaware 06 Hart Solar Holdings I, LLC
+         Delaware 05 Newport Solar Equity Holdings, LLC Delaware 06 Newport Solar Holdings II, LLC (99%)
+         Delaware 07 Newport Solar Holdings I, LLC Delaware 06 Newport Solar Holdings III, LLC Delaware 07
+         Newport Solar, LLC Delaware 06 Newport Solar Holdings IV, Inc. Delaware 07 Newport Solar Holdings
+         II, LLC (1%) Delaware 05 Hercules Solar, LLC Delaware 05 Diamond Solar, LLC Missouri 05 Allegan
+         Solar, LLC Michigan 04 Grand River Wind, LLC Michigan 05 NWO Wind Equity Holdings, LLC (50%)
+         Delaware 06 NWO Holdco I, LLC Delaware 07 NWO Holdco, L.L.C. Delaware 08 Northwest Ohio Wind, LLC
+         Ohio 09 Northwest Ohio IA, LLC (97%) Delaware 05 Northwest Ohio Solar, LLC Delaware 06 Northwest
+         Ohio IA, LLC (3%) Delaware 05 Aviator Wind Equity Holdings, LLC (51%) Delaware 06 AW Holdings III,
+         LLC Delaware 07 AW Holdings II, LLC Delaware 08 AW Holdings I, LLC Delaware 09 Aviator Wind
+         Holdings, LLC Delaware 10 Aviator Wind, LLC Delaware 03 CMS Gas Transmission Company Michigan 04
+         CMS International Ventures, L.L.C. (37.01%) (See Exhibit A for list of subsidiaries) Michigan 03
+         CMS International Ventures, L.L.C. (61.49%) (See Exhibit A for list of subsidiaries) Michigan 03
+         HYDRACO Enterprises, Inc. (See Exhibit B for list of subsidiaries) New York 02 CMS Treasury
+         Services, LLC Michigan 02 Consumers Energy Company Michigan Conducts business under the following
+         assumed names Consumers Business Energy Services Consumers Energy Consumers Energy Business
+         Services Consumers Energy Consultants NAME of COMPANY JURISDICTION of ORGANIZATION Consumers
+         Energy Contractor Network Consumers Energy Dealer Network Consumers Energy Finance Consumers
+         Energy Fitness Audits Consumers Energy Group Consumers Energy HouseCall Consumers Energy HouseCall
+         Services Consumers Energy Management Consumers Energy Resources Consumers Energy Security Services
+         Consumers Energy Services Consumers Energy Systems Consumers Energy Traders Consumers Power
+         Consumers Power Company Laboratory Commercial Services Laboratory Services Michigan Gas Storage
+         Michigan Gas Storage Company Technical Training Centers Zeeland Power Company 03 CMS Engineering
+         Co. Michigan 03 Consumers 2014 Securitization Funding LLC Delaware 03 Consumers Campus Holdings,
+         LLC Michigan 03 Consumers Receivables Funding II, LLC Delaware 03 ES Services Company Michigan 03
+         Consumers 2023 Securitization Funding LLC Delaware Exhibit A Subsidiaries of CMS International
+         Ventures, L.L.C. (98.5%) NAME of COMPANY JURISDICTION of ORGANIZATION 04 CMS Electric Gas, L.L.C.
+         Michigan 05 CMS Venezuela, S.A.
+     CLAIM B (2026-02-10, source_id=36):
+       Claim: "The subsidiaries of HYDRACO Enterprises, Inc. include CMS Generation Filer City, Inc., T.E.S. Filer City Station Limited Partnership, CMS Generation Filer City Operating LLC, CMS Generation Genesee Company, Genesee Power Station Limited Partnership, CMS Generation Grayling Company, Grayling Generating Station Limited Partnership, AJD Forest Products Limited Partnership, GGS Holdings Company, Grayling Partners Land Development, L.L.C., CMS Generation Grayling Holdings Company, and other companies listed in Exhibit B."
+       Source context sent to LLM:
+         [sentence 25/34, showing 20–30, overlap=0.44, doc_len=7135]
+         Michigan 05 CMS Venezuela, S.A. Venezuela 05 ENELMAR S.A. Venezuela Exhibit B Subsidiaries of
+         HYDRACO Enterprises, Inc. NAME of COMPANY JURISDICTION of ORGANIZATION 04 CMS Generation Filer
+         City, Inc. Michigan 05 T.E.S. Filer City Station Limited Partnership (50%) Michigan 04 CMS
+         Generation Filer City Operating LLC Michigan 04 CMS Generation Genesee Company Michigan 05 Genesee
+         Power Station Limited Partnership (1% GP) Delaware 04 CMS Generation Grayling Company Michigan 05
+         Grayling Generating Station Limited Partnership (1% GP) Michigan 06 AJD Forest Products Limited
+         Partnership (49.5% LP) Michigan 06 GGS Holdings Company Michigan 07 AJD Forest Products Limited
+         Partnership (0.5% GP) Michigan 05 Grayling Partners Land Development, L.L.C. (1%) Michigan 04 CMS
+         Generation Grayling Holdings Company Michigan 05 Grayling Generating Station Limited Partnership
+         (49% LP) Michigan 06 AJD Forest Products Limited Partnership (49.5%LP) Michigan 06 GGS Holdings
+         Company Michigan 07 AJD Forest Products Limited Partnership (0.5% GP) Michigan 05 Grayling
+         Partners Land Development, L.L.C. (49%) Michigan 04 CMS Generation Holdings Company Michigan 05
+         Genesee Power Station Limited Partnership (48.75% LP) Delaware 05 GPS Newco, L.L.C. (50%) Kansas
+         06 Genesee Power Station Limited Partnership (0.5% LP) Delaware 04 CMS Generation Michigan Power
+         L.L.C. Michigan 05 Kalamazoo Holdco, LLC Michigan 05 Kalamazoo Generating Station, LLC Michigan 05
+         Livingston Holdco, LLC Michigan 05 Livingston Generating Station, LLC Michigan 04 CMS Generation
+         Operating Company II, Inc. New York 04 CMS Generation Operating LLC Michigan 04 CMS Generation
+         Recycling Company Michigan 05 Mid-Michigan Recycling, L.C.
+     Reasoning:
+       The two claims describe different subsidiaries of different parent companies, CMS
+       International Ventures, L.L.C. and HYDRACO Enterprises, Inc. Claim A lists
+       subsidiaries of CMS International Ventures, L.L.C., including CMS Electric Gas,
+       L.L.C., CMS Venezuela, S.A., and ENELMAR S.A. Claim B lists subsidiaries of HYDRACO
+       Enterprises, Inc., including CMS Generation Filer City, Inc., T.E.S. Filer City
+       Station Limited Partnership, and others. These are distinct sets of subsidiaries,
+       indicating that the claims are describing different facts.
+
+[12] FUELCELL ENERGY INC
+     Type: financial_performance  |  Detected: VALUE_CHANGE  |  LLM decision: KEEP_BOTH
+     CLAIM A (2025-12-18, source_id=12):
+       Claim: "Total revenue $55.0 million for the fourth quarter of fiscal 2025"
+       Source context sent to LLM:
+         [sentence 336/626, showing 331–341, overlap=0.46, doc_len=29614]
+         $(21.7) $(30.1) Q4 2025 Q4 2024 13 Revenue Breakdown ($M) Q4 2025 Total Revenue: $55.0 million
+         54.5% 13.3% 22.2% 10.0% Product
+     CLAIM B (2025-12-18, source_id=12):
+       Claim: "Net loss $(29.3) million for the fourth quarter of fiscal 2025"
+       Source context sent to LLM:
+         [sentence 360/626, showing 355–365, overlap=0.29, doc_len=29614]
+         Service Generation Adv. Tech. Product $1.16 $1.19 Backlog ($B) 1 Operating expenses for the fourth
+         quarter of fiscal 2025 decreased to $21.7 million from $30.1 million in the fourth quarter of
+         fiscal 2024, primarily due a $6.2 million decrease in research and development expenses, partially
+         offset by non-cash impairment expenses of $1.3 million. Q4 Fiscal 2025 Financial Performance and
+         Backlog &#xA9; 2025 FuelCell Energy Our liquidity position has enabled us to execute on our
+         strategic initiatives through investment in manufacturing and R&D (advanced product development)
+         &#x2022; $341.8M in total cash (including restricted cash and equivalents) as of October
+     Reasoning:
+       The two claims describe different financial metrics for the same quarter, with
+       claim A focusing on total revenue and claim B on net loss. Claim A provides
+       information on the total revenue for the fourth quarter of fiscal 2025, which is
+       $55.0 million, while claim B reports a net loss of $(29.3) million for the same
+       period. These are distinct financial performance indicators, and both are relevant
+       for a comprehensive understanding of the company's fiscal situation. As they
+       provide complementary information and do not contradict each other, it is
+       appropriate to keep both claims.
+
+[13] FUELCELL ENERGY INC
+     Type: module_deployment  |  Detected: VALUE_CHANGE  |  LLM decision: KEEP_BOTH
+     CLAIM A (2025-12-18, source_id=12):
+       Claim: "Deployment of modules to GGE expected to continue with 14 1.4-MW replacement fuel cell modules expected to be commissioned in fiscal year 2026"
+       Source context sent to LLM:
+         [sentence 377/626, showing 372–382, overlap=0.48, doc_len=29614]
+         compared to fiscal year 2024 Inventory being deployed to support Korea repowering projects
+         &#x2022; Deployment of modules to GGE expected to continue as follows: &#x2022; 22 1.4-MW
+         replacement fuel cell modules were commissioned in fiscal year 2025 &#x2022; 14 1.4-MW replacement
+         fuel cell modules are expected to be commissioned in fiscal year 2026 &#x2022; Deployment of
+         modules to CGN expected to commence and be completed as follows: &#x2022; 8 carbonate fuel cell
+         modules are expected to be commissioned in fiscal year 2026
+     CLAIM B (2025-12-18, source_id=12):
+       Claim: "Deployment of modules to CGN expected to commence and be completed with 8 carbonate fuel cell modules expected to be commissioned in fiscal year 2026"
+       Source context sent to LLM:
+         [sentence 379/626, showing 374–384, overlap=0.45, doc_len=29614]
+         &#x2022; Deployment of modules to GGE expected to continue as follows: &#x2022; 22 1.4-MW
+         replacement fuel cell modules were commissioned in fiscal year 2025 &#x2022; 14 1.4-MW replacement
+         fuel cell modules are expected to be commissioned in fiscal year 2026 &#x2022; Deployment of
+         modules to CGN expected to commence and be completed as follows: &#x2022; 8 carbonate fuel cell
+         modules are expected to be commissioned in fiscal year 2026 148.1 278.1
+     Reasoning:
+       The claims describe deployments to different entities, GGE and CGN, which are
+       distinct events. Claim A discusses the deployment of 14 1.4-MW replacement fuel
+       cell modules to GGE in fiscal year 2026, while Claim B talks about the deployment
+       of 8 carbonate fuel cell modules to CGN in the same year. These are separate
+       projects with different module types and quantities, indicating they are different
+       facts. Since they are from the same document date and describe different aspects of
+       the company's deployment plans, both claims are valid and should be kept.
+
+[14] HNO International
+     Type: financial_performance  |  Detected: VALUE_CHANGE  |  LLM decision: KEEP_BOTH
+     CLAIM A (2025-09-22, source_id=9):
+       Claim: "During the year ended October 31, 2024, our total revenue was $4,241, and we had a net loss of $3,338,590."
+       Source context sent to LLM:
+         [sentence 1091/5933, showing 1086–1096, overlap=0.61, doc_len=241492]
+         likelihood, sustain operating expenses without corresponding revenues, at least for the
+         foreseeable future. We can make no assurances that we will be able to effectuate our strategies or
+         otherwise to generate sufficient revenue to continue operations. 10 During the year ended October
+         31, 2024, our total revenue was $4,241, and we had a net loss of $3,338,590. During the year ended
+         October 31, 2023, our total revenue was $13,000, and we had a net loss of $1,927,494. Our
+         estimates of capital, personnel, equipment, and facilities required for our proposed operations
+         are based on certain other existing businesses operating under projected business conditions and
+         plans.
+     CLAIM B (2025-09-22, source_id=9):
+       Claim: "During the year ended October 31, 2023, our total revenue was $13,000, and we had a net loss of $1,927,494."
+       Source context sent to LLM:
+         [sentence 1092/5933, showing 1087–1097, overlap=0.57, doc_len=241492]
+         We can make no assurances that we will be able to effectuate our strategies or otherwise to
+         generate sufficient revenue to continue operations. 10 During the year ended October 31, 2024, our
+         total revenue was $4,241, and we had a net loss of $3,338,590. During the year ended October 31,
+         2023, our total revenue was $13,000, and we had a net loss of $1,927,494. Our estimates of
+         capital, personnel, equipment, and facilities required for our proposed operations are based on
+         certain other existing businesses operating under projected business conditions and plans. We
+         believe that our estimates are reasonable, but it is not possible to determine the accuracy of
+         such estimates at this point.
+     Reasoning:
+       The two claims describe financial performance for different years, making them
+       distinct and relevant pieces of information. Claim A provides the financial
+       performance for the year ended October 31, 2024, while Claim B provides the
+       financial performance for the year ended October 31, 2023. These are sequential
+       steps in the company's financial history, and both are necessary for a
+       comprehensive understanding of the company's financial situation. Since they report
+       on different time periods, they are not redundant and both should be retained as
+       valid intelligence.
+
+[15] HNO International
+     Type: product_description  |  Detected: VALUE_CHANGE  |  LLM decision: KEEP_BOTH
+     CLAIM A (2025-09-22, source_id=9):
+       Claim: "We have three products that we manufacture and sell: 1. CHRS (Compact Hydrogen Refueling Station): A cost-effective solution for rapidly deploying hydrogen production in the 50 KG to 200 KG per day range."
+       Source context sent to LLM:
+         [sentence 789/5933, showing 784–794, overlap=0.39, doc_len=241492]
+         5 Our Products We have three products that we manufacture and sell: 1. CHRS (Compact Hydrogen
+         Refueling Station): A cost-effective solution for rapidly deploying hydrogen production in the 50
+         KG to 200 KG per day range. It has a dispensing system that can be adapted for vehicles (trucks,
+         buses, etc.), warehouse equipment (forklifts), or other fuel cell applications, including power
+         generation. 2. HCC (Hydrogen Carbon Cleaner): A device used to clean carbon deposits from internal
+         combustion engines.
+     CLAIM B (2025-09-22, source_id=9):
+       Claim: "2. HCC (Hydrogen Carbon Cleaner): A device used to clean carbon deposits from internal combustion engines."
+       Source context sent to LLM:
+         [sentence 794/5933, showing 789–799, overlap=0.93, doc_len=241492]
+         CHRS (Compact Hydrogen Refueling Station): A cost-effective solution for rapidly deploying
+         hydrogen production in the 50 KG to 200 KG per day range. It has a dispensing system that can be
+         adapted for vehicles (trucks, buses, etc.), warehouse equipment (forklifts), or other fuel cell
+         applications, including power generation. 2. HCC (Hydrogen Carbon Cleaner): A device used to clean
+         carbon deposits from internal combustion engines. 3. SHEP (Scalable Hydrogen Energy Platform) SHEP
+         is an innovative scalable, modular hydrogen energy system that efficiently produces, stores, and
+         dispenses green hydrogen made from water. Our cost-effective platform prioritizes flexibility and
+         is designed to meet a wide range of diverse, growing hydrogen demands across multifaceted
+         applications.
+     Reasoning:
+       The two claims describe different products offered by HNO International, with Claim
+       A focusing on the CHRS and Claim B on the HCC, among other products. Claim A
+       provides details about the Compact Hydrogen Refueling Station, while Claim B
+       mentions the Hydrogen Carbon Cleaner as a separate product. Since these are
+       distinct products with different functions, both claims are relevant and valid. The
+       context of both claims also suggests they are part of a larger list of products,
+       further supporting the decision to keep both.
+
+[16] HNO International
+     Type: product_description  |  Detected: VALUE_CHANGE  |  LLM decision: KEEP_BOTH
+     CLAIM A (2025-09-22, source_id=9):
+       Claim: "We have three products that we manufacture and sell: 1. CHRS (Compact Hydrogen Refueling Station): A cost-effective solution for rapidly deploying hydrogen production in the 50 KG to 200 KG per day range."
+       Source context sent to LLM:
+         [sentence 789/5933, showing 784–794, overlap=0.39, doc_len=241492]
+         5 Our Products We have three products that we manufacture and sell: 1. CHRS (Compact Hydrogen
+         Refueling Station): A cost-effective solution for rapidly deploying hydrogen production in the 50
+         KG to 200 KG per day range. It has a dispensing system that can be adapted for vehicles (trucks,
+         buses, etc.), warehouse equipment (forklifts), or other fuel cell applications, including power
+         generation. 2. HCC (Hydrogen Carbon Cleaner): A device used to clean carbon deposits from internal
+         combustion engines.
+     CLAIM B (2025-09-22, source_id=9):
+       Claim: "3. SHEP (Scalable Hydrogen Energy Platform) SHEP is an innovative scalable, modular hydrogen energy system that efficiently produces, stores, and dispenses green hydrogen made from water."
+       Source context sent to LLM:
+         [sentence 797/5933, showing 792–802, overlap=0.67, doc_len=241492]
+         equipment (forklifts), or other fuel cell applications, including power generation. 2. HCC
+         (Hydrogen Carbon Cleaner): A device used to clean carbon deposits from internal combustion
+         engines. 3. SHEP (Scalable Hydrogen Energy Platform) SHEP is an innovative scalable, modular
+         hydrogen energy system that efficiently produces, stores, and dispenses green hydrogen made from
+         water. Our cost-effective platform prioritizes flexibility and is designed to meet a wide range of
+         diverse, growing hydrogen demands across multifaceted applications. The need for hydrogen
+         refueling stations is growing as more fuel cell vehicles come on the road. Current solutions are
+         expensive, require a long permitting and installation process, and
+     Reasoning:
+       The two claims describe different products offered by HNO International, with Claim
+       A focusing on the Compact Hydrogen Refueling Station and Claim B on the Scalable
+       Hydrogen Energy Platform. Claim A provides details about the CHRS, including its
+       production range and dispensing system, while Claim B introduces the SHEP,
+       highlighting its modular design and ability to produce, store, and dispense green
+       hydrogen. These descriptions are distinct and provide unique information about the
+       company's product offerings. As they describe different aspects of the company's
+       products, both claims are valid and should be kept.
+
+[17] HNO International
+     Type: product_description  |  Detected: VALUE_CHANGE  |  LLM decision: KEEP_BOTH
+     CLAIM A (2025-09-22, source_id=9):
+       Claim: "2. HCC (Hydrogen Carbon Cleaner): A device used to clean carbon deposits from internal combustion engines."
+       Source context sent to LLM:
+         [sentence 794/5933, showing 789–799, overlap=0.93, doc_len=241492]
+         CHRS (Compact Hydrogen Refueling Station): A cost-effective solution for rapidly deploying
+         hydrogen production in the 50 KG to 200 KG per day range. It has a dispensing system that can be
+         adapted for vehicles (trucks, buses, etc.), warehouse equipment (forklifts), or other fuel cell
+         applications, including power generation. 2. HCC (Hydrogen Carbon Cleaner): A device used to clean
+         carbon deposits from internal combustion engines. 3. SHEP (Scalable Hydrogen Energy Platform) SHEP
+         is an innovative scalable, modular hydrogen energy system that efficiently produces, stores, and
+         dispenses green hydrogen made from water. Our cost-effective platform prioritizes flexibility and
+         is designed to meet a wide range of diverse, growing hydrogen demands across multifaceted
+         applications.
+     CLAIM B (2025-09-22, source_id=9):
+       Claim: "3. SHEP (Scalable Hydrogen Energy Platform) SHEP is an innovative scalable, modular hydrogen energy system that efficiently produces, stores, and dispenses green hydrogen made from water."
+       Source context sent to LLM:
+         [sentence 797/5933, showing 792–802, overlap=0.67, doc_len=241492]
+         equipment (forklifts), or other fuel cell applications, including power generation. 2. HCC
+         (Hydrogen Carbon Cleaner): A device used to clean carbon deposits from internal combustion
+         engines. 3. SHEP (Scalable Hydrogen Energy Platform) SHEP is an innovative scalable, modular
+         hydrogen energy system that efficiently produces, stores, and dispenses green hydrogen made from
+         water. Our cost-effective platform prioritizes flexibility and is designed to meet a wide range of
+         diverse, growing hydrogen demands across multifaceted applications. The need for hydrogen
+         refueling stations is growing as more fuel cell vehicles come on the road. Current solutions are
+         expensive, require a long permitting and installation process, and
+     Reasoning:
+       The two claims describe different products and their functions, with Claim A
+       focusing on the Hydrogen Carbon Cleaner and Claim B on the Scalable Hydrogen Energy
+       Platform. Claim A discusses a device used to clean carbon deposits from internal
+       combustion engines, while Claim B describes an innovative system for producing,
+       storing, and dispensing green hydrogen. These are distinct products with different
+       purposes, indicating that both claims provide unique intelligence. Since they are
+       from the same document date and describe different aspects of HNO International's
+       offerings, it's appropriate to keep both claims as valid intelligence.
+
+[18] Net Power
+     Type: market_demand  |  Detected: UNKNOWN  |  LLM decision: KEEP_BOTH
+     CLAIM A (2025-11-13, source_id=27):
+       Claim: "The market is beginning to embrace reality the only responsible way to meet unprecedented electricity demand growth is with natural gas power, and the only safe and proven way to do so while reducing emissions is with carbon capture."
+       Source context sent to LLM:
+         [sentence 9/55, showing 4–14, overlap=0.78, doc_len=10323]
+         EX-99.1 Document Net Power Reports Third Quarter 2025 Results and Provides Business Update DURHAM,
+         N.C.--(BUSINESS WIRE)November 13, 2025--Net Power Inc. (NYSE NPWR) (Net Power or the Company)
+         today announced its financial and operational results for the third quarter ended September 30,
+         2025, and outlined an updated strategy that continues to focus on delivering low-carbon intensity
+         power solutions fueled by natural gas. In response to unprecedented near-term demand for firm
+         power solutions with viable pathways to decarbonize, the Company has expanded its business
+         strategy to prioritize the development of clean power projects utilizing gas turbines with post-
+         combustion carbon capture (PCC). At the same time, Net Power continues to support the long-term
+         development and deployment of its oxy-combustion technology. Danny Rice, Chief Executive Officer
+         of Net Power , stated, The market is beginning to embrace reality the only responsible way to meet
+         unprecedented electricity demand growth is with natural gas power, and the only safe and proven
+         way to do so while reducing emissions is with carbon capture. Net Powers mission is to transform
+         natural gas into the lowest cost form of clean firm power. The work weve done to date indicates
+         our oxy-combustion technology is lower cost and quicker to deploy than new nuclear powerhowever,
+         speed is key in this market. Expanding our offerings to include PCC unlocks a significant market
+         opportunity directly in front of us. Key Business Updates Building Strong PCC Offering and
+         Advancing First Projects Signed letter of intent with Entropy Inc. Net Power signed a letter of
+         intent with Entropy Inc.
+     CLAIM B (2025-11-13, source_id=27):
+       Claim: "We are excited to leverage Net Powers power expertise and strategic assets to accelerate the deployment of our proven PCC technology and, most importantly, accelerate the deployment of clean gas power projects in the U.S."
+       Source context sent to LLM:
+         [sentence 37/55, showing 32–42, overlap=0.80, doc_len=10323]
+         These events resulted in an impairment of the carrying value of the technology and associated
+         assets on the Companys balance sheet. Setting Clear Path Ahead Optimizing capital allocation to
+         deliver clean firm power The Company views its oxy-combustion technology as a viable, long-term
+         solution for low-carbon intensity power generation. The Company will prudently invest capital to
+         maintain its leadership position in oxy-combustion technology, including engineering efforts and
+         testing at its demonstration facility, but may opportunistically invest a greater portion of its
+         available capital in near-term power projects with Entropy. Strong financial position Ended the
+         quarter with approximately $424 million in cash, cash equivalents, and investments. Danny Rice ,
+         continued, Over the last several years, weve assembled a world-class power team and established
+         attractive sites for clean firm power hubs, and our new partnership with Entropy enables us to
+         accelerate development of these sitesas well as potentially originate new onesto meet the markets
+         demand for clean firm power now. We are excited to leverage Net Powers power expertise and
+         strategic assets to accelerate the deployment of our proven PCC technology and, most importantly,
+         accelerate the deployment of clean gas power projects in the U.S., said Sanjay Bishnoi, Chief
+         Executive Officer of Entropy . Together we are ready to run ahead and meet this moment of
+         unprecedented demand. Conference Call Net Power will host a conference call to share second
+         quarter 2025 results and related matters beginning at 830 AM ET on Friday, November 14. To access
+         the live audio webcast of the conference call, please visit Net Powers investor relations website
+         at ir.netpower.com. To participate by phone, dial 877-407-8014 (domestic) or +1 201-689-8053
+         (international). An archived webcast will be available following the call.
+     Reasoning:
+       The two claims describe different aspects of Net Power's strategy and plans, with
+       claim A focusing on the company's overall approach to meeting electricity demand
+       growth and claim B discussing the partnership with Entropy to accelerate the
+       deployment of clean gas power projects. Claim A provides context on Net Power's
+       mission to transform natural gas into the lowest cost form of clean firm power,
+       while claim B highlights the company's excitement to leverage its power expertise
+       and strategic assets to accelerate the deployment of clean gas power projects in
+       the U.S. through its partnership with Entropy. These claims complement each other,
+       providing a more comprehensive understanding of Net Power's strategy and plans.
+       They do not supersede or render each other redundant, as they offer distinct
+       insights into the company's approach to the market.
+
+[19] Net Power
+     Type: project_details  |  Detected: UNKNOWN  |  LLM decision: KEEP_BOTH
+     CLAIM A (2025-11-13, source_id=27):
+       Claim: "The project is being sized to accommodate up to 1GW of clean firm power generation capacity utilizing Net Powers suite of power technologies."
+       Source context sent to LLM:
+         [sentence 19/55, showing 14–24, overlap=1.00, doc_len=10323]
+         Net Power signed a letter of intent with Entropy Inc. (Entropy), a global leader in proven carbon
+         capture technology, to exclusively deploy Entropys PCC technology for power generation in the
+         United States and to jointly develop projects. Entropys proprietary solvent is energy efficient
+         and proven to reduce CO2 emissions from natural gas power plants. This strategic partnership is
+         subject to continued diligence and approval of definitive agreements, which the Company and
+         Entropy endeavor to complete in the coming months. Permian Basin clean firm power hub Net Power is
+         progressing its first clean firm power hub at its Project Permian site in West Texas. The project
+         is being sized to accommodate up to 1GW of clean firm power generation capacity utilizing Net
+         Powers suite of power technologies. Phase I of the project will utilize readily available gas
+         turbines paired with Entropys proven PCC technology to that end, Net Power has secured 60MW of gas
+         turbines with 2028 delivery. Net Power is finalizing definitive documents for Occidental to
+         purchase 30MW of the power and 100% of the captured CO2. Final investment decision (FID) for Phase
+         I is expected in the first half of 2026 with targeted commercial operations in 2028, which would
+         make it the first commercial clean gas power project in the United States. Northern MISO clean
+         firm power hub Net Power also continues to advance its clean firm power hub in northern MISO,
+         where the Company has site control and a 300MW interconnect request through the DPP-2023
+         interconnection queue process. Net Powers sequestration partner continues to advance its Class VI
+         permit applications and both the interconnect and sequestration facilities are expected to be
+         completed by 20282029.
+     CLAIM B (2025-11-13, source_id=27):
+       Claim: "Net Power is designing Phase I of the project to utilize gas turbines paired with Entropy PCC, targeting FID in 2027 with commercial operations as soon as 2029."
+       Source context sent to LLM:
+         [sentence 25/55, showing 20–30, overlap=1.00, doc_len=10323]
+         Phase I of the project will utilize readily available gas turbines paired with Entropys proven PCC
+         technology to that end, Net Power has secured 60MW of gas turbines with 2028 delivery. Net Power
+         is finalizing definitive documents for Occidental to purchase 30MW of the power and 100% of the
+         captured CO2. Final investment decision (FID) for Phase I is expected in the first half of 2026
+         with targeted commercial operations in 2028, which would make it the first commercial clean gas
+         power project in the United States. Northern MISO clean firm power hub Net Power also continues to
+         advance its clean firm power hub in northern MISO, where the Company has site control and a 300MW
+         interconnect request through the DPP-2023 interconnection queue process. Net Powers sequestration
+         partner continues to advance its Class VI permit applications and both the interconnect and
+         sequestration facilities are expected to be completed by 20282029. Net Power is designing Phase I
+         of the project to utilize gas turbines paired with Entropy PCC, targeting FID in 2027 with
+         commercial operations as soon as 2029. Net Power is in active discussions with strategic offtakers
+         for the power. Realigning Technology Prioritization and Approach Advanced testing at La Porte test
+         facility Net Power continued to advance oxy-combustion equipment testing with Baker Hughes at its
+         La Porte Demonstration Facility. During the quarter, the facility achieved its highest ever
+         recorded pressures and temperatures, underscoring continued progress in technology maturation. The
+         Company intends to complete Phase I testing, which it expects to occur this year, and will
+         reassess future testing phases by year-end. Non-cash impairment of other intangible assets During
+         the quarter, the Company completed a market analysis of its oxy-combustion technology, identifying
+         slower than anticipated acceptance and deployment relative to previous expectations.
+     Reasoning:
+       The claims describe different aspects of the project, with Claim A focusing on the
+       project's capacity and Claim B providing details on the project's timeline and
+       design. Claim A mentions the project being sized to accommodate up to 1GW of clean
+       firm power generation capacity, while Claim B discusses the design of Phase I and
+       its expected timeline. These are complementary pieces of information that together
+       provide a more comprehensive understanding of the project. The difference in
+       expected FID and commercial operations timeline between the two claims suggests
+       they are describing the project at different stages or with different assumptions.
+
+[20] Net Power
+     Type: project_development  |  Detected: UNKNOWN  |  LLM decision: KEEP_BOTH
+     CLAIM A (2025-11-13, source_id=27):
+       Claim: "Net Power is progressing its first clean firm power hub at its Project Permian site in West Texas."
+       Source context sent to LLM:
+         [sentence 18/55, showing 13–23, overlap=0.94, doc_len=10323]
+         Key Business Updates Building Strong PCC Offering and Advancing First Projects Signed letter of
+         intent with Entropy Inc. Net Power signed a letter of intent with Entropy Inc. (Entropy), a global
+         leader in proven carbon capture technology, to exclusively deploy Entropys PCC technology for
+         power generation in the United States and to jointly develop projects. Entropys proprietary
+         solvent is energy efficient and proven to reduce CO2 emissions from natural gas power plants. This
+         strategic partnership is subject to continued diligence and approval of definitive agreements,
+         which the Company and Entropy endeavor to complete in the coming months. Permian Basin clean firm
+         power hub Net Power is progressing its first clean firm power hub at its Project Permian site in
+         West Texas. The project is being sized to accommodate up to 1GW of clean firm power generation
+         capacity utilizing Net Powers suite of power technologies. Phase I of the project will utilize
+         readily available gas turbines paired with Entropys proven PCC technology to that end, Net Power
+         has secured 60MW of gas turbines with 2028 delivery. Net Power is finalizing definitive documents
+         for Occidental to purchase 30MW of the power and 100% of the captured CO2. Final investment
+         decision (FID) for Phase I is expected in the first half of 2026 with targeted commercial
+         operations in 2028, which would make it the first commercial clean gas power project in the United
+         States. Northern MISO clean firm power hub Net Power also continues to advance its clean firm
+         power hub in northern MISO, where the Company has site control and a 300MW interconnect request
+         through the DPP-2023 interconnection queue process.
+     CLAIM B (2025-11-13, source_id=27):
+       Claim: "Net Power also continues to advance its clean firm power hub in northern MISO, where the Company has site control and a 300MW interconnect request through the DPP-2023 interconnection queue process."
+       Source context sent to LLM:
+         [sentence 23/55, showing 18–28, overlap=1.00, doc_len=10323]
+         Permian Basin clean firm power hub Net Power is progressing its first clean firm power hub at its
+         Project Permian site in West Texas. The project is being sized to accommodate up to 1GW of clean
+         firm power generation capacity utilizing Net Powers suite of power technologies. Phase I of the
+         project will utilize readily available gas turbines paired with Entropys proven PCC technology to
+         that end, Net Power has secured 60MW of gas turbines with 2028 delivery. Net Power is finalizing
+         definitive documents for Occidental to purchase 30MW of the power and 100% of the captured CO2.
+         Final investment decision (FID) for Phase I is expected in the first half of 2026 with targeted
+         commercial operations in 2028, which would make it the first commercial clean gas power project in
+         the United States. Northern MISO clean firm power hub Net Power also continues to advance its
+         clean firm power hub in northern MISO, where the Company has site control and a 300MW interconnect
+         request through the DPP-2023 interconnection queue process. Net Powers sequestration partner
+         continues to advance its Class VI permit applications and both the interconnect and sequestration
+         facilities are expected to be completed by 20282029. Net Power is designing Phase I of the project
+         to utilize gas turbines paired with Entropy PCC, targeting FID in 2027 with commercial operations
+         as soon as 2029. Net Power is in active discussions with strategic offtakers for the power.
+         Realigning Technology Prioritization and Approach Advanced testing at La Porte test facility Net
+         Power continued to advance oxy-combustion equipment testing with Baker Hughes at its La Porte
+         Demonstration Facility. During the quarter, the facility achieved its highest ever recorded
+         pressures and temperatures, underscoring continued progress in technology maturation.
+     Reasoning:
+       The two claims describe different projects, with Claim A focusing on the Project
+       Permian site in West Texas and Claim B discussing the clean firm power hub in
+       northern MISO. Claim A provides details about the Project Permian site, including
+       its capacity, technology, and timeline, while Claim B mentions the northern MISO
+       project's site control, interconnect request, and planned use of gas turbines with
+       Entropy PCC. These are distinct projects with separate details, making both claims
+       valid and non-redundant. The fact that they are mentioned in the same document
+       suggests that Net Power is working on multiple projects simultaneously, further
+       supporting the decision to keep both claims.
+
+[21] NextDecade Corp
+     Type: commercial_support  |  Detected: VALUE_CHANGE  |  LLM decision: KEEP_BOTH
+     OLDER (2025-09-10, source_id=22):
+       Claim: "Train 4 is commercially supported by 4.6 MTPA of 20-year LNG Sale and Purchase Agreements (SPAs) with ADNOC, TotalEnergies, and Aramco."
+       Source context sent to LLM:
+         [sentence 13/54, showing 8–18, overlap=1.00, doc_len=10217]
+         We are pleased to announce today that we have made a positive FID on Train 4 and issued full
+         notice to proceed to Bechtel, said Matt Schatzman, NextDecades Chairman and Chief Executive
+         Officer. The global call for additional natural gas infrastructure continues to be strong, and we
+         are well positioned to meet this growing demand for cleaner energy, with approximately 24 million
+         tonnes per annum (MTPA) of expected LNG production capacity currently under construction, Train 5
+         nearing a positive FID, and significant additional expansion capacity under development at the Rio
+         Grande LNG site. Id like to thank the NextDecade team, our equity partners, our Train 4 LNG
+         customers, Bechtel, our financing partners, and our local stakeholders for their ongoing support
+         and contributions toward the continued success and growth of Rio Grande LNG. Positive FID Achieved
+         on Train 4 On September 9, 2025, NextDecade made a positive FID and issued full notice to proceed
+         to Bechtel under the Companys lump-sum, turnkey engineering, procurement, and construction (EPC)
+         contract for Train 4 and related infrastructure. Train 4 has expected LNG production capacity of
+         approximately 6 MTPA, bringing the total expected LNG production capacity under construction at
+         Rio Grande LNG to approximately 24 MTPA. Train 4 is commercially supported by 4.6 MTPA of 20-year
+         LNG Sale and Purchase Agreements (SPAs) with ADNOC, TotalEnergies, and Aramco. The guaranteed
+         substantial completion date for Train 4, as well as the date of first commercial delivery (DFCD)
+         under the Train 4 LNG SPAs, is anticipated in the second half of 2030. Project costs for Train 4
+         and related infrastructure are expected to total approximately $6.7 billion, including EPC costs,
+         owners costs, contingencies, financing fees and interest during construction, and other costs 1 .
+         To fully fund the expected costs for Train 4 and related infrastructure, the Company successfully
+         closed on approximately $6.7 billion in committed financing, including $3.85 billion term loan
+         facility at Rio Grande LNG Train 4, LLC $1.13 billion in equity commitments from NextDecade and
+         $1.70 billion in equity commitments from partners Global Infrastructure Partners, a part of
+         BlackRock, GIC, Mubadala Investment Company (together, the Financial Investors), and
+         TotalEnergies. NextDecade received $98 million at financial close from Rio Grande LNG Train 4, LLC
+         for development costs and management services, and an additional $50 million will be received on
+         September 9, 2026. NextDecade has an initial economic interest of 40% in Train 4, which will
+         increase to 60% after the Financial Investors achieve certain returns on their investments in
+         Train 4.
+     NEWER (2025-10-16, source_id=28):
+       Claim: "Train 5 is commercially supported by 4.5 MTPA of 20-year LNG Sale and Purchase Agreements (SPAs) with JERA, EQT Corporation, and ConocoPhillips."
+       Source context sent to LLM:
+         [sentence 11/43, showing 6–16, overlap=1.00, doc_len=7820]
+         (Bechtel) for Train 5. Today, we are excited to announce that we have made a positive FID on Train
+         5, marking the second FID for NextDecade in just over a month, said Matt Schatzman, NextDecades
+         Chairman and Chief Executive Officer. This achievement is the result of tireless effort by our
+         team and our partners, and I would like to thank the entire NextDecade team, our equity partners,
+         our Train 5 LNG customers, Bechtel, our financing partners, and our local stakeholders for helping
+         bring Train 5 FID to fruition. Positive FID Achieved on Train 5 On October 16, 2025, NextDecade
+         made a positive FID and issued full notice to proceed to Bechtel under the Companys lump-sum,
+         turnkey engineering, procurement, and construction (EPC) contract for Train 5 and related
+         infrastructure. Train 5 has expected LNG production capacity of approximately 6 million tonnes per
+         annum (MTPA), bringing the total expected LNG production capacity under construction at Rio Grande
+         LNG to approximately 30 MTPA. Train 5 is commercially supported by 4.5 MTPA of 20-year LNG Sale
+         and Purchase Agreements (SPAs) with JERA, EQT Corporation, and ConocoPhillips. The guaranteed
+         substantial completion date for Train 5, as well as the date of first commercial delivery (DFCD)
+         under the Train 5 LNG SPAs, is anticipated in the first half of 2031. Project costs for Train 5
+         and related infrastructure are expected to total approximately $6.7 billion, including EPC costs,
+         owners costs, contingencies, financing fees and interest during construction, and other costs 1 .
+         To fully fund the expected costs for Train 5 and related infrastructure, the Company successfully
+         closed on approximately $6.7 billion in committed financing, including $3.59 billion term loan
+         facility at Rio Grande LNG Train 5, LLC $0.50 billion private placement notes at Rio Grande LNG
+         Train 5, LLC $1.29 billion in equity commitments from NextDecade and $1.29 billion in equity
+         commitments from partners Global Infrastructure Partners, a part of BlackRock (GIP), GIC, Mubadala
+         Investment Company (together, the Financial Investors). NextDecade received $117 million at
+         financial close from Rio Grande LNG Train 5, LLC for development costs and management services.
+         NextDecade has an initial economic interest of 50% in Train 5, which will increase to 70% after
+         the Financial Investors achieve certain returns on their investments in Train 5.
+     Reasoning:
+       The two claims describe different trains, Train 4 and Train 5, with distinct
+       commercial support and project details. Claim A discusses Train 4 with 4.6 MTPA of
+       LNG SPAs with ADNOC, TotalEnergies, and Aramco, while Claim B talks about Train 5
+       with 4.5 MTPA of LNG SPAs with JERA, EQT Corporation, and ConocoPhillips. These are
+       separate projects with different commercial agreements and timelines. Therefore,
+       both claims provide unique and valuable intelligence about NextDecade's projects.
+
+[22] NextDecade Corp
+     Type: loan_terms  |  Detected: VALUE_CHANGE  |  LLM decision: KEEP_BOTH
+     CLAIM A (2025-10-16, source_id=28):
+       Claim: "The FinCo Loan is a $729 million delayed draw bank facility that bears interest at SOFR plus 350 basis points, and commitments under the FinCo Loan are cancellable and can be prepaid without penalty."
+       Source context sent to LLM:
+         [sentence 18/43, showing 13–23, overlap=0.67, doc_len=7820]
+         Project costs for Train 5 and related infrastructure are expected to total approximately $6.7
+         billion, including EPC costs, owners costs, contingencies, financing fees and interest during
+         construction, and other costs 1 . To fully fund the expected costs for Train 5 and related
+         infrastructure, the Company successfully closed on approximately $6.7 billion in committed
+         financing, including $3.59 billion term loan facility at Rio Grande LNG Train 5, LLC $0.50 billion
+         private placement notes at Rio Grande LNG Train 5, LLC $1.29 billion in equity commitments from
+         NextDecade and $1.29 billion in equity commitments from partners Global Infrastructure Partners, a
+         part of BlackRock (GIP), GIC, Mubadala Investment Company (together, the Financial Investors).
+         NextDecade received $117 million at financial close from Rio Grande LNG Train 5, LLC for
+         development costs and management services. NextDecade has an initial economic interest of 50% in
+         Train 5, which will increase to 70% after the Financial Investors achieve certain returns on their
+         investments in Train 5. NextDecade Train 5 Equity Commitment Financed with No Material Impact to
+         Common Shares Outstanding NextDecade used $233 million of cash on hand and entered into a total of
+         $1.33 billion in term loans to finance its portion of Train 5 equity funding commitments without a
+         material impact to NextDecade common shares outstanding. The FinCo Loan is a $729 million delayed
+         draw bank facility that bears interest at SOFR plus 350 basis points. Commitments under the FinCo
+         Loan are cancellable and can be prepaid without penalty. The SuperFinCo Loan is a $600 million
+         term loan, with net proceeds disbursed at financial close. The SuperFinCo loan bears interest at
+         13%, with interest payable in kind until one year after Train 5 completion, and is callable at par
+         beginning in September 2030. Investor Presentation and Webcast NextDecade will host a conference
+         call and webcast to discuss todays announcements on October 17, 2025, at 1000am Central Time. The
+         webcast and accompanying presentation may be accessed through the Companys website at
+         httpsinvestors.next-decade.com .
+     CLAIM B (2025-10-16, source_id=28):
+       Claim: "The SuperFinCo loan bears interest at 13%, with interest payable in kind until one year after Train 5 completion, and is callable at par beginning in September 2030."
+       Source context sent to LLM:
+         [sentence 21/43, showing 16–26, overlap=1.00, doc_len=7820]
+         NextDecade has an initial economic interest of 50% in Train 5, which will increase to 70% after
+         the Financial Investors achieve certain returns on their investments in Train 5. NextDecade Train
+         5 Equity Commitment Financed with No Material Impact to Common Shares Outstanding NextDecade used
+         $233 million of cash on hand and entered into a total of $1.33 billion in term loans to finance
+         its portion of Train 5 equity funding commitments without a material impact to NextDecade common
+         shares outstanding. The FinCo Loan is a $729 million delayed draw bank facility that bears
+         interest at SOFR plus 350 basis points. Commitments under the FinCo Loan are cancellable and can
+         be prepaid without penalty. The SuperFinCo Loan is a $600 million term loan, with net proceeds
+         disbursed at financial close. The SuperFinCo loan bears interest at 13%, with interest payable in
+         kind until one year after Train 5 completion, and is callable at par beginning in September 2030.
+         Investor Presentation and Webcast NextDecade will host a conference call and webcast to discuss
+         todays announcements on October 17, 2025, at 1000am Central Time. The webcast and accompanying
+         presentation may be accessed through the Companys website at httpsinvestors.next-decade.com . A
+         replay will also be available after the webcast concludes. 1 Each expansion train will be
+         obligated to make a payment, at its applicable start-up date, to the trains in commercial
+         operation at such date for such expansion trains proportionate share of the capital costs of the
+         common facilities that such expansion train will access, net of the capital cost of any common
+         facilities constructed under the EPC agreement for the applicable expansion train project, if any.
+         The Train 5 expected project costs presented in this press release include estimates of these true
+         up payments.
+     Reasoning:
+       The two claims describe different loan facilities, FinCo Loan and SuperFinCo Loan,
+       with distinct terms and conditions. Claim A provides details about the FinCo Loan,
+       such as its value, interest rate, and prepayment terms, while Claim B focuses on
+       the SuperFinCo Loan, including its interest rate, payment structure, and
+       callability. These loans appear to be separate financing arrangements, and both
+       claims offer unique information about NextDecade's funding for Train 5. As they
+       describe different aspects of the project's financing, both claims are relevant and
+       should be retained.
+
+[23] PROTON ENERGY SYSTEMS
+     Type: project_objectives  |  Detected: VALUE_CHANGE  |  LLM decision: KEEP_BOTH
+     OLDER (2024-09-01, source_id=107):
+       Claim: "THE OBJECTIVES OF THIS PROJECT ARE TO: (I) DEMONSTRATE AN OPTIMAL ANION EXCHANGE MEMBRANE(AEM) CONFIGURATION AND MODE OF OPERATION THAT WILL ACHIEVE DOE GOALS OF 2.0 A/CM2 OPERATION AT <1.8 V WITH DEGRADATION RATE OF <4 MV/KHR AT A SCALE OF 90 CM2; AND (II) CONDUCT A TECHNO‐ECONOMIC ANALYSIS SHOWING HOW THESE RESULTS WILL MEET A HYDROGEN PRODUCTION COST <$2/KGH2."
+       Source context sent to LLM:
+         [full document — 630 chars]
+         Recipient: PROTON ENERGY SYSTEMS INC Amount: $4,900,000 Agency: Department of Energy Type:
+         COOPERATIVE AGREEMENT (B) Description: THE OBJECTIVES OF THIS PROJECT ARE TO: (I) DEMONSTRATE AN
+         OPTIMAL ANION EXCHANGE MEMBRANE(AEM) CONFIGURATION AND MODE OF OPERATION THAT WILL ACHIEVE DOE
+         GOALS OF 2.0 A/CM2 OPERATION AT <1.8 V WITH DEGRADATION RATE OF <4 MV/KHR AT A SCALE OF 90 CM2;
+         AND (II) CONDUCT A TECHNOECONOMIC ANALYSIS SHOWING HOW THESE RESULTS WILL MEET A HYDROGEN
+         PRODUCTION COST <$2/KGH2. MATERIAL COMPATIBILITY FOR CELL STACK COMPONENTS, SYSTEM OPERATION, AND
+         ASSEMBLING NEW MATERIALS INTO A CELL STACK HAVE BEEN SIGNIFICA
+     NEWER (2024-10-01, source_id=77):
+       Claim: "SPECIFIC OBJECTIVES INCLUDE: 1) PRODUCTION CAPACITY OF 500 MW/YEAR; 2) A REPEATABLE DESIGN THAT WILL SERVE AS THE TECHNICAL BASIS FOR FUTURE PEM ELECTROLYZER MANUFACTURING EXPANSION; 3) STACK COSTS OF <$90/KW; AND 4) OTHER CRITICAL PERFORMANCE CRITERIA SET BY N"
+       Source context sent to LLM:
+         [full document — 631 chars]
+         Recipient: PROTON ENERGY SYSTEMS INC Amount: $49,550,000 Agency: Department of Energy Type:
+         COOPERATIVE AGREEMENT (B) Description: BIL - FULLY AUTOMATED PRODUCTION PROTON EXCHANGE MEMBRANE
+         ELECTROLYZERS TO ACHIEVE HYDROGENSHOT  THE GOAL OF THIS PROGRAM IS TO BUILD THE WORLD’S FIRST
+         FULLY AUTOMATED PILOT PROTON EXCHANGE MEMBRANE  (PEM) ELECTROLYZER PRODUCTION LINE. SPECIFIC
+         OBJECTIVES INCLUDE: 1) PRODUCTION CAPACITY OF 500  MW/YEAR; 2) A REPEATABLE DESIGN THAT WILL SERVE
+         AS THE TECHNICAL BASIS FOR FUTURE PEM ELECTROLYZER  MANUFACTURING EXPANSION; 3) STACK COSTS OF
+         <$90/KW; AND 4) OTHER CRITICAL PERFORMANCE CRITERIA SET BY  N
+     Reasoning:
+       The two claims describe different aspects of Proton Energy Systems' projects, with
+       Claim A focusing on demonstrating an optimal anion exchange membrane configuration
+       and Claim B outlining specific objectives for a fully automated proton exchange
+       membrane electrolyzer production line. Claim A is centered around achieving
+       specific technical goals such as operation at <1.8 V with a degradation rate of <4
+       MV/KHR, while Claim B is about establishing a production line with a capacity of
+       500 MW/year and stack costs of <$90/KW. These are distinct objectives that do not
+       supersede or render each other redundant. The difference in project scope and focus
+       indicates that both claims provide unique intelligence.
+
+[24] RESEARCH FOUNDATION OF THE CITY UNIVERSITY OF NEW YORK
+     Type: award_date  |  Detected: VALUE_CHANGE  |  LLM decision: KEEP_BOTH
+     OLDER (2022-04-01, source_id=288):
+       Claim: "The award was made on 2022-04-01."
+       Source context sent to LLM:
+         [full document — 265 chars]
+         Recipient: RESEARCH FOUNDATION OF THE CITY UNIVERSITY OF NEW YORK Amount: $624,000 Agency:
+         Department of Energy Type: PROJECT GRANT (B) Description: PROBING THE HYDROGEN BONDED NETWORKS AND
+         ION INTERACTIONS IN DEEP EUTECTIC SOLVENTS (DESS) THROUGH SOLUTE MOLECULES.
+     NEWER (2023-08-15, source_id=292):
+       Claim: "The award was given on 2023-08-15."
+       Source context sent to LLM:
+         [full document — 241 chars]
+         Recipient: RESEARCH FOUNDATION OF THE CITY UNIVERSITY OF NEW YORK Amount: $562,500 Agency:
+         Department of Energy Type: PROJECT GRANT (B) Description: STRUCTURAL INFLUENCES IN ELECTROCHEMICAL
+         DEHYDROGENATION OF LIQUID ORGANIC HYDROGEN CARRIERS
+     Reasoning:
+       The two claims describe different project grants with distinct descriptions and
+       award amounts. Claim A and Claim B have different award dates, amounts, and project
+       descriptions, indicating they are separate grants for different research projects.
+       The projects focus on different aspects of hydrogen energy, with Claim A involving
+       deep eutectic solvents and Claim B involving electrochemical dehydrogenation of
+       liquid organic hydrogen carriers. These differences suggest that both claims
+       provide unique and valuable intelligence.
+
+[25] TDA RESEARCH
+     Type: award_date  |  Detected: VALUE_CHANGE  |  LLM decision: KEEP_BOTH
+     OLDER (2018-07-02, source_id=252):
+       Claim: "The grant was awarded on 2018-07-02."
+       Source context sent to LLM:
+         [full document — 162 chars]
+         Recipient: TDA RESEARCH, INC. Amount: $949,557 Agency: Department of Energy Type: PROJECT GRANT
+         (B) Description: HIGHLY EFFICIENT SMART TANKS FOR HYDROGEN STORAGE
+     NEWER (2022-09-23, source_id=378):
+       Claim: "The award was made on 2022-09-23."
+       Source context sent to LLM:
+         [full document — 244 chars]
+         Recipient: TDA RESEARCH, INC. Amount: $2,500,000 Agency: Department of Energy Type: COOPERATIVE
+         AGREEMENT (B) Description: DE-FE0032151-NEW AWARD A NEW THERMAL SWING ADSORPTION PROCESS FOR POST-
+         COMBUSTION CARBON CAPTURE FROM NATURAL GAS PLANTS.
+     Reasoning:
+       The two claims describe different awards and projects, indicating distinct events.
+       Claim A describes a 2018 award for a project on hydrogen storage, while Claim B
+       describes a 2022 award for a project on post-combustion carbon capture. The
+       different project descriptions and award dates suggest that these are separate
+       events, both of which are relevant to TDA Research's activities in the energy
+       sector. The distinct project focuses and award amounts further support the
+       conclusion that these claims are describing different facts and events.
+
+[26] TDA RESEARCH
+     Type: award_number  |  Detected: VALUE_CHANGE  |  LLM decision: KEEP_BOTH
+     OLDER (2018-08-15, source_id=348):
+       Claim: "The award number is DE-FE0031603."
+       Source context sent to LLM:
+         [full document — 234 chars]
+         Recipient: TDA RESEARCH, INC. Amount: $9,198,799 Agency: Department of Energy Type: COOPERATIVE
+         AGREEMENT (B) Description: DE-FE0031603: PROJECT TITLED, ''MEMBRANE-SORBENT HYBRID SYSTEM FOR
+         POST-COMBUSTION CARBON CAPTURE'' - NEW AWARD
+     NEWER (2019-06-01, source_id=374):
+       Claim: "The award number is DE-FE0031734."
+       Source context sent to LLM:
+         [full document — 251 chars]
+         Recipient: TDA RESEARCH, INC. Amount: $3,000,000 Agency: Department of Energy Type: COOPERATIVE
+         AGREEMENT (B) Description: NEW AWARD NO. DE-FE0031734, TO TDA RESEARCH, INC. TITLED
+         ''TRANSFORMATIONAL SORBENT SYSTEM FOR POST-COMBUSTION CARBON CAPTURE.''
+     Reasoning:
+       The two claims describe different award numbers and project titles, indicating they
+       are distinct events. Claim A describes an award with the number DE-FE0031603 for a
+       project titled 'MEMBRANE-SORBENT HYBRID SYSTEM FOR POST-COMBUSTION CARBON CAPTURE'
+       with an amount of $9,198,799, while Claim B describes a different award with the
+       number DE-FE0031734 for a project titled 'TRANSFORMATIONAL SORBENT SYSTEM FOR POST-
+       COMBUSTION CARBON CAPTURE' with an amount of $3,000,000. These differences suggest
+       that the claims are reporting on separate awards and projects. The fact that they
+       are from different filing dates further supports the conclusion that they are
+       distinct events.
+
+[27] THE PENNSYLVANIA STATE UNIVERSITY
+     Type: award_date  |  Detected: VALUE_CHANGE  |  LLM decision: KEEP_BOTH
+     OLDER (2024-08-01, source_id=260):
+       Claim: "The award was made on 2024-08-01."
+       Source context sent to LLM:
+         [full document — 239 chars]
+         Recipient: THE PENNSYLVANIA STATE UNIVERSITY Amount: $831,915 Agency: Department of Energy Type:
+         PROJECT GRANT (B) Description: UNDERSTANDING THE INTERPLAY BETWEEN HYDROGEN AND CHEMICAL
+         SHORTRANGE ORDER IN MULTIPLE PRINCIPAL ELEMENT ALLOYS
+     NEWER (2025-09-01, source_id=293):
+       Claim: "The award was given on 2025-09-01."
+       Source context sent to LLM:
+         [full document — 195 chars]
+         Recipient: THE PENNSYLVANIA STATE UNIVERSITY Amount: $560,000 Agency: Department of Energy Type:
+         PROJECT GRANT (B) Description: HYDROGEN ATOM TRANSPORT MEMBRANE ENABLED H2/HYDROCARBON SEPARATIONS
+     Reasoning:
+       The two claims describe different awards with distinct project descriptions and
+       amounts. Claim A and Claim B have different award dates, amounts, and project
+       descriptions, indicating they are separate awards for different projects related to
+       hydrogen energy. The projects 'UNDERSTANDING THE INTERPLAY BETWEEN HYDROGEN AND
+       CHEMICAL SHORTRANGE ORDER IN MULTIPLE PRINCIPAL ELEMENT ALLOYS' and 'HYDROGEN ATOM
+       TRANSPORT MEMBRANE ENABLED H2/HYDROCARBON SEPARATIONS' are distinct, suggesting
+       sequential or parallel research endeavors. Both claims provide unique intelligence
+       on the university's hydrogen energy research projects.
+
+[28] TRUSTEES OF THE COLORADO SCHOOL OF MINES
+     Type: award_date  |  Detected: VALUE_CHANGE  |  LLM decision: KEEP_BOTH
+     OLDER (2019-10-01, source_id=309):
+       Claim: "The award was made on 2019-10-01."
+       Source context sent to LLM:
+         [full document — 243 chars]
+         Recipient: TRUSTEES OF THE COLORADO SCHOOL OF MINES Amount: $381,023 Agency: Department of Energy
+         Type: COOPERATIVE AGREEMENT (B) Description: HIGH CAPACITY STEP-SHAPED HYDROGEN ADSORPTION IN
+         ROBUST, PORE-GATING ZEOLITIC IMIDAZOLATE FRAMEWORKS
+     NEWER (2024-02-01, source_id=129):
+       Claim: "The award date is 2024-02-01."
+       Source context sent to LLM:
+         [full document — 645 chars]
+         Recipient: TRUSTEES OF THE COLORADO SCHOOL OF MINES Amount: $3,206,194 Agency: Department of
+         Energy Type: COOPERATIVE AGREEMENT (B) Description: MITIGATING HYDROGEN LOSSES THROUGHOUT ALL
+         STAGES OF TRANSFER OPERATIONS IS CRITICAL TO ENABLING LIQUID HYDROGEN (LH2) AS A HIGH USE AND
+         HIGH-CAPACITY ENERGY STORAGE RESERVOIR, BOTH IN TERMS OF COST AND IN LIMITING THE ENVIRONMENTAL
+         IMPACT OF HYDROGEN AS AN INDIRECT GREENHOUSE GAS. POINTS THROUGHOUT THE LH2 TRANSFER PATHWAY WHERE
+         LOSSES OCCUR ARE WELL KNOWN AND INCLUDE COOLDOWN OF LINES, FLASHING OF LIQUID HYDROGEN INTO LOW-
+         PRESSURE DEWARS, COOLING OF DEWAR WALLS, TRANSFER FROM A MANUFACTURE SITE
+     Reasoning:
+       The two claims describe different awards with distinct descriptions and amounts,
+       indicating they are separate events. Claim A describes an award of $381,023 for a
+       project on hydrogen adsorption in zeolitic imidazolate frameworks, while Claim B
+       describes a larger award of $3,206,194 for a project on mitigating hydrogen losses
+       in liquid hydrogen transfer operations. The different project descriptions and
+       amounts suggest these are distinct awards, not updates or corrections of each
+       other. Therefore, both claims provide valid and unique intelligence on the
+       activities of the Trustees of the Colorado School of Mines in the area of hydrogen
+       energy.
+
+[29] UNIVERSITY OF HOUSTON SYSTEM
+     Type: project_phase_description  |  Detected: UNKNOWN  |  LLM decision: KEEP_BOTH
+     CLAIM A (2024-08-15, source_id=279):
+       Claim: "THE FIRST PHASE WILL EVALUATE SPECIFIC ENVIRONMENTAL AND COMMUNITY RISKS THE HYDROGEN REFUELING PILOT COULD POSE."
+       Source context sent to LLM:
+         [full document — 623 chars]
+         Recipient: UNIVERSITY OF HOUSTON SYSTEM Amount: $704,489 Agency: Department of Energy Type:
+         PROJECT GRANT (B) Description: HOUSTON HYDROGEN TRANSPORTATION PILOT AIMS TO DEMONSTRATE THE
+         POTENTIAL FOR REPURPOSING EXISTING INFRASTRUCTURE TO PROVIDE PROFITABLE ZERO-EMISSION
+         TRANSPORTATION FUELED BY LOW CARBON INTENSITY HYDROGEN. THIS PROJECT WILL LAY THE GROUNDWORK
+         ESSENTIAL TO IMPLEMENTING A HYDROGEN REFUELING PILOT DEMONSTRATION FOR THE GREATER HOUSTON AREA.
+         THE FIRST PHASE WILL EVALUATE SPECIFIC ENVIRONMENTAL AND COMMUNITY RISKS THE HYDROGEN REFUELING
+         PILOT COULD POSE. THE SECOND PROJECT PHASE WILL ESTABLISH A WORKFO
+     CLAIM B (2024-08-15, source_id=279):
+       Claim: "THE SECOND PROJECT PHASE WILL ESTABLISH A WORKFO"
+       Source context sent to LLM:
+         [full document — 623 chars]
+         Recipient: UNIVERSITY OF HOUSTON SYSTEM Amount: $704,489 Agency: Department of Energy Type:
+         PROJECT GRANT (B) Description: HOUSTON HYDROGEN TRANSPORTATION PILOT AIMS TO DEMONSTRATE THE
+         POTENTIAL FOR REPURPOSING EXISTING INFRASTRUCTURE TO PROVIDE PROFITABLE ZERO-EMISSION
+         TRANSPORTATION FUELED BY LOW CARBON INTENSITY HYDROGEN. THIS PROJECT WILL LAY THE GROUNDWORK
+         ESSENTIAL TO IMPLEMENTING A HYDROGEN REFUELING PILOT DEMONSTRATION FOR THE GREATER HOUSTON AREA.
+         THE FIRST PHASE WILL EVALUATE SPECIFIC ENVIRONMENTAL AND COMMUNITY RISKS THE HYDROGEN REFUELING
+         PILOT COULD POSE. THE SECOND PROJECT PHASE WILL ESTABLISH A WORKFO
+     Reasoning:
+       The claims describe sequential steps in a project, with claim A focusing on the
+       first phase and claim B on the second phase. Claim A evaluates environmental and
+       community risks, while claim B establishes a workforce, indicating they are
+       distinct aspects of the project. The context provided shows a clear progression
+       from one phase to the next, supporting the notion that both claims provide
+       valuable, non-redundant information. Since they describe different phases of the
+       same project, both claims are relevant and should be retained.
+
+[30] UNIVERSITY OF ROCHESTER
+     Type: award_date  |  Detected: VALUE_CHANGE  |  LLM decision: KEEP_BOTH
+     OLDER (2009-09-03, source_id=93):
+       Claim: "The award was given on September 3, 2009."
+       Source context sent to LLM:
+         [full document — 229 chars]
+         Recipient: UNIVERSITY OF ROCHESTER Amount: $8,990,000 Agency: Department of Energy Type: PROJECT
+         GRANT (B) Description: NEW; SISGR: MODULAR NANOSCALE AND BIOMIMETIC ASSEMBLIES FOR PHOTOCATALYTIC
+         HYDROGEN GENERATION; PI: KARA BREN
+     NEWER (2025-08-15, source_id=176):
+       Claim: "The award was made on 2025-08-15."
+       Source context sent to LLM:
+         [full document — 228 chars]
+         Recipient: UNIVERSITY OF ROCHESTER Amount: $1,746,383 Agency: Department of Energy Type: PROJECT
+         GRANT (B) Description: MOLECULES TO MATERIALS: ELECTROCATALYTIC HYDROGEN ACTIVATION AND TRANSFER
+         IN REDOX-ACTIVE MIXED METAL OXIDES
+     Reasoning:
+       The two claims describe different awards with distinct descriptions and amounts.
+       Claim A and Claim B have different award dates, amounts, and project descriptions,
+       indicating they are separate events. The projects described, 'MODULAR NANOSCALE AND
+       BIOMIMETIC ASSEMBLIES FOR PHOTOCATALYTIC HYDROGEN GENERATION' and 'MOLECULES TO
+       MATERIALS: ELECTROCATALYTIC HYDROGEN ACTIVATION AND TRANSFER IN REDOX-ACTIVE MIXED
+       METAL OXIDES', are distinct, suggesting different research initiatives. Both claims
+       provide unique intelligence on the University of Rochester's hydrogen energy-
+       related projects.
+
+[31] plug power
+     Type: proposal_details  |  Detected: UNKNOWN  |  LLM decision: KEEP_BOTH
+     OLDER (2026-02-05, source_id=5):
+       Claim: "1. The approval of an amendment to the Company’s amended and restated certificate of incorporation, as amended (the “Charter”), to adjust the voting requirements for certain future amendments to align with Section 242(d)(2) of the Delaware General Corporation Law (“Proposal 1”). 2. The approval of an amendment to the Charter to increase the number of authorized shares of the Company’s common stock from 1,500,000,000 shares to 3,000,000,000 shares (“Proposal 2”)."
+       Source context sent to LLM:
+         [sentence 8/44, showing 3–13, overlap=0.77, doc_len=3347]
+         On February 5, 2026, Plug Power Inc. (the “Company”) reconvened its special meeting of
+         stockholders (the “Special Meeting”) at 10:00 a.m., Eastern Standard Time, with respect to the
+         following proposals: 1. The approval of an amendment to the Company’s amended and restated
+         certificate of incorporation, as amended (the “Charter”), to adjust the voting requirements for
+         certain future amendments to align with Section 242(d)(2) of the Delaware General Corporation Law
+         (“Proposal 1”). 2. The approval of an amendment to the Charter to increase the number of
+         authorized shares of the Company’s common stock from 1,500,000,000 shares to 3,000,000,000 shares
+         (“Proposal 2”). Based on the preliminary tabulation of votes received as of the reconvened meeting
+         date, approximately 39.63% and 49.40% of the outstanding shares of the Company's common stock
+         voted in favor of Proposal 1 and Proposal 2, respectively. As the Company did not receive
+         sufficient votes to approve Proposal 1 or Proposal 2,
+     NEWER (2026-02-11, source_id=4):
+       Claim: "No changes have been made to the proposals to be voted on at the Special Meeting, and no new proposals will be presented at the reconvened Special Meeting."
+       Source context sent to LLM:
+         [sentence 20/23, showing 15–23, overlap=0.68, doc_len=1573]
+         A copy of the press release is furnished as Exhibit 99.1 to this Current Report on Form 8-K and is
+         incorporated herein by reference. The Company’s stockholders of record as of December 12, 205, the
+         record date for the Special Meeting, are entitled to attend and vote at the reconvened Special
+         Meeting using the same process in place for the originally scheduled Special Meeting, the details
+         of which are set forth in the Company’s definitive proxy statement. No changes have been made to
+         the proposals to be voted on at the Special Meeting, and no new proposals will be presented at the
+         reconvened Special Meeting. The reconvened Special Meeting will be held solely to conduct the vote
+         on Proposals 1 and 2 described in the definitive proxy statement.
+     Reasoning:
+       Claim A describes the proposals and their voting results, while Claim B confirms
+       that no changes have been made to the proposals for the reconvened meeting. The two
+       claims provide complementary information about the special meeting of Plug Power's
+       stockholders, with Claim A focusing on the proposals and their initial voting
+       outcomes, and Claim B addressing the reconvened meeting's agenda and process. They
+       describe different aspects of the event and are both relevant for a comprehensive
+       understanding. Since they do not contradict each other and offer distinct insights,
+       keeping both claims is the most appropriate approach.
+
+[32] plug power
+     Type: voting_eligibility  |  Detected: VALUE_CHANGE  |  LLM decision: KEEP_BOTH
+     OLDER (2026-02-05, source_id=5):
+       Claim: "The Company’s stockholders of record as of December 12, 2025 (the “Record Date”) are entitled to attend the adjourned Special Meeting and vote their shares using the same process in place for the originally scheduled Special Meeting, the details of which are set forth in the Company’s definitive proxy statement filed with the Securities and Exchange Commission (the “SEC”) on December 12, 2025."
+       Source context sent to LLM:
+         [sentence 20/44, showing 15–25, overlap=0.43, doc_len=3347]
+         The Special Meeting is scheduled to reconvene at 4:00 p.m., Eastern Standard Time, on Tuesday,
+         February 17, 2026. No other matters are expected to be presented for consideration at the
+         adjourned Special Meeting other than the vote on Proposals 1 and 2. The Company’s stockholders of
+         record as of December 12, 2025 (the “Record Date”) are entitled to attend the adjourned Special
+         Meeting and vote their shares using the same process in place for the originally scheduled Special
+         Meeting, the details of which are set forth in the Company’s definitive proxy statement filed with
+         the Securities and Exchange Commission (the “SEC”) on December 12, 2025. Proxies previously
+         submitted will continue to be valid for the adjourned Special Meeting unless properly revoked or
+         changed in accordance with the procedures described in the definitive proxy statement. The Company
+         encourages all stockholders as of the Record Date who have
+     NEWER (2026-02-11, source_id=4):
+       Claim: "The Company’s stockholders of record as of December 12, 205, the record date for the Special Meeting, are entitled to attend and vote at the reconvened Special Meeting using the same process in place for the originally scheduled Special Meeting, the details of which are set forth in the Company’s definitive proxy statement."
+       Source context sent to LLM:
+         [sentence 18/23, showing 13–23, overlap=0.53, doc_len=1573]
+         2026 to February 12, 2026 at 4:00 p.m. Eastern Time. A copy of the press release is furnished as
+         Exhibit 99.1 to this Current Report on Form 8-K and is incorporated herein by reference. The
+         Company’s stockholders of record as of December 12, 205, the record date for the Special Meeting,
+         are entitled to attend and vote at the reconvened Special Meeting using the same process in place
+         for the originally scheduled Special Meeting, the details of which are set forth in the Company’s
+         definitive proxy statement. No changes have been made to the proposals to be voted on at the
+         Special Meeting, and no new proposals will be presented at the reconvened Special Meeting. The
+         reconvened Special Meeting will be held solely to conduct the vote on Proposals 1 and 2 described
+         in the definitive proxy statement.
+     Reasoning:
+       The two claims describe the same event but with slightly different details, such as
+       the date format and the mention of the SEC in claim A. Claim A provides more
+       context about the process for voting and the definitive proxy statement, while
+       claim B is more concise and focuses on the entitlement to attend and vote at the
+       reconvened Special Meeting. The difference in date format, 'December 12, 2025' in
+       claim A and 'December 12, 205' in claim B, suggests a potential typo in claim B,
+       but it does not necessarily supersede claim A. Both claims are valid and provide
+       complementary information about the Special Meeting.

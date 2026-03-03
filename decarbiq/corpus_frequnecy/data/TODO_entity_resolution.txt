@@ -1,0 +1,49 @@
+ENTITY RESOLUTION — Future Step (2.5)
+======================================
+Date noted: 2026-02-24
+
+PROBLEM
+-------
+The pipeline currently matches claims by exact company_name string.
+If one filing refers to "Consumers Energy" and another to "Consumers Power Company",
+their claims are never compared — they live in completely separate silos.
+
+Meanwhile, the LLM already extracts claims like:
+  "Consumers Energy Company conducts business under the following assumed names:
+   Consumers Business Energy Services, Consumers Energy, Consumers Energy Business
+   Services, Consumers Energy Consultants, Consumers Energy Contractor Network,
+   Consumers Energy Dealer Network, Consumers Energy Finance, Consumers Energy
+   Fitness Audits, Consumers Energy Group, Consumers Energy HouseCall, Consumers
+   Energy HouseCall Services, Consumers Energy Management, Consumers Energy
+   Resources, Consumers Energy Security Services, Consumers Energy Services,
+   Consumers Energy Systems, Consumers Energy Traders, Consumers Power, and
+   Consumers Power Company."
+
+This intelligence is captured as claim_text but never parsed into a lookup table.
+
+WHAT TO BUILD
+-------------
+A new step (between step 2 and step 3, or post-step 3) that:
+
+1. Scans extracted claims for alias/DBA/subsidiary patterns:
+   - "conducts business under", "also known as", "d/b/a", "formerly known as",
+     "doing business as", "a subsidiary of", "a wholly-owned subsidiary"
+
+2. Builds a `company_aliases` table:
+     canonical_name  TEXT    -- the primary/parent name
+     alias_name      TEXT    -- the variant
+     relationship    TEXT    -- dba | subsidiary | former_name | abbreviation
+     source_id       INTEGER -- where we learned this
+
+3. Uses fuzzy matching (Levenshtein, token overlap) to catch near-duplicates:
+   - "CF Industries Holdings" vs "CF Industries Holdings, Inc."
+   - "air products" vs "Air Products and Chemicals" vs "Air Products & Chemicals"
+
+4. Step 5 then joins through the alias table instead of exact company_name match,
+   so contradictions across name variants are properly detected.
+
+AFFECTED FILES
+--------------
+- step2_schema.py   — add company_aliases table
+- step3_read_pass.py or new step — parse alias claims into the table
+- step5_contradiction.py — use canonical_name for grouping instead of raw company_name

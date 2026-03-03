@@ -1,0 +1,23 @@
+
+=== BOOTSTRAP — CURRENT STATE ===
+
+  company_classifications: 208
+    project_developer         132
+    out_of_scope              39
+    university                18
+    contractor                10
+    government_agency         9
+
+  unified_projects: 157
+    unknown              150
+    operational          4
+    construction         2
+    fid                  1
+    source=claims                    142
+    source=old_pipeline_stub         15
+
+  Field fill rates in unified_projects:
+    state                100/157  ████████████
+    technology             7/157  
+    capacity_mtpa_h2       5/157  
+    stage                  7/157  

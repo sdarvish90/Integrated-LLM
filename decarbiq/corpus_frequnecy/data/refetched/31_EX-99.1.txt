@@ -1,0 +1,3629 @@
+EX-99.1
+ 2
+ merc-ex99_1.htm
+ EX-99.1
+ 
+ 
+ 
+ 
+ EX-99.1 
+ 
+ 
+ 
+ EXHIBIT 99.1 For Immediate Release MERCER INTERNATIONAL INC. REPORTS THIRD QUARTER 2025 RESULTS Selected Highlights &#x2022; Third quarter Operating EBITDA* of negative $28.1 million (net loss of $80.8 million), including a non-cash inventory impairment of $20.4 million, compared to positive $50.5 million (net loss of $17.6 million) in the same quarter of 2024 &#x2022; Combined industry wide challenges stemming from the global economic and trade environment, higher fiber costs and pulp grade substitution intensified in the third quarter of 2025 &#x2022; Continued execution of our One Goal One Hundred program, targeting $100 million in cost savings and operational efficiency actions by the end of 2026 and taking additional steps aimed at improving liquidity through further cost reductions, lowering capital expenditures in 2026 and other working capital measures NEW YORK, NY, November 6, 2025 &#x2011; Mercer International Inc. (Nasdaq: MERC) today reported third quarter 2025 Operating EBITDA of negative $28.1 million, a decrease from positive $50.5 million in the same quarter of 2024 and negative $20.9 million in the second quarter of 2025. In the third quarter of 2025, net loss was $80.8 million ($1.21 per share) compared to $17.6 million ($0.26 per share) in the same quarter of 2024 and $86.1 million ($1.29 per share) in the second quarter of 2025. Mr. Juan Carlos Bueno, Chief Executive Officer, stated: In the third quarter of 2025, persistent global economic and trade uncertainties, fiber scarcity in Germany as well as the impact of pulp substitution accelerated the decline in pulp market demand and pricing, which negatively impacted our operating results and contributed to a $20.4 million non-cash inventory impairment charge in the quarter. We are continuing to advance our One Goal One Hundred program, which we began in our second quarter 
+ ____________________ *Operating EBITDA is not a measure of financial performance under accounting principles generally accepted in the United States (GAAP) and should not be considered in isolation or as a substitute for analysis of our results as reported under GAAP. See page 6 of the financial tables included in this press release for a reconciliation of net loss to Operating EBITDA. 
+ 
+ Page 2 
+ and includes cost reduction initiatives and operational efficiency measures to achieve our target of $100 million in profitability improvement actions by the end of 2026, using 2024 as a baseline. We currently expect to realize approximately $30 million in cost savings and reliability improvements by the end of 2025 and remain confident that we will achieve our target by the end of 2026. We are currently advancing a carbon capture and sequestration project at the Peace River mill, which is in the conceptual engineering and scope development stage (FEL-2). The project is being jointly developed together with Svante Technologies Inc., a carbon capture and removal solutions provider. To validate the core technology, we are currently commissioning and starting-up a pilot for this project, which is expected to be operating in the fourth quarter. The next step will be front-end engineering design (FEED) that we expect to trigger in the second quarter of 2026. We view this project as a compelling opportunity to enhance value and the long-term economic viability and sustainability of the mill. In the third quarter of 2025, sales realizations for both softwood and hardwood pulp decreased compared to the second quarter due to lower prices across all markets, driven by the continued weak demand stemming from the current economic climate and continuing global trade policy uncertainty, together with increased substitution of softwood for hardwood given the approximately $200 per ton price gap between these products. Softwood pulp third-party list prices in Europe and the third-party net prices in China decreased, with the decline in China also impacted by oversupply in the paper market. In North America, third-party softwood pulp list prices decreased in the third quarter of 2025 compared to the second quarter of 2025 due to downward price pressure from other markets. Looking ahead to the fourth quarter of 2025, we currently expect pulp prices to remain weak. Our lumber sales realizations in both the U.S. and Europe were relatively stable in the third quarter of 2025 compared to the second quarter. We currently expect lumber prices to modestly increase in Europe in the fourth quarter of 2025 due to higher fiber costs. In the U.S., we currently expect slightly higher prices in the latter part of the fourth quarter of 2025 driven by the combined impact of duties and tariffs imposed on producers reducing supply and supporting higher prices. In October 2025, the United States implemented Section 232 tariffs, citing national security as the rationale to impose a 10% global tariff on imported lumber. These new tariffs are not currently expected to have a significant effect on our European lumber sales. However, for Canadian lumber producers, these are in addition to existing duties, resulting in combined duties and tariffs ranging from about 45% to 58%. We currently expect that if prolonged, these conditions may result in sawmill curtailments and impact fiber supply in Canada. We continue to monitor ongoing trade 
+ 
+ 
+ Page 3 
+ policy developments. Per unit fiber costs for our pulp and solid wood segments were relatively steady in the third quarter of 2025 compared to the second quarter. In the fourth quarter of 2025, we currently expect per unit fiber costs to increase for all our mills due to supply constraints and, in Germany, strong competing demand for pellets. In the third quarter of 2025, our pulp mills had 32 days of downtime (approximately 35,700 ADMTs), which included 20 days of planned annual maintenance and 12 days of unplanned downtime at the Celgar mill due to a mechanical failure. We currently expect a total of 18 days of planned annual maintenance downtime at the Stendal mill in the fourth quarter of 2025. Our solid wood segment results continued to be weighed down by weak demand due to elevated interest rates and broader economic challenges in Europe. However, we continue to expect significantly improved segment performance when the interest rate environment improves. In our solid wood segment, our mass timber business has developed a healthy order book despite the ongoing elevated interest rate environment in the U.S. and anticipates a positive outlook for 2026. Mr. Bueno concluded: We recognize that the combined challenges faced by our industries in the third quarter are expected to persist into the fourth quarter. Against this backdrop, liquidity remains our top priority. While we have made good progress on our One Goal One Hundred program and remain committed to rebalancing our portfolio of assets, we will take additional decisive steps aimed at increasing our liquidity. These include further cost reductions, lowering capital expenditures for 2026 and other working capital measures that would improve our balance sheet and align with our long-term strategy. We believe in the value generating capability of our core assets as conditions improve. Consolidated Financial Results 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Q3 
+ 
+ 
+ Q2 
+ 
+ 
+ Q3 
+ 
+ 
+ YTD 
+ 
+ 
+ YTD 
+ 
+ 
+ 
+ 
+ 2025 
+ 
+ 
+ 2025 
+ 
+ 
+ 2024 
+ 
+ 
+ 2025 
+ 
+ 
+ 2024 
+ 
+ 
+ 
+ 
+ (in thousands, except per share amounts) 
+ 
+ 
+ 
+ Revenues 
+ $ 
+ 458,068 
+ 
+ 
+ $ 
+ 453,524 
+ 
+ 
+ $ 
+ 502,141 
+ 
+ 
+ $ 
+ 1,418,566 
+ 
+ 
+ $ 
+ 1,554,955 
+ 
+ 
+ 
+ Operating income (loss) 
+ $ 
+ (67,589 
+ ) 
+ 
+ $ 
+ (58,404 
+ ) 
+ 
+ $ 
+ 8,841 
+ 
+ 
+ $ 
+ (119,260 
+ ) 
+ 
+ $ 
+ (35,386 
+ ) 
+ 
+ 
+ Operating EBITDA 
+ $ 
+ (28,077 
+ ) 
+ 
+ $ 
+ (20,881 
+ ) 
+ 
+ $ 
+ 50,455 
+ 
+ 
+ $ 
+ (1,870 
+ ) 
+ 
+ $ 
+ 144,495 
+ 
+ 
+ 
+ Net loss 
+ $ 
+ (80,779 
+ ) 
+ 
+ $ 
+ (86,071 
+ ) 
+ 
+ $ 
+ (17,559 
+ ) 
+ 
+ $ 
+ (189,189 
+ ) 
+ 
+ $ 
+ (101,848 
+ ) 
+ 
+ 
+ Net loss per common share 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Basic 
+ $ 
+ (1.21 
+ ) 
+ 
+ $ 
+ (1.29 
+ ) 
+ 
+ $ 
+ (0.26 
+ ) 
+ 
+ $ 
+ (2.83 
+ ) 
+ 
+ $ 
+ (1.53 
+ ) 
+ 
+ 
+ Diluted 
+ $ 
+ (1.21 
+ ) 
+ 
+ $ 
+ (1.29 
+ ) 
+ 
+ $ 
+ (0.26 
+ ) 
+ 
+ $ 
+ (2.83 
+ ) 
+ 
+ $ 
+ (1.53 
+ ) 
+ 
+ 
+ 
+ 
+ Page 4 
+ Consolidated &#x2013; Three Months Ended September 30, 2025 Compared to Three Months Ended September 30, 2024 Total revenues for the third quarter of 2025 decreased by approximately 9% to $458.1 million from $502.1 million in the same quarter of 2024. This was primarily due to lower pulp and manufactured products sales realizations partially offset by higher lumber sales realizations. Costs and expenses in the third quarter of 2025 increased by approximately 7% to $525.7 million from $493.3 million in the same quarter of 2024 primarily due to higher per unit fiber costs and the negative foreign exchange impact from a weaker dollar on our euro denominated costs and expenses compared to the same quarter of 2024. In the third quarter of 2025, costs and expenses included a non-cash impairment of $20.4 million primarily against pulp inventory as a result of lower prices. In the third quarter of 2025, Operating EBITDA decreased to negative $28.1 million from positive $50.5 million in the same quarter of 2024. This primarily resulted from lower pulp and manufactured products sales realizations, higher per unit fiber costs, the negative foreign exchange impact from a weaker dollar and the non-cash inventory impairment. These adverse impacts were partially offset by higher lumber sales realizations. Segment Results Pulp 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Three Months Ended September 30, 
+ 
+ 
+ 
+ 
+ 2025 
+ 
+ 
+ 2024 
+ 
+ 
+ 
+ 
+ (in thousands) 
+ 
+ 
+ 
+ Pulp revenues 
+ $ 
+ 318,622 
+ 
+ 
+ $ 
+ 354,176 
+ 
+ 
+ 
+ Energy and chemical revenues 
+ $ 
+ 20,416 
+ 
+ 
+ $ 
+ 19,092 
+ 
+ 
+ 
+ Segment Operating EBITDA (1) 
+ $ 
+ (12,686 
+ ) 
+ 
+ $ 
+ 54,645 
+ 
+ 
+ ______________ (1) Segment Operating EBITDA is a measure of segment profit or loss presented in our financial statements under GAAP. Refer to the segment information note in our consolidated financial statements for more information. In the third quarter of 2025, Segment Operating EBITDA for our pulp segment decreased to negative $12.7 million from positive $54.6 million in the same quarter of 2024. This primarily resulted from lower pulp sales realizations, higher per unit fiber costs, the negative foreign exchange impact from a weaker dollar and a non-cash inventory impairment of $18.9 million. 
+ 
+ 
+ Page 5 
+ Pulp segment revenues, comprised of pulp, energy and chemical revenues, in the third quarter of 2025 decreased by approximately 9% to $339.0 million from $373.3 million in the same quarter of 2024 due to lower pulp revenues. Pulp revenues in the third quarter of 2025 decreased by approximately 10% to $318.6 million from $354.2 million in the same quarter of 2024 as a result of lower sales realizations. In the third quarter of 2025, the third-party industry quoted average list price for NBSK pulp in Europe and the third-party industry quoted average net price for NBSK pulp in China decreased from the same quarter of 2024. These decreases stemmed from weaker demand driven by the current economic climate, global trade policy uncertainty, and increased substitution of softwood pulp for lower-cost hardwood pulp. Oversupply in the paper market also contributed to the pricing decrease in China. In the third quarter of 2025, the third-party industry quoted average list price for NBSK pulp in North America decreased from the same quarter of 2024 driven by downward price pressure from other markets. Our average NBSK pulp sales realizations in the third quarter of 2025 decreased by approximately 11% to $728 per ADMT from $814 per ADMT in the same quarter of 2024 due to lower prices in all our markets. In the third quarter of 2025, the third-party industry quoted average list price for NBHK pulp in North America decreased from the same quarter of 2024 due to downward price pressure from other markets. The third-party industry quoted average net price for NBHK pulp in China decreased in the third quarter of 2025 from the same quarter of 2024 due to an oversupplied paper market and weak demand driven by the current economic climate and global trade policy uncertainty. In the third quarter of 2025, average NBHK pulp sales realizations decreased by approximately 16% to $528 per ADMT from $632 per ADMT in the same quarter of 2024 due to lower prices in all our markets. Total pulp sales volumes in the third quarter of 2025 were relatively flat at 452,840 ADMTs compared to 448,856 ADMTs in the same quarter of 2024. Energy and chemical revenues in the third quarter of 2025 were relatively steady at $20.4 million compared to $19.1 million in the same quarter of 2024. Costs and expenses in the third quarter of 2025 increased by approximately 9% to $378.6 million from $348.6 million in the same quarter of 2024 due to higher per unit fiber costs, the negative foreign exchange impact of a weaker dollar and the non-cash inventory impairment. Total pulp production in the third quarter of 2025 increased by approximately 10% to 458,708 ADMTs from 415,837 ADMTs in the same quarter of 2024 primarily as a result of improved production reliability in the third quarter of 2025. In the third quarter of 2025, our pulp mills had 32 days of downtime (approximately 35,700 ADMTs) which 
+ 
+ 
+ Page 6 
+ included 20 days of planned annual maintenance and 12 days of unplanned downtime at the Celgar mill due to mechanical failure. In the same quarter of 2024, our pulp mills had 43 days of downtime (approximately 57,600 ADMTs) which included 20 days of planned annual maintenance and 23 days of unplanned downtime at the Peace River mill due to mechanical failure. Overall average per unit fiber costs in the third quarter of 2025 increased by approximately 14% compared to the same quarter of 2024 primarily due to reduced supply in Germany and Canada. For the fourth quarter of 2025, we currently expect per unit fiber costs to increase due to continued supply constraints and, in Germany, strong competing demand for pellets. Solid Wood 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Three Months Ended September 30, 
+ 
+ 
+ 
+ 
+ 2025 
+ 
+ 
+ 2024 
+ 
+ 
+ 
+ 
+ (in thousands) 
+ 
+ 
+ 
+ Lumber revenues 
+ $ 
+ 60,971 
+ 
+ 
+ $ 
+ 49,093 
+ 
+ 
+ 
+ Energy revenues 
+ $ 
+ 4,894 
+ 
+ 
+ $ 
+ 2,593 
+ 
+ 
+ 
+ Manufactured products revenues (1) 
+ $ 
+ 12,171 
+ 
+ 
+ $ 
+ 35,798 
+ 
+ 
+ 
+ Pallet revenues 
+ $ 
+ 26,650 
+ 
+ 
+ $ 
+ 26,525 
+ 
+ 
+ 
+ Biofuels revenues (2) 
+ $ 
+ 10,183 
+ 
+ 
+ $ 
+ 9,262 
+ 
+ 
+ 
+ Wood residuals revenues 
+ $ 
+ 2,365 
+ 
+ 
+ $ 
+ 1,822 
+ 
+ 
+ 
+ Segment Operating EBITDA (3) 
+ $ 
+ (9,268 
+ ) 
+ 
+ $ 
+ (1,933 
+ ) 
+ 
+ ______________ (1) Manufactured products primarily include cross-laminated timber (CLT) and glue-laminated timber (glulam). (2) Biofuels include pellets and briquettes. (3) Segment Operating EBITDA is a measure of segment profit or loss presented in our financial statements under GAAP. Refer to the segment information note in our consolidated financial statements for more information. In the third quarter of 2025, Segment Operating EBITDA for the solid wood segment decreased to negative $9.3 million from negative $1.9 million in the same quarter of 2024. This primarily resulted from lower manufactured products sales realizations and higher per unit fiber costs. These adverse impacts were partially offset by higher lumber sales realizations. Solid wood segment revenues in the third quarter of 2025 decreased by approximately 6% to $117.2 million from $125.1 million in the same quarter of 2024 primarily due to lower manufactured products revenues partially offset by higher lumber revenues. In the third quarter of 2025, lumber revenues increased by approximately 24% to $61.0 million from $49.1 million in the same quarter of 2024 primarily as a result of higher sales realizations. Average lumber sales realizations in the third quarter of 2025 increased by approximately 23% to $553 per Mfbm from $451 per Mfbm in the same quarter of 2024 due to lower supply and improved demand in both the U.S. and European markets. The U.S. market accounted for approximately 48% of our lumber revenues and approximately 44% of our lumber sales volumes in the 
+ 
+ 
+ Page 7 
+ third quarter of 2025. The balance of our lumber sales were mainly to Europe. Lumber sales volumes in the third quarter of 2025 were flat at 110.2 MMfbm compared to 108.8 MMfbm in the same quarter of 2024. In the third quarter of 2025, manufactured products revenues decreased by approximately 66% to $12.2 million from $35.8 million in the same quarter of 2024 driven by lower sales realizations and volumes. Manufactured products sales realizations decreased to $1,615 per cubic meter in the third quarter of 2025 from $3,463 per cubic meter in the same quarter of 2024 as the ongoing elevated interest rate environment in the U.S. negatively impacted demand. Lumber production in the third quarter of 2025 decreased by approximately 6% to 115.4 MMfbm from 122.5 MMfbm in the same quarter of 2024 driven by the timing of planned maintenance downtime. Fiber costs were approximately 75% of our lumber cash production costs in the third quarter of 2025. In the third quarter of 2025, per unit fiber costs for lumber production increased by approximately 35% compared to the same quarter of 2024 due to reduced supply and strong demand. For the fourth quarter of 2025, we currently expect higher per unit fiber costs due to continued supply constraints and strong demand. Consolidated &#x2013; Nine Months Ended September 30, 2025 Compared to Nine Months Ended September 30, 2024 Total revenues for the nine months ended September 30, 2025 decreased by approximately 9% to $1,418.6 million from $1,555.0 million in the same period of 2024. This was primarily due to lower pulp and manufactured products sales volumes and realizations partially offset by higher lumber sales realizations. Costs and expenses in the nine months ended September 30, 2025 modestly decreased to $1,537.8 million from $1,590.3 million in the same period of 2024 primarily as a result of lower pulp and pallet sales volumes. This was partially offset by higher per unit fiber costs, negative foreign exchange impacts from a weaker dollar and inventory impairment charges of $31.4 million recorded in 2025 which were primarily non-cash and against pulp inventory. In the nine months ended September 30, 2024, costs and expenses included a non-cash goodwill impairment of $34.3 million related to the Torgau facility, which was recognized as a result of ongoing weakness in lumber, pallet and biofuels markets in Europe stemming from high interest rates and other economic conditions, and a non-cash loss of $23.6 million in connection with the dissolution of the Cariboo Pulp & Paper Company mill (CPP) joint venture. In the nine months ended September 30, 2025, Operating EBITDA decreased to negative $1.9 million from positive $144.5 million in the same period of 2024. This primarily resulted from higher per unit fiber costs, lower pulp sales realizations, lower manufactured products sales realizations and volumes, negative foreign exchange impacts 
+ 
+ 
+ Page 8 
+ from a weaker dollar and the inventory impairment. These adverse impacts were partially offset by higher lumber sales realizations. Liquidity As of September 30, 2025, we had cash and cash equivalents of $98.1 million, approximately $278.0 million available under our revolving credit facilities and aggregate liquidity of about $376.1 million. The following table is a summary of selected financial information as of the dates indicated: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ September 30, 
+ 
+ 
+ December 31, 
+ 
+ 
+ 
+ 
+ 2025 
+ 
+ 
+ 2024 
+ 
+ 
+ 
+ 
+ (in thousands) 
+ 
+ 
+ 
+ Cash and cash equivalents 
+ $ 
+ 98,102 
+ 
+ 
+ $ 
+ 184,925 
+ 
+ 
+ 
+ Working capital 
+ $ 
+ 579,668 
+ 
+ 
+ $ 
+ 653,466 
+ 
+ 
+ 
+ Total assets 
+ $ 
+ 2,290,563 
+ 
+ 
+ $ 
+ 2,262,932 
+ 
+ 
+ 
+ Long-term liabilities 
+ $ 
+ 1,642,880 
+ 
+ 
+ $ 
+ 1,576,619 
+ 
+ 
+ 
+ Total shareholders' equity 
+ $ 
+ 359,532 
+ 
+ 
+ $ 
+ 429,775 
+ 
+ 
+ Earnings Release Call In conjunction with this release, Mercer International Inc. will host a conference call, which will be simultaneously broadcast live over the Internet. Management will host the call, which is scheduled for November 7, 2025 at 10:00 AM ET. Listeners can access the conference call live and archived for 30 days over the Internet at https://edge.media-server.com/mmc/p/sxenn96s or through a link on the company's home page at https://www.mercerint.com . Please allow 15 minutes prior to the call to visit the website and download and install any necessary audio software. Mercer International Inc. is a global forest products company with operations in Germany, USA and Canada with consolidated annual production capacity of 2.1 million tonnes of pulp, 960 million board feet of lumber, 210 thousand cubic meters of CLT, 45 thousand cubic meters of glulam, 17 million pallets and 230 thousand tonnes of biofuels. To obtain further information on the company, please visit its website at https://www.mercerint.com . The preceding includes forward-looking statements which involve known and unknown risks and uncertainties which may cause our actual results in future periods to differ materially from forecasted results. Words such as expects, anticipates, are optimistic that, projects, intends, designed, will, believes, estimates, may, could and variations of such words and similar expressions are intended to identify such forward-looking statements. Among those factors which could cause actual results to differ materially are the following: the highly cyclical nature of our business, raw material costs, our level of indebtedness, competition, foreign exchange and interest rate fluctuations, our use of derivatives, expenditures for capital projects, environmental regulation and compliance, disruptions to our production, market conditions and other risk factors listed from time to time in our SEC reports. 
+ 
+ 
+ Page 9 
+ APPROVED BY: William D. McCartney Chairman (604) 684-1099 Juan Carlos Bueno Chief Executive Officer (604) 684-1099 -FINANCIAL TABLES FOLLOW- 
+ 
+ 
+ 
+ Summary Financial Highlights 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Q3 
+ 
+ 
+ Q2 
+ 
+ 
+ Q3 
+ 
+ 
+ YTD 
+ 
+ 
+ YTD 
+ 
+ 
+ 
+ 
+ 2025 
+ 
+ 
+ 2025 
+ 
+ 
+ 2024 
+ 
+ 
+ 2025 
+ 
+ 
+ 2024 
+ 
+ 
+ 
+ 
+ (in thousands, except per share amounts) 
+ 
+ 
+ 
+ Revenues from external customers 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Pulp segment 
+ $ 
+ 339,038 
+ 
+ 
+ $ 
+ 332,308 
+ 
+ 
+ $ 
+ 373,268 
+ 
+ 
+ $ 
+ 1,052,426 
+ 
+ 
+ $ 
+ 1,173,043 
+ 
+ 
+ 
+ Solid wood segment 
+ 
+ 117,234 
+ 
+ 
+ 
+ 117,268 
+ 
+ 
+ 
+ 125,093 
+ 
+ 
+ 
+ 357,222 
+ 
+ 
+ 
+ 374,354 
+ 
+ 
+ 
+ Corporate and other 
+ 
+ 1,796 
+ 
+ 
+ 
+ 3,948 
+ 
+ 
+ 
+ 3,780 
+ 
+ 
+ 
+ 8,918 
+ 
+ 
+ 
+ 7,558 
+ 
+ 
+ 
+ Total revenues 
+ $ 
+ 458,068 
+ 
+ 
+ $ 
+ 453,524 
+ 
+ 
+ $ 
+ 502,141 
+ 
+ 
+ $ 
+ 1,418,566 
+ 
+ 
+ $ 
+ 1,554,955 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Pulp Segment Operating EBITDA (1) 
+ $ 
+ (12,686 
+ ) 
+ 
+ $ 
+ (10,262 
+ ) 
+ 
+ $ 
+ 54,645 
+ 
+ 
+ $ 
+ 26,924 
+ 
+ 
+ $ 
+ 154,784 
+ 
+ 
+ 
+ Solid wood Segment Operating EBITDA (1) 
+ 
+ (9,268 
+ ) 
+ 
+ 
+ (4,861 
+ ) 
+ 
+ 
+ (1,933 
+ ) 
+ 
+ 
+ (14,421 
+ ) 
+ 
+ 
+ 296 
+ 
+ 
+ 
+ Corporate and other 
+ 
+ (6,123 
+ ) 
+ 
+ 
+ (5,758 
+ ) 
+ 
+ 
+ (2,257 
+ ) 
+ 
+ 
+ (14,373 
+ ) 
+ 
+ 
+ (10,585 
+ ) 
+ 
+ 
+ Operating EBITDA (2) 
+ $ 
+ (28,077 
+ ) 
+ 
+ $ 
+ (20,881 
+ ) 
+ 
+ $ 
+ 50,455 
+ 
+ 
+ $ 
+ (1,870 
+ ) 
+ 
+ $ 
+ 144,495 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Net loss 
+ $ 
+ (80,779 
+ ) 
+ 
+ $ 
+ (86,071 
+ ) 
+ 
+ $ 
+ (17,559 
+ ) 
+ 
+ $ 
+ (189,189 
+ ) 
+ 
+ $ 
+ (101,848 
+ ) 
+ 
+ 
+ Net loss per common share 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Basic 
+ $ 
+ (1.21 
+ ) 
+ 
+ $ 
+ (1.29 
+ ) 
+ 
+ $ 
+ (0.26 
+ ) 
+ 
+ $ 
+ (2.83 
+ ) 
+ 
+ $ 
+ (1.53 
+ ) 
+ 
+ 
+ Diluted 
+ $ 
+ (1.21 
+ ) 
+ 
+ $ 
+ (1.29 
+ ) 
+ 
+ $ 
+ (0.26 
+ ) 
+ 
+ $ 
+ (2.83 
+ ) 
+ 
+ $ 
+ (1.53 
+ ) 
+ 
+ 
+ Common shares outstanding at period end 
+ 
+ 66,983 
+ 
+ 
+ 
+ 66,983 
+ 
+ 
+ 
+ 66,871 
+ 
+ 
+ 
+ 66,983 
+ 
+ 
+ 
+ 66,871 
+ 
+ 
+ ______________ (1) Segment Operating EBITDA is a measure of segment profit or loss presented in our financial statements under GAAP. Refer to the segment information note in our consolidated financial statements for more information. (2) Operating EBITDA is not a measure of financial performance under GAAP and should not be considered in isolation or as a substitute for analysis of our results as reported under GAAP. See page 6 of the financial tables included in this press release for a reconciliation of net loss to Operating EBITDA. 
+ 1 
+ 
+ 
+ Summary Operating Highlights 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Q3 
+ 
+ 
+ Q2 
+ 
+ 
+ Q3 
+ 
+ 
+ YTD 
+ 
+ 
+ YTD 
+ 
+ 
+ 
+ 
+ 2025 
+ 
+ 
+ 2025 
+ 
+ 
+ 2024 
+ 
+ 
+ 2025 
+ 
+ 
+ 2024 
+ 
+ 
+ 
+ Pulp Segment 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Pulp production ('000 ADMTs) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ NBSK 
+ 
+ 366.7 
+ 
+ 
+ 
+ 403.2 
+ 
+ 
+ 
+ 374.4 
+ 
+ 
+ 
+ 1,140.3 
+ 
+ 
+ 
+ 1,185.4 
+ 
+ 
+ 
+ NBHK 
+ 
+ 92.0 
+ 
+ 
+ 
+ 53.9 
+ 
+ 
+ 
+ 41.4 
+ 
+ 
+ 
+ 234.4 
+ 
+ 
+ 
+ 191.0 
+ 
+ 
+ 
+ Annual maintenance downtime ('000 ADMTs) 
+ 
+ 21.3 
+ 
+ 
+ 
+ 33.2 
+ 
+ 
+ 
+ 22.1 
+ 
+ 
+ 
+ 84.2 
+ 
+ 
+ 
+ 86.9 
+ 
+ 
+ 
+ Annual maintenance downtime (days) 
+ 
+ 20 
+ 
+ 
+ 
+ 23 
+ 
+ 
+ 
+ 20 
+ 
+ 
+ 
+ 65 
+ 
+ 
+ 
+ 57 
+ 
+ 
+ 
+ Pulp sales ('000 ADMTs) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ NBSK 
+ 
+ 385.9 
+ 
+ 
+ 
+ 361.4 
+ 
+ 
+ 
+ 376.2 
+ 
+ 
+ 
+ 1,135.4 
+ 
+ 
+ 
+ 1,242.0 
+ 
+ 
+ 
+ NBHK 
+ 
+ 67.0 
+ 
+ 
+ 
+ 65.3 
+ 
+ 
+ 
+ 72.6 
+ 
+ 
+ 
+ 222.1 
+ 
+ 
+ 
+ 205.8 
+ 
+ 
+ 
+ Average NBSK pulp prices ($/ADMT) (1) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Europe 
+ 
+ 1,497 
+ 
+ 
+ 
+ 1,553 
+ 
+ 
+ 
+ 1,573 
+ 
+ 
+ 
+ 1,533 
+ 
+ 
+ 
+ 1,525 
+ 
+ 
+ 
+ China 
+ 
+ 690 
+ 
+ 
+ 
+ 734 
+ 
+ 
+ 
+ 771 
+ 
+ 
+ 
+ 739 
+ 
+ 
+ 
+ 776 
+ 
+ 
+ 
+ North America 
+ 
+ 1,700 
+ 
+ 
+ 
+ 1,820 
+ 
+ 
+ 
+ 1,762 
+ 
+ 
+ 
+ 1,758 
+ 
+ 
+ 
+ 1,633 
+ 
+ 
+ 
+ Average NBHK pulp prices ($/ADMT) (1) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ China 
+ 
+ 503 
+ 
+ 
+ 
+ 533 
+ 
+ 
+ 
+ 635 
+ 
+ 
+ 
+ 538 
+ 
+ 
+ 
+ 677 
+ 
+ 
+ 
+ North America 
+ 
+ 1,203 
+ 
+ 
+ 
+ 1,310 
+ 
+ 
+ 
+ 1,467 
+ 
+ 
+ 
+ 1,261 
+ 
+ 
+ 
+ 1,376 
+ 
+ 
+ 
+ Average pulp sales realizations ($/ADMT) (2) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ NBSK 
+ 
+ 728 
+ 
+ 
+ 
+ 758 
+ 
+ 
+ 
+ 814 
+ 
+ 
+ 
+ 756 
+ 
+ 
+ 
+ 781 
+ 
+ 
+ 
+ NBHK 
+ 
+ 528 
+ 
+ 
+ 
+ 575 
+ 
+ 
+ 
+ 632 
+ 
+ 
+ 
+ 559 
+ 
+ 
+ 
+ 650 
+ 
+ 
+ 
+ Energy production ('000 MWh) (3) 
+ 
+ 490.5 
+ 
+ 
+ 
+ 511.1 
+ 
+ 
+ 
+ 509.8 
+ 
+ 
+ 
+ 1,528.7 
+ 
+ 
+ 
+ 1,580.2 
+ 
+ 
+ 
+ Energy sales ('000 MWh) (3) 
+ 
+ 171.1 
+ 
+ 
+ 
+ 183.1 
+ 
+ 
+ 
+ 187.0 
+ 
+ 
+ 
+ 552.9 
+ 
+ 
+ 
+ 592.6 
+ 
+ 
+ 
+ Average energy sales realizations ($/MWh) (3) 
+ 
+ 98 
+ 
+ 
+ 
+ 83 
+ 
+ 
+ 
+ 86 
+ 
+ 
+ 
+ 97 
+ 
+ 
+ 
+ 86 
+ 
+ 
+ 
+ Solid Wood Segment 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Lumber 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Production (MMfbm) 
+ 
+ 115.4 
+ 
+ 
+ 
+ 120.2 
+ 
+ 
+ 
+ 122.5 
+ 
+ 
+ 
+ 363.6 
+ 
+ 
+ 
+ 360.9 
+ 
+ 
+ 
+ Sales (MMfbm) 
+ 
+ 110.2 
+ 
+ 
+ 
+ 120.6 
+ 
+ 
+ 
+ 108.8 
+ 
+ 
+ 
+ 361.8 
+ 
+ 
+ 
+ 346.8 
+ 
+ 
+ 
+ Average sales realizations ($/Mfbm) 
+ 
+ 553 
+ 
+ 
+ 
+ 550 
+ 
+ 
+ 
+ 451 
+ 
+ 
+ 
+ 533 
+ 
+ 
+ 
+ 458 
+ 
+ 
+ 
+ Energy 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Production and sales ('000 MWh) 
+ 
+ 32.7 
+ 
+ 
+ 
+ 32.7 
+ 
+ 
+ 
+ 17.9 
+ 
+ 
+ 
+ 101.5 
+ 
+ 
+ 
+ 90.2 
+ 
+ 
+ 
+ Average sales realizations ($/MWh) 
+ 
+ 150 
+ 
+ 
+ 
+ 130 
+ 
+ 
+ 
+ 145 
+ 
+ 
+ 
+ 138 
+ 
+ 
+ 
+ 130 
+ 
+ 
+ 
+ Manufactured products (4) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Production ('000 cubic meters) 
+ 
+ 9.2 
+ 
+ 
+ 
+ 7.8 
+ 
+ 
+ 
+ 9.8 
+ 
+ 
+ 
+ 24.1 
+ 
+ 
+ 
+ 28.1 
+ 
+ 
+ 
+ Sales ('000 cubic meters) 
+ 
+ 6.8 
+ 
+ 
+ 
+ 8.1 
+ 
+ 
+ 
+ 9.9 
+ 
+ 
+ 
+ 20.8 
+ 
+ 
+ 
+ 25.0 
+ 
+ 
+ 
+ Average sales realizations ($/cubic meter) 
+ 
+ 1,615 
+ 
+ 
+ 
+ 1,318 
+ 
+ 
+ 
+ 3,463 
+ 
+ 
+ 
+ 1,843 
+ 
+ 
+ 
+ 3,260 
+ 
+ 
+ 
+ Pallets 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Production ('000 units) 
+ 
+ 2,265.2 
+ 
+ 
+ 
+ 2,132.9 
+ 
+ 
+ 
+ 2,525.5 
+ 
+ 
+ 
+ 6,494.5 
+ 
+ 
+ 
+ 8,129.7 
+ 
+ 
+ 
+ Sales ('000 units) 
+ 
+ 2,144.5 
+ 
+ 
+ 
+ 2,248.0 
+ 
+ 
+ 
+ 2,446.7 
+ 
+ 
+ 
+ 6,521.3 
+ 
+ 
+ 
+ 7,933.4 
+ 
+ 
+ 
+ Average sales realizations ($/unit) 
+ 
+ 12 
+ 
+ 
+ 
+ 12 
+ 
+ 
+ 
+ 11 
+ 
+ 
+ 
+ 12 
+ 
+ 
+ 
+ 10 
+ 
+ 
+ 
+ Biofuels (5) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Production ('000 tonnes) 
+ 
+ 33.3 
+ 
+ 
+ 
+ 25.2 
+ 
+ 
+ 
+ 40.6 
+ 
+ 
+ 
+ 103.1 
+ 
+ 
+ 
+ 119.6 
+ 
+ 
+ 
+ Sales ('000 tonnes) 
+ 
+ 39.8 
+ 
+ 
+ 
+ 19.6 
+ 
+ 
+ 
+ 43.5 
+ 
+ 
+ 
+ 99.6 
+ 
+ 
+ 
+ 132.1 
+ 
+ 
+ 
+ Average sales realizations ($/tonne) 
+ 
+ 256 
+ 
+ 
+ 
+ 260 
+ 
+ 
+ 
+ 213 
+ 
+ 
+ 
+ 246 
+ 
+ 
+ 
+ 217 
+ 
+ 
+ 
+ Average Spot Currency Exchange Rates 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ $ / &#x20ac; (6) 
+ 
+ 1.1685 
+ 
+ 
+ 
+ 1.1342 
+ 
+ 
+ 
+ 1.0987 
+ 
+ 
+ 
+ 1.1196 
+ 
+ 
+ 
+ 1.0870 
+ 
+ 
+ 
+ $ / C$ (6) 
+ 
+ 0.7261 
+ 
+ 
+ 
+ 0.7225 
+ 
+ 
+ 
+ 0.7331 
+ 
+ 
+ 
+ 0.7154 
+ 
+ 
+ 
+ 0.7352 
+ 
+ 
+ ______________ (1) Source: RISI pricing report. Europe and North America are list prices. China are net prices which include discounts, allowances and rebates. (2) Sales realizations after customer discounts, rebates and other selling concessions. (3) Does not include our 50% joint venture interest in CPP, which was accounted for using the equity method. In the first quarter of 2024, we disposed of this interest. (4) Manufactured products primarily include CLT and glulam. (5) Biofuels include pellets and briquettes. (6) Average Federal Reserve Bank of New York Noon Buying Rates over the reporting period. 
+ 2 
+ 
+ 
+ MERCER INTERNATIONAL INC. INTERIM CONSOLIDATED STATEMENTS OF OPERATIONS (Unaudited) (In thousands, except per share data) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Three Months Ended September 30, 
+ 
+ 
+ Nine Months Ended September 30, 
+ 
+ 
+ 
+ 
+ 
+ 2025 
+ 
+ 
+ 2024 
+ 
+ 
+ 2025 
+ 
+ 
+ 2024 
+ 
+ 
+ 
+ Revenues 
+ 
+ $ 
+ 458,068 
+ 
+ 
+ $ 
+ 502,141 
+ 
+ 
+ $ 
+ 1,418,566 
+ 
+ 
+ $ 
+ 1,554,955 
+ 
+ 
+ 
+ Costs and expenses 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Cost of sales, excluding depreciation and amortization 
+ 
+ 
+ 457,397 
+ 
+ 
+ 
+ 422,598 
+ 
+ 
+ 
+ 1,331,691 
+ 
+ 
+ 
+ 1,320,000 
+ 
+ 
+ 
+ Cost of sales depreciation and amortization 
+ 
+ 
+ 39,439 
+ 
+ 
+ 
+ 41,546 
+ 
+ 
+ 
+ 117,180 
+ 
+ 
+ 
+ 121,773 
+ 
+ 
+ 
+ Selling, general and administrative expenses 
+ 
+ 
+ 28,821 
+ 
+ 
+ 
+ 29,156 
+ 
+ 
+ 
+ 88,955 
+ 
+ 
+ 
+ 90,646 
+ 
+ 
+ 
+ Loss on disposal of investment in joint venture 
+ 
+ 
+ &#x2014; 
+ 
+ 
+ 
+ &#x2014; 
+ 
+ 
+ 
+ &#x2014; 
+ 
+ 
+ 
+ 23,645 
+ 
+ 
+ 
+ Goodwill impairment 
+ 
+ 
+ &#x2014; 
+ 
+ 
+ 
+ &#x2014; 
+ 
+ 
+ 
+ &#x2014; 
+ 
+ 
+ 
+ 34,277 
+ 
+ 
+ 
+ Operating income (loss) 
+ 
+ 
+ (67,589 
+ ) 
+ 
+ 
+ 8,841 
+ 
+ 
+ 
+ (119,260 
+ ) 
+ 
+ 
+ (35,386 
+ ) 
+ 
+ 
+ Other income (expenses) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Interest expense 
+ 
+ 
+ (28,506 
+ ) 
+ 
+ 
+ (26,429 
+ ) 
+ 
+ 
+ (85,072 
+ ) 
+ 
+ 
+ (80,831 
+ ) 
+ 
+ 
+ Other income (expenses) 
+ 
+ 
+ 539 
+ 
+ 
+ 
+ (91 
+ ) 
+ 
+ 
+ (766 
+ ) 
+ 
+ 
+ 9,147 
+ 
+ 
+ 
+ Total other expenses, net 
+ 
+ 
+ (27,967 
+ ) 
+ 
+ 
+ (26,520 
+ ) 
+ 
+ 
+ (85,838 
+ ) 
+ 
+ 
+ (71,684 
+ ) 
+ 
+ 
+ Loss before income taxes 
+ 
+ 
+ (95,556 
+ ) 
+ 
+ 
+ (17,679 
+ ) 
+ 
+ 
+ (205,098 
+ ) 
+ 
+ 
+ (107,070 
+ ) 
+ 
+ 
+ Income tax recovery 
+ 
+ 
+ 14,777 
+ 
+ 
+ 
+ 120 
+ 
+ 
+ 
+ 15,909 
+ 
+ 
+ 
+ 5,222 
+ 
+ 
+ 
+ Net loss 
+ 
+ $ 
+ (80,779 
+ ) 
+ 
+ $ 
+ (17,559 
+ ) 
+ 
+ $ 
+ (189,189 
+ ) 
+ 
+ $ 
+ (101,848 
+ ) 
+ 
+ 
+ Net loss per common share 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Basic 
+ 
+ $ 
+ (1.21 
+ ) 
+ 
+ $ 
+ (0.26 
+ ) 
+ 
+ $ 
+ (2.83 
+ ) 
+ 
+ $ 
+ (1.53 
+ ) 
+ 
+ 
+ Diluted 
+ 
+ $ 
+ (1.21 
+ ) 
+ 
+ $ 
+ (0.26 
+ ) 
+ 
+ $ 
+ (2.83 
+ ) 
+ 
+ $ 
+ (1.53 
+ ) 
+ 
+ 
+ Dividends declared per common share 
+ 
+ $ 
+ &#x2014; 
+ 
+ 
+ $ 
+ 0.075 
+ 
+ 
+ $ 
+ 0.150 
+ 
+ 
+ $ 
+ 0.225 
+ 
+ 
+ 
+ 3 
+ 
+ 
+ MERCER INTERNATIONAL INC. INTERIM CONSOLIDATED BALANCE SHEETS (Unaudited) (In thousands, except share and per share data) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ September 30, 2025 
+ 
+ 
+ December 31, 2024 
+ 
+ 
+ 
+ ASSETS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Current assets 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Cash and cash equivalents 
+ 
+ $ 
+ 98,102 
+ 
+ 
+ $ 
+ 184,925 
+ 
+ 
+ 
+ Accounts receivable, net 
+ 
+ 
+ 328,432 
+ 
+ 
+ 
+ 327,345 
+ 
+ 
+ 
+ Inventories 
+ 
+ 
+ 384,657 
+ 
+ 
+ 
+ 361,682 
+ 
+ 
+ 
+ Prepaid expenses and other 
+ 
+ 
+ 53,177 
+ 
+ 
+ 
+ 17,601 
+ 
+ 
+ 
+ Assets classified as held for sale 
+ 
+ 
+ 3,451 
+ 
+ 
+ 
+ 18,451 
+ 
+ 
+ 
+ Total current assets 
+ 
+ 
+ 867,819 
+ 
+ 
+ 
+ 910,004 
+ 
+ 
+ 
+ Property, plant and equipment, net 
+ 
+ 
+ 1,323,133 
+ 
+ 
+ 
+ 1,254,715 
+ 
+ 
+ 
+ Amortizable intangible assets, net 
+ 
+ 
+ 53,407 
+ 
+ 
+ 
+ 49,829 
+ 
+ 
+ 
+ Operating lease right-of-use assets 
+ 
+ 
+ 10,621 
+ 
+ 
+ 
+ 7,598 
+ 
+ 
+ 
+ Pension asset 
+ 
+ 
+ 7,638 
+ 
+ 
+ 
+ 9,378 
+ 
+ 
+ 
+ Deferred income tax assets 
+ 
+ 
+ 21,493 
+ 
+ 
+ 
+ 17,778 
+ 
+ 
+ 
+ Other long-term assets 
+ 
+ 
+ 6,452 
+ 
+ 
+ 
+ 13,630 
+ 
+ 
+ 
+ Total assets 
+ 
+ $ 
+ 2,290,563 
+ 
+ 
+ $ 
+ 2,262,932 
+ 
+ 
+ 
+ LIABILITIES AND SHAREHOLDERS&#x2019; EQUITY 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Current liabilities 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Accounts payable and other 
+ 
+ $ 
+ 287,395 
+ 
+ 
+ $ 
+ 248,661 
+ 
+ 
+ 
+ Pension and other post-retirement benefit obligations 
+ 
+ 
+ 756 
+ 
+ 
+ 
+ 732 
+ 
+ 
+ 
+ Liabilities associated with assets held for sale 
+ 
+ 
+ &#x2014; 
+ 
+ 
+ 
+ 7,145 
+ 
+ 
+ 
+ Total current liabilities 
+ 
+ 
+ 288,151 
+ 
+ 
+ 
+ 256,538 
+ 
+ 
+ 
+ Long-term debt 
+ 
+ 
+ 1,546,993 
+ 
+ 
+ 
+ 1,473,986 
+ 
+ 
+ 
+ Pension and other post-retirement benefit obligations 
+ 
+ 
+ 12,833 
+ 
+ 
+ 
+ 11,134 
+ 
+ 
+ 
+ Operating lease liabilities 
+ 
+ 
+ 6,841 
+ 
+ 
+ 
+ 4,793 
+ 
+ 
+ 
+ Deferred income tax liabilities 
+ 
+ 
+ 63,162 
+ 
+ 
+ 
+ 74,772 
+ 
+ 
+ 
+ Other long-term liabilities 
+ 
+ 
+ 13,051 
+ 
+ 
+ 
+ 11,934 
+ 
+ 
+ 
+ Total liabilities 
+ 
+ 
+ 1,931,031 
+ 
+ 
+ 
+ 1,833,157 
+ 
+ 
+ 
+ Shareholders&#x2019; equity 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Common shares $1 par value; 200,000,000 authorized; 66,983,000 issued and outstanding (2024 &#x2013; 66,871,000) 
+ 
+ 
+ 66,871 
+ 
+ 
+ 
+ 66,850 
+ 
+ 
+ 
+ Additional paid-in capital 
+ 
+ 
+ 366,146 
+ 
+ 
+ 
+ 362,782 
+ 
+ 
+ 
+ Retained earnings 
+ 
+ 
+ 31,684 
+ 
+ 
+ 
+ 230,912 
+ 
+ 
+ 
+ Accumulated other comprehensive loss 
+ 
+ 
+ (105,169 
+ ) 
+ 
+ 
+ (230,769 
+ ) 
+ 
+ 
+ Total shareholders&#x2019; equity 
+ 
+ 
+ 359,532 
+ 
+ 
+ 
+ 429,775 
+ 
+ 
+ 
+ Total liabilities and shareholders&#x2019; equity 
+ 
+ $ 
+ 2,290,563 
+ 
+ 
+ $ 
+ 2,262,932 
+ 
+ 
+ 
+ 4 
+ 
+ 
+ MERCER INTERNATIONAL INC. INTERIM CONSOLIDATED STATEMENTS OF CASH FLOWS (Unaudited) (In thousands) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Three Months Ended September 30, 
+ 
+ 
+ Nine Months Ended September 30, 
+ 
+ 
+ 
+ 
+ 
+ 2025 
+ 
+ 
+ 2024 
+ 
+ 
+ 2025 
+ 
+ 
+ 2024 
+ 
+ 
+ 
+ Cash flows from (used in) operating activities 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Net loss 
+ 
+ $ 
+ (80,779 
+ ) 
+ 
+ $ 
+ (17,559 
+ ) 
+ 
+ $ 
+ (189,189 
+ ) 
+ 
+ $ 
+ (101,848 
+ ) 
+ 
+ 
+ Adjustments to reconcile net loss to cash flows from operating activities 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Depreciation and amortization 
+ 
+ 
+ 39,512 
+ 
+ 
+ 
+ 41,614 
+ 
+ 
+ 
+ 117,390 
+ 
+ 
+ 
+ 121,959 
+ 
+ 
+ 
+ Deferred income tax recovery 
+ 
+ 
+ (10,989 
+ ) 
+ 
+ 
+ (14,403 
+ ) 
+ 
+ 
+ (22,127 
+ ) 
+ 
+ 
+ (20,507 
+ ) 
+ 
+ 
+ Inventory impairment 
+ 
+ 
+ 20,400 
+ 
+ 
+ 
+ 4,000 
+ 
+ 
+ 
+ 31,400 
+ 
+ 
+ 
+ 4,000 
+ 
+ 
+ 
+ Loss on disposal of investment in joint venture 
+ 
+ 
+ &#x2014; 
+ 
+ 
+ 
+ &#x2014; 
+ 
+ 
+ 
+ &#x2014; 
+ 
+ 
+ 
+ 23,645 
+ 
+ 
+ 
+ Goodwill impairment 
+ 
+ 
+ &#x2014; 
+ 
+ 
+ 
+ &#x2014; 
+ 
+ 
+ 
+ &#x2014; 
+ 
+ 
+ 
+ 34,277 
+ 
+ 
+ 
+ Defined benefit pension plans and other post-retirement benefit plan expense 
+ 
+ 
+ 174 
+ 
+ 
+ 
+ 317 
+ 
+ 
+ 
+ 518 
+ 
+ 
+ 
+ 958 
+ 
+ 
+ 
+ Stock compensation expense 
+ 
+ 
+ 1,310 
+ 
+ 
+ 
+ 1,420 
+ 
+ 
+ 
+ 3,352 
+ 
+ 
+ 
+ 4,852 
+ 
+ 
+ 
+ Foreign exchange transaction losses (gains) 
+ 
+ 
+ (3,480 
+ ) 
+ 
+ 
+ 6,095 
+ 
+ 
+ 
+ 14,299 
+ 
+ 
+ 
+ (736 
+ ) 
+ 
+ 
+ Other 
+ 
+ 
+ 2,016 
+ 
+ 
+ 
+ 874 
+ 
+ 
+ 
+ 6,656 
+ 
+ 
+ 
+ 2,990 
+ 
+ 
+ 
+ Defined benefit pension plans and other post-retirement benefit plan contributions 
+ 
+ 
+ &#x2014; 
+ 
+ 
+ 
+ (341 
+ ) 
+ 
+ 
+ &#x2014; 
+ 
+ 
+ 
+ (958 
+ ) 
+ 
+ 
+ Changes in working capital 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Accounts receivable 
+ 
+ 
+ 10,245 
+ 
+ 
+ 
+ 860 
+ 
+ 
+ 
+ 25,035 
+ 
+ 
+ 
+ (40,940 
+ ) 
+ 
+ 
+ Inventories 
+ 
+ 
+ 20,025 
+ 
+ 
+ 
+ 20,639 
+ 
+ 
+ 
+ (4,041 
+ ) 
+ 
+ 
+ 25,234 
+ 
+ 
+ 
+ Accounts payable and accrued expenses 
+ 
+ 
+ (3,159 
+ ) 
+ 
+ 
+ (43,527 
+ ) 
+ 
+ 
+ 13,227 
+ 
+ 
+ 
+ (25,419 
+ ) 
+ 
+ 
+ Prepaid expenses and other 
+ 
+ 
+ (25,329 
+ ) 
+ 
+ 
+ (13,934 
+ ) 
+ 
+ 
+ (34,089 
+ ) 
+ 
+ 
+ (8,461 
+ ) 
+ 
+ 
+ Net cash from (used in) operating activities 
+ 
+ 
+ (30,054 
+ ) 
+ 
+ 
+ (13,945 
+ ) 
+ 
+ 
+ (37,569 
+ ) 
+ 
+ 
+ 19,046 
+ 
+ 
+ 
+ Cash flows from (used in) investing activities 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Purchase of property, plant and equipment 
+ 
+ 
+ (30,017 
+ ) 
+ 
+ 
+ (27,264 
+ ) 
+ 
+ 
+ (74,430 
+ ) 
+ 
+ 
+ (63,608 
+ ) 
+ 
+ 
+ Proceeds from sale of property, plant and equipment 
+ 
+ 
+ 684 
+ 
+ 
+ 
+ 3,665 
+ 
+ 
+ 
+ 1,484 
+ 
+ 
+ 
+ 5,210 
+ 
+ 
+ 
+ Proceeds from government grants 
+ 
+ 
+ 1,858 
+ 
+ 
+ 
+ &#x2014; 
+ 
+ 
+ 
+ 4,973 
+ 
+ 
+ 
+ 787 
+ 
+ 
+ 
+ Other 
+ 
+ 
+ (138 
+ ) 
+ 
+ 
+ 696 
+ 
+ 
+ 
+ (2,273 
+ ) 
+ 
+ 
+ (2,930 
+ ) 
+ 
+ 
+ Net cash used in investing activities 
+ 
+ 
+ (27,613 
+ ) 
+ 
+ 
+ (22,903 
+ ) 
+ 
+ 
+ (70,246 
+ ) 
+ 
+ 
+ (60,541 
+ ) 
+ 
+ 
+ Cash flows from (used in) financing activities 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Proceeds from (repayment of) revolving credit facilities, net 
+ 
+ 
+ 21,275 
+ 
+ 
+ 
+ 20,330 
+ 
+ 
+ 
+ 46,636 
+ 
+ 
+ 
+ (15,510 
+ ) 
+ 
+ 
+ Dividend payments 
+ 
+ 
+ (5,024 
+ ) 
+ 
+ 
+ (5,015 
+ ) 
+ 
+ 
+ (10,039 
+ ) 
+ 
+ 
+ (10,029 
+ ) 
+ 
+ 
+ Payment of finance lease obligations 
+ 
+ 
+ (4,872 
+ ) 
+ 
+ 
+ (2,564 
+ ) 
+ 
+ 
+ (9,785 
+ ) 
+ 
+ 
+ (7,440 
+ ) 
+ 
+ 
+ Other 
+ 
+ 
+ (425 
+ ) 
+ 
+ 
+ (23 
+ ) 
+ 
+ 
+ 120 
+ 
+ 
+ 
+ (752 
+ ) 
+ 
+ 
+ Net cash from (used in) financing activities 
+ 
+ 
+ 10,954 
+ 
+ 
+ 
+ 12,728 
+ 
+ 
+ 
+ 26,932 
+ 
+ 
+ 
+ (33,731 
+ ) 
+ 
+ 
+ Effect of exchange rate changes on cash and cash equivalents 
+ 
+ 
+ (1,684 
+ ) 
+ 
+ 
+ (58 
+ ) 
+ 
+ 
+ (5,940 
+ ) 
+ 
+ 
+ 229 
+ 
+ 
+ 
+ Net decrease in cash and cash equivalents 
+ 
+ 
+ (48,397 
+ ) 
+ 
+ 
+ (24,178 
+ ) 
+ 
+ 
+ (86,823 
+ ) 
+ 
+ 
+ (74,997 
+ ) 
+ 
+ 
+ Cash and cash equivalents, beginning of period 
+ 
+ 
+ 146,499 
+ 
+ 
+ 
+ 263,173 
+ 
+ 
+ 
+ 184,925 
+ 
+ 
+ 
+ 313,992 
+ 
+ 
+ 
+ Cash and cash equivalents, end of period 
+ 
+ $ 
+ 98,102 
+ 
+ 
+ $ 
+ 238,995 
+ 
+ 
+ $ 
+ 98,102 
+ 
+ 
+ $ 
+ 238,995 
+ 
+ 
+ 
+ 5 
+ 
+ 
+ MERCER INTERNATIONAL INC. COMPUTATION OF OPERATING EBITDA (Unaudited) (In thousands) Operating EBITDA is defined as operating income (loss) plus depreciation and amortization and long-lived asset impairment charges. Management uses Operating EBITDA as a benchmark measurement of its own operating results, and as a benchmark relative to its competitors. Management considers it to be a meaningful supplement to operating income (loss) as a performance measure primarily because depreciation expense and long-lived asset impairment charges are not actual cash costs, and depreciation expense varies widely from company to company in a manner that management considers largely independent of the underlying cost efficiency of our operating facilities. In addition, management believes Operating EBITDA is commonly used by securities analysts, investors and other interested parties to evaluate our financial performance. Operating EBITDA does not reflect the impact of a number of items that affect our net loss, including financing costs, income taxes and the effect of derivative instruments. Operating EBITDA is not a measure of financial performance under GAAP and should not be considered as an alternative to net loss or operating income (loss) as a measure of performance, nor as an alternative to net cash from (used in) operating activities as a measure of liquidity. Operating EBITDA is an internal measure and therefore may not be comparable to other companies. Operating EBITDA is a non-GAAP financial measure at the consolidated level and is considered different from Operating EBITDA at the segment level, referred to as Segment Operating EBITDA, which is our single measure of segment profit or loss presented in our financial statements under GAAP. For more information on Segment Operating EBITDA, refer to the segment information note within our consolidated financial statements. The following table sets forth a reconciliation of net loss to Operating EBITDA for the periods indicated: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Q3 
+ 
+ 
+ Q2 
+ 
+ 
+ Q3 
+ 
+ 
+ YTD 
+ 
+ 
+ YTD 
+ 
+ 
+ 
+ 
+ 2025 
+ 
+ 
+ 2025 
+ 
+ 
+ 2024 
+ 
+ 
+ 2025 
+ 
+ 
+ 2024 
+ 
+ 
+ 
+ Net loss 
+ $ 
+ (80,779 
+ ) 
+ 
+ $ 
+ (86,071 
+ ) 
+ 
+ $ 
+ (17,559 
+ ) 
+ 
+ $ 
+ (189,189 
+ ) 
+ 
+ $ 
+ (101,848 
+ ) 
+ 
+ 
+ Income tax recovery 
+ 
+ (14,777 
+ ) 
+ 
+ 
+ (1,864 
+ ) 
+ 
+ 
+ (120 
+ ) 
+ 
+ 
+ (15,909 
+ ) 
+ 
+ 
+ (5,222 
+ ) 
+ 
+ 
+ Interest expense 
+ 
+ 28,506 
+ 
+ 
+ 
+ 28,411 
+ 
+ 
+ 
+ 26,429 
+ 
+ 
+ 
+ 85,072 
+ 
+ 
+ 
+ 80,831 
+ 
+ 
+ 
+ Other expenses (income) 
+ 
+ (539 
+ ) 
+ 
+ 
+ 1,120 
+ 
+ 
+ 
+ 91 
+ 
+ 
+ 
+ 766 
+ 
+ 
+ 
+ (9,147 
+ ) 
+ 
+ 
+ Operating income (loss) 
+ 
+ (67,589 
+ ) 
+ 
+ 
+ (58,404 
+ ) 
+ 
+ 
+ 8,841 
+ 
+ 
+ 
+ (119,260 
+ ) 
+ 
+ 
+ (35,386 
+ ) 
+ 
+ 
+ Add: Depreciation and amortization 
+ 
+ 39,512 
+ 
+ 
+ 
+ 37,523 
+ 
+ 
+ 
+ 41,614 
+ 
+ 
+ 
+ 117,390 
+ 
+ 
+ 
+ 121,959 
+ 
+ 
+ 
+ Add: Loss on disposal of investment in joint venture 
+ 
+ &#x2014; 
+ 
+ 
+ 
+ &#x2014; 
+ 
+ 
+ 
+ &#x2014; 
+ 
+ 
+ 
+ &#x2014; 
+ 
+ 
+ 
+ 23,645 
+ 
+ 
+ 
+ Add: Goodwill impairment 
+ 
+ &#x2014; 
+ 
+ 
+ 
+ &#x2014; 
+ 
+ 
+ 
+ &#x2014; 
+ 
+ 
+ 
+ &#x2014; 
+ 
+ 
+ 
+ 34,277 
+ 
+ 
+ 
+ Operating EBITDA 
+ $ 
+ (28,077 
+ ) 
+ 
+ $ 
+ (20,881 
+ ) 
+ 
+ $ 
+ 50,455 
+ 
+ 
+ $ 
+ (1,870 
+ ) 
+ 
+ $ 
+ 144,495 
+ 
+ 
+ 
+ 6

@@ -1,0 +1,439 @@
+8-K
+ 1
+ next20240104_8k.htm
+ FORM 8-K
+ 
+ 
+ next20240104_8k.htm 
+ 
+ 
+ 
+ 
+
+ 
+
+ UNITED STATES 
+ SECURITIES AND EXCHANGE COMMISSION 
+ WASHINGTON, D.C. 20549 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ FORM 8-K 
+ CURRENT REPORT 
+
+ 
+
+ PURSUANT TO SECTION 13 OR 15(D) OF THE 
+ SECURITIES EXCHANGE ACT OF 1934 
+
+ 
+
+ Date of Report (Date of earliest event reported): January 4, 2024 
+
+ 
+
+ NEXTDECADE CORPORATION 
+(Exact Name of Registrant as Specified in Charter) 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Delaware 
+ 
+ 
+ 001-36842 
+ 
+ 
+ 46-5723951 
+ 
+ 
+ 
+ 
+ (State or Other Jurisdiction of Incorporation) 
+ 
+ 
+ (Commission File Number) 
+ 
+ 
+ (IRS Employer Identification No.) 
+ 
+ 
+
+ 
+
+ 
+
+ 1000 Louisiana Street, Suite 3900, Houston, Texas 77002 
+(Address of Principal Executive Offices) (Zip Code) 
+
+ 
+
+ (713) 574-1880 
+(Registrants Telephone Number, Including Area Code) 
+
+ 
+
+ N/A 
+(Former Name or Former Address, if Changed Since Last Report) 
+
+ 
+
+ Check the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions (see General Instruction A.2. below): 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b)) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e 4(c)) 
+ 
+ 
+
+ 
+
+ 
+
+ Securities registered pursuant to Section 12(b) of the Act: 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Title of each class: 
+ 
+ 
+ 
+ Trading Symbol 
+ 
+ 
+ 
+ Name of each exchange on which registered: 
+ 
+ 
+ 
+ 
+ Common Stock, $0.0001 par value 
+ 
+ 
+ 
+ NEXT 
+ 
+ 
+ 
+ The Nasdaq Stock Market LLC 
+ 
+ 
+
+ 
+
+ 
+
+ Indicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (230.405 of this chapter) or Rule 12b-2 of the Securities Exchange Act of 1934 (240.12b-2 of this chapter). 
+
+ 
+
+ Emerging growth company 
+
+ 
+
+ If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. 
+
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ Item 1.01 Entry into a Material Definitive Agreement. 
+
+ 
+
+ On January 4, 2024 (the Closing Date ), NextDecade LNG, LLC, a Delaware limited liability company ( NextDecade LNG ) and a direct subsidiary of NextDecade Corporation (the Company ), entered into a Credit and Guaranty Agreement (the Credit Agreement ) by and among NextDecade LNG, as borrower, Rio Grande LNG Super Holdings, LLC, a Delaware limited liability company and a direct subsidiary of NextDecade LNG ( RG Super Holdings ), as a subsidiary guarantor, Rio Grande LNG Intermediate Super Holdings, LLC, a Delaware limited liability company and an indirect subsidiary of NextDecade LNG ( RG Intermediate Super Holdings ), as a subsidiary guarantor, MUFG Bank, Ltd., as the administrative agent (the Administrative Agent ), Wilmington Trust, National Association, as the collateral agent (the Collateral Agent ), MUFG Bank, Ltd., as coordinating lead arranger and bookrunner and the financial institutions party thereto as lenders. The Credit Agreement provides for the following facilities: 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ a revolving loan facility (the Revolving Loans ) in an amount up to $50,000,000 available to NextDecade LNG to be used for (a) general corporate purposes and working capital requirements of NextDecade LNG and its subsidiaries, including development costs related to the fourth liquefaction train and related common facilities at the Rio Grande LNG multi-plant integrated natural gas liquefaction and liquefied natural gas export terminal facility at the Port of Brownsville in southern Texas (the Rio Grande LNG Facility ), and (b) certain permitted payments on behalf of the Company and its subsidiaries; and 
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ an interest loan facility (the Interest Loans and together with the Revolving Loans, the Loans ) in an amount up to $12,500,000 available to NextDecade LNG to pay interest obligations, fees, and expenses due and payable under the Credit Agreement and the other finance documents. 
+ 
+ 
+
+ 
+
+ 
+
+ The principal amount of the Loans must be repaid on the maturity date, which is the earlier of (a) the second anniversary of the Closing Date or such later anniversary of the Closing Date as may be determined by a unanimous decision of the lenders following a written request from NextDecade LNG and (b) ten business days after the date a final investment decision is taken by the board of directors of the Company in respect of the development of the fourth liquefaction train and related common facilities at the Rio Grande LNG Facility. NextDecade LNG may extend the maturity to the date that is ninety days after the date in clause (b) if it delivers written notice to the lenders specifying in reasonable detail its expected source of liquidity to repay all outstanding obligations under the Credit Agreement and the other finance documents on the last day of the requested ninety-day extension. NextDecade LNG may make borrowings based on SOFR plus the applicable margin (4.50%) or the base rate plus the applicable margin (3.50%). NextDecade LNG will pay commitment fees on the undrawn amount of the loan commitments. 
+
+ 
+
+ NextDecade LNGs obligations under the Credit Agreement and the other finance documents are guaranteed by RG Super Holdings and RG Intermediate Super Holdings, each in its capacity as a subsidiary guarantor, as well as any other subsidiary of NextDecade LNG that accedes as a subsidiary guarantor pursuant to the requirements of the Credit Agreement and the other finance documents. 
+
+ 
+
+ The Credit Agreement includes covenants and events of default that are customary for a holding company financing of this type, including covenants that, among other things, limit the ability of NextDecade LNG and the Subsidiary Guarantors to incur additional indebtedness, make certain investments or pay dividends or distributions on equity interests or subordinated indebtedness or purchase, redeem, or retire equity interests, sell or transfer assets, incur liens or dissolve, liquidate, consolidate, merge. The Credit Agreement requires NextDecade LNG to apply any distributions received from RG Super Holdings to a mandatory prepayment of the Loans unless NextDecade LNG is otherwise permitted to make a distribution with such proceeds pursuant to the Credit Agreement. 
+
+ 
+
+ Upon the occurrence and continuation of an event of default under the Credit Agreement (and after all applicable cure periods have elapsed), the required lenders may, by notice to NextDecade LNG (except in the case an event of default under the Credit Agreement relating to bankruptcy or insolvency, in which case a notice is not required), accelerate the Loans (in whole or in part), suspend or terminate all outstanding loan commitments under the Credit Agreement and exercise remedies in respect of the collateral. The Credit Agreement provides the Company with a sixty-day cure period (which may be extended to ninety days if certain requirements are met) before any of the secured parties may foreclose on the equity interests in NextDecade LNG or any subsidiary guarantor. 
+
+ 
+
+ In connection with Credit Agreement, the following security documents were entered into on the Closing Date: 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ a Pledge Agreement between the Company and the Collateral Agent, pursuant to which the Company has granted a security interest in favor of the Collateral Agent for the benefit of the secured parties in the equity interests it holds in NextDecade LNG; and 
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ a Security and Depositary Agreement among NextDecade LNG, RG Super Holdings, RG Intermediate Super Holdings, the Administrative Agent, the Collateral Agent, and Wilmington Trust, National Association, as depositary, pursuant to which each of NextDecade LNG, RG Super Holdings, and RG Intermediate Super Holdings have granted a security interest in favor of the Collateral Agent for the benefit of the secured parties in substantially all of their respective personal property as well as the equity interests they hold in certain subsidiaries, and NextDecade LNG has also granted a security interest in favor of the Collateral Agent for the benefit of the secured parties in a securities account into which certain distributions received by NextDecade LNG will be deposited. 
+ 
+ 
+
+ 
+
+ 
+
+ Item 2.03. Creation of a Direct Financial Obligation or an Obligation under an Off-Balance Sheet Arrangement of a Registrant. 
+
+ 
+
+ The information included in Item 1.01 of this Current Report is incorporated by reference into this Item 2.03. 
+
+ 
+
+ Item 7.01. Regulation FD Disclosure. 
+
+ 
+
+ The information in this Item 7.01 of this Current Report is being furnished pursuant to Item 7.01 of Form 8-K and, according to general instruction B.2. thereunder, the information in this Item 7.01 of this Current Report shall not be deemed filed for the purposes of Section 18 of the Securities Exchange Act of 1934 (the Exchange Act ) or otherwise subject to the liabilities of that Section. The information in this Item 7.01 of this Current Report shall not be incorporated by reference into any registration statement pursuant to the Securities Act or the Exchange Act. 
+
+ 
+
+ On January 4, 2024, the Company issued a press release regarding NextDecade LNG's entry into the Credit Agreement. A copy of the press release is attached hereto as Exhibit 99.1. 
+
+ 
+
+ Item 9.01. Financial Statements and Exhibits. 
+
+ 
+
+ (d) Exhibits. 
+
+ 
+
+ 
+
+ 
+ 
+ 99.1 
+ 
+ 
+ Press Release issued by the Company on January 4, 2024. 
+ 
+ 
+ 
+ 
+ 104 
+ 
+ 
+ Cover Page Interactive Data File (embedded within the Inline XBRL document). 
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ SIGNATURE 
+
+ 
+
+ Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized. 
+
+ 
+
+ Dated: January 8, 2024 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ NEXTDECADE CORPORATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ By: 
+ 
+ 
+ /s/ Vera de Gyarfas 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Name: Vera de Gyarfas 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Title: General Counsel

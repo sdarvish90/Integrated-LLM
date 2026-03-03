@@ -1,0 +1,64 @@
+======================================================================
+LARGE LOAD QUEUE MONITOR — Summary Report
+Generated: 20260226_173145
+Modules run: 2a, 2b, 2d
+======================================================================
+
+Total items collected: 90
+New items: 90
+High relevance (≥0.2): 10
+
+── BY SOURCE ──────────────────────────────────────────
+  ercot_constraints_report: 7 items
+  puc_sb6: 80 items
+  sec_edgar: 3 items
+
+── TOP MATCHED KEYWORDS ───────────────────────────────
+  large load: 8 mentions
+  transmission constraint: 7 mentions
+  corpus christi: 6 mentions
+  interconnection study: 6 mentions
+  transmission upgrade: 5 mentions
+  100 MW: 4 mentions
+  interconnection: 3 mentions
+  75 MW: 3 mentions
+  ASU: 2 mentions
+  industrial load: 2 mentions
+  freeport: 2 mentions
+  CO2: 1 mentions
+  aep texas: 1 mentions
+  data center: 1 mentions
+  oncor: 1 mentions
+  LLIS: 1 mentions
+  large industrial: 1 mentions
+
+── HIGH-RELEVANCE ITEMS (≥0.2) ────────────────────────
+  [ercot_constraints_report] 2024 Report on Existing and Potential Electric System Constraints
+    Score: 0.55 | Date: 2026-02-26 | Keywords: CO2, ASU, large load, corpus christi, 100 MW
+
+  [sec_edgar] [AEP] unknown: Franklin Custodian Funds  (CIK 0000038721)
+    Score: 0.50 | Date: 2025-12-01 | Keywords: aep texas, large load, interconnection
+
+  [sec_edgar] [CNP] unknown: CENTERPOINT ENERGY INC  (CNP)  (CIK 0001130310)
+    Score: 0.50 | Date: 2026-02-19 | Keywords: large load, interconnection, data center
+
+  [sec_edgar] [SRE] unknown: ONCOR ELECTRIC DELIVERY CO LLC  (CIK 0001193311)
+    Score: 0.50 | Date: 2026-02-26 | Keywords: oncor, large load, interconnection
+
+  [ercot_constraints_report] 2025 Report on Existing and Potential Electric System Constraints
+    Score: 0.40 | Date: 2026-02-26 | Keywords: large load, 100 MW, interconnection study, LLIS, transmission upgrade
+
+  [ercot_constraints_report] 2023 Report on Existing and Potential Electric System Constraints
+    Score: 0.40 | Date: 2026-02-26 | Keywords: ASU, large load, corpus christi, 75 MW, 100 MW
+
+  [ercot_constraints_report] 2022 Report on Existing and Potential Electric System Constraints
+    Score: 0.40 | Date: 2026-02-26 | Keywords: large load, corpus christi, 75 MW, interconnection study, transmission upgrade
+
+  [ercot_constraints_report] 2021 Report on Existing and Potential Electric System Constraints
+    Score: 0.40 | Date: 2026-02-26 | Keywords: large load, corpus christi, interconnection study, transmission constraint
+
+  [ercot_constraints_report] 2020 Report on Existing and Potential Electric System Constraints
+    Score: 0.40 | Date: 2026-02-26 | Keywords: industrial load, large industrial, freeport, corpus christi, 100 MW
+
+  [ercot_constraints_report] 2019 ERCOT Report on Existing and Potential Electric System Const
+    Score: 0.40 | Date: 2026-02-26 | Keywords: industrial load, corpus christi, 75 MW, interconnection study, transmission upgrade

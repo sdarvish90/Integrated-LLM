@@ -1,0 +1,462 @@
+next20230613_8k.htm 
+
+ 
+ 
+ 
+ 
+ 
+ false 
+ 0001612720 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 0001612720 
+ 
+ 
+ 2023-06-13 
+ 2023-06-13 
+ 
+ 
+
+ 
+ 
+ 
+
+ &#xa0; 
+
+ UNITED STATES 
+ SECURITIES AND EXCHANGE COMMISSION 
+ WASHINGTON, D.C. 20549 
+
+ &#xa0; 
+
+ 
+ &#xa0; 
+
+ FORM &#xa0; 8-K 
+ CURRENT REPORT 
+
+ &#xa0; 
+
+ PURSUANT TO SECTION &#xa0; 13 OR 15(D) OF THE 
+ SECURITIES EXCHANGE ACT OF 1934 
+
+ &#xa0; 
+
+ Date of Report (Date of earliest event reported): June 13, 2023 
+
+ &#xa0; 
+
+ NEXTDECADE CORPORATION 
+(Exact Name of Registrant as Specified in Charter) 
+
+ &#xa0; 
+
+ 
+
+ 
+ &#xa0; 
+ &#xa0; 
+ &#xa0; 
+ 
+ 
+ 
+ Delaware 
+ 
+ 
+ 001-36842 
+ 
+ 
+ 46-5723951 
+ 
+ 
+ 
+ 
+ (State or Other Jurisdiction of Incorporation) 
+ 
+ 
+ (Commission File Number) 
+ 
+ 
+ (IRS Employer Identification No.) 
+ 
+ 
+
+ 
+
+ &#xa0; 
+
+ 1000 Louisiana Street , Suite 3900 , Houston , Texas 77002 
+(Address of Principal Executive Offices) (Zip Code) 
+
+ &#xa0; 
+
+ ( 713 ) 574-1880 
+(Registrants Telephone Number, Including Area Code) 
+
+ &#xa0; 
+
+ N/A 
+(Former Name or Former Address, if Changed Since Last Report) 
+
+ &#xa0; 
+
+ Check the appropriate box below if the Form&#xa0;8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions (see General Instruction&#xa0;A.2. below): 
+
+ &#xa0; 
+
+ 
+
+ 
+ &#xa0; 
+ &#xa0; 
+ &#xa0; 
+ 
+ 
+ &#xa0; 
+ 
+ 
+ 
+ 
+ Written communications pursuant to Rule&#xa0;425 under the Securities Act (17&#xa0;CFR&#xa0;230.425) 
+ 
+ 
+ 
+ &#xa0; 
+ &#xa0; 
+ &#xa0; 
+ 
+ 
+ &#xa0; 
+ 
+ 
+ 
+ 
+ Soliciting material pursuant to Rule&#xa0;14a-12 under the Exchange Act (17&#xa0;CFR&#xa0;240.14a-12) 
+ 
+ 
+ 
+ &#xa0; 
+ &#xa0; 
+ &#xa0; 
+ 
+ 
+ &#xa0; 
+ 
+ 
+ 
+ 
+ Pre-commencement communications pursuant to Rule&#xa0;14d-2(b) under the Exchange Act (17&#xa0;CFR&#xa0;240.14d-2(b)) 
+ 
+ 
+ 
+ &#xa0; 
+ &#xa0; 
+ &#xa0; 
+ 
+ 
+ &#xa0; 
+ 
+ 
+ 
+ 
+ Pre-commencement communications pursuant to Rule&#xa0;13e-4(c) under the Exchange Act (17&#xa0;CFR&#xa0;240.13e&#xa0;4(c)) 
+ 
+ 
+
+ 
+
+ &#xa0; 
+
+ Securities registered pursuant to Section 12(b) of the Act: 
+
+ 
+
+ 
+ &#xa0; 
+ &#xa0; 
+ &#xa0; 
+ &#xa0; 
+ &#xa0; 
+ 
+ 
+ 
+ Title &#xa0; of &#xa0; each &#xa0; class: 
+ 
+ &#xa0; 
+ 
+ Trading Symbol 
+ 
+ &#xa0; 
+ 
+ Name &#xa0; of &#xa0; each &#xa0; exchange &#xa0; on &#xa0; which &#xa0; registered: 
+ 
+ 
+ 
+ 
+ Common Stock , $0.0001 par value 
+ 
+ &#xa0; 
+ 
+ NEXT 
+ 
+ &#xa0; 
+ 
+ The Nasdaq Stock Market LLC 
+ 
+ 
+
+ 
+
+ &#xa0; 
+
+ Indicate by check mark whether the registrant is an emerging growth company as defined in Rule&#xa0;405 of the Securities Act of 1933 (230.405 of this chapter) or Rule&#xa0;12b-2 of the Securities Exchange Act of 1934 (240.12b-2 of this chapter). 
+
+ &#xa0; 
+
+ Emerging growth company&#xa0; 
+
+ &#xa0; 
+
+ If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section&#xa0;13(a) of the Exchange Act.&#xa0; 
+
+ &#xa0; 
+
+ 
+ &#xa0; 
+
+ 
+ &#xa0; 
+ 
+
+ &#xa0; 
+
+ Item 1.01. Entry into a Material Definitive Agreement. 
+
+ &#xa0; 
+
+ Stock Purchase Agreement 
+
+ &#xa0; 
+
+ On June 13, 2023,&#xa0;NextDecade Corporation, a Delaware corporation (the Company ), entered into a common stock purchase agreement (the Stock Purchase Agreement ) for three private placements (each, a Private Placement ) with Global LNG North America Corp., a Delaware corporation (the Purchaser ) and an affiliate of TotalEnergies SE, pursuant to which the Company agreed to sell, and&#xa0;Purchaser agreed to purchase, (i) an aggregate of 8,026,165 shares (the Tranche 1 Shares ) of the Companys common stock, par value $0.0001 per share (the Common Stock ), at a purchase price of $4.9837 per share, for an aggregate&#xa0;purchase price of $39,999,998.51, (ii) an aggregate of 22,072,103 shares (the Tranche 2 Shares ) of the Companys Common Stock, at a purchase price of $4.9837 per share, for an aggregate&#xa0;purchase price of $110,000,739.72, and (iii) a number of shares of Common Stock such that, following the conversion of each of the Companys Series A Convertible Preferred Stock, Series B Convertible Preferred Stock&#xa0;and Series C Convertible Preferred Stock (collectively, the Convertible Preferred Stock ) into shares of Common Stock pursuant to their respective terms, Purchaser will own (when including the Tranche 1 Shares and Tranche 2 Shares) an aggregate of 17.5% of the Common Stock of the Company then-outstanding (the Tranche 3 Shares and together with the Tranche 1 Shares and Tranche 2 Shares, the Shares ), for an aggregate purchase price of $69,399,261.77.&#xa0; The issuance and sale of the Tranche 1 Shares closed on June 14, 2023 (the Tranche 1 Closing ). The issuance and sale of the Tranche 2 Shares (the Tranche 2 Closing ) will close following the satisfaction of certain closing conditions, including: (i) the FID Event (as defined below), (ii) the conversion of the Companys Convertible Preferred Stock&#xa0;into shares of Common Stock pursuant to their respective terms and (iii) the Company having delivered to the Purchaser executed Voting Agreements among it and certain of its stockholders relating to the Stockholder Approval (as defined below) and the Company having taken all action contemplated by the Voting Agreements. FID Event means (i) the issuance of the notice to proceed in accordance with the engineering, procurement and construction contract for two or more liquefaction trains at the Rio Grande multi-plant integrated natural gas and liquefaction and LNG export terminal facility to be located at the Port of Brownsville in southern Texas (the Rio Grande Facility ) with all conditions precedent thereunder for the issuance of such notice to proceed having been satisfied, and (ii) the procurement of all necessary debt or equity financing arrangements to engineer, procure and construct such trains under said agreement, with all conditions precedent thereunder for initial draw of funds having been satisfied. The issuance and sale of the Tranche 3 Shares (the Tranche 3 Closing and together with the Tranche 1 Closing and Tranche 2 Closing, the Closings )) will close following the satisfaction of certain closing conditions, including the receipt of stockholder approval at a special meeting of the Companys stockholders with respect to the issuance of the Tranche 3 Shares pursuant to Nasdaq Rule 5635(d) (the Stockholder Approval ). The issuance and sale of the Tranche 3 Shares is expected to close shortly after the Stockholder Approval. 
+
+ &#xa0; 
+
+ The Company will use the proceeds of the Shares to fund capital commitments in connection with the Rio Grande Facility and for general corporate purposes. 
+
+ &#xa0; 
+
+ The Stock Purchase Agreement includes customary representations, warranties and covenants from the Company and Purchaser. Pursuant to the Stock Purchase Agreement, the Company is subject to certain interim operating covenants until the Tranche 3 Closing that, among other things, limit the Company's ability to incur certain future indebtedness and issue capital stock of the Company, except for the Shares issued pursuant to the Stock Purchase Agreement, subject to certain customary exceptions. Pursuant to the Stock Purchase Agreement, the Company agreed to indemnify Purchaser and its affiliates (collectively, the Indemnified Parties ) from and against all claims, damages, losses and expenses (including fees and disbursements of counsel) incurred by the Indemnified Parties&#xa0;arising out of the Stock Purchase Agreement, except to the extent such claim, damages, loss or expense is found in a final order to have resulted from such Indemnified Partys bad faith, actual fraud, gross negligence or willful misconduct. 
+
+ &#xa0; 
+
+ The Stock Purchase Agreement may be terminated (i) at any time by the mutual written consent of Purchaser and the Company, (ii) by Purchaser by written notice to the Company if the Tranche 2 Closing has not occurred within 90 days following June 13, 2023, (iii) by either Purchaser or the Company by written notice to the other if the Tranche 3 Closing has not occurred within 180 days following June 13, 2023, except in the event that such failure to close results solely from a failure to obtain the Stockholder Approval, (iv) in the event that the Tranche 3 Closing has not occurred within 180 days following June 13, 2023 as a result of the Companys failure to obtain the Stockholder Approval, by the Purchaser by written notice to the Company, and (v) by either Purchaser or the Company in the event that a law or issuance of an injunction by a governmental body prohibits the transactions contemplated under the Stock Purchase Agreement. 
+
+ &#xa0; 
+
+ 
+ 
+ 
+ &#xa0; 
+ 
+ 
+
+ 
+ 
+ 
+ &#xa0; 
+ 
+ 
+ 
+
+ &#xa0; 
+
+ Registration Rights Agreement 
+
+ &#xa0; 
+
+ Pursuant to the Stock Purchase Agreement, the Company and Purchaser entered into a registration rights agreement (the Registration Rights Agreement ) in connection with the Tranche 1 Closing of the Private Placement. Under the Registration Rights Agreement, the Company is required to file a registration statement within 180 days after the Tranche 1 Closing to permit the resale of shares of Common Stock held by Purchaser. Additionally, Purchaser may in certain instances elect to dispose of shares of Common Stock pursuant to an underwritten offering or engage in an underwritten block trade. Purchaser will also have demand and piggy-back registration rights covering any shares of Common Stock held by Purchaser. The Registration Rights Agreement also contains customary indemnification obligations. 
+
+ &#xa0; 
+
+ Purchaser Rights Agreement 
+
+ &#xa0; 
+
+ Pursuant to the Stock Purchase Agreement, the Company and Purchaser entered into a purchaser rights agreement (the Purchaser Rights Agreement ) in connection with the Tranche 1 Closing of the Private Placement. 
+
+ &#xa0; 
+
+ Right to Appoint Director . Pursuant to the Purchaser Rights Agreement, following the earlier of (i) the Tranche 2 Closing and (ii) 90 days from the date of the Purchaser Rights Agreement (but only if an FID Event has not occurred in the case of clause (ii)), upon receipt of notice from Purchaser, the Company will increase the size of the Board by one person and grant Purchaser the right to appoint one person to serve on the Board (the Purchaser Designee ). Until Purchasers and its affiliates ownership in the Company falls below 5% of the aggregate outstanding Common Stock of the Company at any time following the first time at which Purchaser is entitled to designate the Purchaser Designee, the Company will nominate the Purchaser Designee for re-election at each of its annual meetings of stockholders at which the Purchaser Designee is up for re-election. In the event Purchaser is not able to designate the Purchaser Designee as described in the Purchaser Rights Agreement, Purchaser shall be entitled to designate a board observer until such time that the Purchaser Designee may be appointed in accordance with the Purchaser Rights Agreement. 
+
+ &#xa0; 
+
+ Preemptive Rights. Under the Purchaser Rights Agreement, following the Tranche 1 Closing, Purchaser will have the right, but not the obligation, to participate in future primary offerings of Common Stock or securities convertible into Common Stock (each, a Preemptive Rights Offering ) on the same terms and conditions as third-party purchasers in an amount that would permit Purchaser to maintain a fully-diluted ownership percentage in the Company (i) if the price per share of Common Stock in such Preemptive Rights Offering is equal to or greater than 110% of the weighed-average price per share of the Shares issued in the Closings (the Pricing Condition ), at the lesser of (a) 15% or (b) Purchasers fully-diluted ownership percentage immediately prior to such Preemptive Rights Offering, or (ii) if the Pricing Condition is not met with respect to such Preemptive Rights Offering, Purchasers fully-diluted ownership percentage immediately prior to such Preemptive Rights Offering. The preemptive right provided under the Purchaser Rights Agreement will terminate at any time following the first time at which Purchaser is entitled to designate the Purchaser Designee when Purchaser and its affiliates ownership in the Company falls below 5% of the aggregate outstanding Common Stock of the Company. 
+
+ &#xa0; 
+
+ Project Equity Rights . Under the Purchaser Rights Agreement, Purchaser will have a right, but not the obligation, (i) to purchase up to 1.5 million metric tonnes of LNG per year for twenty years supplied from each of the fourth ( Train 4 ) and fifth ( Train 5 ) liquefaction trains of the Companys Rio Grande Facility in connection with a final investment decision on such liquefaction trains (the Train 4 Option and Train 5 Option , respectively), (ii) provided that, the Train 4 Option is exercised, to participate in the funding of 10% of the equity capital required to take a final investment decision on the development of Train 4, (iii) provided that, the Train 5 Option is exercised, toparticipate in the funding of 10% of the equity capital required to take a final investment decision on the development of Train 5, and (iv) to participate in the funding of any carbon capture and storage project deployed at or in connection with Phase 1 of the Rio Grande Facility in the same proportion as Purchasers equity investment in Rio Grande LNG Intermediate Holdings, LLC, a Delaware limited liability company and an indirect subsidiary of the Company, and to participate in the funding of 10% of any carbon capture and storage project deployed at or in connection with Train 4 or Train 5 of the Rio Grande LNG terminal facility to the extent Purchaser has participated in the funding of the equity capital of the applicable train. 
+
+ &#xa0; 
+
+ No Offer or Solicitation 
+
+ &#xa0; 
+
+ THE INFORMATION CONTAINED IN THIS CURRENT REPORT ON FORM 8-K IS NOT AN OFFER TO SELL OR THE SOLICITATION OF AN OFFER TO BUY SHARES OF COMMON STOCK OR ANY OTHER SECURITIES OF THE COMPANY. THE SHARES OF COMMON STOCK HAVE NOT BEEN REGISTERED UNDER THE SECURITIES ACT AND MAY NOT BE OFFERED OR SOLD IN THE UNITED STATES ABSENT REGISTRATION UNDER THE SECURITIES ACT OR AN APPLICABLE EXEMPTION FROM THE REGISTRATION REQUIREMENTS OF THE SECURITIES ACT. THE COMPANY IS FILING THIS CURRENT REPORT ON FORM 8-K WITH THE UNITED STATES SECURITIES AND EXCHANGE COMMISSION FOR THE SOLE PURPOSE OF REPORTING ITS ENTRY INTO THE AGREEMENTS REFERENCED ABOVE, AS REQUIRED BY THE RULES AND REGULATIONS OF THE COMMISSION. 
+
+ &#xa0; 
+
+ 
+ 
+ 
+ &#xa0; 
+ 
+ 
+
+ 
+ 
+ 
+ &#xa0; 
+ 
+ 
+ 
+
+ &#xa0; 
+
+ Item 3.02. Unregistered Sales of Equity Securities. 
+
+ &#xa0; 
+
+ The information set forth in the section labeled Stock Purchase Agreement in Item 1.01 of this Current Report on Form 8-K is incorporated herein by reference in response to this Item 3.02. 
+
+ &#xa0; 
+
+ The Shares to be issued to Purchaser under the Stock Purchase Agreement will be issued pursuant to an exemption from registration provided for under Section&#xa0;4(a)(2) of the Securities Act of 1933, as amended (the Securities Act ), because the offer and sale of such Shares does not involve a public offering, as defined in Section 4(a)(2) of the Securities Act, and other applicable requirements will be met. 
+
+ &#xa0; 
+
+ Item 7.01. Regulation FD Disclosure. 
+
+ &#xa0; 
+
+ The information in this Item 7.01 of this Current Report is being furnished pursuant to Item 7.01 of Form 8-K and, according to general instruction B.2. thereunder, the information in this Item 7.01 of this Current Report shall not be deemed filed for the purposes of Section 18 of the Securities Exchange Act of 1934 (the Exchange Act ) or otherwise subject to the liabilities of that Section. The information in this Item 7.01 of this Current Report shall not be incorporated by reference into any registration statement pursuant to the Securities Act or the Exchange Act. 
+
+ &#xa0; 
+
+ On June 14, 2023, the Company issued a press release regarding the Tranche 1 Closing and announcement of the other transactions described above under Item 1.01 of this Current Report on Form 8-K. A copy of the press release is attached hereto as Exhibit 99.1. 
+
+ &#xa0; 
+
+ Item 9.01. Financial Statements and Exhibits. 
+
+ &#xa0; 
+
+ (d) Exhibits. 
+
+ &#xa0; 
+
+ 
+
+ 
+ 
+ 99.1 
+ 
+ 
+ Press Release issued by the Company on June 14, 2023. 
+ 
+ 
+ 
+ 
+ 104 
+ 
+ 
+ Cover Page Interactive Data File (embedded within the Inline XBRL document). 
+ 
+ 
+
+ 
+
+ &#xa0; 
+
+ 
+ &#xa0; 
+
+ 
+ &#xa0; 
+ 
+
+ &#xa0; 
+
+ &#xa0; 
+
+ SIGNATURE 
+
+ &#xa0; 
+
+ Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized. 
+
+ &#xa0; 
+
+ Dated: June 14,&#xa0;2023 
+
+ &#xa0; 
+
+ 
+
+ 
+ &#xa0; 
+ &#xa0; 
+ &#xa0; 
+ 
+ 
+ &#xa0; 
+ 
+ NEXTDECADE CORPORATION 
+ 
+ 
+ 
+ &#xa0; 
+ &#xa0; 
+ &#xa0; 
+ 
+ 
+ &#xa0; 
+ 
+ By: 
+ 
+ 
+ /s/ Vera de Gyarfas 
+ 
+ 
+ 
+ &#xa0; 
+ &#xa0; 
+ 
+ Name: Vera de Gyarfas 
+ 
+ 
+ 
+ &#xa0; 
+ &#xa0; 
+ 
+ Title: General Counsel 
+ 
+ 
+
+ 
+
+ &#xa0; 
+
+ &#xa0; 
+
+ 
+ 
+ 
+ &#xa0;

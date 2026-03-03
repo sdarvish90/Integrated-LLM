@@ -1,0 +1,131 @@
+================================================================================
+17 REMAINING UNKNOWN PROJECTS — REVIEW (post-cleanup)
+Stage coverage: 113/130 = 87%
+================================================================================
+
+────────────────────────────────────────────────────────────────────────────────
+  [ 1] FuelCell Energy
+       source: claims                state: —
+       claims: 123 total, 123 resolved   docs: 0
+       DIAGNOSIS: WRONG SIGNAL — claims resolved but not stage-relevant
+       top claims: article_publication(4), publication_history(3), technology_focus_area(2), module_deployment(2), industry_publication_longevity(2)
+
+────────────────────────────────────────────────────────────────────────────────
+  [ 2] Eagle Nuclear Energy Corp.
+       source: claims                state: —
+       claims: 43 total, 43 resolved   docs: 5
+       DIAGNOSIS: WRONG SIGNAL — claims resolved but not stage-relevant
+       top claims: merger_agreement_signed(5), service_provider_issuance(4), transfer_to_NRA_investors(3), earnout_shares_issuance(3), Oregon_acquisition(3)
+
+────────────────────────────────────────────────────────────────────────────────
+  [ 3] Dow
+       source: old_pipeline_stub     state: —
+       claims: 31 total, 31 resolved   docs: 0
+       DIAGNOSIS: WRONG SIGNAL — claims resolved but not stage-relevant
+       top claims: debt_securities_outstanding(4), emerging_growth_company_status(2), transformation_program_announcement(1), total_one_time_costs_estimate(1), technology_leverage_strategy(1)
+
+────────────────────────────────────────────────────────────────────────────────
+  [ 4] California Resources Corporation
+       source: claims                state: —
+       claims: 23 total, 23 resolved   docs: 2
+       DIAGNOSIS: WRONG SIGNAL — claims resolved but not stage-relevant
+       top claims: use_of_proceeds(2), special_mandatory_redemption_condition(2), note_guarantee(2), forward_looking_statement_disclosure(2), registration_statement_filing(1)
+
+────────────────────────────────────────────────────────────────────────────────
+  [ 5] REX American Resources Corp
+       source: claims                state: —
+       claims: 22 total, 22 resolved   docs: 1
+       DIAGNOSIS: WRONG SIGNAL — claims resolved but not stage-relevant
+       top claims: outlook_for_2026(1), one_earth_energy_ethanol_production_expansion_update(1), net_sales_and_revenue_reported(1), net_sales_and_revenue_comparison(1), net_income_per_share(1)
+
+────────────────────────────────────────────────────────────────────────────────
+  [ 6] KBR
+       source: old_pipeline_stub     state: —
+       claims: 12 total, 12 resolved   docs: 0
+       DIAGNOSIS: WRONG SIGNAL — claims resolved but not stage-relevant
+       top claims: third_party_recognition(1), technology_integration(1), sustainability_certification_attainment(1), strategic_partnership_signed(1), production_capacity_goal(1)
+
+────────────────────────────────────────────────────────────────────────────────
+  [ 7] Venture Global
+       source: claims                state: —
+       claims: 12 total, 12 resolved   docs: 1
+       DIAGNOSIS: WRONG SIGNAL — claims resolved but not stage-relevant
+       top claims: use_of_proceeds(1), project_locations(1), previous_bond_issuance(1), note_security(1), note_registration(1)
+
+────────────────────────────────────────────────────────────────────────────────
+  [ 8] InterContinental Energy
+       source: old_pipeline_stub     state: —
+       claims: 11 total, 11 resolved   docs: 0
+       DIAGNOSIS: WRONG SIGNAL — claims resolved but not stage-relevant
+       top claims: sibling_project_development(1), project_portfolio_expansion(1), project_ownership_transfer(1), project_capacity_planned(1), infrastructure_planning(1)
+
+────────────────────────────────────────────────────────────────────────────────
+  [ 9] Eagle
+       source: claims                state: —
+       claims: 10 total, 10 resolved   docs: 1
+       DIAGNOSIS: WRONG SIGNAL — claims resolved but not stage-relevant
+       top claims: transfer_to_nra_investors(1), sponsor_forfeiture(1), service_provider_issuance(1), redomicile_effective_time(1), oregon_acquisition(1)
+
+────────────────────────────────────────────────────────────────────────────────
+  [10] CMS ENERGY CORP
+       source: claims                state: —
+       claims: 7 total, 7 resolved   docs: 1
+       DIAGNOSIS: WRONG SIGNAL — claims resolved but not stage-relevant
+       top claims: subsidiary_list(3), assumed_names(2), parent_company(1), ownership_interests(1)
+
+────────────────────────────────────────────────────────────────────────────────
+  [11] Hy2gen
+       source: old_pipeline_stub     state: Oulu
+       claims: 4 total, 4 resolved   docs: 0
+       DIAGNOSIS: WRONG SIGNAL — claims resolved but not stage-relevant
+       top claims: project_location(1), project_capacity_specification(1), parties_involved(1), letter_of_intent_signed(1)
+
+────────────────────────────────────────────────────────────────────────────────
+  [12] BASF
+       source: old_pipeline_stub     state: Gulf Coast, USA
+       claims: 0 total, 0 resolved   docs: 0
+       DIAGNOSIS: NO DOCUMENTS — not in corpus
+
+────────────────────────────────────────────────────────────────────────────────
+  [13] CIP
+       source: old_pipeline_stub     state: Gulf Coast
+       claims: 0 total, 0 resolved   docs: 0
+       DIAGNOSIS: NO DOCUMENTS — not in corpus
+
+────────────────────────────────────────────────────────────────────────────────
+  [14] Freeport-McMoRan
+       source: old_pipeline_stub     state: —
+       claims: 0 total, 0 resolved   docs: 1
+       DIAGNOSIS: UNPROCESSED — docs exist but step3 hasn't run
+
+────────────────────────────────────────────────────────────────────────────────
+  [15] JGC
+       source: old_pipeline_stub     state: —
+       claims: 0 total, 0 resolved   docs: 0
+       DIAGNOSIS: NO DOCUMENTS — not in corpus
+
+────────────────────────────────────────────────────────────────────────────────
+  [16] Occidental Petroleum
+       source: old_pipeline_stub     state: —
+       claims: 0 total, 0 resolved   docs: 1
+       DIAGNOSIS: UNPROCESSED — docs exist but step3 hasn't run
+
+────────────────────────────────────────────────────────────────────────────────
+  [17] birchtech corp.
+       source: old_pipeline_stub     state: —
+       claims: 0 total, 0 resolved   docs: 1
+       DIAGNOSIS: UNPROCESSED — docs exist but step3 hasn't run
+
+================================================================================
+SUMMARY
+================================================================================
+  Wrong signal type (resolved, not stage-relevant): 11
+  No documents in corpus:                           8
+  Unprocessed by step3:                             3
+  Other:                                            -5
+
+RECOMMENDED ACTIONS:
+  • Wrong signal (6): Step3 prompt tuning to extract stage milestones
+  • No documents (3): Need DOE/news sources or broader SEC scraping
+  • Unprocessed (3): Run step3 on remaining docs
+  • Old pipeline stubs (5): Review if still relevant or can be removed

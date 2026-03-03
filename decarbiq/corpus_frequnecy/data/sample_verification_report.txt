@@ -1,0 +1,309 @@
+======================================================================
+  DecarbIQ — SAMPLE VERIFICATION REPORT
+  Date: 2026-03-03T18:13:35.345300+00:00
+  Mode: ONLINE
+======================================================================
+
+  A1. PLAQUEMINE HYDROGEN PURIFICATION
+      Verdict: ALREADY FIXED
+      Project quarantined or not found
+
+  A2. OCI CLEAN AMMONIA PRODUCTION FACILITY
+      Verdict: ALREADY FIXED
+      Project quarantined or not found
+
+  A3. TEXAS CITY HYDROGEN PIPELINE PROJECT
+      Verdict: ALREADY FIXED
+      Project quarantined or not found
+
+  A4. CF Industries — capacity misclassification check
+      Verdict: ALREADY FIXED
+      DB: capacity_mtpa_h2=None, capacity_raw=None
+      Technology: None
+      capacity_mtpa_h2 was set to NULL by fix_medium_severity.py
+
+  A5. NextDecade Corp — LNG capacity misclassification check
+      Verdict: ALREADY FIXED
+      DB: capacity_mtpa_h2=None, capacity_raw=6 MTPA
+      Technology: hydrogen_production
+      capacity_mtpa_h2 was set to NULL by fix_medium_severity.py
+
+  B1. Air Products Port Arthur I
+      Verdict: VERIFIED
+      Audit note: EPA GHGRP — large H2 SMR
+      DB: dev=Air Products, state=TX, stage=operational, tech=carbon_capture, hydrogen_production
+      Sources: 0, crossrefs: 0
+      EPA ECHO: AIR AND MARINE OPERATIONS LAREDO AIR BRANCH in LAREDO, TX
+      Found in EPA ECHO (750 matches)
+
+  B2. Air Products Texas City SMR
+      Verdict: QUARANTINED
+      Audit note: Technology says co2_transport_storage — likely misclassified H2 SMR
+      Reason: E5: single source system: epa_echo
+
+  B3. Air Liquide La Porte SMR
+      Verdict: VERIFIED
+      Audit note: EPA GHGRP — known H2 producer
+      DB: dev=La Porte Steam Methane Reformer, state=TX, stage=unknown, tech=hydrogen_production
+      Sources: 0, crossrefs: 1
+      EPA ECHO: AIR AND MARINE OPERATIONS LAREDO AIR BRANCH in LAREDO, TX
+      Found in EPA ECHO (750 matches)
+
+  B4. Energy Transfer Brookeland Gas Plant
+      Verdict: QUARANTINED
+      Audit note: CO2 transport or gas processing?
+      Reason: E5: single source system: epa_echo
+
+  B5. Kinder Morgan Snyder Gas Plant
+      Verdict: QUARANTINED
+      Audit note: CO2 transport or gas processing?
+      Reason: E5: single source system: epa_echo
+
+  C1. ORSTED STAR P2X — award DECD0000081
+      Verdict: VERIFIED
+      API Source: https://api.usaspending.gov/api/v2/search/spending_by_award/ (keyword: DECD0000081)
+      API Award ID: DECD0000081
+      API recipient: ORSTED STAR P2X LLC
+      API amount: $99,000,000
+      API description: THE STAR E-METHANOL PROJECT, LED BY A U.S. SUBSIDIARY OF ORSTED, PLANS TO USE CAPTURED CARBON DIOXIDE FROM A LOCAL INDUS
+      Period: 2024-12-01 to 2032-11-14
+      DB status: terminated, disbursed: 0.5%, termination: 2025-06-11
+      Recipient name: MATCH
+      Award confirmed in USAspending. Recipient: ORSTED STAR P2X LLC
+
+  C2. WSP USA ENVIRONMENT & INFRASTRUCTURE — award DEFE0032142
+      Verdict: VERIFIED
+      API Source: https://api.usaspending.gov/api/v2/search/spending_by_award/ (keyword: DEFE0032142)
+      API Award ID: DEFE0032142
+      API recipient: WSP USA ENVIRONMENT & INFRASTRUCTURE INC.
+      API amount: $2,393,374
+      API description: WOOD ENVIRONMENT & INFRASTRUCTURE SOLUTIONS, INC. DE-FE0003214. PROJECT TITLED 
+''FRONT END ENGINEERING DESIGN FOR CARBO
+      Period: 2022-02-15 to 2023-08-14
+      DB status: active, disbursed: 100.0%, termination: None
+      Recipient name: MATCH
+      Award confirmed in USAspending. Recipient: WSP USA ENVIRONMENT & INFRASTRUCTURE INC.
+
+  C3. CHEMTRONERGY — award DEEE0011325
+      Verdict: VERIFIED
+      API Source: https://api.usaspending.gov/api/v2/search/spending_by_award/ (keyword: DEEE0011325)
+      API Award ID: DEEE0011325
+      API recipient: CHEMTRONERGY LLC
+      API amount: $2,600,196
+      API description: BIL-HIGHLY-RELIABLE RUGGEDIZED SOLID-OXIDE STEAM ELECTROLYZER
+
+A.	PROJECT OBJECTIVES
+THE PROJECT GOAL IS TO DEVELOP AN A
+      Period: 2024-09-01 to 2025-08-31
+      DB status: terminated, disbursed: 28.2%, termination: 2025-04-28
+      Recipient name: MATCH
+      Award confirmed in USAspending. Recipient: CHEMTRONERGY LLC
+
+  C4. ENTERGY SERVICES — award DECD0000006
+      Verdict: VERIFIED
+      API Source: https://api.usaspending.gov/api/v2/search/spending_by_award/ (keyword: DECD0000006)
+      API Award ID: DECD0000006
+      API recipient: ENTERGY SERVICES, LLC
+      API amount: $9,221,328
+      API description: THE OVERALL OBJECTIVE OF THE PROJECT IS TO PERFORM THE PRELIMINARY DEVELOPMENT WORK FOR AN INTEGRATED CARBON DIOXIDE (CO
+      Period: 2024-01-01 to 2026-05-31
+      DB status: terminated, disbursed: 27.3%, termination: 2025-08-20
+      Recipient name: MATCH
+      Award confirmed in USAspending. Recipient: ENTERGY SERVICES, LLC
+
+  C5. THE GREENE COUNTY INDUSTRIAL DEVELOPMENTS — award DEFE0032323
+      Verdict: VERIFIED
+      API Source: https://api.usaspending.gov/api/v2/search/spending_by_award/ (keyword: DEFE0032323)
+      API Award ID: DEFE0032323
+      API recipient: THE GREENE COUNTY INDUSTRIAL DEVELOPMENTS INC
+      API amount: $500,000
+      API description: LIQUIFIED NATURAL GAS OPPORTUNITY STUDY
+THE OVERALL OBJECTIVE IS TO EVALUATE A GAS-TO-LIQUID SUSTAINABLE AVIATION FUEL F
+      Period: 2025-10-01 to 2027-06-01
+      DB status: active, disbursed: 0.0%, termination: None
+      Recipient name: MATCH
+      Award confirmed in USAspending. Recipient: THE GREENE COUNTY INDUSTRIAL DEVELOPMENTS INC
+
+  D1. RN100209451 → 110000464024 (PORT ARTHUR REFINERY)
+      Verdict: VERIFIED
+      API Source: https://data.epa.gov/efservice/FRS_PROGRAM_FACILITY/REGISTRY_ID/110000464024/JSON
+      DB: PORT ARTHUR REFINERY in PORT ARTHUR, TX
+      API programs: AIR, AIRS/AFS, CEDRI, E-GGRT, EGRID, EIA-860, EIS, ICIS, NCDB, NPDES, OSHA-OIS, OTAQREG, RBLC, RCRAINFO, TRIS, TSCA, TX-TCEQ ACR
+      TCEQ RN RN100209451 in FRS: YES
+      API facility name: MOTIVA ENTERPRISES LLC
+      TCEQ→FRS mapping confirmed. 17 programs linked.
+
+  D2. RN103919817 → 110007177768 (CHEVRON PHILLIPS CHEMICAL CEDAR BAYOU PLANT)
+      Verdict: VERIFIED
+      API Source: https://data.epa.gov/efservice/FRS_PROGRAM_FACILITY/REGISTRY_ID/110007177768/JSON
+      DB: CHEVRON PHILLIPS CHEMICAL CEDAR BAYOU PLANT in BAYTOWN, TX
+      API programs: AIR, AIRS/AFS, CEDRI, E-GGRT, NCDB, NPDES, RCRAINFO, TRIS, TSCA, TX-TCEQ ACR
+      TCEQ RN RN103919817 in FRS: YES
+      API facility name: CHEVRON CHEMICAL COMPANY LLC US CHEMICAL DIVISION CEDAR BAYOU PLANT
+      TCEQ→FRS mapping confirmed. 10 programs linked.
+
+  D3. RN100218569 → 110034285226 (DALLAS CLEAN ENERGY FACILITY)
+      Verdict: VERIFIED
+      API Source: https://data.epa.gov/efservice/FRS_PROGRAM_FACILITY/REGISTRY_ID/110034285226/JSON
+      DB: DALLAS CLEAN ENERGY FACILITY in DALLAS, TX
+      API programs: BR, CEDRI, ICIS, RCRAINFO, TX-TCEQ ACR
+      TCEQ RN RN100218569 in FRS: YES
+      API facility name: DALLAS CLEAN ENERGY MCCOMMAS BLUFF
+      TCEQ→FRS mapping confirmed. 5 programs linked.
+
+  D4. RN100849397 → 110008160952 (GARDEN VILLE FERTILIZER)
+      Verdict: VERIFIED
+      API Source: https://data.epa.gov/efservice/FRS_PROGRAM_FACILITY/REGISTRY_ID/110008160952/JSON
+      DB: GARDEN VILLE FERTILIZER in SAN ANTONIO, TX
+      API programs: RCRAINFO, TX-TCEQ ACR
+      TCEQ RN RN100849397 in FRS: YES
+      API facility name: GARDEN VILLE FERTILIZER CO
+      TCEQ→FRS mapping confirmed. 2 programs linked.
+
+  D5. RN102450756 → 110041990913 (EXXONMOBIL BEAUMONT REFINERY)
+      Verdict: VERIFIED
+      API Source: https://data.epa.gov/efservice/FRS_PROGRAM_FACILITY/REGISTRY_ID/110041990913/JSON
+      DB: EXXONMOBIL BEAUMONT REFINERY in BEAUMONT, TX
+      API programs: AIR, AIRS/AFS, CAMDBS, CEDRI, E-GGRT, EGRID, EIA-860, EIS, ICIS, NCDB, NPDES, OSHA-OIS, OTAQREG, RBLC, RCRAINFO, SEMS, TRIS, TSCA, TX-TCEQ ACR
+      TCEQ RN RN102450756 in FRS: YES
+      API facility name: EXXONMOBIL BEAUMONT REFINERY
+      TCEQ→FRS mapping confirmed. 19 programs linked.
+
+  E1. tceq:RN103080487 ↔ epa_echo:110067040703 (LINDE GAS CLEAR LAKE PLANT)
+      Verdict: VERIFIED
+      API Source: https://data.epa.gov/efservice/FRS_PROGRAM_FACILITY/REGISTRY_ID/110067040703/JSON
+      DB: method=frs_crosswalk, confidence=0.990
+      Match detail: {"rn_number": "RN103080487", "frs_registry_id": "110067040703", "frs_name": "LIN
+      FRS name: CELANESE CLEAR LAKE PLANT
+      FRS confirms TCEQ→EPA linkage
+
+  E2. rrc_uic:000005705 ↔ epa_echo:110043790001 (AIR SEPARATION FACILITY)
+      Verdict: VERIFIED (LOW CONFIDENCE)
+      API Source: https://data.epa.gov/efservice/FRS_PROGRAM_FACILITY/REGISTRY_ID/110043790001/JSON
+      DB: method=spatial, confidence=0.722
+      Distance: 1.83 mi, Name overlap: 0.0
+      FRS name: PRAXAIR NITROGEN
+      EPA facility exists but spatial match at 0.72 is uncertain
+
+  E3. rrc_uic:000064468 ↔ epa_echo:110005184497 (AIR LIQUIDE - FREEPORT HYCO PLANT)
+      Verdict: VERIFIED (LOW CONFIDENCE)
+      API Source: https://data.epa.gov/efservice/FRS_PROGRAM_FACILITY/REGISTRY_ID/110005184497/JSON
+      DB: method=spatial, confidence=0.633
+      Distance: 3.1 mi, Name overlap: 0.0
+      FRS name: AIR LIQUIDE FREEPORT HYCO
+      EPA facility exists but spatial match at 0.63 is uncertain
+
+  E4. rrc_uic:000104017 ↔ epa_echo:110012181824 (AIR LIQUIDE AMERICA BORGER CO2 PLANT)
+      Verdict: ALREADY FIXED
+      Crossref was removed by fix_medium_severity.py (false positive)
+
+  E5. rrc_uic:000114389 ↔ epa_echo:110002339586 (AIR LIQUIDE AMERICA CORP)
+      Verdict: ALREADY FIXED
+      Crossref was removed by fix_medium_severity.py (false positive)
+
+  F1. Merger Sub → entity (corporate merger artifact)
+      Verdict: VERIFIED
+      Merger Sub 2 → Eagle (type=merged into, conf=1.0)
+        Excerpt: Merger Sub 2 will merge with and into Eagle (the Second Merger), with Eagle surv
+      Merger Sub entries are SEC 8-K merger artifacts — correct extraction
+
+  F2. Praxair → Linde (parent company relationship)
+      Verdict: VERIFIED
+      PRAXAIR → Linde (type=acquired_by)
+      PRAXAIR INC → Linde Inc. (type=subsidiary)
+      PRAXAIR INC → LINDE INC (type=parent)
+      Praxair Inc → LINDE INC (type=subsidiary)
+      PRAXAIR INC → Linde Inc Texas City Hydrogen Complex (type=parent)
+      Praxair→Linde relationship correct (Linde acquired Praxair in 2018)
+
+  F3. OCI Partners relationship
+      Verdict: VERIFIED
+      OCI PARTNERS LP (100%) → OCI Partners (type=epa_parent_company)
+      OCI entity relationships found
+
+  F4. HollyFrontier → Navajo Refining (subsidiary)
+      Verdict: VERIFIED
+      HOLLYFRONTIER EL DORADO REFINING LLC → Frontier Refining & Marketing (type=subsidiary)
+      HollyFrontier Cheyenne Refining LLC → Frontier Refining & Marketing (type=subsidiary)
+      NAVAJO REFINING COMPANY, LLC → HollyFrontier Corporation (type=subsidiary)
+      HOLLYFRONTIER EL DORADO REFINING LLC → HOLLYFRONTIER CORP (type=subsidiary)
+      HollyFrontier Cheyenne Refining LLC → HollyFrontier Corporation (type=subsidiary)
+      HollyFrontier subsidiary relationships correct. Note: rebranded to HF Sinclair in 2022 — aliases reflect pre-rebrand names.
+
+  F5. "Parent Company" literal-string aliases (extraction bug)
+      Verdict: ALREADY FIXED
+      All "Parent Company" literal aliases deleted by fix_medium_severity.py
+
+  G1. RRC Operator 100949 ↔ AIR LIQUIDE AMERICA CORP
+      Verdict: ALREADY FIXED
+      False positive crossref removed by fix_medium_severity.py
+
+  G2. RRC Operator 100949 ↔ CHEMOURS - BEAUMONT WORKS
+      Verdict: ALREADY FIXED
+      False positive crossref removed by fix_medium_severity.py
+
+  G3. Phillips 66 ↔ CARDOX CORP
+      Verdict: ALREADY FIXED
+      False positive crossref removed by fix_medium_severity.py
+
+  G4. Phillips 66 ↔ AIR LIQUIDE AMERICA BORGER CO2 PLANT
+      Verdict: ALREADY FIXED
+      False positive crossref removed by fix_medium_severity.py
+
+  H1. AVINGER GAS PROCESSING PLANT — relevant to H2/CCS?
+      Verdict: ALREADY FIXED
+      DB: stage=unknown, tech=None, quarantined=1
+      Quarantine reason: E1: no city, state, capacity, or technology data
+      Correctly quarantined — standard O&G midstream, not H2/CCS
+
+  H2. MEADOWS COMPRESSOR STATION — relevant to H2/CCS?
+      Verdict: ALREADY FIXED
+      DB: stage=unknown, tech=None, quarantined=1
+      Quarantine reason: E1: no city, state, capacity, or technology data
+      Correctly quarantined — standard O&G midstream, not H2/CCS
+
+  H3. ET GATHERING & PROCESSING - MIDLAND COUNTY — relevant to H2/CCS?
+      Verdict: ALREADY FIXED
+      Project not found (deleted or merged)
+
+  H4. HEMPHILL GAS PLANT — relevant to H2/CCS?
+      Verdict: ALREADY FIXED
+      DB: stage=unknown, tech=None, quarantined=1
+      Quarantine reason: E1: no city, state, capacity, or technology data
+      Correctly quarantined — standard O&G midstream, not H2/CCS
+
+  H5. CARTHAGE GAS PLANT — relevant to H2/CCS?
+      Verdict: ALREADY FIXED
+      DB: stage=unknown, tech=None, quarantined=1
+      Quarantine reason: E1: no city, state, capacity, or technology data
+      Correctly quarantined — standard O&G midstream, not H2/CCS
+
+  H6. Hackberry Carbon Sequestration LLC — legitimate CCS?
+      Verdict: CANNOT VERIFY
+      DB: state=None, stage=unknown, tech=None, q=1
+      Not found in EPA ECHO — may need more data
+
+  H7. Gulf Coast Sequestration — legitimate CCS?
+      Verdict: CANNOT VERIFY
+      DB: state=None, stage=announced, tech=None, q=1
+      Not in EPA ECHO
+
+  H8. Archer Daniels Midland CCS2 — real second CCS project?
+      Verdict: VERIFIED
+      DB: state=None, stage=unknown, tech=None, q=1
+      EPA ECHO: 54 ADM facilities in IL
+        - ADM ALLIANCE NUTRITION INC (QUINCY)
+        - ADM CO (DECATUR)
+        - ADM GRAIN CO (MORRIS)
+      ADM has facilities in Decatur IL. CCS2 is the second CO2 injection well (DOE-funded, Class VI).
+
+======================================================================
+  SUMMARY
+======================================================================
+  VERIFIED                   18
+  ALREADY FIXED              17
+  QUARANTINED                 3
+  VERIFIED (LOW CONFIDENCE)   2
+  CANNOT VERIFY               2
+
+  Total: 42
