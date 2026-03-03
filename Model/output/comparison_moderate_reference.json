@@ -1,0 +1,1185 @@
+{
+  "ngcc_lcoe": {
+    "years": {
+      "2024": {
+        "model": 54.01,
+        "extractor": 55.4,
+        "delta": -1.39,
+        "delta_pct": -2.51
+      },
+      "2025": {
+        "model": 56.4,
+        "extractor": 55.07,
+        "delta": 1.33,
+        "delta_pct": 2.42
+      },
+      "2026": {
+        "model": 55.5,
+        "extractor": 54.72,
+        "delta": 0.78,
+        "delta_pct": 1.43
+      },
+      "2027": {
+        "model": 54.78,
+        "extractor": 54.41,
+        "delta": 0.37,
+        "delta_pct": 0.68
+      },
+      "2028": {
+        "model": 54.75,
+        "extractor": 54.06,
+        "delta": 0.69,
+        "delta_pct": 1.28
+      },
+      "2029": {
+        "model": 55.62,
+        "extractor": 53.74,
+        "delta": 1.88,
+        "delta_pct": 3.5
+      },
+      "2030": {
+        "model": 56.31,
+        "extractor": 53.42,
+        "delta": 2.89,
+        "delta_pct": 5.41
+      },
+      "2031": {
+        "model": 56.66,
+        "extractor": 53.07,
+        "delta": 3.59,
+        "delta_pct": 6.76
+      },
+      "2032": {
+        "model": 59.37,
+        "extractor": 52.76,
+        "delta": 6.61,
+        "delta_pct": 12.53
+      },
+      "2033": {
+        "model": 60.71,
+        "extractor": 52.41,
+        "delta": 8.3,
+        "delta_pct": 15.84
+      },
+      "2034": {
+        "model": 61.25,
+        "extractor": 52.1,
+        "delta": 9.15,
+        "delta_pct": 17.56
+      },
+      "2035": {
+        "model": 61.17,
+        "extractor": 51.77,
+        "delta": 9.4,
+        "delta_pct": 18.16
+      },
+      "2036": {
+        "model": 60.8,
+        "extractor": 51.54,
+        "delta": 9.26,
+        "delta_pct": 17.97
+      },
+      "2037": {
+        "model": 60.0,
+        "extractor": 51.34,
+        "delta": 8.66,
+        "delta_pct": 16.87
+      },
+      "2038": {
+        "model": 59.33,
+        "extractor": 51.13,
+        "delta": 8.2,
+        "delta_pct": 16.04
+      },
+      "2039": {
+        "model": 58.71,
+        "extractor": 50.91,
+        "delta": 7.8,
+        "delta_pct": 15.32
+      },
+      "2040": {
+        "model": 58.65,
+        "extractor": 50.71,
+        "delta": 7.94,
+        "delta_pct": 15.66
+      },
+      "2041": {
+        "model": 58.93,
+        "extractor": 50.48,
+        "delta": 8.45,
+        "delta_pct": 16.74
+      },
+      "2042": {
+        "model": 59.22,
+        "extractor": 50.27,
+        "delta": 8.95,
+        "delta_pct": 17.8
+      },
+      "2043": {
+        "model": 59.51,
+        "extractor": 50.06,
+        "delta": 9.45,
+        "delta_pct": 18.88
+      },
+      "2044": {
+        "model": 59.41,
+        "extractor": 49.86,
+        "delta": 9.55,
+        "delta_pct": 19.15
+      },
+      "2045": {
+        "model": 59.1,
+        "extractor": 49.63,
+        "delta": 9.47,
+        "delta_pct": 19.08
+      },
+      "2046": {
+        "model": 59.07,
+        "extractor": 49.41,
+        "delta": 9.66,
+        "delta_pct": 19.55
+      },
+      "2047": {
+        "model": 58.87,
+        "extractor": 49.21,
+        "delta": 9.66,
+        "delta_pct": 19.63
+      },
+      "2048": {
+        "model": 58.37,
+        "extractor": 49.0,
+        "delta": 9.37,
+        "delta_pct": 19.12
+      },
+      "2049": {
+        "model": 57.73,
+        "extractor": 48.79,
+        "delta": 8.94,
+        "delta_pct": 18.32
+      },
+      "2050": {
+        "model": 57.08,
+        "extractor": 48.57,
+        "delta": 8.51,
+        "delta_pct": 17.52
+      }
+    },
+    "avg_delta_pct": 12.99,
+    "max_delta_pct": 19.63,
+    "min_delta_pct": -2.51
+  },
+  "ngcc_ccs_lcoe": {
+    "years": {
+      "2024": {
+        "model": 93.98,
+        "extractor": 91.18,
+        "delta": 2.8,
+        "delta_pct": 3.07
+      },
+      "2025": {
+        "model": 95.59,
+        "extractor": 89.86,
+        "delta": 5.73,
+        "delta_pct": 6.38
+      },
+      "2026": {
+        "model": 93.48,
+        "extractor": 88.51,
+        "delta": 4.97,
+        "delta_pct": 5.62
+      },
+      "2027": {
+        "model": 91.54,
+        "extractor": 87.17,
+        "delta": 4.37,
+        "delta_pct": 5.01
+      },
+      "2028": {
+        "model": 90.42,
+        "extractor": 85.82,
+        "delta": 4.6,
+        "delta_pct": 5.36
+      },
+      "2029": {
+        "model": 90.29,
+        "extractor": 84.51,
+        "delta": 5.78,
+        "delta_pct": 6.84
+      },
+      "2030": {
+        "model": 89.94,
+        "extractor": 83.16,
+        "delta": 6.78,
+        "delta_pct": 8.15
+      },
+      "2031": {
+        "model": 89.24,
+        "extractor": 81.82,
+        "delta": 7.42,
+        "delta_pct": 9.07
+      },
+      "2032": {
+        "model": 91.12,
+        "extractor": 80.47,
+        "delta": 10.65,
+        "delta_pct": 13.23
+      },
+      "2033": {
+        "model": 91.52,
+        "extractor": 79.13,
+        "delta": 12.39,
+        "delta_pct": 15.66
+      },
+      "2034": {
+        "model": 90.99,
+        "extractor": 77.8,
+        "delta": 13.19,
+        "delta_pct": 16.95
+      },
+      "2035": {
+        "model": 89.78,
+        "extractor": 76.47,
+        "delta": 13.31,
+        "delta_pct": 17.41
+      },
+      "2036": {
+        "model": 89.03,
+        "extractor": 75.93,
+        "delta": 13.1,
+        "delta_pct": 17.25
+      },
+      "2037": {
+        "model": 87.8,
+        "extractor": 75.41,
+        "delta": 12.39,
+        "delta_pct": 16.43
+      },
+      "2038": {
+        "model": 86.69,
+        "extractor": 74.86,
+        "delta": 11.83,
+        "delta_pct": 15.8
+      },
+      "2039": {
+        "model": 85.65,
+        "extractor": 74.32,
+        "delta": 11.33,
+        "delta_pct": 15.24
+      },
+      "2040": {
+        "model": 85.24,
+        "extractor": 73.79,
+        "delta": 11.45,
+        "delta_pct": 15.52
+      },
+      "2041": {
+        "model": 85.21,
+        "extractor": 73.25,
+        "delta": 11.96,
+        "delta_pct": 16.33
+      },
+      "2042": {
+        "model": 85.2,
+        "extractor": 72.73,
+        "delta": 12.47,
+        "delta_pct": 17.15
+      },
+      "2043": {
+        "model": 85.15,
+        "extractor": 72.18,
+        "delta": 12.97,
+        "delta_pct": 17.97
+      },
+      "2044": {
+        "model": 84.71,
+        "extractor": 71.67,
+        "delta": 13.04,
+        "delta_pct": 18.19
+      },
+      "2045": {
+        "model": 84.03,
+        "extractor": 71.13,
+        "delta": 12.9,
+        "delta_pct": 18.14
+      },
+      "2046": {
+        "model": 83.64,
+        "extractor": 70.58,
+        "delta": 13.06,
+        "delta_pct": 18.5
+      },
+      "2047": {
+        "model": 83.08,
+        "extractor": 70.06,
+        "delta": 13.02,
+        "delta_pct": 18.58
+      },
+      "2048": {
+        "model": 82.16,
+        "extractor": 69.52,
+        "delta": 12.64,
+        "delta_pct": 18.18
+      },
+      "2049": {
+        "model": 81.11,
+        "extractor": 68.99,
+        "delta": 12.12,
+        "delta_pct": 17.57
+      },
+      "2050": {
+        "model": 80.06,
+        "extractor": 68.45,
+        "delta": 11.61,
+        "delta_pct": 16.96
+      }
+    },
+    "avg_delta_pct": 13.72,
+    "max_delta_pct": 18.58,
+    "min_delta_pct": 3.07
+  },
+  "battery_utility_lcos": {
+    "years": {
+      "2024": {
+        "model": 233.32,
+        "extractor": 181.91,
+        "delta": 51.41,
+        "delta_pct": 28.26
+      },
+      "2025": {
+        "model": 212.74,
+        "extractor": 165.81,
+        "delta": 46.93,
+        "delta_pct": 28.3
+      },
+      "2026": {
+        "model": 197.16,
+        "extractor": 162.09,
+        "delta": 35.07,
+        "delta_pct": 21.64
+      },
+      "2027": {
+        "model": 184.42,
+        "extractor": 158.37,
+        "delta": 26.05,
+        "delta_pct": 16.45
+      },
+      "2028": {
+        "model": 178.96,
+        "extractor": 154.64,
+        "delta": 24.32,
+        "delta_pct": 15.73
+      },
+      "2029": {
+        "model": 175.49,
+        "extractor": 150.92,
+        "delta": 24.57,
+        "delta_pct": 16.28
+      },
+      "2030": {
+        "model": 171.95,
+        "extractor": 147.19,
+        "delta": 24.76,
+        "delta_pct": 16.82
+      },
+      "2031": {
+        "model": 171.71,
+        "extractor": 145.68,
+        "delta": 26.03,
+        "delta_pct": 17.87
+      },
+      "2032": {
+        "model": 170.59,
+        "extractor": 144.16,
+        "delta": 26.43,
+        "delta_pct": 18.33
+      },
+      "2033": {
+        "model": 171.13,
+        "extractor": 142.66,
+        "delta": 28.47,
+        "delta_pct": 19.96
+      },
+      "2034": {
+        "model": 169.23,
+        "extractor": 141.14,
+        "delta": 28.09,
+        "delta_pct": 19.9
+      },
+      "2035": {
+        "model": 166.7,
+        "extractor": 139.63,
+        "delta": 27.07,
+        "delta_pct": 19.39
+      },
+      "2036": {
+        "model": 163.17,
+        "extractor": 138.12,
+        "delta": 25.05,
+        "delta_pct": 18.14
+      },
+      "2037": {
+        "model": 159.97,
+        "extractor": 136.61,
+        "delta": 23.36,
+        "delta_pct": 17.1
+      },
+      "2038": {
+        "model": 157.02,
+        "extractor": 135.09,
+        "delta": 21.93,
+        "delta_pct": 16.23
+      },
+      "2039": {
+        "model": 153.8,
+        "extractor": 133.59,
+        "delta": 20.21,
+        "delta_pct": 15.13
+      },
+      "2040": {
+        "model": 151.59,
+        "extractor": 132.07,
+        "delta": 19.52,
+        "delta_pct": 14.78
+      },
+      "2041": {
+        "model": 150.16,
+        "extractor": 130.56,
+        "delta": 19.6,
+        "delta_pct": 15.01
+      },
+      "2042": {
+        "model": 149.04,
+        "extractor": 129.05,
+        "delta": 19.99,
+        "delta_pct": 15.49
+      },
+      "2043": {
+        "model": 147.79,
+        "extractor": 127.54,
+        "delta": 20.25,
+        "delta_pct": 15.88
+      },
+      "2044": {
+        "model": 146.67,
+        "extractor": 126.03,
+        "delta": 20.64,
+        "delta_pct": 16.38
+      },
+      "2045": {
+        "model": 145.89,
+        "extractor": 124.51,
+        "delta": 21.38,
+        "delta_pct": 17.17
+      },
+      "2046": {
+        "model": 145.24,
+        "extractor": 123.01,
+        "delta": 22.23,
+        "delta_pct": 18.07
+      },
+      "2047": {
+        "model": 143.89,
+        "extractor": 121.49,
+        "delta": 22.4,
+        "delta_pct": 18.44
+      },
+      "2048": {
+        "model": 142.38,
+        "extractor": 119.98,
+        "delta": 22.4,
+        "delta_pct": 18.67
+      },
+      "2049": {
+        "model": 140.73,
+        "extractor": 118.48,
+        "delta": 22.25,
+        "delta_pct": 18.78
+      },
+      "2050": {
+        "model": 138.39,
+        "extractor": 116.96,
+        "delta": 21.43,
+        "delta_pct": 18.32
+      }
+    },
+    "avg_delta_pct": 18.24,
+    "max_delta_pct": 28.3,
+    "min_delta_pct": 14.78
+  },
+  "battery_utility_rte": {
+    "years": {
+      "2024": {
+        "model": 0.86,
+        "extractor": 0.86,
+        "delta": 0.0,
+        "delta_pct": 0.0
+      },
+      "2025": {
+        "model": 0.8608,
+        "extractor": 0.8608,
+        "delta": 0.0,
+        "delta_pct": 0.0
+      },
+      "2026": {
+        "model": 0.8615,
+        "extractor": 0.8615,
+        "delta": 0.0,
+        "delta_pct": 0.0
+      },
+      "2027": {
+        "model": 0.8623,
+        "extractor": 0.8623,
+        "delta": 0.0,
+        "delta_pct": 0.0
+      },
+      "2028": {
+        "model": 0.8631,
+        "extractor": 0.8631,
+        "delta": 0.0,
+        "delta_pct": 0.0
+      },
+      "2029": {
+        "model": 0.8638,
+        "extractor": 0.8638,
+        "delta": 0.0,
+        "delta_pct": 0.0
+      },
+      "2030": {
+        "model": 0.8646,
+        "extractor": 0.8646,
+        "delta": 0.0,
+        "delta_pct": 0.0
+      },
+      "2031": {
+        "model": 0.8654,
+        "extractor": 0.8654,
+        "delta": 0.0,
+        "delta_pct": 0.0
+      },
+      "2032": {
+        "model": 0.8662,
+        "extractor": 0.8662,
+        "delta": 0.0,
+        "delta_pct": 0.0
+      },
+      "2033": {
+        "model": 0.8669,
+        "extractor": 0.8669,
+        "delta": 0.0,
+        "delta_pct": 0.0
+      },
+      "2034": {
+        "model": 0.8677,
+        "extractor": 0.8677,
+        "delta": 0.0,
+        "delta_pct": 0.0
+      },
+      "2035": {
+        "model": 0.8685,
+        "extractor": 0.8685,
+        "delta": 0.0,
+        "delta_pct": 0.0
+      },
+      "2036": {
+        "model": 0.8692,
+        "extractor": 0.8692,
+        "delta": 0.0,
+        "delta_pct": 0.0
+      },
+      "2037": {
+        "model": 0.87,
+        "extractor": 0.87,
+        "delta": 0.0,
+        "delta_pct": 0.0
+      },
+      "2038": {
+        "model": 0.8708,
+        "extractor": 0.8708,
+        "delta": 0.0,
+        "delta_pct": 0.0
+      },
+      "2039": {
+        "model": 0.8715,
+        "extractor": 0.8715,
+        "delta": 0.0,
+        "delta_pct": 0.0
+      },
+      "2040": {
+        "model": 0.8723,
+        "extractor": 0.8723,
+        "delta": 0.0,
+        "delta_pct": 0.0
+      },
+      "2041": {
+        "model": 0.8731,
+        "extractor": 0.8731,
+        "delta": 0.0,
+        "delta_pct": 0.0
+      },
+      "2042": {
+        "model": 0.8738,
+        "extractor": 0.8738,
+        "delta": 0.0,
+        "delta_pct": 0.0
+      },
+      "2043": {
+        "model": 0.8746,
+        "extractor": 0.8746,
+        "delta": 0.0,
+        "delta_pct": 0.0
+      },
+      "2044": {
+        "model": 0.8754,
+        "extractor": 0.8754,
+        "delta": 0.0,
+        "delta_pct": 0.0
+      },
+      "2045": {
+        "model": 0.8762,
+        "extractor": 0.8762,
+        "delta": 0.0,
+        "delta_pct": 0.0
+      },
+      "2046": {
+        "model": 0.8769,
+        "extractor": 0.8769,
+        "delta": 0.0,
+        "delta_pct": 0.0
+      },
+      "2047": {
+        "model": 0.8777,
+        "extractor": 0.8777,
+        "delta": 0.0,
+        "delta_pct": 0.0
+      },
+      "2048": {
+        "model": 0.8785,
+        "extractor": 0.8785,
+        "delta": 0.0,
+        "delta_pct": 0.0
+      },
+      "2049": {
+        "model": 0.8792,
+        "extractor": 0.8792,
+        "delta": 0.0,
+        "delta_pct": 0.0
+      },
+      "2050": {
+        "model": 0.88,
+        "extractor": 0.88,
+        "delta": 0.0,
+        "delta_pct": 0.0
+      }
+    },
+    "avg_delta_pct": 0.0,
+    "max_delta_pct": 0.0,
+    "min_delta_pct": 0.0
+  },
+  "lcoh_green_electrolysis": {
+    "years": {
+      "2024": {
+        "model": 4.2973,
+        "extractor": 6.3775,
+        "delta": -2.0802,
+        "delta_pct": -32.62
+      },
+      "2025": {
+        "model": 4.1029,
+        "extractor": 5.9427,
+        "delta": -1.8398,
+        "delta_pct": -30.96
+      },
+      "2026": {
+        "model": 3.546,
+        "extractor": 5.5079,
+        "delta": -1.9619,
+        "delta_pct": -35.62
+      },
+      "2027": {
+        "model": 3.1181,
+        "extractor": 5.0731,
+        "delta": -1.955,
+        "delta_pct": -38.54
+      },
+      "2028": {
+        "model": 3.0297,
+        "extractor": 4.6382,
+        "delta": -1.6085,
+        "delta_pct": -34.68
+      },
+      "2029": {
+        "model": 3.0391,
+        "extractor": 4.2034,
+        "delta": -1.1643,
+        "delta_pct": -27.7
+      },
+      "2030": {
+        "model": 3.0393,
+        "extractor": 3.7686,
+        "delta": -0.7293,
+        "delta_pct": -19.35
+      },
+      "2031": {
+        "model": 3.0841,
+        "extractor": 3.3337,
+        "delta": -0.2496,
+        "delta_pct": -7.49
+      },
+      "2032": {
+        "model": 3.0945,
+        "extractor": 2.8989,
+        "delta": 0.1956,
+        "delta_pct": 6.75
+      },
+      "2033": {
+        "model": 3.1735,
+        "extractor": 2.4641,
+        "delta": 0.7094,
+        "delta_pct": 28.79
+      },
+      "2034": {
+        "model": 3.1421,
+        "extractor": 2.0292,
+        "delta": 1.1129,
+        "delta_pct": 54.84
+      },
+      "2035": {
+        "model": 3.0888,
+        "extractor": 1.5944,
+        "delta": 1.4944,
+        "delta_pct": 93.73
+      },
+      "2036": {
+        "model": 2.9845,
+        "extractor": 1.5944,
+        "delta": 1.3901,
+        "delta_pct": 87.19
+      },
+      "2037": {
+        "model": 2.8963,
+        "extractor": 1.5944,
+        "delta": 1.3019,
+        "delta_pct": 81.65
+      },
+      "2038": {
+        "model": 2.8258,
+        "extractor": 1.5944,
+        "delta": 1.2314,
+        "delta_pct": 77.23
+      },
+      "2039": {
+        "model": 2.7375,
+        "extractor": 1.5944,
+        "delta": 1.1431,
+        "delta_pct": 71.69
+      },
+      "2040": {
+        "model": 2.6997,
+        "extractor": 1.5944,
+        "delta": 1.1053,
+        "delta_pct": 69.32
+      },
+      "2041": {
+        "model": 2.6913,
+        "extractor": 1.5944,
+        "delta": 1.0969,
+        "delta_pct": 68.8
+      },
+      "2042": {
+        "model": 2.6956,
+        "extractor": 1.5944,
+        "delta": 1.1012,
+        "delta_pct": 69.07
+      },
+      "2043": {
+        "model": 2.6999,
+        "extractor": 1.5944,
+        "delta": 1.1055,
+        "delta_pct": 69.34
+      },
+      "2044": {
+        "model": 2.7043,
+        "extractor": 1.5944,
+        "delta": 1.1099,
+        "delta_pct": 69.61
+      },
+      "2045": {
+        "model": 2.7231,
+        "extractor": 1.5944,
+        "delta": 1.1287,
+        "delta_pct": 70.79
+      },
+      "2046": {
+        "model": 2.7525,
+        "extractor": 1.5944,
+        "delta": 1.1581,
+        "delta_pct": 72.64
+      },
+      "2047": {
+        "model": 2.7461,
+        "extractor": 1.5944,
+        "delta": 1.1517,
+        "delta_pct": 72.23
+      },
+      "2048": {
+        "model": 2.733,
+        "extractor": 1.5944,
+        "delta": 1.1386,
+        "delta_pct": 71.41
+      },
+      "2049": {
+        "model": 2.7191,
+        "extractor": 1.5944,
+        "delta": 1.1247,
+        "delta_pct": 70.54
+      },
+      "2050": {
+        "model": 2.6716,
+        "extractor": 1.5944,
+        "delta": 1.0772,
+        "delta_pct": 67.56
+      }
+    },
+    "avg_delta_pct": 38.75,
+    "max_delta_pct": 93.73,
+    "min_delta_pct": -38.54
+  },
+  "lcoh_gray_smr": {
+    "years": {
+      "2024": {
+        "model": 0.4573,
+        "extractor": 1.2755,
+        "delta": -0.8182,
+        "delta_pct": -64.15
+      },
+      "2025": {
+        "model": 0.5244,
+        "extractor": 1.2755,
+        "delta": -0.7511,
+        "delta_pct": -58.89
+      },
+      "2026": {
+        "model": 0.5102,
+        "extractor": 1.2755,
+        "delta": -0.7653,
+        "delta_pct": -60.0
+      },
+      "2027": {
+        "model": 0.5,
+        "extractor": 1.2755,
+        "delta": -0.7755,
+        "delta_pct": -60.8
+      },
+      "2028": {
+        "model": 0.5085,
+        "extractor": 1.2755,
+        "delta": -0.767,
+        "delta_pct": -60.13
+      },
+      "2029": {
+        "model": 0.5388,
+        "extractor": 1.2755,
+        "delta": -0.7367,
+        "delta_pct": -57.76
+      },
+      "2030": {
+        "model": 0.5649,
+        "extractor": 1.2755,
+        "delta": -0.7106,
+        "delta_pct": -55.71
+      },
+      "2031": {
+        "model": 0.5836,
+        "extractor": 1.2755,
+        "delta": -0.6919,
+        "delta_pct": -54.25
+      },
+      "2032": {
+        "model": 0.6606,
+        "extractor": 1.2755,
+        "delta": -0.6149,
+        "delta_pct": -48.21
+      },
+      "2033": {
+        "model": 0.7047,
+        "extractor": 1.2755,
+        "delta": -0.5708,
+        "delta_pct": -44.75
+      },
+      "2034": {
+        "model": 0.7274,
+        "extractor": 1.2755,
+        "delta": -0.5481,
+        "delta_pct": -42.97
+      },
+      "2035": {
+        "model": 0.7348,
+        "extractor": 1.2755,
+        "delta": -0.5407,
+        "delta_pct": -42.39
+      },
+      "2036": {
+        "model": 0.7319,
+        "extractor": 1.2755,
+        "delta": -0.5436,
+        "delta_pct": -42.62
+      },
+      "2037": {
+        "model": 0.7176,
+        "extractor": 1.2755,
+        "delta": -0.5579,
+        "delta_pct": -43.74
+      },
+      "2038": {
+        "model": 0.7065,
+        "extractor": 1.2755,
+        "delta": -0.569,
+        "delta_pct": -44.61
+      },
+      "2039": {
+        "model": 0.6971,
+        "extractor": 1.2755,
+        "delta": -0.5784,
+        "delta_pct": -45.35
+      },
+      "2040": {
+        "model": 0.7014,
+        "extractor": 1.2755,
+        "delta": -0.5741,
+        "delta_pct": -45.01
+      },
+      "2041": {
+        "model": 0.7152,
+        "extractor": 1.2755,
+        "delta": -0.5603,
+        "delta_pct": -43.93
+      },
+      "2042": {
+        "model": 0.7288,
+        "extractor": 1.2755,
+        "delta": -0.5467,
+        "delta_pct": -42.86
+      },
+      "2043": {
+        "model": 0.7421,
+        "extractor": 1.2755,
+        "delta": -0.5334,
+        "delta_pct": -41.82
+      },
+      "2044": {
+        "model": 0.7457,
+        "extractor": 1.2755,
+        "delta": -0.5298,
+        "delta_pct": -41.54
+      },
+      "2045": {
+        "model": 0.7447,
+        "extractor": 1.2755,
+        "delta": -0.5308,
+        "delta_pct": -41.62
+      },
+      "2046": {
+        "model": 0.7503,
+        "extractor": 1.2755,
+        "delta": -0.5252,
+        "delta_pct": -41.18
+      },
+      "2047": {
+        "model": 0.7515,
+        "extractor": 1.2755,
+        "delta": -0.524,
+        "delta_pct": -41.08
+      },
+      "2048": {
+        "model": 0.7449,
+        "extractor": 1.2755,
+        "delta": -0.5306,
+        "delta_pct": -41.6
+      },
+      "2049": {
+        "model": 0.7348,
+        "extractor": 1.2755,
+        "delta": -0.5407,
+        "delta_pct": -42.39
+      },
+      "2050": {
+        "model": 0.725,
+        "extractor": 1.2755,
+        "delta": -0.5505,
+        "delta_pct": -43.16
+      }
+    },
+    "avg_delta_pct": -47.87,
+    "max_delta_pct": -41.08,
+    "min_delta_pct": -64.15
+  },
+  "lcoh_blue_smr_ccs": {
+    "years": {
+      "2024": {
+        "model": 0.8784,
+        "extractor": 2.551,
+        "delta": -1.6726,
+        "delta_pct": -65.57
+      },
+      "2025": {
+        "model": 0.9358,
+        "extractor": 2.4882,
+        "delta": -1.5524,
+        "delta_pct": -62.39
+      },
+      "2026": {
+        "model": 0.8876,
+        "extractor": 2.4254,
+        "delta": -1.5378,
+        "delta_pct": -63.4
+      },
+      "2027": {
+        "model": 0.8518,
+        "extractor": 2.3626,
+        "delta": -1.5108,
+        "delta_pct": -63.95
+      },
+      "2028": {
+        "model": 0.8558,
+        "extractor": 2.2998,
+        "delta": -1.444,
+        "delta_pct": -62.79
+      },
+      "2029": {
+        "model": 0.8879,
+        "extractor": 2.237,
+        "delta": -1.3491,
+        "delta_pct": -60.31
+      },
+      "2030": {
+        "model": 0.9154,
+        "extractor": 2.1742,
+        "delta": -1.2588,
+        "delta_pct": -57.9
+      },
+      "2031": {
+        "model": 0.9383,
+        "extractor": 2.1114,
+        "delta": -1.1731,
+        "delta_pct": -55.56
+      },
+      "2032": {
+        "model": 1.0177,
+        "extractor": 2.0485,
+        "delta": -1.0308,
+        "delta_pct": -50.32
+      },
+      "2033": {
+        "model": 1.0686,
+        "extractor": 1.9857,
+        "delta": -0.9171,
+        "delta_pct": -46.19
+      },
+      "2034": {
+        "model": 1.0908,
+        "extractor": 1.9229,
+        "delta": -0.8321,
+        "delta_pct": -43.27
+      },
+      "2035": {
+        "model": 1.0956,
+        "extractor": 1.8601,
+        "delta": -0.7645,
+        "delta_pct": -41.1
+      },
+      "2036": {
+        "model": 1.0869,
+        "extractor": 1.8601,
+        "delta": -0.7732,
+        "delta_pct": -41.57
+      },
+      "2037": {
+        "model": 1.0678,
+        "extractor": 1.8601,
+        "delta": -0.7923,
+        "delta_pct": -42.59
+      },
+      "2038": {
+        "model": 1.0526,
+        "extractor": 1.8601,
+        "delta": -0.8075,
+        "delta_pct": -43.41
+      },
+      "2039": {
+        "model": 1.0384,
+        "extractor": 1.8601,
+        "delta": -0.8217,
+        "delta_pct": -44.18
+      },
+      "2040": {
+        "model": 1.0409,
+        "extractor": 1.8601,
+        "delta": -0.8192,
+        "delta_pct": -44.04
+      },
+      "2041": {
+        "model": 1.0554,
+        "extractor": 1.8601,
+        "delta": -0.8047,
+        "delta_pct": -43.26
+      },
+      "2042": {
+        "model": 1.0705,
+        "extractor": 1.8601,
+        "delta": -0.7896,
+        "delta_pct": -42.45
+      },
+      "2043": {
+        "model": 1.085,
+        "extractor": 1.8601,
+        "delta": -0.7751,
+        "delta_pct": -41.67
+      },
+      "2044": {
+        "model": 1.0901,
+        "extractor": 1.8601,
+        "delta": -0.77,
+        "delta_pct": -41.4
+      },
+      "2045": {
+        "model": 1.0915,
+        "extractor": 1.8601,
+        "delta": -0.7686,
+        "delta_pct": -41.32
+      },
+      "2046": {
+        "model": 1.1,
+        "extractor": 1.8601,
+        "delta": -0.7601,
+        "delta_pct": -40.86
+      },
+      "2047": {
+        "model": 1.1019,
+        "extractor": 1.8601,
+        "delta": -0.7582,
+        "delta_pct": -40.76
+      },
+      "2048": {
+        "model": 1.0955,
+        "extractor": 1.8601,
+        "delta": -0.7646,
+        "delta_pct": -41.11
+      },
+      "2049": {
+        "model": 1.085,
+        "extractor": 1.8601,
+        "delta": -0.7751,
+        "delta_pct": -41.67
+      },
+      "2050": {
+        "model": 1.073,
+        "extractor": 1.8601,
+        "delta": -0.7871,
+        "delta_pct": -42.31
+      }
+    },
+    "avg_delta_pct": -48.35,
+    "max_delta_pct": -40.76,
+    "min_delta_pct": -65.57
+  }
+}
